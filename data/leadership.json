@@ -1,0 +1,562 @@
+{
+  "meta": {
+    "note": "Public channels only. Roles marked SAMPLE or ESTIMATE are not verified live lookups. Prefer official sites / switchboards / public forms — never private phones.",
+    "asOf": "2026-10"
+  },
+  "areas": {
+    "us": {
+      "level": "country",
+      "label": "United States · federal",
+      "roles": [
+        {
+          "title": "President of the United States",
+          "name": "Donald J. Trump",
+          "contact": {
+            "site": "https://www.whitehouse.gov/",
+            "switchboard": "White House comment line (public): see whitehouse.gov/contact",
+            "form": "https://www.whitehouse.gov/contact/"
+          },
+          "responseTime": { "text": "unknown / high volume", "badge": "ESTIMATE" },
+          "term": { "text": "Jan 20, 2025 – Jan 20, 2029 (elected)", "badge": null }
+        },
+        {
+          "title": "Vice President",
+          "name": "JD Vance",
+          "contact": {
+            "site": "https://www.whitehouse.gov/",
+            "form": "https://www.whitehouse.gov/contact/"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "Jan 20, 2025 – Jan 20, 2029", "badge": null }
+        },
+        {
+          "title": "Secretary of State",
+          "name": "Marco Rubio",
+          "contact": {
+            "site": "https://www.state.gov/",
+            "switchboard": "Public switchboard listed on state.gov",
+            "form": "https://www.state.gov/contact-us/"
+          },
+          "responseTime": { "text": "days–weeks (routine correspondence)", "badge": "ESTIMATE" },
+          "term": { "text": "serving since Jan 2025 (appointed)", "badge": null }
+        },
+        {
+          "title": "Secretary of Defense",
+          "name": "Pete Hegseth",
+          "contact": {
+            "site": "https://www.defense.gov/",
+            "form": "https://www.defense.gov/Contact/"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "serving since Jan 2025 (appointed)", "badge": "SAMPLE" }
+        },
+        {
+          "title": "Secretary of the Treasury",
+          "name": "Scott Bessent",
+          "contact": {
+            "site": "https://home.treasury.gov/",
+            "form": "https://home.treasury.gov/footer/contact-us"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "serving since Jan 2025 (appointed)", "badge": "SAMPLE" }
+        },
+        {
+          "title": "Secretary of Energy",
+          "name": "Chris Wright",
+          "contact": {
+            "site": "https://www.energy.gov/",
+            "form": "https://www.energy.gov/contact-us"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "serving since 2025 (appointed)", "badge": "SAMPLE" }
+        },
+        {
+          "title": "Speaker of the House",
+          "name": "(see house.gov leadership)",
+          "contact": {
+            "site": "https://www.house.gov/",
+            "form": "https://www.house.gov/representatives/find-your-representative"
+          },
+          "responseTime": { "text": "varies by office", "badge": "ESTIMATE" },
+          "term": { "text": "elected by House each Congress", "badge": "SAMPLE" }
+        },
+        {
+          "title": "Senate Majority Leader",
+          "name": "(see senate.gov leadership)",
+          "contact": {
+            "site": "https://www.senate.gov/",
+            "form": "https://www.senate.gov/senators/senators-contact.htm"
+          },
+          "responseTime": { "text": "varies by office", "badge": "ESTIMATE" },
+          "term": { "text": "party conference selection", "badge": "SAMPLE" }
+        }
+      ]
+    },
+    "us-ca": {
+      "level": "admin1",
+      "label": "California",
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Gavin Newsom",
+          "contact": {
+            "site": "https://www.gov.ca.gov/",
+            "form": "https://www.gov.ca.gov/contact/"
+          },
+          "responseTime": { "text": "weeks (typical constituent)", "badge": "ESTIMATE" },
+          "term": { "text": "elected; current term through Jan 2027", "badge": null }
+        },
+        {
+          "title": "U.S. Senators (summary)",
+          "name": "Two senators — see senate.gov",
+          "contact": {
+            "site": "https://www.senate.gov/states/CA/intro.htm",
+            "form": "https://www.senate.gov/senators/senators-contact.htm"
+          },
+          "responseTime": { "text": "varies", "badge": "ESTIMATE" },
+          "term": { "text": "staggered 6-year terms", "badge": null }
+        },
+        {
+          "title": "State Legislature",
+          "name": "California State Assembly & Senate",
+          "contact": {
+            "site": "https://www.legislature.ca.gov/",
+            "form": "https://findyourrep.legislature.ca.gov/"
+          },
+          "responseTime": { "text": "days–weeks", "badge": "ESTIMATE" },
+          "term": { "text": "Assembly 2-year; Senate 4-year", "badge": null }
+        }
+      ]
+    },
+    "us-tx": {
+      "level": "admin1",
+      "label": "Texas",
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Greg Abbott",
+          "contact": {
+            "site": "https://gov.texas.gov/",
+            "form": "https://gov.texas.gov/contact/"
+          },
+          "responseTime": { "text": "weeks", "badge": "ESTIMATE" },
+          "term": { "text": "elected 4-year terms; serving since 2015", "badge": null }
+        },
+        {
+          "title": "State Legislature",
+          "name": "Texas Legislature",
+          "contact": {
+            "site": "https://capitol.texas.gov/",
+            "form": "https://capitol.texas.gov/"
+          },
+          "responseTime": { "text": "varies", "badge": "ESTIMATE" },
+          "term": { "text": "biennial sessions; House 2-year / Senate 4-year", "badge": null }
+        }
+      ]
+    },
+    "us-ny": {
+      "level": "admin1",
+      "label": "New York",
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Kathy Hochul",
+          "contact": {
+            "site": "https://www.governor.ny.gov/",
+            "form": "https://www.governor.ny.gov/content/governor-contact-form"
+          },
+          "responseTime": { "text": "weeks", "badge": "ESTIMATE" },
+          "term": { "text": "elected; serving since 2021", "badge": null }
+        },
+        {
+          "title": "State Legislature",
+          "name": "NYS Assembly & Senate",
+          "contact": {
+            "site": "https://www.ny.gov/",
+            "form": "https://www.ny.gov/"
+          },
+          "responseTime": { "text": "varies", "badge": "ESTIMATE" },
+          "term": { "text": "2-year terms (both chambers)", "badge": "SAMPLE" }
+        }
+      ]
+    },
+    "us-fl": {
+      "level": "admin1",
+      "label": "Florida",
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Ron DeSantis",
+          "contact": {
+            "site": "https://www.flgov.com/",
+            "form": "https://www.flgov.com/contact-governor"
+          },
+          "responseTime": { "text": "weeks", "badge": "ESTIMATE" },
+          "term": { "text": "elected 4-year; term-limited", "badge": null }
+        }
+      ]
+    },
+    "us-city-new-york": {
+      "level": "city",
+      "label": "New York City",
+      "roles": [
+        {
+          "title": "Mayor",
+          "name": "(see nyc.gov — mayoral office)",
+          "contact": {
+            "site": "https://www.nyc.gov/",
+            "form": "https://www.nyc.gov/office-of-the-mayor/index.page"
+          },
+          "responseTime": { "text": "varies / 311 for services", "badge": "ESTIMATE" },
+          "term": { "text": "elected 4-year terms", "badge": "SAMPLE" }
+        }
+      ]
+    },
+    "us-city-los-angeles": {
+      "level": "city",
+      "label": "Los Angeles",
+      "roles": [
+        {
+          "title": "Mayor",
+          "name": "Karen Bass",
+          "contact": {
+            "site": "https://mayor.lacity.gov/",
+            "form": "https://mayor.lacity.gov/government/get-involved/contact-us"
+          },
+          "responseTime": { "text": "weeks", "badge": "ESTIMATE" },
+          "term": { "text": "elected; serving since Dec 2022", "badge": null }
+        }
+      ]
+    },
+    "us-city-chicago": {
+      "level": "city",
+      "label": "Chicago",
+      "roles": [
+        {
+          "title": "Mayor",
+          "name": "Brandon Johnson",
+          "contact": {
+            "site": "https://www.chicago.gov/city/en/depts/mayor.html",
+            "form": "https://www.chicago.gov/city/en/depts/mayor/iframe/contact_the_mayor.html"
+          },
+          "responseTime": { "text": "weeks", "badge": "ESTIMATE" },
+          "term": { "text": "elected; serving since May 2023", "badge": null }
+        }
+      ]
+    },
+    "us-city-austin": {
+      "level": "city",
+      "label": "Austin",
+      "roles": [
+        {
+          "title": "Mayor",
+          "name": "(see austintexas.gov)",
+          "contact": {
+            "site": "https://www.austintexas.gov/",
+            "form": "https://www.austintexas.gov/department/mayor"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "elected municipal term", "badge": "SAMPLE" }
+        }
+      ]
+    },
+    "in": {
+      "level": "country",
+      "label": "India · Union",
+      "roles": [
+        {
+          "title": "President of India",
+          "name": "Droupadi Murmu",
+          "contact": {
+            "site": "https://presidentofindia.gov.in/",
+            "form": "https://presidentofindia.gov.in/contact-us.htm"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "5-year term; serving since Jul 2022", "badge": null }
+        },
+        {
+          "title": "Prime Minister",
+          "name": "Narendra Modi",
+          "contact": {
+            "site": "https://www.pmindia.gov.in/",
+            "form": "https://www.pmindia.gov.in/en/contact-us/"
+          },
+          "responseTime": { "text": "high volume / unknown", "badge": "ESTIMATE" },
+          "term": { "text": "serving since May 2014 (Lok Sabha confidence)", "badge": null }
+        },
+        {
+          "title": "Minister of External Affairs",
+          "name": "S. Jaishankar",
+          "contact": {
+            "site": "https://www.mea.gov.in/",
+            "form": "https://www.mea.gov.in/contact-us.htm"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "cabinet minister; serving since May 2019", "badge": null }
+        },
+        {
+          "title": "Minister of Power / Energy (summary)",
+          "name": "(see cabinet — SAMPLE roster)",
+          "contact": {
+            "site": "https://powermin.gov.in/",
+            "form": "https://powermin.gov.in/"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "cabinet appointment", "badge": "SAMPLE" }
+        }
+      ]
+    },
+    "in-maharashtra": {
+      "level": "admin1",
+      "label": "Maharashtra",
+      "roles": [
+        {
+          "title": "Chief Minister",
+          "name": "(see maharashtra.gov.in — SAMPLE)",
+          "contact": {
+            "site": "https://www.maharashtra.gov.in/",
+            "form": "https://www.maharashtra.gov.in/"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "assembly confidence", "badge": "SAMPLE" }
+        }
+      ]
+    },
+    "in-karnataka": {
+      "level": "admin1",
+      "label": "Karnataka",
+      "roles": [
+        {
+          "title": "Chief Minister",
+          "name": "(see karnataka.gov.in — SAMPLE)",
+          "contact": {
+            "site": "https://karnataka.gov.in/",
+            "form": "https://karnataka.gov.in/"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "assembly confidence", "badge": "SAMPLE" }
+        }
+      ]
+    },
+    "in-delhi": {
+      "level": "admin1",
+      "label": "Delhi (NCT)",
+      "roles": [
+        {
+          "title": "Chief Minister / LG (summary)",
+          "name": "(see delhi.gov.in — SAMPLE)",
+          "contact": {
+            "site": "https://delhi.gov.in/",
+            "form": "https://delhi.gov.in/"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "elected assembly + appointed LG", "badge": "SAMPLE" }
+        }
+      ]
+    },
+    "in-city-mumbai": {
+      "level": "city",
+      "label": "Mumbai",
+      "roles": [
+        {
+          "title": "Municipal Commissioner / Mayor (summary)",
+          "name": "(see mcgm.gov.in — SAMPLE)",
+          "contact": {
+            "site": "https://www.mcgm.gov.in/",
+            "form": "https://www.mcgm.gov.in/"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "municipal term / appointed commissioner", "badge": "SAMPLE" }
+        }
+      ]
+    },
+    "ae": {
+      "level": "country",
+      "label": "United Arab Emirates · federal",
+      "roles": [
+        {
+          "title": "President",
+          "name": "Sheikh Mohamed bin Zayed Al Nahyan",
+          "contact": {
+            "site": "https://www.uaepresident.ae/",
+            "form": "https://www.uaepresident.ae/"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "elected by Federal Supreme Council; serving since May 2022", "badge": null }
+        },
+        {
+          "title": "Prime Minister / Ruler of Dubai",
+          "name": "Sheikh Mohammed bin Rashid Al Maktoum",
+          "contact": {
+            "site": "https://www.sheikhmohammed.ae/",
+            "form": "https://www.dubai.ae/"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "serving since 2006 (PM)", "badge": null }
+        },
+        {
+          "title": "Minister of Foreign Affairs",
+          "name": "(see mofa.gov.ae — SAMPLE name check)",
+          "contact": {
+            "site": "https://www.mofa.gov.ae/",
+            "form": "https://www.mofa.gov.ae/"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "cabinet appointment", "badge": "SAMPLE" }
+        }
+      ]
+    },
+    "ae-abu-dhabi": {
+      "level": "admin1",
+      "label": "Abu Dhabi (emirate)",
+      "roles": [
+        {
+          "title": "Ruler of Abu Dhabi",
+          "name": "Sheikh Mohamed bin Zayed Al Nahyan",
+          "contact": {
+            "site": "https://www.tamm.abudhabi/",
+            "form": "https://www.tamm.abudhabi/"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "hereditary / ruling family", "badge": null }
+        }
+      ]
+    },
+    "ae-dubai": {
+      "level": "admin1",
+      "label": "Dubai (emirate)",
+      "roles": [
+        {
+          "title": "Ruler of Dubai",
+          "name": "Sheikh Mohammed bin Rashid Al Maktoum",
+          "contact": {
+            "site": "https://www.dubai.ae/",
+            "form": "https://www.dubai.ae/"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "hereditary / ruling family", "badge": null }
+        }
+      ]
+    },
+    "jp": {
+      "level": "country",
+      "label": "Japan · national",
+      "roles": [
+        {
+          "title": "Emperor",
+          "name": "Naruhito",
+          "contact": {
+            "site": "https://www.kunaicho.go.jp/eindex.html",
+            "form": "https://www.kunaicho.go.jp/eindex.html"
+          },
+          "responseTime": { "text": "ceremonial — not a political contact channel", "badge": "ESTIMATE" },
+          "term": { "text": "reigning since May 1, 2019", "badge": null }
+        },
+        {
+          "title": "Prime Minister",
+          "name": "(see kantei.go.jp — SAMPLE; turnovers possible)",
+          "contact": {
+            "site": "https://www.kantei.go.jp/",
+            "form": "https://www.kantei.go.jp/foreign/forms/comment_ssl.html"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "Diet designation; cabinet", "badge": "SAMPLE" }
+        },
+        {
+          "title": "Minister for Foreign Affairs",
+          "name": "(see mofa.go.jp — SAMPLE)",
+          "contact": {
+            "site": "https://www.mofa.go.jp/",
+            "form": "https://www.mofa.go.jp/about/embassy/index.html"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "cabinet appointment", "badge": "SAMPLE" }
+        },
+        {
+          "title": "Minister of Economy, Trade and Industry",
+          "name": "(see meti.go.jp — SAMPLE)",
+          "contact": {
+            "site": "https://www.meti.go.jp/english/",
+            "form": "https://www.meti.go.jp/english/contact/index.html"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "cabinet appointment", "badge": "SAMPLE" }
+        }
+      ]
+    },
+    "jp-kanto": {
+      "level": "admin1",
+      "label": "Kantō (region block)",
+      "roles": [
+        {
+          "title": "Prefectural governors (summary)",
+          "name": "Tokyo + surrounding prefectures — SAMPLE region stack",
+          "contact": {
+            "site": "https://www.metro.tokyo.lg.jp/",
+            "form": "https://www.metro.tokyo.lg.jp/"
+          },
+          "responseTime": { "text": "varies by prefecture", "badge": "ESTIMATE" },
+          "term": { "text": "4-year gubernatorial terms", "badge": "SAMPLE" }
+        }
+      ]
+    },
+    "jp-city-tokyo": {
+      "level": "city",
+      "label": "Tokyo",
+      "roles": [
+        {
+          "title": "Governor of Tokyo",
+          "name": "Yuriko Koike",
+          "contact": {
+            "site": "https://www.metro.tokyo.lg.jp/",
+            "form": "https://www.metro.tokyo.lg.jp/english/about/contact/index.html"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "elected 4-year; serving since 2016", "badge": null }
+        }
+      ]
+    },
+    "ng": {
+      "level": "country",
+      "label": "Nigeria · federal",
+      "roles": [
+        {
+          "title": "President",
+          "name": "Bola Ahmed Tinubu",
+          "contact": {
+            "site": "https://statehouse.gov.ng/",
+            "form": "https://statehouse.gov.ng/"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "elected; serving since May 2023", "badge": null }
+        },
+        {
+          "title": "Key ministers (summary)",
+          "name": "SAMPLE cabinet pointers",
+          "contact": {
+            "site": "https://nigeria.gov.ng/",
+            "form": "https://nigeria.gov.ng/"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "appointed", "badge": "SAMPLE" }
+        }
+      ]
+    },
+    "cl": {
+      "level": "country",
+      "label": "Chile · national",
+      "roles": [
+        {
+          "title": "President",
+          "name": "(see gob.cl — verify current; SAMPLE if transition)",
+          "contact": {
+            "site": "https://www.gob.cl/",
+            "form": "https://www.gob.cl/"
+          },
+          "responseTime": { "text": "unknown", "badge": "ESTIMATE" },
+          "term": { "text": "4-year presidential term", "badge": "SAMPLE" }
+        }
+      ]
+    }
+  }
+}
