@@ -3,7 +3,7 @@
 **Creed / tagline:** 10,000 Year Empire  
 **Domain intent:** longviewledger.com (available; not purchased by this sketch)  
 **Owner:** Cassidy Waters  
-**Status:** Version 0 interactive sketch — static SAMPLE data, no live scraping
+**Status:** Soft launch — US Progress rail from public RSS (REAL); country desks SAMPLE
 
 ---
 
@@ -34,16 +34,25 @@ The global **Ledger** rail is a civilization-weighted feed; selecting a country 
 
 **Click distinction (documented in UI):** single-click opens the existing country desk; double-click / long-press / Mind map button opens the radiating industry mind map.
 
-## Version 0 vs later
+## Soft launch (current) vs later
 
-| Version 0 (this sketch) | Later |
+| Soft launch (now) | Later |
 | --- | --- |
-| Static SAMPLE seed data (6 full desks + stubs) | Continuous ingest + human/AI weighting by civ-development impact |
-| SVG atlas + zoom/pan | Richer cartography, time layers, comparison |
-| Invented metrics + SAMPLE value chains / companies | Transparent methodology + sources |
-| Single static GitHub Pages app | Possible custom domain (longviewledger.com), alerts, saved watches |
+| **US Progress** rail: REAL public RSS via GitHub Actions (every ~6h + manual) | Broader country rails + denser weighting |
+| Country desks / chains / companies still SAMPLE | Attach real articles to desks; drop SAMPLE fiction where sourced |
+| SVG atlas + zoom/pan (vertical zoom + legend) | Richer cartography, time layers, comparison |
+| Free feeds only — no paid APIs, no always-on server ($0) | Optional paid data / custom domain (longviewledger.com) |
 
-**Do not claim live news scraping in v0.**
+**Honesty rule:** rail items that open outbound URLs are **REAL**. Desks/chains/companies stay **SAMPLE**-labeled until sourced.
+
+### Soft-launch pipeline ($0)
+
+1. `data/sources.json` — 20 free RSS/Atom feeds (hard-news + analysis), US/progress-biased.  
+2. `scripts/fetch-signals.mjs` — normalize + light keyword score → `data/signals-live.json` (~80–120 items).  
+3. `.github/workflows/soft-launch.yml` — schedule + `workflow_dispatch`; commit if changed; deploy `gh-pages`.  
+4. SPA loads `signals-live.json` into the ledger rail with REAL badges.
+
+Some feeds may **403 intermittently** (bot filters / WAF); the fetcher records failures and continues.
 
 ## Naming & vibe
 
@@ -59,8 +68,10 @@ Aesthetic: sober intelligence desk — dark ink on slate/parchment, restrained b
 | **ForgeCraft** | Parked |
 | **Longview Ledger** | This project — standalone GitHub Pages civilization desk |
 
-## Success for v0
+## Success for soft launch
 
-- Live sketch at GitHub Pages with zoomable map → country panel + mind map → value chain → company desk.  
-- BRIEF present; SAMPLE labeling honest.  
-- Seed desks: United States, India, UAE, Japan, Nigeria, Chile (full chains for ≥2–3 industries each).
+- Live at GitHub Pages with zoomable map → country panel + mind map → value chain → company desk.  
+- **US Progress** rail shows REAL RSS items with outbound links; SAMPLE badges remain on desks.  
+- Vertical atlas legend + zoom controls. SW cache `longview-ledger-v4`.  
+- Seed desks: United States, India, UAE, Japan, Nigeria, Chile (full chains for ≥2–3 industries each).  
+- Fetcher + Action stay within free GitHub Actions; no paid APIs or domains purchased.

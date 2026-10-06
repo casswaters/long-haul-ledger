@@ -31,7 +31,7 @@ assert('domain intent noted', META.domainIntent === 'longviewledger.com');
 assert('sample flag true', META.sample === true);
 assert('index.html exists', existsSync(new URL('./index.html', import.meta.url)));
 assert('world.svg exists', existsSync(new URL('./world.svg', import.meta.url)));
-assert('sw.js cache name longview-ledger-v3', /longview-ledger-v3/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+assert('sw.js cache name longview-ledger-v4', /longview-ledger-v4/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
 assert('BRIEF.md exists', existsSync(new URL('./BRIEF.md', import.meta.url)));
 assert('app has ?fresh=1 bust', /\bfresh\b/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 assert('zoom.js exists', existsSync(new URL('./zoom.js', import.meta.url)));
@@ -125,7 +125,9 @@ const css = readFileSync(new URL('./styles.css', import.meta.url), 'utf8');
 const html = readFileSync(new URL('./index.html', import.meta.url), 'utf8');
 const brief = readFileSync(new URL('./BRIEF.md', import.meta.url), 'utf8');
 assert('slate/brass palette present', /--brass:\s*#c4a35a/.test(css) && /--bg:\s*#12161a/.test(css));
-assert('not claiming live scrape in HTML', /SAMPLE/.test(html) && !/live scrap/i.test(html));
+assert('SAMPLE desks still labeled', /SAMPLE/.test(html));
+assert('US Progress / soft launch in HTML', /US Progress/i.test(html) && /SOFT LAUNCH/i.test(html));
+assert('vertical zoom controls CSS', /flex-direction:\s*column/.test(css) && /zoom-controls/.test(css));
 assert('creed in HTML', /10,000 Year Empire/.test(html));
 assert('zoom controls in HTML', /id="zoom-in"/.test(html) && /id="zoom-out"/.test(html));
 assert('BRIEF documents click distinction', /single-click/i.test(brief) && /double-click/i.test(brief) && /mind map/i.test(brief));
@@ -133,6 +135,43 @@ assert('overlay styles present', /ledger-overlay/.test(css) && /mindmap-svg/.tes
 assert('no will-change transform on map viewport', !/will-change:\s*transform/.test(css));
 assert('shape-rendering geometricPrecision in CSS', /shape-rendering:\s*geometricPrecision/.test(css));
 assert('app uses size-based map zoom', /rect\.width\) \* scale/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
+
+
+console.log('\n--- Soft-launch normalize / score ---');
+{
+  const {
+    stripHtml, parseFeedXml, normalizeItem, scoreItem, mergeAndCap, toIsoDate,
+  } = await import('./scripts/fetch-signals.mjs');
+  assert('stripHtml removes tags', stripHtml('<b>Hi &amp; bye</b>') === 'Hi & bye');
+  const rss = `<?xml version="1.0"?><rss version="2.0"><channel>
+    <item><title>US grid transmission reform</title><link>https://example.com/a</link><pubDate>Tue, 06 Oct 2026 12:00:00 GMT</pubDate><description>Nuclear and battery storage on the interconnection queue.</description></item>
+    <item><title>Celebrity gossip night</title><link>https://example.com/b</link><pubDate>Tue, 06 Oct 2026 11:00:00 GMT</pubDate><description>Reality TV box office.</description></item>
+  </channel></rss>`;
+  const parsed = parseFeedXml(rss);
+  assert('parseFeedXml item count', parsed.length === 2, String(parsed.length));
+  assert('parseFeedXml title/link', parsed[0].title.includes('grid') && parsed[0].link.includes('example.com/a'));
+  const src = { id: 't', name: 'Test Feed', kind: 'hard-news', countryDefault: 'US', tags: ['energy'] };
+  const n = normalizeItem(parsed[0], src);
+  assert('normalize fields', n.real === true && n.country === 'US' && n.url.startsWith('http') && typeof n.score === 'number');
+  assert('toIsoDate parses', !!toIsoDate(parsed[0].published));
+  const high = scoreItem({ title: 'US semiconductor fab and grid transmission', summary: 'AI data center power', tags: ['compute'], country: 'US', kind: 'hard-news' });
+  const low = scoreItem({ title: 'Celebrity gossip reality tv', summary: 'box office', tags: [], country: 'US', kind: 'hard-news' });
+  assert('score prefers progress keywords', high > low && high >= 50, `high=${high} low=${low}`);
+  const merged = mergeAndCap([
+    { ...n, score: 90 },
+    { ...n, id: 'dup', score: 80 },
+    { ...normalizeItem(parsed[1], src), score: 10 },
+  ], 50);
+  assert('mergeAndCap dedupes URL + drops low score', merged.length === 1 && merged[0].score === 90, String(merged.length));
+  assert('sources.json exists', existsSync(new URL('./data/sources.json', import.meta.url)));
+  assert('signals-live.json exists', existsSync(new URL('./data/signals-live.json', import.meta.url)));
+  const live = JSON.parse(readFileSync(new URL('./data/signals-live.json', import.meta.url), 'utf8'));
+  assert('live items capped 80–120', live.itemCount >= 80 && live.itemCount <= 120, String(live.itemCount));
+  assert('live items REAL with urls', live.items.every((i) => i.real && /^https?:/i.test(i.url)));
+  assert('soft-launch workflow exists', existsSync(new URL('./.github/workflows/soft-launch.yml', import.meta.url)));
+  assert('BRIEF documents soft launch', /soft launch/i.test(brief) && /US Progress/i.test(brief));
+  assert('META softLaunch', META.softLaunch === true);
+}
 
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);

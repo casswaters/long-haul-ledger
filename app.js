@@ -21,6 +21,9 @@ const state = {
   company: null,
 };
 
+/** @type {{ generatedAt?: string, itemCount?: number, items: any[], sourcesFailed?: any[] } | null} */
+let liveFeed = null;
+
 const mapXform = resetTransform();
 
 const $ = (sel, el = document) => el.querySelector(sel);
@@ -28,7 +31,7 @@ const $$ = (sel, el = document) => [...el.querySelectorAll(sel)];
 
 function formatDateStamp(d = new Date()) {
   const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()} · sketch ledger`;
+  return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()} · soft launch`;
 }
 
 function applyHash() {
@@ -698,27 +701,86 @@ function wireTabInteractions(c, root) {
   });
 }
 
-/* ---------- Feed ---------- */
+/* ---------- Feed (US Progress soft launch) ---------- */
+function liveItems() {
+  return Array.isArray(liveFeed?.items) ? liveFeed.items : [];
+}
+
 function renderFeed() {
   const feed = $('#feed');
-  const filterId = state.country && COUNTRIES[state.country] ? state.country : null;
-  let items = globalFeed(30);
-  if (filterId) items = items.filter((i) => i.countryId === filterId);
+  const live = liveItems();
+  const filterId = state.country || null;
   const sub = $('#rail-sub');
+
+  // Prefer REAL public RSS; fall back to SAMPLE global feed only if live empty
+  if (live.length) {
+    let items = live;
+    if (filterId === 'us') {
+      items = live.filter((i) => String(i.country || i.countryId || 'US').toUpperCase() === 'US' || i.countryId === 'us');
+    } else if (filterId && filterId !== 'us') {
+      // Soft launch is US-biased; other desks keep SAMPLE country feed in rail context
+      items = live.filter((i) => (i.countryId || '').toLowerCase() === filterId);
+      if (!items.length) items = live.slice(0, 24);
+    }
+    items = items.slice(0, 40);
+    if (sub) {
+      const gen = liveFeed?.generatedAt ? ` · updated ${dateStampShort(liveFeed.generatedAt)}` : '';
+      sub.innerHTML = filterId === 'us'
+        ? `<strong>US</strong> · ${items.length} REAL links${gen}`
+        : `Public RSS · ${items.length} REAL links${gen}`;
+    }
+    feed.innerHTML = items.map((i) => `
+      <a class="feed-item is-live" href="${escapeHtml(i.url)}" target="_blank" rel="noopener noreferrer" data-real="1">
+        <div class="country">
+          <span>${escapeHtml(i.country || 'US')} · ${escapeHtml(i.source || '')}</span>
+          <span class="badge-sm real">REAL</span>
+        </div>
+        <div class="title">${escapeHtml(i.title)}</div>
+        <div class="meta">
+          <span>${escapeHtml(i.publishedLabel || dateStampShort(i.published))}</span>
+          <span class="badge-sm kind">${escapeHtml(i.kind === 'analysis' ? 'analysis' : 'news')}</span>
+          <span>s${Math.round(i.score || 0)}</span>
+        </div>
+      </a>`).join('') || '<p class="section-note" style="padding:0.5rem">No live items yet.</p>';
+    return;
+  }
+
+  // Fallback SAMPLE
+  let items = globalFeed(30);
+  if (filterId && COUNTRIES[filterId]) items = items.filter((i) => i.countryId === filterId);
   if (sub) {
     sub.textContent = filterId
-      ? `Filtered to ${COUNTRIES[filterId].name} · SAMPLE`
-      : 'Global civilization-weighted drops · SAMPLE';
+      ? `Filtered to ${COUNTRIES[filterId]?.name || filterId} · SAMPLE fallback`
+      : 'Sample fallback · live RSS not loaded';
   }
   feed.innerHTML = items.map((i) => `
     <article class="feed-item" data-c="${i.countryId}">
-      <div class="country">${escapeHtml(i.countryName)}</div>
+      <div class="country"><span>${escapeHtml(i.countryName)}</span><span class="badge-sm sample">SAMPLE</span></div>
       <div class="title">${escapeHtml(i.title)}</div>
       <div class="meta"><span>${escapeHtml(i.date)}</span><span>w${i.weight}</span></div>
     </article>`).join('') || '<p class="section-note" style="padding:0.5rem">No feed items.</p>';
   $$('.feed-item', feed).forEach((el) => {
     el.addEventListener('click', () => navigate({ country: el.dataset.c, view: 'desk', tab: 'signals', sector: null, region: null, company: null }));
   });
+}
+
+function dateStampShort(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return '—';
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return `${months[d.getMonth()]} ${d.getDate()}`;
+}
+
+async function loadLiveFeed() {
+  try {
+    const res = await fetch('./data/signals-live.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error(String(res.status));
+    liveFeed = await res.json();
+  } catch {
+    liveFeed = { items: [], itemCount: 0 };
+  }
+  renderFeed();
 }
 
 function render() {
@@ -751,8 +813,9 @@ function registerSW() {
 function boot() {
   $('#date-stamp').textContent = formatDateStamp();
   $('#about-text').textContent = META.sketchNote;
-  $('#domain-note').textContent = `${META.domainIntent} — reserved intent (not purchased by this sketch).`;
+  $('#domain-note').textContent = `${META.domainIntent} — reserved intent (not purchased by this sketch). Soft launch runs on GitHub Pages + Actions only ($0).`;
   loadMap().then(() => applyHash());
+  loadLiveFeed();
   window.addEventListener('resize', () => applyMapTransform());
   window.addEventListener('hashchange', applyHash);
   document.addEventListener('keydown', (e) => {

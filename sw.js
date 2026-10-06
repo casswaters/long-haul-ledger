@@ -1,5 +1,5 @@
-/* Longview Ledger service worker — network-first app shell (longview-ledger-v3) */
-const CACHE = 'longview-ledger-v3';
+/* Longview Ledger service worker — network-first app shell (longview-ledger-v4) */
+const CACHE = 'longview-ledger-v4';
 const ASSETS = [
   './',
   './index.html',
@@ -12,6 +12,7 @@ const ASSETS = [
   './world.svg',
   './manifest.webmanifest',
   './icons/icon.svg',
+  './data/signals-live.json',
 ];
 
 self.addEventListener('install', (event) => {
@@ -37,6 +38,7 @@ function isShell(url) {
     p.endsWith('.html') ||
     p.endsWith('.svg') ||
     p.endsWith('.webmanifest') ||
+    p.endsWith('.json') ||
     p.endsWith('/') ||
     p.endsWith('/longview-ledger')
   );

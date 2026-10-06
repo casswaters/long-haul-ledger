@@ -5,11 +5,12 @@
 export const META = {
   name: 'Longview Ledger',
   creed: '10,000 Year Empire',
-  version: '0',
+  version: '0.3-soft',
   domainIntent: 'longviewledger.com',
   sample: true,
+  softLaunch: true,
   sketchNote:
-    'Version 0 is a static interactive sketch. Headlines, scores, and openings are SAMPLE data — not live scrapes. Future versions aim to continuously gather and weight signals by civilization-development impact.',
+    'Soft launch: the US Progress ledger rail is fed by free public RSS via GitHub Actions (REAL outbound links). Country desks, metrics, value chains, and company desks remain SAMPLE fiction. No paid APIs; $0 on GitHub Pages + Actions.',
 };
 
 /** @typedef {{ id: string, title: string, blurb: string, weight: number, sector?: string, region?: string, date: string }} Signal */

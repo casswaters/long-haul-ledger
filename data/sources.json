@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "mode": "us-progress",
+  "notes": [
+    "Soft-launch source pack: free public RSS/Atom only — no paid APIs, no keys.",
+    "Bias: United States + progress / civ-building (energy, compute, manufacturing, infrastructure, state capacity, serious analysis).",
+    "Some hosts 403/429 intermittently (bot filters, WAF). Fetcher records failures and continues.",
+    "Labels: hard-news = primary reporting / agency releases; analysis = opinion, essays, think-tank, long-form."
+  ],
+  "sources": [
+    {
+      "id": "eia-today",
+      "name": "EIA Today in Energy",
+      "url": "https://www.eia.gov/rss/todayinenergy.xml",
+      "kind": "hard-news",
+      "countryDefault": "US",
+      "tags": ["energy", "data"]
+    },
+    {
+      "id": "doe-press",
+      "name": "U.S. Department of Energy",
+      "url": "https://www.energy.gov/rss/press-releases.xml",
+      "kind": "hard-news",
+      "countryDefault": "US",
+      "tags": ["energy", "institutions"]
+    },
+    {
+      "id": "nist-news",
+      "name": "NIST News",
+      "url": "https://www.nist.gov/news-events/news/rss.xml",
+      "kind": "hard-news",
+      "countryDefault": "US",
+      "tags": ["institutions", "standards", "manufacturing"]
+    },
+    {
+      "id": "nasa-news",
+      "name": "NASA News",
+      "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+      "kind": "hard-news",
+      "countryDefault": "US",
+      "tags": ["frontier", "space", "compute"]
+    },
+    {
+      "id": "fed-press",
+      "name": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "kind": "hard-news",
+      "countryDefault": "US",
+      "tags": ["institutions", "capital"]
+    },
+    {
+      "id": "utility-dive",
+      "name": "Utility Dive",
+      "url": "https://www.utilitydive.com/feeds/news/",
+      "kind": "hard-news",
+      "countryDefault": "US",
+      "tags": ["energy", "grid", "infrastructure"]
+    },
+    {
+      "id": "mfg-dive",
+      "name": "Manufacturing Dive",
+      "url": "https://www.manufacturingdive.com/feeds/news/",
+      "kind": "hard-news",
+      "countryDefault": "US",
+      "tags": ["manufacturing", "industry"]
+    },
+    {
+      "id": "npr-science",
+      "name": "NPR Science",
+      "url": "https://feeds.npr.org/1007/rss.xml",
+      "kind": "hard-news",
+      "countryDefault": "US",
+      "tags": ["science", "frontier"]
+    },
+    {
+      "id": "defense-news",
+      "name": "U.S. Department of Defense",
+      "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=12&ContentType=1&Site=945",
+      "kind": "hard-news",
+      "countryDefault": "US",
+      "tags": ["state-capacity", "institutions"]
+    },
+    {
+      "id": "ars-technica",
+      "name": "Ars Technica",
+      "url": "https://arstechnica.com/feed/",
+      "kind": "hard-news",
+      "countryDefault": "US",
+      "tags": ["compute", "science", "tech"]
+    },
+    {
+      "id": "nyt-tech",
+      "name": "NYT Technology",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+      "kind": "hard-news",
+      "countryDefault": "US",
+      "tags": ["compute", "tech"],
+      "notes": "May 403 intermittently behind bot filters."
+    },
+    {
+      "id": "nyt-energy",
+      "name": "NYT Climate / Energy",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/EnergyEnvironment.xml",
+      "kind": "hard-news",
+      "countryDefault": "US",
+      "tags": ["energy", "climate"],
+      "notes": "May 403 intermittently behind bot filters."
+    },
+    {
+      "id": "mit-news",
+      "name": "MIT News",
+      "url": "https://news.mit.edu/rss/feed",
+      "kind": "analysis",
+      "countryDefault": "US",
+      "tags": ["research", "compute", "energy"]
+    },
+    {
+      "id": "ifp",
+      "name": "Institute for Progress",
+      "url": "https://ifp.org/feed/",
+      "kind": "analysis",
+      "countryDefault": "US",
+      "tags": ["progress", "institutions", "policy"]
+    },
+    {
+      "id": "asterisk",
+      "name": "Asterisk Magazine",
+      "url": "https://asteriskmag.com/feed",
+      "kind": "analysis",
+      "countryDefault": "US",
+      "tags": ["progress", "science", "analysis"]
+    },
+    {
+      "id": "construction-physics",
+      "name": "Construction Physics",
+      "url": "https://www.construction-physics.com/feed",
+      "kind": "analysis",
+      "countryDefault": "US",
+      "tags": ["manufacturing", "infrastructure", "energy"]
+    },
+    {
+      "id": "noahpinion",
+      "name": "Noahpinion",
+      "url": "https://www.noahpinion.blog/feed",
+      "kind": "analysis",
+      "countryDefault": "US",
+      "tags": ["opinion", "progress", "economy"]
+    },
+    {
+      "id": "atlantic-council",
+      "name": "Atlantic Council",
+      "url": "https://www.atlanticcouncil.org/feed/",
+      "kind": "analysis",
+      "countryDefault": "US",
+      "tags": ["geopolitics", "state-capacity", "energy"]
+    },
+    {
+      "id": "volts",
+      "name": "Volts",
+      "url": "https://www.volts.wtf/feed",
+      "kind": "analysis",
+      "countryDefault": "US",
+      "tags": ["energy", "climate", "policy"]
+    },
+    {
+      "id": "semianalysis",
+      "name": "SemiAnalysis",
+      "url": "https://www.semianalysis.com/feed",
+      "kind": "analysis",
+      "countryDefault": "US",
+      "tags": ["compute", "semiconductors", "manufacturing"]
+    }
+  ]
+}

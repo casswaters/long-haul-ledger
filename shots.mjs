@@ -117,6 +117,42 @@ try {
     await page.close();
     console.log('07 company ok');
   }
+
+  {
+    const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+    await page.goto(base + '/', { waitUntil: 'networkidle' });
+    await page.waitForSelector('.feed-item.is-live, .feed-item', { timeout: 15000 });
+    await page.waitForTimeout(500);
+    await page.screenshot({ path: join(outDir, 'us-progress-desktop.png'), fullPage: true });
+    // Crop-ish: rail focus by clipping via element
+    const rail = await page.$('.rail');
+    if (rail) await rail.screenshot({ path: join(outDir, 'us-progress-rail.png') });
+    const zoom = await page.$('.zoom-controls');
+    if (zoom) await zoom.screenshot({ path: join(outDir, 'us-progress-zoom-vertical.png') });
+    const legend = await page.$('.map-label');
+    if (legend) await legend.screenshot({ path: join(outDir, 'us-progress-legend-vertical.png') });
+    await page.close();
+    console.log('us-progress desktop ok');
+  }
+  {
+    const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+    await page.goto(base + '/#c=us', { waitUntil: 'networkidle' });
+    await page.waitForSelector('.country-head h2', { timeout: 15000 });
+    await page.waitForSelector('.feed-item', { timeout: 15000 });
+    await page.waitForTimeout(400);
+    await page.screenshot({ path: join(outDir, 'us-progress-us-desk.png'), fullPage: true });
+    await page.close();
+    console.log('us-progress us-desk ok');
+  }
+  {
+    const page = await browser.newPage({ viewport: { width: 390, height: 844 }, isMobile: true });
+    await page.goto(base + '/', { waitUntil: 'networkidle' });
+    await page.waitForSelector('.feed-item', { timeout: 15000 });
+    await page.waitForTimeout(400);
+    await page.screenshot({ path: join(outDir, 'us-progress-mobile.png'), fullPage: true });
+    await page.close();
+    console.log('us-progress mobile ok');
+  }
   console.log('shots written to', outDir);
 } finally {
   await browser.close();
