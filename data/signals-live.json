@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-06T22:33:09.227Z",
+  "generatedAt": "2026-10-06T23:45:27.196Z",
   "mode": "us-progress",
   "itemCount": 110,
   "verification": {
     "counts": {
-      "confirmed": 26,
+      "confirmed": 25,
       "multiple": 3,
       "unconfirmed": 37,
-      "analysis": 44,
+      "analysis": 45,
       "sample": 0
     },
     "windowHours": 48,
@@ -108,7 +108,7 @@
       "source": "NYT Technology",
       "sourceId": "nyt-tech",
       "kind": "hard-news",
-      "published": "2026-10-06T19:37:08.000Z",
+      "published": "2026-10-06T19:37:09.000Z",
       "publishedLabel": "Oct 6, 2026",
       "country": "US",
       "countryId": "us",
@@ -133,7 +133,7 @@
             "outlet": "nyt",
             "url": "https://www.nytimes.com/2026/10/06/climate/nuclear-power-plant-google-data-centers.html",
             "primary": false,
-            "published": "2026-10-06T19:37:08.000Z"
+            "published": "2026-10-06T19:37:09.000Z"
           }
         ],
         "confirmedBy": []
@@ -650,6 +650,45 @@
       }
     },
     {
+      "id": "live-wie8h7",
+      "title": "Top electric power sector and utility conferences in 2027",
+      "url": "https://www.utilitydive.com/news/top-electric-power-sector-and-utility-conferences-in-2027/832259/",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "kind": "hard-news",
+      "published": "2026-10-06T15:45:17.000Z",
+      "publishedLabel": "Oct 6, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "energy",
+        "grid",
+        "infrastructure"
+      ],
+      "score": 90,
+      "blurb": "<figure><div><img src=\"https://imgproxy.divecdn.com/KHdNzx-ynib554dBAW__tcz-Q1jPIjkRaiRHlBYX3l0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9MaW5lbWVuX3Jlc3RvcmVfcG93ZXIuanBn.webp\"/></div></figure><p>Utility Dive&rsquo;s curated list of notable events where ",
+      "real": true,
+      "primary": false,
+      "outlet": "utility-dive",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-wie8h7",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Utility Dive",
+            "outlet": "utility-dive",
+            "url": "https://www.utilitydive.com/news/top-electric-power-sector-and-utility-conferences-in-2027/832259/",
+            "primary": false,
+            "published": "2026-10-06T15:45:17.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
+    },
+    {
       "id": "live-h8tohx",
       "title": "A new VPP framework can center the energy transition in Illinois around customers: ComEd VP",
       "url": "https://www.utilitydive.com/news/illinois-vpp-virtual-power-plant-comed/831735/",
@@ -729,7 +768,7 @@
     },
     {
       "id": "live-10nmey4",
-      "title": "Constellation-Google deal will bring $4.3B investment, 890 MW new nuclear to PJM",
+      "title": "Constellation, Google strike 890-MW nuclear deal in PJM",
       "url": "https://www.utilitydive.com/news/constellation-google-deal-will-bring-890-mw-of-new-nuclear-to-pjm/832223/",
       "source": "Utility Dive",
       "sourceId": "utility-dive",
@@ -878,45 +917,6 @@
             "url": "https://www.utilitydive.com/news/heat-pumps-electric-water-heaters-continue-to-gain-ground-reports/832138/",
             "primary": false,
             "published": "2026-10-05T15:17:39.000Z"
-          }
-        ],
-        "confirmedBy": []
-      }
-    },
-    {
-      "id": "live-10hrxj2",
-      "title": "MISO proposes fast-track large load, generation study process",
-      "url": "https://www.utilitydive.com/news/miso-large-load-generation-study-lars-ferc/832114/",
-      "source": "Utility Dive",
-      "sourceId": "utility-dive",
-      "kind": "hard-news",
-      "published": "2026-10-05T14:01:26.000Z",
-      "publishedLabel": "Oct 5, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "energy",
-        "grid",
-        "infrastructure"
-      ],
-      "score": 90,
-      "blurb": "<figure><div><img src=\"https://imgproxy.divecdn.com/Upj--y5oVl0fN4dKmZICZScxV1oExge5UmjmIUWqoPc/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9NdF9QbGVhc2FudC5qcGc=.webp\"/></div></figure><p>The 120-day study process would be available for loads larger than 200",
-      "real": true,
-      "primary": false,
-      "outlet": "utility-dive",
-      "verification": {
-        "status": "unconfirmed",
-        "label": "Unconfirmed",
-        "clusterId": "vc-10hrxj2",
-        "clusterSize": 1,
-        "outlets": 1,
-        "sources": [
-          {
-            "name": "Utility Dive",
-            "outlet": "utility-dive",
-            "url": "https://www.utilitydive.com/news/miso-large-load-generation-study-lars-ferc/832114/",
-            "primary": false,
-            "published": "2026-10-05T14:01:26.000Z"
           }
         ],
         "confirmedBy": []
@@ -2211,7 +2211,7 @@
       "sourceId": "mit-news",
       "kind": "analysis",
       "published": "2026-10-02T04:00:00.000Z",
-      "publishedLabel": "Oct 1, 2026",
+      "publishedLabel": "Oct 2, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -2247,7 +2247,7 @@
       "sourceId": "mit-news",
       "kind": "analysis",
       "published": "2026-10-02T04:00:00.000Z",
-      "publishedLabel": "Oct 1, 2026",
+      "publishedLabel": "Oct 2, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -2504,7 +2504,7 @@
       "sourceId": "asterisk",
       "kind": "analysis",
       "published": "2026-08-04T00:00:00.000Z",
-      "publishedLabel": "Aug 3, 2026",
+      "publishedLabel": "Aug 4, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -3383,6 +3383,42 @@
       }
     },
     {
+      "id": "live-vpredl",
+      "title": "What Will Happen to Indian IT?",
+      "url": "https://asteriskmag.com/issues/15/what-will-happen-to-indian-it",
+      "source": "Asterisk Magazine",
+      "sourceId": "asterisk",
+      "kind": "analysis",
+      "published": "2026-10-06T00:00:00.000Z",
+      "publishedLabel": "Oct 6, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "progress",
+        "science",
+        "analysis"
+      ],
+      "score": 76,
+      "blurb": "The past and future of the “world’s back office.”",
+      "real": true,
+      "primary": false,
+      "outlet": "asterisk",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Asterisk Magazine",
+            "outlet": "asterisk",
+            "url": "https://asteriskmag.com/issues/15/what-will-happen-to-indian-it",
+            "primary": false,
+            "published": "2026-10-06T00:00:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
+    },
+    {
       "id": "live-2a1qho",
       "title": "Sales of Hulking Pickups and S.U.V.s Sag as Fuel Prices Soar",
       "url": "https://www.nytimes.com/2026/10/02/business/auto-sales-pickup-trucks-suvs.html",
@@ -3428,7 +3464,7 @@
       "sourceId": "mit-news",
       "kind": "analysis",
       "published": "2026-09-29T04:00:00.000Z",
-      "publishedLabel": "Sep 28, 2026",
+      "publishedLabel": "Sep 29, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -4233,7 +4269,7 @@
       "sourceId": "nasa-news",
       "kind": "hard-news",
       "published": "2026-10-06T04:05:00.000Z",
-      "publishedLabel": "Oct 5, 2026",
+      "publishedLabel": "Oct 6, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -4259,47 +4295,6 @@
             "url": "https://science.nasa.gov/image-article/apod-2026-october-6-a-complete-auroral-oval-from-smile/",
             "primary": true,
             "published": "2026-10-06T04:05:00.000Z"
-          }
-        ],
-        "confirmedBy": [
-          "NASA News"
-        ]
-      }
-    },
-    {
-      "id": "live-plye0b",
-      "title": "The Beaver Brown Waters of Rupert Bay",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-beaver-brown-waters-of-rupert-bay/",
-      "source": "NASA News",
-      "sourceId": "nasa-news",
-      "kind": "hard-news",
-      "published": "2026-10-06T04:01:00.000Z",
-      "publishedLabel": "Oct 5, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "frontier",
-        "space",
-        "compute"
-      ],
-      "score": 73,
-      "blurb": "Dissolved organic matter and suspended sediment mingle in the southernmost extent of James Bay.",
-      "real": true,
-      "primary": true,
-      "outlet": "nasa-news",
-      "verification": {
-        "status": "confirmed",
-        "label": "Confirmed",
-        "clusterId": "vc-plye0b",
-        "clusterSize": 1,
-        "outlets": 1,
-        "sources": [
-          {
-            "name": "NASA News",
-            "outlet": "nasa-news",
-            "url": "https://science.nasa.gov/earth/earth-observatory/the-beaver-brown-waters-of-rupert-bay/",
-            "primary": true,
-            "published": "2026-10-06T04:01:00.000Z"
           }
         ],
         "confirmedBy": [
