@@ -1,5 +1,5 @@
-/* Longview Ledger service worker — network-first app shell (longview-ledger-v4) */
-const CACHE = 'longview-ledger-v4';
+/* Long Haul Ledger service worker — network-first app shell (long-haul-ledger-v1) */
+const CACHE = 'long-haul-ledger-v1';
 const ASSETS = [
   './',
   './index.html',

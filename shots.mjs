@@ -1,5 +1,5 @@
 /**
- * Playwright screenshots → /workspace/qa/longview-ledger/
+ * Long Haul Ledger Playwright screenshots → /workspace/qa/longview-ledger/
  */
 import { chromium } from 'playwright';
 import { createServer } from 'http';

@@ -1,7 +1,8 @@
-# Longview Ledger — Product Brief (v0 sketch)
+# Long Haul Ledger — Product Brief (v0 sketch)
 
 **Creed / tagline:** 10,000 Year Empire  
-**Domain intent:** longviewledger.com (available; not purchased by this sketch)  
+**Display name:** Long Haul Ledger (repo / Pages path still `longview-ledger` for now)  
+**Domain intent:** longhaulledger.com (preferred); longviewledger.com also noted historically — neither purchased; availability check not required for this sketch  
 **Owner:** Cassidy Waters  
 **Status:** Soft launch — US Progress rail from public RSS (REAL); country desks SAMPLE
 
@@ -41,7 +42,7 @@ The global **Ledger** rail is a civilization-weighted feed; selecting a country 
 | **US Progress** rail: REAL public RSS via GitHub Actions (every ~6h + manual) | Broader country rails + denser weighting |
 | Country desks / chains / companies still SAMPLE | Attach real articles to desks; drop SAMPLE fiction where sourced |
 | SVG atlas + zoom/pan (vertical zoom + legend) | Richer cartography, time layers, comparison |
-| Free feeds only — no paid APIs, no always-on server ($0) | Optional paid data / custom domain (longviewledger.com) |
+| Free feeds only — no paid APIs, no always-on server ($0) | Optional paid data / custom domain (longhaulledger.com) |
 
 **Honesty rule:** rail items that open outbound URLs are **REAL**. Desks/chains/companies stay **SAMPLE**-labeled until sourced.
 
@@ -56,7 +57,7 @@ Some feeds may **403 intermittently** (bot filters / WAF); the fetcher records f
 
 ## Naming & vibe
 
-Vibe words locked: **longview + skilltree + civilization + world atlas + ledger**.  
+Display name: **Long Haul Ledger**. Vibe words: **long haul + skilltree + civilization + world atlas + ledger** (repo folder remains `longview-ledger`).  
 Aesthetic: sober intelligence desk — dark ink on slate/parchment, restrained brass. Distinct from Captain’s Log chrome and Aretoria’s sacred/fantasy portal.
 
 ## Board relation (do not rebuild)
@@ -66,12 +67,12 @@ Aesthetic: sober intelligence desk — dark ink on slate/parchment, restrained b
 | **Captain’s Log** | Main personal site (MEC + Aretoria features) — https://casswaters.github.io/modern-era-calendar/ |
 | **Aretoria** | Standalone + feature inside CL — virtue realms / fantasy-adjacent sacred portal |
 | **ForgeCraft** | Parked |
-| **Longview Ledger** | This project — standalone GitHub Pages civilization desk |
+| **Long Haul Ledger** | This project — standalone GitHub Pages civilization desk |
 
 ## Success for soft launch
 
 - Live at GitHub Pages with zoomable map → country panel + mind map → value chain → company desk.  
 - **US Progress** rail shows REAL RSS items with outbound links; SAMPLE badges remain on desks.  
-- Vertical atlas legend + zoom controls. SW cache `longview-ledger-v4`.  
+- Vertical atlas legend + zoom controls. SW cache `long-haul-ledger-v1`.  
 - Seed desks: United States, India, UAE, Japan, Nigeria, Chile (full chains for ≥2–3 industries each).  
 - Fetcher + Action stay within free GitHub Actions; no paid APIs or domains purchased.

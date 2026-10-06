@@ -1,5 +1,5 @@
 /**
- * Longview Ledger — data shape + nav + zoom + chains asserts
+ * Long Haul Ledger — data shape + nav + zoom + chains asserts
  */
 import { readFileSync, existsSync } from 'fs';
 import {
@@ -25,13 +25,13 @@ function assert(name, cond, detail = '') {
 const FULL = ['us', 'in', 'ae', 'jp', 'ng', 'cl'];
 
 console.log('\n--- Meta & files ---');
-assert('name Longview Ledger', META.name === 'Longview Ledger');
+assert('name Long Haul Ledger', META.name === 'Long Haul Ledger');
 assert('creed 10,000 Year Empire', META.creed === '10,000 Year Empire');
-assert('domain intent noted', META.domainIntent === 'longviewledger.com');
+assert('domain intent noted', META.domainIntent === 'longhaulledger.com');
 assert('sample flag true', META.sample === true);
 assert('index.html exists', existsSync(new URL('./index.html', import.meta.url)));
 assert('world.svg exists', existsSync(new URL('./world.svg', import.meta.url)));
-assert('sw.js cache name longview-ledger-v4', /longview-ledger-v4/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+assert('sw.js cache name long-haul-ledger-v1', /long-haul-ledger-v1/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
 assert('BRIEF.md exists', existsSync(new URL('./BRIEF.md', import.meta.url)));
 assert('app has ?fresh=1 bust', /\bfresh\b/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 assert('zoom.js exists', existsSync(new URL('./zoom.js', import.meta.url)));

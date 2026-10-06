@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Longview Ledger — soft-launch RSS fetcher ($0, no paid APIs).
+ * Long Haul Ledger — soft-launch RSS fetcher ($0, no paid APIs).
  * Pulls public feeds from data/sources.json → data/signals-live.json
  */
 import { readFileSync, writeFileSync, mkdirSync } from 'fs';
@@ -13,7 +13,7 @@ const SOURCES_PATH = join(ROOT, 'data', 'sources.json');
 const OUT_PATH = join(ROOT, 'data', 'signals-live.json');
 
 const UA =
-  'LongviewLedgerBot/0.1 (+https://casswaters.github.io/longview-ledger/; soft-launch public RSS; no scraping beyond feed XML)';
+  'LongHaulLedgerBot/0.1 (+https://casswaters.github.io/longview-ledger/; soft-launch public RSS; no scraping beyond feed XML)';
 const FETCH_TIMEOUT_MS = 14000;
 const PER_FEED_CAP = 18;
 const GLOBAL_CAP = 110;

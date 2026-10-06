@@ -1,5 +1,5 @@
 /**
- * Longview Ledger — SAMPLE value chains + company desks (v0).
+ * Long Haul Ledger — SAMPLE value chains + company desks (v0).
  * Believable invented names; not live corporate data.
  */
 import { COUNTRIES, STUBS, getCountry } from './data.js';

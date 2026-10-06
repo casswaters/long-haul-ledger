@@ -1,12 +1,12 @@
 /**
- * Longview Ledger — SAMPLE seed data (v0 sketch).
+ * Long Haul Ledger — SAMPLE seed data (v0 sketch).
  * Not live news. Invented but coherent civilization-weighted signals.
  */
 export const META = {
-  name: 'Longview Ledger',
+  name: 'Long Haul Ledger',
   creed: '10,000 Year Empire',
   version: '0.3-soft',
-  domainIntent: 'longviewledger.com',
+  domainIntent: 'longhaulledger.com',
   sample: true,
   softLaunch: true,
   sketchNote:

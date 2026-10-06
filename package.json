@@ -3,7 +3,7 @@
   "version": "0.3.0",
   "private": true,
   "type": "module",
-  "description": "Longview Ledger — soft-launch US Progress RSS + SAMPLE desks",
+  "description": "Long Haul Ledger — soft-launch US Progress RSS + SAMPLE desks",
   "scripts": {
     "test": "node ledger.test.js",
     "fetch": "node scripts/fetch-signals.mjs",

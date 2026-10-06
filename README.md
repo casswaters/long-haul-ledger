@@ -1,4 +1,4 @@
-# Longview Ledger
+# Long Haul Ledger
 
 **10,000 Year Empire** — civilization news + map + opportunity desk.
 
