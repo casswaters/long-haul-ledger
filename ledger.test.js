@@ -32,7 +32,7 @@ assert('domain intent noted', META.domainIntent === 'longhaulledger.com');
 assert('sample flag true', META.sample === true);
 assert('index.html exists', existsSync(new URL('./index.html', import.meta.url)));
 assert('world.svg exists', existsSync(new URL('./world.svg', import.meta.url)));
-assert('sw.js cache name long-haul-ledger-v7', /long-haul-ledger-v7/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v6/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+assert('sw.js cache name long-haul-ledger-v8', /long-haul-ledger-v8/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v[67]'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
 assert('BRIEF.md exists', existsSync(new URL('./BRIEF.md', import.meta.url)));
 assert('app has ?fresh=1 bust', /\bfresh\b/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 assert('zoom.js exists', existsSync(new URL('./zoom.js', import.meta.url)));
@@ -492,6 +492,15 @@ console.log('\n--- Retone: sober framing + PROTOTYPE labels ---');
   assert('atlas legend keeps State equivalent drill + i toggle', /World → Country → State equivalent → City/.test(html) && /map-label-toggle-icon[^>]*>i</.test(html));
   assert('tabular numerals', /font-variant-numeric:\s*tabular-nums/.test(css));
   assert('BUILD-PLAN.md kept in repo', existsSync(new URL('./BUILD-PLAN.md', import.meta.url)));
+  {
+    const wf = readFileSync(new URL('./.github/workflows/soft-launch.yml', import.meta.url), 'utf8');
+    const ex = (wf.match(/exclude_assets:\s*'([^']*)'/) || [])[1] || '';
+    assert('deploy excludes BUILD-PLAN.md from Pages', ex.split(',').map((x) => x.trim()).includes('BUILD-PLAN.md'), ex);
+    const swSrc = readFileSync(new URL('./sw.js', import.meta.url), 'utf8');
+    assert('SW does not cache/serve .md docs', /endsWith\('\.md'\)\) return;/.test(swSrc) && !/BUILD-PLAN/.test(swSrc));
+    const pub = [html, appSrc, readme, brief, manifest, css];
+    assert('nothing published links to BUILD-PLAN.md', !pub.some((t) => /\]\(\.?\/?BUILD-PLAN\.md|href="[^"]*BUILD-PLAN/i.test(t)));
+  }
   assert('BRIEF points to subscription brief + prototype layer', /subscription brief/i.test(brief) && /PROTOTYPE/.test(brief));
 }
 

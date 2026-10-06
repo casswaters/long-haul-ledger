@@ -1,6 +1,6 @@
 # Long Haul Ledger — Product Brief (v1, retoned Oct 6, 2026)
 
-**Governing document:** the Long Haul Ledger subscription brief. Where this brief, [BUILD-PLAN.md](./BUILD-PLAN.md) and the subscription brief differ, the subscription brief wins.
+**Governing document:** the Long Haul Ledger subscription brief. Where this brief, the build plan (`BUILD-PLAN.md`, kept on main and not published to Pages) and the subscription brief differ, the subscription brief wins.
 
 **Display name:** Long Haul Ledger
 **Tagline:** A sourced record of what moved in US industry, with a world index.
@@ -67,4 +67,4 @@ Leadership response times stay **ESTIMATE**, unverified fields stay **SAMPLE**. 
 
 - Every fictional number sits next to a visible PROTOTYPE label; atlas and rail behave as before.
 - US desks entry point live; Prices sample shows real values with as-of dates and source links.
-- SW cache `long-haul-ledger-v7`; `npm test` passes.
+- SW cache `long-haul-ledger-v8` (v8: BUILD-PLAN.md kept off Pages; SW skips .md); `npm test` passes.
