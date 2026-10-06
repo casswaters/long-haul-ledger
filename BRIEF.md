@@ -19,25 +19,28 @@ A long-horizon operator / student of development: founder, allocator, policy ner
 
 **Civilization news + map + opportunity desk.**
 
-1. See the world as an atlas of development pressure.  
-2. Click a country → context + sketch metrics (stability, frontier pressure, opportunity).  
-3. Drill into **industry** or **region**.  
-4. Read headlines weighted toward civilization capacity — not celebrity.  
-5. Surface **openings**: weak spots framed as long-horizon skilltree gaps (grid, talent, logistics, regulation windows).
+1. See the world as an atlas of development pressure (zoom/pan so small states are reachable).  
+2. **Single-click** a country → country desk (signals / industries / regions / openings).  
+3. **Double-click** (desktop) or **long-press** / **Mind map** button (mobile) → industry mind map (skilltree).  
+4. Click an industry node → SAMPLE value chain (upstream / midstream / downstream).  
+5. Click a company → SAMPLE announcements + “working on next” pipeline.  
+6. Surface **openings**: weak spots framed as long-horizon skilltree gaps.
 
 ## Core loop
 
-**Map → country desk → industry/region filter → signals + openings → back to map / global ledger.**
+**Map (zoom) → country desk ↔ industry mind map → value chain → company desk → back.**
 
 The global **Ledger** rail is a civilization-weighted feed; selecting a country filters it. Openings are deliberately *not* trade tips — they are multi-year / multi-decade gaps.
+
+**Click distinction (documented in UI):** single-click opens the existing country desk; double-click / long-press / Mind map button opens the radiating industry mind map.
 
 ## Version 0 vs later
 
 | Version 0 (this sketch) | Later |
 | --- | --- |
 | Static SAMPLE seed data (6 full desks + stubs) | Continuous ingest + human/AI weighting by civ-development impact |
-| Simplified SVG atlas | Richer cartography, time layers, comparison |
-| Invented metrics | Transparent methodology + sources |
+| SVG atlas + zoom/pan | Richer cartography, time layers, comparison |
+| Invented metrics + SAMPLE value chains / companies | Transparent methodology + sources |
 | Single static GitHub Pages app | Possible custom domain (longviewledger.com), alerts, saved watches |
 
 **Do not claim live news scraping in v0.**
@@ -58,6 +61,6 @@ Aesthetic: sober intelligence desk — dark ink on slate/parchment, restrained b
 
 ## Success for v0
 
-- Live sketch at GitHub Pages with clickable map → country panel (signals / industries / regions / openings).  
+- Live sketch at GitHub Pages with zoomable map → country panel + mind map → value chain → company desk.  
 - BRIEF present; SAMPLE labeling honest.  
-- Seed desks: United States, India, UAE, Japan, Nigeria, Chile.
+- Seed desks: United States, India, UAE, Japan, Nigeria, Chile (full chains for ≥2–3 industries each).

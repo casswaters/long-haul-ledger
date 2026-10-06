@@ -1,5 +1,5 @@
-/* Longview Ledger service worker — network-first app shell (longview-ledger-v1) */
-const CACHE = 'longview-ledger-v1';
+/* Longview Ledger service worker — network-first app shell (longview-ledger-v2) */
+const CACHE = 'longview-ledger-v2';
 const ASSETS = [
   './',
   './index.html',
@@ -7,6 +7,8 @@ const ASSETS = [
   './app.js',
   './data.js',
   './nav.js',
+  './zoom.js',
+  './chains.js',
   './world.svg',
   './manifest.webmanifest',
   './icons/icon.svg',

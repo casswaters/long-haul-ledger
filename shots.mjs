@@ -43,7 +43,7 @@ try {
     const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
     await page.goto(base + '/', { waitUntil: 'networkidle' });
     await page.waitForSelector('#world-map-host svg path', { timeout: 15000 });
-    await page.waitForTimeout(500);
+    await page.waitForTimeout(400);
     await page.screenshot({ path: join(outDir, '01-desktop-hub.png'), fullPage: true });
     await page.close();
     console.log('01 ok');
@@ -52,7 +52,7 @@ try {
     const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
     await page.goto(base + '/#c=in&t=industries&s=energy', { waitUntil: 'networkidle' });
     await page.waitForSelector('.country-head h2', { timeout: 15000 });
-    await page.waitForTimeout(500);
+    await page.waitForTimeout(400);
     await page.screenshot({ path: join(outDir, '02-desktop-country-drill.png'), fullPage: true });
     await page.close();
     console.log('02 ok');
@@ -61,10 +61,48 @@ try {
     const page = await browser.newPage({ viewport: { width: 390, height: 844 }, isMobile: true });
     await page.goto(base + '/#c=us&t=openings', { waitUntil: 'networkidle' });
     await page.waitForSelector('.opening-card', { timeout: 15000 });
-    await page.waitForTimeout(500);
+    await page.waitForTimeout(400);
     await page.screenshot({ path: join(outDir, '03-mobile-panel.png'), fullPage: true });
     await page.close();
     console.log('03 ok');
+  }
+  {
+    const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+    await page.goto(base + '/', { waitUntil: 'networkidle' });
+    await page.waitForSelector('#zoom-in', { timeout: 15000 });
+    await page.click('#zoom-in');
+    await page.click('#zoom-in');
+    await page.waitForTimeout(300);
+    await page.screenshot({ path: join(outDir, '04-zoom.png'), fullPage: false });
+    await page.close();
+    console.log('04 zoom ok');
+  }
+  {
+    const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+    await page.goto(base + '/#c=us&v=mindmap', { waitUntil: 'networkidle' });
+    await page.waitForSelector('.mindmap-svg', { timeout: 15000 });
+    await page.waitForTimeout(400);
+    await page.screenshot({ path: join(outDir, '05-mindmap.png'), fullPage: false });
+    await page.close();
+    console.log('05 mindmap ok');
+  }
+  {
+    const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+    await page.goto(base + '/#c=us&v=chain&s=energy', { waitUntil: 'networkidle' });
+    await page.waitForSelector('.chain-grid', { timeout: 15000 });
+    await page.waitForTimeout(400);
+    await page.screenshot({ path: join(outDir, '06-chain.png'), fullPage: false });
+    await page.close();
+    console.log('06 chain ok');
+  }
+  {
+    const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+    await page.goto(base + '/#c=us&v=company&s=energy&co=us-gridforge', { waitUntil: 'networkidle' });
+    await page.waitForSelector('.company-panel', { timeout: 15000 });
+    await page.waitForTimeout(400);
+    await page.screenshot({ path: join(outDir, '07-company.png'), fullPage: false });
+    await page.close();
+    console.log('07 company ok');
   }
   console.log('shots written to', outDir);
 } finally {
