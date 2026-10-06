@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T19:33:10.018Z",
+  "generatedAt": "2026-10-06T19:48:06.915Z",
   "mode": "us-progress",
   "itemCount": 110,
   "sourcesOk": [
@@ -86,6 +86,25 @@
   ],
   "sourcesFailed": [],
   "items": [
+    {
+      "id": "live-1w4y34x",
+      "title": "Energy Firms Try to Squeeze More Power Out of Old Nuclear Plants",
+      "url": "https://www.nytimes.com/2026/10/06/climate/nuclear-power-plant-google-data-centers.html",
+      "source": "NYT Technology",
+      "sourceId": "nyt-tech",
+      "kind": "hard-news",
+      "published": "2026-10-06T19:37:08.000Z",
+      "publishedLabel": "Oct 6, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "compute",
+        "tech"
+      ],
+      "score": 100,
+      "blurb": "It takes a long time to build new nuclear plants. So, some U.S. companies are looking to get more electricity out of reactors that already exist.",
+      "real": true
+    },
     {
       "id": "live-13auulg",
       "title": "NASA Glenn Invites Phase 1 Proposals for Aerospace Power Systems Laboratory",
@@ -424,7 +443,7 @@
     },
     {
       "id": "live-10nmey4",
-      "title": "Constellation-Google deal will bring $4.3B investment, 890 MW new nuclear to PJM",
+      "title": "Constellation, Google strike 890-MW nuclear deal in PJM",
       "url": "https://www.utilitydive.com/news/constellation-google-deal-will-bring-890-mw-of-new-nuclear-to-pjm/832223/",
       "source": "Utility Dive",
       "sourceId": "utility-dive",
@@ -1160,7 +1179,7 @@
       "sourceId": "mit-news",
       "kind": "analysis",
       "published": "2026-10-02T04:00:00.000Z",
-      "publishedLabel": "Oct 1, 2026",
+      "publishedLabel": "Oct 2, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -1180,7 +1199,7 @@
       "sourceId": "mit-news",
       "kind": "analysis",
       "published": "2026-10-02T04:00:00.000Z",
-      "publishedLabel": "Oct 1, 2026",
+      "publishedLabel": "Oct 2, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -1320,7 +1339,7 @@
       "sourceId": "asterisk",
       "kind": "analysis",
       "published": "2026-08-04T00:00:00.000Z",
-      "publishedLabel": "Aug 3, 2026",
+      "publishedLabel": "Aug 4, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -1855,7 +1874,7 @@
       "sourceId": "mit-news",
       "kind": "analysis",
       "published": "2026-09-29T04:00:00.000Z",
-      "publishedLabel": "Sep 28, 2026",
+      "publishedLabel": "Sep 29, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -1875,7 +1894,7 @@
       "sourceId": "mit-news",
       "kind": "analysis",
       "published": "2026-09-29T04:00:00.000Z",
-      "publishedLabel": "Sep 28, 2026",
+      "publishedLabel": "Sep 29, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -2234,25 +2253,6 @@
       ],
       "score": 73,
       "blurb": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s.",
-      "real": true
-    },
-    {
-      "id": "live-1t6iht1",
-      "title": "Gears of War: E-Day Is Nostalgic With Rich Visuals",
-      "url": "https://www.nytimes.com/2026/10/06/arts/gears-of-war-e-day-review.html",
-      "source": "NYT Technology",
-      "sourceId": "nyt-tech",
-      "kind": "hard-news",
-      "published": "2026-10-06T09:01:01.000Z",
-      "publishedLabel": "Oct 6, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "compute",
-        "tech"
-      ],
-      "score": 73,
-      "blurb": "In Gears of War: E-Day, it’s fun to see the origins of beloved characters in grand scale, even if its play feels conservative.",
       "real": true
     }
   ]
