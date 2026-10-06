@@ -1,5 +1,5 @@
-/* Long Haul Ledger service worker — network-first app shell (long-haul-ledger-v7) */
-const CACHE = 'long-haul-ledger-v7';
+/* Long Haul Ledger service worker — network-first app shell (long-haul-ledger-v8) */
+const CACHE = 'long-haul-ledger-v8';
 const ASSETS = [
   './',
   './index.html',
@@ -59,6 +59,8 @@ self.addEventListener('fetch', (event) => {
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
+  // Never cache or serve docs (.md) from the SW; let the network answer.
+  if (url.pathname.endsWith('.md')) return;
 
   if (isShell(url)) {
     event.respondWith(

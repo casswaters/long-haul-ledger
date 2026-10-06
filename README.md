@@ -13,7 +13,7 @@ Live: https://casswaters.github.io/long-haul-ledger/
 | **US desks**: Activity, People, Prices, Capital (`#d=prices`) | Prices sample wired to public series (EIA diesel and Henry Hub via FRED CSV, no key). Activity, People and Capital show an honest empty state until a sourced record lands |
 | Monday Haul | Coming soon. No sign-up, pricing or login yet |
 
-Desk record rules: every line has a source URL, an as-of date and a revision note; history is append-only and superseded lines stay visible. See [BUILD-PLAN.md](./BUILD-PLAN.md) §3 and [BRIEF.md](./BRIEF.md).
+Desk record rules: every line has a source URL, an as-of date and a revision note; history is append-only and superseded lines stay visible. See the build plan (§3, `BUILD-PLAN.md` on the repo's main branch, not published to Pages) and [BRIEF.md](./BRIEF.md).
 
 **PROTOTYPE** marks example data for UX testing: country metrics, signals, constraints, mind maps, value chains and company desks (including the India, UAE, Japan, Nigeria and Chile desks). It is fiction, not sourced, and never part of any desk or subscription. Leadership lists public channels only; SAMPLE / ESTIMATE marks unverified fields.
 
