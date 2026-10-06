@@ -2,7 +2,7 @@
 
 **10,000 Year Empire** — civilization news + map + opportunity desk.
 
-Soft launch: **US Progress** rail from free public RSS (GitHub Actions). Country desks SAMPLE. Leadership accordion + map drill-down (US states, India states, UAE emirates, Japan regions).
+Soft launch: **US Progress** rail from free public RSS (GitHub Actions). Country desks SAMPLE. Leadership accordion + map drill-down World → Country → State equivalent → City (US states, India states, UAE emirates, Japan regions). Rail items carry verification tiers (Unconfirmed / Multiple sources / Confirmed / Analysis).
 
 Live: https://casswaters.github.io/long-haul-ledger/
 

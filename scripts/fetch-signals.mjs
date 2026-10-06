@@ -6,6 +6,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { dirname, join, resolve as resolvePath } from 'path';
 import { fileURLToPath } from 'url';
+import { classifyItems, tierCounts, VERIFY_WINDOW_HOURS } from '../verify.js';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dir, '..');
@@ -199,6 +200,8 @@ export function normalizeItem(raw, source) {
     score,
     blurb,
     real: true,
+    primary: !!source.primary,
+    outlet: source.outlet || source.id,
   };
 }
 
@@ -289,8 +292,11 @@ export async function fetchAll(sources, { fetchImpl = fetchText } = {}) {
     }
   }
 
-  const merged = mergeAndCap(items, GLOBAL_CAP);
-  return { ok, failed, items: merged };
+  // Classify across everything fetched (pre-cap) so a primary-source item that
+  // misses the cap can still confirm a cluster that made it in.
+  const classified = classifyItems(items);
+  const merged = mergeAndCap(classified, GLOBAL_CAP);
+  return { ok, failed, items: merged, pool: classified };
 }
 
 async function main() {
@@ -305,6 +311,11 @@ async function main() {
     generatedAt: new Date().toISOString(),
     mode: pack.mode || 'us-progress',
     itemCount: items.length,
+    verification: {
+      counts: tierCounts(items),
+      windowHours: VERIFY_WINDOW_HOURS,
+      note: 'confirmed = subject/primary source confirmed; multiple = 2+ independent outlets, unconfirmed by subject; unconfirmed = single outlet; analysis = opinion/analysis (no tier).',
+    },
     sourcesOk: ok,
     sourcesFailed: failed,
     items,
@@ -313,6 +324,7 @@ async function main() {
   writeFileSync(OUT_PATH, JSON.stringify(payload, null, 2) + '\n');
   console.log(`Wrote ${items.length} items → ${OUT_PATH}`);
   console.log(`OK ${ok.length} / FAIL ${failed.length}`);
+  console.log('Verification tiers:', JSON.stringify(payload.verification.counts));
   if (!items.length) process.exit(2);
   else process.exit(0);
 }

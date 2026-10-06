@@ -10,7 +10,7 @@ export const META = {
   sample: true,
   softLaunch: true,
   sketchNote:
-    'Soft launch: the US Progress ledger rail is fed by free public RSS via GitHub Actions (REAL outbound links). Country desks, metrics, value chains, and company desks remain SAMPLE fiction. Leadership accordion + admin-1 map drill (US/IN/AE/JP seeded). No paid APIs; $0 on GitHub Pages + Actions.',
+    'Soft launch: the US Progress ledger rail is fed by free public RSS via GitHub Actions (REAL outbound links). Country desks, metrics, value chains, and company desks remain SAMPLE fiction. Leadership accordion + map drill World → Country → State equivalent → City (US/IN/AE/JP seeded). No paid APIs; $0 on GitHub Pages + Actions.',
 };
 
 /** @typedef {{ id: string, title: string, blurb: string, weight: number, sector?: string, region?: string, date: string }} Signal */

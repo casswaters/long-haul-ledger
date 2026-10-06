@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-06T19:48:06.915Z",
+  "generatedAt": "2026-10-06T21:23:17.251Z",
   "mode": "us-progress",
   "itemCount": 110,
+  "verification": {
+    "counts": {
+      "confirmed": 24,
+      "multiple": 3,
+      "unconfirmed": 43,
+      "analysis": 40,
+      "sample": 0
+    },
+    "windowHours": 48,
+    "note": "confirmed = subject/primary source confirmed; multiple = 2+ independent outlets, unconfirmed by subject; unconfirmed = single outlet; analysis = opinion/analysis (no tier)."
+  },
   "sourcesOk": [
     {
       "id": "eia-today",
@@ -103,7 +114,26 @@
       ],
       "score": 100,
       "blurb": "It takes a long time to build new nuclear plants. So, some U.S. companies are looking to get more electricity out of reactors that already exist.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "nyt",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1w4y34x",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NYT Technology",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/10/06/climate/nuclear-power-plant-google-data-centers.html",
+            "primary": false,
+            "published": "2026-10-06T19:37:08.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-13auulg",
@@ -123,7 +153,28 @@
       ],
       "score": 100,
       "blurb": "NASA’s Glenn Research Center in Cleveland is seeking Phase 1 proposals for the design and construction of the Aerospace Power Systems Laboratory. The principal purpose of this procurement is to deliver a laboratory facility to support the testing and development of power systems,",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "nasa-news",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-13auulg",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NASA News",
+            "outlet": "nasa-news",
+            "url": "https://www.nasa.gov/news-release/nasa-glenn-invites-phase-1-proposals-for-aerospace-power-systems-laboratory/",
+            "primary": true,
+            "published": "2026-10-06T17:55:52.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "NASA News"
+        ]
+      }
     },
     {
       "id": "live-1mon58e",
@@ -142,7 +193,28 @@
       ],
       "score": 100,
       "blurb": "The U.S. Department of Energy today announced its intent to deploy Defense Production Act funding to develop a second high-voltage connection between Southcentral and Interior Alaska, strengthening grid infrastructure essential to national defense.",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "doe-press",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-1mon58e",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "U.S. Department of Energy",
+            "outlet": "doe-press",
+            "url": "https://www.energy.gov/articles/energy-department-announces-alaska-railbelt-transmission-project-receive-defense",
+            "primary": true,
+            "published": "2026-10-05T17:05:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "U.S. Department of Energy"
+        ]
+      }
     },
     {
       "id": "live-10xjnht",
@@ -162,7 +234,26 @@
       ],
       "score": 100,
       "blurb": "<figure><div><img src=\"https://imgproxy.divecdn.com/DHokSJ-NWZaP_OB0WwKc-BAfVZYFy2tJnfPY4V49W_Q/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS82STVBMzE2NWIuanBn.webp\"/></div></figure><p>For utilities, rapidly rising interest rates will make keeping capital exp",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "utility-dive",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-10xjnht",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Utility Dive",
+            "outlet": "utility-dive",
+            "url": "https://www.utilitydive.com/news/rising-interest-rates-utility-financing-us-bank/832131/",
+            "primary": false,
+            "published": "2026-10-05T14:47:15.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-1h8ff3o",
@@ -181,7 +272,26 @@
       ],
       "score": 99,
       "blurb": "Manufacturers say they are close to perfecting a new, more efficient solar panel that could help the United States reclaim ground it lost.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "nyt",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1h8ff3o",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NYT Technology",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/10/05/business/energy-environment/tandem-solar-panels-us-china.html",
+            "primary": false,
+            "published": "2026-10-05T15:41:58.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-6kq7gh",
@@ -201,7 +311,23 @@
       ],
       "score": 98,
       "blurb": "The effort aims to help U.S. learners from kindergarten to community college, with an emphasis on math, making, and the constructive use of AI.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/mit-america-initiative-strengthens-stem-education-across-country-1006",
+            "primary": false,
+            "published": "2026-10-06T15:00:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-raannx",
@@ -221,7 +347,26 @@
       ],
       "score": 98,
       "blurb": "<figure><div><img src=\"https://imgproxy.divecdn.com/j0lD7kzZkAwu88l-aruC2Z-ryi_Jnbmv7EPYa6vOPV8/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9CZWF2ZXJfVmFsbGV5X051Y2xlYXJfUG93ZXJfUGxhbnRfWXdmVm42Uy5qcGc=.webp\"/></div></figure><p>The loan would cover&nbsp;433 ",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "utility-dive",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-raannx",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Utility Dive",
+            "outlet": "utility-dive",
+            "url": "https://www.utilitydive.com/news/doe-intends-to-loan-vistra-42b-for-nuclear-fleet-improvements/832236/",
+            "primary": false,
+            "published": "2026-10-06T14:00:02.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-1myf1f3",
@@ -241,7 +386,26 @@
       ],
       "score": 97,
       "blurb": "The Pebble Flow has a 45 kWh LFP battery and can even charge an EV.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1myf1f3",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/cars/2026/10/this-self-parking-electric-travel-trailer-gets-a-solar-upgrade-for-2027/",
+            "primary": false,
+            "published": "2026-10-06T15:23:28.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-fhmxz3",
@@ -261,27 +425,23 @@
       ],
       "score": 95,
       "blurb": "A Senate permitting reform bill, the potential of Tesla&#8217;s Cybercab, the Navy&#8217;s $200 billion worth of shipyard renovations, returning a SR-71 to service, and more.",
-      "real": true
-    },
-    {
-      "id": "live-1jpr3b4",
-      "title": "Climate Action Learning Lab bridges research and policy for effective climate solutions",
-      "url": "https://news.mit.edu/2026/climate-action-learning-lab-bridges-research-policy-for-effective-climate-solutions-0929",
-      "source": "MIT News",
-      "sourceId": "mit-news",
-      "kind": "analysis",
-      "published": "2026-09-29T20:35:00.000Z",
-      "publishedLabel": "Sep 29, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "research",
-        "compute",
-        "energy"
-      ],
-      "score": 94,
-      "blurb": "J-PAL North America’s Learning Lab supported a second cohort of U.S. government and nonprofit organizations in building and using rigorous evidence to advance effective decarbonization and adaptation strategies.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "construction-physics",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Construction Physics",
+            "outlet": "construction-physics",
+            "url": "https://www.construction-physics.com/p/reading-list-2026-10-03",
+            "primary": false,
+            "published": "2026-10-03T13:14:44.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-u1uyed",
@@ -300,7 +460,28 @@
       ],
       "score": 94,
       "blurb": "The U.S. Department of Energy’s (DOE) Office of Electricity (OE) today announced its intention to help fund 31 grid-improvement projects across 26 states",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "doe-press",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-u1uyed",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "U.S. Department of Energy",
+            "outlet": "doe-press",
+            "url": "https://www.energy.gov/articles/energy-department-announces-speed-power-investments-across-26-states-lower-electricity",
+            "primary": true,
+            "published": "2026-09-24T14:21:45.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "U.S. Department of Energy"
+        ]
+      }
     },
     {
       "id": "live-1aordog",
@@ -320,7 +501,28 @@
       ],
       "score": 93,
       "blurb": "A newly released panorama captured by NASA’s Curiosity rover offers the most detailed view yet of distant, wind-carved Martian cliffs, highlighting features the mission’s scientists have long been waiting to see up close. The scene was snapped at 8:30 a.m. local Mars time, showin",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "nasa-news",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-1aordog",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NASA News",
+            "outlet": "nasa-news",
+            "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/",
+            "primary": true,
+            "published": "2026-10-06T15:30:07.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "NASA News"
+        ]
+      }
     },
     {
       "id": "live-pqikli",
@@ -340,7 +542,33 @@
       ],
       "score": 93,
       "blurb": "Oil companies say federal law should block state climate deception claims.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "multiple",
+        "label": "Multiple sources",
+        "clusterId": "vc-1u8tvnm",
+        "clusterSize": 2,
+        "outlets": 2,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/tech-policy/2026/10/big-oil-asks-supreme-court-to-kill-climate-lawsuits-before-trial/",
+            "primary": false,
+            "published": "2026-10-06T13:29:46.000Z"
+          },
+          {
+            "name": "NYT Climate / Energy",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/10/04/climate/boulder-lawsuit-supreme-court.html",
+            "primary": false,
+            "published": "2026-10-05T15:29:52.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-2npb5",
@@ -359,7 +587,26 @@
       ],
       "score": 93,
       "blurb": "Valar Atomics wants to place over 450 reactors on more than 9,500 acres in Utah to power a huge data center project.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "npr-science",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-2npb5",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NPR Science",
+            "outlet": "npr-science",
+            "url": "https://www.npr.org/2026/09/30/nx-s1-5983482/valar-atomic-nuclear-data-center-project-beehive-utah",
+            "primary": false,
+            "published": "2026-09-30T09:01:00.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-16dwdqq",
@@ -379,7 +626,23 @@
       ],
       "score": 91,
       "blurb": "Pepper-spray drones, China&#8217;s chip Manhattan Project, Commonwealth Fusion&#8217;s fundraise, and a proposed Dulles Airport renovation.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "construction-physics",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Construction Physics",
+            "outlet": "construction-physics",
+            "url": "https://www.construction-physics.com/p/reading-list-080126",
+            "primary": false,
+            "published": "2026-08-01T12:04:01.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-1d631g3",
@@ -399,7 +662,26 @@
       ],
       "score": 90,
       "blurb": "<figure><div><img src=\"https://imgproxy.divecdn.com/tThVeTmTqwiND5hQDvss8fAGHBMdcLxGWFx_21c9l5k/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDU1ODY5Njk2LmpwZw==.webp\"/></div></figure><p>The first round of awards under the Maryland Next Gene",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "utility-dive",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1d631g3",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Utility Dive",
+            "outlet": "utility-dive",
+            "url": "https://www.utilitydive.com/news/maryland-nets-440-mw1760-mwh-in-first-bulk-energy-storage-procurement/832261/",
+            "primary": false,
+            "published": "2026-10-06T16:01:15.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-h8tohx",
@@ -419,7 +701,26 @@
       ],
       "score": 90,
       "blurb": "<figure><div><img src=\"https://imgproxy.divecdn.com/ao5Bret2flUpvbKmwviIqDTOfjcgTc81Wi6F424Ouh0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy04NjEwNTU5MjAuanBn.webp\"/></div></figure><p>Commonwealth Edison will file a virtual power plant framew",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "utility-dive",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-h8tohx",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Utility Dive",
+            "outlet": "utility-dive",
+            "url": "https://www.utilitydive.com/news/illinois-vpp-virtual-power-plant-comed/831735/",
+            "primary": false,
+            "published": "2026-10-06T15:00:00.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-ue0l20",
@@ -439,11 +740,30 @@
       ],
       "score": 90,
       "blurb": "<figure><div><img src=\"https://imgproxy.divecdn.com/-dKFteM72F-7CIhaUtHcYQ6wnjJ1o6Rm5krOWP1AnYk/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy02Njk1MjA3MTIuanBn.webp\"/></div></figure><p>&ldquo;This approach can materially accelerate the process",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "utility-dive",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-ue0l20",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Utility Dive",
+            "outlet": "utility-dive",
+            "url": "https://www.utilitydive.com/news/miso-accelerated-interconnection-queue-ferc/832246/",
+            "primary": false,
+            "published": "2026-10-06T14:49:21.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-10nmey4",
-      "title": "Constellation, Google strike 890-MW nuclear deal in PJM",
+      "title": "Constellation-Google deal will bring $4.3B investment, 890 MW new nuclear to PJM",
       "url": "https://www.utilitydive.com/news/constellation-google-deal-will-bring-890-mw-of-new-nuclear-to-pjm/832223/",
       "source": "Utility Dive",
       "sourceId": "utility-dive",
@@ -459,7 +779,26 @@
       ],
       "score": 90,
       "blurb": "<p>Constellation Energy has signed 20-year power purchase agreements with both Google and Amazon in the last week, supporting almost 1.1 GW of nuclear expansions.</p>",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "utility-dive",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-10nmey4",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Utility Dive",
+            "outlet": "utility-dive",
+            "url": "https://www.utilitydive.com/news/constellation-google-deal-will-bring-890-mw-of-new-nuclear-to-pjm/832223/",
+            "primary": false,
+            "published": "2026-10-06T12:55:10.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-bdajhp",
@@ -479,7 +818,26 @@
       ],
       "score": 90,
       "blurb": "<figure><div><img src=\"https://imgproxy.divecdn.com/KP-NZsE3EojMbciTvTHP9YO7oY_yJgVY9INp39Hf1ug/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMjI0OTEyMTA4X1JPQ05hbnAuanBn.webp\"/></div></figure><p>Dominion said the memo wasn&rsquo;t relevant t",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "utility-dive",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-bdajhp",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Utility Dive",
+            "outlet": "utility-dive",
+            "url": "https://www.utilitydive.com/news/virginia-hearing-examiner-tells-dominion-to-release-memo-on-fpl-investigati/832149/",
+            "primary": false,
+            "published": "2026-10-05T16:02:18.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-3qd0ru",
@@ -499,7 +857,26 @@
       ],
       "score": 90,
       "blurb": "<figure><div><img src=\"https://imgproxy.divecdn.com/6441MLvnLZyQO9iUakZ2H21NS_tQYCEzGBS219lT158/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMzEwMTc5NjMxLmpwZw==.webp\"/></div></figure><p>The tech giant and energy producer are backing improve",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "utility-dive",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-3qd0ru",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Utility Dive",
+            "outlet": "utility-dive",
+            "url": "https://www.utilitydive.com/news/amazon-constellation-sign-20-year-ppa-to-expand-maryland-nuclear-plant/832145/",
+            "primary": false,
+            "published": "2026-10-05T16:00:00.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-17h8tmj",
@@ -519,7 +896,26 @@
       ],
       "score": 90,
       "blurb": "<figure><div><img src=\"https://imgproxy.divecdn.com/uuONw6hvwtLbzhtyOoIOnAfcGH4POWpCRWuM-D02_eY/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjQ4ODkwNzUyLmpwZw==.webp\"/></div></figure><p>Mandates and long-term trends toward electrification a",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "utility-dive",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-17h8tmj",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Utility Dive",
+            "outlet": "utility-dive",
+            "url": "https://www.utilitydive.com/news/heat-pumps-electric-water-heaters-continue-to-gain-ground-reports/832138/",
+            "primary": false,
+            "published": "2026-10-05T15:17:39.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-10hrxj2",
@@ -539,7 +935,62 @@
       ],
       "score": 90,
       "blurb": "<figure><div><img src=\"https://imgproxy.divecdn.com/Upj--y5oVl0fN4dKmZICZScxV1oExge5UmjmIUWqoPc/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9NdF9QbGVhc2FudC5qcGc=.webp\"/></div></figure><p>The 120-day study process would be available for loads larger than 200",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "utility-dive",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-10hrxj2",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Utility Dive",
+            "outlet": "utility-dive",
+            "url": "https://www.utilitydive.com/news/miso-large-load-generation-study-lars-ferc/832114/",
+            "primary": false,
+            "published": "2026-10-05T14:01:26.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
+    },
+    {
+      "id": "live-1jpr3b4",
+      "title": "Climate Action Learning Lab bridges research and policy for effective climate solutions",
+      "url": "https://news.mit.edu/2026/climate-action-learning-lab-bridges-research-policy-for-effective-climate-solutions-0929",
+      "source": "MIT News",
+      "sourceId": "mit-news",
+      "kind": "analysis",
+      "published": "2026-09-29T20:35:00.000Z",
+      "publishedLabel": "Sep 29, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "research",
+        "compute",
+        "energy"
+      ],
+      "score": 90,
+      "blurb": "J-PAL North America’s Learning Lab supported a second cohort of U.S. government and nonprofit organizations in building and using rigorous evidence to advance effective decarbonization and adaptation strategies.",
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/climate-action-learning-lab-bridges-research-policy-for-effective-climate-solutions-0929",
+            "primary": false,
+            "published": "2026-09-29T20:35:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-1210m6n",
@@ -559,7 +1010,26 @@
       ],
       "score": 88,
       "blurb": "Amazon hasn't made an Echo with a 3.5mm port in six years.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1210m6n",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/gadgets/2026/10/amazon-bricks-alexas-ability-to-control-echo-speakers-aux-input/",
+            "primary": false,
+            "published": "2026-10-06T17:03:16.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-1y5fmxk",
@@ -579,7 +1049,28 @@
       ],
       "score": 87,
       "blurb": "Your challenge is to tell us the location of the satellite image and why it is interesting.",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "nasa-news",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-1y5fmxk",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NASA News",
+            "outlet": "nasa-news",
+            "url": "https://science.nasa.gov/earth/earth-observatory/october-2026-satellite-puzzler/",
+            "primary": true,
+            "published": "2026-10-06T18:27:38.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "NASA News"
+        ]
+      }
     },
     {
       "id": "live-1ufbl1f",
@@ -598,7 +1089,26 @@
       ],
       "score": 87,
       "blurb": "China’s booming artificial intelligence sector has given local researchers good reason to remain in the country, but it has yet to lure overseas scientists despite a government push.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "nyt",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1ufbl1f",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NYT Technology",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/10/06/science/china-ai-research-recruitment.html",
+            "primary": false,
+            "published": "2026-10-06T17:00:14.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-1fi1av6",
@@ -617,26 +1127,26 @@
       ],
       "score": 87,
       "blurb": "By pinpointing when it begins in young humans, scientists hope to better understand what consciousness is, and how it arises, in all of us.",
-      "real": true
-    },
-    {
-      "id": "live-1qy54we",
-      "title": "Inside Binance Founder Changpeng Zhao’s Life After Prison",
-      "url": "https://www.nytimes.com/2026/10/01/business/changpeng-zhao-binance.html",
-      "source": "NYT Technology",
-      "sourceId": "nyt-tech",
-      "kind": "hard-news",
-      "published": "2026-10-04T21:03:06.000Z",
-      "publishedLabel": "Oct 4, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "compute",
-        "tech"
-      ],
-      "score": 87,
-      "blurb": "Changpeng Zhao, jailed in the United States for a financial crime and pardoned by President Trump, is now living a gilded life in the United Arab Emirates.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "nyt",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1fi1av6",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NYT Technology",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/10/05/science/consciousness-brain-babies.html",
+            "primary": false,
+            "published": "2026-10-05T15:12:13.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-1tf4f62",
@@ -656,7 +1166,28 @@
       ],
       "score": 86,
       "blurb": "After delivering more than 11,000 pounds of supplies, science experiments, and other cargo to the International Space Station for NASA, Northrop Grumman’s Cygnus XL spacecraft is scheduled to depart Friday, Oct. 9, as part of the company’s Commercial Resupply Services-24 mission,",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "nasa-news",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-1tf4f62",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NASA News",
+            "outlet": "nasa-news",
+            "url": "https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-crs-24-spacecraft-departure/",
+            "primary": true,
+            "published": "2026-10-06T18:31:40.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "NASA News"
+        ]
+      }
     },
     {
       "id": "live-183rsgq",
@@ -676,7 +1207,26 @@
       ],
       "score": 86,
       "blurb": "\"The administrator's directive is a coherent and necessary vision for the future.\"",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-183rsgq",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/space/2026/10/why-is-nasa-bringing-7500-contractors-back-to-work-as-civil-servants/",
+            "primary": false,
+            "published": "2026-10-06T16:00:02.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-29vww1",
@@ -696,7 +1246,26 @@
       ],
       "score": 86,
       "blurb": "Cable industry to sue, says FCC can't repeal TV ownership limit set by Congress.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-29vww1",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/tech-policy/2026/10/cable-lobby-to-sue-trump-fcc-over-repeal-of-national-tv-ownership-cap/",
+            "primary": false,
+            "published": "2026-10-05T20:47:48.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-1xpntl1",
@@ -715,7 +1284,64 @@
       ],
       "score": 86,
       "blurb": "Projects will test next-generation geothermal technologies and explore promising resources to support affordable, reliable, secure American energy",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "doe-press",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-1xpntl1",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "U.S. Department of Energy",
+            "outlet": "doe-press",
+            "url": "https://www.energy.gov/articles/energy-department-announces-99-million-21-projects-advance-us-geothermal-energy",
+            "primary": true,
+            "published": "2026-09-21T17:02:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "U.S. Department of Energy"
+        ]
+      }
+    },
+    {
+      "id": "live-qy52ks",
+      "title": "Supercomputing researchers document evolution of AI hardware",
+      "url": "https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006",
+      "source": "MIT News",
+      "sourceId": "mit-news",
+      "kind": "analysis",
+      "published": "2026-10-06T20:55:00.000Z",
+      "publishedLabel": "Oct 6, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "research",
+        "compute",
+        "energy"
+      ],
+      "score": 84,
+      "blurb": "An ongoing survey tracks the latest AI accelerator systems to keep hardware relevant for Lincoln Laboratory staff and sponsors.",
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006",
+            "primary": false,
+            "published": "2026-10-06T20:55:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-ck4ltr",
@@ -735,7 +1361,23 @@
       ],
       "score": 84,
       "blurb": "As director, Bourg has focused on digital access, open and equitable scholarly publishing, and expanded support for data-intensive research.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/chris-bourg-named-vice-provost-and-barbara-ostrom-director-mit-libraries-1006",
+            "primary": false,
+            "published": "2026-10-06T17:00:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-mo5l1o",
@@ -755,27 +1397,61 @@
       ],
       "score": 84,
       "blurb": "The discovery reveals a new way that stars and planetary companions can interact.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/astronomers-catch-star-slowly-snacking-on-brown-dwarf-1005",
+            "primary": false,
+            "published": "2026-10-05T15:00:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
-      "id": "live-1b5s1fl",
-      "title": "Making the EU’s new industrial rulebook work for Central Europe",
-      "url": "https://www.atlanticcouncil.org/blogs/econographics/making-the-eus-new-industrial-rulebook-work-for-central-europe/",
-      "source": "Atlantic Council",
-      "sourceId": "atlantic-council",
-      "kind": "analysis",
-      "published": "2026-10-01T13:46:08.000Z",
-      "publishedLabel": "Oct 1, 2026",
+      "id": "live-1qy54we",
+      "title": "Inside Binance Founder Changpeng Zhao’s Life After Prison",
+      "url": "https://www.nytimes.com/2026/10/01/business/changpeng-zhao-binance.html",
+      "source": "NYT Technology",
+      "sourceId": "nyt-tech",
+      "kind": "hard-news",
+      "published": "2026-10-04T21:03:06.000Z",
+      "publishedLabel": "Oct 4, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
-        "geopolitics",
-        "state-capacity",
-        "energy"
+        "compute",
+        "tech"
       ],
-      "score": 84,
-      "blurb": "As the EU rethinks its approach to industrial policy, Central Europe needs to make sure the shift strengthens the region’s manufacturing base. The post Making the EU’s new industrial rulebook work for Central Europe appeared first on Atlantic Council .",
-      "real": true
+      "score": 83,
+      "blurb": "Changpeng Zhao, jailed in the United States for a financial crime and pardoned by President Trump, is now living a gilded life in the United Arab Emirates.",
+      "real": true,
+      "primary": false,
+      "outlet": "nyt",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1qy54we",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NYT Technology",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/10/01/business/changpeng-zhao-binance.html",
+            "primary": false,
+            "published": "2026-10-04T21:03:06.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-5wca7e",
@@ -794,7 +1470,26 @@
       ],
       "score": 83,
       "blurb": "Russians are creating and spreading music glorifying the invasion of Ukraine, using platforms built in the United States.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "nyt",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-5wca7e",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NYT Technology",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/10/02/technology/russian-propaganda-ai-war-songs.html",
+            "primary": false,
+            "published": "2026-10-02T14:40:25.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-1s5ca7u",
@@ -814,7 +1509,23 @@
       ],
       "score": 83,
       "blurb": "AirBnB&#8217;s housing accelerator, rising steel prices, a resurgence of US coal power, low-head dams, and more.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "construction-physics",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Construction Physics",
+            "outlet": "construction-physics",
+            "url": "https://www.construction-physics.com/p/reading-list-09192026",
+            "primary": false,
+            "published": "2026-09-19T12:03:09.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-q8zohv",
@@ -834,7 +1545,23 @@
       ],
       "score": 83,
       "blurb": "Construction is famously labor intensive: direct labor makes up close to 50% of the cost of constructing a new single-family home in the US, compared to around 6 to 8% of the cost of manufacturing a car.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "construction-physics",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Construction Physics",
+            "outlet": "construction-physics",
+            "url": "https://www.construction-physics.com/p/where-has-construction-automation",
+            "primary": false,
+            "published": "2026-09-11T12:04:09.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-7gg78h",
@@ -853,7 +1580,26 @@
       ],
       "score": 82,
       "blurb": "Meta is exploiting a lucrative tax break intended to support research and experimentation. Its own accountants say the gambit is risky.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "nyt",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-7gg78h",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NYT Technology",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
+            "primary": false,
+            "published": "2026-09-30T09:00:48.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-1bhv11g",
@@ -872,7 +1618,26 @@
       ],
       "score": 82,
       "blurb": "It’s only the second time that American regulators have approved a next-generation commercial reactor for construction. Big hurdles remain.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "nyt",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1bhv11g",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NYT Climate / Energy",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
+            "primary": false,
+            "published": "2026-09-29T18:09:37.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-10n9enl",
@@ -892,7 +1657,23 @@
       ],
       "score": 81,
       "blurb": "To reach their longstanding $100 billion trade ambition, the United States and Turkey should look beyond tariffs toward a broader economic bargain. The post Beyond tariffs: The US–Turkey trade relationship needs a bigger bargain appeared first on Atlantic Council .",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "atlantic-council",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Atlantic Council",
+            "outlet": "atlantic-council",
+            "url": "https://www.atlanticcouncil.org/blogs/turkeysource/beyond-tariffs-the-us-turkey-trade-relationship-needs-a-bigger-bargain/",
+            "primary": false,
+            "published": "2026-10-06T19:26:11.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-2o3dtm",
@@ -912,7 +1693,28 @@
       ],
       "score": 81,
       "blurb": "Diligent sleuthing by astronomers uncovered a surprising chemical clue that indicates the white dwarf star HS 0209+0832 may host a second-generation planet.&#160;This artist’s concept released on Oct. 5, 2026, depicts that possible explanation. The white dwarf is the “dead” core ",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "nasa-news",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-2o3dtm",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NASA News",
+            "outlet": "nasa-news",
+            "url": "https://www.nasa.gov/image-article/astronomers-solve-cosmic-cold-case-with-nasa-hubble-data/",
+            "primary": true,
+            "published": "2026-10-06T16:09:13.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "NASA News"
+        ]
+      }
     },
     {
       "id": "live-1g3kcim",
@@ -932,7 +1734,28 @@
       ],
       "score": 81,
       "blurb": "A cauldron of cosmic creation is being revealed in a new image from NASA’s James Webb Space Telescope. Webb has unveiled numerous stars formerly hidden by clouds of dust in a stellar nursery known as NGC 7129, which resides about 3,300 light-years from Earth. Stars, the engines o",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "nasa-news",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-1g3kcim",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NASA News",
+            "outlet": "nasa-news",
+            "url": "https://science.nasa.gov/missions/webb/nasas-webb-captures-commotion-from-nebulas-stellar-jets/",
+            "primary": true,
+            "published": "2026-10-06T13:00:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "NASA News"
+        ]
+      }
     },
     {
       "id": "live-1p3xaw8",
@@ -951,7 +1774,28 @@
       ],
       "score": 81,
       "blurb": "Annual funding opportunity advances the Trump Administration’s priorities across Basic Energy Sciences, Fusion Energy Sciences, Nuclear Physics, and more.",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "doe-press",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-1p3xaw8",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "U.S. Department of Energy",
+            "outlet": "doe-press",
+            "url": "https://www.energy.gov/articles/energy-department-announces-400-million-basic-research-advance-frontiers-science",
+            "primary": true,
+            "published": "2026-10-01T18:59:11.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "U.S. Department of Energy"
+        ]
+      }
     },
     {
       "id": "live-1jhxleu",
@@ -970,7 +1814,26 @@
       ],
       "score": 81,
       "blurb": "The fridge-size satellite with AI chips on board is part of Project Suncatcher, the company&apos;s moonshot effort to put AI data centers in space and harness solar energy.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "npr-science",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1jhxleu",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NPR Science",
+            "outlet": "npr-science",
+            "url": "https://www.npr.org/2026/10/01/nx-s1-5983697/project-suncatcher-google-ai-data-center-space",
+            "primary": false,
+            "published": "2026-10-01T18:41:07.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-1bwu733",
@@ -990,7 +1853,23 @@
       ],
       "score": 81,
       "blurb": "City permitting speeds, more efficient ground source heat pump drilling, an Amazon Air crash in Miami, cooling paint, and more.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "construction-physics",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Construction Physics",
+            "outlet": "construction-physics",
+            "url": "https://www.construction-physics.com/p/reading-list-09122026",
+            "primary": false,
+            "published": "2026-09-12T12:32:46.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-1xqi0ok",
@@ -1010,7 +1889,23 @@
       ],
       "score": 81,
       "blurb": "Sinking London homes, US magnesium manufacturing, the World Humanoid Robot games, catastrophic flooding in Nepal, and more.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "construction-physics",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Construction Physics",
+            "outlet": "construction-physics",
+            "url": "https://www.construction-physics.com/p/reading-list-082926",
+            "primary": false,
+            "published": "2026-08-29T12:03:07.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-1w8iven",
@@ -1030,7 +1925,23 @@
       ],
       "score": 81,
       "blurb": "The US Strategic Petroleum Reserve (SPR) is the largest crude oil storage facility in the world.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "construction-physics",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Construction Physics",
+            "outlet": "construction-physics",
+            "url": "https://www.construction-physics.com/p/how-the-strategic-petroleum-reserve",
+            "primary": false,
+            "published": "2026-08-27T12:03:58.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-cv8y2w",
@@ -1050,7 +1961,28 @@
       ],
       "score": 80,
       "blurb": "As an astronaut traverses the lunar South Pole, tribocharging from walking on the lunar surface and plasma charging from the ambient plasma generate electric charge on the spacesuit. This problem is severely compounded when entering lunar shadows and Permanently Shadowed Regions ",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "nasa-news",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-cv8y2w",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NASA News",
+            "outlet": "nasa-news",
+            "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/lunar-grounding-challenge/",
+            "primary": true,
+            "published": "2026-10-06T18:22:24.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "NASA News"
+        ]
+      }
     },
     {
       "id": "live-ysd9o0",
@@ -1069,7 +2001,28 @@
       ],
       "score": 80,
       "blurb": "Today’s announcement will deliver more reliable American energy, strengthen the grid, lower costs, and meet growing power demand across the 13-state PJM Interconnection, L.L.C. region.",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "doe-press",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-ysd9o0",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "U.S. Department of Energy",
+            "outlet": "doe-press",
+            "url": "https://www.energy.gov/articles/energy-department-announces-42-billion-investment-boost-nuclear-power-and-help-lower",
+            "primary": true,
+            "published": "2026-10-05T16:05:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "U.S. Department of Energy"
+        ]
+      }
     },
     {
       "id": "live-1gonopl",
@@ -1089,7 +2042,23 @@
       ],
       "score": 80,
       "blurb": "Once a storage castle, now a design stronghold, the landmark building is a major new hub at MIT.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/met-warehouse-dedication-ceremony-launches-new-era-1002",
+            "primary": false,
+            "published": "2026-10-02T20:00:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-xrs7kv",
@@ -1109,7 +2078,23 @@
       ],
       "score": 80,
       "blurb": "The Institute’s pooled investments returned 10.3 percent last year; endowment stands at $29.2 billion.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/mit-releases-financials-and-endowment-figures-1002",
+            "primary": false,
+            "published": "2026-10-02T20:00:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-1iehdv4",
@@ -1129,7 +2114,23 @@
       ],
       "score": 80,
       "blurb": "Associate Professor Cathy Wu uses reinforcement learning to help map out improvements to transportation and other multifaceted systems.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
+            "primary": false,
+            "published": "2026-10-02T19:30:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-1hzhkdl",
@@ -1149,7 +2150,23 @@
       ],
       "score": 80,
       "blurb": "Writing as a participant and researcher, PhD student JS Tan SM ’22 has co-authored a new book about the rise of tech worker protests and the employer backlash that followed.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/documenting-tech-worker-movement-0918",
+            "primary": false,
+            "published": "2026-10-02T17:00:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-43rd3s",
@@ -1169,7 +2186,23 @@
       ],
       "score": 80,
       "blurb": "An industry report published by students in an MIT aerospace entrepreneurship class lays out guidance for aspiring space leaders and investors.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/guide-to-new-space-economy-1002",
+            "primary": false,
+            "published": "2026-10-02T14:50:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-1gky1ac",
@@ -1179,7 +2212,7 @@
       "sourceId": "mit-news",
       "kind": "analysis",
       "published": "2026-10-02T04:00:00.000Z",
-      "publishedLabel": "Oct 2, 2026",
+      "publishedLabel": "Oct 1, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -1189,7 +2222,23 @@
       ],
       "score": 80,
       "blurb": "Martin Trust Center Managing Director Bill Aulet introduces Dear Dreamer, a free platform for middle and high school students who want to learn about entrepreneurship.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002",
+            "primary": false,
+            "published": "2026-10-02T04:00:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-18psqzz",
@@ -1199,7 +2248,7 @@
       "sourceId": "mit-news",
       "kind": "analysis",
       "published": "2026-10-02T04:00:00.000Z",
-      "publishedLabel": "Oct 2, 2026",
+      "publishedLabel": "Oct 1, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -1209,7 +2258,23 @@
       ],
       "score": 80,
       "blurb": "Wristband device from Encora Therapeutics started as a project in 2.009, MIT’s iconic product-design class.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002",
+            "primary": false,
+            "published": "2026-10-02T04:00:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-1u3c8yr",
@@ -1229,7 +2294,23 @@
       ],
       "score": 80,
       "blurb": "“InstructMesh” can generate designs for everyday objects that are easy to edit and fabricate for both experts and newcomers to 3D modeling.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001",
+            "primary": false,
+            "published": "2026-10-01T22:00:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-1pponws",
@@ -1249,7 +2330,23 @@
       ],
       "score": 80,
       "blurb": "The new, five-day MIT event reaches takeoff with a forum about discovery and innovation.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/governor-healey-and-president-kornbluth-launch-mit-future-fest-1001",
+            "primary": false,
+            "published": "2026-10-01T18:30:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-u92t9j",
@@ -1269,7 +2366,23 @@
       ],
       "score": 80,
       "blurb": "With $2.1 million funding from Google.org, the open-source Public Transit Intelligence Hub will unify public transit monitoring, operations, and passenger communication.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930",
+            "primary": false,
+            "published": "2026-09-30T15:15:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-fcv11n",
@@ -1289,7 +2402,23 @@
       ],
       "score": 80,
       "blurb": "Able to defeat top-ranked human players and more efficient than other models, the new system could help decision-makers in military maneuvers or business negotiations.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
+            "primary": false,
+            "published": "2026-09-30T15:00:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-1hx2eyv",
@@ -1309,7 +2438,23 @@
       ],
       "score": 80,
       "blurb": "Some tumor cells develop resistance by amplifying the KRAS gene, while others change their tumor type, MIT researchers have found.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/lung-cancers-can-use-two-different-mechanisms-evade-kras-inhibiting-drugs-0930",
+            "primary": false,
+            "published": "2026-09-30T09:00:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-11h48rd",
@@ -1329,7 +2474,28 @@
       ],
       "score": 80,
       "blurb": "New X-ray measurements will allow scientists to more accurately monitor nuclear material at power plants and weapons facilities.",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "nist-news",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-11h48rd",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NIST News",
+            "outlet": "nist-news",
+            "url": "https://www.nist.gov/news-events/news/2026/09/nist-developed-quantum-sensors-improve-nuclear-monitoring",
+            "primary": true,
+            "published": "2026-09-10T12:00:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "NIST News"
+        ]
+      }
     },
     {
       "id": "live-zwh5hw",
@@ -1339,7 +2505,7 @@
       "sourceId": "asterisk",
       "kind": "analysis",
       "published": "2026-08-04T00:00:00.000Z",
-      "publishedLabel": "Aug 4, 2026",
+      "publishedLabel": "Aug 3, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -1349,7 +2515,23 @@
       ],
       "score": 80,
       "blurb": "Inside the boring-by-design U.S. fact-checking machine.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "asterisk",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Asterisk Magazine",
+            "outlet": "asterisk",
+            "url": "https://asteriskmag.com/issues/15/how-diplomats-see-the-world",
+            "primary": false,
+            "published": "2026-08-04T00:00:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-ghy18",
@@ -1369,7 +2551,23 @@
       ],
       "score": 79,
       "blurb": "Billions of dollars could flow to proactive jurisdictions that build more homes",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ifp",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Institute for Progress",
+            "outlet": "ifp",
+            "url": "https://ifp.org/the-success-of-the-new-federal-housing-law-now-rests-on-states-and-localities/",
+            "primary": false,
+            "published": "2026-08-04T16:38:04.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-1h03d67",
@@ -1389,7 +2587,140 @@
       ],
       "score": 79,
       "blurb": "A battery technology that&#8217;s getting a lot of attention is solid-state batteries, lithium-ion batteries that replace the liquid electrolyte with a solid material.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "construction-physics",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Construction Physics",
+            "outlet": "construction-physics",
+            "url": "https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a",
+            "primary": false,
+            "published": "2026-07-30T12:04:25.000Z"
+          }
+        ],
+        "outlets": 1
+      }
+    },
+    {
+      "id": "live-1szo11t",
+      "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
+      "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+      "source": "Ars Technica",
+      "sourceId": "ars-technica",
+      "kind": "hard-news",
+      "published": "2026-10-06T20:50:32.000Z",
+      "publishedLabel": "Oct 6, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "compute",
+        "science",
+        "tech"
+      ],
+      "score": 78,
+      "blurb": "Like other solutions, it is not especially reliable, and it's easy to circumvent.",
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1szo11t",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+            "primary": false,
+            "published": "2026-10-06T20:50:32.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
+    },
+    {
+      "id": "live-nih5mf",
+      "title": "HBO Max, Paramount+, and Discovery+ \"will unify into a single service”",
+      "url": "https://arstechnica.com/gadgets/2026/10/hbo-max-paramount-and-discovery-will-unify-into-a-single-service/",
+      "source": "Ars Technica",
+      "sourceId": "ars-technica",
+      "kind": "hard-news",
+      "published": "2026-10-06T20:32:12.000Z",
+      "publishedLabel": "Oct 6, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "compute",
+        "science",
+        "tech"
+      ],
+      "score": 78,
+      "blurb": "A combined service could lead to higher prices.",
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-nih5mf",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/gadgets/2026/10/hbo-max-paramount-and-discovery-will-unify-into-a-single-service/",
+            "primary": false,
+            "published": "2026-10-06T20:32:12.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
+    },
+    {
+      "id": "live-a3fep6",
+      "title": "It looks like the Atlantic storm season may finally produce a hurricane",
+      "url": "https://arstechnica.com/science/2026/10/it-looks-like-the-atlantic-storm-season-may-finally-produce-a-hurricane/",
+      "source": "Ars Technica",
+      "sourceId": "ars-technica",
+      "kind": "hard-news",
+      "published": "2026-10-06T19:55:50.000Z",
+      "publishedLabel": "Oct 6, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "compute",
+        "science",
+        "tech"
+      ],
+      "score": 78,
+      "blurb": "To date, this Atlantic tropics year has been exceptionally quiet.",
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-a3fep6",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/science/2026/10/it-looks-like-the-atlantic-storm-season-may-finally-produce-a-hurricane/",
+            "primary": false,
+            "published": "2026-10-06T19:55:50.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-1famvp7",
@@ -1409,7 +2740,26 @@
       ],
       "score": 78,
       "blurb": "Compromise of 3 domain registries allows hackers to walk off with unauthorized certs.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1famvp7",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+            "primary": false,
+            "published": "2026-10-06T19:21:14.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-1dt54k8",
@@ -1429,7 +2779,26 @@
       ],
       "score": 78,
       "blurb": "Paramount now owns Warner Bros. as last-ditch effort to stop $111B merger fails.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1dt54k8",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+            "primary": false,
+            "published": "2026-10-06T17:33:44.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-juiowl",
@@ -1449,7 +2818,26 @@
       ],
       "score": 78,
       "blurb": "ArsPro gives you more ways to read while directly supporting our journalism.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-juiowl",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/staff/2026/10/make-ars-better-with-an-arspro-subscription/",
+            "primary": false,
+            "published": "2026-10-06T17:21:15.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-12liltq",
@@ -1469,7 +2857,33 @@
       ],
       "score": 78,
       "blurb": "Francis Halzen of University of Wisconsin-Madison led development of IceCube Neutrino Observatory.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "multiple",
+        "label": "Multiple sources",
+        "clusterId": "vc-12liltq",
+        "clusterSize": 2,
+        "outlets": 2,
+        "sources": [
+          {
+            "name": "NPR Science",
+            "outlet": "npr-science",
+            "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+            "primary": false,
+            "published": "2026-10-06T10:16:28.000Z"
+          },
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/science/2026/10/neutrino-physicist-wins-2026-nobel-physics-prize/",
+            "primary": false,
+            "published": "2026-10-06T16:53:17.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-x4t7gk",
@@ -1489,7 +2903,26 @@
       ],
       "score": 78,
       "blurb": "Googlebooks require Android 17, but Samsung's Android 17 phones won't work yet.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-x4t7gk",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/gadgets/2026/10/googlebook-better-together-phone-features-dont-work-with-samsung-at-launch/",
+            "primary": false,
+            "published": "2026-10-06T16:15:50.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-2op1db",
@@ -1509,7 +2942,26 @@
       ],
       "score": 78,
       "blurb": "The reports of OpenAI agents harming third-party sites keep coming.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-2op1db",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+            "primary": false,
+            "published": "2026-10-06T12:21:53.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-cgyo22",
@@ -1529,7 +2981,26 @@
       ],
       "score": 78,
       "blurb": "Users want to \"reduce risk and avoid unnecessary disruption\" while making changes.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-cgyo22",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/",
+            "primary": false,
+            "published": "2026-10-06T12:00:31.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-1eqr28e",
@@ -1549,7 +3020,26 @@
       ],
       "score": 78,
       "blurb": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1eqr28e",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+            "primary": false,
+            "published": "2026-10-05T22:26:35.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-1xx8sh6",
@@ -1569,7 +3059,26 @@
       ],
       "score": 78,
       "blurb": "Prices of public records tracking cops' use of Flock go up as backlash swells.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1xx8sh6",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
+            "primary": false,
+            "published": "2026-10-05T20:31:12.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-26plxs",
@@ -1589,27 +3098,26 @@
       ],
       "score": 78,
       "blurb": "The tool can free up over 12GB of storage.",
-      "real": true
-    },
-    {
-      "id": "live-1xjp3w3",
-      "title": "Controlling the brain with light earns a physiology Nobel",
-      "url": "https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/",
-      "source": "Ars Technica",
-      "sourceId": "ars-technica",
-      "kind": "hard-news",
-      "published": "2026-10-05T17:59:27.000Z",
-      "publishedLabel": "Oct 5, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "compute",
-        "science",
-        "tech"
-      ],
-      "score": 78,
-      "blurb": "The entire field of optogenetics traces back to light-seeking algae.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-26plxs",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+            "primary": false,
+            "published": "2026-10-05T19:14:44.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-1f0cc8g",
@@ -1629,47 +3137,23 @@
       ],
       "score": 78,
       "blurb": "Malaysia has become a major destination for investment in semiconductors, data centers, AI, and advanced manufacturing. Its next challenge is to turn that investment into stronger domestic capabilities, higher productivity, and more value captured at home. The post Malaysia is in",
-      "real": true
-    },
-    {
-      "id": "live-ue4fro",
-      "title": "Russian drones strike Ukraine’s data centers by exploiting air defense gaps",
-      "url": "https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/",
-      "source": "Ars Technica",
-      "sourceId": "ars-technica",
-      "kind": "hard-news",
-      "published": "2026-10-05T17:21:11.000Z",
-      "publishedLabel": "Oct 5, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "compute",
-        "science",
-        "tech"
-      ],
-      "score": 78,
-      "blurb": "Russian attacks on Internet, phone services threaten Ukraine’s wartime economy.",
-      "real": true
-    },
-    {
-      "id": "live-5z8lxb",
-      "title": "F1 in Bahrain... in Malaysia: The race needed a software update to start",
-      "url": "https://arstechnica.com/cars/2026/10/f1-in-bahrain-in-malaysia-the-race-needed-a-software-update-to-start/",
-      "source": "Ars Technica",
-      "sourceId": "ars-technica",
-      "kind": "hard-news",
-      "published": "2026-10-05T16:09:07.000Z",
-      "publishedLabel": "Oct 5, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "compute",
-        "science",
-        "tech"
-      ],
-      "score": 78,
-      "blurb": "A software bug waylaid half the field and required a race reboot.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "atlantic-council",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Atlantic Council",
+            "outlet": "atlantic-council",
+            "url": "https://www.atlanticcouncil.org/uncategorized/malaysia-is-invested-in-the-industries-of-the-future-now-it-needs-them-to-power-productivity/",
+            "primary": false,
+            "published": "2026-10-05T17:34:07.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-1sz4i47",
@@ -1688,7 +3172,28 @@
       ],
       "score": 78,
       "blurb": "U.S. natural gas production hit an all-time high in July 2026, driven primarily by increased output in the Permian Basin, according to our latest Natural Gas Monthly.",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "eia-today",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-1sz4i47",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "EIA Today in Energy",
+            "outlet": "eia-today",
+            "url": "https://www.eia.gov/todayinenergy/detail.php?id=68225",
+            "primary": true,
+            "published": "2026-10-02T14:00:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "EIA Today in Energy"
+        ]
+      }
     },
     {
       "id": "live-1ttofsq",
@@ -1707,7 +3212,28 @@
       ],
       "score": 78,
       "blurb": "U.S. propane exports increased to 2 million barrels per day (b/d) in the first half of 2026, 11% more than during the same period in 2025. Increased U.S. propane production and changing trade flows, particularly increased exports to India and other countries in South Asia, drove ",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "eia-today",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-1ttofsq",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "EIA Today in Energy",
+            "outlet": "eia-today",
+            "url": "https://www.eia.gov/todayinenergy/detail.php?id=68244",
+            "primary": true,
+            "published": "2026-10-01T14:00:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "EIA Today in Energy"
+        ]
+      }
     },
     {
       "id": "live-1sp4wf8",
@@ -1726,7 +3252,28 @@
       ],
       "score": 78,
       "blurb": "We estimate light-duty electric vehicles in the United States consumed 8% more electricity during the first six months of 2026 than in the last half of 2025 (2H25) in our Monthly Energy Review, down from the 13-24% growth seen in six-month periods in recent years. The slowing ele",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "eia-today",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-1sp4wf8",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "EIA Today in Energy",
+            "outlet": "eia-today",
+            "url": "https://www.eia.gov/todayinenergy/detail.php?id=68224",
+            "primary": true,
+            "published": "2026-09-30T14:00:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "EIA Today in Energy"
+        ]
+      }
     },
     {
       "id": "live-14gw4qv",
@@ -1746,7 +3293,23 @@
       ],
       "score": 77,
       "blurb": "A US withdrawal would be read as disengagement from the Western Balkans and, with it, from the regional security architecture that it helped shape. The post What the US gains by keeping a military presence in Kosovo appeared first on Atlantic Council .",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "atlantic-council",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Atlantic Council",
+            "outlet": "atlantic-council",
+            "url": "https://www.atlanticcouncil.org/dispatches/what-the-us-gains-by-keeping-a-military-presence-in-kosovo/",
+            "primary": false,
+            "published": "2026-10-02T20:20:51.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-p2g4f7",
@@ -1766,7 +3329,23 @@
       ],
       "score": 77,
       "blurb": "The US Strategic Petroleum Reserve has reached a historic low. As oil markets continue to tighten, refilling the reserve will become increasingly difficult. The post The risks of the strategic petroleum reserve’s four-decade low appeared first on Atlantic Council .",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "atlantic-council",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Atlantic Council",
+            "outlet": "atlantic-council",
+            "url": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/the-risks-of-the-strategic-petroleum-reserves-four-decade-low/",
+            "primary": false,
+            "published": "2026-10-02T18:30:30.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-110r3mc",
@@ -1786,27 +3365,23 @@
       ],
       "score": 77,
       "blurb": "As US-Mexico trade talks approach, the Mexican government faces a delicate balancing act: curbing Chinese trade and investment without cutting off vital inputs and foreign capital. The post Can Mexico thread the needle between Washington and Beijing? appeared first on Atlantic Co",
-      "real": true
-    },
-    {
-      "id": "live-f2cv6j",
-      "title": "Ports, power, and presence: How to defend Batanes from China",
-      "url": "https://www.atlanticcouncil.org/dispatches/ports-power-and-presence-how-to-defend-batanes-from-china/",
-      "source": "Atlantic Council",
-      "sourceId": "atlantic-council",
-      "kind": "analysis",
-      "published": "2026-10-01T18:22:40.000Z",
-      "publishedLabel": "Oct 1, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "geopolitics",
-        "state-capacity",
-        "energy"
-      ],
-      "score": 77,
-      "blurb": "Manila and Washington should be proactive in preventing Chinese coercion or encroachment in the Philippines’ northern-most province. The post Ports, power, and presence: How to defend Batanes from China appeared first on Atlantic Council .",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "atlantic-council",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Atlantic Council",
+            "outlet": "atlantic-council",
+            "url": "https://www.atlanticcouncil.org/blogs/econographics/can-mexico-thread-the-needle-between-washington-and-beijing/",
+            "primary": false,
+            "published": "2026-10-01T18:23:35.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-8o1v3r",
@@ -1826,7 +3401,23 @@
       ],
       "score": 77,
       "blurb": "SpaceX&#8217;s turbine blade factory, Fervo&#8217;s deal with Google, Delhi&#8217;s cheap metro, why recycling is overrated, and more.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "construction-physics",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Construction Physics",
+            "outlet": "construction-physics",
+            "url": "https://www.construction-physics.com/p/reading-list-09052026",
+            "primary": false,
+            "published": "2026-09-05T12:03:33.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-2a1qho",
@@ -1845,7 +3436,26 @@
       ],
       "score": 76,
       "blurb": "Sales of big pickup trucks and sport utility vehicles have dipped as more Americans buy hybrids and smaller cars.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "nyt",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-2a1qho",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NYT Technology",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/10/02/business/auto-sales-pickup-trucks-suvs.html",
+            "primary": false,
+            "published": "2026-10-02T18:07:45.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-1bq891y",
@@ -1864,7 +3474,26 @@
       ],
       "score": 76,
       "blurb": "NPR&apos;s Short Wave podcast talks about really loud birds, the benefits of eating with company and what asteroid samples could tell us about the early Earth.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "npr-science",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1bq891y",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NPR Science",
+            "outlet": "npr-science",
+            "url": "https://www.npr.org/2026/10/01/nx-s1-5978049/this-week-in-science-loud-birds-eating-with-company-and-asteroid-samples",
+            "primary": false,
+            "published": "2026-10-01T21:12:36.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-17wuymj",
@@ -1874,7 +3503,7 @@
       "sourceId": "mit-news",
       "kind": "analysis",
       "published": "2026-09-29T04:00:00.000Z",
-      "publishedLabel": "Sep 29, 2026",
+      "publishedLabel": "Sep 28, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -1884,27 +3513,23 @@
       ],
       "score": 76,
       "blurb": "MIT engineers’ new aquabot offers a way to design small, efficient “biohybrid” robots.",
-      "real": true
-    },
-    {
-      "id": "live-m8bko8",
-      "title": "The effects of an “algorithmic monoculture” depend on the details",
-      "url": "https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929",
-      "source": "MIT News",
-      "sourceId": "mit-news",
-      "kind": "analysis",
-      "published": "2026-09-29T04:00:00.000Z",
-      "publishedLabel": "Sep 29, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "research",
-        "compute",
-        "energy"
-      ],
-      "score": 76,
-      "blurb": "In a study focusing on hiring decisions, MIT researchers found the use of a single algorithm by many firms could benefit job seekers in certain situations.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/powered-by-muscle-cells-paper-thin-robot-swims-through-watery-maze-0929",
+            "primary": false,
+            "published": "2026-09-29T04:00:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-n9vt6z",
@@ -1924,7 +3549,23 @@
       ],
       "score": 75,
       "blurb": "The U.S. is staying ahead, though the costs of that lead are still unknown.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "noahpinion",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Noahpinion",
+            "outlet": "noahpinion",
+            "url": "https://www.noahpinion.blog/p/america-is-still-beating-china-in",
+            "primary": false,
+            "published": "2026-09-05T07:36:17.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-1w4y8yy",
@@ -1944,7 +3585,23 @@
       ],
       "score": 75,
       "blurb": "How America can get promising drugs into human trials faster, at lower cost, and without sacrificing safety",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ifp",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Institute for Progress",
+            "outlet": "ifp",
+            "url": "https://ifp.org/why-biotech-companies-go-to-australia-to-test-new-drugs/",
+            "primary": false,
+            "published": "2026-09-04T19:43:53.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-adpfb2",
@@ -1964,7 +3621,23 @@
       ],
       "score": 75,
       "blurb": "23 low-regret policy recommendations",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ifp",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Institute for Progress",
+            "outlet": "ifp",
+            "url": "https://ifp.org/preparing-for-ai-research-automation/",
+            "primary": false,
+            "published": "2026-08-06T15:37:48.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-21n1r4",
@@ -1984,7 +3657,23 @@
       ],
       "score": 75,
       "blurb": "An implementer’s guide to Experience-Benchmarked prevailing wages for the US high-skilled immigration system",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ifp",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Institute for Progress",
+            "outlet": "ifp",
+            "url": "https://ifp.org/experience-matters/",
+            "primary": false,
+            "published": "2026-07-30T22:02:02.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-1wnxn7x",
@@ -2003,7 +3692,28 @@
       ],
       "score": 74,
       "blurb": "Department of Energy Issues Request for Proposal to Bolster Global Oil Supply Stability Through Strategic Petroleum Reserve Crude Exchange",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "doe-press",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-1wnxn7x",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "U.S. Department of Energy",
+            "outlet": "doe-press",
+            "url": "https://www.energy.gov/articles/united-states-energy-department-continues-execution-strategic-reserve-release-commitments",
+            "primary": true,
+            "published": "2026-09-29T16:42:11.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "U.S. Department of Energy"
+        ]
+      }
     },
     {
       "id": "live-ttq27f",
@@ -2022,7 +3732,26 @@
       ],
       "score": 74,
       "blurb": "Hurricanes near Hawaii. A nor’easter on the East Coast. The ocean phenomenon’s influence on storms around the country may just be getting started.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "nyt",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-ttq27f",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NYT Climate / Energy",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/09/26/climate/el-nino-hurricane-noreaster.html",
+            "primary": false,
+            "published": "2026-09-28T17:53:12.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-1v67l8u",
@@ -2041,7 +3770,26 @@
       ],
       "score": 74,
       "blurb": "President Trump has said he is considering restricting overseas sales of the fuel to bring down domestic prices, but experts say the policy will have many unintended effects.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "nyt",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1v67l8u",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NYT Climate / Energy",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/09/25/business/energy-environment/trump-diesel-export-ban.html",
+            "primary": false,
+            "published": "2026-09-28T15:19:47.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-kq8tm0",
@@ -2060,7 +3808,28 @@
       ],
       "score": 74,
       "blurb": "U.S. Secretary of Energy Chris Wright today issued an emergency order to prevent a Colorado coal plant from going offline to ensure Americans maintain access to affordable, reliable, and secure electricity.",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "doe-press",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-kq8tm0",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "U.S. Department of Energy",
+            "outlet": "doe-press",
+            "url": "https://www.energy.gov/articles/trump-administration-mitigates-blackout-risks-keeping-colorado-coal-plant-online",
+            "primary": true,
+            "published": "2026-09-25T23:00:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "U.S. Department of Energy"
+        ]
+      }
     },
     {
       "id": "live-1ynybiz",
@@ -2079,7 +3848,28 @@
       ],
       "score": 74,
       "blurb": "Publicly traded companies represent a tiny share of the total number of companies producing crude oil and natural gas in the United States, but they make up a large share of U.S. production. In 2025, publicly traded companies accounted for just 2% of about 12,000 oil and natural ",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "eia-today",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-1ynybiz",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "EIA Today in Energy",
+            "outlet": "eia-today",
+            "url": "https://www.eia.gov/todayinenergy/detail.php?id=68184",
+            "primary": true,
+            "published": "2026-09-22T14:00:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "EIA Today in Energy"
+        ]
+      }
     },
     {
       "id": "live-z49553",
@@ -2098,7 +3888,28 @@
       ],
       "score": 74,
       "blurb": "On August 28, 2026, Cheniere Energy, Inc., completed its Corpus Christi Liquefaction Stage 3 Project (CCL Stage 3) in Texas, taking custody and control of the seventh and last liquefied natural gas (LNG) train in the project.",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "eia-today",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-z49553",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "EIA Today in Energy",
+            "outlet": "eia-today",
+            "url": "https://www.eia.gov/todayinenergy/detail.php?id=68144",
+            "primary": true,
+            "published": "2026-09-15T14:00:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "EIA Today in Energy"
+        ]
+      }
     },
     {
       "id": "live-zye97y",
@@ -2117,7 +3928,28 @@
       ],
       "score": 74,
       "blurb": "We forecast U.S. crude oil production will average 13.8 million barrels per day (b/d) in 2026, surpassing the previous record of 13.7 million b/d set in 2025, in our latest Short-Term Energy Outlook (STEO).",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "eia-today",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-zye97y",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "EIA Today in Energy",
+            "outlet": "eia-today",
+            "url": "https://www.eia.gov/todayinenergy/detail.php?id=68125",
+            "primary": true,
+            "published": "2026-09-10T14:00:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "EIA Today in Energy"
+        ]
+      }
     },
     {
       "id": "live-108duwx",
@@ -2136,7 +3968,28 @@
       ],
       "score": 74,
       "blurb": "Low-cost Appalachian and Canadian natural gas supplies coupled with lower-than-usual regional consumption have pushed down natural gas prices at a major New England pricing hub in recent months to trade at a discount to the widely cited U.S. benchmark, Henry Hub.",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "eia-today",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-108duwx",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "EIA Today in Energy",
+            "outlet": "eia-today",
+            "url": "https://www.eia.gov/todayinenergy/detail.php?id=68124",
+            "primary": true,
+            "published": "2026-09-09T14:00:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "EIA Today in Energy"
+        ]
+      }
     },
     {
       "id": "live-gwykx6",
@@ -2156,7 +4009,23 @@
       ],
       "score": 74,
       "blurb": "IFP’s comments on OMB’s proposed rule on Federal Financial Assistance",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ifp",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Institute for Progress",
+            "outlet": "ifp",
+            "url": "https://ifp.org/ambitious-american-science-requires-reliable-and-effective-federal-funding/",
+            "primary": false,
+            "published": "2026-08-11T21:43:21.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-18jr3vy",
@@ -2176,7 +4045,28 @@
       ],
       "score": 74,
       "blurb": "NIST will execute two of its efforts through its Centers for AI in Manufacturing and Critical Infrastructure.",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "nist-news",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-18jr3vy",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NIST News",
+            "outlet": "nist-news",
+            "url": "https://www.nist.gov/news-events/news/2026/08/nist-joins-national-genesis-mission-accelerate-ai-innovation",
+            "primary": true,
+            "published": "2026-08-04T12:00:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "NIST News"
+        ]
+      }
     },
     {
       "id": "live-1jslma4",
@@ -2196,7 +4086,23 @@
       ],
       "score": 74,
       "blurb": "How federal science agencies can cultivate breakthroughs by experimenting on themselves",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "ifp",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Institute for Progress",
+            "outlet": "ifp",
+            "url": "https://ifp.org/science-agencies-need-metascience-units/",
+            "primary": false,
+            "published": "2026-07-23T17:47:36.000Z"
+          }
+        ],
+        "outlets": 1
+      }
     },
     {
       "id": "live-1wjvwvx",
@@ -2215,7 +4121,26 @@
       ],
       "score": 73,
       "blurb": "I went to Galaxy Robot Park in Seoul to see how we might one day live with robots. It was part cutting-edge technology, part theatrics.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "nyt",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1wjvwvx",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NYT Technology",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/10/05/world/asia/south-korea-ai-humanoid-robot-park.html",
+            "primary": false,
+            "published": "2026-10-06T17:51:56.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     },
     {
       "id": "live-se5v1g",
@@ -2234,7 +4159,28 @@
       ],
       "score": 73,
       "blurb": "Marines assigned to the 3rd Littoral Combat Team Medium-Range Missile Battery conducted a two-part training evolution in Hawaii to build proficiency in modernized artillery operations, distributed command and control and foundational field skills.",
-      "real": true
+      "real": true,
+      "primary": true,
+      "outlet": "defense-news",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-se5v1g",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "U.S. Department of Defense",
+            "outlet": "defense-news",
+            "url": "https://www.war.gov/News/News-Stories/Article/Article/4620059/marines-enhance-anti-ship-tactics-in-hawaii/",
+            "primary": true,
+            "published": "2026-10-06T16:42:48.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "U.S. Department of Defense"
+        ]
+      }
     },
     {
       "id": "live-6m4kj4",
@@ -2253,7 +4199,109 @@
       ],
       "score": 73,
       "blurb": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s.",
-      "real": true
+      "real": true,
+      "primary": false,
+      "outlet": "npr-science",
+      "verification": {
+        "status": "multiple",
+        "label": "Multiple sources",
+        "clusterId": "vc-12liltq",
+        "clusterSize": 2,
+        "outlets": 2,
+        "sources": [
+          {
+            "name": "NPR Science",
+            "outlet": "npr-science",
+            "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+            "primary": false,
+            "published": "2026-10-06T10:16:28.000Z"
+          },
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/science/2026/10/neutrino-physicist-wins-2026-nobel-physics-prize/",
+            "primary": false,
+            "published": "2026-10-06T16:53:17.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
+    },
+    {
+      "id": "live-1t6iht1",
+      "title": "Gears of War: E-Day Is Nostalgic With Rich Visuals",
+      "url": "https://www.nytimes.com/2026/10/06/arts/gears-of-war-e-day-review.html",
+      "source": "NYT Technology",
+      "sourceId": "nyt-tech",
+      "kind": "hard-news",
+      "published": "2026-10-06T09:01:01.000Z",
+      "publishedLabel": "Oct 6, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "compute",
+        "tech"
+      ],
+      "score": 73,
+      "blurb": "In Gears of War: E-Day, it’s fun to see the origins of beloved characters in grand scale, even if its play feels conservative.",
+      "real": true,
+      "primary": false,
+      "outlet": "nyt",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1t6iht1",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NYT Technology",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/10/06/arts/gears-of-war-e-day-review.html",
+            "primary": false,
+            "published": "2026-10-06T09:01:01.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
+    },
+    {
+      "id": "live-10b2ref",
+      "title": "South Korea Investigates Possible Use of A.I. in Hackings on Its Banks",
+      "url": "https://www.nytimes.com/2026/10/06/world/asia/south-korea-banks-hacked-ai.html",
+      "source": "NYT Technology",
+      "sourceId": "nyt-tech",
+      "kind": "hard-news",
+      "published": "2026-10-06T08:51:52.000Z",
+      "publishedLabel": "Oct 6, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "compute",
+        "tech"
+      ],
+      "score": 73,
+      "blurb": "The president said there were signs that such models were used in recent attacks on several banks involving customer data. Police are investigating.",
+      "real": true,
+      "primary": false,
+      "outlet": "nyt",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-10b2ref",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NYT Technology",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/10/06/world/asia/south-korea-banks-hacked-ai.html",
+            "primary": false,
+            "published": "2026-10-06T08:51:52.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
     }
   ]
 }

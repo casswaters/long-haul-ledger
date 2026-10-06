@@ -31,7 +31,7 @@ assert('domain intent noted', META.domainIntent === 'longhaulledger.com');
 assert('sample flag true', META.sample === true);
 assert('index.html exists', existsSync(new URL('./index.html', import.meta.url)));
 assert('world.svg exists', existsSync(new URL('./world.svg', import.meta.url)));
-assert('sw.js cache name long-haul-ledger-v3', /long-haul-ledger-v3/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+assert('sw.js cache name long-haul-ledger-v4', /long-haul-ledger-v4/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
 assert('BRIEF.md exists', existsSync(new URL('./BRIEF.md', import.meta.url)));
 assert('app has ?fresh=1 bust', /\bfresh\b/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 assert('zoom.js exists', existsSync(new URL('./zoom.js', import.meta.url)));
@@ -142,6 +142,7 @@ console.log('\n--- Geo drill + leadership ---');
 {
   const {
     project, geometryToPath, featureBbox, bboxToViewBox, padBbox,
+    insetsForCountry, projectorFor, geometrySvgBox, countryDrillSvgBox, levelLabel, clipAdminToWorld,
     countriesWithAdmin1, adminFeaturesForCountry, findAdminFeature,
     citiesForAdmin, findCityFeature, countryBboxFromAdmin,
     drillBreadcrumb, mindMapAllowed, SVG_W, SVG_H,
@@ -150,14 +151,13 @@ console.log('\n--- Geo drill + leadership ---');
     resolveLeadership, leadershipStack, roleBadge, leadershipKeys,
   } = await import('./leadership.js');
 
-  assert('project equirectangular origin', (() => {
-    const [x, y] = project(-180, 90);
-    return Math.abs(x) < 0.01 && Math.abs(y) < 0.01;
+  assert('project x plate carrée', (() => {
+    const [x0] = project(-180, 10);
+    const [x1] = project(180, 10);
+    return Math.abs(x0) < 0.01 && Math.abs(x1 - SVG_W) < 0.01;
   })());
-  assert('project width/height', (() => {
-    const [x, y] = project(180, -90);
-    return Math.abs(x - SVG_W) < 0.01 && Math.abs(y - SVG_H) < 0.01;
-  })());
+  assert('project equator calibrated to world.svg (y≈578.5)', Math.abs(project(0, 0)[1] - 578.5) < 0.01);
+  assert('project y scale = 1001/180 per degree', Math.abs((project(0, 0)[1] - project(0, 10)[1]) - (SVG_H / 180) * 10) < 0.001);
   assert('admin1.geojson exists', existsSync(new URL('./data/geo/admin1.geojson', import.meta.url)));
   assert('cities.geojson exists', existsSync(new URL('./data/geo/cities.geojson', import.meta.url)));
   assert('leadership.json exists', existsSync(new URL('./data/leadership.json', import.meta.url)));
@@ -166,6 +166,62 @@ console.log('\n--- Geo drill + leadership ---');
   const admin = JSON.parse(readFileSync(new URL('./data/geo/admin1.geojson', import.meta.url), 'utf8'));
   const cities = JSON.parse(readFileSync(new URL('./data/geo/cities.geojson', import.meta.url), 'utf8'));
   const lead = JSON.parse(readFileSync(new URL('./data/leadership.json', import.meta.url), 'utf8'));
+
+  // Layer alignment: state-equivalent rings projected with project() must land
+  // on world.svg country paths (the old centred projection was ~78 units off).
+  {
+    const worldSvg = readFileSync(new URL('./world.svg', import.meta.url), 'utf8');
+    const svgBox = (id) => {
+      const m = worldSvg.match(new RegExp(`id="${id}" d="([^"]+)"`));
+      const pts = [...m[1].matchAll(/(-?[\d.]+),(-?[\d.]+)/g)].map((a) => [+a[1], +a[2]]);
+      const xs = pts.map((p) => p[0]); const ys = pts.map((p) => p[1]);
+      return { x0: Math.min(...xs), y0: Math.min(...ys), x1: Math.max(...xs), y1: Math.max(...ys) };
+    };
+    for (const [id, tol] of [['us', 2], ['in', 2], ['jp', 3], ['ae', 3]]) {
+      const b = countryBboxFromAdmin(admin, id);
+      const [ax0, ay0] = project(b[0], b[3]);
+      const [ax1, ay1] = project(b[2], b[1]);
+      const w = svgBox(id);
+      // top edge (northernmost) + x extent must agree; southern islands may differ in resolution
+      const dTop = Math.abs(ay0 - w.y0);
+      const dX = id === 'jp' ? 0 : Math.abs(ax1 - w.x1);
+      assert(`${id}: admin layer aligned with world.svg (Δtop ${dTop.toFixed(2)}, Δx ${dX.toFixed(2)})`, dTop < tol && dX < tol);
+    }
+    const usB = countryBboxFromAdmin(admin, 'us');
+    const [, usBottom] = project(0, usB[1]);
+    assert('us: southern edge (Hawaii) aligned', Math.abs(usBottom - svgBox('us').y1) < 2, `${usBottom} vs ${svgBox('us').y1}`);
+  }
+
+  // Insets: Alaska / Hawaii drawn inside their frames, contiguous US untouched
+  {
+    const insets = insetsForCountry('us');
+    assert('us insets: Alaska + Hawaii', insets.map((i) => i.admin1).sort().join(',') === 'us-ak,us-hi');
+    for (const inset of insets) {
+      const f = findAdminFeature(admin, inset.admin1);
+      const b = geometrySvgBox(f.geometry, projectorFor('us', inset.admin1));
+      const fr = inset.frame;
+      assert(`${inset.admin1} drawn inside inset frame`, b.x >= fr.x && b.y >= fr.y && b.x + b.width <= fr.x + fr.w && b.y + b.height <= fr.y + fr.h, JSON.stringify(b));
+    }
+    const tx = findAdminFeature(admin, 'us-tx');
+    const txBox = geometrySvgBox(tx.geometry, projectorFor('us', 'us-tx'));
+    const [txX] = project(featureBbox(tx)[0], 0);
+    assert('contiguous states use plain projection', Math.abs(txBox.x - txX) < 0.01);
+    const fit = countryDrillSvgBox(admin, 'us');
+    const [farWest] = project(-171, 60);
+    assert('US drill fit excludes true Alaska position (uses inset)', fit.x > farWest + 100 && fit.width < 400, JSON.stringify(fit));
+    assert('no insets for India', insetsForCountry('in').length === 0);
+    assert('JP/AE approximations clip to coastline', clipAdminToWorld('jp') && clipAdminToWorld('ae') && !clipAdminToWorld('us'));
+  }
+
+  // User-facing wording: World → Country → State equivalent → City
+  assert('levelLabel admin1 → State equivalent', levelLabel('admin1') === 'State equivalent');
+  assert('breadcrumb carries level labels', drillBreadcrumb({ country: 'us', admin1: 'us-ca', city: 'x' }).map((b) => b.levelLabel).join(' → ') === 'World → Country → State equivalent → City');
+  {
+    const appSrc = readFileSync(new URL('./app.js', import.meta.url), 'utf8');
+    const dataSrc = readFileSync(new URL('./data.js', import.meta.url), 'utf8');
+    assert('no visible admin-1 wording (html/brief/readme/data/app)', ![html, brief, readFileSync(new URL('./README.md', import.meta.url), 'utf8'), dataSrc, appSrc].some((t) => /admin-1/i.test(t)));
+    assert('legend says State equivalent', /World → Country → State equivalent → City/.test(html));
+  }
 
   const seeded = countriesWithAdmin1(admin);
   assert('admin1 seeds us/in/ae/jp', seeded.has('us') && seeded.has('in') && seeded.has('ae') && seeded.has('jp'), [...seeded].join(','));
@@ -233,6 +289,139 @@ console.log('\n--- Soft-launch normalize / score ---');
   assert('soft-launch workflow exists', existsSync(new URL('./.github/workflows/soft-launch.yml', import.meta.url)));
   assert('BRIEF documents soft launch', /soft launch/i.test(brief) && /US Progress/i.test(brief));
   assert('META softLaunch', META.softLaunch === true);
+}
+
+
+console.log('\n--- City label collision avoidance ---');
+{
+  const {
+    layoutLabels, countOverlaps, labelFontPx, dotRadiusPx, labelPriority, estimateTextWidth, boxesOverlap,
+  } = await import('./labels.js');
+  const { project, citiesForAdmin } = await import('./geo.js');
+  const cities = JSON.parse(readFileSync(new URL('./data/geo/cities.geojson', import.meta.url), 'utf8'));
+  assert('font smaller zoomed out', labelFontPx(1) < labelFontPx(3) && labelFontPx(6) <= 12.5);
+  assert('dot radius stays small', dotRadiusPx(1) >= 3 && dotRadiusPx(6) < 6 && dotRadiusPx(1, true) > dotRadiusPx(1));
+
+  // Stacked dots: only the biggest city keeps its label; others hide, never stack
+  const stack = [
+    { id: 'big', x: 100, y: 100, text: 'Big City', priority: 9e6, r: 3 },
+    { id: 'mid', x: 101, y: 100.5, text: 'Mid City', priority: 5e6, r: 3 },
+    { id: 'small', x: 100.5, y: 101, text: 'Small City', priority: 1e6, r: 3 },
+  ];
+  const ls = layoutLabels(stack, { fontPx: 10 });
+  assert('every city gets a layout entry (dots stay)', ls.size === 3);
+  assert('highest priority label always placed', ls.get('big').visible);
+  assert('stacked labels never overlap', countOverlaps(ls) === 0);
+
+  // Labels must not cover other dots
+  const pair = [
+    { id: 'a', x: 50, y: 50, text: 'Alpha', priority: 2, r: 3 },
+    { id: 'b', x: 62, y: 50, text: 'Beta', priority: 1, r: 3 },
+  ];
+  const lp = layoutLabels(pair, { fontPx: 10 });
+  const dotB = { x0: 59, y0: 47, x1: 65, y1: 53 };
+  assert('label avoids neighbour dot', !lp.get('a').visible || !boxesOverlap(lp.get('a').box, dotB));
+  assert('far slot uses leader line', [...lp.values()].every((l) => !l.visible || typeof l.leader === 'boolean'));
+
+  // Real US cities at zoomed-out vs zoomed-in pixel densities
+  const us = citiesForAdmin(cities, { country: 'us' });
+  const mk = (k) => us.map((f) => {
+    const [x, y] = project(...f.geometry.coordinates);
+    return { id: f.properties.id, x: x * k, y: y * k, text: f.properties.name, r: dotRadiusPx(1, f.properties.capital), priority: labelPriority(f.properties) };
+  });
+  const out = layoutLabels(mk(0.7), { fontPx: labelFontPx(1) });  // narrow / mobile density
+  const zin = layoutLabels(mk(8), { fontPx: labelFontPx(3.3) });
+  const shownOut = [...out.values()].filter((l) => l.visible).length;
+  const shownIn = [...zin.values()].filter((l) => l.visible).length;
+  assert('US zoomed out: no label overlaps', countOverlaps(out) === 0);
+  assert('US zoomed in: no label overlaps', countOverlaps(zin) === 0);
+  assert('zooming in reveals more labels', shownIn >= shownOut && shownIn === us.length, `${shownOut} → ${shownIn}`);
+  assert('zoomed out keeps New York label (priority)', out.get('us-city-new-york').visible);
+  const hiddenOut = [...out.entries()].filter(([, l]) => !l.visible).map(([id]) => id);
+  const minShownPop = Math.min(...us.filter((f) => out.get(f.properties.id).visible).map((f) => labelPriority(f.properties)));
+  assert('some dense labels hide when zoomed out', hiddenOut.length > 0, String(hiddenOut.length));
+  assert('selected city forced visible', layoutLabels(mk(1.2).map((i) => ({ ...i, priority: i.id === 'us-city-fort-worth' ? labelPriority({ id: 'us-city-fort-worth' }, 'us-city-fort-worth') : i.priority })), { fontPx: 9.5 }).get('us-city-fort-worth').visible);
+  assert('estimateTextWidth scales with font', estimateTextWidth('Dallas', 12) > estimateTextWidth('Dallas', 9));
+  void minShownPop;
+}
+
+console.log('\n--- Verification tiers ---');
+{
+  const V = await import('./verify.js');
+  const t0 = '2026-10-06T12:00:00Z';
+  const t1 = '2026-10-06T20:00:00Z';
+  const t5d = '2026-10-11T12:00:00Z';
+  const ars = { id: 'a', title: 'Neutrino physicist wins 2026 Nobel Physics Prize', blurb: 'Francis Halzen of University of Wisconsin-Madison led development of IceCube Neutrino Observatory.', url: 'https://arstechnica.com/x', source: 'Ars Technica', sourceId: 'ars-technica', kind: 'hard-news', published: t0, real: true };
+  const npr = { id: 'b', title: 'Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space', blurb: 'The scientist is affiliated with the University of Wisconsin–Madison.', url: 'https://www.npr.org/y', source: 'NPR Science', sourceId: 'npr-science', kind: 'hard-news', published: t1, real: true };
+  const wolf = { id: 'c', title: 'Physicist Jun Ye Wins Wolf Prize in Physics', blurb: 'The award cites Ye’s advances in the control of ultracold atomic systems.', url: 'https://www.nist.gov/z', source: 'NIST News', sourceId: 'nist-news', kind: 'hard-news', published: t0, real: true, primary: true };
+  const lone = { id: 'd', title: 'Startup plans nuclear-powered data center on public land in Utah', blurb: 'A company wants federal land.', url: 'https://www.npr.org/u', source: 'NPR Science', sourceId: 'npr-science', kind: 'hard-news', published: t0, real: true };
+  const doe = { id: 'e', title: 'Energy Department Announces $99 Million for 21 Geothermal Projects', blurb: 'DOE funds Fervo and others in Nevada.', url: 'https://www.energy.gov/a', source: 'U.S. Department of Energy', sourceId: 'doe-press', kind: 'hard-news', published: t0, real: true, primary: true };
+  const doeEcho = { id: 'f', title: 'DOE awards $99 million for 21 geothermal projects in Nevada and Utah', blurb: 'The Energy Department funding includes Fervo.', url: 'https://www.utilitydive.com/b', source: 'Utility Dive', sourceId: 'utility-dive', kind: 'hard-news', published: t1, real: true };
+  const doeEcho2 = { ...doeEcho, id: 'g', url: 'https://www.nytimes.com/c', source: 'NYT Climate / Energy', sourceId: 'nyt-energy', outlet: 'nyt', title: 'Energy Department awards $99 million to 21 geothermal projects' };
+  const op = { id: 'h', title: 'Why geothermal is the sleeper energy story', url: 'https://www.volts.wtf/p', source: 'Volts', sourceId: 'volts', kind: 'analysis', published: t0, real: true };
+  const opPath = { id: 'i', title: 'We need more transmission', url: 'https://www.nytimes.com/2026/10/06/opinion/grid.html', source: 'NYT Technology', sourceId: 'nyt-tech', outlet: 'nyt', kind: 'hard-news', published: t0, real: true };
+
+  assert('normalizeTitle strips punctuation', V.normalizeTitle('U.S. Grid: “Big” Moves!') === 'u s grid big moves' || V.normalizeTitle('U.S. Grid: “Big” Moves!').includes('grid big moves'));
+  assert('titleTokens drops stopwords + stems', V.titleTokens('The grids are getting new transformers').has('grid') && !V.titleTokens('The grids').has('the'));
+  assert('keyEntities finds names', V.keyEntities('Francis Halzen wins Nobel Prize').has('francis halzen'));
+  assert('48h window', V.withinWindow(t0, t1) && !V.withinWindow(t0, t5d));
+  assert('outletKey groups NYT feeds', V.outletKey({ outlet: 'nyt' }) === V.outletKey({ url: 'https://www.nytimes.com/x' }.url ? { outlet: 'nyt' } : {}) && V.outletKey({ url: 'https://www.nytimes.com/a' }) === 'nytimes.com');
+  assert('primary: agency feed + .gov', V.isPrimary(doe) && V.isPrimary({ url: 'https://www.eia.gov/x' }) && !V.isPrimary(ars));
+  assert('primary: company press / IR', V.isPrimary({ url: 'https://investors.example.com/news/1' }) && V.isPrimary({ url: 'https://newsroom.example.com/2026/x' }));
+  assert('analysis: kind / opinion path', V.isAnalysis(op) && V.isAnalysis(opPath) && !V.isAnalysis(ars));
+
+  // Clustering
+  const corpus = [ars, npr, wolf, lone, doe, doeEcho, doeEcho2];
+  const clusters = V.clusterItems(corpus).map((g) => g.map((i) => corpus[i].id).sort().join(''));
+  assert('clusters Nobel story across outlets', clusters.includes('ab'), clusters.join(' '));
+  assert('Wolf Prize not merged with Nobel story', clusters.includes('c'), clusters.join(' '));
+  assert('DOE release + echoes clustered', clusters.includes('efg'), clusters.join(' '));
+  assert('same-outlet items never corroborate', V.clusterItems([lone, { ...lone, id: 'd2', url: 'https://www.npr.org/u2' }]).length === 2);
+  assert('outside 48h → separate', V.clusterItems([ars, { ...npr, published: t5d }]).length === 2);
+
+  // Tier assignment
+  const out = V.classifyItems([...corpus, op, opPath, { id: 's', title: 'Sample', real: false }]);
+  const st = Object.fromEntries(out.map((i) => [i.id, i.verification.status]));
+  assert('two independent outlets → multiple', st.a === 'multiple' && st.b === 'multiple');
+  assert('single outlet → unconfirmed', st.d === 'unconfirmed');
+  assert('primary source alone → confirmed', st.c === 'confirmed');
+  assert('primary match promotes cluster → confirmed', st.e === 'confirmed' && st.f === 'confirmed' && st.g === 'confirmed');
+  assert('analysis gets Analysis tag, not a tier', st.h === 'analysis' && st.i === 'analysis');
+  assert('SAMPLE stays sample', st.s === 'sample');
+  const fv = out.find((i) => i.id === 'f').verification;
+  assert('sources list outlets + confirmer first', fv.sources.length === 3 && fv.sources[0].primary && fv.confirmedBy[0] === 'U.S. Department of Energy');
+  assert('multiple lists both outlets', out.find((i) => i.id === 'a').verification.sources.map((s) => s.name).sort().join(',') === 'Ars Technica,NPR Science');
+  const counts = V.tierCounts(out);
+  assert('tierCounts', counts.confirmed === 4 && counts.multiple === 2 && counts.unconfirmed === 1 && counts.analysis === 2 && counts.sample === 1, JSON.stringify(counts));
+  assert('filterByStatus', V.filterByStatus(out, 'multiple').length === 2 && V.filterByStatus(out, 'all').length === out.length);
+  assert('ensureVerification passes through classified feed', V.ensureVerification(out) === out);
+  assert('ensureVerification classifies raw feed (client fallback)', V.ensureVerification([ars, npr]).every((i) => i.verification.status === 'multiple'));
+
+  // Fetcher integration (mock feeds; no network)
+  const { fetchAll } = await import('./scripts/fetch-signals.mjs');
+  const rss = (items) => `<?xml version="1.0"?><rss version="2.0"><channel>${items.map((i) => `<item><title>${i.t}</title><link>${i.u}</link><pubDate>${new Date().toUTCString()}</pubDate><description>${i.d}</description></item>`).join('')}</channel></rss>`;
+  const feeds = {
+    'https://doe.test/rss': rss([{ t: 'Energy Department Announces $4.2 Billion for Nuclear Grid Transmission in Pennsylvania', u: 'https://www.energy.gov/n1', d: 'DOE nuclear transmission funding for Pennsylvania utilities' }]),
+    'https://dive.test/rss': rss([{ t: 'DOE awards $4.2 billion for nuclear transmission in Pennsylvania', u: 'https://www.utilitydive.com/n2', d: 'Energy Department grid funding, Pennsylvania' }, { t: 'Utility grid battery storage manufacturing expands in Texas', u: 'https://www.utilitydive.com/n3', d: 'US battery factory' }]),
+  };
+  const res = await fetchAll([
+    { id: 'doe-press', name: 'U.S. Department of Energy', url: 'https://doe.test/rss', kind: 'hard-news', countryDefault: 'US', tags: ['energy'], primary: true },
+    { id: 'utility-dive', name: 'Utility Dive', url: 'https://dive.test/rss', kind: 'hard-news', countryDefault: 'US', tags: ['energy', 'grid'] },
+  ], { fetchImpl: async (u) => ({ ok: true, status: 200, body: feeds[u] }) });
+  const byUrl = Object.fromEntries(res.items.map((i) => [i.url, i.verification?.status]));
+  assert('fetcher attaches statuses', res.items.every((i) => i.verification?.status));
+  assert('fetcher: echo of primary → confirmed', byUrl['https://www.utilitydive.com/n2'] === 'confirmed', JSON.stringify(byUrl));
+  assert('fetcher: lone trade story → unconfirmed', byUrl['https://www.utilitydive.com/n3'] === 'unconfirmed');
+
+  // Live data carries statuses
+  const live = JSON.parse(readFileSync(new URL('./data/signals-live.json', import.meta.url), 'utf8'));
+  assert('live items all carry verification status', live.items.every((i) => ['confirmed', 'multiple', 'unconfirmed', 'analysis'].includes(i.verification?.status)));
+  assert('live payload has tier counts', live.verification && Object.values(live.verification.counts).reduce((a, b) => a + b, 0) === live.items.length);
+  assert('live: analysis-kind items tagged Analysis', live.items.filter((i) => i.kind === 'analysis').every((i) => i.verification.status === 'analysis'));
+  const appSrc = readFileSync(new URL('./app.js', import.meta.url), 'utf8');
+  assert('app renders badges + filter + legend', /verifyBadge/.test(appSrc) && /data-vfilter/.test(appSrc) && /rail-legend/.test(appSrc));
+  assert('css tier colors', /\.vb-unconfirmed/.test(css) && /\.vb-multiple/.test(css) && /\.vb-confirmed/.test(css));
+  assert('SW caches labels.js + verify.js', /labels\.js/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && /verify\.js/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
 }
 
 console.log(`\n${passed} passed, ${failed} failed`);

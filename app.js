@@ -16,7 +16,15 @@ import {
   countriesWithAdmin1, adminFeaturesForCountry, findAdminFeature,
   citiesForAdmin, findCityFeature, countryBboxFromAdmin,
   drillBreadcrumb, mindMapAllowed, project, SVG_W, SVG_H,
+  projectorFor, insetsForCountry, countryDrillSvgBox, geometrySvgBox,
+  svgBoxToViewBox, levelLabel, clipAdminToWorld,
 } from './geo.js';
+import {
+  ensureVerification, tierCounts, filterByStatus, STATUS_META, STATUS_ORDER,
+} from './verify.js';
+import {
+  layoutLabels, labelFontPx, dotRadiusPx, labelPriority, estimateTextWidth,
+} from './labels.js';
 import {
   resolveLeadership, leadershipStack, roleBadge, hasPublicContact,
 } from './leadership.js';
@@ -134,6 +142,7 @@ function applyMapTransform() {
   if (label) label.textContent = `${scale.toFixed(1)}×`;
   const stage = $('.map-stage');
   if (stage) stage.classList.toggle('is-zoomed', scale > 1.02);
+  scheduleLabelLayout();
 }
 
 function setZoom(nextScale, focalX, focalY) {
@@ -396,7 +405,7 @@ async function loadMap() {
       svg.removeAttribute('height');
       svg.setAttribute('shape-rendering', 'geometricPrecision');
       svg.setAttribute('role', 'img');
-      svg.setAttribute('aria-label', 'World atlas — click desk; double-click / long-press mind map at country level; drill into seeded admin-1');
+      svg.setAttribute('aria-label', 'World atlas — click desk; double-click / long-press mind map at country level; drill into seeded state equivalents');
       svg.dataset.baseViewBox = svg.getAttribute('viewBox') || `0 0 ${SVG_W} ${SVG_H}`;
       const seed = new Set(fullCountryIds());
       const stubs = new Set(Object.keys(STUBS));
@@ -431,11 +440,17 @@ function paintMapSelection() {
   if (!svg) return;
   $$('path.selected', svg).forEach((p) => p.classList.remove('selected'));
   $$('path.dimmed', svg).forEach((p) => p.classList.remove('dimmed'));
+  $$('path.drill-under', svg).forEach((p) => p.classList.remove('drill-under'));
   if (state.country) {
     const p = svg.querySelector(`#${CSS.escape(state.country)}`);
-    if (p) p.classList.add('selected');
-    // Dim other countries when drilled
-    if (state.admin1 || admin1Countries.has(state.country)) {
+    const drilled = admin1Countries.has(state.country);
+    if (p) {
+      // Drilled countries: the world-level fill is hidden and the outline is
+      // redrawn from the state-equivalent geometry (same projection as the
+      // states) so nothing can sit offset under the drill layer.
+      p.classList.add(drilled ? 'drill-under' : 'selected');
+    }
+    if (state.admin1 || drilled) {
       $$('path[id]', svg).forEach((path) => {
         if (path.id.toLowerCase() !== state.country && !path.closest('#drill-layer')) {
           path.classList.add('dimmed');
@@ -445,19 +460,37 @@ function paintMapSelection() {
   }
 }
 
+function setViewBox(vb) {
+  const svg = $('#world-map-host svg');
+  if (!svg) return;
+  svg.setAttribute('viewBox', vb);
+  Object.assign(mapXform, resetTransform());
+  applyMapTransform();
+}
+
 function fitToBbox(bbox) {
   const svg = $('#world-map-host svg');
   if (!svg) return;
   const base = svg.dataset.baseViewBox || `0 0 ${SVG_W} ${SVG_H}`;
-  if (!bbox) {
-    svg.setAttribute('viewBox', base);
-    Object.assign(mapXform, resetTransform());
-    applyMapTransform();
-    return;
-  }
-  svg.setAttribute('viewBox', bboxToViewBox(padBbox(bbox, 0.35), 0.1));
-  Object.assign(mapXform, resetTransform());
-  applyMapTransform();
+  setViewBox(bbox ? bboxToViewBox(padBbox(bbox, 0.35), 0.1) : base);
+}
+
+function fitToSvgBox(box, padRatio = 0.08) {
+  if (!box) return fitToBbox(null);
+  setViewBox(svgBoxToViewBox(box, padRatio));
+}
+
+const SVG_NS = 'http://www.w3.org/2000/svg';
+function svgEl(tag, attrs = {}) {
+  const el = document.createElementNS(SVG_NS, tag);
+  for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, String(v));
+  return el;
+}
+
+/** City point in drill space (inset-aware). */
+function cityPoint(country, f) {
+  const [lon, lat] = f.geometry.coordinates;
+  return projectorFor(country, f.properties?.admin1)(lon, lat);
 }
 
 function renderDrillLayer() {
@@ -484,10 +517,7 @@ function renderDrillLayer() {
       if (path) {
         try {
           const b = path.getBBox();
-          const pad = Math.max(b.width, b.height) * 0.15;
-          svg.setAttribute('viewBox', `${b.x - pad} ${b.y - pad} ${b.width + pad * 2} ${b.height + pad * 2}`);
-          Object.assign(mapXform, resetTransform());
-          applyMapTransform();
+          fitToSvgBox(b, 0.15);
         } catch { /* empty path */ }
       }
     }
@@ -495,51 +525,93 @@ function renderDrillLayer() {
   }
 
   const adminFeats = adminFeaturesForCountry(admin1Geo, country);
-  const adminG = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-  adminG.setAttribute('class', 'drill-admin');
-  for (const f of adminFeats) {
-    const d = geometryToPath(f.geometry);
-    if (!d) continue;
-    const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-    p.setAttribute('d', d);
-    p.setAttribute('class', 'admin1-path' + (state.admin1 === f.properties.id ? ' selected' : ''));
+  const insets = insetsForCountry(country);
+
+  // Inset frames (Alaska / Hawaii etc.) — opaque boxes so the far-off true
+  // location never shows through as a stray shape.
+  if (insets.length) {
+    const insetG = svgEl('g', { class: 'drill-insets' });
+    for (const inset of insets) {
+      const { x, y, w, h } = inset.frame;
+      insetG.appendChild(svgEl('rect', { class: 'inset-frame', x, y, width: w, height: h, rx: 1.5 }));
+      const t = svgEl('text', { class: 'inset-label', x: x + 2.5, y: y + h - 2.5 });
+      t.dataset.fx = x;
+      t.dataset.fy = y + h;
+      t.textContent = inset.label;
+      insetG.appendChild(t);
+    }
+    drill.appendChild(insetG);
+  }
+
+  const paths = adminFeats.map((f) => {
+    const proj = projectorFor(country, f.properties.id);
+    return { f, d: geometryToPath(f.geometry, proj) };
+  }).filter((x) => x.d);
+
+  // Country outline drawn in the same projection as the states: a wide gold
+  // stroke underneath, so only the outer half shows as the country border.
+  const worldPath = svg.querySelector(`#${CSS.escape(country)}`);
+  const clip = clipAdminToWorld(country) && worldPath?.getAttribute('d');
+  const outlineG = svgEl('g', { class: 'drill-outline', 'aria-hidden': 'true' });
+  if (clip) {
+    // Coarse state-equivalent approximation: base + outline come from the
+    // world.svg coastline (now the same projection) and admin areas are clipped to it.
+    outlineG.appendChild(svgEl('path', { d: clip, class: 'country-outline' }));
+    outlineG.appendChild(svgEl('path', { d: clip, class: 'country-base' }));
+    const defs = svgEl('defs');
+    const cp = svgEl('clipPath', { id: 'drill-clip' });
+    cp.appendChild(svgEl('path', { d: clip }));
+    defs.appendChild(cp);
+    drill.appendChild(defs);
+  } else {
+    for (const { d } of paths) outlineG.appendChild(svgEl('path', { d, class: 'country-outline' }));
+  }
+  drill.appendChild(outlineG);
+
+  const adminG = svgEl('g', { class: 'drill-admin' });
+  if (clip) adminG.setAttribute('clip-path', 'url(#drill-clip)');
+  for (const { f, d } of paths) {
+    const p = svgEl('path', {
+      d,
+      class: 'admin1-path' + (state.admin1 === f.properties.id ? ' selected' : ''),
+      'aria-label': `${f.properties.name} (State equivalent)`,
+    });
     p.dataset.admin1 = f.properties.id;
     p.dataset.country = country;
-    p.setAttribute('aria-label', f.properties.name);
     adminG.appendChild(p);
   }
   drill.appendChild(adminG);
 
-  // Cities when admin1 selected (or all major cities at country if no admin1 focus)
+  // Cities: all major cities at country level, or those inside the focused
+  // state equivalent. Labels are laid out separately (collision-aware).
   const cityFeats = state.admin1
     ? citiesForAdmin(citiesGeo, { country, admin1: state.admin1 })
     : citiesForAdmin(citiesGeo, { country });
-  const cityG = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-  cityG.setAttribute('class', 'drill-cities');
+  const leaderG = svgEl('g', { class: 'drill-leaders', 'aria-hidden': 'true' });
+  const cityG = svgEl('g', { class: 'drill-cities' });
+  const labelG = svgEl('g', { class: 'drill-labels', 'aria-hidden': 'true' });
   for (const f of cityFeats) {
-    const [lon, lat] = f.geometry.coordinates;
-    const [x, y] = project(lon, lat);
-    const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-    g.setAttribute('class', 'city-marker' + (state.city === f.properties.id ? ' selected' : ''));
+    const [x, y] = cityPoint(country, f);
+    const g = svgEl('g', {
+      class: 'city-marker' + (state.city === f.properties.id ? ' selected' : ''),
+      transform: `translate(${x.toFixed(2)},${y.toFixed(2)})`,
+      role: 'button',
+      'aria-label': f.properties.name,
+    });
     g.dataset.city = f.properties.id;
     g.dataset.admin1 = f.properties.admin1 || '';
     g.dataset.country = country;
-    g.setAttribute('transform', `translate(${x},${y})`);
-    g.setAttribute('role', 'button');
-    g.setAttribute('aria-label', f.properties.name);
-    const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-    c.setAttribute('r', f.properties.capital ? '5' : '3.5');
-    c.setAttribute('class', 'city-dot');
-    const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-    label.setAttribute('class', 'city-label');
-    label.setAttribute('x', '6');
-    label.setAttribute('y', '3');
-    label.textContent = f.properties.name;
-    g.appendChild(c);
-    g.appendChild(label);
+    g.dataset.x = x;
+    g.dataset.y = y;
+    g.dataset.pop = f.properties.pop || 0;
+    g.dataset.capital = f.properties.capital ? '1' : '';
+    g.dataset.name = f.properties.name;
+    g.appendChild(svgEl('circle', { r: 3, class: 'city-dot' }));
     cityG.appendChild(g);
   }
+  drill.appendChild(leaderG);
   drill.appendChild(cityG);
+  drill.appendChild(labelG);
 
   // Fit view only when drill focus changes (preserve user pan/zoom otherwise)
   const fitKey = `${country}|${state.admin1 || ''}|${state.city || ''}`;
@@ -548,16 +620,122 @@ function renderDrillLayer() {
     if (state.city) {
       const cf = findCityFeature(citiesGeo, state.city);
       if (cf) {
-        const [lon, lat] = cf.geometry.coordinates;
-        fitToBbox([lon - 1.2, lat - 0.9, lon + 1.2, lat + 0.9]);
+        const [x, y] = cityPoint(country, cf);
+        const span = insetsForCountry(country).some((i) => i.admin1 === cf.properties.admin1) ? 6 : 13;
+        fitToSvgBox({ x: x - span, y: y - span * 0.75, width: span * 2, height: span * 1.5 }, 0);
       }
     } else if (state.admin1) {
       const af = findAdminFeature(admin1Geo, state.admin1);
-      fitToBbox(featureBbox(af));
+      fitToSvgBox(af && geometrySvgBox(af.geometry, projectorFor(country, af.properties.id)), 0.12);
+    } else if (clip && worldPath) {
+      fitToSvgBox(worldPath.getBBox(), 0.08);
     } else {
-      fitToBbox(countryBboxFromAdmin(admin1Geo, country));
+      fitToSvgBox(countryDrillSvgBox(admin1Geo, country), 0.06);
     }
   }
+  layoutCityLabels();
+}
+
+/* ---------- City label layout (collision-aware, zoom-aware) ---------- */
+let labelRaf = 0;
+let lastLabelSig = '';
+function scheduleLabelLayout() {
+  if (labelRaf) return;
+  labelRaf = requestAnimationFrame(() => {
+    labelRaf = 0;
+    layoutCityLabels();
+  });
+}
+
+let measureCtx = null;
+function measureText(text, fontPx) {
+  try {
+    if (!measureCtx) measureCtx = document.createElement('canvas').getContext('2d');
+    measureCtx.font = `${fontPx}px "IBM Plex Sans", system-ui, sans-serif`;
+    return measureCtx.measureText(text).width + 1;
+  } catch {
+    return estimateTextWidth(text, fontPx);
+  }
+}
+
+function layoutCityLabels(force = false) {
+  const svg = $('#world-map-host svg');
+  const drill = svg?.querySelector('#drill-layer');
+  if (!drill) return;
+  const markers = $$('.city-marker', drill);
+  const labelG = drill.querySelector('.drill-labels');
+  const leaderG = drill.querySelector('.drill-leaders');
+  if (!labelG || !leaderG) return;
+  const vb = svg.viewBox?.baseVal;
+  const rect = svg.getBoundingClientRect();
+  if (!vb || !vb.width || !rect.width) return;
+  // px per SVG unit under preserveAspectRatio="xMidYMid meet"
+  const k = Math.min(rect.width / vb.width, rect.height / vb.height);
+  const zoom = mapXform.scale || 1;
+  // Inset captions: constant ~9px on screen at any zoom
+  $$('.inset-label', drill).forEach((t) => {
+    t.style.fontSize = `${(9 / k).toFixed(3)}px`;
+    t.setAttribute('x', (Number(t.dataset.fx) + 4 / k).toFixed(3));
+    t.setAttribute('y', (Number(t.dataset.fy) - 4 / k).toFixed(3));
+  });
+  const sig = `${markers.length}|${k.toFixed(4)}|${zoom.toFixed(3)}|${state.city || ''}`;
+  if (!force && sig === lastLabelSig && labelG.childNodes.length) return;
+  lastLabelSig = sig;
+
+  const fontPx = labelFontPx(zoom);
+  const items = markers.map((m) => {
+    const capital = !!m.dataset.capital;
+    const r = dotRadiusPx(zoom, capital);
+    const dot = m.querySelector('.city-dot');
+    if (dot) dot.setAttribute('r', (r / k).toFixed(3));
+    return {
+      id: m.dataset.city,
+      x: Number(m.dataset.x) * k,
+      y: Number(m.dataset.y) * k,
+      r,
+      text: m.dataset.name,
+      priority: labelPriority({ id: m.dataset.city, pop: Number(m.dataset.pop), capital }, state.city),
+      w: measureText(m.dataset.name, fontPx),
+    };
+  });
+  const layout = layoutLabels(items, { fontPx, pad: 2 });
+
+  labelG.innerHTML = '';
+  leaderG.innerHTML = '';
+  const fontU = fontPx / k;
+  let hidden = 0;
+  for (const it of items) {
+    const l = layout.get(it.id);
+    const marker = markers.find((m) => m.dataset.city === it.id);
+    marker?.classList.toggle('label-hidden', !l?.visible);
+    if (!l?.visible) { hidden++; continue; }
+    const t = svgEl('text', {
+      class: 'city-label' + (state.city === it.id ? ' selected' : ''),
+      x: (l.x / k).toFixed(3),
+      y: (l.y / k).toFixed(3),
+      'text-anchor': l.anchor,
+    });
+    t.style.fontSize = `${fontU.toFixed(3)}px`;
+    t.style.strokeWidth = `${(2.4 / k).toFixed(3)}px`;
+    t.textContent = it.text;
+    labelG.appendChild(t);
+    if (l.leader) {
+      // Leader from dot edge to the nearest point on the label box
+      const bx = Math.max(l.box.x0, Math.min(it.x, l.box.x1));
+      const by = Math.max(l.box.y0, Math.min(it.y, l.box.y1));
+      const dx = bx - it.x, dy = by - it.y;
+      const len = Math.hypot(dx, dy) || 1;
+      const sx = it.x + (dx / len) * it.r;
+      const sy = it.y + (dy / len) * it.r;
+      leaderG.appendChild(svgEl('line', {
+        class: 'city-leader',
+        x1: (sx / k).toFixed(3), y1: (sy / k).toFixed(3),
+        x2: (bx / k).toFixed(3), y2: (by / k).toFixed(3),
+      }));
+    }
+  }
+  drill.dataset.labelsHidden = String(hidden);
+  drill.dataset.labelsShown = String(items.length - hidden);
 }
 
 function renderBreadcrumb() {
@@ -585,9 +763,9 @@ function renderBreadcrumb() {
   el.innerHTML = bits.map((b, i) => {
     const sep = i ? '<span class="bc-sep">→</span>' : '';
     if (i === bits.length - 1) {
-      return `${sep}<span class="bc-current">${escapeHtml(b.label)}</span>`;
+      return `${sep}<span class="bc-current" title="${escapeHtml(b.levelLabel || '')}">${escapeHtml(b.label)}</span>`;
     }
-    return `${sep}<button type="button" class="bc-link" data-bc-level="${b.level}" data-bc-id="${escapeHtml(b.id || '')}">${escapeHtml(b.label)}</button>`;
+    return `${sep}<button type="button" class="bc-link" title="${escapeHtml(b.levelLabel || '')}" data-bc-level="${b.level}" data-bc-id="${escapeHtml(b.id || '')}">${escapeHtml(b.label)}</button>`;
   }).join('');
   $$('[data-bc-level]', el).forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -740,7 +918,7 @@ function renderCompanyDesk(c) {
   }
   const anns = (co.announcements || []).map((a) => `
     <article class="signal-card">
-      <div class="top"><h3>${escapeHtml(a.title)}</h3><span class="weight">SAMPLE</span></div>
+      <div class="top"><h3>${escapeHtml(a.title)}</h3>${verifyBadge({ verification: { status: 'sample' } })}</div>
       <p>${escapeHtml(a.blurb)}</p>
       <div class="signal-meta"><span class="tag">${escapeHtml(a.date)}</span></div>
     </article>`).join('');
@@ -827,7 +1005,7 @@ function renderLeadershipAccordion() {
   });
   const hasDrill = admin1Countries.has(state.country);
   const finerNote = !hasDrill
-    ? `<p class="lead-finer-note">Finer map coming — admin-1 borders not seeded for this country yet. Country desk still works.</p>`
+    ? `<p class="lead-finer-note">Finer map coming — state-equivalent borders not seeded for this country yet. Country desk still works.</p>`
     : '';
 
   if (!stack.length) {
@@ -869,7 +1047,7 @@ function renderLeadershipAccordion() {
     const nest = idx > 0 ? ' lead-level-nested' : '';
     return `
       <div class="lead-level${nest}">
-        <div class="lead-level-label">${escapeHtml(block.label || block.key)} · ${escapeHtml(block.level || '')}</div>
+        <div class="lead-level-label">${escapeHtml(block.label || block.key)} · ${escapeHtml(levelLabel(block.level))}</div>
         ${roles}
       </div>`;
   }).join(stack.length > 1 ? '<div class="lead-more">More levels (as focus narrows)</div>' : '');
@@ -939,7 +1117,7 @@ function renderPanel() {
   })();
   const mmOk = mindMapAllowed(state.admin1, state.city);
   const drillHint = admin1Countries.has(c.id)
-    ? 'Drill: country → admin-1 → city. Mind map only at country level.'
+    ? 'Drill: World → Country → State equivalent → City. Mind map only at country level.'
     : 'Finer map coming for this country. Mind map at country level.';
 
   root.innerHTML = `
@@ -1045,6 +1223,7 @@ function signalCard(s) {
       <div class="top"><h3>${escapeHtml(s.title)}</h3><span class="weight">w${s.weight}</span></div>
       <p>${escapeHtml(s.blurb)}</p>
       <div class="signal-meta">
+        ${verifyBadge({ verification: { status: 'sample' } })}
         <span class="tag">${escapeHtml(s.date)}</span>
         ${s.sector ? `<span class="tag">${escapeHtml(s.sector)}</span>` : ''}
         ${s.region ? `<span class="tag">${escapeHtml(s.region)}</span>` : ''}
@@ -1067,8 +1246,66 @@ function wireTabInteractions(c, root) {
 }
 
 /* ---------- Feed (US Progress soft launch) ---------- */
+let railStatus = 'all';
+
 function liveItems() {
   return Array.isArray(liveFeed?.items) ? liveFeed.items : [];
+}
+
+/** Small colored verification badge; tap / hover lists the outlets. */
+function verifyBadge(item, { pop = false } = {}) {
+  const v = item.verification || {};
+  const status = v.status && STATUS_META[v.status] ? v.status : 'unconfirmed';
+  const meta = STATUS_META[status];
+  if (!pop) {
+    return `<span class="vbadge vb-${status}" title="${escapeHtml(meta.hint)}">${escapeHtml(meta.label)}</span>`;
+  }
+  const sources = v.sources || [];
+  const rows = sources.map((src) => `
+      <li>${src.url ? `<a href="${escapeHtml(src.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(src.name)}</a>` : escapeHtml(src.name)}${src.primary ? ' <span class="vpop-primary">primary</span>' : ''}</li>`).join('');
+  const heading = status === 'analysis' ? 'Published by' : sources.length > 1 ? `Reported by ${sources.length} outlets` : 'Reported by';
+  const confirmed = status === 'confirmed' && v.confirmedBy?.length
+    ? `<p class="vpop-note">Confirmed by ${escapeHtml(v.confirmedBy.join(', '))} (subject / official source).</p>` : '';
+  return `
+    <span class="vwrap">
+      <button type="button" class="vbadge vb-${status}" aria-expanded="false" aria-label="${escapeHtml(meta.label)} — show sources" data-vbadge>${escapeHtml(meta.label)}</button>
+      <span class="vpop" role="tooltip">
+        <span class="vpop-hint">${escapeHtml(meta.hint)}</span>
+        <span class="vpop-h">${escapeHtml(heading)}</span>
+        <ul>${rows || '<li>—</li>'}</ul>
+        ${confirmed}
+      </span>
+    </span>`;
+}
+
+function railLegend() {
+  return `<p class="rail-legend"><span class="vbadge vb-confirmed">Confirmed</span> subject / official source confirmed · <span class="vbadge vb-multiple">Multiple sources</span> 2+ independent outlets, not yet confirmed · <span class="vbadge vb-unconfirmed">Unconfirmed</span> one outlet, subject silent · <span class="vbadge vb-analysis">Analysis</span> opinion / analysis, no tier. Tap a badge for outlets.</p>`;
+}
+
+function railFilterBar(items) {
+  const counts = tierCounts(items);
+  const chip = (id, label, n) => `<button type="button" class="vfilter${railStatus === id ? ' active' : ''}${id !== 'all' ? ` vf-${id}` : ''}" data-vfilter="${id}" aria-pressed="${railStatus === id}">${escapeHtml(label)} <span class="vf-n">${n}</span></button>`;
+  return `<div class="vfilters" role="group" aria-label="Filter by verification status">
+    ${chip('all', 'All', items.length)}
+    ${STATUS_ORDER.map((st) => chip(st, STATUS_META[st].label, counts[st])).join('')}
+  </div>`;
+}
+
+function wireVerifyBadges(root) {
+  $$('[data-vbadge]', root).forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const wrap = btn.closest('.vwrap');
+      const open = !wrap.classList.contains('open');
+      $$('.vwrap.open', document).forEach((w) => {
+        w.classList.remove('open');
+        w.querySelector('[data-vbadge]')?.setAttribute('aria-expanded', 'false');
+      });
+      wrap.classList.toggle('open', open);
+      btn.setAttribute('aria-expanded', String(open));
+    });
+  });
 }
 
 function renderFeed() {
@@ -1088,25 +1325,33 @@ function renderFeed() {
       if (!items.length) items = live.slice(0, 24);
     }
     items = items.slice(0, 40);
+    const shown = filterByStatus(items, railStatus);
     if (sub) {
       const gen = liveFeed?.generatedAt ? ` · updated ${dateStampShort(liveFeed.generatedAt)}` : '';
       sub.innerHTML = filterId === 'us'
         ? `<strong>US</strong> · ${items.length} REAL links${gen}`
         : `Public RSS · ${items.length} REAL links${gen}`;
     }
-    feed.innerHTML = items.map((i) => `
-      <a class="feed-item is-live" href="${escapeHtml(i.url)}" target="_blank" rel="noopener noreferrer" data-real="1">
+    feed.innerHTML = railFilterBar(items) + railLegend() + (shown.map((i) => `
+      <article class="feed-item is-live" data-real="1" data-vstatus="${escapeHtml(i.verification?.status || '')}">
         <div class="country">
           <span>${escapeHtml(i.country || 'US')} · ${escapeHtml(i.source || '')}</span>
-          <span class="badge-sm real">REAL</span>
+          <span class="feed-badges">${verifyBadge(i, { pop: true })}<span class="badge-sm real">REAL</span></span>
         </div>
-        <div class="title">${escapeHtml(i.title)}</div>
+        <a class="title" href="${escapeHtml(i.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(i.title)}</a>
         <div class="meta">
           <span>${escapeHtml(i.publishedLabel || dateStampShort(i.published))}</span>
-          <span class="badge-sm kind">${escapeHtml(i.kind === 'analysis' ? 'analysis' : 'news')}</span>
+          <span class="badge-sm kind">${escapeHtml(i.verification?.status === 'analysis' ? 'analysis' : 'news')}</span>
           <span>s${Math.round(i.score || 0)}</span>
         </div>
-      </a>`).join('') || '<p class="section-note" style="padding:0.5rem">No live items yet.</p>';
+      </article>`).join('') || `<p class="section-note" style="padding:0.5rem">${live.length ? 'No items with this status.' : 'No live items yet.'}</p>`);
+    $$('[data-vfilter]', feed).forEach((btn) => {
+      btn.addEventListener('click', () => {
+        railStatus = btn.dataset.vfilter;
+        renderFeed();
+      });
+    });
+    wireVerifyBadges(feed);
     return;
   }
 
@@ -1120,7 +1365,7 @@ function renderFeed() {
   }
   feed.innerHTML = items.map((i) => `
     <article class="feed-item" data-c="${i.countryId}">
-      <div class="country"><span>${escapeHtml(i.countryName)}</span><span class="badge-sm sample">SAMPLE</span></div>
+      <div class="country"><span>${escapeHtml(i.countryName)}</span>${verifyBadge({ verification: { status: 'sample' } })}</div>
       <div class="title">${escapeHtml(i.title)}</div>
       <div class="meta"><span>${escapeHtml(i.date)}</span><span>w${i.weight}</span></div>
     </article>`).join('') || '<p class="section-note" style="padding:0.5rem">No feed items.</p>';
@@ -1142,6 +1387,8 @@ async function loadLiveFeed() {
     const res = await fetch('./data/signals-live.json', { cache: 'no-store' });
     if (!res.ok) throw new Error(String(res.status));
     liveFeed = await res.json();
+    // Client fallback: classify if the feed predates fetcher-side statuses
+    liveFeed.items = ensureVerification(liveFeed.items || []);
   } catch {
     liveFeed = { items: [], itemCount: 0 };
   }
@@ -1187,6 +1434,13 @@ function boot() {
   loadLiveFeed();
   window.addEventListener('resize', () => applyMapTransform());
   window.addEventListener('hashchange', applyHash);
+  document.addEventListener('click', (e) => {
+    if (e.target.closest?.('.vwrap')) return;
+    $$('.vwrap.open').forEach((w) => {
+      w.classList.remove('open');
+      w.querySelector('[data-vbadge]')?.setAttribute('aria-expanded', 'false');
+    });
+  });
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && state.view !== 'desk') {
       navigate({ view: 'desk', company: null });

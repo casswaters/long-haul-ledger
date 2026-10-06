@@ -1,35 +1,175 @@
 /**
- * Map drill-down helpers — equirectangular projection matching world.svg
- * viewBox 0 0 2000 1001 (Natural Earth / VectorAtlas atlas).
+ * Map drill-down helpers — projection calibrated to world.svg
+ * (viewBox 0 0 2000 1001, Natural Earth / VectorAtlas atlas).
+ *
+ * world.svg is plate carrée in x (lon −180..180 → 0..2000) and linear in y at
+ * the same 1001/180 px/deg, BUT its equator sits at y≈578.5, not 500.5: the
+ * atlas was cropped (Antarctica trimmed) without re-centering, so every
+ * parallel is pushed down by ~78 units (~14°). The admin-1 / city layers used
+ * to assume a centred equirectangular (y = (90−lat)/180·1001), which drew the
+ * states ~78 units *north* of the world country fill — the "gold US offset"
+ * bug. Calibrated by least-squares fit of US/IN/AE/JP admin-1 rings against
+ * world.svg country paths (mean residual ≈0.2 units for the US).
  */
 
 export const SVG_W = 2000;
 export const SVG_H = 1001;
+/** Units per degree latitude in world.svg. */
+export const SVG_Y_SCALE = SVG_H / 180;
+/** world.svg y of the equator (lat 0). */
+export const SVG_EQUATOR_Y = 578.5;
 
 /** Lon/lat → SVG coords used by world.svg */
 export function project(lon, lat) {
   const x = ((Number(lon) + 180) / 360) * SVG_W;
-  const y = ((90 - Number(lat)) / 180) * SVG_H;
+  const y = SVG_EQUATOR_Y - Number(lat) * SVG_Y_SCALE;
   return [x, y];
 }
 
-export function ringToPath(ring) {
+/** Inverse of project (SVG → lon/lat). */
+export function unproject(x, y) {
+  return [(Number(x) / SVG_W) * 360 - 180, (SVG_EQUATOR_Y - Number(y)) / SVG_Y_SCALE];
+}
+
+/**
+ * Inset layouts for drill views: non-contiguous admin-1 areas drawn into a
+ * framed box (like a printed atlas) instead of at their true, far-off position.
+ * frame = SVG-unit box (in world.svg space) the inset is fitted into.
+ */
+export const DRILL_INSETS = {
+  us: [
+    { admin1: 'us-ak', label: 'Alaska', geoBbox: [-171.9, 51.2, -129.9, 71.5], frame: { x: 309, y: 448, w: 96, h: 44 } },
+    { admin1: 'us-hi', label: 'Hawaii', geoBbox: [-160.4, 18.8, -154.7, 22.4], frame: { x: 410, y: 456, w: 34, h: 24 } },
+  ],
+};
+
+/**
+ * Countries whose state-equivalent layer is a coarse open approximation
+ * (boxy emirate / region polygons). Their drill layer is clipped to the
+ * world.svg coastline so the approximation never spills into the sea.
+ */
+export const APPROX_ADMIN1 = new Set(['ae', 'jp']);
+
+export function clipAdminToWorld(countryId) {
+  return APPROX_ADMIN1.has(String(countryId || '').toLowerCase());
+}
+
+export function insetsForCountry(countryId) {
+  return DRILL_INSETS[String(countryId || '').toLowerCase()] || [];
+}
+
+/**
+ * Build a point transform (projected SVG → inset SVG) that fits geoBbox into
+ * frame (uniform scale, centred, 3-unit margin).
+ */
+export function insetTransform(inset) {
+  const [x0, y0] = project(inset.geoBbox[0], inset.geoBbox[3]);
+  const [x1, y1] = project(inset.geoBbox[2], inset.geoBbox[1]);
+  const margin = 3;
+  const fw = inset.frame.w - margin * 2;
+  const fh = inset.frame.h - margin * 2;
+  const s = Math.min(fw / (x1 - x0), fh / (y1 - y0));
+  const ox = inset.frame.x + margin + (fw - (x1 - x0) * s) / 2;
+  const oy = inset.frame.y + margin + (fh - (y1 - y0) * s) / 2;
+  const fn = (x, y) => [ox + (x - x0) * s, oy + (y - y0) * s];
+  fn.scale = s;
+  return fn;
+}
+
+/** Projection for one admin-1 area in a country drill (inset-aware). */
+export function projectorFor(countryId, admin1Id) {
+  const inset = insetsForCountry(countryId).find((i) => i.admin1 === admin1Id);
+  if (!inset) return project;
+  const xf = insetTransform(inset);
+  return (lon, lat) => {
+    const [x, y] = project(lon, lat);
+    return xf(x, y);
+  };
+}
+
+/** SVG-space bbox {x, y, width, height} of a geometry under a projector. */
+export function geometrySvgBox(geometry, proj = project) {
+  if (!geometry) return null;
+  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+  const walk = (coords) => {
+    if (typeof coords[0] === 'number') {
+      const [x, y] = proj(coords[0], coords[1]);
+      if (x < minX) minX = x;
+      if (y < minY) minY = y;
+      if (x > maxX) maxX = x;
+      if (y > maxY) maxY = y;
+      return;
+    }
+    for (const c of coords) walk(c);
+  };
+  walk(geometry.coordinates);
+  if (!Number.isFinite(minX)) return null;
+  return { x: minX, y: minY, width: maxX - minX, height: maxY - minY };
+}
+
+export function unionSvgBoxes(boxes) {
+  const list = (boxes || []).filter(Boolean);
+  if (!list.length) return null;
+  let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+  for (const b of list) {
+    x0 = Math.min(x0, b.x); y0 = Math.min(y0, b.y);
+    x1 = Math.max(x1, b.x + b.width); y1 = Math.max(y1, b.y + b.height);
+  }
+  return { x: x0, y: y0, width: x1 - x0, height: y1 - y0 };
+}
+
+/** Padded SVG box → viewBox string. */
+export function svgBoxToViewBox(box, padRatio = 0.06) {
+  if (!box) return `0 0 ${SVG_W} ${SVG_H}`;
+  const w = Math.max(8, box.width);
+  const h = Math.max(8, box.height);
+  const px = w * padRatio;
+  const py = h * padRatio;
+  return `${(box.x - px).toFixed(2)} ${(box.y - py).toFixed(2)} ${(w + px * 2).toFixed(2)} ${(h + py * 2).toFixed(2)}`;
+}
+
+/**
+ * SVG box for the whole-country drill fit: every admin-1 area as drawn
+ * (insets in their frames) plus the inset frames themselves.
+ */
+export function countryDrillSvgBox(adminFc, countryId) {
+  const boxes = adminFeaturesForCountry(adminFc, countryId)
+    .map((f) => geometrySvgBox(f.geometry, projectorFor(countryId, f.properties?.id)));
+  for (const inset of insetsForCountry(countryId)) {
+    boxes.push({ x: inset.frame.x, y: inset.frame.y, width: inset.frame.w, height: inset.frame.h });
+  }
+  return unionSvgBoxes(boxes);
+}
+
+/** User-facing names for drill levels (internal ids stay admin1). */
+export const LEVEL_LABELS = {
+  world: 'World',
+  country: 'Country',
+  admin1: 'State equivalent',
+  city: 'City',
+};
+
+export function levelLabel(level) {
+  return LEVEL_LABELS[level] || String(level || '');
+}
+
+export function ringToPath(ring, proj = project) {
   if (!ring || !ring.length) return '';
   let d = '';
   for (let i = 0; i < ring.length; i++) {
-    const [x, y] = project(ring[i][0], ring[i][1]);
+    const [x, y] = proj(ring[i][0], ring[i][1]);
     d += (i === 0 ? 'M' : 'L') + x.toFixed(2) + ',' + y.toFixed(2);
   }
   return d + 'Z';
 }
 
-export function geometryToPath(geometry) {
+export function geometryToPath(geometry, proj = project) {
   if (!geometry) return '';
   const polys =
     geometry.type === 'Polygon' ? [geometry.coordinates]
     : geometry.type === 'MultiPolygon' ? geometry.coordinates
     : [];
-  return polys.map((poly) => ringToPath(poly[0])).filter(Boolean).join('');
+  return polys.map((poly) => ringToPath(poly[0], proj)).filter(Boolean).join('');
 }
 
 /** Geographic bbox [minLon, minLat, maxLon, maxLat] */
@@ -130,10 +270,10 @@ export function countryBboxFromAdmin(adminFc, countryId) {
 
 /** Breadcrumb segments for drill state. */
 export function drillBreadcrumb({ country, countryName, admin1, admin1Name, city, cityName }) {
-  const bits = [{ level: 'world', id: null, label: 'World' }];
-  if (country) bits.push({ level: 'country', id: country, label: countryName || country.toUpperCase() });
-  if (admin1) bits.push({ level: 'admin1', id: admin1, label: admin1Name || admin1 });
-  if (city) bits.push({ level: 'city', id: city, label: cityName || city });
+  const bits = [{ level: 'world', id: null, label: 'World', levelLabel: levelLabel('world') }];
+  if (country) bits.push({ level: 'country', id: country, label: countryName || country.toUpperCase(), levelLabel: levelLabel('country') });
+  if (admin1) bits.push({ level: 'admin1', id: admin1, label: admin1Name || admin1, levelLabel: levelLabel('admin1') });
+  if (city) bits.push({ level: 'city', id: city, label: cityName || city, levelLabel: levelLabel('city') });
   return bits;
 }
 
