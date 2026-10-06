@@ -30,13 +30,19 @@
 
     <div class="main">
       <section class="map-stage" aria-label="World atlas">
-        <div class="map-label" aria-label="Atlas navigation legend">
-          <div class="map-label-title">Atlas</div>
-          <div>click → desk</div>
-          <div>dbl-click / long-press → mind map</div>
-          <div class="map-label-note">mind map: country level only</div>
-          <div>World → Country → State equivalent → City</div>
-          <div>scroll / pinch → zoom</div>
+        <div class="map-label" id="map-label" aria-label="Atlas navigation legend">
+          <button type="button" class="map-label-toggle" id="map-label-toggle" aria-expanded="false" aria-controls="map-label-tips" title="Atlas tips">
+            <span class="map-label-toggle-icon" aria-hidden="true">i</span>
+            <span class="map-label-toggle-text">Atlas</span>
+          </button>
+          <div class="map-label-body" id="map-label-tips">
+            <div class="map-label-title">Atlas</div>
+            <div>click → desk</div>
+            <div>dbl-click / long-press → mind map</div>
+            <div class="map-label-note">mind map: country level only</div>
+            <div>World → Country → State equivalent → City</div>
+            <div>scroll / pinch → zoom</div>
+          </div>
         </div>
         <div class="zoom-controls" role="group" aria-label="Map zoom">
           <button type="button" id="zoom-in" class="zoom-btn" title="Zoom in" aria-label="Zoom in">+</button>

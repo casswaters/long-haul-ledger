@@ -180,18 +180,62 @@ a:hover { text-decoration: underline; }
   z-index: 5;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 0.18rem;
   max-width: 11.5rem;
   font-size: 0.62rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--ink-mute);
+  line-height: 1.35;
+}
+.map-label-toggle {
+  display: none;
+  appearance: none;
+  align-items: center;
+  gap: 0.35rem;
+  font: inherit;
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--brass);
+  background: rgba(18, 22, 26, 0.9);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.28rem 0.55rem 0.28rem 0.35rem;
+  cursor: pointer;
+  pointer-events: auto;
+  line-height: 1;
+}
+.map-label-toggle:hover,
+.map-label-toggle:focus-visible {
+  border-color: var(--brass-dim);
+  color: var(--brass);
+  outline: none;
+}
+.map-label-toggle-icon {
+  display: grid;
+  place-items: center;
+  width: 1.15rem;
+  height: 1.15rem;
+  border-radius: 50%;
+  border: 1px solid var(--brass-dim);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-style: italic;
+  font-weight: 600;
+  color: var(--brass);
+}
+.map-label-toggle-text { color: var(--brass-dim); }
+.map-label-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.18rem;
   background: rgba(18, 22, 26, 0.82);
   padding: 0.45rem 0.55rem;
   border-radius: var(--radius);
   border: 1px solid var(--line-soft);
   pointer-events: none;
-  line-height: 1.35;
 }
 .map-label-title {
   color: var(--brass-dim);
@@ -1174,6 +1218,26 @@ body.overlay-open { overflow: hidden; }
   .company-body { grid-template-columns: 1fr; }
   .map-label { max-width: min(11rem, calc(100% - 4.2rem)); font-size: 0.58rem; }
   .overlay-head { flex-direction: column; }
+}
+
+/* Narrow phones: collapse Atlas legend to a small tip button so the map stays usable */
+@media (max-width: 699px) {
+  .map-label {
+    max-width: none;
+    gap: 0.35rem;
+  }
+  .map-label-toggle { display: inline-flex; }
+  .map-label-body {
+    display: none;
+    max-width: min(12.5rem, calc(100vw - 5rem));
+    font-size: 0.56rem;
+    pointer-events: none;
+  }
+  .map-label.is-open .map-label-body { display: flex; }
+  .map-label.is-open .map-label-toggle {
+    border-color: var(--brass-dim);
+    background: rgba(28, 34, 40, 0.95);
+  }
 }
 
 @media (max-width: 520px) {

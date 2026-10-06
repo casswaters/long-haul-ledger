@@ -1424,10 +1424,33 @@ function registerSW() {
   });
 }
 
+function wireAtlasLegend() {
+  const label = $('#map-label');
+  const toggle = $('#map-label-toggle');
+  if (!label || !toggle) return;
+  const setOpen = (open) => {
+    label.classList.toggle('is-open', open);
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  };
+  toggle.addEventListener('click', (e) => {
+    e.stopPropagation();
+    setOpen(!label.classList.contains('is-open'));
+  });
+  document.addEventListener('click', (e) => {
+    if (!label.classList.contains('is-open')) return;
+    if (e.target.closest?.('#map-label')) return;
+    setOpen(false);
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && label.classList.contains('is-open')) setOpen(false);
+  });
+}
+
 function boot() {
   $('#date-stamp').textContent = formatDateStamp();
   $('#about-text').textContent = META.sketchNote;
   $('#domain-note').textContent = `${META.domainIntent} — reserved intent (not purchased by this sketch). Soft launch runs on GitHub Pages + Actions only ($0).`;
+  wireAtlasLegend();
   loadGeoAndLeadership()
     .then(() => loadMap())
     .then(() => applyHash());
