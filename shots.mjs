@@ -79,6 +79,19 @@ try {
   }
   {
     const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+    await page.goto(base + '/', { waitUntil: 'networkidle' });
+    await page.waitForSelector('#world-map-host svg path', { timeout: 15000 });
+    // Max zoom via controls, then nudge toward Europe/ME for coastline detail
+    for (let i = 0; i < 10; i++) await page.click('#zoom-in');
+    await page.waitForTimeout(200);
+    const level = await page.textContent('#zoom-level');
+    console.log('08 zoom level', level);
+    await page.screenshot({ path: join(outDir, '08-zoom-sharp.png'), fullPage: false });
+    await page.close();
+    console.log('08 zoom-sharp ok');
+  }
+  {
+    const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
     await page.goto(base + '/#c=us&v=mindmap', { waitUntil: 'networkidle' });
     await page.waitForSelector('.mindmap-svg', { timeout: 15000 });
     await page.waitForTimeout(400);

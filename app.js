@@ -4,7 +4,7 @@ import {
 } from './data.js';
 import { parseHash, buildHash, normalizeTab, normalizeView, TABS } from './nav.js';
 import {
-  clampZoom, resetTransform, transformCss, zoomAt, panBy,
+  clampZoom, resetTransform, zoomAt, panBy,
   wheelToScale, stepZoom, exceededDragThreshold,
   pinchDistance, pinchCenter, ZOOM_MIN, ZOOM_MAX,
 } from './zoom.js';
@@ -76,12 +76,21 @@ function navigate(patch) {
 /* ---------- Map zoom / pan ---------- */
 function applyMapTransform() {
   const viewport = $('#map-viewport');
-  if (!viewport) return;
-  viewport.style.transform = transformCss(mapXform);
+  const host = $('#world-map-host');
+  if (!viewport || !host) return;
+  // Enlarge viewport in pixels so the SVG reflows as true vectors.
+  // Translate only — never CSS scale() / will-change (those rasterize at 1×).
+  const { scale, tx, ty } = mapXform;
+  const rect = host.getBoundingClientRect();
+  const w = Math.max(1, rect.width) * scale;
+  const h = Math.max(1, rect.height) * scale;
+  viewport.style.width = `${w}px`;
+  viewport.style.height = `${h}px`;
+  viewport.style.transform = `translate(${tx}px, ${ty}px)`;
   const label = $('#zoom-level');
-  if (label) label.textContent = `${mapXform.scale.toFixed(1)}×`;
+  if (label) label.textContent = `${scale.toFixed(1)}×`;
   const stage = $('.map-stage');
-  if (stage) stage.classList.toggle('is-zoomed', mapXform.scale > 1.02);
+  if (stage) stage.classList.toggle('is-zoomed', scale > 1.02);
 }
 
 function setZoom(nextScale, focalX, focalY) {
@@ -278,6 +287,7 @@ async function loadMap() {
     if (svg) {
       svg.removeAttribute('width');
       svg.removeAttribute('height');
+      svg.setAttribute('shape-rendering', 'geometricPrecision');
       svg.setAttribute('role', 'img');
       svg.setAttribute('aria-label', 'World atlas sketch — click desk, double-click or long-press mind map');
       const seed = new Set(fullCountryIds());
@@ -743,6 +753,7 @@ function boot() {
   $('#about-text').textContent = META.sketchNote;
   $('#domain-note').textContent = `${META.domainIntent} — reserved intent (not purchased by this sketch).`;
   loadMap().then(() => applyHash());
+  window.addEventListener('resize', () => applyMapTransform());
   window.addEventListener('hashchange', applyHash);
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && state.view !== 'desk') {

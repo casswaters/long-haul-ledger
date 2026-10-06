@@ -31,7 +31,7 @@ assert('domain intent noted', META.domainIntent === 'longviewledger.com');
 assert('sample flag true', META.sample === true);
 assert('index.html exists', existsSync(new URL('./index.html', import.meta.url)));
 assert('world.svg exists', existsSync(new URL('./world.svg', import.meta.url)));
-assert('sw.js cache name longview-ledger-v2', /longview-ledger-v2/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+assert('sw.js cache name longview-ledger-v3', /longview-ledger-v3/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
 assert('BRIEF.md exists', existsSync(new URL('./BRIEF.md', import.meta.url)));
 assert('app has ?fresh=1 bust', /\bfresh\b/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 assert('zoom.js exists', existsSync(new URL('./zoom.js', import.meta.url)));
@@ -130,6 +130,9 @@ assert('creed in HTML', /10,000 Year Empire/.test(html));
 assert('zoom controls in HTML', /id="zoom-in"/.test(html) && /id="zoom-out"/.test(html));
 assert('BRIEF documents click distinction', /single-click/i.test(brief) && /double-click/i.test(brief) && /mind map/i.test(brief));
 assert('overlay styles present', /ledger-overlay/.test(css) && /mindmap-svg/.test(css) && /chain-grid/.test(css));
+assert('no will-change transform on map viewport', !/will-change:\s*transform/.test(css));
+assert('shape-rendering geometricPrecision in CSS', /shape-rendering:\s*geometricPrecision/.test(css));
+assert('app uses size-based map zoom', /rect\.width\) \* scale/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed) process.exit(1);
