@@ -1,5 +1,5 @@
 /**
- * Long Haul Ledger Playwright screenshots → /workspace/qa/longview-ledger/
+ * Long Haul Ledger Playwright screenshots → /workspace/qa/long-haul-ledger/
  */
 import { chromium } from 'playwright';
 import { createServer } from 'http';
@@ -8,7 +8,7 @@ import { extname, join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
-const outDir = '/workspace/qa/longview-ledger';
+const outDir = '/workspace/qa/long-haul-ledger';
 mkdirSync(outDir, { recursive: true });
 
 const mime = {

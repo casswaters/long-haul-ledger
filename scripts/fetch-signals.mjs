@@ -13,7 +13,7 @@ const SOURCES_PATH = join(ROOT, 'data', 'sources.json');
 const OUT_PATH = join(ROOT, 'data', 'signals-live.json');
 
 const UA =
-  'LongHaulLedgerBot/0.1 (+https://casswaters.github.io/longview-ledger/; soft-launch public RSS; no scraping beyond feed XML)';
+  'LongHaulLedgerBot/0.1 (+https://casswaters.github.io/long-haul-ledger/; soft-launch public RSS; no scraping beyond feed XML)';
 const FETCH_TIMEOUT_MS = 14000;
 const PER_FEED_CAP = 18;
 const GLOBAL_CAP = 110;

@@ -1,5 +1,5 @@
-/* Long Haul Ledger service worker — network-first app shell (long-haul-ledger-v1) */
-const CACHE = 'long-haul-ledger-v1';
+/* Long Haul Ledger service worker — network-first app shell (long-haul-ledger-v2) */
+const CACHE = 'long-haul-ledger-v2';
 const ASSETS = [
   './',
   './index.html',
@@ -40,7 +40,7 @@ function isShell(url) {
     p.endsWith('.webmanifest') ||
     p.endsWith('.json') ||
     p.endsWith('/') ||
-    p.endsWith('/longview-ledger')
+    p.endsWith('/long-haul-ledger')
   );
 }
 

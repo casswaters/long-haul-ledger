@@ -1,8 +1,9 @@
 # Long Haul Ledger — Product Brief (v0 sketch)
 
 **Creed / tagline:** 10,000 Year Empire  
-**Display name:** Long Haul Ledger (repo / Pages path still `longview-ledger` for now)  
-**Domain intent:** longhaulledger.com (preferred); longviewledger.com also noted historically — neither purchased; availability check not required for this sketch  
+**Display name:** Long Haul Ledger  
+**Repo / Pages:** `casswaters/long-haul-ledger` → https://casswaters.github.io/long-haul-ledger/  
+**Domain intent:** longhaulledger.com (preferred; not purchased). Availability check not required for this sketch.  
 **Owner:** Cassidy Waters  
 **Status:** Soft launch — US Progress rail from public RSS (REAL); country desks SAMPLE
 
@@ -57,7 +58,7 @@ Some feeds may **403 intermittently** (bot filters / WAF); the fetcher records f
 
 ## Naming & vibe
 
-Display name: **Long Haul Ledger**. Vibe words: **long haul + skilltree + civilization + world atlas + ledger** (repo folder remains `longview-ledger`).  
+Display name: **Long Haul Ledger**. Vibe words: **long haul + skilltree + civilization + world atlas + ledger**. Repo / folder / Pages path: `long-haul-ledger`.  
 Aesthetic: sober intelligence desk — dark ink on slate/parchment, restrained brass. Distinct from Captain’s Log chrome and Aretoria’s sacred/fantasy portal.
 
 ## Board relation (do not rebuild)
@@ -73,6 +74,6 @@ Aesthetic: sober intelligence desk — dark ink on slate/parchment, restrained b
 
 - Live at GitHub Pages with zoomable map → country panel + mind map → value chain → company desk.  
 - **US Progress** rail shows REAL RSS items with outbound links; SAMPLE badges remain on desks.  
-- Vertical atlas legend + zoom controls. SW cache `long-haul-ledger-v1`.  
+- Vertical atlas legend + zoom controls. SW cache `long-haul-ledger-v2`.  
 - Seed desks: United States, India, UAE, Japan, Nigeria, Chile (full chains for ≥2–3 industries each).  
 - Fetcher + Action stay within free GitHub Actions; no paid APIs or domains purchased.

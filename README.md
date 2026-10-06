@@ -4,7 +4,9 @@
 
 Soft launch: **US Progress** rail from free public RSS (GitHub Actions). Country desks remain SAMPLE.
 
-Live: https://casswaters.github.io/longview-ledger/
+Live: https://casswaters.github.io/long-haul-ledger/
+
+> **URL rename:** formerly `longview-ledger` (repo + Pages). Old Pages path may 404; use the URL above.
 
 See [BRIEF.md](./BRIEF.md) for product context.
 
