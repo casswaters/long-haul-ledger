@@ -11,6 +11,15 @@ import {
 import {
   industriesForMindMap, mindMapLayout, getValueChain, getCompany, chainStages,
 } from './chains.js';
+import {
+  geometryToPath, featureBbox, padBbox, bboxToViewBox,
+  countriesWithAdmin1, adminFeaturesForCountry, findAdminFeature,
+  citiesForAdmin, findCityFeature, countryBboxFromAdmin,
+  drillBreadcrumb, mindMapAllowed, project, SVG_W, SVG_H,
+} from './geo.js';
+import {
+  resolveLeadership, leadershipStack, roleBadge, hasPublicContact,
+} from './leadership.js';
 
 const state = {
   country: null,
@@ -19,7 +28,19 @@ const state = {
   region: null,
   view: 'desk',
   company: null,
+  admin1: null,
+  city: null,
 };
+
+/** @type {any} */
+let admin1Geo = null;
+/** @type {any} */
+let citiesGeo = null;
+/** @type {any} */
+let leadershipCatalog = null;
+/** @type {Set<string>} */
+let admin1Countries = new Set();
+let lastFitKey = null;
 
 /** @type {{ generatedAt?: string, itemCount?: number, items: any[], sourcesFailed?: any[] } | null} */
 let liveFeed = null;
@@ -40,13 +61,28 @@ function applyHash() {
   state.tab = normalizeTab(h.tab);
   state.sector = h.sector;
   state.region = h.region;
-  state.view = normalizeView(h.view);
+  state.admin1 = h.admin1;
+  state.city = h.city;
+  let view = normalizeView(h.view);
+  // Mind map / chain / company only at country level
+  if (!mindMapAllowed(state.admin1, state.city) && view !== 'desk') {
+    view = 'desk';
+  }
+  state.view = view;
   state.company = h.company;
   render();
 }
 
 function navigate(patch) {
   Object.assign(state, patch);
+  if (patch.country !== undefined && patch.admin1 === undefined && patch.city === undefined) {
+    // Selecting a new country clears sub-area unless explicitly set
+    if (!('admin1' in patch)) state.admin1 = null;
+    if (!('city' in patch)) state.city = null;
+  }
+  if (patch.admin1 !== undefined && patch.city === undefined && !('city' in patch)) {
+    state.city = null;
+  }
   if (patch.country !== undefined && patch.view === undefined && !patch.tab) {
     state.tab = 'signals';
   }
@@ -61,10 +97,14 @@ function navigate(patch) {
   if (patch.view === 'desk') {
     state.company = null;
   }
-  if (patch.view === 'mindmap') {
-    state.company = null;
+  if (patch.view === 'mindmap' || patch.view === 'chain' || patch.view === 'company') {
+    state.company = patch.view === 'company' ? state.company : null;
+    // Force country-level for overlays
+    state.admin1 = null;
+    state.city = null;
   }
-  if (patch.view === 'chain') {
+  if (!mindMapAllowed(state.admin1, state.city) && state.view !== 'desk') {
+    state.view = 'desk';
     state.company = null;
   }
   const hash = buildHash(state);
@@ -141,25 +181,66 @@ function wireZoomControls() {
   let lastTap = { id: null, t: 0 };
   let longPressTimer = null;
   let longPressFired = false;
-  let pendingCountry = null;
+  let pendingHit = null;
 
   function clearLongPress() {
     if (longPressTimer) clearTimeout(longPressTimer);
     longPressTimer = null;
   }
 
-  function countryFromEvent(e) {
-    const t = e.target;
-    if (t && t.tagName === 'path' && t.id) return t.id.toLowerCase();
+  function hitFromEvent(e) {
+    let t = e.target;
+    while (t && t !== host) {
+      if (t.dataset?.city) return { kind: 'city', id: t.dataset.city, admin1: t.dataset.admin1 || null, country: t.dataset.country || state.country };
+      if (t.dataset?.admin1) return { kind: 'admin1', id: t.dataset.admin1, country: t.dataset.country || state.country };
+      if (t.tagName === 'path' && t.id && !t.closest?.('#drill-layer')) {
+        return { kind: 'country', id: t.id.toLowerCase() };
+      }
+      t = t.parentElement;
+    }
     return null;
   }
 
+  function countryFromEvent(e) {
+    const hit = hitFromEvent(e);
+    return hit?.kind === 'country' ? hit.id : (hit?.country || null);
+  }
+
   function openDesk(id) {
-    navigate({ country: id, view: 'desk', sector: null, region: null, company: null, tab: 'signals' });
+    navigate({
+      country: id, view: 'desk', sector: null, region: null, company: null,
+      tab: 'signals', admin1: null, city: null,
+    });
+  }
+
+  function openHit(hit) {
+    if (!hit) return;
+    if (hit.kind === 'city') {
+      navigate({
+        country: hit.country, admin1: hit.admin1 || state.admin1, city: hit.id,
+        view: 'desk', sector: null, region: null, company: null, tab: 'signals',
+      });
+      return;
+    }
+    if (hit.kind === 'admin1') {
+      navigate({
+        country: hit.country, admin1: hit.id, city: null,
+        view: 'desk', sector: null, region: null, company: null, tab: 'signals',
+      });
+      return;
+    }
+    openDesk(hit.id);
   }
 
   function openMindMap(id) {
-    navigate({ country: id, view: 'mindmap', sector: null, region: null, company: null });
+    if (!mindMapAllowed(state.admin1, state.city) && state.country === id) {
+      // Already below country — ignore mind map
+      return;
+    }
+    navigate({
+      country: id, view: 'mindmap', sector: null, region: null, company: null,
+      admin1: null, city: null,
+    });
   }
 
   host.addEventListener('pointerdown', (e) => {
@@ -168,15 +249,15 @@ function wireZoomControls() {
     pointers.set(e.pointerId, e);
     dragMoved = false;
     longPressFired = false;
-    pendingCountry = countryFromEvent(e);
+    pendingHit = hitFromEvent(e);
 
     if (pointers.size === 1) {
       panOrigin = { x: e.clientX, y: e.clientY, tx: mapXform.tx, ty: mapXform.ty };
       clearLongPress();
-      if (pendingCountry) {
+      if (pendingHit?.kind === 'country') {
         longPressTimer = setTimeout(() => {
           longPressFired = true;
-          openMindMap(pendingCountry);
+          openMindMap(pendingHit.id);
         }, 550);
       }
     } else if (pointers.size === 2) {
@@ -229,24 +310,25 @@ function wireZoomControls() {
     stage.classList.remove('is-panning');
     if (pointers.size === 0) {
       clearLongPress();
-      const id = pendingCountry;
+      const hit = pendingHit;
       const moved = dragMoved || longPressFired;
       const wasLong = longPressFired;
-      pendingCountry = null;
+      pendingHit = null;
       panOrigin = null;
-      if (!moved && id && !wasLong) {
+      if (!moved && hit && !wasLong) {
         const now = Date.now();
-        if (lastTap.id === id && now - lastTap.t < 350) {
+        const tapKey = `${hit.kind}:${hit.id}`;
+        if (hit.kind === 'country' && lastTap.id === tapKey && now - lastTap.t < 350) {
           if (clickTimer) clearTimeout(clickTimer);
           clickTimer = null;
           lastTap = { id: null, t: 0 };
-          openMindMap(id);
+          openMindMap(hit.id);
         } else {
-          lastTap = { id, t: now };
+          lastTap = { id: tapKey, t: now };
           if (clickTimer) clearTimeout(clickTimer);
           clickTimer = setTimeout(() => {
             clickTimer = null;
-            openDesk(id);
+            openHit(hit);
           }, 280);
         }
       }
@@ -267,11 +349,33 @@ function wireZoomControls() {
   host.addEventListener('dblclick', (e) => {
     e.preventDefault();
     if (clickTimer) clearTimeout(clickTimer);
-    const id = countryFromEvent(e);
-    if (id) openMindMap(id);
+    const hit = hitFromEvent(e);
+    if (hit?.kind === 'country') openMindMap(hit.id);
+    // Below country: mind map disabled — single-click already opened desk
   });
 
   applyMapTransform();
+}
+
+/* ---------- Geo + leadership data ---------- */
+async function loadGeoAndLeadership() {
+  try {
+    const [a, c, l] = await Promise.all([
+      fetch('./data/geo/admin1.geojson', { cache: 'no-store' }).then((r) => r.json()),
+      fetch('./data/geo/cities.geojson', { cache: 'no-store' }).then((r) => r.json()),
+      fetch('./data/leadership.json', { cache: 'no-store' }).then((r) => r.json()),
+    ]);
+    admin1Geo = a;
+    citiesGeo = c;
+    leadershipCatalog = l;
+    admin1Countries = countriesWithAdmin1(admin1Geo);
+  } catch (err) {
+    console.warn('Geo/leadership load failed', err);
+    admin1Geo = { features: [] };
+    citiesGeo = { features: [] };
+    leadershipCatalog = { areas: {} };
+    admin1Countries = new Set();
+  }
 }
 
 /* ---------- Map load ---------- */
@@ -284,24 +388,33 @@ async function loadMap() {
   host.appendChild(viewport);
   try {
     const res = await fetch('./world.svg');
-    const text = await res.text();
-    viewport.innerHTML = text;
+    const svgText = await res.text();
+    viewport.innerHTML = svgText;
     const svg = viewport.querySelector('svg');
     if (svg) {
       svg.removeAttribute('width');
       svg.removeAttribute('height');
       svg.setAttribute('shape-rendering', 'geometricPrecision');
       svg.setAttribute('role', 'img');
-      svg.setAttribute('aria-label', 'World atlas sketch — click desk, double-click or long-press mind map');
+      svg.setAttribute('aria-label', 'World atlas — click desk; double-click / long-press mind map at country level; drill into seeded admin-1');
+      svg.dataset.baseViewBox = svg.getAttribute('viewBox') || `0 0 ${SVG_W} ${SVG_H}`;
       const seed = new Set(fullCountryIds());
       const stubs = new Set(Object.keys(STUBS));
       $$('path[id]', svg).forEach((p) => {
         const id = p.id.toLowerCase();
         if (seed.has(id)) p.classList.add('seed');
         else if (stubs.has(id)) p.classList.add('stub-known');
+        if (admin1Countries.has(id)) p.classList.add('has-admin1');
         const name = getCountry(id)?.name || id.toUpperCase();
         p.setAttribute('aria-label', name);
       });
+      // Drill overlay group
+      let drill = svg.querySelector('#drill-layer');
+      if (!drill) {
+        drill = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+        drill.setAttribute('id', 'drill-layer');
+        svg.appendChild(drill);
+      }
     }
   } catch (err) {
     viewport.innerHTML = `<p style="color:#9a9386;padding:2rem;text-align:center">Map failed to load. Use country chips below.</p>`;
@@ -309,16 +422,186 @@ async function loadMap() {
   }
   wireZoomControls();
   paintMapSelection();
+  renderDrillLayer();
+  renderBreadcrumb();
 }
 
 function paintMapSelection() {
   const svg = $('#world-map-host svg');
   if (!svg) return;
   $$('path.selected', svg).forEach((p) => p.classList.remove('selected'));
+  $$('path.dimmed', svg).forEach((p) => p.classList.remove('dimmed'));
   if (state.country) {
     const p = svg.querySelector(`#${CSS.escape(state.country)}`);
     if (p) p.classList.add('selected');
+    // Dim other countries when drilled
+    if (state.admin1 || admin1Countries.has(state.country)) {
+      $$('path[id]', svg).forEach((path) => {
+        if (path.id.toLowerCase() !== state.country && !path.closest('#drill-layer')) {
+          path.classList.add('dimmed');
+        }
+      });
+    }
   }
+}
+
+function fitToBbox(bbox) {
+  const svg = $('#world-map-host svg');
+  if (!svg) return;
+  const base = svg.dataset.baseViewBox || `0 0 ${SVG_W} ${SVG_H}`;
+  if (!bbox) {
+    svg.setAttribute('viewBox', base);
+    Object.assign(mapXform, resetTransform());
+    applyMapTransform();
+    return;
+  }
+  svg.setAttribute('viewBox', bboxToViewBox(padBbox(bbox, 0.35), 0.1));
+  Object.assign(mapXform, resetTransform());
+  applyMapTransform();
+}
+
+function renderDrillLayer() {
+  const svg = $('#world-map-host svg');
+  const drill = svg?.querySelector('#drill-layer');
+  if (!drill) return;
+  drill.innerHTML = '';
+
+  const country = state.country;
+  if (!country) {
+    if (lastFitKey !== '') {
+      lastFitKey = '';
+      fitToBbox(null);
+    }
+    return;
+  }
+
+  const hasAdmin = admin1Countries.has(country);
+  if (!hasAdmin) {
+    const fitKey = `${country}|`;
+    if (fitKey !== lastFitKey) {
+      lastFitKey = fitKey;
+      const path = svg.querySelector(`#${CSS.escape(country)}`);
+      if (path) {
+        try {
+          const b = path.getBBox();
+          const pad = Math.max(b.width, b.height) * 0.15;
+          svg.setAttribute('viewBox', `${b.x - pad} ${b.y - pad} ${b.width + pad * 2} ${b.height + pad * 2}`);
+          Object.assign(mapXform, resetTransform());
+          applyMapTransform();
+        } catch { /* empty path */ }
+      }
+    }
+    return;
+  }
+
+  const adminFeats = adminFeaturesForCountry(admin1Geo, country);
+  const adminG = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  adminG.setAttribute('class', 'drill-admin');
+  for (const f of adminFeats) {
+    const d = geometryToPath(f.geometry);
+    if (!d) continue;
+    const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    p.setAttribute('d', d);
+    p.setAttribute('class', 'admin1-path' + (state.admin1 === f.properties.id ? ' selected' : ''));
+    p.dataset.admin1 = f.properties.id;
+    p.dataset.country = country;
+    p.setAttribute('aria-label', f.properties.name);
+    adminG.appendChild(p);
+  }
+  drill.appendChild(adminG);
+
+  // Cities when admin1 selected (or all major cities at country if no admin1 focus)
+  const cityFeats = state.admin1
+    ? citiesForAdmin(citiesGeo, { country, admin1: state.admin1 })
+    : citiesForAdmin(citiesGeo, { country });
+  const cityG = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  cityG.setAttribute('class', 'drill-cities');
+  for (const f of cityFeats) {
+    const [lon, lat] = f.geometry.coordinates;
+    const [x, y] = project(lon, lat);
+    const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+    g.setAttribute('class', 'city-marker' + (state.city === f.properties.id ? ' selected' : ''));
+    g.dataset.city = f.properties.id;
+    g.dataset.admin1 = f.properties.admin1 || '';
+    g.dataset.country = country;
+    g.setAttribute('transform', `translate(${x},${y})`);
+    g.setAttribute('role', 'button');
+    g.setAttribute('aria-label', f.properties.name);
+    const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    c.setAttribute('r', f.properties.capital ? '5' : '3.5');
+    c.setAttribute('class', 'city-dot');
+    const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    label.setAttribute('class', 'city-label');
+    label.setAttribute('x', '6');
+    label.setAttribute('y', '3');
+    label.textContent = f.properties.name;
+    g.appendChild(c);
+    g.appendChild(label);
+    cityG.appendChild(g);
+  }
+  drill.appendChild(cityG);
+
+  // Fit view only when drill focus changes (preserve user pan/zoom otherwise)
+  const fitKey = `${country}|${state.admin1 || ''}|${state.city || ''}`;
+  if (fitKey !== lastFitKey) {
+    lastFitKey = fitKey;
+    if (state.city) {
+      const cf = findCityFeature(citiesGeo, state.city);
+      if (cf) {
+        const [lon, lat] = cf.geometry.coordinates;
+        fitToBbox([lon - 1.2, lat - 0.9, lon + 1.2, lat + 0.9]);
+      }
+    } else if (state.admin1) {
+      const af = findAdminFeature(admin1Geo, state.admin1);
+      fitToBbox(featureBbox(af));
+    } else {
+      fitToBbox(countryBboxFromAdmin(admin1Geo, country));
+    }
+  }
+}
+
+function renderBreadcrumb() {
+  let el = $('#map-breadcrumb');
+  if (!el) {
+    const stage = $('.map-stage');
+    if (!stage) return;
+    el = document.createElement('nav');
+    el.id = 'map-breadcrumb';
+    el.className = 'map-breadcrumb';
+    el.setAttribute('aria-label', 'Map drill-down');
+    stage.appendChild(el);
+  }
+  const c = getCountry(state.country);
+  const af = findAdminFeature(admin1Geo, state.admin1);
+  const cf = findCityFeature(citiesGeo, state.city);
+  const bits = drillBreadcrumb({
+    country: state.country,
+    countryName: c?.name,
+    admin1: state.admin1,
+    admin1Name: af?.properties?.name,
+    city: state.city,
+    cityName: cf?.properties?.name,
+  });
+  el.innerHTML = bits.map((b, i) => {
+    const sep = i ? '<span class="bc-sep">→</span>' : '';
+    if (i === bits.length - 1) {
+      return `${sep}<span class="bc-current">${escapeHtml(b.label)}</span>`;
+    }
+    return `${sep}<button type="button" class="bc-link" data-bc-level="${b.level}" data-bc-id="${escapeHtml(b.id || '')}">${escapeHtml(b.label)}</button>`;
+  }).join('');
+  $$('[data-bc-level]', el).forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const level = btn.dataset.bcLevel;
+      if (level === 'world') {
+        navigate({ country: null, admin1: null, city: null, view: 'desk', sector: null, region: null, company: null });
+        fitToBbox(null);
+      } else if (level === 'country') {
+        navigate({ country: btn.dataset.bcId, admin1: null, city: null, view: 'desk', tab: 'signals' });
+      } else if (level === 'admin1') {
+        navigate({ admin1: btn.dataset.bcId, city: null, view: 'desk' });
+      }
+    });
+  });
 }
 
 /* ---------- Overlay: mind map / chain / company ---------- */
@@ -534,6 +817,74 @@ function shortLabel(name) {
   return name.length > 22 ? name.slice(0, 20) + '…' : name;
 }
 
+/* ---------- Leadership accordion ---------- */
+function renderLeadershipAccordion() {
+  if (!state.country) return '';
+  const stack = leadershipStack(leadershipCatalog, {
+    country: state.country,
+    admin1: state.admin1,
+    city: state.city,
+  });
+  const hasDrill = admin1Countries.has(state.country);
+  const finerNote = !hasDrill
+    ? `<p class="lead-finer-note">Finer map coming — admin-1 borders not seeded for this country yet. Country desk still works.</p>`
+    : '';
+
+  if (!stack.length) {
+    return `
+      <details class="leadership-acc">
+        <summary>Leadership <span class="tier-tag">SAMPLE / sparse</span></summary>
+        <div class="leadership-body">
+          <p class="section-note">No leadership roster seeded for this focus yet. Public official directories welcome in a later pass.</p>
+          ${finerNote}
+        </div>
+      </details>`;
+  }
+
+  const levels = stack.map((block, idx) => {
+    const roles = (block.roles || []).map((role) => {
+      const badges = roleBadge(role).map((b) => `<span class="badge-sm ${b === 'SAMPLE' ? 'sample' : 'kind'}">${escapeHtml(b)}</span>`).join(' ');
+      const contact = role.contact || {};
+      const links = [];
+      if (contact.site) links.push(`<a href="${escapeHtml(contact.site)}" target="_blank" rel="noopener noreferrer">Official site</a>`);
+      if (contact.form) links.push(`<a href="${escapeHtml(contact.form)}" target="_blank" rel="noopener noreferrer">Public form</a>`);
+      if (contact.switchboard) links.push(`<span class="lead-switch">${escapeHtml(contact.switchboard)}</span>`);
+      if (contact.email) links.push(`<a href="mailto:${escapeHtml(contact.email)}">${escapeHtml(contact.email)}</a>`);
+      return `
+        <article class="lead-role">
+          <div class="lead-role-top">
+            <div>
+              <div class="lead-title">${escapeHtml(role.title)}</div>
+              <div class="lead-name">${escapeHtml(role.name)}</div>
+            </div>
+            <div class="lead-badges">${badges}</div>
+          </div>
+          <div class="lead-contact">${links.join(' · ') || '<span class="ink-mute">No public channel listed</span>'}</div>
+          <div class="lead-meta">
+            <div><span class="lead-k">Response</span> ${escapeHtml(role.responseTime?.text || 'unknown')} ${role.responseTime?.badge ? `<span class="badge-sm kind">${escapeHtml(role.responseTime.badge)}</span>` : ''}</div>
+            <div><span class="lead-k">Term</span> ${escapeHtml(role.term?.text || 'unknown')} ${role.term?.badge ? `<span class="badge-sm sample">${escapeHtml(role.term.badge)}</span>` : ''}</div>
+          </div>
+        </article>`;
+    }).join('');
+    const nest = idx > 0 ? ' lead-level-nested' : '';
+    return `
+      <div class="lead-level${nest}">
+        <div class="lead-level-label">${escapeHtml(block.label || block.key)} · ${escapeHtml(block.level || '')}</div>
+        ${roles}
+      </div>`;
+  }).join(stack.length > 1 ? '<div class="lead-more">More levels (as focus narrows)</div>' : '');
+
+  return `
+    <details class="leadership-acc">
+      <summary>Leadership <span class="tier-tag">public channels</span></summary>
+      <div class="leadership-body">
+        <p class="section-note">Collapsed by default. Public sites / switchboards / forms only — never private phones. SAMPLE / ESTIMATE badges mark unverified fields.</p>
+        ${finerNote}
+        ${levels}
+      </div>
+    </details>`;
+}
+
 /* ---------- Panel ---------- */
 function renderPanel() {
   const root = $('#country-panel');
@@ -579,18 +930,31 @@ function renderPanel() {
       <div class="tab-body">${renderTab(c)}</div>`;
   }
 
+  const areaLabel = (() => {
+    const af = findAdminFeature(admin1Geo, state.admin1);
+    const cf = findCityFeature(citiesGeo, state.city);
+    if (cf) return `${c.name} · ${af?.properties?.name || ''} · ${cf.properties.name}`.replace(/ · $/,'').replace(/ ·  · /,' · ');
+    if (af) return `${c.name} · ${af.properties.name}`;
+    return c.name;
+  })();
+  const mmOk = mindMapAllowed(state.admin1, state.city);
+  const drillHint = admin1Countries.has(c.id)
+    ? 'Drill: country → admin-1 → city. Mind map only at country level.'
+    : 'Finer map coming for this country. Mind map at country level.';
+
   root.innerHTML = `
     <div class="country-head">
-      <h2>${escapeHtml(c.name)} <span class="tier-tag">${tier}</span></h2>
+      <h2>${escapeHtml(areaLabel)} <span class="tier-tag">${tier}</span></h2>
       <p class="snapshot">${escapeHtml(c.snapshot)}</p>
       <div class="metrics">
         <div class="metric"><div class="label">Stability</div><div class="value">${m.stability}</div><div class="hint">${metricLabel(m.stability)}</div></div>
         <div class="metric"><div class="label">Frontier pressure</div><div class="value">${m.frontierPressure}</div><div class="hint">${metricLabel(m.frontierPressure)}</div></div>
         <div class="metric"><div class="label">Opportunity</div><div class="value">${m.opportunity}</div><div class="hint">${metricLabel(m.opportunity)}</div></div>
       </div>
+      ${renderLeadershipAccordion()}
       <div class="desk-actions">
-        <button type="button" class="btn-brass" data-open-mindmap>Mind map</button>
-        <span class="desk-hint">Atlas: single-click = desk · double-click / long-press = mind map</span>
+        <button type="button" class="btn-brass" data-open-mindmap ${mmOk ? '' : 'disabled title="Mind map is country-level only"'}>Mind map</button>
+        <span class="desk-hint">Atlas: single-click = desk · double-click / long-press = mind map (country only). ${escapeHtml(drillHint)}</span>
       </div>
     </div>
     ${body}`;
@@ -599,7 +963,8 @@ function renderPanel() {
     btn.addEventListener('click', () => navigate({ tab: btn.dataset.tab, sector: null, region: null, view: 'desk' }));
   });
   $('[data-open-mindmap]', root)?.addEventListener('click', () => {
-    navigate({ view: 'mindmap', company: null, sector: null, region: null });
+    if (!mindMapAllowed(state.admin1, state.city)) return;
+    navigate({ view: 'mindmap', company: null, sector: null, region: null, admin1: null, city: null });
   });
   if (c.tier === 'stub') {
     const box = $('#seed-chips');
@@ -785,6 +1150,8 @@ async function loadLiveFeed() {
 
 function render() {
   paintMapSelection();
+  renderDrillLayer();
+  renderBreadcrumb();
   renderPanel();
   renderFeed();
   renderOverlay();
@@ -814,13 +1181,22 @@ function boot() {
   $('#date-stamp').textContent = formatDateStamp();
   $('#about-text').textContent = META.sketchNote;
   $('#domain-note').textContent = `${META.domainIntent} — reserved intent (not purchased by this sketch). Soft launch runs on GitHub Pages + Actions only ($0).`;
-  loadMap().then(() => applyHash());
+  loadGeoAndLeadership()
+    .then(() => loadMap())
+    .then(() => applyHash());
   loadLiveFeed();
   window.addEventListener('resize', () => applyMapTransform());
   window.addEventListener('hashchange', applyHash);
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && state.view !== 'desk') {
       navigate({ view: 'desk', company: null });
+    } else if (e.key === 'Escape' && state.city) {
+      navigate({ city: null });
+    } else if (e.key === 'Escape' && state.admin1) {
+      navigate({ admin1: null, city: null });
+    } else if (e.key === 'Escape' && state.country) {
+      navigate({ country: null, admin1: null, city: null });
+      fitToBbox(null);
     }
   });
   registerSW();

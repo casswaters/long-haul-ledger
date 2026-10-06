@@ -5,12 +5,12 @@
 export const META = {
   name: 'Long Haul Ledger',
   creed: '10,000 Year Empire',
-  version: '0.3-soft',
+  version: '0.4-drill',
   domainIntent: 'longhaulledger.com',
   sample: true,
   softLaunch: true,
   sketchNote:
-    'Soft launch: the US Progress ledger rail is fed by free public RSS via GitHub Actions (REAL outbound links). Country desks, metrics, value chains, and company desks remain SAMPLE fiction. No paid APIs; $0 on GitHub Pages + Actions.',
+    'Soft launch: the US Progress ledger rail is fed by free public RSS via GitHub Actions (REAL outbound links). Country desks, metrics, value chains, and company desks remain SAMPLE fiction. Leadership accordion + admin-1 map drill (US/IN/AE/JP seeded). No paid APIs; $0 on GitHub Pages + Actions.',
 };
 
 /** @typedef {{ id: string, title: string, blurb: string, weight: number, sector?: string, region?: string, date: string }} Signal */

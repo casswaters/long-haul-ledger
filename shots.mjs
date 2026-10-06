@@ -153,6 +153,38 @@ try {
     await page.close();
     console.log('us-progress mobile ok');
   }
+
+  {
+    const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+    await page.goto(base + '/#c=us', { waitUntil: 'networkidle' });
+    await page.waitForSelector('.leadership-acc', { timeout: 15000 });
+    await page.click('.leadership-acc > summary');
+    await page.waitForTimeout(400);
+    await page.screenshot({ path: join(outDir, 'leadership-accordion.png'), fullPage: false });
+    const panel = await page.$('#country-panel');
+    if (panel) await panel.screenshot({ path: join(outDir, 'leadership-accordion-panel.png') });
+    await page.close();
+    console.log('leadership accordion ok');
+  }
+  {
+    const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+    await page.goto(base + '/#c=us', { waitUntil: 'networkidle' });
+    await page.waitForSelector('#drill-layer .admin1-path', { timeout: 20000 });
+    await page.waitForTimeout(500);
+    await page.screenshot({ path: join(outDir, 'drill-us-states.png'), fullPage: false });
+    await page.close();
+    console.log('drill us states ok');
+  }
+  {
+    const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+    await page.goto(base + '/#c=us&a=us-ca', { waitUntil: 'networkidle' });
+    await page.waitForSelector('#drill-layer .city-marker', { timeout: 20000 });
+    await page.waitForTimeout(500);
+    await page.screenshot({ path: join(outDir, 'drill-state-cities.png'), fullPage: false });
+    await page.close();
+    console.log('drill state→city ok');
+  }
+
   console.log('shots written to', outDir);
 } finally {
   await browser.close();

@@ -42,7 +42,7 @@ The global **Ledger** rail is a civilization-weighted feed; selecting a country 
 | --- | --- |
 | **US Progress** rail: REAL public RSS via GitHub Actions (every ~6h + manual) | Broader country rails + denser weighting |
 | Country desks / chains / companies still SAMPLE | Attach real articles to desks; drop SAMPLE fiction where sourced |
-| SVG atlas + zoom/pan (vertical zoom + legend) | Richer cartography, time layers, comparison |
+| SVG atlas + zoom/pan + admin-1 drill (US/IN/AE/JP) + Leadership accordion | Full-planet admin-1, denser leadership, time layers |
 | Free feeds only — no paid APIs, no always-on server ($0) | Optional paid data / custom domain (longhaulledger.com) |
 
 **Honesty rule:** rail items that open outbound URLs are **REAL**. Desks/chains/companies stay **SAMPLE**-labeled until sourced.
@@ -74,6 +74,6 @@ Aesthetic: sober intelligence desk — dark ink on slate/parchment, restrained b
 
 - Live at GitHub Pages with zoomable map → country panel + mind map → value chain → company desk.  
 - **US Progress** rail shows REAL RSS items with outbound links; SAMPLE badges remain on desks.  
-- Vertical atlas legend + zoom controls. SW cache `long-haul-ledger-v2`.  
+- Vertical atlas legend + zoom controls. SW cache `long-haul-ledger-v3`. Leadership accordion + worldwide admin-1 drill (seeded US/IN/AE/JP).  
 - Seed desks: United States, India, UAE, Japan, Nigeria, Chile (full chains for ≥2–3 industries each).  
 - Fetcher + Action stay within free GitHub Actions; no paid APIs or domains purchased.

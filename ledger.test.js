@@ -31,7 +31,7 @@ assert('domain intent noted', META.domainIntent === 'longhaulledger.com');
 assert('sample flag true', META.sample === true);
 assert('index.html exists', existsSync(new URL('./index.html', import.meta.url)));
 assert('world.svg exists', existsSync(new URL('./world.svg', import.meta.url)));
-assert('sw.js cache name long-haul-ledger-v2', /long-haul-ledger-v2/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+assert('sw.js cache name long-haul-ledger-v3', /long-haul-ledger-v3/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
 assert('BRIEF.md exists', existsSync(new URL('./BRIEF.md', import.meta.url)));
 assert('app has ?fresh=1 bust', /\bfresh\b/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 assert('zoom.js exists', existsSync(new URL('./zoom.js', import.meta.url)));
@@ -136,6 +136,68 @@ assert('no will-change transform on map viewport', !/will-change:\s*transform/.t
 assert('shape-rendering geometricPrecision in CSS', /shape-rendering:\s*geometricPrecision/.test(css));
 assert('app uses size-based map zoom', /rect\.width\) \* scale/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 
+
+
+console.log('\n--- Geo drill + leadership ---');
+{
+  const {
+    project, geometryToPath, featureBbox, bboxToViewBox, padBbox,
+    countriesWithAdmin1, adminFeaturesForCountry, findAdminFeature,
+    citiesForAdmin, findCityFeature, countryBboxFromAdmin,
+    drillBreadcrumb, mindMapAllowed, SVG_W, SVG_H,
+  } = await import('./geo.js');
+  const {
+    resolveLeadership, leadershipStack, roleBadge, leadershipKeys,
+  } = await import('./leadership.js');
+
+  assert('project equirectangular origin', (() => {
+    const [x, y] = project(-180, 90);
+    return Math.abs(x) < 0.01 && Math.abs(y) < 0.01;
+  })());
+  assert('project width/height', (() => {
+    const [x, y] = project(180, -90);
+    return Math.abs(x - SVG_W) < 0.01 && Math.abs(y - SVG_H) < 0.01;
+  })());
+  assert('admin1.geojson exists', existsSync(new URL('./data/geo/admin1.geojson', import.meta.url)));
+  assert('cities.geojson exists', existsSync(new URL('./data/geo/cities.geojson', import.meta.url)));
+  assert('leadership.json exists', existsSync(new URL('./data/leadership.json', import.meta.url)));
+  assert('geo.js + leadership.js exist', existsSync(new URL('./geo.js', import.meta.url)) && existsSync(new URL('./leadership.js', import.meta.url)));
+
+  const admin = JSON.parse(readFileSync(new URL('./data/geo/admin1.geojson', import.meta.url), 'utf8'));
+  const cities = JSON.parse(readFileSync(new URL('./data/geo/cities.geojson', import.meta.url), 'utf8'));
+  const lead = JSON.parse(readFileSync(new URL('./data/leadership.json', import.meta.url), 'utf8'));
+
+  const seeded = countriesWithAdmin1(admin);
+  assert('admin1 seeds us/in/ae/jp', seeded.has('us') && seeded.has('in') && seeded.has('ae') && seeded.has('jp'), [...seeded].join(','));
+  assert('US has 50+ states', adminFeaturesForCountry(admin, 'us').length >= 50, String(adminFeaturesForCountry(admin, 'us').length));
+  assert('India has many states', adminFeaturesForCountry(admin, 'in').length >= 20);
+  assert('UAE emirates seeded', adminFeaturesForCountry(admin, 'ae').length >= 5);
+  assert('Japan regions seeded', adminFeaturesForCountry(admin, 'jp').length >= 5);
+  const ca = findAdminFeature(admin, 'us-ca');
+  assert('us-ca feature + path', !!ca && geometryToPath(ca.geometry).includes('M'));
+  assert('us-ca bbox', !!featureBbox(ca) && featureBbox(ca)[0] < -114);
+  assert('bboxToViewBox string', /^-?\d/.test(bboxToViewBox(padBbox(featureBbox(ca)))));
+  assert('cities for us-ca', citiesForAdmin(cities, { country: 'us', admin1: 'us-ca' }).length >= 1);
+  assert('find city LA', !!findCityFeature(cities, 'us-city-los-angeles'));
+  assert('country bbox us', !!countryBboxFromAdmin(admin, 'us'));
+  assert('breadcrumb depth', drillBreadcrumb({ country: 'us', countryName: 'United States', admin1: 'us-ca', admin1Name: 'California', city: 'us-city-los-angeles', cityName: 'Los Angeles' }).length === 4);
+  assert('mindMapAllowed country only', mindMapAllowed(null, null) === true && mindMapAllowed('us-ca', null) === false);
+
+  assert('leadership us federal', resolveLeadership(lead, { country: 'us' })?.roles?.length >= 4);
+  assert('leadership prefers city', resolveLeadership(lead, { country: 'us', admin1: 'us-ca', city: 'us-city-los-angeles' })?.key === 'us-city-los-angeles');
+  assert('leadership stack grows', leadershipStack(lead, { country: 'us', admin1: 'us-ca', city: 'us-city-los-angeles' }).length === 3);
+  assert('leadership keys order', leadershipKeys({ country: 'us', admin1: 'us-ca', city: 'x' })[0] === 'x');
+  const usPresident = lead.areas.us.roles[0];
+  assert('public contact only', !!usPresident.contact.site || !!usPresident.contact.form);
+  assert('response badge ESTIMATE or plain', !!usPresident.responseTime);
+  assert('nav parse admin1+city', parseHash('c=us&a=us-ca&city=us-city-los-angeles').admin1 === 'us-ca' && parseHash('c=us&a=us-ca&city=us-city-los-angeles').city === 'us-city-los-angeles');
+  assert('buildHash admin1', buildHash({ country: 'us', admin1: 'us-tx' }) === 'c=us&a=us-tx');
+  assert('buildHash suppresses mindmap below country', !buildHash({ country: 'us', admin1: 'us-ca', view: 'mindmap' }).includes('v=mindmap'));
+  assert('HTML documents mind map country-only', /mind map: country level only/i.test(html));
+  assert('SW caches geo + leadership', /data\/geo\/admin1\.geojson/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && /leadership\.json/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+  assert('app has leadership accordion', /leadership-acc/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
+  assert('css leadership + breadcrumb', /leadership-acc/.test(css) && /map-breadcrumb/.test(css) && /admin1-path/.test(css));
+}
 
 console.log('\n--- Soft-launch normalize / score ---');
 {

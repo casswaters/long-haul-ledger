@@ -10,7 +10,7 @@ export function parseHash(hash) {
   if (!raw) {
     return {
       country: null, tab: 'signals', sector: null, region: null,
-      view: 'desk', company: null,
+      view: 'desk', company: null, admin1: null, city: null,
     };
   }
   const parts = Object.fromEntries(
@@ -26,6 +26,8 @@ export function parseHash(hash) {
     region: parts.r || parts.region || null,
     view: normalizeView(parts.v || parts.view || 'desk'),
     company: parts.co || parts.company || null,
+    admin1: parts.a || parts.admin1 || null,
+    city: parts.city || null,
   };
 }
 
@@ -36,11 +38,16 @@ export function buildHash({
   region = null,
   view = 'desk',
   company = null,
+  admin1 = null,
+  city = null,
 } = {}) {
   if (!country) return '';
   const bits = [`c=${encodeURIComponent(country)}`];
+  if (admin1) bits.push(`a=${encodeURIComponent(admin1)}`);
+  if (city) bits.push(`city=${encodeURIComponent(city)}`);
   const v = normalizeView(view);
-  if (v && v !== 'desk') bits.push(`v=${encodeURIComponent(v)}`);
+  // Mind map / chain / company only at country level
+  if (v && v !== 'desk' && !admin1 && !city) bits.push(`v=${encodeURIComponent(v)}`);
   if (tab && tab !== 'signals' && v === 'desk') bits.push(`t=${encodeURIComponent(tab)}`);
   if (sector) bits.push(`s=${encodeURIComponent(sector)}`);
   if (region && v === 'desk') bits.push(`r=${encodeURIComponent(region)}`);

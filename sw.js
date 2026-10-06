@@ -1,5 +1,5 @@
-/* Long Haul Ledger service worker — network-first app shell (long-haul-ledger-v2) */
-const CACHE = 'long-haul-ledger-v2';
+/* Long Haul Ledger service worker — network-first app shell (long-haul-ledger-v3) */
+const CACHE = 'long-haul-ledger-v3';
 const ASSETS = [
   './',
   './index.html',
@@ -9,10 +9,15 @@ const ASSETS = [
   './nav.js',
   './zoom.js',
   './chains.js',
+  './geo.js',
+  './leadership.js',
   './world.svg',
   './manifest.webmanifest',
   './icons/icon.svg',
   './data/signals-live.json',
+  './data/leadership.json',
+  './data/geo/admin1.geojson',
+  './data/geo/cities.geojson',
 ];
 
 self.addEventListener('install', (event) => {
@@ -39,6 +44,7 @@ function isShell(url) {
     p.endsWith('.svg') ||
     p.endsWith('.webmanifest') ||
     p.endsWith('.json') ||
+    p.endsWith('.geojson') ||
     p.endsWith('/') ||
     p.endsWith('/long-haul-ledger')
   );
