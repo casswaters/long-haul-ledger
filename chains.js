@@ -1,7 +1,8 @@
 /**
- * Long Haul Ledger — SAMPLE value chains + company desks (v0).
- * Believable invented names; not live corporate data.
+ * Long Haul Ledger — PROTOTYPE value chains + company desks (example data).
+ * Invented names for UX testing; not live corporate data, not sourced.
  */
+export const prototype = true;
 import { COUNTRIES, STUBS, getCountry } from './data.js';
 
 /** Default primary industries invented for stubs opened via mind map. */
@@ -438,11 +439,11 @@ function seedCompany(c) {
 
 function makeAnnouncements(countryName, sectorLabel, name, role) {
   return [
-    { date: '2026-09-28', title: `${name} locks multi-year offtake framework`, blurb: `SAMPLE: ${role} signs a framework with counterparties in ${countryName}'s ${sectorLabel} stack.` },
-    { date: '2026-09-12', title: `Capex phase advances at ${name}`, blurb: `SAMPLE: Board clears next tranche for capacity / corridor build tied to ${sectorLabel}.` },
-    { date: '2026-08-30', title: `${name} posts hiring surge for technicians`, blurb: `SAMPLE: Mid-skill hiring outruns local supply — apprenticeships and visa pathways in focus.` },
-    { date: '2026-08-15', title: `Regulatory milestone clears for ${name}`, blurb: `SAMPLE: Permitting / interconnect / local-content step completes for a priority project.` },
-    { date: '2026-07-22', title: `${name} partners on standards pilot`, blurb: `SAMPLE: Joint pilot on measurement, safety, or export standards within ${sectorLabel}.` },
+    { date: '2026-09-28', title: `${name} locks multi-year offtake framework`, blurb: `${role} signs a framework with counterparties in ${countryName}'s ${sectorLabel} stack.` },
+    { date: '2026-09-12', title: `Capex phase advances at ${name}`, blurb: `Board clears next tranche for capacity / corridor build tied to ${sectorLabel}.` },
+    { date: '2026-08-30', title: `${name} posts hiring surge for technicians`, blurb: `Mid-skill hiring outruns local supply — apprenticeships and visa pathways in focus.` },
+    { date: '2026-08-15', title: `Regulatory milestone clears for ${name}`, blurb: `Permitting / interconnect / local-content step completes for a priority project.` },
+    { date: '2026-07-22', title: `${name} partners on standards pilot`, blurb: `Joint pilot on measurement, safety, or export standards within ${sectorLabel}.` },
   ].slice(0, 3 + (name.length % 3));
 }
 

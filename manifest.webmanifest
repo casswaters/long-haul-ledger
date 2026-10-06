@@ -1,11 +1,11 @@
 {
   "name": "Long Haul Ledger",
   "short_name": "Long Haul",
-  "description": "Civilization news + map + opportunity desk. 10,000 Year Empire.",
+  "description": "A sourced record of what moved in US industry, with a world index.",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#12161a",
-  "theme_color": "#12161a",
+  "background_color": "#0f1215",
+  "theme_color": "#0f1215",
   "icons": [
     {
       "src": "./icons/icon.svg",

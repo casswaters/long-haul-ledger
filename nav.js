@@ -4,13 +4,27 @@
 
 export const TABS = ['signals', 'industries', 'regions', 'openings'];
 export const VIEWS = ['desk', 'mindmap', 'chain', 'company'];
+/** Visible tab labels. The 'openings' id stays for old links; the label is non-tip-like. */
+export const TAB_LABELS = {
+  signals: 'Signals',
+  industries: 'Industries',
+  regions: 'Regions',
+  openings: 'Constraints',
+};
+/** US desks (sourced record) — opened with #d=<desk>. */
+export const DESK_TABS = ['activity', 'people', 'prices', 'capital'];
+
+export function normalizeDesk(desk) {
+  if (desk == null || desk === '') return null;
+  return DESK_TABS.includes(desk) ? desk : 'prices';
+}
 
 export function parseHash(hash) {
   const raw = (hash || '').replace(/^#/, '');
   if (!raw) {
     return {
       country: null, tab: 'signals', sector: null, region: null,
-      view: 'desk', company: null, admin1: null, city: null,
+      view: 'desk', company: null, admin1: null, city: null, desk: null,
     };
   }
   const parts = Object.fromEntries(
@@ -28,6 +42,7 @@ export function parseHash(hash) {
     company: parts.co || parts.company || null,
     admin1: parts.a || parts.admin1 || null,
     city: parts.city || null,
+    desk: normalizeDesk(parts.d ?? parts.desk ?? null),
   };
 }
 
@@ -40,8 +55,10 @@ export function buildHash({
   company = null,
   admin1 = null,
   city = null,
+  desk = null,
 } = {}) {
-  if (!country) return '';
+  const d = normalizeDesk(desk);
+  if (!country) return d ? `d=${encodeURIComponent(d)}` : '';
   const bits = [`c=${encodeURIComponent(country)}`];
   if (admin1) bits.push(`a=${encodeURIComponent(admin1)}`);
   if (city) bits.push(`city=${encodeURIComponent(city)}`);
@@ -52,6 +69,7 @@ export function buildHash({
   if (sector) bits.push(`s=${encodeURIComponent(sector)}`);
   if (region && v === 'desk') bits.push(`r=${encodeURIComponent(region)}`);
   if (company && v === 'company') bits.push(`co=${encodeURIComponent(company)}`);
+  if (d) bits.push(`d=${encodeURIComponent(d)}`);
   return bits.join('&');
 }
 

@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Long Haul Ledger · 10,000 Year Empire</title>
-  <meta name="description" content="Civilization news + map + opportunity desk. Soft launch: US Progress rail from public RSS; country desks remain SAMPLE." />
-  <meta name="theme-color" content="#12161a" />
+  <title>Long Haul Ledger · US industrial ledger</title>
+  <meta name="description" content="A sourced record of what moved in US industry, with a world index. Free atlas, US desks (Activity, People, Prices, Capital). Not investment advice; not real-time." />
+  <meta name="theme-color" content="#0f1215" />
   <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;560&family=IBM+Plex+Serif:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./styles.css" />
   <link rel="manifest" href="./manifest.webmanifest" />
 </head>
@@ -17,26 +17,31 @@
   <div class="app">
     <header class="site-header">
       <div class="brand">
-        <h1 class="brand-title">Long Haul Ledger <span class="creed">10,000 Year Empire</span></h1>
-        <div class="brand-sub">Civilization atlas · opportunity desk · Soft launch (US Progress)</div>
+        <div class="brand-row">
+          <h1 class="brand-title">Long Haul Ledger</h1>
+          <span class="brand-kicker">US industrial ledger · free world atlas</span>
+        </div>
+        <p class="brand-tagline">A sourced record of what moved in US industry, with a world index.</p>
       </div>
+      <nav class="header-nav" aria-label="Sections">
+        <a class="hnav hnav-primary" href="#d=prices" id="nav-desks">US desks</a>
+        <a class="hnav" href="#about" id="nav-method">Method</a>
+      </nav>
       <div class="header-meta">
-        <span class="mode-badge" title="Soft launch: live public RSS for US Progress rail">SOFT LAUNCH</span>
-        <span class="real-badge" title="Ledger rail items link to real public articles">REAL</span>
-        <span class="sample-badge" title="Country desks, chains, and companies remain SAMPLE fiction">SAMPLE desks</span>
+        <span class="proto-badge" title="Country metrics, value chains, company desks and constraints are example data for UX testing. Not sourced; not part of any subscription.">PROTOTYPE desks</span>
         <time class="date-stamp" id="date-stamp">—</time>
       </div>
     </header>
 
     <div class="main">
-      <section class="map-stage" aria-label="World atlas">
+      <section class="map-stage" aria-label="World index atlas">
         <div class="map-label" id="map-label" aria-label="Atlas navigation legend">
           <button type="button" class="map-label-toggle" id="map-label-toggle" aria-expanded="false" aria-controls="map-label-tips" title="Atlas tips">
             <span class="map-label-toggle-icon" aria-hidden="true">i</span>
             <span class="map-label-toggle-text">Atlas</span>
           </button>
           <div class="map-label-body" id="map-label-tips">
-            <div class="map-label-title">Atlas</div>
+            <div class="map-label-title">World index</div>
             <div>click → desk</div>
             <div>dbl-click / long-press → mind map</div>
             <div class="map-label-note">mind map: country level only</div>
@@ -55,22 +60,32 @@
 
       <section class="panel" id="country-panel" aria-live="polite"></section>
 
-      <aside class="rail" aria-label="US Progress ledger feed">
+      <aside class="rail" aria-label="US Progress feed">
         <div class="rail-head">
           <h2>US Progress</h2>
-          <div class="sub" id="rail-sub">Soft launch · public RSS · REAL links</div>
+          <div class="sub" id="rail-sub">Public RSS · outbound links · refreshed about every 6 h</div>
         </div>
         <div class="feed" id="feed"></div>
       </aside>
     </div>
 
     <footer class="about-strip" id="about">
-      <h2>About this sketch</h2>
-      <p id="about-text"></p>
-      <p>Long Haul Ledger sits beside Captain’s Log (personal site / MEC + Aretoria) and Aretoria (virtue realms). This desk is sober intelligence — cartographic ledger, not fantasy. ForgeCraft remains parked.</p>
-      <p class="domain" id="domain-note"></p>
-      <p style="margin-top:0.75rem;font-size:0.75rem;color:var(--ink-mute)">
-        World map paths derived from Natural Earth via VectorAtlas (CC BY 4.0). State-equivalent overlays (states, emirates, regions): Natural Earth (US/IN) plus simplified open approximations clipped to the coastline (AE emirates, JP regions). Alaska and Hawaii appear as framed insets in the US drill. Leadership desk uses public channels only; SAMPLE/ESTIMATE where unverified. The <strong>US Progress</strong> rail is REAL outbound links from free public RSS (refreshed by GitHub Actions). Country metrics, SAMPLE desks, value chains, and company desks remain fiction for UX prototyping — not investment advice. Some feeds may 403 intermittently.
+      <div class="about-grid">
+        <section>
+          <h2>Method</h2>
+          <p id="about-text"></p>
+          <p>Desk rules: a line appears only with a source link, an as-of date and a revision note. When a value changes, the old line stays visible in the history, struck through. Values are copied from the source, never typed from memory. Price lines carry the source's own as-of date and publication lag.</p>
+        </section>
+        <section>
+          <h2>Disclaimers</h2>
+          <p class="disclaimer"><strong>Not investment advice.</strong> A record of public information, not a recommendation to buy, sell or build.</p>
+          <p class="disclaimer"><strong>No real-time coverage.</strong> The rail refreshes about every 6 hours; desks change only when a sourced change lands; public series publish with a lag.</p>
+          <p class="disclaimer"><span class="proto-badge proto-badge-sm">PROTOTYPE</span> marks example data for UX testing: fiction, not sourced, not part of any desk or subscription.</p>
+          <p class="haul-note">Monday Haul, coming soon. A one-page weekly summary of the four US desks. No sign-up yet.</p>
+        </section>
+      </div>
+      <p class="credits">
+        World map paths: Natural Earth via VectorAtlas (CC BY 4.0). State-equivalent overlays: Natural Earth (US, IN) plus simplified open approximations clipped to the coastline (AE emirates, JP regions); Alaska and Hawaii are framed insets in the US drill. Price series: U.S. Energy Information Administration, retrieved via FRED (Federal Reserve Bank of St. Louis). Leadership lists public channels only; SAMPLE / ESTIMATE marks unverified fields. Some feeds may 403 intermittently.
       </p>
     </footer>
   </div>

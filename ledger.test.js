@@ -6,7 +6,7 @@ import {
   META, COUNTRIES, STUBS, getCountry, fullCountryIds, allCountryIds,
   globalFeed, filterSignals, opportunityNote, metricLabel,
 } from './data.js';
-import { parseHash, buildHash, normalizeTab, normalizeView, TABS, VIEWS } from './nav.js';
+import { parseHash, buildHash, normalizeTab, normalizeView, TABS, VIEWS, TAB_LABELS } from './nav.js';
 import {
   clampZoom, resetTransform, transformCss, zoomAt, panBy,
   wheelToScale, stepZoom, exceededDragThreshold, ZOOM_MIN, ZOOM_MAX,
@@ -26,12 +26,13 @@ const FULL = ['us', 'in', 'ae', 'jp', 'ng', 'cl'];
 
 console.log('\n--- Meta & files ---');
 assert('name Long Haul Ledger', META.name === 'Long Haul Ledger');
-assert('creed 10,000 Year Empire', META.creed === '10,000 Year Empire');
+assert('creed retired from META', !('creed' in META));
+assert('META tagline is sober industrial framing', META.tagline === 'A sourced record of what moved in US industry, with a world index.');
 assert('domain intent noted', META.domainIntent === 'longhaulledger.com');
 assert('sample flag true', META.sample === true);
 assert('index.html exists', existsSync(new URL('./index.html', import.meta.url)));
 assert('world.svg exists', existsSync(new URL('./world.svg', import.meta.url)));
-assert('sw.js cache name long-haul-ledger-v6', /long-haul-ledger-v6/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+assert('sw.js cache name long-haul-ledger-v7', /long-haul-ledger-v7/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v6/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
 assert('BRIEF.md exists', existsSync(new URL('./BRIEF.md', import.meta.url)));
 assert('app has ?fresh=1 bust', /\bfresh\b/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 assert('zoom.js exists', existsSync(new URL('./zoom.js', import.meta.url)));
@@ -124,11 +125,11 @@ console.log('\n--- Aesthetic / anti-fantasy smoke ---');
 const css = readFileSync(new URL('./styles.css', import.meta.url), 'utf8');
 const html = readFileSync(new URL('./index.html', import.meta.url), 'utf8');
 const brief = readFileSync(new URL('./BRIEF.md', import.meta.url), 'utf8');
-assert('slate/brass palette present', /--brass:\s*#c4a35a/.test(css) && /--bg:\s*#12161a/.test(css));
-assert('SAMPLE desks still labeled', /SAMPLE/.test(html));
-assert('US Progress / soft launch in HTML', /US Progress/i.test(html) && /SOFT LAUNCH/i.test(html));
+assert('neutral slate palette + one accent', /--bg:\s*#0f1215/.test(css) && /--accent:\s*#d08a45/.test(css) && !/--brass/.test(css));
+assert('PROTOTYPE desks labeled in header', /PROTOTYPE desks/.test(html));
+assert('US Progress rail in HTML', /US Progress/.test(html) && /id="feed"/.test(html));
 assert('vertical zoom controls CSS', /flex-direction:\s*column/.test(css) && /zoom-controls/.test(css));
-assert('creed in HTML', /10,000 Year Empire/.test(html));
+assert('tagline in HTML', html.includes('A sourced record of what moved in US industry, with a world index.'));
 assert('zoom controls in HTML', /id="zoom-in"/.test(html) && /id="zoom-out"/.test(html));
 assert('BRIEF documents click distinction', /single-click/i.test(brief) && /double-click/i.test(brief) && /mind map/i.test(brief));
 assert('overlay styles present', /ledger-overlay/.test(css) && /mindmap-svg/.test(css) && /chain-grid/.test(css));
@@ -443,6 +444,129 @@ console.log('\n--- Verification tiers ---');
   assert('app renders badges + filter + legend', /verifyBadge/.test(appSrc) && /data-vfilter/.test(appSrc) && /rail-legend/.test(appSrc));
   assert('css tier colors', /\.vb-unconfirmed/.test(css) && /\.vb-multiple/.test(css) && /\.vb-confirmed/.test(css));
   assert('SW caches labels.js + verify.js', /labels\.js/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && /verify\.js/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+}
+
+console.log('\n--- Retone: sober framing + PROTOTYPE labels ---');
+{
+  const read = (f) => readFileSync(new URL(f, import.meta.url), 'utf8');
+  const appSrc = read('./app.js');
+  const dataSrc = read('./data.js');
+  const chainsSrc = read('./chains.js');
+  const readme = read('./README.md');
+  const manifest = read('./manifest.webmanifest');
+  const pub = { html, manifest, readme, brief, app: appSrc, data: dataSrc };
+  for (const [name, txt] of Object.entries(pub)) {
+    assert(`${name}: no '10,000 Year Empire'`, !/10,000 Year Empire/i.test(txt));
+    assert(`${name}: no 'Civilization news' / 'opportunity desk'`, !/civilization news|opportunity desk/i.test(txt));
+  }
+  for (const [name, txt] of Object.entries({ html, app: appSrc, data: dataSrc, css })) {
+    assert(`${name}: no 'America first' branding`, !/america first/i.test(txt));
+    assert(`${name}: no flag emoji / stars-and-stripes styling`, !/🇺🇸|stars-and-stripes|old-glory/i.test(txt));
+  }
+  assert('no visible skilltree / civilization wording in app or data', !/skilltree|civilization/i.test(appSrc + dataSrc));
+  assert('Openings tab relabeled (not tip-like)', TAB_LABELS.openings && !/opening/i.test(TAB_LABELS.openings) && TABS.every((t) => TAB_LABELS[t]));
+  assert('openings hash id kept for old links', normalizeTab('openings') === 'openings');
+  assert('data.js flagged prototype', /export const prototype = true/.test(dataSrc) && META.prototype === true);
+  assert('chains.js flagged prototype', /export const prototype = true/.test(chainsSrc));
+  assert('PROTOTYPE badge helper + explainer', /function protoBadge/.test(appSrc) && /function protoNote/.test(appSrc) && /proto-badge/.test(css) && /proto-note/.test(css));
+  const fnBody = (name) => {
+    const i = appSrc.indexOf(`function ${name}(`);
+    const j = appSrc.indexOf('\nfunction ', i + 10);
+    return appSrc.slice(i, j < 0 ? undefined : j);
+  };
+  for (const fn of ['renderMindMap', 'renderChain', 'renderCompanyDesk', 'renderPanel']) {
+    const body = fnBody(fn);
+    assert(`${fn} renders PROTOTYPE badge + explainer`, /protoBadge\(/.test(body) && /protoNote\(\)/.test(body));
+  }
+  assert('country metrics marked example', /metric is-proto/.test(fnBody('renderPanel')) && /· example/.test(fnBody('renderPanel')));
+  assert('prototype tabs badged (signals/industries/regions/constraints)', (fnBody('renderTab').match(/protoBadge\('proto-badge-sm'\)/g) || []).length >= 4);
+  assert('home names the fictional desks as prototype', /United States, India, UAE, Japan, Nigeria, Chile\) and all other country views are example data/.test(appSrc));
+  assert('leadership keeps SAMPLE/ESTIMATE, response times flagged estimate', /SAMPLE \/ ESTIMATE/.test(appSrc) && /response times are estimates/.test(appSrc));
+  const lead = JSON.parse(read('./data/leadership.json'));
+  assert('leadership ESTIMATE badges still present in data', JSON.stringify(lead).includes('"ESTIMATE"'));
+  assert('footer: Not investment advice', /Not investment advice/.test(html));
+  assert('footer: no real-time coverage', /No real-time coverage/.test(html));
+  assert('Monday Haul coming soon, no email capture', /Monday Haul, coming soon/.test(html) && !/<form|type="email"|mailto:/i.test(html));
+  assert('no paywall / pricing / login in UI', !/\$49|\$490|subscribe|log ?in|paywall/i.test(html + fnBody('renderDesks') + fnBody('renderHomeDesks')));
+  assert('atlas neutral: seeded/stub fills equal plain land', /--map-seed:\s*var\(--map-land\)/.test(css) && /path\.stub-known \{ fill: var\(--map-land\); \}/.test(css));
+  assert('atlas legend keeps State equivalent drill + i toggle', /World → Country → State equivalent → City/.test(html) && /map-label-toggle-icon[^>]*>i</.test(html));
+  assert('tabular numerals', /font-variant-numeric:\s*tabular-nums/.test(css));
+  assert('BUILD-PLAN.md kept in repo', existsSync(new URL('./BUILD-PLAN.md', import.meta.url)));
+  assert('BRIEF points to subscription brief + prototype layer', /subscription brief/i.test(brief) && /PROTOTYPE/.test(brief));
+}
+
+console.log('\n--- US desks ---');
+{
+  const D = await import('./desks.js');
+  const nav = await import('./nav.js');
+  const read = (f) => readFileSync(new URL(f, import.meta.url), 'utf8');
+  assert('four US desks in order', D.DESKS.map((d) => d.id).join(',') === 'activity,people,prices,capital');
+  assert('every desk has scope, trigger, https sources, columns', D.DESKS.every((d) => d.scope && d.trigger && d.columns?.length >= 6 && d.sources.length && d.sources.every((x) => /^https:\/\//.test(x.url))));
+  assert('honest empty state text', D.EMPTY_STATE === 'No sourced entries yet. Updates when a sourced change lands.');
+  assert('nav: #d=prices opens desks', nav.parseHash('#d=prices').desk === 'prices' && nav.buildHash({ desk: 'people' }) === 'd=people');
+  assert('nav: desk keeps country focus', nav.buildHash({ country: 'us', desk: 'capital' }) === 'c=us&d=capital');
+  assert('nav: no desk by default', nav.parseHash('').desk === null && nav.parseHash('#c=us').desk === null);
+  assert('nav: unknown desk → prices', nav.normalizeDesk('zz') === 'prices');
+
+  // FRED CSV parsing
+  const csv = 'observation_date,DHHNGSP\n2026-09-25,3.21\n2026-09-26,.\n2026-09-28,3.13\nbad,1\n2026-09-29,3.18\n';
+  const rows = D.parseFredCsv(csv);
+  assert('parseFredCsv skips missing + bad rows', rows.length === 3 && rows.at(-1).value === 3.18 && rows.at(-1).date === '2026-09-29');
+  assert('parseFredCsv empty', D.parseFredCsv('').length === 0);
+
+  // Append-only history
+  const s = D.PRICE_SERIES[1];
+  const t0 = '2026-10-06T23:00:00Z';
+  const first = D.applyObservation(null, s, { date: '2026-09-29', value: 3.18 }, { date: '2026-09-28', value: 3.13 }, t0);
+  assert('first entry: revision note + empty history', first.changed && first.record.current.revisionNote === 'First entry' && first.record.history.length === 0);
+  assert('first entry validates', D.validateRecord(first.record).length === 0, D.validateRecord(first.record).join('; '));
+  const same = D.applyObservation(first.record, s, { date: '2026-09-29', value: 3.18 }, null, '2026-10-07T05:00:00Z');
+  assert('unchanged observation → no write', same.changed === false && same.record === first.record);
+  const next = D.applyObservation(first.record, s, { date: '2026-09-30', value: 3.05 }, { date: '2026-09-29', value: 3.18 }, '2026-10-07T05:00:00Z');
+  assert('new observation supersedes, old line kept', next.changed && next.record.history.length === 1 && next.record.history[0].value === 3.18 && next.record.history[0].supersededAt === '2026-10-07');
+  assert('new observation revision note', next.record.current.revisionNote === 'New observation from source');
+  const rev = D.applyObservation(next.record, s, { date: '2026-09-30', value: 3.07 }, null, '2026-10-08T05:00:00Z');
+  assert('same-date revision recorded as source revision', rev.record.current.revisionNote.startsWith('Source revised') && rev.record.history.length === 2);
+  const older = D.applyObservation(next.record, s, { date: '2026-09-01', value: 9 }, null, '2026-10-08T05:00:00Z');
+  assert('older observation never overwrites', older.changed === false);
+  assert('validator rejects estimate status', D.validateRecord({ ...first.record, status: 'estimate' }).length > 0);
+  assert('validator rejects non-https source', D.validateRecord({ ...first.record, current: { ...first.record.current, sourceUrl: 'http://x' } }).length > 0);
+  assert('validator rejects missing revision note', D.validateRecord({ ...first.record, current: { ...first.record.current, revisionNote: '' } }).length > 0);
+  assert('renderable filters non-verified', D.renderableRecords({ records: [first.record, { ...first.record, status: 'sample' }] }).length === 1);
+  assert('formatValue decimals per series', D.formatValue(6.199, 'prices.diesel-us-retail') === '6.199' && D.formatValue(3.1, 'prices.henry-hub') === '3.10');
+  assert('formatDelta signed', D.formatDelta(6.199, 6.382, 'prices.diesel-us-retail') === '−0.183' && D.formatDelta(3.18, 3.13, 'prices.henry-hub') === '+0.05');
+  assert('stale flag after cadence', D.isStale(first.record, new Date('2026-10-20T00:00:00Z')) && !D.isStale(first.record, new Date('2026-10-02T00:00:00Z')));
+  assert('desk status: empty desks honest', D.deskStatus('people', null).count === 0);
+
+  // Fetcher (mocked, no network)
+  const { updatePrices, emptyDesk } = await import('./scripts/fetch-prices.mjs');
+  const mockCsv = { GASDESW: 'observation_date,GASDESW\n2026-09-28,6.382\n2026-10-05,6.199\n', DHHNGSP: 'observation_date,DHHNGSP\n2026-09-28,3.13\n2026-09-29,3.18\n' };
+  const ok = await updatePrices(emptyDesk(), { now: new Date(t0), fetchImpl: async (u) => ({ ok: true, status: 200, body: mockCsv[new URL(u).searchParams.get('id')] }) });
+  assert('fetcher builds two verified lines', ok.changed && ok.desk.records.length === 2 && ok.desk.records.every((r) => D.validateRecord(r).length === 0));
+  const again = await updatePrices(ok.desk, { now: new Date('2026-10-07T05:00:00Z'), fetchImpl: async (u) => ({ ok: true, status: 200, body: mockCsv[new URL(u).searchParams.get('id')] }) });
+  assert('fetcher: no churn when unchanged', again.changed === false);
+  const down = await updatePrices(ok.desk, { now: new Date(t0), fetchImpl: async () => ({ ok: false, status: 503, body: '' }) });
+  assert('fetcher: outage keeps last good lines', down.changed === false && down.failures.length === 2 && down.desk.records.length === 2);
+  const junk = await updatePrices(emptyDesk(), { now: new Date(t0), fetchImpl: async () => ({ ok: true, status: 200, body: 'observation_date,X\n2026-10-05,-4\n' }) });
+  assert('fetcher: rejects implausible value', junk.changed === false && junk.failures.length === 2);
+
+  // Committed public sample
+  const prices = JSON.parse(read('./data/desks/prices.json'));
+  const recs = D.renderableRecords(prices);
+  assert('prices.json: only GASDESW + DHHNGSP', prices.records.map((r) => r.seriesId).sort().join(',') === 'DHHNGSP,GASDESW');
+  assert('prices.json: every line verified + valid', recs.length === prices.records.length && recs.length === 2);
+  assert('prices.json: source URL, as-of, revision note, history array', recs.every((r) => /^https:\/\/fred\.stlouisfed\.org\/series\//.test(r.current.sourceUrl) && /^\d{4}-\d{2}-\d{2}$/.test(r.current.asOf) && r.current.revisionNote && Array.isArray(r.history)));
+  assert('prices.json: real values (numeric, positive)', recs.every((r) => Number.isFinite(r.current.value) && r.current.value > 0));
+  assert('prices.json: no invented ranges', recs.every((r) => r.range === null || (r.range.reason && r.range.setOn)));
+  assert('prices.json: no SAMPLE / ESTIMATE / PROTOTYPE strings', !/SAMPLE|ESTIMATE|PROTOTYPE/.test(read('./data/desks/prices.json')));
+  const app = read('./app.js');
+  assert('app renders desks overlay + empty state', /function renderDesks/.test(app) && /EMPTY_STATE/.test(app) && /data-open-desk/.test(app));
+  assert('app shows history (struck-through) + revision note', /<s>/.test(app) && /revisionNote/.test(app));
+  assert('header entry point to US desks', /id="nav-desks"/.test(html) && /US desks/.test(html));
+  const sw = read('./sw.js');
+  assert('SW caches desks.js + prices.json', /desks\.js/.test(sw) && /data\/desks\/prices\.json/.test(sw));
+  const wf = read('./.github/workflows/soft-launch.yml');
+  assert('Action fetches prices and commits prices.json', /fetch-prices\.mjs/.test(wf) && /data\/desks\/prices\.json/.test(wf));
 }
 
 console.log(`\n${passed} passed, ${failed} failed`);

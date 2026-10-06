@@ -1,92 +1,70 @@
-# Long Haul Ledger — Product Brief (v0 sketch)
+# Long Haul Ledger — Product Brief (v1, retoned Oct 6, 2026)
 
-**Creed / tagline:** 10,000 Year Empire  
-**Display name:** Long Haul Ledger  
-**Repo / Pages:** `casswaters/long-haul-ledger` → https://casswaters.github.io/long-haul-ledger/  
-**Domain intent:** longhaulledger.com (preferred; not purchased). Availability check not required for this sketch.  
-**Owner:** Cassidy Waters  
-**Status:** Soft launch — US Progress rail from public RSS (REAL); country desks SAMPLE
+**Governing document:** the Long Haul Ledger subscription brief. Where this brief, [BUILD-PLAN.md](./BUILD-PLAN.md) and the subscription brief differ, the subscription brief wins.
+
+**Display name:** Long Haul Ledger
+**Tagline:** A sourced record of what moved in US industry, with a world index.
+**Repo / Pages:** `casswaters/long-haul-ledger` → https://casswaters.github.io/long-haul-ledger/
+**Domain intent:** longhaulledger.com (not purchased).
+**Owner:** Cassidy Waters
+**Status:** Soft launch. Atlas and US Progress rail real; Prices desk sample wired to public series; Activity, People, Capital desks empty until sourced; country desks PROTOTYPE.
 
 ---
 
-## Problem
+## Who it is for
 
-Civilization is developing unevenly. Most “news” products optimize for velocity, outrage, or markets. Someone who wants to **study frontiers and openings** — where infrastructure, energy, compute, institutions, demographics, logistics, and resource commons are binding or breaking — has to assemble that picture by hand across atlases, journals, and sector reports.
+An American industrialist checking in on global economic activity. He opens it the way he would open a plant or ops dashboard: a quick scan of what moved worldwide (the free atlas is the index), then straight into the US desks where the sourced depth lives. Global coverage answers "what changed out there that touches my inputs, freight or capital?"; the US desks answer "what does it mean here?"
 
-## User
+Design for that reader: sober and operator-grade, dense but fast to scan, units, as-of dates and sources always visible. Nothing decorative, promotional or mythic.
 
-A long-horizon operator / student of development: founder, allocator, policy nerd, or builder who thinks in decades (and metaphorically in millennia). Not a day-trader. Not a fantasy RPG player (that’s Aretoria).
+## US anchor, not a design theme
 
-## Job
+The United States is the editorial anchor: it sets coverage priority, the four desks, and where paid drill-down will start. It is not a visual feature. No flag styling, no patriotic palette, no "America first" branding in copy, logo or UI. The atlas is a neutral world map with the same treatment for every country.
 
-**Civilization news + map + opportunity desk.**
+## Surfaces
 
-1. See the world as an atlas of development pressure (zoom/pan so small states are reachable).  
-2. **Single-click** a country → country desk (signals / industries / regions / openings).  
-3. **Double-click** (desktop) or **long-press** / **Mind map** button (mobile) → industry mind map (skilltree).  
-4. Click an industry node → SAMPLE value chain (upstream / midstream / downstream).  
-5. Click a company → SAMPLE announcements + “working on next” pipeline.  
-6. Surface **openings**: weak spots framed as long-horizon skilltree gaps.
+| Surface | What it does | Status |
+| --- | --- | --- |
+| **World index atlas** | Zoom (size-based reflow, stays sharp). **Single-click** → country desk. **Double-click** (desktop) / **long-press** / **Mind map** button → industry mind map (country level only). Drill World → Country → State equivalent → City (US, IN, AE, JP seeded; Alaska / Hawaii insets). Vertical legend collapses to an "i" on mobile. Leadership dropdowns (public channels only). | Free, always |
+| **US Progress rail** | Public RSS via GitHub Actions (~6 h), outbound links, verification tiers: **Unconfirmed**, **Multiple sources** (reported by 2+ independent outlets), **Confirmed** (subject / official source), plus **Analysis** for opinion, trend and explainer pieces. | Free, always |
+| **US desks** (`#d=activity\|people\|prices\|capital`) | Entry point in the header ("US desks"), on the home panel (four tiles) and on the US country desk. Each desk shows scope, update trigger, sources and a record table: source link, as-of date, revision note, visible history (superseded lines struck through). | Prices: live sample. Others: "No sourced entries yet. Updates when a sourced change lands." |
+| **Monday Haul** | Weekly one-page summary of the four desks. | Coming soon. No email capture, pricing or login yet |
 
-## Core loop
+### Prices desk (free sample)
 
-**Map (zoom) → country desk ↔ industry mind map → value chain → company desk → back.**
+- Diesel, US retail on-highway: EIA `EMD_EPD2D_PTE_NUS_DPG`, pulled from FRED `GASDESW` ($/gal, weekly).
+- Henry Hub natural gas spot: EIA `RNGWHHD`, pulled from FRED `DHHNGSP` ($/MMBtu, daily, lagged).
+- `scripts/fetch-prices.mjs` runs in `soft-launch.yml`; writes `data/desks/prices.json` only when a value or as-of date changes; history is append-only; a failed fetch keeps the last good line with its as-of date. No API key, $0.
+- Ranges are not set (the editor sets them later with a written reason). Uranium, copper, HRC (PPI proxy) and regional power are listed as planned, not wired.
 
-The global **Ledger** rail is a civilization-weighted feed; selecting a country filters it. Openings are deliberately *not* trade tips — they are multi-year / multi-decade gaps.
+## PROTOTYPE layer
 
-**Click distinction (documented in UI):** single-click opens the existing country desk; double-click / long-press / Mind map button opens the radiating industry mind map.
+The original civilization / opportunity framing is retired. What remains of it is the **prototype layer**, kept for UX testing and clearly labeled with one consistent **PROTOTYPE** badge and a one-line explainer:
 
-## Soft launch (current) vs later
+- country metrics (Stability, Build pressure, Headroom scores), signals, regions;
+- "Constraints" (formerly "Openings"; hash id `t=openings` kept for old links);
+- industry mind maps, value chains, company desks;
+- the full prototype country desks for the United States, India, UAE, Japan, Nigeria and Chile, and all lighter stubs.
 
-| Soft launch (now) | Later |
-| --- | --- |
-| **US Progress** rail: REAL public RSS via GitHub Actions (every ~6h + manual) | Broader country rails + denser weighting |
-| Country desks / chains / companies still SAMPLE | Attach real articles to desks; drop SAMPLE fiction where sourced |
-| SVG atlas + zoom/pan + drill World → Country → State equivalent → City (US/IN/AE/JP) + Leadership accordion | Full-planet state equivalents, denser leadership, time layers |
-| Free feeds only — no paid APIs, no always-on server ($0) | Optional paid data / custom domain (longhaulledger.com) |
+Leadership response times stay **ESTIMATE**, unverified fields stay **SAMPLE**. `data.js` and `chains.js` export `prototype = true`; nothing in them may feed a desk or paid output.
 
-**Honesty rule:** rail items that open outbound URLs are **REAL**. Desks/chains/companies stay **SAMPLE**-labeled until sourced.
+## Rules
 
-### Soft-launch pipeline ($0)
-
-1. `data/sources.json` — 21 free RSS/Atom feeds (hard-news + analysis), US/progress-biased.  
-2. `scripts/fetch-signals.mjs` — normalize + light keyword score → `data/signals-live.json` (~80–120 items).  
-3. `.github/workflows/soft-launch.yml` — schedule + `workflow_dispatch`; commit if changed; deploy `gh-pages`.  
-4. SPA loads `signals-live.json` into the ledger rail with REAL badges + a verification tier per item.
-
-### Verification tiers (rail)
-
-Every live item carries `verification.status` + the outlets that carry it (`verify.js`, run in the fetcher; the browser re-classifies only if a feed predates statuses):
-
-- **Unconfirmed** (amber) — factual claim that could be confirmed by the subject / agency / company, from a non-primary outlet, not yet multi-sourced or confirmed.
-- **Multiple sources** (blue) — 2+ independent outlets in the feed carry the same story (clustered by normalized-title similarity + shared distinctive names / places / orgs within ~48h); subject hasn't confirmed.
-- **Confirmed** (green) — subject confirmed: items from primary / official feeds (DOE, EIA, NIST, NASA, Fed, Defense.gov, company press / IR) for their own announcements; a cluster is promoted when a primary item matches it.
-- **Analysis** (violet) — opinion, commentary, trend pieces, explainers without a discrete confirmable claim (`kind: analysis` feeds + title heuristics: why/how/opinion/essay/the case for/trend roundups). SAMPLE desk items stay **SAMPLE**.
-
-Tap / hover a badge to list outlets; rail chips filter by status.
-
-Some feeds may **403 intermittently** (bot filters / WAF); the fetcher records failures and continues.
-
-## Naming & vibe
-
-Display name: **Long Haul Ledger**. Vibe words: **long haul + skilltree + civilization + world atlas + ledger**. Repo / folder / Pages path: `long-haul-ledger`.  
-Aesthetic: sober intelligence desk — dark ink on slate/parchment, restrained brass. Distinct from Captain’s Log chrome and Aretoria’s sacred/fantasy portal.
+- Every desk line: source URL (https), as-of date, revision note, `status: verified`. Values are copied from the source, never typed from memory.
+- Not investment advice. No real-time coverage.
+- No paywall, pricing or login on Pages. Hosting is GitHub Pages only, $0.
 
 ## Board relation (do not rebuild)
 
 | Project | Role |
 | --- | --- |
-| **Captain’s Log** | Main personal site (MEC + Aretoria features) — https://casswaters.github.io/modern-era-calendar/ |
-| **Aretoria** | Standalone + feature inside CL — virtue realms / fantasy-adjacent sacred portal |
+| **Captain's Log** | Main personal site — https://casswaters.github.io/modern-era-calendar/ |
+| **Aretoria** | Separate project; not touched by this one |
 | **ForgeCraft** | Parked |
-| **Long Haul Ledger** | This project — standalone GitHub Pages civilization desk |
+| **Long Haul Ledger** | This project — standalone GitHub Pages US industrial ledger |
 
-## Success for soft launch
+## Success for this phase (BUILD-PLAN §6, Phase 0 relabel)
 
-- Live at GitHub Pages with zoomable map → country panel + mind map → value chain → company desk.  
-- **US Progress** rail shows REAL RSS items with outbound links; SAMPLE badges remain on desks.  
-- Vertical atlas legend + zoom controls. SW cache `long-haul-ledger-v6`. Leadership accordion + drill World → Country → State equivalent → City (seeded US/IN/AE/JP).  
-- Drill layers share one projection calibrated to `world.svg` (its equator sits at y≈578.5 of 1001, not mid-height); Alaska / Hawaii are framed insets; city labels use collision-aware, zoom-aware placement.  
-- Rail items carry Unconfirmed / Multiple sources / Confirmed / Analysis badges.  
-- Seed desks: United States, India, UAE, Japan, Nigeria, Chile (full chains for ≥2–3 industries each).  
-- Fetcher + Action stay within free GitHub Actions; no paid APIs or domains purchased.
+- Every fictional number sits next to a visible PROTOTYPE label; atlas and rail behave as before.
+- US desks entry point live; Prices sample shows real values with as-of dates and source links.
+- SW cache `long-haul-ledger-v7`; `npm test` passes.

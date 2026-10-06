@@ -2,7 +2,11 @@ import {
   META, COUNTRIES, STUBS, getCountry, fullCountryIds, globalFeed,
   filterSignals, opportunityNote, metricLabel,
 } from './data.js';
-import { parseHash, buildHash, normalizeTab, normalizeView, TABS } from './nav.js';
+import { parseHash, buildHash, normalizeTab, normalizeView, TABS, TAB_LABELS } from './nav.js';
+import {
+  DESKS, EMPTY_STATE, PROTOTYPE, renderableRecords, deskStatus, formatValue, formatDelta,
+  isStale, ageDays,
+} from './desks.js';
 import {
   clampZoom, resetTransform, zoomAt, panBy,
   wheelToScale, stepZoom, exceededDragThreshold,
@@ -38,7 +42,11 @@ const state = {
   company: null,
   admin1: null,
   city: null,
+  desk: null,
 };
+
+/** @type {any} Prices desk (data/desks/prices.json) */
+let pricesDesk = null;
 
 /** @type {any} */
 let admin1Geo = null;
@@ -60,7 +68,7 @@ const $$ = (sel, el = document) => [...el.querySelectorAll(sel)];
 
 function formatDateStamp(d = new Date()) {
   const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()} · soft launch`;
+  return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
 }
 
 function applyHash() {
@@ -78,6 +86,7 @@ function applyHash() {
   }
   state.view = view;
   state.company = h.company;
+  state.desk = h.desk;
   render();
 }
 
@@ -405,7 +414,7 @@ async function loadMap() {
       svg.removeAttribute('height');
       svg.setAttribute('shape-rendering', 'geometricPrecision');
       svg.setAttribute('role', 'img');
-      svg.setAttribute('aria-label', 'World atlas — click desk; double-click / long-press mind map at country level; drill into seeded state equivalents');
+      svg.setAttribute('aria-label', 'World index atlas — click opens a country desk; double-click / long-press opens the mind map at country level; drill into state equivalents');
       svg.dataset.baseViewBox = svg.getAttribute('viewBox') || `0 0 ${SVG_W} ${SVG_H}`;
       const seed = new Set(fullCountryIds());
       const stubs = new Set(Object.keys(STUBS));
@@ -793,6 +802,14 @@ function renderOverlay() {
     document.body.appendChild(root);
   }
 
+  if (state.desk) {
+    document.body.classList.add('overlay-open');
+    root.hidden = false;
+    root.innerHTML = renderDesks();
+    wireOverlay(root);
+    return;
+  }
+
   const view = state.view;
   if (!state.country || view === 'desk') {
     root.hidden = true;
@@ -805,7 +822,7 @@ function renderOverlay() {
   root.hidden = false;
   const c = getCountry(state.country);
   if (!c) {
-    root.innerHTML = `<div class="overlay-panel"><p class="section-note">Unknown country.</p><button type="button" class="btn-brass" data-close-overlay>Close</button></div>`;
+    root.innerHTML = `<div class="overlay-panel"><p class="section-note">Unknown country.</p><button type="button" class="btn-primary" data-close-overlay>Close</button></div>`;
     wireOverlay(root);
     return;
   }
@@ -854,13 +871,14 @@ function renderMindMap(c) {
     <div class="overlay-panel mindmap-panel">
       <div class="overlay-head">
         <div>
-          <div class="overlay-kicker">Industry mind map · SAMPLE</div>
-          <h2>${escapeHtml(c.name)} <span class="tier-tag">${c.tier === 'full' ? 'SAMPLE · full desk' : 'SAMPLE · stub industries'}</span></h2>
-          <p class="overlay-hint">Skilltree of primary industries. Click a node for upstream → midstream → downstream players. Single-click on the atlas still opens the country desk; double-click / long-press / this view opens the mind map.</p>
+          <div class="overlay-kicker">Industry mind map</div>
+          <h2>${escapeHtml(c.name)} ${protoBadge()}</h2>
+          ${protoNote()}
+          <p class="overlay-hint">Primary industries for this country. Click a node for upstream → midstream → downstream players. Single-click on the atlas opens the country desk; double-click / long-press opens this mind map.</p>
         </div>
         <div class="overlay-actions">
           <button type="button" class="btn-ghost" data-to-desk>Country desk</button>
-          <button type="button" class="btn-brass" data-close-overlay>Close</button>
+          <button type="button" class="btn-primary" data-close-overlay>Close</button>
         </div>
       </div>
       <div class="mindmap-wrap">
@@ -876,7 +894,7 @@ function renderChain(c) {
   const sector = state.sector;
   const chain = getValueChain(c.id, sector);
   if (!chain) {
-    return `<div class="overlay-panel"><p class="section-note">No chain for this sector.</p><button type="button" class="btn-brass" data-back-mindmap>Back to mind map</button></div>`;
+    return `<div class="overlay-panel"><p class="section-note">No chain for this sector.</p><button type="button" class="btn-primary" data-back-mindmap>Back to mind map</button></div>`;
   }
   const stages = chainStages().map((stage) => {
     const players = chain[stage] || [];
@@ -897,14 +915,15 @@ function renderChain(c) {
     <div class="overlay-panel chain-panel">
       <div class="overlay-head">
         <div>
-          <div class="overlay-kicker">Value chain · SAMPLE${chain.stub ? ' · stub' : ''}</div>
-          <h2>${escapeHtml(c.name)} · ${escapeHtml(chain.label)}</h2>
-          <p class="overlay-hint">Upstream (inputs) → midstream (processing / transmission) → downstream (demand). Click a company for announcements and pipeline. All names are SAMPLE fiction.</p>
+          <div class="overlay-kicker">Value chain${chain.stub ? ' · stub' : ''}</div>
+          <h2>${escapeHtml(c.name)} · ${escapeHtml(chain.label)} ${protoBadge()}</h2>
+          ${protoNote()}
+          <p class="overlay-hint">Upstream (inputs) → midstream (processing / transmission) → downstream (demand). Click a company for its prototype desk. All company names are invented.</p>
         </div>
         <div class="overlay-actions">
           <button type="button" class="btn-ghost" data-back-mindmap>Mind map</button>
           <button type="button" class="btn-ghost" data-to-desk>Country desk</button>
-          <button type="button" class="btn-brass" data-close-overlay>Close</button>
+          <button type="button" class="btn-primary" data-close-overlay>Close</button>
         </div>
       </div>
       <div class="chain-grid">${stages}</div>
@@ -914,7 +933,7 @@ function renderChain(c) {
 function renderCompanyDesk(c) {
   const co = getCompany(state.company);
   if (!co) {
-    return `<div class="overlay-panel"><p class="section-note">Unknown company.</p><button type="button" class="btn-brass" data-back-chain>Back to chain</button></div>`;
+    return `<div class="overlay-panel"><p class="section-note">Unknown company.</p><button type="button" class="btn-primary" data-back-chain>Back to chain</button></div>`;
   }
   const anns = (co.announcements || []).map((a) => `
     <article class="signal-card">
@@ -932,25 +951,26 @@ function renderCompanyDesk(c) {
     <div class="overlay-panel company-panel">
       <div class="overlay-head">
         <div>
-          <div class="overlay-kicker">Company desk · SAMPLE${co.stub ? ' · stub' : ''}</div>
-          <h2>${escapeHtml(co.name)}</h2>
+          <div class="overlay-kicker">Company desk${co.stub ? ' · stub' : ''}</div>
+          <h2>${escapeHtml(co.name)} ${protoBadge()}</h2>
+          ${protoNote()}
           <p class="snapshot">${escapeHtml(co.role)} · ${escapeHtml(co.stage)} · ${escapeHtml(co.countryName)} · ${escapeHtml(co.sectorLabel)}</p>
         </div>
         <div class="overlay-actions">
           <button type="button" class="btn-ghost" data-back-chain>Value chain</button>
           <button type="button" class="btn-ghost" data-back-mindmap>Mind map</button>
-          <button type="button" class="btn-brass" data-close-overlay>Close</button>
+          <button type="button" class="btn-primary" data-close-overlay>Close</button>
         </div>
       </div>
       <div class="company-body">
         <section>
           <h3 class="company-section">Recent major announcements</h3>
-          <p class="section-note">Invented SAMPLE items for UX — not live filings.</p>
+          <p class="section-note">Invented items for UX testing, not filings.</p>
           <div class="signal-list">${anns}</div>
         </section>
         <section>
           <h3 class="company-section">Working on next · pipeline</h3>
-          <p class="section-note">SAMPLE forward book — illustrative only.</p>
+          <p class="section-note">Invented forward book, illustrative only.</p>
           <div class="pipeline-list">${pipe}</div>
         </section>
       </div>
@@ -958,7 +978,8 @@ function renderCompanyDesk(c) {
 }
 
 function wireOverlay(root) {
-  const close = () => navigate({ view: 'desk', company: null });
+  const close = () => (state.desk ? navigate({ desk: null }) : navigate({ view: 'desk', company: null }));
+  $$('[data-desk-tab]', root).forEach((b) => b.addEventListener('click', () => navigate({ desk: b.dataset.deskTab })));
   $$('[data-close-overlay]', root).forEach((b) => b.addEventListener('click', close));
   $$('[data-to-desk]', root).forEach((b) => b.addEventListener('click', () => {
     navigate({ view: 'desk', company: null, tab: 'signals', sector: null, region: null });
@@ -990,6 +1011,130 @@ function escapeHtml(s) {
   ));
 }
 function escapeXml(s) { return escapeHtml(s); }
+
+/* ---------- PROTOTYPE labeling (one badge, one explainer, used everywhere) ---------- */
+function protoBadge(extra = '') {
+  return `<span class="proto-badge${extra ? ` ${extra}` : ''}" title="${escapeHtml(PROTOTYPE.title)}">${PROTOTYPE.label}</span>`;
+}
+function protoNote() {
+  return `<p class="proto-note">${escapeHtml(PROTOTYPE.note)}</p>`;
+}
+
+/* ---------- US desks (sourced record) ---------- */
+function renderDesks() {
+  const active = DESKS.find((d) => d.id === state.desk) || DESKS[2];
+  const tabs = DESKS.map((d) => {
+    const st = deskStatus(d.id, pricesDesk);
+    return `<button type="button" class="desk-tab${d.id === active.id ? ' active' : ''}" data-desk-tab="${d.id}" role="tab" aria-selected="${d.id === active.id}">
+      <span class="desk-tab-name">${escapeHtml(d.title)}</span><span class="desk-tab-n${st.count ? '' : ' is-zero'}">${st.count}</span></button>`;
+  }).join('');
+  const recs = active.id === 'prices' ? renderableRecords(pricesDesk) : [];
+  const body = recs.length ? renderPriceTable(recs) : renderDeskEmpty(active);
+  const sources = active.sources.map((src) => `<li><a href="${escapeHtml(src.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(src.name)}</a></li>`).join('');
+  const planned = active.planned?.length
+    ? `<dt>Planned, not wired</dt><dd><ul>${active.planned.map((x) => `<li>${escapeHtml(x)}</li>`).join('')}</ul></dd>` : '';
+  return `
+    <div class="overlay-panel desks-panel">
+      <div class="overlay-head">
+        <div>
+          <div class="overlay-kicker">US desks · sourced record</div>
+          <h2>${escapeHtml(active.title)}</h2>
+          <p class="overlay-hint">${escapeHtml(active.scope)}</p>
+        </div>
+        <div class="overlay-actions">
+          <button type="button" class="btn-primary" data-close-overlay>Close</button>
+        </div>
+      </div>
+      <div class="desk-tabs" role="tablist" aria-label="US desks">${tabs}</div>
+      <div class="desk-body">
+        ${body}
+        <dl class="desk-spec">
+          <dt>Update trigger</dt><dd>${escapeHtml(active.trigger)}</dd>
+          <dt>Sources</dt><dd><ul>${sources}</ul></dd>
+          ${planned}
+        </dl>
+        <p class="desk-foot">Every line: source link · as-of date · revision note · history (old lines stay visible). Not investment advice. Not real-time.</p>
+      </div>
+    </div>`;
+}
+
+function renderDeskEmpty(desk) {
+  const head = (desk.columns || []).map((c) => `<th scope="col">${escapeHtml(c)}</th>`).join('');
+  return `
+    <div class="desk-empty" data-desk-empty="${desk.id}">
+      <table class="ledger-table ledger-table-empty"><thead><tr>${head}</tr></thead></table>
+      <p class="desk-empty-msg">${escapeHtml(EMPTY_STATE)}</p>
+    </div>`;
+}
+
+function renderPriceTable(recs) {
+  const now = new Date();
+  const rows = recs.map((r) => {
+    const c = r.current;
+    const prior = c.prior;
+    const delta = prior ? formatDelta(c.value, prior.value, r.id) : '';
+    const stale = isStale(r, now)
+      ? `<span class="stale-flag" title="Older than this series' normal cadence">stale · ${ageDays(c.asOf, now)} d</span>` : '';
+    const hist = (r.history || []).slice().reverse().map((h) => `
+      <li><s>${escapeHtml(formatValue(h.value, r.id))} ${escapeHtml(h.unit || c.unit)} · as of ${escapeHtml(h.asOf)}</s>
+        <span class="hist-meta">superseded ${escapeHtml(h.supersededAt)} · ${escapeHtml(h.revisionNote || '')} · <a href="${escapeHtml(h.sourceUrl)}" target="_blank" rel="noopener noreferrer">source</a></span></li>`).join('');
+    const history = hist
+      ? `<ul class="hist-list">${hist}</ul>`
+      : `<span class="hist-empty">First entry, recorded ${escapeHtml((c.retrievedAt || '').slice(0, 10))}. Superseded lines will stay here, struck through.</span>`;
+    return `
+      <tbody class="ledger-rec" data-record="${escapeHtml(r.id)}">
+        <tr class="ledger-row">
+          <th scope="row" data-label="Series">${escapeHtml(r.title)}<span class="series-id">${escapeHtml(r.seriesId)} · ${escapeHtml(r.frequency)}</span></th>
+          <td class="num val" data-label="Value"><span class="cell">${escapeHtml(formatValue(c.value, r.id))}</span></td>
+          <td data-label="Unit" class="unit"><span class="cell">${escapeHtml(c.unit)}</span></td>
+          <td class="num" data-label="As of"><span class="cell">${escapeHtml(c.asOf)} ${stale}</span></td>
+          <td class="num prior" data-label="Prior"><span class="cell">${prior ? `${escapeHtml(formatValue(prior.value, r.id))} <span class="prior-date">${escapeHtml(prior.asOf)}</span> <span class="delta">${escapeHtml(delta)}</span>` : '—'}</span></td>
+          <td data-label="Source"><span class="cell"><a href="${escapeHtml(c.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(c.sourceName)}</a>${c.primaryUrl ? ` · <a href="${escapeHtml(c.primaryUrl)}" target="_blank" rel="noopener noreferrer">EIA</a>` : ''}</span></td>
+          <td data-label="Revision note"><span class="cell">${escapeHtml(c.revisionNote)}</span></td>
+        </tr>
+        <tr class="ledger-sub">
+          <td colspan="7">
+            <div class="sub-grid">
+              <div><span class="k">Industrial use</span> ${escapeHtml(r.industrialUse)}</div>
+              <div><span class="k">Caveat</span> ${escapeHtml(r.caveat || '—')}</div>
+              <div><span class="k">Range</span> ${r.range ? escapeHtml(`${r.range.low}–${r.range.high} set ${r.range.setOn}`) : 'not set (set by the editor with a written reason)'}</div>
+              <div class="hist"><span class="k">History</span> ${history}</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>`;
+  }).join('');
+  return `
+    <table class="ledger-table">
+      <thead><tr><th scope="col">Series</th><th scope="col" class="num">Value</th><th scope="col">Unit</th><th scope="col" class="num">As of</th><th scope="col" class="num">Prior (source)</th><th scope="col">Source</th><th scope="col">Revision note</th></tr></thead>
+      ${rows}
+    </table>
+    <p class="desk-note">Values as published by the source on the as-of date; they may be revised. Pulled from public EIA series via FRED (no key) by the site's GitHub Action.</p>`;
+}
+
+function renderHomeDesks() {
+  const tiles = DESKS.map((d) => {
+    const st = deskStatus(d.id, pricesDesk);
+    const lines = d.id === 'prices'
+      ? renderableRecords(pricesDesk).map((r) => `
+          <div class="tile-line"><span class="tl-name">${escapeHtml(r.title.split(',')[0].replace(' natural gas spot', ''))}</span><span class="tl-val">${escapeHtml(formatValue(r.current.value, r.id))}</span><span class="tl-unit">${escapeHtml(r.current.unit)}</span><span class="tl-asof">${escapeHtml(r.current.asOf)}</span></div>`).join('')
+      : '';
+    return `
+      <button type="button" class="desk-tile${st.count ? '' : ' is-empty'}" data-open-desk="${d.id}">
+        <span class="tile-top"><span class="tile-name">${escapeHtml(d.title)}</span><span class="tile-count">${st.count}</span></span>
+        ${lines ? `<span class="tile-lines">${lines}</span>` : ''}
+        <span class="tile-status">${escapeHtml(st.count ? st.text : EMPTY_STATE)}</span>
+      </button>`;
+  }).join('');
+  return `
+    <section class="home-desks" aria-label="US desks">
+      <div class="home-head">
+        <h2>US desks</h2>
+        <span class="home-sub">Sourced record · source, as-of date and revision note on every line</span>
+      </div>
+      <div class="desk-tiles">${tiles}</div>
+    </section>`;
+}
 function shortLabel(name) {
   if (!name) return '';
   return name.length > 22 ? name.slice(0, 20) + '…' : name;
@@ -1011,7 +1156,7 @@ function renderLeadershipAccordion() {
   if (!stack.length) {
     return `
       <details class="leadership-acc">
-        <summary>Leadership <span class="tier-tag">SAMPLE / sparse</span></summary>
+        <summary>Leadership <span class="tier-tag">public channels · sparse</span></summary>
         <div class="leadership-body">
           <p class="section-note">No leadership roster seeded for this focus yet. Public official directories welcome in a later pass.</p>
           ${finerNote}
@@ -1021,7 +1166,7 @@ function renderLeadershipAccordion() {
 
   const levels = stack.map((block, idx) => {
     const roles = (block.roles || []).map((role) => {
-      const badges = roleBadge(role).map((b) => `<span class="badge-sm ${b === 'SAMPLE' ? 'sample' : 'kind'}">${escapeHtml(b)}</span>`).join(' ');
+      const badges = roleBadge(role).map((b) => `<span class="badge-sm ${b === 'SAMPLE' || b === 'ESTIMATE' ? 'sample' : 'kind'}">${escapeHtml(b)}</span>`).join(' ');
       const contact = role.contact || {};
       const links = [];
       if (contact.site) links.push(`<a href="${escapeHtml(contact.site)}" target="_blank" rel="noopener noreferrer">Official site</a>`);
@@ -1039,7 +1184,7 @@ function renderLeadershipAccordion() {
           </div>
           <div class="lead-contact">${links.join(' · ') || '<span class="ink-mute">No public channel listed</span>'}</div>
           <div class="lead-meta">
-            <div><span class="lead-k">Response</span> ${escapeHtml(role.responseTime?.text || 'unknown')} ${role.responseTime?.badge ? `<span class="badge-sm kind">${escapeHtml(role.responseTime.badge)}</span>` : ''}</div>
+            <div><span class="lead-k">Response</span> ${escapeHtml(role.responseTime?.text || 'unknown')} ${role.responseTime?.badge ? `<span class="badge-sm sample" title="Unverified estimate, not a measured response time">${escapeHtml(role.responseTime.badge)}</span>` : ''}</div>
             <div><span class="lead-k">Term</span> ${escapeHtml(role.term?.text || 'unknown')} ${role.term?.badge ? `<span class="badge-sm sample">${escapeHtml(role.term.badge)}</span>` : ''}</div>
           </div>
         </article>`;
@@ -1056,7 +1201,7 @@ function renderLeadershipAccordion() {
     <details class="leadership-acc">
       <summary>Leadership <span class="tier-tag">public channels</span></summary>
       <div class="leadership-body">
-        <p class="section-note">Collapsed by default. Public sites / switchboards / forms only — never private phones. SAMPLE / ESTIMATE badges mark unverified fields.</p>
+        <p class="section-note">Public sites, switchboards and forms only, never private phones. SAMPLE / ESTIMATE badges mark unverified fields; response times are estimates, not measurements.</p>
         ${finerNote}
         ${levels}
       </div>
@@ -1069,11 +1214,17 @@ function renderPanel() {
   const c = getCountry(state.country);
   if (!c) {
     root.innerHTML = `
-      <div class="panel-empty">
-        <h2>Select a country</h2>
-        <p>Click the atlas for the country desk · double-click (or long-press on mobile) for the industry mind map. Zoom with wheel / pinch or the +/− controls so small states are reachable.</p>
-        <p>Fully fleshed SAMPLE desks: United States, India, UAE, Japan, Nigeria, Chile. Other highlighted states open as lighter stubs — mind maps invent coherent primary industries.</p>
-        <div class="seed-list" id="seed-chips"></div>
+      <div class="panel-home">
+        ${renderHomeDesks()}
+        <section class="home-index" aria-label="World index">
+          <div class="home-head">
+            <h2>World index</h2>
+            <span class="home-sub">Free atlas · same treatment for every country</span>
+          </div>
+          <p class="home-help">Click a country for its desk; double-click or long-press for the industry mind map. Drill World → Country → State equivalent → City. Zoom with wheel, pinch or the +/− controls.</p>
+          <div class="proto-callout">${protoBadge()}<span>Country desks below (United States, India, UAE, Japan, Nigeria, Chile) and all other country views are example data for UX testing. The sourced US record is in the US desks above.</span></div>
+          <div class="seed-list" id="seed-chips"></div>
+        </section>
       </div>`;
     const box = $('#seed-chips');
     for (const id of fullCountryIds()) {
@@ -1088,13 +1239,13 @@ function renderPanel() {
   }
 
   const m = c.metrics;
-  const tier = c.tier === 'full' ? 'SAMPLE · full desk' : 'SAMPLE · stub';
+  const tier = c.tier === 'full' ? 'example country desk' : 'example stub';
   let body = '';
   if (c.tier === 'stub') {
     body = `
       <div class="stub-note">
-        <strong>${escapeHtml(c.name)}</strong> is a lighter stub in Version 0. Metrics are illustrative SAMPLE scores.
-        Open the <strong>industry mind map</strong> for invented primary industries and light value-chain stubs — or drill a fully seeded nation for full desks.
+        <strong>${escapeHtml(c.name)}</strong> is a lighter prototype stub; its scores are illustrative example data.
+        Open the <strong>industry mind map</strong> for invented primary industries and light value-chain stubs, or open a fuller prototype desk below.
       </div>
       <div class="tab-body">
         <p class="section-note">${escapeHtml(c.snapshot)}</p>
@@ -1103,7 +1254,7 @@ function renderPanel() {
   } else {
     body = `
       <div class="tabs" role="tablist">
-        ${TABS.map((t) => `<button type="button" class="tab ${state.tab === t ? 'active' : ''}" data-tab="${t}" role="tab">${t}</button>`).join('')}
+        ${TABS.map((t) => `<button type="button" class="tab ${state.tab === t ? 'active' : ''}" data-tab="${t}" role="tab">${escapeHtml(TAB_LABELS[t] || t)}</button>`).join('')}
       </div>
       <div class="tab-body">${renderTab(c)}</div>`;
   }
@@ -1122,16 +1273,18 @@ function renderPanel() {
 
   root.innerHTML = `
     <div class="country-head">
-      <h2>${escapeHtml(areaLabel)} <span class="tier-tag">${tier}</span></h2>
+      <h2>${escapeHtml(areaLabel)} ${protoBadge()} <span class="tier-tag">${tier}</span></h2>
+      ${protoNote()}
+      ${c.id === 'us' ? `<div class="us-callout"><span>The sourced US record (Activity, People, Prices, Capital) lives in the US desks.</span><button type="button" class="btn-primary btn-inline" data-open-desk="prices">Open US desks</button></div>` : ''}
       <p class="snapshot">${escapeHtml(c.snapshot)}</p>
-      <div class="metrics">
-        <div class="metric"><div class="label">Stability</div><div class="value">${m.stability}</div><div class="hint">${metricLabel(m.stability)}</div></div>
-        <div class="metric"><div class="label">Frontier pressure</div><div class="value">${m.frontierPressure}</div><div class="hint">${metricLabel(m.frontierPressure)}</div></div>
-        <div class="metric"><div class="label">Opportunity</div><div class="value">${m.opportunity}</div><div class="hint">${metricLabel(m.opportunity)}</div></div>
+      <div class="metrics" aria-label="Prototype scores, example data">
+        <div class="metric is-proto"><div class="label">Stability <span class="metric-unit">score 0–100</span></div><div class="value">${m.stability}</div><div class="hint">${metricLabel(m.stability)} · example</div></div>
+        <div class="metric is-proto"><div class="label">Build pressure <span class="metric-unit">score 0–100</span></div><div class="value">${m.frontierPressure}</div><div class="hint">${metricLabel(m.frontierPressure)} · example</div></div>
+        <div class="metric is-proto"><div class="label">Headroom <span class="metric-unit">score 0–100</span></div><div class="value">${m.opportunity}</div><div class="hint">${metricLabel(m.opportunity)} · example</div></div>
       </div>
       ${renderLeadershipAccordion()}
       <div class="desk-actions">
-        <button type="button" class="btn-brass" data-open-mindmap ${mmOk ? '' : 'disabled title="Mind map is country-level only"'}>Mind map</button>
+        <button type="button" class="btn-primary" data-open-mindmap ${mmOk ? '' : 'disabled title="Mind map is country-level only"'}>Mind map</button>
         <span class="desk-hint">Atlas: single-click = desk · double-click / long-press = mind map (country only). ${escapeHtml(drillHint)}</span>
       </div>
     </div>
@@ -1164,7 +1317,7 @@ function renderTab(c) {
     const list = filterSignals(c, { sector: state.sector, region: state.region });
     const filterNote = state.sector || state.region
       ? `<div class="filter-bar"><span class="section-note" style="margin:0">Filtered · ${escapeHtml(state.sector || state.region)}</span><button type="button" class="clear" data-clear>Clear filter</button></div>`
-      : `<p class="section-note">Civilization-weighted headlines (SAMPLE). Higher weight ≈ more impact on long-horizon development capacity.</p>`;
+      : `<p class="section-note">${protoBadge('proto-badge-sm')} Invented headlines. “w” is an invented 0–100 impact weight.</p>`;
     return filterNote + `<div class="signal-list">${list.map(signalCard).join('') || '<p class="section-note">No signals for this filter.</p>'}</div>`;
   }
   if (tab === 'industries') {
@@ -1183,10 +1336,10 @@ function renderTab(c) {
           <button type="button" class="clear" data-clear>Clear</button>
           <button type="button" class="btn-ghost btn-inline" data-sector-chain="${escapeHtml(state.sector)}">Value chain</button>
         </div>
-        ${note ? `<div class="opening-card" style="margin-bottom:0.75rem"><div class="gap-label">Opportunity note</div><h3>${escapeHtml(note.title)}</h3><p>${escapeHtml(note.gap)}</p><div class="horizon">${escapeHtml(note.horizon)}</div></div>` : ''}
-        <div class="signal-list">${sigs.map(signalCard).join('') || '<p class="section-note">No sector signals in SAMPLE set.</p>'}</div>`;
+        ${note ? `<div class="opening-card" style="margin-bottom:0.75rem"><div class="gap-label">Constraint note ${protoBadge('proto-badge-sm')}</div><h3>${escapeHtml(note.title.replace(/ frontier$/, ' constraint'))}</h3><p>${escapeHtml(note.gap)}</p><div class="horizon">${escapeHtml(note.horizon)}</div></div>` : ''}
+        <div class="signal-list">${sigs.map(signalCard).join('') || '<p class="section-note">No sector signals in the prototype set.</p>'}</div>`;
     }
-    return `<p class="section-note">Sectors as skilltree nodes. Click to filter SAMPLE signals — or open the <strong>Mind map</strong> for the radiating industry view and value chains.</p><div class="grid-cards">${cards}</div>${detail}`;
+    return `<p class="section-note">${protoBadge('proto-badge-sm')} Sectors for this prototype desk. Click to filter its invented signals, or open the <strong>Mind map</strong> for value chains.</p><div class="grid-cards">${cards}</div>${detail}`;
   }
   if (tab === 'regions') {
     const cards = (c.regions || []).map((r) => `
@@ -1199,20 +1352,20 @@ function renderTab(c) {
       const sigs = filterSignals(c, { region: state.region });
       detail = `
         <div class="filter-bar" style="margin-top:1rem"><span class="section-note" style="margin:0">Region drill · ${escapeHtml(state.region)}</span><button type="button" class="clear" data-clear>Clear</button></div>
-        <div class="signal-list">${sigs.map(signalCard).join('') || '<p class="section-note">No regional signals in SAMPLE set.</p>'}</div>`;
+        <div class="signal-list">${sigs.map(signalCard).join('') || '<p class="section-note">No regional signals in the prototype set.</p>'}</div>`;
     }
-    return `<p class="section-note">Subregions for geographic drill-down (SAMPLE).</p><div class="grid-cards">${cards}</div>${detail}`;
+    return `<p class="section-note">${protoBadge('proto-badge-sm')} Subregions for this prototype desk.</p><div class="grid-cards">${cards}</div>${detail}`;
   }
   if (tab === 'openings') {
     const cards = (c.openings || []).map((o) => `
       <div class="opening-card">
-        <div class="gap-label">Weak spot / opening</div>
+        <div class="gap-label">Binding constraint</div>
         <h3>${escapeHtml(o.title)}</h3>
         <p>${escapeHtml(o.gap)}</p>
         <div class="horizon">Horizon · ${escapeHtml(o.horizon)}</div>
         <div class="signal-meta">${o.sectors.map((s) => `<span class="tag">${escapeHtml(s)}</span>`).join('')}</div>
       </div>`).join('');
-    return `<p class="section-note">Long-horizon openings — framed as civilization skilltree gaps, not day-trade tips. SAMPLE.</p><div class="opening-list">${cards}</div>`;
+    return `<p class="section-note">${protoBadge('proto-badge-sm')} Prototype constraints: invented examples of what binds a build-out (power, permits, skills, logistics). Not research, not a recommendation.</p><div class="opening-list">${cards}</div>`;
   }
   return '';
 }
@@ -1220,7 +1373,7 @@ function renderTab(c) {
 function signalCard(s) {
   return `
     <article class="signal-card">
-      <div class="top"><h3>${escapeHtml(s.title)}</h3><span class="weight">w${s.weight}</span></div>
+      <div class="top"><h3>${escapeHtml(s.title)}</h3><span class="weight" title="Invented impact weight (prototype)">w${s.weight}</span></div>
       <p>${escapeHtml(s.blurb)}</p>
       <div class="signal-meta">
         ${verifyBadge({ verification: { status: 'sample' } })}
@@ -1329,8 +1482,8 @@ function renderFeed() {
     if (sub) {
       const gen = liveFeed?.generatedAt ? ` · updated ${dateStampShort(liveFeed.generatedAt)}` : '';
       sub.innerHTML = filterId === 'us'
-        ? `<strong>US</strong> · ${items.length} REAL links${gen}`
-        : `Public RSS · ${items.length} REAL links${gen}`;
+        ? `<strong>US</strong> · ${items.length} REAL links${gen} · not real-time`
+        : `Public RSS · ${items.length} REAL links${gen} · not real-time`;
     }
     feed.innerHTML = railFilterBar(items) + railLegend() + (shown.map((i) => `
       <article class="feed-item is-live" data-real="1" data-vstatus="${escapeHtml(i.verification?.status || '')}">
@@ -1360,8 +1513,8 @@ function renderFeed() {
   if (filterId && COUNTRIES[filterId]) items = items.filter((i) => i.countryId === filterId);
   if (sub) {
     sub.textContent = filterId
-      ? `Filtered to ${COUNTRIES[filterId]?.name || filterId} · SAMPLE fallback`
-      : 'Sample fallback · live RSS not loaded';
+      ? `Filtered to ${COUNTRIES[filterId]?.name || filterId} · PROTOTYPE fallback`
+      : 'PROTOTYPE fallback · live RSS not loaded';
   }
   feed.innerHTML = items.map((i) => `
     <article class="feed-item" data-c="${i.countryId}">
@@ -1380,6 +1533,18 @@ function dateStampShort(iso) {
   if (Number.isNaN(d.getTime())) return '—';
   const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   return `${months[d.getMonth()]} ${d.getDate()}`;
+}
+
+async function loadPricesDesk() {
+  try {
+    const res = await fetch('./data/desks/prices.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error(String(res.status));
+    pricesDesk = await res.json();
+  } catch {
+    pricesDesk = { records: [] };
+  }
+  if (!state.country) renderPanel();
+  if (state.desk) renderOverlay();
 }
 
 async function loadLiveFeed() {
@@ -1449,8 +1614,21 @@ function wireAtlasLegend() {
 function boot() {
   $('#date-stamp').textContent = formatDateStamp();
   $('#about-text').textContent = META.sketchNote;
-  $('#domain-note').textContent = `${META.domainIntent} — reserved intent (not purchased by this sketch). Soft launch runs on GitHub Pages + Actions only ($0).`;
   wireAtlasLegend();
+  // Desk entry points keep the current atlas focus (no hash reset)
+  document.addEventListener('click', (e) => {
+    const opener = e.target.closest?.('[data-open-desk]');
+    if (opener) {
+      e.preventDefault();
+      navigate({ desk: opener.dataset.openDesk });
+      return;
+    }
+    if (e.target.closest?.('#nav-desks')) {
+      e.preventDefault();
+      navigate({ desk: state.desk || 'prices' });
+    }
+  });
+  loadPricesDesk();
   loadGeoAndLeadership()
     .then(() => loadMap())
     .then(() => applyHash());
@@ -1465,7 +1643,9 @@ function boot() {
     });
   });
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && state.view !== 'desk') {
+    if (e.key === 'Escape' && state.desk) {
+      navigate({ desk: null });
+    } else if (e.key === 'Escape' && state.view !== 'desk') {
       navigate({ view: 'desk', company: null });
     } else if (e.key === 'Escape' && state.city) {
       navigate({ city: null });

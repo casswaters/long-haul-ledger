@@ -1,16 +1,19 @@
 /**
- * Long Haul Ledger — SAMPLE seed data (v0 sketch).
- * Not live news. Invented but coherent civilization-weighted signals.
+ * Long Haul Ledger — PROTOTYPE seed data (example data for UX testing).
+ * Not live news, not sourced. Invented country desks, metrics, signals and
+ * constraints. Never read by any desk builder or paid output.
  */
+export const prototype = true;
 export const META = {
   name: 'Long Haul Ledger',
-  creed: '10,000 Year Empire',
+  tagline: 'A sourced record of what moved in US industry, with a world index.',
   version: '0.4-drill',
   domainIntent: 'longhaulledger.com',
   sample: true,
+  prototype: true,
   softLaunch: true,
   sketchNote:
-    'Soft launch: the US Progress ledger rail is fed by free public RSS via GitHub Actions (REAL outbound links). Country desks, metrics, value chains, and company desks remain SAMPLE fiction. Leadership accordion + map drill World → Country → State equivalent → City (US/IN/AE/JP seeded). No paid APIs; $0 on GitHub Pages + Actions.',
+    'What is sourced: the US Progress rail (outbound links to public RSS, with verification tiers) and the US desks, where every line carries a source link, an as-of date and a revision note. What is PROTOTYPE: country metrics, signals, constraints, mind maps, value chains and company desks are example data for UX testing. Leadership lists public channels only; SAMPLE / ESTIMATE marks unverified fields.',
 };
 
 /** @typedef {{ id: string, title: string, blurb: string, weight: number, sector?: string, region?: string, date: string }} Signal */
@@ -50,7 +53,7 @@ export const COUNTRIES = {
       { id: 'us-6', title: 'Regional university–fab apprenticeship pacts scale', blurb: 'Three-state consortia lock multi-year pipelines for process techs and maintenance engineers.', weight: 79, sector: 'demographics', region: 'midwest', date: '2026-09-18' },
     ],
     openings: [
-      { id: 'us-o1', title: 'Transmission & interconnection as a skilltree gap', gap: 'Generation and compute demand outrun wires and queue capacity.', horizon: '10–30 years', sectors: ['energy', 'compute'] },
+      { id: 'us-o1', title: 'Transmission & interconnection as a binding constraint', gap: 'Generation and compute demand outrun wires and queue capacity.', horizon: '10–30 years', sectors: ['energy', 'compute'] },
       { id: 'us-o2', title: 'Industrial technician pipeline', gap: 'Fab and battery plants need mid-skill labor faster than training systems supply.', horizon: '5–15 years', sectors: ['manufacturing', 'demographics'] },
     ],
   },
@@ -199,7 +202,7 @@ export const COUNTRIES = {
     iso: 'CL',
     tier: 'full',
     snapshot:
-      'Resource commons power (copper, lithium) meets renewable surplus and long thin geography — institutions and value-add depth decide whether minerals become a civilization ladder or a cycle.',
+      'Resource commons power (copper, lithium) meets renewable surplus and long thin geography — institutions and value-add depth decide whether minerals become a industrial ladder or a cycle.',
     metrics: { stability: 70, frontierPressure: 74, opportunity: 76 },
     industries: [
       { id: 'resources', name: 'Mining & Critical Minerals', note: 'Copper, lithium, processing, and water intensity.' },
@@ -230,26 +233,26 @@ export const COUNTRIES = {
 
 /** Lighter stubs — clickable, minimal panel. */
 export const STUBS = {
-  cn: { id: 'cn', name: 'China', iso: 'CN', tier: 'stub', snapshot: 'Manufacturing scale and infrastructure depth; SAMPLE stub only in v0.', metrics: { stability: 70, frontierPressure: 78, opportunity: 72 } },
-  br: { id: 'br', name: 'Brazil', iso: 'BR', tier: 'stub', snapshot: 'Agri–minerals–energy commons with logistics distance; SAMPLE stub.', metrics: { stability: 62, frontierPressure: 72, opportunity: 70 } },
-  de: { id: 'de', name: 'Germany', iso: 'DE', tier: 'stub', snapshot: 'Industrial Mittelstand under energy and demography pressure; SAMPLE stub.', metrics: { stability: 76, frontierPressure: 68, opportunity: 66 } },
-  gb: { id: 'gb', name: 'United Kingdom', iso: 'GB', tier: 'stub', snapshot: 'Services and science strength; energy and industrial depth thinner; SAMPLE stub.', metrics: { stability: 74, frontierPressure: 65, opportunity: 64 } },
-  fr: { id: 'fr', name: 'France', iso: 'FR', tier: 'stub', snapshot: 'Nuclear baseload and industrial policy experiments; SAMPLE stub.', metrics: { stability: 73, frontierPressure: 66, opportunity: 65 } },
-  ca: { id: 'ca', name: 'Canada', iso: 'CA', tier: 'stub', snapshot: 'Resources, immigration, and allied supply-chain adjacency; SAMPLE stub.', metrics: { stability: 80, frontierPressure: 62, opportunity: 68 } },
-  au: { id: 'au', name: 'Australia', iso: 'AU', tier: 'stub', snapshot: 'Critical minerals and energy export geography; SAMPLE stub.', metrics: { stability: 82, frontierPressure: 64, opportunity: 69 } },
-  za: { id: 'za', name: 'South Africa', iso: 'ZA', tier: 'stub', snapshot: 'Minerals and logistics hub potential gated by power and institutions; SAMPLE stub.', metrics: { stability: 55, frontierPressure: 75, opportunity: 68 } },
-  ke: { id: 'ke', name: 'Kenya', iso: 'KE', tier: 'stub', snapshot: 'East African digital and logistics corridor node; SAMPLE stub.', metrics: { stability: 58, frontierPressure: 70, opportunity: 71 } },
-  sa: { id: 'sa', name: 'Saudi Arabia', iso: 'SA', tier: 'stub', snapshot: 'Energy surplus pivoting toward industry and compute; SAMPLE stub.', metrics: { stability: 72, frontierPressure: 73, opportunity: 74 } },
-  kr: { id: 'kr', name: 'South Korea', iso: 'KR', tier: 'stub', snapshot: 'Chip and shipbuilding depth under demographic squeeze; SAMPLE stub.', metrics: { stability: 78, frontierPressure: 74, opportunity: 70 } },
-  mx: { id: 'mx', name: 'Mexico', iso: 'MX', tier: 'stub', snapshot: 'Nearshoring manufacturing and energy–logistics binding constraints; SAMPLE stub.', metrics: { stability: 60, frontierPressure: 77, opportunity: 75 } },
-  id: { id: 'id', name: 'Indonesia', iso: 'ID', tier: 'stub', snapshot: 'Nickel–EV chain and archipelago logistics; SAMPLE stub.', metrics: { stability: 64, frontierPressure: 76, opportunity: 74 } },
-  eg: { id: 'eg', name: 'Egypt', iso: 'EG', tier: 'stub', snapshot: 'Suez logistics and energy corridor geography; SAMPLE stub.', metrics: { stability: 56, frontierPressure: 71, opportunity: 67 } },
-  pl: { id: 'pl', name: 'Poland', iso: 'PL', tier: 'stub', snapshot: 'Central European manufacturing and energy security rebuild; SAMPLE stub.', metrics: { stability: 71, frontierPressure: 67, opportunity: 68 } },
-  se: { id: 'se', name: 'Sweden', iso: 'SE', tier: 'stub', snapshot: 'Green steel and nordic industrial transition; SAMPLE stub.', metrics: { stability: 86, frontierPressure: 60, opportunity: 66 } },
-  tr: { id: 'tr', name: 'Türkiye', iso: 'TR', tier: 'stub', snapshot: 'Manufacturing bridge between Europe and Near East; SAMPLE stub.', metrics: { stability: 58, frontierPressure: 72, opportunity: 69 } },
-  ar: { id: 'ar', name: 'Argentina', iso: 'AR', tier: 'stub', snapshot: 'Lithium–agri–energy potential under institutional volatility; SAMPLE stub.', metrics: { stability: 48, frontierPressure: 73, opportunity: 70 } },
-  vn: { id: 'vn', name: 'Vietnam', iso: 'VN', tier: 'stub', snapshot: 'Electronics assembly climb and energy reliability race; SAMPLE stub.', metrics: { stability: 72, frontierPressure: 80, opportunity: 78 } },
-  sg: { id: 'sg', name: 'Singapore', iso: 'SG', tier: 'stub', snapshot: 'Hub-state logistics, capital, and compute density; SAMPLE stub.', metrics: { stability: 90, frontierPressure: 58, opportunity: 65 } },
+  cn: { id: 'cn', name: 'China', iso: 'CN', tier: 'stub', snapshot: 'Manufacturing scale and infrastructure depth; PROTOTYPE stub.', metrics: { stability: 70, frontierPressure: 78, opportunity: 72 } },
+  br: { id: 'br', name: 'Brazil', iso: 'BR', tier: 'stub', snapshot: 'Agri–minerals–energy commons with logistics distance; PROTOTYPE stub.', metrics: { stability: 62, frontierPressure: 72, opportunity: 70 } },
+  de: { id: 'de', name: 'Germany', iso: 'DE', tier: 'stub', snapshot: 'Industrial Mittelstand under energy and demography pressure; PROTOTYPE stub.', metrics: { stability: 76, frontierPressure: 68, opportunity: 66 } },
+  gb: { id: 'gb', name: 'United Kingdom', iso: 'GB', tier: 'stub', snapshot: 'Services and science strength; energy and industrial depth thinner; PROTOTYPE stub.', metrics: { stability: 74, frontierPressure: 65, opportunity: 64 } },
+  fr: { id: 'fr', name: 'France', iso: 'FR', tier: 'stub', snapshot: 'Nuclear baseload and industrial policy experiments; PROTOTYPE stub.', metrics: { stability: 73, frontierPressure: 66, opportunity: 65 } },
+  ca: { id: 'ca', name: 'Canada', iso: 'CA', tier: 'stub', snapshot: 'Resources, immigration, and allied supply-chain adjacency; PROTOTYPE stub.', metrics: { stability: 80, frontierPressure: 62, opportunity: 68 } },
+  au: { id: 'au', name: 'Australia', iso: 'AU', tier: 'stub', snapshot: 'Critical minerals and energy export geography; PROTOTYPE stub.', metrics: { stability: 82, frontierPressure: 64, opportunity: 69 } },
+  za: { id: 'za', name: 'South Africa', iso: 'ZA', tier: 'stub', snapshot: 'Minerals and logistics hub potential gated by power and institutions; PROTOTYPE stub.', metrics: { stability: 55, frontierPressure: 75, opportunity: 68 } },
+  ke: { id: 'ke', name: 'Kenya', iso: 'KE', tier: 'stub', snapshot: 'East African digital and logistics corridor node; PROTOTYPE stub.', metrics: { stability: 58, frontierPressure: 70, opportunity: 71 } },
+  sa: { id: 'sa', name: 'Saudi Arabia', iso: 'SA', tier: 'stub', snapshot: 'Energy surplus pivoting toward industry and compute; PROTOTYPE stub.', metrics: { stability: 72, frontierPressure: 73, opportunity: 74 } },
+  kr: { id: 'kr', name: 'South Korea', iso: 'KR', tier: 'stub', snapshot: 'Chip and shipbuilding depth under demographic squeeze; PROTOTYPE stub.', metrics: { stability: 78, frontierPressure: 74, opportunity: 70 } },
+  mx: { id: 'mx', name: 'Mexico', iso: 'MX', tier: 'stub', snapshot: 'Nearshoring manufacturing and energy–logistics binding constraints; PROTOTYPE stub.', metrics: { stability: 60, frontierPressure: 77, opportunity: 75 } },
+  id: { id: 'id', name: 'Indonesia', iso: 'ID', tier: 'stub', snapshot: 'Nickel–EV chain and archipelago logistics; PROTOTYPE stub.', metrics: { stability: 64, frontierPressure: 76, opportunity: 74 } },
+  eg: { id: 'eg', name: 'Egypt', iso: 'EG', tier: 'stub', snapshot: 'Suez logistics and energy corridor geography; PROTOTYPE stub.', metrics: { stability: 56, frontierPressure: 71, opportunity: 67 } },
+  pl: { id: 'pl', name: 'Poland', iso: 'PL', tier: 'stub', snapshot: 'Central European manufacturing and energy security rebuild; PROTOTYPE stub.', metrics: { stability: 71, frontierPressure: 67, opportunity: 68 } },
+  se: { id: 'se', name: 'Sweden', iso: 'SE', tier: 'stub', snapshot: 'Green steel and nordic industrial transition; PROTOTYPE stub.', metrics: { stability: 86, frontierPressure: 60, opportunity: 66 } },
+  tr: { id: 'tr', name: 'Türkiye', iso: 'TR', tier: 'stub', snapshot: 'Manufacturing bridge between Europe and Near East; PROTOTYPE stub.', metrics: { stability: 58, frontierPressure: 72, opportunity: 69 } },
+  ar: { id: 'ar', name: 'Argentina', iso: 'AR', tier: 'stub', snapshot: 'Lithium–agri–energy potential under institutional volatility; PROTOTYPE stub.', metrics: { stability: 48, frontierPressure: 73, opportunity: 70 } },
+  vn: { id: 'vn', name: 'Vietnam', iso: 'VN', tier: 'stub', snapshot: 'Electronics assembly climb and energy reliability race; PROTOTYPE stub.', metrics: { stability: 72, frontierPressure: 80, opportunity: 78 } },
+  sg: { id: 'sg', name: 'Singapore', iso: 'SG', tier: 'stub', snapshot: 'Hub-state logistics, capital, and compute density; PROTOTYPE stub.', metrics: { stability: 90, frontierPressure: 58, opportunity: 65 } },
 };
 
 export function getCountry(id) {
@@ -292,7 +295,7 @@ export function opportunityNote(country, sectorId) {
   if (hit) return hit;
   const ind = (country.industries || []).find((i) => i.id === sectorId);
   return ind
-    ? { id: `${country.id}-${sectorId}-note`, title: `${ind.name} frontier`, gap: ind.note, horizon: 'multi-decade', sectors: [sectorId] }
+    ? { id: `${country.id}-${sectorId}-note`, title: `${ind.name} constraint`, gap: ind.note, horizon: 'multi-decade', sectors: [sectorId] }
     : null;
 }
 
