@@ -2,11 +2,13 @@
   "version": 1,
   "mode": "us-progress",
   "notes": [
-    "Soft-launch source pack: free public RSS/Atom only \u2014 no paid APIs, no keys.",
+    "Soft-launch source pack: free public RSS/Atom only — no paid APIs, no keys.",
     "Bias: United States + progress / civ-building (energy, compute, manufacturing, infrastructure, state capacity, serious analysis).",
     "Some hosts 403/429 intermittently (bot filters, WAF). Fetcher records failures and continues.",
-    "Labels: hard-news = primary reporting / agency releases; analysis = opinion, essays, think-tank, long-form.",
-    "Verification: primary=true marks the subject's own channel (agency / company press / IR) \u2014 Confirmed for its own announcements and promotes matching story clusters. outlet groups feeds from one publisher (NYT feeds = one outlet) when counting independent sources."
+    "Labels: hard-news = primary reporting / agency releases / discrete confirmable claims; analysis = opinion, commentary, trend pieces, explainers without a discrete confirmable claim (Works in Progress–style, Noahpinion, Asterisk, Volts, Atlantic Council briefs, Construction Physics essays, MIT News, etc.).",
+    "Verification: primary=true marks the subject's own channel (agency / company press / IR) — Confirmed for its own announcements and promotes matching story clusters. outlet groups feeds from one publisher (NYT feeds = one outlet) when counting independent sources.",
+    "Unconfirmed = factual claim that could be confirmed by the subject/agency/company, from a non-primary outlet, not yet multi-sourced or confirmed. Do NOT park opinion/trend/commentary there — those lack a fountainhead to confirm and belong in Analysis.",
+    "Analysis classification: kind=analysis feeds are always Analysis. Additionally the fetcher/verify heuristics reclassify hard-news items whose titles match why/how/opinion/essay/the case for/trend-roundup/explainer patterns (also /opinion|/explainer|/essay URL paths). NPR Science stays hard-news for discrete events; its explainers/roundups flip via heuristics."
   ],
   "sources": [
     {
@@ -103,7 +105,8 @@
       "tags": [
         "science",
         "frontier"
-      ]
+      ],
+      "notes": "Hard-news for discrete events; title heuristics move explainers / 'this week in science' roundups to Analysis."
     },
     {
       "id": "defense-news",
@@ -165,7 +168,8 @@
         "research",
         "compute",
         "energy"
-      ]
+      ],
+      "notes": "Treated as Analysis (research explainers / campus features); not a subject fountainhead for third-party claims."
     },
     {
       "id": "ifp",
@@ -250,6 +254,29 @@
         "semiconductors",
         "manufacturing"
       ]
+    },
+    {
+      "id": "works-in-progress",
+      "name": "Works in Progress",
+      "url": "https://worksinprogress.co/rss.xml",
+      "kind": "analysis",
+      "countryDefault": "US",
+      "tags": [
+        "progress",
+        "essay",
+        "analysis",
+        "institutions"
+      ],
+      "notes": "Long-form progress essays — always Analysis (no discrete confirmable claim)."
     }
+  ],
+  "analysisTitlePatterns": [
+    "^(opinion|analysis|commentary|essay|op-ed|perspective|editorial|column)\\s*[:|–—-]",
+    "^(why|how)\\b",
+    "\\bthe case (for|against)\\b",
+    "\\b(this|the) week in\\b",
+    "\\b(week|month) in review\\b",
+    "\\b(round.?up|reading list|what to watch)\\b",
+    "\\b(explainer|in depth|deep dive|long read)\\b"
   ]
 }

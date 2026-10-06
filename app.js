@@ -1279,7 +1279,7 @@ function verifyBadge(item, { pop = false } = {}) {
 }
 
 function railLegend() {
-  return `<p class="rail-legend"><span class="vbadge vb-confirmed">Confirmed</span> subject / official source confirmed · <span class="vbadge vb-multiple">Multiple sources</span> 2+ independent outlets, not yet confirmed · <span class="vbadge vb-unconfirmed">Unconfirmed</span> one outlet, subject silent · <span class="vbadge vb-analysis">Analysis</span> opinion / analysis, no tier. Tap a badge for outlets.</p>`;
+  return `<p class="rail-legend"><span class="vbadge vb-confirmed">Confirmed</span> subject / official source confirmed · <span class="vbadge vb-multiple">Multiple sources</span> 2+ independent outlets, not yet confirmed · <span class="vbadge vb-unconfirmed">Unconfirmed</span> factual claim, one non-primary outlet · <span class="vbadge vb-analysis">Analysis</span> opinion / commentary / trend / explainer. Tap a badge for outlets.</p>`;
 }
 
 function railFilterBar(items) {

@@ -49,7 +49,7 @@ The global **Ledger** rail is a civilization-weighted feed; selecting a country 
 
 ### Soft-launch pipeline ($0)
 
-1. `data/sources.json` — 20 free RSS/Atom feeds (hard-news + analysis), US/progress-biased.  
+1. `data/sources.json` — 21 free RSS/Atom feeds (hard-news + analysis), US/progress-biased.  
 2. `scripts/fetch-signals.mjs` — normalize + light keyword score → `data/signals-live.json` (~80–120 items).  
 3. `.github/workflows/soft-launch.yml` — schedule + `workflow_dispatch`; commit if changed; deploy `gh-pages`.  
 4. SPA loads `signals-live.json` into the ledger rail with REAL badges + a verification tier per item.
@@ -58,10 +58,10 @@ The global **Ledger** rail is a civilization-weighted feed; selecting a country 
 
 Every live item carries `verification.status` + the outlets that carry it (`verify.js`, run in the fetcher; the browser re-classifies only if a feed predates statuses):
 
-- **Unconfirmed** (amber) — one outlet reports it; the subject (company / agency / official) hasn't confirmed.
+- **Unconfirmed** (amber) — factual claim that could be confirmed by the subject / agency / company, from a non-primary outlet, not yet multi-sourced or confirmed.
 - **Multiple sources** (blue) — 2+ independent outlets in the feed carry the same story (clustered by normalized-title similarity + shared distinctive names / places / orgs within ~48h); subject hasn't confirmed.
 - **Confirmed** (green) — subject confirmed: items from primary / official feeds (DOE, EIA, NIST, NASA, Fed, Defense.gov, company press / IR) for their own announcements; a cluster is promoted when a primary item matches it.
-- **Analysis** (violet) — opinion / essay / think-tank pieces get an Analysis tag instead of a tier. SAMPLE desk items stay **SAMPLE**.
+- **Analysis** (violet) — opinion, commentary, trend pieces, explainers without a discrete confirmable claim (`kind: analysis` feeds + title heuristics: why/how/opinion/essay/the case for/trend roundups). SAMPLE desk items stay **SAMPLE**.
 
 Tap / hover a badge to list outlets; rail chips filter by status.
 
@@ -85,7 +85,7 @@ Aesthetic: sober intelligence desk — dark ink on slate/parchment, restrained b
 
 - Live at GitHub Pages with zoomable map → country panel + mind map → value chain → company desk.  
 - **US Progress** rail shows REAL RSS items with outbound links; SAMPLE badges remain on desks.  
-- Vertical atlas legend + zoom controls. SW cache `long-haul-ledger-v4`. Leadership accordion + drill World → Country → State equivalent → City (seeded US/IN/AE/JP).  
+- Vertical atlas legend + zoom controls. SW cache `long-haul-ledger-v6`. Leadership accordion + drill World → Country → State equivalent → City (seeded US/IN/AE/JP).  
 - Drill layers share one projection calibrated to `world.svg` (its equator sits at y≈578.5 of 1001, not mid-height); Alaska / Hawaii are framed insets; city labels use collision-aware, zoom-aware placement.  
 - Rail items carry Unconfirmed / Multiple sources / Confirmed / Analysis badges.  
 - Seed desks: United States, India, UAE, Japan, Nigeria, Chile (full chains for ≥2–3 industries each).  

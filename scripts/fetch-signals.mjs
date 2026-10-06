@@ -6,7 +6,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { dirname, join, resolve as resolvePath } from 'path';
 import { fileURLToPath } from 'url';
-import { classifyItems, tierCounts, VERIFY_WINDOW_HOURS } from '../verify.js';
+import { classifyItems, tierCounts, VERIFY_WINDOW_HOURS, looksLikeAnalysisTitle } from '../verify.js';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dir, '..');
@@ -169,12 +169,19 @@ export function normalizeItem(raw, source) {
   const blurb = stripHtml(raw.summary).slice(0, 280);
   const country = source.countryDefault || 'US';
   const tags = [...(source.tags || [])];
+  // Promote opinion / explainer / trend-roundup titles to Analysis even when
+  // the parent feed is hard-news (e.g. NPR Science explainers, NYT How/Why).
+  let kind = source.kind || 'hard-news';
+  if (kind !== 'analysis' && looksLikeAnalysisTitle(title)) {
+    kind = 'analysis';
+    if (!tags.includes('analysis')) tags.push('analysis');
+  }
   let score = scoreItem({
     title,
     summary: blurb,
     tags,
     country,
-    kind: source.kind,
+    kind,
   });
   if (published) {
     const ageDays = (Date.now() - new Date(published).getTime()) / 86400000;
@@ -191,7 +198,7 @@ export function normalizeItem(raw, source) {
     url,
     source: source.name,
     sourceId: source.id,
-    kind: source.kind,
+    kind,
     published,
     publishedLabel: dateStamp(published),
     country,
@@ -314,7 +321,7 @@ async function main() {
     verification: {
       counts: tierCounts(items),
       windowHours: VERIFY_WINDOW_HOURS,
-      note: 'confirmed = subject/primary source confirmed; multiple = 2+ independent outlets, unconfirmed by subject; unconfirmed = single outlet; analysis = opinion/analysis (no tier).',
+      note: 'confirmed = subject/primary confirmed; multiple = 2+ independent outlets, subject silent; unconfirmed = factual claim, one non-primary outlet; analysis = opinion/commentary/trend/explainer (title heuristics + analysis feeds).',
     },
     sourcesOk: ok,
     sourcesFailed: failed,

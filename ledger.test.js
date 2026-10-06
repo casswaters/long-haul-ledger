@@ -31,7 +31,7 @@ assert('domain intent noted', META.domainIntent === 'longhaulledger.com');
 assert('sample flag true', META.sample === true);
 assert('index.html exists', existsSync(new URL('./index.html', import.meta.url)));
 assert('world.svg exists', existsSync(new URL('./world.svg', import.meta.url)));
-assert('sw.js cache name long-haul-ledger-v5', /long-haul-ledger-v5/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+assert('sw.js cache name long-haul-ledger-v6', /long-haul-ledger-v6/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
 assert('BRIEF.md exists', existsSync(new URL('./BRIEF.md', import.meta.url)));
 assert('app has ?fresh=1 bust', /\bfresh\b/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 assert('zoom.js exists', existsSync(new URL('./zoom.js', import.meta.url)));
@@ -369,6 +369,12 @@ console.log('\n--- Verification tiers ---');
   assert('primary: agency feed + .gov', V.isPrimary(doe) && V.isPrimary({ url: 'https://www.eia.gov/x' }) && !V.isPrimary(ars));
   assert('primary: company press / IR', V.isPrimary({ url: 'https://investors.example.com/news/1' }) && V.isPrimary({ url: 'https://newsroom.example.com/2026/x' }));
   assert('analysis: kind / opinion path', V.isAnalysis(op) && V.isAnalysis(opPath) && !V.isAnalysis(ars));
+  assert('analysis title: why/how/case for', V.looksLikeAnalysisTitle('Why geothermal is the sleeper energy story') && V.looksLikeAnalysisTitle('How Meta Uses A.I. Data Centers') && V.looksLikeAnalysisTitle('The case for abundance'));
+  assert('analysis title: trend roundup', V.looksLikeAnalysisTitle('This week in science: Loud birds and asteroid samples'));
+  assert('analysis title: not hard news', !V.looksLikeAnalysisTitle(lone.title) && !V.looksLikeAnalysisTitle(doe.title));
+  const whyHard = { id: 'w1', title: 'Why a U.S. Diesel Export Ban May Backfire', url: 'https://www.nytimes.com/2026/10/06/climate/diesel.html', source: 'NYT Climate / Energy', sourceId: 'nyt-energy', outlet: 'nyt', kind: 'hard-news', published: t0, real: true };
+  const howHard = { id: 'w2', title: 'How El Niño Is Shaping Storms on Two Sides of the U.S.', url: 'https://www.nytimes.com/2026/10/06/climate/elnino.html', source: 'NYT Climate / Energy', sourceId: 'nyt-energy', outlet: 'nyt', kind: 'hard-news', published: t0, real: true };
+  assert('hard-news why/how → Analysis via heuristic', V.isAnalysis(whyHard) && V.isAnalysis(howHard));
 
   // Clustering
   const corpus = [ars, npr, wolf, lone, doe, doeEcho, doeEcho2];
@@ -380,19 +386,19 @@ console.log('\n--- Verification tiers ---');
   assert('outside 48h → separate', V.clusterItems([ars, { ...npr, published: t5d }]).length === 2);
 
   // Tier assignment
-  const out = V.classifyItems([...corpus, op, opPath, { id: 's', title: 'Sample', real: false }]);
+  const out = V.classifyItems([...corpus, op, opPath, whyHard, howHard, { id: 's', title: 'Sample', real: false }]);
   const st = Object.fromEntries(out.map((i) => [i.id, i.verification.status]));
   assert('two independent outlets → multiple', st.a === 'multiple' && st.b === 'multiple');
   assert('single outlet → unconfirmed', st.d === 'unconfirmed');
   assert('primary source alone → confirmed', st.c === 'confirmed');
   assert('primary match promotes cluster → confirmed', st.e === 'confirmed' && st.f === 'confirmed' && st.g === 'confirmed');
-  assert('analysis gets Analysis tag, not a tier', st.h === 'analysis' && st.i === 'analysis');
+  assert('analysis gets Analysis tag, not a tier', st.h === 'analysis' && st.i === 'analysis' && st.w1 === 'analysis' && st.w2 === 'analysis');
   assert('SAMPLE stays sample', st.s === 'sample');
   const fv = out.find((i) => i.id === 'f').verification;
   assert('sources list outlets + confirmer first', fv.sources.length === 3 && fv.sources[0].primary && fv.confirmedBy[0] === 'U.S. Department of Energy');
   assert('multiple lists both outlets', out.find((i) => i.id === 'a').verification.sources.map((s) => s.name).sort().join(',') === 'Ars Technica,NPR Science');
   const counts = V.tierCounts(out);
-  assert('tierCounts', counts.confirmed === 4 && counts.multiple === 2 && counts.unconfirmed === 1 && counts.analysis === 2 && counts.sample === 1, JSON.stringify(counts));
+  assert('tierCounts', counts.confirmed === 4 && counts.multiple === 2 && counts.unconfirmed === 1 && counts.analysis === 4 && counts.sample === 1, JSON.stringify(counts));
   assert('filterByStatus', V.filterByStatus(out, 'multiple').length === 2 && V.filterByStatus(out, 'all').length === out.length);
   assert('ensureVerification passes through classified feed', V.ensureVerification(out) === out);
   assert('ensureVerification classifies raw feed (client fallback)', V.ensureVerification([ars, npr]).every((i) => i.verification.status === 'multiple'));
@@ -412,6 +418,21 @@ console.log('\n--- Verification tiers ---');
   assert('fetcher attaches statuses', res.items.every((i) => i.verification?.status));
   assert('fetcher: echo of primary → confirmed', byUrl['https://www.utilitydive.com/n2'] === 'confirmed', JSON.stringify(byUrl));
   assert('fetcher: lone trade story → unconfirmed', byUrl['https://www.utilitydive.com/n3'] === 'unconfirmed');
+
+  const feeds2 = {
+    'https://npr.test/rss': rss([
+      { t: 'This week in science: Loud birds and asteroid samples', u: 'https://www.npr.org/roundup1', d: 'Science roundup' },
+      { t: 'Google launches Project Suncatcher for AI data centers in space', u: 'https://www.npr.org/event1', d: 'Google announced Project Suncatcher' },
+      { t: 'Why nuclear-powered data centers keep showing up in Utah', u: 'https://www.npr.org/why1', d: 'Explainer on nuclear data centers' },
+    ]),
+  };
+  const res2 = await fetchAll([
+    { id: 'npr-science', name: 'NPR Science', url: 'https://npr.test/rss', kind: 'hard-news', countryDefault: 'US', tags: ['science'] },
+  ], { fetchImpl: async (u) => ({ ok: true, status: 200, body: feeds2[u] }) });
+  const by2 = Object.fromEntries(res2.items.map((i) => [i.url, { status: i.verification?.status, kind: i.kind }]));
+  assert('fetcher: week-in roundup → analysis', by2['https://www.npr.org/roundup1']?.status === 'analysis' && by2['https://www.npr.org/roundup1']?.kind === 'analysis', JSON.stringify(by2));
+  assert('fetcher: why title → analysis', by2['https://www.npr.org/why1']?.status === 'analysis', JSON.stringify(by2));
+  assert('fetcher: discrete event stays unconfirmed', by2['https://www.npr.org/event1']?.status === 'unconfirmed' && by2['https://www.npr.org/event1']?.kind === 'hard-news', JSON.stringify(by2));
 
   // Live data carries statuses
   const live = JSON.parse(readFileSync(new URL('./data/signals-live.json', import.meta.url), 'utf8'));

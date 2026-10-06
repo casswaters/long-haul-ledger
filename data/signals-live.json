@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-06T21:23:17.251Z",
+  "generatedAt": "2026-10-06T22:33:09.227Z",
   "mode": "us-progress",
   "itemCount": 110,
   "verification": {
     "counts": {
-      "confirmed": 24,
+      "confirmed": 26,
       "multiple": 3,
-      "unconfirmed": 43,
-      "analysis": 40,
+      "unconfirmed": 37,
+      "analysis": 44,
       "sample": 0
     },
     "windowHours": 48,
-    "note": "confirmed = subject/primary source confirmed; multiple = 2+ independent outlets, unconfirmed by subject; unconfirmed = single outlet; analysis = opinion/analysis (no tier)."
+    "note": "confirmed = subject/primary confirmed; multiple = 2+ independent outlets, subject silent; unconfirmed = factual claim, one non-primary outlet; analysis = opinion/commentary/trend/explainer (title heuristics + analysis feeds)."
   },
   "sourcesOk": [
     {
@@ -93,6 +93,10 @@
     {
       "id": "semianalysis",
       "count": 10
+    },
+    {
+      "id": "works-in-progress",
+      "count": 18
     }
   ],
   "sourcesFailed": [],
@@ -565,44 +569,6 @@
             "url": "https://www.nytimes.com/2026/10/04/climate/boulder-lawsuit-supreme-court.html",
             "primary": false,
             "published": "2026-10-05T15:29:52.000Z"
-          }
-        ],
-        "confirmedBy": []
-      }
-    },
-    {
-      "id": "live-2npb5",
-      "title": "A startup wants to build a massive nuclear-powered data center on public land in Utah",
-      "url": "https://www.npr.org/2026/09/30/nx-s1-5983482/valar-atomic-nuclear-data-center-project-beehive-utah",
-      "source": "NPR Science",
-      "sourceId": "npr-science",
-      "kind": "hard-news",
-      "published": "2026-09-30T09:01:00.000Z",
-      "publishedLabel": "Sep 30, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "science",
-        "frontier"
-      ],
-      "score": 93,
-      "blurb": "Valar Atomics wants to place over 450 reactors on more than 9,500 acres in Utah to power a huge data center project.",
-      "real": true,
-      "primary": false,
-      "outlet": "npr-science",
-      "verification": {
-        "status": "unconfirmed",
-        "label": "Unconfirmed",
-        "clusterId": "vc-2npb5",
-        "clusterSize": 1,
-        "outlets": 1,
-        "sources": [
-          {
-            "name": "NPR Science",
-            "outlet": "npr-science",
-            "url": "https://www.npr.org/2026/09/30/nx-s1-5983482/valar-atomic-nuclear-data-center-project-beehive-utah",
-            "primary": false,
-            "published": "2026-09-30T09:01:00.000Z"
           }
         ],
         "confirmedBy": []
@@ -1190,45 +1156,6 @@
       }
     },
     {
-      "id": "live-183rsgq",
-      "title": "Why is NASA bringing 7,500 contractors back to work as civil servants?",
-      "url": "https://arstechnica.com/space/2026/10/why-is-nasa-bringing-7500-contractors-back-to-work-as-civil-servants/",
-      "source": "Ars Technica",
-      "sourceId": "ars-technica",
-      "kind": "hard-news",
-      "published": "2026-10-06T16:00:02.000Z",
-      "publishedLabel": "Oct 6, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "compute",
-        "science",
-        "tech"
-      ],
-      "score": 86,
-      "blurb": "\"The administrator's directive is a coherent and necessary vision for the future.\"",
-      "real": true,
-      "primary": false,
-      "outlet": "ars-technica",
-      "verification": {
-        "status": "unconfirmed",
-        "label": "Unconfirmed",
-        "clusterId": "vc-183rsgq",
-        "clusterSize": 1,
-        "outlets": 1,
-        "sources": [
-          {
-            "name": "Ars Technica",
-            "outlet": "ars-technica",
-            "url": "https://arstechnica.com/space/2026/10/why-is-nasa-bringing-7500-contractors-back-to-work-as-civil-servants/",
-            "primary": false,
-            "published": "2026-10-06T16:00:02.000Z"
-          }
-        ],
-        "confirmedBy": []
-      }
-    },
-    {
       "id": "live-29vww1",
       "title": "Cable lobby to sue Trump FCC over repeal of national TV ownership cap",
       "url": "https://arstechnica.com/tech-policy/2026/10/cable-lobby-to-sue-trump-fcc-over-repeal-of-national-tv-ownership-cap/",
@@ -1305,6 +1232,43 @@
         "confirmedBy": [
           "U.S. Department of Energy"
         ]
+      }
+    },
+    {
+      "id": "live-183rsgq",
+      "title": "Why is NASA bringing 7,500 contractors back to work as civil servants?",
+      "url": "https://arstechnica.com/space/2026/10/why-is-nasa-bringing-7500-contractors-back-to-work-as-civil-servants/",
+      "source": "Ars Technica",
+      "sourceId": "ars-technica",
+      "kind": "analysis",
+      "published": "2026-10-06T16:00:02.000Z",
+      "publishedLabel": "Oct 6, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "compute",
+        "science",
+        "tech",
+        "analysis"
+      ],
+      "score": 85,
+      "blurb": "\"The administrator's directive is a coherent and necessary vision for the future.\"",
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/space/2026/10/why-is-nasa-bringing-7500-contractors-back-to-work-as-civil-servants/",
+            "primary": false,
+            "published": "2026-10-06T16:00:02.000Z"
+          }
+        ],
+        "outlets": 1
       }
     },
     {
@@ -1564,44 +1528,6 @@
       }
     },
     {
-      "id": "live-7gg78h",
-      "title": "How Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
-      "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
-      "source": "NYT Technology",
-      "sourceId": "nyt-tech",
-      "kind": "hard-news",
-      "published": "2026-09-30T09:00:48.000Z",
-      "publishedLabel": "Sep 30, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "compute",
-        "tech"
-      ],
-      "score": 82,
-      "blurb": "Meta is exploiting a lucrative tax break intended to support research and experimentation. Its own accountants say the gambit is risky.",
-      "real": true,
-      "primary": false,
-      "outlet": "nyt",
-      "verification": {
-        "status": "unconfirmed",
-        "label": "Unconfirmed",
-        "clusterId": "vc-7gg78h",
-        "clusterSize": 1,
-        "outlets": 1,
-        "sources": [
-          {
-            "name": "NYT Technology",
-            "outlet": "nyt",
-            "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
-            "primary": false,
-            "published": "2026-09-30T09:00:48.000Z"
-          }
-        ],
-        "confirmedBy": []
-      }
-    },
-    {
       "id": "live-1bhv11g",
       "title": "Tennessee Valley Authority Gets Approval to Build Small Nuclear Reactor",
       "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
@@ -1758,6 +1684,43 @@
       }
     },
     {
+      "id": "live-1f8wkor",
+      "title": "The seven vices of highly effective Victorians",
+      "url": "https://worksinprogress.co/issue/the-seven-vices-of-highly-effective-victorians/",
+      "source": "Works in Progress",
+      "sourceId": "works-in-progress",
+      "kind": "analysis",
+      "published": "2026-10-06T10:21:59.000Z",
+      "publishedLabel": "Oct 6, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "progress",
+        "essay",
+        "analysis",
+        "institutions"
+      ],
+      "score": 81,
+      "blurb": "The biggest empire the world has ever seen was run by a small elite who partied all night, drank liters of port, and stayed in bed until the afternoon.",
+      "real": true,
+      "primary": false,
+      "outlet": "works-in-progress",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Works in Progress",
+            "outlet": "works-in-progress",
+            "url": "https://worksinprogress.co/issue/the-seven-vices-of-highly-effective-victorians/",
+            "primary": false,
+            "published": "2026-10-06T10:21:59.000Z"
+          }
+        ],
+        "outlets": 1
+      }
+    },
+    {
       "id": "live-1p3xaw8",
       "title": "Energy Department Announces Up to $400 Million for Basic Research to Advance the Frontiers of Science",
       "url": "https://www.energy.gov/articles/energy-department-announces-400-million-basic-research-advance-frontiers-science",
@@ -1833,6 +1796,42 @@
           }
         ],
         "confirmedBy": []
+      }
+    },
+    {
+      "id": "live-7gg78h",
+      "title": "How Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
+      "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
+      "source": "NYT Technology",
+      "sourceId": "nyt-tech",
+      "kind": "analysis",
+      "published": "2026-09-30T09:00:48.000Z",
+      "publishedLabel": "Sep 30, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "compute",
+        "tech",
+        "analysis"
+      ],
+      "score": 81,
+      "blurb": "Meta is exploiting a lucrative tax break intended to support research and experimentation. Its own accountants say the gambit is risky.",
+      "real": true,
+      "primary": false,
+      "outlet": "nyt",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "NYT Technology",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
+            "primary": false,
+            "published": "2026-09-30T09:00:48.000Z"
+          }
+        ],
+        "outlets": 1
       }
     },
     {
@@ -2606,6 +2605,45 @@
       }
     },
     {
+      "id": "live-1bm0xxq",
+      "title": "Drones sink ships near NATO countries in “unacceptable” attacks, EU says",
+      "url": "https://arstechnica.com/gadgets/2026/10/drone-strikes-likely-russian-sink-ships-in-nato-countries-economic-zones/",
+      "source": "Ars Technica",
+      "sourceId": "ars-technica",
+      "kind": "hard-news",
+      "published": "2026-10-06T21:31:10.000Z",
+      "publishedLabel": "Oct 6, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "compute",
+        "science",
+        "tech"
+      ],
+      "score": 78,
+      "blurb": "Two cargo ships have sunk, one ship was afire, and sailors are dead or missing.",
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1bm0xxq",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/gadgets/2026/10/drone-strikes-likely-russian-sink-ships-in-nato-countries-economic-zones/",
+            "primary": false,
+            "published": "2026-10-06T21:31:10.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
+    },
+    {
       "id": "live-1szo11t",
       "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
       "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
@@ -2864,15 +2902,15 @@
         "status": "multiple",
         "label": "Multiple sources",
         "clusterId": "vc-12liltq",
-        "clusterSize": 2,
+        "clusterSize": 3,
         "outlets": 2,
         "sources": [
           {
             "name": "NPR Science",
             "outlet": "npr-science",
-            "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+            "url": "https://www.npr.org/2026/10/06/nx-s1-5992663/the-2026-nobel-prize-in-physics-has-gone-to-a-neutrino-detector-in-antarctica",
             "primary": false,
-            "published": "2026-10-06T10:16:28.000Z"
+            "published": "2026-10-06T21:48:52.000Z"
           },
           {
             "name": "Ars Technica",
@@ -3075,45 +3113,6 @@
             "url": "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
             "primary": false,
             "published": "2026-10-05T20:31:12.000Z"
-          }
-        ],
-        "confirmedBy": []
-      }
-    },
-    {
-      "id": "live-26plxs",
-      "title": "Command-line tool quickly removes Apple Intelligence from macOS 27",
-      "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
-      "source": "Ars Technica",
-      "sourceId": "ars-technica",
-      "kind": "hard-news",
-      "published": "2026-10-05T19:14:44.000Z",
-      "publishedLabel": "Oct 5, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "compute",
-        "science",
-        "tech"
-      ],
-      "score": 78,
-      "blurb": "The tool can free up over 12GB of storage.",
-      "real": true,
-      "primary": false,
-      "outlet": "ars-technica",
-      "verification": {
-        "status": "unconfirmed",
-        "label": "Unconfirmed",
-        "clusterId": "vc-26plxs",
-        "clusterSize": 1,
-        "outlets": 1,
-        "sources": [
-          {
-            "name": "Ars Technica",
-            "outlet": "ars-technica",
-            "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
-            "primary": false,
-            "published": "2026-10-05T19:14:44.000Z"
           }
         ],
         "confirmedBy": []
@@ -3348,42 +3347,6 @@
       }
     },
     {
-      "id": "live-110r3mc",
-      "title": "Can Mexico thread the needle between Washington and Beijing?",
-      "url": "https://www.atlanticcouncil.org/blogs/econographics/can-mexico-thread-the-needle-between-washington-and-beijing/",
-      "source": "Atlantic Council",
-      "sourceId": "atlantic-council",
-      "kind": "analysis",
-      "published": "2026-10-01T18:23:35.000Z",
-      "publishedLabel": "Oct 1, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "geopolitics",
-        "state-capacity",
-        "energy"
-      ],
-      "score": 77,
-      "blurb": "As US-Mexico trade talks approach, the Mexican government faces a delicate balancing act: curbing Chinese trade and investment without cutting off vital inputs and foreign capital. The post Can Mexico thread the needle between Washington and Beijing? appeared first on Atlantic Co",
-      "real": true,
-      "primary": false,
-      "outlet": "atlantic-council",
-      "verification": {
-        "status": "analysis",
-        "label": "Analysis",
-        "sources": [
-          {
-            "name": "Atlantic Council",
-            "outlet": "atlantic-council",
-            "url": "https://www.atlanticcouncil.org/blogs/econographics/can-mexico-thread-the-needle-between-washington-and-beijing/",
-            "primary": false,
-            "published": "2026-10-01T18:23:35.000Z"
-          }
-        ],
-        "outlets": 1
-      }
-    },
-    {
       "id": "live-8o1v3r",
       "title": "Reading List - 09/05/2026",
       "url": "https://www.construction-physics.com/p/reading-list-09052026",
@@ -3458,44 +3421,6 @@
       }
     },
     {
-      "id": "live-1bq891y",
-      "title": "This week in science: Loud birds, eating with company, and asteroid samples",
-      "url": "https://www.npr.org/2026/10/01/nx-s1-5978049/this-week-in-science-loud-birds-eating-with-company-and-asteroid-samples",
-      "source": "NPR Science",
-      "sourceId": "npr-science",
-      "kind": "hard-news",
-      "published": "2026-10-01T21:12:36.000Z",
-      "publishedLabel": "Oct 1, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "science",
-        "frontier"
-      ],
-      "score": 76,
-      "blurb": "NPR&apos;s Short Wave podcast talks about really loud birds, the benefits of eating with company and what asteroid samples could tell us about the early Earth.",
-      "real": true,
-      "primary": false,
-      "outlet": "npr-science",
-      "verification": {
-        "status": "unconfirmed",
-        "label": "Unconfirmed",
-        "clusterId": "vc-1bq891y",
-        "clusterSize": 1,
-        "outlets": 1,
-        "sources": [
-          {
-            "name": "NPR Science",
-            "outlet": "npr-science",
-            "url": "https://www.npr.org/2026/10/01/nx-s1-5978049/this-week-in-science-loud-birds-eating-with-company-and-asteroid-samples",
-            "primary": false,
-            "published": "2026-10-01T21:12:36.000Z"
-          }
-        ],
-        "confirmedBy": []
-      }
-    },
-    {
       "id": "live-17wuymj",
       "title": "Powered by muscle cells, a paper-thin robot swims through watery maze",
       "url": "https://news.mit.edu/2026/powered-by-muscle-cells-paper-thin-robot-swims-through-watery-maze-0929",
@@ -3526,6 +3451,42 @@
             "url": "https://news.mit.edu/2026/powered-by-muscle-cells-paper-thin-robot-swims-through-watery-maze-0929",
             "primary": false,
             "published": "2026-09-29T04:00:00.000Z"
+          }
+        ],
+        "outlets": 1
+      }
+    },
+    {
+      "id": "live-1bq891y",
+      "title": "This week in science: Loud birds, eating with company, and asteroid samples",
+      "url": "https://www.npr.org/2026/10/01/nx-s1-5978049/this-week-in-science-loud-birds-eating-with-company-and-asteroid-samples",
+      "source": "NPR Science",
+      "sourceId": "npr-science",
+      "kind": "analysis",
+      "published": "2026-10-01T21:12:36.000Z",
+      "publishedLabel": "Oct 1, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "science",
+        "frontier",
+        "analysis"
+      ],
+      "score": 75,
+      "blurb": "NPR&apos;s Short Wave podcast talks about really loud birds, the benefits of eating with company and what asteroid samples could tell us about the early Earth.",
+      "real": true,
+      "primary": false,
+      "outlet": "npr-science",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "NPR Science",
+            "outlet": "npr-science",
+            "url": "https://www.npr.org/2026/10/01/nx-s1-5978049/this-week-in-science-loud-birds-eating-with-company-and-asteroid-samples",
+            "primary": false,
+            "published": "2026-10-01T21:12:36.000Z"
           }
         ],
         "outlets": 1
@@ -3598,6 +3559,43 @@
             "url": "https://ifp.org/why-biotech-companies-go-to-australia-to-test-new-drugs/",
             "primary": false,
             "published": "2026-09-04T19:43:53.000Z"
+          }
+        ],
+        "outlets": 1
+      }
+    },
+    {
+      "id": "live-tu36b3",
+      "title": "Will farm animals always suffer?",
+      "url": "https://worksinprogress.co/issue/will-farm-animals-always-suffer/",
+      "source": "Works in Progress",
+      "sourceId": "works-in-progress",
+      "kind": "analysis",
+      "published": "2026-08-12T19:24:33.000Z",
+      "publishedLabel": "Aug 12, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "progress",
+        "essay",
+        "analysis",
+        "institutions"
+      ],
+      "score": 75,
+      "blurb": "Economic growth gives us cleaner air, healthier rivers, and safer workplaces. Happier animals could be next.",
+      "real": true,
+      "primary": false,
+      "outlet": "works-in-progress",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Works in Progress",
+            "outlet": "works-in-progress",
+            "url": "https://worksinprogress.co/issue/will-farm-animals-always-suffer/",
+            "primary": false,
+            "published": "2026-08-12T19:24:33.000Z"
           }
         ],
         "outlets": 1
@@ -3713,82 +3711,6 @@
         "confirmedBy": [
           "U.S. Department of Energy"
         ]
-      }
-    },
-    {
-      "id": "live-ttq27f",
-      "title": "How El Niño Is Shaping Storms on Two Sides of the U.S.",
-      "url": "https://www.nytimes.com/2026/09/26/climate/el-nino-hurricane-noreaster.html",
-      "source": "NYT Climate / Energy",
-      "sourceId": "nyt-energy",
-      "kind": "hard-news",
-      "published": "2026-09-28T17:53:12.000Z",
-      "publishedLabel": "Sep 28, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "energy",
-        "climate"
-      ],
-      "score": 74,
-      "blurb": "Hurricanes near Hawaii. A nor’easter on the East Coast. The ocean phenomenon’s influence on storms around the country may just be getting started.",
-      "real": true,
-      "primary": false,
-      "outlet": "nyt",
-      "verification": {
-        "status": "unconfirmed",
-        "label": "Unconfirmed",
-        "clusterId": "vc-ttq27f",
-        "clusterSize": 1,
-        "outlets": 1,
-        "sources": [
-          {
-            "name": "NYT Climate / Energy",
-            "outlet": "nyt",
-            "url": "https://www.nytimes.com/2026/09/26/climate/el-nino-hurricane-noreaster.html",
-            "primary": false,
-            "published": "2026-09-28T17:53:12.000Z"
-          }
-        ],
-        "confirmedBy": []
-      }
-    },
-    {
-      "id": "live-1v67l8u",
-      "title": "Why a U.S. Diesel Export Ban May Backfire",
-      "url": "https://www.nytimes.com/2026/09/25/business/energy-environment/trump-diesel-export-ban.html",
-      "source": "NYT Climate / Energy",
-      "sourceId": "nyt-energy",
-      "kind": "hard-news",
-      "published": "2026-09-28T15:19:47.000Z",
-      "publishedLabel": "Sep 28, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "energy",
-        "climate"
-      ],
-      "score": 74,
-      "blurb": "President Trump has said he is considering restricting overseas sales of the fuel to bring down domestic prices, but experts say the policy will have many unintended effects.",
-      "real": true,
-      "primary": false,
-      "outlet": "nyt",
-      "verification": {
-        "status": "unconfirmed",
-        "label": "Unconfirmed",
-        "clusterId": "vc-1v67l8u",
-        "clusterSize": 1,
-        "outlets": 1,
-        "sources": [
-          {
-            "name": "NYT Climate / Energy",
-            "outlet": "nyt",
-            "url": "https://www.nytimes.com/2026/09/25/business/energy-environment/trump-diesel-export-ban.html",
-            "primary": false,
-            "published": "2026-09-28T15:19:47.000Z"
-          }
-        ],
-        "confirmedBy": []
       }
     },
     {
@@ -4206,15 +4128,15 @@
         "status": "multiple",
         "label": "Multiple sources",
         "clusterId": "vc-12liltq",
-        "clusterSize": 2,
+        "clusterSize": 3,
         "outlets": 2,
         "sources": [
           {
             "name": "NPR Science",
             "outlet": "npr-science",
-            "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+            "url": "https://www.npr.org/2026/10/06/nx-s1-5992663/the-2026-nobel-prize-in-physics-has-gone-to-a-neutrino-detector-in-antarctica",
             "primary": false,
-            "published": "2026-10-06T10:16:28.000Z"
+            "published": "2026-10-06T21:48:52.000Z"
           },
           {
             "name": "Ars Technica",
@@ -4301,6 +4223,88 @@
           }
         ],
         "confirmedBy": []
+      }
+    },
+    {
+      "id": "live-1ci9sav",
+      "title": "APOD: 2026 October 6 – A Complete Auroral Oval from SMILE",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-6-a-complete-auroral-oval-from-smile/",
+      "source": "NASA News",
+      "sourceId": "nasa-news",
+      "kind": "hard-news",
+      "published": "2026-10-06T04:05:00.000Z",
+      "publishedLabel": "Oct 5, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "frontier",
+        "space",
+        "compute"
+      ],
+      "score": 73,
+      "blurb": "APODScienceAPODAPOD: 2026 October 6 – A…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanatio",
+      "real": true,
+      "primary": true,
+      "outlet": "nasa-news",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-1ci9sav",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NASA News",
+            "outlet": "nasa-news",
+            "url": "https://science.nasa.gov/image-article/apod-2026-october-6-a-complete-auroral-oval-from-smile/",
+            "primary": true,
+            "published": "2026-10-06T04:05:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "NASA News"
+        ]
+      }
+    },
+    {
+      "id": "live-plye0b",
+      "title": "The Beaver Brown Waters of Rupert Bay",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-beaver-brown-waters-of-rupert-bay/",
+      "source": "NASA News",
+      "sourceId": "nasa-news",
+      "kind": "hard-news",
+      "published": "2026-10-06T04:01:00.000Z",
+      "publishedLabel": "Oct 5, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "frontier",
+        "space",
+        "compute"
+      ],
+      "score": 73,
+      "blurb": "Dissolved organic matter and suspended sediment mingle in the southernmost extent of James Bay.",
+      "real": true,
+      "primary": true,
+      "outlet": "nasa-news",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-plye0b",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NASA News",
+            "outlet": "nasa-news",
+            "url": "https://science.nasa.gov/earth/earth-observatory/the-beaver-brown-waters-of-rupert-bay/",
+            "primary": true,
+            "published": "2026-10-06T04:01:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "NASA News"
+        ]
       }
     }
   ]

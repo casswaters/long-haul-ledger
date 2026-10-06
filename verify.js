@@ -7,8 +7,14 @@
  *                announcement, or its story cluster contains such an item.
  *  multiple    — 2+ independent outlets in the feed carry the same story
  *                (clustered within ~48h), but the subject hasn't confirmed.
- *  unconfirmed — a single outlet reports it; subject hasn't confirmed.
- *  analysis    — opinion / essay / think-tank / long-form: no tier.
+ *  unconfirmed — a factual claim that could be confirmed by the subject /
+ *                agency / company, from a non-primary outlet, not yet
+ *                multi-sourced or confirmed.
+ *  analysis    — opinion, commentary, trend pieces, explainers without a
+ *                discrete confirmable claim (Works in Progress–style,
+ *                Noahpinion, Asterisk, Volts commentary, Atlantic Council
+ *                briefs, Construction Physics essays, NPR Science explainers
+ *                when not breaking a discrete event, MIT News analysis, etc.).
  *  sample      — SAMPLE fiction (country desks) — never tiered.
  */
 
@@ -17,8 +23,8 @@ export const VERIFY_WINDOW_HOURS = 48;
 export const STATUS_META = {
   confirmed: { label: 'Confirmed', hint: 'The subject (agency, company or official) confirmed it — primary source.' },
   multiple: { label: 'Multiple sources', hint: 'Two or more independent outlets carry it; the subject has not confirmed yet.' },
-  unconfirmed: { label: 'Unconfirmed', hint: 'One outlet is reporting it; the subject has not confirmed.' },
-  analysis: { label: 'Analysis', hint: 'Opinion, essay or analysis — not a factual claim to verify.' },
+  unconfirmed: { label: 'Unconfirmed', hint: 'Factual claim from one non-primary outlet; the subject (agency/company) has not confirmed.' },
+  analysis: { label: 'Analysis', hint: 'Opinion, commentary, trend piece or explainer — no discrete claim for a subject to confirm.' },
   sample: { label: 'SAMPLE', hint: 'SAMPLE fiction for UX prototyping — not a real report.' },
 };
 
@@ -142,14 +148,34 @@ export function isPrimary(item) {
   return false;
 }
 
+/** Title / URL patterns that mark opinion, commentary, explainers, trend roundups. */
+export const ANALYSIS_TITLE_RE = new RegExp(
+  [
+    '^(?:opinion|analysis|commentary|essay|op-ed|oped|perspective|editorial|column)\\s*[:|–—-]',
+    '^(?:why|how)\\b',
+    '\\bthe case (?:for|against)\\b',
+    '\\b(?:this|the)\\s+week\\s+in\\b',
+    '\\b(?:week|month)\\s+in\\s+review\\b',
+    '\\b(?:round.?up|reading list|what to watch|what we.?re watching)\\b',
+    '\\b(?:explainer|in depth|deep dive|long read)\\b',
+  ].join('|'),
+  'i'
+);
+
+export function looksLikeAnalysisTitle(title) {
+  const t = String(title || '').trim();
+  if (!t) return false;
+  return ANALYSIS_TITLE_RE.test(t);
+}
+
 export function isAnalysis(item) {
   if (item.kind === 'analysis') return true;
   const tags = (item.tags || []).map((t) => String(t).toLowerCase());
-  if (tags.includes('opinion') || tags.includes('analysis')) return true;
-  if (/^(opinion|analysis|commentary|essay|op-ed|perspective)\s*[:|–—-]/i.test(String(item.title || ''))) return true;
+  if (tags.includes('opinion') || tags.includes('analysis') || tags.includes('commentary') || tags.includes('essay')) return true;
+  if (looksLikeAnalysisTitle(item.title)) return true;
   try {
     const path = new URL(item.url).pathname.toLowerCase();
-    if (/\/(opinion|op-ed|opinions|commentary)\//.test(path)) return true;
+    if (/\/(opinion|op-ed|opinions|commentary|essay|explainer|analysis)\//.test(path)) return true;
   } catch { /* ignore */ }
   return false;
 }
