@@ -1,0 +1,11 @@
+{
+  "name": "longview-ledger",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Longview Ledger v0 — civilization atlas / opportunity desk sketch",
+  "scripts": {
+    "test": "node ledger.test.js",
+    "shots": "node shots.mjs"
+  }
+}
