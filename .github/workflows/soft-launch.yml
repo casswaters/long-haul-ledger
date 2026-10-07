@@ -6,6 +6,10 @@ on:
     # Every 6 hours (UTC)
     - cron: '17 */6 * * *'
   workflow_dispatch:
+  # A routine/hand edit to the curated overrides publishes within minutes.
+  push:
+    branches: [main]
+    paths: ['data/signals-curated.json']
 
 permissions:
   contents: write

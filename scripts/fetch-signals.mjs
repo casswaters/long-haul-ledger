@@ -7,6 +7,8 @@ import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { dirname, join, resolve as resolvePath } from 'path';
 import { fileURLToPath } from 'url';
 import { classifyItems, tierCounts, VERIFY_WINDOW_HOURS, looksLikeAnalysisTitle } from '../verify.js';
+import { applyCurated, validateCurated } from '../curated.js';
+import { existsSync } from 'fs';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dir, '..');
@@ -329,11 +331,45 @@ export async function fetchAll(sources, { fetchImpl = fetchText } = {}) {
   return { ok, failed, items: merged, pool: classified };
 }
 
+const CURATED_PATH = join(dirname(fileURLToPath(import.meta.url)), '..', 'data', 'signals-curated.json');
+
+/** Load + validate curated overrides; invalid file is skipped (logged), never fatal. */
+export function loadCurated(path = CURATED_PATH) {
+  if (!existsSync(path)) return null;
+  try {
+    const doc = JSON.parse(readFileSync(path, 'utf8'));
+    const errs = validateCurated(doc);
+    if (errs.length) { console.warn(`WARN curated file invalid, skipped:\n  ${errs.join('\n  ')}`); return null; }
+    return doc;
+  } catch (e) {
+    console.warn(`WARN curated file unreadable, skipped: ${e.message}`);
+    return null;
+  }
+}
+
+function withCurated(items) {
+  const doc = loadCurated();
+  const { items: out, applied } = applyCurated(items, doc);
+  console.log(`Curated: +${applied.added.length} added, ${applied.overridden.length} overridden, ${applied.expired.length} expired, ${applied.unmatched.length} unmatched`);
+  return { items: out, applied };
+}
+
 async function main() {
   const pack = JSON.parse(readFileSync(SOURCES_PATH, 'utf8'));
   const sources = pack.sources || [];
+  if (process.argv.includes('--curated-only')) {
+    // Re-apply curated entries to the current live file without refetching feeds.
+    const live = JSON.parse(readFileSync(OUT_PATH, 'utf8'));
+    const { items, applied } = withCurated((live.items || []).filter((it) => !it.curated));
+    const payload = { ...live, itemCount: items.length, verification: { ...live.verification, counts: tierCounts(items) }, curated: applied, items };
+    writeFileSync(OUT_PATH, JSON.stringify(payload, null, 2) + '\n');
+    console.log(`Re-applied curated → ${items.length} items`);
+    return;
+  }
   console.log(`Fetching ${sources.length} feeds…`);
-  const { ok, failed, items } = await fetchAll(sources);
+  const fetched = await fetchAll(sources);
+  const { ok, failed } = fetched;
+  const { items, applied: curatedApplied } = withCurated(fetched.items);
   for (const f of failed) console.log(`  FAIL ${f.id}: ${f.reason}`);
   for (const o of ok) console.log(`  OK   ${o.id}: ${o.count} items`);
 
@@ -348,6 +384,7 @@ async function main() {
     },
     sourcesOk: ok,
     sourcesFailed: failed,
+    curated: curatedApplied,
     items,
   };
   mkdirSync(dirname(OUT_PATH), { recursive: true });

@@ -2,6 +2,7 @@ import { readFileSync, existsSync } from 'fs';
 import { FRED_SERIES, parseCsv, buildRecord, mergeSeries, validateStat, yoyPct, sparkSvg, isStale } from './stats.js';
 import { runFred } from './scripts/fetch-stats.mjs';
 import { stripHtml } from './scripts/fetch-signals.mjs';
+import { validateCurated, applyCurated, isExpired } from './curated.js';
 let pass = 0, fail = 0;
 const assert = (n, c) => { if (c) { pass++; console.log('  PASS ', n); } else { fail++; console.log('  FAIL ', n); } };
 console.log('\n--- Official stats pipeline ---');
@@ -49,6 +50,31 @@ assert('feed: encoded markup is stripped, not rendered', !/<script/i.test(stripH
   const live = readFileSync('./data/signals-live.json', 'utf8');
   assert('signals-live.json: no leftover HTML entities in text', !/&(#x?[0-9a-f]+|amp|quot|apos|lt|gt);/i.test(live.replace(/"(url|link|sourceUrl)":\s*"[^"]*"/g, '')));
   assert('app escapes feed titles once at render', /\$\{escapeHtml\(i\.title\)\}/.test(readFileSync('./app.js', 'utf8')));
+}
+{
+  const cur = JSON.parse(readFileSync('./data/signals-curated.json', 'utf8'));
+  assert('curated: seed file validates', validateCurated(cur).length === 0);
+  const seed = cur.add.find((a) => a.id === 'cur-anduril-arsenal-2');
+  assert('curated: Anduril Arsenal-2 confirmed with Anduril + MD governor primary + Reuters', seed?.status === 'confirmed' && seed.sources.some((s) => s.primary && /anduril\.com/.test(s.url)) && seed.sources.some((s) => s.primary && /governor\.maryland\.gov/.test(s.url)) && seed.sources.some((s) => /Reuters/.test(s.name)));
+  const now = new Date('2026-10-08T00:00:00Z');
+  const live = [
+    { id: 'live-a', title: 'Dive copy', url: seed.aliases[0], score: 90, published: '2026-10-07T00:00:00Z', verification: { status: 'unconfirmed', sources: [] } },
+    { id: 'live-b', title: 'Other', url: 'https://example.com/b', score: 50, published: '2026-10-07T00:00:00Z', verification: { status: 'unconfirmed', sources: [{ name: 'X', url: 'https://example.com/b' }] } },
+  ];
+  const doc = { ...cur, overrides: [{ match: { url: 'https://example.com/b/' }, status: 'analysis', addedAt: '2026-10-07T00:00:00Z' }] };
+  const { items, applied } = applyCurated(live, doc, now);
+  assert('curated: add is pinned and replaces live alias copy', items.some((i) => i.id === seed.id && i.verification.status === 'confirmed' && i.verification.curated) && !items.some((i) => i.id === 'live-a'));
+  assert('curated: override changes tier by url (trailing slash tolerant)', items.find((i) => i.id === 'live-b').verification.status === 'analysis' && applied.overridden.includes('live-b'));
+  assert('curated: auto-expires after maxAgeDays', isExpired(seed, new Date('2026-11-06T00:00:00Z'), 30) && !isExpired(seed, now, 30));
+  assert('curated: explicit expires honoured', isExpired({ ...seed, expires: '2026-10-07T00:00:00Z' }, now, 30));
+  const expiredRun = applyCurated(live, cur, new Date('2026-12-01T00:00:00Z'));
+  assert('curated: expired add drops out, live items untouched', !expiredRun.items.some((i) => i.id === seed.id) && expiredRun.applied.expired.includes(seed.id) && expiredRun.items.some((i) => i.id === 'live-a'));
+  assert('curated: rejects confirmed without a primary source', validateCurated({ version: 1, add: [{ ...seed, sources: seed.sources.filter((s) => !s.primary) }], overrides: [] }).some((e) => /primary/.test(e)));
+  assert('curated: rejects non-https / missing fields', validateCurated({ version: 1, add: [{ id: 'cur-x', title: 'x', url: 'http://x', source: '', published: 'nope', addedAt: '2026-10-07', status: 'confirmed', sources: [] }], overrides: [] }).length >= 4);
+  assert('curated: invalid file leaves items unchanged', applyCurated(live, { version: 2 }, now).items === live);
+  const sig = JSON.parse(readFileSync('./data/signals-live.json', 'utf8'));
+  assert('signals-live.json carries the curated Anduril item as Confirmed', sig.items.some((i) => i.id === seed.id && i.verification.status === 'confirmed'));
+  assert('workflow: curated edits trigger a rebuild', /paths: \['data\/signals-curated\.json'\]/.test(readFileSync('./.github/workflows/soft-launch.yml', 'utf8')));
 }
 console.log(`\n${pass} passed, ${fail} failed`);
 if (fail) process.exit(1);
