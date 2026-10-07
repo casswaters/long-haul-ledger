@@ -67,4 +67,4 @@ Leadership response times stay **ESTIMATE**, unverified fields stay **SAMPLE**. 
 
 - Every fictional number sits next to a visible PROTOTYPE label; atlas and rail behave as before.
 - US desks entry point live; Prices sample shows real values with as-of dates and source links.
-- SW cache `long-haul-ledger-v8` (v8: BUILD-PLAN.md kept off Pages; SW skips .md); `npm test` passes.
+- SW cache `long-haul-ledger-v9` (v9: Method ↑ Top control; BUILD-PLAN.md kept off Pages; SW skips .md); `npm test` passes.

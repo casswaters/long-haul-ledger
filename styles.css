@@ -1530,6 +1530,32 @@ button.vbadge:focus-visible { outline: 1px solid var(--ink); outline-offset: 1px
 .desk-foot { margin: 1rem 0 0; font-size: 0.7rem; color: var(--ink-mute); border-top: 1px solid var(--line-soft); padding-top: 0.6rem; }
 
 /* —— Footer: method + disclaimers —— */
+.about-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  margin: -0.25rem 0 0.65rem;
+  padding: 0.35rem 0 0.45rem;
+  background: linear-gradient(#0f1317 70%, rgba(15, 19, 23, 0));
+}
+.about-top {
+  appearance: none;
+  font-family: inherit;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.32rem 0.65rem;
+  cursor: pointer;
+}
+.about-top:hover { color: var(--ink); border-color: var(--ink-mute); }
 .about-grid { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 1.5rem; }
 .about-strip .disclaimer { color: var(--ink-dim); }
 .about-strip .disclaimer strong { color: var(--ink); font-weight: 600; }
