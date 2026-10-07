@@ -1,12 +1,12 @@
 {
   "meta": {
-    "note": "Public channels only. Roles marked SAMPLE or ESTIMATE are not verified live lookups. Prefer official sites / switchboards / public forms \u2014 never private phones. Speaker and Senate Majority Leader list officeholder name + official office pages; those seats do not publish a single personal email.",
-    "asOf": "2026-10"
+    "note": "Public channels only. Verified roles list an official source and as-of date; seats we could not verify are marked source pending. Response times are left empty unless a published source exists.",
+    "asOf": "2026-10-07"
   },
   "areas": {
     "us": {
       "level": "country",
-      "label": "United States \u00b7 federal",
+      "label": "United States · federal",
       "roles": [
         {
           "title": "President of the United States",
@@ -21,7 +21,7 @@
             "badge": "ESTIMATE"
           },
           "term": {
-            "text": "Jan 20, 2025 \u2013 Jan 20, 2029 (elected)",
+            "text": "Jan 20, 2025 – Jan 20, 2029 (elected)",
             "badge": null
           }
         },
@@ -37,7 +37,7 @@
             "badge": "ESTIMATE"
           },
           "term": {
-            "text": "Jan 20, 2025 \u2013 Jan 20, 2029",
+            "text": "Jan 20, 2025 – Jan 20, 2029",
             "badge": null
           }
         },
@@ -50,7 +50,7 @@
             "form": "https://www.state.gov/contact-us/"
           },
           "responseTime": {
-            "text": "days\u2013weeks (routine correspondence)",
+            "text": "days–weeks (routine correspondence)",
             "badge": "ESTIMATE"
           },
           "term": {
@@ -112,7 +112,7 @@
           "contact": {
             "site": "https://www.speaker.gov/",
             "form": "https://mikejohnson.house.gov/contact/",
-            "switchboard": "Speaker's office (public): 202-225-4000 \u00b7 H-232 The Capitol \u2014 no single personal email published; use speaker.gov or the district contact form"
+            "switchboard": "Speaker's office (public): 202-225-4000 · H-232 The Capitol — no single personal email published; use speaker.gov or the district contact form"
           },
           "responseTime": {
             "text": "varies by office / high volume",
@@ -131,7 +131,7 @@
           "contact": {
             "site": "https://www.republicanleader.senate.gov/",
             "form": "https://www.thune.senate.gov/contact/",
-            "switchboard": "Majority Leader office via republicanleader.senate.gov \u00b7 Senator Thune WDC: 202-224-2321 \u2014 no single personal email published; use the official contact form"
+            "switchboard": "Majority Leader office via republicanleader.senate.gov · Senator Thune WDC: 202-224-2321 — no single personal email published; use the official contact form"
           },
           "responseTime": {
             "text": "varies by office / high volume",
@@ -157,26 +157,32 @@
             "site": "https://www.gov.ca.gov/",
             "form": "https://www.gov.ca.gov/contact/"
           },
-          "responseTime": {
-            "text": "weeks (typical constituent)",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
           },
-          "term": {
-            "text": "elected; current term through Jan 2027",
-            "badge": null
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Eleni Kounalakis",
+          "contact": {
+            "site": "https://ltg.ca.gov/"
           },
-          "asOf": "2026-10"
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
           "title": "U.S. Senators (summary)",
-          "name": "Alex Padilla \u00b7 Adam Schiff",
+          "name": "Alex Padilla · Adam Schiff",
           "contact": {
             "site": "https://www.senate.gov/states/CA/intro.htm",
             "form": "https://www.senate.gov/senators/senators-contact.htm"
-          },
-          "responseTime": {
-            "text": "varies",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "staggered 6-year terms (as of 2026-10)",
@@ -192,10 +198,6 @@
             "site": "https://www.legislature.ca.gov/",
             "form": "https://findyourrep.legislature.ca.gov/"
           },
-          "responseTime": {
-            "text": "days\u2013weeks",
-            "badge": "ESTIMATE"
-          },
           "term": {
             "text": "Assembly 2-year; Senate 4-year",
             "badge": null
@@ -203,14 +205,10 @@
         },
         {
           "title": "Statewide constitutional offices (directory)",
-          "name": "Secretary of State, Attorney General, Treasurer and others \u2014 see ca.gov",
+          "name": "Secretary of State, Attorney General, Treasurer and others — see ca.gov",
           "contact": {
             "site": "https://www.ca.gov/",
             "form": "https://www.ca.gov/contact/"
-          },
-          "responseTime": {
-            "text": "varies by office",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "elected statewide offices",
@@ -232,15 +230,25 @@
             "site": "https://gov.texas.gov/",
             "form": "https://gov.texas.gov/contact"
           },
-          "responseTime": {
-            "text": "weeks (typical constituent)",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
           },
-          "term": {
-            "text": "elected 4-year terms; serving since 2015",
-            "badge": null
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Dan Patrick",
+          "contact": {
+            "site": "https://www.ltgov.texas.gov/"
           },
-          "asOf": "2026-10"
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
           "title": "State Legislature",
@@ -249,10 +257,6 @@
             "site": "https://capitol.texas.gov/",
             "form": "https://capitol.texas.gov/"
           },
-          "responseTime": {
-            "text": "varies",
-            "badge": "ESTIMATE"
-          },
           "term": {
             "text": "biennial sessions; House 2-year / Senate 4-year",
             "badge": null
@@ -260,14 +264,10 @@
         },
         {
           "title": "U.S. congressional delegation (summary)",
-          "name": "Two senators + House members for Texas \u2014 find your members on congress.gov",
+          "name": "Two senators + House members for Texas — find your members on congress.gov",
           "contact": {
             "site": "https://www.congress.gov/members?q=%7B%22member-state%22%3A%22Texas%22%7D",
             "form": "https://www.senate.gov/senators/senators-contact.htm"
-          },
-          "responseTime": {
-            "text": "varies by office",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "Senators: staggered 6-year; House: 2-year",
@@ -289,15 +289,25 @@
             "site": "https://www.governor.ny.gov/",
             "form": "https://www.governor.ny.gov/content/governor-contact-form"
           },
-          "responseTime": {
-            "text": "weeks (typical constituent)",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
           },
-          "term": {
-            "text": "elected; serving since 2021",
-            "badge": null
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Antonio Delgado",
+          "contact": {
+            "site": "https://www.governor.ny.gov/lt-governor-antonio-delgado"
           },
-          "asOf": "2026-10"
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
           "title": "State Legislature",
@@ -306,10 +316,6 @@
             "site": "https://www.ny.gov/",
             "form": "https://www.nyassembly.gov/mem/search/"
           },
-          "responseTime": {
-            "text": "varies",
-            "badge": "ESTIMATE"
-          },
           "term": {
             "text": "2-year terms (both chambers)",
             "badge": "SAMPLE"
@@ -317,14 +323,10 @@
         },
         {
           "title": "U.S. congressional delegation (summary)",
-          "name": "Two senators + House members for New York \u2014 find your members on congress.gov",
+          "name": "Two senators + House members for New York — find your members on congress.gov",
           "contact": {
             "site": "https://www.congress.gov/members?q=%7B%22member-state%22%3A%22New+York%22%7D",
             "form": "https://www.senate.gov/senators/senators-contact.htm"
-          },
-          "responseTime": {
-            "text": "varies by office",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "Senators: staggered 6-year; House: 2-year",
@@ -346,26 +348,32 @@
             "site": "https://www.flgov.com/",
             "form": "https://www.flgov.com/eog/leadership/people/ron-desantis/contact"
           },
-          "responseTime": {
-            "text": "weeks (typical constituent)",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
           },
-          "term": {
-            "text": "elected 4-year; term-limited",
-            "badge": null
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Jay Collins",
+          "contact": {
+            "site": "https://www.flgov.com/eog/leadership/people/jay-collins"
           },
-          "asOf": "2026-10"
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
           "title": "U.S. congressional delegation (summary)",
-          "name": "Two senators + House members for Florida \u2014 find your members on congress.gov",
+          "name": "Two senators + House members for Florida — find your members on congress.gov",
           "contact": {
             "site": "https://www.congress.gov/members?q=%7B%22member-state%22%3A%22Florida%22%7D",
             "form": "https://www.senate.gov/senators/senators-contact.htm"
-          },
-          "responseTime": {
-            "text": "varies by office",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "Senators: staggered 6-year; House: 2-year",
@@ -382,7 +390,7 @@
       "roles": [
         {
           "title": "Mayor",
-          "name": "(see nyc.gov \u2014 mayoral office)",
+          "name": "(see nyc.gov — mayoral office)",
           "contact": {
             "site": "https://www.nyc.gov/",
             "form": "https://www.nyc.gov/office-of-the-mayor/index.page"
@@ -466,71 +474,46 @@
     },
     "in": {
       "level": "country",
-      "label": "India \u00b7 Union",
+      "label": "India",
       "roles": [
         {
           "title": "President of India",
           "name": "Droupadi Murmu",
           "contact": {
-            "site": "https://presidentofindia.gov.in/",
-            "form": "https://presidentofindia.gov.in/contact-us.htm"
+            "site": "https://presidentofindia.gov.in/"
           },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://presidentofindia.gov.in/",
+            "name": "President of India"
           },
-          "term": {
-            "text": "5-year term; serving since Jul 2022",
-            "badge": null
-          }
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
           "title": "Prime Minister",
           "name": "Narendra Modi",
           "contact": {
-            "site": "https://www.pmindia.gov.in/",
-            "form": "https://www.pmindia.gov.in/en/contact-us/"
+            "site": "https://www.pmindia.gov.in/"
           },
-          "responseTime": {
-            "text": "high volume / unknown",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.pmindia.gov.in/",
+            "name": "PM India"
           },
-          "term": {
-            "text": "serving since May 2014 (Lok Sabha confidence)",
-            "badge": null
-          }
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
-          "title": "Minister of External Affairs",
-          "name": "S. Jaishankar",
+          "title": "Minister of Commerce and Industry",
+          "name": "Piyush Goyal",
           "contact": {
-            "site": "https://www.mea.gov.in/",
-            "form": "https://www.mea.gov.in/contact-us.htm"
+            "site": "https://commerce.gov.in/"
           },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2316127",
+            "name": "Press Information Bureau release"
           },
-          "term": {
-            "text": "cabinet minister; serving since May 2019",
-            "badge": null
-          }
-        },
-        {
-          "title": "Minister of Power / Energy (summary)",
-          "name": "(see cabinet \u2014 SAMPLE roster)",
-          "contact": {
-            "site": "https://powermin.gov.in/",
-            "form": "https://powermin.gov.in/"
-          },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
-          },
-          "term": {
-            "text": "cabinet appointment",
-            "badge": "SAMPLE"
-          }
+          "asOf": "2026-10-07",
+          "verified": true
         }
       ]
     },
@@ -540,7 +523,7 @@
       "roles": [
         {
           "title": "Chief Minister",
-          "name": "(see maharashtra.gov.in \u2014 SAMPLE)",
+          "name": "(see maharashtra.gov.in — SAMPLE)",
           "contact": {
             "site": "https://www.maharashtra.gov.in/",
             "form": "https://www.maharashtra.gov.in/"
@@ -562,7 +545,7 @@
       "roles": [
         {
           "title": "Chief Minister",
-          "name": "(see karnataka.gov.in \u2014 SAMPLE)",
+          "name": "(see karnataka.gov.in — SAMPLE)",
           "contact": {
             "site": "https://karnataka.gov.in/",
             "form": "https://karnataka.gov.in/"
@@ -584,7 +567,7 @@
       "roles": [
         {
           "title": "Chief Minister / LG (summary)",
-          "name": "(see delhi.gov.in \u2014 SAMPLE)",
+          "name": "(see delhi.gov.in — SAMPLE)",
           "contact": {
             "site": "https://delhi.gov.in/",
             "form": "https://delhi.gov.in/"
@@ -606,7 +589,7 @@
       "roles": [
         {
           "title": "Municipal Commissioner / Mayor (summary)",
-          "name": "(see mcgm.gov.in \u2014 SAMPLE)",
+          "name": "(see mcgm.gov.in — SAMPLE)",
           "contact": {
             "site": "https://www.mcgm.gov.in/",
             "form": "https://www.mcgm.gov.in/"
@@ -624,7 +607,7 @@
     },
     "ae": {
       "level": "country",
-      "label": "United Arab Emirates \u00b7 federal",
+      "label": "United Arab Emirates · federal",
       "roles": [
         {
           "title": "President",
@@ -660,7 +643,7 @@
         },
         {
           "title": "Minister of Foreign Affairs",
-          "name": "(see mofa.gov.ae \u2014 SAMPLE name check)",
+          "name": "(see mofa.gov.ae — SAMPLE name check)",
           "contact": {
             "site": "https://www.mofa.gov.ae/",
             "form": "https://www.mofa.gov.ae/"
@@ -722,71 +705,46 @@
     },
     "jp": {
       "level": "country",
-      "label": "Japan \u00b7 national",
+      "label": "Japan",
       "roles": [
         {
           "title": "Emperor",
           "name": "Naruhito",
           "contact": {
-            "site": "https://www.kunaicho.go.jp/eindex.html",
-            "form": "https://www.kunaicho.go.jp/eindex.html"
+            "site": "https://www.kunaicho.go.jp/eindex.html"
           },
-          "responseTime": {
-            "text": "ceremonial \u2014 not a political contact channel",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.kunaicho.go.jp/eindex.html",
+            "name": "Imperial Household Agency"
           },
-          "term": {
-            "text": "reigning since May 1, 2019",
-            "badge": null
-          }
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
           "title": "Prime Minister",
-          "name": "(see kantei.go.jp \u2014 SAMPLE; turnovers possible)",
+          "name": "Sanae Takaichi",
           "contact": {
-            "site": "https://www.kantei.go.jp/",
-            "form": "https://www.kantei.go.jp/foreign/forms/comment_ssl.html"
+            "site": "https://japan.kantei.go.jp/"
           },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://japan.kantei.go.jp/105/speech/202609/0917kaiken.html",
+            "name": "Prime Minister's Office, reshuffle press conference (2026-09-18)"
           },
-          "term": {
-            "text": "Diet designation; cabinet",
-            "badge": "SAMPLE"
-          }
-        },
-        {
-          "title": "Minister for Foreign Affairs",
-          "name": "(see mofa.go.jp \u2014 SAMPLE)",
-          "contact": {
-            "site": "https://www.mofa.go.jp/",
-            "form": "https://www.mofa.go.jp/about/embassy/index.html"
-          },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
-          },
-          "term": {
-            "text": "cabinet appointment",
-            "badge": "SAMPLE"
-          }
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
           "title": "Minister of Economy, Trade and Industry",
-          "name": "(see meti.go.jp \u2014 SAMPLE)",
+          "name": "Ryosei Akazawa",
           "contact": {
-            "site": "https://www.meti.go.jp/english/",
-            "form": "https://www.meti.go.jp/english/contact/index.html"
+            "site": "https://www.meti.go.jp/english/"
           },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.meti.go.jp/english/aboutmeti/profiles/individual/aMinister.html",
+            "name": "METI minister profile"
           },
-          "term": {
-            "text": "cabinet appointment",
-            "badge": "SAMPLE"
-          }
+          "asOf": "2026-10-07",
+          "verified": true
         }
       ]
     },
@@ -814,7 +772,7 @@
     },
     "ng": {
       "level": "country",
-      "label": "Nigeria \u00b7 federal",
+      "label": "Nigeria · federal",
       "roles": [
         {
           "title": "President",
@@ -852,11 +810,11 @@
     },
     "cl": {
       "level": "country",
-      "label": "Chile \u00b7 national",
+      "label": "Chile · national",
       "roles": [
         {
           "title": "President",
-          "name": "(see gob.cl \u2014 verify current; SAMPLE if transition)",
+          "name": "(see gob.cl — verify current; SAMPLE if transition)",
           "contact": {
             "site": "https://www.gob.cl/",
             "form": "https://www.gob.cl/"
@@ -883,26 +841,32 @@
             "site": "https://gov.illinois.gov/",
             "form": "https://gov.illinois.gov/contact-us/contact-the-governor.html"
           },
-          "responseTime": {
-            "text": "weeks (typical constituent)",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
           },
-          "term": {
-            "text": "elected; serving since 2019",
-            "badge": null
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Juliana Stratton",
+          "contact": {
+            "site": "https://ltgov.illinois.gov/"
           },
-          "asOf": "2026-10"
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
           "title": "U.S. congressional delegation (summary)",
-          "name": "Two senators + House members for Illinois \u2014 find your members on congress.gov",
+          "name": "Two senators + House members for Illinois — find your members on congress.gov",
           "contact": {
             "site": "https://www.congress.gov/members?q=%7B%22member-state%22%3A%22Illinois%22%7D",
             "form": "https://www.senate.gov/senators/senators-contact.htm"
-          },
-          "responseTime": {
-            "text": "varies by office",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "Senators: staggered 6-year; House: 2-year",
@@ -924,26 +888,32 @@
             "site": "https://www.pa.gov/governor",
             "form": "https://www.pa.gov/governor/contact-us"
           },
-          "responseTime": {
-            "text": "weeks (typical constituent)",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
           },
-          "term": {
-            "text": "elected; serving since 2023",
-            "badge": null
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Austin Davis",
+          "contact": {
+            "site": "https://ltgov.pa.gov/"
           },
-          "asOf": "2026-10"
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
           "title": "U.S. congressional delegation (summary)",
-          "name": "Two senators + House members for Pennsylvania \u2014 find your members on congress.gov",
+          "name": "Two senators + House members for Pennsylvania — find your members on congress.gov",
           "contact": {
             "site": "https://www.congress.gov/members?q=%7B%22member-state%22%3A%22Pennsylvania%22%7D",
             "form": "https://www.senate.gov/senators/senators-contact.htm"
-          },
-          "responseTime": {
-            "text": "varies by office",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "Senators: staggered 6-year; House: 2-year",
@@ -965,26 +935,32 @@
             "site": "https://governor.ohio.gov/",
             "form": "https://governor.ohio.gov/wps/portal/gov/governor/contact"
           },
-          "responseTime": {
-            "text": "weeks (typical constituent)",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
           },
-          "term": {
-            "text": "elected; serving since 2019",
-            "badge": null
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Jim Tressel",
+          "contact": {
+            "site": "https://governor.ohio.gov/administration/lt-governor"
           },
-          "asOf": "2026-10"
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
           "title": "U.S. congressional delegation (summary)",
-          "name": "Two senators + House members for Ohio \u2014 find your members on congress.gov",
+          "name": "Two senators + House members for Ohio — find your members on congress.gov",
           "contact": {
             "site": "https://www.congress.gov/members?q=%7B%22member-state%22%3A%22Ohio%22%7D",
             "form": "https://www.senate.gov/senators/senators-contact.htm"
-          },
-          "responseTime": {
-            "text": "varies by office",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "Senators: staggered 6-year; House: 2-year",
@@ -1006,26 +982,32 @@
             "site": "https://gov.georgia.gov/",
             "form": "https://gov.georgia.gov/contacts/governor-brian-p-kemp"
           },
-          "responseTime": {
-            "text": "weeks (typical constituent)",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
           },
-          "term": {
-            "text": "elected; serving since 2019",
-            "badge": null
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Burt Jones",
+          "contact": {
+            "site": "https://ltgov.georgia.gov/"
           },
-          "asOf": "2026-10"
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
           "title": "U.S. congressional delegation (summary)",
-          "name": "Two senators + House members for Georgia \u2014 find your members on congress.gov",
+          "name": "Two senators + House members for Georgia — find your members on congress.gov",
           "contact": {
             "site": "https://www.congress.gov/members?q=%7B%22member-state%22%3A%22Georgia%22%7D",
             "form": "https://www.senate.gov/senators/senators-contact.htm"
-          },
-          "responseTime": {
-            "text": "varies by office",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "Senators: staggered 6-year; House: 2-year",
@@ -1047,26 +1029,32 @@
             "site": "https://www.colorado.gov/governor",
             "form": "https://governorsoffice.colorado.gov/governor/contact-us"
           },
-          "responseTime": {
-            "text": "weeks (typical constituent)",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
           },
-          "term": {
-            "text": "elected; serving since 2019",
-            "badge": null
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Dianne Primavera",
+          "contact": {
+            "site": "https://ltgovernor.colorado.gov/"
           },
-          "asOf": "2026-10"
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
           "title": "U.S. congressional delegation (summary)",
-          "name": "Two senators + House members for Colorado \u2014 find your members on congress.gov",
+          "name": "Two senators + House members for Colorado — find your members on congress.gov",
           "contact": {
             "site": "https://www.congress.gov/members?q=%7B%22member-state%22%3A%22Colorado%22%7D",
             "form": "https://www.senate.gov/senators/senators-contact.htm"
-          },
-          "responseTime": {
-            "text": "varies by office",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "Senators: staggered 6-year; House: 2-year",
@@ -1088,26 +1076,32 @@
             "site": "https://www.michigan.gov/whitmer",
             "form": "https://www.michigan.gov/whitmer/contact"
           },
-          "responseTime": {
-            "text": "weeks (typical constituent)",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
           },
-          "term": {
-            "text": "elected; serving since 2019",
-            "badge": null
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Garlin Gilchrist",
+          "contact": {
+            "site": "https://www.michigan.gov/whitmer/ltgov"
           },
-          "asOf": "2026-10"
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
           "title": "U.S. congressional delegation (summary)",
-          "name": "Two senators + House members for Michigan \u2014 find your members on congress.gov",
+          "name": "Two senators + House members for Michigan — find your members on congress.gov",
           "contact": {
             "site": "https://www.congress.gov/members?q=%7B%22member-state%22%3A%22Michigan%22%7D",
             "form": "https://www.senate.gov/senators/senators-contact.htm"
-          },
-          "responseTime": {
-            "text": "varies by office",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "Senators: staggered 6-year; House: 2-year",
@@ -1129,26 +1123,32 @@
             "site": "https://governor.wa.gov/",
             "form": "https://governor.wa.gov/contact/"
           },
-          "responseTime": {
-            "text": "weeks (typical constituent)",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
           },
-          "term": {
-            "text": "elected; serving since Jan 2025",
-            "badge": "SAMPLE"
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Denny Heck",
+          "contact": {
+            "site": "https://www.ltgov.wa.gov/"
           },
-          "asOf": "2026-10"
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
           "title": "U.S. congressional delegation (summary)",
-          "name": "Two senators + House members for Washington \u2014 find your members on congress.gov",
+          "name": "Two senators + House members for Washington — find your members on congress.gov",
           "contact": {
             "site": "https://www.congress.gov/members?q=%7B%22member-state%22%3A%22Washington%22%7D",
             "form": "https://www.senate.gov/senators/senators-contact.htm"
-          },
-          "responseTime": {
-            "text": "varies by office",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "Senators: staggered 6-year; House: 2-year",
@@ -1170,26 +1170,32 @@
             "site": "https://azgovernor.gov/",
             "form": "https://azgovernor.gov/office-arizona-governor/form/contact-governor-hobbs"
           },
-          "responseTime": {
-            "text": "weeks (typical constituent)",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
           },
-          "term": {
-            "text": "elected; serving since 2023",
-            "badge": null
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Secretary of State (first in line of succession)",
+          "name": "Adrian Fontes",
+          "contact": {
+            "site": "https://azsos.gov/"
           },
-          "asOf": "2026-10"
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
           "title": "U.S. congressional delegation (summary)",
-          "name": "Two senators + House members for Arizona \u2014 find your members on congress.gov",
+          "name": "Two senators + House members for Arizona — find your members on congress.gov",
           "contact": {
             "site": "https://www.congress.gov/members?q=%7B%22member-state%22%3A%22Arizona%22%7D",
             "form": "https://www.senate.gov/senators/senators-contact.htm"
-          },
-          "responseTime": {
-            "text": "varies by office",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "Senators: staggered 6-year; House: 2-year",
@@ -1211,26 +1217,32 @@
             "site": "https://governor.nc.gov/",
             "form": "https://governor.nc.gov/contact/contact-governor-stein"
           },
-          "responseTime": {
-            "text": "weeks (typical constituent)",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
           },
-          "term": {
-            "text": "elected; serving since Jan 2025",
-            "badge": "SAMPLE"
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Rachel Hunt",
+          "contact": {
+            "site": "https://ltgov.nc.gov/"
           },
-          "asOf": "2026-10"
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
           "title": "U.S. congressional delegation (summary)",
-          "name": "Two senators + House members for North Carolina \u2014 find your members on congress.gov",
+          "name": "Two senators + House members for North Carolina — find your members on congress.gov",
           "contact": {
             "site": "https://www.congress.gov/members?q=%7B%22member-state%22%3A%22North+Carolina%22%7D",
             "form": "https://www.senate.gov/senators/senators-contact.htm"
-          },
-          "responseTime": {
-            "text": "varies by office",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "Senators: staggered 6-year; House: 2-year",
@@ -1252,26 +1264,32 @@
             "site": "https://www.mass.gov/orgs/governor-maura-healey-and-lt-governor-kim-driscoll",
             "form": "https://www.mass.gov/info-details/email-the-governors-office"
           },
-          "responseTime": {
-            "text": "weeks (typical constituent)",
-            "badge": "ESTIMATE"
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
           },
-          "term": {
-            "text": "elected; serving since 2023",
-            "badge": null
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Kim Driscoll",
+          "contact": {
+            "site": "https://www.mass.gov/person/kim-driscoll-lieutenant-governor"
           },
-          "asOf": "2026-10"
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
         },
         {
           "title": "U.S. congressional delegation (summary)",
-          "name": "Two senators + House members for Massachusetts \u2014 find your members on congress.gov",
+          "name": "Two senators + House members for Massachusetts — find your members on congress.gov",
           "contact": {
             "site": "https://www.congress.gov/members?q=%7B%22member-state%22%3A%22Massachusetts%22%7D",
             "form": "https://www.senate.gov/senators/senators-contact.htm"
-          },
-          "responseTime": {
-            "text": "varies by office",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "Senators: staggered 6-year; House: 2-year",
@@ -1285,224 +1303,1811 @@
     "us-mn": {
       "level": "admin1",
       "label": "Minnesota",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Tim Walz",
+          "contact": {
+            "site": "https://mn.gov/governor/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Peggy Flanagan",
+          "contact": {
+            "site": "https://mn.gov/governor/about-gov/peggyflanagan/"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-mt": {
       "level": "admin1",
       "label": "Montana",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Greg Gianforte",
+          "contact": {
+            "site": "https://gov.mt.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Kristen Juras",
+          "contact": {
+            "site": "https://governor.mt.gov/About/LieutenantGovernor"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-nd": {
       "level": "admin1",
       "label": "North Dakota",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Kelly Armstrong",
+          "contact": {
+            "site": "https://www.governor.nd.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Michelle Strinden",
+          "contact": {
+            "site": "https://www.governor.nd.gov/lt-governor-michelle-strinden"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-hi": {
       "level": "admin1",
       "label": "Hawaii",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Josh Green",
+          "contact": {
+            "site": "https://governor.hawaii.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Acting Lieutenant Governor",
+          "name": "Keith Regan",
+          "contact": {},
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-id": {
       "level": "admin1",
       "label": "Idaho",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Brad Little",
+          "contact": {
+            "site": "https://gov.idaho.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Scott Bedke",
+          "contact": {
+            "site": "https://lgo.idaho.gov/"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-nv": {
       "level": "admin1",
       "label": "Nevada",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Joe Lombardo",
+          "contact": {
+            "site": "https://gov.nv.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Stavros Anthony",
+          "contact": {
+            "site": "https://ltgov.nv.gov/"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-nm": {
       "level": "admin1",
       "label": "New Mexico",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Michelle Lujan Grisham",
+          "contact": {
+            "site": "https://www.governor.state.nm.us/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Howie Morales",
+          "contact": {
+            "site": "https://www.lgo.nm.gov/"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-or": {
       "level": "admin1",
       "label": "Oregon",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Tina Kotek",
+          "contact": {
+            "site": "https://www.oregon.gov/gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Secretary of State (first in line of succession)",
+          "name": "Tobias Read",
+          "contact": {
+            "site": "https://sos.oregon.gov/Pages/meet-the-secretary.aspx"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-ut": {
       "level": "admin1",
       "label": "Utah",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Spencer Cox",
+          "contact": {
+            "site": "https://governor.utah.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Deidre Henderson",
+          "contact": {
+            "site": "https://ltgovernor.utah.gov/about-lt-governor-deidre-m-henderson/"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-wy": {
       "level": "admin1",
       "label": "Wyoming",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Mark Gordon",
+          "contact": {
+            "site": "https://governor.wyo.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Secretary of State (first in line of succession)",
+          "name": "Chuck Gray",
+          "contact": {
+            "site": "https://sos.wyo.gov/"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-ar": {
       "level": "admin1",
       "label": "Arkansas",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Sarah Huckabee Sanders",
+          "contact": {
+            "site": "https://governor.arkansas.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Leslie Rutledge",
+          "contact": {
+            "site": "https://www.ltgovernor.arkansas.gov/"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-ia": {
       "level": "admin1",
       "label": "Iowa",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Kim Reynolds",
+          "contact": {
+            "site": "https://governor.iowa.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Chris Cournoyer",
+          "contact": {
+            "site": "https://governor.iowa.gov/meet-governor-kim-reynolds/meet-lieutenant-governor-chris-cournoyer"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-ks": {
       "level": "admin1",
       "label": "Kansas",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Laura Kelly",
+          "contact": {
+            "site": "https://governor.kansas.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "David Toland",
+          "contact": {
+            "site": "https://www.governor.ks.gov/about-the-office/lt-governor-david-toland"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-mo": {
       "level": "admin1",
       "label": "Missouri",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Mike Kehoe",
+          "contact": {
+            "site": "https://governor.mo.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "David Wasinger",
+          "contact": {
+            "site": "https://ltgov.mo.gov/"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-ne": {
       "level": "admin1",
       "label": "Nebraska",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Jim Pillen",
+          "contact": {
+            "site": "https://governor.nebraska.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Joe Kelly",
+          "contact": {
+            "site": "https://ltgov.nebraska.gov/about-lt-governor-joe-kelly"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-ok": {
       "level": "admin1",
       "label": "Oklahoma",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Kevin Stitt",
+          "contact": {
+            "site": "https://oklahoma.gov/governor.html"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Matt Pinnell",
+          "contact": {
+            "site": "https://www.ok.gov/ltgovpinnell/"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-sd": {
       "level": "admin1",
       "label": "South Dakota",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Larry Rhoden",
+          "contact": {
+            "site": "https://governor.sd.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Tony Venhuizen",
+          "contact": {
+            "site": "https://governor.sd.gov/governor/lt-governor.aspx"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-la": {
       "level": "admin1",
       "label": "Louisiana",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Jeff Landry",
+          "contact": {
+            "site": "https://gov.louisiana.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Billy Nungesser",
+          "contact": {
+            "site": "https://www.crt.state.la.us/lt-governor/index"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-ct": {
       "level": "admin1",
       "label": "Connecticut",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Ned Lamont",
+          "contact": {
+            "site": "https://portal.ct.gov/governor"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Susan Bysiewicz",
+          "contact": {
+            "site": "https://portal.ct.gov/Office-of-the-Lt-Governor"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-nh": {
       "level": "admin1",
       "label": "New Hampshire",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Kelly Ayotte",
+          "contact": {
+            "site": "https://www.governor.nh.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Senate President (first in line of succession)",
+          "name": "Sharon Carson",
+          "contact": {
+            "site": "https://gc.nh.gov/senate/members/webpages/district14.aspx"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-ri": {
       "level": "admin1",
       "label": "Rhode Island",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Dan McKee",
+          "contact": {
+            "site": "https://governor.ri.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Sabina Matos",
+          "contact": {
+            "site": "https://ltgov.ri.gov/"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-vt": {
       "level": "admin1",
       "label": "Vermont",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Phil Scott",
+          "contact": {
+            "site": "https://governor.vermont.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "John Rodgers",
+          "contact": {
+            "site": "https://ltgov.vermont.gov/"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-al": {
       "level": "admin1",
       "label": "Alabama",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Kay Ivey",
+          "contact": {
+            "site": "https://governor.alabama.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Will Ainsworth",
+          "contact": {
+            "site": "https://ltgov.alabama.gov/"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-ms": {
       "level": "admin1",
       "label": "Mississippi",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Tate Reeves",
+          "contact": {
+            "site": "https://governorreeves.ms.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Delbert Hosemann",
+          "contact": {
+            "site": "https://ltgovhosemann.ms.gov/"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-sc": {
       "level": "admin1",
       "label": "South Carolina",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Henry McMaster",
+          "contact": {
+            "site": "https://governor.sc.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Pamela Evette",
+          "contact": {
+            "site": "https://governor.sc.gov/lieutenant-governor"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-in": {
       "level": "admin1",
       "label": "Indiana",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Mike Braun",
+          "contact": {
+            "site": "https://www.in.gov/gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Micah Beckwith",
+          "contact": {
+            "site": "https://www.in.gov/lg/"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-ky": {
       "level": "admin1",
       "label": "Kentucky",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Andy Beshear",
+          "contact": {
+            "site": "https://governor.ky.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Jacqueline Coleman",
+          "contact": {
+            "site": "https://governor.ky.gov/about/lt-governor-jacqueline-coleman"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-tn": {
       "level": "admin1",
       "label": "Tennessee",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Bill Lee",
+          "contact": {
+            "site": "https://www.tn.gov/governor.html"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor/Speaker of the Senate (first in line of succession)",
+          "name": "Randy McNally",
+          "contact": {
+            "site": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S5"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-va": {
       "level": "admin1",
       "label": "Virginia",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Abigail Spanberger",
+          "contact": {
+            "site": "https://www.governor.virginia.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Ghazala Hashmi",
+          "contact": {
+            "site": "https://www.ltgov.virginia.gov/"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-wi": {
       "level": "admin1",
       "label": "Wisconsin",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Tony Evers",
+          "contact": {
+            "site": "https://evers.wi.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Sara Rodriguez",
+          "contact": {
+            "site": "https://evers.wi.gov/ltgov/Pages/default.aspx"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-wv": {
       "level": "admin1",
       "label": "West Virginia",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Patrick Morrisey",
+          "contact": {
+            "site": "https://governor.wv.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor/Senate President (first in line of succession)",
+          "name": "Randy Smith",
+          "contact": {
+            "site": "https://www.wvlegislature.gov/senate1/president.cfm"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-de": {
       "level": "admin1",
       "label": "Delaware",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Matt Meyer",
+          "contact": {
+            "site": "https://governor.delaware.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Kyle Evans Gay",
+          "contact": {
+            "site": "https://ltgov.delaware.gov/"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-dc": {
       "level": "admin1",
       "label": "District of Columbia",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Mayor",
+          "name": "Muriel Bowser",
+          "contact": {
+            "site": "https://mayor.dc.gov/"
+          },
+          "source": {
+            "url": "https://mayor.dc.gov/",
+            "name": "Office of the Mayor, DC (official)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-md": {
       "level": "admin1",
       "label": "Maryland",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Wes Moore",
+          "contact": {
+            "site": "https://governor.maryland.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Aruna Miller",
+          "contact": {
+            "site": "https://msa.maryland.gov/msa/mdmanual/08conoff/ltgov/html/msa15449.html"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-nj": {
       "level": "admin1",
       "label": "New Jersey",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Mikie Sherrill",
+          "contact": {
+            "site": "https://www.nj.gov/governor/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "",
+          "sourcePending": true,
+          "pendingNote": "Seat listed as vacant on NLGA roster (2026-09-30).",
+          "contact": {},
+          "asOf": "2026-10-07"
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-me": {
       "level": "admin1",
       "label": "Maine",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Janet Mills",
+          "contact": {
+            "site": "https://www.maine.gov/governor/mills/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Senate President (first in line of succession)",
+          "name": "Mattie Daughtry",
+          "contact": {
+            "site": "https://legislature.maine.gov/district23"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
     },
     "us-ak": {
       "level": "admin1",
       "label": "Alaska",
-      "roles": [],
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Mike Dunleavy",
+          "contact": {
+            "site": "https://gov.alaska.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Lieutenant Governor",
+          "name": "Nancy Dahlstrom",
+          "contact": {
+            "site": "https://ltgov.alaska.gov/"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ],
       "emptyNote": "No sourced statewide roster yet for this state. Governor and congressional contacts will appear here once checked against an official .gov page. Public directories welcome."
+    },
+    "ca": {
+      "level": "country",
+      "label": "Canada",
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "name": "Mark Carney",
+          "contact": {
+            "site": "https://www.pm.gc.ca/en"
+          },
+          "source": {
+            "url": "https://www.pm.gc.ca/en/cabinet",
+            "name": "Prime Minister of Canada, Cabinet"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Minister of International Trade",
+          "name": "Maninder Sidhu",
+          "contact": {
+            "site": "https://www.pm.gc.ca/en/cabinet"
+          },
+          "source": {
+            "url": "https://www.pm.gc.ca/en/cabinet",
+            "name": "Prime Minister of Canada, Cabinet"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Minister responsible for Canada-U.S. Trade, Intergovernmental Affairs and Internal Trade",
+          "name": "Dominic LeBlanc",
+          "contact": {
+            "site": "https://www.pm.gc.ca/en/cabinet"
+          },
+          "source": {
+            "url": "https://www.pm.gc.ca/en/cabinet",
+            "name": "Prime Minister of Canada, Cabinet"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "mx": {
+      "level": "country",
+      "label": "Mexico",
+      "roles": [
+        {
+          "title": "President",
+          "name": "Claudia Sheinbaum Pardo",
+          "contact": {
+            "site": "https://www.gob.mx/presidencia"
+          },
+          "source": {
+            "url": "https://www.gob.mx/presidencia",
+            "name": "Presidencia de la República"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Secretary of Economy",
+          "name": "Marcelo Ebrard Casaubón",
+          "contact": {
+            "site": "https://www.gob.mx/se"
+          },
+          "source": {
+            "url": "https://www.gob.mx/se/estructuras/marcelo-ebrard-casaubon",
+            "name": "Secretaría de Economía, structure page"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "cn": {
+      "level": "country",
+      "label": "China",
+      "roles": [
+        {
+          "title": "President",
+          "name": "Xi Jinping",
+          "contact": {
+            "site": "https://english.www.gov.cn/"
+          },
+          "source": {
+            "url": "https://english.www.gov.cn/",
+            "name": "The State Council, PRC"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Premier of the State Council",
+          "name": "Li Qiang",
+          "contact": {
+            "site": "https://english.www.gov.cn/"
+          },
+          "source": {
+            "url": "https://english.www.gov.cn/",
+            "name": "The State Council, PRC"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Minister of Commerce",
+          "name": "Wang Wentao",
+          "contact": {
+            "site": "http://english.mofcom.gov.cn/"
+          },
+          "source": {
+            "url": "https://wangwentao2.mofcom.gov.cn/",
+            "name": "Ministry of Commerce, PRC, minister page"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "de": {
+      "level": "country",
+      "label": "Germany",
+      "roles": [
+        {
+          "title": "Federal President",
+          "name": "Frank-Walter Steinmeier",
+          "contact": {
+            "site": "https://www.bundespraesident.de/EN/"
+          },
+          "source": {
+            "url": "https://www.bundespraesident.de/EN/",
+            "name": "Federal President of Germany"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Federal Chancellor",
+          "name": "Friedrich Merz",
+          "contact": {
+            "site": "https://www.bundeskanzler.de/bk-en"
+          },
+          "source": {
+            "url": "https://www.bundeskanzler.de/bk-en",
+            "name": "Federal Chancellor"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Federal Minister for Economic Affairs and Energy",
+          "name": "Katherina Reiche",
+          "contact": {
+            "site": "https://www.bundeswirtschaftsministerium.de/Navigation/EN/Home/home.html"
+          },
+          "source": {
+            "url": "https://www.bundeswirtschaftsministerium.de/Navigation/EN/Ministry/Minister/minister.html",
+            "name": "BMWE, minister page"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "kr": {
+      "level": "country",
+      "label": "South Korea",
+      "roles": [
+        {
+          "title": "President",
+          "name": "Lee Jae Myung",
+          "contact": {
+            "site": "https://eng.president.go.kr/"
+          },
+          "source": {
+            "url": "https://eng.president.go.kr/",
+            "name": "Office of the President"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Minister for Trade (Ministry of Trade, Industry and Resources)",
+          "name": "Park Jung-sung",
+          "contact": {
+            "site": "https://english.motie.go.kr/"
+          },
+          "source": {
+            "url": "https://en.yna.co.kr/view/AEN20260821007951315",
+            "name": "Yonhap, appointment announced by presidential spokesperson (2026-08-21)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "gb": {
+      "level": "country",
+      "label": "United Kingdom",
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "name": "Andy Burnham",
+          "contact": {
+            "site": "https://www.gov.uk/government/organisations/prime-ministers-office-10-downing-street"
+          },
+          "source": {
+            "url": "https://www.gov.uk/government/ministers",
+            "name": "GOV.UK, Ministers"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Secretary of State for Business, Innovation, Science and Trade",
+          "name": "Jonathan Reynolds",
+          "contact": {
+            "site": "https://www.gov.uk/government/organisations/department-for-business-and-trade"
+          },
+          "source": {
+            "url": "https://www.gov.uk/government/ministers",
+            "name": "GOV.UK, Ministers"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "tw": {
+      "level": "country",
+      "label": "Taiwan",
+      "roles": [
+        {
+          "title": "President",
+          "name": "Lai Ching-te",
+          "contact": {
+            "site": "https://english.president.gov.tw/"
+          },
+          "source": {
+            "url": "https://english.president.gov.tw/",
+            "name": "Office of the President"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Premier",
+          "name": "Cho Jung-tai",
+          "contact": {
+            "site": "https://english.ey.gov.tw/"
+          },
+          "source": {
+            "url": "https://english.ey.gov.tw/",
+            "name": "Executive Yuan"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Minister of Economic Affairs",
+          "name": "Kung Ming-hsin",
+          "contact": {
+            "site": "https://www.moea.gov.tw/MNS/english/home/English.aspx"
+          },
+          "source": {
+            "url": "https://www.moea.gov.tw/mns/english/content/Content.aspx?menu_id=45042",
+            "name": "MOEA, minister press conference (2026-05-06)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "vn": {
+      "level": "country",
+      "label": "Vietnam",
+      "roles": [
+        {
+          "title": "General Secretary and President",
+          "name": "To Lam",
+          "contact": {
+            "site": "https://en.baochinhphu.vn/"
+          },
+          "source": {
+            "url": "https://www.vietnam.vn/en/tong-bi-thu-chu-tich-nuoc-to-lam-trao-quyet-dinh-bo-nhiem-cac-thanh-vien-chinh-phu",
+            "name": "Vietnam.vn (government appointments, 2026-04-08)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Prime Minister",
+          "name": "Le Minh Hung",
+          "contact": {
+            "site": "https://primeminister.chinhphu.vn/"
+          },
+          "source": {
+            "url": "https://primeminister.chinhphu.vn/le-minh-hung-unanimously-elected-as-new-prime-minister-of-viet-nam-134260407152422211.htm",
+            "name": "Government portal (2026-04-07)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Minister of Industry and Trade",
+          "name": "Le Manh Hung",
+          "contact": {
+            "site": "https://moit.gov.vn/en"
+          },
+          "source": {
+            "url": "https://moit.gov.vn/en/news/vietnam-s-national-assembly-approves-le-manh-hung-as-minister-of-industry-and-trade.html",
+            "name": "MOIT portal (2026-04-08)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "pr": {
+      "level": "country",
+      "label": "Puerto Rico",
+      "roles": [
+        {
+          "title": "Governor",
+          "name": "Jenniffer González-Colón",
+          "contact": {
+            "site": "https://www.fortaleza.pr.gov/"
+          },
+          "source": {
+            "url": "https://www.nga.org/governors/",
+            "name": "National Governors Association roster"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        },
+        {
+          "title": "Secretary of State (first in line of succession)",
+          "name": "Rosachely Rivera Santana",
+          "contact": {
+            "site": "https://www.statedepartment.pr.gov/secretary-of-state"
+          },
+          "source": {
+            "url": "https://nlga.us/our-members/",
+            "name": "NLGA member roster (updated 2026-09-30)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "ca-bc": {
+      "level": "admin1",
+      "label": "British Columbia",
+      "roles": [
+        {
+          "title": "Premier",
+          "name": "David Eby",
+          "contact": {
+            "site": "https://www2.gov.bc.ca/gov/content/governments/organizational-structure/office-of-the-premier"
+          },
+          "source": {
+            "url": "https://www.legassembly.sk.ca/library/research-help/premiers-of-canada-and-leaders-of-opposition/",
+            "name": "Saskatchewan Legislative Library, Premiers of Canada (updated 2026-09-28)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true,
+          "term": {
+            "text": "Election called for Oct 24, 2026",
+            "badge": null
+          }
+        }
+      ]
+    },
+    "ca-ab": {
+      "level": "admin1",
+      "label": "Alberta",
+      "roles": [
+        {
+          "title": "Premier",
+          "name": "Danielle Smith",
+          "contact": {
+            "site": "https://www.alberta.ca/premier"
+          },
+          "source": {
+            "url": "https://www.legassembly.sk.ca/library/research-help/premiers-of-canada-and-leaders-of-opposition/",
+            "name": "Saskatchewan Legislative Library, Premiers of Canada (updated 2026-09-28)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "ca-sk": {
+      "level": "admin1",
+      "label": "Saskatchewan",
+      "roles": [
+        {
+          "title": "Premier",
+          "name": "Scott Moe",
+          "contact": {
+            "site": "https://www.saskatchewan.ca/"
+          },
+          "source": {
+            "url": "https://www.legassembly.sk.ca/library/research-help/premiers-of-canada-and-leaders-of-opposition/",
+            "name": "Saskatchewan Legislative Library, Premiers of Canada (updated 2026-09-28)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "ca-mb": {
+      "level": "admin1",
+      "label": "Manitoba",
+      "roles": [
+        {
+          "title": "Premier",
+          "name": "Wab Kinew",
+          "contact": {
+            "site": "https://www.gov.mb.ca/minister/premier/index.html"
+          },
+          "source": {
+            "url": "https://www.legassembly.sk.ca/library/research-help/premiers-of-canada-and-leaders-of-opposition/",
+            "name": "Saskatchewan Legislative Library, Premiers of Canada (updated 2026-09-28)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "ca-on": {
+      "level": "admin1",
+      "label": "Ontario",
+      "roles": [
+        {
+          "title": "Premier",
+          "name": "Doug Ford",
+          "contact": {
+            "site": "https://www.ontario.ca/page/premier"
+          },
+          "source": {
+            "url": "https://www.legassembly.sk.ca/library/research-help/premiers-of-canada-and-leaders-of-opposition/",
+            "name": "Saskatchewan Legislative Library, Premiers of Canada (updated 2026-09-28)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "ca-qc": {
+      "level": "admin1",
+      "label": "Québec",
+      "roles": [
+        {
+          "title": "Premier",
+          "name": "Christine Fréchette",
+          "contact": {
+            "site": "https://www.quebec.ca/en"
+          },
+          "source": {
+            "url": "https://www.legassembly.sk.ca/library/research-help/premiers-of-canada-and-leaders-of-opposition/",
+            "name": "Saskatchewan Legislative Library, Premiers of Canada (updated 2026-09-28)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true,
+          "term": {
+            "text": "Provincial election held Oct 5, 2026; recheck after swearing-in",
+            "badge": null
+          }
+        }
+      ]
+    },
+    "ca-nb": {
+      "level": "admin1",
+      "label": "New Brunswick",
+      "roles": [
+        {
+          "title": "Premier",
+          "name": "Susan Holt",
+          "contact": {
+            "site": "https://www2.gnb.ca/content/gnb/en/departments/premier.html"
+          },
+          "source": {
+            "url": "https://www.legassembly.sk.ca/library/research-help/premiers-of-canada-and-leaders-of-opposition/",
+            "name": "Saskatchewan Legislative Library, Premiers of Canada (updated 2026-09-28)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "ca-ns": {
+      "level": "admin1",
+      "label": "Nova Scotia",
+      "roles": [
+        {
+          "title": "Premier",
+          "name": "Tim Houston",
+          "contact": {
+            "site": "https://novascotia.ca/premier/"
+          },
+          "source": {
+            "url": "https://www.legassembly.sk.ca/library/research-help/premiers-of-canada-and-leaders-of-opposition/",
+            "name": "Saskatchewan Legislative Library, Premiers of Canada (updated 2026-09-28)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "ca-pe": {
+      "level": "admin1",
+      "label": "Prince Edward Island",
+      "roles": [
+        {
+          "title": "Premier",
+          "name": "Rob Lantz",
+          "contact": {
+            "site": "https://www.princeedwardisland.ca/en/topic/office-of-the-premier"
+          },
+          "source": {
+            "url": "https://www.legassembly.sk.ca/library/research-help/premiers-of-canada-and-leaders-of-opposition/",
+            "name": "Saskatchewan Legislative Library, Premiers of Canada (updated 2026-09-28)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "ca-nl": {
+      "level": "admin1",
+      "label": "Newfoundland and Labrador",
+      "roles": [
+        {
+          "title": "Premier",
+          "name": "Tony Wakeham",
+          "contact": {
+            "site": "https://www.gov.nl.ca/premier/"
+          },
+          "source": {
+            "url": "https://www.legassembly.sk.ca/library/research-help/premiers-of-canada-and-leaders-of-opposition/",
+            "name": "Saskatchewan Legislative Library, Premiers of Canada (updated 2026-09-28)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "ca-yt": {
+      "level": "admin1",
+      "label": "Yukon",
+      "roles": [
+        {
+          "title": "Premier",
+          "name": "Currie Dixon",
+          "contact": {
+            "site": "https://yukon.ca/"
+          },
+          "source": {
+            "url": "https://www.legassembly.sk.ca/library/research-help/premiers-of-canada-and-leaders-of-opposition/",
+            "name": "Saskatchewan Legislative Library, Premiers of Canada (updated 2026-09-28)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "ca-nt": {
+      "level": "admin1",
+      "label": "Northwest Territories",
+      "roles": [
+        {
+          "title": "Premier",
+          "name": "R.J. Simpson",
+          "contact": {
+            "site": "https://www.gov.nt.ca/en/premier"
+          },
+          "source": {
+            "url": "https://www.legassembly.sk.ca/library/research-help/premiers-of-canada-and-leaders-of-opposition/",
+            "name": "Saskatchewan Legislative Library, Premiers of Canada (updated 2026-09-28)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
+    },
+    "ca-nu": {
+      "level": "admin1",
+      "label": "Nunavut",
+      "roles": [
+        {
+          "title": "Premier",
+          "name": "John Main",
+          "contact": {
+            "site": "https://www.gov.nu.ca/en/premier"
+          },
+          "source": {
+            "url": "https://www.legassembly.sk.ca/library/research-help/premiers-of-canada-and-leaders-of-opposition/",
+            "name": "Saskatchewan Legislative Library, Premiers of Canada (updated 2026-09-28)"
+          },
+          "asOf": "2026-10-07",
+          "verified": true
+        }
+      ]
     }
   }
 }
