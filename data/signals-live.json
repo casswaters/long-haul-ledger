@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-07T06:40:29.552Z",
+  "generatedAt": "2026-10-07T12:43:07.935Z",
   "mode": "us-progress",
   "itemCount": 110,
   "verification": {
     "counts": {
       "confirmed": 26,
       "multiple": 3,
-      "unconfirmed": 36,
-      "analysis": 45,
+      "unconfirmed": 35,
+      "analysis": 46,
       "sample": 0
     },
     "windowHours": 48,
@@ -101,6 +101,45 @@
   ],
   "sourcesFailed": [],
   "items": [
+    {
+      "id": "live-1ynd7di",
+      "title": "If you&#039;re looking, here&#039;s a \"good deal\" for NASA and the European Space Agency",
+      "url": "https://arstechnica.com/space/2026/10/nasa-is-keen-on-pursuing-at-least-one-joint-science-mission-with-europe/",
+      "source": "Ars Technica",
+      "sourceId": "ars-technica",
+      "kind": "hard-news",
+      "published": "2026-10-07T11:00:40.000Z",
+      "publishedLabel": "Oct 7, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "compute",
+        "science",
+        "tech"
+      ],
+      "score": 100,
+      "blurb": "\"We are in the era of people interested in having good deals, and LISA is a very good deal for the US.\"",
+      "real": true,
+      "primary": false,
+      "outlet": "ars-technica",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-1ynd7di",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "outlet": "ars-technica",
+            "url": "https://arstechnica.com/space/2026/10/nasa-is-keen-on-pursuing-at-least-one-joint-science-mission-with-europe/",
+            "primary": false,
+            "published": "2026-10-07T11:00:40.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
+    },
     {
       "id": "live-1w4y34x",
       "title": "Energy Firms Try to Squeeze More Power Out of Old Nuclear Plants",
@@ -1235,6 +1274,42 @@
       }
     },
     {
+      "id": "live-qxyw32",
+      "title": "There is no “Indian Question”",
+      "url": "https://www.noahpinion.blog/p/there-is-no-indian-question",
+      "source": "Noahpinion",
+      "sourceId": "noahpinion",
+      "kind": "analysis",
+      "published": "2026-10-07T09:47:37.000Z",
+      "publishedLabel": "Oct 7, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "opinion",
+        "progress",
+        "economy"
+      ],
+      "score": 85,
+      "blurb": "The actual question is what kind of a nation America is going to be.",
+      "real": true,
+      "primary": false,
+      "outlet": "noahpinion",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "Noahpinion",
+            "outlet": "noahpinion",
+            "url": "https://www.noahpinion.blog/p/there-is-no-indian-question",
+            "primary": false,
+            "published": "2026-10-07T09:47:37.000Z"
+          }
+        ],
+        "outlets": 1
+      }
+    },
+    {
       "id": "live-183rsgq",
       "title": "Why is NASA bringing 7,500 contractors back to work as civil servants?",
       "url": "https://arstechnica.com/space/2026/10/why-is-nasa-bringing-7500-contractors-back-to-work-as-civil-servants/",
@@ -1721,7 +1796,7 @@
     },
     {
       "id": "live-1f8wkor",
-      "title": "The seven vices of highly effective Victorians",
+      "title": "Why were Victorian elites so effective?",
       "url": "https://worksinprogress.co/issue/the-seven-vices-of-highly-effective-victorians/",
       "source": "Works in Progress",
       "sourceId": "works-in-progress",
@@ -1832,42 +1907,6 @@
           }
         ],
         "confirmedBy": []
-      }
-    },
-    {
-      "id": "live-7gg78h",
-      "title": "How Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
-      "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
-      "source": "NYT Technology",
-      "sourceId": "nyt-tech",
-      "kind": "analysis",
-      "published": "2026-09-30T09:00:48.000Z",
-      "publishedLabel": "Sep 30, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "compute",
-        "tech",
-        "analysis"
-      ],
-      "score": 81,
-      "blurb": "Meta is exploiting a lucrative tax break intended to support research and experimentation. Its own accountants say the gambit is risky.",
-      "real": true,
-      "primary": false,
-      "outlet": "nyt",
-      "verification": {
-        "status": "analysis",
-        "label": "Analysis",
-        "sources": [
-          {
-            "name": "NYT Technology",
-            "outlet": "nyt",
-            "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
-            "primary": false,
-            "published": "2026-09-30T09:00:48.000Z"
-          }
-        ],
-        "outlets": 1
       }
     },
     {
@@ -2450,42 +2489,6 @@
             "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
             "primary": false,
             "published": "2026-09-30T15:00:00.000Z"
-          }
-        ],
-        "outlets": 1
-      }
-    },
-    {
-      "id": "live-1hx2eyv",
-      "title": "Lung cancers can use two different mechanisms to evade KRAS-inhibiting drugs",
-      "url": "https://news.mit.edu/2026/lung-cancers-can-use-two-different-mechanisms-evade-kras-inhibiting-drugs-0930",
-      "source": "MIT News",
-      "sourceId": "mit-news",
-      "kind": "analysis",
-      "published": "2026-09-30T09:00:00.000Z",
-      "publishedLabel": "Sep 30, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "research",
-        "compute",
-        "energy"
-      ],
-      "score": 80,
-      "blurb": "Some tumor cells develop resistance by amplifying the KRAS gene, while others change their tumor type, MIT researchers have found.",
-      "real": true,
-      "primary": false,
-      "outlet": "mit-news",
-      "verification": {
-        "status": "analysis",
-        "label": "Analysis",
-        "sources": [
-          {
-            "name": "MIT News",
-            "outlet": "mit-news",
-            "url": "https://news.mit.edu/2026/lung-cancers-can-use-two-different-mechanisms-evade-kras-inhibiting-drugs-0930",
-            "primary": false,
-            "published": "2026-09-30T09:00:00.000Z"
           }
         ],
         "outlets": 1
@@ -3157,45 +3160,6 @@
       }
     },
     {
-      "id": "live-1xx8sh6",
-      "title": "Texas city demands $2M for public records on Flock usage",
-      "url": "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
-      "source": "Ars Technica",
-      "sourceId": "ars-technica",
-      "kind": "hard-news",
-      "published": "2026-10-05T20:31:12.000Z",
-      "publishedLabel": "Oct 5, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "compute",
-        "science",
-        "tech"
-      ],
-      "score": 78,
-      "blurb": "Prices of public records tracking cops' use of Flock go up as backlash swells.",
-      "real": true,
-      "primary": false,
-      "outlet": "ars-technica",
-      "verification": {
-        "status": "unconfirmed",
-        "label": "Unconfirmed",
-        "clusterId": "vc-1xx8sh6",
-        "clusterSize": 1,
-        "outlets": 1,
-        "sources": [
-          {
-            "name": "Ars Technica",
-            "outlet": "ars-technica",
-            "url": "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
-            "primary": false,
-            "published": "2026-10-05T20:31:12.000Z"
-          }
-        ],
-        "confirmedBy": []
-      }
-    },
-    {
       "id": "live-1f0cc8g",
       "title": "Malaysia is invested in the industries of the future. Now it needs them to power productivity.",
       "url": "https://www.atlanticcouncil.org/uncategorized/malaysia-is-invested-in-the-industries-of-the-future-now-it-needs-them-to-power-productivity/",
@@ -3424,6 +3388,42 @@
       }
     },
     {
+      "id": "live-7gg78h",
+      "title": "How Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
+      "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
+      "source": "NYT Technology",
+      "sourceId": "nyt-tech",
+      "kind": "analysis",
+      "published": "2026-09-30T09:00:48.000Z",
+      "publishedLabel": "Sep 30, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "compute",
+        "tech",
+        "analysis"
+      ],
+      "score": 77,
+      "blurb": "Meta is exploiting a lucrative tax break intended to support research and experimentation. Its own accountants say the gambit is risky.",
+      "real": true,
+      "primary": false,
+      "outlet": "nyt",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "NYT Technology",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
+            "primary": false,
+            "published": "2026-09-30T09:00:48.000Z"
+          }
+        ],
+        "outlets": 1
+      }
+    },
+    {
       "id": "live-8o1v3r",
       "title": "Reading List - 09/05/2026",
       "url": "https://www.construction-physics.com/p/reading-list-09052026",
@@ -3531,6 +3531,42 @@
           }
         ],
         "confirmedBy": []
+      }
+    },
+    {
+      "id": "live-1hx2eyv",
+      "title": "Lung cancers can use two different mechanisms to evade KRAS-inhibiting drugs",
+      "url": "https://news.mit.edu/2026/lung-cancers-can-use-two-different-mechanisms-evade-kras-inhibiting-drugs-0930",
+      "source": "MIT News",
+      "sourceId": "mit-news",
+      "kind": "analysis",
+      "published": "2026-09-30T09:00:00.000Z",
+      "publishedLabel": "Sep 30, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "research",
+        "compute",
+        "energy"
+      ],
+      "score": 76,
+      "blurb": "Some tumor cells develop resistance by amplifying the KRAS gene, while others change their tumor type, MIT researchers have found.",
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/lung-cancers-can-use-two-different-mechanisms-evade-kras-inhibiting-drugs-0930",
+            "primary": false,
+            "published": "2026-09-30T09:00:00.000Z"
+          }
+        ],
+        "outlets": 1
       }
     },
     {
@@ -4262,44 +4298,6 @@
             "url": "https://arstechnica.com/science/2026/10/neutrino-physicist-wins-2026-nobel-physics-prize/",
             "primary": false,
             "published": "2026-10-06T16:53:17.000Z"
-          }
-        ],
-        "confirmedBy": []
-      }
-    },
-    {
-      "id": "live-1t6iht1",
-      "title": "Gears of War: E-Day Is Nostalgic With Rich Visuals",
-      "url": "https://www.nytimes.com/2026/10/06/arts/gears-of-war-e-day-review.html",
-      "source": "NYT Technology",
-      "sourceId": "nyt-tech",
-      "kind": "hard-news",
-      "published": "2026-10-06T09:01:01.000Z",
-      "publishedLabel": "Oct 6, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "compute",
-        "tech"
-      ],
-      "score": 73,
-      "blurb": "In Gears of War: E-Day, it’s fun to see the origins of beloved characters in grand scale, even if its play feels conservative.",
-      "real": true,
-      "primary": false,
-      "outlet": "nyt",
-      "verification": {
-        "status": "unconfirmed",
-        "label": "Unconfirmed",
-        "clusterId": "vc-1t6iht1",
-        "clusterSize": 1,
-        "outlets": 1,
-        "sources": [
-          {
-            "name": "NYT Technology",
-            "outlet": "nyt",
-            "url": "https://www.nytimes.com/2026/10/06/arts/gears-of-war-e-day-review.html",
-            "primary": false,
-            "published": "2026-10-06T09:01:01.000Z"
           }
         ],
         "confirmedBy": []
