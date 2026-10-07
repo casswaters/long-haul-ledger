@@ -222,6 +222,10 @@ console.log('\n--- Copy: neutral, macro-to-micro, no tier / paid / US-first fram
   assert('workflow commits on top of latest tip', /git reset --hard "origin\//.test(wf));
   assert('workflow queues overlapping runs', /concurrency:\s*\n\s*group: ledger-publish\s*\n\s*cancel-in-progress: false/.test(wf));
   assert('feed fetch failures are non-fatal', /fetch-signals\.mjs/.test(wf) && /continue-on-error: true\s*\n\s*run: node scripts\/fetch-signals\.mjs/.test(wf));
+  for (const f of ['.github/workflows/soft-launch.yml', '.github/workflows/stats.yml']) {
+    const bad = readFileSync(f, 'utf8').split('\n').filter((l) => /^\s*run: (?![|>])/.test(l) && /: /.test(l.replace(/^\s*run: /, '')));
+    assert(`${f}: no plain run: scalar containing ": " (invalid YAML)`, bad.length === 0);
+  }
   const sh = readFileSync('scripts/commit-data.sh', 'utf8');
   assert('commit script resets to origin and retries push', /reset --quiet --hard "origin\/\$branch"/.test(sh) && /for attempt in/.test(sh) && !/pull --rebase/.test(sh));
 }

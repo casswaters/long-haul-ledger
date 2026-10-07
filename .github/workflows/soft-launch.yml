@@ -53,7 +53,8 @@ jobs:
 
       - name: Commit data on top of latest main (retries; never conflicts)
         id: commit
-        run: scripts/commit-data.sh "chore: refresh news feed + Prices ($(date -u +%Y-%m-%dT%H:%MZ))" data/signals-live.json data/desks/prices.json data/news-cache
+        run: |
+          scripts/commit-data.sh "chore: refresh news feed + Prices ($(date -u +%Y-%m-%dT%H:%MZ))" data/signals-live.json data/desks/prices.json data/news-cache
 
       - name: Deploy Pages (gh-pages)
         if: github.ref == 'refs/heads/main'

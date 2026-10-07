@@ -55,7 +55,8 @@ jobs:
 
       - name: Commit data on top of latest main (retries; never conflicts)
         id: commit
-        run: scripts/commit-data.sh "chore: refresh official stats ($(date -u +%Y-%m-%dT%H:%MZ))" data/stats
+        run: |
+          scripts/commit-data.sh "chore: refresh official stats ($(date -u +%Y-%m-%dT%H:%MZ))" data/stats
 
       - name: Deploy Pages (gh-pages)
         if: github.ref == 'refs/heads/main' && (steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch')
