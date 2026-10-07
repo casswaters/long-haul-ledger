@@ -1,5 +1,5 @@
 /**
- * Long Haul Ledger: US desks (Activity, People, Prices, Capital).
+ * Long Haul Ledger: indicators (internal id: desks) — Activity, People, Prices, Capital (United States series).
  * Pure helpers shared by the browser, scripts/fetch-prices.mjs and ledger.test.js.
  *
  * Record rules (BUILD-PLAN.md §3):
@@ -16,8 +16,8 @@ export const EMPTY_STATE = 'No sourced entries yet. Updates when a sourced chang
 
 export const PROTOTYPE = {
   label: 'PROTOTYPE',
-  title: 'Example data for UX testing. Not sourced, not part of any desk or subscription.',
-  note: 'PROTOTYPE · example data. Figures, names and scores here are fiction for UX testing: no sources, not a desk, not advice.',
+  title: 'Example data for UX testing. Not sourced.',
+  note: 'PROTOTYPE · example data. Figures, names and scores here are fiction for UX testing: no sources, not advice.',
 };
 
 export const DESKS = [

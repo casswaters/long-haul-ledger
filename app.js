@@ -33,6 +33,10 @@ import {
 import {
   resolveLeadership, leadershipStack, roleBadge, hasPublicContact, isEmptyLeadership,
 } from './leadership.js';
+import { countryName } from './places.js';
+import {
+  placeOf, buildColumn, rankedForPlace, placeLabel, parentPlace, CATEGORIES, CATEGORY_LABELS, categoryOf, LEVEL_NAMES,
+} from './newsrank.js';
 
 const state = {
   country: null,
@@ -418,7 +422,7 @@ async function loadMap() {
       svg.removeAttribute('height');
       svg.setAttribute('shape-rendering', 'geometricPrecision');
       svg.setAttribute('role', 'img');
-      svg.setAttribute('aria-label', 'World index atlas — click opens a country desk; double-click / long-press opens the mind map at country level; drill into state equivalents');
+      svg.setAttribute('aria-label', 'World map — click a country to focus the panels and news on it; double-click / long-press opens the mind map at country level; drill into state equivalents and cities');
       svg.dataset.baseViewBox = svg.getAttribute('viewBox') || `0 0 ${SVG_W} ${SVG_H}`;
       const seed = new Set(fullCountryIds());
       const stubs = new Set(Object.keys(STUBS));
@@ -767,7 +771,7 @@ function renderBreadcrumb() {
   const cf = findCityFeature(citiesGeo, state.city);
   const bits = drillBreadcrumb({
     country: state.country,
-    countryName: c?.name,
+    countryName: c?.name || (state.country ? countryName(state.country) : undefined),
     admin1: state.admin1,
     admin1Name: af?.properties?.name,
     city: state.city,
@@ -878,10 +882,10 @@ function renderMindMap(c) {
           <div class="overlay-kicker">Industry mind map</div>
           <h2>${escapeHtml(c.name)} ${protoBadge()}</h2>
           ${protoNote()}
-          <p class="overlay-hint">Primary industries for this country. Click a node for upstream → midstream → downstream players. Single-click on the atlas opens the country desk; double-click / long-press opens this mind map.</p>
+          <p class="overlay-hint">Primary industries for this country. Click a node for upstream → midstream → downstream players. Single-click on the map opens the country panel; double-click / long-press opens this mind map.</p>
         </div>
         <div class="overlay-actions">
-          <button type="button" class="btn-ghost" data-to-desk>Country desk</button>
+          <button type="button" class="btn-ghost" data-to-desk>Country panel</button>
           <button type="button" class="btn-primary" data-close-overlay>Close</button>
         </div>
       </div>
@@ -906,7 +910,7 @@ function renderChain(c) {
       <button type="button" class="player-card" data-company="${p.id}">
         <div class="player-name">${escapeHtml(p.name)}</div>
         <div class="player-role">${escapeHtml(p.role)}</div>
-        <div class="player-go">Company desk →</div>
+        <div class="player-go">Company profile →</div>
       </button>`).join('');
     return `
       <div class="chain-col">
@@ -922,11 +926,11 @@ function renderChain(c) {
           <div class="overlay-kicker">Value chain${chain.stub ? ' · stub' : ''}</div>
           <h2>${escapeHtml(c.name)} · ${escapeHtml(chain.label)} ${protoBadge()}</h2>
           ${protoNote()}
-          <p class="overlay-hint">Upstream (inputs) → midstream (processing / transmission) → downstream (demand). Click a company for its prototype desk. All company names are invented.</p>
+          <p class="overlay-hint">Upstream (inputs) → midstream (processing / transmission) → downstream (demand). Click a company for its prototype profile. All company names are invented.</p>
         </div>
         <div class="overlay-actions">
           <button type="button" class="btn-ghost" data-back-mindmap>Mind map</button>
-          <button type="button" class="btn-ghost" data-to-desk>Country desk</button>
+          <button type="button" class="btn-ghost" data-to-desk>Country panel</button>
           <button type="button" class="btn-primary" data-close-overlay>Close</button>
         </div>
       </div>
@@ -955,7 +959,7 @@ function renderCompanyDesk(c) {
     <div class="overlay-panel company-panel">
       <div class="overlay-head">
         <div>
-          <div class="overlay-kicker">Company desk${co.stub ? ' · stub' : ''}</div>
+          <div class="overlay-kicker">Company profile${co.stub ? ' · stub' : ''}</div>
           <h2>${escapeHtml(co.name)} ${protoBadge()}</h2>
           ${protoNote()}
           <p class="snapshot">${escapeHtml(co.role)} · ${escapeHtml(co.stage)} · ${escapeHtml(co.countryName)} · ${escapeHtml(co.sectorLabel)}</p>
@@ -1027,7 +1031,7 @@ function protoNote() {
   return `<p class="proto-note">${escapeHtml(PROTOTYPE.note)}</p>`;
 }
 
-/* ---------- US desks (sourced record) ---------- */
+/* ---------- Indicators (sourced record; internal id: desks) ---------- */
 function renderDesks() {
   const active = DESKS.find((d) => d.id === state.desk) || DESKS[2];
   const tabs = DESKS.map((d) => {
@@ -1045,7 +1049,7 @@ function renderDesks() {
     <div class="overlay-panel desks-panel">
       <div class="overlay-head">
         <div>
-          <div class="overlay-kicker">US desks · sourced record</div>
+          <div class="overlay-kicker">Indicators · United States series · sourced record</div>
           <h2>${escapeHtml(active.title)}</h2>
           <p class="overlay-hint">${escapeHtml(active.scope)}</p>
         </div>
@@ -1053,7 +1057,7 @@ function renderDesks() {
           <button type="button" class="btn-primary" data-close-overlay>Close</button>
         </div>
       </div>
-      <div class="desk-tabs" role="tablist" aria-label="US desks">${tabs}</div>
+      <div class="desk-tabs" role="tablist" aria-label="Indicators">${tabs}</div>
       <div class="desk-body">
         ${body}
         <dl class="desk-spec">
@@ -1136,10 +1140,10 @@ function renderHomeDesks() {
       </button>`;
   }).join('');
   return `
-    <section class="home-desks" aria-label="US desks">
+    <section class="home-desks" aria-label="Indicators">
       <div class="home-head">
-        <h2>US desks</h2>
-        <span class="home-sub">Sourced record · source, as-of date and revision note on every line</span>
+        <h2>Indicators</h2>
+        <span class="home-sub">United States series for now · source, as-of date and revision note on every line</span>
       </div>
       <div class="desk-tiles">${tiles}</div>
     </section>`;
@@ -1225,7 +1229,7 @@ function renderLeadershipAccordion() {
   });
   const hasDrill = admin1Countries.has(state.country);
   const finerNote = !hasDrill
-    ? `<p class="lead-finer-note">Finer map coming — state-equivalent borders not seeded for this country yet. Country desk still works.</p>`
+    ? `<p class="lead-finer-note">Finer map coming — state-equivalent borders not seeded for this country yet. The country panel still works.</p>`
     : '';
 
   if (!stack.length) {
@@ -1259,7 +1263,7 @@ function renderLeadershipAccordion() {
     <details class="leadership-acc">
       <summary>Leadership <span class="tier-tag">${focusTag}</span></summary>
       <div class="leadership-body">
-        <p class="section-note">Public sites, switchboards and forms only, never private phones. Verified entries list an official source and as-of date; unverified seats say source pending. SAMPLE / ESTIMATE badges remain only on unverified summary rows. Response times are shown only where a published source exists. Country-level rosters stay on the country desk; state drill shows that state's public channels.</p>
+        <p class="section-note">Public sites, switchboards and forms only, never private phones. Verified entries list an official source and as-of date; unverified seats say source pending. SAMPLE / ESTIMATE badges remain only on unverified summary rows. Response times are shown only where a published source exists. Country-level rosters stay on the country panel; state drill shows that state's public channels.</p>
         ${finerNote}
         ${levels}
       </div>
@@ -1270,19 +1274,38 @@ function renderLeadershipAccordion() {
 function renderPanel() {
   const root = $('#country-panel');
   const c = getCountry(state.country);
+  if (!c && state.country) {
+    // Any map country without an example profile: sourced pieces only.
+    const af = findAdminFeature(admin1Geo, state.admin1);
+    const cf = findCityFeature(citiesGeo, state.city);
+    const name = countryName(state.country);
+    const areaLabel = [name, af?.properties?.name, cf ? String(cf.properties.name).replace(/\s+/g, ' ') : null].filter(Boolean).join(' · ');
+    const drillHint = admin1Countries.has(state.country)
+      ? 'Drill: World → Country → State equivalent → City.'
+      : 'Finer map coming for this country.';
+    root.innerHTML = `
+      <div class="country-head">
+        <h2>${escapeHtml(areaLabel)}</h2>
+        ${renderWorldMacro(state.country)}
+        <p class="section-note">No example profile for this country. Official macro figures (where published), leadership channels and the news column follow this selection.</p>
+        ${renderLeadershipAccordion()}
+        <div class="desk-actions"><span class="desk-hint">${escapeHtml(drillHint)}</span></div>
+      </div>`;
+    return;
+  }
   if (!c) {
     root.innerHTML = `
       <div class="panel-home">
-        ${renderHomeDesks()}
-        <section class="home-index" aria-label="World index">
+        <section class="home-index" aria-label="World">
           <div class="home-head">
-            <h2>World index</h2>
-            <span class="home-sub">Free atlas · same treatment for every country</span>
+            <h2>World</h2>
+            <span class="home-sub">Same treatment for every country</span>
           </div>
-          <p class="home-help">Click a country for its desk; double-click or long-press for the industry mind map. Drill World → Country → State equivalent → City. Zoom with wheel, pinch or the +/− controls.</p>
-          <div class="proto-callout">${protoBadge()}<span>Country scores, snapshots and country-desk tabs are example data for UX testing and are tagged where they appear. World Bank macro figures, leadership panels and the US desks above are sourced.</span></div>
+          <p class="home-help">Zoom from the whole world to a country, state equivalent or city; the panels and the news column follow your selection. Click a country to focus on it; double-click or long-press for the industry mind map. Zoom with wheel, pinch or the +/− controls.</p>
+          <div class="proto-callout">${protoBadge()}<span>Country scores, snapshots and country-profile tabs are example data for UX testing and are tagged where they appear. World Bank macro figures, leadership panels, the news column and the indicators are sourced.</span></div>
           <div class="seed-list" id="seed-chips"></div>
         </section>
+        ${renderHomeDesks()}
       </div>`;
     const box = $('#seed-chips');
     for (const id of fullCountryIds()) {
@@ -1297,14 +1320,14 @@ function renderPanel() {
   }
 
   const m = c.metrics;
-  const tier = c.tier === 'full' ? 'example country desk' : 'example stub';
+  const tier = c.tier === 'full' ? 'example country profile' : 'example stub';
   let body = '';
   if (c.tier === 'stub') {
     body = `
-      <div class="block-label">Country desk ${exampleTag()}</div>
+      <div class="block-label">Country profile ${exampleTag()}</div>
       <div class="stub-note">
         <strong>${escapeHtml(c.name)}</strong> is a lighter prototype stub; its scores are illustrative example data.
-        Open the <strong>industry mind map</strong> for invented primary industries and light value-chain stubs, or open a fuller prototype desk below.
+        Open the <strong>industry mind map</strong> for invented primary industries and light value-chain stubs, or open a fuller prototype profile below.
       </div>
       <div class="tab-body">
         <p class="section-note">${escapeHtml(c.snapshot)}</p>
@@ -1312,7 +1335,7 @@ function renderPanel() {
       </div>`;
   } else {
     body = `
-      <div class="block-label">Country desk ${exampleTag()} <span class="block-label-note">${escapeHtml(tier)}: signals, industries and companies below are illustrative, not sourced</span></div>
+      <div class="block-label">Country profile ${exampleTag()} <span class="block-label-note">${escapeHtml(tier)}: signals, industries and companies below are illustrative, not sourced</span></div>
       <div class="tabs" role="tablist">
         ${TABS.map((t) => `<button type="button" class="tab ${state.tab === t ? 'active' : ''}" data-tab="${t}" role="tab">${escapeHtml(TAB_LABELS[t] || t)}</button>`).join('')}
       </div>
@@ -1334,7 +1357,7 @@ function renderPanel() {
   root.innerHTML = `
     <div class="country-head">
       <h2>${escapeHtml(areaLabel)}</h2>
-      ${c.id === 'us' ? `<div class="us-callout"><span>The sourced US record (Activity, People, Prices, Capital) lives in the US desks.</span><button type="button" class="btn-primary btn-inline" data-open-desk="prices">Open US desks</button></div>` : ''}
+      ${c.id === 'us' ? `<div class="us-callout"><span>Sourced indicators for the United States: activity, people, prices, capital.</span><button type="button" class="btn-primary btn-inline" data-open-desk="prices">Open indicators</button></div>` : ''}
       ${renderWorldMacro(c.id)}
       <p class="snapshot">${exampleTag()} ${escapeHtml(c.snapshot)}</p>
       <div class="block-label">Scores ${exampleTag()}</div>
@@ -1346,7 +1369,7 @@ function renderPanel() {
       ${renderLeadershipAccordion()}
       <div class="desk-actions">
         <button type="button" class="btn-primary" data-open-mindmap ${mmOk ? '' : 'disabled title="Mind map is country-level only"'}>Mind map</button>
-        <span class="desk-hint">Atlas: single-click = desk · double-click / long-press = mind map (country only). ${escapeHtml(drillHint)}</span>
+        <span class="desk-hint">Map: single-click = focus · double-click / long-press = mind map (country only). ${escapeHtml(drillHint)}</span>
       </div>
     </div>
     ${body}`;
@@ -1400,7 +1423,7 @@ function renderTab(c) {
         ${note ? `<div class="opening-card" style="margin-bottom:0.75rem"><div class="gap-label">Constraint note ${protoBadge('proto-badge-sm')}</div><h3>${escapeHtml(note.title.replace(/ frontier$/, ' constraint'))}</h3><p>${escapeHtml(note.gap)}</p><div class="horizon">${escapeHtml(note.horizon)}</div></div>` : ''}
         <div class="signal-list">${sigs.map(signalCard).join('') || '<p class="section-note">No sector signals in the prototype set.</p>'}</div>`;
     }
-    return `<p class="section-note">${protoBadge('proto-badge-sm')} Sectors for this prototype desk. Click to filter its invented signals, or open the <strong>Mind map</strong> for value chains.</p><div class="grid-cards">${cards}</div>${detail}`;
+    return `<p class="section-note">${protoBadge('proto-badge-sm')} Sectors for this prototype profile. Click to filter its invented signals, or open the <strong>Mind map</strong> for value chains.</p><div class="grid-cards">${cards}</div>${detail}`;
   }
   if (tab === 'regions') {
     const cards = (c.regions || []).map((r) => `
@@ -1415,7 +1438,7 @@ function renderTab(c) {
         <div class="filter-bar" style="margin-top:1rem"><span class="section-note" style="margin:0">Region drill · ${escapeHtml(state.region)}</span><button type="button" class="clear" data-clear>Clear</button></div>
         <div class="signal-list">${sigs.map(signalCard).join('') || '<p class="section-note">No regional signals in the prototype set.</p>'}</div>`;
     }
-    return `<p class="section-note">${protoBadge('proto-badge-sm')} Subregions for this prototype desk.</p><div class="grid-cards">${cards}</div>${detail}`;
+    return `<p class="section-note">${protoBadge('proto-badge-sm')} Subregions for this prototype profile.</p><div class="grid-cards">${cards}</div>${detail}`;
   }
   if (tab === 'openings') {
     const cards = (c.openings || []).map((o) => `
@@ -1459,8 +1482,10 @@ function wireTabInteractions(c, root) {
   });
 }
 
-/* ---------- Feed (US Progress soft launch) ---------- */
-let railStatus = 'all';
+/* ---------- News column: follows the selected map place ---------- */
+let railCategory = null;
+let railExpanded = false;
+let railPlaceKey = '';
 
 function liveItems() {
   return Array.isArray(liveFeed?.items) ? liveFeed.items : [];
@@ -1497,15 +1522,6 @@ function railLegend() {
   return `<p class="rail-legend"><span class="vbadge vb-confirmed">Confirmed</span> subject / official source confirmed · <span class="vbadge vb-multiple">Multiple sources</span> 2+ independent outlets, not yet confirmed · <span class="vbadge vb-unconfirmed">Unconfirmed</span> factual claim, one non-primary outlet · <span class="vbadge vb-analysis">Analysis</span> opinion / commentary / trend / explainer. Tap a badge for outlets.</p>`;
 }
 
-function railFilterBar(items) {
-  const counts = tierCounts(items);
-  const chip = (id, label, n) => `<button type="button" class="vfilter${railStatus === id ? ' active' : ''}${id !== 'all' ? ` vf-${id}` : ''}" data-vfilter="${id}" aria-pressed="${railStatus === id}">${escapeHtml(label)} <span class="vf-n">${n}</span></button>`;
-  return `<div class="vfilters" role="group" aria-label="Filter by verification status">
-    ${chip('all', 'All', items.length)}
-    ${STATUS_ORDER.map((st) => chip(st, STATUS_META[st].label, counts[st])).join('')}
-  </div>`;
-}
-
 function wireVerifyBadges(root) {
   $$('[data-vbadge]', root).forEach((btn) => {
     btn.addEventListener('click', (e) => {
@@ -1523,67 +1539,130 @@ function wireVerifyBadges(root) {
   });
 }
 
-function renderFeed() {
-  const feed = $('#feed');
-  const live = liveItems();
-  const filterId = state.country || null;
-  const sub = $('#rail-sub');
+/** Name lookups for World > Country > State equivalent > City. */
+function placeNames() {
+  return {
+    country: (id) => getCountry(id)?.name || countryName(id),
+    admin1: (id) => findAdminFeature(admin1Geo, id)?.properties?.name || id,
+    city: (id) => String(findCityFeature(citiesGeo, id)?.properties?.name || id).replace(/\s+/g, ' '),
+  };
+}
 
-  // Prefer REAL public RSS; fall back to SAMPLE global feed only if live empty
-  if (live.length) {
-    let items = live;
-    if (filterId === 'us') {
-      items = live.filter((i) => String(i.country || i.countryId || 'US').toUpperCase() === 'US' || i.countryId === 'us');
-    } else if (filterId && filterId !== 'us') {
-      // Soft launch is US-biased; other desks keep SAMPLE country feed in rail context
-      items = live.filter((i) => (i.countryId || '').toLowerCase() === filterId);
-      if (!items.length) items = live.slice(0, 24);
-    }
-    items = items.slice(0, 40);
-    const shown = filterByStatus(items, railStatus);
-    if (sub) {
-      const gen = liveFeed?.generatedAt ? ` · updated ${dateStampShort(liveFeed.generatedAt)}` : '';
-      sub.innerHTML = filterId === 'us'
-        ? `<strong>US</strong> · ${items.length} REAL links${gen} · not real-time`
-        : `Public RSS · ${items.length} REAL links${gen} · not real-time`;
-    }
-    feed.innerHTML = railFilterBar(items) + railLegend() + (shown.map((i) => `
-      <article class="feed-item is-live" data-real="1" data-vstatus="${escapeHtml(i.verification?.status || '')}">
+/** Where a story is filed, for the card's top line. */
+function storyPlace(i, names) {
+  const cs = i.loc?.countries || (i.countryId ? [i.countryId] : []);
+  if (!cs.length) return 'World';
+  const first = names.country(cs[0]);
+  return cs.length > 1 ? `${first} +${cs.length - 1}` : first;
+}
+
+function newsCard(i, names) {
+  const cat = categoryOf(i);
+  return `
+      <article class="feed-item is-live" data-real="1" data-vstatus="${escapeHtml(i.verification?.status || '')}" data-cat="${cat}">
         <div class="country">
-          <span>${escapeHtml(i.country || 'US')} · ${escapeHtml(i.source || '')}</span>
-          <span class="feed-badges">${verifyBadge(i, { pop: true })}<span class="badge-sm real">REAL</span></span>
+          <span>${escapeHtml(storyPlace(i, names))} · ${escapeHtml(i.source || '')}</span>
+          <span class="feed-badges">${verifyBadge(i, { pop: true })}</span>
         </div>
         <a class="title" href="${escapeHtml(i.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(i.title)}</a>
         <div class="meta">
           <span>${escapeHtml(i.publishedLabel || dateStampShort(i.published))}</span>
-          <span class="badge-sm kind">${escapeHtml(i.verification?.status === 'analysis' ? 'analysis' : 'news')}</span>
-          <span>s${Math.round(i.score || 0)}</span>
+          <span class="badge-sm kind">${escapeHtml(cat === 'general' ? (i.verification?.status === 'analysis' ? 'analysis' : 'news') : CATEGORY_LABELS[cat].toLowerCase())}</span>
         </div>
-      </article>`).join('') || `<p class="section-note" style="padding:0.5rem">${live.length ? 'No items with this status.' : 'No live items yet.'}</p>`);
-    $$('[data-vfilter]', feed).forEach((btn) => {
+      </article>`;
+}
+
+function railCategoryChips(col) {
+  const chip = (id, label, n) => `<button type="button" class="ncat${(railCategory || 'all') === id ? ' active' : ''}" data-ncat="${id}" aria-pressed="${(railCategory || 'all') === id}">${escapeHtml(label)} <span class="vf-n">${n}</span></button>`;
+  return `<div class="ncats" role="group" aria-label="Filter by topic">
+    ${chip('all', 'All', col.counts.all)}
+    ${CATEGORIES.map((c) => chip(c, CATEGORY_LABELS[c], col.counts[c])).join('')}
+  </div>`;
+}
+
+/** Breadcrumb for the column header: World › United States › Texas. */
+function railPath(place, names) {
+  const bits = [];
+  let p = place;
+  while (p) { bits.unshift(placeLabel(p, names)); p = parentPlace(p); }
+  return bits.length > 1 ? bits.slice(0, -1).join(' › ') + ' ›' : '';
+}
+
+function renderFeed() {
+  const feed = $('#feed');
+  if (!feed) return;
+  const live = liveItems();
+  const sub = $('#rail-sub');
+  const title = $('#rail-title');
+  const level = $('#rail-level');
+  const path = $('#rail-path');
+  const place = placeOf(state);
+  const key = `${place.level}|${place.country || ''}|${place.admin1 || ''}|${place.city || ''}`;
+  if (key !== railPlaceKey) { railPlaceKey = key; railExpanded = false; }
+  const names = placeNames();
+  const label = placeLabel(place, names);
+  if (title) title.textContent = label;
+  if (level) level.textContent = LEVEL_NAMES[place.level];
+  if (path) path.textContent = railPath(place, names);
+  $('.rail')?.setAttribute('aria-label', `News: ${label}`);
+
+  if (live.length) {
+    const col = buildColumn(live, place, { names, category: railCategory });
+    if (sub) {
+      const gen = liveFeed?.generatedAt ? ` · updated ${dateStampShort(liveFeed.generatedAt)}` : '';
+      sub.textContent = `Top stories · ${col.counts.all} tagged here${gen} · not real-time`;
+    }
+    const cards = (list) => list.map((i) => newsCard(i, names)).join('');
+    let body = '';
+    if (railExpanded) {
+      const all = rankedForPlace(live, place, { category: railCategory }).slice(0, 30);
+      body = cards(all) + `<button type="button" class="feed-more-btn" data-feed-less>Show top stories only</button>`;
+    } else {
+      if (col.emptyText) body += `<p class="feed-note" data-feed-empty>${escapeHtml(col.emptyText)}</p>`;
+      body += cards(col.primary);
+      if (col.fewText) body += `<p class="feed-note">${escapeHtml(col.fewText)}</p>`;
+      for (const g of col.more) {
+        body += `<h3 class="feed-more-h" data-more-level="${g.level}">${escapeHtml(g.label)}</h3>` + cards(g.items);
+      }
+      if (col.total > col.primary.length) {
+        body += `<button type="button" class="feed-more-btn" data-feed-more>Show all ${Math.min(col.total, 30)} stories for ${escapeHtml(label)}</button>`;
+      }
+    }
+    feed.innerHTML = railCategoryChips(col) + body
+      + `<details class="rail-legend-wrap"><summary>What the badges mean</summary>${railLegend()}</details>`;
+    $$('[data-ncat]', feed).forEach((btn) => {
       btn.addEventListener('click', () => {
-        railStatus = btn.dataset.vfilter;
+        railCategory = btn.dataset.ncat === 'all' ? null : btn.dataset.ncat;
+        railExpanded = false;
         renderFeed();
       });
     });
+    $('[data-feed-more]', feed)?.addEventListener('click', () => { railExpanded = true; renderFeed(); });
+    $('[data-feed-less]', feed)?.addEventListener('click', () => { railExpanded = false; renderFeed(); });
     wireVerifyBadges(feed);
     return;
   }
 
-  // Fallback SAMPLE
+  if (liveFeed === null) {
+    if (sub) sub.textContent = 'Loading stories…';
+    feed.innerHTML = '';
+    return;
+  }
+  // Fallback SAMPLE (live file missing)
   let items = globalFeed(30);
+  const filterId = state.country || null;
   if (filterId && COUNTRIES[filterId]) items = items.filter((i) => i.countryId === filterId);
   if (sub) {
     sub.textContent = filterId
-      ? `Filtered to ${COUNTRIES[filterId]?.name || filterId} · PROTOTYPE fallback`
-      : 'PROTOTYPE fallback · live RSS not loaded';
+      ? `Filtered to ${COUNTRIES[filterId]?.name || countryName(filterId)} · PROTOTYPE fallback`
+      : 'PROTOTYPE fallback · live news not loaded';
   }
   feed.innerHTML = items.map((i) => `
     <article class="feed-item" data-c="${i.countryId}">
       <div class="country"><span>${escapeHtml(i.countryName)}</span>${verifyBadge({ verification: { status: 'sample' } })}</div>
       <div class="title">${escapeHtml(i.title)}</div>
       <div class="meta"><span>${escapeHtml(i.date)}</span><span>w${i.weight}</span></div>
-    </article>`).join('') || '<p class="section-note" style="padding:0.5rem">No feed items.</p>';
+    </article>`).join('') || '<p class="feed-note">No stories to show.</p>';
   $$('.feed-item', feed).forEach((el) => {
     el.addEventListener('click', () => navigate({ country: el.dataset.c, view: 'desk', tab: 'signals', sector: null, region: null, company: null }));
   });

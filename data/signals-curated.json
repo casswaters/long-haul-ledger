@@ -14,6 +14,7 @@
       "kind": "hard-news",
       "published": "2026-10-06T14:00:00Z",
       "country": "US",
+      "location": { "countries": ["us"], "admin1": ["us-md"], "cities": ["us-city-baltimore"] },
       "tags": ["defense", "manufacturing", "shipbuilding"],
       "blurb": "Anduril commits $3.7B of private capital to Arsenal-2 at Tradepoint Atlantic (Sparrows Point, Baltimore County); the Navy awards a contract worth up to $2.9B tied to production outcomes. About 3,100 direct jobs; initial operations targeted for 2030.",
       "status": "confirmed",

@@ -3,8 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Long Haul Ledger · US industrial ledger</title>
-  <meta name="description" content="A sourced record of what moved in US industry, with a world index. Free atlas, US desks (Activity, People, Prices, Capital). Not investment advice; not real-time." />
+  <title>Long Haul Ledger · Economic activity at every scale</title>
+  <meta name="description" content="Economic activity at every scale, from the world to your city. Zoom from the whole world to a country, state equivalent or city; the news column and panels follow your selection. Sourced indicators, news with verification tiers. Not investment advice; not real-time." />
+  <meta property="og:title" content="Long Haul Ledger" />
+  <meta property="og:description" content="Economic activity at every scale, from the world to your city. Zoom from the whole world to a country, state equivalent or city." />
+  <meta property="og:type" content="website" />
   <meta name="theme-color" content="#0f1215" />
   <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,30 +22,29 @@
       <div class="brand">
         <div class="brand-row">
           <h1 class="brand-title">Long Haul Ledger</h1>
-          <span class="brand-kicker">US industrial ledger · free world atlas</span>
         </div>
-        <p class="brand-tagline">A sourced record of what moved in US industry, with a world index.</p>
+        <p class="brand-tagline">Economic activity at every scale, from the world to your city.</p>
       </div>
       <nav class="header-nav" aria-label="Sections">
-        <a class="hnav hnav-primary" href="#d=prices" id="nav-desks">US desks</a>
+        <a class="hnav hnav-primary" href="#d=prices" id="nav-desks">Indicators</a>
         <a class="hnav" href="#about" id="nav-method">Method</a>
       </nav>
       <div class="header-meta">
-        <span class="proto-badge" title="Country metrics, value chains, company desks and constraints are example data for UX testing. Not sourced; not part of any subscription.">PROTOTYPE desks</span>
+        <span class="proto-badge" title="Country metrics, value chains, company profiles and constraints are example data for UX testing. Not sourced.">PROTOTYPE data</span>
         <time class="date-stamp" id="date-stamp">—</time>
       </div>
     </header>
 
     <div class="main">
-      <section class="map-stage" aria-label="World index atlas">
-        <div class="map-label" id="map-label" aria-label="Atlas navigation legend">
+      <section class="map-stage" aria-label="World map">
+        <div class="map-label" id="map-label" aria-label="Map navigation legend">
           <button type="button" class="map-label-toggle" id="map-label-toggle" aria-expanded="false" aria-controls="map-label-tips" title="Atlas tips">
             <span class="map-label-toggle-icon" aria-hidden="true">i</span>
             <span class="map-label-toggle-text">Atlas</span>
           </button>
           <div class="map-label-body" id="map-label-tips">
-            <div class="map-label-title">World index</div>
-            <div>click → desk</div>
+            <div class="map-label-title">Map</div>
+            <div>click → focus panels + news</div>
             <div>dbl-click / long-press → mind map</div>
             <div class="map-label-note">mind map: country level only</div>
             <div>World → Country → State equivalent → City</div>
@@ -58,16 +60,17 @@
         <div id="world-map-host"></div>
       </section>
 
-      <section class="panel" aria-label="Country details">
+      <section class="panel" aria-label="Place details">
         <div class="panel-body" id="country-panel" aria-live="polite"></div>
         <div class="panel-dollar" id="panel-dollar" aria-hidden="true"><span class="panel-dollar-glyph"><span class="dollar-spin">$</span></span></div>
       </section>
 
-      <aside class="rail" aria-label="US Progress feed">
+      <aside class="rail" aria-label="News for the selected place">
         <div class="rail-dollar" aria-hidden="true"><span class="rail-dollar-glyph"><span class="dollar-spin">$</span></span></div>
         <div class="rail-head">
-          <h2>US Progress</h2>
-          <div class="sub" id="rail-sub">Public RSS · outbound links · refreshed about every 6 h</div>
+          <div class="rail-path" id="rail-path"></div>
+          <div class="rail-title-row"><h2 id="rail-title">World</h2><span class="rail-level" id="rail-level">World</span></div>
+          <div class="sub" id="rail-sub">Top stories for the selected place · refreshed about every 6 h</div>
         </div>
         <div class="feed" id="feed"></div>
       </aside>
@@ -81,18 +84,19 @@
         <section>
           <h2>Method</h2>
           <p id="about-text"></p>
-          <p>Desk rules: a line appears only with a source link, an as-of date and a revision note. When a value changes, the old line stays visible in the history, struck through. Values are copied from the source, never typed from memory. Price lines carry the source's own as-of date and publication lag.</p>
+          <p>Record rules: a line appears only with a source link, an as-of date and a revision note. When a value changes, the old line stays visible in the history, struck through. Values are copied from the source, never typed from memory. Price lines carry the source's own as-of date and publication lag.</p>
         </section>
         <section>
           <h2>Disclaimers</h2>
           <p class="disclaimer"><strong>Not investment advice.</strong> A record of public information, not a recommendation to buy, sell or build.</p>
-          <p class="disclaimer"><strong>No real-time coverage.</strong> The rail refreshes about every 6 hours; desks change only when a sourced change lands; public series publish with a lag.</p>
-          <p class="disclaimer"><span class="proto-badge proto-badge-sm">PROTOTYPE</span> marks example data for UX testing: fiction, not sourced, not part of any desk or subscription.</p>
-          <p class="haul-note">Monday Haul, coming soon. A one-page weekly summary of the four US desks. No sign-up yet.</p>
+          <p class="disclaimer"><strong>No real-time coverage.</strong> The news column refreshes about every 6 hours; indicators change only when a sourced change lands; public series publish with a lag.</p>
+          <p class="disclaimer"><strong>News locations are automatic.</strong> Each story is filed to the places its headline and summary name (World › Country › State equivalent › City), or to the outlet's home country when it names none. Tags can be wrong; every story links to its source.</p>
+          <p class="disclaimer"><span class="proto-badge proto-badge-sm">PROTOTYPE</span> marks example data for UX testing: fiction, not sourced.</p>
+          <p class="haul-note">Monday Haul, coming soon. A one-page weekly summary. No sign-up yet.</p>
         </section>
       </div>
       <p class="credits">
-        World map paths: Natural Earth via VectorAtlas (CC BY 4.0). State-equivalent overlays: Natural Earth worldwide (cities appear only after a state equivalent is chosen); Alaska and Hawaii are framed insets in the US drill. Price series: U.S. Energy Information Administration, retrieved via FRED (Federal Reserve Bank of St. Louis). Leadership lists public channels only; SAMPLE / ESTIMATE marks unverified fields. Some feeds may 403 intermittently.
+        World map paths: Natural Earth via VectorAtlas (CC BY 4.0). State-equivalent overlays: Natural Earth worldwide (cities appear only after a state equivalent is chosen); Alaska and Hawaii are framed insets in the US drill. Price series: U.S. Energy Information Administration, retrieved via FRED (Federal Reserve Bank of St. Louis). News: headlines and links from the public RSS/Atom feeds of the outlets named on each story, plus the GDELT Project DOC 2.0 API; each story links to its source. Leadership lists public channels only; SAMPLE / ESTIMATE marks unverified fields. Some feeds may fail intermittently.
       </p>
     </footer>
   </div>
