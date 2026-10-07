@@ -1,5 +1,5 @@
-/* Long Haul Ledger service worker — network-first app shell (long-haul-ledger-v14) */
-const CACHE = 'long-haul-ledger-v14';
+/* Long Haul Ledger service worker — network-first app shell (long-haul-ledger-v15) */
+const CACHE = 'long-haul-ledger-v15';
 const ASSETS = [
   './',
   './index.html',
@@ -11,6 +11,9 @@ const ASSETS = [
   './chains.js',
   './geo.js',
   './leadership.js',
+  './stats.js',
+  './data/stats/us.json',
+  './data/stats/world.json',
   './labels.js',
   './verify.js',
   './desks.js',

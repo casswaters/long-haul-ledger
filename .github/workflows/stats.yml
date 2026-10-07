@@ -1,0 +1,69 @@
+# Official stats pipeline — free GitHub Actions only ($0, no API keys).
+# Daily: FRED graph CSV series (prices, activity, capital). Weekly: World Bank WDI per country.
+# A failed series keeps its last good value (flagged) and is logged; files change only on new data.
+name: Official stats
+
+on:
+  schedule:
+    # 14:20 UTC (after US morning releases land on FRED) and 22:20 UTC (late EIA/H.10 postings)
+    - cron: '20 14,22 * * *'
+    # Weekly World Bank refresh, Monday 06:40 UTC (annual data; weekly is plenty)
+    - cron: '40 6 * * 1'
+  workflow_dispatch:
+    inputs:
+      worldbank:
+        description: 'Also refresh World Bank indicators'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ledger-publish
+  cancel-in-progress: false
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: FRED series → data/stats/us.json
+        run: node scripts/fetch-stats.mjs fred
+
+      - name: World Bank → data/stats/world.json (weekly / manual)
+        if: github.event.schedule == '40 6 * * 1' || (github.event_name == 'workflow_dispatch' && inputs.worldbank)
+        run: node scripts/fetch-stats.mjs worldbank
+
+      - name: Tests
+        run: npm test
+
+      - name: Commit data
+        id: commit
+        run: |
+          if git diff --quiet -- data/stats; then echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/stats
+          git commit -m "chore: refresh official stats ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git pull --rebase origin ${{ github.ref_name }}
+          git push origin HEAD:${{ github.ref_name }}
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy Pages (gh-pages)
+        if: github.ref == 'refs/heads/main' && (steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch')
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          publish_branch: gh-pages
+          force_orphan: false
+          exclude_assets: '.github,node_modules,scripts,.gitignore,package-lock.json,shots.mjs,qa-retone.mjs,ledger.test.js,BUILD-PLAN.md'
+          commit_message: 'Deploy official stats'

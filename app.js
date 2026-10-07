@@ -1,3 +1,4 @@
+import { sparkSvg, fmtNum, fmtMoney, isStale as isStatStale, WB_INDICATORS } from './stats.js';
 import {
   META, COUNTRIES, STUBS, getCountry, fullCountryIds, globalFeed,
   filterSignals, opportunityNote, metricLabel,
@@ -47,6 +48,9 @@ const state = {
 
 /** @type {any} Prices desk (data/desks/prices.json) */
 let pricesDesk = null;
+/** @type {any} Official stats (data/stats/us.json, world.json) */
+let statsUs = null;
+let statsWorld = null;
 
 /** @type {any} */
 let admin1Geo = null;
@@ -1024,12 +1028,13 @@ function protoNote() {
 function renderDesks() {
   const active = DESKS.find((d) => d.id === state.desk) || DESKS[2];
   const tabs = DESKS.map((d) => {
-    const st = deskStatus(d.id, pricesDesk);
+    const st = deskStatusAll(d.id);
     return `<button type="button" class="desk-tab${d.id === active.id ? ' active' : ''}" data-desk-tab="${d.id}" role="tab" aria-selected="${d.id === active.id}">
       <span class="desk-tab-name">${escapeHtml(d.title)}</span><span class="desk-tab-n${st.count ? '' : ' is-zero'}">${st.count}</span></button>`;
   }).join('');
   const recs = active.id === 'prices' ? renderableRecords(pricesDesk) : [];
-  const body = recs.length ? renderPriceTable(recs) : renderDeskEmpty(active);
+  const statRecs = statsFor(active.id);
+  const body = (recs.length ? renderPriceTable(recs) : '') + renderStatsTable(statRecs) || renderDeskEmpty(active);
   const sources = active.sources.map((src) => `<li><a href="${escapeHtml(src.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(src.name)}</a></li>`).join('');
   const planned = active.planned?.length
     ? `<dt>Planned, not wired</dt><dd><ul>${active.planned.map((x) => `<li>${escapeHtml(x)}</li>`).join('')}</ul></dd>` : '';
@@ -1114,11 +1119,12 @@ function renderPriceTable(recs) {
 
 function renderHomeDesks() {
   const tiles = DESKS.map((d) => {
-    const st = deskStatus(d.id, pricesDesk);
+    const st = deskStatusAll(d.id);
     const lines = d.id === 'prices'
       ? renderableRecords(pricesDesk).map((r) => `
           <div class="tile-line"><span class="tl-name">${escapeHtml(r.title.split(',')[0].replace(' natural gas spot', ''))}</span><span class="tl-val">${escapeHtml(formatValue(r.current.value, r.id))}</span><span class="tl-unit">${escapeHtml(r.current.unit)}</span><span class="tl-asof">${escapeHtml(r.current.asOf)}</span></div>`).join('')
-      : '';
+      : statsFor(d.id).slice(0, 3).map((r) => `
+          <div class="tile-line"><span class="tl-name">${escapeHtml(shortLabel(r.title))}</span><span class="tl-val">${escapeHtml(fmtNum(r.value, r.decimals))}</span><span class="tl-unit">${escapeHtml(r.unit)}</span><span class="tl-asof">${escapeHtml(r.asOf)}</span></div>`).join('');
     return `
       <button type="button" class="desk-tile${st.count ? '' : ' is-empty'}" data-open-desk="${d.id}">
         <span class="tile-top"><span class="tile-name">${escapeHtml(d.title)}</span><span class="tile-count">${st.count}</span></span>
@@ -1326,6 +1332,7 @@ function renderPanel() {
       ${protoNote()}
       ${c.id === 'us' ? `<div class="us-callout"><span>The sourced US record (Activity, People, Prices, Capital) lives in the US desks.</span><button type="button" class="btn-primary btn-inline" data-open-desk="prices">Open US desks</button></div>` : ''}
       <p class="snapshot">${escapeHtml(c.snapshot)}</p>
+      ${renderWorldMacro(c.id)}
       <div class="metrics" aria-label="Prototype scores, example data">
         <div class="metric is-proto"><div class="label">Stability <span class="metric-unit">score 0–100</span></div><div class="value">${m.stability}</div><div class="hint">${metricLabel(m.stability)} · example</div></div>
         <div class="metric is-proto"><div class="label">Build pressure <span class="metric-unit">score 0–100</span></div><div class="value">${m.frontierPressure}</div><div class="hint">${metricLabel(m.frontierPressure)} · example</div></div>
@@ -1584,6 +1591,66 @@ function dateStampShort(iso) {
   return `${months[d.getMonth()]} ${d.getDate()}`;
 }
 
+async function loadStats() {
+  const get = async (p) => { try { const r = await fetch(p, { cache: 'no-store' }); return r.ok ? await r.json() : null; } catch { return null; } };
+  [statsUs, statsWorld] = await Promise.all([get('./data/stats/us.json'), get('./data/stats/world.json')]);
+  if (state.country) renderPanel(); else renderPanel();
+  if (state.desk) renderOverlay();
+}
+
+function deskStatusAll(id) {
+  const base = deskStatus(id, pricesDesk);
+  const extra = statsFor(id);
+  if (!extra.length) return base;
+  const n = base.count + extra.length;
+  const latest = [...extra.map((r) => r.asOf), ...(base.count ? [base.text.split('latest ')[1]] : [])].filter(Boolean).sort().pop();
+  return { count: n, text: `${n} sourced lines · latest ${latest}` };
+}
+
+function statsFor(deskId) {
+  return (statsUs?.series || []).filter((r) => r.desk === deskId && Number.isFinite(r.value));
+}
+
+const CADENCE = { daily: 'daily', weekly: 'weekly', monthly: 'monthly' };
+function renderStatsTable(recs) {
+  if (!recs.length) return '';
+  const now = new Date();
+  const rows = recs.map((r) => {
+    const stale = isStatStale(r, now) ? `<span class="stale-flag" title="Older than this series' normal cadence">stale</span>` : '';
+    const err = r.lastError ? `<span class="stale-flag" title="Last refresh failed (${escapeHtml(r.lastError)}); showing last good value">last good</span>` : '';
+    const prior = r.prior ? `${escapeHtml(fmtNum(r.prior.value, r.decimals))} <span class="prior-date">${escapeHtml(r.prior.asOf)}</span>` : '—';
+    const yoy = Number.isFinite(r.yoy) ? `<span class="stat-yoy">${r.yoy > 0 ? '+' : ''}${r.yoy.toFixed(1)}% y/y</span>` : '';
+    return `<tr class="ledger-row stat-row">
+      <th scope="row" data-label="Series"><span class="cell">${escapeHtml(r.title)}${r.caveat ? `<span class="stat-caveat">${escapeHtml(r.caveat)}</span>` : ''}</span></th>
+      <td class="num" data-label="Value"><span class="cell">${escapeHtml(fmtNum(r.value, r.decimals))} ${yoy}</span></td>
+      <td data-label="Unit"><span class="cell">${escapeHtml(r.unit)}</span></td>
+      <td class="num" data-label="As of"><span class="cell">${escapeHtml(r.asOf)} <span class="stat-cad">${escapeHtml(CADENCE[r.frequency] || r.frequency)}</span> ${stale}${err}</span></td>
+      <td class="num prior" data-label="Prior"><span class="cell">${prior}</span></td>
+      <td class="spark-cell" data-label="Trend"><span class="cell">${sparkSvg(r.spark)}</span></td>
+      <td data-label="Source"><span class="cell"><a href="${escapeHtml(r.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.sourceName)}</a></span></td>
+    </tr>`;
+  }).join('');
+  return `
+    <h3 class="stats-head">Official series <span class="tier-tag">auto-refreshed</span></h3>
+    <table class="ledger-table stats-table">
+      <thead><tr><th scope="col">Series</th><th scope="col" class="num">Value</th><th scope="col">Unit</th><th scope="col" class="num">As of</th><th scope="col" class="num">Prior</th><th scope="col">Trend</th><th scope="col">Source</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+    <p class="desk-note">Each series keeps its source cadence (daily, weekly or monthly). Trend line: last ~12 months of daily data or 24 monthly readings. Refreshed by the site's GitHub Action from FRED graph CSV (no key)${statsUs?.generatedAt ? `, last run ${escapeHtml(statsUs.generatedAt.slice(0, 16).replace('T', ' '))} UTC` : ''}.</p>`;
+}
+
+function renderWorldMacro(iso2) {
+  const c = statsWorld?.countries?.[iso2];
+  if (!c) return '';
+  const cells = WB_INDICATORS.map((ind) => {
+    const v = c[ind.id];
+    if (!v) return `<div class="macro-cell"><div class="label">${escapeHtml(ind.title)}</div><div class="value ink-mute">—</div><div class="hint">no recent data</div></div>`;
+    const val = ind.kind === 'money' ? fmtMoney(v.value) : `${fmtNum(v.value, 1)}%`;
+    return `<div class="macro-cell"><div class="label">${escapeHtml(ind.title)} <span class="metric-unit">${escapeHtml(ind.unit)}</span></div><div class="value">${escapeHtml(val)}</div><div class="hint"><a href="${escapeHtml(v.sourceUrl)}" target="_blank" rel="noopener noreferrer">World Bank</a> · ${escapeHtml(v.year)}</div></div>`;
+  }).join('');
+  return `<section class="macro-strip" aria-label="Official macro indicators"><div class="macro-head">Official macro <span class="tier-tag">World Bank · annual</span></div><div class="macro-grid">${cells}</div></section>`;
+}
+
 async function loadPricesDesk() {
   try {
     const res = await fetch('./data/desks/prices.json', { cache: 'no-store' });
@@ -1693,6 +1760,7 @@ function boot() {
     }
   });
   loadPricesDesk();
+  loadStats();
   loadGeoAndLeadership()
     .then(() => loadMap())
     .then(() => applyHash());

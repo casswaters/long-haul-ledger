@@ -11,8 +11,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: soft-launch-us-progress
-  cancel-in-progress: true
+  group: ledger-publish
+  cancel-in-progress: false
 
 jobs:
   fetch-and-deploy:
@@ -53,6 +53,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/signals-live.json data/desks/prices.json
           git commit -m "chore: refresh US Progress signals + Prices desk ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git pull --rebase origin ${{ github.ref_name }}
           git push origin HEAD:${{ github.ref_name }}
 
       - name: Deploy Pages (gh-pages)

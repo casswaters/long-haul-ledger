@@ -59,8 +59,6 @@ export const DESKS = [
     ],
     planned: [
       'Uranium (IMF via FRED PURANUSDM, monthly, lagged)',
-      'Copper (IMF via FRED PCOPPUSDM, monthly, lagged)',
-      'HRC steel (PPI proxy WPU1017, not an HRC price)',
       'Regional power, PJM West (EIA/ICE wholesale, biweekly)',
     ],
   },
