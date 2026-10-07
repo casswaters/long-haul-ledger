@@ -3,9 +3,9 @@
   "version": "0.4.0",
   "private": true,
   "type": "module",
-  "description": "Long Haul Ledger — US industrial ledger: free world atlas, US Progress rail, US desks (Prices sample wired)",
+  "description": "Long Haul Ledger — economic activity at every scale, from the world to your city",
   "scripts": {
-    "test": "node ledger.test.js && node stats.test.mjs",
+    "test": "node ledger.test.js && node stats.test.mjs && node location.test.mjs",
     "fetch": "node scripts/fetch-signals.mjs",
     "fetch:prices": "node scripts/fetch-prices.mjs",
     "shots": "node shots.mjs",

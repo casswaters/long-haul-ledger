@@ -13,12 +13,23 @@ This file stays on `main` only (excluded from the Pages site).
    - `title` (≤240 chars), a canonical `url` (prefer the primary source) and `source`;
    - `published` (when the story was published) and `addedAt` (now), both ISO-8601 UTC;
    - `country` and a 1–2 sentence factual `blurb`;
+   - optionally `location` (see step 4a) so the story shows at the right map level;
    - `status`, `sources[]` (each `{ "name", "url", "primary", "published" }`), and a `note` saying why;
    - in `aliases[]`, the URL of any feed copy of the same story, so it is replaced rather than duplicated.
 4. To correct the tier of a story already in the feed, append an entry to `overrides[]`.
    Match by the item's exact `url` (`"match": { "url": "…" }`), or by its `id` from
    `data/signals-live.json` (`"match": { "id": "live-…" }`). Include `status`, `sources[]`
    (required for confirmed or multiple), `note` and `addedAt`.
+4a. Location (optional, on `add[]` or `overrides[]`): the news column follows the selected map place
+   (World › Country › State equivalent › City). The pipeline tags stories automatically (`locate.js`);
+   set `location` only to add a place the tagger missed or to correct a wrong tag:
+   `"location": { "countries": ["us"], "admin1": ["us-md"], "cities": ["us-city-baltimore"] }`.
+   - Ids are lowercase map ids: countries are ISO alpha-2 (`world.svg` path ids); state equivalents and
+     cities are the `id` values in `data/geo/admin1.geojson` and `data/geo/cities.geojson`.
+   - Every state-equivalent or city id needs its country in `countries`. Use `"countries": []` for a
+     world-level story (shows only in the World view and as "More worldwide").
+   - A location-only override may omit `status`; the story keeps its current tier.
+   Example override: `{ "match": { "url": "…" }, "location": { "countries": ["ca"], "admin1": ["ca-ab"] }, "note": "Alberta, not Australia", "addedAt": "…" }`.
 5. Choosing the tier:
    - **confirmed:** the subject itself (company, agency, government office) published it. Mark that source `"primary": true`.
    - **multiple:** 2 or more independent outlets report it, and none of them is the subject.
@@ -29,7 +40,7 @@ This file stays on `main` only (excluded from the Pages site).
    Set `expires` (ISO-8601) only for something shorter-lived. Don't delete entries by hand unless they are wrong.
 7. Run `npm run curated:check` and `npm test`. Both must pass.
 8. Commit only `data/signals-curated.json`, with a message like `curated: add <slug>` or
-   `curated: override <id> → confirmed`, and push to `main`. The push starts a rebuild. About 5–6 minutes
+   `curated: override <id> → confirmed` (or `curated: location <id> → ca-ab`), and push to `main`. The push starts a rebuild. About 5–6 minutes
    after the run, confirm the item shows the right `verification.status` in the live `data/signals-live.json`.
 
 ## Example entry

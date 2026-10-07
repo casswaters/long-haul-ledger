@@ -1,19 +1,19 @@
 /**
  * Long Haul Ledger — PROTOTYPE seed data (example data for UX testing).
- * Not live news, not sourced. Invented country desks, metrics, signals and
- * constraints. Never read by any desk builder or paid output.
+ * Not live news, not sourced. Invented country profiles, metrics, signals and
+ * constraints. Never read by any sourced view.
  */
 export const prototype = true;
 export const META = {
   name: 'Long Haul Ledger',
-  tagline: 'A sourced record of what moved in US industry, with a world index.',
+  tagline: 'Economic activity at every scale, from the world to your city.',
   version: '0.4-drill',
   domainIntent: 'longhaulledger.com',
   sample: true,
   prototype: true,
   softLaunch: true,
   sketchNote:
-    'What is sourced: the US Progress rail (outbound links to public RSS, with verification tiers) and the US desks, where every line carries a source link, an as-of date and a revision note. What is PROTOTYPE: country metrics, signals, constraints, mind maps, value chains and company desks are example data for UX testing. Leadership lists public channels only; SAMPLE / ESTIMATE marks unverified fields.',
+    'Long Haul Ledger follows economic activity from the macro to the micro: zoom from the whole world to a country, a state equivalent or a city, as general or as specific as you want at any moment, and the panels and news column follow. What is sourced: the news column (outbound links to public feeds, a location tag and a verification tier on every story), the indicators, where every line carries a source link, an as-of date and a revision note, World Bank macro figures and leadership channels. What is PROTOTYPE: country metrics, signals, constraints, mind maps, value chains and company profiles are example data for UX testing. Leadership lists public channels only; SAMPLE / ESTIMATE marks unverified fields.',
 };
 
 /** @typedef {{ id: string, title: string, blurb: string, weight: number, sector?: string, region?: string, date: string }} Signal */

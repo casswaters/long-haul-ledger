@@ -1,5 +1,5 @@
-# US Progress RSS ingest + Prices desk public series — free GitHub Actions only ($0, no API keys).
-name: Soft-launch US Progress
+# News feed (public RSS + GDELT DOC API, location-tagged) + Prices public series — GitHub Actions only, no API keys.
+name: Soft-launch news feed
 
 on:
   schedule:
@@ -33,7 +33,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Fetch public RSS → signals-live.json
+      - name: Fetch public feeds + GDELT top-up → signals-live.json (location-tagged)
         run: node scripts/fetch-signals.mjs
 
       - name: Fetch public price series → data/desks/prices.json
@@ -44,7 +44,7 @@ jobs:
       - name: Detect data change
         id: diff
         run: |
-          if git diff --quiet -- data/signals-live.json data/desks/prices.json; then
+          if git diff --quiet -- data/signals-live.json data/desks/prices.json data/news-cache; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -55,8 +55,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/signals-live.json data/desks/prices.json
-          git commit -m "chore: refresh US Progress signals + Prices desk ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git add data/signals-live.json data/desks/prices.json data/news-cache
+          git commit -m "chore: refresh news feed + Prices ($(date -u +%Y-%m-%dT%H:%MZ))"
           git pull --rebase origin ${{ github.ref_name }}
           git push origin HEAD:${{ github.ref_name }}
 
@@ -69,6 +69,6 @@ jobs:
           publish_branch: gh-pages
           force_orphan: false
           # Keep Actions build artifacts out of the static site
-          # BUILD-PLAN.md and RESEARCH-RUNS.md stay on main only; they must never ship to Pages.
-          exclude_assets: '.github,node_modules,scripts,.gitignore,package-lock.json,shots.mjs,qa-retone.mjs,ledger.test.js,stats.test.mjs,BUILD-PLAN.md,RESEARCH-RUNS.md'
-          commit_message: 'Deploy soft-launch US Progress'
+          # BUILD-PLAN.md, RESEARCH-RUNS.md and BRIEF.md stay on main only; they must never ship to Pages.
+          exclude_assets: '.github,node_modules,scripts,.gitignore,package-lock.json,shots.mjs,qa-retone.mjs,ledger.test.js,stats.test.mjs,BUILD-PLAN.md,RESEARCH-RUNS.md,BRIEF.md,data/news-cache'
+          commit_message: 'Deploy soft-launch news feed'

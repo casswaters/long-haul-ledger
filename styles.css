@@ -75,13 +75,6 @@ a:hover { text-decoration: underline; }
   color: var(--ink);
   margin: 0;
 }
-.brand-kicker {
-  font-family: var(--font-mono);
-  font-size: 0.66rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--ink-mute);
-}
 .brand-tagline {
   margin: 0;
   font-size: 0.78rem;
@@ -486,7 +479,7 @@ a:hover { text-decoration: underline; }
   position: relative;
 }
 
-/* —— US Progress rail dollar watermark (empty-space mark) —— */
+/* —— News column dollar watermark (empty-space mark) —— */
 .rail-dollar {
   position: sticky;
   top: 32vh;
@@ -926,7 +919,6 @@ a:hover { text-decoration: underline; }
   }
   .site-header { flex-wrap: wrap; gap: 0.45rem 0.75rem; }
   .brand { flex-basis: 100%; }
-  .brand-kicker { display: none; }
   .brand-tagline { font-size: 0.72rem; }
   .header-nav { order: 2; }
   .header-meta { order: 3; margin-left: auto; }
@@ -1340,7 +1332,7 @@ body.overlay-open { overflow: hidden; }
   margin-top: 0.4rem;
 }
 
-/* Company desk */
+/* Company profile */
 .company-body {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
@@ -1483,7 +1475,65 @@ button.vbadge:focus-visible { outline: 1px solid var(--ink); outline-offset: 1px
 .feed-item.is-live { cursor: default; }
 
 
-/* —— Home: US desks strip + world index —— */
+/* —— News column: place header, topic chips, fallback groups —— */
+.rail-path {
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  color: var(--ink-mute);
+  min-height: 0.8rem;
+}
+.rail-title-row { display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
+.rail-level {
+  font-size: 0.58rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  border: 1px solid var(--line-soft);
+  border-radius: 3px;
+  padding: 0.05rem 0.3rem;
+}
+.ncats { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.2rem; }
+.ncat {
+  appearance: none;
+  font: inherit;
+  font-size: 0.64rem;
+  padding: 0.18rem 0.45rem;
+  border-radius: 999px;
+  border: 1px solid var(--line-soft);
+  background: transparent;
+  color: var(--ink-dim);
+  cursor: pointer;
+}
+.ncat .vf-n { font-family: var(--font-mono); color: var(--ink-mute); }
+.ncat.active { border-color: var(--accent); color: var(--ink); background: var(--accent-glow); }
+.feed-note { margin: 0.1rem 0; font-size: 0.74rem; color: var(--ink-dim); }
+.feed-more-h {
+  margin: 0.55rem 0 0.05rem;
+  font-size: 0.64rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  border-top: 1px solid var(--line-soft);
+  padding-top: 0.5rem;
+}
+.feed-more-btn {
+  appearance: none;
+  font: inherit;
+  font-size: 0.7rem;
+  align-self: flex-start;
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--line-soft);
+  background: transparent;
+  color: var(--ink-dim);
+  cursor: pointer;
+}
+.feed-more-btn:hover { border-color: var(--ink-mute); color: var(--ink); }
+.rail-legend-wrap { margin-top: 0.4rem; }
+.rail-legend-wrap summary { font-size: 0.64rem; color: var(--ink-mute); cursor: pointer; margin-bottom: 0.3rem; }
+
+/* —— Home: world index + indicators strip —— */
 .panel-home { padding: 0.9rem 1.25rem 1.5rem; display: flex; flex-direction: column; gap: 1.1rem; }
 .home-head { display: flex; align-items: baseline; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
 .home-head h2 {
@@ -1534,7 +1584,7 @@ button.vbadge:focus-visible { outline: 1px solid var(--ink); outline-offset: 1px
 .tl-asof { grid-column: 1 / -1; font-family: var(--font-mono); color: var(--ink-mute); font-size: 0.62rem; margin-top: -0.1rem; }
 .tl-asof::before { content: 'as of '; }
 
-/* —— US desks overlay —— */
+/* —— Indicators overlay —— */
 .desks-panel { width: min(1180px, 100%); }
 .desk-tabs {
   display: flex;

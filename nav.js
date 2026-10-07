@@ -11,7 +11,7 @@ export const TAB_LABELS = {
   regions: 'Regions',
   openings: 'Constraints',
 };
-/** US desks (sourced record) — opened with #d=<desk>. */
+/** Indicators (sourced record; internal id "desk") — opened with #d=<desk>. */
 export const DESK_TABS = ['activity', 'people', 'prices', 'capital'];
 
 export function normalizeDesk(desk) {

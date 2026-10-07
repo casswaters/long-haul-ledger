@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 /**
- * Long Haul Ledger — soft-launch RSS fetcher ($0, no paid APIs).
- * Pulls public feeds from data/sources.json → data/signals-live.json
+ * Long Haul Ledger — news feed builder (public RSS/Atom + GDELT DOC 2.0; no keys, no paid APIs).
+ * Pulls public feeds from data/sources.json → data/signals-live.json, tags every item
+ * with a location (locate.js gazetteer) and a topic category, and tops up thin
+ * countries from the free GDELT DOC API (cached per country in data/news-cache/gdelt.json).
  */
 import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { dirname, join, resolve as resolvePath } from 'path';
@@ -9,6 +11,8 @@ import { fileURLToPath } from 'url';
 import { classifyItems, tierCounts, VERIFY_WINDOW_HOURS, looksLikeAnalysisTitle } from '../verify.js';
 import { applyCurated, validateCurated } from '../curated.js';
 import { existsSync } from 'fs';
+import { buildGazetteer, tagLocation, categorize } from '../locate.js';
+import { COUNTRY_NAMES } from '../places.js';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dir, '..');
@@ -19,25 +23,42 @@ const UA =
   'LongHaulLedgerBot/0.1 (+https://casswaters.github.io/long-haul-ledger/; soft-launch public RSS; no scraping beyond feed XML)';
 const FETCH_TIMEOUT_MS = 14000;
 const PER_FEED_CAP = 18;
-const GLOBAL_CAP = 110;
+const GLOBAL_CAP = 700;
 const MIN_SCORE = 28;
+/** Per-location caps keep the file small while every country keeps its best stories. */
+export const PER_COUNTRY_CAP = 40;
+export const WORLD_ONLY_CAP = 60;
+const FEED_CONCURRENCY = 6;
+const CITIES_PATH = join(ROOT, 'data', 'geo', 'cities.geojson');
 
-/** Progress / US civ-building keyword weights (light scorer). */
+let gazetteer = null;
+/** Gazetteer with major cities from data/geo/cities.geojson (built once per run). */
+export function getGazetteer() {
+  if (gazetteer) return gazetteer;
+  let cities = [];
+  try { cities = JSON.parse(readFileSync(CITIES_PATH, 'utf8')).features || []; } catch { cities = []; }
+  gazetteer = buildGazetteer({ cities });
+  return gazetteer;
+}
+
+/** Economic-activity keyword weights (light scorer, same for every country). */
 export const SCORE_TERMS = [
-  [/united states|\bu\.?s\.?\b|\bamerica\b|\bwashington\b|\bd\.?c\.?\b/i, 14],
+  [/\b(oil|gas|lng|opec|refiner\w*|pipeline|coal|uranium|electricity|power prices?)\b/i, 10],
+  [/\b(sanctions?|tariffs?|trade (deal|war|talks)|export controls?|central bank|interest rates?|inflation)\b/i, 9],
+  [/\b(mining|mine|copper|lithium|nickel|steel|aluminium|aluminum|exports?|investment|capex)\b/i, 8],
   [/\b(grid|transmission|interconnection|nuclear|fusion|solar|wind|battery|geothermal|permitting)\b/i, 12],
   [/\b(semiconductor|chip|fab|gpu|ai infra|data center|hyperscale|compute)\b/i, 12],
   [/\b(manufactur|factory|industrial|reshor|nearshor|supply chain|shipyard)\b/i, 10],
   [/\b(infrastructure|port|rail|highway|broadband|housing|construction)\b/i, 10],
   [/\b(progress|abundance|state capacity|industrial policy|productivity)\b/i, 11],
-  [/\b(nasa|nist|doe|arpa|nsf|federal|congress|agency)\b/i, 8],
+  [/\b(agency|ministry|regulator|government|parliament|federal)\b/i, 6],
   [/\b(energy|climate|power|utility|electric)\b/i, 7],
   [/\b(research|science|engineering|innovation)\b/i, 5],
 ];
 
 const NEG_TERMS = [
   /\b(celebrity|gossip|sports score|box office|reality tv)\b/i,
-  /\b(horoscope|crossword)\b/i,
+  /\b(horoscope|crossword|recipe|fashion week|premier league|cricket score|football transfer)\b/i,
 ];
 
 const NAMED_ENTITIES = {
@@ -174,7 +195,6 @@ export function dateStamp(iso) {
 export function scoreItem({ title, summary, tags = [], country = 'US', kind = 'hard-news' }) {
   const blob = `${title} ${summary} ${(tags || []).join(' ')}`;
   let score = 40;
-  if (String(country).toUpperCase() === 'US') score += 8;
   if (kind === 'hard-news') score += 3;
   if (kind === 'analysis') score += 2;
   for (const [re, w] of SCORE_TERMS) {
@@ -183,8 +203,22 @@ export function scoreItem({ title, summary, tags = [], country = 'US', kind = 'h
   for (const re of NEG_TERMS) {
     if (re.test(blob)) score -= 25;
   }
+  void country;
   // Recency bump handled separately when published known
   return Math.max(0, Math.min(100, score));
+}
+
+/** Location + category for an item; curated/explicit `loc` always wins. */
+export function locateItem(it, { home = null, assumeHome = false, alwaysHome = false } = {}, gaz = getGazetteer()) {
+  const loc = it.loc && Array.isArray(it.loc.countries) ? it.loc : tagLocation({ title: it.title, summary: it.blurb, home, assumeHome, alwaysHome }, gaz);
+  const primaryCountry = loc.countries[0] || '';
+  return {
+    ...it,
+    loc,
+    country: primaryCountry ? primaryCountry.toUpperCase() : '',
+    countryId: primaryCountry,
+    category: it.category || categorize({ title: it.title, summary: it.blurb }),
+  };
 }
 
 export function normalizeItem(raw, source) {
@@ -192,7 +226,8 @@ export function normalizeItem(raw, source) {
   const url = stripHtml(raw.link).trim();
   const published = toIsoDate(raw.published);
   const blurb = stripHtml(raw.summary).slice(0, 280);
-  const country = source.countryDefault || 'US';
+  const home = String(source.home || source.countryDefault || '').toLowerCase() || null;
+  const assumeHome = source.assumeHome ?? !!source.countryDefault;
   const tags = [...(source.tags || [])];
   // Promote opinion / explainer / trend-roundup titles to Analysis even when
   // the parent feed is hard-news (e.g. NPR Science explainers, NYT How/Why).
@@ -201,13 +236,7 @@ export function normalizeItem(raw, source) {
     kind = 'analysis';
     if (!tags.includes('analysis')) tags.push('analysis');
   }
-  let score = scoreItem({
-    title,
-    summary: blurb,
-    tags,
-    country,
-    kind,
-  });
+  let score = scoreItem({ title, summary: blurb, tags, kind });
   if (published) {
     const ageDays = (Date.now() - new Date(published).getTime()) / 86400000;
     if (ageDays <= 2) score += 10;
@@ -217,7 +246,7 @@ export function normalizeItem(raw, source) {
   }
   score = Math.max(0, Math.min(100, score));
   const id = `live-${hashId(url || title)}`;
-  return {
+  return locateItem({
     id,
     title,
     url,
@@ -226,15 +255,15 @@ export function normalizeItem(raw, source) {
     kind,
     published,
     publishedLabel: dateStamp(published),
-    country,
-    countryId: String(country).toLowerCase() === 'us' ? 'us' : String(country).toLowerCase(),
     tags,
     score,
     blurb,
     real: true,
     primary: !!source.primary,
     outlet: source.outlet || source.id,
-  };
+    quality: Number(source.quality) || 2,
+    home,
+  }, { home, assumeHome, alwaysHome: !!source.primary && assumeHome });
 }
 
 function hashId(s) {
@@ -287,48 +316,190 @@ export function mergeAndCap(items, cap = GLOBAL_CAP) {
   return out;
 }
 
-export async function fetchAll(sources, { fetchImpl = fetchText } = {}) {
+/**
+ * Keep the best stories per location: up to PER_COUNTRY_CAP per primary country
+ * (an item also counts toward every other country it is tagged with only if it
+ * is kept), up to WORLD_ONLY_CAP untagged (world-level) items, GLOBAL_CAP overall.
+ * Curated items are always kept.
+ */
+export function capByLocation(items, { perCountry = PER_COUNTRY_CAP, worldOnly = WORLD_ONLY_CAP, cap = GLOBAL_CAP } = {}) {
+  const sorted = [...items].sort((a, b) => (b.score - a.score) || String(b.published || '').localeCompare(String(a.published || '')));
+  const per = new Map();
+  const seen = new Set();
+  const out = [];
+  for (const it of sorted) {
+    if (!it.url || !it.title) continue;
+    if (!it.curated && it.score < MIN_SCORE) continue;
+    const key = it.url.replace(/#.*$/, '').toLowerCase();
+    if (seen.has(key)) continue;
+    const bucket = it.loc?.countries?.[0] || '_world';
+    const limit = bucket === '_world' ? worldOnly : perCountry;
+    const n = per.get(bucket) || 0;
+    if (!it.curated && (n >= limit || out.length >= cap)) continue;
+    per.set(bucket, n + 1);
+    seen.add(key);
+    out.push(it);
+  }
+  return out;
+}
+
+async function pool(list, n, fn) {
+  const results = new Array(list.length);
+  let i = 0;
+  const workers = Array.from({ length: Math.min(n, list.length) }, async () => {
+    while (i < list.length) { const k = i++; results[k] = await fn(list[k], k); }
+  });
+  await Promise.all(workers);
+  return results;
+}
+
+async function fetchOneFeed(source, fetchImpl) {
+  try {
+    const res = await fetchImpl(source.url);
+    if (!res.ok) return { fail: { id: source.id, status: res.status, reason: `HTTP ${res.status}` } };
+    const look = res.body.slice(0, 200).toLowerCase();
+    if (!look.includes('<rss') && !look.includes('<feed') && !look.includes('<rdf')) {
+      // Some feeds still work with odd wrappers; try parse anyway if <item> present
+      if (!/<item[\s>]/i.test(res.body) && !/<entry[\s>]/i.test(res.body)) {
+        return { fail: { id: source.id, status: res.status, reason: 'not RSS/Atom' } };
+      }
+    }
+    const raw = parseFeedXml(res.body).slice(0, PER_FEED_CAP);
+    if (!raw.length) return { fail: { id: source.id, status: res.status, reason: 'zero items' } };
+    const normalized = raw.map((r) => normalizeItem(r, source)).filter((it) => !source.requireTopic || it.category !== 'general');
+    return { ok: { id: source.id, count: normalized.length }, items: normalized };
+  } catch (err) {
+    return { fail: { id: source.id, status: 0, reason: err?.name === 'AbortError' ? 'timeout' : String(err?.message || err) } };
+  }
+}
+
+export async function fetchAll(sources, { fetchImpl = fetchText, extra = async () => [], concurrency = FEED_CONCURRENCY } = {}) {
   const ok = [];
   const failed = [];
   const items = [];
-
-  for (const source of sources) {
-    try {
-      const res = await fetchImpl(source.url);
-      if (!res.ok) {
-        failed.push({ id: source.id, status: res.status, reason: `HTTP ${res.status}` });
-        continue;
-      }
-      const look = res.body.slice(0, 200).toLowerCase();
-      if (!look.includes('<rss') && !look.includes('<feed') && !look.includes('<rdf')) {
-        // Some feeds still work with odd wrappers; try parse anyway if <item> present
-        if (!/<item[\s>]/i.test(res.body) && !/<entry[\s>]/i.test(res.body)) {
-          failed.push({ id: source.id, status: res.status, reason: 'not RSS/Atom' });
-          continue;
-        }
-      }
-      const raw = parseFeedXml(res.body).slice(0, PER_FEED_CAP);
-      if (!raw.length) {
-        failed.push({ id: source.id, status: res.status, reason: 'zero items' });
-        continue;
-      }
-      const normalized = raw.map((r) => normalizeItem(r, source));
-      items.push(...normalized);
-      ok.push({ id: source.id, count: normalized.length });
-    } catch (err) {
-      failed.push({
-        id: source.id,
-        status: 0,
-        reason: err?.name === 'AbortError' ? 'timeout' : String(err?.message || err),
-      });
-    }
-  }
+  const results = await pool(sources, concurrency, (s) => fetchOneFeed(s, fetchImpl));
+  results.forEach((r) => {
+    if (r.ok) { ok.push(r.ok); items.push(...r.items); } else failed.push(r.fail);
+  });
+  // Top-up stage (GDELT) sees what RSS already covers.
+  const more = await extra(items);
+  items.push(...(more || []));
 
   // Classify across everything fetched (pre-cap) so a primary-source item that
   // misses the cap can still confirm a cluster that made it in.
   const classified = classifyItems(items);
-  const merged = mergeAndCap(classified, GLOBAL_CAP);
+  const merged = capByLocation(classified);
   return { ok, failed, items: merged, pool: classified };
+}
+
+/* ---------- GDELT DOC 2.0 top-up (free, no key; 1 request / 5 s) ---------- */
+export const GDELT_CACHE_PATH = join(ROOT, 'data', 'news-cache', 'gdelt.json');
+export const GDELT_BUDGET = 24;          // country queries per run (~2.5 min at 6 s spacing)
+export const GDELT_REFRESH_HOURS = 12;   // re-query a country at most twice a day
+export const GDELT_KEEP_DAYS = 7;        // cached articles older than this are dropped
+const GDELT_GAP_MS = 6000;
+/** Larger economies first, then every other map country. */
+export const GDELT_PRIORITY = ['cn', 'in', 'jp', 'de', 'gb', 'fr', 'br', 'ca', 'it', 'kr', 'au', 'mx', 'es', 'id', 'tr', 'sa', 'nl', 'ch', 'pl', 'se', 'be', 'ar', 'no', 'ie', 'ae', 'il', 'at', 'ng', 'za', 'eg', 'th', 'sg', 'my', 'ph', 'vn', 'bd', 'pk', 'cl', 'co', 'pe', 'ke', 'et', 'gh', 'ma', 'dz', 'qa', 'kw', 'kz', 'ua', 'ro', 'cz', 'pt', 'gr', 'dk', 'fi', 'nz', 'hu', 'iq', 'ir'];
+const GDELT_TOPICS = '(energy OR electricity OR oil OR gas OR mining OR infrastructure OR railway OR port OR factory OR manufacturing OR industry OR exports OR tariffs OR sanctions OR investment)';
+
+export function gdeltCountryName(cc) {
+  const special = { gb: 'unitedkingdom', us: 'unitedstates', cd: 'congo', cg: 'congo', ci: 'ivorycoast', kr: 'southkorea', kp: 'northkorea', ae: 'unitedarabemirates', cz: 'czechrepublic', tr: 'turkey', mm: 'burma', ps: 'westbank' };
+  return special[cc] || String(COUNTRY_NAMES[cc] || cc).toLowerCase().normalize('NFD').replace(/[^a-z]/g, '');
+}
+
+export function gdeltUrl(cc) {
+  const q = `sourcecountry:${gdeltCountryName(cc)} sourcelang:english ${GDELT_TOPICS}`;
+  return `https://api.gdeltproject.org/api/v2/doc/doc?query=${encodeURIComponent(q)}&mode=artlist&format=json&maxrecords=25&timespan=7d&sort=hybridrel`;
+}
+
+/** GDELT seendate 20261007T121500Z → ISO. */
+export function gdeltDate(s) {
+  const m = String(s || '').match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z$/);
+  return m ? `${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:${m[6]}.000Z` : null;
+}
+
+/** GDELT article → feed item (outlet = domain; filed to the outlet's country when the text names no place). */
+export function gdeltToItem(a, cc) {
+  if (!a?.url || !/^https?:/i.test(a.url) || !a.title) return null;
+  const domain = String(a.domain || new URL(a.url).hostname).replace(/^www\./, '');
+  return normalizeItem(
+    { title: a.title, link: a.url, published: gdeltDate(a.seendate), summary: '' },
+    { id: `gdelt-${domain}`, name: domain, kind: 'hard-news', home: cc, assumeHome: true, quality: 1, tags: ['gdelt'], outlet: domain },
+  );
+}
+
+export function loadGdeltCache(path = GDELT_CACHE_PATH) {
+  try { return JSON.parse(readFileSync(path, 'utf8')); } catch { return { version: 1, countries: {} }; }
+}
+
+/**
+ * Query GDELT for countries that RSS left with fewer than 4 stories; reuse cached
+ * results between runs. Returns items to add. Never throws (logs and keeps cache).
+ */
+export async function gdeltTopUp(items, {
+  fetchImpl = fetchText, now = new Date(), cache = loadGdeltCache(), budget = GDELT_BUDGET,
+  sleep = (ms) => new Promise((r) => setTimeout(r, ms)), log = console.log,
+} = {}) {
+  const counts = new Map();
+  for (const it of items) for (const c of it.loc?.countries || []) counts.set(c, (counts.get(c) || 0) + 1);
+  const thin = Object.keys(COUNTRY_NAMES).filter((c) => (counts.get(c) || 0) < 4);
+  const order = [...GDELT_PRIORITY.filter((c) => thin.includes(c)), ...thin.filter((c) => !GDELT_PRIORITY.includes(c)).sort()];
+  const stale = (c) => { const e = cache.countries[c]; return !e || (now - Date.parse(e.fetchedAt)) / 3.6e6 >= GDELT_REFRESH_HOURS; };
+  let used = 0, blocked = false;
+  const stats = { queried: [], failed: [], rateLimited: false };
+  for (const cc of order) {
+    if (used >= budget || blocked) break;
+    if (!stale(cc)) continue;
+    if (used) await sleep(GDELT_GAP_MS);
+    used++;
+    try {
+      const res = await fetchImpl(gdeltUrl(cc));
+      const body = String(res.body || '');
+      if (!res.ok || /^Please limit requests/i.test(body.trim())) {
+        stats.failed.push(cc);
+        if (res.status === 429 || /limit requests/i.test(body)) { stats.rateLimited = true; blocked = true; }
+        continue;
+      }
+      let data = {};
+      try { data = JSON.parse(body); } catch { stats.failed.push(cc); continue; }
+      const arts = (data.articles || []).filter((a) => !a.language || /english/i.test(a.language)).slice(0, 12);
+      cache.countries[cc] = { fetchedAt: now.toISOString(), articles: arts.map((a) => ({ url: a.url, title: a.title, seendate: a.seendate, domain: a.domain })) };
+      stats.queried.push(cc);
+    } catch (e) {
+      stats.failed.push(cc);
+    }
+  }
+  // Items from cache (fresh + previously cached), dropping old articles.
+  const out = [];
+  const seen = new Set(items.map((i) => i.url.toLowerCase()));
+  for (const [cc, e] of Object.entries(cache.countries)) {
+    e.articles = (e.articles || []).filter((a) => { const d = Date.parse(gdeltDate(a.seendate) || ''); return Number.isFinite(d) && (now - d) / 86400000 <= GDELT_KEEP_DAYS; });
+    for (const a of e.articles) {
+      const it = gdeltToItem(a, cc);
+      if (!it || seen.has(it.url.toLowerCase())) continue;
+      seen.add(it.url.toLowerCase());
+      out.push(it);
+    }
+  }
+  cache.updatedAt = now.toISOString();
+  log(`GDELT: queried ${stats.queried.length} (${stats.queried.join(',') || '—'}), failed ${stats.failed.length}${stats.rateLimited ? ' (rate limited; will retry next run)' : ''}, ${out.length} cached items in play`);
+  return { items: out, cache, stats };
+}
+
+/** Readable header, one compact line per item (keeps the file ~half the size of pretty JSON). */
+export function serializeFeed(payload) {
+  const { items = [], ...head } = payload;
+  const headJson = JSON.stringify(head, null, 2).replace(/\n}$/, '');
+  return `${headJson},\n  "items": [\n${items.map((it) => `    ${JSON.stringify(it)}`).join(',\n')}\n  ]\n}\n`;
+}
+
+/** Per-country story counts (an item counts for every country it is tagged with). */
+export function coverage(items) {
+  const byCountry = {};
+  for (const it of items) for (const c of it.loc?.countries || []) byCountry[c] = (byCountry[c] || 0) + 1;
+  const withFour = Object.values(byCountry).filter((n) => n >= 4).length;
+  const worldOnly = items.filter((i) => !(i.loc?.countries || []).length).length;
+  return { countriesTagged: Object.keys(byCountry).length, countriesWith4: withFour, worldOnly, byCountry };
 }
 
 const CURATED_PATH = join(dirname(fileURLToPath(import.meta.url)), '..', 'data', 'signals-curated.json');
@@ -349,7 +520,8 @@ export function loadCurated(path = CURATED_PATH) {
 
 function withCurated(items) {
   const doc = loadCurated();
-  const { items: out, applied } = applyCurated(items, doc);
+  const { items: curatedOut, applied } = applyCurated(items, doc);
+  const out = curatedOut.map((it) => (it.loc && it.category ? it : locateItem(it, { home: (it.country || '').toLowerCase() || null, assumeHome: !!it.country })));
   console.log(`Curated: +${applied.added.length} added, ${applied.overridden.length} overridden, ${applied.expired.length} expired, ${applied.unmatched.length} unmatched`);
   return { items: out, applied };
 }
@@ -361,13 +533,26 @@ async function main() {
     // Re-apply curated entries to the current live file without refetching feeds.
     const live = JSON.parse(readFileSync(OUT_PATH, 'utf8'));
     const { items, applied } = withCurated((live.items || []).filter((it) => !it.curated));
-    const payload = { ...live, itemCount: items.length, verification: { ...live.verification, counts: tierCounts(items) }, curated: applied, items };
-    writeFileSync(OUT_PATH, JSON.stringify(payload, null, 2) + '\n');
+    const payload = { ...live, itemCount: items.length, coverage: coverage(items), verification: { ...live.verification, counts: tierCounts(items) }, curated: applied, items };
+    writeFileSync(OUT_PATH, serializeFeed(payload));
     console.log(`Re-applied curated → ${items.length} items`);
     return;
   }
   console.log(`Fetching ${sources.length} feeds…`);
-  const fetched = await fetchAll(sources);
+  let gdeltCache = null, gdeltStats = null;
+  const noGdelt = process.argv.includes('--no-gdelt');
+  const fetched = await fetchAll(sources, {
+    extra: async (rssItems) => {
+      if (noGdelt) return [];
+      const r = await gdeltTopUp(rssItems);
+      gdeltCache = r.cache; gdeltStats = r.stats;
+      return r.items;
+    },
+  });
+  if (gdeltCache) {
+    mkdirSync(dirname(GDELT_CACHE_PATH), { recursive: true });
+    writeFileSync(GDELT_CACHE_PATH, JSON.stringify(gdeltCache, null, 1) + '\n');
+  }
   const { ok, failed } = fetched;
   const { items, applied: curatedApplied } = withCurated(fetched.items);
   for (const f of failed) console.log(`  FAIL ${f.id}: ${f.reason}`);
@@ -375,8 +560,10 @@ async function main() {
 
   const payload = {
     generatedAt: new Date().toISOString(),
-    mode: pack.mode || 'us-progress',
+    mode: pack.mode || 'location-news',
     itemCount: items.length,
+    coverage: coverage(items),
+    gdelt: gdeltStats ? { queried: gdeltStats.queried, failed: gdeltStats.failed, rateLimited: gdeltStats.rateLimited } : null,
     verification: {
       counts: tierCounts(items),
       windowHours: VERIFY_WINDOW_HOURS,
@@ -388,10 +575,11 @@ async function main() {
     items,
   };
   mkdirSync(dirname(OUT_PATH), { recursive: true });
-  writeFileSync(OUT_PATH, JSON.stringify(payload, null, 2) + '\n');
+  writeFileSync(OUT_PATH, serializeFeed(payload));
   console.log(`Wrote ${items.length} items → ${OUT_PATH}`);
   console.log(`OK ${ok.length} / FAIL ${failed.length}`);
   console.log('Verification tiers:', JSON.stringify(payload.verification.counts));
+  console.log(`Coverage: ${payload.coverage.countriesTagged} countries tagged, ${payload.coverage.countriesWith4} with 4+ stories, ${payload.coverage.worldOnly} world-level`);
   if (!items.length) process.exit(2);
   else process.exit(0);
 }

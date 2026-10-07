@@ -22,6 +22,30 @@ function validateSources(sources, where, errs, status) {
   if (status === 'multiple' && new Set(sources.filter((s) => !s.primary).map((s) => s.name)).size < 2) errs.push(`${where}: multiple needs 2+ independent outlets`);
 }
 
+const CC_RE = /^[a-z]{2}$/;
+const ADMIN1_RE = /^[a-z]{2}-[a-z0-9-]{1,12}$/;
+const CITY_RE = /^[a-z]{2}-city-[a-z0-9-]{2,60}$/;
+
+/** Optional `location` on an add or override: { countries[], admin1[], cities[] } (map ids, lowercase). */
+function validateLocation(loc, where, errs) {
+  if (loc == null) return;
+  if (typeof loc !== 'object' || Array.isArray(loc)) { errs.push(`${where}: location must be an object`); return; }
+  const arr = (k, re) => {
+    if (loc[k] == null) return;
+    if (!Array.isArray(loc[k]) || !loc[k].every((v) => typeof v === 'string' && re.test(v))) errs.push(`${where}: location.${k} must be an array of ids like ${k === 'countries' ? '"ca"' : k === 'admin1' ? '"ca-ab"' : '"ca-city-calgary"'}`);
+  };
+  arr('countries', CC_RE); arr('admin1', ADMIN1_RE); arr('cities', CITY_RE);
+  if (!Array.isArray(loc.countries)) errs.push(`${where}: location.countries[] required (use [] for a world-level story)`);
+  for (const id of [...(loc.admin1 || []), ...(loc.cities || [])]) {
+    if (typeof id === 'string' && Array.isArray(loc.countries) && !loc.countries.includes(id.slice(0, 2))) errs.push(`${where}: location ${id} needs its country "${id.slice(0, 2)}" in location.countries`);
+  }
+}
+
+/** Curated location → item.loc (basis "curated"). */
+export function locFromCurated(loc) {
+  return { countries: [...(loc.countries || [])], admin1: [...(loc.admin1 || [])], cities: [...(loc.cities || [])], titleCountries: [], basis: 'curated' };
+}
+
 /** Returns a list of human-readable schema errors (empty = valid). */
 export function validateCurated(doc) {
   const errs = [];
@@ -42,14 +66,19 @@ export function validateCurated(doc) {
     if (a?.expires != null && !isIso(a.expires)) errs.push(`${w}: expires must be ISO date`);
     if (!CURATED_TIERS.includes(a?.status)) errs.push(`${w}: status must be one of ${CURATED_TIERS.join('/')}`);
     if (a?.aliases != null && (!Array.isArray(a.aliases) || !a.aliases.every(isHttps))) errs.push(`${w}: aliases must be https urls`);
+    validateLocation(a?.location, w, errs);
     validateSources(a?.sources, w, errs, a?.status);
   });
   (doc.overrides || []).forEach((o, i) => {
     const w = `overrides[${i}]`;
     if (!o?.match || (!isHttps(o.match.url) && !o.match.id)) errs.push(`${w}: match.url (https) or match.id required`);
-    if (!CURATED_TIERS.includes(o?.status)) errs.push(`${w}: status must be one of ${CURATED_TIERS.join('/')}`);
+    // A location-only override may omit status (it then keeps the item's tier).
+    if (o?.status != null || o?.location == null) {
+      if (!CURATED_TIERS.includes(o?.status)) errs.push(`${w}: status must be one of ${CURATED_TIERS.join('/')}`);
+    }
     if (!isIso(o?.addedAt)) errs.push(`${w}: addedAt ISO date required`);
     if (o?.expires != null && !isIso(o.expires)) errs.push(`${w}: expires must be ISO date`);
+    validateLocation(o?.location, w, errs);
     if (o?.sources != null) validateSources(o.sources, w, errs, o.status);
     else if (o?.status === 'confirmed' || o?.status === 'multiple') errs.push(`${w}: ${o.status} override needs sources[]`);
   });
@@ -96,7 +125,12 @@ export function applyCurated(items, doc, now = new Date()) {
     if (isExpired(o, now, maxAge)) { applied.expired.push(o.match.url || o.match.id); continue; }
     const hit = out.find((it) => (o.match.id && it.id === o.match.id) || (o.match.url && normUrl(it.url) === normUrl(o.match.url)));
     if (!hit) { applied.unmatched.push(o.match.url || o.match.id); continue; }
-    hit.verification = verificationFrom(o, hit.verification?.sources || []);
+    if (o.status) hit.verification = verificationFrom(o, hit.verification?.sources || []);
+    if (o.location) {
+      hit.loc = locFromCurated(o.location);
+      hit.country = (hit.loc.countries[0] || '').toUpperCase();
+      hit.countryId = hit.loc.countries[0] || '';
+    }
     applied.overridden.push(hit.id);
   }
   const pinned = [];
@@ -108,7 +142,10 @@ export function applyCurated(items, doc, now = new Date()) {
     pinned.push({
       id: a.id, title: a.title, url: a.url, source: a.source, sourceId: 'curated', kind: a.status === 'analysis' ? 'analysis' : (a.kind || 'hard-news'),
       published: d.toISOString(), publishedLabel: `${['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][d.getUTCMonth()]} ${d.getUTCDate()}, ${d.getUTCFullYear()}`,
-      country: a.country || 'US', countryId: String(a.country || 'US').toLowerCase(), tags: a.tags || [], score: Number.isFinite(a.score) ? a.score : 100,
+      ...(a.location
+        ? { loc: locFromCurated(a.location), country: (a.location.countries[0] || '').toUpperCase(), countryId: a.location.countries[0] || '' }
+        : { country: a.country || 'US', countryId: String(a.country || 'US').toLowerCase() }),
+      tags: a.tags || [], score: Number.isFinite(a.score) ? a.score : 100, quality: 3, ...(a.category ? { category: a.category } : {}),
       blurb: a.blurb || '', real: true, primary: false, outlet: a.outlet || a.source, curated: true,
       verification: verificationFrom(a),
     });
