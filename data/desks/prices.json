@@ -1,7 +1,7 @@
 {
   "desk": "prices",
   "note": "Public sample: current lines from public series. Values as published by the source on the as-of date; may be revised.",
-  "updatedAt": "2026-10-06T23:39:48Z",
+  "updatedAt": "2026-10-07T18:08:03Z",
   "records": [
     {
       "id": "prices.diesel-us-retail",
@@ -51,20 +51,30 @@
         "power"
       ],
       "current": {
-        "value": 3.18,
+        "value": 3.03,
         "unit": "$/MMBtu",
-        "asOf": "2026-09-29",
+        "asOf": "2026-10-06",
         "sourceUrl": "https://fred.stlouisfed.org/series/DHHNGSP",
         "sourceName": "EIA via FRED (DHHNGSP)",
         "primaryUrl": "https://www.eia.gov/dnav/ng/hist/rngwhhdD.htm",
-        "retrievedAt": "2026-10-06T23:39:48Z",
-        "revisionNote": "First entry",
+        "retrievedAt": "2026-10-07T18:08:03Z",
+        "revisionNote": "New observation from source",
         "prior": {
-          "value": 3.13,
-          "asOf": "2026-09-28"
+          "value": 2.96,
+          "asOf": "2026-10-05"
         }
       },
-      "history": []
+      "history": [
+        {
+          "value": 3.18,
+          "unit": "$/MMBtu",
+          "asOf": "2026-09-29",
+          "sourceUrl": "https://fred.stlouisfed.org/series/DHHNGSP",
+          "recordedAt": "2026-10-06",
+          "supersededAt": "2026-10-07",
+          "revisionNote": "First entry"
+        }
+      ]
     }
   ],
   "fetchLog": []
