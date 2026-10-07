@@ -534,7 +534,7 @@
         }
       ]
     },
-    "in-maharashtra": {
+    "in-mh": {
       "level": "admin1",
       "label": "Maharashtra",
       "roles": [
@@ -556,7 +556,7 @@
         }
       ]
     },
-    "in-karnataka": {
+    "in-ka": {
       "level": "admin1",
       "label": "Karnataka",
       "roles": [
@@ -578,7 +578,7 @@
         }
       ]
     },
-    "in-delhi": {
+    "in-dl": {
       "level": "admin1",
       "label": "Delhi (NCT)",
       "roles": [
@@ -676,7 +676,7 @@
         }
       ]
     },
-    "ae-abu-dhabi": {
+    "ae-az": {
       "level": "admin1",
       "label": "Abu Dhabi (emirate)",
       "roles": [
@@ -698,7 +698,7 @@
         }
       ]
     },
-    "ae-dubai": {
+    "ae-du": {
       "level": "admin1",
       "label": "Dubai (emirate)",
       "roles": [
@@ -785,28 +785,6 @@
           },
           "term": {
             "text": "cabinet appointment",
-            "badge": "SAMPLE"
-          }
-        }
-      ]
-    },
-    "jp-kanto": {
-      "level": "admin1",
-      "label": "Kant\u014d (region block)",
-      "roles": [
-        {
-          "title": "Prefectural governors (summary)",
-          "name": "Tokyo + surrounding prefectures \u2014 SAMPLE region stack",
-          "contact": {
-            "site": "https://www.metro.tokyo.lg.jp/",
-            "form": "https://www.metro.tokyo.lg.jp/"
-          },
-          "responseTime": {
-            "text": "varies by prefecture",
-            "badge": "ESTIMATE"
-          },
-          "term": {
-            "text": "4-year gubernatorial terms",
             "badge": "SAMPLE"
           }
         }

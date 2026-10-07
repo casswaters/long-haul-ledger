@@ -8,7 +8,7 @@
  * parallel is pushed down by ~78 units (~14°). The admin-1 / city layers used
  * to assume a centred equirectangular (y = (90−lat)/180·1001), which drew the
  * states ~78 units *north* of the world country fill — the "gold US offset"
- * bug. Calibrated by least-squares fit of US/IN/AE/JP admin-1 rings against
+ * bug. Calibrated by least-squares fit of US/IN admin-1 rings against
  * world.svg country paths (mean residual ≈0.2 units for the US).
  */
 
@@ -48,7 +48,7 @@ export const DRILL_INSETS = {
  * (boxy emirate / region polygons). Their drill layer is clipped to the
  * world.svg coastline so the approximation never spills into the sea.
  */
-export const APPROX_ADMIN1 = new Set(['ae', 'jp']);
+export const APPROX_ADMIN1 = new Set([]); // real NE admin-1 now; was ae/jp boxy approximations
 
 export function clipAdminToWorld(countryId) {
   return APPROX_ADMIN1.has(String(countryId || '').toLowerCase());
