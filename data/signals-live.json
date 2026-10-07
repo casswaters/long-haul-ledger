@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-07T00:45:36.913Z",
+  "generatedAt": "2026-10-07T06:40:29.552Z",
   "mode": "us-progress",
   "itemCount": 110,
   "verification": {
     "counts": {
-      "confirmed": 25,
+      "confirmed": 26,
       "multiple": 3,
-      "unconfirmed": 37,
+      "unconfirmed": 36,
       "analysis": 45,
       "sample": 0
     },
@@ -1266,6 +1266,42 @@
             "url": "https://arstechnica.com/space/2026/10/why-is-nasa-bringing-7500-contractors-back-to-work-as-civil-servants/",
             "primary": false,
             "published": "2026-10-06T16:00:02.000Z"
+          }
+        ],
+        "outlets": 1
+      }
+    },
+    {
+      "id": "live-104ucr8",
+      "title": "Planning system ensures a robot’s flight path will remain collision-free",
+      "url": "https://news.mit.edu/2026/planning-system-ensures-robots-flight-path-will-remain-collision-free-1007",
+      "source": "MIT News",
+      "sourceId": "mit-news",
+      "kind": "analysis",
+      "published": "2026-10-07T04:00:00.000Z",
+      "publishedLabel": "Oct 7, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "research",
+        "compute",
+        "energy"
+      ],
+      "score": 84,
+      "blurb": "This new method, called “SANDO,” could help disaster-response robots navigate dangerous, unknown environments.",
+      "real": true,
+      "primary": false,
+      "outlet": "mit-news",
+      "verification": {
+        "status": "analysis",
+        "label": "Analysis",
+        "sources": [
+          {
+            "name": "MIT News",
+            "outlet": "mit-news",
+            "url": "https://news.mit.edu/2026/planning-system-ensures-robots-flight-path-will-remain-collision-free-1007",
+            "primary": false,
+            "published": "2026-10-07T04:00:00.000Z"
           }
         ],
         "outlets": 1
@@ -2605,6 +2641,47 @@
       }
     },
     {
+      "id": "live-10uk6c8",
+      "title": "APOD: 2026 October 7 – Supernova Remnant Pa 30",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-7-supernova-remnant-pa-30/",
+      "source": "NASA News",
+      "sourceId": "nasa-news",
+      "kind": "hard-news",
+      "published": "2026-10-07T04:05:00.000Z",
+      "publishedLabel": "Oct 7, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "frontier",
+        "space",
+        "compute"
+      ],
+      "score": 78,
+      "blurb": "APOD Science APOD APOD: 2026 October 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief",
+      "real": true,
+      "primary": true,
+      "outlet": "nasa-news",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-10uk6c8",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NASA News",
+            "outlet": "nasa-news",
+            "url": "https://science.nasa.gov/image-article/apod-2026-october-7-supernova-remnant-pa-30/",
+            "primary": true,
+            "published": "2026-10-07T04:05:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "NASA News"
+        ]
+      }
+    },
+    {
       "id": "live-1bm0xxq",
       "title": "Drones sink ships near NATO countries in “unacceptable” attacks, EU says",
       "url": "https://arstechnica.com/gadgets/2026/10/drone-strikes-likely-russian-sink-ships-in-nato-countries-economic-zones/",
@@ -3457,42 +3534,6 @@
       }
     },
     {
-      "id": "live-17wuymj",
-      "title": "Powered by muscle cells, a paper-thin robot swims through watery maze",
-      "url": "https://news.mit.edu/2026/powered-by-muscle-cells-paper-thin-robot-swims-through-watery-maze-0929",
-      "source": "MIT News",
-      "sourceId": "mit-news",
-      "kind": "analysis",
-      "published": "2026-09-29T04:00:00.000Z",
-      "publishedLabel": "Sep 29, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "research",
-        "compute",
-        "energy"
-      ],
-      "score": 76,
-      "blurb": "MIT engineers’ new aquabot offers a way to design small, efficient “biohybrid” robots.",
-      "real": true,
-      "primary": false,
-      "outlet": "mit-news",
-      "verification": {
-        "status": "analysis",
-        "label": "Analysis",
-        "sources": [
-          {
-            "name": "MIT News",
-            "outlet": "mit-news",
-            "url": "https://news.mit.edu/2026/powered-by-muscle-cells-paper-thin-robot-swims-through-watery-maze-0929",
-            "primary": false,
-            "published": "2026-09-29T04:00:00.000Z"
-          }
-        ],
-        "outlets": 1
-      }
-    },
-    {
       "id": "live-1bq891y",
       "title": "This week in science: Loud birds, eating with company, and asteroid samples",
       "url": "https://www.npr.org/2026/10/01/nx-s1-5978049/this-week-in-science-loud-birds-eating-with-company-and-asteroid-samples",
@@ -4063,6 +4104,47 @@
       }
     },
     {
+      "id": "live-aj4fhm",
+      "title": "Arctic Sea Ice Shrinks to Its 2026 Minimum",
+      "url": "https://science.nasa.gov/earth/earth-observatory/arctic-sea-ice-shrinks-to-its-2026-minimum/",
+      "source": "NASA News",
+      "sourceId": "nasa-news",
+      "kind": "hard-news",
+      "published": "2026-10-07T04:00:00.000Z",
+      "publishedLabel": "Oct 7, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "frontier",
+        "space",
+        "compute"
+      ],
+      "score": 73,
+      "blurb": "Satellite records show Arctic sea ice covering less of the ocean in both winter and summer.",
+      "real": true,
+      "primary": true,
+      "outlet": "nasa-news",
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "vc-aj4fhm",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NASA News",
+            "outlet": "nasa-news",
+            "url": "https://science.nasa.gov/earth/earth-observatory/arctic-sea-ice-shrinks-to-its-2026-minimum/",
+            "primary": true,
+            "published": "2026-10-07T04:00:00.000Z"
+          }
+        ],
+        "confirmedBy": [
+          "NASA News"
+        ]
+      }
+    },
+    {
       "id": "live-1wjvwvx",
       "title": "Mixed Human Feelings After a Day at a Park Full of Robots",
       "url": "https://www.nytimes.com/2026/10/05/world/asia/south-korea-ai-humanoid-robot-park.html",
@@ -4221,85 +4303,6 @@
           }
         ],
         "confirmedBy": []
-      }
-    },
-    {
-      "id": "live-10b2ref",
-      "title": "South Korea Investigates Possible Use of A.I. in Hackings on Its Banks",
-      "url": "https://www.nytimes.com/2026/10/06/world/asia/south-korea-banks-hacked-ai.html",
-      "source": "NYT Technology",
-      "sourceId": "nyt-tech",
-      "kind": "hard-news",
-      "published": "2026-10-06T08:51:52.000Z",
-      "publishedLabel": "Oct 6, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "compute",
-        "tech"
-      ],
-      "score": 73,
-      "blurb": "The president said there were signs that such models were used in recent attacks on several banks involving customer data. Police are investigating.",
-      "real": true,
-      "primary": false,
-      "outlet": "nyt",
-      "verification": {
-        "status": "unconfirmed",
-        "label": "Unconfirmed",
-        "clusterId": "vc-10b2ref",
-        "clusterSize": 1,
-        "outlets": 1,
-        "sources": [
-          {
-            "name": "NYT Technology",
-            "outlet": "nyt",
-            "url": "https://www.nytimes.com/2026/10/06/world/asia/south-korea-banks-hacked-ai.html",
-            "primary": false,
-            "published": "2026-10-06T08:51:52.000Z"
-          }
-        ],
-        "confirmedBy": []
-      }
-    },
-    {
-      "id": "live-1ci9sav",
-      "title": "APOD: 2026 October 6 – A Complete Auroral Oval from SMILE",
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-6-a-complete-auroral-oval-from-smile/",
-      "source": "NASA News",
-      "sourceId": "nasa-news",
-      "kind": "hard-news",
-      "published": "2026-10-06T04:05:00.000Z",
-      "publishedLabel": "Oct 6, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "frontier",
-        "space",
-        "compute"
-      ],
-      "score": 73,
-      "blurb": "APODScienceAPODAPOD: 2026 October 6 – A…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanatio",
-      "real": true,
-      "primary": true,
-      "outlet": "nasa-news",
-      "verification": {
-        "status": "confirmed",
-        "label": "Confirmed",
-        "clusterId": "vc-1ci9sav",
-        "clusterSize": 1,
-        "outlets": 1,
-        "sources": [
-          {
-            "name": "NASA News",
-            "outlet": "nasa-news",
-            "url": "https://science.nasa.gov/image-article/apod-2026-october-6-a-complete-auroral-oval-from-smile/",
-            "primary": true,
-            "published": "2026-10-06T04:05:00.000Z"
-          }
-        ],
-        "confirmedBy": [
-          "NASA News"
-        ]
       }
     }
   ]
