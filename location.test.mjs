@@ -217,7 +217,13 @@ console.log('\n--- Copy: neutral, macro-to-micro, no tier / paid / US-first fram
   const wf = read('./.github/workflows/soft-launch.yml');
   const ex = (wf.match(/exclude_assets:\s*'([^']*)'/) || [])[1] || '';
   assert('Pages excludes BUILD-PLAN.md, RESEARCH-RUNS.md, BRIEF.md', ['BUILD-PLAN.md', 'RESEARCH-RUNS.md', 'BRIEF.md'].every((f) => ex.split(',').includes(f)));
-  assert('workflow commits GDELT cache', /data\/news-cache/.test(wf.match(/git add[^\n]*/)[0]));
+  const commitLine = (wf.match(/scripts\/commit-data\.sh[^\n]*/) || [''])[0];
+  assert('workflow commits GDELT cache', /data\/news-cache/.test(commitLine));
+  assert('workflow commits on top of latest tip', /git reset --hard "origin\//.test(wf));
+  assert('workflow queues overlapping runs', /concurrency:\s*\n\s*group: ledger-publish\s*\n\s*cancel-in-progress: false/.test(wf));
+  assert('feed fetch failures are non-fatal', /fetch-signals\.mjs/.test(wf) && /continue-on-error: true\s*\n\s*run: node scripts\/fetch-signals\.mjs/.test(wf));
+  const sh = readFileSync('scripts/commit-data.sh', 'utf8');
+  assert('commit script resets to origin and retries push', /reset --quiet --hard "origin\/\$branch"/.test(sh) && /for attempt in/.test(sh) && !/pull --rebase/.test(sh));
 }
 
 {

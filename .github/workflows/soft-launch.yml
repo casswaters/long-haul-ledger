@@ -28,37 +28,32 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Sync to latest branch tip
+        # A queued or manually dispatched run checks out the SHA it was triggered on;
+        # generate from the newest code/data so the commit lands cleanly on top.
+        run: |
+          git fetch --quiet origin "${{ github.ref_name }}"
+          git reset --hard "origin/${{ github.ref_name }}"
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
       - name: Fetch public feeds + GDELT top-up → signals-live.json (location-tagged)
+        # Feed/GDELT failures are non-fatal: the file is only written on success, so the last good data stays.
+        continue-on-error: true
         run: node scripts/fetch-signals.mjs
 
       - name: Fetch public price series → data/desks/prices.json
         # EIA diesel + Henry Hub via FRED graph CSV (no key). A failed fetch keeps
         # the last good line and its as-of date; the file only changes on new data.
+        continue-on-error: true
         run: node scripts/fetch-prices.mjs
 
-      - name: Detect data change
-        id: diff
-        run: |
-          if git diff --quiet -- data/signals-live.json data/desks/prices.json data/news-cache; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Commit live signals
-        if: steps.diff.outputs.changed == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/signals-live.json data/desks/prices.json data/news-cache
-          git commit -m "chore: refresh news feed + Prices ($(date -u +%Y-%m-%dT%H:%MZ))"
-          git pull --rebase origin ${{ github.ref_name }}
-          git push origin HEAD:${{ github.ref_name }}
+      - name: Commit data on top of latest main (retries; never conflicts)
+        id: commit
+        run: scripts/commit-data.sh "chore: refresh news feed + Prices ($(date -u +%Y-%m-%dT%H:%MZ))" data/signals-live.json data/desks/prices.json data/news-cache
 
       - name: Deploy Pages (gh-pages)
         if: github.ref == 'refs/heads/main'
@@ -70,5 +65,5 @@ jobs:
           force_orphan: false
           # Keep Actions build artifacts out of the static site
           # BUILD-PLAN.md, RESEARCH-RUNS.md and BRIEF.md stay on main only; they must never ship to Pages.
-          exclude_assets: '.github,node_modules,scripts,.gitignore,package-lock.json,shots.mjs,qa-retone.mjs,ledger.test.js,stats.test.mjs,BUILD-PLAN.md,RESEARCH-RUNS.md,BRIEF.md,data/news-cache'
+          exclude_assets: '.github,node_modules,scripts,.gitignore,package-lock.json,shots.mjs,qa-retone.mjs,ledger.test.js,stats.test.mjs,location.test.mjs,BUILD-PLAN.md,RESEARCH-RUNS.md,BRIEF.md,data/news-cache'
           commit_message: 'Deploy soft-launch news feed'

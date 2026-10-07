@@ -544,9 +544,15 @@ async function main() {
   const fetched = await fetchAll(sources, {
     extra: async (rssItems) => {
       if (noGdelt) return [];
-      const r = await gdeltTopUp(rssItems);
-      gdeltCache = r.cache; gdeltStats = r.stats;
-      return r.items;
+      try {
+        const r = await gdeltTopUp(rssItems);
+        gdeltCache = r.cache; gdeltStats = r.stats;
+        return r.items;
+      } catch (e) {
+        // GDELT is a top-up only; any failure leaves the RSS feed intact.
+        console.log(`GDELT: skipped (${e?.message || e})`);
+        return [];
+      }
     },
   });
   if (gdeltCache) {
@@ -574,14 +580,18 @@ async function main() {
     curated: curatedApplied,
     items,
   };
+  if (!items.length) {
+    // Every feed failed: keep the last good file rather than publishing an empty column.
+    console.log(`No items fetched (OK ${ok.length} / FAIL ${failed.length}); keeping the last good ${OUT_PATH}`);
+    process.exit(0);
+  }
   mkdirSync(dirname(OUT_PATH), { recursive: true });
   writeFileSync(OUT_PATH, serializeFeed(payload));
   console.log(`Wrote ${items.length} items → ${OUT_PATH}`);
   console.log(`OK ${ok.length} / FAIL ${failed.length}`);
   console.log('Verification tiers:', JSON.stringify(payload.verification.counts));
   console.log(`Coverage: ${payload.coverage.countriesTagged} countries tagged, ${payload.coverage.countriesWith4} with 4+ stories, ${payload.coverage.worldOnly} world-level`);
-  if (!items.length) process.exit(2);
-  else process.exit(0);
+  process.exit(0);
 }
 
 const invoked = process.argv[1] ? resolvePath(process.argv[1]) : '';

@@ -31,6 +31,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Sync to latest branch tip
+        # A queued or manually dispatched run checks out the SHA it was triggered on;
+        # generate from the newest code/data so the commit lands cleanly on top.
+        run: |
+          git fetch --quiet origin "${{ github.ref_name }}"
+          git reset --hard "origin/${{ github.ref_name }}"
+
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
@@ -45,17 +53,9 @@ jobs:
       - name: Tests
         run: npm test
 
-      - name: Commit data
+      - name: Commit data on top of latest main (retries; never conflicts)
         id: commit
-        run: |
-          if git diff --quiet -- data/stats; then echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/stats
-          git commit -m "chore: refresh official stats ($(date -u +%Y-%m-%dT%H:%MZ))"
-          git pull --rebase origin ${{ github.ref_name }}
-          git push origin HEAD:${{ github.ref_name }}
-          echo "changed=true" >> "$GITHUB_OUTPUT"
+        run: scripts/commit-data.sh "chore: refresh official stats ($(date -u +%Y-%m-%dT%H:%MZ))" data/stats
 
       - name: Deploy Pages (gh-pages)
         if: github.ref == 'refs/heads/main' && (steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch')
@@ -65,5 +65,5 @@ jobs:
           publish_dir: .
           publish_branch: gh-pages
           force_orphan: false
-          exclude_assets: '.github,node_modules,scripts,.gitignore,package-lock.json,shots.mjs,qa-retone.mjs,ledger.test.js,stats.test.mjs,BUILD-PLAN.md,RESEARCH-RUNS.md,BRIEF.md,data/news-cache'
+          exclude_assets: '.github,node_modules,scripts,.gitignore,package-lock.json,shots.mjs,qa-retone.mjs,ledger.test.js,stats.test.mjs,location.test.mjs,BUILD-PLAN.md,RESEARCH-RUNS.md,BRIEF.md,data/news-cache'
           commit_message: 'Deploy official stats'
