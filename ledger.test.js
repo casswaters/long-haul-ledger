@@ -32,7 +32,7 @@ assert('domain intent noted', META.domainIntent === 'longhaulledger.com');
 assert('sample flag true', META.sample === true);
 assert('index.html exists', existsSync(new URL('./index.html', import.meta.url)));
 assert('world.svg exists', existsSync(new URL('./world.svg', import.meta.url)));
-assert('sw.js cache name long-haul-ledger-v15', /long-haul-ledger-v15/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v(?:[678]|9)'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+assert('sw.js cache name long-haul-ledger-v16', /long-haul-ledger-v16/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v(?:[678]|9)'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
 assert('BRIEF.md exists', existsSync(new URL('./BRIEF.md', import.meta.url)));
 assert('app has ?fresh=1 bust', /\bfresh\b/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 assert('zoom.js exists', existsSync(new URL('./zoom.js', import.meta.url)));
@@ -505,13 +505,19 @@ console.log('\n--- Retone: sober framing + PROTOTYPE labels ---');
     const j = appSrc.indexOf('\nfunction ', i + 10);
     return appSrc.slice(i, j < 0 ? undefined : j);
   };
-  for (const fn of ['renderMindMap', 'renderChain', 'renderCompanyDesk', 'renderPanel']) {
+  for (const fn of ['renderMindMap', 'renderChain', 'renderCompanyDesk']) {
     const body = fnBody(fn);
     assert(`${fn} renders PROTOTYPE badge + explainer`, /protoBadge\(/.test(body) && /protoNote\(\)/.test(body));
   }
+  {
+    const p = fnBody('renderPanel');
+    assert('country panel: no panel-wide prototype banner', !/protoNote\(\)/.test(p));
+    assert('country panel: example tag on snapshot, scores and desk tabs', (p.match(/exampleTag\(\)/g) || []).length >= 4);
+    assert('country panel: World Bank macro sits outside example blocks', p.indexOf('renderWorldMacro(c.id)') < p.indexOf('class="snapshot"'));
+  }
   assert('country metrics marked example', /metric is-proto/.test(fnBody('renderPanel')) && /· example/.test(fnBody('renderPanel')));
   assert('prototype tabs badged (signals/industries/regions/constraints)', (fnBody('renderTab').match(/protoBadge\('proto-badge-sm'\)/g) || []).length >= 4);
-  assert('home names the fictional desks as prototype', /United States, India, UAE, Japan, Nigeria, Chile\) and all other country views are example data/.test(appSrc));
+  assert('home names the fictional desks as prototype', /country-desk tabs are example data for UX testing and are tagged/.test(appSrc));
   assert('leadership keeps SAMPLE/ESTIMATE, response times flagged estimate', /SAMPLE \/ ESTIMATE/.test(appSrc) && /source pending/.test(appSrc));
   const lead = JSON.parse(read('./data/leadership.json'));
   assert('leadership ESTIMATE badges still present in data', JSON.stringify(lead).includes('"ESTIMATE"'));
