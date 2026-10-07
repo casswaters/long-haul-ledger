@@ -1,0 +1,67 @@
+{
+ "senate": {
+  "source": "https://www.senate.gov/senators/leadership.htm",
+  "roles": [
+   [
+    "President of the Senate (Vice President)",
+    "J.D. Vance",
+    "R"
+   ],
+   [
+    "President Pro Tempore",
+    "Chuck Grassley",
+    "R-IA"
+   ],
+   [
+    "Senate Majority Leader",
+    "John Thune",
+    "R-SD"
+   ],
+   [
+    "Senate Majority Whip",
+    "John Barrasso",
+    "R-WY"
+   ],
+   [
+    "Senate Democratic Leader (Minority Leader)",
+    "Charles E. Schumer",
+    "D-NY"
+   ],
+   [
+    "Senate Democratic Whip",
+    "Richard J. Durbin",
+    "D-IL"
+   ]
+  ]
+ },
+ "house": {
+  "source": "https://www.house.gov/leadership",
+  "roles": [
+   [
+    "Speaker of the House",
+    "Mike Johnson",
+    "R-LA"
+   ],
+   [
+    "House Majority Leader",
+    "Steve Scalise",
+    "R-LA"
+   ],
+   [
+    "House Majority Whip",
+    "Tom Emmer",
+    "R-MN"
+   ],
+   [
+    "House Democratic Leader (Minority Leader)",
+    "Hakeem Jeffries",
+    "D-NY"
+   ],
+   [
+    "House Democratic Whip",
+    "Katherine Clark",
+    "D-MA"
+   ]
+  ]
+ }
+}

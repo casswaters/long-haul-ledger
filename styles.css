@@ -1663,3 +1663,20 @@ button.vbadge:focus-visible { outline: 1px solid var(--ink); outline-offset: 1px
   .hnav { padding: 0.32rem 0.5rem; font-size: 0.68rem; }
   .date-stamp { display: none; }
 }
+
+/* Leadership groups (legislatures / Congress) */
+.lead-group { margin-top: 0.5rem; border: 1px solid var(--line, #2a2f36); border-radius: 6px; }
+.lead-group > summary { cursor: pointer; padding: 0.5rem 0.7rem; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-mute, #9aa3ad); list-style: none; }
+.lead-group > summary::before { content: '\25B8'; display: inline-block; width: 1em; transition: transform .15s; }
+.lead-group[open] > summary::before { transform: rotate(90deg); }
+.lead-group-body { padding: 0 0.6rem 0.6rem; }
+.lead-party { color: var(--ink-mute, #9aa3ad); font-weight: 400; font-size: 0.85em; }
+.lead-rows { list-style: none; margin: 0; padding: 0; font-size: 0.85rem; }
+.lead-row { display: grid; grid-template-columns: 4.5rem 1fr 3.5rem; gap: 0.5rem; padding: 0.3rem 0.2rem; border-top: 1px solid var(--line, #2a2f36); }
+.lead-row-head { font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-mute, #9aa3ad); border-top: 0; }
+.lead-row .lr-p { text-align: right; color: var(--ink-mute, #9aa3ad); }
+.lead-row.is-vacant .lr-n { color: var(--ink-mute, #9aa3ad); font-style: italic; }
+.lead-group-src { font-size: 0.75rem; color: var(--ink-mute, #9aa3ad); margin: 0.5rem 0 0; }
+@media (max-width: 600px) { .lead-row { grid-template-columns: 3.6rem 1fr 3rem; font-size: 0.82rem; } }
+.lead-group > summary::-webkit-details-marker { display: none; }
+.lead-group > summary::marker { content: ''; }
