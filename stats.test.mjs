@@ -40,6 +40,9 @@ for (const f of ['app.js', 'stats.js', 'desks.js', 'leadership.js']) assert(`${f
   const html = readFileSync('./index.html', 'utf8'), css = readFileSync('./styles.css', 'utf8');
   assert('$ mark: left-column placeholder after panel content', /id="country-panel"[^>]*><\/div>\s*<div class="panel-dollar"/.test(html));
   assert('$ mark: one per layout (rail hidden on desktop, panel hidden on mobile)', /min-width: 901px\)[^}]*\{[^}]*\.panel \{ overflow: visible; \}\s*\.rail-dollar \{ display: none; \}/.test(css) && /max-width: 900px\) \{ \.panel-dollar \{ display: none; \}/.test(css));
+  assert('$ mark: carousel spin on vertical axis (rotateY, no in-plane rotate)', /@keyframes rail-dollar-spin\s*\{[^}]*rotateY\(0deg\)[^}]*\}[^}]*rotateY\(360deg\)/.test(css) && !/rotate\((?:0|360)deg\)/.test(css));
+  assert('$ mark: perspective parent + preserve-3d spinner in both marks', /\.panel-dollar-glyph \{[^}]*perspective:/.test(css) && /\.rail-dollar-glyph \{[^}]*perspective:/.test(css) && /\.dollar-spin \{[^}]*transform-style: preserve-3d/.test(css) && (html.match(/class="dollar-spin"/g) || []).length === 2);
+  assert('$ mark: reduced motion stops the carousel', /prefers-reduced-motion: reduce\)[\s\S]*?\.dollar-spin \{ animation: none/.test(css));
   assert('$ mark: reduced motion stops the spin', /prefers-reduced-motion: reduce\)\s*\{\s*\.panel-dollar-glyph \{ animation: rail-dollar-pulse-static/.test(css));
 }
 assert('feed: numeric entity decoded once (&#039;)', stripHtml('If you&#039;re') === "If you're");

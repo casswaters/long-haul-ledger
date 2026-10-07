@@ -467,9 +467,9 @@ a:hover { text-decoration: underline; }
   line-height: 1;
   color: rgba(46, 140, 105, 0.11);
   text-shadow: 0 0 1.6rem rgba(46, 140, 105, 0.12);
-  animation: panel-dollar-spin 64s linear infinite, rail-dollar-pulse 7.5s ease-in-out infinite;
+  perspective: 640px;
+  animation: rail-dollar-pulse 7.5s ease-in-out infinite;
 }
-@keyframes panel-dollar-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) {
   .panel-dollar-glyph { animation: rail-dollar-pulse-static 8s ease-in-out infinite; }
 }
@@ -507,11 +507,33 @@ a:hover { text-decoration: underline; }
   color: rgba(46, 140, 105, 0.11);
   text-shadow: 0 0 1.6rem rgba(46, 140, 105, 0.12);
   transform: translateY(-42%);
-  animation: rail-dollar-spin 64s linear infinite, rail-dollar-pulse 7.5s ease-in-out infinite;
+  perspective: 640px;
+  animation: rail-dollar-pulse 7.5s ease-in-out infinite;
+}
+/* Carousel spin (both $ marks): the inner .dollar-spin turns on the vertical
+   axis inside its perspective parent. Backfaces stay visible (mirrored $ on
+   the far half) and one faint depth layer behind it gives the glyph a little
+   thickness, so edge-on it reads as a thin emerald sliver, not a gap. */
+.dollar-spin {
+  position: relative;
+  display: inline-block;
+  transform-origin: 50% 50%;
+  transform-style: preserve-3d;
+  backface-visibility: visible;
+  animation: rail-dollar-spin 64s linear infinite;
+}
+.dollar-spin::after {
+  content: '$';
+  position: absolute;
+  inset: 0;
+  backface-visibility: visible;
+  text-shadow: none;
+  opacity: 0.4;
+  transform: translateZ(-0.035em);
 }
 @keyframes rail-dollar-spin {
-  from { transform: translateY(-42%) rotate(0deg); }
-  to { transform: translateY(-42%) rotate(360deg); }
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
 }
 @keyframes rail-dollar-pulse {
   0%, 100% {
@@ -532,6 +554,7 @@ a:hover { text-decoration: underline; }
   .rail-dollar-glyph {
     animation: rail-dollar-pulse-static 8s ease-in-out infinite;
   }
+  .dollar-spin { animation: none; transform: none; }
   @keyframes rail-dollar-pulse-static {
     0%, 100% { color: rgba(46, 140, 105, 0.1); text-shadow: none; }
     50% { color: rgba(52, 158, 118, 0.16); text-shadow: none; }
