@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T18:07:48.498Z",
+  "generatedAt": "2026-10-07T18:24:10.974Z",
   "mode": "us-progress",
   "itemCount": 110,
   "verification": {
@@ -100,6 +100,14 @@
     }
   ],
   "sourcesFailed": [],
+  "curated": {
+    "added": [
+      "cur-anduril-arsenal-2"
+    ],
+    "overridden": [],
+    "expired": [],
+    "unmatched": []
+  },
   "items": [
     {
       "id": "live-1ynd7di",
@@ -256,6 +264,72 @@
           }
         ],
         "confirmedBy": []
+      }
+    },
+    {
+      "id": "cur-anduril-arsenal-2",
+      "title": "Anduril, US Navy to invest $6.6B in Arsenal-2 submarine shipyard in Maryland",
+      "url": "https://www.anduril.com/news/anduril-u-s-navy-invest-usd6-6-billion-to-expand-america-s-submarine-industrial-base",
+      "source": "Anduril",
+      "sourceId": "curated",
+      "kind": "hard-news",
+      "published": "2026-10-06T14:00:00.000Z",
+      "publishedLabel": "Oct 6, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "defense",
+        "manufacturing",
+        "shipbuilding"
+      ],
+      "score": 100,
+      "blurb": "Anduril commits $3.7B of private capital to Arsenal-2 at Tradepoint Atlantic (Sparrows Point, Baltimore County); the Navy awards a contract worth up to $2.9B tied to production outcomes. About 3,100 direct jobs; initial operations targeted for 2030.",
+      "real": true,
+      "primary": false,
+      "outlet": "Anduril",
+      "curated": true,
+      "verification": {
+        "status": "confirmed",
+        "label": "Confirmed",
+        "clusterId": "cur-cur-anduril-arsenal-2",
+        "clusterSize": 4,
+        "outlets": 4,
+        "sources": [
+          {
+            "name": "Anduril (company release)",
+            "outlet": "Anduril (company release)",
+            "url": "https://www.anduril.com/news/anduril-u-s-navy-invest-usd6-6-billion-to-expand-america-s-submarine-industrial-base",
+            "primary": true,
+            "published": "2026-10-06"
+          },
+          {
+            "name": "Office of Governor Wes Moore (Maryland)",
+            "outlet": "Office of Governor Wes Moore (Maryland)",
+            "url": "https://governor.maryland.gov/news/press-releases/state-maryland-baltimore-county-announce-anduril-industries-invest-37b",
+            "primary": true,
+            "published": "2026-10-06"
+          },
+          {
+            "name": "Reuters (via Military Times)",
+            "outlet": "Reuters (via Military Times)",
+            "url": "https://www.militarytimes.com/industry/techwatch/2026/10/06/anduril-us-navy-invest-66-billion-to-boost-submarine-parts-production/",
+            "primary": false,
+            "published": "2026-10-06"
+          },
+          {
+            "name": "Manufacturing Dive",
+            "outlet": "Manufacturing Dive",
+            "url": "https://www.manufacturingdive.com/news/anduril-industries-u-s-navy-arsenal-2-shipyard-baltimore-county-maryland/832275/",
+            "primary": false,
+            "published": "2026-10-07"
+          }
+        ],
+        "confirmedBy": [
+          "Anduril (company release)",
+          "Office of Governor Wes Moore (Maryland)"
+        ],
+        "curated": true,
+        "note": "Confirmed by the company and the Maryland governor's office; Reuters wire carried by Military Times."
       }
     },
     {
@@ -1151,44 +1225,6 @@
       }
     },
     {
-      "id": "live-1mh45cy",
-      "title": "Anduril, US Navy to build $6.6B shipyard in Maryland",
-      "url": "https://www.manufacturingdive.com/news/anduril-industries-u-s-navy-arsenal-2-shipyard-baltimore-county-maryland/832275/",
-      "source": "Manufacturing Dive",
-      "sourceId": "mfg-dive",
-      "kind": "hard-news",
-      "published": "2026-10-07T16:13:35.000Z",
-      "publishedLabel": "Oct 7, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "manufacturing",
-        "industry"
-      ],
-      "score": 85,
-      "blurb": "The facility, dubbed Arsenal-2, will manufacture components for Virginia-class submarines. The new project follows DOD’s new Project Meridien initiative, which Anduril co-founder Palmer Luckey is co-leading.",
-      "real": true,
-      "primary": false,
-      "outlet": "mfg-dive",
-      "verification": {
-        "status": "unconfirmed",
-        "label": "Unconfirmed",
-        "clusterId": "vc-1mh45cy",
-        "clusterSize": 1,
-        "outlets": 1,
-        "sources": [
-          {
-            "name": "Manufacturing Dive",
-            "outlet": "mfg-dive",
-            "url": "https://www.manufacturingdive.com/news/anduril-industries-u-s-navy-arsenal-2-shipyard-baltimore-county-maryland/832275/",
-            "primary": false,
-            "published": "2026-10-07T16:13:35.000Z"
-          }
-        ],
-        "confirmedBy": []
-      }
-    },
-    {
       "id": "live-it9ysp",
       "title": "Jaguar Type 01 debuts; now, no one remembers the electric Ferrari",
       "url": "https://arstechnica.com/cars/2026/10/jaguar-makes-its-controversial-all-ev-return-with-the-type-01/",
@@ -1309,7 +1345,7 @@
       "sourceId": "mit-news",
       "kind": "analysis",
       "published": "2026-10-07T04:00:00.000Z",
-      "publishedLabel": "Oct 6, 2026",
+      "publishedLabel": "Oct 7, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -2282,7 +2318,7 @@
       "sourceId": "mit-news",
       "kind": "analysis",
       "published": "2026-10-02T04:00:00.000Z",
-      "publishedLabel": "Oct 1, 2026",
+      "publishedLabel": "Oct 2, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -2318,7 +2354,7 @@
       "sourceId": "mit-news",
       "kind": "analysis",
       "published": "2026-10-02T04:00:00.000Z",
-      "publishedLabel": "Oct 1, 2026",
+      "publishedLabel": "Oct 2, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -2467,7 +2503,7 @@
       "sourceId": "asterisk",
       "kind": "analysis",
       "published": "2026-08-04T00:00:00.000Z",
-      "publishedLabel": "Aug 3, 2026",
+      "publishedLabel": "Aug 4, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -2569,7 +2605,7 @@
     },
     {
       "id": "live-kijsoe",
-      "title": "Outstreaming Taylor Swift is easy with 10K bots and AI songs, fraudster admits",
+      "title": "Fraudster jailed for using 10K bots and AI songs to outstream Taylor Swift",
       "url": "https://arstechnica.com/tech-policy/2026/10/outstreaming-taylor-swift-is-easy-with-10k-bots-and-ai-songs-fraudster-admits/",
       "source": "Ars Technica",
       "sourceId": "ars-technica",
@@ -2770,7 +2806,7 @@
       "sourceId": "nasa-news",
       "kind": "hard-news",
       "published": "2026-10-07T04:05:00.000Z",
-      "publishedLabel": "Oct 6, 2026",
+      "publishedLabel": "Oct 7, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -3357,7 +3393,7 @@
       "sourceId": "asterisk",
       "kind": "analysis",
       "published": "2026-10-06T00:00:00.000Z",
-      "publishedLabel": "Oct 5, 2026",
+      "publishedLabel": "Oct 6, 2026",
       "country": "US",
       "countryId": "us",
       "tags": [
@@ -4218,6 +4254,44 @@
       }
     },
     {
+      "id": "live-19ksc13",
+      "title": "A.I. Music Fraudster Who Drew Millions in Royalties Is Sentenced to 18 Months",
+      "url": "https://www.nytimes.com/2026/10/07/arts/music/ai-music-fraud-royalties-sentence.html",
+      "source": "NYT Technology",
+      "sourceId": "nyt-tech",
+      "kind": "hard-news",
+      "published": "2026-10-07T18:16:51.000Z",
+      "publishedLabel": "Oct 7, 2026",
+      "country": "US",
+      "countryId": "us",
+      "tags": [
+        "compute",
+        "tech"
+      ],
+      "score": 73,
+      "blurb": "Prosecutors say Michael Smith flooded music-streaming platforms with bots that repeatedly streamed his A.I.-generated music, earning him as much as $8 million.",
+      "real": true,
+      "primary": false,
+      "outlet": "nyt",
+      "verification": {
+        "status": "unconfirmed",
+        "label": "Unconfirmed",
+        "clusterId": "vc-19ksc13",
+        "clusterSize": 1,
+        "outlets": 1,
+        "sources": [
+          {
+            "name": "NYT Technology",
+            "outlet": "nyt",
+            "url": "https://www.nytimes.com/2026/10/07/arts/music/ai-music-fraud-royalties-sentence.html",
+            "primary": false,
+            "published": "2026-10-07T18:16:51.000Z"
+          }
+        ],
+        "confirmedBy": []
+      }
+    },
+    {
       "id": "live-3a1k5l",
       "title": "An A.I. Songwriting Experiment: Humans Against the Machine",
       "url": "https://www.nytimes.com/2026/10/03/arts/music/human-songwriting-ai-songwriting.html",
@@ -4253,47 +4327,6 @@
           }
         ],
         "confirmedBy": []
-      }
-    },
-    {
-      "id": "live-aj4fhm",
-      "title": "Arctic Sea Ice Shrinks to Its 2026 Minimum",
-      "url": "https://science.nasa.gov/earth/earth-observatory/arctic-sea-ice-shrinks-to-its-2026-minimum/",
-      "source": "NASA News",
-      "sourceId": "nasa-news",
-      "kind": "hard-news",
-      "published": "2026-10-07T04:00:00.000Z",
-      "publishedLabel": "Oct 6, 2026",
-      "country": "US",
-      "countryId": "us",
-      "tags": [
-        "frontier",
-        "space",
-        "compute"
-      ],
-      "score": 73,
-      "blurb": "Satellite records show Arctic sea ice covering less of the ocean in both winter and summer.",
-      "real": true,
-      "primary": true,
-      "outlet": "nasa-news",
-      "verification": {
-        "status": "confirmed",
-        "label": "Confirmed",
-        "clusterId": "vc-aj4fhm",
-        "clusterSize": 1,
-        "outlets": 1,
-        "sources": [
-          {
-            "name": "NASA News",
-            "outlet": "nasa-news",
-            "url": "https://science.nasa.gov/earth/earth-observatory/arctic-sea-ice-shrinks-to-its-2026-minimum/",
-            "primary": true,
-            "published": "2026-10-07T04:00:00.000Z"
-          }
-        ],
-        "confirmedBy": [
-          "NASA News"
-        ]
       }
     }
   ]

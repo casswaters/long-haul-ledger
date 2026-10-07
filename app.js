@@ -1488,6 +1488,7 @@ function verifyBadge(item, { pop = false } = {}) {
         <span class="vpop-h">${escapeHtml(heading)}</span>
         <ul>${rows || '<li>—</li>'}</ul>
         ${confirmed}
+        ${v.curated ? `<p class="vpop-note">Hand-verified by the Ledger${v.note ? `: ${escapeHtml(v.note)}` : '.'}</p>` : ''}
       </span>
     </span>`;
 }

@@ -12,6 +12,7 @@ const ASSETS = [
   './geo.js',
   './leadership.js',
   './stats.js',
+  './curated.js',
   './data/stats/us.json',
   './data/stats/world.json',
   './labels.js',

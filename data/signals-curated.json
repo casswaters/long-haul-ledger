@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "note": "Hand-researched feed items and verification-tier corrections. Merged into data/signals-live.json on every 6-hour rebuild by scripts/fetch-signals.mjs. Entries auto-expire after maxAgeDays (from published, or addedAt for overrides) or at an explicit expires date. Real source URLs only.",
+  "maxAgeDays": 30,
+  "add": [
+    {
+      "id": "cur-anduril-arsenal-2",
+      "title": "Anduril, US Navy to invest $6.6B in Arsenal-2 submarine shipyard in Maryland",
+      "url": "https://www.anduril.com/news/anduril-u-s-navy-invest-usd6-6-billion-to-expand-america-s-submarine-industrial-base",
+      "aliases": [
+        "https://www.manufacturingdive.com/news/anduril-industries-u-s-navy-arsenal-2-shipyard-baltimore-county-maryland/832275/"
+      ],
+      "source": "Anduril",
+      "kind": "hard-news",
+      "published": "2026-10-06T14:00:00Z",
+      "country": "US",
+      "tags": ["defense", "manufacturing", "shipbuilding"],
+      "blurb": "Anduril commits $3.7B of private capital to Arsenal-2 at Tradepoint Atlantic (Sparrows Point, Baltimore County); the Navy awards a contract worth up to $2.9B tied to production outcomes. About 3,100 direct jobs; initial operations targeted for 2030.",
+      "status": "confirmed",
+      "sources": [
+        { "name": "Anduril (company release)", "url": "https://www.anduril.com/news/anduril-u-s-navy-invest-usd6-6-billion-to-expand-america-s-submarine-industrial-base", "primary": true, "published": "2026-10-06" },
+        { "name": "Office of Governor Wes Moore (Maryland)", "url": "https://governor.maryland.gov/news/press-releases/state-maryland-baltimore-county-announce-anduril-industries-invest-37b", "primary": true, "published": "2026-10-06" },
+        { "name": "Reuters (via Military Times)", "url": "https://www.militarytimes.com/industry/techwatch/2026/10/06/anduril-us-navy-invest-66-billion-to-boost-submarine-parts-production/", "primary": false, "published": "2026-10-06" },
+        { "name": "Manufacturing Dive", "url": "https://www.manufacturingdive.com/news/anduril-industries-u-s-navy-arsenal-2-shipyard-baltimore-county-maryland/832275/", "primary": false, "published": "2026-10-07" }
+      ],
+      "note": "Confirmed by the company and the Maryland governor's office; Reuters wire carried by Military Times.",
+      "addedAt": "2026-10-07T18:30:00Z",
+      "addedBy": "Ledger research (hand-verified)"
+    }
+  ],
+  "overrides": []
+}

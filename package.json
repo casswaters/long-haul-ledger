@@ -8,6 +8,8 @@
     "test": "node ledger.test.js && node stats.test.mjs",
     "fetch": "node scripts/fetch-signals.mjs",
     "fetch:prices": "node scripts/fetch-prices.mjs",
-    "shots": "node shots.mjs"
+    "shots": "node shots.mjs",
+    "curated:check": "node -e \"import('./curated.js').then(m=>{const e=m.validateCurated(JSON.parse(require('fs').readFileSync('data/signals-curated.json','utf8')));if(e.length){console.error(e.join('\\n'));process.exit(1)}console.log('signals-curated.json OK')})\"",
+    "curated:apply": "node scripts/fetch-signals.mjs --curated-only"
   }
 }
