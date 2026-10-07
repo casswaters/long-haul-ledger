@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Long Haul Ledger — US industrial ledger: free world atlas, US Progress rail, US desks (Prices sample wired)",
   "scripts": {
-    "test": "node ledger.test.js",
+    "test": "node ledger.test.js && node stats.test.mjs",
     "fetch": "node scripts/fetch-signals.mjs",
     "fetch:prices": "node scripts/fetch-prices.mjs",
     "shots": "node shots.mjs"
