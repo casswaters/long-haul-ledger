@@ -1611,10 +1611,25 @@ function wireAtlasLegend() {
   });
 }
 
+
+function wireMethodTop() {
+  const btn = $('#about-top');
+  if (!btn) return;
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    const raw = (location.hash || '').replace(/^#/, '');
+    if (raw === 'about') {
+      history.pushState(null, '', location.pathname + location.search);
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
+
 function boot() {
   $('#date-stamp').textContent = formatDateStamp();
   $('#about-text').textContent = META.sketchNote;
   wireAtlasLegend();
+  wireMethodTop();
   // Desk entry points keep the current atlas focus (no hash reset)
   document.addEventListener('click', (e) => {
     const opener = e.target.closest?.('[data-open-desk]');
