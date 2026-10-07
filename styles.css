@@ -520,7 +520,7 @@ a:hover { text-decoration: underline; }
   transform-origin: 50% 50%;
   transform-style: preserve-3d;
   backface-visibility: visible;
-  animation: rail-dollar-spin 64s linear infinite;
+  animation: rail-dollar-spin 57.14s linear infinite;
 }
 .dollar-spin::after {
   content: '$';
