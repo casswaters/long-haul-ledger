@@ -145,7 +145,10 @@ assert('seed briefs validate with no errors', !sv.errors.length, sv.errors.join(
 assert('world and US nuclear briefs present, 4 items each', sv.valid.briefs.world?.nuclear?.items.length === 4 && sv.valid.briefs.us?.nuclear?.items.length === 4);
 const allItems = [...sv.valid.briefs.world.nuclear.items, ...sv.valid.briefs.us.nuclear.items];
 assert('every seed item has a primary source', allItems.every((i) => i.sources.some((s) => s.primary)));
-assert('seed corrections: exigent (not emergency), no unsourced March 2027 promise', allItems.some((i) => /exigent/.test(i.text)) && !allItems.some((i) => /emergency license/.test(i.text)) && !allItems.some((i) => /Holtec still says/.test(i.text)));
+assert('seed corrections: no "emergency" amendment, no unsourced March 2027 promise', !allItems.some((i) => /emergency license/.test(i.text)) && !allItems.some((i) => /Holtec still says/.test(i.text)));
+const pal = allItems.filter((i) => /Palisades/.test(i.text));
+assert('Palisades item cites the NRC itself, no reposting or classifieds links', pal.length === 2 && pal.every((i) => i.sources.some((s) => /^https:\/\/www\.nrc\.gov\//.test(s.url)) && !i.sources.some((s) => /pubt\.io|publicnow|classifieds\./.test(s.url))));
+assert('no seed source is a reposting or classifieds site', !allItems.some((i) => i.sources.some((s) => /pubt\.io|publicnow|classifieds\./.test(s.url))));
 assert('no social sign-off on the site', !JSON.stringify(seed).toLowerCase().includes('comment section') && !JSON.stringify(seed).toLowerCase().includes('spicy'));
 
 console.log('\n--- Hash tokens (deep links) ---');
