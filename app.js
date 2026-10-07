@@ -422,7 +422,7 @@ async function loadMap() {
       svg.removeAttribute('height');
       svg.setAttribute('shape-rendering', 'geometricPrecision');
       svg.setAttribute('role', 'img');
-      svg.setAttribute('aria-label', 'World map — click a country to focus the panels and news on it; double-click / long-press opens the mind map at country level; drill into state equivalents and cities');
+      svg.setAttribute('aria-label', 'World map: click a country to focus the panels and news on it; double-click / long-press opens the mind map at country level; drill into state equivalents and cities');
       svg.dataset.baseViewBox = svg.getAttribute('viewBox') || `0 0 ${SVG_W} ${SVG_H}`;
       const seed = new Set(fullCountryIds());
       const stubs = new Set(Object.keys(STUBS));
@@ -1100,7 +1100,7 @@ function renderPriceTable(recs) {
           <td class="num val" data-label="Value"><span class="cell">${escapeHtml(formatValue(c.value, r.id))}</span></td>
           <td data-label="Unit" class="unit"><span class="cell">${escapeHtml(c.unit)}</span></td>
           <td class="num" data-label="As of"><span class="cell">${escapeHtml(c.asOf)} ${stale}</span></td>
-          <td class="num prior" data-label="Prior"><span class="cell">${prior ? `${escapeHtml(formatValue(prior.value, r.id))} <span class="prior-date">${escapeHtml(prior.asOf)}</span> <span class="delta">${escapeHtml(delta)}</span>` : '—'}</span></td>
+          <td class="num prior" data-label="Prior"><span class="cell">${prior ? `${escapeHtml(formatValue(prior.value, r.id))} <span class="prior-date">${escapeHtml(prior.asOf)}</span> <span class="delta">${escapeHtml(delta)}</span>` : 'n/a'}</span></td>
           <td data-label="Source"><span class="cell"><a href="${escapeHtml(c.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(c.sourceName)}</a>${c.primaryUrl ? ` · <a href="${escapeHtml(c.primaryUrl)}" target="_blank" rel="noopener noreferrer">EIA</a>` : ''}</span></td>
           <td data-label="Revision note"><span class="cell">${escapeHtml(c.revisionNote)}</span></td>
         </tr>
@@ -1108,7 +1108,7 @@ function renderPriceTable(recs) {
           <td colspan="7">
             <div class="sub-grid">
               <div><span class="k">Industrial use</span> ${escapeHtml(r.industrialUse)}</div>
-              <div><span class="k">Caveat</span> ${escapeHtml(r.caveat || '—')}</div>
+              <div><span class="k">Caveat</span> ${escapeHtml(r.caveat || 'n/a')}</div>
               <div><span class="k">Range</span> ${r.range ? escapeHtml(`${r.range.low}–${r.range.high} set ${r.range.setOn}`) : 'not set (set by the editor with a written reason)'}</div>
               <div class="hist"><span class="k">History</span> ${history}</div>
             </div>
@@ -1229,7 +1229,7 @@ function renderLeadershipAccordion() {
   });
   const hasDrill = admin1Countries.has(state.country);
   const finerNote = !hasDrill
-    ? `<p class="lead-finer-note">Finer map coming — state-equivalent borders not seeded for this country yet. The country panel still works.</p>`
+    ? `<p class="lead-finer-note">Finer map coming: state-equivalent borders not seeded for this country yet. The country panel still works.</p>`
     : '';
 
   if (!stack.length) {
@@ -1507,11 +1507,11 @@ function verifyBadge(item, { pop = false } = {}) {
     ? `<p class="vpop-note">Confirmed by ${escapeHtml(v.confirmedBy.join(', '))} (subject / official source).</p>` : '';
   return `
     <span class="vwrap">
-      <button type="button" class="vbadge vb-${status}" aria-expanded="false" aria-label="${escapeHtml(meta.label)} — show sources" data-vbadge>${escapeHtml(meta.label)}</button>
+      <button type="button" class="vbadge vb-${status}" aria-expanded="false" aria-label="${escapeHtml(meta.label)}: show sources" data-vbadge>${escapeHtml(meta.label)}</button>
       <span class="vpop" role="tooltip">
         <span class="vpop-hint">${escapeHtml(meta.hint)}</span>
         <span class="vpop-h">${escapeHtml(heading)}</span>
-        <ul>${rows || '<li>—</li>'}</ul>
+        <ul>${rows || '<li>n/a</li>'}</ul>
         ${confirmed}
         ${v.curated ? `<p class="vpop-note">Hand-verified by the Ledger${v.note ? `: ${escapeHtml(v.note)}` : '.'}</p>` : ''}
       </span>
@@ -1669,9 +1669,9 @@ function renderFeed() {
 }
 
 function dateStampShort(iso) {
-  if (!iso) return '—';
+  if (!iso) return 'n/a';
   const d = new Date(iso);
-  if (Number.isNaN(d.getTime())) return '—';
+  if (Number.isNaN(d.getTime())) return 'n/a';
   const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   return `${months[d.getMonth()]} ${d.getDate()}`;
 }
@@ -1712,7 +1712,7 @@ function renderStatsTable(recs) {
   const rows = recs.map((r) => {
     const stale = isStatStale(r, now) ? `<span class="stale-flag" title="Older than this series' normal cadence">stale</span>` : '';
     const err = r.lastError ? `<span class="stale-flag" title="Last refresh failed (${escapeHtml(r.lastError)}); showing last good value">last good</span>` : '';
-    const prior = r.prior ? `${escapeHtml(fmtNum(r.prior.value, r.decimals))} <span class="prior-date">${escapeHtml(r.prior.asOf)}</span>` : '—';
+    const prior = r.prior ? `${escapeHtml(fmtNum(r.prior.value, r.decimals))} <span class="prior-date">${escapeHtml(r.prior.asOf)}</span>` : 'n/a';
     const yoy = Number.isFinite(r.yoy) ? `<span class="stat-yoy">${r.yoy > 0 ? '+' : ''}${r.yoy.toFixed(1)}% y/y</span>` : '';
     return `<tr class="ledger-row stat-row">
       <th scope="row" data-label="Series"><span class="cell">${escapeHtml(r.title)}${r.caveat ? `<span class="stat-caveat">${escapeHtml(r.caveat)}</span>` : ''}</span></th>
@@ -1730,7 +1730,7 @@ function renderStatsTable(recs) {
       <thead><tr><th scope="col">Series</th><th scope="col" class="num">Value</th><th scope="col">Unit</th><th scope="col" class="num">As of</th><th scope="col" class="num">Prior</th><th scope="col">Trend</th><th scope="col">Source</th></tr></thead>
       <tbody>${rows}</tbody>
     </table>
-    <p class="desk-note">Each series keeps its source cadence (daily, weekly or monthly). Trend line: last ~12 months of daily data or 24 monthly readings. Refreshed by the site's GitHub Action from FRED graph CSV (no key)${statsUs?.generatedAt ? `, last run ${escapeHtml(statsUs.generatedAt.slice(0, 16).replace('T', ' '))} UTC` : ''}.</p>`;
+    <p class="desk-note">Each series keeps its source cadence (daily, weekly or monthly). Trend line: about the last 12 months of daily data or 24 monthly readings. Refreshed by the site's GitHub Action from FRED graph CSV (no key)${statsUs?.generatedAt ? `, last run ${escapeHtml(statsUs.generatedAt.slice(0, 16).replace('T', ' '))} UTC` : ''}.</p>`;
 }
 
 function renderWorldMacro(iso2) {
@@ -1738,7 +1738,7 @@ function renderWorldMacro(iso2) {
   if (!c) return '';
   const cells = WB_INDICATORS.map((ind) => {
     const v = c[ind.id];
-    if (!v) return `<div class="macro-cell"><div class="label">${escapeHtml(ind.title)}</div><div class="value ink-mute">—</div><div class="hint">no recent data</div></div>`;
+    if (!v) return `<div class="macro-cell"><div class="label">${escapeHtml(ind.title)}</div><div class="value ink-mute">n/a</div><div class="hint">no recent data</div></div>`;
     const val = ind.kind === 'money' ? fmtMoney(v.value) : `${fmtNum(v.value, 1)}%`;
     return `<div class="macro-cell"><div class="label">${escapeHtml(ind.title)} <span class="metric-unit">${escapeHtml(ind.unit)}</span></div><div class="value">${escapeHtml(val)}</div><div class="hint"><a href="${escapeHtml(v.sourceUrl)}" target="_blank" rel="noopener noreferrer">World Bank</a> · ${escapeHtml(v.year)}</div></div>`;
   }).join('');
@@ -1770,6 +1770,17 @@ async function loadLiveFeed() {
   renderFeed();
 }
 
+/* Header "Example data" badge: only while the view shows example scores
+   (an example country profile, its mind map, chains or companies). Hidden on
+   the World home, sourced-only countries and the Indicators overlay. */
+function viewShowsExampleScores(st, hasProfile) {
+  return !st.desk && !!st.country && !!hasProfile;
+}
+function syncExampleBadge() {
+  const b = $('#header-example-badge');
+  if (b) b.hidden = !viewShowsExampleScores(state, getCountry(state.country));
+}
+
 function render() {
   paintMapSelection();
   renderDrillLayer();
@@ -1777,6 +1788,7 @@ function render() {
   renderPanel();
   renderFeed();
   renderOverlay();
+  syncExampleBadge();
 }
 
 function registerSW() {

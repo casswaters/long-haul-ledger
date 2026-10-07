@@ -21,11 +21,11 @@
 export const VERIFY_WINDOW_HOURS = 48;
 
 export const STATUS_META = {
-  confirmed: { label: 'Confirmed', hint: 'The subject (agency, company or official) confirmed it — primary source.' },
+  confirmed: { label: 'Confirmed', hint: 'The subject (agency, company or official) confirmed it: primary source.' },
   multiple: { label: 'Multiple sources', hint: 'Two or more independent outlets carry it; the subject has not confirmed yet.' },
   unconfirmed: { label: 'Unconfirmed', hint: 'Factual claim from one non-primary outlet; the subject (agency/company) has not confirmed.' },
-  analysis: { label: 'Analysis', hint: 'Opinion, commentary, trend piece or explainer — no discrete claim for a subject to confirm.' },
-  sample: { label: 'PROTOTYPE', hint: 'Prototype example data for UX testing — fiction, not a real report.' },
+  analysis: { label: 'Analysis', hint: 'Opinion, commentary, trend piece or explainer. No discrete claim for a subject to confirm.' },
+  sample: { label: 'PROTOTYPE', hint: 'Prototype example data for UX testing: fiction, not a real report.' },
 };
 
 export const STATUS_ORDER = ['confirmed', 'multiple', 'unconfirmed', 'analysis'];

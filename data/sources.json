@@ -2,12 +2,12 @@
   "version": 1,
   "mode": "location-news",
   "notes": [
-    "Soft-launch source pack: free public RSS/Atom only — no paid APIs, no keys.",
+    "Soft-launch source pack: free public RSS/Atom only. No paid APIs, no keys.",
     "Coverage: world, national and trade outlets so every map level (World > Country > State equivalent > City) can show its own stories. home = outlet's country; assumeHome = untagged items from a national outlet are filed to its home country; quality 1-3 feeds ranking. Location tags come from locate.js (deterministic gazetteer) at build time.",
     "Some hosts 403/429 intermittently (bot filters, WAF). Fetcher records failures and continues.",
     "Labels: hard-news = primary reporting / agency releases / discrete confirmable claims; analysis = opinion, commentary, trend pieces, explainers without a discrete confirmable claim (Works in Progress–style, Noahpinion, Asterisk, Volts, Atlantic Council briefs, Construction Physics essays, MIT News, etc.).",
-    "Verification: primary=true marks the subject's own channel (agency / company press / IR) — Confirmed for its own announcements and promotes matching story clusters. outlet groups feeds from one publisher (NYT feeds = one outlet) when counting independent sources.",
-    "Unconfirmed = factual claim that could be confirmed by the subject/agency/company, from a non-primary outlet, not yet multi-sourced or confirmed. Do NOT park opinion/trend/commentary there — those lack a fountainhead to confirm and belong in Analysis.",
+    "Verification: primary=true marks the subject's own channel (agency / company press / IR): Confirmed for its own announcements and promotes matching story clusters. outlet groups feeds from one publisher (NYT feeds = one outlet) when counting independent sources.",
+    "Unconfirmed = factual claim that could be confirmed by the subject/agency/company, from a non-primary outlet, not yet multi-sourced or confirmed. Do NOT park opinion/trend/commentary there. Those lack a fountainhead to confirm and belong in Analysis.",
     "Analysis classification: kind=analysis feeds are always Analysis. Additionally the fetcher/verify heuristics reclassify hard-news items whose titles match why/how/opinion/essay/the case for/trend-roundup/explainer patterns (also /opinion|/explainer|/essay URL paths). NPR Science stays hard-news for discrete events; its explainers/roundups flip via heuristics.",
     "requireTopic: general-news feeds only contribute items that classify as energy, infrastructure, industry or geopolitics (locate.js categorize)."
   ],
@@ -331,7 +331,7 @@
         "analysis",
         "institutions"
       ],
-      "notes": "Long-form progress essays — always Analysis (no discrete confirmable claim).",
+      "notes": "Long-form progress essays: always Analysis (no discrete confirmable claim).",
       "home": "us",
       "assumeHome": false,
       "quality": 2,
