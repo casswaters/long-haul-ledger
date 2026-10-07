@@ -32,7 +32,7 @@ assert('domain intent noted', META.domainIntent === 'longhaulledger.com');
 assert('sample flag true', META.sample === true);
 assert('index.html exists', existsSync(new URL('./index.html', import.meta.url)));
 assert('world.svg exists', existsSync(new URL('./world.svg', import.meta.url)));
-assert('sw.js cache name long-haul-ledger-v9', /long-haul-ledger-v9/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v[678]'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+assert('sw.js cache name long-haul-ledger-v10', /long-haul-ledger-v10/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v(?:[678]|9)'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
 assert('BRIEF.md exists', existsSync(new URL('./BRIEF.md', import.meta.url)));
 assert('app has ?fresh=1 bust', /\bfresh\b/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 assert('zoom.js exists', existsSync(new URL('./zoom.js', import.meta.url)));
@@ -235,6 +235,17 @@ console.log('\n--- Geo drill + leadership ---');
   assert('us-ca bbox', !!featureBbox(ca) && featureBbox(ca)[0] < -114);
   assert('bboxToViewBox string', /^-?\d/.test(bboxToViewBox(padBbox(featureBbox(ca)))));
   assert('cities for us-ca', citiesForAdmin(cities, { country: 'us', admin1: 'us-ca' }).length >= 1);
+  {
+    const appDrill = readFileSync(new URL('./app.js', import.meta.url), 'utf8');
+    // Country level: empty city list; state level: citiesForAdmin with admin1
+    assert('country drill hides cities (empty cityFeats without admin1)',
+      /const cityFeats = state\.admin1\s*\?\s*citiesForAdmin\(citiesGeo, \{ country, admin1: state\.admin1 \}\)\s*:\s*\[\]/.test(appDrill),
+      'expected cityFeats = admin1 ? … : []');
+    assert('state drill still loads cities for admin1',
+      /citiesForAdmin\(citiesGeo, \{ country, admin1: state\.admin1 \}\)/.test(appDrill));
+    assert('cities helper still filters by country alone when asked',
+      citiesForAdmin(cities, { country: 'us' }).length > citiesForAdmin(cities, { country: 'us', admin1: 'us-ca' }).length);
+  }
   assert('find city LA', !!findCityFeature(cities, 'us-city-los-angeles'));
   assert('country bbox us', !!countryBboxFromAdmin(admin, 'us'));
   assert('breadcrumb depth', drillBreadcrumb({ country: 'us', countryName: 'United States', admin1: 'us-ca', admin1Name: 'California', city: 'us-city-los-angeles', cityName: 'Los Angeles' }).length === 4);

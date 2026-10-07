@@ -591,11 +591,11 @@ function renderDrillLayer() {
   }
   drill.appendChild(adminG);
 
-  // Cities: all major cities at country level, or those inside the focused
-  // state equivalent. Labels are laid out separately (collision-aware).
+  // Cities only after a state equivalent is chosen. Country view shows the
+  // outline + state-equivalent borders; city markers/labels appear on drill-in.
   const cityFeats = state.admin1
     ? citiesForAdmin(citiesGeo, { country, admin1: state.admin1 })
-    : citiesForAdmin(citiesGeo, { country });
+    : [];
   const leaderG = svgEl('g', { class: 'drill-leaders', 'aria-hidden': 'true' });
   const cityG = svgEl('g', { class: 'drill-cities' });
   const labelG = svgEl('g', { class: 'drill-labels', 'aria-hidden': 'true' });
