@@ -32,7 +32,7 @@ assert('domain intent noted', META.domainIntent === 'longhaulledger.com');
 assert('sample flag true', META.sample === true);
 assert('index.html exists', existsSync(new URL('./index.html', import.meta.url)));
 assert('world.svg exists', existsSync(new URL('./world.svg', import.meta.url)));
-assert('sw.js cache name long-haul-ledger-v11', /long-haul-ledger-v11/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v(?:[678]|9)'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+assert('sw.js cache name long-haul-ledger-v12', /long-haul-ledger-v12/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v(?:[678]|9)'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
 assert('BRIEF.md exists', existsSync(new URL('./BRIEF.md', import.meta.url)));
 assert('app has ?fresh=1 bust', /\bfresh\b/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 assert('zoom.js exists', existsSync(new URL('./zoom.js', import.meta.url)));
@@ -211,7 +211,7 @@ console.log('\n--- Geo drill + leadership ---');
     const [farWest] = project(-171, 60);
     assert('US drill fit excludes true Alaska position (uses inset)', fit.x > farWest + 100 && fit.width < 400, JSON.stringify(fit));
     assert('no insets for India', insetsForCountry('in').length === 0);
-    assert('JP/AE approximations clip to coastline', clipAdminToWorld('jp') && clipAdminToWorld('ae') && !clipAdminToWorld('us'));
+    assert('JP/AE use real NE admin-1 (no approx clip)', !clipAdminToWorld('jp') && !clipAdminToWorld('ae') && !clipAdminToWorld('us'));
   }
 
   // User-facing wording: World → Country → State equivalent → City
@@ -225,7 +225,8 @@ console.log('\n--- Geo drill + leadership ---');
   }
 
   const seeded = countriesWithAdmin1(admin);
-  assert('admin1 seeds us/in/ae/jp', seeded.has('us') && seeded.has('in') && seeded.has('ae') && seeded.has('jp'), [...seeded].join(','));
+  assert('admin1 worldwide (100+ countries)', seeded.size >= 100, String(seeded.size));
+  assert('admin1 includes us/in/ae/jp/ca', seeded.has('us') && seeded.has('in') && seeded.has('ae') && seeded.has('jp') && seeded.has('ca'), [...seeded].join(','));
   assert('US has 50+ states', adminFeaturesForCountry(admin, 'us').length >= 50, String(adminFeaturesForCountry(admin, 'us').length));
   assert('India has many states', adminFeaturesForCountry(admin, 'in').length >= 20);
   assert('UAE emirates seeded', adminFeaturesForCountry(admin, 'ae').length >= 5);
@@ -523,6 +524,27 @@ console.log('\n--- Retone: sober framing + PROTOTYPE labels ---');
     assert('nothing published links to BUILD-PLAN.md', !pub.some((t) => /\]\(\.?\/?BUILD-PLAN\.md|href="[^"]*BUILD-PLAN/i.test(t)));
   }
   assert('BRIEF points to subscription brief + prototype layer', /subscription brief/i.test(brief) && /PROTOTYPE/.test(brief));
+}
+
+
+console.log('\n--- Rail dollar watermark + worldwide drill ---');
+{
+  const html = readFileSync(new URL('./index.html', import.meta.url), 'utf8');
+  const css = readFileSync(new URL('./styles.css', import.meta.url), 'utf8');
+  const app = readFileSync(new URL('./app.js', import.meta.url), 'utf8');
+  assert('rail dollar markup present', /rail-dollar/.test(html) && /rail-dollar-glyph/.test(html));
+  assert('rail dollar aria-hidden', /rail-dollar"[^>]*aria-hidden="true"/.test(html) || /aria-hidden="true"[^>]*rail-dollar/.test(html) || /class="rail-dollar" aria-hidden="true"/.test(html));
+  assert('rail dollar pointer-events none', /rail-dollar[^]*pointer-events:\s*none/.test(css) || /\.rail-dollar[\s\S]*?pointer-events:\s*none/.test(css));
+  assert('rail dollar spin + pulse keyframes', /rail-dollar-spin/.test(css) && /rail-dollar-pulse/.test(css));
+  assert('rail dollar respects reduced motion', /prefers-reduced-motion:\s*reduce/.test(css) && /rail-dollar/.test(css));
+  assert('emerald restrained (rgba green, low alpha)', /rgba\(46,\s*140,\s*105/.test(css) || /rgba\(52,\s*158,\s*118/.test(css));
+  const admin = JSON.parse(readFileSync(new URL('./data/geo/admin1.geojson', import.meta.url), 'utf8'));
+  const cities = JSON.parse(readFileSync(new URL('./data/geo/cities.geojson', import.meta.url), 'utf8'));
+  const { countriesWithAdmin1, citiesForAdmin } = await import('./geo.js');
+  const seeded = countriesWithAdmin1(admin);
+  assert('Canada has provinces', seeded.has('ca') && admin.features.filter(f=>f.properties.country==='ca').length >= 10);
+  assert('cities hidden without admin1 filter still works', citiesForAdmin(cities, { country: 'ca', admin1: 'ca-on' }).length >= 1);
+  assert('country-level city list empty in app drill pattern', /const cityFeats = state\.admin1\s*\?[\s\S]*?:\s*\[\]/.test(app));
 }
 
 console.log('\n--- US desks ---');

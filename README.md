@@ -8,7 +8,7 @@ Live: https://casswaters.github.io/long-haul-ledger/
 
 | Surface | Status |
 | --- | --- |
-| **World index atlas**: zoom, drill World → Country → State equivalent → City, double-click / long-press mind map, leadership dropdowns | Free. Map paths real; country desks are **PROTOTYPE** example data |
+| **World index atlas**: zoom, drill World → Country → State equivalent → City (Natural Earth state equivalents worldwide; cities after state), double-click / long-press mind map, leadership dropdowns | Free. Map paths real; country desks are **PROTOTYPE** example data |
 | **US Progress rail**: public RSS, outbound links, verification tiers (Confirmed / Multiple sources / Unconfirmed) + Analysis | Free, real links, refreshed about every 6 h by GitHub Actions |
 | **US desks**: Activity, People, Prices, Capital (`#d=prices`) | Prices sample wired to public series (EIA diesel and Henry Hub via FRED CSV, no key). Activity, People and Capital show an honest empty state until a sourced record lands |
 | Monday Haul | Coming soon. No sign-up, pricing or login yet |
