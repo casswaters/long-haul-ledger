@@ -65,5 +65,5 @@ jobs:
           publish_dir: .
           publish_branch: gh-pages
           force_orphan: false
-          exclude_assets: '.github,node_modules,scripts,.gitignore,package-lock.json,shots.mjs,qa-retone.mjs,ledger.test.js,BUILD-PLAN.md'
+          exclude_assets: '.github,node_modules,scripts,.gitignore,package-lock.json,shots.mjs,qa-retone.mjs,ledger.test.js,stats.test.mjs,BUILD-PLAN.md'
           commit_message: 'Deploy official stats'
