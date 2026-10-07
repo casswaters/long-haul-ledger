@@ -1181,6 +1181,23 @@ function renderLeadershipAccordion() {
           if (contact.switchboard) links.push(`<span class="lead-switch">${escapeHtml(contact.switchboard)}</span>`);
           if (contact.email) links.push(`<a href="mailto:${escapeHtml(contact.email)}">${escapeHtml(contact.email)}</a>`);
           const asOf = role.asOf ? `<div><span class="lead-k">As of</span> ${escapeHtml(role.asOf)}</div>` : '';
+          const srcLine = role.source?.url
+            ? `<div><span class="lead-k">Source</span> <a href="${escapeHtml(role.source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(role.source.name || 'Official source')}</a></div>`
+            : `<div><span class="lead-k">Source</span> <span class="ink-mute">source pending</span></div>`;
+          const respLine = role.responseTime?.text
+            ? `<div><span class="lead-k">Response</span> ${escapeHtml(role.responseTime.text)} ${role.responseTime.badge ? `<span class="badge-sm sample" title="Unverified estimate, not a measured response time">${escapeHtml(role.responseTime.badge)}</span>` : ''}</div>` : '';
+          const termLine = role.term?.text
+            ? `<div><span class="lead-k">Term</span> ${escapeHtml(role.term.text)} ${role.term.badge ? `<span class="badge-sm sample">${escapeHtml(role.term.badge)}</span>` : ''}</div>` : '';
+          if (role.sourcePending) {
+            return `
+        <article class="lead-role lead-pending">
+          <div class="lead-role-top"><div>
+            <div class="lead-title">${escapeHtml(role.title)}</div>
+            <div class="lead-name ink-mute">Not filled · source pending</div>
+          </div></div>
+          <div class="lead-meta"><div class="ink-mute">${escapeHtml(role.pendingNote || 'No official source verified yet.')}</div>${asOf}</div>
+        </article>`;
+          }
           return `
         <article class="lead-role">
           <div class="lead-role-top">
@@ -1192,9 +1209,10 @@ function renderLeadershipAccordion() {
           </div>
           <div class="lead-contact">${links.join(' · ') || '<span class="ink-mute">No public channel listed</span>'}</div>
           <div class="lead-meta">
-            <div><span class="lead-k">Response</span> ${escapeHtml(role.responseTime?.text || 'unknown')} ${role.responseTime?.badge ? `<span class="badge-sm sample" title="Unverified estimate, not a measured response time">${escapeHtml(role.responseTime.badge)}</span>` : ''}</div>
-            <div><span class="lead-k">Term</span> ${escapeHtml(role.term?.text || 'unknown')} ${role.term?.badge ? `<span class="badge-sm sample">${escapeHtml(role.term.badge)}</span>` : ''}</div>
+            ${srcLine}
             ${asOf}
+            ${termLine}
+            ${respLine}
           </div>
         </article>`;
         }).join('');
@@ -1211,7 +1229,7 @@ function renderLeadershipAccordion() {
     <details class="leadership-acc">
       <summary>Leadership <span class="tier-tag">${focusTag}</span></summary>
       <div class="leadership-body">
-        <p class="section-note">Public sites, switchboards and forms only, never private phones. SAMPLE / ESTIMATE badges mark unverified fields; response times are estimates, not measurements. Country-level rosters stay on the country desk; state drill shows that state's public channels.</p>
+        <p class="section-note">Public sites, switchboards and forms only, never private phones. Verified entries list an official source and as-of date; unverified seats say source pending. SAMPLE / ESTIMATE badges remain only on unverified summary rows. Response times are shown only where a published source exists. Country-level rosters stay on the country desk; state drill shows that state's public channels.</p>
         ${finerNote}
         ${levels}
       </div>
