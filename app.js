@@ -1141,6 +1141,68 @@ function shortLabel(name) {
 }
 
 /* ---------- Leadership accordion ---------- */
+function renderLeadRole(role) {
+          const badges = roleBadge(role).map((b) => `<span class="badge-sm ${b === 'SAMPLE' || b === 'ESTIMATE' ? 'sample' : 'kind'}">${escapeHtml(b)}</span>`).join(' ');
+          const contact = role.contact || {};
+          const links = [];
+          if (contact.site && contact.site !== role.source?.url) links.push(`<a href="${escapeHtml(contact.site)}" target="_blank" rel="noopener noreferrer">Official site</a>`);
+          if (contact.form) links.push(`<a href="${escapeHtml(contact.form)}" target="_blank" rel="noopener noreferrer">Public form</a>`);
+          if (contact.switchboard) links.push(`<span class="lead-switch">${escapeHtml(contact.switchboard)}</span>`);
+          if (contact.email) links.push(`<a href="mailto:${escapeHtml(contact.email)}">${escapeHtml(contact.email)}</a>`);
+          const asOf = role.asOf ? `<div><span class="lead-k">As of</span> ${escapeHtml(role.asOf)}</div>` : '';
+          const srcLine = role.source?.url
+            ? `<div><span class="lead-k">Source</span> <a href="${escapeHtml(role.source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(role.source.name || 'Official source')}</a></div>`
+            : `<div><span class="lead-k">Source</span> <span class="ink-mute">source pending</span></div>`;
+          const respLine = role.responseTime?.text
+            ? `<div><span class="lead-k">Response</span> ${escapeHtml(role.responseTime.text)} ${role.responseTime.badge ? `<span class="badge-sm sample" title="Unverified estimate, not a measured response time">${escapeHtml(role.responseTime.badge)}</span>` : ''}</div>` : '';
+          const termLine = role.term?.text
+            ? `<div><span class="lead-k">Term</span> ${escapeHtml(role.term.text)} ${role.term.badge ? `<span class="badge-sm sample">${escapeHtml(role.term.badge)}</span>` : ''}</div>` : '';
+          if (role.sourcePending) {
+            return `
+        <article class="lead-role lead-pending">
+          <div class="lead-role-top"><div>
+            <div class="lead-title">${escapeHtml(role.title)}</div>
+            <div class="lead-name ink-mute">Not filled · source pending</div>
+          </div></div>
+          <div class="lead-meta"><div class="ink-mute">${escapeHtml(role.pendingNote || 'No official source verified yet.')}</div>${asOf}</div>
+        </article>`;
+          }
+          return `
+        <article class="lead-role">
+          <div class="lead-role-top">
+            <div>
+              <div class="lead-title">${escapeHtml(role.title)}</div>
+              <div class="lead-name">${escapeHtml(role.name)}${role.party ? ` <span class="lead-party">(${escapeHtml(PARTY_ABBR[role.party] || role.party)})</span>` : ''}${role.vacant ? ' <span class="lead-party">seat vacant</span>' : ''}</div>
+            </div>
+            <div class="lead-badges">${badges}</div>
+          </div>
+          <div class="lead-contact">${links.join(' · ') || (role.source?.url ? '' : '<span class="ink-mute">No public channel listed</span>')}</div>
+          <div class="lead-meta">
+            ${srcLine}
+            ${asOf}
+            ${termLine}
+            ${respLine}
+          </div>
+        </article>`;
+}
+
+
+const PARTY_ABBR = { R: 'R', D: 'D', I: 'I', ID: 'I', Republican: 'R', Democratic: 'D', Independent: 'I' };
+function renderLeadGroups(block) {
+  if (!block?.groups?.length) return '';
+  return block.groups.map((g) => {
+    let inner;
+    if (g.compact) {
+      const rows = (g.rows || []).map((r) => `<li class="lead-row${r.vacant ? ' is-vacant' : ''}"><span class="lr-d">${escapeHtml(r.district)}</span><span class="lr-n">${r.url ? `<a href="${escapeHtml(r.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.name)}</a>` : escapeHtml(r.name)}</span><span class="lr-p">${escapeHtml(r.vacant ? 'vacant' : (PARTY_ABBR[r.party] || r.party || ''))}</span></li>`).join('');
+      inner = `<ul class="lead-rows"><li class="lead-row lead-row-head"><span class="lr-d">District</span><span class="lr-n">Member</span><span class="lr-p">Party</span></li>${rows}</ul>
+        <p class="lead-group-src">Source <a href="${escapeHtml(g.source?.url || '')}" target="_blank" rel="noopener noreferrer">${escapeHtml(g.source?.name || '')}</a> · as of ${escapeHtml(g.asOf || '')}</p>`;
+    } else {
+      inner = (g.roles || []).map(renderLeadRole).join('') || '<p class="section-note">None listed.</p>';
+    }
+    return `<details class="lead-group"${g.collapsed ? '' : ' open'}><summary>${escapeHtml(g.title)}</summary><div class="lead-group-body">${inner}</div></details>`;
+  }).join('');
+}
+
 function renderLeadershipAccordion() {
   if (!state.country) return '';
   const af = findAdminFeature(admin1Geo, state.admin1);
@@ -1172,55 +1234,14 @@ function renderLeadershipAccordion() {
     const empty = isEmptyLeadership(block);
     const roles = empty
       ? `<p class="section-note lead-empty">${escapeHtml(block.emptyNote || 'No sourced leadership for this level yet.')}</p>`
-      : (block.roles || []).map((role) => {
-          const badges = roleBadge(role).map((b) => `<span class="badge-sm ${b === 'SAMPLE' || b === 'ESTIMATE' ? 'sample' : 'kind'}">${escapeHtml(b)}</span>`).join(' ');
-          const contact = role.contact || {};
-          const links = [];
-          if (contact.site) links.push(`<a href="${escapeHtml(contact.site)}" target="_blank" rel="noopener noreferrer">Official site</a>`);
-          if (contact.form) links.push(`<a href="${escapeHtml(contact.form)}" target="_blank" rel="noopener noreferrer">Public form</a>`);
-          if (contact.switchboard) links.push(`<span class="lead-switch">${escapeHtml(contact.switchboard)}</span>`);
-          if (contact.email) links.push(`<a href="mailto:${escapeHtml(contact.email)}">${escapeHtml(contact.email)}</a>`);
-          const asOf = role.asOf ? `<div><span class="lead-k">As of</span> ${escapeHtml(role.asOf)}</div>` : '';
-          const srcLine = role.source?.url
-            ? `<div><span class="lead-k">Source</span> <a href="${escapeHtml(role.source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(role.source.name || 'Official source')}</a></div>`
-            : `<div><span class="lead-k">Source</span> <span class="ink-mute">source pending</span></div>`;
-          const respLine = role.responseTime?.text
-            ? `<div><span class="lead-k">Response</span> ${escapeHtml(role.responseTime.text)} ${role.responseTime.badge ? `<span class="badge-sm sample" title="Unverified estimate, not a measured response time">${escapeHtml(role.responseTime.badge)}</span>` : ''}</div>` : '';
-          const termLine = role.term?.text
-            ? `<div><span class="lead-k">Term</span> ${escapeHtml(role.term.text)} ${role.term.badge ? `<span class="badge-sm sample">${escapeHtml(role.term.badge)}</span>` : ''}</div>` : '';
-          if (role.sourcePending) {
-            return `
-        <article class="lead-role lead-pending">
-          <div class="lead-role-top"><div>
-            <div class="lead-title">${escapeHtml(role.title)}</div>
-            <div class="lead-name ink-mute">Not filled · source pending</div>
-          </div></div>
-          <div class="lead-meta"><div class="ink-mute">${escapeHtml(role.pendingNote || 'No official source verified yet.')}</div>${asOf}</div>
-        </article>`;
-          }
-          return `
-        <article class="lead-role">
-          <div class="lead-role-top">
-            <div>
-              <div class="lead-title">${escapeHtml(role.title)}</div>
-              <div class="lead-name">${escapeHtml(role.name)}</div>
-            </div>
-            <div class="lead-badges">${badges}</div>
-          </div>
-          <div class="lead-contact">${links.join(' · ') || '<span class="ink-mute">No public channel listed</span>'}</div>
-          <div class="lead-meta">
-            ${srcLine}
-            ${asOf}
-            ${termLine}
-            ${respLine}
-          </div>
-        </article>`;
-        }).join('');
+      : (block.roles || []).map(renderLeadRole).join('');
+    const groups = renderLeadGroups(block);
     const nest = idx > 0 ? ' lead-level-nested' : '';
     return `
       <div class="lead-level${nest}">
         <div class="lead-level-label">${escapeHtml(block.label || block.key)} · ${escapeHtml(levelLabel(block.level))}</div>
         ${roles}
+        ${groups}
       </div>`;
   }).join(stack.length > 1 ? '<div class="lead-more">Parent state equivalent</div>' : '');
 
