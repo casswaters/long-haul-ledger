@@ -34,5 +34,11 @@ const app = readFileSync('./app.js', 'utf8');
 assert('app: no admin-1 wording', !/admin-1/i.test(app));
 import { spawnSync } from 'child_process';
 for (const f of ['app.js', 'stats.js', 'desks.js', 'leadership.js']) assert(`${f} parses as a module (no early errors)`, spawnSync(process.execPath, ['--check', f]).status === 0);
+{
+  const html = readFileSync('./index.html', 'utf8'), css = readFileSync('./styles.css', 'utf8');
+  assert('$ mark: left-column placeholder after panel content', /id="country-panel"[^>]*><\/div>\s*<div class="panel-dollar"/.test(html));
+  assert('$ mark: one per layout (rail hidden on desktop, panel hidden on mobile)', /min-width: 901px\)[^}]*\{[^}]*\.panel \{ overflow: visible; \}\s*\.rail-dollar \{ display: none; \}/.test(css) && /max-width: 900px\) \{ \.panel-dollar \{ display: none; \}/.test(css));
+  assert('$ mark: reduced motion stops the spin', /prefers-reduced-motion: reduce\)\s*\{\s*\.panel-dollar-glyph \{ animation: rail-dollar-pulse-static/.test(css));
+}
 console.log(`\n${pass} passed, ${fail} failed`);
 if (fail) process.exit(1);

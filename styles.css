@@ -439,7 +439,41 @@ a:hover { text-decoration: underline; }
   overflow: auto;
   background: var(--bg);
   min-height: 0;
+  display: flex;
+  flex-direction: column;
 }
+.panel-body { flex: 0 0 auto; }
+/* Emerald $ lives in the empty space under the details on desktop. It is a
+   sibling after the content, so it can never sit on top of it; sticky keeps it
+   centred in the viewport while the page scrolls through that empty space. */
+.panel-dollar {
+  flex: 1 1 auto;
+  min-height: 0;
+  position: relative;
+  pointer-events: none;
+  user-select: none;
+  visibility: hidden;
+}
+.panel-dollar.is-roomy { visibility: visible; }
+.panel-dollar-glyph {
+  position: sticky;
+  top: calc(50vh - 6rem);
+  display: block;
+  width: max-content;
+  margin: 2.5rem auto;
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 500;
+  font-size: 12rem;
+  line-height: 1;
+  color: rgba(46, 140, 105, 0.11);
+  text-shadow: 0 0 1.6rem rgba(46, 140, 105, 0.12);
+  animation: panel-dollar-spin 64s linear infinite, rail-dollar-pulse 7.5s ease-in-out infinite;
+}
+@keyframes panel-dollar-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .panel-dollar-glyph { animation: rail-dollar-pulse-static 8s ease-in-out infinite; }
+}
+
 .rail {
   grid-column: 2;
   grid-row: 1 / span 2;
@@ -1704,3 +1738,12 @@ button.vbadge:focus-visible { outline: 1px solid var(--ink); outline-offset: 1px
 .example-tag { display: inline-block; font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-mute, #9aa3ad); border: 1px dashed var(--line, #2a2f36); border-radius: 3px; padding: 0.05rem 0.35rem; vertical-align: middle; font-weight: 500; }
 .block-label { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-mute, #9aa3ad); margin: 0.7rem 0 0.35rem; }
 .block-label-note { text-transform: none; letter-spacing: 0; margin-left: 0.35rem; }
+
+/* Emerald $ placement: desktop = one $ in the left empty space under the
+   details (panel must not be its own scroller, so sticky follows the page);
+   mobile = the original rail watermark only. */
+@media (min-width: 901px) {
+  .panel { overflow: visible; }
+  .rail-dollar { display: none; }
+}
+@media (max-width: 900px) { .panel-dollar { display: none; } }

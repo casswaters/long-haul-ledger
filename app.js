@@ -1596,6 +1596,15 @@ function dateStampShort(iso) {
   return `${months[d.getMonth()]} ${d.getDate()}`;
 }
 
+/** Show the left-column $ only when the empty space under the details can hold it. */
+function watchPanelDollar() {
+  const el = document.getElementById('panel-dollar');
+  if (!el || typeof ResizeObserver === 'undefined') return;
+  const check = () => el.classList.toggle('is-roomy', el.clientHeight >= 260);
+  new ResizeObserver(check).observe(el);
+  check();
+}
+
 async function loadStats() {
   const get = async (p) => { try { const r = await fetch(p, { cache: 'no-store' }); return r.ok ? await r.json() : null; } catch { return null; } };
   [statsUs, statsWorld] = await Promise.all([get('./data/stats/us.json'), get('./data/stats/world.json')]);
@@ -1766,6 +1775,7 @@ function boot() {
   });
   loadPricesDesk();
   loadStats();
+  watchPanelDollar();
   loadGeoAndLeadership()
     .then(() => loadMap())
     .then(() => applyHash());
