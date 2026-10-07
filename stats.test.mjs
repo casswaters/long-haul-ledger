@@ -1,6 +1,7 @@
 import { readFileSync, existsSync } from 'fs';
 import { FRED_SERIES, parseCsv, buildRecord, mergeSeries, validateStat, yoyPct, sparkSvg, isStale } from './stats.js';
 import { runFred } from './scripts/fetch-stats.mjs';
+import { stripHtml } from './scripts/fetch-signals.mjs';
 let pass = 0, fail = 0;
 const assert = (n, c) => { if (c) { pass++; console.log('  PASS ', n); } else { fail++; console.log('  FAIL ', n); } };
 console.log('\n--- Official stats pipeline ---');
@@ -39,6 +40,15 @@ for (const f of ['app.js', 'stats.js', 'desks.js', 'leadership.js']) assert(`${f
   assert('$ mark: left-column placeholder after panel content', /id="country-panel"[^>]*><\/div>\s*<div class="panel-dollar"/.test(html));
   assert('$ mark: one per layout (rail hidden on desktop, panel hidden on mobile)', /min-width: 901px\)[^}]*\{[^}]*\.panel \{ overflow: visible; \}\s*\.rail-dollar \{ display: none; \}/.test(css) && /max-width: 900px\) \{ \.panel-dollar \{ display: none; \}/.test(css));
   assert('$ mark: reduced motion stops the spin', /prefers-reduced-motion: reduce\)\s*\{\s*\.panel-dollar-glyph \{ animation: rail-dollar-pulse-static/.test(css));
+}
+assert('feed: numeric entity decoded once (&#039;)', stripHtml('If you&#039;re') === "If you're");
+assert('feed: double-encoded entities decoded (&amp;#039; / &amp;amp;)', stripHtml('AT&amp;amp;T &amp;#039;x&amp;#039;') === "AT&T 'x'");
+assert('feed: hex + named entities', stripHtml('Caf&#xE9; &mdash; ok') === 'Café — ok');
+assert('feed: encoded markup is stripped, not rendered', !/<script/i.test(stripHtml('&lt;script&gt;alert(1)&lt;/script&gt;Hi')));
+{
+  const live = readFileSync('./data/signals-live.json', 'utf8');
+  assert('signals-live.json: no leftover HTML entities in text', !/&(#x?[0-9a-f]+|amp|quot|apos|lt|gt);/i.test(live.replace(/"(url|link|sourceUrl)":\s*"[^"]*"/g, '')));
+  assert('app escapes feed titles once at render', /\$\{escapeHtml\(i\.title\)\}/.test(readFileSync('./app.js', 'utf8')));
 }
 console.log(`\n${pass} passed, ${fail} failed`);
 if (fail) process.exit(1);

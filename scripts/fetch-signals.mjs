@@ -38,16 +38,39 @@ const NEG_TERMS = [
   /\b(horoscope|crossword)\b/i,
 ];
 
+const NAMED_ENTITIES = {
+  amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', ndash: '\u2013', mdash: '\u2014',
+  lsquo: '\u2018', rsquo: '\u2019', ldquo: '\u201C', rdquo: '\u201D', hellip: '\u2026', middot: '\u00B7',
+  copy: '\u00A9', reg: '\u00AE', trade: '\u2122', eacute: '\u00E9', deg: '\u00B0',
+};
+
+/**
+ * Decode HTML/XML entities to plain text. Feeds often double-encode
+ * (&amp;#039;), so decode up to 3 passes until stable. Output is plain text;
+ * the site escapes it once at render, which keeps it XSS-safe.
+ */
+export function decodeEntities(s) {
+  let out = String(s ?? '');
+  for (let i = 0; i < 3; i++) {
+    const next = out.replace(/&(#x[0-9a-f]+|#\d+|[a-z][a-z0-9]*);/gi, (m, e) => {
+      if (e[0] === '#') {
+        const code = e[1] === 'x' || e[1] === 'X' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10);
+        return Number.isFinite(code) && code > 0 && code <= 0x10ffff ? String.fromCodePoint(code) : m;
+      }
+      const v = NAMED_ENTITIES[e.toLowerCase()];
+      return v === undefined ? m : v;
+    });
+    if (next === out) break;
+    out = next;
+  }
+  return out;
+}
+
 export function stripHtml(s) {
-  return String(s ?? '')
-    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+  const noCdata = String(s ?? '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1');
+  // Decode first so entity-encoded markup (&lt;b&gt;) is stripped too, then strip tags.
+  return decodeEntities(noCdata.replace(/<[^>]+>/g, ' '))
     .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
     .replace(/\s+/g, ' ')
     .trim();
 }
