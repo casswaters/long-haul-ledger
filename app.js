@@ -1020,6 +1020,9 @@ function escapeXml(s) { return escapeHtml(s); }
 function protoBadge(extra = '') {
   return `<span class="proto-badge${extra ? ` ${extra}` : ''}" title="${escapeHtml(PROTOTYPE.title)}">${PROTOTYPE.label}</span>`;
 }
+function exampleTag() {
+  return `<span class="example-tag" title="${escapeHtml(PROTOTYPE.title)}">Example data</span>`;
+}
 function protoNote() {
   return `<p class="proto-note">${escapeHtml(PROTOTYPE.note)}</p>`;
 }
@@ -1277,7 +1280,7 @@ function renderPanel() {
             <span class="home-sub">Free atlas · same treatment for every country</span>
           </div>
           <p class="home-help">Click a country for its desk; double-click or long-press for the industry mind map. Drill World → Country → State equivalent → City. Zoom with wheel, pinch or the +/− controls.</p>
-          <div class="proto-callout">${protoBadge()}<span>Country desks below (United States, India, UAE, Japan, Nigeria, Chile) and all other country views are example data for UX testing. The sourced US record is in the US desks above.</span></div>
+          <div class="proto-callout">${protoBadge()}<span>Country scores, snapshots and country-desk tabs are example data for UX testing and are tagged where they appear. World Bank macro figures, leadership panels and the US desks above are sourced.</span></div>
           <div class="seed-list" id="seed-chips"></div>
         </section>
       </div>`;
@@ -1298,6 +1301,7 @@ function renderPanel() {
   let body = '';
   if (c.tier === 'stub') {
     body = `
+      <div class="block-label">Country desk ${exampleTag()}</div>
       <div class="stub-note">
         <strong>${escapeHtml(c.name)}</strong> is a lighter prototype stub; its scores are illustrative example data.
         Open the <strong>industry mind map</strong> for invented primary industries and light value-chain stubs, or open a fuller prototype desk below.
@@ -1308,6 +1312,7 @@ function renderPanel() {
       </div>`;
   } else {
     body = `
+      <div class="block-label">Country desk ${exampleTag()} <span class="block-label-note">${escapeHtml(tier)}: signals, industries and companies below are illustrative, not sourced</span></div>
       <div class="tabs" role="tablist">
         ${TABS.map((t) => `<button type="button" class="tab ${state.tab === t ? 'active' : ''}" data-tab="${t}" role="tab">${escapeHtml(TAB_LABELS[t] || t)}</button>`).join('')}
       </div>
@@ -1328,11 +1333,11 @@ function renderPanel() {
 
   root.innerHTML = `
     <div class="country-head">
-      <h2>${escapeHtml(areaLabel)} ${protoBadge()} <span class="tier-tag">${tier}</span></h2>
-      ${protoNote()}
+      <h2>${escapeHtml(areaLabel)}</h2>
       ${c.id === 'us' ? `<div class="us-callout"><span>The sourced US record (Activity, People, Prices, Capital) lives in the US desks.</span><button type="button" class="btn-primary btn-inline" data-open-desk="prices">Open US desks</button></div>` : ''}
-      <p class="snapshot">${escapeHtml(c.snapshot)}</p>
       ${renderWorldMacro(c.id)}
+      <p class="snapshot">${exampleTag()} ${escapeHtml(c.snapshot)}</p>
+      <div class="block-label">Scores ${exampleTag()}</div>
       <div class="metrics" aria-label="Prototype scores, example data">
         <div class="metric is-proto"><div class="label">Stability <span class="metric-unit">score 0–100</span></div><div class="value">${m.stability}</div><div class="hint">${metricLabel(m.stability)} · example</div></div>
         <div class="metric is-proto"><div class="label">Build pressure <span class="metric-unit">score 0–100</span></div><div class="value">${m.frontierPressure}</div><div class="hint">${metricLabel(m.frontierPressure)} · example</div></div>

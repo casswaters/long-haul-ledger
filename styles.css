@@ -1699,3 +1699,8 @@ button.vbadge:focus-visible { outline: 1px solid var(--ink); outline-offset: 1px
   .stats-table .stat-row { border: 1px solid var(--line); border-radius: var(--radius); margin-bottom: 0.6rem; background: var(--bg-panel); }
   .stats-table .stat-row th, .stats-table .stat-row td { padding: 0.35rem 0.6rem; }
 }
+
+/* Narrow example-data labelling */
+.example-tag { display: inline-block; font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-mute, #9aa3ad); border: 1px dashed var(--line, #2a2f36); border-radius: 3px; padding: 0.05rem 0.35rem; vertical-align: middle; font-weight: 500; }
+.block-label { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-mute, #9aa3ad); margin: 0.7rem 0 0.35rem; }
+.block-label-note { text-transform: none; letter-spacing: 0; margin-left: 0.35rem; }
