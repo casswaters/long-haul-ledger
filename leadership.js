@@ -1,5 +1,9 @@
 /**
  * Leadership desk helpers — public-channel roles for area desks.
+ *
+ * Country-level rosters stay on the country key. When the user drills to a
+ * state equivalent or city, the accordion shows that level (and city if any);
+ * federal / national leadership is not repeated under state focus.
  */
 
 /** Resolve leadership key cascade: city → admin1 → country. */
@@ -25,20 +29,43 @@ export function resolveLeadership(catalog, { country, admin1, city } = {}) {
   return null;
 }
 
-/** Ancestors for nested “more levels” stack (country under state, etc.). */
-export function leadershipStack(catalog, { country, admin1, city } = {}) {
+/**
+ * Stack for the leadership accordion.
+ * - Country focus: country block only.
+ * - State focus: that state's block (real roles or honest empty scaffold).
+ * - City focus: city block (or empty) then parent state if present.
+ * Country-level US / national leadership stays at country — not stacked under state.
+ */
+export function leadershipStack(catalog, { country, admin1, city, admin1Name, cityName } = {}) {
   if (!catalog?.areas) return [];
   const stack = [];
-  // Broad → narrow for display nesting
-  if (country && catalog.areas[country]) {
-    stack.push({ key: country, ...catalog.areas[country] });
+
+  const pushArea = (key, level, fallbackLabel) => {
+    if (!key) return;
+    const block = catalog.areas[key];
+    if (block) {
+      stack.push({ key, ...block });
+      return;
+    }
+    // Honest empty when focus is set but no roster seeded yet
+    stack.push({
+      key,
+      level,
+      label: fallbackLabel || key,
+      roles: [],
+      emptyNote: level === 'city'
+        ? 'No sourced city leadership yet. Public municipal directories welcome in a later pass.'
+        : 'No sourced statewide roster yet. Public official directories welcome in a later pass.',
+    });
+  };
+
+  if (city || admin1) {
+    if (city) pushArea(city, 'city', cityName);
+    if (admin1) pushArea(admin1, 'admin1', admin1Name);
+    return stack;
   }
-  if (admin1 && catalog.areas[admin1]) {
-    stack.push({ key: admin1, ...catalog.areas[admin1] });
-  }
-  if (city && catalog.areas[city]) {
-    stack.push({ key: city, ...catalog.areas[city] });
-  }
+
+  if (country) pushArea(country, 'country', country);
   return stack;
 }
 
@@ -53,4 +80,9 @@ export function roleBadge(role) {
 export function hasPublicContact(role) {
   const c = role?.contact || {};
   return !!(c.site || c.form || c.switchboard || c.email);
+}
+
+/** True when a stack block has no roles to show. */
+export function isEmptyLeadership(block) {
+  return !block?.roles?.length;
 }

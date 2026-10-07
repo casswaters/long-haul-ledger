@@ -940,6 +940,10 @@ a:hover { text-decoration: underline; }
   padding: 0 0.7rem 0.75rem;
   border-top: 1px solid var(--line-soft);
 }
+.lead-empty {
+  margin: 0.35rem 0 0.15rem;
+  font-size: 0.8rem;
+}
 .lead-finer-note {
   font-size: 0.78rem;
   color: var(--danger-soft);
