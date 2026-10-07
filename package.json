@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Long Haul Ledger — economic activity at every scale, from the world to your city",
   "scripts": {
-    "test": "node ledger.test.js && node stats.test.mjs && node location.test.mjs",
+    "test": "node ledger.test.js && node stats.test.mjs && node location.test.mjs && node energy.test.mjs",
     "fetch": "node scripts/fetch-signals.mjs",
     "fetch:prices": "node scripts/fetch-prices.mjs",
     "shots": "node shots.mjs",

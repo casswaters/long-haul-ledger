@@ -26,6 +26,7 @@
         <p class="brand-tagline">Economic activity at every scale, from the world to your city.</p>
       </div>
       <nav class="header-nav" aria-label="Sections">
+        <a class="hnav hnav-sector" href="#energy" id="nav-energy" data-open-sector="energy" aria-label="Energy: power and fuel by source for the selected place"><span class="hnav-emoji" aria-hidden="true">⚡</span> Energy</a>
         <a class="hnav hnav-primary" href="#d=prices" id="nav-desks">Indicators</a>
         <a class="hnav" href="#about" id="nav-method">Method</a>
       </nav>
@@ -85,6 +86,14 @@
           <h2>Method</h2>
           <p id="about-text"></p>
           <p>Record rules: a line appears only with a source link, an as-of date and a revision note. When a value changes, the old line stays visible in the history, struck through. Values are copied from the source, never typed from memory. Price lines carry the source's own as-of date and publication lag.</p>
+        </section>
+        <section id="method-sectors" class="method-sectors">
+          <h2><span aria-hidden="true">⚡</span> Energy tab</h2>
+          <p>The Energy tab follows the map: World, Country, State equivalent or City. It lists nine sources, each in its own slot: nuclear, oil, natural gas, coal, wind, solar, hydro, geothermal and emerging (hydrogen, biofuel, batteries, synthetic fuels).</p>
+          <p><strong>Tagging.</strong> Each story in the news feed is filed to one or more sources by keyword rules on its headline and summary (for example reactor, uprate or uranium for nuclear), with exclusions such as weapons talks for nuclear or palm oil for oil. A headline hit counts double; a lone passing word in a summary is not enough. When a place has fewer than 4 stories for a source, the list adds clearly labeled stories from the next level up ("More from United States"). Sector feeds (agency releases and trade press for each source) were added for depth. Tags can be wrong; every story links to its outlet and keeps its verification badge.</p>
+          <p><strong>Lifecycle stages.</strong> Each energy story also gets a stage chip with a plain label. Each label points to an official category: the economic type and the matching NAICS industry codes (North American Industry Classification System). Tap the i next to a chip for the codes and links.</p>
+          <div id="method-stage-map"></div>
+          <p><strong>Top 4 this week.</strong> A brief is four short plain-language paragraphs about the most important things happening in one source in one place. Briefs are written ahead of time by our research runs, three times a day, from the tagged stories and primary sources (company releases, agencies, regulators). Every item lists its sources with dates; an item without a source is rejected before it can publish. A brief older than 7 days is marked as such. Where no brief exists yet, the tab says so and shows the top stories instead. Nothing in a brief is generated in your browser.</p>
         </section>
         <section>
           <h2>Disclaimers</h2>
