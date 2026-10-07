@@ -1,6 +1,8 @@
 /**
  * Navigation / filter helpers (pure) — tested by ledger.test.js
  */
+import { parseSectorToken, sectorToken } from './sectors.js';
+import { SECTOR_IDS } from './energy.js';
 
 export const TABS = ['signals', 'industries', 'regions', 'openings'];
 export const VIEWS = ['desk', 'mindmap', 'chain', 'company'];
@@ -25,15 +27,23 @@ export function parseHash(hash) {
     return {
       country: null, tab: 'signals', sector: null, region: null,
       view: 'desk', company: null, admin1: null, city: null, desk: null,
+      stab: null, ssub: null, sbrief: false,
     };
   }
+  // Sector tab token (no "="): energy, energy/nuclear, energy/nuclear/brief
+  let st = null;
   const parts = Object.fromEntries(
     raw.split('&').filter(Boolean).map((p) => {
       const [k, v = ''] = p.split('=');
-      return [decodeURIComponent(k), decodeURIComponent(v)];
+      const key = decodeURIComponent(k);
+      if (!p.includes('=')) { const t = parseSectorToken(key, SECTOR_IDS); if (t) st = t; }
+      return [key, decodeURIComponent(v)];
     })
   );
   return {
+    stab: st ? st.tab : null,
+    ssub: st ? st.sub : null,
+    sbrief: st ? st.brief : false,
     country: parts.c || parts.country || null,
     tab: parts.t || parts.tab || 'signals',
     sector: parts.s || parts.sector || null,
@@ -56,9 +66,13 @@ export function buildHash({
   admin1 = null,
   city = null,
   desk = null,
+  stab = null,
+  ssub = null,
+  sbrief = false,
 } = {}) {
   const d = normalizeDesk(desk);
-  if (!country) return d ? `d=${encodeURIComponent(d)}` : '';
+  const tok = stab ? sectorToken({ tab: stab, sub: ssub, brief: sbrief }) : '';
+  if (!country) return [d ? `d=${encodeURIComponent(d)}` : '', tok].filter(Boolean).join('&');
   const bits = [`c=${encodeURIComponent(country)}`];
   if (admin1) bits.push(`a=${encodeURIComponent(admin1)}`);
   if (city) bits.push(`city=${encodeURIComponent(city)}`);
@@ -70,6 +84,7 @@ export function buildHash({
   if (region && v === 'desk') bits.push(`r=${encodeURIComponent(region)}`);
   if (company && v === 'company') bits.push(`co=${encodeURIComponent(company)}`);
   if (d) bits.push(`d=${encodeURIComponent(d)}`);
+  if (tok) bits.push(tok);
   return bits.join('&');
 }
 

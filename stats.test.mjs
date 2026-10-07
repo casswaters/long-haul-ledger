@@ -78,7 +78,7 @@ assert('feed: encoded markup is stripped, not rendered', !/<script/i.test(stripH
   assert('curated: invalid file leaves items unchanged', applyCurated(live, { version: 2 }, now).items === live);
   const sig = JSON.parse(readFileSync('./data/signals-live.json', 'utf8'));
   assert('signals-live.json carries the curated Anduril item as Confirmed', sig.items.some((i) => i.id === seed.id && i.verification.status === 'confirmed'));
-  assert('workflow: curated edits trigger a rebuild', /paths: \['data\/signals-curated\.json'\]/.test(readFileSync('./.github/workflows/soft-launch.yml', 'utf8')));
+  assert('workflow: curated and energy-brief edits trigger a rebuild', /paths: \['data\/signals-curated\.json', 'data\/energy-briefs\.json'\]/.test(readFileSync('./.github/workflows/soft-launch.yml', 'utf8')));
 }
 console.log(`\n${pass} passed, ${fail} failed`);
 if (fail) process.exit(1);

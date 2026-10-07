@@ -6,10 +6,10 @@ on:
     # Every 6 hours (UTC)
     - cron: '17 */6 * * *'
   workflow_dispatch:
-  # A routine/hand edit to the curated overrides publishes within minutes.
+  # A routine/hand edit to the curated overrides or the sector briefs publishes within minutes.
   push:
     branches: [main]
-    paths: ['data/signals-curated.json']
+    paths: ['data/signals-curated.json', 'data/energy-briefs.json']
 
 permissions:
   contents: write
@@ -45,6 +45,16 @@ jobs:
         continue-on-error: true
         run: node scripts/fetch-signals.mjs
 
+      - name: Energy brief candidates → data/news-cache/energy-candidates.json (for research runs)
+        # Assembles tagged stories per place and source for the writer. Nothing is written to the site.
+        continue-on-error: true
+        run: node scripts/build-energy-brief.mjs
+
+      - name: Validate energy briefs (sources required, stale after 7 days)
+        # Non-fatal: the site also validates and drops any item without sources.
+        continue-on-error: true
+        run: node scripts/build-energy-brief.mjs --validate
+
       - name: Fetch public price series → data/desks/prices.json
         # EIA diesel + Henry Hub via FRED graph CSV (no key). A failed fetch keeps
         # the last good line and its as-of date; the file only changes on new data.
@@ -66,5 +76,5 @@ jobs:
           force_orphan: false
           # Keep Actions build artifacts out of the static site
           # BUILD-PLAN.md, RESEARCH-RUNS.md and BRIEF.md stay on main only; they must never ship to Pages.
-          exclude_assets: '.github,node_modules,scripts,.gitignore,package-lock.json,shots.mjs,qa-retone.mjs,ledger.test.js,stats.test.mjs,location.test.mjs,BUILD-PLAN.md,RESEARCH-RUNS.md,BRIEF.md,ROADMAP.md,data/news-cache'
+          exclude_assets: '.github,node_modules,scripts,.gitignore,package-lock.json,shots.mjs,qa-retone.mjs,ledger.test.js,stats.test.mjs,location.test.mjs,energy.test.mjs,BUILD-PLAN.md,RESEARCH-RUNS.md,BRIEF.md,ROADMAP.md,data/news-cache'
           commit_message: 'Deploy soft-launch news feed'

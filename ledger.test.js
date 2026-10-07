@@ -32,7 +32,7 @@ assert('domain intent noted', META.domainIntent === 'longhaulledger.com');
 assert('sample flag true', META.sample === true);
 assert('index.html exists', existsSync(new URL('./index.html', import.meta.url)));
 assert('world.svg exists', existsSync(new URL('./world.svg', import.meta.url)));
-assert('sw.js cache name long-haul-ledger-v23', /long-haul-ledger-v23/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v(?:[678]|9|19|20|21|22)'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+assert('sw.js cache name long-haul-ledger-v24', /long-haul-ledger-v24/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v(?:[678]|9|19|20|21|22|23)'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
 assert('BRIEF.md exists', existsSync(new URL('./BRIEF.md', import.meta.url)));
 assert('app has ?fresh=1 bust', /\bfresh\b/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 assert('zoom.js exists', existsSync(new URL('./zoom.js', import.meta.url)));
@@ -130,7 +130,7 @@ assert('header badge reads Example data (not PROTOTYPE data)', /id="header-examp
 assert('header Example data badge hidden by default (scoped)', /<span[^>]*id="header-example-badge"[^>]*\shidden[\s>]/.test(html) && /\.proto-badge\[hidden\]\s*\{\s*display:\s*none/.test(css));
 {
   const appSrcB = readFileSync(new URL('./app.js', import.meta.url), 'utf8');
-  assert('header badge shown only with example scores', /function syncExampleBadge/.test(appSrcB) && /syncExampleBadge\(\);\s*\n\}/.test(appSrcB) && /!st\.desk && !!st\.country && !!hasProfile/.test(appSrcB));
+  assert('header badge shown only with example scores', /function syncExampleBadge/.test(appSrcB) && /syncExampleBadge\(\);\s*\n\}/.test(appSrcB) && /!st\.desk && !st\.stab && !!st\.country && !!hasProfile/.test(appSrcB));
 }
 assert('news column in HTML follows the place', /id="rail-title"/.test(html) && /id="rail-level"/.test(html) && /id="feed"/.test(html));
 assert('vertical zoom controls CSS', /flex-direction:\s*column/.test(css) && /zoom-controls/.test(css));
@@ -657,12 +657,16 @@ console.log('\n--- Voice: no em dashes or tildes in our own copy ---');
     .split('\n').map((l) => l.replace(/(^|\s)\/\/.*$/, '$1').replace(/\[[^\]\n]*\u2014[^\]\n]*\]/g, '')).join('\n');
   const offenders = (label, text) => text.split('\n').map((l, i) => [i + 1, l]).filter(([, l]) => BAD.test(l)).map(([n, l]) => `${label}:${n} ${l.trim().slice(0, 80)}`);
   const jsFiles = ['app.js', 'chains.js', 'curated.js', 'data.js', 'desks.js', 'geo.js', 'labels.js', 'leadership.js', 'locate.js', 'nav.js', 'newsrank.js', 'places.js', 'stats.js', 'verify.js', 'zoom.js',
-    'scripts/fetch-signals.mjs', 'scripts/fetch-prices.mjs', 'scripts/fetch-stats.mjs'];
+    'sectors.js', 'energy.js', 'sectorui.js',
+    'scripts/fetch-signals.mjs', 'scripts/fetch-prices.mjs', 'scripts/fetch-stats.mjs', 'scripts/build-energy-brief.mjs'];
   const jsBad = jsFiles.flatMap((f) => offenders(f, codeText(rd('./' + f))));
   assert('JS copy + generated labels: no em dash / tilde', jsBad.length === 0, jsBad.join(' | '));
   const htmlText = rd('./index.html').replace(/<!--[\s\S]*?-->/g, '');
   assert('index.html: no em dash / tilde', !BAD.test(htmlText), offenders('index.html', htmlText).join(' | '));
   assert('manifest: no em dash / tilde', !BAD.test(rd('./manifest.webmanifest')));
+  const briefsDoc = JSON.parse(rd('./data/energy-briefs.json'));
+  const briefText = JSON.stringify([briefsDoc.notes, Object.values(briefsDoc.briefs || {}).flatMap((b) => Object.values(b).flatMap((x) => [x.checked, ...(x.items || []).flatMap((i) => [i.text, ...(i.sources || []).map((s) => s.title)])]))]);
+  assert('energy briefs: no em dash / tilde in brief copy', !BAD.test(briefText));
   const cssContent = (rd('./styles.css').replace(/\/\*[\s\S]*?\*\//g, '').match(/content:\s*(['"]).*?\1/g) || []);
   assert('styles.css content strings: no em dash / tilde', !cssContent.some((c) => BAD.test(c)), cssContent.filter((c) => BAD.test(c)).join(' | '));
   const strings = (v, path = '', out = []) => {

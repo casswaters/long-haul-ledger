@@ -37,6 +37,9 @@ import { countryName } from './places.js';
 import {
   placeOf, buildColumn, rankedForPlace, placeLabel, parentPlace, CATEGORIES, CATEGORY_LABELS, categoryOf, LEVEL_NAMES,
 } from './newsrank.js';
+import { validateBriefs, ECONOMIC_TYPES, naicsUrl, OFFICIAL_SOURCES } from './sectors.js';
+import { SECTOR_TABS } from './energy.js';
+import { renderSectorOverlay, wireSectorOverlay } from './sectorui.js';
 
 const state = {
   country: null,
@@ -48,7 +51,19 @@ const state = {
   admin1: null,
   city: null,
   desk: null,
+  /** Sector tab (energy), its selected source and whether the brief is open. */
+  stab: null,
+  ssub: null,
+  sbrief: false,
 };
+
+/** Validated briefs per sector id (data/energy-briefs.json). */
+const sectorBriefs = {};
+/** Sector-tab view state that is not in the URL. */
+let sectorStage = null;
+let sectorExpanded = false;
+let sectorViewKey = '';
+let lastSectorSub = null;
 
 /** @type {any} Prices desk (data/desks/prices.json) */
 let pricesDesk = null;
@@ -95,6 +110,9 @@ function applyHash() {
   state.view = view;
   state.company = h.company;
   state.desk = h.desk;
+  state.stab = h.stab;
+  state.ssub = h.ssub;
+  state.sbrief = h.sbrief;
   render();
 }
 
@@ -810,6 +828,12 @@ function renderOverlay() {
     document.body.appendChild(root);
   }
 
+  if (state.stab) {
+    renderSectorTab(root);
+    return;
+  }
+  sectorViewKey = '';
+
   if (state.desk) {
     document.body.classList.add('overlay-open');
     root.hidden = false;
@@ -841,6 +865,101 @@ function renderOverlay() {
   else root.innerHTML = '';
 
   wireOverlay(root);
+}
+
+/* ---------- Sector tab (Energy first; same component for future sector tabs) ---------- */
+function sectorDef() {
+  return SECTOR_TABS.find((s) => s.id === state.stab) || null;
+}
+
+function renderSectorTab(root) {
+  const sector = sectorDef();
+  if (!sector) { state.stab = null; root.hidden = true; root.innerHTML = ''; return; }
+  if (state.ssub && !sector.subs.some((s) => s.id === state.ssub)) state.ssub = null;
+  const place = placeOf(state);
+  const placeKeyNow = `${place.level}|${place.country || ''}|${place.admin1 || ''}|${place.city || ''}`;
+  const key = `${sector.id}|${state.ssub || ''}|${state.sbrief ? 1 : 0}|${placeKeyNow}`;
+  const opening = !sectorViewKey;
+  const prev = sectorViewKey;
+  if (prev.split('|').slice(0, 2).join('|') !== key.split('|').slice(0, 2).join('|') || !prev.endsWith(placeKeyNow)) {
+    sectorStage = null;
+    sectorExpanded = false;
+  }
+  if (state.ssub) lastSectorSub = state.ssub;
+  const names = placeNames();
+  const ctx = {
+    sector, state, place, names,
+    items: liveItems(),
+    briefs: sectorBriefs[sector.id] || { briefs: {} },
+    stage: sectorStage,
+    expanded: sectorExpanded,
+    card: (it, extra) => newsCard(it, names, extra),
+  };
+  const panelScroll = root.querySelector('.sector-panel')?.scrollTop || 0;
+  // Re-renders replace the DOM (navigate + hashchange both render); keep focus on the same control.
+  const fa = document.activeElement && root.contains(document.activeElement) ? document.activeElement : null;
+  const focusSel = fa ? (fa.id ? `#${fa.id}` : ['data-ssub', 'data-sstage'].filter((k) => fa.hasAttribute(k)).map((k) => `[${k}="${fa.getAttribute(k)}"]`)[0]
+    || ['brief-h', 'sector-detail-h', 'brief-missing', 'brief-btn'].filter((c) => fa.classList.contains(c)).map((c) => `.${c}`)[0] || (fa.hasAttribute('data-brief-missing') ? '[data-brief-missing]' : null)) : null;
+  document.body.classList.add('overlay-open');
+  root.hidden = false;
+  root.innerHTML = renderSectorOverlay(ctx);
+  wireSectorOverlay(root, {
+    selectSub: (id) => navigate({ ssub: id, sbrief: false }),
+    openBrief: () => navigate({ sbrief: true }),
+    closeBrief: () => navigate({ sbrief: false }),
+    setStage: (id) => { sectorStage = id; sectorExpanded = false; renderSectorTab(root); },
+    expand: (on) => { sectorExpanded = on; renderSectorTab(root); },
+    goPlace: (p, { brief = false } = {}) => {
+      navigate({ country: p.country || null, admin1: p.admin1 || null, city: p.city || null, view: 'desk', sbrief: brief ? true : state.sbrief });
+      if (!p.country) fitToBbox(null);
+    },
+    close: () => navigate({ stab: null, ssub: null, sbrief: false }),
+    method: () => { navigate({ stab: null, ssub: null, sbrief: false }); document.getElementById('method-sectors')?.scrollIntoView({ behavior: 'smooth' }); },
+  });
+  wireVerifyBadges(root);
+  const panel = root.querySelector('.sector-panel');
+  if (opening) {
+    root.querySelector('#sector-title')?.focus({ preventScroll: true });
+  } else if (prev === key && panel) {
+    panel.scrollTop = panelScroll;
+    if (focusSel) { const el = root.querySelector(focusSel); if (el) { if (!el.matches('button, a, [tabindex]')) el.setAttribute('tabindex', '-1'); el.focus({ preventScroll: true }); } }
+  } else if (panel) {
+    panel.scrollTop = 0;
+    const target = root.querySelector('.sector-detail .sector-detail-h, .sector-detail .brief-h, .sector-detail [data-brief-missing]');
+    if (state.ssub && target) { target.setAttribute('tabindex', '-1'); target.focus({ preventScroll: true }); }
+    else if (!state.ssub && prev.split('|')[1]) root.querySelector(`[data-ssub="${prev.split('|')[1]}"]`)?.focus({ preventScroll: true });
+  }
+  sectorViewKey = key;
+}
+
+function openSectorTab(id = 'energy') {
+  navigate({ stab: id, ssub: state.ssub || lastSectorSub || null, sbrief: false, desk: null });
+}
+
+async function loadSectorBriefs() {
+  await Promise.all(SECTOR_TABS.map(async (sector) => {
+    try {
+      const res = await fetch(`./data/${sector.id}-briefs.json`, { cache: 'no-store' });
+      if (!res.ok) throw new Error(String(res.status));
+      const { valid } = validateBriefs(await res.json(), sector);
+      sectorBriefs[sector.id] = valid;
+    } catch {
+      sectorBriefs[sector.id] = { briefs: {} };
+    }
+  }));
+  if (state.stab) renderOverlay();
+}
+
+/** Method page: the stage mapping (plain label, economic type, NAICS codes), from the same schema the tab uses. */
+function renderMethodSectors() {
+  const host = document.getElementById('method-stage-map');
+  if (!host) return;
+  const rows = SECTOR_TABS.flatMap((sector) => sector.stages.map((st) => {
+    const type = ECONOMIC_TYPES[st.economicType];
+    const codes = st.naics.map((n) => `<a href="${escapeHtml(naicsUrl(n.code))}" target="_blank" rel="noopener noreferrer">${escapeHtml(n.code)}</a> ${escapeHtml(n.title)}`).join('; ');
+    return `<li><strong>${escapeHtml(st.label)}</strong> = ${escapeHtml(type.label)} sector (${escapeHtml(type.plain.toLowerCase())}). NAICS ${codes}.</li>`;
+  }));
+  host.innerHTML = `<ul class="method-list">${rows.join('')}</ul><p class="method-src">Codes and titles from <a href="${escapeHtml(OFFICIAL_SOURCES.naics.url)}" target="_blank" rel="noopener noreferrer">NAICS 2022 (U.S. Census Bureau)</a>; industry taxonomy from <a href="${escapeHtml(OFFICIAL_SOURCES.blsIndustries.url)}" target="_blank" rel="noopener noreferrer">BLS Industries at a Glance</a>.</p>`;
 }
 
 function renderMindMap(c) {
@@ -1556,7 +1675,7 @@ function storyPlace(i, names) {
   return cs.length > 1 ? `${first} +${cs.length - 1}` : first;
 }
 
-function newsCard(i, names) {
+function newsCard(i, names, extra = '') {
   const cat = categoryOf(i);
   return `
       <article class="feed-item is-live" data-real="1" data-vstatus="${escapeHtml(i.verification?.status || '')}" data-cat="${cat}">
@@ -1567,7 +1686,7 @@ function newsCard(i, names) {
         <a class="title" href="${escapeHtml(i.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(i.title)}</a>
         <div class="meta">
           <span>${escapeHtml(i.publishedLabel || dateStampShort(i.published))}</span>
-          <span class="badge-sm kind">${escapeHtml(cat === 'general' ? (i.verification?.status === 'analysis' ? 'analysis' : 'news') : CATEGORY_LABELS[cat].toLowerCase())}</span>
+          <span class="badge-sm kind">${escapeHtml(cat === 'general' ? (i.verification?.status === 'analysis' ? 'analysis' : 'news') : CATEGORY_LABELS[cat].toLowerCase())}</span>${extra}
         </div>
       </article>`;
 }
@@ -1768,13 +1887,14 @@ async function loadLiveFeed() {
     liveFeed = { items: [], itemCount: 0 };
   }
   renderFeed();
+  if (state.stab) renderOverlay();
 }
 
 /* Header "Example data" badge: only while the view shows example scores
    (an example country profile, its mind map, chains or companies). Hidden on
    the World home, sourced-only countries and the Indicators overlay. */
 function viewShowsExampleScores(st, hasProfile) {
-  return !st.desk && !!st.country && !!hasProfile;
+  return !st.desk && !st.stab && !!st.country && !!hasProfile;
 }
 function syncExampleBadge() {
   const b = $('#header-example-badge');
@@ -1857,14 +1977,22 @@ function boot() {
     const opener = e.target.closest?.('[data-open-desk]');
     if (opener) {
       e.preventDefault();
-      navigate({ desk: opener.dataset.openDesk });
+      navigate({ desk: opener.dataset.openDesk, stab: null, ssub: null, sbrief: false });
       return;
     }
     if (e.target.closest?.('#nav-desks')) {
       e.preventDefault();
-      navigate({ desk: state.desk || 'prices' });
+      navigate({ desk: state.desk || 'prices', stab: null, ssub: null, sbrief: false });
+      return;
+    }
+    const sectorBtn = e.target.closest?.('[data-open-sector]');
+    if (sectorBtn) {
+      e.preventDefault();
+      openSectorTab(sectorBtn.dataset.openSector);
     }
   });
+  renderMethodSectors();
+  loadSectorBriefs();
   loadPricesDesk();
   loadStats();
   watchPanelDollar();
@@ -1882,7 +2010,11 @@ function boot() {
     });
   });
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && state.desk) {
+    if (e.key === 'Escape' && state.stab) {
+      if ($('.stage-chip.open')) { $$('.stage-chip.open').forEach((w) => w.classList.remove('open')); return; }
+      if (state.sbrief) navigate({ sbrief: false });
+      else navigate({ stab: null, ssub: null, sbrief: false });
+    } else if (e.key === 'Escape' && state.desk) {
       navigate({ desk: null });
     } else if (e.key === 'Escape' && state.view !== 'desk') {
       navigate({ view: 'desk', company: null });

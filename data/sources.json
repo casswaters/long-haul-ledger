@@ -9,7 +9,8 @@
     "Verification: primary=true marks the subject's own channel (agency / company press / IR): Confirmed for its own announcements and promotes matching story clusters. outlet groups feeds from one publisher (NYT feeds = one outlet) when counting independent sources.",
     "Unconfirmed = factual claim that could be confirmed by the subject/agency/company, from a non-primary outlet, not yet multi-sourced or confirmed. Do NOT park opinion/trend/commentary there. Those lack a fountainhead to confirm and belong in Analysis.",
     "Analysis classification: kind=analysis feeds are always Analysis. Additionally the fetcher/verify heuristics reclassify hard-news items whose titles match why/how/opinion/essay/the case for/trend-roundup/explainer patterns (also /opinion|/explainer|/essay URL paths). NPR Science stays hard-news for discrete events; its explainers/roundups flip via heuristics.",
-    "requireTopic: general-news feeds only contribute items that classify as energy, infrastructure, industry or geopolitics (locate.js categorize)."
+    "requireTopic: general-news feeds only contribute items that classify as energy, infrastructure, industry or geopolitics (locate.js categorize).",
+    "Energy sector feeds (sector: energy) were added in v24 for the Energy tab: agency releases (NRC, DOE Office of Nuclear Energy, EIA) plus trade press per source. Trade-press feeds do not assume a home country, so a story that names no place is filed worldwide. Tested and not added (box, Oct 7 2026): IEA (no public RSS, 404), Recharge (404), Hydrogen Insight (404), NEI (403), FERC (403), Mining.com (403), CleanTechnica (403), Hydrogen Fuel News (403, bot filter), S&P Global (403), Renewables Now (404), IAEA (404), NucNet (404), H2 View and Biofuels Digest (feeds return no items), World Oil (no item dates), NEI Magazine and IEEFA (stale)."
   ],
   "sources": [
     {
@@ -1007,6 +1008,295 @@
       ],
       "primary": false,
       "scope": "world"
+    },
+    {
+      "id": "nrc-news",
+      "name": "U.S. Nuclear Regulatory Commission",
+      "url": "https://www.nrc.gov/public-involve/rss?feed=news",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "nuclear",
+        "regulator"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "countryDefault": "US",
+      "primary": true,
+      "sector": "energy"
+    },
+    {
+      "id": "doe-ne",
+      "name": "DOE Office of Nuclear Energy",
+      "url": "https://www.energy.gov/ne/rss.xml",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "nuclear"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "countryDefault": "US",
+      "primary": true,
+      "sector": "energy"
+    },
+    {
+      "id": "eia-press",
+      "name": "EIA press releases",
+      "url": "https://www.eia.gov/rss/press_rss.xml",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "data"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "countryDefault": "US",
+      "primary": true,
+      "sector": "energy"
+    },
+    {
+      "id": "ans-newswire",
+      "name": "ANS Nuclear Newswire",
+      "url": "https://www.ans.org/news/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "nuclear"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "energy"
+    },
+    {
+      "id": "windpower-monthly",
+      "name": "Windpower Monthly",
+      "url": "https://www.windpowermonthly.com/rss/news",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "wind"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "energy"
+    },
+    {
+      "id": "offshorewind-biz",
+      "name": "offshoreWIND.biz",
+      "url": "https://www.offshorewind.biz/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "wind"
+      ],
+      "quality": 2,
+      "home": "nl",
+      "assumeHome": false,
+      "sector": "energy"
+    },
+    {
+      "id": "ogj",
+      "name": "Oil & Gas Journal",
+      "url": "https://www.ogj.com/__rss/website-scheduled-content.xml?input=%7B%22sectionAlias%22%3A%22home%22%7D",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "oil",
+        "gas"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "energy"
+    },
+    {
+      "id": "rigzone",
+      "name": "Rigzone",
+      "url": "https://www.rigzone.com/news/rss/rigzone_latest.aspx",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "oil",
+        "gas"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "energy"
+    },
+    {
+      "id": "ngi",
+      "name": "Natural Gas Intelligence",
+      "url": "https://www.naturalgasintel.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "gas"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "energy"
+    },
+    {
+      "id": "lng-prime",
+      "name": "LNG Prime",
+      "url": "https://lngprime.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "gas"
+      ],
+      "quality": 2,
+      "assumeHome": false,
+      "sector": "energy",
+      "home": "us"
+    },
+    {
+      "id": "coal-age",
+      "name": "Coal Age",
+      "url": "https://www.coalage.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "coal"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "energy"
+    },
+    {
+      "id": "thinkgeoenergy",
+      "name": "ThinkGeoEnergy",
+      "url": "https://www.thinkgeoenergy.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "geothermal"
+      ],
+      "quality": 2,
+      "assumeHome": false,
+      "sector": "energy",
+      "home": "is"
+    },
+    {
+      "id": "hydro-review",
+      "name": "Hydro Review",
+      "url": "https://www.hydroreview.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "hydro"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "energy"
+    },
+    {
+      "id": "water-power-magazine",
+      "name": "International Water Power & Dam Construction",
+      "url": "https://www.waterpowermagazine.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "hydro"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "energy"
+    },
+    {
+      "id": "energy-storage-news",
+      "name": "Energy-Storage.news",
+      "url": "https://www.energy-storage.news/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "storage"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "energy"
+    },
+    {
+      "id": "fuelcellsworks",
+      "name": "FuelCellsWorks",
+      "url": "https://fuelcellsworks.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "hydrogen"
+      ],
+      "quality": 1,
+      "assumeHome": false,
+      "sector": "energy",
+      "home": "ca"
+    },
+    {
+      "id": "pv-tech",
+      "name": "PV Tech",
+      "url": "https://www.pv-tech.org/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "solar"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "energy"
+    },
+    {
+      "id": "power-mag",
+      "name": "POWER Magazine",
+      "url": "https://www.powermag.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "power"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "energy"
+    },
+    {
+      "id": "canary-media",
+      "name": "Canary Media",
+      "url": "https://www.canarymedia.com/rss",
+      "kind": "hard-news",
+      "tags": [
+        "energy"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "energy"
+    },
+    {
+      "id": "offshore-technology",
+      "name": "Offshore Technology",
+      "url": "https://www.offshore-technology.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "oil",
+        "gas"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "energy"
     }
   ],
   "analysisTitlePatterns": [

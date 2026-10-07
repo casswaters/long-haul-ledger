@@ -13,6 +13,8 @@ import { applyCurated, validateCurated } from '../curated.js';
 import { existsSync } from 'fs';
 import { buildGazetteer, tagLocation, categorize } from '../locate.js';
 import { COUNTRY_NAMES } from '../places.js';
+import { withSectorTags, filterSector } from '../sectors.js';
+import { SECTOR_TABS } from '../energy.js';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dir, '..');
@@ -353,6 +355,61 @@ async function pool(list, n, fn) {
   return results;
 }
 
+/** Feed items newest first (undated items keep their order, after dated ones). */
+export function sortNewestFirst(raw) {
+  const t = (r) => { const d = Date.parse(stripHtml(r.published || '')); return Number.isFinite(d) ? d : -Infinity; };
+  return raw.map((r, i) => [r, t(r), i]).sort((a, b) => (b[1] - a[1]) || (a[2] - b[2])).map(([r]) => r);
+}
+
+/** Sector tags (energy sources + lifecycle stages) for every item. */
+export function tagSectors(items, sectors = SECTOR_TABS) {
+  return items.map((it) => withSectorTags(it, sectors));
+}
+
+/** Extra sector depth: stories per sector source and primary country kept beyond the location caps. */
+export const SECTOR_PER_KEY = 10;
+export const SECTOR_EXTRA_CAP = 240;
+
+/**
+ * Sector top-up: after the per-location caps, add the best sector-tagged
+ * stories that were cut, up to SECTOR_PER_KEY per (source, country) and
+ * SECTOR_EXTRA_CAP overall, so each energy source keeps depth per place.
+ */
+export function topUpSectors(kept, pool, { sectors = SECTOR_TABS, perKey = SECTOR_PER_KEY, cap = SECTOR_EXTRA_CAP } = {}) {
+  const have = new Set(kept.map((i) => i.url.replace(/#.*$/, '').toLowerCase()));
+  const per = new Map();
+  for (const sector of sectors) {
+    for (const it of filterSector(kept, sector, { maxAgeDays: 3650 })) {
+      for (const sub of it.sectors?.[sector.id]?.subs || []) {
+        const k = `${sector.id}|${sub}|${it.loc?.countries?.[0] || '_'}`;
+        per.set(k, (per.get(k) || 0) + 1);
+      }
+    }
+  }
+  const extra = [];
+  const sorted = [...pool].sort((a, b) => (b.score - a.score) || String(b.published || '').localeCompare(String(a.published || '')));
+  for (const it of sorted) {
+    if (extra.length >= cap) break;
+    if (!it.url || !it.title || it.score < MIN_SCORE) continue;
+    const key = it.url.replace(/#.*$/, '').toLowerCase();
+    if (have.has(key)) continue;
+    let room = false;
+    const keys = [];
+    for (const sector of sectors) {
+      for (const sub of it.sectors?.[sector.id]?.subs || []) {
+        const k = `${sector.id}|${sub}|${it.loc?.countries?.[0] || '_'}`;
+        keys.push(k);
+        if ((per.get(k) || 0) < perKey) room = true;
+      }
+    }
+    if (!room) continue;
+    keys.forEach((k) => per.set(k, (per.get(k) || 0) + 1));
+    have.add(key);
+    extra.push(it);
+  }
+  return [...kept, ...extra];
+}
+
 async function fetchOneFeed(source, fetchImpl) {
   try {
     const res = await fetchImpl(source.url);
@@ -364,7 +421,8 @@ async function fetchOneFeed(source, fetchImpl) {
         return { fail: { id: source.id, status: res.status, reason: 'not RSS/Atom' } };
       }
     }
-    const raw = parseFeedXml(res.body).slice(0, PER_FEED_CAP);
+    // Newest first before the per-feed cap: some feeds (NRC, World Nuclear News) are not date-ordered.
+    const raw = sortNewestFirst(parseFeedXml(res.body)).slice(0, PER_FEED_CAP);
     if (!raw.length) return { fail: { id: source.id, status: res.status, reason: 'zero items' } };
     const normalized = raw.map((r) => normalizeItem(r, source)).filter((it) => !source.requireTopic || it.category !== 'general');
     return { ok: { id: source.id, count: normalized.length }, items: normalized };
@@ -387,8 +445,8 @@ export async function fetchAll(sources, { fetchImpl = fetchText, extra = async (
 
   // Classify across everything fetched (pre-cap) so a primary-source item that
   // misses the cap can still confirm a cluster that made it in.
-  const classified = classifyItems(items);
-  const merged = capByLocation(classified);
+  const classified = tagSectors(classifyItems(items));
+  const merged = topUpSectors(capByLocation(classified), classified);
   return { ok, failed, items: merged, pool: classified };
 }
 
@@ -521,7 +579,7 @@ export function loadCurated(path = CURATED_PATH) {
 function withCurated(items) {
   const doc = loadCurated();
   const { items: curatedOut, applied } = applyCurated(items, doc);
-  const out = curatedOut.map((it) => (it.loc && it.category ? it : locateItem(it, { home: (it.country || '').toLowerCase() || null, assumeHome: !!it.country })));
+  const out = tagSectors(curatedOut.map((it) => (it.loc && it.category ? it : locateItem(it, { home: (it.country || '').toLowerCase() || null, assumeHome: !!it.country }))));
   console.log(`Curated: +${applied.added.length} added, ${applied.overridden.length} overridden, ${applied.expired.length} expired, ${applied.unmatched.length} unmatched`);
   return { items: out, applied };
 }
