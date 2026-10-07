@@ -217,6 +217,7 @@ console.log('\n--- Copy: neutral, macro-to-micro, no tier / paid / US-first fram
   const wf = read('./.github/workflows/soft-launch.yml');
   const ex = (wf.match(/exclude_assets:\s*'([^']*)'/) || [])[1] || '';
   assert('Pages excludes BUILD-PLAN.md, RESEARCH-RUNS.md, BRIEF.md', ['BUILD-PLAN.md', 'RESEARCH-RUNS.md', 'BRIEF.md'].every((f) => ex.split(',').includes(f)));
+  assert('Pages excludes ROADMAP.md (repo-only)', ex.split(',').includes('ROADMAP.md'));
   const commitLine = (wf.match(/scripts\/commit-data\.sh[^\n]*/) || [''])[0];
   assert('workflow commits GDELT cache', /data\/news-cache/.test(commitLine));
   assert('workflow commits on top of latest tip', /git reset --hard "origin\//.test(wf));
