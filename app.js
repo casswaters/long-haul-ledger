@@ -30,7 +30,7 @@ import {
   layoutLabels, labelFontPx, dotRadiusPx, labelPriority, estimateTextWidth,
 } from './labels.js';
 import {
-  resolveLeadership, leadershipStack, roleBadge, hasPublicContact,
+  resolveLeadership, leadershipStack, roleBadge, hasPublicContact, isEmptyLeadership,
 } from './leadership.js';
 
 const state = {
@@ -1143,10 +1143,14 @@ function shortLabel(name) {
 /* ---------- Leadership accordion ---------- */
 function renderLeadershipAccordion() {
   if (!state.country) return '';
+  const af = findAdminFeature(admin1Geo, state.admin1);
+  const cf = findCityFeature(citiesGeo, state.city);
   const stack = leadershipStack(leadershipCatalog, {
     country: state.country,
     admin1: state.admin1,
     city: state.city,
+    admin1Name: af?.properties?.name,
+    cityName: cf?.properties?.name,
   });
   const hasDrill = admin1Countries.has(state.country);
   const finerNote = !hasDrill
@@ -1165,15 +1169,19 @@ function renderLeadershipAccordion() {
   }
 
   const levels = stack.map((block, idx) => {
-    const roles = (block.roles || []).map((role) => {
-      const badges = roleBadge(role).map((b) => `<span class="badge-sm ${b === 'SAMPLE' || b === 'ESTIMATE' ? 'sample' : 'kind'}">${escapeHtml(b)}</span>`).join(' ');
-      const contact = role.contact || {};
-      const links = [];
-      if (contact.site) links.push(`<a href="${escapeHtml(contact.site)}" target="_blank" rel="noopener noreferrer">Official site</a>`);
-      if (contact.form) links.push(`<a href="${escapeHtml(contact.form)}" target="_blank" rel="noopener noreferrer">Public form</a>`);
-      if (contact.switchboard) links.push(`<span class="lead-switch">${escapeHtml(contact.switchboard)}</span>`);
-      if (contact.email) links.push(`<a href="mailto:${escapeHtml(contact.email)}">${escapeHtml(contact.email)}</a>`);
-      return `
+    const empty = isEmptyLeadership(block);
+    const roles = empty
+      ? `<p class="section-note lead-empty">${escapeHtml(block.emptyNote || 'No sourced leadership for this level yet.')}</p>`
+      : (block.roles || []).map((role) => {
+          const badges = roleBadge(role).map((b) => `<span class="badge-sm ${b === 'SAMPLE' || b === 'ESTIMATE' ? 'sample' : 'kind'}">${escapeHtml(b)}</span>`).join(' ');
+          const contact = role.contact || {};
+          const links = [];
+          if (contact.site) links.push(`<a href="${escapeHtml(contact.site)}" target="_blank" rel="noopener noreferrer">Official site</a>`);
+          if (contact.form) links.push(`<a href="${escapeHtml(contact.form)}" target="_blank" rel="noopener noreferrer">Public form</a>`);
+          if (contact.switchboard) links.push(`<span class="lead-switch">${escapeHtml(contact.switchboard)}</span>`);
+          if (contact.email) links.push(`<a href="mailto:${escapeHtml(contact.email)}">${escapeHtml(contact.email)}</a>`);
+          const asOf = role.asOf ? `<div><span class="lead-k">As of</span> ${escapeHtml(role.asOf)}</div>` : '';
+          return `
         <article class="lead-role">
           <div class="lead-role-top">
             <div>
@@ -1186,22 +1194,24 @@ function renderLeadershipAccordion() {
           <div class="lead-meta">
             <div><span class="lead-k">Response</span> ${escapeHtml(role.responseTime?.text || 'unknown')} ${role.responseTime?.badge ? `<span class="badge-sm sample" title="Unverified estimate, not a measured response time">${escapeHtml(role.responseTime.badge)}</span>` : ''}</div>
             <div><span class="lead-k">Term</span> ${escapeHtml(role.term?.text || 'unknown')} ${role.term?.badge ? `<span class="badge-sm sample">${escapeHtml(role.term.badge)}</span>` : ''}</div>
+            ${asOf}
           </div>
         </article>`;
-    }).join('');
+        }).join('');
     const nest = idx > 0 ? ' lead-level-nested' : '';
     return `
       <div class="lead-level${nest}">
         <div class="lead-level-label">${escapeHtml(block.label || block.key)} · ${escapeHtml(levelLabel(block.level))}</div>
         ${roles}
       </div>`;
-  }).join(stack.length > 1 ? '<div class="lead-more">More levels (as focus narrows)</div>' : '');
+  }).join(stack.length > 1 ? '<div class="lead-more">Parent state equivalent</div>' : '');
 
+  const focusTag = state.admin1 || state.city ? 'public channels' : 'public channels';
   return `
     <details class="leadership-acc">
-      <summary>Leadership <span class="tier-tag">public channels</span></summary>
+      <summary>Leadership <span class="tier-tag">${focusTag}</span></summary>
       <div class="leadership-body">
-        <p class="section-note">Public sites, switchboards and forms only, never private phones. SAMPLE / ESTIMATE badges mark unverified fields; response times are estimates, not measurements.</p>
+        <p class="section-note">Public sites, switchboards and forms only, never private phones. SAMPLE / ESTIMATE badges mark unverified fields; response times are estimates, not measurements. Country-level rosters stay on the country desk; state drill shows that state's public channels.</p>
         ${finerNote}
         ${levels}
       </div>
