@@ -441,7 +441,7 @@ function makeAnnouncements(countryName, sectorLabel, name, role) {
   return [
     { date: '2026-09-28', title: `${name} locks multi-year offtake framework`, blurb: `${role} signs a framework with counterparties in ${countryName}'s ${sectorLabel} stack.` },
     { date: '2026-09-12', title: `Capex phase advances at ${name}`, blurb: `Board clears next tranche for capacity / corridor build tied to ${sectorLabel}.` },
-    { date: '2026-08-30', title: `${name} posts hiring surge for technicians`, blurb: `Mid-skill hiring outruns local supply — apprenticeships and visa pathways in focus.` },
+    { date: '2026-08-30', title: `${name} posts hiring surge for technicians`, blurb: `Mid-skill hiring outruns local supply. Apprenticeships and visa pathways in focus.` },
     { date: '2026-08-15', title: `Regulatory milestone clears for ${name}`, blurb: `Permitting / interconnect / local-content step completes for a priority project.` },
     { date: '2026-07-22', title: `${name} partners on standards pilot`, blurb: `Joint pilot on measurement, safety, or export standards within ${sectorLabel}.` },
   ].slice(0, 3 + (name.length % 3));
@@ -449,13 +449,13 @@ function makeAnnouncements(countryName, sectorLabel, name, role) {
 
 function makePipeline(name, stage) {
   const bases = [
-    { title: `${name} — next capacity tranche`, status: 'FEED / early EPC' },
+    { title: `${name} · next capacity tranche`, status: 'FEED / early EPC' },
     { title: `Talent pipeline with regional colleges`, status: 'hiring · 12–24 months' },
     { title: `Digital twin / ops upgrade`, status: 'pilot → scale' },
     { title: `Export / offtake renegotiation window`, status: 'commercial desk' },
   ];
-  if (stage === 'upstream') bases[0].title = `${name} — resource / feedstock expansion`;
-  if (stage === 'downstream') bases[0].title = `${name} — demand-side capacity / contracts`;
+  if (stage === 'upstream') bases[0].title = `${name} · resource / feedstock expansion`;
+  if (stage === 'downstream') bases[0].title = `${name} · demand-side capacity / contracts`;
   return bases.slice(0, 2 + (name.length % 3));
 }
 

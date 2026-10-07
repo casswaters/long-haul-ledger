@@ -84,7 +84,7 @@ export const COUNTRIES = {
       { id: 'in-1', title: 'Electronics ATMP cluster crosses export threshold', blurb: 'Assembly–test–packaging capacity turns from import substitute toward export volume in phones and servers.', weight: 85, sector: 'manufacturing', region: 'south', date: '2026-09-26' },
       { id: 'in-2', title: 'Dedicated freight corridor lifts inland container velocity', blurb: 'Double-stack corridors cut hinterland dwell; port SIC codes begin re-pricing inland logistics.', weight: 80, sector: 'logistics', region: 'west-coast', date: '2026-09-20' },
       { id: 'in-3', title: 'Round-the-clock renewable PPAs reshape industrial siting', blurb: 'Firms chase states offering firm renewable + storage packages for 24×7 industrial loads.', weight: 87, sector: 'energy', region: 'west-coast', date: '2026-10-02' },
-      { id: 'in-4', title: 'Semiconductor design GCCs deepen fabless layer', blurb: 'Design talent density rises faster than domestic fab capacity — a complementary, not competing, frontier.', weight: 78, sector: 'compute', region: 'south', date: '2026-09-12' },
+      { id: 'in-4', title: 'Semiconductor design GCCs deepen fabless layer', blurb: 'Design talent density rises faster than domestic fab capacity: a complementary, not competing, frontier.', weight: 78, sector: 'compute', region: 'south', date: '2026-09-12' },
       { id: 'in-5', title: 'State land banks digitize industrial plot allotment', blurb: 'Transparent plot inventories shorten site-selection cycles for mid-size manufacturers.', weight: 74, sector: 'institutions', region: 'east', date: '2026-09-08' },
       { id: 'in-6', title: 'Cold-chain gaps still tax agri surplus regions', blurb: 'Harvest losses remain a logistics–energy–institutions compound problem in northern belts.', weight: 72, sector: 'logistics', region: 'north', date: '2026-09-25' },
     ],
@@ -99,7 +99,7 @@ export const COUNTRIES = {
     iso: 'AE',
     tier: 'full',
     snapshot:
-      'Hub-state strategy: logistics, capital, and compute co-located with energy surplus — demographic depth and industrial breadth remain imported.',
+      'Hub-state strategy: logistics, capital, and compute co-located with energy surplus. Demographic depth and industrial breadth remain imported.',
     metrics: { stability: 78, frontierPressure: 70, opportunity: 77 },
     industries: [
       { id: 'logistics', name: 'Trade & Logistics', note: 'Ports, aviation, re-exports, free zones.' },
@@ -166,7 +166,7 @@ export const COUNTRIES = {
     iso: 'NG',
     tier: 'full',
     snapshot:
-      'Largest African population and restless markets collide with power reliability, logistics friction, and institutional predictability — high frontier pressure, high upside if constraints lift.',
+      'Largest African population and restless markets collide with power reliability, logistics friction, and institutional predictability: high frontier pressure, high upside if constraints lift.',
     metrics: { stability: 52, frontierPressure: 88, opportunity: 79 },
     industries: [
       { id: 'energy', name: 'Power & Energy', note: 'Grid, gas-to-power, distributed solar, oil & gas reform.' },
@@ -187,7 +187,7 @@ export const COUNTRIES = {
       { id: 'ng-1', title: 'Distributed solar + storage undercuts diesel for SMEs', blurb: 'Commercial rooftop + battery packages begin displacing generator economics in industrial estates.', weight: 86, sector: 'energy', region: 'lagos', date: '2026-09-24' },
       { id: 'ng-2', title: 'Port dwell reforms shave days off import cycles', blurb: 'Digitized clearance and berth management reduce logistics tax on manufacturers.', weight: 78, sector: 'logistics', region: 'lagos', date: '2026-09-17' },
       { id: 'ng-3', title: 'Gas-to-power projects unlock industrial estate loads', blurb: 'Where gas and offtake contracts clear, factories re-rate capacity utilization upward.', weight: 84, sector: 'energy', region: 'south-south', date: '2026-10-02' },
-      { id: 'ng-4', title: 'Payments rails deepen merchant formalization', blurb: 'Digital settlement reaches smaller traders — a precursor to credit and tax-base expansion.', weight: 74, sector: 'compute', region: 'lagos', date: '2026-09-09' },
+      { id: 'ng-4', title: 'Payments rails deepen merchant formalization', blurb: 'Digital settlement reaches smaller traders, a precursor to credit and tax-base expansion.', weight: 74, sector: 'compute', region: 'lagos', date: '2026-09-09' },
       { id: 'ng-5', title: 'Staple-crop storage gaps still amplify price swings', blurb: 'Post-harvest loss and thin warehouse finance leave northern belts exposed.', weight: 71, sector: 'resources', region: 'north', date: '2026-09-28' },
       { id: 'ng-6', title: 'Vocational hubs near industrial estates expand seats', blurb: 'Private–state partnerships target technicians for food processing and assembly lines.', weight: 69, sector: 'demographics', region: 'abuja-middle', date: '2026-09-13' },
     ],
@@ -202,7 +202,7 @@ export const COUNTRIES = {
     iso: 'CL',
     tier: 'full',
     snapshot:
-      'Resource commons power (copper, lithium) meets renewable surplus and long thin geography — institutions and value-add depth decide whether minerals become a industrial ladder or a cycle.',
+      'Resource commons power (copper, lithium) meets renewable surplus and long thin geography. Institutions and value-add depth decide whether minerals become an industrial ladder or a cycle.',
     metrics: { stability: 70, frontierPressure: 74, opportunity: 76 },
     industries: [
       { id: 'resources', name: 'Mining & Critical Minerals', note: 'Copper, lithium, processing, and water intensity.' },
@@ -219,7 +219,7 @@ export const COUNTRIES = {
     ],
     signals: [
       { id: 'cl-1', title: 'North–south transmission spine bids advance', blurb: 'Moving surplus solar south and balancing hydro north becomes the national grid’s central puzzle.', weight: 85, sector: 'energy', region: 'norte', date: '2026-09-30' },
-      { id: 'cl-2', title: 'Lithium processing local-content rules tighten', blurb: 'Policy pushes value-add beyond brine extraction — capital and know-how must follow.', weight: 82, sector: 'resources', region: 'norte', date: '2026-09-23' },
+      { id: 'cl-2', title: 'Lithium processing local-content rules tighten', blurb: 'Policy pushes value-add beyond brine extraction. Capital and know-how must follow.', weight: 82, sector: 'resources', region: 'norte', date: '2026-09-23' },
       { id: 'cl-3', title: 'Desalination capacity underwrites mining water budgets', blurb: 'Coastal desal + pipelines reduce aquifer conflict and unlock project timelines.', weight: 80, sector: 'resources', region: 'norte', date: '2026-09-18' },
       { id: 'cl-4', title: 'Pacific port upgrades prioritize mineral exporters', blurb: 'Berth and rail last-mile investments target copper and chemical exports.', weight: 74, sector: 'logistics', region: 'central', date: '2026-09-12' },
       { id: 'cl-5', title: 'Green hydrogen pilots cluster near renewable surplus', blurb: 'Early projects test whether electrons become molecules for export or domestic industry.', weight: 76, sector: 'manufacturing', region: 'norte', date: '2026-10-01' },

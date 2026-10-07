@@ -185,9 +185,9 @@ export function toIsoDate(raw) {
 }
 
 export function dateStamp(iso) {
-  if (!iso) return '—';
+  if (!iso) return 'n/a';
   const d = new Date(iso);
-  if (Number.isNaN(d.getTime())) return '—';
+  if (Number.isNaN(d.getTime())) return 'n/a';
   const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
 }
@@ -482,7 +482,7 @@ export async function gdeltTopUp(items, {
     }
   }
   cache.updatedAt = now.toISOString();
-  log(`GDELT: queried ${stats.queried.length} (${stats.queried.join(',') || '—'}), failed ${stats.failed.length}${stats.rateLimited ? ' (rate limited; will retry next run)' : ''}, ${out.length} cached items in play`);
+  log(`GDELT: queried ${stats.queried.length} (${stats.queried.join(',') || 'none'}), failed ${stats.failed.length}${stats.rateLimited ? ' (rate limited; will retry next run)' : ''}, ${out.length} cached items in play`);
   return { items: out, cache, stats };
 }
 

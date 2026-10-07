@@ -232,7 +232,7 @@ export function isStale(record, now = new Date()) {
 }
 
 export function formatValue(value, id) {
-  if (value == null || !Number.isFinite(value)) return '—';
+  if (value == null || !Number.isFinite(value)) return 'n/a';
   const s = PRICE_SERIES.find((x) => x.id === id);
   return value.toFixed(s?.decimals ?? 2);
 }

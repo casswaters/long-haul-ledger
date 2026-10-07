@@ -130,6 +130,7 @@ a:hover { text-decoration: underline; }
   vertical-align: middle;
 }
 .proto-badge-sm { font-size: 0.55rem; padding: 0.08rem 0.32rem; }
+.proto-badge[hidden] { display: none; }
 .proto-note {
   margin: 0.15rem 0 0.55rem;
   font-size: 0.76rem;

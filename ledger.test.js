@@ -32,7 +32,7 @@ assert('domain intent noted', META.domainIntent === 'longhaulledger.com');
 assert('sample flag true', META.sample === true);
 assert('index.html exists', existsSync(new URL('./index.html', import.meta.url)));
 assert('world.svg exists', existsSync(new URL('./world.svg', import.meta.url)));
-assert('sw.js cache name long-haul-ledger-v22', /long-haul-ledger-v22/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v(?:[678]|9|19|20|21)'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+assert('sw.js cache name long-haul-ledger-v23', /long-haul-ledger-v23/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v(?:[678]|9|19|20|21|22)'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
 assert('BRIEF.md exists', existsSync(new URL('./BRIEF.md', import.meta.url)));
 assert('app has ?fresh=1 bust', /\bfresh\b/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 assert('zoom.js exists', existsSync(new URL('./zoom.js', import.meta.url)));
@@ -126,7 +126,12 @@ const css = readFileSync(new URL('./styles.css', import.meta.url), 'utf8');
 const html = readFileSync(new URL('./index.html', import.meta.url), 'utf8');
 const brief = readFileSync(new URL('./BRIEF.md', import.meta.url), 'utf8');
 assert('neutral slate palette + one accent', /--bg:\s*#0f1215/.test(css) && /--accent:\s*#d08a45/.test(css) && !/--brass/.test(css));
-assert('PROTOTYPE data labeled in header', /PROTOTYPE data/.test(html));
+assert('header badge reads Example data (not PROTOTYPE data)', /id="header-example-badge"[^>]*>Example data</.test(html) && !/PROTOTYPE data/.test(html));
+assert('header Example data badge hidden by default (scoped)', /<span[^>]*id="header-example-badge"[^>]*\shidden[\s>]/.test(html) && /\.proto-badge\[hidden\]\s*\{\s*display:\s*none/.test(css));
+{
+  const appSrcB = readFileSync(new URL('./app.js', import.meta.url), 'utf8');
+  assert('header badge shown only with example scores', /function syncExampleBadge/.test(appSrcB) && /syncExampleBadge\(\);\s*\n\}/.test(appSrcB) && /!st\.desk && !!st\.country && !!hasProfile/.test(appSrcB));
+}
 assert('news column in HTML follows the place', /id="rail-title"/.test(html) && /id="rail-level"/.test(html) && /id="feed"/.test(html));
 assert('vertical zoom controls CSS', /flex-direction:\s*column/.test(css) && /zoom-controls/.test(css));
 assert('tagline in HTML', html.includes('Economic activity at every scale, from the world to your city.'));
@@ -637,6 +642,56 @@ console.log('\n--- US desks ---');
   assert('SW caches desks.js + prices.json', /desks\.js/.test(sw) && /data\/desks\/prices\.json/.test(sw));
   const wf = read('./.github/workflows/soft-launch.yml');
   assert('Action fetches prices and commits prices.json', /fetch-prices\.mjs/.test(wf) && /data\/desks\/prices\.json/.test(wf));
+}
+
+
+console.log('\n--- Voice: no em dashes or tildes in our own copy ---');
+{
+  // Cassidy's voice rule: no em dash (U+2014) and no tilde in anything we write.
+  // Headlines and blurbs from outside outlets (signals-live.json title/blurb) are exempt.
+  const BAD = /[\u2014~]/;
+  const rd = (p) => readFileSync(new URL(p, import.meta.url), 'utf8');
+  // JS/MJS: drop comments, then regex character classes like [–—] (code patterns, not copy).
+  const codeText = (src) => src
+    .replace(/\/\*[\s\S]*?\*\//g, '')
+    .split('\n').map((l) => l.replace(/(^|\s)\/\/.*$/, '$1').replace(/\[[^\]\n]*\u2014[^\]\n]*\]/g, '')).join('\n');
+  const offenders = (label, text) => text.split('\n').map((l, i) => [i + 1, l]).filter(([, l]) => BAD.test(l)).map(([n, l]) => `${label}:${n} ${l.trim().slice(0, 80)}`);
+  const jsFiles = ['app.js', 'chains.js', 'curated.js', 'data.js', 'desks.js', 'geo.js', 'labels.js', 'leadership.js', 'locate.js', 'nav.js', 'newsrank.js', 'places.js', 'stats.js', 'verify.js', 'zoom.js',
+    'scripts/fetch-signals.mjs', 'scripts/fetch-prices.mjs', 'scripts/fetch-stats.mjs'];
+  const jsBad = jsFiles.flatMap((f) => offenders(f, codeText(rd('./' + f))));
+  assert('JS copy + generated labels: no em dash / tilde', jsBad.length === 0, jsBad.join(' | '));
+  const htmlText = rd('./index.html').replace(/<!--[\s\S]*?-->/g, '');
+  assert('index.html: no em dash / tilde', !BAD.test(htmlText), offenders('index.html', htmlText).join(' | '));
+  assert('manifest: no em dash / tilde', !BAD.test(rd('./manifest.webmanifest')));
+  const cssContent = (rd('./styles.css').replace(/\/\*[\s\S]*?\*\//g, '').match(/content:\s*(['"]).*?\1/g) || []);
+  assert('styles.css content strings: no em dash / tilde', !cssContent.some((c) => BAD.test(c)), cssContent.filter((c) => BAD.test(c)).join(' | '));
+  const strings = (v, path = '', out = []) => {
+    if (typeof v === 'string') out.push([path, v]);
+    else if (Array.isArray(v)) v.forEach((x, i) => strings(x, `${path}[${i}]`, out));
+    else if (v && typeof v === 'object') for (const [k, x] of Object.entries(v)) strings(x, path ? `${path}.${k}` : k, out);
+    return out;
+  };
+  const jsonBad = (file, skip = () => false) => strings(JSON.parse(rd(file))).filter(([p, v]) => !skip(p) && BAD.test(v)).map(([p, v]) => `${file} ${p}: ${v.slice(0, 60)}`);
+  const lead = jsonBad('./data/leadership.json');
+  assert('leadership.json: no em dash / tilde', lead.length === 0, lead.join(' | '));
+  const src = jsonBad('./data/sources.json', (p) => p.startsWith('analysisTitlePatterns'));
+  assert('sources.json notes: no em dash / tilde (regex patterns exempt)', src.length === 0, src.join(' | '));
+  for (const f of ['./data/desks/prices.json', './data/stats/us.json', './data/stats/world.json', './data/signals-curated.json']) {
+    if (!existsSync(new URL(f, import.meta.url))) continue;
+    const bad = jsonBad(f, (p) => /(^|\.)(title|blurb|headline|summary)$/.test(p) && f.includes('signals'));
+    assert(`${f.slice(2)}: no em dash / tilde in our labels`, bad.length === 0, bad.join(' | '));
+  }
+  // Live feed: only fields we generate (dates, tiers, categories); outlet headlines/blurbs are theirs.
+  const live = JSON.parse(rd('./data/signals-live.json'));
+  const ours = (live.items || []).flatMap((i) => [i.publishedLabel, i.kind, i.category, i.verification?.label, i.verification?.status]).filter((x) => typeof x === 'string');
+  assert('signals-live.json: generated labels have no em dash / tilde', !ours.some((x) => BAD.test(x)), ours.filter((x) => BAD.test(x)).slice(0, 5).join(' | '));
+  const { dateStamp } = await import('./scripts/fetch-signals.mjs');
+  assert('feed dateStamp placeholder is n/a, not a dash', dateStamp(null) === 'n/a' && dateStamp('nope') === 'n/a');
+  const { fmtNum, fmtMoney } = await import('./stats.js');
+  const { formatValue } = await import('./desks.js');
+  assert('empty-value placeholders are n/a', fmtNum(NaN) === 'n/a' && fmtMoney(NaN) === 'n/a' && formatValue(null, 'x') === 'n/a');
+  const { STATUS_META } = await import('./verify.js');
+  assert('verification tier labels unchanged', ['Confirmed', 'Multiple sources', 'Unconfirmed', 'Analysis', 'PROTOTYPE'].every((l) => Object.values(STATUS_META).some((m) => m.label === l)));
 }
 
 console.log(`\n${passed} passed, ${failed} failed`);

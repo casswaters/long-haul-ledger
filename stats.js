@@ -130,12 +130,12 @@ export function sparkSvg(points, { w = 96, h = 24 } = {}) {
 }
 
 export function fmtNum(v, decimals = 1) {
-  if (!Number.isFinite(v)) return '—';
+  if (!Number.isFinite(v)) return 'n/a';
   return v.toLocaleString('en-US', { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
 }
 
 export function fmtMoney(v) {
-  if (!Number.isFinite(v)) return '—';
+  if (!Number.isFinite(v)) return 'n/a';
   const a = Math.abs(v);
   if (a >= 1e12) return `$${(v / 1e12).toFixed(2)}T`;
   if (a >= 1e9) return `$${(v / 1e9).toFixed(1)}B`;
