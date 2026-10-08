@@ -1,0 +1,1062 @@
+{
+ "checked": "2026-10-08",
+ "note": "Round 5 hand confirmations from official pages (government sites, state news agencies, parliaments, AU). Start dates only where the cited page states them.",
+ "countries": {
+  "lt": {
+   "hs": {
+    "name": "Gitanas Nausėda",
+    "title": "President",
+    "since": null,
+    "site": "https://www.lrp.lt/en",
+    "source": "https://www.lrp.lt/en"
+   },
+   "hg": {
+    "name": "Mindaugas Sinkevičius",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://lrv.lt/en/",
+    "source": "https://lrv.lt/en/"
+   }
+  },
+  "gr": {
+   "hg": {
+    "name": "Kyriakos Mitsotakis",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.primeminister.gr/en",
+    "source": "https://www.primeminister.gr/en"
+   },
+   "hs": {
+    "name": "Constantine Tassoulas",
+    "title": "President of the Hellenic Republic",
+    "since": {
+     "date": "2025-03-13",
+     "precision": "day"
+    },
+    "site": "https://www.presidency.gr/en/",
+    "source": "https://www.presidency.gr/en/president/"
+   }
+  },
+  "pl": {
+   "hs": {
+    "name": "Karol Nawrocki",
+    "title": "President",
+    "since": null,
+    "site": "https://www.prezydent.pl/en",
+    "source": "https://www.prezydent.pl/en"
+   }
+  },
+  "ro": {
+   "hs": {
+    "name": "Nicușor Dan",
+    "title": "President",
+    "since": null,
+    "site": "https://www.presidency.ro/en",
+    "source": "https://www.presidency.ro/en"
+   },
+   "hg": {
+    "name": "Ilie Bolojan",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://gov.ro/en",
+    "source": "https://gov.ro/en/news"
+   }
+  },
+  "sk": {
+   "hg": {
+    "name": "Robert Fico",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.vlada.gov.sk/",
+    "source": "https://www.vlada.gov.sk/"
+   }
+  },
+  "no": {
+   "hg": {
+    "name": "Jonas Gahr Støre",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.regjeringen.no/en/dep/smk/id875/",
+    "source": "https://www.regjeringen.no/en/dep/smk/id875/"
+   }
+  },
+  "mk": {
+   "hg": {
+    "name": "Hristijan Mickoski",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://vlada.mk/?ln=en-gb",
+    "source": "https://vlada.mk/?ln=en-gb"
+   }
+  },
+  "bf": {
+   "hg": {
+    "name": "Rimtalba Jean Emmanuel Ouédraogo",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.gouvernement.gov.bf/",
+    "source": "https://www.gouvernement.gov.bf/"
+   }
+  },
+  "so": {
+   "hg": {
+    "name": "Hamza Abdi Barre",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://opm.gov.so/",
+    "source": "https://opm.gov.so/"
+   }
+  },
+  "py": {
+   "hs": {
+    "name": "Santiago Peña",
+    "title": "President",
+    "since": null,
+    "site": "https://www.presidencia.gov.py/",
+    "source": "https://www.presidencia.gov.py/"
+   },
+   "hg": {
+    "name": "Santiago Peña",
+    "title": "President",
+    "since": null,
+    "site": "https://www.presidencia.gov.py/",
+    "source": "https://www.presidencia.gov.py/",
+    "note": "Presidential system: the constitution makes the President head of government (no separate prime minister)."
+   }
+  },
+  "au": {
+   "hg": {
+    "name": "Anthony Albanese",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.pm.gov.au/",
+    "source": "https://www.pm.gov.au/media/doorstop-nadi-fiji"
+   },
+   "hs": {
+    "name": "Charles III",
+    "title": "King of Australia",
+    "since": null,
+    "site": "https://www.pmc.gov.au/",
+    "source": "https://www.pmc.gov.au/government/head-of-state"
+   }
+  },
+  "mt": {
+   "hg": {
+    "name": "Robert Abela",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://primeminister.gov.mt/",
+    "source": "https://primeminister.gov.mt/"
+   }
+  },
+  "pg": {
+   "hg": {
+    "name": "James Marape",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.pmnec.gov.pg/",
+    "source": "https://www.pmnec.gov.pg/statement-to-the-national-parliament-by-prime-minister-hon-james-marape-gcl-mp/"
+   },
+   "hs": {
+    "name": "Charles III",
+    "title": "King of Papua New Guinea",
+    "since": null,
+    "site": "https://www.pmnec.gov.pg/",
+    "source": "https://www.pmnec.gov.pg/prime-minister-marape-extends-best-wishes-to-his-majesty-king-charles-iii-on-the-occasion-of-his-official-birthday/"
+   }
+  },
+  "vu": {
+   "hg": {
+    "name": "Jotham Napat",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://pmo.gov.vu/en/",
+    "source": "https://pmo.gov.vu/en/"
+   },
+   "hs": {
+    "name": "Nikenike Vurobaravu",
+    "title": "President",
+    "since": null,
+    "site": "https://www.gov.vu/",
+    "source": "https://mjcs.gov.vu/index.php/news/315-experienced-prosecutor-simcha-blessing-boe-appointed-to-lead-vanuatu-s-justice-system"
+   }
+  },
+  "lu": {
+   "hs": {
+    "name": "Guillaume",
+    "title": "Grand Duke",
+    "since": {
+     "date": "2025-10-03",
+     "precision": "day"
+    },
+    "site": "https://monarchie.lu/",
+    "source": "https://monarchie.lu/fr/la-famille-grand-ducale/le-grand-duc"
+   }
+  },
+  "se": {
+   "hs": {
+    "name": "Carl XVI Gustaf",
+    "title": "King",
+    "since": {
+     "date": "1973-09-15",
+     "precision": "day"
+    },
+    "site": "https://www.kungahuset.se/",
+    "source": "https://www.kungahuset.se/kungl.-huset/h.m.-konungen"
+   }
+  },
+  "be": {
+   "hs": {
+    "name": "Philippe",
+    "title": "King of the Belgians",
+    "since": {
+     "date": "2013-07",
+     "precision": "month"
+    },
+    "site": "https://www.monarchie.be/en",
+    "source": "https://www.monarchie.be/en/royal-family/the-king"
+   }
+  },
+  "th": {
+   "hg": {
+    "name": "Anutin Charnvirakul",
+    "title": "Prime Minister",
+    "since": {
+     "date": "2026-03-19",
+     "precision": "day"
+    },
+    "site": "https://www.thaigov.go.th/",
+    "source": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/487230"
+   },
+   "hs": {
+    "name": "Maha Vajiralongkorn Phra Vajiraklaochaoyuhua",
+    "title": "King",
+    "since": null,
+    "site": "https://www.thaigov.go.th/",
+    "source": "https://thailand.prd.go.th/en/content/category/detail/id/44/iid/461139"
+   }
+  },
+  "my": {
+   "hs": {
+    "name": "Sultan Ibrahim",
+    "title": "Yang di-Pertuan Agong",
+    "since": null,
+    "site": "https://www.malaysia.gov.my/",
+    "source": "https://www.malaysia.gov.my/en/government/spb-yang-di-pertuan-agong/his-majesty-seri-paduka-baginda-the-yang-di-pertuan-agong-sultan-ibrahim"
+   }
+  },
+  "bt": {
+   "hg": {
+    "name": "Tshering Tobgay",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.pmo.gov.bt/",
+    "source": "https://nab.parliament.gov.bt/news/oq36hqposhq5bhiqmxccuhn0"
+   },
+   "hs": {
+    "name": "Jigme Khesar Namgyel Wangchuck",
+    "title": "King (Druk Gyalpo)",
+    "since": null,
+    "site": "https://www.gov.bt/",
+    "source": "https://samtse.gov.bt/2026/02/elementor-12980/"
+   }
+  },
+  "ls": {
+   "hs": {
+    "name": "Letsie III",
+    "title": "King",
+    "since": null,
+    "site": "https://www.gov.ls/",
+    "source": "https://www.gov.ls/development/his-majesty-king-letsie-iii-holds-bilateral-talks-with-kenyan-president-william-ruto/"
+   }
+  },
+  "om": {
+   "hs": {
+    "name": "Haitham bin Tarik",
+    "title": "Sultan and Prime Minister",
+    "since": null,
+    "site": "https://www.fm.gov.om/",
+    "source": "https://www.fm.gov.om/en/about-oman/government/council-of-ministers/"
+   },
+   "hg": {
+    "name": "Haitham bin Tarik",
+    "title": "Sultan and Prime Minister",
+    "since": null,
+    "site": "https://www.fm.gov.om/",
+    "source": "https://www.fm.gov.om/en/about-oman/government/council-of-ministers/"
+   }
+  },
+  "uy": {
+   "hs": {
+    "name": "Yamandú Orsi",
+    "title": "President",
+    "since": null,
+    "site": "https://www.gub.uy/presidencia/",
+    "source": "https://www.gub.uy/presidencia/comunicacion/publicaciones/presidente-orsi-recorrio-instalaciones-del-latu"
+   },
+   "hg": {
+    "name": "Yamandú Orsi",
+    "title": "President",
+    "since": null,
+    "site": "https://www.gub.uy/presidencia/",
+    "source": "https://www.gub.uy/presidencia/comunicacion/publicaciones/presidente-orsi-recorrio-instalaciones-del-latu",
+    "note": "Presidential system: the constitution makes the President head of government (no separate prime minister)."
+   }
+  },
+  "ss": {
+   "hs": {
+    "name": "Salva Kiir Mayardit",
+    "title": "President",
+    "since": null,
+    "site": "https://op.gov.ss/",
+    "source": "https://op.gov.ss/the-president"
+   },
+   "hg": {
+    "name": "Salva Kiir Mayardit",
+    "title": "President",
+    "since": null,
+    "site": "https://op.gov.ss/",
+    "source": "https://op.gov.ss/the-president",
+    "note": "Presidential system: the constitution makes the President head of government (no separate prime minister)."
+   }
+  },
+  "hn": {
+   "hs": {
+    "name": "Nasry Juan Asfura Zablah",
+    "title": "President",
+    "since": null,
+    "site": "https://www.presidencia.gob.hn/",
+    "source": "https://www.sedena.gob.hn/noticias/toma-de-posesion-presidencial-2026"
+   },
+   "hg": {
+    "name": "Nasry Juan Asfura Zablah",
+    "title": "President",
+    "since": null,
+    "site": "https://www.presidencia.gob.hn/",
+    "source": "https://www.sedena.gob.hn/noticias/toma-de-posesion-presidencial-2026",
+    "note": "Presidential system: the constitution makes the President head of government (no separate prime minister)."
+   }
+  },
+  "km": {
+   "hs": {
+    "name": "Azali Assoumani",
+    "title": "President",
+    "since": null,
+    "site": "https://www.beit-salam.km/",
+    "source": "https://www.beit-salam.km/"
+   },
+   "hg": {
+    "name": "Azali Assoumani",
+    "title": "President",
+    "since": null,
+    "site": "https://www.beit-salam.km/",
+    "source": "https://www.beit-salam.km/",
+    "note": "Presidential system: the constitution makes the President head of government (no separate prime minister)."
+   }
+  },
+  "sy": {
+   "hs": {
+    "name": "Ahmad al-Sharaa",
+    "title": "President",
+    "since": null,
+    "site": "https://sana.sy/en/presidency/",
+    "source": "https://sana.sy/en/presidency/2348827/"
+   },
+   "hg": {
+    "name": "Ahmad al-Sharaa",
+    "title": "President",
+    "since": null,
+    "site": "https://sana.sy/en/presidency/",
+    "source": "https://sana.sy/en/presidency/2348827/",
+    "note": "The transitional constitutional declaration places executive authority with the President (no prime minister)."
+   }
+  },
+  "mm": {
+   "hs": {
+    "name": "Min Aung Hlaing",
+    "title": "President",
+    "since": null,
+    "site": "https://www.myanmar.gov.mm/president-office",
+    "source": "http://www.moi.gov.mm/moi:eng/news/22338"
+   },
+   "hg": {
+    "name": "Min Aung Hlaing",
+    "title": "President",
+    "since": null,
+    "site": "https://www.myanmar.gov.mm/president-office",
+    "source": "http://www.moi.gov.mm/moi:eng/news/22338",
+    "note": "The President heads the Union Government under the 2008 constitution (no prime minister)."
+   }
+  },
+  "er": {
+   "hs": {
+    "name": "Isaias Afwerki",
+    "title": "President",
+    "since": null,
+    "site": "https://shabait.com/",
+    "source": "https://shabait.com/2026/10/06/president-isaias-afwerki-returns-home-concluding-working-visit-to-egypt/"
+   },
+   "hg": {
+    "name": "Isaias Afwerki",
+    "title": "President",
+    "since": null,
+    "site": "https://shabait.com/",
+    "source": "https://shabait.com/2026/10/06/president-isaias-afwerki-returns-home-concluding-working-visit-to-egypt/",
+    "note": "Presidential system: the constitution makes the President head of government (no separate prime minister)."
+   }
+  },
+  "sd": {
+   "hs": {
+    "name": "Abdel-Fattah Al-Burhan",
+    "title": "President of the Transitional Sovereignty Council",
+    "since": null,
+    "site": "https://suna.sd/en",
+    "source": "https://suna.sd/posts/al-burhan-affirms-continued-military-decisiveness-until-full-liberation-of-national-territory"
+   },
+   "hg": {
+    "name": "Kamil Idris",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://suna.sd/en",
+    "source": "https://suna.sd/posts/prime-minister-reviews-performance-of-foreign-ministry-and-diplomatic-missions-abroad"
+   }
+  },
+  "sa": {
+   "hg": {
+    "name": "Mohammed bin Salman bin Abdulaziz Al Saud",
+    "title": "Crown Prince and Prime Minister",
+    "since": null,
+    "site": "https://www.spa.gov.sa/",
+    "source": "https://www.spa.gov.sa/en/N2694697"
+   }
+  },
+  "ye": {
+   "hg": {
+    "name": "Shaea Al-Zandani",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.presidentalalimi.net/en/",
+    "source": "https://www.presidentalalimi.net/en/news1910.html"
+   }
+  },
+  "kw": {
+   "hg": {
+    "name": "Ahmad Abdullah Al-Ahmad Al-Sabah",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.da.gov.kw/en/",
+    "source": "https://www.da.gov.kw/en/news/1925-10_05_2026/"
+   }
+  },
+  "ir": {
+   "hs": {
+    "name": "Mojtaba Hosseini Khamenei",
+    "title": "Leader of the Islamic Revolution",
+    "since": {
+     "date": "2026-03-08",
+     "precision": "day"
+    },
+    "site": "https://www.leader.ir/en",
+    "source": "https://en.khamenei.ir/news/149368"
+   }
+  },
+  "iq": {
+   "hg": {
+    "name": "Ali Faleh al-Zaidi",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://pmo.iq/",
+    "source": "https://pmo.iq/"
+   }
+  },
+  "la": {
+   "hs": {
+    "name": "Thongloun Sisoulith",
+    "title": "President",
+    "since": null,
+    "site": "https://kpl.gov.la/EN/",
+    "source": "https://kpl.gov.la/EN/detail.aspx?id=97501"
+   },
+   "hg": {
+    "name": "Saleumxay Kommasith",
+    "title": "Prime Minister",
+    "since": {
+     "date": "2026-10-05",
+     "precision": "day"
+    },
+    "site": "https://kpl.gov.la/EN/",
+    "source": "https://kpl.gov.la/EN/detail.aspx?id=107870"
+   }
+  },
+  "ma": {
+   "hg": {
+    "name": "Fatima Ezzahra El Mansouri",
+    "title": "Head of Government",
+    "since": {
+     "date": "2026-09-29",
+     "precision": "day"
+    },
+    "site": "https://www.maroc.ma/",
+    "source": "https://www.maroc.ma/index%2Ephp/en/news/hm-king-appoints-fatima-ezzahra-el-mansouri-head-government-entrusts-her-forming-new-govt"
+   }
+  },
+  "mg": {
+   "hg": {
+    "name": "Mamitiana Jeannot Ruffin Rajaonarison",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://app.primature.gov.mg/",
+    "source": "https://app.primature.gov.mg/premier-ministre/biographie"
+   }
+  },
+  "mr": {
+   "hs": {
+    "name": "Mohamed Ould Cheikh El Ghazouani",
+    "title": "President",
+    "since": null,
+    "site": "https://ami.mr/fr/",
+    "source": "https://ami.mr/fr/archives/303917"
+   },
+   "hg": {
+    "name": "El Moctar Ould Djay",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://ami.mr/fr/",
+    "source": "https://ami.mr/fr/archives/303917"
+   }
+  },
+  "ne": {
+   "hg": {
+    "name": "Ali Mahaman Lamine Zeine",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.gouv.ne/",
+    "source": "https://anp.ne/niamey-le-premier-ministre-recoit-le-regional-en-charge-du-developpement-durable-pour-lafrique-de-louest-et-du-centre-a-la-bm/"
+   }
+  },
+  "qa": {
+   "hg": {
+    "name": "Mohammed bin Abdulrahman bin Jassim Al-Thani",
+    "title": "Prime Minister and Minister of Foreign Affairs",
+    "since": null,
+    "site": "https://mofa.gov.qa/en",
+    "source": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/10/02/prime-minister-and-minister-of-foreign-affairs-holds-talks-with-japan-pm"
+   }
+  },
+  "rs": {
+   "hg": {
+    "name": "Đuro Macut",
+    "title": "Prime Minister (caretaker)",
+    "since": null,
+    "site": "https://www.srbija.gov.rs/",
+    "source": "https://www.srbija.gov.rs/vest/en/289301/continuing-policy-focused-on-addressing-citizens-problems.php"
+   }
+  },
+  "tg": {
+   "hs": {
+    "name": "Jean-Lucien Kwassi Lanyo Savi de Tové",
+    "title": "President of the Republic",
+    "since": {
+     "date": "2025-05",
+     "precision": "month"
+    },
+    "site": "https://presidence.gouv.tg/",
+    "source": "https://presidence.gouv.tg/presidents/jean-lucien-kwassi-lanyo-savi-de-tove/"
+   },
+   "hg": {
+    "name": "Faure Essozimna Gnassingbé",
+    "title": "President of the Council",
+    "since": null,
+    "site": "https://www.republiquetogolaise.tg/",
+    "source": "https://www.republiquetogolaise.tg/gestion-publique/2804-11839-27-avril-2026-adresse-du-president-du-conseil-a-la-nation"
+   }
+  },
+  "uz": {
+   "hg": {
+    "name": "Abdulla Aripov",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://gov.uz/en",
+    "source": "https://gov.uz/en/lists/guidance"
+   }
+  },
+  "tj": {
+   "hg": {
+    "name": "Qohir Rasulzoda",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://khovar.tj/",
+    "source": "https://khovar.tj/rus/2026/09/prodolzhenie-ofitsialnogo-vizita-premer-ministra-tadzhikistana-kohira-rasulzoda-v-azerbajdzhan/"
+   }
+  },
+  "cu": {
+   "hg": {
+    "name": "Manuel Marrero Cruz",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.presidencia.gob.cu/",
+    "source": "https://www.presidencia.gob.cu/es/gobierno/"
+   }
+  },
+  "dj": {
+   "hg": {
+    "name": "Abdoulkader Kamil Mohamed",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://presidence.dj/",
+    "source": "https://presidence.dj/composition"
+   }
+  },
+  "dz": {
+   "hg": {
+    "name": "Sifi Ghrieb",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.premier-ministre.gov.dz/",
+    "source": "https://consulat-nantes-algerie.fr/8456/le-president-de-la-republique-nomme-les-membres-du-gouvernement-conduit-par-sifi-ghrieb/"
+   }
+  },
+  "et": {
+   "hs": {
+    "name": "Taye Atske-Selassie",
+    "title": "President",
+    "since": null,
+    "site": "https://www.ena.et/",
+    "source": "https://www.ena.et/web/eng/w/eng_9685612"
+   }
+  },
+  "fj": {
+   "hs": {
+    "name": "Ratu Naiqama Lalabalavu",
+    "title": "President",
+    "since": null,
+    "site": "https://www.fiji.gov.fj/",
+    "source": "https://www.fiji.gov.fj/fiji-president-joins-world-leaders-at-unga81-opening/"
+   }
+  },
+  "gn": {
+   "hs": {
+    "name": "Mamadi Doumbouya",
+    "title": "President of the Republic",
+    "since": null,
+    "site": "https://presidence.gov.gn/",
+    "source": "https://presidence.gov.gn/"
+   },
+   "hg": {
+    "name": "Amadou Oury Bah",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://presidence.gov.gn/",
+    "source": "https://presidence.gov.gn/composition/"
+   }
+  },
+  "al": {
+   "hs": {
+    "name": "Bajram Begaj",
+    "title": "President",
+    "since": null,
+    "site": "https://president.al/",
+    "source": "https://en.ata.gov.al/2026/10/05/president-begaj-urges-students-to-pursue-education-as-academic-year-begins/"
+   }
+  },
+  "by": {
+   "hg": {
+    "name": "Aleksandr Turchin",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.government.by/",
+    "source": "https://eng.belta.by/economics/view/belarus-pm-sees-advanced-industrial-cooperation-as-way-to-secure-technological-leadership-186850-2026/"
+   }
+  },
+  "cf": {
+   "hs": {
+    "name": "Faustin Archange Touadéra",
+    "title": "President of the Republic",
+    "since": null,
+    "site": "https://primature.cf/",
+    "source": "https://primature.cf/2026/07/02/assemblee-nationale-le-premier-ministre-felix-moloua-presente-son-discours-programme-et-obtient-la-confiance-des-deputes/"
+   },
+   "hg": {
+    "name": "Félix Moloua",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://primature.cf/",
+    "source": "https://primature.cf/2026/07/02/assemblee-nationale-le-premier-ministre-felix-moloua-presente-son-discours-programme-et-obtient-la-confiance-des-deputes/"
+   }
+  },
+  "td": {
+   "hg": {
+    "name": "Allah-Maye Halina",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://primature.gouv.td/",
+    "source": "https://primature.gouv.td/biographie-du-pm/"
+   }
+  },
+  "ml": {
+   "hg": {
+    "name": "Abdoulaye Maïga",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://primature.ml/",
+    "source": "https://primature.ml/ceremonie-douverture-ce-lundi-05-octobre-2026-de-la-session-ordinaire-doctobre-2026-du-conseil-national-de-transition-cnt/"
+   }
+  },
+  "ly": {
+   "hs": {
+    "name": "Mohamed Al-Menfi",
+    "title": "Head of the Presidential Council",
+    "since": null,
+    "site": "https://lana.gov.ly/",
+    "source": "https://lana.gov.ly/post.php?id=366398&lang=en"
+   },
+   "hg": {
+    "name": "Abdulhamid Dbeibah",
+    "title": "Head of the Government of National Unity",
+    "since": null,
+    "site": "https://lana.gov.ly/",
+    "source": "https://lana.gov.ly/post.php?id=366398&lang=en"
+   }
+  },
+  "ps": {
+   "hs": {
+    "name": "Mahmoud Abbas",
+    "title": "President",
+    "since": null,
+    "site": "https://english.wafa.ps/",
+    "source": "https://english.wafa.ps/Pages/Details/175112"
+   },
+   "hg": {
+    "name": "Mohammad Mustafa",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://english.wafa.ps/",
+    "source": "https://english.wafa.ps/Pages/Details/175415"
+   }
+  },
+  "nc": {
+   "hg": {
+    "name": "Milakulo Tukumuli",
+    "title": "President of the Government",
+    "since": {
+     "date": "2026-07-31",
+     "precision": "day"
+    },
+    "site": "https://gouv.nc/",
+    "source": "https://gouv.nc/actualites/31-07-2026/election-des-membres-du-president-et-du-vice-president-du-19e-gouvernement"
+   },
+   "hs": {
+    "name": "Emmanuel Macron",
+    "title": "President of the French Republic",
+    "since": null,
+    "site": "https://www.elysee.fr/",
+    "source": "https://www.elysee.fr/",
+    "note": "New Caledonia is a French territory; the President of France is head of state."
+   }
+  },
+  "tf": {
+   "hs": {
+    "name": "Emmanuel Macron",
+    "title": "President of the French Republic",
+    "since": null,
+    "site": "https://www.elysee.fr/",
+    "source": "https://www.elysee.fr/",
+    "note": "The French Southern and Antarctic Lands are a French territory; the President of France is head of state."
+   },
+   "hg": {
+    "name": "Mikael Quimbert",
+    "title": "Prefect, Senior Administrator",
+    "since": null,
+    "site": "https://taaf.fr/",
+    "source": "https://taaf.fr/collectivites/le-prefet-administrateur-superieur/",
+    "note": "No local government: the prefect, senior administrator, heads the territory on behalf of the French State."
+   }
+  },
+  "gl": {
+   "hs": {
+    "name": "Frederik X",
+    "title": "King",
+    "since": null,
+    "site": "https://www.kongehuset.dk/en",
+    "source": "https://www.kongehuset.dk/en/the-royal-family/hm-the-king",
+    "note": "Greenland is part of the Kingdom of Denmark; the Danish monarch is head of state."
+   }
+  },
+  "pr": {
+   "hs": {
+    "name": "Donald J. Trump",
+    "title": "President of the United States",
+    "since": null,
+    "site": "https://www.whitehouse.gov/",
+    "source": "https://www.whitehouse.gov/administration/donald-j-trump/",
+    "note": "Puerto Rico is a U.S. territory; the U.S. President is head of state."
+   }
+  },
+  "fk": {
+   "hs": {
+    "name": "Charles III",
+    "title": "King",
+    "since": null,
+    "site": "https://www.royal.uk/",
+    "source": "https://www.royal.uk/the-king-0",
+    "note": "The Falkland Islands are a British Overseas Territory; the British monarch is head of state."
+   },
+   "hg": {
+    "name": "Colin Martin-Reynolds",
+    "title": "Governor",
+    "since": {
+     "date": "2025-07",
+     "precision": "month"
+    },
+    "site": "https://www.falklands.gov.fk/",
+    "source": "https://www.gov.uk/government/people/colin-reynolds",
+    "note": "Executive authority is exercised on the King's behalf by the Governor."
+   }
+  },
+  "ba": {
+   "hs": {
+    "name": "Denis Bećirović",
+    "title": "Chairman of the Presidency",
+    "since": {
+     "date": "2026-03",
+     "precision": "month"
+    },
+    "site": "https://www.predsjednistvobih.ba/",
+    "source": "https://www.predsjednistvobih.ba/hron/default.aspx?id=10074&langTag=bs-BA",
+    "note": "Three-member collective Presidency (Denis Bećirović, Željka Cvijanović, Željko Komšić); the chair rotates every eight months."
+   }
+  },
+  "_ncyprus": {
+   "hs": {
+    "name": "Tufan Erhürman",
+    "title": "President",
+    "since": null,
+    "site": "https://cb.gov.ct.tr/",
+    "source": "https://cb.gov.ct.tr/tr/anasayfa/pgrid/2859/pageid/1"
+   },
+   "hg": {
+    "name": "Ünal Üstel",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://basbakanlik.gov.ct.tr/",
+    "source": "http://basbakanlik.gov.ct.tr/BA%C5%9EBAKANLIK/BA%C5%9EBAKAN"
+   }
+  },
+  "_somaliland": {
+   "hs": {
+    "name": "Abdirahman Mohamed Abdullahi (Irro)",
+    "title": "President",
+    "since": {
+     "date": "2024-12",
+     "precision": "month"
+    },
+    "site": "https://slpresidency.com/",
+    "source": "https://slpresidency.com/president/"
+   },
+   "hg": {
+    "name": "Abdirahman Mohamed Abdullahi (Irro)",
+    "title": "President",
+    "since": {
+     "date": "2024-12",
+     "precision": "month"
+    },
+    "site": "https://slpresidency.com/",
+    "source": "https://slpresidency.com/president/",
+    "note": "Presidential system: the constitution makes the President head of government (no separate prime minister)."
+   }
+  },
+  "ph": {
+   "hs": {
+    "name": "Ferdinand R. Marcos Jr.",
+    "title": "President",
+    "since": null,
+    "site": "https://pco.gov.ph/",
+    "source": "https://ptvnews.ph/pbbm-kicks-off-multiple-engagements-in-sg-working-visit/"
+   },
+   "hg": {
+    "name": "Ferdinand R. Marcos Jr.",
+    "title": "President",
+    "since": null,
+    "site": "https://pco.gov.ph/",
+    "source": "https://ptvnews.ph/pbbm-kicks-off-multiple-engagements-in-sg-working-visit/",
+    "note": "Presidential system: the constitution makes the President head of government (no separate prime minister)."
+   }
+  },
+  "gt": {
+   "hs": {
+    "name": "Bernardo Arévalo",
+    "title": "President",
+    "since": null,
+    "site": "https://guatemala.gob.gt/",
+    "source": "https://bernardoarevalo.presidencia.gob.gt/noticias/"
+   },
+   "hg": {
+    "name": "Bernardo Arévalo",
+    "title": "President",
+    "since": null,
+    "site": "https://guatemala.gob.gt/",
+    "source": "https://bernardoarevalo.presidencia.gob.gt/noticias/",
+    "note": "Presidential system: the constitution makes the President head of government (no separate prime minister)."
+   }
+  },
+  "zm": {
+   "hs": {
+    "name": "Hakainde Hichilema",
+    "title": "President",
+    "since": null,
+    "site": "https://www.sh.gov.zm/",
+    "source": "https://www.zanis.gov.zm/?p=4506"
+   },
+   "hg": {
+    "name": "Hakainde Hichilema",
+    "title": "President",
+    "since": null,
+    "site": "https://www.sh.gov.zm/",
+    "source": "https://www.zanis.gov.zm/?p=4506",
+    "note": "Presidential system: the constitution makes the President head of government (no separate prime minister)."
+   }
+  },
+  "na": {
+   "hs": {
+    "name": "Netumbo Nandi-Ndaitwah",
+    "title": "President",
+    "since": null,
+    "site": "https://op.gov.na/",
+    "source": "https://www.nampa.org/text/23034541"
+   },
+   "hg": {
+    "name": "Netumbo Nandi-Ndaitwah",
+    "title": "President",
+    "since": null,
+    "site": "https://op.gov.na/",
+    "source": "https://www.nampa.org/text/23034541",
+    "note": "The constitution makes the President Head of State and of the Government; the Prime Minister leads government business."
+   }
+  },
+  "ua": {
+   "hs": {
+    "name": "Volodymyr Zelensky",
+    "title": "President",
+    "since": null,
+    "site": "https://www.president.gov.ua/en",
+    "source": "https://www.ukrinform.net/rubric-ato/4172054-zelensky-calls-on-world-to-increase-pressure-on-russia.html"
+   }
+  },
+  "mn": {
+   "hs": {
+    "name": "Khurelsukh Ukhnaa",
+    "title": "President",
+    "since": null,
+    "site": "https://president.mn/en/",
+    "source": "https://montsame.mn/en/read/411483"
+   }
+  },
+  "kg": {
+   "hs": {
+    "name": "Sadyr Zhaparov",
+    "title": "President",
+    "since": null,
+    "site": "https://president.kg/",
+    "source": "https://en.kabar.kg/news/sadyr-zhaparov-takes-part-in-welcoming-ceremony-at-c5ar-summit/"
+   }
+  },
+  "lk": {
+   "hg": {
+    "name": "Harini Amarasuriya",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.pmoffice.gov.lk/",
+    "source": "https://www.pmoffice.gov.lk/"
+   }
+  },
+  "ge": {
+   "hs": {
+    "name": "Mikheil Kavelashvili",
+    "title": "President",
+    "since": null,
+    "site": "https://www.president.gov.ge/",
+    "source": "https://parliament.ge/en/media/news/sakartvelos-parlamentis-organizebit-saertashoriso-konferentsia-evropuli-tsivilizatsiis-safudzvlebi-da-kristianobis-1700-tseli-sakartveloshi-gaikhsna"
+   },
+   "hg": {
+    "name": "Irakli Kobakhidze",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.gov.ge/",
+    "source": "https://parliament.ge/en/media/news/sakartvelos-parlamentis-organizebit-saertashoriso-konferentsia-evropuli-tsivilizatsiis-safudzvlebi-da-kristianobis-1700-tseli-sakartveloshi-gaikhsna"
+   }
+  },
+  "jm": {
+   "hs": {
+    "name": "Charles III",
+    "title": "King (represented by the Governor-General)",
+    "since": null,
+    "site": "https://kingshouse.gov.jm/",
+    "source": "https://jis.gov.jm/goj-leadership/patrick-allen/",
+    "note": "Governor-General: Sir Patrick Allen."
+   }
+  },
+  "bz": {
+   "hs": {
+    "name": "Charles III",
+    "title": "King (represented by the Governor-General)",
+    "since": null,
+    "site": "https://www.pressoffice.gov.bz/",
+    "source": "https://www.pressoffice.gov.bz/presentation-of-credentials-20/",
+    "note": "Governor-General: Dame Froyla Tzalam."
+   }
+  },
+  "sb": {
+   "hg": {
+    "name": "Matthew Wale",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://solomons.gov.sb/",
+    "source": "https://parliament.gov.sb/media/pressrelease/?post=227"
+   }
+  },
+  "tt": {
+   "hg": {
+    "name": "Kamla Persad-Bissessar",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.opm.gov.tt/",
+    "source": "https://foreign.gov.tt/about/prime-minister-trinidad-and-tobago/"
+   }
+  },
+  "tl": {
+   "hs": {
+    "name": "José Ramos-Horta",
+    "title": "President",
+    "since": null,
+    "site": "https://presidenciarepublica.tl/",
+    "source": "https://pt.tatoli.tl/2026/10/07/ramos-horta-defende-justica-climatica-e-apresenta-cinco-prioridades-para-cop31/"
+   }
+  },
+  "kp": {
+   "hs": {
+    "name": "Kim Jong Un",
+    "title": "President of the State Affairs",
+    "since": null,
+    "site": "http://www.kcna.kp/en",
+    "source": "http://kcna.kp/en/article/detail/154f0bc940e9a930d9f21e9dff079140"
+   },
+   "hg": {
+    "name": "Pak Thae Song",
+    "title": "Premier of the Cabinet",
+    "since": null,
+    "site": "http://www.kcna.kp/en",
+    "source": "http://www.kcna.kp/en/article/detail/ba996a75229d3e26e36fb4c3f6639c00"
+   }
+  },
+  "gw": {
+   "hg": {
+    "name": "Ilídio Vieira Té",
+    "title": "Transitional Prime Minister",
+    "since": null,
+    "site": "https://www.au.int/",
+    "source": "https://www.au.int/en/pressreleases/20260924/auc-chairperson-met-transitional-prime-minister-republic-guinea-bissau",
+    "note": "Confirmed via the African Union Commission; the presidency's own site has not been updated since the November 2025 takeover."
+   }
+  }
+ }
+}

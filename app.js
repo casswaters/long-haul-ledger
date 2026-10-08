@@ -1528,6 +1528,7 @@ function renderLeadRole(role) {
             ${sinceLine}
             ${termLine}
             ${respLine}
+            ${role.seatNote ? `<div class="lead-seatnote"><span class="lead-k">Note</span> ${escapeHtml(role.seatNote)}</div>` : ''}
           </div>
         </article>`;
 }

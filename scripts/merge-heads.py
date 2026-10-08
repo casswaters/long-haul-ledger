@@ -34,13 +34,18 @@ def since(x):
     if s['precision'] == 'day':
         y, m, d = s['date'].split('-'); M = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][int(m)-1]
         return {'text': f'{M} {int(d)}, {y}', 'date': s['date'], 'confirmedOn': x['source']}
-    return {'text': s['date'], 'date': s['date'], 'confirmedOn': x['source']}
+    M = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+    if s['precision'] == 'month':
+        y, m = s['date'].split('-')[:2]
+        return {'text': f'{M[int(m)-1]} {y}', 'date': s['date'], 'confirmedOn': x['source']}
+    return {'text': s['date'][:4], 'date': s['date'], 'confirmedOn': x['source']}
 def role(x, kind):
     r = {'title': title_of(x), 'kind': kind, 'name': display_name(x), 'contact': {'site': x['site']},
          'source': {'url': x['source'], 'name': f"{host(x['source'])} (official site)"}, 'asOf': D, 'checked': D, 'verified': True}
     s = since(x)
     if s: r['since'] = s
     else: r['sinceNote'] = 'Not yet confirmed'
+    if x.get('note'): r['seatNote'] = x['note']
     return r
 def nc(kind, planned):
     r = {'title': kind, 'kind': kind, 'name': '', 'notCovered': True, 'contact': {}, 'checked': D}
@@ -79,10 +84,12 @@ for cid, e in src['countries'].items():
                     nr = role(x, kind); r['source'] = nr['source']; r['asOf'] = D; r['checked'] = D; r['verified'] = True
                 s = since(x)
                 if s and not r.get('since'): r['since'] = s
+                if x.get('note') and not r.get('seatNote'): r['seatNote'] = x['note']
                 cnt['kept'] += 1
                 return True
         return False
     if same:
+        if hg.get('note') and not hs.get('note'): hs = dict(hs, note=hg['note'])
         if not place(hs, 'Head of state and government'): new.append(role(hs, 'Head of state and government'))
     else:
         for x, kind in ((hs, 'Head of state'), (hg, 'Head of government')):
