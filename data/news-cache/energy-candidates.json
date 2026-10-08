@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T12:46:55.555Z",
+ "generatedAt": "2026-10-08T12:49:31.374Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -121,12 +121,22 @@
        "outlets": [
         {
          "name": "Utility Dive",
-         "url": "https://www.utilitydive.com/news/constellation-google-deal-will-bring-890-mw-of-new-nuclear-to-pjm/832223/",
+         "url": "https://www.utilitydive.com/news/doe-intends-to-loan-vistra-42b-for-nuclear-fleet-improvements/832236/",
+         "primary": false
+        },
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/doe-offers-vistra-loan-for-reactor-upgrades-and-uprates",
          "primary": false
         },
         {
          "name": "ANS Nuclear Newswire",
          "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/vistra_gets_conditional_42b_doe_loan_for_pjm_nuclear_fleet-06-oct-2026-184787-article/?rss=true",
          "primary": false
         },
         {
@@ -187,41 +197,6 @@
        "stages": [],
        "via": null,
        "blurb": "For organizations like the Savannah River Mission Completion (SRMC), a liquid waste contractor for the U.S. Department of Energy (DOE) Office of Environmental Management at the Savannah River Site (SRS) in Aiken, South Carolina, the summer season poses significant challenges for "
-      },
-      {
-       "title": "Vistra gets $4.2B DOE loan for planned uprates in Ohio, Pennsylvania",
-       "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-06T15:35:47.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Utility Dive",
-         "url": "https://www.utilitydive.com/news/doe-intends-to-loan-vistra-42b-for-nuclear-fleet-improvements/832236/",
-         "primary": false
-        },
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/doe-offers-vistra-loan-for-reactor-upgrades-and-uprates",
-         "primary": false
-        },
-        {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
-         "primary": false
-        },
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/vistra_gets_conditional_42b_doe_loan_for_pjm_nuclear_fleet-06-oct-2026-184787-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Vistra is set to receive an approximately $4.2 billion loan from the Department of Energy to upgrade and uprate its fleet of nuclear reactors in Pennsylvania and Ohio, the DOE announced Monday. This work will add 433 MW of new nuclear capacity to help meet electricity demand in P"
       },
       {
        "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
@@ -286,6 +261,23 @@
        ],
        "via": null,
        "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
+      },
+      {
+       "title": "Rosatom Takes Full Control of Transport Conglomerate Delo Group in $900M Buyout",
+       "url": "https://www.themoscowtimes.com/2026/10/07/rosatom-takes-full-control-of-delo-group-in-900m-buyout-a93906",
+       "source": "The Moscow Times",
+       "published": "2026-10-07T12:33:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/07/rosatom-takes-full-control-of-delo-group-in-900m-buyout-a93906",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The deal reportedly brings Rosatom’s market share in Russia’s container handling market to 50% and rail container transport to 44%."
       }
      ]
     },
@@ -1041,25 +1033,6 @@
        "blurb": "Canadian power producer Northland Power, in partnership with ORLEN, has completed the installation of all 76 turbines at the 1.1GW Baltic Power offshore wind project in the Baltic Sea off Poland’s coast."
       },
       {
-       "title": "US Wind Gives Up Sparrows Point Site as Offshore Wind Project Faces Delays",
-       "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
-       "source": "offshoreWIND.biz",
-       "published": "2026-10-08T12:25:16.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "offshoreWIND.biz",
-         "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "US Wind has relinquished its lease at Tradepoint Atlantic’s Sparrows Point site in Maryland, where the company had planned to manufacture steel..."
-      },
-      {
        "title": "Dogger Bank B Wind Turbine Installation Passes Halfway Mark",
        "url": "https://offshorewind.biz/2026/10/08/dogger-bank-b-wind-turbine-installation-passes-halfway-mark",
        "source": "offshoreWIND.biz",
@@ -1250,6 +1223,31 @@
        "stages": [],
        "via": null,
        "blurb": "French floating offshore wind specialist Eolink has been put up for sale by its owners as part of “court-ordered reorganisation proceedings”, the company announced."
+      },
+      {
+       "title": "Subsea Battery System for Offshore Wind Completes Test Before Deployment",
+       "url": "https://offshorewind.biz/2026/10/06/subsea-battery-system-for-offshore-wind-completes-test-before-deployment",
+       "source": "offshoreWIND.biz",
+       "published": "2026-10-06T13:53:08.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/06/subsea-battery-system-for-offshore-wind-completes-test-before-deployment",
+         "primary": false
+        },
+        {
+         "name": "offshoreWIND.biz",
+         "url": "https://offshorewind.biz/2026/10/06/subsea-battery-system-for-offshore-wind-completes-test-before-deployment",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Verlume, a UK-headquartered subsea batteries and power management systems specialist, has put its 500 kWh modular subsea energy storage system to..."
       }
      ]
     },
@@ -2198,12 +2196,27 @@
         },
         {
          "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
+         "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/",
          "primary": false
         },
         {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/vistra_gets_conditional_42b_doe_loan_for_pjm_nuclear_fleet-06-oct-2026-184787-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/google-deal-backs-890-mw-of-constellation-nuclear-uprates-at-11-pjm-reactors/",
+         "primary": false
+        },
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
          "primary": false
         }
        ],
@@ -2380,46 +2393,6 @@
        "blurb": "It’s only the second time that American regulators have approved a next-generation commercial reactor for construction. Big hurdles remain."
       },
       {
-       "title": "Constellation, Google strike 890-MW nuclear deal to meet data center power demand",
-       "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/",
-       "source": "Construction Dive",
-       "published": "2026-10-06T13:23:00.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Utility Dive",
-         "url": "https://www.utilitydive.com/news/constellation-google-deal-will-bring-890-mw-of-new-nuclear-to-pjm/832223/",
-         "primary": false
-        },
-        {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/",
-         "primary": false
-        },
-        {
-         "name": "POWER Magazine",
-         "url": "https://www.powermag.com/google-deal-backs-890-mw-of-constellation-nuclear-uprates-at-11-pjm-reactors/",
-         "primary": false
-        },
-        {
-         "name": "Construction Dive",
-         "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/",
-         "primary": false
-        },
-        {
-         "name": "Power Engineering",
-         "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Constellation Energy has signed 20-year power purchase agreements with both Google and Amazon in the last week, supporting almost 1.1 GW of nuclear expansions."
-      },
-      {
        "title": "Winning the Nuclear Market Before the Reactor Is Sold",
        "url": "https://www.powermag.com/winning-the-nuclear-market-before-the-reactor-is-sold/",
        "source": "POWER Magazine",
@@ -2457,6 +2430,26 @@
        ],
        "via": null,
        "blurb": "Holtec has submitted the Preliminary Safety Analysis Report to the US Nuclear Regulatory Commission for two small modular reactor units at the Palisades Energy Center in Michigan, completing the second phase of the Construction Permit Application process."
+      },
+      {
+       "title": "GAO report looks at NRC workforce recruitment and retention",
+       "url": "https://www.ans.org/news/2026-10-05/article-8460/gao-report-looks-at-nrc-workforce-recruitment-and-retention/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-05T13:17:26.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-05/article-8460/gao-report-looks-at-nrc-workforce-recruitment-and-retention/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "A recently released report from the U.S. Government Accountability Office recommends that the Nuclear Regulatory Commission establish metrics to gauge whether its recruitment and retention efforts are meeting its current and future workforce needs, as well as complete its work on"
       }
      ]
     },
@@ -3023,25 +3016,6 @@
     "wind": {
      "brief": "ready",
      "candidates": [
-      {
-       "title": "US Wind Gives Up Sparrows Point Site as Offshore Wind Project Faces Delays",
-       "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
-       "source": "offshoreWIND.biz",
-       "published": "2026-10-08T12:25:16.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "offshoreWIND.biz",
-         "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "US Wind has relinquished its lease at Tradepoint Atlantic’s Sparrows Point site in Maryland, where the company had planned to manufacture steel..."
-      },
       {
        "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
        "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
@@ -3630,25 +3604,6 @@
     "wind": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "US Wind Gives Up Sparrows Point Site as Offshore Wind Project Faces Delays",
-       "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
-       "source": "offshoreWIND.biz",
-       "published": "2026-10-08T12:25:16.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "offshoreWIND.biz",
-         "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "US Wind has relinquished its lease at Tradepoint Atlantic’s Sparrows Point site in Maryland, where the company had planned to manufacture steel..."
-      },
       {
        "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
        "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
@@ -6024,12 +5979,27 @@
         },
         {
          "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
+         "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/",
          "primary": false
         },
         {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/vistra_gets_conditional_42b_doe_loan_for_pjm_nuclear_fleet-06-oct-2026-184787-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/google-deal-backs-890-mw-of-constellation-nuclear-uprates-at-11-pjm-reactors/",
+         "primary": false
+        },
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
          "primary": false
         }
        ],
@@ -6094,12 +6064,27 @@
         },
         {
          "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
+         "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/",
          "primary": false
         },
         {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/vistra_gets_conditional_42b_doe_loan_for_pjm_nuclear_fleet-06-oct-2026-184787-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/google-deal-backs-890-mw-of-constellation-nuclear-uprates-at-11-pjm-reactors/",
+         "primary": false
+        },
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
          "primary": false
         }
        ],

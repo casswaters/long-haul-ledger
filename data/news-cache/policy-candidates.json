@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T12:48:23.471Z",
+ "generatedAt": "2026-10-08T12:50:43.228Z",
  "sector": "policy",
  "maxAgeDays": 10,
  "places": {
@@ -7297,62 +7297,6 @@
     }
    }
   },
-  "be": {
-   "label": "Belgium",
-   "level": "country",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "MISINFORMATION CHECK: European Parliament bans far-right politician’s SA exhibition",
-       "url": "https://www.dailymaverick.co.za/article/2026-10-07-european-parliament-bans-far-right-politicians-sa-exhibition/",
-       "source": "Daily Maverick",
-       "published": "2026-10-07T22:42:30.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Daily Maverick",
-         "url": "https://www.dailymaverick.co.za/article/2026-10-07-european-parliament-bans-far-right-politicians-sa-exhibition/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A Belgian far-right politician referred to by a former colleague as “an unadulterated Hitler fanatic” had an exhibition about South Africa blocked by Brussels in September, it has emerged."
-      }
-     ]
-    }
-   }
-  },
-  "za": {
-   "label": "South Africa",
-   "level": "country",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "MISINFORMATION CHECK: European Parliament bans far-right politician’s SA exhibition",
-       "url": "https://www.dailymaverick.co.za/article/2026-10-07-european-parliament-bans-far-right-politicians-sa-exhibition/",
-       "source": "Daily Maverick",
-       "published": "2026-10-07T22:42:30.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Daily Maverick",
-         "url": "https://www.dailymaverick.co.za/article/2026-10-07-european-parliament-bans-far-right-politicians-sa-exhibition/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A Belgian far-right politician referred to by a former colleague as “an unadulterated Hitler fanatic” had an exhibition about South Africa blocked by Brussels in September, it has emerged."
-      }
-     ]
-    }
-   }
-  },
   "ee": {
    "label": "Estonia",
    "level": "country",
@@ -8404,6 +8348,90 @@
        "stages": [],
        "via": null,
        "blurb": "Exchanges experiences and views on developments in artificial intelligence for the global banking system and supervisors, modernisation efforts and implications for the Committee’s future work programme..."
+      }
+     ]
+    }
+   }
+  },
+  "cm": {
+   "label": "Cameroon",
+   "level": "country",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Director-General cites concerns with pace of negotiations as chairs report on state of play",
+       "url": "https://www.wto.org/english/news_e/news26_e/tnc_01oct26_502_e.htm",
+       "source": "World Trade Organization",
+       "published": "2026-10-01T00:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "World Trade Organization",
+         "url": "https://www.wto.org/english/news_e/news26_e/tnc_01oct26_502_e.htm",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A meeting of the Trade Negotiations Committee (TNC) on 1 October provided WTO members with an opportunity to take stock of the WTO's negotiating agenda six months after the 14th Ministerial Conference (MC14) in Yaoundé and voice their views on how to advance their work. Members h"
+      }
+     ]
+    }
+   }
+  },
+  "cm-ce": {
+   "label": "Centre",
+   "level": "admin1",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Director-General cites concerns with pace of negotiations as chairs report on state of play",
+       "url": "https://www.wto.org/english/news_e/news26_e/tnc_01oct26_502_e.htm",
+       "source": "World Trade Organization",
+       "published": "2026-10-01T00:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "World Trade Organization",
+         "url": "https://www.wto.org/english/news_e/news26_e/tnc_01oct26_502_e.htm",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A meeting of the Trade Negotiations Committee (TNC) on 1 October provided WTO members with an opportunity to take stock of the WTO's negotiating agenda six months after the 14th Ministerial Conference (MC14) in Yaoundé and voice their views on how to advance their work. Members h"
+      }
+     ]
+    }
+   }
+  },
+  "cm-city-yaounde": {
+   "label": "Yaoundé",
+   "level": "city",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Director-General cites concerns with pace of negotiations as chairs report on state of play",
+       "url": "https://www.wto.org/english/news_e/news26_e/tnc_01oct26_502_e.htm",
+       "source": "World Trade Organization",
+       "published": "2026-10-01T00:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "World Trade Organization",
+         "url": "https://www.wto.org/english/news_e/news26_e/tnc_01oct26_502_e.htm",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A meeting of the Trade Negotiations Committee (TNC) on 1 October provided WTO members with an opportunity to take stock of the WTO's negotiating agenda six months after the 14th Ministerial Conference (MC14) in Yaoundé and voice their views on how to advance their work. Members h"
       }
      ]
     }

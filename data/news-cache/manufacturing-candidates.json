@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T12:47:18.700Z",
+ "generatedAt": "2026-10-08T12:49:50.222Z",
  "sector": "manufacturing",
  "maxAgeDays": 10,
  "places": {
@@ -228,6 +228,23 @@
        "stages": [],
        "via": null,
        "blurb": "A Dutch court barred Merck from selling subcutaneous Keytruda in several European countries. Elsewhere, an Insmed executive ended a seven-year run and two startups secured venture cash."
+      },
+      {
+       "title": "Co-sponsors of Plastics Dialogue hold first round of technical discussions following MC14",
+       "url": "https://www.wto.org/english/news_e/news26_e/ppesp_01oct26_504_e.htm",
+       "source": "World Trade Organization",
+       "published": "2026-10-01T00:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "World Trade Organization",
+         "url": "https://www.wto.org/english/news_e/news26_e/ppesp_01oct26_504_e.htm",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "At a meeting on 1 October 2026, WTO members participating in the Dialogue on Plastics Pollution and Environmentally Sustainable Plastics Trade (DPP) held the first substantive round of discussions across four areas of work: circular solutions to plastics pollution; waste-manageme"
       },
       {
        "title": "Plastic Ingenuity Showcasing Sustainable Packaging Innovation at Pack Expo",
@@ -1209,26 +1226,6 @@
        "blurb": "Tianwan Nuclear Power Plant's unit 7 has been successfully connected to the grid, China National Nuclear Corporation has announced."
       },
       {
-       "title": "US Wind Gives Up Sparrows Point Site as Offshore Wind Project Faces Delays",
-       "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
-       "source": "offshoreWIND.biz",
-       "published": "2026-10-08T12:25:16.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "offshoreWIND.biz",
-         "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "US Wind has relinquished its lease at Tradepoint Atlantic’s Sparrows Point site in Maryland, where the company had planned to manufacture steel..."
-      },
-      {
        "title": "MISC to order five more LNG carriers for Petronas charter",
        "url": "https://lngprime.com/asia/misc-to-order-five-more-lng-carriers-for-petronas-charter/198123/",
        "source": "LNG Prime",
@@ -1307,6 +1304,26 @@
         "stage": "generation"
        },
        "blurb": "A detailed look at Maxxen’s advanced BESS factory from an on-the-ground tour. The post Inside BESS manufacturing: Maxxen’s utility-scale storage factory in Europe appeared first on pv magazine Global ."
+      },
+      {
+       "title": "Westinghouse teams up with Hyundai E&C for Dutch FEED studies",
+       "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
+       "source": "World Nuclear News",
+       "published": "2026-10-08T11:04:41.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "South Korea's Hyundai Engineering & Construction has been contracted by Westinghouse to carry out basic design studies for the construction of two large nuclear power plants in the Netherlands based on Westinghouse's AP1000 design."
       }
      ]
     }
@@ -1974,26 +1991,6 @@
        "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
       },
       {
-       "title": "US Wind Gives Up Sparrows Point Site as Offshore Wind Project Faces Delays",
-       "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
-       "source": "offshoreWIND.biz",
-       "published": "2026-10-08T12:25:16.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "offshoreWIND.biz",
-         "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "US Wind has relinquished its lease at Tradepoint Atlantic’s Sparrows Point site in Maryland, where the company had planned to manufacture steel..."
-      },
-      {
        "title": "Seatrium bags first FSRU conversion for Excelerate",
        "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
        "source": "Splash247",
@@ -2087,12 +2084,27 @@
         },
         {
          "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
+         "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/",
          "primary": false
         },
         {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/vistra_gets_conditional_42b_doe_loan_for_pjm_nuclear_fleet-06-oct-2026-184787-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/google-deal-backs-890-mw-of-constellation-nuclear-uprates-at-11-pjm-reactors/",
+         "primary": false
+        },
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
          "primary": false
         }
        ],
@@ -2227,6 +2239,26 @@
         "stage": "generation"
        },
        "blurb": "Independent power producer (IPP) Zelestra has closed a US$350 million credit facility for the 203 MW Reclamation Solar project in Indiana."
+      },
+      {
+       "title": "Air Products to build Malaysia’s first LNG-based air separation unit",
+       "url": "https://lngprime.com/asia/air-products-to-build-malaysias-first-lng-based-air-separation-unit/198077/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T06:05:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/asia/air-products-to-build-malaysias-first-lng-based-air-separation-unit/198077/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "US-based Air Products said it had secured a contract to supply Malaysia’s first LNG-based air separation unit for the Petronas-led Pengerang LNG regasification terminal in Johor."
       }
      ]
     }
@@ -2315,26 +2347,6 @@
     "power": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "US Wind Gives Up Sparrows Point Site as Offshore Wind Project Faces Delays",
-       "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
-       "source": "offshoreWIND.biz",
-       "published": "2026-10-08T12:25:16.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "offshoreWIND.biz",
-         "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "US Wind has relinquished its lease at Tradepoint Atlantic’s Sparrows Point site in Maryland, where the company had planned to manufacture steel..."
-      },
       {
        "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
        "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
@@ -4287,12 +4299,27 @@
         },
         {
          "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
+         "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/",
          "primary": false
         },
         {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/vistra_gets_conditional_42b_doe_loan_for_pjm_nuclear_fleet-06-oct-2026-184787-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/google-deal-backs-890-mw-of-constellation-nuclear-uprates-at-11-pjm-reactors/",
+         "primary": false
+        },
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
          "primary": false
         }
        ],
@@ -4375,12 +4402,27 @@
         },
         {
          "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
+         "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/",
          "primary": false
         },
         {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/vistra_gets_conditional_42b_doe_loan_for_pjm_nuclear_fleet-06-oct-2026-184787-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/google-deal-backs-890-mw-of-constellation-nuclear-uprates-at-11-pjm-reactors/",
+         "primary": false
+        },
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
          "primary": false
         }
        ],

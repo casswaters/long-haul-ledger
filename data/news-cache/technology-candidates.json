@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T12:48:10.236Z",
+ "generatedAt": "2026-10-08T12:50:32.489Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -1752,12 +1752,22 @@
        "outlets": [
         {
          "name": "Utility Dive",
-         "url": "https://www.utilitydive.com/news/constellation-google-deal-will-bring-890-mw-of-new-nuclear-to-pjm/832223/",
+         "url": "https://www.utilitydive.com/news/doe-intends-to-loan-vistra-42b-for-nuclear-fleet-improvements/832236/",
+         "primary": false
+        },
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/doe-offers-vistra-loan-for-reactor-upgrades-and-uprates",
          "primary": false
         },
         {
          "name": "ANS Nuclear Newswire",
          "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/vistra_gets_conditional_42b_doe_loan_for_pjm_nuclear_fleet-06-oct-2026-184787-article/?rss=true",
          "primary": false
         },
         {
@@ -1935,6 +1945,28 @@
        "blurb": "Joel Leftwich will join Idealyst Innovation as executive vice president of policy innovation and director of the Center for American Food Power. Robert Haus has joined Vylor as state government and industry affairs leader. General Mills named Dana McNabb as CEO, effective Jan. 1,"
       },
       {
+       "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
+       "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+       "source": "NPR Science",
+       "published": "2026-10-06T10:16:28.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "NPR Science",
+         "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+         "primary": false
+        },
+        {
+         "name": "Science (AAAS) News",
+         "url": "https://www.science.org/content/article/chemistry-nobel-honors-researchers-who-developed-reactions-leading-one-handed-molecules",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s."
+      },
+      {
        "title": "US selects 14 hydropower projects for testing support",
        "url": "https://www.waterpowermagazine.com/news/us-selects-14-hydropower-projects-for-testing-support/",
        "source": "International Water Power & Dam Construction",
@@ -1980,21 +2012,21 @@
        "blurb": "It’s only the second time that American regulators have approved a next-generation commercial reactor for construction. Big hurdles remain."
       },
       {
-       "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
-       "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-       "source": "NPR Science",
-       "published": "2026-10-06T10:16:28.000Z",
-       "verification": "unconfirmed",
+       "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
+       "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
+       "source": "NASA News",
+       "published": "2026-10-07T21:16:42.000Z",
+       "verification": "confirmed",
        "outlets": [
         {
-         "name": "NPR Science",
-         "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-         "primary": false
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
+         "primary": true
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s."
+       "blurb": "NASA and SpaceX are targeting 6:33 a.m. EDT, Tuesday, Oct. 13, for the next launch to deliver science investigations, supplies, and equipment, including the final set of International Space Station Roll-Out Solar Arrays, to the space station. This is the 35th SpaceX commercial re"
       },
       {
        "title": "Second part of construction permit application submitted for SMRs at Palisades",
@@ -2032,23 +2064,6 @@
        "stages": [],
        "via": null,
        "blurb": "Plastic Ingenuity's Ameristar Award-winning PET medical device reel replaces PVC with recyclable material, converting 236,000 pounds annually. The company will spotlight its innovations at Pack Expo 2026, being held later this month in Chicago."
-      },
-      {
-       "title": "Gas stoves put restaurant cooks’ health at risk, new study finds",
-       "url": "https://www.canarymedia.com/articles/emissions-reduction/gas-stoves-restaurant-cooks-health",
-       "source": "Canary Media",
-       "published": "2026-10-06T09:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Canary Media",
-         "url": "https://www.canarymedia.com/articles/emissions-reduction/gas-stoves-restaurant-cooks-health",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "In restaurant kitchens around the U.S., cooks are toiling away to create mouthwatering meals, from bibimbap to spaghetti puttanesca. But their own stomachs may be roiling. That’s what Christopher Galarza, a longtime chef and co-founder of sustainable kitchen certification company"
       }
      ]
     },
@@ -4604,11 +4619,16 @@
        "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
        "source": "NPR Science",
        "published": "2026-10-06T10:16:28.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "NPR Science",
          "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+         "primary": false
+        },
+        {
+         "name": "Science (AAAS) News",
+         "url": "https://www.science.org/content/article/chemistry-nobel-honors-researchers-who-developed-reactions-leading-one-handed-molecules",
          "primary": false
         }
        ],
@@ -4632,11 +4652,16 @@
        "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
        "source": "NPR Science",
        "published": "2026-10-06T10:16:28.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "NPR Science",
          "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+         "primary": false
+        },
+        {
+         "name": "Science (AAAS) News",
+         "url": "https://www.science.org/content/article/chemistry-nobel-honors-researchers-who-developed-reactions-leading-one-handed-molecules",
          "primary": false
         }
        ],
