@@ -10,7 +10,8 @@
     "Unconfirmed = factual claim that could be confirmed by the subject/agency/company, from a non-primary outlet, not yet multi-sourced or confirmed. Do NOT park opinion/trend/commentary there. Those lack a fountainhead to confirm and belong in Analysis.",
     "Analysis classification: kind=analysis feeds are always Analysis. Additionally the fetcher/verify heuristics reclassify hard-news items whose titles match why/how/opinion/essay/the case for/trend-roundup/explainer patterns (also /opinion|/explainer|/essay URL paths). NPR Science stays hard-news for discrete events; its explainers/roundups flip via heuristics.",
     "requireTopic: general-news feeds only contribute items that classify as energy, infrastructure, industry or geopolitics (locate.js categorize).",
-    "Energy sector feeds (sector: energy) were added in v24 for the Energy tab: agency releases (NRC, DOE Office of Nuclear Energy, EIA) plus trade press per source. Trade-press feeds do not assume a home country, so a story that names no place is filed worldwide. Tested and not added (box, Oct 7 2026): IEA (no public RSS, 404), Recharge (404), Hydrogen Insight (404), NEI (403), FERC (403), Mining.com (403), CleanTechnica (403), Hydrogen Fuel News (403, bot filter), S&P Global (403), Renewables Now (404), IAEA (404), NucNet (404), H2 View and Biofuels Digest (feeds return no items), World Oil (no item dates), NEI Magazine and IEEFA (stale)."
+    "Energy sector feeds (sector: energy) were added in v24 for the Energy tab: agency releases (NRC, DOE Office of Nuclear Energy, EIA) plus trade press per source. Trade-press feeds do not assume a home country, so a story that names no place is filed worldwide. Tested and not added (box, Oct 7 2026): IEA (no public RSS, 404), Recharge (404), Hydrogen Insight (404), NEI (403), FERC (403), Mining.com (403), CleanTechnica (403), Hydrogen Fuel News (403, bot filter), S&P Global (403), Renewables Now (404), IAEA (404), NucNet (404), H2 View and Biofuels Digest (feeds return no items), World Oil (no item dates), NEI Magazine and IEEFA (stale).",
+    "Sector tab feeds (v25, tested Oct 7, 2026): free RSS for Raw materials, Manufacturing, Services, Technology and Policy, marked with a sector field. Not added: 403 from the box: agriculture.com, AgWeb, USDA, Fierce Pharma, Forestry.com, Consultancy.uk, Telecoms.com, Devex, OECD. 404: FAO, Farmers Weekly, Mining Weekly, SeafoodSource, National Fisherman, The Fish Site, IndustryWeek, Assembly, C&EN, Chronicle of Philanthropy, SteelOrbis. 429: IMF, Wood Business. No items: Chemical Week, Mining Journal, The Manufacturer, World Bank news. Stale: Aerospace Technology, WHO news, FreightWaves dates."
   ],
   "sources": [
     {
@@ -1297,6 +1298,617 @@
       "home": "gb",
       "assumeHome": false,
       "sector": "energy"
+    },
+    {
+      "id": "agri-pulse",
+      "name": "Agri-Pulse",
+      "url": "https://www.agri-pulse.com/rss/articles",
+      "kind": "hard-news",
+      "tags": [
+        "agriculture",
+        "farm policy"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "materials"
+    },
+    {
+      "id": "farm-progress",
+      "name": "Farm Progress",
+      "url": "https://www.farmprogress.com/rss.xml",
+      "kind": "hard-news",
+      "tags": [
+        "agriculture",
+        "crops",
+        "livestock"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "materials"
+    },
+    {
+      "id": "mining-technology",
+      "name": "Mining Technology",
+      "url": "https://www.mining-technology.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "mining"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "materials"
+    },
+    {
+      "id": "northern-miner",
+      "name": "The Northern Miner",
+      "url": "https://www.northernminer.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "mining"
+      ],
+      "quality": 2,
+      "home": "ca",
+      "assumeHome": false,
+      "sector": "materials"
+    },
+    {
+      "id": "international-mining",
+      "name": "International Mining",
+      "url": "https://im-mining.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "mining"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "materials"
+    },
+    {
+      "id": "undercurrent",
+      "name": "Undercurrent News",
+      "url": "https://www.undercurrentnews.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "fishing",
+        "seafood"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "materials"
+    },
+    {
+      "id": "timberbiz",
+      "name": "Timberbiz",
+      "url": "https://www.timberbiz.com.au/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "forestry",
+        "timber"
+      ],
+      "quality": 2,
+      "home": "au",
+      "assumeHome": true,
+      "sector": "materials"
+    },
+    {
+      "id": "construction-dive",
+      "name": "Construction Dive",
+      "url": "https://www.constructiondive.com/feeds/news/",
+      "kind": "hard-news",
+      "tags": [
+        "construction"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "manufacturing"
+    },
+    {
+      "id": "food-dive",
+      "name": "Food Dive",
+      "url": "https://www.fooddive.com/feeds/news/",
+      "kind": "hard-news",
+      "tags": [
+        "food manufacturing"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "manufacturing"
+    },
+    {
+      "id": "supply-chain-dive",
+      "name": "Supply Chain Dive",
+      "url": "https://www.supplychaindive.com/feeds/news/",
+      "kind": "hard-news",
+      "tags": [
+        "supply chain",
+        "logistics"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "manufacturing"
+    },
+    {
+      "id": "enr",
+      "name": "ENR (Engineering News-Record)",
+      "url": "https://www.enr.com/rss/articles",
+      "kind": "hard-news",
+      "tags": [
+        "construction",
+        "engineering"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "manufacturing"
+    },
+    {
+      "id": "global-construction-review",
+      "name": "Global Construction Review",
+      "url": "https://www.globalconstructionreview.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "construction"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "manufacturing"
+    },
+    {
+      "id": "automotive-world",
+      "name": "Automotive World",
+      "url": "https://www.automotiveworld.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "vehicles",
+        "autos"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "manufacturing"
+    },
+    {
+      "id": "just-auto",
+      "name": "Just Auto",
+      "url": "https://www.just-auto.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "vehicles",
+        "autos"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "manufacturing"
+    },
+    {
+      "id": "retail-dive",
+      "name": "Retail Dive",
+      "url": "https://www.retaildive.com/feeds/news/",
+      "kind": "hard-news",
+      "tags": [
+        "retail"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "services"
+    },
+    {
+      "id": "banking-dive",
+      "name": "Banking Dive",
+      "url": "https://www.bankingdive.com/feeds/news/",
+      "kind": "hard-news",
+      "tags": [
+        "banking"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "services"
+    },
+    {
+      "id": "payments-dive",
+      "name": "Payments Dive",
+      "url": "https://www.paymentsdive.com/feeds/news/",
+      "kind": "hard-news",
+      "tags": [
+        "payments",
+        "finance"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "services"
+    },
+    {
+      "id": "healthcare-dive",
+      "name": "Healthcare Dive",
+      "url": "https://www.healthcaredive.com/feeds/news/",
+      "kind": "hard-news",
+      "tags": [
+        "health care"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "services"
+    },
+    {
+      "id": "kff-health-news",
+      "name": "KFF Health News",
+      "url": "https://kffhealthnews.org/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "health care",
+        "health policy"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "services"
+    },
+    {
+      "id": "k12-dive",
+      "name": "K-12 Dive",
+      "url": "https://www.k12dive.com/feeds/news/",
+      "kind": "hard-news",
+      "tags": [
+        "education",
+        "schools"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "services"
+    },
+    {
+      "id": "higher-ed-dive",
+      "name": "Higher Ed Dive",
+      "url": "https://www.highereddive.com/feeds/news/",
+      "kind": "hard-news",
+      "tags": [
+        "education",
+        "higher education"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "services"
+    },
+    {
+      "id": "hotel-dive",
+      "name": "Hotel Dive",
+      "url": "https://www.hoteldive.com/feeds/news/",
+      "kind": "hard-news",
+      "tags": [
+        "hotels",
+        "hospitality"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "services"
+    },
+    {
+      "id": "restaurant-dive",
+      "name": "Restaurant Dive",
+      "url": "https://www.restaurantdive.com/feeds/news/",
+      "kind": "hard-news",
+      "tags": [
+        "restaurants",
+        "hospitality"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "services"
+    },
+    {
+      "id": "skift",
+      "name": "Skift",
+      "url": "https://skift.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "travel",
+        "tourism"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "services"
+    },
+    {
+      "id": "transport-topics",
+      "name": "Transport Topics",
+      "url": "https://www.ttnews.com/rss.xml",
+      "kind": "hard-news",
+      "tags": [
+        "trucking",
+        "freight"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "services"
+    },
+    {
+      "id": "loadstar",
+      "name": "The Loadstar",
+      "url": "https://theloadstar.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "logistics",
+        "shipping"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "services"
+    },
+    {
+      "id": "splash247",
+      "name": "Splash247",
+      "url": "https://splash247.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "shipping",
+        "maritime"
+      ],
+      "quality": 2,
+      "home": "sg",
+      "assumeHome": false,
+      "sector": "services"
+    },
+    {
+      "id": "techcrunch",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "technology",
+        "startups"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "technology"
+    },
+    {
+      "id": "the-register",
+      "name": "The Register",
+      "url": "https://www.theregister.com/headlines.atom",
+      "kind": "hard-news",
+      "tags": [
+        "technology",
+        "enterprise IT"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "technology"
+    },
+    {
+      "id": "cio-dive",
+      "name": "CIO Dive",
+      "url": "https://www.ciodive.com/feeds/news/",
+      "kind": "hard-news",
+      "tags": [
+        "IT",
+        "software"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "technology"
+    },
+    {
+      "id": "cybersecurity-dive",
+      "name": "Cybersecurity Dive",
+      "url": "https://www.cybersecuritydive.com/feeds/news/",
+      "kind": "hard-news",
+      "tags": [
+        "cybersecurity"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "technology"
+    },
+    {
+      "id": "datacenter-dynamics",
+      "name": "DatacenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/rss/",
+      "kind": "hard-news",
+      "tags": [
+        "data centers",
+        "cloud"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "technology"
+    },
+    {
+      "id": "light-reading",
+      "name": "Light Reading",
+      "url": "https://www.lightreading.com/rss.xml",
+      "kind": "hard-news",
+      "tags": [
+        "telecom"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "technology"
+    },
+    {
+      "id": "nature-news",
+      "name": "Nature",
+      "url": "https://www.nature.com/nature.rss",
+      "kind": "hard-news",
+      "tags": [
+        "research",
+        "science"
+      ],
+      "quality": 3,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "technology"
+    },
+    {
+      "id": "science-news",
+      "name": "Science (AAAS) News",
+      "url": "https://www.science.org/rss/news_current.xml",
+      "kind": "hard-news",
+      "tags": [
+        "research",
+        "science"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "technology"
+    },
+    {
+      "id": "nsf-news",
+      "name": "U.S. National Science Foundation",
+      "url": "https://www.nsf.gov/rss/rss_www_news.xml",
+      "kind": "hard-news",
+      "tags": [
+        "research",
+        "science agency"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "technology",
+      "primary": true
+    },
+    {
+      "id": "rest-of-world",
+      "name": "Rest of World",
+      "url": "https://restofworld.org/feed/latest",
+      "kind": "hard-news",
+      "tags": [
+        "technology",
+        "global tech"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "technology"
+    },
+    {
+      "id": "govexec",
+      "name": "Government Executive",
+      "url": "https://www.govexec.com/rss/all/",
+      "kind": "hard-news",
+      "tags": [
+        "government",
+        "public administration"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "policy"
+    },
+    {
+      "id": "inside-higher-ed",
+      "name": "Inside Higher Ed",
+      "url": "https://www.insidehighered.com/rss.xml",
+      "kind": "hard-news",
+      "tags": [
+        "higher education",
+        "university leadership"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "policy"
+    },
+    {
+      "id": "nonprofit-quarterly",
+      "name": "Nonprofit Quarterly",
+      "url": "https://nonprofitquarterly.org/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "nonprofits",
+        "philanthropy"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "policy"
+    },
+    {
+      "id": "ecb-press",
+      "name": "European Central Bank",
+      "url": "https://www.ecb.europa.eu/rss/press.html",
+      "kind": "hard-news",
+      "tags": [
+        "central bank",
+        "monetary policy"
+      ],
+      "quality": 3,
+      "home": "de",
+      "assumeHome": false,
+      "sector": "policy",
+      "primary": true
+    },
+    {
+      "id": "boe-news",
+      "name": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/rss/news",
+      "kind": "hard-news",
+      "tags": [
+        "central bank",
+        "monetary policy"
+      ],
+      "quality": 3,
+      "home": "gb",
+      "assumeHome": true,
+      "sector": "policy",
+      "primary": true
+    },
+    {
+      "id": "bis-press",
+      "name": "Bank for International Settlements",
+      "url": "https://www.bis.org/doclist/all_pressrels.rss",
+      "kind": "hard-news",
+      "tags": [
+        "central banks",
+        "international"
+      ],
+      "quality": 3,
+      "home": "ch",
+      "assumeHome": false,
+      "sector": "policy",
+      "primary": true
+    },
+    {
+      "id": "wto-news",
+      "name": "World Trade Organization",
+      "url": "https://www.wto.org/library/rss/latest_news_e.xml",
+      "kind": "hard-news",
+      "tags": [
+        "trade",
+        "international"
+      ],
+      "quality": 3,
+      "home": "ch",
+      "assumeHome": false,
+      "sector": "policy",
+      "primary": true
     }
   ],
   "analysisTitlePatterns": [

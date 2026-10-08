@@ -9,8 +9,9 @@
  *
  * Plain stage labels always point back to an official category: the
  * economic type (Primary to Quinary) plus NAICS code(s) on census.gov.
- * The future five-sector tabs (Primary, Secondary, Tertiary, Quaternary,
- * Quinary) reuse the same pattern.
+ * The five economic-type tabs (economy.js: Raw materials, Manufacturing,
+ * Services, Technology, Policy) reuse the same engine; their segments carry
+ * NAICS references and can cross-list stories from another tab by stage.
  * Pure functions; shared by app.js, scripts and tests.
  */
 import { placeOf, parentPlace, placeLabel, rankedForPlace, moreLabel, LEVEL_NAMES } from './newsrank.js';
@@ -30,9 +31,9 @@ export const OFFICIAL_SOURCES = {
   blsIndustries: { name: 'BLS Industries at a Glance', url: 'https://www.bls.gov/iag/tgs/iag_index_alpha.htm' },
 };
 
-/** census.gov NAICS page for a code (2022 edition). */
+/** census.gov NAICS page for a code (2022 edition). Ranged sectors (31-33) open their first code. */
 export function naicsUrl(code) {
-  const c = encodeURIComponent(String(code));
+  const c = encodeURIComponent(String(code).split('-')[0]);
   return `https://www.census.gov/naics/?input=${c}&year=2022&details=${c}`;
 }
 
@@ -70,6 +71,17 @@ export function tagSector(sector, { title = '', summary = '' } = {}) {
   }
   scored.sort((a, b) => b[1] - a[1]);
   const subs = scored.slice(0, 3).map(([id]) => id);
+  // Cross-listing: another tab's tags (e.g. an energy story's lifecycle stage) file the story into a segment here.
+  const via = {};
+  for (const c of sector.cross || []) {
+    const t = tagSector(c.from, { title, summary });
+    if (!t.subs.length) continue;
+    for (const { sub, stage } of c.map(t)) {
+      if (!sector.subs.some((x) => x.id === sub)) continue;
+      if (!subs.includes(sub)) subs.push(sub);
+      via[sub] = { from: c.from.id, stage };
+    }
+  }
   const stages = [];
   if (subs.length) {
     const st = [];
@@ -80,7 +92,7 @@ export function tagSector(sector, { title = '', summary = '' } = {}) {
     st.sort((a, b) => b[1] - a[1]);
     stages.push(...st.slice(0, 2).map(([id]) => id));
   }
-  return { subs, stages };
+  return Object.keys(via).length ? { subs, stages, via } : { subs, stages };
 }
 
 /** Sector tags for an item: precomputed (fetch time) when present, else computed now. */
@@ -254,7 +266,7 @@ export function validateBriefs(doc, sector, { now = new Date(), staleDays = BRIE
     if (!/^[a-z0-9-]+$/.test(loc)) { errors.push(`${loc}: location id must be lowercase letters, digits and dashes`); continue; }
     for (const [sub, b] of Object.entries(bySub || {})) {
       const at = `${loc}/${sub}`;
-      if (!subIds.has(sub)) { errors.push(`${at}: unknown ${sector.id} source "${sub}"`); continue; }
+      if (!subIds.has(sub)) { errors.push(`${at}: unknown ${sector.id} ${sector.subNoun || 'source'} "${sub}"`); continue; }
       const gen = Date.parse(b?.generated_at || '');
       if (!Number.isFinite(gen)) { errors.push(`${at}: generated_at missing or not a date`); continue; }
       const items = [];

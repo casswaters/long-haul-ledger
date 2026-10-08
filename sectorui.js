@@ -44,6 +44,39 @@ function stagePopHtml(stage, idx) {
     </span>`;
 }
 
+/** Official reference for a tab or segment: economic type plus NAICS codes (or the Quinary convention). */
+export function segmentReference(sector, sub = null) {
+  const type = ECONOMIC_TYPES[sector.economicType];
+  const naics = (sub ? sub.naics : sector.naics) || [];
+  const label = sub ? sub.name : sector.label;
+  return {
+    label,
+    typeLabel: type ? `${type.label} sector` : '',
+    typePlain: type ? type.plain : '',
+    codes: naics.map((n) => ({ code: n.code, title: n.title, url: naicsUrl(n.code) })),
+    convention: sector.convention || null,
+    summary: `${label}: ${type ? `${type.label} sector (${type.plain.toLowerCase()})` : ''}${naics.length ? `. NAICS ${naics.map((n) => n.code).join(', ')}` : ''}.`,
+  };
+}
+
+function infoPopHtml(ref, id) {
+  const codes = ref.codes.map((c) => `<li><a href="${esc(c.url)}" target="_blank" rel="noopener noreferrer">NAICS ${esc(c.code)}</a> ${esc(c.title)}</li>`).join('');
+  const conv = ref.convention
+    ? `<span class="stage-pop-conv">${esc(ref.convention.text)} <a href="${esc(ref.convention.source.url)}" target="_blank" rel="noopener noreferrer">${esc(ref.convention.source.title)}</a></span>` : '';
+  return `<span class="stage-pop" role="tooltip" id="${esc(id)}">
+      <span class="stage-pop-h">${esc(ref.label)} = ${esc(ref.typeLabel)}</span>
+      <span class="stage-pop-plain">${esc(ref.typePlain)}</span>
+      ${codes ? `<ul>${codes}</ul>` : ''}
+      ${conv}
+      <span class="stage-pop-src">Codes: <a href="${esc(OFFICIAL_SOURCES.naics.url)}" target="_blank" rel="noopener noreferrer">NAICS 2022, U.S. Census Bureau</a> · taxonomy: <a href="${esc(OFFICIAL_SOURCES.blsIndustries.url)}" target="_blank" rel="noopener noreferrer">BLS industries</a></span>
+    </span>`;
+}
+
+/** Small "i" button + popover (tap or hover) for an official reference. */
+function infoChip(ref, id, extraClass = '') {
+  return `<span class="stage-chip info-chip ${extraClass}"><button type="button" class="stage-info" aria-label="${esc(ref.label)}: official category" aria-expanded="false" aria-describedby="${esc(id)}" data-stage-info>i</button>${infoPopHtml(ref, id)}</span>`;
+}
+
 /** Brief text: @handles set as plain text in a subtle style (not links). */
 function briefText(text) {
   return esc(text).replace(/(^|\s)@([A-Za-z0-9_]{1,15})\b/g, '$1<span class="handle">@$2</span>');
@@ -57,11 +90,21 @@ function placePath(place, names) {
 }
 
 function cardsHtml(list, ctx) {
+  const sub = ctx.state?.ssub || null;
   return list.map((it) => {
     const t = sectorTagsOf(ctx.sector, it);
     const stages = (t.stages || []).map((id) => ctx.sector.stages.find((s) => s.id === id)).filter(Boolean)
       .map((s) => `<span class="stage-tag" title="${esc(stageReference(s).summary)}">${esc(s.label)}</span>`).join('');
-    return ctx.card(it, stages);
+    // Cross-listed (e.g. an energy story filed here by its lifecycle stage): say where it came from.
+    const viaKey = t.via ? (sub && t.via[sub] ? sub : (!sub ? Object.keys(t.via)[0] : null)) : null;
+    let cross = '';
+    if (viaKey) {
+      const v = t.via[viaKey];
+      const from = (ctx.sector.cross || []).find((c) => c.from.id === v.from)?.from;
+      const st = from?.stages?.find((x) => x.id === v.stage);
+      if (from && st) cross = `<span class="stage-tag cross-tag" data-cross="${esc(from.id)}" title="Cross-listed from the ${esc(from.label)} tab by its lifecycle stage">From ${esc(from.label)}: ${esc(st.label)}</span>`;
+    }
+    return ctx.card(it, stages + cross);
   }).join('');
 }
 
@@ -112,12 +155,12 @@ function detailHtml(ctx, counts) {
     return `
       <div class="sector-overview">
         <h3 class="sector-detail-h">Top ${esc(sector.label.toLowerCase())} stories, ${esc(label)}</h3>
-        <p class="section-note">Pick a source on the left for its own stories and the Top 4 brief.</p>
+        <p class="section-note">Pick a ${esc(sector.subNoun || 'source')} for its own stories and the Top 4 brief.</p>
         <div class="sector-feed">${columnHtml(col, ctx)}</div>
       </div>`;
   }
   const n = sector.subs.indexOf(subDef) + 1;
-  const back = `<button type="button" class="sector-back" data-sback>‹ All sources</button>`;
+  const back = `<button type="button" class="sector-back" data-sback>‹ All ${esc(sector.subsNoun || 'sources')}</button>`;
   const brief = briefFor(ctx.briefs, place, subDef.id);
   if (state.sbrief) {
     return `
@@ -129,7 +172,7 @@ function detailHtml(ctx, counts) {
   const stage = ctx.stage && sector.stages.some((s) => s.id === ctx.stage) ? ctx.stage : null;
   const col = sectorColumn(ctx.items, place, sector, { sub: subDef.id, stage, names });
   const sc = counts.stages[subDef.id] || {};
-  const chips = [`<button type="button" class="ncat${stage ? '' : ' active'}" data-sstage="" aria-pressed="${!stage}">All <span class="vf-n">${counts.subs[subDef.id] || 0}</span></button>`]
+  const chips = !sector.stages.length ? '' : [`<button type="button" class="ncat${stage ? '' : ' active'}" data-sstage="" aria-pressed="${!stage}">All <span class="vf-n">${counts.subs[subDef.id] || 0}</span></button>`]
     .concat(sector.stages.map((s, i) => `
       <span class="stage-chip">
         <button type="button" class="ncat${stage === s.id ? ' active' : ''}" data-sstage="${esc(s.id)}" aria-pressed="${stage === s.id}" title="${esc(stageReference(s).summary)}">${esc(s.label)} <span class="vf-n">${sc[s.id] || 0}</span></button><button type="button" class="stage-info" aria-label="${esc(s.label)}: official category" aria-expanded="false" aria-describedby="stage-pop-${i}" data-stage-info>i</button>${stagePopHtml(s, i)}
@@ -144,19 +187,21 @@ function detailHtml(ctx, counts) {
     <div class="sector-sub" data-sub="${esc(subDef.id)}">
       <div class="sector-sub-nav">${back}</div>
       <div class="sector-sub-head">
-        <h3 class="sector-detail-h"><span class="slot-n">${n}</span> ${esc(subDef.name)}</h3>
+        <div class="sector-sub-title"><h3 class="sector-detail-h"><span class="slot-n">${n}</span> ${esc(subDef.name)}</h3>${subDef.naics ? infoChip(segmentReference(sector, subDef), `seg-pop-${subDef.id}`, 'seg-info') : ''}</div>
         <p class="slot-copy-lg">${esc(subDef.copy)}</p>
       </div>
       <div class="brief-cta">
         <button type="button" class="btn-primary brief-btn" data-sbrief-open aria-controls="sector-detail">Top 4 this week</button>
         <span class="brief-status ${brief ? 'is-ready' : 'is-wait'}">${brief ? `Brief ready · ${esc(label)} · written ${esc(dayLabel(brief.generated_at))}${brief.stale ? ' · older than 7 days' : ''}` : `Brief not ready yet for ${esc(label)}`}</span>
       </div>
-      <div class="ncats stage-chips" role="group" aria-label="Filter by lifecycle stage">${chips}</div>
+      ${chips ? `<div class="ncats stage-chips" role="group" aria-label="Filter by lifecycle stage">${chips}</div>` : ''}
       <div class="sector-feed" aria-live="polite">${showAll ? cardsHtml(showAll, ctx) : columnHtml(col, ctx)}</div>
       ${!showAll && col.total > col.primary.length ? `<button type="button" class="feed-more-btn" data-sexpand>Show all ${Math.min(col.total, 30)} ${esc(subDef.noun || subDef.name.toLowerCase())} stories for ${esc(label)}</button>` : ''}
       ${showAll ? `<button type="button" class="feed-more-btn" data-scollapse>Show top stories only</button>` : ''}
       ${kidsHtml}
-      <p class="sector-foot">Stories are filed to a source and a stage by keyword rules on the headline and summary; tags can be wrong. Every story links to its outlet. <a href="#about" data-smethod>How this works</a></p>
+      <p class="sector-foot">${sector.stages.length
+        ? 'Stories are filed to a source and a stage by keyword rules on the headline and summary; tags can be wrong.'
+        : `Stories are filed to a segment by keyword rules on the headline and summary${(sector.cross || []).length ? ', and energy stories also by their lifecycle stage' : ''}; tags can be wrong.`} Every story links to its outlet. <a href="#about" data-smethod>How this works</a></p>
     </div>`;
 }
 
@@ -179,18 +224,18 @@ export function renderSectorOverlay(ctx) {
     <div class="overlay-panel sector-panel" role="dialog" aria-modal="true" aria-labelledby="sector-title" data-sector-tab="${esc(sector.id)}">
       <div class="overlay-head sector-head">
         <div class="sector-head-main">
-          <div class="overlay-kicker"><span aria-hidden="true">${sector.emoji}</span> ${esc(sector.label)} · ${esc(LEVEL_NAMES[place.level])}</div>
+          <div class="overlay-kicker">${sector.emoji ? `<span aria-hidden="true">${sector.emoji}</span> ` : ''}${esc(sector.label)} · ${esc(LEVEL_NAMES[place.level])}${sector.economicType ? ` <span class="kicker-official">${esc(sector.officialName)}</span>${infoChip(segmentReference(sector), `tab-pop-${sector.id}`, 'tab-info')}` : ''}</div>
           <nav class="sector-path" aria-label="Place">${placePath(place, names)}</nav>
           <h2 id="sector-title" tabindex="-1">${esc(label)}</h2>
           <p class="overlay-hint">${esc(sector.headline(headPlace))}</p>
         </div>
         <div class="overlay-actions">
           <button type="button" class="btn-ghost" data-sclose title="Close and pick a place on the map">Change place</button>
-          <button type="button" class="btn-primary" data-sclose aria-label="Close energy">Close</button>
+          <button type="button" class="btn-primary" data-sclose aria-label="Close ${esc(sector.label)}">Close</button>
         </div>
       </div>
       <div class="sector-body${state.ssub ? ' has-sub' : ''}">
-        <ol class="sector-list" aria-label="${esc(sector.label)} sources">${slots}</ol>
+        <ol class="sector-list" aria-label="${esc(sector.label)} ${esc(sector.subsNoun || 'sources')}">${slots}</ol>
         <section class="sector-detail" id="sector-detail" aria-label="Details">${detailHtml(ctx, counts)}</section>
       </div>
     </div>`;

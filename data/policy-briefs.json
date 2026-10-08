@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "sector": "policy",
+  "notes": "Top 4 this week briefs for this sector tab, keyed by place id (world, us, us-oh, us-city-houston) and segment id. Same schema and rules as data/energy-briefs.json: every item needs sources with title, https url and YYYY-MM-DD date; 1 to 4 items; refreshed within 7 days. Written by the research runs; see RESEARCH-RUNS.md. Empty until the first sourced brief is written.",
+  "briefs": {}
+}

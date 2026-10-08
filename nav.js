@@ -2,7 +2,7 @@
  * Navigation / filter helpers (pure) — tested by ledger.test.js
  */
 import { parseSectorToken, sectorToken } from './sectors.js';
-import { SECTOR_IDS } from './energy.js';
+import { SECTOR_IDS } from './tabs.js';
 
 export const TABS = ['signals', 'industries', 'regions', 'openings'];
 export const VIEWS = ['desk', 'mindmap', 'chain', 'company'];
