@@ -61,14 +61,19 @@ for (cid, title), kind in KIND_BY_TITLE.items():
 cnt = {'hsFilled': 0, 'hgFilled': 0, 'bothFilled': 0, 'anyFilled': 0, 'kept': 0}
 for cid, e in src['countries'].items():
     hs, hg, planned = e['hs'], e['hg'], e['planned']
-    same = hs and hg and (hs.get('wikidata') or hs['name']) == (hg.get('wikidata') or hg['name'])
+    same = bool(hs and hg and ((hs.get('wikidata') and hs.get('wikidata') == hg.get('wikidata')) or norm(hs['name']).split() == norm(hg['name']).split()))
     blk = A.get(cid)
     existing = [r for r in (blk or {}).get('roles', []) if r.get('name') and not r.get('notCovered')]
     new = []
     def place(x, kind):
         # Existing hand-verified role for the same person: annotate it instead of duplicating.
         for r in existing:
-            if x and toks(r['name']) & toks(x['name']):
+            a, b = toks(r['name']), toks(x['name']) if x else set()
+            shared = a & b
+            if x and shared and (len(shared) >= 2 or len(shared) == min(len(a), len(b))):
+                # Same person confirmed for the other seat too: one role for both seats.
+                if r.get('kind') in ('Head of state', 'Head of government') and r['kind'] != kind:
+                    r['kind'] = 'Head of state and government'
                 r.setdefault('kind', kind)
                 if not (r.get('source') or {}).get('url'):
                     nr = role(x, kind); r['source'] = nr['source']; r['asOf'] = D; r['checked'] = D; r['verified'] = True
@@ -93,6 +98,9 @@ for cid, e in src['countries'].items():
         A[cid] = {'level': 'country', 'label': e['label'], 'roles': new}
     roles = A[cid]['roles']
     k = {r.get('kind') for r in roles if r.get('name') and not r.get('notCovered')}
+    # Drop Not yet covered head rows for a seat a confirmed role now fills.
+    filled_kinds = set(k) | ({'Head of state', 'Head of government'} if 'Head of state and government' in k else set())
+    A[cid]['roles'] = roles = [r for r in roles if not (r.get('notCovered') and r.get('kind') in filled_kinds)]
     h1 = bool(k & {'Head of state', 'Head of state and government'}); h2 = bool(k & {'Head of government', 'Head of state and government'})
     cnt['hsFilled'] += h1; cnt['hgFilled'] += h2; cnt['bothFilled'] += h1 and h2; cnt['anyFilled'] += h1 or h2
 cat['meta']['asOf'] = D

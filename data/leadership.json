@@ -7,10 +7,10 @@
       "method": "Candidates from Wikidata (P35, P6, P39 with start date, office P856). A seat goes live only when the candidate is the latest current holder on Wikidata AND the name appears on an official government page fetched on the checked date. Start dates show only when the year (or full date) appears next to the name on that page.",
       "counts": {
         "hsFilled": 120,
-        "hgFilled": 109,
-        "bothFilled": 88,
+        "hgFilled": 116,
+        "bothFilled": 95,
         "anyFilled": 141,
-        "kept": 182
+        "kept": 192
       },
       "countries": 187
     }
@@ -13915,17 +13915,8 @@
       "label": "Benin",
       "roles": [
         {
-          "title": "Head of government",
-          "kind": "Head of government",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
-          "checked": "2026-10-08",
-          "plannedSource": "https://presidence.bj/"
-        },
-        {
           "title": "President",
-          "kind": "Head of state",
+          "kind": "Head of state and government",
           "name": "Romuald Wadagni",
           "contact": {
             "site": "https://presidence.bj/"
@@ -14079,7 +14070,7 @@
       "roles": [
         {
           "title": "President",
-          "kind": "Head of state",
+          "kind": "Head of state and government",
           "name": "Duma Gideon Boko",
           "contact": {
             "site": "https://gov.bw/"
@@ -14096,15 +14087,6 @@
             "date": "2024",
             "confirmedOn": "https://gov.bw/"
           }
-        },
-        {
-          "title": "Head of government",
-          "kind": "Head of government",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
-          "checked": "2026-10-08",
-          "plannedSource": "https://gov.bw/"
         }
       ]
     },
@@ -14694,6 +14676,15 @@
       "label": "Algeria",
       "roles": [
         {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.el-mouradia.dz/ar/home"
+        },
+        {
           "title": "President",
           "kind": "Head of state",
           "name": "Abdelmadjid Tebboune",
@@ -14708,15 +14699,6 @@
           "checked": "2026-10-08",
           "verified": true,
           "sinceNote": "Not yet confirmed"
-        },
-        {
-          "title": "Head of government",
-          "kind": "Head of government",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
-          "checked": "2026-10-08",
-          "plannedSource": "https://www.el-mouradia.dz/ar/home"
         }
       ]
     },
@@ -15074,17 +15056,8 @@
       "label": "Gabon",
       "roles": [
         {
-          "title": "Head of government",
-          "kind": "Head of government",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
-          "checked": "2026-10-08",
-          "plannedSource": "https://gouvernement.ga"
-        },
-        {
           "title": "President",
-          "kind": "Head of state",
+          "kind": "Head of state and government",
           "name": "Brice Clotaire Oligui Nguema",
           "contact": {
             "site": "https://www.presidence.ga/"
@@ -15129,17 +15102,8 @@
       "label": "Ghana",
       "roles": [
         {
-          "title": "Head of government",
-          "kind": "Head of government",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
-          "checked": "2026-10-08",
-          "plannedSource": "http://www.presidency.gov.gh"
-        },
-        {
           "title": "President",
-          "kind": "Head of state",
+          "kind": "Head of state and government",
           "name": "John Dramani Mahama",
           "contact": {
             "site": "http://www.presidency.gov.gh"
@@ -16718,17 +16682,8 @@
       "label": "Malawi",
       "roles": [
         {
-          "title": "Head of government",
-          "kind": "Head of government",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
-          "checked": "2026-10-08",
-          "plannedSource": "https://statehouse.mw/"
-        },
-        {
           "title": "President",
-          "kind": "Head of state",
+          "kind": "Head of state and government",
           "name": "Peter Mutharika",
           "contact": {
             "site": "https://statehouse.mw/"
@@ -17375,6 +17330,15 @@
       "label": "Qatar",
       "roles": [
         {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.diwan.gov.qa/"
+        },
+        {
           "title": "Amir",
           "kind": "Head of state",
           "name": "Tamim bin Hamad Al Thani",
@@ -17389,15 +17353,6 @@
           "checked": "2026-10-08",
           "verified": true,
           "sinceNote": "Not yet confirmed"
-        },
-        {
-          "title": "Head of government",
-          "kind": "Head of government",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
-          "checked": "2026-10-08",
-          "plannedSource": "https://www.diwan.gov.qa/"
         }
       ]
     },
@@ -17784,17 +17739,8 @@
       "label": "Sierra Leone",
       "roles": [
         {
-          "title": "Head of government",
-          "kind": "Head of government",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
-          "checked": "2026-10-08",
-          "plannedSource": "http://www.statehouse.gov.sl/"
-        },
-        {
           "title": "President",
-          "kind": "Head of state",
+          "kind": "Head of state and government",
           "name": "Julius Maada Bio",
           "contact": {
             "site": "http://www.statehouse.gov.sl/"
@@ -18484,17 +18430,8 @@
       "label": "Venezuela",
       "roles": [
         {
-          "title": "Head of government",
-          "kind": "Head of government",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
-          "checked": "2026-10-08",
-          "plannedSource": "http://www.presidencia.gob.ve/"
-        },
-        {
           "title": "President",
-          "kind": "Head of state",
+          "kind": "Head of state and government",
           "name": "Delcy Rodríguez",
           "contact": {
             "site": "http://www.presidencia.gob.ve/"

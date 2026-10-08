@@ -32,6 +32,10 @@ assert('Taiwan: IMF GDP, growth, inflation for a completed year (no projections)
 const twLines = placeIndicators({ level: 'country', country: 'tw' }, { world }, NOW).groups.flatMap((g) => g.lines);
 assert('Taiwan lines credit the IMF, not the World Bank', twLines.length === 3 && twLines.every((l) => l.source.name === 'IMF' && /World Bank does not publish Taiwan/.test(l.detail)));
 
+
+const em = json('./data/stats/energy-mix.json');
+assert('Cambodia and Kosovo electricity mix now parsed (blank OWID shares are unused sources; Kosovo has no iso code)', em.countries.kh?.year >= 2024 && em.countries.xk?.year >= 2024 && em.countries.xk.shares.coal > 50);
+
 console.log('\n--- US state figures (BEA, Census, BLS via FRED, EIA) ---');
 assert('51 state equivalents (50 states and DC) with us-xx ids', US_STATES.length === 51 && US_STATES.every((s) => /^us-[a-z]{2}$/.test(s.id)));
 const fx = stateFigures({
