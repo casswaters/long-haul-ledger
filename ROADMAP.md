@@ -2,7 +2,7 @@
 
 Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md and RESEARCH-RUNS.md) and never ships to the live site.
 
-**Last updated:** 2026-10-08, 11:58 MT
+**Last updated:** 2026-10-08, 11:59 MT
 
 ## House rules
 - Everything is free. No paid tier, pricing or paywall copy until Cassidy says go.
@@ -31,12 +31,13 @@ Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md an
 - **Who's in the seat (SW v29, US first).** Key seats per place, each confirmed on an official page with its checked date; recent seat changes also tagged in the news column. Next: more countries (central bank, energy and finance ministries, regulators). Later each seat links to its Most reliable voices profile (Phase 5).
 - **Project mind map (Cassidy, Oct 8, 11:55 AM MT; roadmap only, not built).** A 'Mind map' button appears whenever you select a project, a development, or a place plus a sector (for example, Energy in Utah). Tapping it opens one clear map of what's going on, built only from sourced, dated facts:
   1. Players: the companies, agencies, utilities, investors, landowners and officials involved, and each one's role.
-  2. Proposed projects: what's planned, where, how big (megawatts, dollars, acres or jobs), and its current status.
-  3. Blockers: hard stops, like a denied permit, a lawsuit, missing financing, or no grid connection.
-  4. Obstacles: slower headwinds, like local opposition, supply chain delays, labor, costs or policy uncertainty.
-  5. Milestones reached: what's already done, each with a date and source.
-  6. Next steps: the specific things that have to happen next and who has to do them, like a hearing, a permit decision or a financing close.
-  7. End goal: what success realistically looks like, kept within reason and backed by what the project has actually stated.
+  2. **Investors and firms:** who is investing in the project, sector or place (funds, corporates, banks, public agencies), the firms involved and their role (developer, EPC/builder, lender, adviser, offtaker), and a dated history of investments (each round or commitment with amount, date, investors and source). (Added by Cassidy, Oct 8, 11:58 AM MT.)
+  3. Proposed projects: what's planned, where, how big (megawatts, dollars, acres or jobs), and its current status.
+  4. Blockers: hard stops, like a denied permit, a lawsuit, missing financing, or no grid connection.
+  5. Obstacles: slower headwinds, like local opposition, supply chain delays, labor, costs or policy uncertainty.
+  6. Milestones reached: what's already done, each with a date and source.
+  7. Next steps: the specific things that have to happen next and who has to do them, like a hearing, a permit decision or a financing close.
+  8. End goal: what success realistically looks like, kept within reason and backed by what the project has actually stated.
   - Guardrails: one level deep (tapping a player or project shows its details in place instead of spawning a new map, so there's no endless loop); a clear Close returns to the map; every item links to its source and shows an as-of date; empty items say 'Not yet covered'; the daily research runs flag a mind map as stale when a milestone, blocker or next step changes.
   - Replaces the current industry mind map (double-click/long-press).
 - **Growth path (decided by Cassidy, Oct 8): keep everything free and build a user base with email-only Buttondown sign-ups (no passwords, double opt-in). Paid stays off.** Done: content gaps pass, sign-up box (SW v27). Next: the weekly Monday Haul email and its archive.
