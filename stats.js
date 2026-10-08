@@ -48,6 +48,7 @@ export const WB_INDICATORS = [
   { id: 'trade', code: 'NE.TRD.GNFS.ZS', title: 'Trade', label: 'Trade (exports + imports)', unit: '% of GDP', kind: 'pct', desk: 'activity' },
   { id: 'inflation', code: 'FP.CPI.TOTL.ZG', title: 'Inflation, consumer prices', label: 'Consumer price inflation', unit: '% y/y', kind: 'pct', desk: 'prices' },
   { id: 'gcf', code: 'NE.GDI.TOTL.ZS', title: 'Gross capital formation', label: 'Investment (gross capital formation)', unit: '% of GDP', kind: 'pct', desk: 'capital' },
+  { id: 'stability', code: 'GOV_WGI_PV.SC', title: 'Political stability and absence of violence', label: 'Political stability score', unit: 'score 0-100', kind: 'num', desk: 'capital', dataset: 'Worldwide Governance Indicators', page: 'https://www.worldbank.org/en/publication/worldwide-governance-indicators' },
   { id: 'fdi', code: 'BX.KLT.DINV.WD.GD.ZS', title: 'Foreign direct investment, net inflows', label: 'Foreign direct investment, net inflows', unit: '% of GDP', kind: 'pct', desk: 'capital' },
 ];
 

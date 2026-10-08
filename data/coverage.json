@@ -6,13 +6,13 @@
  "stateEquivalents": 4315,
  "cities": 1122,
  "leaders": {
-  "countries": 100,
+  "countries": 136,
   "stateEquivalents": 64,
   "cities": 0
  },
  "indicators": {
   "world": true,
-  "countries": 179
+  "countries": 181
  },
  "seats": {
   "places": 1,
@@ -26,14 +26,18 @@
   "sectorSlots": 0
  },
  "heads": {
-  "headOfState": 81,
-  "headOfGovernment": 70,
-  "both": 51
+  "headOfState": 113,
+  "headOfGovernment": 102,
+  "both": 79
  },
  "sectors": {
   "countries": 181
  },
  "energyMix": {
-  "countries": 181
+  "countries": 181,
+  "usStates": 51
+ },
+ "usStates": {
+  "whatChanged": 51
  }
 }

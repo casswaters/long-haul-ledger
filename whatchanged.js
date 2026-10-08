@@ -7,6 +7,7 @@
  * lines gets one quiet "Not yet covered" line with the planned source.
  */
 import { FRED_SERIES, PINK_SERIES, PRICES_ORDER, WB_INDICATORS, WB_MAX_AGE_YEARS, fredPage } from './stats.js';
+import { stateLines } from './usstates.js';
 
 export const GROUPS = [
   { id: 'activity', title: 'Activity' },
@@ -120,7 +121,7 @@ export function lineFromWorldBank(ind, v, now = new Date()) {
       change: prior ? changeOf(v.value, prior.value, { unit, decimals: 1, money }) : null,
       asOf: v.year, asOfText: v.year, frequency: 'annual',
       prior: prior ? { display: money ? fmtMoneyShort(prior.value) : `${fmtNumber(prior.value, 1)} ${unit}`, asOfText: prior.year } : null,
-      detail: `${ind.title} (${ind.unit}), World Bank World Development Indicators ${ind.code}.`,
+      detail: `${ind.title} (${ind.unit}), World Bank ${ind.dataset || 'World Development Indicators'} ${ind.code}.`,
       source: { name: 'World Bank', url: v.sourceUrl }, caveat: year <= nowYear - 6 ? `Older figure: latest published year is ${v.year}.` : null,
       older: year <= nowYear - 6, stale: false, spark: null,
     },
@@ -138,7 +139,7 @@ export function plannedSource(place) {
   if (place.country === 'us') {
     return place.level === 'city'
       ? 'BLS metro unemployment and payrolls (via FRED)'
-      : 'BLS state unemployment and payrolls, FRED state series';
+      : 'BEA state GDP, Census ACS, BLS state unemployment (via FRED)';
   }
   if (place.level === 'city') return 'National statistics office city data';
   return 'Eurostat, OECD regional statistics or the national statistics office';
@@ -171,6 +172,8 @@ export function placeIndicators(place, data = {}, now = new Date()) {
       }
     }
   }
+  // US states: BEA, Census, BLS and EIA figures (built box-side or in CI from official APIs).
+  if (p.level === 'admin1' && p.country === 'us' && p.admin1) lines.push(...stateLines(p.admin1, data.usStates));
   const order = (l) => {
     const i = PRICES_ORDER.indexOf(l.id);
     return i >= 0 ? i : 100 + (l.id.startsWith('wb-') ? 50 : 0);
@@ -242,8 +245,9 @@ export function coverageLine(c) {
   if (!c) return '';
   const h = c.heads;
   const heads = h ? `heads of state confirmed for ${h.headOfState} of ${c.countries} countries and heads of government for ${h.headOfGovernment} (both seats for ${h.both}); ` : '';
-  const sect = c.sectors ? `sector share strips for ${c.sectors.countries} of ${c.countries} countries and the electricity mix for ${c.energyMix?.countries ?? 0}; ` : '';
-  return `Coverage today: ${heads}leaders for ${c.leaders.countries} of ${c.countries} countries, ${c.leaders.stateEquivalents} of ${c.stateEquivalents.toLocaleString('en-US')} state equivalents and ${c.leaders.cities} of ${c.cities.toLocaleString('en-US')} cities; What changed lines for ${c.indicators.countries} of ${c.countries} countries${c.indicators.world ? ' and the World' : ''}; ${sect}key seats for ${c.seats.places} ${c.seats.places === 1 ? 'country' : 'places'} (${c.seats.seats} seats); own news stories for ${c.news.countriesWithStories} of ${c.countries} countries; ${c.briefs.energySlots} Energy brief slots and ${c.briefs.sectorSlots} sector brief slots written.`;
+  const usN = (n) => (n === 51 ? 'all 50 US states and the District of Columbia' : `${n} US states`);
+  const sect = c.sectors ? `sector share strips for ${c.sectors.countries} of ${c.countries} countries and the electricity mix for ${c.energyMix?.countries ?? 0} countries${c.energyMix?.usStates ? ` plus ${usN(c.energyMix.usStates)}` : ''}; ` : '';
+  return `Coverage today: ${heads}leaders for ${c.leaders.countries} of ${c.countries} countries, ${c.leaders.stateEquivalents} of ${c.stateEquivalents.toLocaleString('en-US')} state equivalents and ${c.leaders.cities} of ${c.cities.toLocaleString('en-US')} cities; What changed lines for ${c.indicators.countries} of ${c.countries} countries${c.indicators.world ? ' and the World' : ''}${c.usStates?.whatChanged ? ` plus ${usN(c.usStates.whatChanged)}` : ''}; ${sect}key seats for ${c.seats.places} ${c.seats.places === 1 ? 'country' : 'places'} (${c.seats.seats} seats); own news stories for ${c.news.countriesWithStories} of ${c.countries} countries; ${c.briefs.energySlots} Energy brief slots and ${c.briefs.sectorSlots} sector brief slots written.`;
 }
 
 export const ALL_SERIES = [...FRED_SERIES, ...PINK_SERIES];
