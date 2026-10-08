@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T17:27:00.161Z",
+ "generatedAt": "2026-10-08T17:53:09.907Z",
  "sector": "services",
  "maxAgeDays": 10,
  "places": {
@@ -14,7 +14,7 @@
        "title": "Harvey Nichols’ Birmingham store to close in January",
        "url": "https://www.theguardian.com/business/2026/oct/08/harvey-nichols-birmingham-store-closure-frasers-group-mike-ashley",
        "source": "The Guardian Business",
-       "published": "2026-10-08T16:28:22.000Z",
+       "published": "2026-10-08T17:18:09.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -25,7 +25,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Store closure will cost at least 60 jobs, while Leeds and Bristol outlets to be converted to Flannels brand Harvey Nichols’ Birmingham store is to close in January, with the loss of at least 60 jobs, while its Leeds and Bristol outlets will be converted to the Flannels brand in a"
+       "blurb": "Closure will cost at least 60 jobs, while Leeds and Bristol outlets to be converted to Flannels brand Harvey Nichols’ Birmingham store is to close in January, with the loss of at least 60 jobs, while its Leeds and Bristol outlets will be converted to the Flannels brand in a shake"
       },
       {
        "title": "US wholesale: August import surge masks softness in shrimp pricing",
@@ -381,23 +381,6 @@
        "blurb": "Tight monetary policy and high interest rates are driving banks back into government debt as the economy slows, partly due to a lack of credit. Leer más"
       },
       {
-       "title": "Tsholotsho RDC seeks US$1m loan for roads, equipment",
-       "url": "https://newsday.co.zw/article/tsholotsho-rdc-seeks-us1m-loan-for-roads-equipment-2",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-08T07:42:45.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/tsholotsho-rdc-seeks-us1m-loan-for-roads-equipment-2",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "TSHOLOTSHO, Oct. 8 (NewsDay Live) – Tsholotsho Rural District Council is seeking a US$1 million loan from People’s Own Savings Bank (POSB) to address infrastructure and service-delivery gaps affecting communities in the district. The proposed borrowing would fund equipment for ro"
-      },
-      {
        "title": "South Korea Investigates Possible Use of A.I. in Hackings on Its Banks",
        "url": "https://www.nytimes.com/2026/10/06/world/asia/south-korea-banks-hacked-ai.html",
        "source": "NYT Technology",
@@ -447,6 +430,23 @@
        "stages": [],
        "via": null,
        "blurb": "Specialist institutional investors took on credit risk for millions of euro of potential losses on loans"
+      },
+      {
+       "title": "Amid battle for AI edge, Hong Kong presses HSBC over Singapore hub decision: sources",
+       "url": "https://www.scmp.com/business/banking-finance/article/3370203/amid-battle-ai-edge-hong-kong-presses-hsbc-over-singapore-hub-decision-sources?utm_source=rss_feed",
+       "source": "South China Morning Post",
+       "published": "2026-10-08T12:00:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "South China Morning Post",
+         "url": "https://www.scmp.com/business/banking-finance/article/3370203/amid-battle-ai-edge-hong-kong-presses-hsbc-over-singapore-hub-decision-sources?utm_source=rss_feed",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "As Hong Kong and Singapore compete for leadership in businesses ranging from foreign exchange trading to wealth management, the battleground has extended to artificial intelligence, with both cities vying to attract investment from HSBC Holdings and other major corporations, acco"
       }
      ]
     },
@@ -646,6 +646,23 @@
        "blurb": "Once scientists are able to develop practical quantum computers, the technology could quickly break the encryption methods protecting patient data. Experts say healthcare leaders should start preparing for that reality today."
       },
       {
+       "title": "Women are talking about menopause — health systems must listen",
+       "url": "https://www.nature.com/articles/d41586-026-03218-5",
+       "source": "Nature",
+       "published": "2026-10-08T00:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Nature",
+         "url": "https://www.nature.com/articles/d41586-026-03218-5",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Nature, Published online: 08 October 2026; doi:10.1038/d41586-026-03218-5 In the Arab world, lack of training, research and discussion about menopause is hampering care. Three changes can help."
+      },
+      {
        "title": "Outpatient shift accelerates as hospital margins rebound",
        "url": "https://www.healthcaredive.com/news/outpatient-shift-accelerates-hospital-margins-rebound-strata/832490/",
        "source": "Healthcare Dive",
@@ -826,23 +843,6 @@
        "blurb": "High school and university students across France launched a fourth straight day of nationwide action on Thursday, after Prime Minister Sébastien Lecornu promised measures to improve conditions in schools but stopped short of announcing immediate changes."
       },
       {
-       "title": "Government urges institutions to insure infrastructure against natural disasters",
-       "url": "https://newsday.co.zw/article/tsholotsho-rdc-seeks-us1m-loan-for-roads-equipment",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-08T06:34:04.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/tsholotsho-rdc-seeks-us1m-loan-for-roads-equipment",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Sibanda's call follows Monday's hailstorm that damaged several buildings at Masvingo Polytechnic, Masvingo Teachers' College and Great Zimbabwe University (GZU). The post Government urges institutions to insure infrastructure against natural disasters appeared first on Newsday ."
-      },
-      {
        "title": "French PM vows to address debt despite student protests",
        "url": "https://www.france24.com/en/french-pm-vows-to-address-debt-despite-student-protests",
        "source": "France 24 Business",
@@ -960,6 +960,23 @@
        "stages": [],
        "via": null,
        "blurb": "University groups are urging Congress to reverse the cuts, while seven states have challenged the administration’s wider effort to withhold funding approved by lawmakers. The post Trump targets $70m in international education funding as opposition grows appeared first on The PIE "
+      },
+      {
+       "title": "US proposes $100,000 charge for international students to do post-graduate work",
+       "url": "https://www.nature.com/articles/d41586-026-02921-7",
+       "source": "Nature",
+       "published": "2026-10-08T00:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Nature",
+         "url": "https://www.nature.com/articles/d41586-026-02921-7",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Nature, Published online: 08 October 2026; doi:10.1038/d41586-026-02921-7 Proposed rule would choke off a crucial STEM talent pipeline, policy specialists say"
       }
      ]
     },
@@ -1181,10 +1198,10 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Shares fall as Middle East tanker attacks drive oil prices higher",
-       "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-08T16:34:30.000Z",
+       "title": "Oil jumps 5% as Hormuz tanker attacks escalate, US Gulf hurricane shuts in production",
+       "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:35:57.000Z",
        "verification": "confirmed",
        "outlets": [
         {
@@ -1203,6 +1220,11 @@
          "primary": false
         },
         {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+         "primary": false
+        },
+        {
          "name": "The Straits Times Business",
          "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
          "primary": false
@@ -1218,14 +1240,24 @@
          "primary": false
         },
         {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+         "primary": false
+        },
+        {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Ryanair falls as Michael O’Leary warns that ‘insanely higher’ jet fuel prices could last until 2028"
+       "blurb": "Market volatility increased as geopolitical tensions in the Middle East and hurricane preparations in the US Gulf led to production cuts and shipping disruptions, pushing Brent and WTI crude prices higher."
       },
       {
        "title": "Enbridge Texas Eastern natgas pipeline sees Kentucky pipe back in early November",
@@ -1243,23 +1275,6 @@
        "stages": [],
        "via": null,
        "blurb": "Canadian energy company Enbridge’s Texas Eastern Transmission (TETCo) unit said on Wednesday that it expects the pipeline between the Tompkinsville and Danville compressor stations in Kentucky to return to service during the first week of November."
-      },
-      {
-       "title": "Attack risks rise for tankers as Iran vows to block more Hormuz routes",
-       "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/08/attack-risks-rise-for-tankers-as-iran-vows-to-block-more-hormuz-routes/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T17:49:42.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/08/attack-risks-rise-for-tankers-as-iran-vows-to-block-more-hormuz-routes/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Tankers are facing a higher risk of attacks and intimidation as they try to get critical shipments through the Strait of Hormuz after Iran issued new warnings it would block routes that it has not authorized, sources said."
       },
       {
        "title": "South Africa: SA's Railway Safety Improves",
@@ -1335,28 +1350,6 @@
        "blurb": "The Air SMP and Economy Air services can speed up inventory replenishment and help with peak season preparations, according to Amazon."
       },
       {
-       "title": "Tanker attack off Qatar widens Gulf shipping conflict",
-       "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
-       "source": "Splash247",
-       "published": "2026-10-08T08:45:29.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/qatar_brings_empty_lng_ships_into_gulf-07-oct-2026-184793-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The war on merchant shipping in the Middle East has taken a worrying geographical turn, with casualties reported aboard a tanker attacked off Qatar, hundreds of miles west of the Strait of Hormuz, while a containership has also come under fire in the Red Sea. The Antigua and Barb"
-      },
-      {
        "title": "Can 3-year degrees boost the teacher pipeline?",
        "url": "https://www.highereddive.com/news/can-3-year-degrees-boost-the-teacher-pipeline/832113/",
        "source": "Higher Ed Dive",
@@ -1374,7 +1367,7 @@
        "blurb": "Arizona State University is offering a shorter teacher pathway this fall with a goal of removing financial barriers for students aspiring to enter the profession."
       },
       {
-       "title": "Kenya Tightens Ebola Checks at Nairobi Airport on 7 October",
+       "title": "Kenya Tightens Ebola Checks at Nairobi Airport",
        "url": "https://www.riotimesonline.com/kenya-ebola-screening-nairobi-airport-us-travellers-2026/",
        "source": "The Rio Times",
        "published": "2026-10-08T15:03:00.000Z",
@@ -1388,7 +1381,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Kenya now sends arrivals from 10 African countries through a dedicated Ebola screening gate at Nairobi's airport. Here is what US travellers need to know. The post Kenya Tightens Ebola Checks at Nairobi Airport on 7 October appeared first on The Rio Times ."
+       "blurb": "Kenya now sends arrivals from 10 African countries through a dedicated Ebola screening gate at Nairobi's airport. Here is what US travellers need to know. The post Kenya Tightens Ebola Checks at Nairobi Airport appeared first on The Rio Times ."
       },
       {
        "title": "Pipeline Outages Pin Appalachian Natural Gas Prices Below $1",
@@ -1423,6 +1416,40 @@
        "stages": [],
        "via": null,
        "blurb": "After a local hunter reported a 'big cat sighting' near Munich, local police have deployed drones, dogs and a helicopter to comb the surrounding region."
+      },
+      {
+       "title": "The battle against supply chain chaos keeps SMBs ‘in overdrive’",
+       "url": "https://theloadstar.com/the-battle-against-supply-chain-chaos-keeps-smbs-in-overdrive/",
+       "source": "The Loadstar",
+       "published": "2026-10-08T14:00:08.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Loadstar",
+         "url": "https://theloadstar.com/the-battle-against-supply-chain-chaos-keeps-smbs-in-overdrive/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Small and mid-sized shippers (SMBs) are in a state of permanent overdrive, according to a report by Netstock. Inventory moves have accelerated, dead stock is threatening to pile up on them, and traditional, linear supply chain planning is failing. The 2026 Supply Chain Planning B"
+      },
+      {
+       "title": "Global supply chain imbalance creates opportunities for overseas manufacturers to sell wafers to the US",
+       "url": "https://www.pv-tech.org/global-supply-chain-imbalance-opportunites-overseas-manufacturers-sell-wafers-the-us/",
+       "source": "PV Tech",
+       "published": "2026-10-08T13:55:58.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/global-supply-chain-imbalance-opportunites-overseas-manufacturers-sell-wafers-the-us/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "PV Talk: Indosol's Manoj Pothireddy tells PV Tech Premium that opportunities remain for overseas wafer manufacturers to export to the US."
       }
      ]
     },
@@ -1430,10 +1457,10 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Shares fall as Middle East tanker attacks drive oil prices higher",
-       "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-08T16:34:30.000Z",
+       "title": "Oil jumps 5% as Hormuz tanker attacks escalate, US Gulf hurricane shuts in production",
+       "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:35:57.000Z",
        "verification": "confirmed",
        "outlets": [
         {
@@ -1452,6 +1479,11 @@
          "primary": false
         },
         {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+         "primary": false
+        },
+        {
          "name": "The Straits Times Business",
          "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
          "primary": false
@@ -1467,8 +1499,18 @@
          "primary": false
         },
         {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+         "primary": false
+        },
+        {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
          "primary": false
         }
        ],
@@ -1477,7 +1519,7 @@
         "from": "energy",
         "stage": "grid"
        },
-       "blurb": "Ryanair falls as Michael O’Leary warns that ‘insanely higher’ jet fuel prices could last until 2028"
+       "blurb": "Market volatility increased as geopolitical tensions in the Middle East and hurricane preparations in the US Gulf led to production cuts and shipping disruptions, pushing Brent and WTI crude prices higher."
       },
       {
        "title": "South Africa to procure 4.6 GW of battery storage",
@@ -1503,6 +1545,23 @@
         "stage": "grid"
        },
        "blurb": "South Africa is preparing large-scale procurement of battery storage facilities and gas-fired power plants in a bid to address curtailment and strengthen reliable electricity supply. The post South Africa to procure 4.6 GW of battery storage appeared first on pv magazine Global ."
+      },
+      {
+       "title": "Russian attacks plunge Kyiv into near-total darkness, disrupt power, metro, water supply",
+       "url": "https://kyivindependent.com/russian-attacks-plunge-kyiv-into-near-total-darkness-disrupt-power-metro-water-supply/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-08T17:36:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/russian-attacks-plunge-kyiv-into-near-total-darkness-disrupt-power-metro-water-supply/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The drop in voltage temporarily halted Kyiv Metro train services and escalator operations, the Kyiv City State Administration (KMDA) said. Other parts of the capital's public transport network were also affected."
       },
       {
        "title": "Energy Transfer Buys Already Integrated Vaquero Assets for Over $2.6B",
@@ -1627,6 +1686,26 @@
        "blurb": "US LNG exporter Venture Global shipped 124 LNG cargoes from its Calcasieu Pass and Plaquemines LNG export terminals in the third quarter of this year."
       },
       {
+       "title": "European Natural Gas Prices Defy Rebound in Middle Eastern LNG Shipments",
+       "url": "https://naturalgasintel.com/news/european-natural-gas-prices-defy-rebound-in-middle-eastern-lng-shipments/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-08T17:44:01.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/european-natural-gas-prices-defy-rebound-in-middle-eastern-lng-shipments/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "LNG moving through the Strait of Hormuz climbed to 1.13 Mt in September, according to Kpler data, marking a 13% increase from 1 Mt in August. September’s volumes were the highest monthly ..."
+      },
+      {
        "title": "Storage Surprise Sends Natural Gas Futures Sliding Toward $3.10",
        "url": "https://naturalgasintel.com/news/tph-research-analyst-zack-van-everen-said-natural-gas-demand-declined-277-bcfd-weekweek-led-by-a-189-bcfd-reduction-in-power-burn-amid-a-30-drop-in-cooling-degree-days-early-estimates-for-the-storage-report-for-the-week-ending-oct-9-point-to-a-77/",
        "source": "Natural Gas Intelligence",
@@ -1685,46 +1764,6 @@
         "stage": "grid"
        },
        "blurb": "The US Energy Information Administration (EIA) on Thursday printed an injection of 85 Bcf natural gas into storage for the week ended Oct. 2. The result fell short of historical norms but exceeded market expectations. Natural gas futures slipped in immediate trading after the pri"
-      },
-      {
-       "title": "China's Tianwan 7 connected to the grid",
-       "url": "https://www.world-nuclear-news.org/articles/chinas-tianwan-7-connected-to-the-grid",
-       "source": "World Nuclear News",
-       "published": "2026-10-08T14:59:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/chinas-tianwan-7-connected-to-the-grid",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "Tianwan Nuclear Power Plant's unit 7 has been successfully connected to the grid, China National Nuclear Corporation has announced."
-      },
-      {
-       "title": "Pipeline Outages Pin Appalachian Natural Gas Prices Below $1",
-       "url": "https://naturalgasintel.com/news/pipeline-outages-pin-appalachian-natural-gas-prices-below-1/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T14:56:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/pipeline-outages-pin-appalachian-natural-gas-prices-below-1/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "Texas Eastern Transmission (Tetco) expects its Line 15 outage in Kentucky to last into early November, keeping Appalachian natural gas bottled up and regional cash prices under pressure as other outages add to the squeeze."
       }
      ]
     }
@@ -2450,6 +2489,23 @@
        "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
       },
       {
+       "title": "US proposes $100,000 charge for international students to do post-graduate work",
+       "url": "https://www.nature.com/articles/d41586-026-02921-7",
+       "source": "Nature",
+       "published": "2026-10-08T00:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Nature",
+         "url": "https://www.nature.com/articles/d41586-026-02921-7",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Nature, Published online: 08 October 2026; doi:10.1038/d41586-026-02921-7 Proposed rule would choke off a crucial STEM talent pipeline, policy specialists say"
+      },
+      {
        "title": "Woodworking college receives accreditation for Carpentry and Timber Framing program",
        "url": "https://www.woodworkingnetwork.com/news/woodworking-industry-news/woodworking-college-receives-accreditation-carpentry-and-timber",
        "source": "Woodworking Network",
@@ -2465,23 +2521,6 @@
        "stages": [],
        "via": null,
        "blurb": "Woodworking college receives accreditation for Carpentry and Timber Framing program October 8, 2026 | 10:57 am CDT googletag.cmd.push(function() { // Start by defining breakpoints for this ad. var mapping = googletag.sizeMapping() .addSize([768, 0], [320, 50]) .addSize([480, 0], "
-      },
-      {
-       "title": "FMCSA has closed nearly 10,000 truck driver school locations",
-       "url": "https://www.ttnews.com/articles/fmcsa-10000-trucker-schools",
-       "source": "Transport Topics",
-       "published": "2026-10-08T14:31:02.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Transport Topics",
-         "url": "https://www.ttnews.com/articles/fmcsa-10000-trucker-schools",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "An agency spokesperson told TT that the high number of schools closed is due largely to rigorous crackdowns by investigators and safety inspectors."
       },
       {
        "title": "MIT announces the MIT for America initiative, to strengthen STEM education across the country",
@@ -2618,6 +2657,68 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Oil jumps 5% as Hormuz tanker attacks escalate, US Gulf hurricane shuts in production",
+       "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:35:57.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "World Trade Organization",
+         "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
+         "primary": true
+        },
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
+         "primary": false
+        },
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/international/2026/10/08/wto-raises-merchandise-trade-growth-forecast-to-39-as-ai-boom-offsets-hit-from-middle-east/",
+         "primary": false
+        },
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
+         "primary": false
+        },
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Market volatility increased as geopolitical tensions in the Middle East and hurricane preparations in the US Gulf led to production cuts and shipping disruptions, pushing Brent and WTI crude prices higher."
+      },
+      {
        "title": "Enbridge Texas Eastern natgas pipeline sees Kentucky pipe back in early November",
        "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/enbridge-texas-eastern-natgas-pipeline-sees-kentucky-pipe-back-in-early-november/",
        "source": "BNN Bloomberg",
@@ -2737,7 +2838,7 @@
        "blurb": "Texas Eastern Transmission (Tetco) expects its Line 15 outage in Kentucky to last into early November, keeping Appalachian natural gas bottled up and regional cash prices under pressure as other outages add to the squeeze."
       },
       {
-       "title": "Kenya Tightens Ebola Checks at Nairobi Airport on 7 October",
+       "title": "Kenya Tightens Ebola Checks at Nairobi Airport",
        "url": "https://www.riotimesonline.com/kenya-ebola-screening-nairobi-airport-us-travellers-2026/",
        "source": "The Rio Times",
        "published": "2026-10-08T15:03:00.000Z",
@@ -2751,7 +2852,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Kenya now sends arrivals from 10 African countries through a dedicated Ebola screening gate at Nairobi's airport. Here is what US travellers need to know. The post Kenya Tightens Ebola Checks at Nairobi Airport on 7 October appeared first on The Rio Times ."
+       "blurb": "Kenya now sends arrivals from 10 African countries through a dedicated Ebola screening gate at Nairobi's airport. Here is what US travellers need to know. The post Kenya Tightens Ebola Checks at Nairobi Airport appeared first on The Rio Times ."
       },
       {
        "title": "High yields spark new container services on ‘bumpy’ India-Middle East trade",
@@ -2803,29 +2904,77 @@
        "stages": [],
        "via": null,
        "blurb": "Chevron CFO Eimear Bonner expects energy prices to stay elevated, while a major trucking CEO says contracts signed before diesel prices rose are hurting the bottom line."
-      },
-      {
-       "title": "Pistiolis doubles down at GSI with four more MRs",
-       "url": "https://splash247.com/pistiolis-doubles-down-at-gsi-with-four-more-mrs/",
-       "source": "Splash247",
-       "published": "2026-10-08T07:13:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/pistiolis-doubles-down-at-gsi-with-four-more-mrs/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Evangelos Pistiolis-led Top Ships is adding another four MR tanker newbuildings at Guangzhou Shipyard International, lifting its newbuilding pipeline in the segment to 14 ships. The New York-listed Greek owner has agreed to acquire four related-party special purpose companies hol"
       }
      ]
     },
     "utilities": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Oil jumps 5% as Hormuz tanker attacks escalate, US Gulf hurricane shuts in production",
+       "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:35:57.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "World Trade Organization",
+         "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
+         "primary": true
+        },
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
+         "primary": false
+        },
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/international/2026/10/08/wto-raises-merchandise-trade-growth-forecast-to-39-as-ai-boom-offsets-hit-from-middle-east/",
+         "primary": false
+        },
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
+         "primary": false
+        },
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "Market volatility increased as geopolitical tensions in the Middle East and hurricane preparations in the US Gulf led to production cuts and shipping disruptions, pushing Brent and WTI crude prices higher."
+      },
       {
        "title": "ContourGlobal begins Arizona solar-storage construction",
        "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
@@ -3070,26 +3219,6 @@
         "stage": "grid"
        },
        "blurb": "The soil in northwest Iowa is so fertile it’s referred to as “black gold.” “It’s incredibly rich, wonderful topsoil from thousands of years of silty deposits from the Missouri River,” said Luke Seaberg, a researcher at Iowa State University’s extension program. So rich that some "
-      },
-      {
-       "title": "Energy Department Announces $4.2 Billion Investment to Boost Nuclear Power and Help Lower Energy Costs in Pennsylvania and Ohio",
-       "url": "https://www.energy.gov/articles/energy-department-announces-42-billion-investment-boost-nuclear-power-and-help-lower",
-       "source": "U.S. Department of Energy",
-       "published": "2026-10-05T16:05:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "U.S. Department of Energy",
-         "url": "https://www.energy.gov/articles/energy-department-announces-42-billion-investment-boost-nuclear-power-and-help-lower",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "Today’s announcement will deliver more reliable American energy, strengthen the grid, lower costs, and meet growing power demand across the 13-state PJM Interconnection, L.L.C. region."
       }
      ]
     }
@@ -4485,23 +4614,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Attack risks rise for tankers as Iran vows to block more Hormuz routes",
-       "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/08/attack-risks-rise-for-tankers-as-iran-vows-to-block-more-hormuz-routes/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T17:49:42.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/08/attack-risks-rise-for-tankers-as-iran-vows-to-block-more-hormuz-routes/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Tankers are facing a higher risk of attacks and intimidation as they try to get critical shipments through the Strait of Hormuz after Iran issued new warnings it would block routes that it has not authorized, sources said."
-      },
-      {
        "title": "High yields spark new container services on ‘bumpy’ India-Middle East trade",
        "url": "https://theloadstar.com/high-yields-spark-new-container-services-on-bumpy-india-middle-east-trade/",
        "source": "The Loadstar",
@@ -5379,7 +5491,7 @@
        "title": "Harvey Nichols’ Birmingham store to close in January",
        "url": "https://www.theguardian.com/business/2026/oct/08/harvey-nichols-birmingham-store-closure-frasers-group-mike-ashley",
        "source": "The Guardian Business",
-       "published": "2026-10-08T16:28:22.000Z",
+       "published": "2026-10-08T17:18:09.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -5390,7 +5502,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Store closure will cost at least 60 jobs, while Leeds and Bristol outlets to be converted to Flannels brand Harvey Nichols’ Birmingham store is to close in January, with the loss of at least 60 jobs, while its Leeds and Bristol outlets will be converted to the Flannels brand in a"
+       "blurb": "Closure will cost at least 60 jobs, while Leeds and Bristol outlets to be converted to Flannels brand Harvey Nichols’ Birmingham store is to close in January, with the loss of at least 60 jobs, while its Leeds and Bristol outlets will be converted to the Flannels brand in a shake"
       },
       {
        "title": "Toy retailer Smyths sees revenues top £1bn for first time at UK business",
@@ -5481,6 +5593,23 @@
        "stages": [],
        "via": null,
        "blurb": "Plan comes as lender ramps up cost-cutting efforts and pursues a sale of its U.K. bank subsidiary"
+      },
+      {
+       "title": "Ex-Barclays traders jailed for rigging interest rates have convictions quashed",
+       "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+       "source": "The Guardian Business",
+       "published": "2026-10-07T15:19:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Acquittals of five former bankers come year after supreme court overturned ruling against City trader Tom Hayes Five more former traders who were jailed for rigging interest rates have had their convictions quashed by the court of appeal in London, after a long battle to clear th"
       },
       {
        "title": "Minutes of the Meeting of the Court of Directors held on 16 July 2026",
@@ -5833,6 +5962,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Russian attacks plunge Kyiv into near-total darkness, disrupt power, metro, water supply",
+       "url": "https://kyivindependent.com/russian-attacks-plunge-kyiv-into-near-total-darkness-disrupt-power-metro-water-supply/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-08T17:36:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/russian-attacks-plunge-kyiv-into-near-total-darkness-disrupt-power-metro-water-supply/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The drop in voltage temporarily halted Kyiv Metro train services and escalator operations, the Kyiv City State Administration (KMDA) said. Other parts of the capital's public transport network were also affected."
+      },
+      {
        "title": "Solar emerges as an alternative to Nigeria’s unreliable grid {Business Africa}",
        "url": "https://www.euronews.com/2026/10/08/solar-emerges-as-an-alternative-to-nigerias-unreliable-grid-business-africa",
        "source": "Euronews Business",
@@ -6091,34 +6237,6 @@
     }
    }
   },
-  "us-nj": {
-   "label": "New Jersey",
-   "level": "admin1",
-   "sources": {
-    "utilities": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Utility Contractor Shows Systematic Success",
-       "url": "https://www.enr.com/articles/63795-utility-contractor-shows-systematic-success",
-       "source": "ENR (Engineering News-Record)",
-       "published": "2026-10-06T15:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ENR (Engineering News-Record)",
-         "url": "https://www.enr.com/articles/63795-utility-contractor-shows-systematic-success",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "New Jersey-based Skoda Contracting has taken a purposeful approach to becoming a leading underground utility contractor."
-      }
-     ]
-    }
-   }
-  },
   "us-nc": {
    "label": "North Carolina",
    "level": "admin1",
@@ -6301,6 +6419,11 @@
          "primary": false
         },
         {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+         "primary": false
+        },
+        {
          "name": "The Straits Times Business",
          "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
          "primary": false
@@ -6316,8 +6439,18 @@
          "primary": false
         },
         {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+         "primary": false
+        },
+        {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
          "primary": false
         }
        ],
@@ -6353,6 +6486,11 @@
          "primary": false
         },
         {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+         "primary": false
+        },
+        {
          "name": "The Straits Times Business",
          "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
          "primary": false
@@ -6368,8 +6506,18 @@
          "primary": false
         },
         {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+         "primary": false
+        },
+        {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
          "primary": false
         }
        ],
@@ -6444,11 +6592,51 @@
        "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
        "source": "Splash247",
        "published": "2026-10-08T08:45:29.000Z",
-       "verification": "multiple",
+       "verification": "confirmed",
        "outlets": [
         {
+         "name": "World Trade Organization",
+         "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
+         "primary": true
+        },
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
+         "primary": false
+        },
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/international/2026/10/08/wto-raises-merchandise-trade-growth-forecast-to-39-as-ai-boom-offsets-hit-from-middle-east/",
+         "primary": false
+        },
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
+         "primary": false
+        },
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+         "primary": false
+        },
+        {
          "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/qatar_brings_empty_lng_ships_into_gulf-07-oct-2026-184793-article/?rss=true",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
          "primary": false
         },
         {
@@ -6471,11 +6659,51 @@
        "url": "https://www.rigzone.com/news/wire/qatar_brings_empty_lng_ships_into_gulf-07-oct-2026-184793-article/?rss=true",
        "source": "Rigzone",
        "published": "2026-10-07T13:37:15.000Z",
-       "verification": "multiple",
+       "verification": "confirmed",
        "outlets": [
         {
+         "name": "World Trade Organization",
+         "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
+         "primary": true
+        },
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
+         "primary": false
+        },
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/international/2026/10/08/wto-raises-merchandise-trade-growth-forecast-to-39-as-ai-boom-offsets-hit-from-middle-east/",
+         "primary": false
+        },
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
+         "primary": false
+        },
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+         "primary": false
+        },
+        {
          "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/qatar_brings_empty_lng_ships_into_gulf-07-oct-2026-184793-article/?rss=true",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
          "primary": false
         },
         {
@@ -6605,6 +6833,28 @@
    "label": "Westminster",
    "level": "admin1",
    "sources": {
+    "finance": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ex-Barclays traders jailed for rigging interest rates have convictions quashed",
+       "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+       "source": "The Guardian Business",
+       "published": "2026-10-07T15:19:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Acquittals of five former bankers come year after supreme court overturned ruling against City trader Tom Hayes Five more former traders who were jailed for rigging interest rates have had their convictions quashed by the court of appeal in London, after a long battle to clear th"
+      }
+     ]
+    },
     "transport": {
      "brief": "missing",
      "candidates": [
@@ -6678,6 +6928,28 @@
    "label": "London",
    "level": "city",
    "sources": {
+    "finance": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ex-Barclays traders jailed for rigging interest rates have convictions quashed",
+       "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+       "source": "The Guardian Business",
+       "published": "2026-10-07T15:19:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Acquittals of five former bankers come year after supreme court overturned ruling against City trader Tom Hayes Five more former traders who were jailed for rigging interest rates have had their convictions quashed by the court of appeal in London, after a long battle to clear th"
+      }
+     ]
+    },
     "transport": {
      "brief": "missing",
      "candidates": [
@@ -6742,56 +7014,6 @@
        "stages": [],
        "via": null,
        "blurb": "Regulator also vetoes extra Blackpool service, citing lack of space on west coast mainline for new trains to capital Business live – latest updates Plans to run direct train services to Wrexham and Rochdale from London have been rejected by the rail regulator because of “signific"
-      }
-     ]
-    }
-   }
-  },
-  "zw": {
-   "label": "Zimbabwe",
-   "level": "country",
-   "sources": {
-    "finance": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Tsholotsho RDC seeks US$1m loan for roads, equipment",
-       "url": "https://newsday.co.zw/article/tsholotsho-rdc-seeks-us1m-loan-for-roads-equipment-2",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-08T07:42:45.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/tsholotsho-rdc-seeks-us1m-loan-for-roads-equipment-2",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "TSHOLOTSHO, Oct. 8 (NewsDay Live) – Tsholotsho Rural District Council is seeking a US$1 million loan from People’s Own Savings Bank (POSB) to address infrastructure and service-delivery gaps affecting communities in the district. The proposed borrowing would fund equipment for ro"
-      }
-     ]
-    },
-    "education": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Government urges institutions to insure infrastructure against natural disasters",
-       "url": "https://newsday.co.zw/article/tsholotsho-rdc-seeks-us1m-loan-for-roads-equipment",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-08T06:34:04.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/tsholotsho-rdc-seeks-us1m-loan-for-roads-equipment",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Sibanda's call follows Monday's hailstorm that damaged several buildings at Masvingo Polytechnic, Masvingo Teachers' College and Great Zimbabwe University (GZU). The post Government urges institutions to insure infrastructure against natural disasters appeared first on Newsday ."
       }
      ]
     }
@@ -7392,28 +7614,6 @@
        "stages": [],
        "via": null,
        "blurb": "Seven new bullet train corridors in works: In the coming years, Indian Railways is looking to make that a reality with seven new bullet train corridors in the works. Bullet trains typically operate at speeds of around 300 kmph, while some definitions of high-speed rail cover serv"
-      },
-      {
-       "title": "GST Council scraps arrest powers of GST officers, ups prosecution threshold to ₹5 crore",
-       "url": "https://www.thehindu.com/business/Economy/gst-council-scraps-arrest-powers-of-gst-officers-ups-prosecution-threshold-to-5-crore/article71559868.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T12:45:25.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Economy/gst-council-scraps-arrest-powers-of-gst-officers-ups-prosecution-threshold-to-5-crore/article71559868.ece",
-         "primary": false
-        },
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/gst-council-meeting-arresting-powers-of-tax-officers-scrapped-prosecution-threshold-raised-to-rs-5-crore/articleshow/134789551.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "On input tax credit claims, the 57th GST Council decided to set up a Committee of Officers to examine how to protect a genuine buyer who holds a proper invoice, has received the goods, and has paid his supplier in full."
       }
      ]
     },
@@ -7764,6 +7964,139 @@
        "stages": [],
        "via": null,
        "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
+      }
+     ]
+    }
+   }
+  },
+  "ua": {
+   "label": "Ukraine",
+   "level": "country",
+   "sources": {
+    "education": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ukrainian school to become 42 homes for families displaced by invasion",
+       "url": "https://www.globalconstructionreview.com/ukrainian-school-to-become-42-homes-for-families-displaced-by-invasion/",
+       "source": "Global Construction Review",
+       "published": "2026-09-30T15:10:45.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Global Construction Review",
+         "url": "https://www.globalconstructionreview.com/ukrainian-school-to-become-42-homes-for-families-displaced-by-invasion/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A former school located in Stavyshche, central Ukraine, is being transformed into a shelter with 42 homes for families displaced by Russia’s invasion. Called Dvir, the 1,900-sq-m building will have… The post Ukrainian school to become 42 homes for families displaced by invasion a"
+      }
+     ]
+    },
+    "transport": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Sweden sends air defence to protect Ukraine logistics hub in Poland",
+       "url": "https://www.thelocal.se/20261006/sweden-sends-air-defence-to-protect-ukraine-logistics-hub-in-poland",
+       "source": "The Local Sweden",
+       "published": "2026-10-06T13:37:35.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Local Sweden",
+         "url": "https://www.thelocal.se/20261006/sweden-sends-air-defence-to-protect-ukraine-logistics-hub-in-poland",
+         "primary": false
+        },
+        {
+         "name": "Notes from Poland",
+         "url": "https://notesfrompoland.com/2026/10/06/sweden-to-deploy-patriot-air-defence-systems-to-poland/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Sweden is sending its Patriot air defence system to Poland to protect a logistics base for military and civilian support for Ukraine."
+      }
+     ]
+    },
+    "utilities": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Russian attacks plunge Kyiv into near-total darkness, disrupt power, metro, water supply",
+       "url": "https://kyivindependent.com/russian-attacks-plunge-kyiv-into-near-total-darkness-disrupt-power-metro-water-supply/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-08T17:36:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/russian-attacks-plunge-kyiv-into-near-total-darkness-disrupt-power-metro-water-supply/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The drop in voltage temporarily halted Kyiv Metro train services and escalator operations, the Kyiv City State Administration (KMDA) said. Other parts of the capital's public transport network were also affected."
+      }
+     ]
+    }
+   }
+  },
+  "ua-kv": {
+   "label": "Kiev",
+   "level": "admin1",
+   "sources": {
+    "utilities": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Russian attacks plunge Kyiv into near-total darkness, disrupt power, metro, water supply",
+       "url": "https://kyivindependent.com/russian-attacks-plunge-kyiv-into-near-total-darkness-disrupt-power-metro-water-supply/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-08T17:36:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/russian-attacks-plunge-kyiv-into-near-total-darkness-disrupt-power-metro-water-supply/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The drop in voltage temporarily halted Kyiv Metro train services and escalator operations, the Kyiv City State Administration (KMDA) said. Other parts of the capital's public transport network were also affected."
+      }
+     ]
+    }
+   }
+  },
+  "ua-city-kyiv": {
+   "label": "Kyiv",
+   "level": "city",
+   "sources": {
+    "utilities": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Russian attacks plunge Kyiv into near-total darkness, disrupt power, metro, water supply",
+       "url": "https://kyivindependent.com/russian-attacks-plunge-kyiv-into-near-total-darkness-disrupt-power-metro-water-supply/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-08T17:36:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/russian-attacks-plunge-kyiv-into-near-total-darkness-disrupt-power-metro-water-supply/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The drop in voltage temporarily halted Kyiv Metro train services and escalator operations, the Kyiv City State Administration (KMDA) said. Other parts of the capital's public transport network were also affected."
       }
      ]
     }
@@ -8379,89 +8712,6 @@
     }
    }
   },
-  "ua": {
-   "label": "Ukraine",
-   "level": "country",
-   "sources": {
-    "education": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukrainian school to become 42 homes for families displaced by invasion",
-       "url": "https://www.globalconstructionreview.com/ukrainian-school-to-become-42-homes-for-families-displaced-by-invasion/",
-       "source": "Global Construction Review",
-       "published": "2026-09-30T15:10:45.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Global Construction Review",
-         "url": "https://www.globalconstructionreview.com/ukrainian-school-to-become-42-homes-for-families-displaced-by-invasion/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A former school located in Stavyshche, central Ukraine, is being transformed into a shelter with 42 homes for families displaced by Russia’s invasion. Called Dvir, the 1,900-sq-m building will have… The post Ukrainian school to become 42 homes for families displaced by invasion a"
-      }
-     ]
-    },
-    "transport": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Sweden sends air defence to protect Ukraine logistics hub in Poland",
-       "url": "https://www.thelocal.se/20261006/sweden-sends-air-defence-to-protect-ukraine-logistics-hub-in-poland",
-       "source": "The Local Sweden",
-       "published": "2026-10-06T13:37:35.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Local Sweden",
-         "url": "https://www.thelocal.se/20261006/sweden-sends-air-defence-to-protect-ukraine-logistics-hub-in-poland",
-         "primary": false
-        },
-        {
-         "name": "Notes from Poland",
-         "url": "https://notesfrompoland.com/2026/10/06/sweden-to-deploy-patriot-air-defence-systems-to-poland/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Sweden is sending its Patriot air defence system to Poland to protect a logistics base for military and civilian support for Ukraine."
-      }
-     ]
-    }
-   }
-  },
-  "sa": {
-   "label": "Saudi Arabia",
-   "level": "country",
-   "sources": {
-    "transport": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "More Than a Quarter of Saudi Flights Disrupted by Houthi Strikes",
-       "url": "https://skift.com/2026/10/08/houthi-strikes-disrupt-a-quarter-of-saudi-flights/",
-       "source": "Skift",
-       "published": "2026-10-08T16:49:45.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Skift",
-         "url": "https://skift.com/2026/10/08/houthi-strikes-disrupt-a-quarter-of-saudi-flights/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "With the Gulf’s main airports now targets, the region’s hub model is losing the reliability it sells."
-      }
-     ]
-    }
-   }
-  },
   "gb-yk": {
    "label": "York",
    "level": "admin1",
@@ -8473,7 +8723,7 @@
        "title": "Harvey Nichols’ Birmingham store to close in January",
        "url": "https://www.theguardian.com/business/2026/oct/08/harvey-nichols-birmingham-store-closure-frasers-group-mike-ashley",
        "source": "The Guardian Business",
-       "published": "2026-10-08T16:28:22.000Z",
+       "published": "2026-10-08T17:18:09.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -8484,7 +8734,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Store closure will cost at least 60 jobs, while Leeds and Bristol outlets to be converted to Flannels brand Harvey Nichols’ Birmingham store is to close in January, with the loss of at least 60 jobs, while its Leeds and Bristol outlets will be converted to the Flannels brand in a"
+       "blurb": "Closure will cost at least 60 jobs, while Leeds and Bristol outlets to be converted to Flannels brand Harvey Nichols’ Birmingham store is to close in January, with the loss of at least 60 jobs, while its Leeds and Bristol outlets will be converted to the Flannels brand in a shake"
       }
      ]
     }
@@ -8501,7 +8751,7 @@
        "title": "Harvey Nichols’ Birmingham store to close in January",
        "url": "https://www.theguardian.com/business/2026/oct/08/harvey-nichols-birmingham-store-closure-frasers-group-mike-ashley",
        "source": "The Guardian Business",
-       "published": "2026-10-08T16:28:22.000Z",
+       "published": "2026-10-08T17:18:09.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -8512,7 +8762,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Store closure will cost at least 60 jobs, while Leeds and Bristol outlets to be converted to Flannels brand Harvey Nichols’ Birmingham store is to close in January, with the loss of at least 60 jobs, while its Leeds and Bristol outlets will be converted to the Flannels brand in a"
+       "blurb": "Closure will cost at least 60 jobs, while Leeds and Bristol outlets to be converted to Flannels brand Harvey Nichols’ Birmingham store is to close in January, with the loss of at least 60 jobs, while its Leeds and Bristol outlets will be converted to the Flannels brand in a shake"
       }
      ]
     },
@@ -8551,7 +8801,7 @@
        "title": "Harvey Nichols’ Birmingham store to close in January",
        "url": "https://www.theguardian.com/business/2026/oct/08/harvey-nichols-birmingham-store-closure-frasers-group-mike-ashley",
        "source": "The Guardian Business",
-       "published": "2026-10-08T16:28:22.000Z",
+       "published": "2026-10-08T17:18:09.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -8562,7 +8812,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Store closure will cost at least 60 jobs, while Leeds and Bristol outlets to be converted to Flannels brand Harvey Nichols’ Birmingham store is to close in January, with the loss of at least 60 jobs, while its Leeds and Bristol outlets will be converted to the Flannels brand in a"
+       "blurb": "Closure will cost at least 60 jobs, while Leeds and Bristol outlets to be converted to Flannels brand Harvey Nichols’ Birmingham store is to close in January, with the loss of at least 60 jobs, while its Leeds and Bristol outlets will be converted to the Flannels brand in a shake"
       }
      ]
     }
@@ -8579,7 +8829,7 @@
        "title": "Harvey Nichols’ Birmingham store to close in January",
        "url": "https://www.theguardian.com/business/2026/oct/08/harvey-nichols-birmingham-store-closure-frasers-group-mike-ashley",
        "source": "The Guardian Business",
-       "published": "2026-10-08T16:28:22.000Z",
+       "published": "2026-10-08T17:18:09.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -8590,7 +8840,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Store closure will cost at least 60 jobs, while Leeds and Bristol outlets to be converted to Flannels brand Harvey Nichols’ Birmingham store is to close in January, with the loss of at least 60 jobs, while its Leeds and Bristol outlets will be converted to the Flannels brand in a"
+       "blurb": "Closure will cost at least 60 jobs, while Leeds and Bristol outlets to be converted to Flannels brand Harvey Nichols’ Birmingham store is to close in January, with the loss of at least 60 jobs, while its Leeds and Bristol outlets will be converted to the Flannels brand in a shake"
       }
      ]
     },
@@ -8618,6 +8868,34 @@
     }
    }
   },
+  "sa": {
+   "label": "Saudi Arabia",
+   "level": "country",
+   "sources": {
+    "transport": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "More Than a Quarter of Saudi Flights Disrupted by Houthi Strikes",
+       "url": "https://skift.com/2026/10/08/houthi-strikes-disrupt-a-quarter-of-saudi-flights/",
+       "source": "Skift",
+       "published": "2026-10-08T16:49:45.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Skift",
+         "url": "https://skift.com/2026/10/08/houthi-strikes-disrupt-a-quarter-of-saudi-flights/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "With the Gulf’s main airports now targets, the region’s hub model is losing the reliability it sells."
+      }
+     ]
+    }
+   }
+  },
   "ke": {
    "label": "Kenya",
    "level": "country",
@@ -8626,7 +8904,7 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Kenya Tightens Ebola Checks at Nairobi Airport on 7 October",
+       "title": "Kenya Tightens Ebola Checks at Nairobi Airport",
        "url": "https://www.riotimesonline.com/kenya-ebola-screening-nairobi-airport-us-travellers-2026/",
        "source": "The Rio Times",
        "published": "2026-10-08T15:03:00.000Z",
@@ -8640,7 +8918,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Kenya now sends arrivals from 10 African countries through a dedicated Ebola screening gate at Nairobi's airport. Here is what US travellers need to know. The post Kenya Tightens Ebola Checks at Nairobi Airport on 7 October appeared first on The Rio Times ."
+       "blurb": "Kenya now sends arrivals from 10 African countries through a dedicated Ebola screening gate at Nairobi's airport. Here is what US travellers need to know. The post Kenya Tightens Ebola Checks at Nairobi Airport appeared first on The Rio Times ."
       }
      ]
     }
@@ -8654,7 +8932,7 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Kenya Tightens Ebola Checks at Nairobi Airport on 7 October",
+       "title": "Kenya Tightens Ebola Checks at Nairobi Airport",
        "url": "https://www.riotimesonline.com/kenya-ebola-screening-nairobi-airport-us-travellers-2026/",
        "source": "The Rio Times",
        "published": "2026-10-08T15:03:00.000Z",
@@ -8668,7 +8946,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Kenya now sends arrivals from 10 African countries through a dedicated Ebola screening gate at Nairobi's airport. Here is what US travellers need to know. The post Kenya Tightens Ebola Checks at Nairobi Airport on 7 October appeared first on The Rio Times ."
+       "blurb": "Kenya now sends arrivals from 10 African countries through a dedicated Ebola screening gate at Nairobi's airport. Here is what US travellers need to know. The post Kenya Tightens Ebola Checks at Nairobi Airport appeared first on The Rio Times ."
       }
      ]
     }
@@ -8682,7 +8960,7 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Kenya Tightens Ebola Checks at Nairobi Airport on 7 October",
+       "title": "Kenya Tightens Ebola Checks at Nairobi Airport",
        "url": "https://www.riotimesonline.com/kenya-ebola-screening-nairobi-airport-us-travellers-2026/",
        "source": "The Rio Times",
        "published": "2026-10-08T15:03:00.000Z",
@@ -8696,7 +8974,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Kenya now sends arrivals from 10 African countries through a dedicated Ebola screening gate at Nairobi's airport. Here is what US travellers need to know. The post Kenya Tightens Ebola Checks at Nairobi Airport on 7 October appeared first on The Rio Times ."
+       "blurb": "Kenya now sends arrivals from 10 African countries through a dedicated Ebola screening gate at Nairobi's airport. Here is what US travellers need to know. The post Kenya Tightens Ebola Checks at Nairobi Airport appeared first on The Rio Times ."
       }
      ]
     }

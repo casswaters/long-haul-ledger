@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T17:26:28.119Z",
+ "generatedAt": "2026-10-08T17:52:28.113Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -267,6 +267,70 @@
      "brief": "ready",
      "candidates": [
       {
+       "title": "Oil jumps 5% as Hormuz tanker attacks escalate, US Gulf hurricane shuts in production",
+       "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:35:57.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "World Trade Organization",
+         "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
+         "primary": true
+        },
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
+         "primary": false
+        },
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/international/2026/10/08/wto-raises-merchandise-trade-growth-forecast-to-39-as-ai-boom-offsets-hit-from-middle-east/",
+         "primary": false
+        },
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
+         "primary": false
+        },
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Market volatility increased as geopolitical tensions in the Middle East and hurricane preparations in the US Gulf led to production cuts and shipping disruptions, pushing Brent and WTI crude prices higher."
+      },
+      {
        "title": "UK ramps up sanctions against Russian shadow fleet, crypto industry, big oil",
        "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
        "source": "The Kyiv Independent",
@@ -311,55 +375,6 @@
        ],
        "via": null,
        "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
-      },
-      {
-       "title": "Shares fall as Middle East tanker attacks drive oil prices higher",
-       "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-08T16:34:30.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "World Trade Organization",
-         "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
-         "primary": true
-        },
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
-         "primary": false
-        },
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/international/2026/10/08/wto-raises-merchandise-trade-growth-forecast-to-39-as-ai-boom-offsets-hit-from-middle-east/",
-         "primary": false
-        },
-        {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
-         "primary": false
-        },
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
-         "primary": false
-        },
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Ryanair falls as Michael O’Leary warns that ‘insanely higher’ jet fuel prices could last until 2028"
       },
       {
        "title": "S&P/TSX composite down despite energy sector strength as oil tops US$90 a barrel",
@@ -640,6 +655,25 @@
        "blurb": "US LNG exporter Venture Global shipped 124 LNG cargoes from its Calcasieu Pass and Plaquemines LNG export terminals in the third quarter of this year."
       },
       {
+       "title": "European Natural Gas Prices Defy Rebound in Middle Eastern LNG Shipments",
+       "url": "https://naturalgasintel.com/news/european-natural-gas-prices-defy-rebound-in-middle-eastern-lng-shipments/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-08T17:44:01.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/european-natural-gas-prices-defy-rebound-in-middle-eastern-lng-shipments/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "LNG moving through the Strait of Hormuz climbed to 1.13 Mt in September, according to Kpler data, marking a 13% increase from 1 Mt in August. September’s volumes were the highest monthly ..."
+      },
+      {
        "title": "Storage Surprise Sends Natural Gas Futures Sliding Toward $3.10",
        "url": "https://naturalgasintel.com/news/tph-research-analyst-zack-van-everen-said-natural-gas-demand-declined-277-bcfd-weekweek-led-by-a-189-bcfd-reduction-in-power-burn-amid-a-30-drop-in-cooling-degree-days-early-estimates-for-the-storage-report-for-the-week-ending-oct-9-point-to-a-77/",
        "source": "Natural Gas Intelligence",
@@ -773,26 +807,6 @@
        ],
        "via": null,
        "blurb": "Williams’ Northwest Pipeline has fully subscribed an 88-mile natural gas line that would move up to 275,000 Dth/d of Opal supply from Tallgrass’ Ruby Pipeline into southern Idaho by 2030."
-      },
-      {
-       "title": "Natural Gas Futures Extend Winning Ways as Traders Size Up Hurricane Threat, Prep for Storage Print",
-       "url": "https://naturalgasintel.com/news/natural-gas-futures-extend-winning-ways-as-traders-size-up-hurricane-threat-prep-for-storage-print/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T12:43:59.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/natural-gas-futures-extend-winning-ways-as-traders-size-up-hurricane-threat-prep-for-storage-print/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid",
-        "extraction"
-       ],
-       "via": null,
-       "blurb": "Natural gas futures traders took stock of Hurricane Isaias approaching the Gulf Coast early Thursday as well as expectations for a bullish government inventory result."
       }
      ]
     },
@@ -2365,6 +2379,70 @@
      "brief": "ready",
      "candidates": [
       {
+       "title": "Oil jumps 5% as Hormuz tanker attacks escalate, US Gulf hurricane shuts in production",
+       "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:35:57.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "World Trade Organization",
+         "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
+         "primary": true
+        },
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
+         "primary": false
+        },
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/international/2026/10/08/wto-raises-merchandise-trade-growth-forecast-to-39-as-ai-boom-offsets-hit-from-middle-east/",
+         "primary": false
+        },
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
+         "primary": false
+        },
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Market volatility increased as geopolitical tensions in the Middle East and hurricane preparations in the US Gulf led to production cuts and shipping disruptions, pushing Brent and WTI crude prices higher."
+      },
+      {
        "title": "U.S. stocks edge further from their record as oil prices rise",
        "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/higher-oil-prices-pull-the-us-stock-market-further-from-its-record/",
        "source": "BNN Bloomberg",
@@ -2499,25 +2577,6 @@
        "stages": [],
        "via": null,
        "blurb": "Brent crude rose above $105 a barrel on Thursday after reports that US President Donald Trump is considering a return to \"major combat operations\" against Iran, while European stock markets opened lower as rising oil prices fuelled inflation fears."
-      },
-      {
-       "title": "Crude oil prices and refinery margins generally increased throughout the third quarter",
-       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
-       "source": "EIA Today in Energy",
-       "published": "2026-10-05T14:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "EIA Today in Energy",
-         "url": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
-         "primary": true
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Petroleum markets in the third quarter of 2026 (3Q26) were characterized by increasing prices for crude oil and petroleum products amid persistent conflict in the Middle East."
       },
       {
        "title": "US supreme court hears big oil’s bid to block climate damage lawsuits",
@@ -2829,26 +2888,23 @@
        "blurb": "New capacity outside the Middle East offsets some losses, but inventories remain low, raising winter risk concerns."
       },
       {
-       "title": "Execs Predict Future Henry Hub NatGas Prices",
-       "url": "https://www.rigzone.com/news/execs_predict_future_henry_hub_natgas_prices-07-oct-2026-184795-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-07T14:30:03.000Z",
-       "verification": "multiple",
+       "title": "Middle River buys 427MW Panoche natural gas plant in California, US",
+       "url": "https://www.power-technology.com/news/middle-river-buys-427mw-panoche-plant/",
+       "source": "Power Technology",
+       "published": "2026-10-07T07:43:37.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/execs_predict_future_henry_hub_natgas_prices-07-oct-2026-184795-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/henry-hub-cash-follows-nymex-higher-as-appalachian-prices-struggle/",
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/middle-river-buys-427mw-panoche-plant/",
          "primary": false
         }
        ],
-       "stages": [],
+       "stages": [
+        "generation"
+       ],
        "via": null,
-       "blurb": "Executives from oil and gas firms revealed where they expect the Henry Hub natural gas price to be at various points in the future in the third quarter Dallas Fed Energy Survey."
+       "blurb": "US-based independent power producer Middle River Power has acquired the fully contracted 427MW Panoche Energy Center, a natural gas generation facility in Firebaugh, California, US, from an Ares Infrastructure Equity fund."
       }
      ]
     },
@@ -5011,16 +5067,11 @@
        "url": "https://www.rigzone.com/news/execs_predict_future_henry_hub_natgas_prices-07-oct-2026-184795-article/?rss=true",
        "source": "Rigzone",
        "published": "2026-10-07T14:30:03.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/execs_predict_future_henry_hub_natgas_prices-07-oct-2026-184795-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/henry-hub-cash-follows-nymex-higher-as-appalachian-prices-struggle/",
          "primary": false
         }
        ],
@@ -7213,6 +7264,11 @@
          "primary": false
         },
         {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+         "primary": false
+        },
+        {
          "name": "The Straits Times Business",
          "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
          "primary": false
@@ -7228,8 +7284,18 @@
          "primary": false
         },
         {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+         "primary": false
+        },
+        {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
          "primary": false
         }
        ],
@@ -8797,16 +8863,11 @@
        "url": "https://www.rigzone.com/news/execs_predict_future_henry_hub_natgas_prices-07-oct-2026-184795-article/?rss=true",
        "source": "Rigzone",
        "published": "2026-10-07T14:30:03.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/execs_predict_future_henry_hub_natgas_prices-07-oct-2026-184795-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/henry-hub-cash-follows-nymex-higher-as-appalachian-prices-struggle/",
          "primary": false
         }
        ],
@@ -8907,11 +8968,51 @@
        "url": "https://www.rigzone.com/news/wire/qatar_brings_empty_lng_ships_into_gulf-07-oct-2026-184793-article/?rss=true",
        "source": "Rigzone",
        "published": "2026-10-07T13:37:15.000Z",
-       "verification": "multiple",
+       "verification": "confirmed",
        "outlets": [
         {
+         "name": "World Trade Organization",
+         "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
+         "primary": true
+        },
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
+         "primary": false
+        },
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/international/2026/10/08/wto-raises-merchandise-trade-growth-forecast-to-39-as-ai-boom-offsets-hit-from-middle-east/",
+         "primary": false
+        },
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
+         "primary": false
+        },
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+         "primary": false
+        },
+        {
          "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/qatar_brings_empty_lng_ships_into_gulf-07-oct-2026-184793-article/?rss=true",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
          "primary": false
         },
         {

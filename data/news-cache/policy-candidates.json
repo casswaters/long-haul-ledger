@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T17:27:31.333Z",
+ "generatedAt": "2026-10-08T17:53:50.717Z",
  "sector": "policy",
  "maxAgeDays": 10,
  "places": {
@@ -10,6 +10,23 @@
     "government": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Trump rules out attack on Iran before midterm elections",
+       "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
+       "source": "The National (UAE)",
+       "published": "2026-10-08T17:37:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "President Donald Trump on Thursday said the US would not attack Iran before the midterm elections and that Washington was engaged in “productive discussions” with Tehran. In a post on Truth Social, Mr Trump said Iran was in a “very bad condition” economically and militarily and t"
+      },
       {
        "title": "EU parliament calls for Muslim Brotherhood terror listings",
        "url": "https://www.thenationalnews.com/news/mena/2026/10/08/eu-parliament-calls-for-muslim-brotherhood-terror-listings/",
@@ -164,40 +181,6 @@
        "blurb": "Turkish Environment Minister and COP31 President-designate Murat Kurum said every country must show the same responsibility and determination."
       },
       {
-       "title": "Kenya: President Ruto Awards 3,727 Kenyans Skills Certificates, Launches Fundi Locator Jobs Portal",
-       "url": "https://allafrica.com/stories/202610080329.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T11:53:24.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080329.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Capital FM] Nairobi -- President William Ruto has awarded skills certificates to 3,727 Kenyans under the government's Recognition of Prior Learning (RPL) programme, as part of efforts to formally recognise skills acquired outside traditional education and training systems."
-      },
-      {
-       "title": "Germany's fractious ruling coalition hails 'constructive' talks",
-       "url": "https://www.thelocal.de/20261008/germanys-fractious-ruling-coalition-hails-constructive-talks",
-       "source": "The Local Germany",
-       "published": "2026-10-08T11:52:01.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Local Germany",
-         "url": "https://www.thelocal.de/20261008/germanys-fractious-ruling-coalition-hails-constructive-talks",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "German Chancellor Friedrich Merz's fractious and increasingly unpopular coalition said Thursday they had held positive talks aimed at settling numerous disputes that have hampered their governing agenda."
-      },
-      {
        "title": "'Come all the way' back to EU, French finance minister tells UK",
        "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
        "source": "BBC News Business",
@@ -213,6 +196,23 @@
        "stages": [],
        "via": null,
        "blurb": "Roland Lescure tells the BBC that being in the bloc enables members to better address the challenges facing the world."
+      },
+      {
+       "title": "Kenya: President Ruto Awards 3,727 Kenyans Skills Certificates, Launches Fundi Locator Jobs Portal",
+       "url": "https://allafrica.com/stories/202610080329.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-08T11:53:24.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610080329.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Capital FM] Nairobi -- President William Ruto has awarded skills certificates to 3,727 Kenyans under the government's Recognition of Prior Learning (RPL) programme, as part of efforts to formally recognise skills acquired outside traditional education and training systems."
       }
      ]
     },
@@ -293,21 +293,21 @@
        "blurb": "Agreement awaits Executive Board approval"
       },
       {
-       "title": "Fuel dealer fined US$300 for violating Income Tax Act",
-       "url": "https://newsday.co.zw/article/fuel-dealer-fined-us300-for-violating-income-tax-act",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-08T15:04:20.000Z",
+       "title": "Canada’s NATO Path Needs US$112 Billion by 2035",
+       "url": "https://www.riotimesonline.com/canada-defence-spending-nato-target-explained-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T17:26:40.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/fuel-dealer-fined-us300-for-violating-income-tax-act",
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/canada-defence-spending-nato-target-explained-2026/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Harare magistrate Nyasha Marufu has fined Giant Petroleum US$300 for contravenning two sections of the Income and Tax Act. The charge arose from a complaint raised by the Zimbabwe Revenue Authority (Zimra). The State led by Chipo Muvhamba proved that in November 2025, Zimra did c"
+       "blurb": "Canada's budget watchdog says the NATO 5% pledge means US$112 billion of core defence spending in 2035-36, with US$44 billion added to the deficit. The post Canada’s NATO Path Needs US$112 Billion by 2035 appeared first on The Rio Times ."
       },
       {
        "title": "Moly heads for 6th straight deficit, record prices: BMO",
@@ -485,23 +485,6 @@
        "blurb": ""
       },
       {
-       "title": "Fuel dealer fined US$300 for violating Income Tax Act",
-       "url": "https://newsday.co.zw/article/fuel-dealer-fined-us300-for-violating-income-tax-act",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-08T15:04:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/fuel-dealer-fined-us300-for-violating-income-tax-act",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Harare magistrate Nyasha Marufu has fined Giant Petroleum US$300 for contravenning two sections of the Income and Tax Act. The charge arose from a complaint raised by the Zimbabwe Revenue Authority (Zimra). The State led by Chipo Muvhamba proved that in November 2025, Zimra did c"
-      },
-      {
        "title": "Google's €13bn data center buildout in Finland under investigation for 300-hectare forest removal",
        "url": "https://www.datacenterdynamics.com/en/news/googles-13bn-data-center-buildout-in-finland-under-investigation-for-300-hectare-forest-removal/",
        "source": "DatacenterDynamics",
@@ -636,12 +619,91 @@
        "stages": [],
        "via": null,
        "blurb": "WA's energy sector is sounding the alarm over a landmark High Court ruling that overseas emissions from a proposed NSW coal mine were required to be considered when approving the project."
+      },
+      {
+       "title": "‘Lawyers should be running to courts’ to stop coal approvals after landmark ruling, NSW MP says",
+       "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
+       "source": "The Guardian Energy",
+       "published": "2026-10-07T07:24:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "High court finding in favour of Hunter Valley community group sets precedent other environmentalists should follow, advocate says Get our new political email , free app or daily news podcast A landmark decision in Australia’s first climate change high court case has been describe"
       }
      ]
     },
     "international": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "WTO hikes global trade growth forecast, names Pakistan among nations gaining from disruptions amid ME conflict",
+       "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+       "source": "Dawn Business",
+       "published": "2026-10-08T17:43:10.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "World Trade Organization",
+         "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
+         "primary": true
+        },
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
+         "primary": false
+        },
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/international/2026/10/08/wto-raises-merchandise-trade-growth-forecast-to-39-as-ai-boom-offsets-hit-from-middle-east/",
+         "primary": false
+        },
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
+         "primary": false
+        },
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "ISLAMABAD: The World Trade Organisation on Thursday sharply raised its global trade growth forecast for 2026 — with merchandise trade riding the AI boom — and concluded that some nations, including Pakistan, were actually benefiting from trade disruptions amid the ongoing Middle "
+      },
       {
        "title": "UK must remain in Jerusalem 'at all costs', says former diplomat",
        "url": "https://www.thenationalnews.com/news/uk/2026/10/08/uk-must-remain-in-jerusalem-at-all-costs-says-former-diplomat/",
@@ -772,6 +834,23 @@
        "blurb": "The EU's trade commissioner, Maros Sefcovic, arrived in Beijing this Thursday for two days of talks with his Chinese counterpart Wang Wentao. Sefcovic stated his goal of \"rebalancing\" an \"unsustainable trade deficit\". One particular area of concern is the auto sector, where Chine"
       },
       {
+       "title": "Canada’s NATO Path Needs US$112 Billion by 2035",
+       "url": "https://www.riotimesonline.com/canada-defence-spending-nato-target-explained-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T17:26:40.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/canada-defence-spending-nato-target-explained-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Canada's budget watchdog says the NATO 5% pledge means US$112 billion of core defence spending in 2035-36, with US$44 billion added to the deficit. The post Canada’s NATO Path Needs US$112 Billion by 2035 appeared first on The Rio Times ."
+      },
+      {
        "title": "Russian dissident Kara-Murza warns France is sending 'dangerous signal' to Putin",
        "url": "https://www.rfi.fr/en/international/20261008-russian-dissident-kara-murza-warns-france-is-sending-dangerous-signal-to-putin",
        "source": "RFI English",
@@ -821,40 +900,6 @@
        "stages": [],
        "via": null,
        "blurb": "Germany joins France urging EU to impose retaliatory tariffs, restrict market access to shield European manufacturing’s competitiveness from subsidized Chinese competition, which Beijing calls discriminatory and violating of WTO rules"
-      },
-      {
-       "title": "U.S.-Africa Futures Summit",
-       "url": "https://www.alliancemagazine.org/conf-report/u-s-africa-futures-summit/",
-       "source": "Alliance magazine",
-       "published": "2026-10-08T15:02:33.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Alliance magazine",
-         "url": "https://www.alliancemagazine.org/conf-report/u-s-africa-futures-summit/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The U.S.-Africa Futures Summit was conceptualised in 2023 as a platform to introduce the U.S. Africa policy community in Washington, D.C., to the futures and forecasting work of the Africa Futures Initiative at the Institute for Security … The post U.S.-Africa Futures Summit appe"
-      },
-      {
-       "title": "France's Le Pen opposes Ukraine EU membership over farming fears",
-       "url": "https://kyivindependent.com/frances-le-pen-opposes-ukraine-eu-membership-over-farming-fears/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T07:31:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/frances-le-pen-opposes-ukraine-eu-membership-over-farming-fears/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The EU's Enlargement Commissioner, Marta Kos, had already said, \"We have to protect the farmers in the EU, and we are already discussing this subject with Ukraine.\""
       }
      ]
     },
@@ -865,7 +910,7 @@
        "title": "Stelco begins issuing layoff notices as first job cuts set to take effect Sunday",
        "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/stelco-begins-issuing-layoff-notices-as-first-job-cuts-set-to-take-effect-sunday/",
        "source": "BNN Bloomberg",
-       "published": "2026-10-08T18:44:57.000Z",
+       "published": "2026-10-08T21:27:49.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -876,7 +921,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The union representing workers at Stelco Holdings Inc.’s steel plant in Hamilton, Ont., says the company has started issuing individual layoff notices."
+       "blurb": "Stelco Holdings Inc. has started handing out layoff notices at its Hamilton, Ont., steel plant, the first in a wave of job cuts expected to unfold over three weeks as the company moves ahead with plans to lay off up to 500 workers."
       },
       {
        "title": "Berlin blocks COSCO takeover of German freight forwarder",
@@ -1013,28 +1058,6 @@
        "blurb": "European Commission Press release Brussels, 08 Oct 2026 The European Commission has fined Kingspan €40 million for providing incorrect and misleading information during the 2021 Commission review of Kingspan's planned acquisition of Trimo, under the EU Merger Regulation (‘EUMR')."
       },
       {
-       "title": "Judge says Paramount and Warner must halt merger for at least two weeks",
-       "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T12:00:26.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
-         "primary": false
-        },
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Twelve States sued to block Paramount's pending buyout of Warner last week, alleging that such a combination would “extinguish competition” in Hollywood and lead to fewer choices for consumers"
-      },
-      {
        "title": "Prudential Japan executives take pay cuts over staff misconduct involving customers’ money",
        "url": "https://www.straitstimes.com/business/companies-markets/prudential-japan-executives-take-pay-cuts-over-staff-misconduct-involving-customers-money",
        "source": "The Straits Times Business",
@@ -1084,6 +1107,23 @@
        "stages": [],
        "via": null,
        "blurb": "Family run private businesses helped power China’s economic miracle, but the next generation is finding it difficult to carry on the work of their parents Growing up, Ayu would watch his parents put together hand made leather shoes on the ground floor of their three storey home i"
+      },
+      {
+       "title": "Judge says Paramount and Warner must halt merger for at least two weeks",
+       "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-08T12:00:26.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Twelve States sued to block Paramount's pending buyout of Warner last week, alleging that such a combination would “extinguish competition” in Hollywood and lead to fewer choices for consumers"
       }
      ]
     },
@@ -1429,6 +1469,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Trump rules out attack on Iran before midterm elections",
+       "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
+       "source": "The National (UAE)",
+       "published": "2026-10-08T17:37:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "President Donald Trump on Thursday said the US would not attack Iran before the midterm elections and that Washington was engaged in “productive discussions” with Tehran. In a post on Truth Social, Mr Trump said Iran was in a “very bad condition” economically and militarily and t"
+      },
+      {
        "title": "NIST Joins White House Effort to Drive ‘A New Golden Age of Science’",
        "url": "https://www.nist.gov/news-events/news/2026/10/nist-joins-white-house-effort-drive-new-golden-age-science",
        "source": "NIST News",
@@ -1548,6 +1605,23 @@
        "blurb": "The U.S. Senate energy permitting bill unveiled Wednesday could streamline the buildout of high-voltage power lines across the country, potentially delivering billions of dollars in electricity cost savings and dramatically improving the power system’s reliability over the coming"
       },
       {
+       "title": "Governor Healey and President Kornbluth launch MIT Future Fest",
+       "url": "https://news.mit.edu/2026/governor-healey-and-president-kornbluth-launch-mit-future-fest-1001",
+       "source": "MIT News",
+       "published": "2026-10-01T18:30:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "MIT News",
+         "url": "https://news.mit.edu/2026/governor-healey-and-president-kornbluth-launch-mit-future-fest-1001",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The new, five-day MIT event reaches takeoff with a forum about discovery and innovation."
+      },
+      {
        "title": "Coalition for the Common Good tells accreditor it has authority over Antioch",
        "url": "https://www.highereddive.com/news/coalition-for-the-common-good-tells-accreditor-it-has-authority-over-antioc/832323/",
        "source": "Higher Ed Dive",
@@ -1597,40 +1671,6 @@
        "stages": [],
        "via": null,
        "blurb": "New federal legislation aims to encourage mortgages under $100,000 by offering financial incentives to lenders, reforming processes calibrated to larger loans, and relaxing appraisal requirements."
-      },
-      {
-       "title": "US Senate negotiators reach permitting bill deal, ending yearslong impasse",
-       "url": "https://www.ogj.com/general-interest/government/news/55408949/us-senate-negotiators-reach-permitting-bill-deal-ending-yearslong-impasse",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-01T14:38:48.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/government/news/55408949/us-senate-negotiators-reach-permitting-bill-deal-ending-yearslong-impasse",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The bipartisan legislation is aimed at reducing regulatory delays and litigation uncertainties for energy projects."
-      },
-      {
-       "title": "Inside the Senate’s bipartisan permitting reform package — This Week in Cleantech",
-       "url": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/inside-the-senates-bipartisan-permitting-reform-package-this-week-in-cleantech/",
-       "source": "Hydro Review",
-       "published": "2026-10-05T19:17:46.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Hydro Review",
-         "url": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/inside-the-senates-bipartisan-permitting-reform-package-this-week-in-cleantech/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "On this episode of the This Week in Cleantech podcast, Jillian Goodman from Heatmap News breaks down the Bipartisan American Affordability and Jobs Act, a new permitting reform package meant to lower energy costs and make it easier to build infrastructure."
       }
      ]
     },
@@ -1723,23 +1763,6 @@
        "blurb": "President Trump is weighing a potential suspension of the federal gas tax, as he looks for ways to ease high energy costs ahead of November’s midterm elections."
       },
       {
-       "title": "Dallas Fed survey: More than one in five firms plan to grow capex in 2027",
-       "url": "https://www.ogj.com/general-interest/companies/news/55408837/dallas-fed-survey-more-than-one-in-five-firms-plan-to-grow-capex-in-2027",
-       "source": "Oil & Gas Journal",
-       "published": "2026-09-30T17:59:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/companies/news/55408837/dallas-fed-survey-more-than-one-in-five-firms-plan-to-grow-capex-in-2027",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "That figure is double the reading from 3 months ago even though slightly fewer executives added to spending in the third quarter."
-      },
-      {
        "title": "DOL to up minimum wage to $14 per hour for federal contractors",
        "url": "https://www.constructiondive.com/news/dol-to-up-minimum-wage-federal-contractors/832509/",
        "source": "Construction Dive",
@@ -1772,6 +1795,23 @@
        "stages": [],
        "via": null,
        "blurb": "For the last two years, commercial real estate investors and operators have been waiting for one thing: lower interest rates. They may need to stop waiting. The Federal Reserve in September raised its benchmark rate another 25 basis points, bringing the federal funds target range"
+      },
+      {
+       "title": "The grueling fight to pass the Inflation Reduction Act",
+       "url": "https://www.volts.wtf/p/the-grueling-fight-to-pass-the-inflation",
+       "source": "Volts",
+       "published": "2026-10-07T10:06:44.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Volts",
+         "url": "https://www.volts.wtf/p/the-grueling-fight-to-pass-the-inflation",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A conversation with Leah Stokes."
       },
       {
        "title": "Mortgage Rates Tick Up Even as the Odds of a Fed Rate Hike Decline",
@@ -1959,23 +1999,6 @@
        "blurb": "The UN Security Council unanimously voted on Thursday to extend an arms embargo on Sudan ’s Darfur region until December 11, buying time for negotiations over a US proposal to widen the restrictions to the entire country. The short extension highlighted disagreements over how to "
       },
       {
-       "title": "U.S.-Africa Futures Summit",
-       "url": "https://www.alliancemagazine.org/conf-report/u-s-africa-futures-summit/",
-       "source": "Alliance magazine",
-       "published": "2026-10-08T15:02:33.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Alliance magazine",
-         "url": "https://www.alliancemagazine.org/conf-report/u-s-africa-futures-summit/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The U.S.-Africa Futures Summit was conceptualised in 2023 as a platform to introduce the U.S. Africa policy community in Washington, D.C., to the futures and forecasting work of the Africa Futures Initiative at the Institute for Security … The post U.S.-Africa Futures Summit appe"
-      },
-      {
        "title": "EU and GCC to strengthen relations at leaders' summit in Riyadh",
        "url": "https://www.thenationalnews.com/news/europe/2026/10/08/eu-and-gcc-to-strengthen-relations-at-leaders-summit-in-riyadh/",
        "source": "The National (UAE)",
@@ -1993,21 +2016,21 @@
        "blurb": "The European Union hopes to deepen security and energy relations with Gulf countries at the second leaders' summit in Riyadh next month. Since the start of the Iran war on February 28, Europe has cast itself as a solid ally to the Gulf , despite being unable to match superior US "
       },
       {
-       "title": "What and whose ‘futures’?",
-       "url": "https://www.alliancemagazine.org/blog/what-and-whose-futures/",
-       "source": "Alliance magazine",
-       "published": "2026-10-08T12:59:10.000Z",
+       "title": "The complete Side Events lineup at Founder Summit 2026",
+       "url": "https://techcrunch.com/2026/10/08/the-complete-side-events-lineup-at-founder-summit-2026/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T14:00:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Alliance magazine",
-         "url": "https://www.alliancemagazine.org/blog/what-and-whose-futures/",
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/the-complete-side-events-lineup-at-founder-summit-2026/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "In August I travelled to Addis Ababa for the US-Africa Futures Summit, organised by Humanity United, the Open Society Foundations and the Institute for Security Studies (ISS). It was my first time at this summit, … The post What and whose ‘futures’? appeared first on Alliance mag"
+       "blurb": "Boston, are you ready?! TechCrunch Founder Summit 2026 is about to explode with energy — and the real magic kicks off with an epic lineup of Side Events lighting up the city from November 3–6!"
       },
       {
        "title": "US top diplomat Rubio says West must choose ‘national power’ or decline",
@@ -2025,6 +2048,23 @@
        "stages": [],
        "via": null,
        "blurb": "US Secretary of State Marco Rubio delivered a combative defence of Washington’s right to wield its “national power” in Athens on Wednesday, while urging Europe to “awaken from its long slumber”."
+      },
+      {
+       "title": "What and whose ‘futures’?",
+       "url": "https://www.alliancemagazine.org/blog/what-and-whose-futures/",
+       "source": "Alliance magazine",
+       "published": "2026-10-08T12:59:10.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Alliance magazine",
+         "url": "https://www.alliancemagazine.org/blog/what-and-whose-futures/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In August I travelled to Addis Ababa for the US-Africa Futures Summit, organised by Humanity United, the Open Society Foundations and the Institute for Security Studies (ISS). It was my first time at this summit, … The post What and whose ‘futures’? appeared first on Alliance mag"
       },
       {
        "title": "Russia eyes return to Europe's gas market despite sanctions, Ukraine war: Report",
@@ -2120,28 +2160,6 @@
        "stages": [],
        "via": null,
        "blurb": "13.9 million homes currently owned and occupied by the Baby Boomer Generation and the Silent Generation are expected to be released back to the market between 2026-2036. It represents a 33.7% or 3.5 million increase over this prior decade's pace for older households and a 74% or "
-      },
-      {
-       "title": "Paramount and Warner Bros complete merger to form Hollywood giant Skydance",
-       "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
-       "source": "Euronews Business",
-       "published": "2026-10-06T13:49:42.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
-         "primary": false
-        },
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Two of America’s oldest film studios have completed their merger, bringing CNN, HBO and franchises including The Godfather and Harry Potter under one roof."
       },
       {
        "title": "ESRT Faces New Activist Investor Following Stake Acquisition",
@@ -2563,6 +2581,23 @@
        "stages": [],
        "via": null,
        "blurb": "Andrew Bailey tells chancellor ‘whatever the stance of fiscal policy, it must be credible and be seen as such by financial markets’ Business live – latest updates The Bank of England governor, Andrew Bailey, has urged the chancellor, John Healey, to agree a budget that reassures "
+      },
+      {
+       "title": "Ex-Barclays traders jailed for rigging interest rates have convictions quashed",
+       "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+       "source": "The Guardian Business",
+       "published": "2026-10-07T15:19:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Acquittals of five former bankers come year after supreme court overturned ruling against City trader Tom Hayes Five more former traders who were jailed for rigging interest rates have had their convictions quashed by the court of appeal in London, after a long battle to clear th"
       }
      ]
     },
@@ -2653,6 +2688,23 @@
        "stages": [],
        "via": null,
        "blurb": "Proportionality is set to be improved for firms as over 100 regulatory thresholds could be automatically increased periodically."
+      },
+      {
+       "title": "Ex-Barclays traders jailed for rigging interest rates have convictions quashed",
+       "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+       "source": "The Guardian Business",
+       "published": "2026-10-07T15:19:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Acquittals of five former bankers come year after supreme court overturned ruling against City trader Tom Hayes Five more former traders who were jailed for rigging interest rates have had their convictions quashed by the court of appeal in London, after a long battle to clear th"
       },
       {
        "title": "Minutes of the Meeting of the Court of Directors held on 16 July 2026",
@@ -3107,6 +3159,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Canada’s NATO Path Needs US$112 Billion by 2035",
+       "url": "https://www.riotimesonline.com/canada-defence-spending-nato-target-explained-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T17:26:40.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/canada-defence-spending-nato-target-explained-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Canada's budget watchdog says the NATO 5% pledge means US$112 billion of core defence spending in 2035-36, with US$44 billion added to the deficit. The post Canada’s NATO Path Needs US$112 Billion by 2035 appeared first on The Rio Times ."
+      },
+      {
        "title": "Fuel tax pause offers bigger break to higher-income families: budget watchdog",
        "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/fuel-tax-pause-offers-bigger-break-to-higher-income-families-budget-watchdog/",
        "source": "BNN Bloomberg",
@@ -3146,23 +3215,6 @@
        "blurb": "The parliamentary budget officer says Ottawa’s gas tax pause is offering a bigger break at the pumps to the households that earn the most."
       },
       {
-       "title": "Regulator publishes guidance on extended trading as it comes to Canada",
-       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/regulator-publishes-guidance-on-extended-trading-as-it-comes-to-canada/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T17:58:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/regulator-publishes-guidance-on-extended-trading-as-it-comes-to-canada/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Canadian Investment Regulatory Organization says extended trading hours can offer flexibility outside of regular hours, but it also comes with risks."
-      },
-      {
        "title": "Canadian fined CAD 30k for violations of prawn-fishing permit conditions",
        "url": "https://www.undercurrentnews.com/2026/10/08/canadian-fined-cad-30k-for-violations-of-prawn-fishing-permit-conditions/",
        "source": "Undercurrent News",
@@ -3195,6 +3247,28 @@
        "stages": [],
        "via": null,
        "blurb": "Coalspur Mines Ltd. received regulatory permit approvals from the Alberta Energy Regulator (AER) to move forward with its Phase II Expansion Project on the Vista coal mine, located near Hinton, Alberta, Canada. Regulatory documents show that approval for the expansion was granted"
+      }
+     ]
+    },
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Canada’s NATO Path Needs US$112 Billion by 2035",
+       "url": "https://www.riotimesonline.com/canada-defence-spending-nato-target-explained-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T17:26:40.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/canada-defence-spending-nato-target-explained-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Canada's budget watchdog says the NATO 5% pledge means US$112 billion of core defence spending in 2035-36, with US$44 billion added to the deficit. The post Canada’s NATO Path Needs US$112 Billion by 2035 appeared first on The Rio Times ."
       }
      ]
     },
@@ -3439,23 +3513,6 @@
     "international": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "France's Le Pen opposes Ukraine EU membership over farming fears",
-       "url": "https://kyivindependent.com/frances-le-pen-opposes-ukraine-eu-membership-over-farming-fears/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T07:31:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/frances-le-pen-opposes-ukraine-eu-membership-over-farming-fears/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The EU's Enlargement Commissioner, Marta Kos, had already said, \"We have to protect the farmers in the EU, and we are already discussing this subject with Ukraine.\""
-      },
       {
        "title": "'Come all the way' back to EU, French finance minister tells UK",
        "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
@@ -3858,23 +3915,6 @@
        "stages": [],
        "via": null,
        "blurb": "The U.K., the EU, and Ukraine have all targeted crypto schemes in recent sanctions packages as Russia uses the technology to evade existing sanctions."
-      },
-      {
-       "title": "France's Le Pen opposes Ukraine EU membership over farming fears",
-       "url": "https://kyivindependent.com/frances-le-pen-opposes-ukraine-eu-membership-over-farming-fears/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T07:31:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/frances-le-pen-opposes-ukraine-eu-membership-over-farming-fears/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The EU's Enlargement Commissioner, Marta Kos, had already said, \"We have to protect the farmers in the EU, and we are already discussing this subject with Ukraine.\""
       },
       {
        "title": "Ukrainian refugees raised Poland’s GDP by 2.4% in 2025, finds UN study",
@@ -4835,62 +4875,6 @@
     }
    }
   },
-  "us-tx": {
-   "label": "Texas",
-   "level": "admin1",
-   "sources": {
-    "econpolicy": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Dallas Fed survey: More than one in five firms plan to grow capex in 2027",
-       "url": "https://www.ogj.com/general-interest/companies/news/55408837/dallas-fed-survey-more-than-one-in-five-firms-plan-to-grow-capex-in-2027",
-       "source": "Oil & Gas Journal",
-       "published": "2026-09-30T17:59:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/companies/news/55408837/dallas-fed-survey-more-than-one-in-five-firms-plan-to-grow-capex-in-2027",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "That figure is double the reading from 3 months ago even though slightly fewer executives added to spending in the third quarter."
-      }
-     ]
-    }
-   }
-  },
-  "us-city-dallas": {
-   "label": "Dallas",
-   "level": "city",
-   "sources": {
-    "econpolicy": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Dallas Fed survey: More than one in five firms plan to grow capex in 2027",
-       "url": "https://www.ogj.com/general-interest/companies/news/55408837/dallas-fed-survey-more-than-one-in-five-firms-plan-to-grow-capex-in-2027",
-       "source": "Oil & Gas Journal",
-       "published": "2026-09-30T17:59:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/companies/news/55408837/dallas-fed-survey-more-than-one-in-five-firms-plan-to-grow-capex-in-2027",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "That figure is double the reading from 3 months ago even though slightly fewer executives added to spending in the third quarter."
-      }
-     ]
-    }
-   }
-  },
   "gb-we": {
    "label": "Westminster",
    "level": "admin1",
@@ -4917,6 +4901,28 @@
       }
      ]
     },
+    "econpolicy": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ex-Barclays traders jailed for rigging interest rates have convictions quashed",
+       "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+       "source": "The Guardian Business",
+       "published": "2026-10-07T15:19:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Acquittals of five former bankers come year after supreme court overturned ruling against City trader Tom Hayes Five more former traders who were jailed for rigging interest rates have had their convictions quashed by the court of appeal in London, after a long battle to clear th"
+      }
+     ]
+    },
     "regulation": {
      "brief": "missing",
      "candidates": [
@@ -4936,6 +4942,23 @@
        "stages": [],
        "via": null,
        "blurb": "Regulator also vetoes extra Blackpool service, citing lack of space on west coast mainline for new trains to capital Business live – latest updates Plans to run direct train services to Wrexham and Rochdale from London have been rejected by the rail regulator because of “signific"
+      },
+      {
+       "title": "Ex-Barclays traders jailed for rigging interest rates have convictions quashed",
+       "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+       "source": "The Guardian Business",
+       "published": "2026-10-07T15:19:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Acquittals of five former bankers come year after supreme court overturned ruling against City trader Tom Hayes Five more former traders who were jailed for rigging interest rates have had their convictions quashed by the court of appeal in London, after a long battle to clear th"
       }
      ]
     }
@@ -4995,6 +5018,28 @@
       }
      ]
     },
+    "econpolicy": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ex-Barclays traders jailed for rigging interest rates have convictions quashed",
+       "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+       "source": "The Guardian Business",
+       "published": "2026-10-07T15:19:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Acquittals of five former bankers come year after supreme court overturned ruling against City trader Tom Hayes Five more former traders who were jailed for rigging interest rates have had their convictions quashed by the court of appeal in London, after a long battle to clear th"
+      }
+     ]
+    },
     "regulation": {
      "brief": "missing",
      "candidates": [
@@ -5014,6 +5059,23 @@
        "stages": [],
        "via": null,
        "blurb": "Regulator also vetoes extra Blackpool service, citing lack of space on west coast mainline for new trains to capital Business live – latest updates Plans to run direct train services to Wrexham and Rochdale from London have been rejected by the rail regulator because of “signific"
+      },
+      {
+       "title": "Ex-Barclays traders jailed for rigging interest rates have convictions quashed",
+       "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+       "source": "The Guardian Business",
+       "published": "2026-10-07T15:19:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/07/former-barclays-traders-rigging-interest-rates-convictions-quashed-libor",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Acquittals of five former bankers come year after supreme court overturned ruling against City trader Tom Hayes Five more former traders who were jailed for rigging interest rates have had their convictions quashed by the court of appeal in London, after a long battle to clear th"
       }
      ]
     }
@@ -5302,6 +5364,28 @@
    "label": "Iran",
    "level": "country",
    "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Trump rules out attack on Iran before midterm elections",
+       "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
+       "source": "The National (UAE)",
+       "published": "2026-10-08T17:37:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "President Donald Trump on Thursday said the US would not attack Iran before the midterm elections and that Washington was engaged in “productive discussions” with Tehran. In a post on Truth Social, Mr Trump said Iran was in a “very bad condition” economically and militarily and t"
+      }
+     ]
+    },
     "econpolicy": {
      "brief": "missing",
      "candidates": [
@@ -5709,73 +5793,6 @@
     }
    }
   },
-  "zw": {
-   "label": "Zimbabwe",
-   "level": "country",
-   "sources": {
-    "econpolicy": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Fuel dealer fined US$300 for violating Income Tax Act",
-       "url": "https://newsday.co.zw/article/fuel-dealer-fined-us300-for-violating-income-tax-act",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-08T15:04:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/fuel-dealer-fined-us300-for-violating-income-tax-act",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Harare magistrate Nyasha Marufu has fined Giant Petroleum US$300 for contravenning two sections of the Income and Tax Act. The charge arose from a complaint raised by the Zimbabwe Revenue Authority (Zimra). The State led by Chipo Muvhamba proved that in November 2025, Zimra did c"
-      },
-      {
-       "title": "CEO Roundtable pushes for lower tariffs to boost trade within Africa",
-       "url": "https://newsday.co.zw/article/ceo-roundtable-pushes-for-lower-tariffs-to-boost-trade-within-africa",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-08T12:56:22.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/ceo-roundtable-pushes-for-lower-tariffs-to-boost-trade-within-africa",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Foreign Affairs and International Trade minister Amon Murwira said African countries needed to remove barriers to commerce and strengthen digital connectivity to accelerate economic growth. The post CEO Roundtable pushes for lower tariffs to boost trade within Africa appeared fir"
-      }
-     ]
-    },
-    "regulation": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Fuel dealer fined US$300 for violating Income Tax Act",
-       "url": "https://newsday.co.zw/article/fuel-dealer-fined-us300-for-violating-income-tax-act",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-08T15:04:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/fuel-dealer-fined-us300-for-violating-income-tax-act",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Harare magistrate Nyasha Marufu has fined Giant Petroleum US$300 for contravenning two sections of the Income and Tax Act. The charge arose from a complaint raised by the Zimbabwe Revenue Authority (Zimra). The State led by Chipo Muvhamba proved that in November 2025, Zimra did c"
-      }
-     ]
-    }
-   }
-  },
   "il-jm": {
    "label": "Jerusalem",
    "level": "admin1",
@@ -6048,13 +6065,8 @@
        "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
        "source": "The Hindu Business",
        "published": "2026-10-08T12:00:26.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
-         "primary": false
-        },
         {
          "name": "The Hindu Business",
          "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
@@ -6092,13 +6104,8 @@
        "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
        "source": "The Hindu Business",
        "published": "2026-10-08T12:00:26.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
-         "primary": false
-        },
         {
          "name": "The Hindu Business",
          "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
@@ -6448,6 +6455,62 @@
     }
    }
   },
+  "us-ma": {
+   "label": "Massachusetts",
+   "level": "admin1",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "The complete Side Events lineup at Founder Summit 2026",
+       "url": "https://techcrunch.com/2026/10/08/the-complete-side-events-lineup-at-founder-summit-2026/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T14:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/the-complete-side-events-lineup-at-founder-summit-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Boston, are you ready?! TechCrunch Founder Summit 2026 is about to explode with energy — and the real magic kicks off with an epic lineup of Side Events lighting up the city from November 3–6!"
+      }
+     ]
+    }
+   }
+  },
+  "us-city-boston": {
+   "label": "Boston",
+   "level": "city",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "The complete Side Events lineup at Founder Summit 2026",
+       "url": "https://techcrunch.com/2026/10/08/the-complete-side-events-lineup-at-founder-summit-2026/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T14:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/the-complete-side-events-lineup-at-founder-summit-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Boston, are you ready?! TechCrunch Founder Summit 2026 is about to explode with energy — and the real magic kicks off with an epic lineup of Side Events lighting up the city from November 3–6!"
+      }
+     ]
+    }
+   }
+  },
   "sa": {
    "label": "Saudi Arabia",
    "level": "country",
@@ -6745,6 +6808,68 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "WTO hikes global trade growth forecast, names Pakistan among nations gaining from disruptions amid ME conflict",
+       "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+       "source": "Dawn Business",
+       "published": "2026-10-08T17:43:10.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "World Trade Organization",
+         "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
+         "primary": true
+        },
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
+         "primary": false
+        },
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/international/2026/10/08/wto-raises-merchandise-trade-growth-forecast-to-39-as-ai-boom-offsets-hit-from-middle-east/",
+         "primary": false
+        },
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
+         "primary": false
+        },
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "ISLAMABAD: The World Trade Organisation on Thursday sharply raised its global trade growth forecast for 2026 — with merchandise trade riding the AI boom — and concluded that some nations, including Pakistan, were actually benefiting from trade disruptions amid the ongoing Middle "
+      },
+      {
        "title": "Bahrain working to 'speed up' approval of Pak-GCC free trade pact, foreign minister says",
        "url": "https://www.dawn.com/news/2035648/bahrain-working-to-speed-up-approval-of-pak-gcc-free-trade-pact-foreign-minister-says",
        "source": "Dawn Business",
@@ -6901,23 +7026,6 @@
     "government": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "FEMALE LAWMAKERS CHALLENGED TO DELIVER RESULTS",
-       "url": "https://www.lusakatimes.com/2026/10/08/female-lawmakers-challenged-to-deliver-results/",
-       "source": "Lusaka Times",
-       "published": "2026-10-08T07:21:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/08/female-lawmakers-challenged-to-deliver-results/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "UPND Member of Parliament Judith Kabemba has urged female lawmakers to use their increased representation in Parliament to champion legislation and policies that support the Grow Zambia Agenda. Ms. Kabemba says women Members of Parliament should ensure their increased presence in"
-      },
       {
        "title": "Siame calls for nullification of Mwenzo MP’s election",
        "url": "https://www.lusakatimes.com/2026/10/08/siame-calls-for-nullification-of-mwenzo-mps-election/",
@@ -7861,6 +7969,62 @@
     }
    }
   },
+  "ir-th": {
+   "label": "Tehran",
+   "level": "admin1",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Trump rules out attack on Iran before midterm elections",
+       "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
+       "source": "The National (UAE)",
+       "published": "2026-10-08T17:37:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "President Donald Trump on Thursday said the US would not attack Iran before the midterm elections and that Washington was engaged in “productive discussions” with Tehran. In a post on Truth Social, Mr Trump said Iran was in a “very bad condition” economically and militarily and t"
+      }
+     ]
+    }
+   }
+  },
+  "ir-city-tehran": {
+   "label": "Tehran",
+   "level": "city",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Trump rules out attack on Iran before midterm elections",
+       "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
+       "source": "The National (UAE)",
+       "published": "2026-10-08T17:37:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "President Donald Trump on Thursday said the US would not attack Iran before the midterm elections and that Washington was engaged in “productive discussions” with Tehran. In a post on Truth Social, Mr Trump said Iran was in a “very bad condition” economically and militarily and t"
+      }
+     ]
+    }
+   }
+  },
   "sd": {
    "label": "Sudan",
    "level": "country",
@@ -7956,134 +8120,6 @@
        "stages": [],
        "via": null,
        "blurb": ""
-      }
-     ]
-    }
-   }
-  },
-  "zw-ha": {
-   "label": "Harare",
-   "level": "admin1",
-   "sources": {
-    "econpolicy": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Fuel dealer fined US$300 for violating Income Tax Act",
-       "url": "https://newsday.co.zw/article/fuel-dealer-fined-us300-for-violating-income-tax-act",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-08T15:04:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/fuel-dealer-fined-us300-for-violating-income-tax-act",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Harare magistrate Nyasha Marufu has fined Giant Petroleum US$300 for contravenning two sections of the Income and Tax Act. The charge arose from a complaint raised by the Zimbabwe Revenue Authority (Zimra). The State led by Chipo Muvhamba proved that in November 2025, Zimra did c"
-      }
-     ]
-    },
-    "regulation": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Fuel dealer fined US$300 for violating Income Tax Act",
-       "url": "https://newsday.co.zw/article/fuel-dealer-fined-us300-for-violating-income-tax-act",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-08T15:04:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/fuel-dealer-fined-us300-for-violating-income-tax-act",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Harare magistrate Nyasha Marufu has fined Giant Petroleum US$300 for contravenning two sections of the Income and Tax Act. The charge arose from a complaint raised by the Zimbabwe Revenue Authority (Zimra). The State led by Chipo Muvhamba proved that in November 2025, Zimra did c"
-      }
-     ]
-    }
-   }
-  },
-  "zw-city-harare": {
-   "label": "Harare",
-   "level": "city",
-   "sources": {
-    "econpolicy": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Fuel dealer fined US$300 for violating Income Tax Act",
-       "url": "https://newsday.co.zw/article/fuel-dealer-fined-us300-for-violating-income-tax-act",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-08T15:04:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/fuel-dealer-fined-us300-for-violating-income-tax-act",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Harare magistrate Nyasha Marufu has fined Giant Petroleum US$300 for contravenning two sections of the Income and Tax Act. The charge arose from a complaint raised by the Zimbabwe Revenue Authority (Zimra). The State led by Chipo Muvhamba proved that in November 2025, Zimra did c"
-      }
-     ]
-    },
-    "regulation": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Fuel dealer fined US$300 for violating Income Tax Act",
-       "url": "https://newsday.co.zw/article/fuel-dealer-fined-us300-for-violating-income-tax-act",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-08T15:04:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/fuel-dealer-fined-us300-for-violating-income-tax-act",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Harare magistrate Nyasha Marufu has fined Giant Petroleum US$300 for contravenning two sections of the Income and Tax Act. The charge arose from a complaint raised by the Zimbabwe Revenue Authority (Zimra). The State led by Chipo Muvhamba proved that in November 2025, Zimra did c"
-      }
-     ]
-    }
-   }
-  },
-  "us-dc": {
-   "label": "District of Columbia",
-   "level": "admin1",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "U.S.-Africa Futures Summit",
-       "url": "https://www.alliancemagazine.org/conf-report/u-s-africa-futures-summit/",
-       "source": "Alliance magazine",
-       "published": "2026-10-08T15:02:33.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Alliance magazine",
-         "url": "https://www.alliancemagazine.org/conf-report/u-s-africa-futures-summit/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The U.S.-Africa Futures Summit was conceptualised in 2023 as a platform to introduce the U.S. Africa policy community in Washington, D.C., to the futures and forecasting work of the Africa Futures Initiative at the Institute for Security … The post U.S.-Africa Futures Summit appe"
       }
      ]
     }
