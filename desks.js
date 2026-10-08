@@ -1,5 +1,5 @@
 /**
- * Long Haul Ledger: indicators (internal id: desks) — Activity, People, Prices, Capital (United States series).
+ * Long Haul Ledger: indicators (internal id: desks): Activity, Prices, Capital. People moved to "Who's in the seat" (seats.js).
  * Pure helpers shared by the browser, scripts/fetch-prices.mjs and ledger.test.js.
  *
  * Record rules (BUILD-PLAN.md §3):
@@ -10,9 +10,9 @@
  *  - only `status: "verified"` records render on a desk.
  */
 
-export const DESK_IDS = ['activity', 'people', 'prices', 'capital'];
+export const DESK_IDS = ['activity', 'prices', 'capital'];
 
-export const EMPTY_STATE = 'No sourced entries yet. Updates when a sourced change lands.';
+export const EMPTY_STATE = 'Not yet covered';
 
 export const PROTOTYPE = {
   label: 'PROTOTYPE',
@@ -24,7 +24,7 @@ export const DESKS = [
   {
     id: 'activity',
     title: 'Activity',
-    scope: 'Rail, power, refining and industrial production: did the physical economy speed up, slow or hold?',
+    scope: 'Output, orders, freight and jobs: did the physical economy speed up, slow or hold?',
     trigger: 'A tracked release publishes, or a prior value is revised.',
     columns: ['Series', 'Value', 'Unit', 'As of', 'Prior', 'Source', 'Revision note'],
     sources: [
@@ -32,46 +32,37 @@ export const DESKS = [
       { name: 'EIA Weekly Petroleum Status Report', url: 'https://www.eia.gov/petroleum/supply/weekly/' },
       { name: 'Fed G.17 Industrial Production and Capacity Utilization', url: 'https://www.federalreserve.gov/releases/g17/current/default.htm' },
       { name: 'EIA Electric Power Monthly', url: 'https://www.eia.gov/electricity/monthly/' },
-    ],
-  },
-  {
-    id: 'people',
-    title: 'People',
-    scope: 'Seats that approve a plant, a pipeline or a loan: nominations, hearings, confirmations, board changes.',
-    trigger: 'A nomination, hearing, vote, resignation or board change appears on an official channel.',
-    columns: ['Seat', 'Person', 'Action', 'Touches', 'As of', 'Source', 'Revision note'],
-    sources: [
-      { name: 'Federal Register (FERC, NRC)', url: 'https://www.federalregister.gov/developers/documentation/api/v1' },
-      { name: 'Senate nominations in committee', url: 'https://www.senate.gov/legislative/nom_cmtec.htm' },
-      { name: 'Senate Energy and Natural Resources hearings', url: 'https://www.energy.senate.gov/hearings' },
-      { name: 'SEC 8-K Item 5.02 filings', url: 'https://www.sec.gov/edgar/search/' },
+      { name: 'World Bank World Development Indicators (countries, annual)', url: 'https://data.worldbank.org/' },
     ],
   },
   {
     id: 'prices',
     title: 'Prices',
-    scope: 'A short strip for operators: series, unit, as-of date, source and industrial use. Not a terminal.',
-    trigger: 'A new observation from the source. The prior line stays visible.',
-    columns: ['Series', 'Value', 'Unit', 'As of', 'Prior', 'Source', 'Revision note'],
+    scope: 'Globally watched benchmarks: gold, silver, bitcoin, WTI and Brent crude, then copper, natural gas, the US dollar index and US CPI inflation.',
+    trigger: 'A new observation from the source. The prior reading stays visible as the change.',
+    columns: ['Series', 'Value', 'Unit', 'Change', 'As of', 'Source'],
     sources: [
-      { name: 'EIA diesel retail prices (via FRED GASDESW)', url: 'https://www.eia.gov/petroleum/gasdiesel/' },
-      { name: 'EIA Henry Hub spot (via FRED DHHNGSP)', url: 'https://www.eia.gov/dnav/ng/hist/rngwhhdD.htm' },
-    ],
-    planned: [
-      'Uranium (IMF via FRED PURANUSDM, monthly, lagged)',
-      'Regional power, PJM West (EIA/ICE wholesale, biweekly)',
+      { name: 'World Bank Pink Sheet (gold, silver, copper; monthly averages)', url: 'https://www.worldbank.org/en/research/commodity-markets' },
+      { name: 'Coinbase bitcoin price via FRED (CBBTCUSD)', url: 'https://fred.stlouisfed.org/series/CBBTCUSD' },
+      { name: 'EIA WTI and Brent spot via FRED (DCOILWTICO, DCOILBRENTEU)', url: 'https://fred.stlouisfed.org/series/DCOILWTICO' },
+      { name: 'EIA Henry Hub spot via FRED (DHHNGSP)', url: 'https://fred.stlouisfed.org/series/DHHNGSP' },
+      { name: 'Federal Reserve broad dollar index via FRED (DTWEXBGS)', url: 'https://fred.stlouisfed.org/series/DTWEXBGS' },
+      { name: 'BLS CPI via FRED (CPIAUCSL)', url: 'https://fred.stlouisfed.org/series/CPIAUCSL' },
+      { name: 'World Bank consumer price inflation (countries, annual)', url: 'https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG' },
     ],
   },
   {
     id: 'capital',
     title: 'Capital',
-    scope: 'Announced capex, final investment decisions, DOE and federal financing, notable private deals.',
+    scope: 'The price of money and where investment goes: rates, investment share of GDP, foreign direct investment.',
     trigger: 'A stage change, a federal financing step, a material SEC filing or a cancellation.',
     columns: ['Project', 'Sponsor', 'Stage', 'Amount (as stated)', 'As of', 'Source', 'Revision note'],
     sources: [
       { name: 'SEC EDGAR filings', url: 'https://www.sec.gov/search-filings/edgar-application-programming-interfaces' },
       { name: 'DOE Loan Programs Office portfolio', url: 'https://www.energy.gov/lpo/portfolio-projects' },
       { name: 'Census construction spending', url: 'https://www.census.gov/construction/c30/c30index.html' },
+      { name: 'Federal Reserve H.15 rates via FRED (DGS10, DFF)', url: 'https://www.federalreserve.gov/releases/h15/' },
+      { name: 'World Bank investment and FDI (countries, annual)', url: 'https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS' },
     ],
   },
 ];
@@ -249,9 +240,9 @@ export function formatDelta(cur, prior, id) {
 
 /** Short status line for a desk tile. */
 export function deskStatus(deskId, pricesDesk) {
-  if (deskId !== 'prices') return { count: 0, text: 'No sourced entries yet' };
+  if (deskId !== 'prices') return { count: 0, text: EMPTY_STATE };
   const recs = renderableRecords(pricesDesk);
-  if (!recs.length) return { count: 0, text: 'No sourced entries yet' };
+  if (!recs.length) return { count: 0, text: EMPTY_STATE };
   const latest = recs.map((r) => r.current.asOf).sort().pop();
   return { count: recs.length, text: `${recs.length} sourced line${recs.length === 1 ? '' : 's'} · latest ${latest}` };
 }

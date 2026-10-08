@@ -78,7 +78,7 @@ assert('feed: encoded markup is stripped, not rendered', !/<script/i.test(stripH
   assert('curated: invalid file leaves items unchanged', applyCurated(live, { version: 2 }, now).items === live);
   const sig = JSON.parse(readFileSync('./data/signals-live.json', 'utf8'));
   assert('signals-live.json carries the curated Anduril item as Confirmed', sig.items.some((i) => i.id === seed.id && i.verification.status === 'confirmed'));
-  assert('workflow: curated and sector-brief edits trigger a rebuild', /paths: \['data\/signals-curated\.json', 'data\/energy-briefs\.json', 'data\/materials-briefs\.json', 'data\/manufacturing-briefs\.json', 'data\/services-briefs\.json', 'data\/technology-briefs\.json', 'data\/policy-briefs\.json'\]/.test(readFileSync('./.github/workflows/soft-launch.yml', 'utf8')));
+  assert('workflow: curated and sector-brief edits trigger a rebuild', /paths: \['data\/signals-curated\.json', 'data\/energy-briefs\.json', 'data\/materials-briefs\.json', 'data\/manufacturing-briefs\.json', 'data\/services-briefs\.json', 'data\/technology-briefs\.json', 'data\/policy-briefs\.json', 'data\/seats\.json', 'data\/leadership\.json'\]/.test(readFileSync('./.github/workflows/soft-launch.yml', 'utf8')));
 }
 console.log(`\n${pass} passed, ${fail} failed`);
 if (fail) process.exit(1);

@@ -3,13 +3,15 @@
  * Long Haul Ledger stats pipeline ($0, no keys). Usage:
  *   node scripts/fetch-stats.mjs fred        → data/stats/us.json
  *   node scripts/fetch-stats.mjs worldbank   → data/stats/world.json
+ *   node scripts/fetch-stats.mjs pinksheet   → data/stats/benchmarks.json (World Bank Pink Sheet: gold, silver, copper)
  * A failed series keeps its last good value (flagged lastError) and is logged.
  * Files are rewritten only when a value / as-of changes.
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { dirname, join, resolve as resolvePath } from 'path';
 import { fileURLToPath } from 'url';
-import { FRED_SERIES, WB_INDICATORS, fredCsv, parseCsv, buildRecord, mergeSeries, wbPage } from '../stats.js';
+import { inflateRawSync } from 'zlib';
+import { FRED_SERIES, WB_INDICATORS, PINK_SERIES, PINK_SHEET_PAGE, fredCsv, parseCsv, buildRecord, mergeSeries, wbPage, validateStat } from '../stats.js';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const OUT = join(__dir, '..', 'data', 'stats');
@@ -52,26 +54,163 @@ export async function runFred({ fetchText = get, now = new Date() } = {}) {
 export async function runWorldBank({ fetchText = get, now = new Date(), prev = null } = {}) {
   const nowIso = now.toISOString().replace(/\.\d{3}Z$/, 'Z');
   const countries = JSON.parse(JSON.stringify(prev?.countries || {}));
+  const world = JSON.parse(JSON.stringify(prev?.world || {}));
   const log = [];
   const meta = {};
   for (const ind of WB_INDICATORS) {
     try {
-      const body = JSON.parse(await fetchText(`https://api.worldbank.org/v2/country/all/indicator/${ind.code}?format=json&mrnev=1&per_page=400`, 'application/json'));
+      // Two most recent non-empty years per economy: the latest value and the prior reading it changed from.
+      const body = JSON.parse(await fetchText(`https://api.worldbank.org/v2/country/all/indicator/${ind.code}?format=json&mrnev=2&per_page=1200`, 'application/json'));
       const rows = Array.isArray(body?.[1]) ? body[1] : [];
       if (!rows.length) throw new Error('no rows');
       meta[ind.id] = { ...ind, lastUpdated: body[0]?.lastupdated || null };
+      const byEconomy = new Map();
       for (const r of rows) {
-        const iso2 = String(r?.country?.id || '').toLowerCase();
-        if (!/^[a-z]{2}$/.test(iso2) || !Number.isFinite(r.value)) continue;
-        countries[iso2] = countries[iso2] || { name: r.country.value };
-        countries[iso2][ind.id] = { value: r.value, year: r.date, sourceUrl: wbPage(ind.code, iso2) };
+        if (!Number.isFinite(r?.value)) continue;
+        const iso3 = r.countryiso3code;
+        const iso2 = iso3 === 'WLD' ? 'world' : String(r?.country?.id || '').toLowerCase();
+        if (iso2 !== 'world' && !/^[a-z]{2}$/.test(iso2)) continue;
+        if (!byEconomy.has(iso2)) byEconomy.set(iso2, { name: r.country.value, rows: [] });
+        byEconomy.get(iso2).rows.push({ value: r.value, year: String(r.date) });
+      }
+      for (const [iso2, e] of byEconomy) {
+        const [cur, prior] = e.rows.sort((a, b) => b.year.localeCompare(a.year));
+        const rec = { value: cur.value, year: cur.year, sourceUrl: wbPage(ind.code, iso2 === 'world' ? '1W' : iso2) };
+        if (prior) rec.prior = { value: prior.value, year: prior.year };
+        if (iso2 === 'world') { world.name = 'World'; world[ind.id] = rec; continue; }
+        countries[iso2] = countries[iso2] || { name: e.name };
+        countries[iso2][ind.id] = rec;
       }
     } catch (e) {
       meta[ind.id] = prev?.indicators?.[ind.id] || { ...ind };
       log.push({ indicator: ind.code, error: String(e?.message || e), at: nowIso, keptLastGood: true });
     }
   }
-  return { generatedAt: nowIso, note: 'World Bank World Development Indicators (API, no key). Most recent non-empty year per country; annual data.', source: 'https://data.worldbank.org/', indicators: meta, countries, fetchLog: log };
+  return { generatedAt: nowIso, note: 'World Bank World Development Indicators (API, no key). Latest and prior non-empty year per economy; annual data.', source: 'https://data.worldbank.org/', indicators: meta, world, countries, fetchLog: log };
+}
+
+/* ---------- World Bank Pink Sheet (xlsx, read with a small built-in unzip; no dependencies) ---------- */
+
+/** Read one file out of a zip buffer (stored or deflated entries). */
+export function unzipEntry(buf, name) {
+  let eocd = -1;
+  for (let i = buf.length - 22; i >= Math.max(0, buf.length - 65557); i--) {
+    if (buf.readUInt32LE(i) === 0x06054b50) { eocd = i; break; }
+  }
+  if (eocd < 0) throw new Error('not a zip file');
+  const count = buf.readUInt16LE(eocd + 10);
+  let p = buf.readUInt32LE(eocd + 16);
+  for (let n = 0; n < count; n++) {
+    if (buf.readUInt32LE(p) !== 0x02014b50) throw new Error('bad zip directory');
+    const method = buf.readUInt16LE(p + 10);
+    const csize = buf.readUInt32LE(p + 20);
+    const nlen = buf.readUInt16LE(p + 28), xlen = buf.readUInt16LE(p + 30), clen = buf.readUInt16LE(p + 32);
+    const local = buf.readUInt32LE(p + 42);
+    const fname = buf.toString('utf8', p + 46, p + 46 + nlen);
+    if (fname === name) {
+      const lnlen = buf.readUInt16LE(local + 26), lxlen = buf.readUInt16LE(local + 28);
+      const data = buf.subarray(local + 30 + lnlen + lxlen, local + 30 + lnlen + lxlen + csize);
+      return (method === 0 ? data : inflateRawSync(data)).toString('utf8');
+    }
+    p += 46 + nlen + xlen + clen;
+  }
+  return null;
+}
+
+const xmlText = (s) => s.replace(/<[^>]+>/g, '').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&amp;/g, '&');
+const colIndex = (ref) => { let n = 0; for (const ch of ref.replace(/\d+/g, '')) n = n * 26 + (ch.charCodeAt(0) - 64); return n - 1; };
+
+/** Rows (arrays of cell text) of a named sheet in an xlsx buffer. */
+export function xlsxSheetRows(buf, sheetName) {
+  const shared = [];
+  const ss = unzipEntry(buf, 'xl/sharedStrings.xml');
+  if (ss) for (const m of ss.matchAll(/<si>([\s\S]*?)<\/si>/g)) shared.push(xmlText(m[1]));
+  const wb = unzipEntry(buf, 'xl/workbook.xml') || '';
+  const rels = unzipEntry(buf, 'xl/_rels/workbook.xml.rels') || '';
+  const sheet = [...wb.matchAll(/<sheet\b[^>]*>/g)].map((m) => m[0]).find((t) => new RegExp(`name="${sheetName}"`).test(t));
+  if (!sheet) throw new Error(`sheet ${sheetName} not found`);
+  const rid = (sheet.match(/r:id="([^"]+)"/) || [])[1];
+  const rel = [...rels.matchAll(/<Relationship\b[^>]*>/g)].map((m) => m[0]).find((t) => t.includes(`Id="${rid}"`));
+  const target = (rel.match(/Target="([^"]+)"/) || [])[1].replace(/^\/?(xl\/)?/, '');
+  const xml = unzipEntry(buf, `xl/${target}`);
+  const rows = [];
+  for (const rm of xml.matchAll(/<row\b[^>]*>([\s\S]*?)<\/row>/g)) {
+    const row = [];
+    for (const cm of rm[1].matchAll(/<c\b([^>]*?)(?:\/>|>([\s\S]*?)<\/c>)/g)) {
+      const attrs = cm[1];
+      const ref = (attrs.match(/r="([A-Z]+\d+)"/) || [])[1];
+      const t = (attrs.match(/t="([^"]+)"/) || [])[1];
+      const inner = cm[2] || '';
+      let v = (inner.match(/<v>([\s\S]*?)<\/v>/) || [])[1];
+      if (t === 's' && v != null) v = shared[Number(v)];
+      else if (t === 'inlineStr') v = xmlText((inner.match(/<is>([\s\S]*?)<\/is>/) || [])[1] || '');
+      else if (v != null) v = xmlText(v);
+      if (ref) row[colIndex(ref)] = v ?? null;
+    }
+    rows.push(row);
+  }
+  return rows;
+}
+
+/** Monthly observations for each Pink Sheet series from the "Monthly Prices" rows (pure). */
+export function pinkObservations(rows, series = PINK_SERIES) {
+  const hi = rows.findIndex((r) => r && r.some((c) => typeof c === 'string' && /^Crude oil, Brent/.test(c)));
+  if (hi < 0) throw new Error('header row not found');
+  const header = rows[hi], units = rows[hi + 1] || [];
+  const updated = (rows.slice(0, hi).flat().find((c) => typeof c === 'string' && /^Updated on /.test(c)) || '').replace(/^Updated on /, '');
+  const out = {};
+  for (const def of series) {
+    const col = header.findIndex((c) => typeof c === 'string' && c.trim() === def.column);
+    if (col < 0) { out[def.id] = { error: `column ${def.column} not found` }; continue; }
+    const obs = [];
+    for (const r of rows.slice(hi + 2)) {
+      const m = /^(\d{4})M(\d{2})$/.exec(String(r?.[0] || ''));
+      const v = Number(r?.[col]);
+      if (!m || r?.[col] == null || r[col] === '' || !Number.isFinite(v)) continue;
+      obs.push({ date: `${m[1]}-${m[2]}-01`, value: v });
+    }
+    out[def.id] = { unitText: units[col] || '', rows: obs };
+  }
+  return { updated, series: out };
+}
+
+export async function runPinkSheet({ fetchText = get, fetchBuf = getBuf, now = new Date(), prev = null } = {}) {
+  const nowIso = now.toISOString().replace(/\.\d{3}Z$/, 'Z');
+  const page = await fetchText(PINK_SHEET_PAGE, 'text/html');
+  const url = (page.match(/https:\/\/thedocs\.worldbank\.org\/[^"'\s]*CMO-Historical-Data-Monthly\.xlsx/) || [])[0];
+  if (!url) throw new Error('Pink Sheet monthly xlsx link not found on the commodity markets page');
+  const { updated, series } = pinkObservations(xlsxSheetRows(await fetchBuf(url), 'Monthly Prices'));
+  const byId = new Map((prev?.series || []).map((s) => [s.id, s]));
+  const log = [];
+  for (const def of PINK_SERIES) {
+    const got = series[def.id];
+    if (!got || got.error || got.rows.length < 2) { log.push({ id: def.id, error: got?.error || 'no rows', at: nowIso, keptLastGood: byId.has(def.id) }); continue; }
+    const cur = got.rows[got.rows.length - 1], prior = got.rows[got.rows.length - 2];
+    const rec = {
+      id: def.id, desk: def.desk, title: def.title, label: def.label, places: def.places, unit: def.unit, decimals: def.decimals,
+      frequency: def.frequency, staleAfterDays: def.staleAfterDays, value: cur.value, asOf: cur.date,
+      prior: { value: prior.value, asOf: prior.date }, sourceUrl: PINK_SHEET_PAGE, dataUrl: url,
+      sourceName: 'World Bank Pink Sheet (monthly average)', caveat: `Monthly average price${updated ? `; sheet updated ${updated}` : ''}.`,
+      retrievedAt: nowIso, spark: got.rows.slice(-24).map((r) => [r.date, r.value]),
+    };
+    if (validateStat(rec).length === 0) byId.set(def.id, rec);
+  }
+  const order = PINK_SERIES.map((d) => d.id);
+  return { generatedAt: nowIso, note: 'World Bank Commodity Price Data (the Pink Sheet), monthly averages in nominal US dollars. Free, no key.', source: PINK_SHEET_PAGE, updated, series: [...byId.values()].filter((s) => order.includes(s.id)).sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id)), fetchLog: log };
+}
+
+async function getBuf(url, tries = 3) {
+  let last;
+  for (let i = 0; i < tries; i++) {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 60000);
+    try {
+      const res = await fetch(url, { headers: { 'User-Agent': UA }, signal: ctrl.signal });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return Buffer.from(await res.arrayBuffer());
+    } catch (e) { last = e; await new Promise((r) => setTimeout(r, 1500 * (i + 1))); } finally { clearTimeout(t); }
+  }
+  throw last;
 }
 
 const invoked = process.argv[1] ? resolvePath(process.argv[1]) : '';
@@ -93,5 +232,12 @@ if (invoked && fileURLToPath(import.meta.url) === invoked) {
     if (!Object.keys(next.countries).length) { console.error('no countries; not writing'); process.exit(1); }
     if (!prev || stripVolatile(prev) !== stripVolatile(next)) { writeFileSync(p, JSON.stringify(next) + '\n'); console.log(`world.json: ${Object.keys(next.countries).length} countries`); }
     else console.log('world.json unchanged');
+  } else if (mode === 'pinksheet') {
+    const p = join(OUT, 'benchmarks.json'); const prev = readJson(p);
+    const next = await runPinkSheet({ prev });
+    for (const l of next.fetchLog) console.warn(`WARN ${l.id}: ${l.error} (kept last good: ${l.keptLastGood})`);
+    if (!next.series.length) { console.error('no Pink Sheet series; not writing'); process.exit(1); }
+    if (!prev || stripVolatile(prev) !== stripVolatile(next)) { writeFileSync(p, JSON.stringify(next) + '\n'); console.log(`benchmarks.json: ${next.series.map((s) => `${s.id} ${s.value} @${s.asOf}`).join(' · ')}`); }
+    else console.log('benchmarks.json unchanged');
   }
 }

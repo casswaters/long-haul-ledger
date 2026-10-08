@@ -1,6 +1,6 @@
 {
   "meta": {
-    "note": "Public channels only. Verified roles list an official source and as-of date; seats we could not verify are marked source pending. Response times are left empty unless a published source exists.",
+    "note": "Public channels only. Verified roles list an official source and as-of date; seats we could not verify are marked source pending or Not yet covered. No response-time estimates: a response time appears only where an official published service standard exists.",
     "asOf": "2026-10-07"
   },
   "areas": {
@@ -16,10 +16,6 @@
             "switchboard": "White House comment line (public): see whitehouse.gov/contact",
             "form": "https://www.whitehouse.gov/contact/"
           },
-          "responseTime": {
-            "text": "unknown / high volume",
-            "badge": "ESTIMATE"
-          },
           "term": {
             "text": "Jan 20, 2025 – Jan 20, 2029 (elected)",
             "badge": null
@@ -31,10 +27,6 @@
           "contact": {
             "site": "https://www.whitehouse.gov/",
             "form": "https://www.whitehouse.gov/contact/"
-          },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "Jan 20, 2025 – Jan 20, 2029",
@@ -49,10 +41,6 @@
             "switchboard": "Public switchboard listed on state.gov",
             "form": "https://www.state.gov/contact-us/"
           },
-          "responseTime": {
-            "text": "days–weeks (routine correspondence)",
-            "badge": "ESTIMATE"
-          },
           "term": {
             "text": "serving since Jan 2025 (appointed)",
             "badge": null
@@ -64,14 +52,6 @@
           "contact": {
             "site": "https://www.defense.gov/",
             "form": "https://www.defense.gov/Contact/"
-          },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
-          },
-          "term": {
-            "text": "serving since Jan 2025 (appointed)",
-            "badge": "SAMPLE"
           }
         },
         {
@@ -80,14 +60,6 @@
           "contact": {
             "site": "https://home.treasury.gov/",
             "form": "https://home.treasury.gov/footer/contact-us"
-          },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
-          },
-          "term": {
-            "text": "serving since Jan 2025 (appointed)",
-            "badge": "SAMPLE"
           }
         },
         {
@@ -96,14 +68,6 @@
           "contact": {
             "site": "https://www.energy.gov/",
             "form": "https://www.energy.gov/contact-us"
-          },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
-          },
-          "term": {
-            "text": "serving since 2025 (appointed)",
-            "badge": "SAMPLE"
           }
         }
       ],
@@ -309,17 +273,13 @@
         },
         {
           "title": "Statewide constitutional offices (directory)",
-          "name": "Secretary of State, Attorney General, Treasurer and others: see ca.gov",
+          "name": "",
+          "notCovered": true,
+          "plannedSource": "https://www.ca.gov/",
           "contact": {
-            "site": "https://www.ca.gov/",
-            "form": "https://www.ca.gov/contact/"
+            "site": "https://www.ca.gov/"
           },
-          "term": {
-            "text": "elected statewide offices",
-            "badge": "SAMPLE"
-          },
-          "badge": "SAMPLE",
-          "asOf": "2026-10"
+          "checked": "2026-10-08"
         }
       ],
       "groups": [
@@ -1880,19 +1840,13 @@
       "roles": [
         {
           "title": "Mayor",
-          "name": "(see nyc.gov, mayoral office)",
+          "name": "",
+          "notCovered": true,
+          "plannedSource": "https://www.nyc.gov/",
           "contact": {
-            "site": "https://www.nyc.gov/",
-            "form": "https://www.nyc.gov/office-of-the-mayor/index.page"
+            "site": "https://www.nyc.gov/"
           },
-          "responseTime": {
-            "text": "varies / 311 for services",
-            "badge": "ESTIMATE"
-          },
-          "term": {
-            "text": "elected 4-year terms",
-            "badge": "SAMPLE"
-          }
+          "checked": "2026-10-08"
         }
       ]
     },
@@ -1906,10 +1860,6 @@
           "contact": {
             "site": "https://mayor.lacity.gov/",
             "form": "https://mayor.lacity.gov/government/get-involved/contact-us"
-          },
-          "responseTime": {
-            "text": "weeks",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "elected; serving since Dec 2022",
@@ -1929,10 +1879,6 @@
             "site": "https://www.chicago.gov/city/en/depts/mayor.html",
             "form": "https://www.chicago.gov/city/en/depts/mayor/iframe/contact_the_mayor.html"
           },
-          "responseTime": {
-            "text": "weeks",
-            "badge": "ESTIMATE"
-          },
           "term": {
             "text": "elected; serving since May 2023",
             "badge": null
@@ -1946,19 +1892,13 @@
       "roles": [
         {
           "title": "Mayor",
-          "name": "(see austintexas.gov)",
+          "name": "",
+          "notCovered": true,
+          "plannedSource": "https://www.austintexas.gov/",
           "contact": {
-            "site": "https://www.austintexas.gov/",
-            "form": "https://www.austintexas.gov/department/mayor"
+            "site": "https://www.austintexas.gov/"
           },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
-          },
-          "term": {
-            "text": "elected municipal term",
-            "badge": "SAMPLE"
-          }
+          "checked": "2026-10-08"
         }
       ]
     },
@@ -2013,19 +1953,13 @@
       "roles": [
         {
           "title": "Chief Minister",
-          "name": "(see maharashtra.gov.in · SAMPLE)",
+          "name": "",
+          "notCovered": true,
+          "plannedSource": "https://www.maharashtra.gov.in/",
           "contact": {
-            "site": "https://www.maharashtra.gov.in/",
-            "form": "https://www.maharashtra.gov.in/"
+            "site": "https://www.maharashtra.gov.in/"
           },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
-          },
-          "term": {
-            "text": "assembly confidence",
-            "badge": "SAMPLE"
-          }
+          "checked": "2026-10-08"
         }
       ]
     },
@@ -2035,19 +1969,13 @@
       "roles": [
         {
           "title": "Chief Minister",
-          "name": "(see karnataka.gov.in · SAMPLE)",
+          "name": "",
+          "notCovered": true,
+          "plannedSource": "https://karnataka.gov.in/",
           "contact": {
-            "site": "https://karnataka.gov.in/",
-            "form": "https://karnataka.gov.in/"
+            "site": "https://karnataka.gov.in/"
           },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
-          },
-          "term": {
-            "text": "assembly confidence",
-            "badge": "SAMPLE"
-          }
+          "checked": "2026-10-08"
         }
       ]
     },
@@ -2057,19 +1985,13 @@
       "roles": [
         {
           "title": "Chief Minister / LG (summary)",
-          "name": "(see delhi.gov.in · SAMPLE)",
+          "name": "",
+          "notCovered": true,
+          "plannedSource": "https://delhi.gov.in/",
           "contact": {
-            "site": "https://delhi.gov.in/",
-            "form": "https://delhi.gov.in/"
+            "site": "https://delhi.gov.in/"
           },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
-          },
-          "term": {
-            "text": "elected assembly + appointed LG",
-            "badge": "SAMPLE"
-          }
+          "checked": "2026-10-08"
         }
       ]
     },
@@ -2079,19 +2001,13 @@
       "roles": [
         {
           "title": "Municipal Commissioner / Mayor (summary)",
-          "name": "(see mcgm.gov.in · SAMPLE)",
+          "name": "",
+          "notCovered": true,
+          "plannedSource": "https://www.mcgm.gov.in/",
           "contact": {
-            "site": "https://www.mcgm.gov.in/",
-            "form": "https://www.mcgm.gov.in/"
+            "site": "https://www.mcgm.gov.in/"
           },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
-          },
-          "term": {
-            "text": "municipal term / appointed commissioner",
-            "badge": "SAMPLE"
-          }
+          "checked": "2026-10-08"
         }
       ]
     },
@@ -2106,10 +2022,6 @@
             "site": "https://www.uaepresident.ae/",
             "form": "https://www.uaepresident.ae/"
           },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
-          },
           "term": {
             "text": "elected by Federal Supreme Council; serving since May 2022",
             "badge": null
@@ -2122,10 +2034,6 @@
             "site": "https://www.sheikhmohammed.ae/",
             "form": "https://www.dubai.ae/"
           },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
-          },
           "term": {
             "text": "serving since 2006 (PM)",
             "badge": null
@@ -2133,19 +2041,13 @@
         },
         {
           "title": "Minister of Foreign Affairs",
-          "name": "(see mofa.gov.ae · SAMPLE name check)",
+          "name": "",
+          "notCovered": true,
+          "plannedSource": "https://www.mofa.gov.ae/",
           "contact": {
-            "site": "https://www.mofa.gov.ae/",
-            "form": "https://www.mofa.gov.ae/"
+            "site": "https://www.mofa.gov.ae/"
           },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
-          },
-          "term": {
-            "text": "cabinet appointment",
-            "badge": "SAMPLE"
-          }
+          "checked": "2026-10-08"
         }
       ]
     },
@@ -2159,10 +2061,6 @@
           "contact": {
             "site": "https://www.tamm.abudhabi/",
             "form": "https://www.tamm.abudhabi/"
-          },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "hereditary / ruling family",
@@ -2181,10 +2079,6 @@
           "contact": {
             "site": "https://www.dubai.ae/",
             "form": "https://www.dubai.ae/"
-          },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
           },
           "term": {
             "text": "hereditary / ruling family",
@@ -2249,10 +2143,6 @@
             "site": "https://www.metro.tokyo.lg.jp/",
             "form": "https://www.metro.tokyo.lg.jp/english/about/contact/index.html"
           },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
-          },
           "term": {
             "text": "elected 4-year; serving since 2016",
             "badge": null
@@ -2271,10 +2161,6 @@
             "site": "https://statehouse.gov.ng/",
             "form": "https://statehouse.gov.ng/"
           },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
-          },
           "term": {
             "text": "elected; serving since May 2023",
             "badge": null
@@ -2282,19 +2168,13 @@
         },
         {
           "title": "Key ministers (summary)",
-          "name": "SAMPLE cabinet pointers",
+          "name": "",
+          "notCovered": true,
+          "plannedSource": "https://nigeria.gov.ng/",
           "contact": {
-            "site": "https://nigeria.gov.ng/",
-            "form": "https://nigeria.gov.ng/"
+            "site": "https://nigeria.gov.ng/"
           },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
-          },
-          "term": {
-            "text": "appointed",
-            "badge": "SAMPLE"
-          }
+          "checked": "2026-10-08"
         }
       ]
     },
@@ -2304,19 +2184,13 @@
       "roles": [
         {
           "title": "President",
-          "name": "(see gob.cl: verify current; SAMPLE if transition)",
+          "name": "",
+          "notCovered": true,
+          "plannedSource": "https://www.gob.cl/",
           "contact": {
-            "site": "https://www.gob.cl/",
-            "form": "https://www.gob.cl/"
+            "site": "https://www.gob.cl/"
           },
-          "responseTime": {
-            "text": "unknown",
-            "badge": "ESTIMATE"
-          },
-          "term": {
-            "text": "4-year presidential term",
-            "badge": "SAMPLE"
-          }
+          "checked": "2026-10-08"
         }
       ]
     },

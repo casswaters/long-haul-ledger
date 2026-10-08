@@ -54,8 +54,8 @@ export function leadershipStack(catalog, { country, admin1, city, admin1Name, ci
       label: fallbackLabel || key,
       roles: [],
       emptyNote: level === 'city'
-        ? 'No sourced city leadership yet. Public municipal directories welcome in a later pass.'
-        : 'No sourced statewide roster yet. Public official directories welcome in a later pass.',
+        ? 'Not yet covered. Planned source: the city government site.'
+        : 'Not yet covered. Planned source: the state-equivalent government site.',
     });
   };
 

@@ -187,7 +187,7 @@ assert('header: Indicators stays in the header nav', /<a class="hnav hnav-primar
 assert('Method page explains energy tagging, stages and briefs', /id="method-sectors"/.test(html) && /Lifecycle stages/.test(html) && /Top 4 this week/.test(html) && /id="method-stage-map"/.test(html));
 assert('never shows admin-1 in UI copy', !/admin-1/i.test(html) && !/admin-1/i.test(read('./sectorui.js').replace(/\/\*[\s\S]*?\*\//g, '')));
 const sw = read('./sw.js');
-assert('SW v28 caches sector files and briefs', /long-haul-ledger-v28/.test(sw) && /sectors\.js/.test(sw) && /energy\.js/.test(sw) && /sectorui\.js/.test(sw) && /energy-briefs\.json/.test(sw));
+assert('SW v29 caches sector files and briefs', /long-haul-ledger-v29/.test(sw) && /sectors\.js/.test(sw) && /energy\.js/.test(sw) && /sectorui\.js/.test(sw) && /energy-briefs\.json/.test(sw));
 const wf = read('./.github/workflows/soft-launch.yml');
 assert('Pages excludes repo-only docs and candidates cache', /ROADMAP\.md/.test(wf) && /BRIEF\.md/.test(wf) && /data\/news-cache/.test(wf) && /energy\.test\.mjs/.test(wf));
 const htmlOut = renderSectorOverlay({
@@ -197,7 +197,7 @@ const htmlOut = renderSectorOverlay({
 assert('overlay: nine slots, Ohio backfill heading, brief button', (htmlOut.match(/class="sector-slot/g) || []).length === 9 && /More from United States/.test(htmlOut) && /data-sbrief-open/.test(htmlOut));
 assert('overlay: stage chips carry official reference popovers', (htmlOut.match(/data-stage-info/g) || []).length === 4 && /census\.gov\/naics/.test(htmlOut));
 const briefOut = renderSectorOverlay({ sector: ENERGY, state: { ssub: 'nuclear', sbrief: true }, place: ohio, names, items, briefs: v, stage: null, expanded: false, card: (it) => `<article>${it.title}</article>` });
-assert('overlay: no Ohio brief → says not ready, offers the US brief, shows stories', /isn't ready yet/.test(briefOut) && /Read the brief for the United States/.test(briefOut) && /data-brief-missing/.test(briefOut));
+assert('overlay: no Ohio brief → says not ready, offers the US brief, shows stories', /Not yet covered/.test(briefOut) && /Read the brief for the United States/.test(briefOut) && /data-brief-missing/.test(briefOut));
 const briefUS = renderSectorOverlay({ sector: ENERGY, state: { ssub: 'nuclear', sbrief: true }, place: us, names, items, briefs: v, stage: null, expanded: false, card: (it) => `<article>${it.title}</article>` });
 assert('overlay: US brief renders heading and sources', /The most important thing happening in nuclear this week/.test(briefUS) && /energy\.gov/.test(briefUS));
 

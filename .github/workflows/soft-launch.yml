@@ -9,7 +9,7 @@ on:
   # A routine/hand edit to the curated overrides or the sector briefs publishes within minutes.
   push:
     branches: [main]
-    paths: ['data/signals-curated.json', 'data/energy-briefs.json', 'data/materials-briefs.json', 'data/manufacturing-briefs.json', 'data/services-briefs.json', 'data/technology-briefs.json', 'data/policy-briefs.json']
+    paths: ['data/signals-curated.json', 'data/energy-briefs.json', 'data/materials-briefs.json', 'data/manufacturing-briefs.json', 'data/services-briefs.json', 'data/technology-briefs.json', 'data/policy-briefs.json', 'data/seats.json', 'data/leadership.json']
 
 permissions:
   contents: write
@@ -61,10 +61,14 @@ jobs:
         continue-on-error: true
         run: node scripts/fetch-prices.mjs
 
+      - name: Coverage counts → data/coverage.json (Method page line)
+        continue-on-error: true
+        run: node scripts/build-coverage.mjs
+
       - name: Commit data on top of latest main (retries; never conflicts)
         id: commit
         run: |
-          scripts/commit-data.sh "chore: refresh news feed + Prices ($(date -u +%Y-%m-%dT%H:%MZ))" data/signals-live.json data/desks/prices.json data/news-cache
+          scripts/commit-data.sh "chore: refresh news feed + Prices ($(date -u +%Y-%m-%dT%H:%MZ))" data/signals-live.json data/desks/prices.json data/news-cache data/coverage.json
 
       - name: Deploy Pages (gh-pages)
         if: github.ref == 'refs/heads/main'
@@ -76,5 +80,5 @@ jobs:
           force_orphan: false
           # Keep Actions build artifacts out of the static site
           # BUILD-PLAN.md, RESEARCH-RUNS.md and BRIEF.md stay on main only; they must never ship to Pages.
-          exclude_assets: '.github,node_modules,scripts,.gitignore,package-lock.json,shots.mjs,qa-retone.mjs,ledger.test.js,stats.test.mjs,location.test.mjs,energy.test.mjs,economy.test.mjs,signup.test.mjs,reorient.test.mjs,archive.html,data/monday-haul,hauls,BUILD-PLAN.md,RESEARCH-RUNS.md,BRIEF.md,ROADMAP.md,data/news-cache'
+          exclude_assets: '.github,node_modules,scripts,.gitignore,package-lock.json,shots.mjs,qa-retone.mjs,ledger.test.js,stats.test.mjs,location.test.mjs,energy.test.mjs,economy.test.mjs,signup.test.mjs,reorient.test.mjs,phase0.test.mjs,archive.html,data/monday-haul,hauls,BUILD-PLAN.md,RESEARCH-RUNS.md,BRIEF.md,ROADMAP.md,data/news-cache'
           commit_message: 'Deploy soft-launch news feed'

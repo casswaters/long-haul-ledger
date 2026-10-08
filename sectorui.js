@@ -127,7 +127,7 @@ function briefHtml(ctx, subDef, brief) {
       ? `<button type="button" class="btn-ghost" data-splace="${esc(JSON.stringify(parent.place))}" data-sopen-brief>Read the brief for ${esc(inSentence(placeLabel(parent.place, names)))}</button>` : '';
     return `
       <div class="brief brief-missing" data-brief-missing>
-        <p class="brief-wait"><strong>The ${esc(subDef.noun || subDef.name.toLowerCase())} brief for ${esc(inSentence(label))} isn't ready yet.</strong> Briefs are written from sourced stories by our research runs and published here once every fact is checked. Here are the top stories for now.</p>
+        <p class="brief-wait"><strong>Top 4 ${esc(subDef.noun || subDef.name.toLowerCase())} brief for ${esc(inSentence(label))}: Not yet covered.</strong> Planned source: our research runs, which write each brief from sourced stories and publish it once every fact is checked.${ctx.checked ? ` Checked ${esc(ctx.checked)}.` : ''} Here are the top stories for now.</p>
         ${parentBtn ? `<div class="brief-actions">${parentBtn}</div>` : ''}
         <div class="sector-feed">${columnHtml(col, ctx)}</div>
       </div>`;
@@ -156,6 +156,7 @@ function detailHtml(ctx, counts) {
       <div class="sector-overview">
         <h3 class="sector-detail-h">Top ${esc(sector.label.toLowerCase())} stories, ${esc(label)}</h3>
         <p class="section-note">Pick a ${esc(sector.subNoun || 'source')} for its own stories and the Top 4 brief.</p>
+        ${ctx.energyPrices || ''}
         <div class="sector-feed">${columnHtml(col, ctx)}</div>
       </div>`;
   }
@@ -189,10 +190,12 @@ function detailHtml(ctx, counts) {
       <div class="sector-sub-head">
         <div class="sector-sub-title"><h3 class="sector-detail-h"><span class="slot-n">${n}</span> ${esc(subDef.name)}</h3>${subDef.naics ? infoChip(segmentReference(sector, subDef), `seg-pop-${subDef.id}`, 'seg-info') : ''}</div>
         <p class="slot-copy-lg">${esc(subDef.copy)}</p>
+        ${ctx.xLink ? `<p class="x-row">${ctx.xLink(subDef)}</p>` : ''}
       </div>
+      ${subDef.id === 'oil' && ctx.energyPrices ? ctx.energyPrices : ''}
       <div class="brief-cta">
         <button type="button" class="btn-primary brief-btn" data-sbrief-open aria-controls="sector-detail">Top 4 this week</button>
-        <span class="brief-status ${brief ? 'is-ready' : 'is-wait'}">${brief ? `Brief ready · ${esc(label)} · written ${esc(dayLabel(brief.generated_at))}${brief.stale ? ' · older than 7 days' : ''}` : `Brief not ready yet for ${esc(label)}`}</span>
+        <span class="brief-status ${brief ? 'is-ready' : 'is-wait'}">${brief ? `Brief ready · ${esc(label)} · written ${esc(dayLabel(brief.generated_at))}${brief.stale ? ' · older than 7 days' : ''}` : `Brief not yet covered for ${esc(label)}`}</span>
       </div>
       ${chips ? `<div class="ncats stage-chips" role="group" aria-label="Filter by lifecycle stage">${chips}</div>` : ''}
       <div class="sector-feed" aria-live="polite">${showAll ? cardsHtml(showAll, ctx) : columnHtml(col, ctx)}</div>

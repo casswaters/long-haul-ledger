@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "notes": "Who's in the seat: key seats for a place (agency heads, regulators, central bank, key boards). A seat is listed only after the holder is confirmed on an official page (agency site, Senate or House committee page, Federal Register, agency release, SEC 8-K Item 5.02). Each seat keeps its source link and the date it was checked. No placeholder names.",
+  "checked": "2026-10-08",
+  "planned": {
+    "world": "Official leadership pages of the IMF, World Bank, IEA, OPEC and WTO",
+    "country": "Official pages of the central bank, energy and finance ministries and regulators",
+    "admin1": "State-equivalent government pages (utility commission, energy office, governor's cabinet)",
+    "city": "City government pages (utility board, planning, port authority)"
+  },
+  "places": {
+    "us": {
+      "seats": [
+        { "seat": "Chair, Federal Reserve Board", "body": "Federal Reserve", "kind": "central bank", "name": "Kevin Warsh", "since": "2026-05-22", "sourceUrl": "https://www.federalreserve.gov/aboutthefed/bios/board/warsh.htm", "sourceName": "Federal Reserve Board: Kevin Warsh, Chairman", "checked": "2026-10-08" },
+        { "seat": "Secretary of the Treasury", "body": "Department of the Treasury", "kind": "agency head", "name": "Scott Bessent", "since": null, "sourceUrl": "https://home.treasury.gov/about/general-information/officials", "sourceName": "U.S. Treasury: Officials", "checked": "2026-10-08" },
+        { "seat": "Secretary of Energy", "body": "Department of Energy", "kind": "agency head", "name": "Chris Wright", "since": "2025-02-03", "sinceNote": "Senate-confirmed", "sourceUrl": "https://www.energy.gov/person/chris-wright", "sourceName": "Department of Energy: Chris Wright", "checked": "2026-10-08" },
+        { "seat": "Secretary of the Interior", "body": "Department of the Interior", "kind": "agency head", "name": "Doug Burgum", "since": null, "sourceUrl": "https://www.doi.gov/secretary-doug-burgum", "sourceName": "Department of the Interior: Secretary Doug Burgum", "checked": "2026-10-08" },
+        { "seat": "Secretary of Commerce", "body": "Department of Commerce", "kind": "agency head", "name": "Howard Lutnick", "since": null, "sourceUrl": "https://www.commerce.gov/about/leadership", "sourceName": "Department of Commerce: Leadership", "checked": "2026-10-08" },
+        { "seat": "Administrator, Environmental Protection Agency", "body": "EPA", "kind": "regulator", "name": "Lee Zeldin", "since": null, "sourceUrl": "https://www.epa.gov/aboutepa/epa-administrator", "sourceName": "EPA: EPA Administrator", "checked": "2026-10-08" },
+        { "seat": "Chairman, Federal Energy Regulatory Commission", "body": "FERC", "kind": "regulator", "name": "Laura V. Swett", "since": null, "sourceUrl": "https://www.ferc.gov/about/commission-members", "sourceName": "FERC: Meet the Commissioners", "checked": "2026-10-08" },
+        { "seat": "Chairman, Nuclear Regulatory Commission", "body": "NRC", "kind": "regulator", "name": "Ho K. Nieh", "since": "2026-01-08", "sinceNote": "designated Chairman", "sourceUrl": "https://www.nrc.gov/about-nrc/organization/commission/nieh", "sourceName": "NRC: Chairman Ho K. Nieh", "checked": "2026-10-08" },
+        { "seat": "Chairman, Securities and Exchange Commission", "body": "SEC", "kind": "regulator", "name": "Paul S. Atkins", "since": "2025-04-21", "sinceNote": "sworn in", "sourceUrl": "https://www.sec.gov/about/sec-commissioners/paul-s-atkins", "sourceName": "SEC: Paul S. Atkins", "checked": "2026-10-08" }
+      ],
+      "changes": [
+        { "date": "2026-09-30", "seat": "Commissioner, Securities and Exchange Commission", "name": "Hester M. Peirce", "action": "leaving", "text": "SEC Chairman Paul S. Atkins marked the close of Commissioner Hester M. Peirce's tenure at the September 30 open meeting.", "sourceUrl": "https://www.sec.gov/newsroom/speeches-statements/atkins-statement-open-meeting-093026", "sourceName": "SEC: Statement at Open Meeting, Sept. 30, 2026" },
+        { "date": "2026-05-22", "seat": "Chair, Federal Reserve Board", "name": "Kevin Warsh", "action": "took office", "text": "Kevin Warsh took office as Chairman of the Federal Reserve Board for a four-year term ending May 21, 2030.", "sourceUrl": "https://www.federalreserve.gov/aboutthefed/bios/board/warsh.htm", "sourceName": "Federal Reserve Board: Kevin Warsh, Chairman" }
+      ]
+    }
+  }
+}

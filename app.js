@@ -1,11 +1,14 @@
-import { sparkSvg, fmtNum, fmtMoney, isStale as isStatStale, WB_INDICATORS } from './stats.js';
+import { sparkSvg } from './stats.js';
+import { coverageLine, placeIndicators, groupCounts, whatChangedHtml, lineHtml, notCoveredHtml, GROUPS, NOT_COVERED, changeOf, asOfLabel, fmtNumber } from './whatchanged.js';
+import { seatsFor, seatsHtml, isSeatChange, validateSeats, dayText } from './seats.js';
+import { xSearchUrl, xQueryForStory, xQueryForPanel, xLinkHtml } from './xsearch.js';
 import {
   META, COUNTRIES, STUBS, getCountry, fullCountryIds, globalFeed,
   filterSignals, opportunityNote, metricLabel,
 } from './data.js';
 import { parseHash, buildHash, normalizeTab, normalizeView, TABS, TAB_LABELS } from './nav.js';
 import {
-  DESKS, EMPTY_STATE, PROTOTYPE, renderableRecords, deskStatus, formatValue, formatDelta,
+  DESKS, EMPTY_STATE, PROTOTYPE, renderableRecords, formatValue, formatDelta,
   isStale, ageDays,
 } from './desks.js';
 import {
@@ -57,6 +60,8 @@ const state = {
   stab: null,
   ssub: null,
   sbrief: false,
+  /** "Who's in the seat" opened from the URL (#seats, or an old #d=people link). */
+  seats: false,
 };
 
 /** Validated briefs per sector id (data/energy-briefs.json). */
@@ -73,6 +78,11 @@ let pricesDesk = null;
 /** @type {any} Official stats (data/stats/us.json, world.json) */
 let statsUs = null;
 let statsWorld = null;
+/** World Bank Pink Sheet benchmarks (data/stats/benchmarks.json) and key seats (data/seats.json). */
+let statsBench = null;
+let seatsData = null;
+/** Build-time coverage counts (data/coverage.json) for the Method page. */
+let coverageData = null;
 
 /** @type {any} */
 let admin1Geo = null;
@@ -120,7 +130,10 @@ function applyHash() {
   state.stab = h.stab;
   state.ssub = h.ssub;
   state.sbrief = h.sbrief;
+  state.seats = !!h.seats;
+  if (h.redirected) history.replaceState(null, '', `${location.pathname}${location.search}#${buildHash(state)}`);
   render();
+  if (state.seats) revealSeats();
 }
 
 function navigate(patch) {
@@ -1065,6 +1078,9 @@ function renderSectorTab(root) {
     expanded: sectorExpanded,
     card: (it, extra) => newsCard(it, names, extra),
     tabs: SECTOR_TABS,
+    energyPrices: sector.id === 'energy' ? energyPricesHtml() : '',
+    checked: CHECKED_DAY(),
+    xLink: (subDef) => xLinkHtml(xQueryForPanel(subDef.name, placeLabel(place, names), { tab: sector.id, sub: subDef.id }), { cls: 'x-link-panel' }),
   };
   const panelScroll = root.querySelector('.sector-panel')?.scrollTop || 0;
   // Re-renders replace the DOM (navigate + hashchange both render); keep focus on the same control.
@@ -1354,26 +1370,45 @@ function protoNote() {
   return `<p class="proto-note">${escapeHtml(PROTOTYPE.note)}</p>`;
 }
 
-/* ---------- Indicators (sourced record; internal id: desks) ---------- */
+/* ---------- Indicators (Activity, Prices, Capital): "What changed" for the selected place ---------- */
+function currentPlace() { return placeOf(state); }
+function currentPlaceLabel() { return placeLabel(currentPlace(), placeNames()); }
+function indicatorModel(place = currentPlace()) {
+  return placeIndicators(place, { us: statsUs, benchmarks: statsBench, world: statsWorld });
+}
+/** Parent place button for empty states ("See United States"). */
+function parentLink(place) {
+  const par = parentPlace(place);
+  if (!par) return { parentLabel: '', parentAttr: '' };
+  return { parentLabel: placeLabel(par, placeNames()), parentAttr: `data-goto-place="${escapeHtml(JSON.stringify(par))}"` };
+}
+const CHECKED_DAY = () => dayText(coverageData?.checked || seatsData?.checked || '');
+
+function renderWhatChanged() {
+  const place = currentPlace();
+  const m = indicatorModel(place);
+  return whatChangedHtml(m, { placeLabel: currentPlaceLabel(), checked: CHECKED_DAY(), ...(m.empty ? parentLink(place) : {}) });
+}
+
 function renderDesks() {
-  const active = DESKS.find((d) => d.id === state.desk) || DESKS[2];
-  const tabs = DESKS.map((d) => {
-    const st = deskStatusAll(d.id);
-    return `<button type="button" class="desk-tab${d.id === active.id ? ' active' : ''}" data-desk-tab="${d.id}" role="tab" aria-selected="${d.id === active.id}">
-      <span class="desk-tab-name">${escapeHtml(d.title)}</span><span class="desk-tab-n${st.count ? '' : ' is-zero'}">${st.count}</span></button>`;
-  }).join('');
-  const recs = active.id === 'prices' ? renderableRecords(pricesDesk) : [];
-  const statRecs = statsFor(active.id);
-  const body = (recs.length ? renderPriceTable(recs) : '') + renderStatsTable(statRecs) || renderDeskEmpty(active);
+  const place = currentPlace();
+  const m = indicatorModel(place);
+  const counts = groupCounts(m);
+  const active = DESKS.find((d) => d.id === state.desk) || DESKS.find((d) => d.id === 'prices');
+  const tabs = DESKS.map((d) => `<button type="button" class="desk-tab${d.id === active.id ? ' active' : ''}" data-desk-tab="${d.id}" role="tab" aria-selected="${d.id === active.id}">
+      <span class="desk-tab-name">${escapeHtml(d.title)}</span><span class="desk-tab-n${counts[d.id] ? '' : ' is-zero'}">${counts[d.id]}</span></button>`).join('');
+  const group = m.groups.find((g) => g.id === active.id);
+  const body = group
+    ? `<div class="wc-lines wc-lines-full">${group.lines.map((l) => lineHtml(l, { spark: l.spark ? `<p class="wc-spark"><span class="k">Trend</span> ${sparkSvg(l.spark)}</p>` : '' })).join('')}</div>
+       ${m.hidden.length ? `<p class="wc-hidden">${m.hidden.map(escapeHtml).join(' ')}</p>` : ''}`
+    : notCoveredHtml({ field: active.title, planned: m.planned, checked: CHECKED_DAY(), ...parentLink(place) });
   const sources = active.sources.map((src) => `<li><a href="${escapeHtml(src.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(src.name)}</a></li>`).join('');
-  const planned = active.planned?.length
-    ? `<dt>Planned, not wired</dt><dd><ul>${active.planned.map((x) => `<li>${escapeHtml(x)}</li>`).join('')}</ul></dd>` : '';
   return `
-    <div class="overlay-panel desks-panel">
+    <div class="overlay-panel desks-panel" role="dialog" aria-modal="true" aria-labelledby="desks-title">
       <div class="overlay-head">
         <div>
-          <div class="overlay-kicker">Indicators · United States series · sourced record</div>
-          <h2>${escapeHtml(active.title)}</h2>
+          <div class="overlay-kicker">Indicators · ${escapeHtml(currentPlaceLabel())}</div>
+          <h2 id="desks-title">${escapeHtml(active.title)}</h2>
           <p class="overlay-hint">${escapeHtml(active.scope)}</p>
         </div>
         <div class="overlay-actions">
@@ -1386,91 +1421,28 @@ function renderDesks() {
         <dl class="desk-spec">
           <dt>Update trigger</dt><dd>${escapeHtml(active.trigger)}</dd>
           <dt>Sources</dt><dd><ul>${sources}</ul></dd>
-          ${planned}
         </dl>
-        <p class="desk-foot">Every line: source link · as-of date · revision note · history (old lines stay visible). Not investment advice. Not real-time.</p>
+        <p class="desk-foot">Every line: latest value, change vs the prior reading, as-of date and source. Values as published; sources may revise them. Indicators follow the place you pick on the map. Not investment advice. Not real-time.</p>
       </div>
     </div>`;
 }
 
-function renderDeskEmpty(desk) {
-  const head = (desk.columns || []).map((c) => `<th scope="col">${escapeHtml(c)}</th>`).join('');
-  return `
-    <div class="desk-empty" data-desk-empty="${desk.id}">
-      <table class="ledger-table ledger-table-empty"><thead><tr>${head}</tr></thead></table>
-      <p class="desk-empty-msg">${escapeHtml(EMPTY_STATE)}</p>
-    </div>`;
+/** Diesel moved from Prices to the Energy tab: one sourced line, US retail. */
+function energyPricesHtml() {
+  const place = currentPlace();
+  if (!(place.level === 'world' || (place.level === 'country' && place.country === 'us'))) return '';
+  const r = renderableRecords(pricesDesk).find((x) => x.id === 'prices.diesel-us-retail');
+  if (!r) return '';
+  const c = r.current;
+  const ch = c.prior ? changeOf(c.value, c.prior.value, { unit: c.unit, decimals: 3 }) : null;
+  const line = {
+    id: r.id, label: 'Diesel, US retail', display: formatValue(c.value, r.id), unit: c.unit, change: ch,
+    asOfText: asOfLabel(c.asOf, 'weekly'), prior: c.prior ? { display: `${formatValue(c.prior.value, r.id)} ${c.unit}`, asOfText: asOfLabel(c.prior.asOf, 'weekly') } : null,
+    detail: r.industrialUse, caveat: r.caveat, source: { name: c.sourceName, url: c.sourceUrl }, stale: isStale(r),
+  };
+  return `<div class="energy-prices"><span class="k">Energy prices</span>${lineHtml(line)}</div>`;
 }
 
-function renderPriceTable(recs) {
-  const now = new Date();
-  const rows = recs.map((r) => {
-    const c = r.current;
-    const prior = c.prior;
-    const delta = prior ? formatDelta(c.value, prior.value, r.id) : '';
-    const stale = isStale(r, now)
-      ? `<span class="stale-flag" title="Older than this series' normal cadence">stale · ${ageDays(c.asOf, now)} d</span>` : '';
-    const hist = (r.history || []).slice().reverse().map((h) => `
-      <li><s>${escapeHtml(formatValue(h.value, r.id))} ${escapeHtml(h.unit || c.unit)} · as of ${escapeHtml(h.asOf)}</s>
-        <span class="hist-meta">superseded ${escapeHtml(h.supersededAt)} · ${escapeHtml(h.revisionNote || '')} · <a href="${escapeHtml(h.sourceUrl)}" target="_blank" rel="noopener noreferrer">source</a></span></li>`).join('');
-    const history = hist
-      ? `<ul class="hist-list">${hist}</ul>`
-      : `<span class="hist-empty">First entry, recorded ${escapeHtml((c.retrievedAt || '').slice(0, 10))}. Superseded lines will stay here, struck through.</span>`;
-    return `
-      <tbody class="ledger-rec" data-record="${escapeHtml(r.id)}">
-        <tr class="ledger-row">
-          <th scope="row" data-label="Series">${escapeHtml(r.title)}<span class="series-id">${escapeHtml(r.seriesId)} · ${escapeHtml(r.frequency)}</span></th>
-          <td class="num val" data-label="Value"><span class="cell">${escapeHtml(formatValue(c.value, r.id))}</span></td>
-          <td data-label="Unit" class="unit"><span class="cell">${escapeHtml(c.unit)}</span></td>
-          <td class="num" data-label="As of"><span class="cell">${escapeHtml(c.asOf)} ${stale}</span></td>
-          <td class="num prior" data-label="Prior"><span class="cell">${prior ? `${escapeHtml(formatValue(prior.value, r.id))} <span class="prior-date">${escapeHtml(prior.asOf)}</span> <span class="delta">${escapeHtml(delta)}</span>` : 'n/a'}</span></td>
-          <td data-label="Source"><span class="cell"><a href="${escapeHtml(c.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(c.sourceName)}</a>${c.primaryUrl ? ` · <a href="${escapeHtml(c.primaryUrl)}" target="_blank" rel="noopener noreferrer">EIA</a>` : ''}</span></td>
-          <td data-label="Revision note"><span class="cell">${escapeHtml(c.revisionNote)}</span></td>
-        </tr>
-        <tr class="ledger-sub">
-          <td colspan="7">
-            <div class="sub-grid">
-              <div><span class="k">Industrial use</span> ${escapeHtml(r.industrialUse)}</div>
-              <div><span class="k">Caveat</span> ${escapeHtml(r.caveat || 'n/a')}</div>
-              <div><span class="k">Range</span> ${r.range ? escapeHtml(`${r.range.low}–${r.range.high} set ${r.range.setOn}`) : 'not set (set by the editor with a written reason)'}</div>
-              <div class="hist"><span class="k">History</span> ${history}</div>
-            </div>
-          </td>
-        </tr>
-      </tbody>`;
-  }).join('');
-  return `
-    <table class="ledger-table">
-      <thead><tr><th scope="col">Series</th><th scope="col" class="num">Value</th><th scope="col">Unit</th><th scope="col" class="num">As of</th><th scope="col" class="num">Prior (source)</th><th scope="col">Source</th><th scope="col">Revision note</th></tr></thead>
-      ${rows}
-    </table>
-    <p class="desk-note">Values as published by the source on the as-of date; they may be revised. Pulled from public EIA series via FRED (no key) by the site's GitHub Action.</p>`;
-}
-
-function renderHomeDesks() {
-  const tiles = DESKS.map((d) => {
-    const st = deskStatusAll(d.id);
-    const lines = d.id === 'prices'
-      ? renderableRecords(pricesDesk).map((r) => `
-          <div class="tile-line"><span class="tl-name">${escapeHtml(r.title.split(',')[0].replace(' natural gas spot', ''))}</span><span class="tl-val">${escapeHtml(formatValue(r.current.value, r.id))}</span><span class="tl-unit">${escapeHtml(r.current.unit)}</span><span class="tl-asof">${escapeHtml(r.current.asOf)}</span></div>`).join('')
-      : statsFor(d.id).slice(0, 3).map((r) => `
-          <div class="tile-line"><span class="tl-name">${escapeHtml(shortLabel(r.title))}</span><span class="tl-val">${escapeHtml(fmtNum(r.value, r.decimals))}</span><span class="tl-unit">${escapeHtml(r.unit)}</span><span class="tl-asof">${escapeHtml(r.asOf)}</span></div>`).join('');
-    return `
-      <button type="button" class="desk-tile${st.count ? '' : ' is-empty'}" data-open-desk="${d.id}">
-        <span class="tile-top"><span class="tile-name">${escapeHtml(d.title)}</span><span class="tile-count">${st.count}</span></span>
-        ${lines ? `<span class="tile-lines">${lines}</span>` : ''}
-        <span class="tile-status">${escapeHtml(st.count ? st.text : EMPTY_STATE)}</span>
-      </button>`;
-  }).join('');
-  return `
-    <section class="home-desks" aria-label="Indicators">
-      <div class="home-head">
-        <h2>Indicators</h2>
-        <span class="home-sub">United States series for now · source, as-of date and revision note on every line</span>
-      </div>
-      <div class="desk-tiles">${tiles}</div>
-    </section>`;
-}
 function shortLabel(name) {
   if (!name) return '';
   return name.length > 22 ? name.slice(0, 20) + '…' : name;
@@ -1493,6 +1465,16 @@ function renderLeadRole(role) {
             ? `<div><span class="lead-k">Response</span> ${escapeHtml(role.responseTime.text)} ${role.responseTime.badge ? `<span class="badge-sm sample" title="Unverified estimate, not a measured response time">${escapeHtml(role.responseTime.badge)}</span>` : ''}</div>` : '';
           const termLine = role.term?.text
             ? `<div><span class="lead-k">Term</span> ${escapeHtml(role.term.text)} ${role.term.badge ? `<span class="badge-sm sample">${escapeHtml(role.term.badge)}</span>` : ''}</div>` : '';
+          if (role.notCovered) {
+            return `
+        <article class="lead-role lead-pending" data-not-covered>
+          <div class="lead-role-top"><div>
+            <div class="lead-title">${escapeHtml(role.title)}</div>
+            <div class="lead-name ink-mute">${NOT_COVERED}</div>
+          </div></div>
+          <div class="lead-meta"><div class="ink-mute">Planned source: ${role.plannedSource ? `<a href="${escapeHtml(role.plannedSource)}" target="_blank" rel="noopener noreferrer">${escapeHtml(role.plannedSource.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, ''))}</a> (official site)` : 'official government site'}. Checked ${escapeHtml(dayText(role.checked || ''))}.</div></div>
+        </article>`;
+          }
           if (role.sourcePending) {
             return `
         <article class="lead-role lead-pending">
@@ -1539,6 +1521,12 @@ function renderLeadGroups(block) {
   }).join('');
 }
 
+function leadPlanned(level) {
+  if (level === 'city') return 'the city government site and mayor\'s office page';
+  if (level === 'admin1') return 'the state-equivalent government site and governor or premier page';
+  return 'the head of state and head of government pages on the official government site';
+}
+
 function renderLeadershipAccordion() {
   if (!state.country) return '';
   const af = findAdminFeature(admin1Geo, state.admin1);
@@ -1558,9 +1546,9 @@ function renderLeadershipAccordion() {
   if (!stack.length) {
     return `
       <details class="leadership-acc">
-        <summary>Leadership <span class="tier-tag">public channels · sparse</span></summary>
+        <summary>Leadership <span class="tier-tag">public channels</span></summary>
         <div class="leadership-body">
-          <p class="section-note">No leadership roster seeded for this focus yet. Public official directories welcome in a later pass.</p>
+          ${notCoveredHtml({ field: 'Leadership', planned: leadPlanned(state.city ? 'city' : state.admin1 ? 'admin1' : 'country'), checked: CHECKED_DAY() })}
           ${finerNote}
         </div>
       </details>`;
@@ -1569,7 +1557,7 @@ function renderLeadershipAccordion() {
   const levels = stack.map((block, idx) => {
     const empty = isEmptyLeadership(block);
     const roles = empty
-      ? `<p class="section-note lead-empty">${escapeHtml(block.emptyNote || 'No sourced leadership for this level yet.')}</p>`
+      ? notCoveredHtml({ field: 'Leadership', planned: leadPlanned(block.level), checked: CHECKED_DAY() })
       : (block.roles || []).map(renderLeadRole).join('');
     const groups = renderLeadGroups(block);
     const nest = idx > 0 ? ' lead-level-nested' : '';
@@ -1586,11 +1574,65 @@ function renderLeadershipAccordion() {
     <details class="leadership-acc">
       <summary>Leadership <span class="tier-tag">${focusTag}</span></summary>
       <div class="leadership-body">
-        <p class="section-note">Public sites, switchboards and forms only, never private phones. Verified entries list an official source and as-of date; unverified seats say source pending. SAMPLE / ESTIMATE badges remain only on unverified summary rows. Response times are shown only where a published source exists. Country-level rosters stay on the country panel; state drill shows that state's public channels.</p>
+        <p class="section-note">Public sites, switchboards and forms only, never private phones. Verified entries list an official source and as-of date; seats we have not confirmed say source pending or Not yet covered. Country-level rosters stay on the country panel; a state equivalent shows its own public channels.</p>
         ${finerNote}
         ${levels}
       </div>
     </details>`;
+}
+
+/** Method page: the coverage line built from the data files (data/coverage.json). */
+function renderCoverageLine() {
+  const el = document.getElementById('method-coverage');
+  if (!el) return;
+  const line = coverageLine(coverageData);
+  el.hidden = !line;
+  el.textContent = line ? `${line} Counted from the data files on ${dayText(coverageData.checked)}.` : '';
+}
+
+/* ---------- Who's in the seat ---------- */
+function renderSeats() {
+  const place = currentPlace();
+  const model = seatsFor(place, seatsData || {});
+  const names = placeNames();
+  const news = liveItems().filter(isSeatChange);
+  const inPlace = (i) => {
+    const loc = i.loc || { countries: i.countryId ? [String(i.countryId).toLowerCase()] : [], admin1: [], cities: [] };
+    if (!(loc.countries || []).includes(place.country)) return false;
+    if (place.level === 'admin1') return (loc.admin1 || []).includes(place.admin1);
+    if (place.level === 'city') return (loc.cities || []).includes(place.city);
+    return true;
+  };
+  const placed = place.level === 'world' ? news : news.filter(inPlace);
+  return seatsHtml(model, {
+    placeLabel: placeLabel(place, names), news: placed, open: !!state.seats,
+    ...(model.seats.length ? {} : parentLink(place)),
+  });
+}
+/** Scroll "Who's in the seat" into view (from #seats or an old #d=people link). */
+function revealSeats() {
+  requestAnimationFrame(() => {
+    const el = document.getElementById('seats-panel');
+    if (!el) return;
+    el.open = true;
+    const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+    el.scrollIntoView({ block: 'start', behavior: reduce ? 'auto' : 'smooth' });
+    el.querySelector('summary')?.focus({ preventScroll: true });
+  });
+}
+/** Shared wiring for the place panels: parent links in empty states, seats toggle in the URL. */
+function wirePanelCommon(root) {
+  $$('[data-goto-place]', root).forEach((b) => b.addEventListener('click', () => {
+    let p; try { p = JSON.parse(b.dataset.gotoPlace); } catch { return; }
+    navigate({ country: p.country || null, admin1: p.admin1 || null, city: p.city || null, view: 'desk', tab: 'signals', sector: null, region: null, company: null });
+  }));
+  const seats = $('#seats-panel', root);
+  seats?.addEventListener('toggle', () => {
+    if (seats.open === !!state.seats) return;
+    state.seats = seats.open;
+    const h = buildHash(state);
+    history.replaceState(null, '', `${location.pathname}${location.search}${h ? `#${h}` : ''}`);
+  });
 }
 
 /* ---------- Panel ---------- */
@@ -1609,36 +1651,25 @@ function renderPanel() {
     root.innerHTML = `
       <div class="country-head">
         <h2>${escapeHtml(areaLabel)}</h2>
-        ${renderWorldMacro(state.country)}
-        <p class="section-note">No example profile for this country. Official macro figures (where published), leadership channels and the news column follow this selection.</p>
+        ${renderWhatChanged()}
         ${renderLeadershipAccordion()}
+        ${renderSeats()}
         <div class="desk-actions"><span class="desk-hint">${escapeHtml(drillHint)}</span></div>
       </div>`;
+    wirePanelCommon(root);
     return;
   }
   if (!c) {
     root.innerHTML = `
       <div class="panel-home">
         <section class="home-index" aria-label="World">
-          <div class="home-head">
-            <h2>World</h2>
-            <span class="home-sub">Same treatment for every country</span>
-          </div>
-          <p class="home-help">Zoom from the whole world to a country, state equivalent or city; the panels and the news column follow your selection. Click a country to focus on it; double-click or long-press for the industry mind map. Zoom with wheel, pinch or the +/− controls.</p>
-          <div class="proto-callout">${protoBadge()}<span>Country scores, snapshots and country-profile tabs are example data for UX testing and are tagged where they appear. World Bank macro figures, leadership panels, the news column and the indicators are sourced.</span></div>
-          <div class="seed-list" id="seed-chips"></div>
+          <div class="home-head"><h2>World</h2></div>
+          <p class="home-help">Pick a place on the map; the numbers, seats and news follow it.</p>
         </section>
-        ${renderHomeDesks()}
+        ${renderWhatChanged()}
+        ${renderSeats()}
       </div>`;
-    const box = $('#seed-chips');
-    for (const id of fullCountryIds()) {
-      const btn = document.createElement('button');
-      btn.className = 'chip';
-      btn.type = 'button';
-      btn.textContent = COUNTRIES[id].name;
-      btn.addEventListener('click', () => navigate({ country: id, view: 'desk', sector: null, region: null, company: null, tab: 'signals' }));
-      box.appendChild(btn);
-    }
+    wirePanelCommon(root);
     return;
   }
 
@@ -1650,11 +1681,10 @@ function renderPanel() {
       <div class="block-label">Country profile ${exampleTag()}</div>
       <div class="stub-note">
         <strong>${escapeHtml(c.name)}</strong> is a lighter prototype stub; its scores are illustrative example data.
-        Open the <strong>industry mind map</strong> for invented primary industries and light value-chain stubs, or open a fuller prototype profile below.
+        Open the <strong>industry mind map</strong> for invented primary industries and light value-chain stubs.
       </div>
       <div class="tab-body">
         <p class="section-note">${escapeHtml(c.snapshot)}</p>
-        <div class="seed-list" id="seed-chips"></div>
       </div>`;
   } else {
     body = `
@@ -1680,8 +1710,7 @@ function renderPanel() {
   root.innerHTML = `
     <div class="country-head">
       <h2>${escapeHtml(areaLabel)}</h2>
-      ${c.id === 'us' ? `<div class="us-callout"><span>Sourced indicators for the United States: activity, people, prices, capital.</span><button type="button" class="btn-primary btn-inline" data-open-desk="prices">Open indicators</button></div>` : ''}
-      ${renderWorldMacro(c.id)}
+      ${renderWhatChanged()}
       <p class="snapshot">${exampleTag()} ${escapeHtml(c.snapshot)}</p>
       <div class="block-label">Scores ${exampleTag()}</div>
       <div class="metrics" aria-label="Prototype scores, example data">
@@ -1690,6 +1719,7 @@ function renderPanel() {
         <div class="metric is-proto"><div class="label">Headroom <span class="metric-unit">score 0–100</span></div><div class="value">${m.opportunity}</div><div class="hint">${metricLabel(m.opportunity)} · example</div></div>
       </div>
       ${renderLeadershipAccordion()}
+      ${renderSeats()}
       <div class="desk-actions">
         <button type="button" class="btn-primary" data-open-mindmap ${mmOk ? '' : 'disabled title="Mind map is country-level only"'}>Mind map</button>
         <span class="desk-hint">Map: single-click = focus · double-click / long-press = mind map (country only). ${escapeHtml(drillHint)}</span>
@@ -1704,17 +1734,7 @@ function renderPanel() {
     if (!mindMapAllowed(state.admin1, state.city)) return;
     navigate({ view: 'mindmap', company: null, sector: null, region: null, admin1: null, city: null });
   });
-  if (c.tier === 'stub') {
-    const box = $('#seed-chips');
-    for (const id of fullCountryIds()) {
-      const btn = document.createElement('button');
-      btn.className = 'chip';
-      btn.type = 'button';
-      btn.textContent = COUNTRIES[id].name;
-      btn.addEventListener('click', () => navigate({ country: id, view: 'desk', sector: null, region: null, company: null, tab: 'signals' }));
-      box.appendChild(btn);
-    }
-  }
+  wirePanelCommon(root);
   wireTabInteractions(c, root);
 }
 
@@ -1890,7 +1910,8 @@ function newsCard(i, names, extra = '') {
         <a class="title" href="${escapeHtml(i.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(i.title)}</a>
         <div class="meta">
           <span>${escapeHtml(i.publishedLabel || dateStampShort(i.published))}</span>
-          <span class="badge-sm kind">${escapeHtml(cat === 'general' ? (i.verification?.status === 'analysis' ? 'analysis' : 'news') : CATEGORY_LABELS[cat].toLowerCase())}</span>${extra}
+          <span class="badge-sm kind">${escapeHtml(cat === 'general' ? (i.verification?.status === 'analysis' ? 'analysis' : 'news') : CATEGORY_LABELS[cat].toLowerCase())}</span>${isSeatChange(i) ? '<span class="badge-sm seat-tag" title="Reports a confirmation, appointment or resignation in a named seat">seat change</span>' : ''}${extra}
+          ${xLinkHtml(xQueryForStory(i))}
         </div>
       </article>`;
 }
@@ -2010,62 +2031,14 @@ function watchPanelDollar() {
 
 async function loadStats() {
   const get = async (p) => { try { const r = await fetch(p, { cache: 'no-store' }); return r.ok ? await r.json() : null; } catch { return null; } };
-  [statsUs, statsWorld] = await Promise.all([get('./data/stats/us.json'), get('./data/stats/world.json')]);
+  [statsUs, statsWorld, statsBench, seatsData, coverageData] = await Promise.all([
+    get('./data/stats/us.json'), get('./data/stats/world.json'), get('./data/stats/benchmarks.json'),
+    get('./data/seats.json'), get('./data/coverage.json'),
+  ]);
+  if (seatsData && validateSeats(seatsData).length) seatsData = null;
+  renderCoverageLine();
   if (state.country) renderPanel(); else renderPanel();
   if (state.desk) renderOverlay();
-}
-
-function deskStatusAll(id) {
-  const base = deskStatus(id, pricesDesk);
-  const extra = statsFor(id);
-  if (!extra.length) return base;
-  const n = base.count + extra.length;
-  const latest = [...extra.map((r) => r.asOf), ...(base.count ? [base.text.split('latest ')[1]] : [])].filter(Boolean).sort().pop();
-  return { count: n, text: `${n} sourced lines · latest ${latest}` };
-}
-
-function statsFor(deskId) {
-  return (statsUs?.series || []).filter((r) => r.desk === deskId && Number.isFinite(r.value));
-}
-
-const CADENCE = { daily: 'daily', weekly: 'weekly', monthly: 'monthly' };
-function renderStatsTable(recs) {
-  if (!recs.length) return '';
-  const now = new Date();
-  const rows = recs.map((r) => {
-    const stale = isStatStale(r, now) ? `<span class="stale-flag" title="Older than this series' normal cadence">stale</span>` : '';
-    const err = r.lastError ? `<span class="stale-flag" title="Last refresh failed (${escapeHtml(r.lastError)}); showing last good value">last good</span>` : '';
-    const prior = r.prior ? `${escapeHtml(fmtNum(r.prior.value, r.decimals))} <span class="prior-date">${escapeHtml(r.prior.asOf)}</span>` : 'n/a';
-    const yoy = Number.isFinite(r.yoy) ? `<span class="stat-yoy">${r.yoy > 0 ? '+' : ''}${r.yoy.toFixed(1)}% y/y</span>` : '';
-    return `<tr class="ledger-row stat-row">
-      <th scope="row" data-label="Series"><span class="cell">${escapeHtml(r.title)}${r.caveat ? `<span class="stat-caveat">${escapeHtml(r.caveat)}</span>` : ''}</span></th>
-      <td class="num" data-label="Value"><span class="cell">${escapeHtml(fmtNum(r.value, r.decimals))} ${yoy}</span></td>
-      <td data-label="Unit"><span class="cell">${escapeHtml(r.unit)}</span></td>
-      <td class="num" data-label="As of"><span class="cell">${escapeHtml(r.asOf)} <span class="stat-cad">${escapeHtml(CADENCE[r.frequency] || r.frequency)}</span> ${stale}${err}</span></td>
-      <td class="num prior" data-label="Prior"><span class="cell">${prior}</span></td>
-      <td class="spark-cell" data-label="Trend"><span class="cell">${sparkSvg(r.spark)}</span></td>
-      <td data-label="Source"><span class="cell"><a href="${escapeHtml(r.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.sourceName)}</a></span></td>
-    </tr>`;
-  }).join('');
-  return `
-    <h3 class="stats-head">Official series <span class="tier-tag">auto-refreshed</span></h3>
-    <table class="ledger-table stats-table">
-      <thead><tr><th scope="col">Series</th><th scope="col" class="num">Value</th><th scope="col">Unit</th><th scope="col" class="num">As of</th><th scope="col" class="num">Prior</th><th scope="col">Trend</th><th scope="col">Source</th></tr></thead>
-      <tbody>${rows}</tbody>
-    </table>
-    <p class="desk-note">Each series keeps its source cadence (daily, weekly or monthly). Trend line: about the last 12 months of daily data or 24 monthly readings. Refreshed by the site's GitHub Action from FRED graph CSV (no key)${statsUs?.generatedAt ? `, last run ${escapeHtml(statsUs.generatedAt.slice(0, 16).replace('T', ' '))} UTC` : ''}.</p>`;
-}
-
-function renderWorldMacro(iso2) {
-  const c = statsWorld?.countries?.[iso2];
-  if (!c) return '';
-  const cells = WB_INDICATORS.map((ind) => {
-    const v = c[ind.id];
-    if (!v) return `<div class="macro-cell"><div class="label">${escapeHtml(ind.title)}</div><div class="value ink-mute">n/a</div><div class="hint">no recent data</div></div>`;
-    const val = ind.kind === 'money' ? fmtMoney(v.value) : `${fmtNum(v.value, 1)}%`;
-    return `<div class="macro-cell"><div class="label">${escapeHtml(ind.title)} <span class="metric-unit">${escapeHtml(ind.unit)}</span></div><div class="value">${escapeHtml(val)}</div><div class="hint"><a href="${escapeHtml(v.sourceUrl)}" target="_blank" rel="noopener noreferrer">World Bank</a> · ${escapeHtml(v.year)}</div></div>`;
-  }).join('');
-  return `<section class="macro-strip" aria-label="Official macro indicators"><div class="macro-head">Official macro <span class="tier-tag">World Bank · annual</span></div><div class="macro-grid">${cells}</div></section>`;
 }
 
 async function loadPricesDesk() {

@@ -2,7 +2,7 @@
 
 Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md and RESEARCH-RUNS.md) and never ships to the live site.
 
-**Last updated:** 2026-10-08, 11:25 AM MT
+**Last updated:** 2026-10-08, 11:51 MT
 
 ## House rules
 - Everything is free. No paid tier, pricing or paywall copy until Cassidy says go.
@@ -18,6 +18,17 @@ Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md an
 - Spot-check the news column per place for wrong location tags and odd rankings; fix rules as found.
 
 ## Next
+- **Coverage fill plan (audit Oct 8, 11:15 AM MT; full write-up off repo at /workspace/qa/lhl/coverage-audit-2026-10-08.md).** Today: leaders for 15 of 187 countries, 69 of 4,315 state equivalents, 6 of 1,122 cities (0 city rows sourced); World Bank macro for 180 of 187 countries (29 cells older than 2020); own news for 97 of 187 countries; Energy briefs 11 slots (World 6 of 9, US 5 of 9); sector briefs 0 of 36 segments anywhere; indicators US only.
+  - Phase 0 (1 session): one "Not yet covered" state with planned source and checked date on every empty panel; hide World Bank values older than 10 years; remove "unknown" ESTIMATE response times; replace "(see ...)" names and the CL, NG, AE sample rows; build-time coverage line on the Method page.
+  - Phase 1 (3 sessions): all 187 countries get head of state, head of government, start date and official website (Wikidata candidates, confirmed on official sites), World Bank sector shares for the six tabs, OWID energy mix; retire the 6 example profiles (Cassidy approved Oct 8, 11:24 AM MT).
+  - Phase 2 (2 to 3 sessions): 51 US state equivalents (BLS, FRED, BEA, Census, EIA; the last three need free keys from Cassidy) and the 35 US map cities (mayors, metro data); clear 31 source-pending legislature seats.
+  - Phase 3 (3 to 4 sessions): state equivalents for major economies (Eurostat, OECD regional, Global Data Lab, national offices; Wikidata leader candidates exist for 1,136 of 4,220).
+  - Phase 4 (2 to 3 sessions): all 1,122 cities get dated population; mayors (481 candidates) and websites (837) after confirmation.
+  - Ongoing: weekly Action re-pulls and diffs; changed leaders go to a verify list for the research runs; never publish a leader change from Wikidata alone.
+  - Not promised at 100%: briefs, per-city news, response times. Those show the labeled parent-level fallback.
+- **Phase 5: Most reliable voices in the space (after coverage fill).** One list per field (Energy + the five sector tabs), 10 people max, alphabetical, no numeric score. Inclusion needs 3 of 5 linked evidence criteria: primary-source role, checkable track record, citations by primary institutions or peer review, corrections history, disclosed affiliations. Each profile: role, dated accomplishments, a current-affairs bio with every sentence sourced; weekly refresh in the research runs; stale after 14 days. About 8 to 10 sessions. Lists stay in a draft file off Pages until Cassidy approves them.
+  - Phase 0 status: shipped in SW v29 (see Shipped). Phase 1 is next.
+- **Who's in the seat (SW v29, US first).** Key seats per place, each confirmed on an official page with its checked date; recent seat changes also tagged in the news column. Next: more countries (central bank, energy and finance ministries, regulators). Later each seat links to its Most reliable voices profile (Phase 5).
 - **Growth path (decided by Cassidy, Oct 8): keep everything free and build a user base with email-only Buttondown sign-ups (no passwords, double opt-in). Paid stays off.** Done: content gaps pass, sign-up box (SW v27). Next: the weekly Monday Haul email and its archive.
 - **On-demand briefs (option, not built).** A "write this brief now" path for places without a precomputed brief would need: a small server-side function (the site is static on GitHub Pages, so it cannot hold an AI key), a model API key kept server-side, a cache per place, source and week so each brief is written once, the same validation as the precomputed file (sources required, no item without a link), and a visible "written automatically, not reviewed" label. Today only reviewed, precomputed briefs ship.
 - **Sector briefs for the five tabs.** Research runs write "Top 4 this week" briefs for Raw materials, Manufacturing, Services, Technology and Policy into data/{tab}-briefs.json after the Energy briefs: World and the United States first, then major countries. Same schema, rules and validator as Energy (see RESEARCH-RUNS.md). Nothing is seeded; empty slots say not ready yet.
@@ -36,7 +47,7 @@ Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md an
 - **More national feeds** for the countries with fewer than 4 stories (42 of 77 tagged countries after the last run).
 
 ## Later
-- Indicators beyond the United States (currently US-only); needs free official series per country.
+- Monthly or quarterly indicators beyond the United States (countries show annual World Bank lines today); state-equivalent and city indicators (Phase 2 to 4).
 - Better city-level news (few stories are tagged to cities today).
 - Monday Haul archive page (scaffolded, off Pages and unlinked until the first issue).
 - Paid tier: deferred until Cassidy says go.
@@ -49,22 +60,25 @@ Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md an
 - Automatic location tags can be wrong; the site says so.
 - Energy source and stage tags, and the sector tab segment tags, are keyword rules on the headline and summary; they can misfile a story (the tabs say so).
 - Policy (Quinary) has no NAICS sector; its mapping (92 plus top company, university and nonprofit leadership) is our convention, stated on the Method page.
-- Indicators are United States only.
+- Indicators: monthly and daily lines are US and global benchmarks; other countries show annual World Bank lines; state equivalents and cities say Not yet covered.
 - Many small countries show labeled parent-level stories ("More worldwide") because they have few tagged stories.
 
 ## Open decisions (waiting on Cassidy)
 - "Simplify this data": on demand is decided; which free tool writes the plain-language text, given the site is static and can't hold a key?
 - Paid tier: stays deferred until you say go.
-- Which countries get indicators after the United States?
 - Wire-heavy outlets (BNN Bloomberg, CNA, Straits Times, The National, Anadolu, Bangkok Post): stories with no named place are now filed as worldwide rather than the outlet's home country. Keep that?
 - BRIEF.md (internal product notes, off Pages): keep as is or rewrite to match the new positioning?
 
 ## Decided
+- 2026-10-08 (Cassidy): X is used only for Most reliable voices profiles (recent posts), NOT in the news column, which stays direct-to-source. The "See what people are saying on X" link is a plain X live search in a new tab; no posts, embeds or X API on the site.
+- 2026-10-08 (Cassidy): Indicators are Activity, Prices and Capital only (at-a-glance numbers that follow the selected place). People moved to its own "Who's in the seat" view. Prices are globally watched benchmarks (gold, silver, bitcoin, WTI, Brent, then copper, natural gas, the dollar index, US CPI); diesel moved to the Energy tab.
+- 2026-10-08 (Cassidy): retire the 6 "Example data" profiles (US, IN, AE, JP, NG, CL) once real blocks replace them (Phase 1).
 - 2026-10-08 (Cassidy): the five sector tabs are "Sectors of the Economy"; Energy is separate (its own featured tab with its 9 sources), no Primary to Quinary label.
 - 2026-10-08 (Cassidy): Monday Haul sample format and the weekly draft step approved. The Monday run drafts; it never sends.
 - 2026-10-08 (Cassidy): keep everything free; build a user base through email-only Buttondown sign-ups (`longhaulledger`, double opt-in); paid tier stays off.
 
 ## Shipped (newest first, times MT)
+- 2026-10-08 11:51: SW v29 (Phase 0): (1) World intro is one line; the PROTOTYPE notice and the six example country chips are gone. (2) Indicators are now a "What changed" strip that follows the selected place: Activity, Prices, Capital only, each line with value, unit, arrow and change vs the prior reading, as-of date and the source on tap; empty groups hidden; places with nothing sourced say Not yet covered with the planned source. (3) Prices rebuilt around global benchmarks: gold, silver, copper (World Bank Pink Sheet, monthly), bitcoin (Coinbase via FRED), WTI, Brent, Henry Hub, the Fed broad dollar index and US CPI inflation (FRED); diesel moved to the Energy tab; steel PPI dropped. Countries get annual World Bank lines with prior-year change; values older than 10 years hidden with a note. (4) People left Indicators: new "Who's in the seat" view (9 US seats, each confirmed on an official .gov page, with checked dates and recent seat changes); seat-change stories tagged in the news column; old #d=people links redirect. (5) Not yet covered with planned source and checked date on empty leadership, seats, indicators and brief panels; 23 guessed response times, 13 SAMPLE terms and 10 "(see ...)" / SAMPLE names removed. (6) Method page coverage line built from the data files. (7) "See what people are saying on X" link on every story and each Energy source and segment panel (X live search, new tab). (8) stats.yml now keeps tests, hauls/ and archive.html off Pages too.
 - 2026-10-08 11:25: SW v28: (1) Reorient: a compact Top button appears in the pinned header once the map scrolls away (keyboard and screen-reader labeled, honors reduced motion, returns focus to the map); the footer Top no longer slides under the header. (2) Whole-country panning: below World the map pans and zooms anywhere across the selected country (zoom out until the whole country fits), never beyond it; dragging or zooming against the country edge 3 times within 6 s makes the World button pulse 3 times (static highlight with reduced motion). (3) Emojis on all tabs: Energy, Raw materials, Manufacturing, Services, Technology, Policy. (4) Sectors of the Economy: the five sector panels carry that window title, an emoji switcher to change sector without closing, and the type next to the name (Raw materials · Primary through Policy · Quinary); wide screens show the group label and types in the tab row. Energy stays its own featured tab, outside the group.
 - 2026-10-08 06:43: Monday Haul routine: RESEARCH-RUNS.md gains a "Monday Haul" section (free format, 6 to 8 items, about 5 Energy and 3 sector, World then US, dated real sources only, `npm run haul:check -- <file> --links --html` validator with HTTP 200 link check, footer exception to rule 5 for the email only, never send email). New `hauls/` folder (off Pages) with TEMPLATE.md and the approved example; BUILD-PLAN section 2 marked paid, deferred / superseded for the free Haul. Archive still off. No SW bump.
 - 2026-10-08 06:33: SW v27: free "Get the Monday Haul, free" email sign-up (Buttondown longhaulledger, email only, double opt-in) under the news column and in the footer, with a thanks state; archive page scaffolded but off Pages and unlinked. Content gaps: 25 new free feeds (forestry, textiles, packaging, plastics, pharma, property, telecom, accounting, legal, philanthropy, higher education, US wind); no segment now has fewer than 4 worldwide stories (was 3: Forestry 2 to 12, Consumer goods 1 to 7, Metals 3 to 4); US wind stories 0 to 1 plus wind trade feeds; misfile rules tightened for DOE loans, robot flight paths, people named Ericsson, the EU's auditor, assets that breach a figure, tyre inflation, bare EU, CEO quotes, construction votes, water-pipeline drilling and nickel refineries. World nuclear brief rewritten from non-US stories (China Tianwan 7, Swiss reactor vote, Dutch AP1000 design work, Canada's BANR).
