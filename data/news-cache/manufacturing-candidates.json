@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T17:52:50.023Z",
+ "generatedAt": "2026-10-08T18:42:05.619Z",
  "sector": "manufacturing",
  "maxAgeDays": 10,
  "places": {
@@ -382,7 +382,7 @@
       },
       {
        "title": "UAE-backed GlobalFoundries and TSMC announce $2bn manufacturing agreement",
-       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/uae-backed-globalfoundries-and-tsmc-announce-2bn-manufacturing-agreement/",
+       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
        "source": "The National (UAE)",
        "published": "2026-10-08T15:15:46.000Z",
        "verification": "multiple",
@@ -394,7 +394,7 @@
         },
         {
          "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/uae-backed-globalfoundries-and-tsmc-announce-2bn-manufacturing-agreement/",
+         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
          "primary": false
         },
         {
@@ -525,6 +525,23 @@
        "blurb": "Nature, Published online: 07 October 2026; doi:10.1038/d41586-026-02968-6 A material that was previously assumed to be an electrical insulator has been shown to be a semiconductor, with potential uses in electronics and optics."
       },
       {
+       "title": "De-Risking the Workforce Gap: Can AI and Robotics Fill Immediate Need?",
+       "url": "https://www.enr.com/articles/63810-de-risking-the-workforce-gap-can-ai-and-robotics-fill-immediate-need",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-08T03:13:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63810-de-risking-the-workforce-gap-can-ai-and-robotics-fill-immediate-need",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "While most insurers and even contractors shy away from any new technology that might open them up to risk, the rash of retirements of skilled craft workers and project managers may force firms to reconsider deploying artificial intelligence-enabled workflows that automate tasks o"
+      },
+      {
        "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
        "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
        "source": "Ars Technica",
@@ -540,23 +557,6 @@
        "stages": [],
        "via": null,
        "blurb": "Full-stack safety solution for physical AI is being used by robotics companies."
-      },
-      {
-       "title": "De-Risking the Workforce Gap: Can AI and Robotics Fill an Immediate Need?",
-       "url": "https://www.enr.com/articles/63810-de-risking-the-workforce-gap-can-ai-and-robotics-fill-an-immediate-need",
-       "source": "ENR (Engineering News-Record)",
-       "published": "2026-10-08T03:13:31.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ENR (Engineering News-Record)",
-         "url": "https://www.enr.com/articles/63810-de-risking-the-workforce-gap-can-ai-and-robotics-fill-an-immediate-need",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "While most insurers and even contractors themselves shy away from any new technology that might open them up to risk, the rash of retirements of older, skilled tradesmen and project managers may force contractors to reconsider deploying artificial intelligence-enabled workflows t"
       },
       {
        "title": "Wind power patents: Siemens Gamesa | Nordex | Envision | LM Wind Power",
@@ -628,6 +628,28 @@
        "stages": [],
        "via": null,
        "blurb": "The facility, dubbed Arsenal-2, will manufacture components for Virginia-class submarines. The new project follows DOD’s new Project Meridien initiative, which Anduril co-founder Palmer Luckey is co-leading."
+      },
+      {
+       "title": "EU and China open crunch trade talks in Beijing on hybrid car exports",
+       "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+       "source": "RFI English",
+       "published": "2026-10-08T04:10:58.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "Just Auto",
+         "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "European Union trade commissioner Maros Sefcovic arrives in Beijing on Thursday for two days of high-stakes talks with China, with Brussels seeking a pilot agreement to curb the surge in Chinese hybrid-car exports and reduce a trade deficit now running at around €1 billion per da"
       },
       {
        "title": "California: $28m in funding for public EV fast chargers",
@@ -728,23 +750,6 @@
        "stages": [],
        "via": null,
        "blurb": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy."
-      },
-      {
-       "title": "EU and China open crunch trade talks in Beijing on hybrid car exports",
-       "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
-       "source": "RFI English",
-       "published": "2026-10-08T04:10:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "RFI English",
-         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "European Union trade commissioner Maros Sefcovic arrives in Beijing on Thursday for two days of high-stakes talks with China, with Brussels seeking a pilot agreement to curb the surge in Chinese hybrid-car exports and reduce a trade deficit now running at around €1 billion per da"
       },
       {
        "title": "BMW iX4 arrives as an electric SUV-coupé starting at €70,900",
@@ -854,28 +859,6 @@
        "blurb": "STONEVILLE, N.C. — October 8, 2026 — Reshoring Textiles has acquired Sans Technical Fibers, an American producer of high tenacity LDI nylon 6.6 and polyester yarns. Sans will operate alongside Spinnere as a sister company within Reshoring Textiles, and industry veteran John Garne"
       },
       {
-       "title": "ITMF survey finds textile demand remains weak despite improved outlook",
-       "url": "https://www.just-style.com/news/itmf-textile-industry-survey/",
-       "source": "Just Style",
-       "published": "2026-10-07T10:22:11.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Just Style",
-         "url": "https://www.just-style.com/news/itmf-textile-industry-survey/",
-         "primary": false
-        },
-        {
-         "name": "Textile World",
-         "url": "https://www.textileworld.com/textile-world/2026/10/results-of-the-40th-itmf-global-textile-industry-survey-slight-improvement-but-the-textile-industry-remains-under-pressure/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The global textile industry remains weak despite improvements, according to the ITMF latest Global Textile Industry Survey."
-      },
-      {
        "title": "Carbios Validates Enzymatic PET Textile Recycling at Scale",
        "url": "https://www.plasticstoday.com/medical/carbios-validates-enzymatic-pet-textile-recycling-at-scale",
        "source": "Plastics Today",
@@ -891,6 +874,23 @@
        "stages": [],
        "via": null,
        "blurb": "Carbios successfully produced recycled polyester garments from complex textile and plastic waste using enzymatic technology, demonstrating industrial scalability across European manufacturing partners."
+      },
+      {
+       "title": "ITMF survey finds textile demand remains weak despite improved outlook",
+       "url": "https://www.just-style.com/news/itmf-textile-industry-survey/",
+       "source": "Just Style",
+       "published": "2026-10-07T10:22:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Just Style",
+         "url": "https://www.just-style.com/news/itmf-textile-industry-survey/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The global textile industry remains weak despite improvements, according to the ITMF latest Global Textile Industry Survey."
       },
       {
        "title": "Finland Urged to Shield Wood From Europe’s Nature Restoration Law",
@@ -942,23 +942,6 @@
        "stages": [],
        "via": null,
        "blurb": "Two Chinese hardwood plywood exporters will stay outside the 2018 US antidumping order and pay no dumping margins under it, after a federal trade court blocked the Department of Commerce from reopening the record, five months after the Federal Circuit restored a 183.36 per cent r"
-      },
-      {
-       "title": "The Nature Conservancy Launches Microfiber Action Alliance To Reduce Microfiber Pollution In Textile Sector",
-       "url": "https://www.textileworld.com/textile-world/2026/10/the-nature-conservancy-launches-microfiber-action-alliance-to-reduce-microfiber-pollution-in-textile-sector/",
-       "source": "Textile World",
-       "published": "2026-10-06T17:12:01.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Textile World",
-         "url": "https://www.textileworld.com/textile-world/2026/10/the-nature-conservancy-launches-microfiber-action-alliance-to-reduce-microfiber-pollution-in-textile-sector/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "SACRAMENTO, CA— October 6, 2026 — The Nature Conservancy (TNC) has launched the Microfiber Action Alliance (MAA), a new multi-stakeholder initiative to combat microfiber pollution by accelerating the adoption and scaling of effective, evidence-based solutions. Convened by TNC, th"
       }
      ]
     },
@@ -1151,6 +1134,23 @@
        "blurb": "Construction appears strongest in areas connected to infrastructure, power, advanced manufacturing and data centers, economists say. Other segments, not so much."
       },
       {
+       "title": "Namibia: Pupkewitz Breaks Ground At Grootfontein",
+       "url": "https://allafrica.com/stories/202610080537.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-08T15:50:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610080537.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Namibian] The Pupkewitz Group has officially commenced the construction of a larger, modern Pupkewitz MegaBuild branch at Grootfontein, marking a further milestone in the group's long-term investment in Namibia's growth and development."
+      },
+      {
        "title": "ENR 2026 Top 100 Green Design Firms and Contractors: Green Building Market Deepens",
        "url": "https://www.enr.com/articles/63803-enr-2026-top-100-green-design-firms-and-contractors-green-building-market-deepens",
        "source": "ENR (Engineering News-Record)",
@@ -1166,29 +1166,32 @@
        "stages": [],
        "via": null,
        "blurb": "Design and contracting revenue rises amid market complexity as firms leverage size and capacity to win more work."
-      },
-      {
-       "title": "DOL to up minimum wage to $14 per hour for federal contractors",
-       "url": "https://www.constructiondive.com/news/dol-to-up-minimum-wage-federal-contractors/832509/",
-       "source": "Construction Dive",
-       "published": "2026-10-08T15:23:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Construction Dive",
-         "url": "https://www.constructiondive.com/news/dol-to-up-minimum-wage-federal-contractors/832509/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Despite the increase, the rate remains below Biden-era levels, which hit $15 per hour."
       }
      ]
     },
     "power": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
+       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+       "source": "NASA News",
+       "published": "2026-10-08T15:46:25.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
+      },
       {
        "title": "Everything’s bigger in Texas",
        "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
@@ -1385,15 +1388,15 @@
        "blurb": "Canadian power producer Northland Power, in partnership with ORLEN, has completed the installation of all 76 turbines at the 1.1GW Baltic Power offshore wind project in the Baltic Sea off Poland’s coast."
       },
       {
-       "title": "Poland begins ordering long-lead components for first AP1000",
-       "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
-       "source": "World Nuclear News",
-       "published": "2026-10-08T16:16:41.000Z",
+       "title": "Rompetrol targets 2028 startup for two refinery solar projects",
+       "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:53:35.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
          "primary": false
         }
        ],
@@ -1402,7 +1405,7 @@
         "from": "energy",
         "stage": "generation"
        },
-       "blurb": "Polskie Elektrownie Jądrowe has commissioned Westinghouse to begin ordering long-lead items for the first unit of Poland's planned first nuclear power plant, which will comprise three AP1000 reactors."
+       "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
       },
       {
        "title": "BWXT’s BANR selected for Canadian project",
@@ -1430,15 +1433,15 @@
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
       },
       {
-       "title": "Manufacturing Growth Set to Lift US Industrial Natural Gas Demand",
-       "url": "https://naturalgasintel.com/news/manufacturing-growth-set-to-lift-us-industrial-natural-gas-demand/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T15:53:16.000Z",
+       "title": "Poland begins ordering long-lead components for first AP1000",
+       "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
+       "source": "World Nuclear News",
+       "published": "2026-10-08T16:16:41.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/manufacturing-growth-set-to-lift-us-industrial-natural-gas-demand/",
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
          "primary": false
         }
        ],
@@ -1447,27 +1450,7 @@
         "from": "energy",
         "stage": "generation"
        },
-       "blurb": "US industrial natural gas consumption is poised to accelerate in 2027 as stronger manufacturing activity boosts demand from gas-intensive industries, including the chemicals sector, according to the Energy Information Administration (EIA)."
-      },
-      {
-       "title": "Russian oil refinery in Salavat hit by Ukraine, General Staff confirms",
-       "url": "https://kyivindependent.com/oil-refinery-in-russias-salavat-reportedly-burning-after-attack/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T07:57:08.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/oil-refinery-in-russias-salavat-reportedly-burning-after-attack/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "The Gazprom Neftekhim Salavat facility is one of Russia’s largest oil refining and petrochemical plants, located some 1,300 kilometers (800 miles) from the front line in Ukraine."
+       "blurb": "Polskie Elektrownie Jądrowe has commissioned Westinghouse to begin ordering long-lead items for the first unit of Poland's planned first nuclear power plant, which will comprise three AP1000 reactors."
       }
      ]
     }
@@ -1532,7 +1515,7 @@
        "blurb": ""
       },
       {
-       "title": "PepsiCo eyes cost cuts as North American struggles persist",
+       "title": "PepsiCo plans cost cuts as North American struggles persist",
        "url": "https://www.fooddive.com/news/PepsiCo-snacking-north-america-inflation-beverages/832484/",
        "source": "Food Dive",
        "published": "2026-10-08T15:00:00.000Z",
@@ -1556,7 +1539,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "CEO Ramon Laguarta said the company plans to raise prices on select offerings and evaluate \"every cost with aggressive lenses.\""
+       "blurb": "CEO Ramon Laguarta said the company plans to raise prices on select offerings and evaluate “every cost with aggressive lenses.”"
       }
      ]
     },
@@ -1716,7 +1699,7 @@
       },
       {
        "title": "UAE-backed GlobalFoundries and TSMC announce $2bn manufacturing agreement",
-       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/uae-backed-globalfoundries-and-tsmc-announce-2bn-manufacturing-agreement/",
+       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
        "source": "The National (UAE)",
        "published": "2026-10-08T15:15:46.000Z",
        "verification": "multiple",
@@ -1728,7 +1711,7 @@
         },
         {
          "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/uae-backed-globalfoundries-and-tsmc-announce-2bn-manufacturing-agreement/",
+         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
          "primary": false
         },
         {
@@ -1984,23 +1967,6 @@
        "stages": [],
        "via": null,
        "blurb": "Two Chinese hardwood plywood exporters will stay outside the 2018 US antidumping order and pay no dumping margins under it, after a federal trade court blocked the Department of Commerce from reopening the record, five months after the Federal Circuit restored a 183.36 per cent r"
-      },
-      {
-       "title": "The Nature Conservancy Launches Microfiber Action Alliance To Reduce Microfiber Pollution In Textile Sector",
-       "url": "https://www.textileworld.com/textile-world/2026/10/the-nature-conservancy-launches-microfiber-action-alliance-to-reduce-microfiber-pollution-in-textile-sector/",
-       "source": "Textile World",
-       "published": "2026-10-06T17:12:01.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Textile World",
-         "url": "https://www.textileworld.com/textile-world/2026/10/the-nature-conservancy-launches-microfiber-action-alliance-to-reduce-microfiber-pollution-in-textile-sector/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "SACRAMENTO, CA— October 6, 2026 — The Nature Conservancy (TNC) has launched the Microfiber Action Alliance (MAA), a new multi-stakeholder initiative to combat microfiber pollution by accelerating the adoption and scaling of effective, evidence-based solutions. Convened by TNC, th"
       }
      ]
     },
@@ -2163,6 +2129,26 @@
     "power": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
+       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+       "source": "NASA News",
+       "published": "2026-10-08T15:46:25.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
+      },
       {
        "title": "Everything’s bigger in Texas",
        "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
@@ -2422,26 +2408,6 @@
         "stage": "generation"
        },
        "blurb": "Vistra is set to receive an approximately $4.2 billion loan from the Department of Energy to upgrade and uprate its fleet of nuclear reactors in Pennsylvania and Ohio, the DOE announced Monday. This work will add 433 MW of new nuclear capacity to help meet electricity demand in P"
-      },
-      {
-       "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
-       "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
-       "source": "Maryland Matters",
-       "published": "2026-10-07T17:43:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Maryland Matters",
-         "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "US Wind turned over its Tradepoint Atlantic lease at Sparrows Point to Anduril and shelved its planned tower and monopile plant, citing legal disputes and federal uncertainty over its Ocean City offshore wind project."
       }
      ]
     }
@@ -2814,33 +2780,6 @@
    "label": "Switzerland",
    "level": "country",
    "sources": {
-    "goods": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Results Of The 40th ITMF Global Textile Industry Survey : Slight Improvement, But The Textile Industry Remains Under Pressure",
-       "url": "https://www.textileworld.com/textile-world/2026/10/results-of-the-40th-itmf-global-textile-industry-survey-slight-improvement-but-the-textile-industry-remains-under-pressure/",
-       "source": "Textile World",
-       "published": "2026-10-06T16:58:38.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Just Style",
-         "url": "https://www.just-style.com/news/itmf-textile-industry-survey/",
-         "primary": false
-        },
-        {
-         "name": "Textile World",
-         "url": "https://www.textileworld.com/textile-world/2026/10/results-of-the-40th-itmf-global-textile-industry-survey-slight-improvement-but-the-textile-industry-remains-under-pressure/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "ZÜRICH, Switzerland — October 6, 2026 — The 40th ITMF Global Textile Industry Survey (GTIS), conducted from 21 to 29 September 2026, shows a slight improvement in the global business situation, to -23pp, well above the November 2023 low of -46pp. Conditions nevertheless remain we"
-      }
-     ]
-    },
     "power": {
      "brief": "missing",
      "candidates": [
@@ -3814,6 +3753,37 @@
     }
    }
   },
+  "ro": {
+   "label": "Romania",
+   "level": "country",
+   "sources": {
+    "power": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Rompetrol targets 2028 startup for two refinery solar projects",
+       "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:53:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
+      }
+     ]
+    }
+   }
+  },
   "za": {
    "label": "South Africa",
    "level": "country",
@@ -4029,11 +3999,16 @@
        "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
        "source": "RFI English",
        "published": "2026-10-08T04:10:58.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "RFI English",
          "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "Just Auto",
+         "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
          "primary": false
         }
        ],
@@ -4185,26 +4160,6 @@
        "blurb": "pv magazine spoke with Edurne Zoco, Head of Technologies and Supply Chains at S&P Global Energy, about global PV supply chain trends, persistent overcapacity and the impact of China's new efficiency standards on solar manufacturing. She discussed module pricing, shifting trade po"
       },
       {
-       "title": "MISC to order five more LNG carriers for Petronas charter",
-       "url": "https://lngprime.com/asia/misc-to-order-five-more-lng-carriers-for-petronas-charter/198123/",
-       "source": "LNG Prime",
-       "published": "2026-10-08T12:24:37.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/asia/misc-to-order-five-more-lng-carriers-for-petronas-charter/198123/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Malaysian shipping firm MISC will order five additional newbuild 174,000-cbm liquefied natural gas (LNG) carriers at China's Hudong-Zhonghua. The vessels will serve a 20-year charter with a unit of MISC's parent, Petronas."
-      },
-      {
        "title": "China commissions first commercial-scale offshore wind project with 18MW turbines",
        "url": "https://www.windpowermonthly.com/article/1971759/china-commissions-first-commercial-scale-offshore-wind-project-18mw-turbines",
        "source": "Windpower Monthly",
@@ -4228,6 +4183,26 @@
         "stage": "generation"
        },
        "blurb": "The 2GW Yangjiang Fanshi offshore wind project off the coast of Guangdong province has achieved full-capacity operation, according to China General Nuclear Power Corporation (CGN), marking China’s first large-scale deployment of 18MW offshore wind turbines."
+      },
+      {
+       "title": "MISC to order five more LNG carriers for Petronas charter",
+       "url": "https://lngprime.com/asia/misc-to-order-five-more-lng-carriers-for-petronas-charter/198123/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T12:24:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/asia/misc-to-order-five-more-lng-carriers-for-petronas-charter/198123/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Malaysian shipping firm MISC will order five additional newbuild 174,000-cbm liquefied natural gas (LNG) carriers at China's Hudong-Zhonghua. The vessels will serve a 20-year charter with a unit of MISC's parent, Petronas."
       },
       {
        "title": "LNG market tightens into winter as Europe pulls US cargoes, China reopens contract talks",
@@ -4662,7 +4637,7 @@
       },
       {
        "title": "UAE-backed GlobalFoundries and TSMC announce $2bn manufacturing agreement",
-       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/uae-backed-globalfoundries-and-tsmc-announce-2bn-manufacturing-agreement/",
+       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
        "source": "The National (UAE)",
        "published": "2026-10-08T15:15:46.000Z",
        "verification": "multiple",
@@ -4674,7 +4649,7 @@
         },
         {
          "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/uae-backed-globalfoundries-and-tsmc-announce-2bn-manufacturing-agreement/",
+         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
          "primary": false
         },
         {
@@ -4779,7 +4754,7 @@
       },
       {
        "title": "UAE-backed GlobalFoundries and TSMC announce $2bn manufacturing agreement",
-       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/uae-backed-globalfoundries-and-tsmc-announce-2bn-manufacturing-agreement/",
+       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
        "source": "The National (UAE)",
        "published": "2026-10-08T15:15:46.000Z",
        "verification": "multiple",
@@ -4791,7 +4766,7 @@
         },
         {
          "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/uae-backed-globalfoundries-and-tsmc-announce-2bn-manufacturing-agreement/",
+         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
          "primary": false
         },
         {
@@ -5077,7 +5052,7 @@
      "candidates": [
       {
        "title": "UAE-backed GlobalFoundries and TSMC announce $2bn manufacturing agreement",
-       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/uae-backed-globalfoundries-and-tsmc-announce-2bn-manufacturing-agreement/",
+       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
        "source": "The National (UAE)",
        "published": "2026-10-08T15:15:46.000Z",
        "verification": "multiple",
@@ -5089,7 +5064,7 @@
         },
         {
          "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/uae-backed-globalfoundries-and-tsmc-announce-2bn-manufacturing-agreement/",
+         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
          "primary": false
         },
         {
@@ -5358,7 +5333,7 @@
      "candidates": [
       {
        "title": "UAE-backed GlobalFoundries and TSMC announce $2bn manufacturing agreement",
-       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/uae-backed-globalfoundries-and-tsmc-announce-2bn-manufacturing-agreement/",
+       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
        "source": "The National (UAE)",
        "published": "2026-10-08T15:15:46.000Z",
        "verification": "multiple",
@@ -5370,7 +5345,7 @@
         },
         {
          "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/uae-backed-globalfoundries-and-tsmc-announce-2bn-manufacturing-agreement/",
+         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
          "primary": false
         },
         {
@@ -5974,6 +5949,34 @@
     }
    }
   },
+  "na": {
+   "label": "Namibia",
+   "level": "country",
+   "sources": {
+    "construction": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Namibia: Pupkewitz Breaks Ground At Grootfontein",
+       "url": "https://allafrica.com/stories/202610080537.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-08T15:50:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610080537.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Namibian] The Pupkewitz Group has officially commenced the construction of a larger, modern Pupkewitz MegaBuild branch at Grootfontein, marking a further milestone in the group's long-term investment in Namibia's growth and development."
+      }
+     ]
+    }
+   }
+  },
   "us-ia": {
    "label": "Iowa",
    "level": "admin1",
@@ -6157,11 +6160,16 @@
        "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
        "source": "RFI English",
        "published": "2026-10-08T04:10:58.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "RFI English",
          "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "Just Auto",
+         "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
          "primary": false
         }
        ],
@@ -6185,11 +6193,16 @@
        "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
        "source": "RFI English",
        "published": "2026-10-08T04:10:58.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "RFI English",
          "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "Just Auto",
+         "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
          "primary": false
         }
        ],
@@ -6515,7 +6528,7 @@
         },
         {
          "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/uae-backed-globalfoundries-and-tsmc-announce-2bn-manufacturing-agreement/",
+         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
          "primary": false
         },
         {
@@ -6642,26 +6655,6 @@
         "stage": "generation"
        },
        "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
-      },
-      {
-       "title": "Russian oil refinery in Salavat hit by Ukraine, General Staff confirms",
-       "url": "https://kyivindependent.com/oil-refinery-in-russias-salavat-reportedly-burning-after-attack/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T07:57:08.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/oil-refinery-in-russias-salavat-reportedly-burning-after-attack/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "The Gazprom Neftekhim Salavat facility is one of Russia’s largest oil refining and petrochemical plants, located some 1,300 kilometers (800 miles) from the front line in Ukraine."
       }
      ]
     }
@@ -6715,26 +6708,6 @@
         "stage": "generation"
        },
        "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
-      },
-      {
-       "title": "Russian oil refinery in Salavat hit by Ukraine, General Staff confirms",
-       "url": "https://kyivindependent.com/oil-refinery-in-russias-salavat-reportedly-burning-after-attack/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T07:57:08.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/oil-refinery-in-russias-salavat-reportedly-burning-after-attack/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "The Gazprom Neftekhim Salavat facility is one of Russia’s largest oil refining and petrochemical plants, located some 1,300 kilometers (800 miles) from the front line in Ukraine."
       }
      ]
     }

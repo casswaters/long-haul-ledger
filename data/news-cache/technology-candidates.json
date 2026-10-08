@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T17:53:37.735Z",
+ "generatedAt": "2026-10-08T18:42:55.774Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -24,7 +24,7 @@
         },
         {
          "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/uae-backed-globalfoundries-and-tsmc-announce-2bn-manufacturing-agreement/",
+         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
          "primary": false
         },
         {
@@ -60,23 +60,6 @@
        "blurb": "Uplink growth is real, but the capex discipline holds In sum – what we know: Deutsche Telekom does not expect AI-related mobile uplink demand to require incremental radio-access-network investment in…"
       },
       {
-       "title": "OSFI says geopolitical, economic and AI risks have intensified for financial system",
-       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/osfi-says-geopolitical-economic-and-ai-risks-have-intensified-for-financial-system/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T18:26:59.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/osfi-says-geopolitical-economic-and-ai-risks-have-intensified-for-financial-system/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Office of the Superintendent of Financial Institutions says rapid technological advances have intensified risk in the Canadian financial system."
-      },
-      {
        "title": "Samsung flags 783% profit jump to record $80bn as AI chip boom also lifts TSMC sales",
        "url": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
        "source": "Euronews Business",
@@ -107,6 +90,23 @@
        "stages": [],
        "via": null,
        "blurb": "Samsung Electronics estimated on Thursday that its third-quarter operating profit jumped almost ninefold to a record 107.4 trillion won, or $80.2 billion, while sales at Taiwan's TSMC hit a quarterly record, as the AI boom keeps demand for chips strong."
+      },
+      {
+       "title": "Anthropic changes usage policy to ban model abuse and election interference",
+       "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T18:16:24.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance."
       },
       {
        "title": "Deeptech unicorn PhysicsX opens regional hub in S’pore to scale AI-powered industrial engineering",
@@ -301,6 +301,23 @@
        "blurb": ""
       },
       {
+       "title": "Data Centers: There’s So Much to Talk About",
+       "url": "https://commercialobserver.com/2026/10/data-centers-forum-commercial-observer-2026/",
+       "source": "Commercial Observer",
+       "published": "2026-10-08T18:15:36.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Commercial Observer",
+         "url": "https://commercialobserver.com/2026/10/data-centers-forum-commercial-observer-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "All eyes were on the most controversial asset class in America during Commercial Observer’s Data Centers Development and Infrastructure Forum, held Oct. 6 in Midtown Manhattan at the City University of New York Graduate Center. Experts across data center law, construction, invest"
+      },
+      {
        "title": "Steel Manufacturer Zekelman Promotes Alternate Steel Forms for Data Center Construction",
        "url": "https://www.enr.com/articles/63814-steel-manufacturer-zekelman-promotes-alternate-steel-forms-for-data-center-construction",
        "source": "ENR (Engineering News-Record)",
@@ -435,23 +452,6 @@
        "stages": [],
        "via": null,
        "blurb": "Developer says it has already secured an anchor customer for the site"
-      },
-      {
-       "title": "Explainer-Data centers' 'flexible' power usage could save the grid billions. Can they scale?",
-       "url": "https://www.channelnewsasia.com/business/explainer-data-centers-flexible-power-usage-could-save-grid-billions-can-they-scale-6442466",
-       "source": "CNA Business",
-       "published": "2026-10-08T10:44:54.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/explainer-data-centers-flexible-power-usage-could-save-grid-billions-can-they-scale-6442466",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
       }
      ]
     },
@@ -521,6 +521,11 @@
        "published": "2026-10-08T16:48:39.000Z",
        "verification": "multiple",
        "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/canadas-future-will-be-decided-by-canadians-carney-says-after-elon-musk-pushes-quebec-separatism/",
+         "primary": false
+        },
         {
          "name": "The Hindu Business",
          "url": "https://www.thehindu.com/business/Industry/dot-refutes-bias-in-starlink-authorisation-says-all-licensees-approvals-pending/article71560045.ece",
@@ -649,23 +654,6 @@
        "blurb": "Nokia may soon name a buyer for its campus private networks unit as rivals gain share, but CEO Justin Hotard is betting on bigger money in industrial infrastructure."
       },
       {
-       "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
-       "url": "https://www.fierce-network.com/sponsored/huawei-and-qualcomm-announce-broad-patent-license-agreement",
-       "source": "Fierce Network",
-       "published": null,
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Fierce Network",
-         "url": "https://www.fierce-network.com/sponsored/huawei-and-qualcomm-announce-broad-patent-license-agreement",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Huawei and Qualcomm have announced a multi-year, broad patent license agreement that includes cross licenses to the companies' patent portfolios across a range of fields, including 5G, compute, AI, and networking, together with Qualcomm's purchase of certain Huawei U.S. patents."
-      },
-      {
        "title": "Opinion: Can carriers finally move up the stack? AT&T, Cisco and NVIDIA say AI changes the equation",
        "url": "https://www.fierce-network.com/cloud/can-carriers-finally-move-stack-att-cisco-and-nvidia-say-ai-changes-equation",
        "source": "Fierce Network",
@@ -687,6 +675,23 @@
     "research": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
+       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+       "source": "NASA News",
+       "published": "2026-10-08T15:46:25.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
+      },
       {
        "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
        "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
@@ -752,6 +757,26 @@
        "blurb": "Tata Power has partnered with Norway’s Ocean Sun to test membrane-based floating solar technology at its Maharashtra reservoir."
       },
       {
+       "title": "Rompetrol targets 2028 startup for two refinery solar projects",
+       "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:53:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
+      },
+      {
        "title": "DCD Studio: Market models for SMRs with Rosa Rotko, Mott MacDonald",
        "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-market-models-for-smrs-with-rosa-rotko-mott-macdonald/",
        "source": "DatacenterDynamics",
@@ -770,26 +795,6 @@
         "stage": "innovation"
        },
        "blurb": "Tam Pledger speaks with Rosa Rotko of Mott MacDonald on critical grid connection delays impacting UK energy projects"
-      },
-      {
-       "title": "DSG 2026 offers a new perspective on the future of geothermal energy",
-       "url": "https://www.thinkgeoenergy.com/dsg-2026-offers-a-new-perspective-on-the-future-of-geothermal-energy/",
-       "source": "ThinkGeoEnergy",
-       "published": "2026-10-08T16:19:56.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ThinkGeoEnergy",
-         "url": "https://www.thinkgeoenergy.com/dsg-2026-offers-a-new-perspective-on-the-future-of-geothermal-energy/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "In this interview, Dr. Zeynel Öztürk of Anadolu Innovation talks about the evolution of the geothermal sector and the DSG workshop recently held in Türkiye. The post DSG 2026 offers a new perspective on the future of geothermal energy first appeared on ThinkGeoEnergy - Geothermal"
       },
       {
        "title": "BWXT’s BANR selected for Canadian project",
@@ -815,6 +820,26 @@
         "stage": "innovation"
        },
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+      },
+      {
+       "title": "DSG 2026 offers a new perspective on the future of geothermal energy",
+       "url": "https://www.thinkgeoenergy.com/dsg-2026-offers-a-new-perspective-on-the-future-of-geothermal-energy/",
+       "source": "ThinkGeoEnergy",
+       "published": "2026-10-08T16:19:56.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ThinkGeoEnergy",
+         "url": "https://www.thinkgeoenergy.com/dsg-2026-offers-a-new-perspective-on-the-future-of-geothermal-energy/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "In this interview, Dr. Zeynel Öztürk of Anadolu Innovation talks about the evolution of the geothermal sector and the DSG workshop recently held in Türkiye. The post DSG 2026 offers a new perspective on the future of geothermal energy first appeared on ThinkGeoEnergy - Geothermal"
       },
       {
        "title": "EU expert group urges curbs on high-risk solar suppliers",
@@ -895,46 +920,6 @@
         "stage": "innovation"
        },
        "blurb": "South Korea's Hyundai Engineering & Construction has been contracted by Westinghouse to carry out basic design studies for the construction of two large nuclear power plants in the Netherlands based on Westinghouse's AP1000 design."
-      },
-      {
-       "title": "Italian startup offers 535 W PVT solar module with 1.4 kW thermal output",
-       "url": "https://www.pv-magazine.com/2026/10/08/italian-startup-offers-535-w-pvt-solar-module-with-1-4-kw-thermal-output/",
-       "source": "pv magazine",
-       "published": "2026-10-08T10:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/08/italian-startup-offers-535-w-pvt-solar-module-with-1-4-kw-thermal-output/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Syntropia has developed a 535 W hybrid photovoltaic-thermal module that combines electricity generation with heat recovery, achieving a combined energy conversion efficiency of 66.8% in recent tests. The company is also developing an integrated energy system combining PVT modules"
-      },
-      {
-       "title": "France Energies Marines Launches Four Offshore Wind R&D Projects",
-       "url": "https://offshorewind.biz/2026/10/08/france-energies-marines-launches-four-offshore-wind-rd-projects",
-       "source": "offshoreWIND.biz",
-       "published": "2026-10-08T07:10:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "offshoreWIND.biz",
-         "url": "https://offshorewind.biz/2026/10/08/france-energies-marines-launches-four-offshore-wind-rd-projects",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "France Energies Marines has approved four new research and innovation projects involving 33 public and private partners, with a combined..."
       }
      ]
     },
@@ -1061,6 +1046,33 @@
        "blurb": "The installation of what is thought to be the tallest wind turbine tower ever built has been completed by an engineering company in Germany."
       },
       {
+       "title": "Goldman Sachs ensnared in EY data breach earlier this year",
+       "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
+       "source": "Accounting Today",
+       "published": "2026-10-07T15:21:38.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/08/top-bosses-goldman-sachs-bonus-pot",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/goldman-sachs-to-pay-top-executives-500mn-in-special-bonuses/",
+         "primary": false
+        },
+        {
+         "name": "Accounting Today",
+         "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Goldman Sachs Group Inc.'s data was exposed earlier this year in a hack of accounting firm EY, according to a person familiar with the matter."
+      },
+      {
        "title": "Payments income bolsters banks",
        "url": "https://www.paymentsdive.com/news/payments-income-bolsters-banks/832378/",
        "source": "Payments Dive",
@@ -1076,23 +1088,6 @@
        "stages": [],
        "via": null,
        "blurb": "Income from card, digital and other rails has swelled to about 40% of revenue for the global bank industry, according to consulting firm McKinsey."
-      },
-      {
-       "title": "Goldman Sachs ensnared in EY data breach earlier this year",
-       "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
-       "source": "Accounting Today",
-       "published": "2026-10-07T15:21:38.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Accounting Today",
-         "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Goldman Sachs Group Inc.'s data was exposed earlier this year in a hack of accounting firm EY, according to a person familiar with the matter."
       },
       {
        "title": "FBI removes Accenture contractor after missed security patch led to breach",
@@ -1149,6 +1144,40 @@
        "stages": [],
        "via": null,
        "blurb": "The merger brings two of America's oldest moviemaking studios together under the helm of billionaire David Ellison and Ynon Kreiz, in a move that is projected to concentrate power in an industry already run by just a handful of major players"
+      },
+      {
+       "title": "Watch the trailer for ‘The Altruists,’ Netflix’s show about the FTX scandal",
+       "url": "https://techcrunch.com/2026/10/08/watch-the-trailer-for-the-altruists-netflixs-show-about-the-ftx-scandal/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T18:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/watch-the-trailer-for-the-altruists-netflixs-show-about-the-ftx-scandal/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A fictionalized Sam Bankman-Fried is coming to your TV screen on November 19."
+      },
+      {
+       "title": "Ben Affleck is an AI nerd, and the internet is impressed",
+       "url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T18:20:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Ben Affleck is going viral for his deep knowledge of AI, from neural networks and transformers to open weights. The actor, who sold his AI filmmaking startup to Netflix earlier this year, is proving he's more than just a Hollywood star."
       },
       {
        "title": "New York alleges TikTok gave teens, children a placebo safety feature instead of a real one",
@@ -1234,23 +1263,6 @@
        "stages": [],
        "via": null,
        "blurb": "Lower priced tickets can help build loyal visitors while premium add-ons drive more spending at the parks."
-      },
-      {
-       "title": "MyBundle reveals mobile pricing and packaging, streaming perks for new subs",
-       "url": "https://www.lightreading.com/5g/mybundle-reveals-mobile-pricing-and-packaging-streaming-perks-for-new-subs",
-       "source": "Light Reading",
-       "published": "2026-10-07T16:14:25.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Light Reading",
-         "url": "https://www.lightreading.com/5g/mybundle-reveals-mobile-pricing-and-packaging-streaming-perks-for-new-subs",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "MyBundle has branched beyond video streaming by introducing a mobile service in partnership with Gigs, starting at $20 per month per line. New customers can also get a free year of a premium, ad-supported streaming service."
       },
       {
        "title": "CNG Expands Recycle-Ready Films Platform",
@@ -1377,6 +1389,23 @@
        "blurb": "Romanian EPC contractor Enevo says the SentryOT platform stands apart from IT-led competitors by translating network threats into terms energy engineers understand. The post An energy-first cybersecurity platform for solar, storage and the grid appeared first on pv magazine Globa"
       },
       {
+       "title": "US cyber resilience, oversight tested in series of attacks",
+       "url": "https://www.cybersecuritydive.com/news/us-cyber-resilience-oversight-attacks/832235/",
+       "source": "Cybersecurity Dive",
+       "published": "2026-10-06T14:03:15.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Cybersecurity Dive",
+         "url": "https://www.cybersecuritydive.com/news/us-cyber-resilience-oversight-attacks/832235/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Attacks targeting key industrial sites and unforced errors among leading AI companies are raising alarm bells."
+      },
+      {
        "title": "UK’s ASOS says cyberhack accessed customers’ personal data",
        "url": "https://www.straitstimes.com/business/uks-asos-says-cyber-hack-accessed-customers-personal-data",
        "source": "The Straits Times Business",
@@ -1399,23 +1428,6 @@
        "blurb": "ASOS said the hacker did not gain access to payment card information or account passwords."
       },
       {
-       "title": "US cyber resilience, oversight tested in series of attacks",
-       "url": "https://www.cybersecuritydive.com/news/us-cyber-resilience-oversight-attacks/832235/",
-       "source": "Cybersecurity Dive",
-       "published": "2026-10-06T14:03:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Cybersecurity Dive",
-         "url": "https://www.cybersecuritydive.com/news/us-cyber-resilience-oversight-attacks/832235/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Attacks targeting key industrial sites and unforced errors among leading AI companies are raising alarm bells."
-      },
-      {
        "title": "Asos hackers took more personal details than first revealed, BBC finds",
        "url": "https://www.bbc.co.uk/news/articles/c3zxjdw5ywgpo?at_medium=RSS&at_campaign=rss",
        "source": "BBC News Business",
@@ -1433,23 +1445,6 @@
        "blurb": "Retailer issues update after BBC contacted by cyber criminals who said this week's breach went beyond \"basic contact details\""
       },
       {
-       "title": "Coupang files lawsuits over $462 million in South Korea fines over data breach",
-       "url": "https://www.channelnewsasia.com/business/coupang-files-lawsuits-over-462-million-in-south-korea-fines-over-data-breach-6443436",
-       "source": "CNA Business",
-       "published": "2026-10-08T15:28:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/coupang-files-lawsuits-over-462-million-in-south-korea-fines-over-data-breach-6443436",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
        "title": "Frontline workers are vital to effective cybersecurity",
        "url": "https://www.ttnews.com/articles/frontline-vital-cybersecurity",
        "source": "Transport Topics",
@@ -1465,6 +1460,23 @@
        "stages": [],
        "via": null,
        "blurb": "Experts at the NMFTA Cybersecurity Conference emphasized that as cargo theft schemes become more sophisticated, the importance of keeping humans involved to counter them becomes more crucial."
+      },
+      {
+       "title": "Coupang files lawsuits over $462 million in South Korea fines over data breach",
+       "url": "https://www.channelnewsasia.com/business/coupang-files-lawsuits-over-462-million-in-south-korea-fines-over-data-breach-6443436",
+       "source": "CNA Business",
+       "published": "2026-10-08T15:28:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/coupang-files-lawsuits-over-462-million-in-south-korea-fines-over-data-breach-6443436",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
       },
       {
        "title": "Asos confirms breach of customer data after hackers send rogue app notification",
@@ -1726,21 +1738,21 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Alabama Sets Stricter Data Center Rules. But There’s a Loophole.",
-       "url": "https://insideclimatenews.org/news/07102026/alabama-data-center-rules-loophole/",
-       "source": "Inside Climate News",
-       "published": "2026-10-07T08:55:00.000Z",
+       "title": "Data Centers: There’s So Much to Talk About",
+       "url": "https://commercialobserver.com/2026/10/data-centers-forum-commercial-observer-2026/",
+       "source": "Commercial Observer",
+       "published": "2026-10-08T18:15:36.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Inside Climate News",
-         "url": "https://insideclimatenews.org/news/07102026/alabama-data-center-rules-loophole/",
+         "name": "Commercial Observer",
+         "url": "https://commercialobserver.com/2026/10/data-centers-forum-commercial-observer-2026/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "MONTGOMERY, Ala.—The Alabama Public Service Commission approved a new set of rules for future data center projects Tuesday that require more transparency and disclosure from data center companies and public votes by the PSC for data center approval. But they leave in place what c"
+       "blurb": "All eyes were on the most controversial asset class in America during Commercial Observer’s Data Centers Development and Infrastructure Forum, held Oct. 6 in Midtown Manhattan at the City University of New York Graduate Center. Experts across data center law, construction, invest"
       },
       {
        "title": "TeraWulf Doubles Kentucky Data Center Power to 1 GW",
@@ -1831,29 +1843,29 @@
        "stages": [],
        "via": null,
        "blurb": "\"If this was easy, everybody else would be doing it.\""
-      },
-      {
-       "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
-       "url": "https://www.fierce-network.com/sponsored/huawei-and-qualcomm-announce-broad-patent-license-agreement",
-       "source": "Fierce Network",
-       "published": null,
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Fierce Network",
-         "url": "https://www.fierce-network.com/sponsored/huawei-and-qualcomm-announce-broad-patent-license-agreement",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Huawei and Qualcomm have announced a multi-year, broad patent license agreement that includes cross licenses to the companies' patent portfolios across a range of fields, including 5G, compute, AI, and networking, together with Qualcomm's purchase of certain Huawei U.S. patents."
       }
      ]
     },
     "research": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
+       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+       "source": "NASA News",
+       "published": "2026-10-08T15:46:25.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
+      },
       {
        "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
        "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
@@ -2086,23 +2098,6 @@
        "stages": [],
        "via": null,
        "blurb": "Farm Progress America"
-      },
-      {
-       "title": "Healthcare organizations are underprepared for quantum computing threats",
-       "url": "https://www.healthcaredive.com/news/healthcare-organizations-are-underprepared-for-quantum-computing-threats/832516/",
-       "source": "Healthcare Dive",
-       "published": "2026-10-08T17:24:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Healthcare Dive",
-         "url": "https://www.healthcaredive.com/news/healthcare-organizations-are-underprepared-for-quantum-computing-threats/832516/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Once scientists are able to develop practical quantum computers, the technology could quickly break the encryption methods protecting patient data. Experts say healthcare leaders should start preparing for that reality today."
       }
      ]
     },
@@ -2127,6 +2122,33 @@
        "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
       },
       {
+       "title": "Goldman Sachs ensnared in EY data breach earlier this year",
+       "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
+       "source": "Accounting Today",
+       "published": "2026-10-07T15:21:38.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/08/top-bosses-goldman-sachs-bonus-pot",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/goldman-sachs-to-pay-top-executives-500mn-in-special-bonuses/",
+         "primary": false
+        },
+        {
+         "name": "Accounting Today",
+         "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Goldman Sachs Group Inc.'s data was exposed earlier this year in a hack of accounting firm EY, according to a person familiar with the matter."
+      },
+      {
        "title": "Payments income bolsters banks",
        "url": "https://www.paymentsdive.com/news/payments-income-bolsters-banks/832378/",
        "source": "Payments Dive",
@@ -2142,23 +2164,6 @@
        "stages": [],
        "via": null,
        "blurb": "Income from card, digital and other rails has swelled to about 40% of revenue for the global bank industry, according to consulting firm McKinsey."
-      },
-      {
-       "title": "Goldman Sachs ensnared in EY data breach earlier this year",
-       "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
-       "source": "Accounting Today",
-       "published": "2026-10-07T15:21:38.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Accounting Today",
-         "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Goldman Sachs Group Inc.'s data was exposed earlier this year in a hack of accounting firm EY, according to a person familiar with the matter."
       },
       {
        "title": "FBI removes Accenture contractor after missed security patch led to breach",
@@ -2290,6 +2295,33 @@
        "blurb": "Experts at the NMFTA Cybersecurity Conference emphasized that as cargo theft schemes become more sophisticated, the importance of keeping humans involved to counter them becomes more crucial."
       },
       {
+       "title": "Goldman Sachs ensnared in EY data breach earlier this year",
+       "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
+       "source": "Accounting Today",
+       "published": "2026-10-07T15:21:38.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/08/top-bosses-goldman-sachs-bonus-pot",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/goldman-sachs-to-pay-top-executives-500mn-in-special-bonuses/",
+         "primary": false
+        },
+        {
+         "name": "Accounting Today",
+         "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Goldman Sachs Group Inc.'s data was exposed earlier this year in a hack of accounting firm EY, according to a person familiar with the matter."
+      },
+      {
        "title": "AI underscores singular importance of phishing-resistant authentication, Okta says",
        "url": "https://www.cybersecuritydive.com/news/phishing-authentication-ai-okta/832376/",
        "source": "Cybersecurity Dive",
@@ -2305,23 +2337,6 @@
        "stages": [],
        "via": null,
        "blurb": "The company presented new data about the prevalence of different forms of social-engineering attacks, saying identity fundamentals still matter in the AI era."
-      },
-      {
-       "title": "Goldman Sachs ensnared in EY data breach earlier this year",
-       "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
-       "source": "Accounting Today",
-       "published": "2026-10-07T15:21:38.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Accounting Today",
-         "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Goldman Sachs Group Inc.'s data was exposed earlier this year in a hack of accounting firm EY, according to a person familiar with the matter."
       },
       {
        "title": "IBM’s AI-powered vulnerability clearinghouse finds hundreds of Java flaws",
@@ -2715,34 +2730,6 @@
     }
    }
   },
-  "us-ky": {
-   "label": "Kentucky",
-   "level": "admin1",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "TeraWulf Doubles Kentucky Data Center Power to 1 GW",
-       "url": "https://www.enr.com/articles/63799-terawulf-doubles-kentucky-data-center-power-to-1-gw",
-       "source": "ENR (Engineering News-Record)",
-       "published": "2026-10-06T18:34:16.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ENR (Engineering News-Record)",
-         "url": "https://www.enr.com/articles/63799-terawulf-doubles-kentucky-data-center-power-to-1-gw",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Kentucky Power's planned Muskie buildout would begin substation construction in 2027, with TeraWulf also funding residential bill credits and Big Sandy financing costs for customers."
-      }
-     ]
-    }
-   }
-  },
   "ua": {
    "label": "Ukraine",
    "level": "country",
@@ -2940,28 +2927,6 @@
    "label": "Canada",
    "level": "country",
    "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "OSFI says geopolitical, economic and AI risks have intensified for financial system",
-       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/osfi-says-geopolitical-economic-and-ai-risks-have-intensified-for-financial-system/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T18:26:59.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/osfi-says-geopolitical-economic-and-ai-risks-have-intensified-for-financial-system/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Office of the Superintendent of Financial Institutions says rapid technological advances have intensified risk in the Canadian financial system."
-      }
-     ]
-    },
     "cloud": {
      "brief": "missing",
      "candidates": [
@@ -3069,6 +3034,87 @@
         "stage": "innovation"
        },
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+      }
+     ]
+    }
+   }
+  },
+  "us-ky": {
+   "label": "Kentucky",
+   "level": "admin1",
+   "sources": {
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "TeraWulf Doubles Kentucky Data Center Power to 1 GW",
+       "url": "https://www.enr.com/articles/63799-terawulf-doubles-kentucky-data-center-power-to-1-gw",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-06T18:34:16.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63799-terawulf-doubles-kentucky-data-center-power-to-1-gw",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Kentucky Power's planned Muskie buildout would begin substation construction in 2027, with TeraWulf also funding residential bill credits and Big Sandy financing costs for customers."
+      }
+     ]
+    }
+   }
+  },
+  "ro": {
+   "label": "Romania",
+   "level": "country",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Rompetrol targets 2028 startup for two refinery solar projects",
+       "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:53:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
+      }
+     ]
+    },
+    "cyber": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "An energy-first cybersecurity platform for solar, storage and the grid",
+       "url": "https://www.pv-magazine.com/2026/10/08/an-energy-first-cybersecurity-platform-for-solar-storage-and-the-grid/",
+       "source": "pv magazine",
+       "published": "2026-10-08T08:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/an-energy-first-cybersecurity-platform-for-solar-storage-and-the-grid/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Romanian EPC contractor Enevo says the SentryOT platform stands apart from IT-led competitors by translating network threats into terms energy engineers understand. The post An energy-first cybersecurity platform for solar, storage and the grid appeared first on pv magazine Globa"
       }
      ]
     }
@@ -3592,6 +3638,204 @@
     }
    }
   },
+  "us-ny": {
+   "label": "New York",
+   "level": "admin1",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
+       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
+       "source": "The Loadstar",
+       "published": "2026-10-07T12:40:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Loadstar",
+         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
+      }
+     ]
+    },
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Data Centers: There’s So Much to Talk About",
+       "url": "https://commercialobserver.com/2026/10/data-centers-forum-commercial-observer-2026/",
+       "source": "Commercial Observer",
+       "published": "2026-10-08T18:15:36.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Commercial Observer",
+         "url": "https://commercialobserver.com/2026/10/data-centers-forum-commercial-observer-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "All eyes were on the most controversial asset class in America during Commercial Observer’s Data Centers Development and Infrastructure Forum, held Oct. 6 in Midtown Manhattan at the City University of New York Graduate Center. Experts across data center law, construction, invest"
+      }
+     ]
+    },
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
+       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+       "source": "Manufacturing Dive",
+       "published": "2026-10-08T16:03:05.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Manufacturing Dive",
+         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+         "primary": false
+        },
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/wolfspeed-receives-15bn-conditional-loan-commitment-from-us-govt-to-boost-domestic-sic-and-gan-production/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+      }
+     ]
+    },
+    "media": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "New York alleges TikTok gave teens, children a placebo safety feature instead of a real one",
+       "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T15:06:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New York’s lawsuit against the company is one of more than two dozen cases brought by states accusing the social media giant of designing its platform to encourage addictive use among children."
+      }
+     ]
+    }
+   }
+  },
+  "us-city-new-york": {
+   "label": "New York",
+   "level": "city",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
+       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
+       "source": "The Loadstar",
+       "published": "2026-10-07T12:40:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Loadstar",
+         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
+      }
+     ]
+    },
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Data Centers: There’s So Much to Talk About",
+       "url": "https://commercialobserver.com/2026/10/data-centers-forum-commercial-observer-2026/",
+       "source": "Commercial Observer",
+       "published": "2026-10-08T18:15:36.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Commercial Observer",
+         "url": "https://commercialobserver.com/2026/10/data-centers-forum-commercial-observer-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "All eyes were on the most controversial asset class in America during Commercial Observer’s Data Centers Development and Infrastructure Forum, held Oct. 6 in Midtown Manhattan at the City University of New York Graduate Center. Experts across data center law, construction, invest"
+      }
+     ]
+    },
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
+       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+       "source": "Manufacturing Dive",
+       "published": "2026-10-08T16:03:05.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Manufacturing Dive",
+         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+         "primary": false
+        },
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/wolfspeed-receives-15bn-conditional-loan-commitment-from-us-govt-to-boost-domestic-sic-and-gan-production/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+      }
+     ]
+    },
+    "media": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "New York alleges TikTok gave teens, children a placebo safety feature instead of a real one",
+       "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T15:06:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New York’s lawsuit against the company is one of more than two dozen cases brought by states accusing the social media giant of designing its platform to encourage addictive use among children."
+      }
+     ]
+    }
+   }
+  },
   "sa": {
    "label": "Saudi Arabia",
    "level": "country",
@@ -3992,6 +4236,11 @@
        "verification": "multiple",
        "outlets": [
         {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/canadas-future-will-be-decided-by-canadians-carney-says-after-elon-musk-pushes-quebec-separatism/",
+         "primary": false
+        },
+        {
          "name": "The Hindu Business",
          "url": "https://www.thehindu.com/business/Industry/dot-refutes-bias-in-starlink-authorisation-says-all-licensees-approvals-pending/article71560045.ece",
          "primary": false
@@ -4173,62 +4422,6 @@
         "stage": "innovation"
        },
        "blurb": "Tata Power has partnered with Norway’s Ocean Sun to test membrane-based floating solar technology at its Maharashtra reservoir."
-      }
-     ]
-    }
-   }
-  },
-  "ro": {
-   "label": "Romania",
-   "level": "country",
-   "sources": {
-    "cyber": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "An energy-first cybersecurity platform for solar, storage and the grid",
-       "url": "https://www.pv-magazine.com/2026/10/08/an-energy-first-cybersecurity-platform-for-solar-storage-and-the-grid/",
-       "source": "pv magazine",
-       "published": "2026-10-08T08:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/08/an-energy-first-cybersecurity-platform-for-solar-storage-and-the-grid/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Romanian EPC contractor Enevo says the SentryOT platform stands apart from IT-led competitors by translating network threats into terms energy engineers understand. The post An energy-first cybersecurity platform for solar, storage and the grid appeared first on pv magazine Globa"
-      }
-     ]
-    }
-   }
-  },
-  "us-al": {
-   "label": "Alabama",
-   "level": "admin1",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Alabama Sets Stricter Data Center Rules. But There’s a Loophole.",
-       "url": "https://insideclimatenews.org/news/07102026/alabama-data-center-rules-loophole/",
-       "source": "Inside Climate News",
-       "published": "2026-10-07T08:55:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Inside Climate News",
-         "url": "https://insideclimatenews.org/news/07102026/alabama-data-center-rules-loophole/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "MONTGOMERY, Ala.—The Alabama Public Service Commission approved a new set of rules for future data center projects Tuesday that require more transparency and disclosure from data center companies and public votes by the PSC for data center approval. But they leave in place what c"
       }
      ]
     }
@@ -4494,83 +4687,6 @@
     }
    }
   },
-  "us-ny": {
-   "label": "New York",
-   "level": "admin1",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
-       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-       "source": "The Loadstar",
-       "published": "2026-10-07T12:40:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Loadstar",
-         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
-      }
-     ]
-    },
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
-       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-       "source": "Manufacturing Dive",
-       "published": "2026-10-08T16:03:05.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Manufacturing Dive",
-         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/wolfspeed-receives-15bn-conditional-loan-commitment-from-us-govt-to-boost-domestic-sic-and-gan-production/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
-      }
-     ]
-    },
-    "media": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "New York alleges TikTok gave teens, children a placebo safety feature instead of a real one",
-       "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
-       "source": "TechCrunch",
-       "published": "2026-10-08T15:06:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "New York’s lawsuit against the company is one of more than two dozen cases brought by states accusing the social media giant of designing its platform to encourage addictive use among children."
-      }
-     ]
-    }
-   }
-  },
   "us-nc": {
    "label": "North Carolina",
    "level": "admin1",
@@ -4599,83 +4715,6 @@
        "stages": [],
        "via": null,
        "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
-      }
-     ]
-    }
-   }
-  },
-  "us-city-new-york": {
-   "label": "New York",
-   "level": "city",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
-       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-       "source": "The Loadstar",
-       "published": "2026-10-07T12:40:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Loadstar",
-         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
-      }
-     ]
-    },
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
-       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-       "source": "Manufacturing Dive",
-       "published": "2026-10-08T16:03:05.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Manufacturing Dive",
-         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/wolfspeed-receives-15bn-conditional-loan-commitment-from-us-govt-to-boost-domestic-sic-and-gan-production/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
-      }
-     ]
-    },
-    "media": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "New York alleges TikTok gave teens, children a placebo safety feature instead of a real one",
-       "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
-       "source": "TechCrunch",
-       "published": "2026-10-08T15:06:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "New York’s lawsuit against the company is one of more than two dozen cases brought by states accusing the social media giant of designing its platform to encourage addictive use among children."
       }
      ]
     }

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T17:53:50.717Z",
+ "generatedAt": "2026-10-08T18:43:08.855Z",
  "sector": "policy",
  "maxAgeDays": 10,
  "places": {
@@ -10,6 +10,23 @@
     "government": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "UAE and Saudi Arabia sign rail and energy agreement to boost cross-border trade and connectivity",
+       "url": "https://www.thenationalnews.com/news/uae/2026/10/08/uae-and-saudi-arabia-sign-rail-and-energy-agreement-to-boost-cross-border-trade-and-connectivity/",
+       "source": "The National (UAE)",
+       "published": "2026-10-08T18:25:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/uae/2026/10/08/uae-and-saudi-arabia-sign-rail-and-energy-agreement-to-boost-cross-border-trade-and-connectivity/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The UAE and Saudi Arabia signed an agreement to develop rail links and deepen energy cooperation between the two Gulf neighbours. Mohamed Hassan Alsuwaidi, the UAE Minister of Investment, and Prince Abdulaziz bin Salman bin Abdulaziz, Saudi Arabia's Minister of Energy and Ministe"
+      },
       {
        "title": "Trump rules out attack on Iran before midterm elections",
        "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
@@ -42,7 +59,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The European Parliament backed proposals on Thursday to “counter the influence” of the Muslim Brotherhood and list some of its supporters as terrorists. The resolution passed by a vote of 381 to 167 asks the EU's member states to list people and organisations linked to the Muslim"
+       "blurb": "The European Parliament backed proposals on Thursday to “counter the influence” of the Muslim Brotherhood and list some of its supporters as terrorists. The resolution passed by a vote of 381 to 167, and asks the EU's member states to add people and organisations linked to the Br"
       },
       {
        "title": "UEFA details FIFA presidential candidate criteria in bid to oust Infantino",
@@ -113,23 +130,6 @@
        "blurb": "The vote in London's Holborn and St Pancras parliamentary seat tests whether Burnham can restore faith in Labour."
       },
       {
-       "title": "Saudi-led coalition says it intercepts three Houthi ballistic missiles",
-       "url": "https://www.aljazeera.com/news/2026/10/8/saudi-led-coalition-says-it-intercepts-three-houthi-ballistic-missiles?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-08T14:43:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/8/saudi-led-coalition-says-it-intercepts-three-houthi-ballistic-missiles?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Saudi Arabia says two of the missiles intercepted were headed towards the capital, Riyadh."
-      },
-      {
        "title": "Spanish government to press on with tighter data centre rules before election",
        "url": "https://www.channelnewsasia.com/business/spanish-government-press-tighter-data-centre-rules-election-6443271",
        "source": "CNA Business",
@@ -164,6 +164,40 @@
        "blurb": "South Korean President Lee Jae Myung oversaw test-firing of a hypersonic glide vehicle, a missile flying at low altitudes, the Korean presidential office said in a statement on Thursday."
       },
       {
+       "title": "Parliament expansion preps advance",
+       "url": "https://www.lusakatimes.com/2026/10/08/parliament-expansion-preps-advance/",
+       "source": "Lusaka Times",
+       "published": "2026-10-08T18:31:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/08/parliament-expansion-preps-advance/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The National Assembly of Zambia is undergoing major rehabilitation and expansion works to accommodate the increased number of Members of Parliament (MPs) and ensure that the members operate in a conducive environment. Clerk of the National Assembly Loveness Mayaka says the works "
+      },
+      {
+       "title": "Anthropic changes usage policy to ban model abuse and election interference",
+       "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T18:16:24.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance."
+      },
+      {
        "title": "Climate needs same urgency as defense spending, COP31 chief says",
        "url": "https://www.japantimes.co.jp/environment/2026/10/08/climate-change/cop-chief-climate-defense-spending/",
        "source": "The Japan Times",
@@ -179,40 +213,6 @@
        "stages": [],
        "via": null,
        "blurb": "Turkish Environment Minister and COP31 President-designate Murat Kurum said every country must show the same responsibility and determination."
-      },
-      {
-       "title": "'Come all the way' back to EU, French finance minister tells UK",
-       "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-       "source": "BBC News Business",
-       "published": "2026-10-08T04:02:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Roland Lescure tells the BBC that being in the bloc enables members to better address the challenges facing the world."
-      },
-      {
-       "title": "Kenya: President Ruto Awards 3,727 Kenyans Skills Certificates, Launches Fundi Locator Jobs Portal",
-       "url": "https://allafrica.com/stories/202610080329.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T11:53:24.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080329.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Capital FM] Nairobi -- President William Ruto has awarded skills certificates to 3,727 Kenyans under the government's Recognition of Prior Learning (RPL) programme, as part of efforts to formally recognise skills acquired outside traditional education and training systems."
       }
      ]
     },
@@ -485,6 +485,23 @@
        "blurb": ""
       },
       {
+       "title": "Military Plane Crash: Air Chief sets up probe panel, assures adequate support for bereaved families",
+       "url": "https://www.premiumtimesng.com/regional/ssouth-west/915520-military-plane-crash-air-chief-sets-up-probe-panel-assures-adequate-support-for-bereaved-families.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-08T17:59:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/regional/ssouth-west/915520-military-plane-crash-air-chief-sets-up-probe-panel-assures-adequate-support-for-bereaved-families.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The air chief said he knew everyone on the ill-fated plane, having flown it alongside his family in the past. The post Military Plane Crash: Air Chief sets up probe panel, assures adequate support for bereaved families appeared first on Premium Times Nigeria ."
+      },
+      {
        "title": "Google's €13bn data center buildout in Finland under investigation for 300-hectare forest removal",
        "url": "https://www.datacenterdynamics.com/en/news/googles-13bn-data-center-buildout-in-finland-under-investigation-for-300-hectare-forest-removal/",
        "source": "DatacenterDynamics",
@@ -619,23 +636,6 @@
        "stages": [],
        "via": null,
        "blurb": "WA's energy sector is sounding the alarm over a landmark High Court ruling that overseas emissions from a proposed NSW coal mine were required to be considered when approving the project."
-      },
-      {
-       "title": "‘Lawyers should be running to courts’ to stop coal approvals after landmark ruling, NSW MP says",
-       "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
-       "source": "The Guardian Energy",
-       "published": "2026-10-07T07:24:31.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "High court finding in favour of Hunter Valley community group sets precedent other environmentalists should follow, advocate says Get our new political email , free app or daily news podcast A landmark decision in Australia’s first climate change high court case has been describe"
       }
      ]
     },
@@ -727,26 +727,38 @@
        "blurb": "The UK should keep a diplomatic presence in Jerusalem at all costs to prevent Israeli claims to the disputed city, a former British diplomat has said. Sir Vincent Fean, who served as British Consul General in Jerusalem , said the UK’s historic presence in Jerusalem was critical t"
       },
       {
-       "title": "UK ramps up sanctions against Russian shadow fleet, crypto industry, big oil",
-       "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
+       "title": "Open letter to the US administration: The G20 invitation to Putin should come with conditions",
+       "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
        "source": "The Kyiv Independent",
-       "published": "2026-10-08T11:21:10.000Z",
-       "verification": "multiple",
+       "published": "2026-10-08T18:15:11.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
+         "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The U.K., the EU, and Ukraine have all targeted crypto schemes in recent sanctions packages as Russia uses the technology to evade existing sanctions."
+       "blurb": "The Trump administration recently announced that it has invited Russian President Vladimir Putin to December's G20 summit in Miami. This invitation erodes the well-deserved isolation of Putin for his brutal and unprovoked invasion of Ukraine . Putin last appeared on U.S. soil for"
+      },
+      {
+       "title": "Colombian embassy to open in Jerusalem, Israeli FM says",
+       "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-08T18:07:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Colombian President Abelardo De la Espriella had promised closer ties with Israel on the campaign trail."
       },
       {
        "title": "UN Security Council extends arms embargo in Sudan's Darfur as US pushes for nationwide ban",
@@ -783,6 +795,28 @@
        "blurb": "Bahrain on Thursday said it was working to “speed up” the approval of a free trade agreement between Pakistan and the Gulf Cooperation Council (GCC). The remarks came after the two countries held the third session of their Joint Ministerial Commission (JMC) in Islamabad. Bahrain’"
       },
       {
+       "title": "EU weighs hybrid quotas after China rejects export curbs – report",
+       "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
+       "source": "Just Auto",
+       "published": "2026-10-08T11:04:09.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "Just Auto",
+         "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Following Beijing’s refusal to adopt voluntary curbs, the European Commission is weighing temporary safeguard tariffs that do not require proof of unfair trade practices."
+      },
+      {
        "title": "EU and GCC to strengthen relations at leaders' summit in Riyadh",
        "url": "https://www.thenationalnews.com/news/europe/2026/10/08/eu-and-gcc-to-strengthen-relations-at-leaders-summit-in-riyadh/",
        "source": "The National (UAE)",
@@ -798,23 +832,6 @@
        "stages": [],
        "via": null,
        "blurb": "The European Union hopes to deepen security and energy relations with Gulf countries at the second leaders' summit in Riyadh next month. Since the start of the Iran war on February 28, Europe has cast itself as a solid ally to the Gulf , despite being unable to match superior US "
-      },
-      {
-       "title": "EU to establish training and support mission for Lebanese army",
-       "url": "https://www.thenationalnews.com/news/mena/2026/10/08/eu-to-establish-training-and-support-mission-for-lebanese-army/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T12:22:13.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/mena/2026/10/08/eu-to-establish-training-and-support-mission-for-lebanese-army/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The European Union will establish a mission to support and train the underfunded Lebanese Armed Forces , the bloc's foreign affairs chief said on Thursday. Kaja Kallas, who was visiting Beirut, said the mission was not a replacement for the UN's peacekeeping mission in south Leba"
       },
       {
        "title": "EU trade envoy eyes yawning goods deficit on first day of China visit",
@@ -866,23 +883,6 @@
        "stages": [],
        "via": null,
        "blurb": "In an interview with RFI, Russian opposition figure Vladimir Kara-Murza has accused France of sending a “very dangerous” signal that the West is ready to return to “business as usual” with Vladimir Putin, after the French government pushed for European Union sanctions against Rus"
-      },
-      {
-       "title": "Lithuania calls for EU sanctions against Russian grain",
-       "url": "https://kyivindependent.com/lithuania-calls-for-eu-sanctions-against-russian-grain/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T08:18:32.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/lithuania-calls-for-eu-sanctions-against-russian-grain/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Russia being able to trade grain while it blockades Ukraine from doing likewise \"is an unacceptable situation,\" said Lithuanian Prime Minister Mindaugas Sinkevicius."
       },
       {
        "title": "EU, China at trade crossroads amid strict market access plans threatening new trade war",
@@ -1041,21 +1041,21 @@
        "blurb": "ANTA Sports has completed its acquisition of a 29.06% stake in Puma from Artémis, for €1.51bn ($1.69bn) in cash."
       },
       {
-       "title": "Commission fines Kingspan €40 million for providing incorrect and misleading information during merger investigation",
-       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2084",
-       "source": "European Commission press corner",
-       "published": "2026-10-07T22:00:00.000Z",
-       "verification": "confirmed",
+       "title": "GEAR and M Resources Complete Tahmoor Acquisition",
+       "url": "https://www.coalage.com/departments/breaking-news/gear-and-m-resources-complete-tahmoor-acquisition/",
+       "source": "Coal Age",
+       "published": "2026-10-08T18:18:08.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "European Commission press corner",
-         "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2084",
-         "primary": true
+         "name": "Coal Age",
+         "url": "https://www.coalage.com/departments/breaking-news/gear-and-m-resources-complete-tahmoor-acquisition/",
+         "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "European Commission Press release Brussels, 08 Oct 2026 The European Commission has fined Kingspan €40 million for providing incorrect and misleading information during the 2021 Commission review of Kingspan's planned acquisition of Trimo, under the EU Merger Regulation (‘EUMR')."
+       "blurb": "Golden Energy and Resources (GEAR) and M Resources announced the completion of the acquisition of Tahmoor Colliery. Under the transaction, GEAR holds a 70% interest and M Resources holds 30% in the Tahmoor asset. The acquisition represents a significant new investment in an estab"
       },
       {
        "title": "Prudential Japan executives take pay cuts over staff misconduct involving customers’ money",
@@ -1340,23 +1340,6 @@
        "blurb": "Nonprofits around the world face tighter public budgets and greater competition for private support than ever before. Those that once relied on a small group of institutional funders are now trying to diversify – and … The post How nonprofits can build brands that withstand polit"
       },
       {
-       "title": "Museum Closures Are Partly Due To Federal Hostility, But Also To Needless Corporatization Of Nonprofits",
-       "url": "https://abovethelaw.com/2026/10/museum-closures-are-partly-due-to-federal-hostility-but-also-to-needless-corporatization-of-nonprofits/",
-       "source": "Above the Law",
-       "published": "2026-10-07T17:01:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Above the Law",
-         "url": "https://abovethelaw.com/2026/10/museum-closures-are-partly-due-to-federal-hostility-but-also-to-needless-corporatization-of-nonprofits/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "If you want to close buildings and lay people off so badly, go work on Wall Street. The post Museum Closures Are Partly Due To Federal Hostility, But Also To Needless Corporatization Of Nonprofits appeared first on Above the Law ."
-      },
-      {
        "title": "Philanthropic fund launched to prevent Amazon rainforest wildfires",
        "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
        "source": "Alliance magazine",
@@ -1389,6 +1372,23 @@
        "stages": [],
        "via": null,
        "blurb": "The history of Reconstruction teaches us that the demand for freedom must be sustained through coalition, institution building, disinformation resistance, and intergenerational truth-telling."
+      },
+      {
+       "title": "The Nonprofit Data Trap: How Digital Accountability Is Reproducing Inequality",
+       "url": "https://nonprofitquarterly.org/the-nonprofit-data-trap-how-digital-accountability-is-reproducing-inequality/",
+       "source": "Nonprofit Quarterly",
+       "published": "2026-10-01T10:52:34.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Nonprofit Quarterly",
+         "url": "https://nonprofitquarterly.org/the-nonprofit-data-trap-how-digital-accountability-is-reproducing-inequality/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "When funders insist on certain categories of evidence, they are not simply asking organizations to count things. They are determining what—and whose voice—counts."
       }
      ]
     }
@@ -1537,6 +1537,23 @@
        "blurb": "President Trump is weighing a potential suspension of the federal gas tax, as he looks for ways to ease high energy costs ahead of November’s midterm elections."
       },
       {
+       "title": "A senator tried to ban gambling on prediction markets—now she's a Kalshi lobbyist",
+       "url": "https://arstechnica.com/tech-policy/2026/10/a-senator-tried-to-ban-gambling-on-prediction-markets-now-shes-a-kalshi-lobbyist/",
+       "source": "Ars Technica",
+       "published": "2026-10-08T11:00:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/tech-policy/2026/10/a-senator-tried-to-ban-gambling-on-prediction-markets-now-shes-a-kalshi-lobbyist/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Sen. Blanche Lincoln wrote law that let US ban sports-event contracts. She lobbies for the other side now."
+      },
+      {
        "title": "Quebec separatist party wins provincial election in test of Canada's unity",
        "url": "https://www.rfi.fr/en/international/20261006-quebec-separatist-party-wins-provincial-election-in-test-of-canada-s-unity",
        "source": "RFI English",
@@ -1605,23 +1622,6 @@
        "blurb": "The U.S. Senate energy permitting bill unveiled Wednesday could streamline the buildout of high-voltage power lines across the country, potentially delivering billions of dollars in electricity cost savings and dramatically improving the power system’s reliability over the coming"
       },
       {
-       "title": "Governor Healey and President Kornbluth launch MIT Future Fest",
-       "url": "https://news.mit.edu/2026/governor-healey-and-president-kornbluth-launch-mit-future-fest-1001",
-       "source": "MIT News",
-       "published": "2026-10-01T18:30:00.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "MIT News",
-         "url": "https://news.mit.edu/2026/governor-healey-and-president-kornbluth-launch-mit-future-fest-1001",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The new, five-day MIT event reaches takeoff with a forum about discovery and innovation."
-      },
-      {
        "title": "Coalition for the Common Good tells accreditor it has authority over Antioch",
        "url": "https://www.highereddive.com/news/coalition-for-the-common-good-tells-accreditor-it-has-authority-over-antioc/832323/",
        "source": "Higher Ed Dive",
@@ -1639,23 +1639,6 @@
        "blurb": "The escalation in the feud comes shortly after the university’s president sued the coalition, alleging retaliation and discrimination."
       },
       {
-       "title": "Ranchers look to executive order for wolf relief",
-       "url": "https://www.agri-pulse.com/articles/25341-ranchers-look-to-executive-order-for-wolf-relief",
-       "source": "Agri-Pulse",
-       "published": "2026-10-07T10:09:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Agri-Pulse",
-         "url": "https://www.agri-pulse.com/articles/25341-ranchers-look-to-executive-order-for-wolf-relief",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The fight over wolves has entered a new phase with the issuance of a new executive order."
-      },
-      {
        "title": "Small Mortgages are Disappearing, but Congress is Trying to Save Them",
        "url": "https://www.realtor.com/research/small-mortgages-2026/",
        "source": "Realtor.com Economic Research",
@@ -1671,6 +1654,23 @@
        "stages": [],
        "via": null,
        "blurb": "New federal legislation aims to encourage mortgages under $100,000 by offering financial incentives to lenders, reforming processes calibrated to larger loans, and relaxing appraisal requirements."
+      },
+      {
+       "title": "Inside the Senate’s bipartisan permitting reform package — This Week in Cleantech",
+       "url": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/inside-the-senates-bipartisan-permitting-reform-package-this-week-in-cleantech/",
+       "source": "Hydro Review",
+       "published": "2026-10-05T19:17:46.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Hydro Review",
+         "url": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/inside-the-senates-bipartisan-permitting-reform-package-this-week-in-cleantech/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "On this episode of the This Week in Cleantech podcast, Jillian Goodman from Heatmap News breaks down the Bipartisan American Affordability and Jobs Act, a new permitting reform package meant to lower energy costs and make it easier to build infrastructure."
       }
      ]
     },
@@ -1729,6 +1729,23 @@
        "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
       },
       {
+       "title": "Beyond tariffs: The US–Turkey trade relationship needs a bigger bargain",
+       "url": "https://www.atlanticcouncil.org/blogs/turkeysource/beyond-tariffs-the-us-turkey-trade-relationship-needs-a-bigger-bargain/",
+       "source": "Atlantic Council",
+       "published": "2026-10-06T19:26:11.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Atlantic Council",
+         "url": "https://www.atlanticcouncil.org/blogs/turkeysource/beyond-tariffs-the-us-turkey-trade-relationship-needs-a-bigger-bargain/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "To reach their longstanding $100 billion trade ambition, the United States and Turkey should look beyond tariffs toward a broader economic bargain. The post Beyond tariffs: The US–Turkey trade relationship needs a bigger bargain appeared first on Atlantic Council ."
+      },
+      {
        "title": "Foreign sugar subsidies cost US farmers billions, study finds",
        "url": "https://www.farmprogress.com/tv-and-radio/foreign-sugar-subsidies-cost-us-farmers-billions-study-finds",
        "source": "Farm Progress",
@@ -1778,23 +1795,6 @@
        "stages": [],
        "via": null,
        "blurb": "Despite the increase, the rate remains below Biden-era levels, which hit $15 per hour."
-      },
-      {
-       "title": "The Interest Rate Hike Shifts the Calculus on New York City Multifamily Investing",
-       "url": "https://commercialobserver.com/2026/10/interest-rate-hike-new-york-city-multifamily-investing/",
-       "source": "Commercial Observer",
-       "published": "2026-10-07T17:03:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Commercial Observer",
-         "url": "https://commercialobserver.com/2026/10/interest-rate-hike-new-york-city-multifamily-investing/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "For the last two years, commercial real estate investors and operators have been waiting for one thing: lower interest rates. They may need to stop waiting. The Federal Reserve in September raised its benchmark rate another 25 basis points, bringing the federal funds target range"
       },
       {
        "title": "The grueling fight to pass the Inflation Reduction Act",
@@ -1982,6 +1982,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Open letter to the US administration: The G20 invitation to Putin should come with conditions",
+       "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-08T18:15:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Trump administration recently announced that it has invited Russian President Vladimir Putin to December's G20 summit in Miami. This invitation erodes the well-deserved isolation of Putin for his brutal and unprovoked invasion of Ukraine . Putin last appeared on U.S. soil for"
+      },
+      {
        "title": "UN Security Council extends arms embargo in Sudan's Darfur as US pushes for nationwide ban",
        "url": "https://www.thenationalnews.com/news/us/2026/10/08/un-sudan-arms-embargo/",
        "source": "The National (UAE)",
@@ -2014,23 +2031,6 @@
        "stages": [],
        "via": null,
        "blurb": "The European Union hopes to deepen security and energy relations with Gulf countries at the second leaders' summit in Riyadh next month. Since the start of the Iran war on February 28, Europe has cast itself as a solid ally to the Gulf , despite being unable to match superior US "
-      },
-      {
-       "title": "The complete Side Events lineup at Founder Summit 2026",
-       "url": "https://techcrunch.com/2026/10/08/the-complete-side-events-lineup-at-founder-summit-2026/",
-       "source": "TechCrunch",
-       "published": "2026-10-08T14:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/08/the-complete-side-events-lineup-at-founder-summit-2026/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Boston, are you ready?! TechCrunch Founder Summit 2026 is about to explode with energy — and the real magic kicks off with an epic lineup of Side Events lighting up the city from November 3–6!"
       },
       {
        "title": "US top diplomat Rubio says West must choose ‘national power’ or decline",
@@ -2123,6 +2123,23 @@
        "blurb": "“We are disappointed by the lieutenant governor’s decision and respectfully disagree with it,” Neil Nissan, a spokesperson for NextEra Energy, told Utility Dive. State regulators are set to hold their first local hearing on the case Wednesday."
       },
       {
+       "title": "Leo Pareja named CEO of AGNT, Glenn Sanford steps down",
+       "url": "https://www.housingwire.com/articles/agnt-leo-pareja-ceo/",
+       "source": "HousingWire",
+       "published": "2026-10-08T18:01:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "HousingWire",
+         "url": "https://www.housingwire.com/articles/agnt-leo-pareja-ceo/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "After 17 years of building the business, Sanford said AGNT can now run without his direct involvement"
+      },
+      {
        "title": "ONEOK closes $4.43bn acquisition of Brazos’ Permian assets",
        "url": "https://www.offshore-technology.com/news/oneok-4-4bn-acquisition-brazos-permian-assets/",
        "source": "Offshore Technology",
@@ -2143,23 +2160,6 @@
        "stages": [],
        "via": null,
        "blurb": "US midstream operator ONEOK has completed its previously announced acquisition of Brazos Midstream’s natural gas gathering and processing assets in the Permian Midland Basin for approximately $4.425bn in cash."
-      },
-      {
-       "title": "2026 Realtor.com Generational Housing Succession",
-       "url": "https://www.realtor.com/research/generational-housing-succession-2026/",
-       "source": "Realtor.com Economic Research",
-       "published": "2026-10-05T10:00:45.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Realtor.com Economic Research",
-         "url": "https://www.realtor.com/research/generational-housing-succession-2026/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "13.9 million homes currently owned and occupied by the Baby Boomer Generation and the Silent Generation are expected to be released back to the market between 2026-2036. It represents a 33.7% or 3.5 million increase over this prior decade's pace for older households and a 74% or "
       },
       {
        "title": "ESRT Faces New Activist Investor Following Stake Acquisition",
@@ -2325,23 +2325,6 @@
        "blurb": "For years, nonprofit organizations have asked Americans to believe in the power of collective action. But what happens when the workplace itself falls short of the values an organization promotes publicly?"
       },
       {
-       "title": "Museum Closures Are Partly Due To Federal Hostility, But Also To Needless Corporatization Of Nonprofits",
-       "url": "https://abovethelaw.com/2026/10/museum-closures-are-partly-due-to-federal-hostility-but-also-to-needless-corporatization-of-nonprofits/",
-       "source": "Above the Law",
-       "published": "2026-10-07T17:01:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Above the Law",
-         "url": "https://abovethelaw.com/2026/10/museum-closures-are-partly-due-to-federal-hostility-but-also-to-needless-corporatization-of-nonprofits/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "If you want to close buildings and lay people off so badly, go work on Wall Street. The post Museum Closures Are Partly Due To Federal Hostility, But Also To Needless Corporatization Of Nonprofits appeared first on Above the Law ."
-      },
-      {
        "title": "Philanthropic fund launched to prevent Amazon rainforest wildfires",
        "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
        "source": "Alliance magazine",
@@ -2374,6 +2357,23 @@
        "stages": [],
        "via": null,
        "blurb": "The history of Reconstruction teaches us that the demand for freedom must be sustained through coalition, institution building, disinformation resistance, and intergenerational truth-telling."
+      },
+      {
+       "title": "The Nonprofit Data Trap: How Digital Accountability Is Reproducing Inequality",
+       "url": "https://nonprofitquarterly.org/the-nonprofit-data-trap-how-digital-accountability-is-reproducing-inequality/",
+       "source": "Nonprofit Quarterly",
+       "published": "2026-10-01T10:52:34.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Nonprofit Quarterly",
+         "url": "https://nonprofitquarterly.org/the-nonprofit-data-trap-how-digital-accountability-is-reproducing-inequality/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "When funders insist on certain categories of evidence, they are not simply asking organizations to count things. They are determining what—and whose voice—counts."
       }
      ]
     }
@@ -2751,17 +2751,12 @@
        "blurb": "The UK should keep a diplomatic presence in Jerusalem at all costs to prevent Israeli claims to the disputed city, a former British diplomat has said. Sir Vincent Fean, who served as British Consul General in Jerusalem , said the UK’s historic presence in Jerusalem was critical t"
       },
       {
-       "title": "UK ramps up sanctions against Russian shadow fleet, crypto industry, big oil",
-       "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T11:21:10.000Z",
-       "verification": "multiple",
+       "title": "U.K. Expands Sanctions to Cover 90% of Russian Oil Output, Shadow Fleet and Finance Networks",
+       "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T13:07:40.000Z",
+       "verification": "unconfirmed",
        "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
-         "primary": false
-        },
         {
          "name": "The Moscow Times",
          "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
@@ -2770,7 +2765,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The U.K., the EU, and Ukraine have all targeted crypto schemes in recent sanctions packages as Russia uses the technology to evade existing sanctions."
+       "blurb": "The sanctions come on the heels of the EU approving another sanctions package Wednesday."
       },
       {
        "title": "'Come all the way' back to EU, French finance minister tells UK",
@@ -2795,23 +2790,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Burnham, take note: water shareholders have their uses – they can be squeezed for cash | Nils Pratley",
-       "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/oct/07/andy-burnham-water-shareholders-pennon-south-west-water",
-       "source": "The Guardian Business",
-       "published": "2026-10-07T17:14:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/oct/07/andy-burnham-water-shareholders-pennon-south-west-water",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Owner of South West Water, Bristol Water and Bournemouth Water is tapping its investors for £550m after sewage spills South West Water owner taps investors after sewage spills Water is “a service where the shareholders never lose and the public never win,” Andy Burnham, the prime"
-      },
-      {
        "title": "Forestry leaders to meet minister over merger fears",
        "url": "https://www.forestryjournal.co.uk/news/26602991.sector-leaders-meet-minister-scottish-forestry-merger/?ref=rss",
        "source": "Forestry Journal",
@@ -2827,6 +2805,23 @@
        "stages": [],
        "via": null,
        "blurb": "Forestry figures have voiced their opposition to the plan, with many pointing to the example of Natural Resources Wales (NRW) as a warning to ministers."
+      },
+      {
+       "title": "Burnham, take note: water shareholders have their uses – they can be squeezed for cash | Nils Pratley",
+       "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/oct/07/andy-burnham-water-shareholders-pennon-south-west-water",
+       "source": "The Guardian Business",
+       "published": "2026-10-07T17:14:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/oct/07/andy-burnham-water-shareholders-pennon-south-west-water",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Owner of South West Water, Bristol Water and Bournemouth Water is tapping its investors for £550m after sewage spills South West Water owner taps investors after sewage spills Water is “a service where the shareholders never lose and the public never win,” Andy Burnham, the prime"
       },
       {
        "title": "UK ROUNDUP: Gore Street shareholder vote maintains status quo, CIP and BW ESS progress 4-hour duration assets",
@@ -2866,6 +2861,128 @@
        "stages": [],
        "via": null,
        "blurb": "Fifteen UK research-intensive universities will take part in collaborative events in Shanghai and Beijing designed to highlight future skills, academic excellence and the long-term value of a UK education. The post Russell Group universities to showcase UK higher ed at China open"
+      }
+     ]
+    }
+   }
+  },
+  "ae": {
+   "label": "United Arab Emirates",
+   "level": "country",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "UAE and Saudi Arabia sign rail and energy agreement to boost cross-border trade and connectivity",
+       "url": "https://www.thenationalnews.com/news/uae/2026/10/08/uae-and-saudi-arabia-sign-rail-and-energy-agreement-to-boost-cross-border-trade-and-connectivity/",
+       "source": "The National (UAE)",
+       "published": "2026-10-08T18:25:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/uae/2026/10/08/uae-and-saudi-arabia-sign-rail-and-energy-agreement-to-boost-cross-border-trade-and-connectivity/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The UAE and Saudi Arabia signed an agreement to develop rail links and deepen energy cooperation between the two Gulf neighbours. Mohamed Hassan Alsuwaidi, the UAE Minister of Investment, and Prince Abdulaziz bin Salman bin Abdulaziz, Saudi Arabia's Minister of Energy and Ministe"
+      }
+     ]
+    },
+    "econpolicy": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Dubai’s Luxury Hotels Add Perks to Avoid Rate Cuts",
+       "url": "https://skift.com/2026/10/08/dubais-luxury-hotels-add-perks-to-avoid-rate-cuts/",
+       "source": "Skift",
+       "published": "2026-10-08T10:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Skift",
+         "url": "https://skift.com/2026/10/08/dubais-luxury-hotels-add-perks-to-avoid-rate-cuts/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Dubai’s luxury hotels face a choice between protecting rates and filling rooms. Value-adds let them do some of both. The question is how long their 2025 buffers will last."
+      }
+     ]
+    },
+    "regulation": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "UAE completes Arab world's first solo space probe – and sets course for an asteroid",
+       "url": "https://www.nature.com/articles/d41586-026-03154-4",
+       "source": "Nature",
+       "published": "2026-10-08T00:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Nature",
+         "url": "https://www.nature.com/articles/d41586-026-03154-4",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Nature, Published online: 08 October 2026; doi:10.1038/d41586-026-03154-4 The device will be launched on a joint UAE-US-built craft. Some researchers say it could be the last mission constructed with outside help."
+      }
+     ]
+    }
+   }
+  },
+  "sa": {
+   "label": "Saudi Arabia",
+   "level": "country",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "UAE and Saudi Arabia sign rail and energy agreement to boost cross-border trade and connectivity",
+       "url": "https://www.thenationalnews.com/news/uae/2026/10/08/uae-and-saudi-arabia-sign-rail-and-energy-agreement-to-boost-cross-border-trade-and-connectivity/",
+       "source": "The National (UAE)",
+       "published": "2026-10-08T18:25:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/uae/2026/10/08/uae-and-saudi-arabia-sign-rail-and-energy-agreement-to-boost-cross-border-trade-and-connectivity/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The UAE and Saudi Arabia signed an agreement to develop rail links and deepen energy cooperation between the two Gulf neighbours. Mohamed Hassan Alsuwaidi, the UAE Minister of Investment, and Prince Abdulaziz bin Salman bin Abdulaziz, Saudi Arabia's Minister of Energy and Ministe"
+      }
+     ]
+    },
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "EU and GCC to strengthen relations at leaders' summit in Riyadh",
+       "url": "https://www.thenationalnews.com/news/europe/2026/10/08/eu-and-gcc-to-strengthen-relations-at-leaders-summit-in-riyadh/",
+       "source": "The National (UAE)",
+       "published": "2026-10-08T13:23:36.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/europe/2026/10/08/eu-and-gcc-to-strengthen-relations-at-leaders-summit-in-riyadh/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The European Union hopes to deepen security and energy relations with Gulf countries at the second leaders' summit in Riyadh next month. Since the start of the Iran war on February 28, Europe has cast itself as a solid ally to the Gulf , despite being unable to match superior US "
       }
      ]
     }
@@ -3628,6 +3745,28 @@
       }
      ]
     },
+    "econpolicy": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Beyond tariffs: The US–Turkey trade relationship needs a bigger bargain",
+       "url": "https://www.atlanticcouncil.org/blogs/turkeysource/beyond-tariffs-the-us-turkey-trade-relationship-needs-a-bigger-bargain/",
+       "source": "Atlantic Council",
+       "published": "2026-10-06T19:26:11.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Atlantic Council",
+         "url": "https://www.atlanticcouncil.org/blogs/turkeysource/beyond-tariffs-the-us-turkey-trade-relationship-needs-a-bigger-bargain/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "To reach their longstanding $100 billion trade ambition, the United States and Turkey should look beyond tariffs toward a broader economic bargain. The post Beyond tariffs: The US–Turkey trade relationship needs a bigger bargain appeared first on Atlantic Council ."
+      }
+     ]
+    },
     "international": {
      "brief": "missing",
      "candidates": [
@@ -3699,28 +3838,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "UK ramps up sanctions against Russian shadow fleet, crypto industry, big oil",
-       "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T11:21:10.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The U.K., the EU, and Ukraine have all targeted crypto schemes in recent sanctions packages as Russia uses the technology to evade existing sanctions."
-      },
-      {
        "title": "Russian dissident Kara-Murza warns France is sending 'dangerous signal' to Putin",
        "url": "https://www.rfi.fr/en/international/20261008-russian-dissident-kara-murza-warns-france-is-sending-dangerous-signal-to-putin",
        "source": "RFI English",
@@ -3738,21 +3855,38 @@
        "blurb": "In an interview with RFI, Russian opposition figure Vladimir Kara-Murza has accused France of sending a “very dangerous” signal that the West is ready to return to “business as usual” with Vladimir Putin, after the French government pushed for European Union sanctions against Rus"
       },
       {
-       "title": "Lithuania calls for EU sanctions against Russian grain",
-       "url": "https://kyivindependent.com/lithuania-calls-for-eu-sanctions-against-russian-grain/",
+       "title": "Open letter to the US administration: The G20 invitation to Putin should come with conditions",
+       "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
        "source": "The Kyiv Independent",
-       "published": "2026-10-08T08:18:32.000Z",
+       "published": "2026-10-08T18:15:11.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/lithuania-calls-for-eu-sanctions-against-russian-grain/",
+         "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Russia being able to trade grain while it blockades Ukraine from doing likewise \"is an unacceptable situation,\" said Lithuanian Prime Minister Mindaugas Sinkevicius."
+       "blurb": "The Trump administration recently announced that it has invited Russian President Vladimir Putin to December's G20 summit in Miami. This invitation erodes the well-deserved isolation of Putin for his brutal and unprovoked invasion of Ukraine . Putin last appeared on U.S. soil for"
+      },
+      {
+       "title": "U.K. Expands Sanctions to Cover 90% of Russian Oil Output, Shadow Fleet and Finance Networks",
+       "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T13:07:40.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The sanctions come on the heels of the EU approving another sanctions package Wednesday."
       },
       {
        "title": "Russia eyes return to Europe's gas market despite sanctions, Ukraine war: Report",
@@ -3895,26 +4029,21 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "UK ramps up sanctions against Russian shadow fleet, crypto industry, big oil",
-       "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
+       "title": "Open letter to the US administration: The G20 invitation to Putin should come with conditions",
+       "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
        "source": "The Kyiv Independent",
-       "published": "2026-10-08T11:21:10.000Z",
-       "verification": "multiple",
+       "published": "2026-10-08T18:15:11.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
+         "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The U.K., the EU, and Ukraine have all targeted crypto schemes in recent sanctions packages as Russia uses the technology to evade existing sanctions."
+       "blurb": "The Trump administration recently announced that it has invited Russian President Vladimir Putin to December's G20 summit in Miami. This invitation erodes the well-deserved isolation of Putin for his brutal and unprovoked invasion of Ukraine . Putin last appeared on U.S. soil for"
       },
       {
        "title": "Ukrainian refugees raised Poland’s GDP by 2.4% in 2025, finds UN study",
@@ -3949,23 +4078,6 @@
        "stages": [],
        "via": null,
        "blurb": "Reports indicate that Russia is looking to reestablish gas supplies via the Nord Stream pipelines by negotiating with US investors, including Jared Kushner and a Russian adviser to Putin. This effort faces formidable challenges due to existing US and EU sanctions. Germany has tak"
-      },
-      {
-       "title": "Lithuania calls for EU sanctions against Russian grain",
-       "url": "https://kyivindependent.com/lithuania-calls-for-eu-sanctions-against-russian-grain/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T08:18:32.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/lithuania-calls-for-eu-sanctions-against-russian-grain/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Russia being able to trade grain while it blockades Ukraine from doing likewise \"is an unacceptable situation,\" said Lithuanian Prime Minister Mindaugas Sinkevicius."
       },
       {
        "title": "EU Lifts Belarus-Related Sanctions on Russian Billionaire Gutseriev – RFE/RL",
@@ -4453,6 +4565,28 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "EU weighs hybrid quotas after China rejects export curbs – report",
+       "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
+       "source": "Just Auto",
+       "published": "2026-10-08T11:04:09.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "Just Auto",
+         "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Following Beijing’s refusal to adopt voluntary curbs, the European Commission is weighing temporary safeguard tariffs that do not require proof of unfair trade practices."
+      },
+      {
        "title": "EU trade envoy eyes yawning goods deficit on first day of China visit",
        "url": "https://www.france24.com/en/tv-shows/business/20261008-eu-trade-envoy-eyes-yawning-goods-deficit-on-first-day-of-china-visit",
        "source": "France 24 Business",
@@ -4502,40 +4636,6 @@
        "stages": [],
        "via": null,
        "blurb": "Morning Market Analysis: Soybean futures fell overnight a day ahead of a USDA report that’s expected to illustrate prospects for a record harvest; corn and wheat are firmer."
-      },
-      {
-       "title": "EU weighs hybrid quotas after China rejects export curbs – report",
-       "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
-       "source": "Just Auto",
-       "published": "2026-10-08T11:04:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Just Auto",
-         "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Following Beijing’s refusal to adopt voluntary curbs, the European Commission is weighing temporary safeguard tariffs that do not require proof of unfair trade practices."
-      },
-      {
-       "title": "EU and China open crunch trade talks in Beijing on hybrid car exports",
-       "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
-       "source": "RFI English",
-       "published": "2026-10-08T04:10:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "RFI English",
-         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "European Union trade commissioner Maros Sefcovic arrives in Beijing on Thursday for two days of high-stakes talks with China, with Brussels seeking a pilot agreement to curb the surge in Chinese hybrid-car exports and reduce a trade deficit now running at around €1 billion per da"
       }
      ]
     },
@@ -4659,6 +4759,28 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "EU weighs hybrid quotas after China rejects export curbs – report",
+       "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
+       "source": "Just Auto",
+       "published": "2026-10-08T11:04:09.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "Just Auto",
+         "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Following Beijing’s refusal to adopt voluntary curbs, the European Commission is weighing temporary safeguard tariffs that do not require proof of unfair trade practices."
+      },
+      {
        "title": "EU trade envoy eyes yawning goods deficit on first day of China visit",
        "url": "https://www.france24.com/en/tv-shows/business/20261008-eu-trade-envoy-eyes-yawning-goods-deficit-on-first-day-of-china-visit",
        "source": "France 24 Business",
@@ -4691,40 +4813,6 @@
        "stages": [],
        "via": null,
        "blurb": "Germany joins France urging EU to impose retaliatory tariffs, restrict market access to shield European manufacturing’s competitiveness from subsidized Chinese competition, which Beijing calls discriminatory and violating of WTO rules"
-      },
-      {
-       "title": "EU weighs hybrid quotas after China rejects export curbs – report",
-       "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
-       "source": "Just Auto",
-       "published": "2026-10-08T11:04:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Just Auto",
-         "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Following Beijing’s refusal to adopt voluntary curbs, the European Commission is weighing temporary safeguard tariffs that do not require proof of unfair trade practices."
-      },
-      {
-       "title": "EU and China open crunch trade talks in Beijing on hybrid car exports",
-       "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
-       "source": "RFI English",
-       "published": "2026-10-08T04:10:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "RFI English",
-         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "European Union trade commissioner Maros Sefcovic arrives in Beijing on Thursday for two days of high-stakes talks with China, with Brussels seeking a pilot agreement to curb the surge in Chinese hybrid-car exports and reduce a trade deficit now running at around €1 billion per da"
       }
      ]
     },
@@ -4782,6 +4870,28 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "EU weighs hybrid quotas after China rejects export curbs – report",
+       "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
+       "source": "Just Auto",
+       "published": "2026-10-08T11:04:09.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "Just Auto",
+         "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Following Beijing’s refusal to adopt voluntary curbs, the European Commission is weighing temporary safeguard tariffs that do not require proof of unfair trade practices."
+      },
+      {
        "title": "EU trade envoy eyes yawning goods deficit on first day of China visit",
        "url": "https://www.france24.com/en/tv-shows/business/20261008-eu-trade-envoy-eyes-yawning-goods-deficit-on-first-day-of-china-visit",
        "source": "France 24 Business",
@@ -4814,40 +4924,6 @@
        "stages": [],
        "via": null,
        "blurb": "Germany joins France urging EU to impose retaliatory tariffs, restrict market access to shield European manufacturing’s competitiveness from subsidized Chinese competition, which Beijing calls discriminatory and violating of WTO rules"
-      },
-      {
-       "title": "EU weighs hybrid quotas after China rejects export curbs – report",
-       "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
-       "source": "Just Auto",
-       "published": "2026-10-08T11:04:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Just Auto",
-         "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Following Beijing’s refusal to adopt voluntary curbs, the European Commission is weighing temporary safeguard tariffs that do not require proof of unfair trade practices."
-      },
-      {
-       "title": "EU and China open crunch trade talks in Beijing on hybrid car exports",
-       "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
-       "source": "RFI English",
-       "published": "2026-10-08T04:10:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "RFI English",
-         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "European Union trade commissioner Maros Sefcovic arrives in Beijing on Thursday for two days of high-stakes talks with China, with Brussels seeking a pilot agreement to curb the surge in Chinese hybrid-car exports and reduce a trade deficit now running at around €1 billion per da"
       }
      ]
     },
@@ -5182,184 +5258,6 @@
     }
    }
   },
-  "us-ny": {
-   "label": "New York",
-   "level": "admin1",
-   "sources": {
-    "econpolicy": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
-       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-       "source": "The Loadstar",
-       "published": "2026-10-07T12:40:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Loadstar",
-         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
-      },
-      {
-       "title": "The Interest Rate Hike Shifts the Calculus on New York City Multifamily Investing",
-       "url": "https://commercialobserver.com/2026/10/interest-rate-hike-new-york-city-multifamily-investing/",
-       "source": "Commercial Observer",
-       "published": "2026-10-07T17:03:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Commercial Observer",
-         "url": "https://commercialobserver.com/2026/10/interest-rate-hike-new-york-city-multifamily-investing/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "For the last two years, commercial real estate investors and operators have been waiting for one thing: lower interest rates. They may need to stop waiting. The Federal Reserve in September raised its benchmark rate another 25 basis points, bringing the federal funds target range"
-      }
-     ]
-    },
-    "regulation": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Sigma Lithium jumps after Brazil court reopens mine",
-       "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
-       "source": "The Northern Miner",
-       "published": "2026-10-07T15:33:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Sigma Lithium (Nasdaq, TSXV: SGML; ASX: SAU) shares rose as much as 6.7% in New York on Wednesday after a Brazilian appeals court upheld its environmental licences, clearing the company... The post Sigma Lithium jumps after Brazil court reopens mine appeared first on The Northern"
-      }
-     ]
-    },
-    "nonprofits": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Philanthropic fund launched to prevent Amazon rainforest wildfires",
-       "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
-       "source": "Alliance magazine",
-       "published": "2026-10-07T08:00:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Alliance magazine",
-         "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A new philanthropic fund has been launched aimed at preventing and detecting Amazon rainforest wildfires. The South America Wildfire Fund, launched during Climate Week in New York City, received support from the US-based Gordon and … The post Philanthropic fund launched to preven"
-      }
-     ]
-    }
-   }
-  },
-  "us-city-new-york": {
-   "label": "New York",
-   "level": "city",
-   "sources": {
-    "econpolicy": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
-       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-       "source": "The Loadstar",
-       "published": "2026-10-07T12:40:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Loadstar",
-         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
-      },
-      {
-       "title": "The Interest Rate Hike Shifts the Calculus on New York City Multifamily Investing",
-       "url": "https://commercialobserver.com/2026/10/interest-rate-hike-new-york-city-multifamily-investing/",
-       "source": "Commercial Observer",
-       "published": "2026-10-07T17:03:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Commercial Observer",
-         "url": "https://commercialobserver.com/2026/10/interest-rate-hike-new-york-city-multifamily-investing/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "For the last two years, commercial real estate investors and operators have been waiting for one thing: lower interest rates. They may need to stop waiting. The Federal Reserve in September raised its benchmark rate another 25 basis points, bringing the federal funds target range"
-      }
-     ]
-    },
-    "regulation": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Sigma Lithium jumps after Brazil court reopens mine",
-       "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
-       "source": "The Northern Miner",
-       "published": "2026-10-07T15:33:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Sigma Lithium (Nasdaq, TSXV: SGML; ASX: SAU) shares rose as much as 6.7% in New York on Wednesday after a Brazilian appeals court upheld its environmental licences, clearing the company... The post Sigma Lithium jumps after Brazil court reopens mine appeared first on The Northern"
-      }
-     ]
-    },
-    "nonprofits": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Philanthropic fund launched to prevent Amazon rainforest wildfires",
-       "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
-       "source": "Alliance magazine",
-       "published": "2026-10-07T08:00:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Alliance magazine",
-         "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A new philanthropic fund has been launched aimed at preventing and detecting Amazon rainforest wildfires. The South America Wildfire Fund, launched during Climate Week in New York City, received support from the US-based Gordon and … The post Philanthropic fund launched to preven"
-      }
-     ]
-    }
-   }
-  },
   "ir": {
    "label": "Iran",
    "level": "country",
@@ -5601,6 +5499,23 @@
        "blurb": "The UK should keep a diplomatic presence in Jerusalem at all costs to prevent Israeli claims to the disputed city, a former British diplomat has said. Sir Vincent Fean, who served as British Consul General in Jerusalem , said the UK’s historic presence in Jerusalem was critical t"
       },
       {
+       "title": "Colombian embassy to open in Jerusalem, Israeli FM says",
+       "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-08T18:07:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Colombian President Abelardo De la Espriella had promised closer ties with Israel on the campaign trail."
+      },
+      {
        "title": "Updated: Israeli wind developer on UN’s illegal settlements blacklist",
        "url": "https://www.windpowermonthly.com/article/1971213/updated-israeli-wind-developer-uns-illegal-settlements-blacklist",
        "source": "Windpower Monthly",
@@ -5821,6 +5736,23 @@
        "stages": [],
        "via": null,
        "blurb": "The UK should keep a diplomatic presence in Jerusalem at all costs to prevent Israeli claims to the disputed city, a former British diplomat has said. Sir Vincent Fean, who served as British Consul General in Jerusalem , said the UK’s historic presence in Jerusalem was critical t"
+      },
+      {
+       "title": "Colombian embassy to open in Jerusalem, Israeli FM says",
+       "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-08T18:07:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Colombian President Abelardo De la Espriella had promised closer ties with Israel on the campaign trail."
       }
      ]
     }
@@ -5854,6 +5786,23 @@
        "stages": [],
        "via": null,
        "blurb": "The UK should keep a diplomatic presence in Jerusalem at all costs to prevent Israeli claims to the disputed city, a former British diplomat has said. Sir Vincent Fean, who served as British Consul General in Jerusalem , said the UK’s historic presence in Jerusalem was critical t"
+      },
+      {
+       "title": "Colombian embassy to open in Jerusalem, Israeli FM says",
+       "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-08T18:07:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Colombian President Abelardo De la Espriella had promised closer ties with Israel on the campaign trail."
       }
      ]
     }
@@ -6041,6 +5990,11 @@
        "verification": "multiple",
        "outlets": [
         {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/canadas-future-will-be-decided-by-canadians-carney-says-after-elon-musk-pushes-quebec-separatism/",
+         "primary": false
+        },
+        {
          "name": "The Hindu Business",
          "url": "https://www.thehindu.com/business/Industry/dot-refutes-bias-in-starlink-authorisation-says-all-licensees-approvals-pending/article71560045.ece",
          "primary": false
@@ -6120,51 +6074,6 @@
     }
    }
   },
-  "lt": {
-   "label": "Lithuania",
-   "level": "country",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Lithuania calls for EU sanctions against Russian grain",
-       "url": "https://kyivindependent.com/lithuania-calls-for-eu-sanctions-against-russian-grain/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T08:18:32.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/lithuania-calls-for-eu-sanctions-against-russian-grain/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Russia being able to trade grain while it blockades Ukraine from doing likewise \"is an unacceptable situation,\" said Lithuanian Prime Minister Mindaugas Sinkevicius."
-      },
-      {
-       "title": "The deterrence gap: How can NATO protect its front line from Russia?",
-       "url": "https://www.atlanticcouncil.org/content-series/russia-tomorrow/the-deterrence-gap-how-can-nato-protect-its-front-line-from-russia/",
-       "source": "Atlantic Council",
-       "published": "2026-10-07T13:00:00.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Atlantic Council",
-         "url": "https://www.atlanticcouncil.org/content-series/russia-tomorrow/the-deterrence-gap-how-can-nato-protect-its-front-line-from-russia/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The latest report in the Atlantic Council’s Russia Tomorrow series assesses Russia’s threats to NATO’s eastern flank and evaluates the responses of Estonia, Latvia, Lithuania, Poland, and Romania. The post The deterrence gap: How can NATO protect its front line from Russia? appea"
-      }
-     ]
-    }
-   }
-  },
   "sg": {
    "label": "Singapore",
    "level": "country",
@@ -6188,6 +6097,150 @@
        "stages": [],
        "via": null,
        "blurb": "Failures of third-party services no excuse for island nation’s financial sector"
+      }
+     ]
+    }
+   }
+  },
+  "us-ny": {
+   "label": "New York",
+   "level": "admin1",
+   "sources": {
+    "econpolicy": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
+       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
+       "source": "The Loadstar",
+       "published": "2026-10-07T12:40:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Loadstar",
+         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
+      }
+     ]
+    },
+    "regulation": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Sigma Lithium jumps after Brazil court reopens mine",
+       "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
+       "source": "The Northern Miner",
+       "published": "2026-10-07T15:33:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Sigma Lithium (Nasdaq, TSXV: SGML; ASX: SAU) shares rose as much as 6.7% in New York on Wednesday after a Brazilian appeals court upheld its environmental licences, clearing the company... The post Sigma Lithium jumps after Brazil court reopens mine appeared first on The Northern"
+      }
+     ]
+    },
+    "nonprofits": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Philanthropic fund launched to prevent Amazon rainforest wildfires",
+       "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
+       "source": "Alliance magazine",
+       "published": "2026-10-07T08:00:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Alliance magazine",
+         "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A new philanthropic fund has been launched aimed at preventing and detecting Amazon rainforest wildfires. The South America Wildfire Fund, launched during Climate Week in New York City, received support from the US-based Gordon and … The post Philanthropic fund launched to preven"
+      }
+     ]
+    }
+   }
+  },
+  "us-city-new-york": {
+   "label": "New York",
+   "level": "city",
+   "sources": {
+    "econpolicy": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
+       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
+       "source": "The Loadstar",
+       "published": "2026-10-07T12:40:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Loadstar",
+         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
+      }
+     ]
+    },
+    "regulation": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Sigma Lithium jumps after Brazil court reopens mine",
+       "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
+       "source": "The Northern Miner",
+       "published": "2026-10-07T15:33:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Sigma Lithium (Nasdaq, TSXV: SGML; ASX: SAU) shares rose as much as 6.7% in New York on Wednesday after a Brazilian appeals court upheld its environmental licences, clearing the company... The post Sigma Lithium jumps after Brazil court reopens mine appeared first on The Northern"
+      }
+     ]
+    },
+    "nonprofits": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Philanthropic fund launched to prevent Amazon rainforest wildfires",
+       "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
+       "source": "Alliance magazine",
+       "published": "2026-10-07T08:00:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Alliance magazine",
+         "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A new philanthropic fund has been launched aimed at preventing and detecting Amazon rainforest wildfires. The South America Wildfire Fund, launched during Climate Week in New York City, received support from the US-based Gordon and … The post Philanthropic fund launched to preven"
       }
      ]
     }
@@ -6251,23 +6304,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Nigeria: EU Tasks Sokoto Assembly On Budget Oversight, Digital Parliament",
-       "url": "https://allafrica.com/stories/202610080121.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T07:39:43.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080121.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Vanguard] The European Union, EU, has urged the Sokoto State House of Assembly to strengthen its oversight of public spending, improve legislative capacity and ensure that approved budgets translate into measurable improvements in the lives of citizens, particularly vulnerable g"
-      },
-      {
        "title": "Ethiopia: Nigeria, Ethiopia Move to Deepen Ties in Trade, Agriculture, Security",
        "url": "https://allafrica.com/stories/202610080122.html",
        "source": "AllAfrica Business",
@@ -6307,23 +6343,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Nigeria: EU Tasks Sokoto Assembly On Budget Oversight, Digital Parliament",
-       "url": "https://allafrica.com/stories/202610080121.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T07:39:43.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080121.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Vanguard] The European Union, EU, has urged the Sokoto State House of Assembly to strengthen its oversight of public spending, improve legislative capacity and ensure that approved budgets translate into measurable improvements in the lives of citizens, particularly vulnerable g"
-      },
-      {
        "title": "Campaign council defends Obi over fuel subsidy U-turn",
        "url": "https://www.premiumtimesng.com/news/top-news/915482-campaign-council-defends-obi-over-fuel-subsidy-u-turn.html",
        "source": "Premium Times (Nigeria)",
@@ -6361,6 +6380,23 @@
        "stages": [],
        "via": null,
        "blurb": "[Premium Times] Federal panel investigating the deaths of 37 persons in NSCDC custody says institutional gaps, overzealousness, and inadequate training may have contributed to the incident."
+      },
+      {
+       "title": "Military Plane Crash: Air Chief sets up probe panel, assures adequate support for bereaved families",
+       "url": "https://www.premiumtimesng.com/regional/ssouth-west/915520-military-plane-crash-air-chief-sets-up-probe-panel-assures-adequate-support-for-bereaved-families.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-08T17:59:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/regional/ssouth-west/915520-military-plane-crash-air-chief-sets-up-probe-panel-assures-adequate-support-for-bereaved-families.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The air chief said he knew everyone on the ill-fated plane, having flown it alongside his family in the past. The post Military Plane Crash: Air Chief sets up probe panel, assures adequate support for bereaved families appeared first on Premium Times Nigeria ."
       },
       {
        "title": "Nigeria: NAF Plane Crash - Huriwa Dismisses Presidential Investigation",
@@ -6455,138 +6491,10 @@
     }
    }
   },
-  "us-ma": {
-   "label": "Massachusetts",
-   "level": "admin1",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "The complete Side Events lineup at Founder Summit 2026",
-       "url": "https://techcrunch.com/2026/10/08/the-complete-side-events-lineup-at-founder-summit-2026/",
-       "source": "TechCrunch",
-       "published": "2026-10-08T14:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/08/the-complete-side-events-lineup-at-founder-summit-2026/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Boston, are you ready?! TechCrunch Founder Summit 2026 is about to explode with energy — and the real magic kicks off with an epic lineup of Side Events lighting up the city from November 3–6!"
-      }
-     ]
-    }
-   }
-  },
-  "us-city-boston": {
-   "label": "Boston",
-   "level": "city",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "The complete Side Events lineup at Founder Summit 2026",
-       "url": "https://techcrunch.com/2026/10/08/the-complete-side-events-lineup-at-founder-summit-2026/",
-       "source": "TechCrunch",
-       "published": "2026-10-08T14:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/08/the-complete-side-events-lineup-at-founder-summit-2026/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Boston, are you ready?! TechCrunch Founder Summit 2026 is about to explode with energy — and the real magic kicks off with an epic lineup of Side Events lighting up the city from November 3–6!"
-      }
-     ]
-    }
-   }
-  },
-  "sa": {
-   "label": "Saudi Arabia",
-   "level": "country",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Saudi-led coalition says it intercepts three Houthi ballistic missiles",
-       "url": "https://www.aljazeera.com/news/2026/10/8/saudi-led-coalition-says-it-intercepts-three-houthi-ballistic-missiles?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-08T14:43:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/8/saudi-led-coalition-says-it-intercepts-three-houthi-ballistic-missiles?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Saudi Arabia says two of the missiles intercepted were headed towards the capital, Riyadh."
-      }
-     ]
-    },
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "EU and GCC to strengthen relations at leaders' summit in Riyadh",
-       "url": "https://www.thenationalnews.com/news/europe/2026/10/08/eu-and-gcc-to-strengthen-relations-at-leaders-summit-in-riyadh/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T13:23:36.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/europe/2026/10/08/eu-and-gcc-to-strengthen-relations-at-leaders-summit-in-riyadh/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The European Union hopes to deepen security and energy relations with Gulf countries at the second leaders' summit in Riyadh next month. Since the start of the Iran war on February 28, Europe has cast itself as a solid ally to the Gulf , despite being unable to match superior US "
-      }
-     ]
-    }
-   }
-  },
   "sa-ri": {
    "label": "Ar Riyad",
    "level": "admin1",
    "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Saudi-led coalition says it intercepts three Houthi ballistic missiles",
-       "url": "https://www.aljazeera.com/news/2026/10/8/saudi-led-coalition-says-it-intercepts-three-houthi-ballistic-missiles?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-08T14:43:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/8/saudi-led-coalition-says-it-intercepts-three-houthi-ballistic-missiles?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Saudi Arabia says two of the missiles intercepted were headed towards the capital, Riyadh."
-      }
-     ]
-    },
     "international": {
      "brief": "missing",
      "candidates": [
@@ -6615,28 +6523,6 @@
    "label": "Riyadh",
    "level": "city",
    "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Saudi-led coalition says it intercepts three Houthi ballistic missiles",
-       "url": "https://www.aljazeera.com/news/2026/10/8/saudi-led-coalition-says-it-intercepts-three-houthi-ballistic-missiles?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-08T14:43:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/8/saudi-led-coalition-says-it-intercepts-three-houthi-ballistic-missiles?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Saudi Arabia says two of the missiles intercepted were headed towards the capital, Riyadh."
-      }
-     ]
-    },
     "international": {
      "brief": "missing",
      "candidates": [
@@ -6991,6 +6877,34 @@
     }
    }
   },
+  "zm": {
+   "label": "Zambia",
+   "level": "country",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Parliament expansion preps advance",
+       "url": "https://www.lusakatimes.com/2026/10/08/parliament-expansion-preps-advance/",
+       "source": "Lusaka Times",
+       "published": "2026-10-08T18:31:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/08/parliament-expansion-preps-advance/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The National Assembly of Zambia is undergoing major rehabilitation and expansion works to accommodate the increased number of Members of Parliament (MPs) and ensure that the members operate in a conducive environment. Clerk of the National Assembly Loveness Mayaka says the works "
+      }
+     ]
+    }
+   }
+  },
   "es": {
    "label": "Spain",
    "level": "country",
@@ -7014,51 +6928,6 @@
        "stages": [],
        "via": null,
        "blurb": ""
-      }
-     ]
-    }
-   }
-  },
-  "zm": {
-   "label": "Zambia",
-   "level": "country",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Siame calls for nullification of Mwenzo MP’s election",
-       "url": "https://www.lusakatimes.com/2026/10/08/siame-calls-for-nullification-of-mwenzo-mps-election/",
-       "source": "Lusaka Times",
-       "published": "2026-10-08T13:16:22.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/08/siame-calls-for-nullification-of-mwenzo-mps-election/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Losing United Party for National Development (UPND) Mwenzo Candidate in Nakonde District, Musingwa Siame has asked the Chinsali High Court to nullify the election of Lucas Simumba as Mwenzo Member of Parliament. Mr Siame is alleging widespread corruption, electoral malpractice an"
-      },
-      {
-       "title": "Banda gets UPND ticket for Mandevu by-election",
-       "url": "https://www.lusakatimes.com/2026/10/08/banda-gets-upnd-ticket-for-mandevu-by-election/",
-       "source": "Lusaka Times",
-       "published": "2026-10-08T07:37:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/08/banda-gets-upnd-ticket-for-mandevu-by-election/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The United Party for National Development (UPND) has adopted former independent parliamentary candidate Adrian Banda to contest the Mandevu Constituency by-election scheduled for November 5. UPND National Chairperson for Elections Likando Mufalila announced Banda’s adoption yeste"
       }
      ]
     }
@@ -7394,106 +7263,6 @@
     }
    }
   },
-  "ng-so": {
-   "label": "Sokoto",
-   "level": "admin1",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Nigeria: EU Tasks Sokoto Assembly On Budget Oversight, Digital Parliament",
-       "url": "https://allafrica.com/stories/202610080121.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T07:39:43.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080121.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Vanguard] The European Union, EU, has urged the Sokoto State House of Assembly to strengthen its oversight of public spending, improve legislative capacity and ensure that approved budgets translate into measurable improvements in the lives of citizens, particularly vulnerable g"
-      }
-     ]
-    },
-    "econpolicy": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Nigeria: EU Tasks Sokoto Assembly On Budget Oversight, Digital Parliament",
-       "url": "https://allafrica.com/stories/202610080121.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T07:39:43.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080121.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Vanguard] The European Union, EU, has urged the Sokoto State House of Assembly to strengthen its oversight of public spending, improve legislative capacity and ensure that approved budgets translate into measurable improvements in the lives of citizens, particularly vulnerable g"
-      }
-     ]
-    }
-   }
-  },
-  "ng-city-sokoto": {
-   "label": "Sokoto",
-   "level": "city",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Nigeria: EU Tasks Sokoto Assembly On Budget Oversight, Digital Parliament",
-       "url": "https://allafrica.com/stories/202610080121.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T07:39:43.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080121.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Vanguard] The European Union, EU, has urged the Sokoto State House of Assembly to strengthen its oversight of public spending, improve legislative capacity and ensure that approved budgets translate into measurable improvements in the lives of citizens, particularly vulnerable g"
-      }
-     ]
-    },
-    "econpolicy": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Nigeria: EU Tasks Sokoto Assembly On Budget Oversight, Digital Parliament",
-       "url": "https://allafrica.com/stories/202610080121.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T07:39:43.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080121.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Vanguard] The European Union, EU, has urged the Sokoto State House of Assembly to strengthen its oversight of public spending, improve legislative capacity and ensure that approved budgets translate into measurable improvements in the lives of citizens, particularly vulnerable g"
-      }
-     ]
-    }
-   }
-  },
   "ee": {
    "label": "Estonia",
    "level": "country",
@@ -7524,6 +7293,34 @@
   },
   "lv": {
    "label": "Latvia",
+   "level": "country",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "The deterrence gap: How can NATO protect its front line from Russia?",
+       "url": "https://www.atlanticcouncil.org/content-series/russia-tomorrow/the-deterrence-gap-how-can-nato-protect-its-front-line-from-russia/",
+       "source": "Atlantic Council",
+       "published": "2026-10-07T13:00:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Atlantic Council",
+         "url": "https://www.atlanticcouncil.org/content-series/russia-tomorrow/the-deterrence-gap-how-can-nato-protect-its-front-line-from-russia/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The latest report in the Atlantic Council’s Russia Tomorrow series assesses Russia’s threats to NATO’s eastern flank and evaluates the responses of Estonia, Latvia, Lithuania, Poland, and Romania. The post The deterrence gap: How can NATO protect its front line from Russia? appea"
+      }
+     ]
+    }
+   }
+  },
+  "lt": {
+   "label": "Lithuania",
    "level": "country",
    "sources": {
     "international": {
@@ -7779,56 +7576,6 @@
     }
    }
   },
-  "ae": {
-   "label": "United Arab Emirates",
-   "level": "country",
-   "sources": {
-    "econpolicy": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Dubai’s Luxury Hotels Add Perks to Avoid Rate Cuts",
-       "url": "https://skift.com/2026/10/08/dubais-luxury-hotels-add-perks-to-avoid-rate-cuts/",
-       "source": "Skift",
-       "published": "2026-10-08T10:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Skift",
-         "url": "https://skift.com/2026/10/08/dubais-luxury-hotels-add-perks-to-avoid-rate-cuts/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Dubai’s luxury hotels face a choice between protecting rates and filling rooms. Value-adds let them do some of both. The question is how long their 2025 buffers will last."
-      }
-     ]
-    },
-    "regulation": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "UAE completes Arab world's first solo space probe – and sets course for an asteroid",
-       "url": "https://www.nature.com/articles/d41586-026-03154-4",
-       "source": "Nature",
-       "published": "2026-10-08T00:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Nature",
-         "url": "https://www.nature.com/articles/d41586-026-03154-4",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Nature, Published online: 08 October 2026; doi:10.1038/d41586-026-03154-4 The device will be launched on a joint UAE-US-built craft. Some researchers say it could be the last mission constructed with outside help."
-      }
-     ]
-    }
-   }
-  },
   "cn-sh": {
    "label": "Shanghai",
    "level": "admin1",
@@ -7964,6 +7711,90 @@
        "stages": [],
        "via": null,
        "blurb": "A candidate for Germany's AfD was elected parliament speaker in the state of Saxony Anhalt Tuesday, the first time a far-right party has held such a post in the country since 1945."
+      }
+     ]
+    }
+   }
+  },
+  "us-fl": {
+   "label": "Florida",
+   "level": "admin1",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Open letter to the US administration: The G20 invitation to Putin should come with conditions",
+       "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-08T18:15:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Trump administration recently announced that it has invited Russian President Vladimir Putin to December's G20 summit in Miami. This invitation erodes the well-deserved isolation of Putin for his brutal and unprovoked invasion of Ukraine . Putin last appeared on U.S. soil for"
+      }
+     ]
+    }
+   }
+  },
+  "us-city-miami": {
+   "label": "Miami",
+   "level": "city",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Open letter to the US administration: The G20 invitation to Putin should come with conditions",
+       "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-08T18:15:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Trump administration recently announced that it has invited Russian President Vladimir Putin to December's G20 summit in Miami. This invitation erodes the well-deserved isolation of Putin for his brutal and unprovoked invasion of Ukraine . Putin last appeared on U.S. soil for"
+      }
+     ]
+    }
+   }
+  },
+  "co": {
+   "label": "Colombia",
+   "level": "country",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Colombian embassy to open in Jerusalem, Israeli FM says",
+       "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-08T18:07:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Colombian President Abelardo De la Espriella had promised closer ties with Israel on the campaign trail."
       }
      ]
     }
@@ -8176,90 +8007,6 @@
        "stages": [],
        "via": null,
        "blurb": "In August I travelled to Addis Ababa for the US-Africa Futures Summit, organised by Humanity United, the Open Society Foundations and the Institute for Security Studies (ISS). It was my first time at this summit, … The post What and whose ‘futures’? appeared first on Alliance mag"
-      }
-     ]
-    }
-   }
-  },
-  "lb": {
-   "label": "Lebanon",
-   "level": "country",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "EU to establish training and support mission for Lebanese army",
-       "url": "https://www.thenationalnews.com/news/mena/2026/10/08/eu-to-establish-training-and-support-mission-for-lebanese-army/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T12:22:13.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/mena/2026/10/08/eu-to-establish-training-and-support-mission-for-lebanese-army/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The European Union will establish a mission to support and train the underfunded Lebanese Armed Forces , the bloc's foreign affairs chief said on Thursday. Kaja Kallas, who was visiting Beirut, said the mission was not a replacement for the UN's peacekeeping mission in south Leba"
-      }
-     ]
-    }
-   }
-  },
-  "lb-ba": {
-   "label": "Beirut",
-   "level": "admin1",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "EU to establish training and support mission for Lebanese army",
-       "url": "https://www.thenationalnews.com/news/mena/2026/10/08/eu-to-establish-training-and-support-mission-for-lebanese-army/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T12:22:13.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/mena/2026/10/08/eu-to-establish-training-and-support-mission-for-lebanese-army/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The European Union will establish a mission to support and train the underfunded Lebanese Armed Forces , the bloc's foreign affairs chief said on Thursday. Kaja Kallas, who was visiting Beirut, said the mission was not a replacement for the UN's peacekeeping mission in south Leba"
-      }
-     ]
-    }
-   }
-  },
-  "lb-city-beirut": {
-   "label": "Beirut",
-   "level": "city",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "EU to establish training and support mission for Lebanese army",
-       "url": "https://www.thenationalnews.com/news/mena/2026/10/08/eu-to-establish-training-and-support-mission-for-lebanese-army/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T12:22:13.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/mena/2026/10/08/eu-to-establish-training-and-support-mission-for-lebanese-army/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The European Union will establish a mission to support and train the underfunded Lebanese Armed Forces , the bloc's foreign affairs chief said on Thursday. Kaja Kallas, who was visiting Beirut, said the mission was not a replacement for the UN's peacekeeping mission in south Leba"
       }
      ]
     }

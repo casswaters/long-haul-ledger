@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T17:52:28.113Z",
+ "generatedAt": "2026-10-08T18:41:43.577Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -10,6 +10,26 @@
     "nuclear": {
      "brief": "ready",
      "candidates": [
+      {
+       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
+       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+       "source": "NASA News",
+       "published": "2026-10-08T15:46:25.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+         "primary": true
+        }
+       ],
+       "stages": [
+        "extraction",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
+      },
       {
        "title": "Rising together: Collaborative project delivery for the nuclear fleet",
        "url": "https://www.ans.org/news/2026-10-08/article-8405/rising-together-collaborative-project-delivery-for-the-nuclear-fleet/",
@@ -51,25 +71,6 @@
        "blurb": "Tam Pledger speaks with Rosa Rotko of Mott MacDonald on critical grid connection delays impacting UK energy projects"
       },
       {
-       "title": "Poland begins ordering long-lead components for first AP1000",
-       "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
-       "source": "World Nuclear News",
-       "published": "2026-10-08T16:16:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Polskie Elektrownie Jądrowe has commissioned Westinghouse to begin ordering long-lead items for the first unit of Poland's planned first nuclear power plant, which will comprise three AP1000 reactors."
-      },
-      {
        "title": "BWXT’s BANR selected for Canadian project",
        "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
        "source": "ANS Nuclear Newswire",
@@ -93,6 +94,25 @@
        ],
        "via": null,
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+      },
+      {
+       "title": "Poland begins ordering long-lead components for first AP1000",
+       "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
+       "source": "World Nuclear News",
+       "published": "2026-10-08T16:16:41.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Polskie Elektrownie Jądrowe has commissioned Westinghouse to begin ordering long-lead items for the first unit of Poland's planned first nuclear power plant, which will comprise three AP1000 reactors."
       },
       {
        "title": "China's Tianwan 7 connected to the grid",
@@ -243,23 +263,6 @@
        ],
        "via": null,
        "blurb": "This week, the Department of Energy’s Gateway for Accelerated Innovation in Nuclear (GAIN) announced three fourth-round fiscal year 2026 vouchers to support the development of innovative nuclear technologies. Each company will get access to specific capabilities and expertise in "
-      },
-      {
-       "title": "Eliminating Heat Risks in Nuclear Cleanup: A DOE Contractor’s High-Tech Blueprint",
-       "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-07T14:00:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "For organizations like the Savannah River Mission Completion (SRMC), a liquid waste contractor for the U.S. Department of Energy (DOE) Office of Environmental Management at the Savannah River Site (SRS) in Aiken, South Carolina, the summer season poses significant challenges for "
       }
      ]
     },
@@ -331,28 +334,6 @@
        "blurb": "Market volatility increased as geopolitical tensions in the Middle East and hurricane preparations in the US Gulf led to production cuts and shipping disruptions, pushing Brent and WTI crude prices higher."
       },
       {
-       "title": "UK ramps up sanctions against Russian shadow fleet, crypto industry, big oil",
-       "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T11:21:10.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The U.K., the EU, and Ukraine have all targeted crypto schemes in recent sanctions packages as Russia uses the technology to evade existing sanctions."
-      },
-      {
        "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
        "source": "Argus Media",
@@ -411,31 +392,21 @@
        "blurb": "Jumping oil prices are sending bond yields higher and stocks lower on Wall Street, as the price for a barrel of Brent climbs back toward US$105."
       },
       {
-       "title": "UK motorists can now see live fuel prices on Google Maps",
-       "url": "https://www.theguardian.com/money/2026/oct/08/uk-drivers-live-petrol-diesel-prices-google-maps-pump-pricing",
-       "source": "The Guardian Business",
-       "published": "2026-10-08T05:00:11.000Z",
-       "verification": "multiple",
+       "title": "Govt raises petrol price by Rs2.31 per litre, high-speed diesel rate by Re0.78 per litre",
+       "url": "https://www.dawn.com/news/2035716/govt-raises-petrol-price-by-rs231-per-litre-high-speed-diesel-rate-by-re078-per-litre",
+       "source": "Dawn Business",
+       "published": "2026-10-08T18:01:35.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/ckx2d4ddjn2eo?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/money/2026/oct/08/uk-drivers-live-petrol-diesel-prices-google-maps-pump-pricing",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/economy/fuel-prices-displayed-on-google-maps-for-1st-time-amid-rising-energy-costs-in-uk/4081974",
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035716/govt-raises-petrol-price-by-rs231-per-litre-high-speed-diesel-rate-by-re078-per-litre",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Move expected to make pump pricing more transparent and encourage competition after diesel hits record £2 a litre Drivers will be able to see live petrol prices on Google Maps for the first time from Thursday, in a move that will help motorists shop around for the cheapest fuel. "
+       "blurb": "body{margin:0;padding:0;font-family:system-ui,-apple-system,sans-serif;overflow-wrap:anywhere;} Pakistan fuel prices, 2026 Official ex-depot prices (PKR/litre) — OGRA & Ministry of Energy notifications Petrol (MS-92) Diesel (HSD) Pre-crisis baseline Source: OGRA / Ministry of Ene"
       },
       {
        "title": "Asia races to stockpile oil, speed up renewables in response to Iran war",
@@ -474,6 +445,26 @@
        "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
       },
       {
+       "title": "Rompetrol targets 2028 startup for two refinery solar projects",
+       "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:53:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
+      },
+      {
        "title": "Oil prices soar after explosions in Saudi capital",
        "url": "https://www.ttnews.com/articles/oil-prices-explosions-saudi",
        "source": "Transport Topics",
@@ -489,25 +480,6 @@
        "stages": [],
        "via": null,
        "blurb": "Brent crude, the international standard, jumped 5.3% to $105.54 per barrel early. Several explosions were heard in the Saudi capital on Oct. 8."
-      },
-      {
-       "title": "Russian oil refinery in Salavat hit by Ukraine, General Staff confirms",
-       "url": "https://kyivindependent.com/oil-refinery-in-russias-salavat-reportedly-burning-after-attack/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T07:57:08.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/oil-refinery-in-russias-salavat-reportedly-burning-after-attack/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "The Gazprom Neftekhim Salavat facility is one of Russia’s largest oil refining and petrochemical plants, located some 1,300 kilometers (800 miles) from the front line in Ukraine."
       },
       {
        "title": "EIA Boosts Oil Price Forecast by $5 in 2026, $10 in 2027",
@@ -542,6 +514,23 @@
        "stages": [],
        "via": null,
        "blurb": "Indian refiners have cut back Russian crude purchases for November delivery."
+      },
+      {
+       "title": "EIA raises Brent forecast to $105 a barrel for Q4 2026; gas-heated homes to spend less this winter",
+       "url": "https://www.eia.gov/outlooks/steo/",
+       "source": "US Energy Information Administration",
+       "published": "2026-10-06T16:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "EIA Short-Term Energy Outlook (Oct. 6, 2026)",
+         "url": "https://www.eia.gov/outlooks/steo/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
       }
      ]
     },
@@ -1294,6 +1283,26 @@
        "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
       },
       {
+       "title": "Rompetrol targets 2028 startup for two refinery solar projects",
+       "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:53:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
+      },
+      {
        "title": "EU expert group urges curbs on high-risk solar suppliers",
        "url": "https://www.pv-magazine.com/2026/10/08/eu-expert-group-urges-curbs-on-high-risk-solar-suppliers/",
        "source": "pv magazine",
@@ -1447,23 +1456,6 @@
        ],
        "via": null,
        "blurb": "Syntropia has developed a 535 W hybrid photovoltaic-thermal module that combines electricity generation with heat recovery, achieving a combined energy conversion efficiency of 66.8% in recent tests. The company is also developing an integrated energy system combining PVT modules"
-      },
-      {
-       "title": "EU solar workforce expected to fall 12% by 2030 as deployment growth stalls",
-       "url": "https://www.pv-tech.org/eu-solar-workforce-expected-to-fall-12-by-2030-as-deployment-growth-stalls/",
-       "source": "PV Tech",
-       "published": "2026-10-08T10:04:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/eu-solar-workforce-expected-to-fall-12-by-2030-as-deployment-growth-stalls/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "SolarPower Europe expects the EU solar workforce to fall 12% by 2030 as deployment growth stalls, according to a new report."
       }
      ]
     },
@@ -2174,6 +2166,26 @@
     "nuclear": {
      "brief": "ready",
      "candidates": [
+      {
+       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
+       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+       "source": "NASA News",
+       "published": "2026-10-08T15:46:25.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+         "primary": true
+        }
+       ],
+       "stages": [
+        "extraction",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
+      },
       {
        "title": "Vistra gets $4.2B DOE loan for planned uprates in Ohio, Pennsylvania",
        "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
@@ -3403,25 +3415,6 @@
        "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
       },
       {
-       "title": "NextEra halts Long Island BESS operations over drinking water contamination concerns",
-       "url": "https://www.energy-storage.news/nextera-halts-long-island-bess-operations-over-drinking-water-contamination-concerns/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-07T13:12:30.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/nextera-halts-long-island-bess-operations-over-drinking-water-contamination-concerns/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "US energy holding company and project developer-owner NextEra Energy has suspended operations at two energy storage facilities in Long Island, New York, US."
-      },
-      {
        "title": "Fit Energy Will Use Gas-Powered Fuel Cells For Pennsylvania Data Center Project",
        "url": "https://www.powermag.com/fit-energy-will-use-gas-powered-fuel-cells-for-pennsylvania-data-center-project/",
        "source": "POWER Magazine",
@@ -3439,6 +3432,25 @@
        ],
        "via": null,
        "blurb": "Fit Energy, a developer of energy solutions for data center projects, has announced plans for a fuel cell power generation and data center project in Newport Township, Luzerne County, Pennsylvania. The project received township zoning approval for both uses in August of this year"
+      },
+      {
+       "title": "NextEra halts Long Island BESS operations over drinking water contamination concerns",
+       "url": "https://www.energy-storage.news/nextera-halts-long-island-bess-operations-over-drinking-water-contamination-concerns/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-07T13:12:30.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/nextera-halts-long-island-bess-operations-over-drinking-water-contamination-concerns/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "US energy holding company and project developer-owner NextEra Energy has suspended operations at two energy storage facilities in Long Island, New York, US."
       },
       {
        "title": "Linea Energy closes financing for 500MWh Texas BESS project",
@@ -4831,23 +4843,6 @@
        "blurb": "Canada’s main stock index was down in late-morning trading despite strength in the energy sector as the price of oil rose to top US$90 per barrel."
       },
       {
-       "title": "How oil-rich Alberta's economy might fare if it broke away from Canada",
-       "url": "https://www.bbc.co.uk/news/articles/cy745jznvxpo?at_medium=RSS&at_campaign=rss",
-       "source": "BBC News Business",
-       "published": "2026-10-07T23:10:13.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cy745jznvxpo?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Albertans vote this month on staying in Canada or moving ahead to a binding independence referendum."
-      },
-      {
        "title": "Pacific Link pipeline to the West Coast officially designated a ‘national interest’ project",
        "url": "https://globalnews.ca/news/12083562/west-coast-pipeline-next-step/",
        "source": "Global News Money (Canada)",
@@ -5031,6 +5026,81 @@
        ],
        "via": null,
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+      }
+     ]
+    }
+   }
+  },
+  "ro": {
+   "label": "Romania",
+   "level": "country",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Rompetrol targets 2028 startup for two refinery solar projects",
+       "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:53:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
+      }
+     ]
+    },
+    "solar": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Rompetrol targets 2028 startup for two refinery solar projects",
+       "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:53:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
+      },
+      {
+       "title": "An energy-first cybersecurity platform for solar, storage and the grid",
+       "url": "https://www.pv-magazine.com/2026/10/08/an-energy-first-cybersecurity-platform-for-solar-storage-and-the-grid/",
+       "source": "pv magazine",
+       "published": "2026-10-08T08:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/an-energy-first-cybersecurity-platform-for-solar-storage-and-the-grid/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Romanian EPC contractor Enevo says the SentryOT platform stands apart from IT-led competitors by translating network threats into terms energy engineers understand. The post An energy-first cybersecurity platform for solar, storage and the grid appeared first on pv magazine Globa"
       }
      ]
     }
@@ -7576,53 +7646,23 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "UK ramps up sanctions against Russian shadow fleet, crypto industry, big oil",
-       "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T11:21:10.000Z",
-       "verification": "multiple",
+       "title": "U.K. Expands Sanctions to Cover 90% of Russian Oil Output, Shadow Fleet and Finance Networks",
+       "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T13:07:40.000Z",
+       "verification": "unconfirmed",
        "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
-         "primary": false
-        },
         {
          "name": "The Moscow Times",
          "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
          "primary": false
         }
        ],
-       "stages": [],
-       "via": null,
-       "blurb": "The U.K., the EU, and Ukraine have all targeted crypto schemes in recent sanctions packages as Russia uses the technology to evade existing sanctions."
-      },
-      {
-       "title": "UK motorists can now see live fuel prices on Google Maps",
-       "url": "https://www.theguardian.com/money/2026/oct/08/uk-drivers-live-petrol-diesel-prices-google-maps-pump-pricing",
-       "source": "The Guardian Business",
-       "published": "2026-10-08T05:00:11.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/ckx2d4ddjn2eo?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/money/2026/oct/08/uk-drivers-live-petrol-diesel-prices-google-maps-pump-pricing",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/economy/fuel-prices-displayed-on-google-maps-for-1st-time-amid-rising-energy-costs-in-uk/4081974",
-         "primary": false
-        }
+       "stages": [
+        "extraction"
        ],
-       "stages": [],
        "via": null,
-       "blurb": "Move expected to make pump pricing more transparent and encourage competition after diesel hits record £2 a litre Drivers will be able to see live petrol prices on Google Maps for the first time from Thursday, in a move that will help motorists shop around for the cheapest fuel. "
+       "blurb": "The sanctions come on the heels of the EU approving another sanctions package Wednesday."
       },
       {
        "title": "How a multibillion-dollar oilfield has ignited the UK-Argentina feud over the Falklands",
@@ -7872,23 +7912,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "How oil-rich Alberta's economy might fare if it broke away from Canada",
-       "url": "https://www.bbc.co.uk/news/articles/cy745jznvxpo?at_medium=RSS&at_campaign=rss",
-       "source": "BBC News Business",
-       "published": "2026-10-07T23:10:13.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cy745jznvxpo?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Albertans vote this month on staying in Canada or moving ahead to a binding independence referendum."
-      },
-      {
        "title": "Pacific Link pipeline to the West Coast officially designated a ‘national interest’ project",
        "url": "https://globalnews.ca/news/12083562/west-coast-pipeline-next-step/",
        "source": "Global News Money (Canada)",
@@ -8094,28 +8117,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "UK ramps up sanctions against Russian shadow fleet, crypto industry, big oil",
-       "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T11:21:10.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The U.K., the EU, and Ukraine have all targeted crypto schemes in recent sanctions packages as Russia uses the technology to evade existing sanctions."
-      },
-      {
        "title": "Ukraine strikes Russia's Omsk oil refinery in Siberia, General Staff confirms",
        "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
        "source": "The Kyiv Independent",
@@ -8135,25 +8136,6 @@
        "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
       },
       {
-       "title": "Russian oil refinery in Salavat hit by Ukraine, General Staff confirms",
-       "url": "https://kyivindependent.com/oil-refinery-in-russias-salavat-reportedly-burning-after-attack/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T07:57:08.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/oil-refinery-in-russias-salavat-reportedly-burning-after-attack/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "The Gazprom Neftekhim Salavat facility is one of Russia’s largest oil refining and petrochemical plants, located some 1,300 kilometers (800 miles) from the front line in Ukraine."
-      },
-      {
        "title": "India Shuns Costly Russian Oil",
        "url": "https://www.rigzone.com/news/wire/india_shuns_costly_russian_oil-08-oct-2026-184802-article/?rss=true",
        "source": "Rigzone",
@@ -8169,6 +8151,25 @@
        "stages": [],
        "via": null,
        "blurb": "Indian refiners have cut back Russian crude purchases for November delivery."
+      },
+      {
+       "title": "U.K. Expands Sanctions to Cover 90% of Russian Oil Output, Shadow Fleet and Finance Networks",
+       "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T13:07:40.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "via": null,
+       "blurb": "The sanctions come on the heels of the EU approving another sanctions package Wednesday."
       },
       {
        "title": "Sochi Reopens Beaches After Drone Attack on Oil Tanker",
@@ -8368,77 +8369,6 @@
     }
    }
   },
-  "ua": {
-   "label": "Ukraine",
-   "level": "country",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukraine strikes Russia's Omsk oil refinery in Siberia, General Staff confirms",
-       "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T14:25:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
-      },
-      {
-       "title": "UK ramps up sanctions against Russian shadow fleet, crypto industry, big oil",
-       "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T11:21:10.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The U.K., the EU, and Ukraine have all targeted crypto schemes in recent sanctions packages as Russia uses the technology to evade existing sanctions."
-      },
-      {
-       "title": "Russian oil refinery in Salavat hit by Ukraine, General Staff confirms",
-       "url": "https://kyivindependent.com/oil-refinery-in-russias-salavat-reportedly-burning-after-attack/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T07:57:08.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/oil-refinery-in-russias-salavat-reportedly-burning-after-attack/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "The Gazprom Neftekhim Salavat facility is one of Russia’s largest oil refining and petrochemical plants, located some 1,300 kilometers (800 miles) from the front line in Ukraine."
-      }
-     ]
-    }
-   }
-  },
   "no": {
    "label": "Norway",
    "level": "country",
@@ -8493,36 +8423,6 @@
        ],
        "via": null,
        "blurb": "Aker Solutions has won a contract by Hafslund Kraft to upgrade Nes Power Station in Buskerud, Norway, as part of a modernisation programme The post Aker Solutions wins Norway’s Nes hydropower upgrade contract appeared first on International Water Power ."
-      }
-     ]
-    }
-   }
-  },
-  "ro": {
-   "label": "Romania",
-   "level": "country",
-   "sources": {
-    "solar": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "An energy-first cybersecurity platform for solar, storage and the grid",
-       "url": "https://www.pv-magazine.com/2026/10/08/an-energy-first-cybersecurity-platform-for-solar-storage-and-the-grid/",
-       "source": "pv magazine",
-       "published": "2026-10-08T08:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/08/an-energy-first-cybersecurity-platform-for-solar-storage-and-the-grid/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Romanian EPC contractor Enevo says the SentryOT platform stands apart from IT-led competitors by translating network threats into terms energy engineers understand. The post An energy-first cybersecurity platform for solar, storage and the grid appeared first on pv magazine Globa"
       }
      ]
     }
@@ -9356,6 +9256,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Govt raises petrol price by Rs2.31 per litre, high-speed diesel rate by Re0.78 per litre",
+       "url": "https://www.dawn.com/news/2035716/govt-raises-petrol-price-by-rs231-per-litre-high-speed-diesel-rate-by-re078-per-litre",
+       "source": "Dawn Business",
+       "published": "2026-10-08T18:01:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035716/govt-raises-petrol-price-by-rs231-per-litre-high-speed-diesel-rate-by-re078-per-litre",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "body{margin:0;padding:0;font-family:system-ui,-apple-system,sans-serif;overflow-wrap:anywhere;} Pakistan fuel prices, 2026 Official ex-depot prices (PKR/litre) — OGRA & Ministry of Energy notifications Petrol (MS-92) Diesel (HSD) Pre-crisis baseline Source: OGRA / Ministry of Ene"
+      },
+      {
        "title": "Govt raises petrol price by Rs1.82 per litre, reduces high-speed diesel rate by Re0.91",
        "url": "https://www.dawn.com/news/2035445/govt-raises-petrol-price-by-rs182-per-litre-reduces-high-speed-diesel-rate-by-re091",
        "source": "Dawn Business",
@@ -9521,6 +9438,36 @@
        ],
        "via": null,
        "blurb": "An Israeli wind power developer is one of more than 200 companies allegedly contributing to the illegal Israeli occupation of Palestinian land and settlement building in the West Bank, according to the UN Human Rights Council (UNHRC)."
+      }
+     ]
+    }
+   }
+  },
+  "ua": {
+   "label": "Ukraine",
+   "level": "country",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ukraine strikes Russia's Omsk oil refinery in Siberia, General Staff confirms",
+       "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-08T14:25:58.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
       }
      ]
     }
@@ -9837,6 +9784,34 @@
        ],
        "via": null,
        "blurb": "Hydro Tasmania has returned Poatina Power Station in Australia to service following one of its largest planned outages in recent years The post Hydro Tasmania completes first stage of Poatina upgrade appeared first on International Water Power ."
+      }
+     ]
+    }
+   }
+  },
+  "zm": {
+   "label": "Zambia",
+   "level": "country",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Chipata Police nab 16 petrol smuggling suspects",
+       "url": "https://www.lusakatimes.com/2026/10/08/chipata-police-nab-16-petrol-smuggling-suspects/",
+       "source": "Lusaka Times",
+       "published": "2026-10-08T18:16:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/08/chipata-police-nab-16-petrol-smuggling-suspects/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Police in Chipata District have apprehended sixteen suspects cumulatively in three days for illegal possession and suspected smuggling of petrol. The apprehensions were made on 5th, 6th and 7th October, 2026 during separate operations by Chipata Central Police Station and Mwami B"
       }
      ]
     }
