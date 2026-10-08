@@ -8,6 +8,7 @@ import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { dirname, join, resolve as resolvePath } from 'path';
 import { fileURLToPath } from 'url';
 import { placeIndicators, coverageLine } from '../whatchanged.js';
+import { sectorLines, mixFor } from '../sectorstrip.js';
 export { coverageLine };
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -33,6 +34,15 @@ export function buildCoverage({ now = new Date() } = {}) {
     const n = Object.values(f.briefs || {}).reduce((a, place) => a + Object.keys(place || {}).length, 0);
     if (id === 'energy') energySlots = n; else sectorSlots += n;
   }
+  const kindsOf = (blk) => new Set([...(blk?.roles || [])].filter((r) => r.name && !r.notCovered && r.source?.url).map((r) => r.kind));
+  const hasHs = (c) => { const k = kindsOf(lead[c]); return k.has('Head of state') || k.has('Head of state and government'); };
+  const hasHg = (c) => { const k = kindsOf(lead[c]); return k.has('Head of government') || k.has('Head of state and government'); };
+  const sectors = readOr('data/stats/sectors.json', null);
+  const mix = readOr('data/stats/energy-mix.json', null);
+  const tabs = ['materials', 'manufacturing', 'services', 'technology', 'policy'];
+  const nowYear = now.getUTCFullYear();
+  const withSectors = sectors ? countries.filter((c) => tabs.some((t) => sectorLines(t, c, sectors, nowYear).lines.length)).length : 0;
+  const withMix = mix ? countries.filter((c) => mixFor({ level: 'country', country: c }, mix, nowYear).rec).length : 0;
   const withLines = countries.filter((c) => !placeIndicators({ level: 'country', country: c }, stats, now).empty).length;
   const out = {
     version: 1,
@@ -50,6 +60,9 @@ export function buildCoverage({ now = new Date() } = {}) {
     seats: { places: Object.values(seats.places || {}).filter((p) => (p.seats || []).length).length, seats: Object.values(seats.places || {}).reduce((a, p) => a + (p.seats || []).length, 0) },
     news: { countriesWithStories: countries.filter((c) => storyCountries.has(c)).length },
     briefs: { energySlots, sectorSlots },
+    heads: { headOfState: countries.filter(hasHs).length, headOfGovernment: countries.filter(hasHg).length, both: countries.filter((c) => hasHs(c) && hasHg(c)).length },
+    sectors: { countries: withSectors },
+    energyMix: { countries: withMix },
   };
   return out;
 }

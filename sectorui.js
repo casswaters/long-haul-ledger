@@ -156,6 +156,8 @@ function detailHtml(ctx, counts) {
       <div class="sector-overview">
         <h3 class="sector-detail-h">Top ${esc(sector.label.toLowerCase())} stories, ${esc(label)}</h3>
         <p class="section-note">Pick a ${esc(sector.subNoun || 'source')} for its own stories and the Top 4 brief.</p>
+        ${ctx.sectorStrip || ''}
+        ${ctx.energyMix || ''}
         ${ctx.energyPrices || ''}
         <div class="sector-feed">${columnHtml(col, ctx)}</div>
       </div>`;
@@ -250,6 +252,7 @@ export function renderSectorOverlay(ctx) {
           <button type="button" class="btn-primary" data-sclose aria-label="Close ${esc(sector.label)}">Close</button>
         </div>
       </div>
+      ${!state.ssub && (ctx.sectorStrip || ctx.energyMix) ? `<div class="sector-phone-strip">${ctx.sectorStrip || ''}${ctx.energyMix || ''}</div>` : ''}
       <div class="sector-body${state.ssub ? ' has-sub' : ''}">
         <ol class="sector-list" aria-label="${esc(sector.label)} ${esc(sector.subsNoun || 'sources')}">${slots}</ol>
         <section class="sector-detail" id="sector-detail" aria-label="Details">${detailHtml(ctx, counts)}</section>

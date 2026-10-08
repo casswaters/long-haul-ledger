@@ -32,36 +32,26 @@ assert('domain intent noted', META.domainIntent === 'longhaulledger.com');
 assert('sample flag true', META.sample === true);
 assert('index.html exists', existsSync(new URL('./index.html', import.meta.url)));
 assert('world.svg exists', existsSync(new URL('./world.svg', import.meta.url)));
-assert('sw.js cache name long-haul-ledger-v30', /long-haul-ledger-v30'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v(?:[678]|9|19|20|21|22|23|24|25|26|27|28)'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+assert('sw.js cache name long-haul-ledger-v31', /long-haul-ledger-v31'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v(?:[678]|9|19|20|21|22|23|24|25|26|27|28)'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
 assert('BRIEF.md exists', existsSync(new URL('./BRIEF.md', import.meta.url)));
 assert('app has ?fresh=1 bust', /\bfresh\b/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 assert('zoom.js exists', existsSync(new URL('./zoom.js', import.meta.url)));
 assert('chains.js exists', existsSync(new URL('./chains.js', import.meta.url)));
 
-console.log('\n--- Seed countries ---');
-assert('six full desks', FULL.every((id) => COUNTRIES[id]) && fullCountryIds().length === 6, String(fullCountryIds()));
-for (const id of FULL) {
-  const c = COUNTRIES[id];
-  assert(`${id}: name + snapshot`, !!c.name && !!c.snapshot);
-  assert(`${id}: metrics 0–100`, ['stability', 'frontierPressure', 'opportunity'].every((k) => c.metrics[k] >= 0 && c.metrics[k] <= 100));
-  assert(`${id}: 4–6+ headlines`, c.signals.length >= 4 && c.signals.length <= 8, String(c.signals.length));
-  assert(`${id}: industries 4–8`, c.industries.length >= 4 && c.industries.length <= 8, String(c.industries.length));
-  assert(`${id}: regions 2–4`, c.regions.length >= 2 && c.regions.length <= 4, String(c.regions.length));
-  assert(`${id}: ≥2 openings`, c.openings.length >= 2, String(c.openings.length));
-  assert(`${id}: signal weights numeric`, c.signals.every((s) => typeof s.weight === 'number' && s.weight > 0));
-  assert(`${id}: openings have sectors`, c.openings.every((o) => Array.isArray(o.sectors) && o.sectors.length > 0));
-}
+console.log('\n--- Example profiles retired (Phase 1) ---');
+assert('no full example profiles remain', fullCountryIds().length === 0 && Object.keys(COUNTRIES).length === 0);
+for (const id of FULL) assert(`${id}: no example profile (sourced pieces only)`, !COUNTRIES[id] && getCountry(id) === null);
 
 console.log('\n--- Stubs & helpers ---');
 assert('stubs present', Object.keys(STUBS).length >= 8);
-assert('getCountry us full', getCountry('us')?.tier === 'full');
+assert('getCountry us: retired profile returns null', getCountry('us') === null);
 assert('getCountry CN stub case-insensitive', getCountry('CN')?.tier === 'stub');
 assert('getCountry unknown null', getCountry('zz') === null);
 assert('allCountryIds includes full+stubs', allCountryIds().length === fullCountryIds().length + Object.keys(STUBS).length);
 const feed = globalFeed(10);
-assert('globalFeed sorted & capped', feed.length === 10 && feed.every((i) => i.countryId && i.title));
-assert('filterSignals by sector', filterSignals(COUNTRIES.us, { sector: 'energy' }).every((s) => s.sector === 'energy'));
-assert('opportunityNote finds opening', opportunityNote(COUNTRIES.us, 'energy')?.sectors.includes('energy'));
+assert('globalFeed empty once example profiles are retired', feed.length === 0);
+assert('filterSignals tolerates a missing profile', filterSignals(null, { sector: 'energy' }).length === 0);
+assert('opportunityNote tolerates a missing profile', opportunityNote(null, 'energy') === null);
 assert('metricLabel bands', metricLabel(90) === 'high' && metricLabel(40) === 'strained');
 
 console.log('\n--- Nav helpers ---');
@@ -95,22 +85,8 @@ assert('drag threshold', exceededDragThreshold(10, 0) === true && exceededDragTh
 
 console.log('\n--- Value chains & companies ---');
 const coverage = seededChainCoverage();
-assert('all 6 seeds have chains', FULL.every((id) => coverage[id]?.length >= 2), JSON.stringify(coverage));
-for (const id of FULL) {
-  assert(`${id}: ≥2–3 full chain industries`, coverage[id].length >= 2 && coverage[id].length <= 6, String(coverage[id]));
-  for (const sid of coverage[id]) {
-    const chain = getValueChain(id, sid);
-    assert(`${id}/${sid}: three stages`, chainStages().every((st) => Array.isArray(chain[st]) && chain[st].length >= 2));
-    for (const st of chainStages()) {
-      for (const p of chain[st]) {
-        const co = getCompany(p.id);
-        assert(`${p.id}: company desk`, !!co && co.announcements?.length >= 3 && co.pipeline?.length >= 2);
-        assert(`${p.id}: SAMPLE flag`, co.sample === true);
-      }
-    }
-  }
-}
-assert('companies populated', Object.keys(COMPANIES).length >= 40, String(Object.keys(COMPANIES).length));
+assert('retired profiles have no seeded chains', FULL.every((id) => !coverage[id]?.length), JSON.stringify(coverage));
+assert('no seeded example companies at load', Object.keys(COMPANIES).length === 0, String(Object.keys(COMPANIES).length));
 {
   const stubInd = industriesForMindMap('cn');
   assert('stub mindmap industries invented', stubInd.length >= 4);

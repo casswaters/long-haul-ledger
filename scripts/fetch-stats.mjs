@@ -11,7 +11,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { dirname, join, resolve as resolvePath } from 'path';
 import { fileURLToPath } from 'url';
 import { inflateRawSync } from 'zlib';
-import { FRED_SERIES, DXY_LEGS, dxyRows, WB_INDICATORS, PINK_SERIES, PINK_SHEET_PAGE, fredCsv, parseCsv, buildRecord, mergeSeries, wbPage, validateStat } from '../stats.js';
+import { FRED_SERIES, DXY_LEGS, dxyRows, WB_INDICATORS, SECTOR_INDICATORS, compactWb, OWID_ENERGY_CSV, OWID_MIX_PAGE, MIX_SOURCES, owidMix, PINK_SERIES, PINK_SHEET_PAGE, fredCsv, parseCsv, buildRecord, mergeSeries, wbPage, validateStat } from '../stats.js';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const OUT = join(__dir, '..', 'data', 'stats');
@@ -56,13 +56,13 @@ export async function runFred({ fetchText = get, now = new Date() } = {}) {
   return results;
 }
 
-export async function runWorldBank({ fetchText = get, now = new Date(), prev = null } = {}) {
+export async function runWorldBank({ fetchText = get, now = new Date(), prev = null, indicators = WB_INDICATORS, note = null } = {}) {
   const nowIso = now.toISOString().replace(/\.\d{3}Z$/, 'Z');
   const countries = JSON.parse(JSON.stringify(prev?.countries || {}));
   const world = JSON.parse(JSON.stringify(prev?.world || {}));
   const log = [];
   const meta = {};
-  for (const ind of WB_INDICATORS) {
+  for (const ind of indicators) {
     try {
       // Two most recent non-empty years per economy: the latest value and the prior reading it changed from.
       const body = JSON.parse(await fetchText(`https://api.worldbank.org/v2/country/all/indicator/${ind.code}?format=json&mrnev=2&per_page=1200`, 'application/json'));
@@ -91,7 +91,25 @@ export async function runWorldBank({ fetchText = get, now = new Date(), prev = n
       log.push({ indicator: ind.code, error: String(e?.message || e), at: nowIso, keptLastGood: true });
     }
   }
-  return { generatedAt: nowIso, note: 'World Bank World Development Indicators (API, no key). Latest and prior non-empty year per economy; annual data.', source: 'https://data.worldbank.org/', indicators: meta, world, countries, fetchLog: log };
+  return { generatedAt: nowIso, note: note || 'World Bank World Development Indicators (API, no key). Latest and prior non-empty year per economy; annual data.', source: 'https://data.worldbank.org/', indicators: meta, world, countries, fetchLog: log };
+}
+
+/* ---------- Energy mix (Our World in Data energy dataset, CSV, no key) ---------- */
+export async function runEnergyMix({ fetchText = get, now = new Date() } = {}) {
+  const nowIso = now.toISOString().replace(/\.\d{3}Z$/, 'Z');
+  const csv = await fetchText(OWID_ENERGY_CSV, 'text/csv');
+  const byIso3 = owidMix(csv, { minYear: now.getUTCFullYear() - 10 });
+  // ISO3 -> ISO2 from the World Bank country list; OWID codes for Kosovo, Taiwan and the World handled here.
+  const wb = JSON.parse(await fetchText('https://api.worldbank.org/v2/country?format=json&per_page=400', 'application/json'));
+  const map = { OWID_KOS: 'xk', TWN: 'tw', OWID_WRL: 'world', ESH: 'eh', FLK: 'fk', GRL: 'gl', NCL: 'nc', PRI: 'pr', PSE: 'ps' };
+  for (const c of wb?.[1] || []) if (/^[A-Z]{2}$/.test(c.iso2Code) && c.region?.value !== 'Aggregates') map[c.id] = map[c.id] || c.iso2Code.toLowerCase();
+  const countries = {}; let world = null;
+  for (const [iso3, rec] of Object.entries(byIso3)) {
+    const id = map[iso3];
+    if (!id) continue;
+    if (id === 'world') world = rec; else countries[id] = rec;
+  }
+  return { generatedAt: nowIso, note: 'Electricity generation mix, share of generation by source, latest full year. Our World in Data energy dataset (CC BY 4.0), based on Ember and the Energy Institute Statistical Review of World Energy.', source: OWID_MIX_PAGE, dataFile: OWID_ENERGY_CSV, sources: MIX_SOURCES.map(({ id, label }) => ({ id, label })), world, countries };
 }
 
 /* ---------- World Bank Pink Sheet (xlsx, read with a small built-in unzip; no dependencies) ---------- */
@@ -237,6 +255,24 @@ if (invoked && fileURLToPath(import.meta.url) === invoked) {
     if (!Object.keys(next.countries).length) { console.error('no countries; not writing'); process.exit(1); }
     if (!prev || stripVolatile(prev) !== stripVolatile(next)) { writeFileSync(p, JSON.stringify(next) + '\n'); console.log(`world.json: ${Object.keys(next.countries).length} countries`); }
     else console.log('world.json unchanged');
+  } else if (mode === 'sectors') {
+    const p = join(OUT, 'sectors.json'); const prev = readJson(p);
+    const full = await runWorldBank({ prev: null, indicators: SECTOR_INDICATORS, note: 'World Bank World Development Indicators (API, no key): sector shares for the Sectors of the Economy tabs. Latest and prior non-empty year per economy; annual data. Rows: [value, year, prior value, prior year].' });
+    const pack = (o) => Object.fromEntries(Object.entries(o).map(([k, v]) => [k, k === 'name' ? v : compactWb(v)]).filter(([, v]) => v != null));
+    const failed = new Set(full.fetchLog.map((l) => l.indicator));
+    const next = { ...full, indicators: Object.fromEntries(SECTOR_INDICATORS.map((d) => [d.id, { ...d, lastUpdated: full.indicators[d.id]?.lastUpdated || null }])), world: pack(full.world), countries: Object.fromEntries(Object.entries(full.countries).map(([k, v]) => [k, pack(v)])) };
+    // A failed indicator keeps last good values from the previous file.
+    if (prev && failed.size) for (const d of SECTOR_INDICATORS) if (failed.has(d.code)) { for (const [k, v] of Object.entries(prev.countries || {})) if (v[d.id]) (next.countries[k] = next.countries[k] || { name: v.name })[d.id] = v[d.id]; if (prev.world?.[d.id]) next.world[d.id] = prev.world[d.id]; }
+    for (const l of next.fetchLog) console.warn(`WARN ${l.indicator}: ${l.error} (kept last good)`);
+    if (!Object.keys(next.countries).length) { console.error('no countries; not writing'); process.exit(1); }
+    if (!prev || stripVolatile(prev) !== stripVolatile(next)) { writeFileSync(p, JSON.stringify(next) + '\n'); console.log(`sectors.json: ${Object.keys(next.countries).length} economies`); }
+    else console.log('sectors.json unchanged');
+  } else if (mode === 'energymix') {
+    const p = join(OUT, 'energy-mix.json'); const prev = readJson(p);
+    const next = await runEnergyMix();
+    if (Object.keys(next.countries).length < 100) { console.error('too few countries in energy mix; not writing'); process.exit(1); }
+    if (!prev || stripVolatile(prev) !== stripVolatile(next)) { writeFileSync(p, JSON.stringify(next) + '\n'); console.log(`energy-mix.json: ${Object.keys(next.countries).length} countries`); }
+    else console.log('energy-mix.json unchanged');
   } else if (mode === 'pinksheet') {
     const p = join(OUT, 'benchmarks.json'); const prev = readJson(p);
     const next = await runPinkSheet({ prev });

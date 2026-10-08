@@ -1,4 +1,5 @@
 import { sparkSvg } from './stats.js';
+import { sectorStripHtml, energyMixHtml } from './sectorstrip.js';
 import { coverageLine, placeIndicators, groupCounts, whatChangedHtml, lineHtml, notCoveredHtml, GROUPS, NOT_COVERED, changeOf, asOfLabel, fmtNumber } from './whatchanged.js';
 import { seatsFor, seatsHtml, isSeatChange, validateSeats, dayText } from './seats.js';
 import { xSearchUrl, xQueryForStory, xQueryForPanel, xLinkHtml } from './xsearch.js';
@@ -80,6 +81,9 @@ let statsUs = null;
 let statsWorld = null;
 /** World Bank Pink Sheet benchmarks (data/stats/benchmarks.json) and key seats (data/seats.json). */
 let statsBench = null;
+/** Sector share strips (data/stats/sectors.json) and electricity mix (data/stats/energy-mix.json). */
+let sectorsData = null;
+let energyMixData = null;
 let seatsData = null;
 /** Build-time coverage counts (data/coverage.json) for the Method page. */
 let coverageData = null;
@@ -983,7 +987,21 @@ function renderOverlay() {
   root.hidden = false;
   const c = getCountry(state.country);
   if (!c) {
-    root.innerHTML = `<div class="overlay-panel"><p class="section-note">Unknown country.</p><button type="button" class="btn-primary" data-close-overlay>Close</button></div>`;
+    const nm = countryName(state.country);
+    root.innerHTML = `
+      <div class="overlay-panel">
+        <div class="overlay-head">
+          <div>
+            <div class="overlay-kicker">Mind map</div>
+            <h2>${escapeHtml(nm)}</h2>
+          </div>
+          <div class="overlay-actions">
+            <button type="button" class="btn-ghost" data-to-desk>Country panel</button>
+            <button type="button" class="btn-primary" data-close-overlay>Close</button>
+          </div>
+        </div>
+        ${notCoveredHtml({ field: `Mind map for ${nm}`, planned: 'a project mind map built only from sourced, dated facts (players, investors and firms, proposed projects, blockers, milestones, next steps)', checked: CHECKED_DAY() })}
+      </div>`;
     wireOverlay(root);
     return;
   }
@@ -1079,6 +1097,8 @@ function renderSectorTab(root) {
     card: (it, extra) => newsCard(it, names, extra),
     tabs: SECTOR_TABS,
     energyPrices: sector.id === 'energy' ? energyPricesHtml() : '',
+    energyMix: sector.id === 'energy' ? energyMixHtml(place, energyMixData, { placeLabel: placeLabel(place, names), countryLabel: place.country ? countryName(place.country) : '', checked: CHECKED_DAY() }) : '',
+    sectorStrip: sector.economicType ? sectorStripHtml(sector.id, place, sectorsData, { placeLabel: placeLabel(place, names), countryLabel: place.country ? countryName(place.country) : '', checked: CHECKED_DAY() }) : '',
     checked: CHECKED_DAY(),
     xLink: (subDef) => xLinkHtml(xQueryForPanel(subDef.name, placeLabel(place, names), { tab: sector.id, sub: subDef.id }), { cls: 'x-link-panel' }),
   };
@@ -1463,13 +1483,17 @@ function renderLeadRole(role) {
             : `<div><span class="lead-k">Source</span> <span class="ink-mute">source pending</span></div>`;
           const respLine = role.responseTime?.text
             ? `<div><span class="lead-k">Response</span> ${escapeHtml(role.responseTime.text)} ${role.responseTime.badge ? `<span class="badge-sm sample" title="Unverified estimate, not a measured response time">${escapeHtml(role.responseTime.badge)}</span>` : ''}</div>` : '';
+          const kindTag = role.kind && role.kind !== role.title ? ` <span class="lead-kind">${escapeHtml(role.kind)}</span>` : '';
+          const sinceLine = role.since?.text
+            ? `<div><span class="lead-k">Since</span> ${escapeHtml(role.since.text)}${role.since.confirmedOn && role.since.confirmedOn !== role.source?.url ? ` (<a href="${escapeHtml(role.since.confirmedOn)}" target="_blank" rel="noopener noreferrer">official page</a>)` : ''}</div>`
+            : (role.sinceNote ? `<div><span class="lead-k">Since</span> <span class="ink-mute">${escapeHtml(role.sinceNote)}</span></div>` : '');
           const termLine = role.term?.text
             ? `<div><span class="lead-k">Term</span> ${escapeHtml(role.term.text)} ${role.term.badge ? `<span class="badge-sm sample">${escapeHtml(role.term.badge)}</span>` : ''}</div>` : '';
           if (role.notCovered) {
             return `
         <article class="lead-role lead-pending" data-not-covered>
           <div class="lead-role-top"><div>
-            <div class="lead-title">${escapeHtml(role.title)}</div>
+            <div class="lead-title">${escapeHtml(role.title)}${role.kind && role.kind !== role.title ? ` <span class="lead-kind">${escapeHtml(role.kind)}</span>` : ''}</div>
             <div class="lead-name ink-mute">${NOT_COVERED}</div>
           </div></div>
           <div class="lead-meta"><div class="ink-mute">Planned source: ${role.plannedSource ? `<a href="${escapeHtml(role.plannedSource)}" target="_blank" rel="noopener noreferrer">${escapeHtml(role.plannedSource.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, ''))}</a> (official site)` : 'official government site'}. Checked ${escapeHtml(dayText(role.checked || ''))}.</div></div>
@@ -1489,7 +1513,7 @@ function renderLeadRole(role) {
         <article class="lead-role">
           <div class="lead-role-top">
             <div>
-              <div class="lead-title">${escapeHtml(role.title)}</div>
+              <div class="lead-title">${escapeHtml(role.title)}${kindTag}</div>
               <div class="lead-name">${escapeHtml(role.name)}${role.party ? ` <span class="lead-party">(${escapeHtml(PARTY_ABBR[role.party] || role.party)})</span>` : ''}${role.vacant ? ' <span class="lead-party">seat vacant</span>' : ''}</div>
             </div>
             <div class="lead-badges">${badges}</div>
@@ -1498,6 +1522,7 @@ function renderLeadRole(role) {
           <div class="lead-meta">
             ${srcLine}
             ${asOf}
+            ${sinceLine}
             ${termLine}
             ${respLine}
           </div>
@@ -2031,14 +2056,14 @@ function watchPanelDollar() {
 
 async function loadStats() {
   const get = async (p) => { try { const r = await fetch(p, { cache: 'no-store' }); return r.ok ? await r.json() : null; } catch { return null; } };
-  [statsUs, statsWorld, statsBench, seatsData, coverageData] = await Promise.all([
+  [statsUs, statsWorld, statsBench, seatsData, coverageData, sectorsData, energyMixData] = await Promise.all([
     get('./data/stats/us.json'), get('./data/stats/world.json'), get('./data/stats/benchmarks.json'),
-    get('./data/seats.json'), get('./data/coverage.json'),
+    get('./data/seats.json'), get('./data/coverage.json'), get('./data/stats/sectors.json'), get('./data/stats/energy-mix.json'),
   ]);
   if (seatsData && validateSeats(seatsData).length) seatsData = null;
   renderCoverageLine();
   if (state.country) renderPanel(); else renderPanel();
-  if (state.desk) renderOverlay();
+  if (state.desk || state.stab) renderOverlay();
 }
 
 async function loadPricesDesk() {

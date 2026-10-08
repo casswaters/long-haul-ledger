@@ -2187,3 +2187,38 @@ button.vbadge:focus-visible { outline: 1px solid var(--ink); outline-offset: 1px
 .energy-prices > .k { display: block; padding-top: 0.25rem; }
 
 .method-coverage { font-size: 0.78rem; color: var(--ink-dim); border-left: 2px solid var(--accent-dim); padding-left: 0.6rem; }
+
+/* Phase 1: which seat a leadership role is (head of state / government) */
+.lead-kind { display: inline-block; margin-left: 6px; padding: 1px 6px; border: 1px solid var(--line, #2a3038); border-radius: 999px; font-size: 11px; letter-spacing: 0.02em; color: var(--ink-mute, #9aa4ae); vertical-align: 1px; white-space: nowrap; }
+
+/* Phase 1: Sectors of the Economy share strip and Energy electricity mix */
+.sector-strip, .energy-mix { margin: 10px 0 14px; padding: 10px 12px; border: 1px solid var(--line, #2a3038); border-radius: 8px; background: rgba(255,255,255,0.02); }
+.ss-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin-bottom: 6px; }
+.ss-title { margin: 0; font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-mute, #9aa4ae); font-weight: 600; }
+.ss-sub { font-size: 12px; color: var(--ink-mute, #9aa4ae); }
+.ss-lines { list-style: none; margin: 0; padding: 0; }
+.ss-line { display: grid; grid-template-columns: minmax(0, 1fr) auto auto auto; align-items: baseline; gap: 4px 12px; padding: 6px 0; border-top: 1px solid var(--line, #2a3038); }
+.ss-line:first-child { border-top: 0; }
+.ss-label { min-width: 0; }
+.ss-val strong { font-variant-numeric: tabular-nums; }
+.ss-unit { font-size: 12px; color: var(--ink-mute, #9aa4ae); }
+.ss-delta { font-size: 12px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ss-delta.is-up { color: #8fc49a; } .ss-delta.is-down { color: #e08b7a; } .ss-delta.is-flat { color: var(--ink-mute, #9aa4ae); }
+.ss-asof { font-size: 12px; color: var(--ink-mute, #9aa4ae); white-space: nowrap; }
+.ss-hidden, .ss-src { margin: 6px 0 0; font-size: 12px; color: var(--ink-mute, #9aa4ae); }
+.mix-bar { display: flex; height: 14px; border-radius: 4px; overflow: hidden; background: var(--line, #2a3038); }
+.mix-seg { display: block; height: 100%; }
+.mix-legend { list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; }
+.mix-legend li { display: inline-flex; align-items: center; gap: 6px; }
+.mix-dot { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+.mix-coal { background: #6b6f76; } .mix-gas { background: #c9a36b; } .mix-oil { background: #8a6a52; } .mix-nuclear { background: #9b8fd1; }
+.mix-hydro { background: #4f8fc0; } .mix-wind { background: #6cc0b4; } .mix-solar { background: #e2c25a; } .mix-bio { background: #7fae6a; } .mix-other { background: #a7b3bd; }
+@media (max-width: 900px) {
+  .ss-line { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "label val" "delta asof"; }
+  .ss-label { grid-area: label; } .ss-val { grid-area: val; text-align: right; } .ss-delta { grid-area: delta; } .ss-asof { grid-area: asof; text-align: right; min-height: 44px; display: inline-flex; align-items: center; justify-content: flex-end; }
+}
+.sector-phone-strip { display: none; }
+@media (max-width: 760px) {
+  .sector-phone-strip { display: block; padding: 0 0.8rem; }
+  .sector-phone-strip .sector-strip, .sector-phone-strip .energy-mix { margin: 8px 0; }
+}

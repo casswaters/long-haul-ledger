@@ -1,0 +1,42 @@
+{
+  "checked": "2026-10-08",
+  "note": "Seats confirmed by hand on an official page when the automated pass could not reach or match one. Same rule: the name must appear on the official page on the checked date.",
+  "countries": {
+    "us": {
+      "hs": {
+        "name": "Donald J. Trump",
+        "wikidata": "Q22686",
+        "title": "President",
+        "since": null,
+        "site": "https://www.whitehouse.gov/",
+        "source": "https://www.whitehouse.gov/administration/donald-j-trump/"
+      },
+      "hg": {
+        "name": "Donald J. Trump",
+        "wikidata": "Q22686",
+        "title": "President",
+        "since": null,
+        "site": "https://www.whitehouse.gov/",
+        "source": "https://www.whitehouse.gov/administration/donald-j-trump/"
+      }
+    },
+    "ae": {
+      "hs": {
+        "name": "Mohamed bin Zayed Al Nahyan",
+        "wikidata": "Q1173",
+        "title": "President",
+        "since": null,
+        "site": "https://www.uaepresident.ae/",
+        "source": "https://u.ae/en/about-the-uae/the-uae-government/government-leaders"
+      },
+      "hg": {
+        "name": "Mohammed bin Rashid Al Maktoum",
+        "wikidata": "Q57655",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://www.sheikhmohammed.ae/",
+        "source": "https://u.ae/en/about-the-uae/the-uae-government/government-leaders"
+      }
+    }
+  }
+}

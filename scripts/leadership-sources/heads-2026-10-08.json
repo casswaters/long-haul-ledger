@@ -1,0 +1,2352 @@
+{
+ "checked": "2026-10-08",
+ "method": "Candidates from Wikidata (P35, P6, P39 with start date, office P856). A seat goes live only when the candidate is the latest current holder on Wikidata AND the name appears on an official government page fetched on the checked date. Start dates show only when the year (or full date) appears next to the name on that page.",
+ "countries": {
+  "_ncyprus": {
+   "label": "Northern Cyprus",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "_somaliland": {
+   "label": "Somaliland",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "ae": {
+   "label": "United Arab Emirates",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.government.ae/about-the-uae/the-uae-government/government-leaders/hh-sheikh-khalifa-bin-zayed-al-nahyan"
+  },
+  "af": {
+   "label": "Afghanistan",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "al": {
+   "label": "Albania",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.president.al/"
+  },
+  "am": {
+   "label": "Armenia",
+   "hs": {
+    "name": "Vahagn Khachaturyan",
+    "wikidata": "Q3553274",
+    "title": "President",
+    "since": null,
+    "site": "https://www.president.am",
+    "source": "https://www.president.am",
+    "matched": "վահագն խաչատուրյան"
+   },
+   "hg": {
+    "name": "Nikol Pashinyan",
+    "wikidata": "Q7035479",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "http://www.primeminister.am/hy",
+    "source": "http://www.primeminister.am/hy",
+    "matched": "նիկոլ փաշինյան"
+   },
+   "planned": "https://www.president.am"
+  },
+  "ao": {
+   "label": "Angola",
+   "hs": {
+    "name": "João Lourenço",
+    "wikidata": "Q28650390",
+    "title": "President",
+    "since": {
+     "date": "2017",
+     "precision": "year"
+    },
+    "site": "https://governo.gov.ao/",
+    "source": "https://governo.gov.ao/biografia/presid%C3%AAncia/jo%C3%A3o-manuel-gon%C3%A7alves-louren%C3%A7o",
+    "matched": "joao manuel goncalves lourenco"
+   },
+   "hg": {
+    "name": "João Lourenço",
+    "wikidata": "Q28650390",
+    "title": "President",
+    "since": {
+     "date": "2017",
+     "precision": "year"
+    },
+    "site": "https://governo.gov.ao/",
+    "source": "https://governo.gov.ao/biografia/presid%C3%AAncia/jo%C3%A3o-manuel-gon%C3%A7alves-louren%C3%A7o",
+    "matched": "joao manuel goncalves lourenco"
+   },
+   "planned": "https://governo.gov.ao/"
+  },
+  "ar": {
+   "label": "Argentina",
+   "hs": {
+    "name": "Javier Gerardo Milei",
+    "wikidata": "Q52395487",
+    "title": "President",
+    "since": null,
+    "site": "https://www.argentina.gob.ar/presidencia",
+    "source": "https://www.argentina.gob.ar/presidencia",
+    "matched": "javier gerardo milei"
+   },
+   "hg": {
+    "name": "Javier Gerardo Milei",
+    "wikidata": "Q52395487",
+    "title": "President",
+    "since": null,
+    "site": "https://www.argentina.gob.ar/presidencia",
+    "source": "https://www.argentina.gob.ar/presidencia",
+    "matched": "javier gerardo milei"
+   },
+   "planned": "https://www.argentina.gob.ar/presidencia"
+  },
+  "at": {
+   "label": "Austria",
+   "hs": {
+    "name": "Alexander Van der Bellen",
+    "wikidata": "Q78869",
+    "title": "President",
+    "since": null,
+    "site": "http://www.bundespraesident.at/",
+    "source": "http://www.bundespraesident.at/",
+    "matched": "alexander van der bellen"
+   },
+   "hg": {
+    "name": "Christian Stocker",
+    "wikidata": "Q64576653",
+    "title": "Federal Chancellor",
+    "since": null,
+    "site": "https://www.bundeskanzleramt.gv.at",
+    "source": "https://www.bundeskanzleramt.gv.at",
+    "matched": "christian stocker"
+   },
+   "planned": "http://www.bundespraesident.at/"
+  },
+  "au": {
+   "label": "Australia",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.pm.gov.au/"
+  },
+  "az": {
+   "label": "Azerbaijan",
+   "hs": {
+    "name": "Ilham Aliyev",
+    "wikidata": "Q57371",
+    "title": "President",
+    "since": null,
+    "site": "http://en.president.az/",
+    "source": "http://en.president.az/",
+    "matched": "ilham aliyev"
+   },
+   "hg": {
+    "name": "Ali Asadov",
+    "wikidata": "Q12850075",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "http://cabmin.gov.az",
+    "source": "http://cabmin.gov.az",
+    "matched": "əli əsədov"
+   },
+   "planned": "http://en.president.az/"
+  },
+  "ba": {
+   "label": "Bosnia and Herzegovina",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.predsjednistvobih.ba"
+  },
+  "bd": {
+   "label": "Bangladesh",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.bangabhaban.gov.bd/"
+  },
+  "be": {
+   "label": "Belgium",
+   "hs": null,
+   "hg": {
+    "name": "Bart De Wever",
+    "wikidata": "Q336599",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.premier.be/",
+    "source": "https://www.premier.be/",
+    "matched": "bart de wever"
+   },
+   "planned": "https://www.premier.be/"
+  },
+  "bf": {
+   "label": "Burkina Faso",
+   "hs": {
+    "name": "Ibrahim Traoré",
+    "wikidata": "Q114341246",
+    "title": "Military leader",
+    "since": {
+     "date": "2022-09-30",
+     "precision": "day"
+    },
+    "site": "https://www.gouvernement.gov.bf/accueil",
+    "source": "https://www.gouvernement.gov.bf/accueil",
+    "matched": "ibrahim traore"
+   },
+   "hg": null,
+   "planned": "https://www.gouvernement.gov.bf/accueil"
+  },
+  "bg": {
+   "label": "Bulgaria",
+   "hs": {
+    "name": "Iliana Iotova",
+    "wikidata": "Q433338",
+    "title": "President",
+    "since": {
+     "date": "2026",
+     "precision": "year"
+    },
+    "site": "https://www.president.bg/",
+    "source": "https://www.president.bg/",
+    "matched": "илияна иотова"
+   },
+   "hg": {
+    "name": "Rumen Radev",
+    "wikidata": "Q26257557",
+    "title": "Prime Minister",
+    "since": {
+     "date": "2026",
+     "precision": "year"
+    },
+    "site": "https://www.government.bg/",
+    "source": "https://www.government.bg/",
+    "matched": "румен радев"
+   },
+   "planned": "https://www.president.bg/"
+  },
+  "bi": {
+   "label": "Burundi",
+   "hs": {
+    "name": "Évariste Ndayishimiye",
+    "wikidata": "Q27329764",
+    "title": "President",
+    "since": null,
+    "site": "https://www.presidence.gov.bi/",
+    "source": "https://www.presidence.gov.bi/",
+    "matched": "evariste ndayishimiye"
+   },
+   "hg": null,
+   "planned": "https://www.presidence.gov.bi/"
+  },
+  "bj": {
+   "label": "Benin",
+   "hs": {
+    "name": "Romuald Wadagni",
+    "wikidata": "Q24951128",
+    "title": "President",
+    "since": {
+     "date": "2026-05-24",
+     "precision": "day"
+    },
+    "site": "https://presidence.bj/",
+    "source": "https://presidence.bj/",
+    "matched": "romuald wadagni"
+   },
+   "hg": null,
+   "planned": "https://presidence.bj/"
+  },
+  "bn": {
+   "label": "Brunei",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.gov.bn/SitePages/Home.aspx"
+  },
+  "bo": {
+   "label": "Bolivia",
+   "hs": {
+    "name": "Rodrigo Paz",
+    "wikidata": "Q110520817",
+    "title": "President",
+    "since": null,
+    "site": "http://www.presidencia.gob.bo/",
+    "source": "http://www.presidencia.gob.bo/",
+    "matched": "rodrigo paz pereira"
+   },
+   "hg": {
+    "name": "Rodrigo Paz",
+    "wikidata": "Q110520817",
+    "title": "President",
+    "since": null,
+    "site": "http://www.presidencia.gob.bo/",
+    "source": "http://www.presidencia.gob.bo/",
+    "matched": "rodrigo paz pereira"
+   },
+   "planned": "http://www.presidencia.gob.bo/"
+  },
+  "br": {
+   "label": "Brazil",
+   "hs": {
+    "name": "Luiz Inácio Lula da Silva",
+    "wikidata": "Q37181",
+    "title": "President",
+    "since": null,
+    "site": "https://www.gov.br/planalto/",
+    "source": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biografia-do-presidente",
+    "matched": "luiz inacio lula da silva"
+   },
+   "hg": {
+    "name": "Luiz Inácio Lula da Silva",
+    "wikidata": "Q37181",
+    "title": "President",
+    "since": null,
+    "site": "https://www.gov.br/planalto/",
+    "source": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biografia-do-presidente",
+    "matched": "luiz inacio lula da silva"
+   },
+   "planned": "https://www.gov.br/planalto/"
+  },
+  "bs": {
+   "label": "Bahamas",
+   "hs": {
+    "name": "Charles III",
+    "wikidata": "Q43274",
+    "title": "Monarch",
+    "since": null,
+    "site": "https://www.bahamas.gov.bs/",
+    "source": "https://www.bahamas.gov.bs/",
+    "matched": "king charles iii"
+   },
+   "hg": {
+    "name": "Philip Davis",
+    "wikidata": "Q7183082",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.bahamas.gov.bs/",
+    "source": "https://www.bahamas.gov.bs/",
+    "matched": "hon. philip davis"
+   },
+   "planned": "https://www.bahamas.gov.bs/"
+  },
+  "bt": {
+   "label": "Bhutan",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.bhutan.gov.bt"
+  },
+  "bw": {
+   "label": "Botswana",
+   "hs": {
+    "name": "Duma Gideon Boko",
+    "wikidata": "Q18618881",
+    "title": "President",
+    "since": {
+     "date": "2024",
+     "precision": "year"
+    },
+    "site": "https://gov.bw/",
+    "source": "https://gov.bw/",
+    "matched": "duma gideon boko"
+   },
+   "hg": null,
+   "planned": "https://gov.bw/"
+  },
+  "by": {
+   "label": "Belarus",
+   "hs": {
+    "name": "Aleksandr Lukashenko",
+    "wikidata": "Q2866",
+    "title": "President",
+    "since": null,
+    "site": "https://president.gov.by/",
+    "source": "https://president.gov.by/",
+    "matched": "aleksandr lukashenko"
+   },
+   "hg": null,
+   "planned": "https://president.gov.by/"
+  },
+  "bz": {
+   "label": "Belize",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.belize.gov.bz/"
+  },
+  "ca": {
+   "label": "Canada",
+   "hs": null,
+   "hg": {
+    "name": "Mark Carney",
+    "wikidata": "Q192533",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://pm.gc.ca",
+    "source": "https://pm.gc.ca",
+    "matched": "mark carney"
+   },
+   "planned": "https://pm.gc.ca"
+  },
+  "cd": {
+   "label": "Democratic Republic of the Congo",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "cf": {
+   "label": "Central African Republic",
+   "hs": null,
+   "hg": null,
+   "planned": "http://la-renaissance.cf"
+  },
+  "cg": {
+   "label": "Republic of the Congo",
+   "hs": {
+    "name": "Denis Sassou Nguesso",
+    "wikidata": "Q57418",
+    "title": "President",
+    "since": null,
+    "site": "https://gouvernement.cg/",
+    "source": "https://gouvernement.cg/",
+    "matched": "denis sassou n'guesso"
+   },
+   "hg": null,
+   "planned": "https://www.sgg.cg/fr/accueil.html"
+  },
+  "ch": {
+   "label": "Switzerland",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.admin.ch/gov/de/start.html"
+  },
+  "ci": {
+   "label": "Côte d'Ivoire",
+   "hs": {
+    "name": "Alassane Ouattara",
+    "wikidata": "Q57413",
+    "title": "President of the Ivory Coast",
+    "since": null,
+    "site": "https://www.gouv.ci/Main.php",
+    "source": "https://www.gouv.ci/Main.php",
+    "matched": "alassane ouattara"
+   },
+   "hg": {
+    "name": "Robert Beugré Mambé",
+    "wikidata": "Q3434569",
+    "title": "Prime Minister of Ivory Coast",
+    "since": null,
+    "site": "http://www.premierministre.ci/",
+    "source": "http://www.premierministre.ci/",
+    "matched": "robert beugre mambe"
+   },
+   "planned": "http://www.premierministre.ci/"
+  },
+  "cl": {
+   "label": "Chile",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.gob.cl/"
+  },
+  "cm": {
+   "label": "Cameroon",
+   "hs": {
+    "name": "Paul Biya",
+    "wikidata": "Q57272",
+    "title": "President",
+    "since": {
+     "date": "1982",
+     "precision": "year"
+    },
+    "site": "https://www.prc.cm/en/",
+    "source": "https://www.prc.cm/en/",
+    "matched": "paul biya"
+   },
+   "hg": null,
+   "planned": "https://www.prc.cm/en/"
+  },
+  "cn": {
+   "label": "China",
+   "hs": {
+    "name": "Xi Jinping",
+    "wikidata": "Q15031",
+    "title": "President",
+    "since": null,
+    "site": "http://english.gov.cn/2013-03/14/content_2353971.htm",
+    "source": "https://www.gov.cn/",
+    "matched": "习近平"
+   },
+   "hg": {
+    "name": "Li Qiang",
+    "wikidata": "Q4414390",
+    "title": "Premier",
+    "since": {
+     "date": "2023",
+     "precision": "year"
+    },
+    "site": "http://www.gov.cn/premier/index.htm",
+    "source": "http://www.gov.cn/premier/index.htm",
+    "matched": "李强"
+   },
+   "planned": "http://english.gov.cn/2013-03/14/content_2353971.htm"
+  },
+  "co": {
+   "label": "Colombia",
+   "hs": null,
+   "hg": null,
+   "planned": "http://wsp.presidencia.gov.co"
+  },
+  "cr": {
+   "label": "Costa Rica",
+   "hs": {
+    "name": "Laura Fernández",
+    "wikidata": "Q114705150",
+    "title": "President",
+    "since": {
+     "date": "2026",
+     "precision": "year"
+    },
+    "site": "https://presidencia.go.cr",
+    "source": "https://presidencia.go.cr",
+    "matched": "laura fernandez delgado"
+   },
+   "hg": {
+    "name": "Laura Fernández",
+    "wikidata": "Q114705150",
+    "title": "President",
+    "since": {
+     "date": "2026",
+     "precision": "year"
+    },
+    "site": "https://presidencia.go.cr",
+    "source": "https://presidencia.go.cr",
+    "matched": "laura fernandez delgado"
+   },
+   "planned": "https://presidencia.go.cr"
+  },
+  "cu": {
+   "label": "Cuba",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.cubagob.cu/"
+  },
+  "cv": {
+   "label": "Cape Verde",
+   "hs": {
+    "name": "José Maria Neves",
+    "wikidata": "Q57649",
+    "title": "President",
+    "since": null,
+    "site": "https://www.governo.cv/outros-orgaos-do-estado/presidencia/",
+    "source": "https://www.governo.cv/outros-orgaos-do-estado/presidencia/",
+    "matched": "jose maria pereira neves"
+   },
+   "hg": {
+    "name": "Francisco Carvalho",
+    "wikidata": "Q139594211",
+    "title": "Prime Minister",
+    "since": {
+     "date": "2026",
+     "precision": "year"
+    },
+    "site": "https://www.governo.cv/governo/primeiro-ministro-e-ministro-das-financas/",
+    "source": "https://www.governo.cv/governo/primeiro-ministro-e-ministro-das-financas/",
+    "matched": "francisco avelino vieira de carvalho"
+   },
+   "planned": "http://www.governo.cv"
+  },
+  "cy": {
+   "label": "Cyprus",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.presidency.gov.cy/"
+  },
+  "cz": {
+   "label": "Czechia",
+   "hs": {
+    "name": "Petr Pavel",
+    "wikidata": "Q2080040",
+    "title": "President",
+    "since": null,
+    "site": "https://www.hrad.cz/",
+    "source": "https://www.hrad.cz/",
+    "matched": "petr pavel"
+   },
+   "hg": null,
+   "planned": "https://www.hrad.cz/"
+  },
+  "de": {
+   "label": "Germany",
+   "hs": null,
+   "hg": {
+    "name": "Friedrich Merz",
+    "wikidata": "Q566257",
+    "title": "Federal Chancellor",
+    "since": null,
+    "site": "https://www.bundeskanzler.de/bk-de/",
+    "source": "https://www.bundeskanzler.de/bk-de/",
+    "matched": "friedrich merz"
+   },
+   "planned": "http://www.bundespraesident.de/"
+  },
+  "dj": {
+   "label": "Djibouti",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "dk": {
+   "label": "Denmark",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.stm.dk/Index/mainstart.asp/_a_1644.html"
+  },
+  "dm": {
+   "label": "Dominica",
+   "hs": {
+    "name": "Sylvanie Burton",
+    "wikidata": "Q122208779",
+    "title": "President",
+    "since": null,
+    "site": "http://www.dominica.gov.dm/",
+    "source": "http://www.dominica.gov.dm/",
+    "matched": "sylvanie burton"
+   },
+   "hg": {
+    "name": "Roosevelt Skerrit",
+    "wikidata": "Q57823",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://dominica.gov.dm/",
+    "source": "https://dominica.gov.dm/",
+    "matched": "roosevelt skerrit"
+   },
+   "planned": "https://dominica.gov.dm/"
+  },
+  "do": {
+   "label": "Dominican Republic",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.presidencia.gov.do/"
+  },
+  "dz": {
+   "label": "Algeria",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.el-mouradia.dz/ar/home"
+  },
+  "ec": {
+   "label": "Ecuador",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.presidencia.gov.ec"
+  },
+  "ee": {
+   "label": "Estonia",
+   "hs": {
+    "name": "Alar Karis",
+    "wikidata": "Q12358575",
+    "title": "President",
+    "since": null,
+    "site": "http://www.president.ee/",
+    "source": "http://www.president.ee/",
+    "matched": "alar karis"
+   },
+   "hg": {
+    "name": "Kristen Michal",
+    "wikidata": "Q1789192",
+    "title": "Prime Minister",
+    "since": {
+     "date": "2024",
+     "precision": "year"
+    },
+    "site": "https://valitsus.ee/",
+    "source": "https://valitsus.ee/",
+    "matched": "kristen michal"
+   },
+   "planned": "http://www.president.ee/"
+  },
+  "eg": {
+   "label": "Egypt",
+   "hs": {
+    "name": "Abdel Fattah el-Sisi",
+    "wikidata": "Q307871",
+    "title": "President",
+    "since": null,
+    "site": "https://www.presidency.eg",
+    "source": "https://www.presidency.eg",
+    "matched": "عبد الفتاح السيسي"
+   },
+   "hg": {
+    "name": "Mostafa Madbouly",
+    "wikidata": "Q54901515",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.cabinet.gov.eg",
+    "source": "https://www.cabinet.gov.eg",
+    "matched": "مصطفى مدبولي"
+   },
+   "planned": "https://www.presidency.eg"
+  },
+  "eh": {
+   "label": "Western Sahara",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "er": {
+   "label": "Eritrea",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "es": {
+   "label": "Spain",
+   "hs": {
+    "name": "Felipe VI",
+    "wikidata": "Q191045",
+    "title": "Monarch",
+    "since": {
+     "date": "2014-06-19",
+     "precision": "day"
+    },
+    "site": "http://www.casareal.es",
+    "source": "http://www.casareal.es",
+    "matched": "felipe vi"
+   },
+   "hg": {
+    "name": "Pedro Sánchez",
+    "wikidata": "Q6070218",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "http://www.lamoncloa.gob.es",
+    "source": "http://www.lamoncloa.gob.es",
+    "matched": "pedro sanchez"
+   },
+   "planned": "http://www.casareal.es"
+  },
+  "et": {
+   "label": "Ethiopia",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "fi": {
+   "label": "Finland",
+   "hs": {
+    "name": "Alexander Stubb",
+    "wikidata": "Q503143",
+    "title": "President",
+    "since": null,
+    "site": "https://www.presidentti.fi/",
+    "source": "https://www.presidentti.fi/",
+    "matched": "alexander stubb"
+   },
+   "hg": null,
+   "planned": "https://www.presidentti.fi/"
+  },
+  "fj": {
+   "label": "Fiji",
+   "hs": null,
+   "hg": {
+    "name": "Sitiveni Rabuka",
+    "wikidata": "Q981549",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.pmoffice.gov.fj/",
+    "source": "https://www.pmoffice.gov.fj/",
+    "matched": "sitiveni rabuka"
+   },
+   "planned": "https://www.pmoffice.gov.fj/"
+  },
+  "fk": {
+   "label": "Falkland Islands",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.gov.uk/world/organisations/governors-office-stanley"
+  },
+  "fr": {
+   "label": "France",
+   "hs": {
+    "name": "Emmanuel Macron",
+    "wikidata": "Q3052772",
+    "title": "President",
+    "since": null,
+    "site": "https://www.elysee.fr/",
+    "source": "https://www.elysee.fr/",
+    "matched": "emmanuel macron"
+   },
+   "hg": {
+    "name": "Sébastien Lecornu",
+    "wikidata": "Q20089181",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.info.gouv.fr/le-premier-ministre",
+    "source": "https://www.info.gouv.fr/agenda/ministre/sebastien-lecornu",
+    "matched": "sebastien lecornu"
+   },
+   "planned": "https://www.elysee.fr/"
+  },
+  "ga": {
+   "label": "Gabon",
+   "hs": null,
+   "hg": null,
+   "planned": "https://gouvernement.ga"
+  },
+  "gb": {
+   "label": "United Kingdom",
+   "hs": {
+    "name": "Charles III",
+    "wikidata": "Q43274",
+    "title": "Monarch",
+    "since": null,
+    "site": "https://www.royal.uk/the-king-0",
+    "source": "https://www.royal.uk/the-king-0",
+    "matched": "king charles iii"
+   },
+   "hg": {
+    "name": "Andy Burnham",
+    "wikidata": "Q269909",
+    "title": "Prime Minister",
+    "since": {
+     "date": "2026-07-20",
+     "precision": "day"
+    },
+    "site": "https://www.gov.uk/government/organisations/prime-ministers-office-10-downing-street",
+    "source": "https://www.gov.uk/government/organisations/prime-ministers-office-10-downing-street",
+    "matched": "andy burnham"
+   },
+   "planned": "https://www.royal.uk/the-king-0"
+  },
+  "ge": {
+   "label": "Georgia",
+   "hs": null,
+   "hg": null,
+   "planned": "https://president.ge/ka"
+  },
+  "gh": {
+   "label": "Ghana",
+   "hs": {
+    "name": "John Dramani Mahama",
+    "wikidata": "Q50678",
+    "title": "President",
+    "since": null,
+    "site": "http://www.presidency.gov.gh",
+    "source": "https://www.ghana.gov.gh/about/",
+    "matched": "john dramani mahama"
+   },
+   "hg": null,
+   "planned": "http://www.presidency.gov.gh"
+  },
+  "gl": {
+   "label": "Greenland",
+   "hs": null,
+   "hg": {
+    "name": "Jens-Frederik Nielsen",
+    "wikidata": "Q16262782",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "http://naalakkersuisut.gl/en/Naalakkersuisut/Departments/Formandens-departement",
+    "source": "https://naalakkersuisut.gl",
+    "matched": "jens frederik nielsen"
+   },
+   "planned": "http://naalakkersuisut.gl/en/Naalakkersuisut/Departments/Formandens-departement"
+  },
+  "gm": {
+   "label": "Gambia",
+   "hs": {
+    "name": "Adama Barrow",
+    "wikidata": "Q27917049",
+    "title": "President",
+    "since": null,
+    "site": "https://op.gov.gm/",
+    "source": "https://op.gov.gm/",
+    "matched": "adama barrow"
+   },
+   "hg": {
+    "name": "Adama Barrow",
+    "wikidata": "Q27917049",
+    "title": "President",
+    "since": null,
+    "site": "https://op.gov.gm/",
+    "source": "https://op.gov.gm/",
+    "matched": "adama barrow"
+   },
+   "planned": "https://op.gov.gm/"
+  },
+  "gn": {
+   "label": "Guinea",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.primature.gov.gn/"
+  },
+  "gq": {
+   "label": "Equatorial Guinea",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "gr": {
+   "label": "Greece",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.presidency.gr"
+  },
+  "gt": {
+   "label": "Guatemala",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.guatemala.gob.gt"
+  },
+  "gw": {
+   "label": "Guinea-Bissau",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.presidencia.gw/"
+  },
+  "gy": {
+   "label": "Guyana",
+   "hs": {
+    "name": "Irfaan Ali",
+    "wikidata": "Q64840184",
+    "title": "President",
+    "since": null,
+    "site": "http://www.op.gov.gy/",
+    "source": "http://www.op.gov.gy/",
+    "matched": "dr. mohamed irfaan ali"
+   },
+   "hg": null,
+   "planned": "http://www.op.gov.gy/"
+  },
+  "hn": {
+   "label": "Honduras",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.presidencia.gob.hn/"
+  },
+  "hr": {
+   "label": "Croatia",
+   "hs": {
+    "name": "Zoran Milanović",
+    "wikidata": "Q57687",
+    "title": "President",
+    "since": null,
+    "site": "https://www.predsjednik.hr",
+    "source": "https://www.predsjednik.hr",
+    "matched": "zoran milanovic"
+   },
+   "hg": {
+    "name": "Andrej Plenković",
+    "wikidata": "Q11685764",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "http://www.vlada.hr/",
+    "source": "http://www.vlada.hr/",
+    "matched": "andrej plenkovic"
+   },
+   "planned": "https://www.predsjednik.hr"
+  },
+  "ht": {
+   "label": "Haiti",
+   "hs": null,
+   "hg": {
+    "name": "Alix Didier Fils-Aimé",
+    "wikidata": "Q131140314",
+    "title": "Prime Minister",
+    "since": {
+     "date": "2024",
+     "precision": "year"
+    },
+    "site": "http://primature.gouv.ht/",
+    "source": "http://primature.gouv.ht/",
+    "matched": "alix didier fils aime"
+   },
+   "planned": "https://www.communication.gouv.ht/rubrique/presidence/"
+  },
+  "hu": {
+   "label": "Hungary",
+   "hs": {
+    "name": "Baka András",
+    "wikidata": "Q788903",
+    "title": "President",
+    "since": {
+     "date": "2026",
+     "precision": "year"
+    },
+    "site": "http://www.keh.hu",
+    "source": "http://www.keh.hu",
+    "matched": "dr. baka andras"
+   },
+   "hg": null,
+   "planned": "http://www.keh.hu"
+  },
+  "id": {
+   "label": "Indonesia",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.presidenri.go.id/"
+  },
+  "ie": {
+   "label": "Ireland",
+   "hs": {
+    "name": "Catherine Connolly",
+    "wikidata": "Q5052598",
+    "title": "President",
+    "since": null,
+    "site": "https://president.ie/en",
+    "source": "https://president.ie/en",
+    "matched": "catherine connolly"
+   },
+   "hg": {
+    "name": "Micheál Martin",
+    "wikidata": "Q920403",
+    "title": "Taoiseach",
+    "since": null,
+    "site": "https://www.gov.ie/en/organisation/department-of-the-taoiseach/",
+    "source": "https://www.gov.ie/en/organisation/department-of-the-taoiseach/",
+    "matched": "micheal martin"
+   },
+   "planned": "https://president.ie/en"
+  },
+  "il": {
+   "label": "Israel",
+   "hs": {
+    "name": "Isaac Herzog",
+    "wikidata": "Q983258",
+    "title": "President",
+    "since": null,
+    "site": "https://president.gov.il",
+    "source": "https://president.gov.il",
+    "matched": "יצחק הרצוג"
+   },
+   "hg": {
+    "name": "Benjamin Netanyahu",
+    "wikidata": "Q43723",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.gov.il/he/departments/prime_ministers_office",
+    "source": "https://www.gov.il/he/departments/prime_ministers_office",
+    "matched": "בנימין נתניהו"
+   },
+   "planned": "https://president.gov.il"
+  },
+  "in": {
+   "label": "India",
+   "hs": {
+    "name": "Droupadi Murmu",
+    "wikidata": "Q19901232",
+    "title": "President",
+    "since": {
+     "date": "2022",
+     "precision": "year"
+    },
+    "site": "https://presidentofindia.gov.in",
+    "source": "https://presidentofindia.gov.in",
+    "matched": "droupadi murmu"
+   },
+   "hg": null,
+   "planned": "https://presidentofindia.gov.in"
+  },
+  "iq": {
+   "label": "Iraq",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.pmo.iq/"
+  },
+  "ir": {
+   "label": "Iran",
+   "hs": null,
+   "hg": {
+    "name": "Masoud Pezeshkian",
+    "wikidata": "Q5933752",
+    "title": "President",
+    "since": null,
+    "site": "https://president.ir",
+    "source": "https://president.ir",
+    "matched": "مسعود پزشکیان"
+   },
+   "planned": "https://president.ir"
+  },
+  "is": {
+   "label": "Iceland",
+   "hs": null,
+   "hg": null,
+   "planned": "http://english.forseti.is"
+  },
+  "it": {
+   "label": "Italy",
+   "hs": {
+    "name": "Sergio Mattarella",
+    "wikidata": "Q3956186",
+    "title": "President",
+    "since": null,
+    "site": "http://www.quirinale.it/",
+    "source": "http://www.quirinale.it/",
+    "matched": "presidente mattarella"
+   },
+   "hg": null,
+   "planned": "http://www.quirinale.it/"
+  },
+  "jm": {
+   "label": "Jamaica",
+   "hs": null,
+   "hg": {
+    "name": "Andrew Holness",
+    "wikidata": "Q505200",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "http://www.opm.gov.jm/",
+    "source": "http://www.opm.gov.jm/",
+    "matched": "andrew holness"
+   },
+   "planned": "http://kingshouse.gov.jm/"
+  },
+  "jo": {
+   "label": "Jordan",
+   "hs": null,
+   "hg": {
+    "name": "Jafar Hassan",
+    "wikidata": "Q97011032",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.pm.gov.jo",
+    "source": "https://www.pm.gov.jo",
+    "matched": "جعفر حسان"
+   },
+   "planned": "https://www.pm.gov.jo"
+  },
+  "jp": {
+   "label": "Japan",
+   "hs": null,
+   "hg": {
+    "name": "Takaichi Sanae",
+    "wikidata": "Q1705028",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.kantei.go.jp/",
+    "source": "https://japan.kantei.go.jp/105/statement/202610/07message.html",
+    "matched": "takaichi sanae"
+   },
+   "planned": "http://www.kunaicho.go.jp/eindex.html"
+  },
+  "ke": {
+   "label": "Kenya",
+   "hs": {
+    "name": "William Ruto",
+    "wikidata": "Q195725",
+    "title": "President",
+    "since": null,
+    "site": "http://www.statehousekenya.go.ke/",
+    "source": "http://www.president.go.ke",
+    "matched": "william samoei ruto"
+   },
+   "hg": {
+    "name": "William Ruto",
+    "wikidata": "Q195725",
+    "title": "President",
+    "since": null,
+    "site": "http://www.statehousekenya.go.ke/",
+    "source": "http://www.president.go.ke",
+    "matched": "william samoei ruto"
+   },
+   "planned": "http://www.statehousekenya.go.ke/"
+  },
+  "kg": {
+   "label": "Kyrgyzstan",
+   "hs": null,
+   "hg": {
+    "name": "Adylbek Kasymaliev",
+    "wikidata": "Q112703041",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.gov.kg/ky",
+    "source": "https://www.gov.kg/ky",
+    "matched": "адылбек касымалиев"
+   },
+   "planned": "http://www.president.kg"
+  },
+  "kh": {
+   "label": "Cambodia",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.samdechhunsen.gov.kh/"
+  },
+  "km": {
+   "label": "Comoros",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "kp": {
+   "label": "North Korea",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "kr": {
+   "label": "South Korea",
+   "hs": {
+    "name": "Lee Jae Myung",
+    "wikidata": "Q12612463",
+    "title": "President",
+    "since": {
+     "date": "2025",
+     "precision": "year"
+    },
+    "site": "https://www.president.go.kr",
+    "source": "https://en.president.go.kr/",
+    "matched": "lee jae myung"
+   },
+   "hg": null,
+   "planned": "https://www.president.go.kr"
+  },
+  "kw": {
+   "label": "Kuwait",
+   "hs": {
+    "name": "Mishal Al-Ahmad Al-Jaber Al-Sabah",
+    "wikidata": "Q12243161",
+    "title": "Emir",
+    "since": {
+     "date": "2023",
+     "precision": "year"
+    },
+    "site": "http://www.da.gov.kw",
+    "source": "http://www.da.gov.kw",
+    "matched": "مشعل الاحمد الجابر الصباح"
+   },
+   "hg": null,
+   "planned": "http://www.da.gov.kw"
+  },
+  "kz": {
+   "label": "Kazakhstan",
+   "hs": {
+    "name": "Kassym-Jomart Tokayev",
+    "wikidata": "Q200881",
+    "title": "President",
+    "since": null,
+    "site": "http://akorda.kz/",
+    "source": "http://akorda.kz/",
+    "matched": "қасым жомарт тоқаев"
+   },
+   "hg": {
+    "name": "Oljas Bektenov",
+    "wikidata": "Q124436646",
+    "title": "Prime Minister",
+    "since": {
+     "date": "2024",
+     "precision": "year"
+    },
+    "site": "http://www.primeminister.kz/",
+    "source": "http://www.primeminister.kz/",
+    "matched": "олжас бектенов"
+   },
+   "planned": "http://akorda.kz/"
+  },
+  "la": {
+   "label": "Laos",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "lb": {
+   "label": "Lebanon",
+   "hs": {
+    "name": "Joseph Aoun",
+    "wikidata": "Q29033962",
+    "title": "President",
+    "since": {
+     "date": "2025",
+     "precision": "year"
+    },
+    "site": "http://www.presidency.gov.lb/",
+    "source": "http://www.presidency.gov.lb/",
+    "matched": "جوزاف عون"
+   },
+   "hg": {
+    "name": "Nawaf Salam",
+    "wikidata": "Q638463",
+    "title": "Prime Minister",
+    "since": {
+     "date": "2025",
+     "precision": "year"
+    },
+    "site": "http://www.pcm.gov.lb",
+    "source": "http://www.pcm.gov.lb",
+    "matched": "نواف سلام"
+   },
+   "planned": "http://www.presidency.gov.lb/"
+  },
+  "lc": {
+   "label": "Saint Lucia",
+   "hs": null,
+   "hg": {
+    "name": "Philip J. Pierre",
+    "wikidata": "Q7184214",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "http://www.govt.lc/",
+    "source": "http://www.govt.lc/",
+    "matched": "philip j. pierre"
+   },
+   "planned": "http://www.govt.lc/"
+  },
+  "lk": {
+   "label": "Sri Lanka",
+   "hs": {
+    "name": "Anura Kumara Dissanayake",
+    "wikidata": "Q4777855",
+    "title": "President",
+    "since": null,
+    "site": "https://www.president.gov.lk",
+    "source": "https://www.president.gov.lk",
+    "matched": "anura kumara dissanayake"
+   },
+   "hg": null,
+   "planned": "https://www.president.gov.lk"
+  },
+  "lr": {
+   "label": "Liberia",
+   "hs": {
+    "name": "Joseph Boakai",
+    "wikidata": "Q2630483",
+    "title": "President",
+    "since": {
+     "date": "2024-01-22",
+     "precision": "day"
+    },
+    "site": "http://www.emansion.gov.lr/",
+    "source": "https://www.emansion.gov.lr/general/biography-president-joseph-nyuma-boakai-sr",
+    "matched": "joseph boakai"
+   },
+   "hg": {
+    "name": "Joseph Boakai",
+    "wikidata": "Q2630483",
+    "title": "President",
+    "since": {
+     "date": "2024-01-22",
+     "precision": "day"
+    },
+    "site": "http://www.emansion.gov.lr/",
+    "source": "https://www.emansion.gov.lr/general/biography-president-joseph-nyuma-boakai-sr",
+    "matched": "joseph boakai"
+   },
+   "planned": "http://www.emansion.gov.lr/"
+  },
+  "ls": {
+   "label": "Lesotho",
+   "hs": null,
+   "hg": {
+    "name": "Sam Matekane",
+    "wikidata": "Q114588964",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.gov.ls/",
+    "source": "https://www.gov.ls/",
+    "matched": "sam matekane"
+   },
+   "planned": "https://www.gov.ls/"
+  },
+  "lt": {
+   "label": "Lithuania",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.president.lt/"
+  },
+  "lu": {
+   "label": "Luxembourg",
+   "hs": null,
+   "hg": {
+    "name": "Luc Frieden",
+    "wikidata": "Q592101",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://gouvernement.lu/fr.html",
+    "source": "https://gouvernement.lu/fr.html",
+    "matched": "luc frieden"
+   },
+   "planned": "http://www.monarchie.lu/"
+  },
+  "lv": {
+   "label": "Latvia",
+   "hs": {
+    "name": "Edgars Rinkēvičs",
+    "wikidata": "Q3047551",
+    "title": "President",
+    "since": {
+     "date": "2023",
+     "precision": "year"
+    },
+    "site": "https://www.president.lv/",
+    "source": "https://www.president.lv/",
+    "matched": "edgars rinkevics"
+   },
+   "hg": {
+    "name": "Andris Kulbergs",
+    "wikidata": "Q115604300",
+    "title": "Prime Minister",
+    "since": {
+     "date": "2026",
+     "precision": "year"
+    },
+    "site": "https://www.mk.gov.lv/",
+    "source": "https://www.mk.gov.lv/",
+    "matched": "andris kulbergs"
+   },
+   "planned": "https://www.president.lv/"
+  },
+  "ly": {
+   "label": "Libya",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.pm.gov.ly/"
+  },
+  "ma": {
+   "label": "Morocco",
+   "hs": {
+    "name": "Mohammed VI of Morocco",
+    "wikidata": "Q57553",
+    "title": "King",
+    "since": null,
+    "site": "https://maroc.ma/",
+    "source": "https://maroc.ma/",
+    "matched": "الملك محمد السادس"
+   },
+   "hg": null,
+   "planned": "https://maroc.ma/"
+  },
+  "md": {
+   "label": "Moldova",
+   "hs": {
+    "name": "Maia Sandu",
+    "wikidata": "Q15071069",
+    "title": "President",
+    "since": null,
+    "site": "https://presedinte.md/",
+    "source": "https://presedinte.md/",
+    "matched": "maia sandu"
+   },
+   "hg": {
+    "name": "Vasile Tofan",
+    "wikidata": "Q140480413",
+    "title": "Prime Minister",
+    "since": {
+     "date": "2026",
+     "precision": "year"
+    },
+    "site": "https://gov.md",
+    "source": "https://gov.md",
+    "matched": "vasile tofan"
+   },
+   "planned": "https://presedinte.md/"
+  },
+  "me": {
+   "label": "Montenegro",
+   "hs": null,
+   "hg": {
+    "name": "Milojko Spajić",
+    "wikidata": "Q101225458",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.gov.me",
+    "source": "https://www.gov.me",
+    "matched": "milojko spajic"
+   },
+   "planned": "http://www.predsjednik.me/"
+  },
+  "mg": {
+   "label": "Madagascar",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.primature.gov.mg/"
+  },
+  "mk": {
+   "label": "North Macedonia",
+   "hs": null,
+   "hg": null,
+   "planned": "http://pretsedatel.mk/"
+  },
+  "ml": {
+   "label": "Mali",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.primature.gov.ml"
+  },
+  "mm": {
+   "label": "Myanmar",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.myanmar.gov.mm/"
+  },
+  "mn": {
+   "label": "Mongolia",
+   "hs": null,
+   "hg": null,
+   "planned": "https://president.mn/"
+  },
+  "mr": {
+   "label": "Mauritania",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "mt": {
+   "label": "Malta",
+   "hs": {
+    "name": "Myriam Spiteri Debono",
+    "wikidata": "Q1647394",
+    "title": "President",
+    "since": {
+     "date": "2024",
+     "precision": "year"
+    },
+    "site": "https://president.gov.mt/",
+    "source": "https://president.gov.mt/",
+    "matched": "myriam spiteri debono"
+   },
+   "hg": null,
+   "planned": "https://president.gov.mt/"
+  },
+  "mu": {
+   "label": "Mauritius",
+   "hs": {
+    "name": "Dharam Gokhool",
+    "wikidata": "Q131403499",
+    "title": "President",
+    "since": {
+     "date": "2024-12-07",
+     "precision": "day"
+    },
+    "site": "http://president.gov.mu",
+    "source": "https://president.govmu.org/",
+    "matched": "dharambeer gokhool"
+   },
+   "hg": null,
+   "planned": "http://president.gov.mu"
+  },
+  "mv": {
+   "label": "Maldives",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.presidencymaldives.gov.mv/"
+  },
+  "mw": {
+   "label": "Malawi",
+   "hs": {
+    "name": "Peter Mutharika",
+    "wikidata": "Q7176020",
+    "title": "President",
+    "since": {
+     "date": "2025-10-04",
+     "precision": "day"
+    },
+    "site": "https://statehouse.mw/",
+    "source": "http://www.malawi.gov.mw/",
+    "matched": "arthur peter mutharika"
+   },
+   "hg": null,
+   "planned": "https://statehouse.mw/"
+  },
+  "mx": {
+   "label": "Mexico",
+   "hs": null,
+   "hg": null,
+   "planned": "http://presidencia.gob.mx/"
+  },
+  "my": {
+   "label": "Malaysia",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.istananegara.gov.my/"
+  },
+  "mz": {
+   "label": "Mozambique",
+   "hs": {
+    "name": "Daniel Francisco Chapo",
+    "wikidata": "Q97058466",
+    "title": "President",
+    "since": null,
+    "site": "https://portaldogoverno.gov.mz/informacao-geral/",
+    "source": "https://portaldogoverno.gov.mz/informacao-geral/",
+    "matched": "daniel francisco chapo"
+   },
+   "hg": {
+    "name": "Maria Benvinda Levy",
+    "wikidata": "Q6761049",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://portaldogoverno.gov.mz/informacao-geral/",
+    "source": "https://portaldogoverno.gov.mz/informacao-geral/",
+    "matched": "maria benvinda delfina levi"
+   },
+   "planned": "http://www.portaldogoverno.gov.mz/"
+  },
+  "na": {
+   "label": "Namibia",
+   "hs": null,
+   "hg": null,
+   "planned": "https://op.gov.na/"
+  },
+  "nc": {
+   "label": "New Caledonia",
+   "hs": null,
+   "hg": null,
+   "planned": "https://gouv.nc"
+  },
+  "ne": {
+   "label": "Niger",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.presidence.ne/"
+  },
+  "ng": {
+   "label": "Nigeria",
+   "hs": {
+    "name": "Bola Tinubu",
+    "wikidata": "Q3510872",
+    "title": "President",
+    "since": null,
+    "site": "http://www.statehouse.gov.ng/",
+    "source": "http://www.statehouse.gov.ng/",
+    "matched": "bola ahmed tinubu"
+   },
+   "hg": {
+    "name": "Bola Tinubu",
+    "wikidata": "Q3510872",
+    "title": "President",
+    "since": null,
+    "site": "http://www.statehouse.gov.ng/",
+    "source": "http://www.statehouse.gov.ng/",
+    "matched": "bola ahmed tinubu"
+   },
+   "planned": "http://www.statehouse.gov.ng/"
+  },
+  "ni": {
+   "label": "Nicaragua",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.presidencia.gob.ni/"
+  },
+  "nl": {
+   "label": "Netherlands",
+   "hs": null,
+   "hg": {
+    "name": "Rob Jetten",
+    "wikidata": "Q28860866",
+    "title": "Prime Minister",
+    "since": {
+     "date": "2026",
+     "precision": "year"
+    },
+    "site": "https://www.government.nl/ministries/ministry-of-general-affairs",
+    "source": "https://www.government.nl/ministries/ministry-of-general-affairs",
+    "matched": "rob jetten"
+   },
+   "planned": "https://www.government.nl/ministries/ministry-of-general-affairs"
+  },
+  "no": {
+   "label": "Norway",
+   "hs": {
+    "name": "Haakon VIII",
+    "wikidata": "Q165241",
+    "title": "Monarch",
+    "since": {
+     "date": "2026",
+     "precision": "year"
+    },
+    "site": "https://www.kongehuset.no/",
+    "source": "https://www.kongehuset.no/",
+    "matched": "kong haakon viii"
+   },
+   "hg": null,
+   "planned": "https://www.kongehuset.no/"
+  },
+  "np": {
+   "label": "Nepal",
+   "hs": {
+    "name": "Ram Chandra Paudel",
+    "wikidata": "Q3183124",
+    "title": "President",
+    "since": null,
+    "site": "https://www.presidentofnepal.gov.np/",
+    "source": "https://www.presidentofnepal.gov.np/",
+    "matched": "रामचनदर पौडेल"
+   },
+   "hg": null,
+   "planned": "https://www.presidentofnepal.gov.np/"
+  },
+  "nz": {
+   "label": "New Zealand",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.primeminister.govt.nz/"
+  },
+  "om": {
+   "label": "Oman",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "pa": {
+   "label": "Panama",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.presidencia.gob.pa/"
+  },
+  "pe": {
+   "label": "Peru",
+   "hs": {
+    "name": "Keiko Fujimori",
+    "wikidata": "Q235137",
+    "title": "President",
+    "since": {
+     "date": "2026",
+     "precision": "year"
+    },
+    "site": "http://www.presidencia.gob.pe/",
+    "source": "http://www.presidencia.gob.pe/",
+    "matched": "keiko sofia fujimori higuchi"
+   },
+   "hg": null,
+   "planned": "http://www.presidencia.gob.pe/"
+  },
+  "pg": {
+   "label": "Papua New Guinea",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.pm.gov.pg/"
+  },
+  "ph": {
+   "label": "Philippines",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.president.gov.ph/"
+  },
+  "pk": {
+   "label": "Pakistan",
+   "hs": {
+    "name": "Asif Ali Zardari",
+    "wikidata": "Q57373",
+    "title": "President",
+    "since": null,
+    "site": "http://www.president.gov.pk",
+    "source": "http://www.president.gov.pk",
+    "matched": "asif ali zardari"
+   },
+   "hg": {
+    "name": "Shehbaz Sharif",
+    "wikidata": "Q2096387",
+    "title": "Prime Minister",
+    "since": {
+     "date": "2024",
+     "precision": "year"
+    },
+    "site": "http://www.pakistan.gov.pk/",
+    "source": "http://www.pakistan.gov.pk/",
+    "matched": "mian muhammad shehbaz sharif"
+   },
+   "planned": "http://www.president.gov.pk"
+  },
+  "pl": {
+   "label": "Poland",
+   "hs": null,
+   "hg": {
+    "name": "Donald Tusk",
+    "wikidata": "Q946",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.gov.pl/web/premier",
+    "source": "https://www.gov.pl/web/premier",
+    "matched": "donald tusk"
+   },
+   "planned": "http://www.prezydent.pl"
+  },
+  "pr": {
+   "label": "Puerto Rico",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.fortaleza.gobierno.pr"
+  },
+  "ps": {
+   "label": "Palestinian Territories",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.president.ps/"
+  },
+  "pt": {
+   "label": "Portugal",
+   "hs": {
+    "name": "António José Seguro",
+    "wikidata": "Q1580316",
+    "title": "President",
+    "since": {
+     "date": "2026-03-09",
+     "precision": "day"
+    },
+    "site": "http://www.presidencia.pt",
+    "source": "https://www.presidencia.pt/presidente-da-republica/o-presidente/biografia/",
+    "matched": "antonio jose martins seguro"
+   },
+   "hg": {
+    "name": "Luís Montenegro",
+    "wikidata": "Q11764394",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "http://www.portugal.gov.pt",
+    "source": "http://www.portugal.gov.pt",
+    "matched": "luis montenegro"
+   },
+   "planned": "http://www.presidencia.pt"
+  },
+  "py": {
+   "label": "Paraguay",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.presidencia.gov.py"
+  },
+  "qa": {
+   "label": "Qatar",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.diwan.gov.qa/"
+  },
+  "ro": {
+   "label": "Romania",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.presidency.ro/"
+  },
+  "rs": {
+   "label": "Serbia",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.predsednik.rs/"
+  },
+  "ru": {
+   "label": "Russia",
+   "hs": {
+    "name": "Vladimir Putin",
+    "wikidata": "Q7747",
+    "title": "President",
+    "since": null,
+    "site": "http://en.kremlin.ru",
+    "source": "http://en.kremlin.ru",
+    "matched": "vladimir putin"
+   },
+   "hg": {
+    "name": "Mikhail Mishustin",
+    "wikidata": "Q4298520",
+    "title": "Prime Minister",
+    "since": {
+     "date": "2020-01-16",
+     "precision": "day"
+    },
+    "site": "http://premier.gov.ru/",
+    "source": "http://premier.gov.ru/",
+    "matched": "михаил владимирович мишустин"
+   },
+   "planned": "http://en.kremlin.ru"
+  },
+  "rw": {
+   "label": "Rwanda",
+   "hs": {
+    "name": "Paul Kagame",
+    "wikidata": "Q1231345",
+    "title": "President",
+    "since": null,
+    "site": "https://www.gov.rw/president",
+    "source": "https://www.gov.rw/president",
+    "matched": "paul kagame"
+   },
+   "hg": {
+    "name": "Justin Nsengiyumva",
+    "wikidata": "Q135454730",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://www.gov.rw/cabinet",
+    "source": "https://www.gov.rw/cabinet",
+    "matched": "dr. justin nsengiyumva"
+   },
+   "planned": "https://www.gov.rw/president"
+  },
+  "sa": {
+   "label": "Saudi Arabia",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.saudi.gov.sa"
+  },
+  "sb": {
+   "label": "Solomon Islands",
+   "hs": null,
+   "hg": null,
+   "planned": "https://solomons.gov.sb"
+  },
+  "sc": {
+   "label": "Seychelles",
+   "hs": {
+    "name": "Patrick Herminie",
+    "wikidata": "Q16190544",
+    "title": "President",
+    "since": null,
+    "site": "http://www.statehouse.gov.sc",
+    "source": "http://www.statehouse.gov.sc",
+    "matched": "patrick herminie"
+   },
+   "hg": {
+    "name": "Patrick Herminie",
+    "wikidata": "Q16190544",
+    "title": "President",
+    "since": null,
+    "site": "http://www.statehouse.gov.sc",
+    "source": "http://www.statehouse.gov.sc",
+    "matched": "patrick herminie"
+   },
+   "planned": "http://www.statehouse.gov.sc"
+  },
+  "sd": {
+   "label": "Sudan",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.sudan.gov.sd/"
+  },
+  "se": {
+   "label": "Sweden",
+   "hs": null,
+   "hg": {
+    "name": "Ulf Kristersson",
+    "wikidata": "Q1780398",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "http://www.regeringen.se/sveriges-regering/statsradsberedningen/",
+    "source": "http://www.regeringen.se/sveriges-regering/statsradsberedningen/",
+    "matched": "ulf kristersson"
+   },
+   "planned": "http://www.regeringen.se/sveriges-regering/statsradsberedningen/"
+  },
+  "sg": {
+   "label": "Singapore",
+   "hs": {
+    "name": "Tharman Shanmugaratnam",
+    "wikidata": "Q983752",
+    "title": "President",
+    "since": null,
+    "site": "https://www.istana.gov.sg",
+    "source": "https://www.istana.gov.sg",
+    "matched": "tharman shanmugaratnam"
+   },
+   "hg": {
+    "name": "Lawrence Wong",
+    "wikidata": "Q6504758",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "https://pmo.gov.sg/",
+    "source": "https://pmo.gov.sg/",
+    "matched": "lawrence wong"
+   },
+   "planned": "https://www.istana.gov.sg"
+  },
+  "si": {
+   "label": "Slovenia",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.up-rs.si/"
+  },
+  "sk": {
+   "label": "Slovakia",
+   "hs": {
+    "name": "Peter Pellegrini",
+    "wikidata": "Q17330556",
+    "title": "President",
+    "since": {
+     "date": "2024",
+     "precision": "year"
+    },
+    "site": "https://www.prezident.sk/",
+    "source": "https://www.prezident.sk/",
+    "matched": "peter pellegrini"
+   },
+   "hg": null,
+   "planned": "https://www.prezident.sk/"
+  },
+  "sl": {
+   "label": "Sierra Leone",
+   "hs": {
+    "name": "Julius Maada Bio",
+    "wikidata": "Q283829",
+    "title": "President",
+    "since": null,
+    "site": "http://www.statehouse.gov.sl/",
+    "source": "http://www.statehouse.gov.sl/",
+    "matched": "julius maada bio"
+   },
+   "hg": null,
+   "planned": "http://www.statehouse.gov.sl/"
+  },
+  "sn": {
+   "label": "Senegal",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.sec.gouv.sn/"
+  },
+  "so": {
+   "label": "Somalia",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.villasomalia.gov.so"
+  },
+  "sr": {
+   "label": "Suriname",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.kabinet.sr.org/index.htm"
+  },
+  "ss": {
+   "label": "South Sudan",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "st": {
+   "label": "São Tomé and Príncipe",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "sv": {
+   "label": "El Salvador",
+   "hs": {
+    "name": "Nayib Bukele",
+    "wikidata": "Q17712353",
+    "title": "President",
+    "since": null,
+    "site": "http://www.presidencia.gob.sv/",
+    "source": "http://www.presidencia.gob.sv/",
+    "matched": "nayib bukele"
+   },
+   "hg": {
+    "name": "Nayib Bukele",
+    "wikidata": "Q17712353",
+    "title": "President",
+    "since": null,
+    "site": "http://www.presidencia.gob.sv/",
+    "source": "http://www.presidencia.gob.sv/",
+    "matched": "nayib bukele"
+   },
+   "planned": "http://www.presidencia.gob.sv/"
+  },
+  "sy": {
+   "label": "Syria",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "sz": {
+   "label": "Eswatini",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.gov.sz/"
+  },
+  "td": {
+   "label": "Chad",
+   "hs": {
+    "name": "Mahamat Idriss Déby Itno",
+    "wikidata": "Q16206405",
+    "title": "President",
+    "since": null,
+    "site": "http://www.presidencetchad.org/",
+    "source": "http://www.presidencetchad.org/",
+    "matched": "mahamat idriss deby itno"
+   },
+   "hg": null,
+   "planned": "http://www.presidencetchad.org/"
+  },
+  "tf": {
+   "label": "French Southern Territories",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "tg": {
+   "label": "Togo",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "th": {
+   "label": "Thailand",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.royaloffice.th/"
+  },
+  "tj": {
+   "label": "Tajikistan",
+   "hs": {
+    "name": "Emomali Rahmon",
+    "wikidata": "Q57366",
+    "title": "President",
+    "since": null,
+    "site": "http://www.prezident.tj",
+    "source": "http://www.prezident.tj",
+    "matched": "эмомали раҳмон"
+   },
+   "hg": null,
+   "planned": "http://www.prezident.tj"
+  },
+  "tl": {
+   "label": "Timor-Leste",
+   "hs": null,
+   "hg": {
+    "name": "Xanana Gusmão",
+    "wikidata": "Q11509",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "http://timor-leste.gov.tl/?p=13",
+    "source": "http://timor-leste.gov.tl/?p=13",
+    "matched": "kay rala xanana gusmao"
+   },
+   "planned": "http://presidenciarepublica.tl/"
+  },
+  "tm": {
+   "label": "Turkmenistan",
+   "hs": {
+    "name": "Serdar Berdimuhamedow",
+    "wikidata": "Q51874548",
+    "title": "President",
+    "since": null,
+    "site": "http://www.turkmenistan.gov.tm/",
+    "source": "http://www.turkmenistan.gov.tm/",
+    "matched": "serdar gurbangulyyewic berdimuhamedow"
+   },
+   "hg": {
+    "name": "Serdar Berdimuhamedow",
+    "wikidata": "Q51874548",
+    "title": "President",
+    "since": null,
+    "site": "http://www.turkmenistan.gov.tm/",
+    "source": "http://www.turkmenistan.gov.tm/",
+    "matched": "serdar gurbangulyyewic berdimuhamedow"
+   },
+   "planned": "http://www.turkmenistan.gov.tm/"
+  },
+  "tn": {
+   "label": "Tunisia",
+   "hs": {
+    "name": "Kais Saied",
+    "wikidata": "Q16120878",
+    "title": "President",
+    "since": null,
+    "site": "http://www.carthage.tn/",
+    "source": "http://www.carthage.tn/",
+    "matched": "قيس سعيد"
+   },
+   "hg": {
+    "name": "Sara Zaafarani",
+    "wikidata": "Q108892374",
+    "title": "Prime Minister",
+    "since": null,
+    "site": "http://www.pm.gov.tn/pm/content/index.php",
+    "source": "http://www.pm.gov.tn/pm/content/index.php",
+    "matched": "سارة الزعفراني"
+   },
+   "planned": "http://www.carthage.tn/"
+  },
+  "tr": {
+   "label": "Türkiye",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.tccb.gov.tr/"
+  },
+  "tt": {
+   "label": "Trinidad and Tobago",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.thepresident.tt"
+  },
+  "tw": {
+   "label": "Taiwan",
+   "hs": {
+    "name": "Lai Ching-te",
+    "wikidata": "Q3847080",
+    "title": "President",
+    "since": null,
+    "site": "https://www.president.gov.tw/",
+    "source": "https://www.president.gov.tw/",
+    "matched": "賴清德總統"
+   },
+   "hg": {
+    "name": "Cho Jung-tai",
+    "wikidata": "Q5116472",
+    "title": "Premier",
+    "since": null,
+    "site": "http://www.ey.gov.tw/en/Member_Info.aspx?n=9D8DE2B443B545C3&s=28FDA1134172509E",
+    "source": "http://www.ey.gov.tw/en/Member_Info.aspx?n=9D8DE2B443B545C3&s=28FDA1134172509E",
+    "matched": "卓榮泰"
+   },
+   "planned": "https://www.president.gov.tw/"
+  },
+  "tz": {
+   "label": "Tanzania",
+   "hs": {
+    "name": "Samia Suluhu Hassan",
+    "wikidata": "Q16193885",
+    "title": "President",
+    "since": null,
+    "site": "http://www.ikulu.go.tz",
+    "source": "https://www.ikulu.go.tz/cabinet",
+    "matched": "samia suluhu hassan"
+   },
+   "hg": {
+    "name": "Samia Suluhu Hassan",
+    "wikidata": "Q16193885",
+    "title": "President",
+    "since": null,
+    "site": "http://www.ikulu.go.tz",
+    "source": "https://www.ikulu.go.tz/cabinet",
+    "matched": "samia suluhu hassan"
+   },
+   "planned": "http://www.ikulu.go.tz"
+  },
+  "ua": {
+   "label": "Ukraine",
+   "hs": null,
+   "hg": {
+    "name": "Serhii Koretskyi",
+    "wikidata": "Q124101558",
+    "title": "Prime Minister",
+    "since": {
+     "date": "2026",
+     "precision": "year"
+    },
+    "site": "https://www.kmu.gov.ua",
+    "source": "https://www.kmu.gov.ua",
+    "matched": "сергіи корецькии"
+   },
+   "planned": "https://president.gov.ua"
+  },
+  "ug": {
+   "label": "Uganda",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.statehouse.go.ug/"
+  },
+  "us": {
+   "label": "United States",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "uy": {
+   "label": "Uruguay",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.gub.uy/"
+  },
+  "uz": {
+   "label": "Uzbekistan",
+   "hs": {
+    "name": "Shavkat Mirziyoyev",
+    "wikidata": "Q57808",
+    "title": "President",
+    "since": {
+     "date": "2016-12-14",
+     "precision": "day"
+    },
+    "site": "https://gov.uz/en/pages/president",
+    "source": "https://gov.uz/en/pages/president",
+    "matched": "shavkat mirziyoyev"
+   },
+   "hg": null,
+   "planned": "https://www.gov.uz/en"
+  },
+  "vc": {
+   "label": "Saint Vincent and the Grenadines",
+   "hs": {
+    "name": "Charles III",
+    "wikidata": "Q43274",
+    "title": "Monarch",
+    "since": null,
+    "site": "https://www.gov.vc/index.php/visitors/about-svg",
+    "source": "https://www.gov.vc/index.php/visitors/about-svg",
+    "matched": "king charles iii"
+   },
+   "hg": null,
+   "planned": "https://www.gov.vc/"
+  },
+  "ve": {
+   "label": "Venezuela",
+   "hs": {
+    "name": "Delcy Rodríguez",
+    "wikidata": "Q15081116",
+    "title": "President",
+    "since": null,
+    "site": "http://www.presidencia.gob.ve/",
+    "source": "http://www.presidencia.gob.ve/",
+    "matched": "delcy rodriguez"
+   },
+   "hg": null,
+   "planned": "http://www.presidencia.gob.ve/"
+  },
+  "vn": {
+   "label": "Vietnam",
+   "hs": null,
+   "hg": null,
+   "planned": "http://vpctn.gov.vn/Pages/trangchu.aspx"
+  },
+  "vu": {
+   "label": "Vanuatu",
+   "hs": null,
+   "hg": null,
+   "planned": "https://www.gov.vu/"
+  },
+  "xk": {
+   "label": "Kosovo",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.president-ksgov.net/"
+  },
+  "ye": {
+   "label": "Yemen",
+   "hs": {
+    "name": "Rashad al-Alimi",
+    "wikidata": "Q12213376",
+    "title": "President",
+    "since": null,
+    "site": "https://presidentalalimi.net/",
+    "source": "https://presidentalalimi.net/",
+    "matched": "الدكتور رشاد محمد العليمي"
+   },
+   "hg": null,
+   "planned": "https://presidentalalimi.net/"
+  },
+  "za": {
+   "label": "South Africa",
+   "hs": {
+    "name": "Cyril Ramaphosa",
+    "wikidata": "Q1148669",
+    "title": "President",
+    "since": null,
+    "site": "https://thepresidency.gov.za",
+    "source": "https://thepresidency.gov.za",
+    "matched": "cyril ramaphosa"
+   },
+   "hg": {
+    "name": "Cyril Ramaphosa",
+    "wikidata": "Q1148669",
+    "title": "President",
+    "since": null,
+    "site": "https://thepresidency.gov.za",
+    "source": "https://thepresidency.gov.za",
+    "matched": "cyril ramaphosa"
+   },
+   "planned": "https://thepresidency.gov.za"
+  },
+  "zm": {
+   "label": "Zambia",
+   "hs": null,
+   "hg": null,
+   "planned": null
+  },
+  "zw": {
+   "label": "Zimbabwe",
+   "hs": null,
+   "hg": null,
+   "planned": "http://www.opc.gov.zw/"
+  }
+ }
+}

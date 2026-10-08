@@ -6,7 +6,7 @@
  "stateEquivalents": 4315,
  "cities": 1122,
  "leaders": {
-  "countries": 12,
+  "countries": 100,
   "stateEquivalents": 64,
   "cities": 0
  },
@@ -24,5 +24,16 @@
  "briefs": {
   "energySlots": 11,
   "sectorSlots": 0
+ },
+ "heads": {
+  "headOfState": 81,
+  "headOfGovernment": 70,
+  "both": 51
+ },
+ "sectors": {
+  "countries": 181
+ },
+ "energyMix": {
+  "countries": 181
  }
 }

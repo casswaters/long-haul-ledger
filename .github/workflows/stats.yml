@@ -1,5 +1,5 @@
 # Official stats pipeline — free GitHub Actions only ($0, no API keys).
-# Daily: FRED graph CSV series (prices, activity, capital) and the World Bank Pink Sheet (gold, silver, copper). Weekly: World Bank WDI per country.
+# Daily: FRED graph CSV series (prices, activity, capital) and the World Bank Pink Sheet (gold, silver, copper). Weekly: World Bank WDI per country, sector shares and the OWID electricity mix.
 # A failed series keeps its last good value (flagged) and is logged; files change only on new data.
 name: Official stats
 
@@ -50,6 +50,16 @@ jobs:
         if: github.event.schedule == '40 6 * * 1' || (github.event_name == 'workflow_dispatch' && inputs.worldbank)
         run: node scripts/fetch-stats.mjs worldbank
 
+      - name: World Bank sector shares → data/stats/sectors.json (weekly / manual)
+        if: github.event.schedule == '40 6 * * 1' || (github.event_name == 'workflow_dispatch' && inputs.worldbank)
+        continue-on-error: true
+        run: node scripts/fetch-stats.mjs sectors
+
+      - name: Electricity mix (Our World in Data) → data/stats/energy-mix.json (weekly / manual)
+        if: github.event.schedule == '40 6 * * 1' || (github.event_name == 'workflow_dispatch' && inputs.worldbank)
+        continue-on-error: true
+        run: node scripts/fetch-stats.mjs energymix
+
       - name: World Bank Pink Sheet → data/stats/benchmarks.json (gold, silver, copper; monthly)
         continue-on-error: true
         run: node scripts/fetch-stats.mjs pinksheet
@@ -74,5 +84,5 @@ jobs:
           publish_dir: .
           publish_branch: gh-pages
           force_orphan: false
-          exclude_assets: '.github,node_modules,scripts,.gitignore,package-lock.json,shots.mjs,qa-retone.mjs,ledger.test.js,stats.test.mjs,location.test.mjs,energy.test.mjs,economy.test.mjs,signup.test.mjs,reorient.test.mjs,phase0.test.mjs,archive.html,data/monday-haul,hauls,BUILD-PLAN.md,RESEARCH-RUNS.md,BRIEF.md,ROADMAP.md,data/news-cache'
+          exclude_assets: '.github,node_modules,scripts,.gitignore,package-lock.json,shots.mjs,qa-retone.mjs,ledger.test.js,stats.test.mjs,location.test.mjs,energy.test.mjs,economy.test.mjs,signup.test.mjs,reorient.test.mjs,phase0.test.mjs,phase1.test.mjs,archive.html,data/monday-haul,hauls,BUILD-PLAN.md,RESEARCH-RUNS.md,BRIEF.md,ROADMAP.md,data/news-cache'
           commit_message: 'Deploy official stats'

@@ -106,7 +106,7 @@ assert('former placeholders are Not yet covered rows with a planned source', lea
 assert('brief missing says Not yet covered with planned source and checked date', /Not yet covered\.<\/strong> Planned source:/.test(read('./sectorui.js')) && /Checked \$\{esc\(ctx\.checked\)\}/.test(read('./sectorui.js')));
 const cov = buildCoverage({ now: NOW });
 assert('coverage: real counts from the files (187 countries, 4,315 state equivalents, 1,122 cities)', cov.countries === 187 && cov.stateEquivalents === 4315 && cov.cities === 1122 && cov.leaders.countries > 0);
-assert('coverage line reads like a sentence with counts', /^Coverage today: leaders for \d+ of 187 countries/.test(coverageLine(cov)));
+assert('coverage line reads like a sentence with counts', /^Coverage today: .*leaders for \d+ of 187 countries/.test(coverageLine(cov)));
 const ix = read('./index.html');
 assert('Method page has the data-built coverage line', /id="method-coverage" data-built/.test(ix) && /renderCoverageLine/.test(app));
 assert('data/coverage.json committed', json('./data/coverage.json').countries === 187);
