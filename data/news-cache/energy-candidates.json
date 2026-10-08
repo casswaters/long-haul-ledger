@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-07T23:25:39.506Z",
+ "generatedAt": "2026-10-08T00:18:29.314Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -259,23 +259,51 @@
      ]
     },
     "oil": {
-     "brief": "missing",
+     "brief": "ready",
      "candidates": [
+      {
+       "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
+       "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
+       "source": "Argus Media",
+       "published": "2026-10-07T17:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "Marine Minerals Administration (BSEE newsroom), Oct. 6 shut-in report",
+         "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-activities-invest-92l",
+         "primary": true
+        },
+        {
+         "name": "Argus Media",
+         "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
+      },
       {
        "title": "IEA members support faster release of reserve oil stocks",
        "url": "https://www.thenationalnews.com/business/energy/2026/10/07/iea-members-support-faster-release-of-reserve-oil-stocks/",
        "source": "The National (UAE)",
        "published": "2026-10-07T16:30:42.000Z",
-       "verification": "multiple",
+       "verification": "confirmed",
        "outlets": [
+        {
+         "name": "IEA (Executive Director statement)",
+         "url": "https://www.iea.org/news/statement-by-iea-executive-director-on-meeting-of-iea-member-governments-on-7-october-2026",
+         "primary": true
+        },
         {
          "name": "The National (UAE)",
          "url": "https://www.thenationalnews.com/business/energy/2026/10/07/iea-members-support-faster-release-of-reserve-oil-stocks/",
          "primary": false
         },
         {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/economy/iea-members-back-faster-oil-stock-releases-prioritizing-diesel/4081236",
+         "name": "Argus Media",
+         "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887710-iea-discusses-stock-release-details-still-scant",
          "primary": false
         }
        ],
@@ -299,6 +327,22 @@
        "blurb": "Albertans vote this month on staying in Canada or moving ahead to a binding independence referendum."
       },
       {
+       "title": "EIA raises Brent forecast to $105 a barrel for Q4 2026; gas-heated homes to spend less this winter",
+       "url": "https://www.eia.gov/outlooks/steo/",
+       "source": "US Energy Information Administration",
+       "published": "2026-10-06T16:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "EIA Short-Term Energy Outlook (Oct. 6, 2026)",
+         "url": "https://www.eia.gov/outlooks/steo/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
+      },
+      {
        "title": "Govt raises petrol price by Rs1.82 per litre, reduces high-speed diesel rate by Re0.91",
        "url": "https://www.dawn.com/news/2035445/govt-raises-petrol-price-by-rs182-per-litre-reduces-high-speed-diesel-rate-by-re091",
        "source": "Dawn Business",
@@ -313,6 +357,22 @@
        ],
        "stages": [],
        "blurb": "body{margin:0;padding:0;font-family:system-ui,-apple-system,sans-serif;overflow-wrap:anywhere;} Pakistan fuel prices, 2026 Official ex-depot prices (PKR/litre) — OGRA & Ministry of Energy notifications Petrol (MS-92) Diesel (HSD) Pre-crisis baseline Source: OGRA / Ministry of Ene"
+      },
+      {
+       "title": "Oil Fuel Fund mulls loan options",
+       "url": "https://www.bangkokpost.com/business/general/3333230/oil-fuel-fund-mulls-loan-options",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-07T23:03:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333230/oil-fuel-fund-mulls-loan-options",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "blurb": "The Energy Ministry has stressed that borrowing money from banks to shore up the loss-riddled Oil Fuel Fund is a last resort, despite the fund's deficit approaching 100 billion baht."
       },
       {
        "title": "Iran has 'lost complete control' of Strait of Hormuz', US claims",
@@ -347,24 +407,6 @@
        "blurb": "NASA's Fire Information for Resource Management System (FIRMS), which uses satellite data to detect thermal anomalies and fires, detected multiple hotspots at the facility."
       },
       {
-       "title": "Oil Dips as Middle East Flows Recover",
-       "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-07T20:43:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "blurb": "Brent closed near $100 as traders weighed escalating Hormuz threats against resilient regional oil exports."
-      },
-      {
        "title": "Chevron to sell Hess Midstream stake and DJ Basin assets",
        "url": "https://www.offshore-technology.com/news/chevron-sell-hess-midstream-dj-basin/",
        "source": "Offshore Technology",
@@ -384,6 +426,24 @@
        ],
        "stages": [],
        "blurb": "Chevron has agreed to divest its ownership interests in Hess Midstream, along with its crude oil midstream assets in the Denver Julesburg (DJ) Basin in the US, as part of a transaction with Hess Midstream."
+      },
+      {
+       "title": "Oil Dips as Middle East Flows Recover",
+       "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-07T20:43:41.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "blurb": "Brent closed near $100 as traders weighed escalating Hormuz threats against resilient regional oil exports."
       },
       {
        "title": "Iran war disruption creates ‘huge’ oil trading opportunities, Vitol says",
@@ -419,62 +479,35 @@
        ],
        "stages": [],
        "blurb": "Premier expects measure to cut diesel prices by $0.13-$0.20 per liter"
-      },
-      {
-       "title": "2027: Duke vows to reduce petrol price to ₦300 per litre if elected president",
-       "url": "https://www.premiumtimesng.com/regional/south-south-regional/915294-2027-duke-vows-to-reduce-petrol-price-to-%e2%82%a6300-per-litre-if-elected-president.html",
-       "source": "Premium Times (Nigeria)",
-       "published": "2026-10-07T18:00:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Premium Times (Nigeria)",
-         "url": "https://www.premiumtimesng.com/regional/south-south-regional/915294-2027-duke-vows-to-reduce-petrol-price-to-%e2%82%a6300-per-litre-if-elected-president.html",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "blurb": "PRP presidential candidate Donald Duke says he will cut petrol to ₦300 per litre by allocating part of Nigeria’s crude production for domestic consumption, challenging the subsidy-free approach of President Tinubu and rival 2027 contenders. The post 2027: Duke vows to reduce petr"
-      },
-      {
-       "title": "Asia shares weaker, oil up as investors weigh Saudi-Houthi escalation",
-       "url": "https://www.straitstimes.com/business/asia-shares-weaker-oil-up-as-investors-weigh-saudi-houthi-escalation",
-       "source": "The Straits Times Business",
-       "published": "2026-10-07T07:20:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/asia-shares-weaker-oil-up-as-investors-weigh-saudi-houthi-escalation",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "blurb": "In Asian trading, US crude ticked up 0.9% to US$90.2 a barrel."
-      },
-      {
-       "title": "EIA: US crude oil inventories down 3.2 million bbl",
-       "url": "https://www.ogj.com/general-interest/economics-markets/news/55410217/eia-us-crude-oil-inventories-down-32-million-bbl",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-07T15:09:33.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410217/eia-us-crude-oil-inventories-down-32-million-bbl",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "blurb": "At 424.1 million bbl, US crude oil inventories are 1% above the 5-year average for this time of year, the Energy Information Administration report indicated."
       }
      ]
     },
     "gas": {
-     "brief": "missing",
+     "brief": "ready",
      "candidates": [
+      {
+       "title": "Equinor says Hammerfest LNG upgrade costs climb further",
+       "url": "https://lngprime.com/europe/equinor-says-hammerfest-lng-upgrade-costs-climb-further/198023/",
+       "source": "LNG Prime",
+       "published": "2026-10-07T09:13:12.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "Equinor (news release)",
+         "url": "https://www.equinor.com/news/20261007-updated-cost-estimate-snohvit-future",
+         "primary": true
+        },
+        {
+         "name": "Reuters (via Baird Maritime)",
+         "url": "https://www.bairdmaritime.com/shipping/tankers/gas/equinors-emissions-project-at-lng-plant-becomes-increasingly-costly",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "blurb": "Costs for Equinor’s Snohvit Future project, which includes upgrading the 4.3 mtpa Hammerfest LNG export facility on Melkoya Island in Norway, have increased further from the original estimates."
+      },
       {
        "title": "‘Surprised’ by Demand, Great Basin Goes Bigger on Nevada Natural Gas Expansion",
        "url": "https://naturalgasintel.com/news/surprised-by-demand-great-basin-goes-bigger-on-nevada-natural-gas-expansion/",
@@ -674,22 +707,6 @@
         "innovation"
        ],
        "blurb": "Sempra Infrastructure is advancing commissioning at Port Arthur LNG, with new startup activity bringing the Texas project closer to adding another major source of natural gas demand along the Gulf Coast."
-      },
-      {
-       "title": "Norwegian Car Carriers orders more LNG-powered PCTCs in China",
-       "url": "https://lngprime.com/asia/norwegian-car-carriers-orders-more-lng-powered-pctcs-in-china/198035/",
-       "source": "LNG Prime",
-       "published": "2026-10-07T09:59:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/asia/norwegian-car-carriers-orders-more-lng-powered-pctcs-in-china/198035/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "blurb": "JP Morgan’s Norwegian Car Carriers (NOCC) has ordered more LNG dual-fuel pure car and truck carriers from China’s CIMC Raffles in Yantai."
       }
      ]
     },
@@ -2121,8 +2138,47 @@
      ]
     },
     "oil": {
-     "brief": "missing",
+     "brief": "ready",
      "candidates": [
+      {
+       "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
+       "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
+       "source": "Argus Media",
+       "published": "2026-10-07T17:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "Marine Minerals Administration (BSEE newsroom), Oct. 6 shut-in report",
+         "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-activities-invest-92l",
+         "primary": true
+        },
+        {
+         "name": "Argus Media",
+         "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
+      },
+      {
+       "title": "EIA raises Brent forecast to $105 a barrel for Q4 2026; gas-heated homes to spend less this winter",
+       "url": "https://www.eia.gov/outlooks/steo/",
+       "source": "US Energy Information Administration",
+       "published": "2026-10-06T16:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "EIA Short-Term Energy Outlook (Oct. 6, 2026)",
+         "url": "https://www.eia.gov/outlooks/steo/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
+      },
       {
        "title": "Iran has 'lost complete control' of Strait of Hormuz', US claims",
        "url": "https://www.thenationalnews.com/news/mena/2026/10/07/iran-has-lost-complete-control-of-strait-of-hormuz-us-claims/",
@@ -2250,8 +2306,13 @@
        "url": "https://www.ogj.com/general-interest/government/news/55409584/us-blm-sets-december-california-oil-gas-lease-sale",
        "source": "Oil & Gas Journal",
        "published": "2026-10-05T16:05:27.000Z",
-       "verification": "unconfirmed",
+       "verification": "confirmed",
        "outlets": [
+        {
+         "name": "Bureau of Land Management (press release)",
+         "url": "https://www.blm.gov/press-release/blm-announces-december-2026-sale-oil-and-gas-leases-california",
+         "primary": true
+        },
         {
          "name": "Oil & Gas Journal",
          "url": "https://www.ogj.com/general-interest/government/news/55409584/us-blm-sets-december-california-oil-gas-lease-sale",
@@ -2280,22 +2341,6 @@
        "blurb": "More than 100 oil and gas firm executives revealed where they expect the WTI crude oil price to be at various points in the future in the third quarter Dallas Fed Energy Survey."
       },
       {
-       "title": "Liberia: Supreme Court Takes Up U.S.$3.2m Ducor Petroleum Escrow Dispute",
-       "url": "https://allafrica.com/stories/202610070234.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T09:33:57.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070234.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "blurb": "[Liberian Observer] The Supreme Court has assumed supervisory jurisdiction over a contentious US$3.2 million dispute involving Ducor Petroleum Inc.'s escrow funds after the Monrovia Trading Corporation (MOTC) acknowledged that it is unable to restitute money withdrawn from a cour"
-      },
-      {
        "title": "Diesel prices are rising worldwide. So are electric truck sales.",
        "url": "https://www.canarymedia.com/articles/clean-fleets/diesel-prices-electric-truck-sales",
        "source": "Canary Media",
@@ -2310,29 +2355,11 @@
        ],
        "stages": [],
        "blurb": "See more from Canary Media’s ​“Chart of the Week” column . The market for battery-powered trucks may be slowing in the U.S. — but globally it’s a very different story. Worldwide, sales of medium- and heavy-duty electric trucks hit a record high in the first half of this year, acc"
-      },
-      {
-       "title": "Oil Is Flowing From the Persian Gulf, but Prices Remain High. Why?",
-       "url": "https://www.nytimes.com/2026/10/01/business/energy-environment/oil-prices-iran-war-trump.html",
-       "source": "NYT Climate / Energy",
-       "published": "2026-10-01T09:06:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NYT Climate / Energy",
-         "url": "https://www.nytimes.com/2026/10/01/business/energy-environment/oil-prices-iran-war-trump.html",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "blurb": "Crude oil costs close to $100 a barrel because traders are worried hostilities could soon restart and the world is burning through its emergency stockpiles."
       }
      ]
     },
     "gas": {
-     "brief": "missing",
+     "brief": "ready",
      "candidates": [
       {
        "title": "‘Surprised’ by Demand, Great Basin Goes Bigger on Nevada Natural Gas Expansion",
@@ -3050,6 +3077,68 @@
         "generation"
        ],
        "blurb": "On a sunny September day in New York City, I followed a throng of people off the subway and into Queens’ Flushing Meadows Corona Park. The crowds were there for the U.S. Open tennis tournament, but I wasn’t — I’d come to see a novel experiment to wean the city’s iconic food carts"
+      }
+     ]
+    }
+   }
+  },
+  "us-la": {
+   "label": "Louisiana",
+   "level": "admin1",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
+       "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
+       "source": "Argus Media",
+       "published": "2026-10-07T17:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "Marine Minerals Administration (BSEE newsroom), Oct. 6 shut-in report",
+         "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-activities-invest-92l",
+         "primary": true
+        },
+        {
+         "name": "Argus Media",
+         "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
+      }
+     ]
+    },
+    "gas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Centalion buys Silver Hill’s Haynesville natural gas assets",
+       "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
+       "source": "Offshore Technology",
+       "published": "2026-10-06T09:45:47.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/centalion-buys-haynesville-natural-gas-assets/197958/",
+         "primary": false
+        },
+        {
+         "name": "Offshore Technology",
+         "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "blurb": "Centalion, formerly known as Gunvor, has acquired a portfolio of upstream and midstream natural gas assets in Texas and Louisiana from US-based private energy company Silver Hill Energy Partners."
       }
      ]
     }
@@ -3849,8 +3938,13 @@
        "url": "https://www.ogj.com/general-interest/government/news/55409584/us-blm-sets-december-california-oil-gas-lease-sale",
        "source": "Oil & Gas Journal",
        "published": "2026-10-05T16:05:27.000Z",
-       "verification": "unconfirmed",
+       "verification": "confirmed",
        "outlets": [
+        {
+         "name": "Bureau of Land Management (press release)",
+         "url": "https://www.blm.gov/press-release/blm-announces-december-2026-sale-oil-and-gas-leases-california",
+         "primary": true
+        },
         {
          "name": "Oil & Gas Journal",
          "url": "https://www.ogj.com/general-interest/government/news/55409584/us-blm-sets-december-california-oil-gas-lease-sale",
@@ -5025,6 +5119,29 @@
        "blurb": "Equinor on Wednesday again said it would cost more than expected to extend the life of its Hammerfest LNG export facility in Norway, pushing the cost estimate up to about $2.76 billion, but saying the project remains on track to be completed on time."
       },
       {
+       "title": "Equinor says Hammerfest LNG upgrade costs climb further",
+       "url": "https://lngprime.com/europe/equinor-says-hammerfest-lng-upgrade-costs-climb-further/198023/",
+       "source": "LNG Prime",
+       "published": "2026-10-07T09:13:12.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "Equinor (news release)",
+         "url": "https://www.equinor.com/news/20261007-updated-cost-estimate-snohvit-future",
+         "primary": true
+        },
+        {
+         "name": "Reuters (via Baird Maritime)",
+         "url": "https://www.bairdmaritime.com/shipping/tankers/gas/equinors-emissions-project-at-lng-plant-becomes-increasingly-costly",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "blurb": "Costs for Equinor’s Snohvit Future project, which includes upgrading the 4.3 mtpa Hammerfest LNG export facility on Melkoya Island in Norway, have increased further from the original estimates."
+      },
+      {
        "title": "Norwegian Car Carriers orders more LNG-powered PCTCs in China",
        "url": "https://lngprime.com/asia/norwegian-car-carriers-orders-more-lng-powered-pctcs-in-china/198035/",
        "source": "LNG Prime",
@@ -5039,24 +5156,6 @@
        ],
        "stages": [],
        "blurb": "JP Morgan’s Norwegian Car Carriers (NOCC) has ordered more LNG dual-fuel pure car and truck carriers from China’s CIMC Raffles in Yantai."
-      },
-      {
-       "title": "Equinor says Hammerfest LNG upgrade costs climb further",
-       "url": "https://lngprime.com/europe/equinor-says-hammerfest-lng-upgrade-costs-climb-further/198023/",
-       "source": "LNG Prime",
-       "published": "2026-10-07T09:13:12.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/europe/equinor-says-hammerfest-lng-upgrade-costs-climb-further/198023/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "blurb": "Costs for Equinor’s Snohvit Future project, which includes upgrading the 4.3 mtpa Hammerfest LNG export facility on Melkoya Island in Norway, have increased further from the original estimates."
       },
       {
        "title": "Wallenius Wilhelmsen in advanced talks with yards to order LNG-powered vessels",
@@ -5554,27 +5653,6 @@
         "generation"
        ],
        "blurb": "Nuclear Power Corporation of India Limited and Gujarat State Electricity Corporation Limited have signed a memorandum of understanding to explore and identify suitable sites in India's Gujarat state for new nuclear power plant projects."
-      }
-     ]
-    },
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Volatility triggered by CAS surges on NSE on expiry day",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/volatility-triggered-by-cas-surges-on-nse-on-expiry-day/articleshow/134753147.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-07T00:36:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/volatility-triggered-by-cas-surges-on-nse-on-expiry-day/articleshow/134753147.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "blurb": "The Closing Auction Session faced volatility as weekly derivatives contracts expired in Indian markets. Nifty surged over 300 points and then dropped significantly while Sensex also fluctuated. This market movement occurred due to falling Brent crude oil prices and global market "
       }
      ]
     },
@@ -7388,40 +7466,6 @@
     }
    }
   },
-  "us-la": {
-   "label": "Louisiana",
-   "level": "admin1",
-   "sources": {
-    "gas": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Centalion buys Silver Hill’s Haynesville natural gas assets",
-       "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
-       "source": "Offshore Technology",
-       "published": "2026-10-06T09:45:47.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/americas/centalion-buys-haynesville-natural-gas-assets/197958/",
-         "primary": false
-        },
-        {
-         "name": "Offshore Technology",
-         "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "blurb": "Centalion, formerly known as Gunvor, has acquired a portfolio of upstream and midstream natural gas assets in Texas and Louisiana from US-based private energy company Silver Hill Energy Partners."
-      }
-     ]
-    }
-   }
-  },
   "ke": {
    "label": "Kenya",
    "level": "country",
@@ -8397,87 +8441,6 @@
         "extraction"
        ],
        "blurb": "PRP presidential candidate Donald Duke says he will cut petrol to ₦300 per litre by allocating part of Nigeria’s crude production for domestic consumption, challenging the subsidy-free approach of President Tinubu and rival 2027 contenders. The post 2027: Duke vows to reduce petr"
-      }
-     ]
-    }
-   }
-  },
-  "lr": {
-   "label": "Liberia",
-   "level": "country",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Liberia: Supreme Court Takes Up U.S.$3.2m Ducor Petroleum Escrow Dispute",
-       "url": "https://allafrica.com/stories/202610070234.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T09:33:57.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070234.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "blurb": "[Liberian Observer] The Supreme Court has assumed supervisory jurisdiction over a contentious US$3.2 million dispute involving Ducor Petroleum Inc.'s escrow funds after the Monrovia Trading Corporation (MOTC) acknowledged that it is unable to restitute money withdrawn from a cour"
-      }
-     ]
-    }
-   }
-  },
-  "lr-mo": {
-   "label": "Montserrado",
-   "level": "admin1",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Liberia: Supreme Court Takes Up U.S.$3.2m Ducor Petroleum Escrow Dispute",
-       "url": "https://allafrica.com/stories/202610070234.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T09:33:57.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070234.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "blurb": "[Liberian Observer] The Supreme Court has assumed supervisory jurisdiction over a contentious US$3.2 million dispute involving Ducor Petroleum Inc.'s escrow funds after the Monrovia Trading Corporation (MOTC) acknowledged that it is unable to restitute money withdrawn from a cour"
-      }
-     ]
-    }
-   }
-  },
-  "lr-city-monrovia": {
-   "label": "Monrovia",
-   "level": "city",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Liberia: Supreme Court Takes Up U.S.$3.2m Ducor Petroleum Escrow Dispute",
-       "url": "https://allafrica.com/stories/202610070234.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T09:33:57.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070234.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "blurb": "[Liberian Observer] The Supreme Court has assumed supervisory jurisdiction over a contentious US$3.2 million dispute involving Ducor Petroleum Inc.'s escrow funds after the Monrovia Trading Corporation (MOTC) acknowledged that it is unable to restitute money withdrawn from a cour"
       }
      ]
     }
