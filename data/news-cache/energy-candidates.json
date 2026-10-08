@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T00:18:29.314Z",
+ "generatedAt": "2026-10-08T00:29:07.434Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -32,6 +32,7 @@
         "generation",
         "innovation"
        ],
+       "via": null,
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
       },
       {
@@ -50,7 +51,28 @@
        "stages": [
         "innovation"
        ],
+       "via": null,
        "blurb": "This week, the Department of Energy’s Gateway for Accelerated Innovation in Nuclear (GAIN) announced three fourth-round fiscal year 2026 vouchers to support the development of innovative nuclear technologies. Each company will get access to specific capabilities and expertise in "
+      },
+      {
+       "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
+       "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-07T16:27:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering"
       },
       {
        "title": "Vistra gets $4.2B DOE loan for planned uprates in Ohio, Pennsylvania",
@@ -84,7 +106,27 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Vistra is set to receive an approximately $4.2 billion loan from the Department of Energy to upgrade and uprate its fleet of nuclear reactors in Pennsylvania and Ohio, the DOE announced Monday. This work will add 433 MW of new nuclear capacity to help meet electricity demand in P"
+      },
+      {
+       "title": "DCD Studio: The rise of US nuclear power, with Mark Gusakov, The Digital Infrastructure Alliance",
+       "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-the-rise-of-us-nuclear-power-with-mark-gusakov-the-digital-infrastructure-alliance/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-07T15:28:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-the-rise-of-us-nuclear-power-with-mark-gusakov-the-digital-infrastructure-alliance/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "Tam Pledger speaks with Mark Gusakov of The Digital Infrastructure Alliance about solving AI-driven power deficits, fostering community, and integrating nuclear energy to sustainably support the growing digital economy."
       },
       {
        "title": "Deployable Energy to test its Unity nuclear battery in DOME",
@@ -103,6 +145,7 @@
         "innovation",
         "generation"
        ],
+       "via": null,
        "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
       },
       {
@@ -119,6 +162,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "The deal reportedly brings Rosatom’s market share in Russia’s container handling market to 50% and rail container transport to 44%."
       },
       {
@@ -137,6 +181,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "The Alliance for Secure Electricity Supply has launched a campaign for the lifting of the ban on new nuclear power plant construction in Switzerland. It comes as a broad coalition claims to have collected enough signatures in support of a referendum against the construction of ne"
       },
       {
@@ -156,6 +201,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Uranium enrichment services provider Urenco has officially commissioned the uranium oxide storage facility at its site in Gronau, Germany. Construction of the facility was completed several years ago."
       },
       {
@@ -179,82 +225,47 @@
        "stages": [
         "innovation"
        ],
+       "via": null,
        "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
       },
       {
-       "title": "Energy Firms Try to Squeeze More Power Out of Old Nuclear Plants",
-       "url": "https://www.nytimes.com/2026/10/06/climate/nuclear-power-plant-google-data-centers.html",
-       "source": "NYT Technology",
-       "published": "2026-10-06T19:37:09.000Z",
+       "title": "Belmont launches gravity survey at Crackingstone uranium site",
+       "url": "https://www.mining-technology.com/news/belmont-gravity-survey-crackingstone-site/",
+       "source": "Mining Technology",
+       "published": "2026-10-07T09:42:29.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "NYT Technology",
-         "url": "https://www.nytimes.com/2026/10/06/climate/nuclear-power-plant-google-data-centers.html",
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/belmont-gravity-survey-crackingstone-site/",
          "primary": false
         }
        ],
        "stages": [
-        "generation"
+        "extraction"
        ],
-       "blurb": "It takes a long time to build new nuclear plants. So, some U.S. companies are looking to get more electricity out of reactors that already exist."
+       "via": null,
+       "blurb": "Belmont Resources has launched a high-resolution ground gravity survey at its wholly owned Crackingstone Uranium Project situated around 6km from Uranium City, Saskatchewan, Canada. The post Belmont launches gravity survey at Crackingstone uranium site appeared first on Mining Te"
       },
       {
-       "title": "General Matter’s NRC license application materials publicly available",
-       "url": "https://www.ans.org/news/2026-10-06/article-8465/general-matters-nrc-license-application-materials-publicly-available/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-06T17:22:58.000Z",
+       "title": "Nuclear clocks tick for the first time",
+       "url": "https://www.nature.com/articles/d41586-026-03060-9",
+       "source": "Nature",
+       "published": "2026-10-07T00:00:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-06/article-8465/general-matters-nrc-license-application-materials-publicly-available/",
+         "name": "Nature",
+         "url": "https://www.nature.com/articles/d41586-026-03060-9",
          "primary": false
         }
        ],
        "stages": [
-        "generation"
+        "generation",
+        "innovation"
        ],
-       "blurb": "Efforts to revive domestic uranium enrichment at the site of the former Gaseous Diffusion Plant in Paducah, Ky., are continuing: On September 28, General Matter announced that it had applied for a Nuclear Regulatory Commission license to begin facility construction on the site. S"
-      },
-      {
-       "title": "Green party drops longstanding opposition to nuclear power",
-       "url": "https://www.theguardian.com/politics/2026/oct/05/green-party-nuclear-power-policy",
-       "source": "The Guardian Energy",
-       "published": "2026-10-05T15:53:49.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/politics/2026/oct/05/green-party-nuclear-power-policy",
-         "primary": false
-        },
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/green-party-members-drop-nuclear-phase-out-policy",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "blurb": "Party in England and Wales ditches commitment to phase out nuclear in major shift in its energy policy Green party members have voted to end the party’s opposition to nuclear power, dropping a commitment to phase out the technology in a major shift in its energy policy. The motio"
-      },
-      {
-       "title": "Nano Nuclear seeks to build front-end capabilities with Radnostix assets",
-       "url": "https://www.ans.org/news/2026-10-06/article-8463/nano-nuclear-seeks-to-build-frontend-capabilities-with-radnostix-assets/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-06T12:14:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-06/article-8463/nano-nuclear-seeks-to-build-frontend-capabilities-with-radnostix-assets/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "blurb": "An image representing the intellectual property assets Nano seeks to acquire, which are associated with Radnostix’s previously planned Lea County, N.M., facility. (Source: Nano Nuclear) Nano Nuclear is continuing its efforts to establish itself in multiple sectors of the nuclear "
+       "via": null,
+       "blurb": "Nature, Published online: 07 October 2026; doi:10.1038/d41586-026-03060-9 Ultraprecise clocks that use transitions in atomic nuclei to keep time show promise as a next-generation time standard and for probing fundamental physics."
       }
      ]
     },
@@ -282,6 +293,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
       },
       {
@@ -308,7 +320,54 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Members of the International Energy Agency (IEA) expressed support on Wednesday for accelerating the release of roughly 100 million barrels of reserve oil stocks previously agreed to in March. About 325 million barrels of oil have been released under the March agreement to ease o"
+      },
+      {
+       "title": "Oil Dips as Middle East Flows Recover",
+       "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-07T20:43:41.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/07/hostelworld-shares-slide-as-earnings-to-miss-estimates-amid-middle-east-conflict/",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/oil-prices-attacks-mideast",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Brent closed near $100 as traders weighed escalating Hormuz threats against resilient regional oil exports."
+      },
+      {
+       "title": "Oil price volatility tops list of earnings risks for Japan firms - Reuters survey",
+       "url": "https://www.channelnewsasia.com/business/oil-price-volatility-tops-list-earnings-risks-japan-firms-reuters-survey-6441076",
+       "source": "CNA Business",
+       "published": "2026-10-07T23:13:47.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/oil-price-volatility-tops-list-earnings-risks-japan-firms-reuters-survey-6441076",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
       },
       {
        "title": "What independence could mean for oil-rich Alberta's economy",
@@ -324,6 +383,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Albertans vote this month on staying in Canada or moving ahead to a binding independence referendum."
       },
       {
@@ -340,6 +400,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
       },
       {
@@ -356,6 +417,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "body{margin:0;padding:0;font-family:system-ui,-apple-system,sans-serif;overflow-wrap:anywhere;} Pakistan fuel prices, 2026 Official ex-depot prices (PKR/litre) — OGRA & Ministry of Energy notifications Petrol (MS-92) Diesel (HSD) Pre-crisis baseline Source: OGRA / Ministry of Ene"
       },
       {
@@ -372,6 +434,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "The Energy Ministry has stressed that borrowing money from banks to shore up the loss-riddled Oil Fuel Fund is a last resort, despite the fund's deficit approaching 100 billion baht."
       },
       {
@@ -388,6 +451,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "US Secretary of State Marco Rubio said on Wednesday that Iran had “lost complete control” of the Strait of Hormuz, saying oil flows through the waterway had returned to near prewar levels. “The Strait of Hormuz is open. There’s almost as much oil flowing out now as there was befo"
       },
       {
@@ -404,7 +468,33 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "NASA's Fire Information for Resource Management System (FIRMS), which uses satellite data to detect thermal anomalies and fires, detected multiple hotspots at the facility."
+      },
+      {
+       "title": "Next-generation geothermal: borrowing oil and gas tech for the data centre boom",
+       "url": "https://www.mining-technology.com/news/next-generation-geothermal-oil-gas-tech-data-centre-boom/",
+       "source": "Mining Technology",
+       "published": "2026-10-07T09:45:53.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/next-generation-geothermal-oil-gas-tech-data-centre-boom/",
+         "primary": false
+        },
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/next-generation-geothermal-oil-gas-tech-data-centre-boom/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "Energy Technology’s new episode examines Big Tech’s interest in geothermal, and the nascent sector’s need for oil and gas equipment and expertise. The post Next-generation geothermal: borrowing oil and gas tech for the data centre boom appeared first on Mining Technology ."
       },
       {
        "title": "Chevron to sell Hess Midstream stake and DJ Basin assets",
@@ -425,66 +515,38 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Chevron has agreed to divest its ownership interests in Hess Midstream, along with its crude oil midstream assets in the Denver Julesburg (DJ) Basin in the US, as part of a transaction with Hess Midstream."
-      },
-      {
-       "title": "Oil Dips as Middle East Flows Recover",
-       "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-07T20:43:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "blurb": "Brent closed near $100 as traders weighed escalating Hormuz threats against resilient regional oil exports."
-      },
-      {
-       "title": "Iran war disruption creates ‘huge’ oil trading opportunities, Vitol says",
-       "url": "https://www.thenationalnews.com/business/energy/2026/10/07/iran-war-disruption-creates-huge-oil-trading-opportunities-vitol-says/",
-       "source": "The National (UAE)",
-       "published": "2026-10-07T13:11:27.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/business/energy/2026/10/07/iran-war-disruption-creates-huge-oil-trading-opportunities-vitol-says/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "blurb": "The Iran war is creating “huge” arbitrage opportunities across global energy markets as disrupted trade flows stretch tanker fleets to capacity and send oil on longer journeys, according to Vitol Group, the world’s largest independent oil trader. “There’s huge arbitrage opportuni"
-      },
-      {
-       "title": "France to release 10M barrels of diesel from stocks to lower pump prices",
-       "url": "https://www.aa.com.tr/en/europe/france-to-release-10m-barrels-of-diesel-from-stocks-to-lower-pump-prices/4081439",
-       "source": "Anadolu Agency Economy",
-       "published": "2026-10-07T19:17:42.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/europe/france-to-release-10m-barrels-of-diesel-from-stocks-to-lower-pump-prices/4081439",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "blurb": "Premier expects measure to cut diesel prices by $0.13-$0.20 per liter"
       }
      ]
     },
     "gas": {
      "brief": "ready",
      "candidates": [
+      {
+       "title": "Golar picks NYK carrier for fourth FLNG conversion",
+       "url": "https://splash247.com/golar-picks-nyk-carrier-for-fourth-flng-conversion/",
+       "source": "Splash247",
+       "published": "2026-10-07T18:04:00.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/asia/golar-buys-conversion-vessel-for-fourth-flng/198042/",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/golar-picks-nyk-carrier-for-fourth-flng-conversion/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Golar LNG has acquired a 2013-built LNG carrier from Japan’s NYK Line for conversion into its fourth floating LNG unit, filling in a key missing piece of its $2.45bn expansion programme. The Nasdaq-listed FLNG specialist has agreed to buy the 177,427 cu m Grace Dahlia, which will"
+      },
       {
        "title": "Equinor says Hammerfest LNG upgrade costs climb further",
        "url": "https://lngprime.com/europe/equinor-says-hammerfest-lng-upgrade-costs-climb-further/198023/",
@@ -506,6 +568,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "Costs for Equinor’s Snohvit Future project, which includes upgrading the 4.3 mtpa Hammerfest LNG export facility on Melkoya Island in Norway, have increased further from the original estimates."
       },
       {
@@ -525,7 +588,32 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Great Basin Gas Transmission has upsized its northern Nevada natural gas expansion to nearly 950 MMcf/d and a 48-inch diameter pipe, leaving room to add compression later for growing demand from data centers, power generators and industrial users."
+      },
+      {
+       "title": "Wallenius Wilhelmsen in advanced talks with yards to order LNG-powered vessels",
+       "url": "https://lngprime.com/europe/wallenius-wilhelmsen-in-advanced-talks-with-yards-to-order-lng-powered-vessels/198004/",
+       "source": "LNG Prime",
+       "published": "2026-10-07T06:20:02.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/europe/wallenius-wilhelmsen-in-advanced-talks-with-yards-to-order-lng-powered-vessels/198004/",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/wallenius-wilhelmsen-eyes-up-to-12-more-car-carriers/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "Norway-based shipping firm Wallenius Wilhelmsen is in advanced talks with yards to sign shipbuilding contracts for LNG dual-fuel RoRo vessels."
       },
       {
        "title": "Producers Take Breather, but Natural Gas Output Projected to Ramp Up as Winter Approaches",
@@ -544,6 +632,7 @@
         "extraction",
         "grid"
        ],
+       "via": null,
        "blurb": "Natural gas production pulled back enough to lend futures market price support in the heart of the fall season, but analysts anticipate a rebound ahead of a winter in which export demand could surge and necessitate near-record supply levels to balance the market."
       },
       {
@@ -563,6 +652,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "The US Coast Guard ordered storm preparations at lower Mississippi River ports on Wednesday as forecasters predict Tropical Storm Isaias to become a hurricane by Thursday on a track that could avoid most Gulf Coast LNG export capacity."
       },
       {
@@ -579,6 +669,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "A mix of depressed prices and a potential for warmer weather in parts of the United States could mean homes that use natural gas for heating are in line for lower bills this winter, according to the US Energy Information Administration (EIA)."
       },
       {
@@ -597,6 +688,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "US natural gas futures surged through midday trade on Wednesday as cooler longer range forecasts, expectations for a below-normal storage injection and short covering lifted the front of the curve."
       },
       {
@@ -616,6 +708,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "New capacity outside the Middle East offsets some losses, but inventories remain low, raising winter risk concerns."
       },
       {
@@ -635,6 +728,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Equinor on Wednesday again said it would cost more than expected to extend the life of its Hammerfest LNG export facility in Norway, pushing the cost estimate up to about $2.76 billion, but saying the project remains on track to be completed on time."
       },
       {
@@ -651,25 +745,8 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Executives from oil and gas firms revealed where they expect the Henry Hub natural gas price to be at various points in the future in the third quarter Dallas Fed Energy Survey."
-      },
-      {
-       "title": "Golar buys conversion vessel for fourth FLNG",
-       "url": "https://lngprime.com/asia/golar-buys-conversion-vessel-for-fourth-flng/198042/",
-       "source": "LNG Prime",
-       "published": "2026-10-07T13:40:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/asia/golar-buys-conversion-vessel-for-fourth-flng/198042/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "blurb": "Floating LNG player Golar has agreed to acquire the LNG carrier Grace Dahlia from Japan's NYK Line to convert it into a floating LNG production unit."
       },
       {
        "title": "Qatar Brings Empty LNG Ships Into Gulf",
@@ -687,26 +764,8 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "Qatar has amassed a fleet of empty liquefied natural gas tankers in the Persian Gulf."
-      },
-      {
-       "title": "Port Arthur LNG Commissioning Builds Ahead of 2027 Startup Push",
-       "url": "https://naturalgasintel.com/news/port-arthur-lng-commissioning-builds-ahead-of-2027-startup-push/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T13:34:54.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/port-arthur-lng-commissioning-builds-ahead-of-2027-startup-push/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "innovation"
-       ],
-       "blurb": "Sempra Infrastructure is advancing commissioning at Port Arthur LNG, with new startup activity bringing the Texas project closer to adding another major source of natural gas demand along the Gulf Coast."
       }
      ]
     },
@@ -732,6 +791,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "High court finding in favour of Hunter Valley community group sets precedent other environmentalists should follow, advocate says Get our new political email , free app or daily news podcast A landmark decision in Australia’s first climate change high court case has been describe"
       },
       {
@@ -748,6 +808,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "It isn’t hard to see a contradiction between the PM’s message in Fiji and his opposition to legal action to stop a NSW coalmine Get our new political email , free app or daily news podcast There are unlikely to be many bigger moments in Australian community action on the climate "
       },
       {
@@ -766,6 +827,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "Semirara Mining and Power Corp. has pushed back against what it calls “unfair” rules governing the auction of the country’s largest coal mine, with the bidding process now facing another delay."
       },
       {
@@ -782,6 +844,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Global campaign group 350.org urges Cop31 hosts to announce a coal phase-out date and national roadmaps to get off fossil fuels Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here The hosts of the next major United Nations climate conference, T"
       },
       {
@@ -798,6 +861,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Study says UK-based banks provided $8.3bn in coal financing in four years, with Barclays and HSBC leading rise UK banks are Europe’s biggest financial backers of the global coal industry, providing billions of pounds in funding for the climate-wrecking fossil fuel in the past fou"
       },
       {
@@ -816,6 +880,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Independent Planning Commission says climate change impacts from Hunter Valley project will be ‘outweighed’ by economic benefits Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast The New South Wales independent pla"
       },
       {
@@ -834,6 +899,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "The EU's largest producer of coking coal producer reported a 1 billion zloty loss in the first half of 2026."
       },
       {
@@ -852,6 +918,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "Coalspur Mines Ltd. received regulatory permit approvals from the Alberta Energy Regulator (AER) to move forward with its Phase II Expansion Project on the Vista coal mine, located near Hinton, Alberta, Canada. Regulatory documents show that approval for the expansion was granted"
       },
       {
@@ -871,6 +938,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Above-average temperatures and El Niño-linked monsoons have caused severe disruptions to supplies and electricity demand in India, affecting the country’s coal stocks and coal-fired power plants. According to recent reports from the Central Electricity Authority (CEA), India’s of"
       },
       {
@@ -889,6 +957,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "In a previously unreported letter, a top lobbyist floated the idea of using emergency powers to keep aging coal plants open."
       }
      ]
@@ -912,6 +981,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "A 365-meter wind turbine, the tallest in the world, was built by Gicon in Lusatia, Germany, and will be inaugurated on November 19."
       },
       {
@@ -931,6 +1001,7 @@
         "innovation",
         "generation"
        ],
+       "via": null,
        "blurb": "Buchan Offshore Wind has received Basic Design Certification from DNV for the BW Ideol-designed concrete Damping Pool floating foundation..."
       },
       {
@@ -949,6 +1020,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Renewable energy company Neoen has commenced construction of Stage 1 of the 346MW Goyder North Wind Farm in the Mid North region of South Australia (SA), near Burra on Ngadjuri Nation land."
       },
       {
@@ -965,6 +1037,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "French floating offshore wind specialist Eolink has been put up for sale by its owners as part of “court-ordered reorganisation proceedings”, the company announced."
       },
       {
@@ -983,6 +1056,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "All 76 Vestas V236-15.0 MW turbines are in place at the Baltic Power offshore wind farm in Poland, jointly owned by Orlen and Northland Power...."
       },
       {
@@ -1007,6 +1081,7 @@
         "innovation",
         "grid"
        ],
+       "via": null,
        "blurb": "Verlume, a UK-headquartered subsea batteries and power management systems specialist, has put its 500 kWh modular subsea energy storage system to..."
       },
       {
@@ -1023,6 +1098,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": ""
       },
       {
@@ -1041,6 +1117,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "A worker has died at CS Wind’s turbine tower manufacturing factory at the port of Aveiro in Portugal, according to local media reports."
       },
       {
@@ -1059,6 +1136,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "The 2GW Yangjiang Fanshi offshore wind project off the coast of Guangdong province has achieved full-capacity operation, according to China General Nuclear Power Corporation (CGN), marking China’s first large-scale deployment of 18MW offshore wind turbines."
       },
       {
@@ -1078,6 +1156,7 @@
         "generation",
         "innovation"
        ],
+       "via": null,
        "blurb": "Subsea Micropiles has signed an agreement to provide anchor engineering and conduct site investigations for the Pentland floating wind farm. The..."
       },
       {
@@ -1094,6 +1173,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Equinor has selected ERM as Environmental Consultant and CMS as legal advisor to support the delivery of the Scoping Report for its Celtic Sea..."
       },
       {
@@ -1118,6 +1198,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "China Three Gorges Corporation (CTG) has connected the first batch of turbines at its 2 GW Qingzhou V & VII offshore wind project off Yangjiang,..."
       }
      ]
@@ -1141,6 +1222,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "It has unrivalled ambition and is backed by a tech billionaire, but Sun Cable's plans to export solar power to Singapore are floundering."
       },
       {
@@ -1164,6 +1246,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "California-headquartered Clearway Energy Group said it has closed financing and begun construction of the Swan Energy Center, a 650-MW solar facility located on portions of formerly strip-mined land in northwestern Bates County, Missouri. The project is San Francisco-based Clearw"
       },
       {
@@ -1180,6 +1263,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "We speak to Gregory Resch of EBOS supplier Voltage about what that shift involves, and why the industry should be wiring for 2kV now."
       },
       {
@@ -1198,6 +1282,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Company officers and government officials celebrated the 2 GW expansion of Toyo’s Humble, Texas solar module facility and looked forward to planned heterojunction cell production at the site in 2028. The post Toyo cuts the ribbon on its newly-expanded solar factory in Texas appea"
       },
       {
@@ -1217,6 +1302,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "Solar and battery storage supported 982,000 jobs in the EU in 2025, with PV accounting for 874,000 positions. Solar employment is expected to decline by 2030 as deployment slows, despite growth in operations, maintenance, manufacturing and recycling jobs. The post Solar and stora"
       },
       {
@@ -1233,6 +1319,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Sonnedix acquires 54MW of Italian solar, while Sunrock and BGRE partner to assess 135MWp across Germany, France and the Netherlands."
       },
       {
@@ -1252,6 +1339,7 @@
         "generation",
         "innovation"
        ],
+       "via": null,
        "blurb": "Dutch firm Modat and the Netherlands' cybersecurity agency have identified 8,547 exposed systems at solar and wind sites in 35 European countries, with Spain accounting for more than one-third of the solar total. The post Thousands of European solar park systems exposed online, s"
       },
       {
@@ -1270,6 +1358,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Independent power producer (IPP) Zelestra has closed a US$350 million credit facility for the 203 MW Reclamation Solar project in Indiana."
       },
       {
@@ -1286,6 +1375,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "As solar PV continues to grow globally, the technology is set to become the largest contributor to the world’s electricity mix from 2031, according to a report from technical and safety expert DNV."
       },
       {
@@ -1302,6 +1392,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Bondada Engineering secures a US$119.3 million solar EPC order, while its subsidiary Onix IPP secures US$94.1 million in SBI financing."
       },
       {
@@ -1321,6 +1412,7 @@
         "generation",
         "innovation"
        ],
+       "via": null,
        "blurb": "Researchers surveying a 55 MW solar plant on a former golf course in central Japan found that plant diversity under the panels was statistically indistinguishable from open grassland, with communities resembling forest edges, after five years of only twice-yearly mowing. The post"
       },
       {
@@ -1337,6 +1429,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "The US solar sector will discuss a policy landscape includes “a lot of good news” at next week's PV CellTech USA conference."
       }
      ]
@@ -1360,6 +1453,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Studio Pietrangeli has begun consultancy work on the proposed 24 MW Zungki and 42 MW Lower Tizu hydropower projects in Nagaland, India. The post Studio Pietrangeli begins consultancy work on two Indian hydropower projects appeared first on International Water Power ."
       },
       {
@@ -1378,6 +1472,7 @@
        "stages": [
         "innovation"
        ],
+       "via": null,
        "blurb": "The U.S. Department of Energy's Hydropower and Hydrokinetic Office selected 14 hydropower projects for negotiations on vouchers for in-kind support."
       },
       {
@@ -1394,6 +1489,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Adani Power and Druk Green Power Corporation have signed a shareholders agreement to develop the 770MW Chamkharchhu-I hydropower project The post Adani and DGPC agree 770MW Chamkharchhu-I hydropower partnership, Bhutan appeared first on International Water Power ."
       },
       {
@@ -1412,6 +1508,7 @@
        "stages": [
         "innovation"
        ],
+       "via": null,
        "blurb": "The US Department of Energy (DOE) has selected 14 hydropower projects to begin negotiations for testing support The post US selects 14 hydropower projects for testing support appeared first on International Water Power ."
       },
       {
@@ -1428,6 +1525,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Glaciers in Switzerland – the home to the most in the Alps – lost 5.5% of their ice volume this year, the second-biggest percentage drop on record due to heat waves and low winter snowfall, experts report."
       },
       {
@@ -1446,6 +1544,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Hydropower capacity in Latin America and the Caribbean is forecast to continue growing over the next decade The post Latin America’s hydropower outlook to 2035 appeared first on International Water Power ."
       },
       {
@@ -1462,6 +1561,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Eco Wave Power CEO Inna Braverman believes wave energy presents a compelling opportunity to power seaside data center load."
       },
       {
@@ -1478,6 +1578,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "DGPC has signed an iagreement with Wangchuk Dorji of Tashi Group to develop the 40MW Parochhu hydropower project in Paro, Bhutan. The post DGPC signs Bhutanese partnership for 40MW Parochhu hydropower project appeared first on International Water Power ."
       },
       {
@@ -1494,6 +1595,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Landsvirkjun has signed an agreement with ANDRITZ Hydro GmbH to supply four replacement stators for Búrfell hydropower station The post ANDRITZ to supply four stators for Iceland’s Búrfell hydropower station appeared first on International Water Power ."
       },
       {
@@ -1513,6 +1615,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Hydro Tasmania has returned Poatina Power Station in Australia to service following one of its largest planned outages in recent years The post Hydro Tasmania completes first stage of Poatina upgrade appeared first on International Water Power ."
       }
      ]
@@ -1520,6 +1623,31 @@
     "geothermal": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Next-generation geothermal: borrowing oil and gas tech for the data centre boom",
+       "url": "https://www.mining-technology.com/news/next-generation-geothermal-oil-gas-tech-data-centre-boom/",
+       "source": "Mining Technology",
+       "published": "2026-10-07T09:45:53.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/next-generation-geothermal-oil-gas-tech-data-centre-boom/",
+         "primary": false
+        },
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/next-generation-geothermal-oil-gas-tech-data-centre-boom/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "Energy Technology’s new episode examines Big Tech’s interest in geothermal, and the nascent sector’s need for oil and gas equipment and expertise. The post Next-generation geothermal: borrowing oil and gas tech for the data centre boom appeared first on Mining Technology ."
+      },
       {
        "title": "Tender – Framework agreement for geothermal consultancy at Grangegorman, Ireland",
        "url": "https://www.thinkgeoenergy.com/tender-framework-agreement-for-geothermal-consultancy-at-grangegorman-ireland/",
@@ -1534,6 +1662,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "A tender has been announced for a single-party framework agreement for geothermal engineering consultancy services for the Grangegorman site in Ireland. The post Tender – Framework agreement for geothermal consultancy at Grangegorman, Ireland first appeared on ThinkGeoEnergy - Ge"
       },
       {
@@ -1552,26 +1681,8 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "As geothermal scales, the challenge is now shifting to ensuring well reliability, thus highlighting the importance of well diagnostics and intervention tools. The post Geothermal’s next challenge isn’t drilling – it’s well performance first appeared on ThinkGeoEnergy - Geothermal"
-      },
-      {
-       "title": "Next-generation geothermal: borrowing oil and gas tech for the data centre boom",
-       "url": "https://www.power-technology.com/news/next-generation-geothermal-oil-gas-tech-data-centre-boom/",
-       "source": "Power Technology",
-       "published": "2026-10-07T09:45:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Power Technology",
-         "url": "https://www.power-technology.com/news/next-generation-geothermal-oil-gas-tech-data-centre-boom/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "innovation"
-       ],
-       "blurb": "Energy Technology’s new episode examines Big Tech’s interest in geothermal, and the nascent sector’s need for oil and gas equipment and expertise."
       },
       {
        "title": "Inter-municipal geothermal heating project being planned at Val-de-Marne, France",
@@ -1587,6 +1698,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Public consultation has started on a proposed geothermal heating project on the boundary of Val-de-Marne and Seine-Saint-Denis departments in France The post Inter-municipal geothermal heating project being planned at Val-de-Marne, France first appeared on ThinkGeoEnergy - Geothe"
       },
       {
@@ -1606,6 +1718,7 @@
         "extraction",
         "generation"
        ],
+       "via": null,
        "blurb": "Operations have started on a new mine water heating scheme supplying homes at the Seaham Garden Village in County Durham in the UK. The post Mine water geothermal heat project goes online at Seaham, County Durham, UK first appeared on ThinkGeoEnergy - Geothermal News & Insights ."
       },
       {
@@ -1622,6 +1735,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Controlled Thermal Resources is strengthening and simplifying its capital structure as it develops the Hell's Kitchen geothermal and lithium project. The post CTR restructures debt to advance Hell’s Kitchen geothermal and lithium project in California first appeared on ThinkGeoEn"
       },
       {
@@ -1641,6 +1755,7 @@
         "extraction",
         "innovation"
        ],
+       "via": null,
        "blurb": "A newly launched research projects aims to develop guidelines and standards for the practical deployment of mine water geothermal heating in Germany. The post Partnership formed for research on mine water geothermal energy in Germany first appeared on ThinkGeoEnergy - Geothermal "
       },
       {
@@ -1657,6 +1772,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Join us on 9 October 2026 for a webinar on the path that Ignis Energy is taking to manage risks and ensure bankability of their global geothermal portfolio. The post Webinar – The journey of Ignis Energy to bankable geothermal power, 9 October 2026 first appeared on ThinkGeoEnerg"
       },
       {
@@ -1675,6 +1791,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "The Bureau of Land Management will be holding a geothermal lease sale in Idaho on November 17 2026 covering 35 parcels across eight counties. The post BLM to hold Idaho geothermal lease sale on 17 November 2026 first appeared on ThinkGeoEnergy - Geothermal News & Insights ."
       },
       {
@@ -1694,6 +1811,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "Imperial Irrigation District has signed an agreement for 86 MW of geothermal power supply from two geothermal power plants of BHE Renewables in California. The post California utility signs 86-MW geothermal PPA with BHE Renewables first appeared on ThinkGeoEnergy - Geothermal New"
       },
       {
@@ -1710,6 +1828,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "The second geothermal heating facility of Aardwarmte Vogelaer in Poeldijk, Netherlands has officially opened, serving homes and horticultural companies. The post Aarwarmte Vogelaer 2 geothermal heating project in Netherlands officially opened first appeared on ThinkGeoEnergy - Ge"
       },
       {
@@ -1728,6 +1847,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "Registration is open for a Geothermal Workshop hosted by Vallourec in Belo Horizonte, Brazil to discuss the latest technologies for geothermal wells and tubulars. The post Registration open – Geothermal Workshop by Vallourec; Belo Horizonte, Brazil; 11-12 November 2026 first appe"
       }
      ]
@@ -1735,6 +1855,28 @@
     "emerging": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Hithium’s ∞Cell N785Ah vs CATL, HiNa, and its own LFP range: a sodium-ion comparison for BESS",
+       "url": "https://www.energy-storage.news/hithiums-%e2%88%9ecell-n785ah-vs-catl-hina-and-its-own-lfp-range-a-sodium-ion-comparison-for-bess/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-07T11:45:36.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/07/hithiums-sodium-ion-storage-push-where-it-could-win-where-it-wont-and-path-to-bankability/",
+         "primary": false
+        },
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/hithiums-%e2%88%9ecell-n785ah-vs-catl-hina-and-its-own-lfp-range-a-sodium-ion-comparison-for-bess/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Hithium's recent sodium-ion battery and BESS product launch is the latest in a long line of announcements showing an inflection point for the battery chemistry. But how do its new products compare to other sodium-ion systems out there, and to its own LFP offering?"
+      },
       {
        "title": "Philippines plans to mandate 1% SAF mix by 2030",
        "url": "https://www.philstar.com/business/2026/10/08/2561584/philippines-plans-mandate-1-saf-mix-2030",
@@ -1749,6 +1891,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "The Philippines is exploring a one-percent sustainable aviation fuel blending mandate for the aviation sector by 2030, according to a senior energy official."
       },
       {
@@ -1768,6 +1911,7 @@
         "innovation",
         "generation"
        ],
+       "via": null,
        "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
       },
       {
@@ -1786,6 +1930,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "US energy holding company and project developer-owner NextEra Energy has suspended operations at two energy storage facilities in Long Island, New York, US."
       },
       {
@@ -1804,23 +1949,8 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "The 48 V residential energy storage system uses sodium-ion NCO chemistry and offers 9.7 kWh of rated energy. AuroraCell claims a cycle life of 20,000 cycles at 100% depth of discharge and backs the battery with a 20-year warranty. The post AuroraCell launches 9.7 kWh sodium-ion c"
-      },
-      {
-       "title": "Hithium’s ∞Cell N785Ah vs CATL, HiNa, and its own LFP range: a sodium-ion comparison for BESS",
-       "url": "https://www.energy-storage.news/hithiums-%e2%88%9ecell-n785ah-vs-catl-hina-and-its-own-lfp-range-a-sodium-ion-comparison-for-bess/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-07T11:45:36.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/hithiums-%e2%88%9ecell-n785ah-vs-catl-hina-and-its-own-lfp-range-a-sodium-ion-comparison-for-bess/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "blurb": "Hithium's recent sodium-ion battery and BESS product launch is the latest in a long line of announcements showing an inflection point for the battery chemistry. But how do its new products compare to other sodium-ion systems out there, and to its own LFP offering?"
       },
       {
        "title": "Walmart Chile and Copec Inaugurate First Hydrogen Station for High-Tonnage Trucks",
@@ -1836,6 +1966,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": ""
       },
       {
@@ -1854,6 +1985,7 @@
        "stages": [
         "innovation"
        ],
+       "via": null,
        "blurb": ""
       },
       {
@@ -1873,6 +2005,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "e-STORAGE has agreed to supply and commission a 100MW/200MWh BESS for OX2’s Muswellbrook Solar Farm and Battery project in Australia."
       },
       {
@@ -1889,6 +2022,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": ""
       },
       {
@@ -1905,6 +2039,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": ""
       },
       {
@@ -1924,6 +2059,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "TagEnergy has inaugurated a 240 MW/480 MWh battery storage facility in northeastern France, the country’s largest operational BESS. The Tesla Megapack-based project provides grid-balancing services and is jointly owned by TagEnergy and Banque des Territoires. The post France’s la"
       },
       {
@@ -1943,6 +2079,7 @@
         "innovation",
         "grid"
        ],
+       "via": null,
        "blurb": "The Fraunhofer-Gesellschaft has inaugurated the new Center for Energy Storage and Systems (ZESS) in Braunschweig. The federal government and the state have invested nearly €50 million euros in the research hub, which focuses on solid-state batteries, cell production, and hydrogen"
       }
      ]
@@ -1956,6 +2093,26 @@
     "nuclear": {
      "brief": "ready",
      "candidates": [
+      {
+       "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
+       "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-07T16:27:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering"
+      },
       {
        "title": "Vistra gets $4.2B DOE loan for planned uprates in Ohio, Pennsylvania",
        "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
@@ -1988,7 +2145,27 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Vistra is set to receive an approximately $4.2 billion loan from the Department of Energy to upgrade and uprate its fleet of nuclear reactors in Pennsylvania and Ohio, the DOE announced Monday. This work will add 433 MW of new nuclear capacity to help meet electricity demand in P"
+      },
+      {
+       "title": "DCD Studio: The rise of US nuclear power, with Mark Gusakov, The Digital Infrastructure Alliance",
+       "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-the-rise-of-us-nuclear-power-with-mark-gusakov-the-digital-infrastructure-alliance/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-07T15:28:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-the-rise-of-us-nuclear-power-with-mark-gusakov-the-digital-infrastructure-alliance/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "Tam Pledger speaks with Mark Gusakov of The Digital Infrastructure Alliance about solving AI-driven power deficits, fostering community, and integrating nuclear energy to sustainably support the growing digital economy."
       },
       {
        "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
@@ -2011,6 +2188,7 @@
        "stages": [
         "innovation"
        ],
+       "via": null,
        "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
       },
       {
@@ -2030,7 +2208,28 @@
         "innovation",
         "generation"
        ],
+       "via": null,
        "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
+      },
+      {
+       "title": "Google and Oracle deals support long-term US plant operations",
+       "url": "https://www.world-nuclear-news.org/articles/new-end-user-agreements-support-long-term-us-plant-operations",
+       "source": "World Nuclear News",
+       "published": "2026-10-06T15:23:47.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/new-end-user-agreements-support-long-term-us-plant-operations",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Google and Constellation Energy have announced a long-term collaboration to bring 890 MW of new nuclear capacity onto the PJM Interconnection grid, as well as a power purchase agreement. Meanwhile, Oracle is to subscribe to output from the Point Beach nuclear power plant."
       },
       {
        "title": "Energy Firms Try to Squeeze More Power Out of Old Nuclear Plants",
@@ -2048,6 +2247,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "It takes a long time to build new nuclear plants. So, some U.S. companies are looking to get more electricity out of reactors that already exist."
       },
       {
@@ -2067,13 +2267,14 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "The tech giant and energy producer are backing improvements and renovations at the 1,790-MW Calvert Cliffs Clean Energy Center, the state’s largest source of clean energy."
       },
       {
-       "title": "Constellation, Google strike 890-MW nuclear deal in PJM",
-       "url": "https://www.utilitydive.com/news/constellation-google-deal-will-bring-890-mw-of-new-nuclear-to-pjm/832223/",
-       "source": "Utility Dive",
-       "published": "2026-10-06T12:55:10.000Z",
+       "title": "Constellation, Google strike 890-MW nuclear deal to meet data center power demand",
+       "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/",
+       "source": "Construction Dive",
+       "published": "2026-10-06T13:23:00.000Z",
        "verification": "multiple",
        "outlets": [
         {
@@ -2090,12 +2291,18 @@
          "name": "POWER Magazine",
          "url": "https://www.powermag.com/google-deal-backs-890-mw-of-constellation-nuclear-uprates-at-11-pjm-reactors/",
          "primary": false
+        },
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/",
+         "primary": false
         }
        ],
        "stages": [
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Constellation Energy has signed 20-year power purchase agreements with both Google and Amazon in the last week, supporting almost 1.1 GW of nuclear expansions."
       },
       {
@@ -2114,7 +2321,28 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "For most Americans, electricity is so woven into daily life that we rarely consider what its absence means. Hospitals depend on it to preserve medicines and operate equipment. Schools, factories, farms, and businesses depend on it to function. Reliable electricity is one of the f"
+      },
+      {
+       "title": "Tennessee Valley Authority Gets Approval to Build Small Nuclear Reactor",
+       "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
+       "source": "NYT Climate / Energy",
+       "published": "2026-09-29T18:09:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NYT Climate / Energy",
+         "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "It’s only the second time that American regulators have approved a next-generation commercial reactor for construction. Big hurdles remain."
       },
       {
        "title": "Second part of construction permit application submitted for SMRs at Palisades",
@@ -2133,6 +2361,7 @@
         "generation",
         "innovation"
        ],
+       "via": null,
        "blurb": "Holtec has submitted the Preliminary Safety Analysis Report to the US Nuclear Regulatory Commission for two small modular reactor units at the Palisades Energy Center in Michigan, completing the second phase of the Construction Permit Application process."
       }
      ]
@@ -2161,6 +2390,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
       },
       {
@@ -2177,6 +2407,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
       },
       {
@@ -2193,6 +2424,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "US Secretary of State Marco Rubio said on Wednesday that Iran had “lost complete control” of the Strait of Hormuz, saying oil flows through the waterway had returned to near prewar levels. “The Strait of Hormuz is open. There’s almost as much oil flowing out now as there was befo"
       },
       {
@@ -2209,7 +2441,49 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "At 424.1 million bbl, US crude oil inventories are 1% above the 5-year average for this time of year, the Energy Information Administration report indicated."
+      },
+      {
+       "title": "Isaias to menace U.S. oil assets as Category 2 hurricane",
+       "url": "https://www.ttnews.com/articles/isaias-menace-us-oil-and-gas",
+       "source": "Transport Topics",
+       "published": "2026-10-07T14:41:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/isaias-menace-us-oil-and-gas",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The storm arrives at a precarious time for oil markets. A shift westward could bring more offshore production and Gulf Coast energy infrastructure into the storm’s path."
+      },
+      {
+       "title": "Westwin to build $502M nickel refinery in Mississippi",
+       "url": "https://www.northernminer.com/news/westwin-to-build-502m-nickel-refinery-in-mississippi/1003895478/",
+       "source": "The Northern Miner",
+       "published": "2026-10-06T20:55:06.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/westwin-502m-nickel-refinery-mississippi/",
+         "primary": false
+        },
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/westwin-to-build-502m-nickel-refinery-in-mississippi/1003895478/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Westwin Elements plans to invest $502 million over five years to build a commercial-scale high-purity nickel refinery in Mississippi, as the U.S. seeks to expand domestic processing of critical minerals.... The post Westwin to build $502M nickel refinery in Mississippi appeared f"
       },
       {
        "title": "Chevron to sell Hess Midstream stake and DJ Basin assets",
@@ -2230,6 +2504,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Chevron has agreed to divest its ownership interests in Hess Midstream, along with its crude oil midstream assets in the Denver Julesburg (DJ) Basin in the US, as part of a transaction with Hess Midstream."
       },
       {
@@ -2246,6 +2521,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "In Asian trading, US crude ticked up 0.9% to US$90.2 a barrel."
       },
       {
@@ -2265,41 +2541,25 @@
         "extraction",
         "generation"
        ],
+       "via": null,
        "blurb": "Rising oil prices, now exceeding 1%, raise alarms over potential storm disruptions affecting U.S. oil production and refineries. With Brent crude passing $101 per barrel and WTI crude hitting $90.38, concerns are amplified by supply issues from Saudi Arabia and mixed signals on U"
       },
       {
-       "title": "Crude oil prices and refinery margins generally increased throughout the third quarter",
-       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
-       "source": "EIA Today in Energy",
-       "published": "2026-10-05T14:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "EIA Today in Energy",
-         "url": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
-         "primary": true
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "blurb": "Petroleum markets in the third quarter of 2026 (3Q26) were characterized by increasing prices for crude oil and petroleum products amid persistent conflict in the Middle East."
-      },
-      {
-       "title": "US supreme court hears big oil’s bid to block climate damage lawsuits",
-       "url": "https://www.theguardian.com/us-news/2026/oct/05/supreme-court-big-oil-climate-damage-lawsuits",
-       "source": "The Guardian Energy",
-       "published": "2026-10-05T19:57:36.000Z",
+       "title": "Diesel’s supply crunch may hit CFOs through freight contracts",
+       "url": "https://www.supplychaindive.com/news/diesels-supply-crunch-may-hit-cfos-through-freight-contracts/831981/",
+       "source": "Supply Chain Dive",
+       "published": "2026-10-07T15:15:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/us-news/2026/oct/05/supreme-court-big-oil-climate-damage-lawsuits",
+         "name": "Supply Chain Dive",
+         "url": "https://www.supplychaindive.com/news/diesels-supply-crunch-may-hit-cfos-through-freight-contracts/831981/",
          "primary": false
         }
        ],
        "stages": [],
-       "blurb": "How the court will lean is unclear amid Suncor Energy and ExxonMobil’s attempt to stop lawsuits at state level The US supreme court began its new nine-month term hearing arguments on Monday in a major case in which big oil companies attempted to strike a fatal blow against lawsui"
+       "via": null,
+       "blurb": "Chevron CFO Eimear Bonner expects energy prices to stay elevated, while a major trucking CEO says contracts signed before diesel prices rose are hurting the bottom line."
       },
       {
        "title": "US BLM sets December California oil, gas lease sale",
@@ -2322,39 +2582,28 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "A federal lease sale in California for oil and gas development has been announced, despite criticism from state officials over an environmental assessment."
       },
       {
-       "title": "100+ Oil Execs Predict Future WTI Oil Prices",
-       "url": "https://www.rigzone.com/news/100_oil_execs_predict_future_wti_oil_prices-06-oct-2026-184781-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-06T12:06:40.000Z",
+       "title": "Narrowed Jones Act exemption slows energy cargo trade",
+       "url": "https://www.ttnews.com/articles/jones-act",
+       "source": "Transport Topics",
+       "published": "2026-10-07T16:58:52.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/100_oil_execs_predict_future_wti_oil_prices-06-oct-2026-184781-article/?rss=true",
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/jones-act",
          "primary": false
         }
        ],
-       "stages": [],
-       "blurb": "More than 100 oil and gas firm executives revealed where they expect the WTI crude oil price to be at various points in the future in the third quarter Dallas Fed Energy Survey."
-      },
-      {
-       "title": "Diesel prices are rising worldwide. So are electric truck sales.",
-       "url": "https://www.canarymedia.com/articles/clean-fleets/diesel-prices-electric-truck-sales",
-       "source": "Canary Media",
-       "published": "2026-10-02T07:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Canary Media",
-         "url": "https://www.canarymedia.com/articles/clean-fleets/diesel-prices-electric-truck-sales",
-         "primary": false
-        }
+       "stages": [
+        "extraction",
+        "generation"
        ],
-       "stages": [],
-       "blurb": "See more from Canary Media’s ​“Chart of the Week” column . The market for battery-powered trucks may be slowing in the U.S. — but globally it’s a very different story. Worldwide, sales of medium- and heavy-duty electric trucks hit a record high in the first half of this year, acc"
+       "via": null,
+       "blurb": "Narrowing the Jones Act has curbed a roaring trade that was supplying East and West coast ports with fuel produced on the Gulf Coast, as well as crude oil and products used in refining."
       }
      ]
     },
@@ -2378,6 +2627,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Great Basin Gas Transmission has upsized its northern Nevada natural gas expansion to nearly 950 MMcf/d and a 48-inch diameter pipe, leaving room to add compression later for growing demand from data centers, power generators and industrial users."
       },
       {
@@ -2397,6 +2647,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "New capacity outside the Middle East offsets some losses, but inventories remain low, raising winter risk concerns."
       },
       {
@@ -2415,6 +2666,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "US-based independent power producer Middle River Power has acquired the fully contracted 427MW Panoche Energy Center, a natural gas generation facility in Firebaugh, California, US, from an Ares Infrastructure Equity fund."
       },
       {
@@ -2434,6 +2686,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "The US Coast Guard ordered storm preparations at lower Mississippi River ports on Wednesday as forecasters predict Tropical Storm Isaias to become a hurricane by Thursday on a track that could avoid most Gulf Coast LNG export capacity."
       },
       {
@@ -2450,6 +2703,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "A mix of depressed prices and a potential for warmer weather in parts of the United States could mean homes that use natural gas for heating are in line for lower bills this winter, according to the US Energy Information Administration (EIA)."
       },
       {
@@ -2466,6 +2720,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Executives from oil and gas firms revealed where they expect the Henry Hub natural gas price to be at various points in the future in the third quarter Dallas Fed Energy Survey."
       },
       {
@@ -2485,6 +2740,7 @@
         "generation",
         "innovation"
        ],
+       "via": null,
        "blurb": "Sempra Infrastructure is advancing commissioning at Port Arthur LNG, with new startup activity bringing the Texas project closer to adding another major source of natural gas demand along the Gulf Coast."
       },
       {
@@ -2503,6 +2759,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "US natural gas futures surged through midday trade on Wednesday as cooler longer range forecasts, expectations for a below-normal storage injection and short covering lifted the front of the curve."
       },
       {
@@ -2522,6 +2779,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Berkshire Hathaway’s unit BHE GT&S is expected to restart its Cove Point LNG export plant in Maryland soon following planned annual maintenance."
       },
       {
@@ -2545,6 +2803,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "Centalion, formerly known as Gunvor, has acquired a portfolio of upstream and midstream natural gas assets in Texas and Louisiana from US-based private energy company Silver Hill Energy Partners."
       },
       {
@@ -2561,6 +2820,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "ConocoPhillips has penned a multi-year liquefied natural gas (LNG) deal with Venture Global, securing long-term U.S. energy supply starting in 2030."
       },
       {
@@ -2579,6 +2839,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "South Korea may invest in the long-delayed Alaska LNG project, contingent on feasibility reviews, as part of a broader US energy investment initiative."
       }
      ]
@@ -2602,6 +2863,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "In a previously unreported letter, a top lobbyist floated the idea of using emergency powers to keep aging coal plants open."
       }
      ]
@@ -2630,6 +2892,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "California-headquartered Clearway Energy Group said it has closed financing and begun construction of the Swan Energy Center, a 650-MW solar facility located on portions of formerly strip-mined land in northwestern Bates County, Missouri. The project is San Francisco-based Clearw"
       },
       {
@@ -2648,6 +2911,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Company officers and government officials celebrated the 2 GW expansion of Toyo’s Humble, Texas solar module facility and looked forward to planned heterojunction cell production at the site in 2028. The post Toyo cuts the ribbon on its newly-expanded solar factory in Texas appea"
       },
       {
@@ -2666,6 +2930,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Independent power producer (IPP) Zelestra has closed a US$350 million credit facility for the 203 MW Reclamation Solar project in Indiana."
       },
       {
@@ -2682,6 +2947,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "The US solar sector will discuss a policy landscape includes “a lot of good news” at next week's PV CellTech USA conference."
       },
       {
@@ -2701,6 +2967,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "Connecticut is trying to clean up its grid with more solar energy. But a major utility’s reluctance to commit to buying power from some projects is raising questions about the prospects for success. Connecticut last month announced plans to secure 63.4 megawatts of new solar capa"
       },
       {
@@ -2717,6 +2984,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "The merger of SEIA and CCSA could be a 'great move' for both trade associations involved, according to industry veteran Yann Brandt."
       },
       {
@@ -2735,6 +3003,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Manufacturers say they are close to perfecting a new, more efficient solar panel that could help the United States reclaim ground it lost."
       },
       {
@@ -2753,6 +3022,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "This article originally appeared on Inside Climate News , a nonprofit, nonpartisan news organization that covers climate, energy, and the environment. Sign up for their newsletter. Apex Clean Energy and Meta have entered into a power purchase agreement that allows the technology "
       },
       {
@@ -2771,6 +3041,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Rules published Thursday essentially end federal grants that thousands of American farmers have long relied on to build revenue-generating solar systems on their land. The Trump administration’s changes to the Rural Energy for America Program (REAP) are its latest attempt to bloc"
       }
      ]
@@ -2794,6 +3065,7 @@
        "stages": [
         "innovation"
        ],
+       "via": null,
        "blurb": "The U.S. Department of Energy's Hydropower and Hydrokinetic Office selected 14 hydropower projects for negotiations on vouchers for in-kind support."
       },
       {
@@ -2812,6 +3084,7 @@
        "stages": [
         "innovation"
        ],
+       "via": null,
        "blurb": "The US Department of Energy (DOE) has selected 14 hydropower projects to begin negotiations for testing support The post US selects 14 hydropower projects for testing support appeared first on International Water Power ."
       }
      ]
@@ -2833,6 +3106,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Controlled Thermal Resources is strengthening and simplifying its capital structure as it develops the Hell's Kitchen geothermal and lithium project. The post CTR restructures debt to advance Hell’s Kitchen geothermal and lithium project in California first appeared on ThinkGeoEn"
       },
       {
@@ -2851,6 +3125,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "The Bureau of Land Management will be holding a geothermal lease sale in Idaho on November 17 2026 covering 35 parcels across eight counties. The post BLM to hold Idaho geothermal lease sale on 17 November 2026 first appeared on ThinkGeoEnergy - Geothermal News & Insights ."
       },
       {
@@ -2870,6 +3145,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "Imperial Irrigation District has signed an agreement for 86 MW of geothermal power supply from two geothermal power plants of BHE Renewables in California. The post California utility signs 86-MW geothermal PPA with BHE Renewables first appeared on ThinkGeoEnergy - Geothermal New"
       },
       {
@@ -2888,6 +3164,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "Dandelion Energy and local utility Vermont Gas Systems will deploy geothermal heating and cooling at an affordable housing community in Hinesburg, Vermont. The post Community-scale geothermal heating and cooling to be deployed in Hinesburg, Vermont first appeared on ThinkGeoEnerg"
       },
       {
@@ -2906,6 +3183,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Fervo Energy has announced the start of commercial operations of the first 33-MW GeoBlock power plant of its Cape Station geothermal site in Utah. The post Fervo Energy announces commercial operation of first geothermal power plant in Cape Station, Utah first appeared on ThinkGeo"
       },
       {
@@ -2922,6 +3200,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "The State of New Mexico has awarded a grant to study the feasibility of geothermal resource development in Jicarilla Apache Nation lands in New Mexico. The post Geothermal feasiblility study to be conducted in Jicarilla Apache Nation lands in New Mexico first appeared on ThinkGeo"
       }
      ]
@@ -2946,6 +3225,7 @@
         "grid",
         "innovation"
        ],
+       "via": null,
        "blurb": "Sodium-ion batteries are rapidly transitioning from promising alternative to commercial reality in the U.S. energy storage market, but navigating federal domestic content policies, complex FEOC sourcing rules, and stringent UL 9540A safety testing remains crucial for developers s"
       },
       {
@@ -2965,6 +3245,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "The first round of awards under the Maryland Next Generation Energy Act fell short of the state’s 800-MW target as the PJM Interconnection’s capacity crunch continues."
       },
       {
@@ -2984,6 +3265,7 @@
         "innovation",
         "generation"
        ],
+       "via": null,
        "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
       },
       {
@@ -3002,6 +3284,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "US energy holding company and project developer-owner NextEra Energy has suspended operations at two energy storage facilities in Long Island, New York, US."
       },
       {
@@ -3020,6 +3303,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Fit Energy, a developer of energy solutions for data center projects, has announced plans for a fuel cell power generation and data center project in Newport Township, Luzerne County, Pennsylvania. The project received township zoning approval for both uses in August of this year"
       },
       {
@@ -3038,6 +3322,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "IPP Linea Energy has closed a debt financing and preferred equity commitment for its 250MW/500MWh Mesa View energy storage project in Upton County, Texas, US."
       },
       {
@@ -3057,6 +3342,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "Thermal energy storage (TES) technology provider Antora Energy has announced a 5.8GWh “multi-day” TES project at Pratt Energy’s biorefinery in Pratt, Kansas, US."
       },
       {
@@ -3076,6 +3362,7 @@
         "innovation",
         "generation"
        ],
+       "via": null,
        "blurb": "On a sunny September day in New York City, I followed a throng of people off the subway and into Queens’ Flushing Meadows Corona Park. The crowds were there for the U.S. Open tennis tournament, but I wasn’t — I’d come to see a novel experiment to wean the city’s iconic food carts"
       }
      ]
@@ -3110,6 +3397,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
       }
      ]
@@ -3138,7 +3426,59 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "Centalion, formerly known as Gunvor, has acquired a portfolio of upstream and midstream natural gas assets in Texas and Louisiana from US-based private energy company Silver Hill Energy Partners."
+      }
+     ]
+    }
+   }
+  },
+  "us-tn": {
+   "label": "Tennessee",
+   "level": "admin1",
+   "sources": {
+    "nuclear": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
+       "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-07T16:27:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering"
+      },
+      {
+       "title": "Tennessee Valley Authority Gets Approval to Build Small Nuclear Reactor",
+       "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
+       "source": "NYT Climate / Energy",
+       "published": "2026-09-29T18:09:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NYT Climate / Energy",
+         "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "It’s only the second time that American regulators have approved a next-generation commercial reactor for construction. Big hurdles remain."
       }
      ]
     }
@@ -3168,6 +3508,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Great Basin Gas Transmission has upsized its northern Nevada natural gas expansion to nearly 950 MMcf/d and a 48-inch diameter pipe, leaving room to add compression later for growing demand from data centers, power generators and industrial users."
       }
      ]
@@ -3197,6 +3538,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "The Alliance for Secure Electricity Supply has launched a campaign for the lifting of the ban on new nuclear power plant construction in Switzerland. It comes as a broad coalition claims to have collected enough signatures in support of a referendum against the construction of ne"
       }
      ]
@@ -3218,6 +3560,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Glaciers in Switzerland – the home to the most in the Alps – lost 5.5% of their ice volume this year, the second-biggest percentage drop on record due to heat waves and low winter snowfall, experts report."
       }
      ]
@@ -3248,6 +3591,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Uranium enrichment services provider Urenco has officially commissioned the uranium oxide storage facility at its site in Gronau, Germany. Construction of the facility was completed several years ago."
       }
      ]
@@ -3271,6 +3615,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "A 365-meter wind turbine, the tallest in the world, was built by Gicon in Lusatia, Germany, and will be inaugurated on November 19."
       },
       {
@@ -3289,6 +3634,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Ocean Breeze Energy is set to acquire the Alpha Ventus offshore wind farm in the German North Sea from EWE, RWE and Vattenfall, with the..."
       },
       {
@@ -3307,6 +3653,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "DEME has installed the 68th and final monopile at Vattenfall's Nordlicht I offshore wind farm site in the German North Sea. The company, using..."
       },
       {
@@ -3325,6 +3672,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "The installation of what is thought to be the tallest wind turbine tower ever built has been completed by an engineering company in Germany."
       }
      ]
@@ -3346,6 +3694,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Sonnedix acquires 54MW of Italian solar, while Sunrock and BGRE partner to assess 135MWp across Germany, France and the Netherlands."
       },
       {
@@ -3362,6 +3711,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Germany’s vertical bifacial PV specialist Next2Sun has filed for the initiation of insolvency proceedings under self-administration for parts of the company."
       }
      ]
@@ -3386,6 +3736,7 @@
         "extraction",
         "innovation"
        ],
+       "via": null,
        "blurb": "A newly launched research projects aims to develop guidelines and standards for the practical deployment of mine water geothermal heating in Germany. The post Partnership formed for research on mine water geothermal energy in Germany first appeared on ThinkGeoEnergy - Geothermal "
       },
       {
@@ -3405,6 +3756,7 @@
         "extraction",
         "innovation"
        ],
+       "via": null,
        "blurb": "The geothermal heating project in Geiselbullach, Germany is now proceeding to the construction phase after successful drilling and testing of two deep wells. The post Drilling and testing of geothermal wells in Geiselbullach, Germany completed first appeared on ThinkGeoEnergy - G"
       },
       {
@@ -3423,6 +3775,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "Vulcan Energy has started commercial production of VULSORB, its proprietary adsorbent for the planned geothermal lithium extraction operations in Germany. The post Vulcan Energy starts commercial production of adsorbent for lithium extraction from geothermal brine first appeared "
       }
      ]
@@ -3444,6 +3797,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": ""
       },
       {
@@ -3463,6 +3817,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Having just begun construction on a 2.8GWh BESS in Belgium, Giga Storage has progressed its 1.4GWh project in Germany to the ready-to-build stage."
       }
      ]
@@ -3492,6 +3847,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "A worker has died at CS Wind’s turbine tower manufacturing factory at the port of Aveiro in Portugal, according to local media reports."
       }
      ]
@@ -3519,6 +3875,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "More than 100 oil and gas firm executives revealed where they expect the WTI crude oil price to be at various points in the future in the third quarter Dallas Fed Energy Survey."
       }
      ]
@@ -3540,6 +3897,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Executives from oil and gas firms revealed where they expect the Henry Hub natural gas price to be at various points in the future in the third quarter Dallas Fed Energy Survey."
       },
       {
@@ -3559,6 +3917,7 @@
         "generation",
         "innovation"
        ],
+       "via": null,
        "blurb": "Sempra Infrastructure is advancing commissioning at Port Arthur LNG, with new startup activity bringing the Texas project closer to adding another major source of natural gas demand along the Gulf Coast."
       },
       {
@@ -3582,6 +3941,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "Centalion, formerly known as Gunvor, has acquired a portfolio of upstream and midstream natural gas assets in Texas and Louisiana from US-based private energy company Silver Hill Energy Partners."
       }
      ]
@@ -3605,6 +3965,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Company officers and government officials celebrated the 2 GW expansion of Toyo’s Humble, Texas solar module facility and looked forward to planned heterojunction cell production at the site in 2028. The post Toyo cuts the ribbon on its newly-expanded solar factory in Texas appea"
       },
       {
@@ -3623,6 +3984,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "This article originally appeared on Inside Climate News , a nonprofit, nonpartisan news organization that covers climate, energy, and the environment. Sign up for their newsletter. Apex Clean Energy and Meta have entered into a power purchase agreement that allows the technology "
       }
      ]
@@ -3646,6 +4008,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "IPP Linea Energy has closed a debt financing and preferred equity commitment for its 250MW/500MWh Mesa View energy storage project in Upton County, Texas, US."
       }
      ]
@@ -3675,7 +4038,223 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "Dandelion Energy and local utility Vermont Gas Systems will deploy geothermal heating and cooling at an affordable housing community in Hinesburg, Vermont. The post Community-scale geothermal heating and cooling to be deployed in Hinesburg, Vermont first appeared on ThinkGeoEnerg"
+      }
+     ]
+    }
+   }
+  },
+  "in": {
+   "label": "India",
+   "level": "country",
+   "sources": {
+    "nuclear": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "NPCIL signs MoU for Gujarat nuclear power projects",
+       "url": "https://www.world-nuclear-news.org/articles/npcil-signs-mou-for-gujarat-nuclear-power-projects",
+       "source": "World Nuclear News",
+       "published": "2026-10-02T14:08:08.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/npcil-signs-mou-for-gujarat-nuclear-power-projects",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Nuclear Power Corporation of India Limited and Gujarat State Electricity Corporation Limited have signed a memorandum of understanding to explore and identify suitable sites in India's Gujarat state for new nuclear power plant projects."
+      }
+     ]
+    },
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Honeywell, Engineers India Picked for $16B Kenya Crude Oil Refinery Project",
+       "url": "https://www.enr.com/articles/63804-honeywell-picked-for-16b-kenya-crude-oil-processing-facility",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-07T20:22:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63804-honeywell-picked-for-16b-kenya-crude-oil-processing-facility",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Kenya's Dangote Group names contractors for planned $16-billion crude oil refining and processing facility, billed as the largest-ever foreign investment in the country."
+      }
+     ]
+    },
+    "coal": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "India’s Coal-fired Power Plants Running Low",
+       "url": "https://www.coalage.com/departments/world-news/indias-coal-fired-power-plants-running-low/",
+       "source": "Coal Age",
+       "published": "2026-09-29T19:26:26.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Coal Age",
+         "url": "https://www.coalage.com/departments/world-news/indias-coal-fired-power-plants-running-low/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Above-average temperatures and El Niño-linked monsoons have caused severe disruptions to supplies and electricity demand in India, affecting the country’s coal stocks and coal-fired power plants. According to recent reports from the Central Electricity Authority (CEA), India’s of"
+      }
+     ]
+    },
+    "solar": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Bondada secures US$119.3 million EPC order for 270MW solar PV project in Maharashtra",
+       "url": "https://www.pv-tech.org/bondada-secures-us119-3-million-epc-order-for-270mw-solar-pv-project-in-maharashtra/",
+       "source": "PV Tech",
+       "published": "2026-10-07T10:51:52.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/bondada-secures-us119-3-million-epc-order-for-270mw-solar-pv-project-in-maharashtra/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Bondada Engineering secures a US$119.3 million solar EPC order, while its subsidiary Onix IPP secures US$94.1 million in SBI financing."
+      },
+      {
+       "title": "Sumitomo Corporation invests in Hero Future Energies’ solar-wind-storage hybrid in Karnataka, India",
+       "url": "https://www.energy-storage.news/sumitomo-corporation-invests-in-hero-future-energies-solar-wind-storage-hybrid-in-karnataka-india/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-06T05:46:37.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/sumitomo-corporation-invests-in-hero-future-energies-solar-wind-storage-hybrid-in-karnataka-india/",
+         "primary": false
+        },
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/sumitomo-invests-in-500mw-200mwh-solar-wind-storage-project-in-india/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Japanese trading company Sumitomo Corporation has invested in a utility-scale renewable energy park combining solar PV, wind and energy storage in India."
+      },
+      {
+       "title": "MNRE proposes standardised naming system for ALMM list-II",
+       "url": "https://www.pv-tech.org/mnre-proposes-standardised-naming-system-for-almm-list-ii/",
+       "source": "PV Tech",
+       "published": "2026-10-07T14:24:29.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/mnre-proposes-standardised-naming-system-for-almm-list-ii/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "India’s MNRE proposed standardised ALMM List-II solar PV cell nomenclature, introducing 14-character codes."
+      }
+     ]
+    },
+    "hydro": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Studio Pietrangeli begins consultancy work on two Indian hydropower projects",
+       "url": "https://www.waterpowermagazine.com/news/studio-pietrangeli-begins-consultancy-work-on-two-indian-hydropower-projects/",
+       "source": "International Water Power & Dam Construction",
+       "published": "2026-10-07T14:35:40.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Water Power & Dam Construction",
+         "url": "https://www.waterpowermagazine.com/news/studio-pietrangeli-begins-consultancy-work-on-two-indian-hydropower-projects/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Studio Pietrangeli has begun consultancy work on the proposed 24 MW Zungki and 42 MW Lower Tizu hydropower projects in Nagaland, India. The post Studio Pietrangeli begins consultancy work on two Indian hydropower projects appeared first on International Water Power ."
+      }
+     ]
+    }
+   }
+  },
+  "ke": {
+   "label": "Kenya",
+   "level": "country",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Honeywell, Engineers India Picked for $16B Kenya Crude Oil Refinery Project",
+       "url": "https://www.enr.com/articles/63804-honeywell-picked-for-16b-kenya-crude-oil-processing-facility",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-07T20:22:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63804-honeywell-picked-for-16b-kenya-crude-oil-processing-facility",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Kenya's Dangote Group names contractors for planned $16-billion crude oil refining and processing facility, billed as the largest-ever foreign investment in the country."
+      },
+      {
+       "title": "Kenya: Parliament Gatekeepers Blocking Scrutiny of Dangote Refinery - Sifuna",
+       "url": "https://allafrica.com/stories/202610070282.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-07T10:20:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610070282.html",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "[Capital FM] Nairobi -- Nairobi Senator Edwin Sifuna has accused parliamentary \"gatekeepers\" of frustrating scrutiny of the proposed Lamu refinery, just days after he filed a formal request for documents on the project with the Senate set to proceed on recess on October 9."
       }
      ]
     }
@@ -3710,7 +4289,27 @@
         "generation",
         "innovation"
        ],
+       "via": null,
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+      },
+      {
+       "title": "Belmont launches gravity survey at Crackingstone uranium site",
+       "url": "https://www.mining-technology.com/news/belmont-gravity-survey-crackingstone-site/",
+       "source": "Mining Technology",
+       "published": "2026-10-07T09:42:29.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/belmont-gravity-survey-crackingstone-site/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "via": null,
+       "blurb": "Belmont Resources has launched a high-resolution ground gravity survey at its wholly owned Crackingstone Uranium Project situated around 6km from Uranium City, Saskatchewan, Canada. The post Belmont launches gravity survey at Crackingstone uranium site appeared first on Mining Te"
       }
      ]
     },
@@ -3731,6 +4330,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Albertans vote this month on staying in Canada or moving ahead to a binding independence referendum."
       },
       {
@@ -3757,6 +4357,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Canada-based oil sands producer Cenovus Energy has reached a definitive agreement to acquire Athabasca Oil in a cash and stock transaction worth C$5.7bn ($4bn)."
       },
       {
@@ -3780,6 +4381,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "The proposed Pacific Link pipeline would see up to one million barrels of oil per day flow from Alberta to the BC. Lower Mainland for export to Asian markets."
       }
      ]
@@ -3803,6 +4405,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "Coalspur Mines Ltd. received regulatory permit approvals from the Alberta Energy Regulator (AER) to move forward with its Phase II Expansion Project on the Vista coal mine, located near Hinton, Alberta, Canada. Regulatory documents show that approval for the expansion was granted"
       }
      ]
@@ -3827,6 +4430,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "e-STORAGE has signed an agreement to supply and commission a 100MW/200MWh BESS for OX2's Muswellbrook solar-plus-storage site in Australia."
       }
      ]
@@ -3851,6 +4455,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "e-STORAGE has signed an agreement to supply and commission a 100MW/200MWh BESS for OX2's Muswellbrook solar-plus-storage site in Australia."
       }
      ]
@@ -3886,6 +4491,7 @@
         "generation",
         "innovation"
        ],
+       "via": null,
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
       }
      ]
@@ -3920,6 +4526,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "California-headquartered Clearway Energy Group said it has closed financing and begun construction of the Swan Energy Center, a 650-MW solar facility located on portions of formerly strip-mined land in northwestern Bates County, Missouri. The project is San Francisco-based Clearw"
       }
      ]
@@ -3954,6 +4561,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "A federal lease sale in California for oil and gas development has been announced, despite criticism from state officials over an environmental assessment."
       }
      ]
@@ -3977,6 +4585,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "US-based independent power producer Middle River Power has acquired the fully contracted 427MW Panoche Energy Center, a natural gas generation facility in Firebaugh, California, US, from an Ares Infrastructure Equity fund."
       }
      ]
@@ -4005,6 +4614,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "California-headquartered Clearway Energy Group said it has closed financing and begun construction of the Swan Energy Center, a 650-MW solar facility located on portions of formerly strip-mined land in northwestern Bates County, Missouri. The project is San Francisco-based Clearw"
       }
      ]
@@ -4026,6 +4636,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Controlled Thermal Resources is strengthening and simplifying its capital structure as it develops the Hell's Kitchen geothermal and lithium project. The post CTR restructures debt to advance Hell’s Kitchen geothermal and lithium project in California first appeared on ThinkGeoEn"
       },
       {
@@ -4045,6 +4656,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "Imperial Irrigation District has signed an agreement for 86 MW of geothermal power supply from two geothermal power plants of BHE Renewables in California. The post California utility signs 86-MW geothermal PPA with BHE Renewables first appeared on ThinkGeoEnergy - Geothermal New"
       }
      ]
@@ -4079,6 +4691,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "California-headquartered Clearway Energy Group said it has closed financing and begun construction of the Swan Energy Center, a 650-MW solar facility located on portions of formerly strip-mined land in northwestern Bates County, Missouri. The project is San Francisco-based Clearw"
       }
      ]
@@ -4111,6 +4724,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Australia's High Court rules in favour of a Hunter Valley community group in a landmark climate ruling that could redraw how fossil fuel projects are approved in Australia."
       },
       {
@@ -4127,6 +4741,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "It isn’t hard to see a contradiction between the PM’s message in Fiji and his opposition to legal action to stop a NSW coalmine Get our new political email , free app or daily news podcast There are unlikely to be many bigger moments in Australian community action on the climate "
       },
       {
@@ -4143,6 +4758,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Global campaign group 350.org urges Cop31 hosts to announce a coal phase-out date and national roadmaps to get off fossil fuels Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here The hosts of the next major United Nations climate conference, T"
       },
       {
@@ -4161,6 +4777,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Independent Planning Commission says climate change impacts from Hunter Valley project will be ‘outweighed’ by economic benefits Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast The New South Wales independent pla"
       }
      ]
@@ -4184,6 +4801,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Renewable energy company Neoen has commenced construction of Stage 1 of the 346MW Goyder North Wind Farm in the Mid North region of South Australia (SA), near Burra on Ngadjuri Nation land."
       },
       {
@@ -4202,6 +4820,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Australia represented the largest single destination for new wind turbine orders for Vestas in the third quarter, while its updated order book showed no new deals for offshore turbines during the period."
       }
      ]
@@ -4225,6 +4844,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "It has unrivalled ambition and is backed by a tech billionaire, but Sun Cable's plans to export solar power to Singapore are floundering."
       },
       {
@@ -4243,6 +4863,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Yindjibarndi Energy Corporation (YEC) has lodged the DA for the Baru Marnda Renewable Energy Project, featuring a 500MW solar PV power plant."
       },
       {
@@ -4262,6 +4883,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "e-STORAGE has signed an agreement to supply and commission a 100MW/200MWh BESS for OX2's Muswellbrook solar-plus-storage site in Australia."
       },
       {
@@ -4280,6 +4902,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "Australia's utility-scale solar and wind assets generated a combined 5.44TWh across the NEM in September 2026."
       },
       {
@@ -4298,6 +4921,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Australia's NEM recorded a combined 4,780GWh of solar generation in September 2026: 1,805GWh from utility-scale and 2,975GWh from rooftop."
       }
      ]
@@ -4322,6 +4946,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Hydro Tasmania has returned Poatina Power Station in Australia to service following one of its largest planned outages in recent years The post Hydro Tasmania completes first stage of Poatina upgrade appeared first on International Water Power ."
       }
      ]
@@ -4346,6 +4971,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "Atmos Renewables has reached financial close on the 400MW/1,600MWh Teebar battery energy storage system (BESS) in Queensland, Australia."
       },
       {
@@ -4365,6 +4991,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "e-STORAGE has agreed to supply and commission a 100MW/200MWh BESS for OX2’s Muswellbrook Solar Farm and Battery project in Australia."
       },
       {
@@ -4384,6 +5011,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "e-STORAGE has signed an agreement to supply and commission a 100MW/200MWh BESS for OX2's Muswellbrook solar-plus-storage site in Australia."
       },
       {
@@ -4402,6 +5030,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "Australia's 59 grid-scale BESS earned a combined AU$88.91 million in estimated gross energy and FCAS market revenue in the NEM."
       },
       {
@@ -4421,6 +5050,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Origin Energy has referred a new BESS project, Eraring BESS North, for assessment under Australia's EPBC Act."
       }
      ]
@@ -4450,6 +5080,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Renewable energy company Neoen has commenced construction of Stage 1 of the 346MW Goyder North Wind Farm in the Mid North region of South Australia (SA), near Burra on Ngadjuri Nation land."
       }
      ]
@@ -4495,6 +5126,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Vistra is set to receive an approximately $4.2 billion loan from the Department of Energy to upgrade and uprate its fleet of nuclear reactors in Pennsylvania and Ohio, the DOE announced Monday. This work will add 433 MW of new nuclear capacity to help meet electricity demand in P"
       }
      ]
@@ -4518,6 +5150,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Fit Energy, a developer of energy solutions for data center projects, has announced plans for a fuel cell power generation and data center project in Newport Township, Luzerne County, Pennsylvania. The project received township zoning approval for both uses in August of this year"
       }
      ]
@@ -4548,6 +5181,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "The tech giant and energy producer are backing improvements and renovations at the 1,790-MW Calvert Cliffs Clean Energy Center, the state’s largest source of clean energy."
       }
      ]
@@ -4572,6 +5206,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Berkshire Hathaway’s unit BHE GT&S is expected to restart its Cove Point LNG export plant in Maryland soon following planned annual maintenance."
       }
      ]
@@ -4596,6 +5231,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "The first round of awards under the Maryland Next Generation Energy Act fell short of the state’s 800-MW target as the PJM Interconnection’s capacity crunch continues."
       }
      ]
@@ -4641,6 +5277,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Vistra is set to receive an approximately $4.2 billion loan from the Department of Energy to upgrade and uprate its fleet of nuclear reactors in Pennsylvania and Ohio, the DOE announced Monday. This work will add 433 MW of new nuclear capacity to help meet electricity demand in P"
       }
      ]
@@ -4670,6 +5307,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "It has unrivalled ambition and is backed by a tech billionaire, but Sun Cable's plans to export solar power to Singapore are floundering."
       }
      ]
@@ -4700,6 +5338,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "Atmos Renewables has reached financial close on the 400MW/1,600MWh Teebar battery energy storage system (BESS) in Queensland, Australia."
       }
      ]
@@ -4732,6 +5371,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Party in England and Wales ditches commitment to phase out nuclear in major shift in its energy policy Green party members have voted to end the party’s opposition to nuclear power, dropping a commitment to phase out the technology in a major shift in its energy policy. The motio"
       },
       {
@@ -4750,6 +5390,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Ownership of the Hinkley Point B nuclear power station in Somerset, England - which was permanently shut down four years ago - has transferred from EDF Energy to the Nuclear Decommissioning Authority for the plant's decommissioning."
       },
       {
@@ -4768,6 +5409,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "A group of Polish business people have invested a total of PLN500 million (USD128 million) in SGE’s plans to build fleets of small modular reactors in Poland, the UK and elsewhere in Europe."
       }
      ]
@@ -4789,6 +5431,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Developing North Sea fields does not contradict net zero goals, according to Simone Rossi New oil and gas projects are a “no-brainer” that pose “no contradiction” to the net zero agenda, according to the head of EDF Energy. Simone Rossi has joined a string of renewables leaders i"
       }
      ]
@@ -4812,6 +5455,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "US natural gas futures surged through midday trade on Wednesday as cooler longer range forecasts, expectations for a below-normal storage injection and short covering lifted the front of the curve."
       },
       {
@@ -4828,6 +5472,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "UK-based LNG giant Shell expects trading and optimization results for its integrated gas business in the third quarter of 2026 to be in line compared with the previous quarter."
       },
       {
@@ -4844,6 +5489,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Finland’s tech firm Wartsila has signed a deal with Greek LNG shipping firm TMS Cardiff Gas to support the latter’s two liquefied natural gas (LNG) carriers."
       }
      ]
@@ -4865,6 +5511,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Study says UK-based banks provided $8.3bn in coal financing in four years, with Barclays and HSBC leading rise UK banks are Europe’s biggest financial backers of the global coal industry, providing billions of pounds in funding for the climate-wrecking fossil fuel in the past fou"
       }
      ]
@@ -4894,6 +5541,7 @@
         "innovation",
         "grid"
        ],
+       "via": null,
        "blurb": "Verlume, a UK-headquartered subsea batteries and power management systems specialist, has put its 500 kWh modular subsea energy storage system to..."
       },
       {
@@ -4912,6 +5560,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Greenpeace UK has threatened legal action against the Crown Estate over the way seabed rights are priced for offshore wind projects, with its..."
       },
       {
@@ -4930,6 +5579,7 @@
        "stages": [
         "innovation"
        ],
+       "via": null,
        "blurb": "The European Marine Energy Centre (EMEC) has secured GBP 3 million (approximately EUR 3.5 million) from UK Research and Innovation (UKRI) to..."
       }
      ]
@@ -4954,6 +5604,7 @@
         "extraction",
         "generation"
        ],
+       "via": null,
        "blurb": "Operations have started on a new mine water heating scheme supplying homes at the Seaham Garden Village in County Durham in the UK. The post Mine water geothermal heat project goes online at Seaham, County Durham, UK first appeared on ThinkGeoEnergy - Geothermal News & Insights ."
       }
      ]
@@ -4982,6 +5633,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "BW ESS and Danske Commodities have entered into a 10-year agreement for the trading and optimisation of the entire 200MW/857MWh Berkswell battery energy storage system (BESS) in the UK."
       },
       {
@@ -5006,7 +5658,184 @@
         "innovation",
         "grid"
        ],
+       "via": null,
        "blurb": "Verlume, a UK-headquartered subsea batteries and power management systems specialist, has put its 500 kWh modular subsea energy storage system to..."
+      }
+     ]
+    }
+   }
+  },
+  "pl": {
+   "label": "Poland",
+   "level": "country",
+   "sources": {
+    "nuclear": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Timeline for Polish nuclear units slips in updated programme",
+       "url": "https://www.world-nuclear-news.org/articles/timeline-for-polish-nuclear-units-slips-in-updated-programme",
+       "source": "World Nuclear News",
+       "published": "2026-10-05T13:23:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/timeline-for-polish-nuclear-units-slips-in-updated-programme",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Poland's Council of Ministers has adopted an update to the country's nuclear power programme - a strategic document outlining the development of nuclear energy in Poland - with the first nuclear power plant now expected to start up in 2036 and the second one in 2040."
+      },
+      {
+       "title": "Poland updates nuclear strategy with delays to launch of first two plants",
+       "url": "https://notesfrompoland.com/2026/10/03/poland-updates-nuclear-strategy-with-delays-to-launch-of-first-two-plants/",
+       "source": "Notes from Poland",
+       "published": "2026-10-03T15:00:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Notes from Poland",
+         "url": "https://notesfrompoland.com/2026/10/03/poland-updates-nuclear-strategy-with-delays-to-launch-of-first-two-plants/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "The updated nuclear strategy targets up to 9 GW of capacity and a bigger role for Polish industry in future projects."
+      },
+      {
+       "title": "Leading Polish business owners invest in small nuclear reactor venture",
+       "url": "https://notesfrompoland.com/2026/10/01/leading-polish-business-owners-invest-in-small-nuclear-reactor-venture/",
+       "source": "Notes from Poland",
+       "published": "2026-10-01T14:00:21.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Notes from Poland",
+         "url": "https://notesfrompoland.com/2026/10/01/leading-polish-business-owners-invest-in-small-nuclear-reactor-venture/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "The company of Poland's richest man raised 500 million zloty as it seeks to develop a fleet of BWRX-300 reactors in Poland and beyond."
+      },
+      {
+       "title": "Bechtel-Westinghouse sign EPC contract for Poland’s first nuclear plant",
+       "url": "https://www.globalconstructionreview.com/bechtel-westinghouse-sign-epc-contract-for-polands-first-nuclear-plant/",
+       "source": "Global Construction Review",
+       "published": "2026-09-29T16:15:22.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Global Construction Review",
+         "url": "https://www.globalconstructionreview.com/bechtel-westinghouse-sign-epc-contract-for-polands-first-nuclear-plant/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "A consortium of Bechtel and nuclear power firm Westinghouse has been awarded an engineering, procurement and construction (EPC) contract from the state-owned Polskie Elektrownie Jądrowe (PEJ) for the country’s first… The post Bechtel-Westinghouse sign EPC contract for Poland’s fi"
+      },
+      {
+       "title": "Polish entrepreneurs invest in SGE's BWRX-300 projects",
+       "url": "https://www.world-nuclear-news.org/articles/polish-entrepreneurs-invest-in-sges-bwrx-300-projects",
+       "source": "World Nuclear News",
+       "published": "2026-10-02T07:04:24.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/polish-entrepreneurs-invest-in-sges-bwrx-300-projects",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "A group of Polish business people have invested a total of PLN500 million (USD128 million) in SGE’s plans to build fleets of small modular reactors in Poland, the UK and elsewhere in Europe."
+      }
+     ]
+    },
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Poland detains senior managers from state oil giant Orlen over pre-election fuel price cuts",
+       "url": "https://notesfrompoland.com/2026/10/06/poland-detains-senior-managers-from-state-oil-giant-orlen-over-pre-election-fuel-price-cuts/",
+       "source": "Notes from Poland",
+       "published": "2026-10-06T14:14:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Notes from Poland",
+         "url": "https://notesfrompoland.com/2026/10/06/poland-detains-senior-managers-from-state-oil-giant-orlen-over-pre-election-fuel-price-cuts/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Orlen was accused of lowering prices in 2023 to benefit the campaign of the then-ruling PiS party."
+      }
+     ]
+    },
+    "coal": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Polish coal mining giant JSW to shed 4,200 jobs – 21% of its workforce – this year",
+       "url": "https://notesfrompoland.com/2026/10/02/polish-coal-mining-giant-jsw-to-shed-4200-jobs-21-of-its-workforce-this-year/",
+       "source": "Notes from Poland",
+       "published": "2026-10-02T14:31:18.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Notes from Poland",
+         "url": "https://notesfrompoland.com/2026/10/02/polish-coal-mining-giant-jsw-to-shed-4200-jobs-21-of-its-workforce-this-year/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "via": null,
+       "blurb": "The EU's largest producer of coking coal producer reported a 1 billion zloty loss in the first half of 2026."
+      }
+     ]
+    },
+    "wind": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "All Turbines Installed at Poland's First Offshore Wind Farm",
+       "url": "https://offshorewind.biz/2026/10/07/all-turbines-installed-at-polands-first-offshore-wind-farm",
+       "source": "offshoreWIND.biz",
+       "published": "2026-10-07T09:55:24.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "offshoreWIND.biz",
+         "url": "https://offshorewind.biz/2026/10/07/all-turbines-installed-at-polands-first-offshore-wind-farm",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "All 76 Vestas V236-15.0 MW turbines are in place at the Baltic Power offshore wind farm in Poland, jointly owned by Orlen and Northland Power...."
       }
      ]
     }
@@ -5016,6 +5845,35 @@
    "label": "Mississippi",
    "level": "admin1",
    "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Westwin to build $502M nickel refinery in Mississippi",
+       "url": "https://www.northernminer.com/news/westwin-to-build-502m-nickel-refinery-in-mississippi/1003895478/",
+       "source": "The Northern Miner",
+       "published": "2026-10-06T20:55:06.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/westwin-502m-nickel-refinery-mississippi/",
+         "primary": false
+        },
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/westwin-to-build-502m-nickel-refinery-in-mississippi/1003895478/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Westwin Elements plans to invest $502 million over five years to build a commercial-scale high-purity nickel refinery in Mississippi, as the U.S. seeks to expand domestic processing of critical minerals.... The post Westwin to build $502M nickel refinery in Mississippi appeared f"
+      }
+     ]
+    },
     "gas": {
      "brief": "missing",
      "candidates": [
@@ -5036,6 +5894,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "The US Coast Guard ordered storm preparations at lower Mississippi River ports on Wednesday as forecasters predict Tropical Storm Isaias to become a hurricane by Thursday on a track that could avoid most Gulf Coast LNG export capacity."
       }
      ]
@@ -5065,6 +5924,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "Semirara Mining and Power Corp. has pushed back against what it calls “unfair” rules governing the auction of the country’s largest coal mine, with the bidding process now facing another delay."
       }
      ]
@@ -5086,6 +5946,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "The Philippines is exploring a one-percent sustainable aviation fuel blending mandate for the aviation sector by 2030, according to a senior energy official."
       }
      ]
@@ -5116,6 +5977,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Equinor on Wednesday again said it would cost more than expected to extend the life of its Hammerfest LNG export facility in Norway, pushing the cost estimate up to about $2.76 billion, but saying the project remains on track to be completed on time."
       },
       {
@@ -5139,6 +6001,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "Costs for Equinor’s Snohvit Future project, which includes upgrading the 4.3 mtpa Hammerfest LNG export facility on Melkoya Island in Norway, have increased further from the original estimates."
       },
       {
@@ -5155,6 +6018,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "JP Morgan’s Norwegian Car Carriers (NOCC) has ordered more LNG dual-fuel pure car and truck carriers from China’s CIMC Raffles in Yantai."
       },
       {
@@ -5162,17 +6026,23 @@
        "url": "https://lngprime.com/europe/wallenius-wilhelmsen-in-advanced-talks-with-yards-to-order-lng-powered-vessels/198004/",
        "source": "LNG Prime",
        "published": "2026-10-07T06:20:02.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "LNG Prime",
          "url": "https://lngprime.com/europe/wallenius-wilhelmsen-in-advanced-talks-with-yards-to-order-lng-powered-vessels/198004/",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/wallenius-wilhelmsen-eyes-up-to-12-more-car-carriers/",
          "primary": false
         }
        ],
        "stages": [
         "innovation"
        ],
+       "via": null,
        "blurb": "Norway-based shipping firm Wallenius Wilhelmsen is in advanced talks with yards to sign shipbuilding contracts for LNG dual-fuel RoRo vessels."
       }
      ]
@@ -5202,6 +6072,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "Iraq devalued its currency by 13 percent against the dollar."
       },
       {
@@ -5218,6 +6089,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "China's independent refiners are turning to Iraqi crude."
       }
      ]
@@ -5247,6 +6119,7 @@
        "stages": [
         "innovation"
        ],
+       "via": null,
        "blurb": "Saudi Arabia's Zamil Offshore, established in 1977, has contracted Dutch ship design and engineering company Conoship International to design an..."
       }
      ]
@@ -5270,6 +6143,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Boskalis has secured what the company calls a “sizable” contract to transport and install the inter-array cables for the first phase of the 2 GW..."
       },
       {
@@ -5288,6 +6162,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Acta Marine has held an official naming ceremony for its construction service operation vessel (CSOV) Acta Hercules in IJmuiden, the Netherlands...."
       }
      ]
@@ -5312,6 +6187,7 @@
         "generation",
         "innovation"
        ],
+       "via": null,
        "blurb": "Dutch firm Modat and the Netherlands' cybersecurity agency have identified 8,547 exposed systems at solar and wind sites in 35 European countries, with Spain accounting for more than one-third of the solar total. The post Thousands of European solar park systems exposed online, s"
       },
       {
@@ -5328,6 +6204,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Sonnedix acquires 54MW of Italian solar, while Sunrock and BGRE partner to assess 135MWp across Germany, France and the Netherlands."
       }
      ]
@@ -5349,6 +6226,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "The second geothermal heating facility of Aardwarmte Vogelaer in Poeldijk, Netherlands has officially opened, serving homes and horticultural companies. The post Aarwarmte Vogelaer 2 geothermal heating project in Netherlands officially opened first appeared on ThinkGeoEnergy - Ge"
       }
      ]
@@ -5373,6 +6251,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Having just begun construction on a 2.8GWh BESS in Belgium, Giga Storage has progressed its 1.4GWh project in Germany to the ready-to-build stage."
       }
      ]
@@ -5403,6 +6282,7 @@
         "generation",
         "innovation"
        ],
+       "via": null,
        "blurb": "Dutch firm Modat and the Netherlands' cybersecurity agency have identified 8,547 exposed systems at solar and wind sites in 35 European countries, with Spain accounting for more than one-third of the solar total. The post Thousands of European solar park systems exposed online, s"
       },
       {
@@ -5421,6 +6301,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "IPP Zelestra and power firm and utility EDP have agreed two new hybrid PPAs in Spain, adding 181MWdc of solar and 462MWh BESS to their existing co-operation."
       }
      ]
@@ -5444,6 +6325,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "IPP Zelestra and power firm and utility EDP have agreed two new hybrid PPAs in Spain, adding 181MWdc of solar and 462MWh BESS to their existing co-operation."
       }
      ]
@@ -5478,6 +6360,7 @@
        "stages": [
         "innovation"
        ],
+       "via": null,
        "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
       }
      ]
@@ -5504,6 +6387,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Chevron has agreed to divest its ownership interests in Hess Midstream, along with its crude oil midstream assets in the Denver Julesburg (DJ) Basin in the US, as part of a transaction with Hess Midstream."
       }
      ]
@@ -5538,6 +6422,7 @@
        "stages": [
         "innovation"
        ],
+       "via": null,
        "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
       }
      ]
@@ -5564,6 +6449,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Chevron has agreed to divest its ownership interests in Hess Midstream, along with its crude oil midstream assets in the Denver Julesburg (DJ) Basin in the US, as part of a transaction with Hess Midstream."
       }
      ]
@@ -5593,6 +6479,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "Egypt secures new investment from Chevron to unlock Mediterranean gas reserves with 3D seismic data and two new wells."
       }
      ]
@@ -5623,143 +6510,8 @@
         "generation",
         "innovation"
        ],
+       "via": null,
        "blurb": "Holtec has submitted the Preliminary Safety Analysis Report to the US Nuclear Regulatory Commission for two small modular reactor units at the Palisades Energy Center in Michigan, completing the second phase of the Construction Permit Application process."
-      }
-     ]
-    }
-   }
-  },
-  "in": {
-   "label": "India",
-   "level": "country",
-   "sources": {
-    "nuclear": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "NPCIL signs MoU for Gujarat nuclear power projects",
-       "url": "https://www.world-nuclear-news.org/articles/npcil-signs-mou-for-gujarat-nuclear-power-projects",
-       "source": "World Nuclear News",
-       "published": "2026-10-02T14:08:08.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/npcil-signs-mou-for-gujarat-nuclear-power-projects",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "blurb": "Nuclear Power Corporation of India Limited and Gujarat State Electricity Corporation Limited have signed a memorandum of understanding to explore and identify suitable sites in India's Gujarat state for new nuclear power plant projects."
-      }
-     ]
-    },
-    "coal": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "India’s Coal-fired Power Plants Running Low",
-       "url": "https://www.coalage.com/departments/world-news/indias-coal-fired-power-plants-running-low/",
-       "source": "Coal Age",
-       "published": "2026-09-29T19:26:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Coal Age",
-         "url": "https://www.coalage.com/departments/world-news/indias-coal-fired-power-plants-running-low/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "blurb": "Above-average temperatures and El Niño-linked monsoons have caused severe disruptions to supplies and electricity demand in India, affecting the country’s coal stocks and coal-fired power plants. According to recent reports from the Central Electricity Authority (CEA), India’s of"
-      }
-     ]
-    },
-    "solar": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Bondada secures US$119.3 million EPC order for 270MW solar PV project in Maharashtra",
-       "url": "https://www.pv-tech.org/bondada-secures-us119-3-million-epc-order-for-270mw-solar-pv-project-in-maharashtra/",
-       "source": "PV Tech",
-       "published": "2026-10-07T10:51:52.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/bondada-secures-us119-3-million-epc-order-for-270mw-solar-pv-project-in-maharashtra/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "blurb": "Bondada Engineering secures a US$119.3 million solar EPC order, while its subsidiary Onix IPP secures US$94.1 million in SBI financing."
-      },
-      {
-       "title": "Sumitomo Corporation invests in Hero Future Energies’ solar-wind-storage hybrid in Karnataka, India",
-       "url": "https://www.energy-storage.news/sumitomo-corporation-invests-in-hero-future-energies-solar-wind-storage-hybrid-in-karnataka-india/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-06T05:46:37.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/sumitomo-corporation-invests-in-hero-future-energies-solar-wind-storage-hybrid-in-karnataka-india/",
-         "primary": false
-        },
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/sumitomo-invests-in-500mw-200mwh-solar-wind-storage-project-in-india/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "blurb": "Japanese trading company Sumitomo Corporation has invested in a utility-scale renewable energy park combining solar PV, wind and energy storage in India."
-      },
-      {
-       "title": "MNRE proposes standardised naming system for ALMM list-II",
-       "url": "https://www.pv-tech.org/mnre-proposes-standardised-naming-system-for-almm-list-ii/",
-       "source": "PV Tech",
-       "published": "2026-10-07T14:24:29.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/mnre-proposes-standardised-naming-system-for-almm-list-ii/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "blurb": "India’s MNRE proposed standardised ALMM List-II solar PV cell nomenclature, introducing 14-character codes."
-      }
-     ]
-    },
-    "hydro": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Studio Pietrangeli begins consultancy work on two Indian hydropower projects",
-       "url": "https://www.waterpowermagazine.com/news/studio-pietrangeli-begins-consultancy-work-on-two-indian-hydropower-projects/",
-       "source": "International Water Power & Dam Construction",
-       "published": "2026-10-07T14:35:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "International Water Power & Dam Construction",
-         "url": "https://www.waterpowermagazine.com/news/studio-pietrangeli-begins-consultancy-work-on-two-indian-hydropower-projects/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "blurb": "Studio Pietrangeli has begun consultancy work on the proposed 24 MW Zungki and 42 MW Lower Tizu hydropower projects in Nagaland, India. The post Studio Pietrangeli begins consultancy work on two Indian hydropower projects appeared first on International Water Power ."
       }
      ]
     }
@@ -5788,6 +6540,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Nuclear Power Corporation of India Limited and Gujarat State Electricity Corporation Limited have signed a memorandum of understanding to explore and identify suitable sites in India's Gujarat state for new nuclear power plant projects."
       }
      ]
@@ -5815,6 +6568,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Sumitomo Corporation Global Metals (SCGM) and Ireland-based TFI Marine have formed a strategic partnership to bring TFI Marine’s SeaSpring..."
       }
      ]
@@ -5836,6 +6590,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "A tender has been announced for a single-party framework agreement for geothermal engineering consultancy services for the Grangegorman site in Ireland. The post Tender – Framework agreement for geothermal consultancy at Grangegorman, Ireland first appeared on ThinkGeoEnergy - Ge"
       }
      ]
@@ -5866,6 +6621,7 @@
         "innovation",
         "generation"
        ],
+       "via": null,
        "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
       }
      ]
@@ -5889,6 +6645,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "The Bureau of Land Management will be holding a geothermal lease sale in Idaho on November 17 2026 covering 35 parcels across eight counties. The post BLM to hold Idaho geothermal lease sale on 17 November 2026 first appeared on ThinkGeoEnergy - Geothermal News & Insights ."
       }
      ]
@@ -5913,6 +6670,7 @@
         "innovation",
         "generation"
        ],
+       "via": null,
        "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
       }
      ]
@@ -5940,6 +6698,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Bondada Engineering secures a US$119.3 million solar EPC order, while its subsidiary Onix IPP secures US$94.1 million in SBI financing."
       }
      ]
@@ -5967,6 +6726,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Albertans vote this month on staying in Canada or moving ahead to a binding independence referendum."
       },
       {
@@ -5990,6 +6750,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "The proposed Pacific Link pipeline would see up to one million barrels of oil per day flow from Alberta to the BC. Lower Mainland for export to Asian markets."
       }
      ]
@@ -6013,6 +6774,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "Coalspur Mines Ltd. received regulatory permit approvals from the Alberta Energy Regulator (AER) to move forward with its Phase II Expansion Project on the Vista coal mine, located near Hinton, Alberta, Canada. Regulatory documents show that approval for the expansion was granted"
       }
      ]
@@ -6040,6 +6802,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "In Asian trading, US crude ticked up 0.9% to US$90.2 a barrel."
       },
       {
@@ -6059,6 +6822,7 @@
         "extraction",
         "generation"
        ],
+       "via": null,
        "blurb": "Rising oil prices, now exceeding 1%, raise alarms over potential storm disruptions affecting U.S. oil production and refineries. With Brent crude passing $101 per barrel and WTI crude hitting $90.38, concerns are amplified by supply issues from Saudi Arabia and mixed signals on U"
       },
       {
@@ -6077,6 +6841,7 @@
        "stages": [
         "innovation"
        ],
+       "via": null,
        "blurb": "Saudi Arabia's Zamil Offshore, established in 1977, has contracted Dutch ship design and engineering company Conoship International to design an..."
       },
       {
@@ -6093,6 +6858,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "This offshore engineering contract enables KBR to support Aramco’s field development program off the coast of Saudi Arabia."
       }
      ]
@@ -6114,6 +6880,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "A 250MW solar park in the Prince Mohammed bin Salman Royal Reserve will be the site of a scheme to reintroduce endangered sand gazelles into the wild."
       }
      ]
@@ -6143,6 +6910,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "South Korea may invest in the long-delayed Alaska LNG project, contingent on feasibility reviews, as part of a broader US energy investment initiative."
       }
      ]
@@ -6172,6 +6940,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "South Korea may invest in the long-delayed Alaska LNG project, contingent on feasibility reviews, as part of a broader US energy investment initiative."
       }
      ]
@@ -6199,6 +6968,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "China's independent refiners are turning to Iraqi crude."
       }
      ]
@@ -6223,6 +6993,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "New capacity outside the Middle East offsets some losses, but inventories remain low, raising winter risk concerns."
       },
       {
@@ -6239,6 +7010,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "JP Morgan’s Norwegian Car Carriers (NOCC) has ordered more LNG dual-fuel pure car and truck carriers from China’s CIMC Raffles in Yantai."
       }
      ]
@@ -6262,6 +7034,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "The 2GW Yangjiang Fanshi offshore wind project off the coast of Guangdong province has achieved full-capacity operation, according to China General Nuclear Power Corporation (CGN), marking China’s first large-scale deployment of 18MW offshore wind turbines."
       },
       {
@@ -6286,6 +7059,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "China Three Gorges Corporation (CTG) has connected the first batch of turbines at its 2 GW Qingzhou V & VII offshore wind project off Yangjiang,..."
       }
      ]
@@ -6309,6 +7083,7 @@
        "stages": [
         "innovation"
        ],
+       "via": null,
        "blurb": "Chinese researchers have developed a biomass lignin-based silver paste for HJT solar cells that reduces reliance on petroleum-based resins and improves electrical performance. The optimized paste increased solar cell efficiency from 25.01% to 25.96% while improving printability, "
       },
       {
@@ -6327,6 +7102,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Manufacturers say they are close to perfecting a new, more efficient solar panel that could help the United States reclaim ground it lost."
       }
      ]
@@ -6339,11 +7115,16 @@
        "url": "https://www.pv-magazine.com/2026/10/07/hithiums-sodium-ion-storage-push-where-it-could-win-where-it-wont-and-path-to-bankability/",
        "source": "pv magazine",
        "published": "2026-10-07T07:26:01.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "pv magazine",
          "url": "https://www.pv-magazine.com/2026/10/07/hithiums-sodium-ion-storage-push-where-it-could-win-where-it-wont-and-path-to-bankability/",
+         "primary": false
+        },
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/hithiums-%e2%88%9ecell-n785ah-vs-catl-hina-and-its-own-lfp-range-a-sodium-ion-comparison-for-bess/",
          "primary": false
         }
        ],
@@ -6351,6 +7132,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "After Chinese manufacturer Hithium launched its new 4 MWh sodium-ion BESS alongside its new 785Ah cell for energy storage, in response to questions, Leb Lan, senior product manager, Hithium, spoke with ESS News to discuss not only the technology developments but also where and wh"
       }
      ]
@@ -6378,6 +7160,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "The Meloni government has neither renewed the diesel tax cut nor launched the replacement scheme it had promised. EU leaders meet on 15–16 October, while European governments pursue different measures to ease fuel costs."
       },
       {
@@ -6394,6 +7177,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "With tax breaks expiring and the decree on flexible excise duties delayed, diesel prices are rising again. The haulage sector warns of a strike as the government summons oil companies that have introduced initial capped prices."
       }
      ]
@@ -6415,6 +7199,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Sonnedix acquires 54MW of Italian solar, while Sunrock and BGRE partner to assess 135MWp across Germany, France and the Netherlands."
       }
      ]
@@ -6443,6 +7228,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "BESS owner-operator BW ESS has launched construction on its second large-scale project in Italy in the space of a month, while developers Galileo and Aura Power have progressed portfolios in the country."
       }
      ]
@@ -6473,6 +7259,7 @@
         "generation",
         "innovation"
        ],
+       "via": null,
        "blurb": "Fusion for Energy, in collaboration with Ansaldo Nucleare, Westinghouse and Walter Tosto, has completed manufacturing Europe's final vacuum vessel sector for the International Thermonuclear Experimental Reactor at Cadarache in south-eastern France."
       }
      ]
@@ -6494,6 +7281,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Premier expects measure to cut diesel prices by $0.13-$0.20 per liter"
       }
      ]
@@ -6515,6 +7303,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "French floating offshore wind specialist Eolink has been put up for sale by its owners as part of “court-ordered reorganisation proceedings”, the company announced."
       }
      ]
@@ -6536,6 +7325,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Sonnedix acquires 54MW of Italian solar, while Sunrock and BGRE partner to assess 135MWp across Germany, France and the Netherlands."
       }
      ]
@@ -6557,6 +7347,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Public consultation has started on a proposed geothermal heating project on the boundary of Val-de-Marne and Seine-Saint-Denis departments in France The post Inter-municipal geothermal heating project being planned at Val-de-Marne, France first appeared on ThinkGeoEnergy - Geothe"
       }
      ]
@@ -6581,6 +7372,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "TagEnergy has inaugurated a 240 MW/480 MWh battery storage facility in northeastern France, the country’s largest operational BESS. The Tesla Megapack-based project provides grid-balancing services and is jointly owned by TagEnergy and Banque des Territoires. The post France’s la"
       },
       {
@@ -6597,6 +7389,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Geodis has ordered 110 heavy-duty electric trucks for its European road transport operations. The 44-tonne vehicles from Renault Trucks and Volvo Trucks are to be delivered by May 2027 and will primarily operate in France on urban and long-haul routes."
       }
      ]
@@ -6626,6 +7419,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Independent power producer (IPP) Zelestra has closed a US$350 million credit facility for the 203 MW Reclamation Solar project in Indiana."
       }
      ]
@@ -6636,26 +7430,54 @@
    "label": "Japan",
    "level": "country",
    "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Oil price volatility tops list of earnings risks for Japan firms - Reuters survey",
+       "url": "https://www.channelnewsasia.com/business/oil-price-volatility-tops-list-earnings-risks-japan-firms-reuters-survey-6441076",
+       "source": "CNA Business",
+       "published": "2026-10-07T23:13:47.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/oil-price-volatility-tops-list-earnings-risks-japan-firms-reuters-survey-6441076",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      }
+     ]
+    },
     "gas": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Golar buys conversion vessel for fourth FLNG",
-       "url": "https://lngprime.com/asia/golar-buys-conversion-vessel-for-fourth-flng/198042/",
-       "source": "LNG Prime",
-       "published": "2026-10-07T13:40:09.000Z",
-       "verification": "unconfirmed",
+       "title": "Golar picks NYK carrier for fourth FLNG conversion",
+       "url": "https://splash247.com/golar-picks-nyk-carrier-for-fourth-flng-conversion/",
+       "source": "Splash247",
+       "published": "2026-10-07T18:04:00.000Z",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "LNG Prime",
          "url": "https://lngprime.com/asia/golar-buys-conversion-vessel-for-fourth-flng/198042/",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/golar-picks-nyk-carrier-for-fourth-flng-conversion/",
          "primary": false
         }
        ],
        "stages": [
         "generation"
        ],
-       "blurb": "Floating LNG player Golar has agreed to acquire the LNG carrier Grace Dahlia from Japan's NYK Line to convert it into a floating LNG production unit."
+       "via": null,
+       "blurb": "Golar LNG has acquired a 2013-built LNG carrier from Japan’s NYK Line for conversion into its fourth floating LNG unit, filling in a key missing piece of its $2.45bn expansion programme. The Nasdaq-listed FLNG specialist has agreed to buy the 177,427 cu m Grace Dahlia, which will"
       }
      ]
     },
@@ -6679,6 +7501,7 @@
         "generation",
         "innovation"
        ],
+       "via": null,
        "blurb": "Researchers surveying a 55 MW solar plant on a former golf course in central Japan found that plant diversity under the panels was statistically indistinguishable from open grassland, with communities resembling forest edges, after five years of only twice-yearly mowing. The post"
       },
       {
@@ -6702,157 +7525,8 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "Japanese trading company Sumitomo Corporation has invested in a utility-scale renewable energy park combining solar PV, wind and energy storage in India."
-      }
-     ]
-    }
-   }
-  },
-  "pl": {
-   "label": "Poland",
-   "level": "country",
-   "sources": {
-    "nuclear": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Timeline for Polish nuclear units slips in updated programme",
-       "url": "https://www.world-nuclear-news.org/articles/timeline-for-polish-nuclear-units-slips-in-updated-programme",
-       "source": "World Nuclear News",
-       "published": "2026-10-05T13:23:57.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/timeline-for-polish-nuclear-units-slips-in-updated-programme",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "blurb": "Poland's Council of Ministers has adopted an update to the country's nuclear power programme - a strategic document outlining the development of nuclear energy in Poland - with the first nuclear power plant now expected to start up in 2036 and the second one in 2040."
-      },
-      {
-       "title": "Poland updates nuclear strategy with delays to launch of first two plants",
-       "url": "https://notesfrompoland.com/2026/10/03/poland-updates-nuclear-strategy-with-delays-to-launch-of-first-two-plants/",
-       "source": "Notes from Poland",
-       "published": "2026-10-03T15:00:59.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Notes from Poland",
-         "url": "https://notesfrompoland.com/2026/10/03/poland-updates-nuclear-strategy-with-delays-to-launch-of-first-two-plants/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "blurb": "The updated nuclear strategy targets up to 9 GW of capacity and a bigger role for Polish industry in future projects."
-      },
-      {
-       "title": "Leading Polish business owners invest in small nuclear reactor venture",
-       "url": "https://notesfrompoland.com/2026/10/01/leading-polish-business-owners-invest-in-small-nuclear-reactor-venture/",
-       "source": "Notes from Poland",
-       "published": "2026-10-01T14:00:21.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Notes from Poland",
-         "url": "https://notesfrompoland.com/2026/10/01/leading-polish-business-owners-invest-in-small-nuclear-reactor-venture/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "blurb": "The company of Poland's richest man raised 500 million zloty as it seeks to develop a fleet of BWRX-300 reactors in Poland and beyond."
-      },
-      {
-       "title": "Polish entrepreneurs invest in SGE's BWRX-300 projects",
-       "url": "https://www.world-nuclear-news.org/articles/polish-entrepreneurs-invest-in-sges-bwrx-300-projects",
-       "source": "World Nuclear News",
-       "published": "2026-10-02T07:04:24.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/polish-entrepreneurs-invest-in-sges-bwrx-300-projects",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "blurb": "A group of Polish business people have invested a total of PLN500 million (USD128 million) in SGE’s plans to build fleets of small modular reactors in Poland, the UK and elsewhere in Europe."
-      }
-     ]
-    },
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Poland detains senior managers from state oil giant Orlen over pre-election fuel price cuts",
-       "url": "https://notesfrompoland.com/2026/10/06/poland-detains-senior-managers-from-state-oil-giant-orlen-over-pre-election-fuel-price-cuts/",
-       "source": "Notes from Poland",
-       "published": "2026-10-06T14:14:32.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Notes from Poland",
-         "url": "https://notesfrompoland.com/2026/10/06/poland-detains-senior-managers-from-state-oil-giant-orlen-over-pre-election-fuel-price-cuts/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "blurb": "Orlen was accused of lowering prices in 2023 to benefit the campaign of the then-ruling PiS party."
-      }
-     ]
-    },
-    "coal": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Polish coal mining giant JSW to shed 4,200 jobs – 21% of its workforce – this year",
-       "url": "https://notesfrompoland.com/2026/10/02/polish-coal-mining-giant-jsw-to-shed-4200-jobs-21-of-its-workforce-this-year/",
-       "source": "Notes from Poland",
-       "published": "2026-10-02T14:31:18.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Notes from Poland",
-         "url": "https://notesfrompoland.com/2026/10/02/polish-coal-mining-giant-jsw-to-shed-4200-jobs-21-of-its-workforce-this-year/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "blurb": "The EU's largest producer of coking coal producer reported a 1 billion zloty loss in the first half of 2026."
-      }
-     ]
-    },
-    "wind": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "All Turbines Installed at Poland's First Offshore Wind Farm",
-       "url": "https://offshorewind.biz/2026/10/07/all-turbines-installed-at-polands-first-offshore-wind-farm",
-       "source": "offshoreWIND.biz",
-       "published": "2026-10-07T09:55:24.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "offshoreWIND.biz",
-         "url": "https://offshorewind.biz/2026/10/07/all-turbines-installed-at-polands-first-offshore-wind-farm",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "blurb": "All 76 Vestas V236-15.0 MW turbines are in place at the Baltic Power offshore wind farm in Poland, jointly owned by Orlen and Northland Power...."
       }
      ]
     }
@@ -6881,6 +7555,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "The South African utility is removing registration-related costs for grid-connected solar installations up to 50 kVA in size until further notice. The post Eskom extends solar registration fee waiver indefinitely appeared first on pv magazine Global ."
       }
      ]
@@ -6911,6 +7586,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "Connecticut is trying to clean up its grid with more solar energy. But a major utility’s reluctance to commit to buying power from some projects is raising questions about the prospects for success. Connecticut last month announced plans to secure 63.4 megawatts of new solar capa"
       }
      ]
@@ -6940,6 +7616,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Yindjibarndi Energy Corporation (YEC) has lodged the DA for the Baru Marnda Renewable Energy Project, featuring a 500MW solar PV power plant."
       }
      ]
@@ -6967,6 +7644,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Finland’s tech firm Wartsila has signed a deal with Greek LNG shipping firm TMS Cardiff Gas to support the latter’s two liquefied natural gas (LNG) carriers."
       }
      ]
@@ -6988,6 +7666,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Finnish renewable energy company Taaleri Energia has inaugurated the 129MW-peak (MWp) Hallanvahti solar park in Joroinen, North Savo."
       }
      ]
@@ -7017,6 +7696,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "The 2GW Yangjiang Fanshi offshore wind project off the coast of Guangdong province has achieved full-capacity operation, according to China General Nuclear Power Corporation (CGN), marking China’s first large-scale deployment of 18MW offshore wind turbines."
       }
      ]
@@ -7051,7 +7731,38 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "Japanese trading company Sumitomo Corporation has invested in a utility-scale renewable energy park combining solar PV, wind and energy storage in India."
+      }
+     ]
+    }
+   }
+  },
+  "ca-sk": {
+   "label": "Saskatchewan",
+   "level": "admin1",
+   "sources": {
+    "nuclear": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Belmont launches gravity survey at Crackingstone uranium site",
+       "url": "https://www.mining-technology.com/news/belmont-gravity-survey-crackingstone-site/",
+       "source": "Mining Technology",
+       "published": "2026-10-07T09:42:29.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/belmont-gravity-survey-crackingstone-site/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "via": null,
+       "blurb": "Belmont Resources has launched a high-resolution ground gravity survey at its wholly owned Crackingstone Uranium Project situated around 6km from Uranium City, Saskatchewan, Canada. The post Belmont launches gravity survey at Crackingstone uranium site appeared first on Mining Te"
       }
      ]
     }
@@ -7080,6 +7791,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "US natural gas futures surged through midday trade on Wednesday as cooler longer range forecasts, expectations for a below-normal storage injection and short covering lifted the front of the curve."
       }
      ]
@@ -7109,6 +7821,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "US natural gas futures surged through midday trade on Wednesday as cooler longer range forecasts, expectations for a below-normal storage injection and short covering lifted the front of the curve."
       }
      ]
@@ -7136,6 +7849,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "More than 100 oil and gas firm executives revealed where they expect the WTI crude oil price to be at various points in the future in the third quarter Dallas Fed Energy Survey."
       }
      ]
@@ -7157,6 +7871,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Executives from oil and gas firms revealed where they expect the Henry Hub natural gas price to be at various points in the future in the third quarter Dallas Fed Energy Survey."
       }
      ]
@@ -7186,6 +7901,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "Rockhopper has committed millions to secure a stake in a floating production, storage, and offloading (FPSO) destined for the Falkland Islands."
       }
      ]
@@ -7213,6 +7929,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "It isn’t hard to see a contradiction between the PM’s message in Fiji and his opposition to legal action to stop a NSW coalmine Get our new political email , free app or daily news podcast There are unlikely to be many bigger moments in Australian community action on the climate "
       }
      ]
@@ -7242,6 +7959,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "Qatar has amassed a fleet of empty liquefied natural gas tankers in the Persian Gulf."
       }
      ]
@@ -7269,6 +7987,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "US Secretary of State Marco Rubio said on Wednesday that Iran had “lost complete control” of the Strait of Hormuz, saying oil flows through the waterway had returned to near prewar levels. “The Strait of Hormuz is open. There’s almost as much oil flowing out now as there was befo"
       },
       {
@@ -7288,6 +8007,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "The Iran war is creating “huge” arbitrage opportunities across global energy markets as disrupted trade flows stretch tanker fleets to capacity and send oil on longer journeys, according to Vitol Group, the world’s largest independent oil trader. “There’s huge arbitrage opportuni"
       },
       {
@@ -7304,7 +8024,144 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Oil inventories in western countries have been exhausted as a result of the Iran war, the boss of the world's largest independent oil trader said."
+      }
+     ]
+    }
+   }
+  },
+  "tr": {
+   "label": "Türkiye",
+   "level": "country",
+   "sources": {
+    "gas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Botas goes to market for nearly three-year LNG carrier charter",
+       "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
+       "source": "Splash247",
+       "published": "2026-10-07T10:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Turkey’s state-owned energy company Botas has gone to market for an LNG carrier on a firm 940-day time charter as it continues to build out its gas shipping capacity. The Ankara-based company is seeking a vessel built in 2015 or later with capacity of between 173,600 and 175,000 "
+      }
+     ]
+    },
+    "coal": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Australia and Turkey criticised for hosting UN climate conference while embracing coal",
+       "url": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
+       "source": "The Guardian Energy",
+       "published": "2026-10-04T14:00:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Global campaign group 350.org urges Cop31 hosts to announce a coal phase-out date and national roadmaps to get off fossil fuels Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here The hosts of the next major United Nations climate conference, T"
+      }
+     ]
+    },
+    "geothermal": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Margün Enerji plans exploratory geothermal drilling campaign in Buldan, Denizli, Türkiye",
+       "url": "https://www.thinkgeoenergy.com/margun-enerji-plans-exploratory-geothermal-drilling-campaign-in-buldan-denizli-turkiye/",
+       "source": "ThinkGeoEnergy",
+       "published": "2026-10-01T09:40:03.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ThinkGeoEnergy",
+         "url": "https://www.thinkgeoenergy.com/margun-enerji-plans-exploratory-geothermal-drilling-campaign-in-buldan-denizli-turkiye/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "via": null,
+       "blurb": "Margün Enerji plans to drill eight exploratory geothermal wells in Buldan in Denizli, Türkiye as part of the development plan for its portfolio of licenses. The post Margün Enerji plans exploratory geothermal drilling campaign in Buldan, Denizli, Türkiye first appeared on ThinkGe"
+      }
+     ]
+    }
+   }
+  },
+  "tr-an": {
+   "label": "Ankara",
+   "level": "admin1",
+   "sources": {
+    "gas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Botas goes to market for nearly three-year LNG carrier charter",
+       "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
+       "source": "Splash247",
+       "published": "2026-10-07T10:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Turkey’s state-owned energy company Botas has gone to market for an LNG carrier on a firm 940-day time charter as it continues to build out its gas shipping capacity. The Ankara-based company is seeking a vessel built in 2015 or later with capacity of between 173,600 and 175,000 "
+      }
+     ]
+    }
+   }
+  },
+  "tr-city-ankara": {
+   "label": "Ankara",
+   "level": "city",
+   "sources": {
+    "gas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Botas goes to market for nearly three-year LNG carrier charter",
+       "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
+       "source": "Splash247",
+       "published": "2026-10-07T10:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Turkey’s state-owned energy company Botas has gone to market for an LNG carrier on a firm 940-day time charter as it continues to build out its gas shipping capacity. The Ankara-based company is seeking a vessel built in 2015 or later with capacity of between 173,600 and 175,000 "
       }
      ]
     }
@@ -7334,6 +8191,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Having just begun construction on a 2.8GWh BESS in Belgium, Giga Storage has progressed its 1.4GWh project in Germany to the ready-to-build stage."
       }
      ]
@@ -7361,6 +8219,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Finland’s tech firm Wartsila has signed a deal with Greek LNG shipping firm TMS Cardiff Gas to support the latter’s two liquefied natural gas (LNG) carriers."
       }
      ]
@@ -7388,6 +8247,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Finland’s tech firm Wartsila has signed a deal with Greek LNG shipping firm TMS Cardiff Gas to support the latter’s two liquefied natural gas (LNG) carriers."
       }
      ]
@@ -7415,6 +8275,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Finland’s tech firm Wartsila has signed a deal with Greek LNG shipping firm TMS Cardiff Gas to support the latter’s two liquefied natural gas (LNG) carriers."
       }
      ]
@@ -7444,6 +8305,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "ADNOC has signed a multi-year SPA to supply Thailand’s Gulf Group with about two million tonnes of liquefied natural gas (LNG) from 2027."
       },
       {
@@ -7460,36 +8322,8 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "ADNOC signed a new 'multi-year' agreement to supply about two million metric tons per annum of liquefied natural gas to Thai gas-focused electricity developer Gulf starting 2027."
-      }
-     ]
-    }
-   }
-  },
-  "ke": {
-   "label": "Kenya",
-   "level": "country",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Kenya: Parliament Gatekeepers Blocking Scrutiny of Dangote Refinery - Sifuna",
-       "url": "https://allafrica.com/stories/202610070282.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T10:20:38.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070282.html",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "blurb": "[Capital FM] Nairobi -- Nairobi Senator Edwin Sifuna has accused parliamentary \"gatekeepers\" of frustrating scrutiny of the proposed Lamu refinery, just days after he filed a formal request for documents on the project with the Senate set to proceed on recess on October 9."
       }
      ]
     }
@@ -7518,6 +8352,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "[Capital FM] Nairobi -- Nairobi Senator Edwin Sifuna has accused parliamentary \"gatekeepers\" of frustrating scrutiny of the proposed Lamu refinery, just days after he filed a formal request for documents on the project with the Senate set to proceed on recess on October 9."
       }
      ]
@@ -7547,6 +8382,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "[Capital FM] Nairobi -- Nairobi Senator Edwin Sifuna has accused parliamentary \"gatekeepers\" of frustrating scrutiny of the proposed Lamu refinery, just days after he filed a formal request for documents on the project with the Senate set to proceed on recess on October 9."
       }
      ]
@@ -7576,6 +8412,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "A Siemens Gamesa turbine blade has been damaged at Ørsted's 583MW Greater Changhua 4 offshore wind farm in Taiwan."
       }
      ]
@@ -7605,6 +8442,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "A Siemens Gamesa turbine blade has been damaged at Ørsted's 583MW Greater Changhua 4 offshore wind farm in Taiwan."
       }
      ]
@@ -7634,6 +8472,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "A Siemens Gamesa turbine blade has been damaged at Ørsted's 583MW Greater Changhua 4 offshore wind farm in Taiwan."
       }
      ]
@@ -7647,6 +8486,25 @@
     "oil": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Oil Reserves Release Speeds Up, Diesel First",
+       "url": "https://www.riotimesonline.com/iea-oil-reserve-release-speeds-up-diesel-first/",
+       "source": "The Rio Times",
+       "published": "2026-10-07T23:49:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/iea-oil-reserve-release-speeds-up-diesel-first/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "via": null,
+       "blurb": "IEA members back a faster release of emergency oil, with diesel first. About 100 million barrels of pledges remain as Brent holds above US$100. The post Oil Reserves Release Speeds Up, Diesel First appeared first on The Rio Times ."
+      },
       {
        "title": "Petrobras makes additional discovery offshore Amapá",
        "url": "https://www.ogj.com/exploration-development/news/55409591/petrobras-makes-additional-discovery-offshore-amapa",
@@ -7663,6 +8521,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "The Morpho well, drilled in deep waters off Amapá, reached an oil-bearing interval, with ongoing analyses confirming good oil quality and promising further exploration opportunities in the Foz do Amazonas basin."
       }
      ]
@@ -7686,6 +8545,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "Registration is open for a Geothermal Workshop hosted by Vallourec in Belo Horizonte, Brazil to discuss the latest technologies for geothermal wells and tubulars. The post Registration open – Geothermal Workshop by Vallourec; Belo Horizonte, Brazil; 11-12 November 2026 first appe"
       }
      ]
@@ -7715,6 +8575,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "Registration is open for a Geothermal Workshop hosted by Vallourec in Belo Horizonte, Brazil to discuss the latest technologies for geothermal wells and tubulars. The post Registration open – Geothermal Workshop by Vallourec; Belo Horizonte, Brazil; 11-12 November 2026 first appe"
       }
      ]
@@ -7744,6 +8605,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "Registration is open for a Geothermal Workshop hosted by Vallourec in Belo Horizonte, Brazil to discuss the latest technologies for geothermal wells and tubulars. The post Registration open – Geothermal Workshop by Vallourec; Belo Horizonte, Brazil; 11-12 November 2026 first appe"
       }
      ]
@@ -7773,6 +8635,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Fervo Energy has announced the start of commercial operations of the first 33-MW GeoBlock power plant of its Cape Station geothermal site in Utah. The post Fervo Energy announces commercial operation of first geothermal power plant in Cape Station, Utah first appeared on ThinkGeo"
       }
      ]
@@ -7802,57 +8665,8 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "LAGEO has published a tender for integrated drilling services for the drilling of eight geothermal wells at the Chinameca geothermal field in El Salvador. The post Tender – Integrated drilling services for eight geothermal wells in Chinameca, El Salvador first appeared on ThinkGe"
-      }
-     ]
-    }
-   }
-  },
-  "tr": {
-   "label": "Türkiye",
-   "level": "country",
-   "sources": {
-    "coal": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Australia and Turkey criticised for hosting UN climate conference while embracing coal",
-       "url": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
-       "source": "The Guardian Energy",
-       "published": "2026-10-04T14:00:32.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "blurb": "Global campaign group 350.org urges Cop31 hosts to announce a coal phase-out date and national roadmaps to get off fossil fuels Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here The hosts of the next major United Nations climate conference, T"
-      }
-     ]
-    },
-    "geothermal": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Margün Enerji plans exploratory geothermal drilling campaign in Buldan, Denizli, Türkiye",
-       "url": "https://www.thinkgeoenergy.com/margun-enerji-plans-exploratory-geothermal-drilling-campaign-in-buldan-denizli-turkiye/",
-       "source": "ThinkGeoEnergy",
-       "published": "2026-10-01T09:40:03.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ThinkGeoEnergy",
-         "url": "https://www.thinkgeoenergy.com/margun-enerji-plans-exploratory-geothermal-drilling-campaign-in-buldan-denizli-turkiye/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "blurb": "Margün Enerji plans to drill eight exploratory geothermal wells in Buldan in Denizli, Türkiye as part of the development plan for its portfolio of licenses. The post Margün Enerji plans exploratory geothermal drilling campaign in Buldan, Denizli, Türkiye first appeared on ThinkGe"
       }
      ]
     }
@@ -7879,6 +8693,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "body{margin:0;padding:0;font-family:system-ui,-apple-system,sans-serif;overflow-wrap:anywhere;} Pakistan fuel prices, 2026 Official ex-depot prices (PKR/litre) — OGRA & Ministry of Energy notifications Petrol (MS-92) Diesel (HSD) Pre-crisis baseline Source: OGRA / Ministry of Ene"
       },
       {
@@ -7895,6 +8710,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "body{margin:0;padding:0;font-family:system-ui,-apple-system,sans-serif;overflow-wrap:anywhere;} Pakistan fuel prices, 2026 Official ex-depot prices (PKR/litre) — OGRA & Ministry of Energy notifications Petrol (MS-92) Diesel (HSD) Pre-crisis baseline Source: OGRA / Ministry of Ene"
       }
      ]
@@ -7924,6 +8740,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "The Morpho well, drilled in deep waters off Amapá, reached an oil-bearing interval, with ongoing analyses confirming good oil quality and promising further exploration opportunities in the Foz do Amazonas basin."
       }
      ]
@@ -7951,6 +8768,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "The State of New Mexico has awarded a grant to study the feasibility of geothermal resource development in Jicarilla Apache Nation lands in New Mexico. The post Geothermal feasiblility study to be conducted in Jicarilla Apache Nation lands in New Mexico first appeared on ThinkGeo"
       }
      ]
@@ -7980,6 +8798,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "An Israeli wind power developer is one of more than 200 companies allegedly contributing to the illegal Israeli occupation of Palestinian land and settlement building in the West Bank, according to the UN Human Rights Council (UNHRC)."
       }
      ]
@@ -8009,6 +8828,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "An Israeli wind power developer is one of more than 200 companies allegedly contributing to the illegal Israeli occupation of Palestinian land and settlement building in the West Bank, according to the UN Human Rights Council (UNHRC)."
       }
      ]
@@ -8036,6 +8856,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "The deal reportedly brings Rosatom’s market share in Russia’s container handling market to 50% and rail container transport to 44%."
       }
      ]
@@ -8057,6 +8878,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "NASA's Fire Information for Resource Management System (FIRMS), which uses satellite data to detect thermal anomalies and fires, detected multiple hotspots at the facility."
       },
       {
@@ -8075,6 +8897,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "Transportation Minister Andrei Nikitin said the oil-laden tanker had been attacked by unmanned boats."
       }
      ]
@@ -8102,6 +8925,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "NASA's Fire Information for Resource Management System (FIRMS), which uses satellite data to detect thermal anomalies and fires, detected multiple hotspots at the facility."
       }
      ]
@@ -8129,6 +8953,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "NASA's Fire Information for Resource Management System (FIRMS), which uses satellite data to detect thermal anomalies and fires, detected multiple hotspots at the facility."
       }
      ]
@@ -8158,6 +8983,7 @@
        "stages": [
         "generation"
        ],
+       "via": null,
        "blurb": "Independent Planning Commission says climate change impacts from Hunter Valley project will be ‘outweighed’ by economic benefits Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast The New South Wales independent pla"
       }
      ]
@@ -8185,6 +9011,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": ""
       }
      ]
@@ -8214,6 +9041,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "US energy holding company and project developer-owner NextEra Energy has suspended operations at two energy storage facilities in Long Island, New York, US."
       },
       {
@@ -8233,6 +9061,7 @@
         "innovation",
         "generation"
        ],
+       "via": null,
        "blurb": "On a sunny September day in New York City, I followed a throng of people off the subway and into Queens’ Flushing Meadows Corona Park. The crowds were there for the U.S. Open tennis tournament, but I wasn’t — I’d come to see a novel experiment to wean the city’s iconic food carts"
       }
      ]
@@ -8262,6 +9091,7 @@
        "stages": [
         "grid"
        ],
+       "via": null,
        "blurb": "US energy holding company and project developer-owner NextEra Energy has suspended operations at two energy storage facilities in Long Island, New York, US."
       },
       {
@@ -8281,6 +9111,7 @@
         "innovation",
         "generation"
        ],
+       "via": null,
        "blurb": "On a sunny September day in New York City, I followed a throng of people off the subway and into Queens’ Flushing Meadows Corona Park. The crowds were there for the U.S. Open tennis tournament, but I wasn’t — I’d come to see a novel experiment to wean the city’s iconic food carts"
       }
      ]
@@ -8311,6 +9142,7 @@
         "grid",
         "generation"
        ],
+       "via": null,
        "blurb": "Thermal energy storage (TES) technology provider Antora Energy has announced a 5.8GWh “multi-day” TES project at Pratt Energy’s biorefinery in Pratt, Kansas, US."
       }
      ]
@@ -8338,6 +9170,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Adani Power and Druk Green Power Corporation have signed a shareholders agreement to develop the 770MW Chamkharchhu-I hydropower project The post Adani and DGPC agree 770MW Chamkharchhu-I hydropower partnership, Bhutan appeared first on International Water Power ."
       },
       {
@@ -8354,6 +9187,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "DGPC has signed an iagreement with Wangchuk Dorji of Tashi Group to develop the 40MW Parochhu hydropower project in Paro, Bhutan. The post DGPC signs Bhutanese partnership for 40MW Parochhu hydropower project appeared first on International Water Power ."
       }
      ]
@@ -8384,6 +9218,7 @@
         "generation",
         "grid"
        ],
+       "via": null,
        "blurb": "Hydro Tasmania has returned Poatina Power Station in Australia to service following one of its largest planned outages in recent years The post Hydro Tasmania completes first stage of Poatina upgrade appeared first on International Water Power ."
       }
      ]
@@ -8411,6 +9246,7 @@
         }
        ],
        "stages": [],
+       "via": null,
        "blurb": "Landsvirkjun has signed an agreement with ANDRITZ Hydro GmbH to supply four replacement stators for Búrfell hydropower station The post ANDRITZ to supply four stators for Iceland’s Búrfell hydropower station appeared first on International Water Power ."
       }
      ]
@@ -8440,6 +9276,7 @@
        "stages": [
         "extraction"
        ],
+       "via": null,
        "blurb": "PRP presidential candidate Donald Duke says he will cut petrol to ₦300 per litre by allocating part of Nigeria’s crude production for domestic consumption, challenging the subsidy-free approach of President Tinubu and rival 2027 contenders. The post 2027: Duke vows to reduce petr"
       }
      ]
