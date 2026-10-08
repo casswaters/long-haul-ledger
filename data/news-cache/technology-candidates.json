@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T00:42:59.974Z",
+ "generatedAt": "2026-10-08T00:47:20.487Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -958,23 +958,6 @@
        "blurb": "Arthur J. Gallagher’s claims and risk management arm, Gallagher Bassett, has acquired London-based maritime law firm Winter & Co Solicitors, continuing a run of deals aimed at expanding its marine business. Financial terms have not been disclosed. Winter & Co advises P&I clubs, m"
       },
       {
-       "title": "Payments income bolsters banks",
-       "url": "https://www.paymentsdive.com/news/payments-income-bolsters-banks/832378/",
-       "source": "Payments Dive",
-       "published": "2026-10-07T15:49:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Payments Dive",
-         "url": "https://www.paymentsdive.com/news/payments-income-bolsters-banks/832378/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Income from card, digital and other rails has swelled to about 40% of revenue for the global bank industry, according to consulting firm McKinsey."
-      },
-      {
        "title": "Engineering firm claims world record for tallest wind turbine tower",
        "url": "https://www.windpowermonthly.com/article/1971320/engineering-firm-claims-world-record-tallest-wind-turbine-tower",
        "source": "Windpower Monthly",
@@ -990,6 +973,23 @@
        "stages": [],
        "via": null,
        "blurb": "The installation of what is thought to be the tallest wind turbine tower ever built has been completed by an engineering company in Germany."
+      },
+      {
+       "title": "Payments income bolsters banks",
+       "url": "https://www.paymentsdive.com/news/payments-income-bolsters-banks/832378/",
+       "source": "Payments Dive",
+       "published": "2026-10-07T15:49:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Payments Dive",
+         "url": "https://www.paymentsdive.com/news/payments-income-bolsters-banks/832378/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Income from card, digital and other rails has swelled to about 40% of revenue for the global bank industry, according to consulting firm McKinsey."
       },
       {
        "title": "FBI removes Accenture contractor after missed security patch led to breach",

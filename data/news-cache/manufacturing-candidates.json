@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T00:42:21.741Z",
+ "generatedAt": "2026-10-08T00:46:54.443Z",
  "sector": "manufacturing",
  "maxAgeDays": 10,
  "places": {
@@ -769,6 +769,23 @@
        "stages": [],
        "via": null,
        "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering"
+      },
+      {
+       "title": "Hwange councillor raises alarm over idle contractors on Byo-Vic Falls highway",
+       "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
+       "source": "NewsDay (Zimbabwe)",
+       "published": "2026-10-07T12:29:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NewsDay (Zimbabwe)",
+         "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Moyo said the strategic highway, which links Victoria Falls with Bulawayo and neighbouring countries to the north, had deteriorated to the extent that motorists were facing lengthy and difficult journeys. The post Hwange councillor raises alarm over idle contractors on Byo-Vic Fa"
       },
       {
        "title": "Neoen breaks ground on 346MW Goyder North Wind Farm in Australia",
@@ -5478,6 +5495,90 @@
         "stage": "generation"
        },
        "blurb": "An Israeli wind power developer is one of more than 200 companies allegedly contributing to the illegal Israeli occupation of Palestinian land and settlement building in the West Bank, according to the UN Human Rights Council (UNHRC)."
+      }
+     ]
+    }
+   }
+  },
+  "zw": {
+   "label": "Zimbabwe",
+   "level": "country",
+   "sources": {
+    "construction": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Hwange councillor raises alarm over idle contractors on Byo-Vic Falls highway",
+       "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
+       "source": "NewsDay (Zimbabwe)",
+       "published": "2026-10-07T12:29:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NewsDay (Zimbabwe)",
+         "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Moyo said the strategic highway, which links Victoria Falls with Bulawayo and neighbouring countries to the north, had deteriorated to the extent that motorists were facing lengthy and difficult journeys. The post Hwange councillor raises alarm over idle contractors on Byo-Vic Fa"
+      }
+     ]
+    }
+   }
+  },
+  "zw-bu": {
+   "label": "Bulawayo",
+   "level": "admin1",
+   "sources": {
+    "construction": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Hwange councillor raises alarm over idle contractors on Byo-Vic Falls highway",
+       "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
+       "source": "NewsDay (Zimbabwe)",
+       "published": "2026-10-07T12:29:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NewsDay (Zimbabwe)",
+         "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Moyo said the strategic highway, which links Victoria Falls with Bulawayo and neighbouring countries to the north, had deteriorated to the extent that motorists were facing lengthy and difficult journeys. The post Hwange councillor raises alarm over idle contractors on Byo-Vic Fa"
+      }
+     ]
+    }
+   }
+  },
+  "zw-city-bulawayo": {
+   "label": "Bulawayo",
+   "level": "city",
+   "sources": {
+    "construction": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Hwange councillor raises alarm over idle contractors on Byo-Vic Falls highway",
+       "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
+       "source": "NewsDay (Zimbabwe)",
+       "published": "2026-10-07T12:29:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NewsDay (Zimbabwe)",
+         "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Moyo said the strategic highway, which links Victoria Falls with Bulawayo and neighbouring countries to the north, had deteriorated to the extent that motorists were facing lengthy and difficult journeys. The post Hwange councillor raises alarm over idle contractors on Byo-Vic Fa"
       }
      ]
     }
