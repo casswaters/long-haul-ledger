@@ -9,7 +9,7 @@ export const FRED_SERIES = [
   { id: 'wti', desk: 'prices', seriesId: 'DCOILWTICO', title: 'Crude oil, WTI spot (Cushing)', label: 'WTI crude oil', unit: '$/bbl', decimals: 2, frequency: 'daily', staleAfterDays: 10, primary: 'EIA', places: ['world', 'us'] },
   { id: 'brent', desk: 'prices', seriesId: 'DCOILBRENTEU', title: 'Crude oil, Brent spot (Europe)', label: 'Brent crude oil', unit: '$/bbl', decimals: 2, frequency: 'daily', staleAfterDays: 10, primary: 'EIA', places: ['world'] },
   { id: 'natgas', desk: 'prices', seriesId: 'DHHNGSP', title: 'Natural gas, Henry Hub spot', label: 'Natural gas (Henry Hub)', unit: '$/MMBtu', decimals: 2, frequency: 'daily', staleAfterDays: 10, primary: 'EIA', places: ['world', 'us'] },
-  { id: 'usd', desk: 'prices', seriesId: 'DTWEXBGS', title: 'US dollar index, nominal broad (Federal Reserve)', label: 'US dollar index', unit: 'index Jan 2006=100', decimals: 2, frequency: 'daily', staleAfterDays: 10, primary: 'Federal Reserve (H.10)', places: ['world', 'us'], caveat: 'The Federal Reserve broad trade-weighted index, not the ICE DXY.' },
+  { id: 'usd', desk: 'prices', seriesId: 'DXY-H10', composite: 'dxy', title: 'Dollar index rebuilt from the DXY formula (Federal Reserve H.10 rates)', label: 'Dollar index (DXY formula)', unit: 'index', decimals: 2, frequency: 'daily', staleAfterDays: 10, primary: 'Federal Reserve (H.10)', places: ['world', 'us'], caveat: 'Rebuilt daily from Federal Reserve H.10 exchange rates using the published DXY weights; not the official ICE DXY.' },
   { id: 'cpi', desk: 'prices', seriesId: 'CPIAUCSL', title: 'CPI, all urban consumers (SA)', label: 'US CPI inflation', unit: 'index 1982-84=100', decimals: 1, frequency: 'monthly', staleAfterDays: 80, primary: 'BLS', yoy: true, showYoy: true, places: ['world', 'us'] },
   // Activity (United States)
   { id: 'indpro', desk: 'activity', seriesId: 'INDPRO', title: 'Industrial production, total', label: 'Industrial production', unit: 'index 2017=100', decimals: 1, frequency: 'monthly', staleAfterDays: 80, primary: 'Federal Reserve', yoy: true, places: ['us'] },
@@ -53,6 +53,44 @@ export const WB_INDICATORS = [
 
 /** World Bank values older than this many years are hidden (with a note), not shown as current. */
 export const WB_MAX_AGE_YEARS = 10;
+
+/**
+ * Dollar index rebuilt from the published ICE DXY formula, using free daily
+ * Federal Reserve H.10 noon buying rates via FRED. Not the official ICE DXY.
+ * DXY = 50.14348112 x EURUSD^-0.576 x USDJPY^0.136 x GBPUSD^-0.119 x USDCAD^0.091 x USDSEK^0.042 x USDCHF^0.036
+ * FRED quoting: DEXUSEU and DEXUSUK are US dollars per euro / pound; the rest are foreign units per US dollar.
+ */
+export const DXY_CONSTANT = 50.14348112;
+export const DXY_LEGS = [
+  { seriesId: 'DEXUSEU', pair: 'EURUSD', weight: -0.576 },
+  { seriesId: 'DEXJPUS', pair: 'USDJPY', weight: 0.136 },
+  { seriesId: 'DEXUSUK', pair: 'GBPUSD', weight: -0.119 },
+  { seriesId: 'DEXCAUS', pair: 'USDCAD', weight: 0.091 },
+  { seriesId: 'DEXSDUS', pair: 'USDSEK', weight: 0.042 },
+  { seriesId: 'DEXSZUS', pair: 'USDCHF', weight: 0.036 },
+];
+export const H10_PAGE = 'https://www.federalreserve.gov/releases/h10/';
+export function dxyValue(rates) {
+  let v = DXY_CONSTANT;
+  for (const leg of DXY_LEGS) {
+    const r = rates[leg.seriesId];
+    if (!Number.isFinite(r) || r <= 0) return null;
+    v *= r ** leg.weight;
+  }
+  return v;
+}
+/** rowsBySeries: { DEXUSEU: [{date, value}], ... } -> [{date, value}] on dates where all six rates exist. */
+export function dxyRows(rowsBySeries) {
+  const maps = DXY_LEGS.map((l) => new Map((rowsBySeries[l.seriesId] || []).map((r) => [r.date, r.value])));
+  const out = [];
+  for (const date of [...maps[0].keys()].sort()) {
+    const rates = {};
+    DXY_LEGS.forEach((l, i) => { rates[l.seriesId] = maps[i].get(date); });
+    const v = dxyValue(rates);
+    if (v != null) out.push({ date, value: Math.round(v * 10000) / 10000 });
+  }
+  return out;
+}
 
 export const fredCsv = (id) => `https://fred.stlouisfed.org/graph/fredgraph.csv?id=${encodeURIComponent(id)}`;
 export const fredPage = (id) => `https://fred.stlouisfed.org/series/${encodeURIComponent(id)}`;
@@ -99,7 +137,8 @@ export function buildRecord(def, rows, nowIso) {
     id: def.id, desk: def.desk, title: def.title, label: def.label || def.title, places: def.places || ['us'], seriesId: def.seriesId, unit: def.unit,
     decimals: def.decimals, frequency: def.frequency, staleAfterDays: def.staleAfterDays,
     value: cur.value, asOf: cur.date, prior: prior ? { value: prior.value, asOf: prior.date } : null,
-    sourceUrl: fredPage(def.seriesId), sourceName: `${def.primary} via FRED (${def.seriesId})`,
+    sourceUrl: def.composite === 'dxy' ? H10_PAGE : fredPage(def.seriesId),
+    sourceName: def.composite === 'dxy' ? `Federal Reserve H.10 exchange rates via FRED (${DXY_LEGS.map((l) => l.seriesId).join(', ')}), DXY formula` : `${def.primary} via FRED (${def.seriesId})`,
     caveat: def.caveat || null, retrievedAt: nowIso, spark: sparkPoints(rows, def.frequency),
   };
   if (def.yoy) {
