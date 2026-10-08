@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T20:03:50.261Z",
+ "generatedAt": "2026-10-08T20:16:54.504Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -10,6 +10,26 @@
     "nuclear": {
      "brief": "ready",
      "candidates": [
+      {
+       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
+       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+       "source": "NASA News",
+       "published": "2026-10-08T15:46:25.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+         "primary": true
+        }
+       ],
+       "stages": [
+        "extraction",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
+      },
       {
        "title": "Rising together: Collaborative project delivery for the nuclear fleet",
        "url": "https://www.ans.org/news/2026-10-08/article-8405/rising-together-collaborative-project-delivery-for-the-nuclear-fleet/",
@@ -248,29 +268,34 @@
        ],
        "via": null,
        "blurb": "This week, the Department of Energy’s Gateway for Accelerated Innovation in Nuclear (GAIN) announced three fourth-round fiscal year 2026 vouchers to support the development of innovative nuclear technologies. Each company will get access to specific capabilities and expertise in "
-      },
-      {
-       "title": "Eliminating Heat Risks in Nuclear Cleanup: A DOE Contractor’s High-Tech Blueprint",
-       "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-07T14:00:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "For organizations like the Savannah River Mission Completion (SRMC), a liquid waste contractor for the U.S. Department of Energy (DOE) Office of Environmental Management at the Savannah River Site (SRS) in Aiken, South Carolina, the summer season poses significant challenges for "
       }
      ]
     },
     "oil": {
      "brief": "ready",
      "candidates": [
+      {
+       "title": "Rising oil prices, falling technology stocks and reversing bond yields shake Wall Street",
+       "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/higher-oil-prices-pull-the-us-stock-market-further-from-its-record/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-09T00:10:21.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/higher-oil-prices-pull-the-us-stock-market-further-from-its-record/",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/07/european-stocks-fall-as-wall-street-retreats-from-record-highs/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Some sharp reversals kept financial markets unsteady, as oil prices rose and U.S. stock indexes swung. The S&P 500 fell 0.5 per cent Thursday."
+      },
       {
        "title": "Global shares fall as oil tops $105 amid fresh tanker attacks by Iran",
        "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
@@ -350,30 +375,6 @@
        "blurb": "Market volatility increased as geopolitical tensions in the Middle East and hurricane preparations in the US Gulf led to production cuts and shipping disruptions, pushing Brent and WTI crude prices higher."
       },
       {
-       "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
-       "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
-       "source": "Argus Media",
-       "published": "2026-10-07T17:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "Marine Minerals Administration (BSEE newsroom), Oct. 6 shut-in report",
-         "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-activities-invest-92l",
-         "primary": true
-        },
-        {
-         "name": "Argus Media",
-         "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "via": null,
-       "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
-      },
-      {
        "title": "US imposes fresh sanctions on Iran’s shadow fleet",
        "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
        "source": "Daily Maverick",
@@ -408,6 +409,30 @@
        ],
        "via": null,
        "blurb": "Johannesburg’s electricity crisis is increasingly threatening years of work to regenerate the inner city."
+      },
+      {
+       "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
+       "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
+       "source": "Argus Media",
+       "published": "2026-10-07T17:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "Marine Minerals Administration (BSEE newsroom), Oct. 6 shut-in report",
+         "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-activities-invest-92l",
+         "primary": true
+        },
+        {
+         "name": "Argus Media",
+         "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "via": null,
+       "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
       },
       {
        "title": "Govt raises petrol price by Rs2.31 per litre, high-speed diesel rate by Re0.78 per litre",
@@ -463,6 +488,23 @@
        "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
       },
       {
+       "title": "US sanctions Indian firms, individuals as Iran oil crackdown widens",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+       "source": "Times of India Business",
+       "published": "2026-10-08T19:50:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "On Thursday, the United States targeted two Mumbai-based companies over their alleged oil trade involvement with Iran. The sanctions affected five Indian nationals connected to SSPL Solutions Private Limited and Samudra Marine Services Private Limited. These measures are part of "
+      },
+      {
        "title": "Fuel subsidy would cost Nigeria over N20trn yearly — Minister",
        "url": "https://www.premiumtimesng.com/business/business-news/915535-fuel-subsidy-would-cost-nigeria-over-n20trn-yearly-minister.html",
        "source": "Premium Times (Nigeria)",
@@ -498,40 +540,6 @@
        ],
        "via": null,
        "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
-      },
-      {
-       "title": "Oil prices soar after explosions in Saudi capital",
-       "url": "https://www.ttnews.com/articles/oil-prices-explosions-saudi",
-       "source": "Transport Topics",
-       "published": "2026-10-08T15:58:22.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Transport Topics",
-         "url": "https://www.ttnews.com/articles/oil-prices-explosions-saudi",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Brent crude, the international standard, jumped 5.3% to $105.54 per barrel early. Several explosions were heard in the Saudi capital on Oct. 8."
-      },
-      {
-       "title": "EIA Boosts Oil Price Forecast by $5 in 2026, $10 in 2027",
-       "url": "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-08T14:32:46.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The U.S. Energy Information Administration raised its 2026 Brent crude oil spot price forecast by more than $5 per barrel and its 2027 Brent price forecast by $10 per barrel."
       }
      ]
     },
@@ -1463,23 +1471,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Consultants for Hydro-Quebec defend proposal to double energy costs for data centres",
-       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T20:11:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Two consultants hired by Hydro-Quebec say they expect the demand from data centres to more than double between 2024 and 2030."
-      },
-      {
        "title": "Aker Solutions wins Norway’s Nes hydropower upgrade contract",
        "url": "https://www.waterpowermagazine.com/news/aker-solutions-wins-norways-nes-hydropower-upgrade-contract/",
        "source": "International Water Power & Dam Construction",
@@ -2019,15 +2010,15 @@
        "blurb": "Polish 150MW energy storage project targets December 2026 energisation"
       },
       {
-       "title": "Global BESS failure rates declined 99% between 2018 and 2025",
-       "url": "https://www.energy-storage.news/global-bess-failure-rates-declined-99-between-2018-and-2025/",
+       "title": "Global BESS failure rates declined 98% between 2018 and 2025",
+       "url": "https://www.energy-storage.news/global-bess-failure-rates-declined-98-between-2018-and-2025/",
        "source": "Energy-Storage.news",
        "published": "2026-10-08T08:48:16.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/global-bess-failure-rates-declined-99-between-2018-and-2025/",
+         "url": "https://www.energy-storage.news/global-bess-failure-rates-declined-98-between-2018-and-2025/",
          "primary": false
         }
        ],
@@ -2036,7 +2027,7 @@
         "grid"
        ],
        "via": null,
-       "blurb": "Annual battery energy storage system (BESS) failures per-deployed-GWh declined 99% globally between 2018 and 2025, as installed BESS capacity grew exponentially."
+       "blurb": "Annual battery energy storage system (BESS) failures per-deployed-GWh declined 98% globally between 2018 and 2025, as installed BESS capacity grew exponentially."
       },
       {
        "title": "PowerCell Secures SEK 27 Million Follow-Up Order for Two Additional Hydrogen-Electric Bulk Carriers",
@@ -2155,6 +2146,26 @@
     "nuclear": {
      "brief": "ready",
      "candidates": [
+      {
+       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
+       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+       "source": "NASA News",
+       "published": "2026-10-08T15:46:25.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+         "primary": true
+        }
+       ],
+       "stages": [
+        "extraction",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
+      },
       {
        "title": "Vistra gets $4.2B DOE loan for planned uprates in Ohio, Pennsylvania",
        "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
@@ -2365,6 +2376,28 @@
      "brief": "ready",
      "candidates": [
       {
+       "title": "Rising oil prices, falling technology stocks and reversing bond yields shake Wall Street",
+       "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/higher-oil-prices-pull-the-us-stock-market-further-from-its-record/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-09T00:10:21.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/higher-oil-prices-pull-the-us-stock-market-further-from-its-record/",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/07/european-stocks-fall-as-wall-street-retreats-from-record-highs/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Some sharp reversals kept financial markets unsteady, as oil prices rose and U.S. stock indexes swung. The S&P 500 fell 0.5 per cent Thursday."
+      },
+      {
        "title": "Oil jumps 5% as Hormuz tanker attacks escalate, US Gulf hurricane shuts in production",
        "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
        "source": "Oil & Gas Journal",
@@ -2436,6 +2469,23 @@
        "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
       },
       {
+       "title": "US sanctions Indian firms, individuals as Iran oil crackdown widens",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+       "source": "Times of India Business",
+       "published": "2026-10-08T19:50:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "On Thursday, the United States targeted two Mumbai-based companies over their alleged oil trade involvement with Iran. The sanctions affected five Indian nationals connected to SSPL Solutions Private Limited and Samudra Marine Services Private Limited. These measures are part of "
+      },
+      {
        "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
        "source": "Argus Media",
@@ -2460,23 +2510,6 @@
        "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
       },
       {
-       "title": "EIA Boosts Oil Price Forecast by $5 in 2026, $10 in 2027",
-       "url": "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-08T14:32:46.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The U.S. Energy Information Administration raised its 2026 Brent crude oil spot price forecast by more than $5 per barrel and its 2027 Brent price forecast by $10 per barrel."
-      },
-      {
        "title": "EIA raises Brent forecast to $105 a barrel for Q4 2026; gas-heated homes to spend less this winter",
        "url": "https://www.eia.gov/outlooks/steo/",
        "source": "US Energy Information Administration",
@@ -2492,6 +2525,23 @@
        "stages": [],
        "via": null,
        "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
+      },
+      {
+       "title": "EIA Boosts Oil Price Forecast by $5 in 2026, $10 in 2027",
+       "url": "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-08T14:32:46.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/?rss=true",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The U.S. Energy Information Administration raised its 2026 Brent crude oil spot price forecast by more than $5 per barrel and its 2027 Brent price forecast by $10 per barrel."
       },
       {
        "title": "Brent crude tops $105 as Trump weighs resuming 'major combat operations' in Iran",
@@ -2599,45 +2649,6 @@
        "stages": [],
        "via": null,
        "blurb": "Chevron CFO Eimear Bonner expects energy prices to stay elevated, while a major trucking CEO says contracts signed before diesel prices rose are hurting the bottom line."
-      },
-      {
-       "title": "Shell Reports Declining Chemical Margins Amid Refining Gains",
-       "url": "https://www.plasticstoday.com/materials/shell-reports-declining-chemical-margins-amid-refining-gains",
-       "source": "Plastics Today",
-       "published": "2026-10-07T17:38:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Plastics Today",
-         "url": "https://www.plasticstoday.com/materials/shell-reports-declining-chemical-margins-amid-refining-gains",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Shell's Q3 2026 update reveals declining chemical margins and operational challenges from low Rhine water levels, offset by stronger refining performance and expanded production capacity."
-      },
-      {
-       "title": "Narrowed Jones Act exemption slows energy cargo trade",
-       "url": "https://www.ttnews.com/articles/jones-act",
-       "source": "Transport Topics",
-       "published": "2026-10-07T16:58:52.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Transport Topics",
-         "url": "https://www.ttnews.com/articles/jones-act",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction",
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Narrowing the Jones Act has curbed a roaring trade that was supplying East and West coast ports with fuel produced on the Gulf Coast, as well as crude oil and products used in refining."
       }
      ]
     },
@@ -4468,6 +4479,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "US sanctions Indian firms, individuals as Iran oil crackdown widens",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+       "source": "Times of India Business",
+       "published": "2026-10-08T19:50:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "On Thursday, the United States targeted two Mumbai-based companies over their alleged oil trade involvement with Iran. The sanctions affected five Indian nationals connected to SSPL Solutions Private Limited and Samudra Marine Services Private Limited. These measures are part of "
+      },
+      {
        "title": "India Shuns Costly Russian Oil",
        "url": "https://www.rigzone.com/news/wire/india_shuns_costly_russian_oil-08-oct-2026-184802-article/?rss=true",
        "source": "Rigzone",
@@ -4804,28 +4832,6 @@
        ],
        "via": null,
        "blurb": "e-STORAGE has signed an agreement to supply and commission a 100MW/200MWh BESS for OX2's Muswellbrook solar-plus-storage site in Australia."
-      }
-     ]
-    },
-    "hydro": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Consultants for Hydro-Quebec defend proposal to double energy costs for data centres",
-       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T20:11:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Two consultants hired by Hydro-Quebec say they expect the demand from data centres to more than double between 2024 and 2030."
       }
      ]
     },
@@ -6626,6 +6632,23 @@
        "blurb": ""
       },
       {
+       "title": "US sanctions Indian firms, individuals as Iran oil crackdown widens",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+       "source": "Times of India Business",
+       "published": "2026-10-08T19:50:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "On Thursday, the United States targeted two Mumbai-based companies over their alleged oil trade involvement with Iran. The sanctions affected five Indian nationals connected to SSPL Solutions Private Limited and Samudra Marine Services Private Limited. These measures are part of "
+      },
+      {
        "title": "Gulf economies to shrink despite higher oil prices as Iran war takes toll, World Bank says",
        "url": "https://www.euronews.com/2026/10/08/gulf-economies-to-shrink-despite-higher-oil-prices-as-iran-war-takes-toll-world-bank-says",
        "source": "Euronews Business",
@@ -7328,6 +7351,28 @@
    "label": "Maharashtra",
    "level": "admin1",
    "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "US sanctions Indian firms, individuals as Iran oil crackdown widens",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+       "source": "Times of India Business",
+       "published": "2026-10-08T19:50:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "On Thursday, the United States targeted two Mumbai-based companies over their alleged oil trade involvement with Iran. The sanctions affected five Indian nationals connected to SSPL Solutions Private Limited and Samudra Marine Services Private Limited. These measures are part of "
+      }
+     ]
+    },
     "solar": {
      "brief": "missing",
      "candidates": [
@@ -8057,6 +8102,34 @@
        "stages": [],
        "via": null,
        "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
+      }
+     ]
+    }
+   }
+  },
+  "in-city-mumbai": {
+   "label": "Mumbai",
+   "level": "city",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "US sanctions Indian firms, individuals as Iran oil crackdown widens",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+       "source": "Times of India Business",
+       "published": "2026-10-08T19:50:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "On Thursday, the United States targeted two Mumbai-based companies over their alleged oil trade involvement with Iran. The sanctions affected five Indian nationals connected to SSPL Solutions Private Limited and Samudra Marine Services Private Limited. These measures are part of "
       }
      ]
     }
@@ -9724,34 +9797,6 @@
        ],
        "via": null,
        "blurb": "Argentina and the UK once fought a war over the Falkland Islands. Now, the multibillion-dollar Sea Lion oil project has reignited old tensions, with Buenos Aires seeking to put a stop to the plans."
-      }
-     ]
-    }
-   }
-  },
-  "ca-qc": {
-   "label": "Québec",
-   "level": "admin1",
-   "sources": {
-    "hydro": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Consultants for Hydro-Quebec defend proposal to double energy costs for data centres",
-       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T20:11:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Two consultants hired by Hydro-Quebec say they expect the demand from data centres to more than double between 2024 and 2030."
       }
      ]
     }

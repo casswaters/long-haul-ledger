@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T20:04:09.064Z",
+ "generatedAt": "2026-10-08T20:17:08.782Z",
  "sector": "manufacturing",
  "maxAgeDays": 10,
  "places": {
@@ -859,6 +859,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "CMPC Faces a Hard Choice on Its $4.6 Billion Brazil Pulp Mill",
+       "url": "https://woodcentral.com.au/cmpc-natureza-pulp-mill/",
+       "source": "Wood Central",
+       "published": "2026-10-08T20:05:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/cmpc-natureza-pulp-mill/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A Chilean pulp maker could lose its investment-grade credit rating if it builds a new mill in southern Brazil, with the plant designed to make 2.5 million tonnes of pulp a year. That is according to Josefina Valdivia, head of fixed income research at Credicorp Capital, who told a"
+      },
+      {
        "title": "Reshoring Textiles Acquires Sans Fibers To Advance US Textile Manufacturing",
        "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/reshoring-textiles-acquires-sans-fibers-to-advance-us-textile-manufacturing/",
        "source": "Textile World",
@@ -1224,6 +1241,26 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
+       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+       "source": "NASA News",
+       "published": "2026-10-08T15:46:25.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
+      },
+      {
        "title": "Everything’s bigger in Texas",
        "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
        "source": "pv magazine",
@@ -1482,26 +1519,6 @@
         "stage": "generation"
        },
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
-      },
-      {
-       "title": "Poland begins ordering long-lead components for first AP1000",
-       "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
-       "source": "World Nuclear News",
-       "published": "2026-10-08T16:16:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Polskie Elektrownie Jądrowe has commissioned Westinghouse to begin ordering long-lead items for the first unit of Poland's planned first nuclear power plant, which will comprise three AP1000 reactors."
       }
      ]
     }
@@ -2203,6 +2220,26 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
+       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+       "source": "NASA News",
+       "published": "2026-10-08T15:46:25.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
+      },
+      {
        "title": "Everything’s bigger in Texas",
        "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
        "source": "pv magazine",
@@ -2466,31 +2503,6 @@
         "stage": "generation"
        },
        "blurb": "US Wind turned over its Tradepoint Atlantic lease at Sparrows Point to Anduril and shelved its planned tower and monopile plant, citing legal disputes and federal uncertainty over its Ocean City offshore wind project."
-      },
-      {
-       "title": "Clearway Starts Construction of 650-MW Solar Facility in Missouri",
-       "url": "https://www.powermag.com/clearway-starts-construction-of-650-mw-solar-facility-in-missouri/",
-       "source": "POWER Magazine",
-       "published": "2026-10-07T13:12:29.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "Clearway Energy Group (press release)",
-         "url": "https://www.clearwayenergygroup.com/press-releases/clearway-closes-financing-and-begins-construction-on-650-mw-swan-energy-center-in-missouri/",
-         "primary": true
-        },
-        {
-         "name": "POWER Magazine",
-         "url": "https://www.powermag.com/clearway-starts-construction-of-650-mw-solar-facility-in-missouri/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "California-headquartered Clearway Energy Group said it has closed financing and begun construction of the Swan Energy Center, a 650-MW solar facility located on portions of formerly strip-mined land in northwestern Bates County, Missouri. The project is San Francisco-based Clearw"
       }
      ]
     }
@@ -6545,6 +6557,62 @@
         "stage": "generation"
        },
        "blurb": "Fervo Energy has announced the start of commercial operations of the first 33-MW GeoBlock power plant of its Cape Station geothermal site in Utah. The post Fervo Energy announces commercial operation of first geothermal power plant in Cape Station, Utah first appeared on ThinkGeo"
+      }
+     ]
+    }
+   }
+  },
+  "br": {
+   "label": "Brazil",
+   "level": "country",
+   "sources": {
+    "goods": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "CMPC Faces a Hard Choice on Its $4.6 Billion Brazil Pulp Mill",
+       "url": "https://woodcentral.com.au/cmpc-natureza-pulp-mill/",
+       "source": "Wood Central",
+       "published": "2026-10-08T20:05:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/cmpc-natureza-pulp-mill/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A Chilean pulp maker could lose its investment-grade credit rating if it builds a new mill in southern Brazil, with the plant designed to make 2.5 million tonnes of pulp a year. That is according to Josefina Valdivia, head of fixed income research at Credicorp Capital, who told a"
+      }
+     ]
+    }
+   }
+  },
+  "cl": {
+   "label": "Chile",
+   "level": "country",
+   "sources": {
+    "goods": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "CMPC Faces a Hard Choice on Its $4.6 Billion Brazil Pulp Mill",
+       "url": "https://woodcentral.com.au/cmpc-natureza-pulp-mill/",
+       "source": "Wood Central",
+       "published": "2026-10-08T20:05:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/cmpc-natureza-pulp-mill/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A Chilean pulp maker could lose its investment-grade credit rating if it builds a new mill in southern Brazil, with the plant designed to make 2.5 million tonnes of pulp a year. That is according to Josefina Valdivia, head of fixed income research at Credicorp Capital, who told a"
       }
      ]
     }

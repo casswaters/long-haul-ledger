@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T20:04:52.412Z",
+ "generatedAt": "2026-10-08T20:17:43.551Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -270,23 +270,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Consultants for Hydro-Quebec defend proposal to double energy costs for data centres",
-       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T20:11:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Two consultants hired by Hydro-Quebec say they expect the demand from data centres to more than double between 2024 and 2030."
-      },
-      {
        "title": "'We always respond in kind' — Zelensky addresses Ukrainian attacks on Russian data center",
        "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/",
        "source": "The Kyiv Independent",
@@ -472,6 +455,23 @@
        "stages": [],
        "via": null,
        "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
+      },
+      {
+       "title": "Sesterce to invest $10bn in 600MW AI data center campus in Jämsä, Finland",
+       "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T10:52:56.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Developer says it has already secured an anchor customer for the site"
       }
      ]
     },
@@ -696,6 +696,40 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
+       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+       "source": "NASA News",
+       "published": "2026-10-08T19:40:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are announced in conjunction with the White House Office of Science and Technology Policy’s (OS"
+      },
+      {
+       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
+       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+       "source": "NASA News",
+       "published": "2026-10-08T15:46:25.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
+      },
+      {
        "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
        "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
        "source": "Manufacturing Dive",
@@ -903,69 +937,12 @@
         "stage": "innovation"
        },
        "blurb": "A joint Dutch team of researchers shows commercial solar power assets are internet-accessible, creating a dangerous threat to infrastructure."
-      },
-      {
-       "title": "Westinghouse teams up with Hyundai E&C for Dutch FEED studies",
-       "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
-       "source": "World Nuclear News",
-       "published": "2026-10-08T11:04:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "South Korea's Hyundai Engineering & Construction has been contracted by Westinghouse to carry out basic design studies for the construction of two large nuclear power plants in the Netherlands based on Westinghouse's AP1000 design."
-      },
-      {
-       "title": "Italian startup offers 535 W PVT solar module with 1.4 kW thermal output",
-       "url": "https://www.pv-magazine.com/2026/10/08/italian-startup-offers-535-w-pvt-solar-module-with-1-4-kw-thermal-output/",
-       "source": "pv magazine",
-       "published": "2026-10-08T10:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/08/italian-startup-offers-535-w-pvt-solar-module-with-1-4-kw-thermal-output/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Syntropia has developed a 535 W hybrid photovoltaic-thermal module that combines electricity generation with heat recovery, achieving a combined energy conversion efficiency of 66.8% in recent tests. The company is also developing an integrated energy system combining PVT modules"
       }
      ]
     },
     "consulting": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Consultants for Hydro-Quebec defend proposal to double energy costs for data centres",
-       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T20:11:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Two consultants hired by Hydro-Quebec say they expect the demand from data centres to more than double between 2024 and 2030."
-      },
       {
        "title": "A $6 trillion question hangs over the AI construction boom",
        "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
@@ -1858,6 +1835,40 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
+       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+       "source": "NASA News",
+       "published": "2026-10-08T19:40:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are announced in conjunction with the White House Office of Science and Technology Policy’s (OS"
+      },
+      {
+       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
+       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+       "source": "NASA News",
+       "published": "2026-10-08T15:46:25.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
+      },
+      {
        "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
        "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
        "source": "Manufacturing Dive",
@@ -2067,40 +2078,6 @@
        "stages": [],
        "via": null,
        "blurb": "Farm Progress America"
-      },
-      {
-       "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
-       "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-       "source": "NPR Science",
-       "published": "2026-10-06T10:16:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NPR Science",
-         "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s."
-      },
-      {
-       "title": "Healthcare organizations are underprepared for quantum computing threats",
-       "url": "https://www.healthcaredive.com/news/healthcare-organizations-are-underprepared-for-quantum-computing-threats/832516/",
-       "source": "Healthcare Dive",
-       "published": "2026-10-08T17:24:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Healthcare Dive",
-         "url": "https://www.healthcaredive.com/news/healthcare-organizations-are-underprepared-for-quantum-computing-threats/832516/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Once scientists are able to develop practical quantum computers, the technology could quickly break the encryption methods protecting patient data. Experts say healthcare leaders should start preparing for that reality today."
       }
      ]
     },
@@ -2944,28 +2921,6 @@
    "label": "Canada",
    "level": "country",
    "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Consultants for Hydro-Quebec defend proposal to double energy costs for data centres",
-       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T20:11:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Two consultants hired by Hydro-Quebec say they expect the demand from data centres to more than double between 2024 and 2030."
-      }
-     ]
-    },
     "research": {
      "brief": "missing",
      "candidates": [
@@ -2993,28 +2948,6 @@
         "stage": "innovation"
        },
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
-      }
-     ]
-    },
-    "consulting": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Consultants for Hydro-Quebec defend proposal to double energy costs for data centres",
-       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T20:11:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Two consultants hired by Hydro-Quebec say they expect the demand from data centres to more than double between 2024 and 2030."
       }
      ]
     }
@@ -5221,56 +5154,6 @@
        "stages": [],
        "via": null,
        "blurb": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s."
-      }
-     ]
-    }
-   }
-  },
-  "ca-qc": {
-   "label": "Québec",
-   "level": "admin1",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Consultants for Hydro-Quebec defend proposal to double energy costs for data centres",
-       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T20:11:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Two consultants hired by Hydro-Quebec say they expect the demand from data centres to more than double between 2024 and 2030."
-      }
-     ]
-    },
-    "consulting": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Consultants for Hydro-Quebec defend proposal to double energy costs for data centres",
-       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T20:11:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Two consultants hired by Hydro-Quebec say they expect the demand from data centres to more than double between 2024 and 2030."
       }
      ]
     }

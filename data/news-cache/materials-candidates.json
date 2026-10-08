@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T20:04:00.094Z",
+ "generatedAt": "2026-10-08T20:17:02.021Z",
  "sector": "materials",
  "maxAgeDays": 10,
  "places": {
@@ -395,23 +395,6 @@
        "blurb": "Share your views on the future of NSW’s historic timber truss bridges and their role in local communities. Source: Timberbiz The Timber Truss Bridge Strategy is Transport for NSW’s framework for deciding which historic timber road bridges should be conserved, how they should be m"
       },
       {
-       "title": "Mozambique Quadruples Processed Timber Exports on Veneer Sales",
-       "url": "https://woodcentral.com.au/mozambique-timber-exports-veneer/",
-       "source": "Wood Central",
-       "published": "2026-10-07T05:19:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Wood Central",
-         "url": "https://woodcentral.com.au/mozambique-timber-exports-veneer/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Veneer has overtaken sawn boards as Mozambique’s biggest processed timber export, with the country’s exporters shipping 22,460 cubic metres in the first half of the year, after selling none in the same period in 2025. That is according to figures from Mozambique’s government repo"
-      },
-      {
        "title": "Australia’s Foresters Give Dr Michelle Freeman a Standing Ovation",
        "url": "https://woodcentral.com.au/forestry-australia-president-freeman/",
        "source": "Wood Central",
@@ -529,6 +512,23 @@
        "stages": [],
        "via": null,
        "blurb": "Hyne Timber’s Tuan Mill, the largest timber mill in Queensland, Australia, has once again chosen to invest in MiCROTEC’s technology, with the multi-sensor real-shape and quality scanner, Logeye. With nearly two decades of experience using MiCROTEC’s solutions, Hyne’s latest inves"
+      },
+      {
+       "title": "JAK broadens forestry attachment range with new launches",
+       "url": "https://www.forestryjournal.co.uk/news/26606759.jak-expands-range-new-grapple-saws-tree-shears/?ref=rss",
+       "source": "Forestry Journal",
+       "published": "2026-10-05T09:28:34.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Forestry Journal",
+         "url": "https://www.forestryjournal.co.uk/news/26606759.jak-expands-range-new-grapple-saws-tree-shears/?ref=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The new S Series brings grapple saws to three excavator size classes, while the R Series and C Series target larger machines."
       }
      ]
     },
@@ -946,6 +946,26 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
+       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+       "source": "NASA News",
+       "published": "2026-10-08T15:46:25.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
+      },
+      {
        "title": "Trump unveils plans to build $15B steel mill in Iowa",
        "url": "https://www.supplychaindive.com/news/trump-unveils-plans-to-build-15b-steel-mill-in-iowa/831654/",
        "source": "Supply Chain Dive",
@@ -1012,23 +1032,6 @@
        "stages": [],
        "via": null,
        "blurb": "Gold Mountain (ASX: GMN) is weighing the revival of a Brazilian tungsten mine that began during the Second World War after securing a 12-month exclusive right to acquire the property... The post Gold Mountain targets WWII tungsten mine in Brazil appeared first on The Northern Min"
-      },
-      {
-       "title": "Mine backed by US, Australia and Gina Rinehart moves towards construction",
-       "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T07:10:55.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "After decades in development, a $1.8 billion rare earths mining project has finally seen ground broken in remote Central Australia."
       },
       {
        "title": "Steenkampskraal mine opens Phase 1 monazite concentrate plant",
@@ -1565,6 +1568,26 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
+       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+       "source": "NASA News",
+       "published": "2026-10-08T15:46:25.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
+      },
+      {
        "title": "Trump unveils plans to build $15B steel mill in Iowa",
        "url": "https://www.supplychaindive.com/news/trump-unveils-plans-to-build-15b-steel-mill-in-iowa/831654/",
        "source": "Supply Chain Dive",
@@ -1580,23 +1603,6 @@
        "stages": [],
        "via": null,
        "blurb": "Mesabi Metallics’ steel facility will be the largest in the U.S., creating 1,750 jobs and adding 10 million tons of annual production capacity. The company is also investing $3 billion to complete an iron ore mine in Minnesota."
-      },
-      {
-       "title": "Mine backed by US, Australia and Gina Rinehart moves towards construction",
-       "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T07:10:55.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "After decades in development, a $1.8 billion rare earths mining project has finally seen ground broken in remote Central Australia."
       },
       {
        "title": "Copper Queens stumble in Olympic qualifiers opener",
@@ -1831,23 +1837,6 @@
     "mining": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Mine backed by US, Australia and Gina Rinehart moves towards construction",
-       "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T07:10:55.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "After decades in development, a $1.8 billion rare earths mining project has finally seen ground broken in remote Central Australia."
-      },
       {
        "title": "New technologies target energy use in Australian ore processing",
        "url": "https://www.mining-technology.com/analysis/new-technologies-target-energy-use-in-australian-ore-processing/",
@@ -2849,34 +2838,6 @@
        "stages": [],
        "via": null,
        "blurb": "[Premium Times] Niger State Governor Mohammed Bago says the state and federal governments are working to establish a responsible framework for artisanal mining."
-      }
-     ]
-    }
-   }
-  },
-  "mz": {
-   "label": "Mozambique",
-   "level": "country",
-   "sources": {
-    "forestry": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Mozambique Quadruples Processed Timber Exports on Veneer Sales",
-       "url": "https://woodcentral.com.au/mozambique-timber-exports-veneer/",
-       "source": "Wood Central",
-       "published": "2026-10-07T05:19:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Wood Central",
-         "url": "https://woodcentral.com.au/mozambique-timber-exports-veneer/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Veneer has overtaken sawn boards as Mozambique’s biggest processed timber export, with the country’s exporters shipping 22,460 cubic metres in the first half of the year, after selling none in the same period in 2025. That is according to figures from Mozambique’s government repo"
       }
      ]
     }
