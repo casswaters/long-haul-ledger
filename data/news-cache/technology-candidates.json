@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T18:56:32.501Z",
+ "generatedAt": "2026-10-08T19:28:04.849Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -10,33 +10,6 @@
     "software": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "GlobalFoundries to make key AI chip component for TSMC in $2 billion deal",
-       "url": "https://www.channelnewsasia.com/business/globalfoundries-make-key-ai-chip-component-tsmc-in-2-billion-deal-6442886",
-       "source": "CNA Business",
-       "published": "2026-10-08T12:44:18.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/globalfoundries-make-key-ai-chip-component-tsmc-in-2-billion-deal-6442886",
-         "primary": false
-        },
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/globalfoundries-signs-2bn-five-year-deal-with-tsmc-for-production-of-advanced-packaging-components/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
       {
        "title": "Deutsche Telekom says AI traffic will not drive more mobile uplink capex",
        "url": "https://rcrwireless.com/20261008/ai/deutsche-telekom-ai-traffic",
@@ -79,6 +52,11 @@
         {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/samsung-forecasts-record-80b-quarterly-profit-as-ai-boom-boosts-memory-demand/4081967",
+         "primary": false
+        },
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933",
          "primary": false
         }
        ],
@@ -136,23 +114,6 @@
        "stages": [],
        "via": null,
        "blurb": "Ambrosia Energy CEO Ben Longmier and Bloom Energy SVP Bill Thayer join the Smart Systems Stage at TechCrunch Disrupt. Register now to save up to $100. Grab a second of the same pass to save 50%."
-      },
-      {
-       "title": "Budget 2027: youth mortgage guarantee stays, defence hits 2.15% of GDP, €1m for AI",
-       "url": "https://www.euronews.com/2026/10/08/budget-2027-youth-mortgage-guarantee-stays-defence-hits-215-of-gdp-1m-for-ai",
-       "source": "Euronews Business",
-       "published": "2026-10-08T13:18:50.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/08/budget-2027-youth-mortgage-guarantee-stays-defence-hits-215-of-gdp-1m-for-ai",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The government on Thursday submitted to parliament the draft 2027 state budget, projecting 2% growth and a surplus of 0.1% to 0.2% of GDP. Approval is assured, as PS plans to abstain in the initial vote."
       },
       {
        "title": "Sesterce to invest $10bn in 600MW AI data center campus in Jämsä, Finland",
@@ -238,6 +199,40 @@
        "stages": [],
        "via": null,
        "blurb": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to analysts. Analysts across several financial institutions proje"
+      },
+      {
+       "title": "Analysts predict SET to reach 1,680 by year-end",
+       "url": "https://www.bangkokpost.com/business/investment/3333435/analysts-predict-set-to-reach-1680-by-yearend",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-07T23:16:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/investment/3333435/analysts-predict-set-to-reach-1680-by-yearend",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Stock Exchange of Thailand (SET) index is expected to finish at 1,680 points by year-end, supported by investment in artificial intelligence (AI) technology and its supply chain, listed-company earnings, foreign fund inflows and a recovery in the domestic economy, says the In"
+      },
+      {
+       "title": "Making the case for non-lithium batteries for AI data centres",
+       "url": "https://www.energy-storage.news/making-the-case-for-non-lithium-batteries-for-ai-data-centres/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-08T07:48:32.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/making-the-case-for-non-lithium-batteries-for-ai-data-centres/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "AI data centres have energy and power requirements demanding enough to potentially stretch lithium-ion beyond its versatile limits, writes Intertek CEA market intelligence consultant Aaron Marks."
       }
      ]
     },
@@ -260,6 +255,23 @@
        "stages": [],
        "via": null,
        "blurb": "Two consultants hired by Hydro-Quebec say they expect the demand from data centres to more than double between 2024 and 2030."
+      },
+      {
+       "title": "'We always respond in kind' — Zelensky addresses Ukrainian attacks on Russian data center",
+       "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-08T19:15:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "\"We certainly are capable,\" Zelensky said about striking Russian data centers. \"We always respond in kind. Regarding data centers, as you all know, they have been and still are striking our data centers.\""
       },
       {
        "title": "Russia's Yandex says unclear whether data centre can be restored after drone strike",
@@ -430,23 +442,6 @@
        "stages": [],
        "via": null,
        "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
-      },
-      {
-       "title": "Sesterce to invest $10bn in 600MW AI data center campus in Jämsä, Finland",
-       "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-08T10:52:56.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Developer says it has already secured an anchor customer for the site"
       }
      ]
     },
@@ -707,7 +702,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
       },
       {
        "title": "DOE announces grants for SiC cladding research and testing",
@@ -772,26 +767,6 @@
        "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
       },
       {
-       "title": "DCD Studio: Market models for SMRs with Rosa Rotko, Mott MacDonald",
-       "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-market-models-for-smrs-with-rosa-rotko-mott-macdonald/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-08T16:32:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-market-models-for-smrs-with-rosa-rotko-mott-macdonald/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Tam Pledger speaks with Rosa Rotko of Mott MacDonald on critical grid connection delays impacting UK energy projects"
-      },
-      {
        "title": "BWXT’s BANR selected for Canadian project",
        "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
        "source": "ANS Nuclear Newswire",
@@ -815,6 +790,26 @@
         "stage": "innovation"
        },
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+      },
+      {
+       "title": "DCD Studio: Market models for SMRs with Rosa Rotko, Mott MacDonald",
+       "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-market-models-for-smrs-with-rosa-rotko-mott-macdonald/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T16:32:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-market-models-for-smrs-with-rosa-rotko-mott-macdonald/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Tam Pledger speaks with Rosa Rotko of Mott MacDonald on critical grid connection delays impacting UK energy projects"
       },
       {
        "title": "DSG 2026 offers a new perspective on the future of geothermal energy",
@@ -990,6 +985,23 @@
        "blurb": "Studio Pietrangeli has begun consultancy work on the proposed 24 MW Zungki and 42 MW Lower Tizu hydropower projects in Nagaland, India. The post Studio Pietrangeli begins consultancy work on two Indian hydropower projects appeared first on International Water Power ."
       },
       {
+       "title": "Money trail backs leaked chats from extortion crew that walks into US law firms",
+       "url": "https://www.theregister.com/cyber-crime/2026/10/08/money-trail-backs-leaked-chats-from-extortion-crew-that-walks-into-us-law-firms/5302031",
+       "source": "The Register",
+       "published": "2026-10-08T16:09:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/cyber-crime/2026/10/08/money-trail-backs-leaked-chats-from-extortion-crew-that-walks-into-us-law-firms/5302031",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Researchers corroborate parts of Silent Ransom Group dump detailing crypto payouts, cash brokers, and recruitment"
+      },
+      {
        "title": "Deloitte fined £6M by FRC over go-ahead group auditing",
        "url": "https://www.accountingtoday.com/articles/deloitte-fined-6m-by-frc-over-go-ahead-group-auditing",
        "source": "Accounting Today",
@@ -1039,33 +1051,6 @@
        "stages": [],
        "via": null,
        "blurb": "The installation of what is thought to be the tallest wind turbine tower ever built has been completed by an engineering company in Germany."
-      },
-      {
-       "title": "Goldman Sachs ensnared in EY data breach earlier this year",
-       "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
-       "source": "Accounting Today",
-       "published": "2026-10-07T15:21:38.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/business/2026/oct/08/top-bosses-goldman-sachs-bonus-pot",
-         "primary": false
-        },
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/goldman-sachs-to-pay-top-executives-500mn-in-special-bonuses/",
-         "primary": false
-        },
-        {
-         "name": "Accounting Today",
-         "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Goldman Sachs Group Inc.'s data was exposed earlier this year in a hack of accounting firm EY, according to a person familiar with the matter."
       },
       {
        "title": "Payments income bolsters banks",
@@ -1486,21 +1471,21 @@
        "blurb": "The hackers alerted the fashion giant's customers through a push notification that said they had \"fully compromised\" the company's cloud storage."
       },
       {
-       "title": "'Group of individuals' impacted by data breach at SA hospital",
-       "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T05:01:42.000Z",
+       "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
+       "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+       "source": "The Register",
+       "published": "2026-10-08T13:27:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
+         "name": "The Register",
+         "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "An Adelaide private hospital has notified individuals and cyber security authorities of a data breach of personal information."
+       "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
       }
      ]
     }
@@ -1529,23 +1514,6 @@
        "stages": [],
        "via": null,
        "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
-      },
-      {
-       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
-       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-       "source": "The Loadstar",
-       "published": "2026-10-07T12:40:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Loadstar",
-         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
       },
       {
        "title": "Using AI to mitigate the growing environmental threat of data centers",
@@ -1616,23 +1584,6 @@
        "blurb": "The retailer's site in Nampa will distribute inventory to 123 stores and includes a group that aims to \"apply practical artificial intelligence to operational needs.\""
       },
       {
-       "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
-       "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
-       "source": "Ars Technica",
-       "published": "2026-10-08T11:15:33.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Full-stack safety solution for physical AI is being used by robotics companies."
-      },
-      {
        "title": "Trump says he doesn't want to work with China on AI safety",
        "url": "https://www.france24.com/en/tv-shows/business/20260929-trump-says-doesn-t-want-to-work-with-china-on-ai-safety",
        "source": "France 24 Business",
@@ -1648,6 +1599,23 @@
        "stages": [],
        "via": null,
        "blurb": "US President Donald Trump discussed AI development with dozens of tech bosses at the White House on Tuesday. Ahead of his \"super intelligence\" luncheon, Trump launched a new AI-powered website for government services, vowing not to stifle the technology's growth. He also said he "
+      },
+      {
+       "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
+       "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
+       "source": "Ars Technica",
+       "published": "2026-10-08T11:15:33.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Full-stack safety solution for physical AI is being used by robotics companies."
       },
       {
        "title": "AI underscores singular importance of phishing-resistant authentication, Okta says",
@@ -1721,6 +1689,23 @@
        "stages": [],
        "via": null,
        "blurb": "Over two decades at MIT, Hamilton forged new paths in computer science and engineering. Her groundbreaking work included leading the team that programmed the first computers that took humans to the moon."
+      },
+      {
+       "title": "IBM’s AI-powered vulnerability clearinghouse finds hundreds of Java flaws",
+       "url": "https://www.cybersecuritydive.com/news/ibm-ai-vulnerability-java-lightwell/832249/",
+       "source": "Cybersecurity Dive",
+       "published": "2026-10-06T15:01:03.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Cybersecurity Dive",
+         "url": "https://www.cybersecuritydive.com/news/ibm-ai-vulnerability-java-lightwell/832249/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The tech giant’s announcement underscores the insufficiency of companies’ existing software supply chain security practices."
       }
      ]
     },
@@ -1876,7 +1861,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
       },
       {
        "title": "How a reluctant Iowa farming county undid a ban on battery storage",
@@ -2107,31 +2092,21 @@
        "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
       },
       {
-       "title": "Goldman Sachs ensnared in EY data breach earlier this year",
-       "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
-       "source": "Accounting Today",
-       "published": "2026-10-07T15:21:38.000Z",
-       "verification": "multiple",
+       "title": "Money trail backs leaked chats from extortion crew that walks into US law firms",
+       "url": "https://www.theregister.com/cyber-crime/2026/10/08/money-trail-backs-leaked-chats-from-extortion-crew-that-walks-into-us-law-firms/5302031",
+       "source": "The Register",
+       "published": "2026-10-08T16:09:00.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/business/2026/oct/08/top-bosses-goldman-sachs-bonus-pot",
-         "primary": false
-        },
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/goldman-sachs-to-pay-top-executives-500mn-in-special-bonuses/",
-         "primary": false
-        },
-        {
-         "name": "Accounting Today",
-         "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
+         "name": "The Register",
+         "url": "https://www.theregister.com/cyber-crime/2026/10/08/money-trail-backs-leaked-chats-from-extortion-crew-that-walks-into-us-law-firms/5302031",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Goldman Sachs Group Inc.'s data was exposed earlier this year in a hack of accounting firm EY, according to a person familiar with the matter."
+       "blurb": "Researchers corroborate parts of Silent Ransom Group dump detailing crypto payouts, cash brokers, and recruitment"
       },
       {
        "title": "Payments income bolsters banks",
@@ -2278,33 +2253,6 @@
        "stages": [],
        "via": null,
        "blurb": "Experts at the NMFTA Cybersecurity Conference emphasized that as cargo theft schemes become more sophisticated, the importance of keeping humans involved to counter them becomes more crucial."
-      },
-      {
-       "title": "Goldman Sachs ensnared in EY data breach earlier this year",
-       "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
-       "source": "Accounting Today",
-       "published": "2026-10-07T15:21:38.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/business/2026/oct/08/top-bosses-goldman-sachs-bonus-pot",
-         "primary": false
-        },
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/goldman-sachs-to-pay-top-executives-500mn-in-special-bonuses/",
-         "primary": false
-        },
-        {
-         "name": "Accounting Today",
-         "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Goldman Sachs Group Inc.'s data was exposed earlier this year in a hack of accounting firm EY, according to a person familiar with the matter."
       },
       {
        "title": "AI underscores singular importance of phishing-resistant authentication, Okta says",
@@ -2605,6 +2553,28 @@
    "label": "South Korea",
    "level": "country",
    "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
+       "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+       "source": "The Register",
+       "published": "2026-10-08T13:27:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
+      }
+     ]
+    },
     "cloud": {
      "brief": "missing",
      "candidates": [
@@ -2671,6 +2641,23 @@
        "stages": [],
        "via": null,
        "blurb": ""
+      },
+      {
+       "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
+       "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+       "source": "The Register",
+       "published": "2026-10-08T13:27:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
       }
      ]
     }
@@ -2683,6 +2670,23 @@
     "cloud": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "'We always respond in kind' — Zelensky addresses Ukrainian attacks on Russian data center",
+       "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-08T19:15:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "\"We certainly are capable,\" Zelensky said about striking Russian data centers. \"We always respond in kind. Regarding data centers, as you all know, they have been and still are striking our data centers.\""
+      },
       {
        "title": "Ukrainian Drones Hit Yandex Data Center, Industrial Facilities Across Russia",
        "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
@@ -2727,6 +2731,23 @@
        "stages": [],
        "via": null,
        "blurb": ""
+      },
+      {
+       "title": "'We always respond in kind' — Zelensky addresses Ukrainian attacks on Russian data center",
+       "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-08T19:15:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "\"We certainly are capable,\" Zelensky said about striking Russian data centers. \"We always respond in kind. Regarding data centers, as you all know, they have been and still are striking our data centers.\""
       },
       {
        "title": "Ukrainian Drones Hit Yandex Data Center, Industrial Facilities Across Russia",
@@ -2786,6 +2807,28 @@
        "stages": [],
        "via": null,
        "blurb": "In light of Russia’s record on biological weapons and lab accidents, the death of an anti-plague researcher raises questions to consider. The post Five things to know about the death at Russia’s anti-plague laboratory appeared first on Atlantic Council ."
+      }
+     ]
+    },
+    "cyber": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "UK and Germany team up against Russian cyberattacks as Brexit rethink looms",
+       "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
+       "source": "The Register",
+       "published": "2026-10-08T11:22:01.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Security pact promises information-sharing and coordinated disruption, but offers little detail on agencies or funding"
       }
      ]
     }
@@ -3223,6 +3266,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "UK and Germany team up against Russian cyberattacks as Brexit rethink looms",
+       "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
+       "source": "The Register",
+       "published": "2026-10-08T11:22:01.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Security pact promises information-sharing and coordinated disruption, but offers little detail on agencies or funding"
+      },
+      {
        "title": "Sungrow patches iSolarCloud vulnerability after security researchers gain access",
        "url": "https://www.pv-magazine.com/2026/10/08/sungrow-patches-isolarcloud-vulnerability-after-security-researchers-gain-access/",
        "source": "pv magazine",
@@ -3549,28 +3609,6 @@
    "label": "New York",
    "level": "admin1",
    "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
-       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-       "source": "The Loadstar",
-       "published": "2026-10-07T12:40:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Loadstar",
-         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
-      }
-     ]
-    },
     "cloud": {
      "brief": "missing",
      "candidates": [
@@ -3616,7 +3654,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
       }
      ]
     },
@@ -3648,28 +3686,6 @@
    "label": "New York",
    "level": "city",
    "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
-       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-       "source": "The Loadstar",
-       "published": "2026-10-07T12:40:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Loadstar",
-         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
-      }
-     ]
-    },
     "cloud": {
      "brief": "missing",
      "candidates": [
@@ -3715,7 +3731,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
       }
      ]
     },
@@ -3781,6 +3797,23 @@
     "software": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "AI giants promise to play nice with personal data after UK watchdog scrutiny",
+       "url": "https://www.theregister.com/ai-and-ml/2026/10/08/ai-giants-promise-to-play-nice-with-personal-data-after-uk-watchdog-scrutiny/5301966",
+       "source": "The Register",
+       "published": "2026-10-08T12:35:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/ai-and-ml/2026/10/08/ai-giants-promise-to-play-nice-with-personal-data-after-uk-watchdog-scrutiny/5301966",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Amazon, Google, Microsoft, OpenAI and six others agree to changes, but the ICO isn't done asking questions"
+      },
       {
        "title": "Arelion, Nokia trial boosts optical capacity for AI traffic",
        "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
@@ -3955,6 +3988,23 @@
        "stages": [],
        "via": null,
        "blurb": "ASOS said the hacker did not gain access to payment card information or account passwords."
+      },
+      {
+       "title": "UK and Germany team up against Russian cyberattacks as Brexit rethink looms",
+       "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
+       "source": "The Register",
+       "published": "2026-10-08T11:22:01.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Security pact promises information-sharing and coordinated disruption, but offers little detail on agencies or funding"
       }
      ]
     }
@@ -4582,7 +4632,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
       }
      ]
     }
@@ -4789,6 +4839,11 @@
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/samsung-forecasts-record-80b-quarterly-profit-as-ai-boom-boosts-memory-demand/4081967",
          "primary": false
+        },
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933",
+         "primary": false
         }
        ],
        "stages": [],
@@ -4947,6 +5002,23 @@
        "blurb": "US President Donald Trump discussed AI development with dozens of tech bosses at the White House on Tuesday. Ahead of his \"super intelligence\" luncheon, Trump launched a new AI-powered website for government services, vowing not to stifle the technology's growth. He also said he "
       },
       {
+       "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
+       "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+       "source": "The Register",
+       "published": "2026-10-08T13:27:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
+      },
+      {
        "title": "Roundup #89: It isn’t X, it’s Y",
        "url": "https://www.noahpinion.blog/p/roundup-89-it-isnt-x-its-y",
        "source": "Noahpinion",
@@ -5009,6 +5081,28 @@
        "stages": [],
        "via": null,
        "blurb": "TikTok owner ByteDance is China’s Going Global champion, according to a new SCMP Plus databank tracking mainland companies’ overseas expansion efforts. The social media giant topped the debut SCMP Plus Going Global 100 ranking ahead of Apple assembler Foxconn Industrial Internet,"
+      }
+     ]
+    },
+    "cyber": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
+       "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+       "source": "The Register",
+       "published": "2026-10-08T13:27:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
       }
      ]
     }
@@ -5145,6 +5239,28 @@
        "blurb": ""
       }
      ]
+    },
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Taxes account for over 53% of labour costs in Spain, study finds",
+       "url": "https://www.euronews.com/2026/10/08/taxes-account-for-over-53-of-labour-costs-in-spain-study-finds",
+       "source": "Euronews Business",
+       "published": "2026-10-08T19:11:03.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/08/taxes-account-for-over-53-of-labour-costs-in-spain-study-finds",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In 2025, Spain's Finance Ministry argued that its tax cuts for middle-income earners had delivered €38 billion in savings"
+      }
+     ]
     }
    }
   },
@@ -5171,6 +5287,28 @@
        "stages": [],
        "via": null,
        "blurb": "AWS research found AI adoption across agriculture, forestry and fishing sits just under 40 percent."
+      }
+     ]
+    },
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Han Jiang ordered to pay $100,000 after meth lab contaminated Auckland rental",
+       "url": "https://www.rnz.co.nz/news/business/1799373/han-jiang-ordered-to-pay-100-000-after-meth-lab-contaminated-auckland-rental",
+       "source": "RNZ Business",
+       "published": "2026-10-08T19:03:46.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "RNZ Business",
+         "url": "https://www.rnz.co.nz/news/business/1799373/han-jiang-ordered-to-pay-100-000-after-meth-lab-contaminated-auckland-rental",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The interior had to be completely refurbished, and the home failed to sell after it became known locally as \"the meth house\"."
       }
      ]
     }
@@ -5291,6 +5429,62 @@
        "stages": [],
        "via": null,
        "blurb": "Arelion's 500-kilometer route from Amsterdam to London uses Nokia's 1830 Global Express (GX) Super C and Super L open line system, CHMQ6 thin transponder modules and ICE-X 400G and 800G ZR+ coherent pluggable optics. #pressrelease"
+      }
+     ]
+    }
+   }
+  },
+  "nz-au": {
+   "label": "Auckland",
+   "level": "admin1",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Han Jiang ordered to pay $100,000 after meth lab contaminated Auckland rental",
+       "url": "https://www.rnz.co.nz/news/business/1799373/han-jiang-ordered-to-pay-100-000-after-meth-lab-contaminated-auckland-rental",
+       "source": "RNZ Business",
+       "published": "2026-10-08T19:03:46.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "RNZ Business",
+         "url": "https://www.rnz.co.nz/news/business/1799373/han-jiang-ordered-to-pay-100-000-after-meth-lab-contaminated-auckland-rental",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The interior had to be completely refurbished, and the home failed to sell after it became known locally as \"the meth house\"."
+      }
+     ]
+    }
+   }
+  },
+  "nz-city-auckland": {
+   "label": "Auckland",
+   "level": "city",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Han Jiang ordered to pay $100,000 after meth lab contaminated Auckland rental",
+       "url": "https://www.rnz.co.nz/news/business/1799373/han-jiang-ordered-to-pay-100-000-after-meth-lab-contaminated-auckland-rental",
+       "source": "RNZ Business",
+       "published": "2026-10-08T19:03:46.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "RNZ Business",
+         "url": "https://www.rnz.co.nz/news/business/1799373/han-jiang-ordered-to-pay-100-000-after-meth-lab-contaminated-auckland-rental",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The interior had to be completely refurbished, and the home failed to sell after it became known locally as \"the meth house\"."
       }
      ]
     }

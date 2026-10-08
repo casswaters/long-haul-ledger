@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T18:55:19.176Z",
+ "generatedAt": "2026-10-08T19:26:44.262Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -51,26 +51,6 @@
        "blurb": "Karen Fili As the nuclear industry enters one of the most significant investment periods in its history, utilities are managing unprecedented capital portfolios while simultaneously preparing for long-term operation, plant modernization, extended power uprates, digital transforma"
       },
       {
-       "title": "DCD Studio: Market models for SMRs with Rosa Rotko, Mott MacDonald",
-       "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-market-models-for-smrs-with-rosa-rotko-mott-macdonald/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-08T16:32:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-market-models-for-smrs-with-rosa-rotko-mott-macdonald/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "innovation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Tam Pledger speaks with Rosa Rotko of Mott MacDonald on critical grid connection delays impacting UK energy projects"
-      },
-      {
        "title": "BWXT’s BANR selected for Canadian project",
        "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
        "source": "ANS Nuclear Newswire",
@@ -94,6 +74,26 @@
        ],
        "via": null,
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+      },
+      {
+       "title": "DCD Studio: Market models for SMRs with Rosa Rotko, Mott MacDonald",
+       "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-market-models-for-smrs-with-rosa-rotko-mott-macdonald/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T16:32:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-market-models-for-smrs-with-rosa-rotko-mott-macdonald/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Tam Pledger speaks with Rosa Rotko of Mott MacDonald on critical grid connection delays impacting UK energy projects"
       },
       {
        "title": "Poland begins ordering long-lead components for first AP1000",
@@ -233,6 +233,11 @@
          "primary": false
         },
         {
+         "name": "Canary Media",
+         "url": "https://www.canarymedia.com/articles/nuclear/constellation-google-nuclear-uprates",
+         "primary": false
+        },
+        {
          "name": "Power Engineering",
          "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
          "primary": false
@@ -284,11 +289,6 @@
         {
          "name": "The Guardian Business",
          "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
-         "primary": false
-        },
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/international/2026/10/08/wto-raises-merchandise-trade-growth-forecast-to-39-as-ai-boom-offsets-hit-from-middle-east/",
          "primary": false
         },
         {
@@ -356,6 +356,42 @@
        ],
        "via": null,
        "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
+      },
+      {
+       "title": "US imposes fresh sanctions on Iran’s shadow fleet",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T21:19:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
+      },
+      {
+       "title": "POWER CRISIS: Property owners spend millions on diesel as Joburg CBD power outages drive away tenants",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-property-owners-spend-millions-on-diesel-as-joburg-cbd-power-outages-drive-away-tenants/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T21:11:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-property-owners-spend-millions-on-diesel-as-joburg-cbd-power-outages-drive-away-tenants/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Johannesburg’s electricity crisis is increasingly threatening years of work to regenerate the inner city."
       },
       {
        "title": "S&P/TSX composite down despite energy sector strength as oil tops US$90 a barrel",
@@ -497,40 +533,6 @@
        "stages": [],
        "via": null,
        "blurb": "The U.S. Energy Information Administration raised its 2026 Brent crude oil spot price forecast by more than $5 per barrel and its 2027 Brent price forecast by $10 per barrel."
-      },
-      {
-       "title": "EIA raises Brent forecast to $105 a barrel for Q4 2026; gas-heated homes to spend less this winter",
-       "url": "https://www.eia.gov/outlooks/steo/",
-       "source": "US Energy Information Administration",
-       "published": "2026-10-06T16:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "EIA Short-Term Energy Outlook (Oct. 6, 2026)",
-         "url": "https://www.eia.gov/outlooks/steo/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
-      },
-      {
-       "title": "India Shuns Costly Russian Oil",
-       "url": "https://www.rigzone.com/news/wire/india_shuns_costly_russian_oil-08-oct-2026-184802-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-08T13:46:29.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/india_shuns_costly_russian_oil-08-oct-2026-184802-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Indian refiners have cut back Russian crude purchases for November delivery."
       }
      ]
     },
@@ -644,6 +646,25 @@
        "blurb": "US LNG exporter Venture Global shipped 124 LNG cargoes from its Calcasieu Pass and Plaquemines LNG export terminals in the third quarter of this year."
       },
       {
+       "title": "US-Mexico Natural Gas Flows Recover After Brief TGP Force Majeure",
+       "url": "https://naturalgasintel.com/news/us-mexico-natural-gas-flows-recover-after-brief-tgp-force-majeure/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-08T19:12:26.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/us-mexico-natural-gas-flows-recover-after-brief-tgp-force-majeure/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "A brief force majeure on Kinder Morgan’s Tennessee Gas Pipeline (TGP) curtailed natural gas exports to Mexico this week, but the disruption was quickly resolved without affecting Mexico’s energy grid or triggering significant regional price volatility."
+      },
+      {
        "title": "European Natural Gas Prices Defy Rebound in Middle Eastern LNG Shipments",
        "url": "https://naturalgasintel.com/news/european-natural-gas-prices-defy-rebound-in-middle-eastern-lng-shipments/",
        "source": "Natural Gas Intelligence",
@@ -685,7 +706,7 @@
        "title": "Manufacturing Growth Set to Lift US Industrial Natural Gas Demand",
        "url": "https://naturalgasintel.com/news/manufacturing-growth-set-to-lift-us-industrial-natural-gas-demand/",
        "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T15:53:16.000Z",
+       "published": "2026-10-08T15:53:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -777,25 +798,6 @@
        ],
        "via": null,
        "blurb": "US natural gas supply growth is expected to outpace rising demand this winter, leaving the market well stocked even with LNG exports climbing and putting downward pressure on prices compared with last winter, according to the Natural Gas Supply Association (NGSA)."
-      },
-      {
-       "title": "Williams’ Silver Spur Pipeline to Tap Ruby for Idaho Natural Gas Supply",
-       "url": "https://naturalgasintel.com/news/williams-silver-spur-pipeline-to-tap-ruby-for-idaho-natural-gas-supply/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T12:55:54.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/williams-silver-spur-pipeline-to-tap-ruby-for-idaho-natural-gas-supply/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Williams’ Northwest Pipeline has fully subscribed an 88-mile natural gas line that would move up to 275,000 Dth/d of Opal supply from Tallgrass’ Ruby Pipeline into southern Idaho by 2030."
       }
      ]
     },
@@ -1070,23 +1072,6 @@
        "blurb": "China’s State Power Investment Corporation (SPIC) has announced preferred bidders for around 5.52GW of wind turbine capacity under its second large-scale wind turbine procurement round of 2026, with ten Chinese manufacturers securing a share of the orders."
       },
       {
-       "title": "GWEC Calls for Government Action to Accelerate Floating Wind Commercialisation",
-       "url": "https://offshorewind.biz/2026/10/08/gwec-calls-for-government-action-to-accelerate-floating-wind-commercialisation",
-       "source": "offshoreWIND.biz",
-       "published": "2026-10-08T08:08:56.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "offshoreWIND.biz",
-         "url": "https://offshorewind.biz/2026/10/08/gwec-calls-for-government-action-to-accelerate-floating-wind-commercialisation",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Global Wind Energy Council (GWEC) and more than 50 companies and organisations involved in floating offshore wind have called for coordinated..."
-      },
-      {
        "title": "All Turbines Installed at Poland's First Offshore Wind Farm",
        "url": "https://offshorewind.biz/2026/10/07/all-turbines-installed-at-polands-first-offshore-wind-farm",
        "source": "offshoreWIND.biz",
@@ -1109,6 +1094,23 @@
        ],
        "via": null,
        "blurb": "All 76 Vestas V236-15.0 MW turbines are in place at the Baltic Power offshore wind farm in Poland, jointly owned by Orlen and Northland Power...."
+      },
+      {
+       "title": "GWEC Calls for Government Action to Accelerate Floating Wind Commercialisation",
+       "url": "https://offshorewind.biz/2026/10/08/gwec-calls-for-government-action-to-accelerate-floating-wind-commercialisation",
+       "source": "offshoreWIND.biz",
+       "published": "2026-10-08T08:08:56.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "offshoreWIND.biz",
+         "url": "https://offshorewind.biz/2026/10/08/gwec-calls-for-government-action-to-accelerate-floating-wind-commercialisation",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Global Wind Energy Council (GWEC) and more than 50 companies and organisations involved in floating offshore wind have called for coordinated..."
       },
       {
        "title": "France Energies Marines Launches Four Offshore Wind R&D Projects",
@@ -2209,6 +2211,11 @@
          "primary": false
         },
         {
+         "name": "Canary Media",
+         "url": "https://www.canarymedia.com/articles/nuclear/constellation-google-nuclear-uprates",
+         "primary": false
+        },
+        {
          "name": "Power Engineering",
          "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
          "primary": false
@@ -2408,11 +2415,6 @@
          "primary": false
         },
         {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/international/2026/10/08/wto-raises-merchandise-trade-growth-forecast-to-39-as-ai-boom-offsets-hit-from-middle-east/",
-         "primary": false
-        },
-        {
          "name": "Dawn Business",
          "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
          "primary": false
@@ -2453,6 +2455,23 @@
        ],
        "via": null,
        "blurb": "Market volatility increased as geopolitical tensions in the Middle East and hurricane preparations in the US Gulf led to production cuts and shipping disruptions, pushing Brent and WTI crude prices higher."
+      },
+      {
+       "title": "US imposes fresh sanctions on Iran’s shadow fleet",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T21:19:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
       },
       {
        "title": "U.S. stocks edge further from their record as oil prices rise",
@@ -2591,23 +2610,6 @@
        "blurb": "Brent crude rose above $105 a barrel on Thursday after reports that US President Donald Trump is considering a return to \"major combat operations\" against Iran, while European stock markets opened lower as rising oil prices fuelled inflation fears."
       },
       {
-       "title": "US supreme court hears big oil’s bid to block climate damage lawsuits",
-       "url": "https://www.theguardian.com/us-news/2026/oct/05/supreme-court-big-oil-climate-damage-lawsuits",
-       "source": "The Guardian Energy",
-       "published": "2026-10-05T19:57:36.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/us-news/2026/oct/05/supreme-court-big-oil-climate-damage-lawsuits",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "How the court will lean is unclear amid Suncor Energy and ExxonMobil’s attempt to stop lawsuits at state level The US supreme court began its new nine-month term hearing arguments on Monday in a major case in which big oil companies attempted to strike a fatal blow against lawsui"
-      },
-      {
        "title": "US BLM sets December California oil, gas lease sale",
        "url": "https://www.ogj.com/general-interest/government/news/55409584/us-blm-sets-december-california-oil-gas-lease-sale",
        "source": "Oil & Gas Journal",
@@ -2673,10 +2675,29 @@
      "brief": "ready",
      "candidates": [
       {
+       "title": "US-Mexico Natural Gas Flows Recover After Brief TGP Force Majeure",
+       "url": "https://naturalgasintel.com/news/us-mexico-natural-gas-flows-recover-after-brief-tgp-force-majeure/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-08T19:12:26.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/us-mexico-natural-gas-flows-recover-after-brief-tgp-force-majeure/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "A brief force majeure on Kinder Morgan’s Tennessee Gas Pipeline (TGP) curtailed natural gas exports to Mexico this week, but the disruption was quickly resolved without affecting Mexico’s energy grid or triggering significant regional price volatility."
+      },
+      {
        "title": "Manufacturing Growth Set to Lift US Industrial Natural Gas Demand",
        "url": "https://naturalgasintel.com/news/manufacturing-growth-set-to-lift-us-industrial-natural-gas-demand/",
        "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T15:53:16.000Z",
+       "published": "2026-10-08T15:53:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -2710,25 +2731,6 @@
        ],
        "via": null,
        "blurb": "US natural gas supply growth is expected to outpace rising demand this winter, leaving the market well stocked even with LNG exports climbing and putting downward pressure on prices compared with last winter, according to the Natural Gas Supply Association (NGSA)."
-      },
-      {
-       "title": "Williams’ Silver Spur Pipeline to Tap Ruby for Idaho Natural Gas Supply",
-       "url": "https://naturalgasintel.com/news/williams-silver-spur-pipeline-to-tap-ruby-for-idaho-natural-gas-supply/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T12:55:54.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/williams-silver-spur-pipeline-to-tap-ruby-for-idaho-natural-gas-supply/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Williams’ Northwest Pipeline has fully subscribed an 88-mile natural gas line that would move up to 275,000 Dth/d of Opal supply from Tallgrass’ Ruby Pipeline into southern Idaho by 2030."
       },
       {
        "title": "Venture Global shipped 124 LNG cargoes in Q3",
@@ -2861,25 +2863,6 @@
        "blurb": "Texas Eastern Transmission (Tetco) expects its Line 15 outage in Kentucky to last into early November, keeping Appalachian natural gas bottled up and regional cash prices under pressure as other outages add to the squeeze."
       },
       {
-       "title": "Galp wins Calcasieu Pass arbitration against Venture Global",
-       "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
-       "source": "LNG Prime",
-       "published": "2026-10-08T12:22:54.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Portuguese energy firm Galp has won an arbitration case against US LNG exporter Venture Global LNG over LNG sales from the Calcasieu Pass plant in Louisiana."
-      },
-      {
        "title": "LNG market tightens into winter as Europe pulls US cargoes, China reopens contract talks",
        "url": "https://www.ogj.com/general-interest/economics-markets/news/55410250/lng-market-tightens-into-winter-as-europe-pulls-us-cargoes-china-reopens-contract-talks",
        "source": "Oil & Gas Journal",
@@ -2898,6 +2881,25 @@
        ],
        "via": null,
        "blurb": "New capacity outside the Middle East offsets some losses, but inventories remain low, raising winter risk concerns."
+      },
+      {
+       "title": "Galp wins Calcasieu Pass arbitration against Venture Global",
+       "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T12:22:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Portuguese energy firm Galp has won an arbitration case against US LNG exporter Venture Global LNG over LNG sales from the Calcasieu Pass plant in Louisiana."
       },
       {
        "title": "Middle River buys 427MW Panoche natural gas plant in California, US",
@@ -3700,6 +3702,30 @@
        "blurb": "It’s only the second time that American regulators have approved a next-generation commercial reactor for construction. Big hurdles remain."
       }
      ]
+    },
+    "gas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "US-Mexico Natural Gas Flows Recover After Brief TGP Force Majeure",
+       "url": "https://naturalgasintel.com/news/us-mexico-natural-gas-flows-recover-after-brief-tgp-force-majeure/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-08T19:12:26.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/us-mexico-natural-gas-flows-recover-after-brief-tgp-force-majeure/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "A brief force majeure on Kinder Morgan’s Tennessee Gas Pipeline (TGP) curtailed natural gas exports to Mexico this week, but the disruption was quickly resolved without affecting Mexico’s energy grid or triggering significant regional price volatility."
+      }
+     ]
     }
    }
   },
@@ -4055,6 +4081,25 @@
     "gas": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "US-Mexico Natural Gas Flows Recover After Brief TGP Force Majeure",
+       "url": "https://naturalgasintel.com/news/us-mexico-natural-gas-flows-recover-after-brief-tgp-force-majeure/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-08T19:12:26.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/us-mexico-natural-gas-flows-recover-after-brief-tgp-force-majeure/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "A brief force majeure on Kinder Morgan’s Tennessee Gas Pipeline (TGP) curtailed natural gas exports to Mexico this week, but the disruption was quickly resolved without affecting Mexico’s energy grid or triggering significant regional price volatility."
+      },
       {
        "title": "LNG Alliance Plans Second Mexico LNG Project Tapping US Natural Gas Supply",
        "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
@@ -5278,6 +5323,30 @@
    "label": "South Africa",
    "level": "country",
    "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "POWER CRISIS: Property owners spend millions on diesel as Joburg CBD power outages drive away tenants",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-property-owners-spend-millions-on-diesel-as-joburg-cbd-power-outages-drive-away-tenants/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T21:11:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-property-owners-spend-millions-on-diesel-as-joburg-cbd-power-outages-drive-away-tenants/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Johannesburg’s electricity crisis is increasingly threatening years of work to regenerate the inner city."
+      }
+     ]
+    },
     "emerging": {
      "brief": "missing",
      "candidates": [
@@ -6617,6 +6686,23 @@
        "blurb": ""
       },
       {
+       "title": "US imposes fresh sanctions on Iran’s shadow fleet",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T21:19:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
+      },
+      {
        "title": "Gulf economies to shrink despite higher oil prices as Iran war takes toll, World Bank says",
        "url": "https://www.euronews.com/2026/10/08/gulf-economies-to-shrink-despite-higher-oil-prices-as-iran-war-takes-toll-world-bank-says",
        "source": "Euronews Business",
@@ -6909,6 +6995,11 @@
          "primary": false
         },
         {
+         "name": "Canary Media",
+         "url": "https://www.canarymedia.com/articles/nuclear/constellation-google-nuclear-uprates",
+         "primary": false
+        },
+        {
          "name": "Power Engineering",
          "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
          "primary": false
@@ -6995,6 +7086,11 @@
         {
          "name": "POWER Magazine",
          "url": "https://www.powermag.com/google-deal-backs-890-mw-of-constellation-nuclear-uprates-at-11-pjm-reactors/",
+         "primary": false
+        },
+        {
+         "name": "Canary Media",
+         "url": "https://www.canarymedia.com/articles/nuclear/constellation-google-nuclear-uprates",
          "primary": false
         },
         {
@@ -7329,11 +7425,6 @@
          "primary": false
         },
         {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/international/2026/10/08/wto-raises-merchandise-trade-growth-forecast-to-39-as-ai-boom-offsets-hit-from-middle-east/",
-         "primary": false
-        },
-        {
          "name": "Dawn Business",
          "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
          "primary": false
@@ -7466,30 +7557,6 @@
        ],
        "via": null,
        "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
-      }
-     ]
-    },
-    "gas": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Williams’ Silver Spur Pipeline to Tap Ruby for Idaho Natural Gas Supply",
-       "url": "https://naturalgasintel.com/news/williams-silver-spur-pipeline-to-tap-ruby-for-idaho-natural-gas-supply/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T12:55:54.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/williams-silver-spur-pipeline-to-tap-ruby-for-idaho-natural-gas-supply/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Williams’ Northwest Pipeline has fully subscribed an 88-mile natural gas line that would move up to 275,000 Dth/d of Opal supply from Tallgrass’ Ruby Pipeline into southern Idaho by 2030."
       }
      ]
     },
@@ -7665,6 +7732,23 @@
        "blurb": "The sanctions come on the heels of the EU approving another sanctions package Wednesday."
       },
       {
+       "title": "New UK gas and oil projects are a ‘no-brainer’, says EDF boss",
+       "url": "https://www.theguardian.com/business/2026/sep/30/uk-gas-and-oil-climate-crisis-energy-edf-boss",
+       "source": "The Guardian Energy",
+       "published": "2026-09-30T16:24:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/business/2026/sep/30/uk-gas-and-oil-climate-crisis-energy-edf-boss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Developing North Sea fields does not contradict net zero goals, according to Simone Rossi New oil and gas projects are a “no-brainer” that pose “no contradiction” to the net zero agenda, according to the head of EDF Energy. Simone Rossi has joined a string of renewables leaders i"
+      },
+      {
        "title": "How a multibillion-dollar oilfield has ignited the UK-Argentina feud over the Falklands",
        "url": "https://www.dw.com/en/how-a-multibillion-dollar-oilfield-has-ignited-the-uk-argentina-feud-over-the-falklands/a-79588973?maca=en-rss-en-bus-2091-rdf",
        "source": "DW Business",
@@ -7682,23 +7766,6 @@
        ],
        "via": null,
        "blurb": "Argentina and the UK once fought a war over the Falkland Islands. Now, the multibillion-dollar Sea Lion oil project has reignited old tensions, with Buenos Aires seeking to put a stop to the plans."
-      },
-      {
-       "title": "New UK gas and oil projects are a ‘no-brainer’, says EDF boss",
-       "url": "https://www.theguardian.com/business/2026/sep/30/uk-gas-and-oil-climate-crisis-energy-edf-boss",
-       "source": "The Guardian Energy",
-       "published": "2026-09-30T16:24:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/business/2026/sep/30/uk-gas-and-oil-climate-crisis-energy-edf-boss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Developing North Sea fields does not contradict net zero goals, according to Simone Rossi New oil and gas projects are a “no-brainer” that pose “no contradiction” to the net zero agenda, according to the head of EDF Energy. Simone Rossi has joined a string of renewables leaders i"
       }
      ]
     },
@@ -8065,6 +8132,62 @@
        ],
        "via": null,
        "blurb": "South Korea may invest in the long-delayed Alaska LNG project, contingent on feasibility reviews, as part of a broader US energy investment initiative."
+      }
+     ]
+    }
+   }
+  },
+  "ir-th": {
+   "label": "Tehran",
+   "level": "admin1",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "US imposes fresh sanctions on Iran’s shadow fleet",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T21:19:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
+      }
+     ]
+    }
+   }
+  },
+  "ir-city-tehran": {
+   "label": "Tehran",
+   "level": "city",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "US imposes fresh sanctions on Iran’s shadow fleet",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T21:19:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
       }
      ]
     }
@@ -8547,6 +8670,66 @@
     }
    }
   },
+  "za-gt": {
+   "label": "Gauteng",
+   "level": "admin1",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "POWER CRISIS: Property owners spend millions on diesel as Joburg CBD power outages drive away tenants",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-property-owners-spend-millions-on-diesel-as-joburg-cbd-power-outages-drive-away-tenants/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T21:11:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-property-owners-spend-millions-on-diesel-as-joburg-cbd-power-outages-drive-away-tenants/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Johannesburg’s electricity crisis is increasingly threatening years of work to regenerate the inner city."
+      }
+     ]
+    }
+   }
+  },
+  "za-city-johannesburg": {
+   "label": "Johannesburg",
+   "level": "city",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "POWER CRISIS: Property owners spend millions on diesel as Joburg CBD power outages drive away tenants",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-property-owners-spend-millions-on-diesel-as-joburg-cbd-power-outages-drive-away-tenants/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T21:11:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-property-owners-spend-millions-on-diesel-as-joburg-cbd-power-outages-drive-away-tenants/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Johannesburg’s electricity crisis is increasingly threatening years of work to regenerate the inner city."
+      }
+     ]
+    }
+   }
+  },
   "my": {
    "label": "Malaysia",
    "level": "country",
@@ -8878,11 +9061,6 @@
         {
          "name": "The Guardian Business",
          "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
-         "primary": false
-        },
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/international/2026/10/08/wto-raises-merchandise-trade-growth-forecast-to-39-as-ai-boom-offsets-hit-from-middle-east/",
          "primary": false
         },
         {

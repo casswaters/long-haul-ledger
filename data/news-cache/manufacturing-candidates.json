@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T18:55:41.679Z",
+ "generatedAt": "2026-10-08T19:27:08.523Z",
  "sector": "manufacturing",
  "maxAgeDays": 10,
  "places": {
@@ -106,23 +106,6 @@
        "blurb": "Food and beverage giant lowers 2026 core earnings growth forecast to 2.5%-3.5% despite higher quarterly revenue"
       },
       {
-       "title": "PepsiCo slashes forecast, deepens cost cuts as N.America recovery drags",
-       "url": "https://www.channelnewsasia.com/business/pepsico-slashes-forecast-deepens-cost-cuts-namerica-recovery-drags-6442351",
-       "source": "CNA Business",
-       "published": "2026-10-08T10:08:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/pepsico-slashes-forecast-deepens-cost-cuts-namerica-recovery-drags-6442351",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
        "title": "Authorities investigate Japan's four biggest beer brewers over price rises",
        "url": "https://www.abc.net.au/news/2026-10-08/japan-raids-biggest-beer-brewers-over-price-collusion-claims/107241114",
        "source": "ABC News (Australia) Business",
@@ -138,6 +121,23 @@
        "stages": [],
        "via": null,
        "blurb": "Japan's Fair Trade Commission is investigating whether the beer brewers colluded to raise their prices at the same time over several years, blaming factors like rising raw material costs."
+      },
+      {
+       "title": "Coca-Cola steps into better-for-you soda market with prebiotics",
+       "url": "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
+       "source": "Food Dive",
+       "published": "2026-10-07T14:11:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Food Dive",
+         "url": "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The soda giant is entering the buzzy category and will compete with Olipop and PepsiCo-owned Poppi."
       }
      ]
     },
@@ -337,7 +337,7 @@
        "blurb": "As a producer of steel pipes and tubes, Zekelman Industries sees an opportunity as steel mills struggle to keep up with demand from data centers, semiconductor fabs and pharmaceutical buildouts."
       },
       {
-       "title": "Suspended glass bead entangled with light: Maybe a quantum memory?",
+       "title": "An experimental tour-de-force: Entanglement between glass bead and light",
        "url": "https://arstechnica.com/science/2026/10/suspended-glass-bead-entangled-with-light-maybe-a-quantum-memory/",
        "source": "Ars Technica",
        "published": "2026-10-08T18:45:23.000Z",
@@ -395,7 +395,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
       },
       {
        "title": "UAE-backed GlobalFoundries and TSMC announce $2bn manufacturing agreement",
@@ -412,6 +412,11 @@
         {
          "name": "The National (UAE)",
          "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
+         "primary": false
+        },
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
          "primary": false
         },
         {
@@ -461,6 +466,11 @@
         {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/samsung-forecasts-record-80b-quarterly-profit-as-ai-boom-boosts-memory-demand/4081967",
+         "primary": false
+        },
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933",
          "primary": false
         }
        ],
@@ -537,6 +547,23 @@
        "blurb": "Nature, Published online: 07 October 2026; doi:10.1038/d41586-026-02968-6 A material that was previously assumed to be an electrical insulator has been shown to be a semiconductor, with potential uses in electronics and optics."
       },
       {
+       "title": "High-severity Nvidia bug could crash GPU monitoring on exposed servers",
+       "url": "https://www.theregister.com/security/2026/10/08/high-severity-nvidia-bug-could-crash-gpu-monitoring-on-exposed-servers/5302077",
+       "source": "The Register",
+       "published": "2026-10-08T18:17:08.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/security/2026/10/08/high-severity-nvidia-bug-could-crash-gpu-monitoring-on-exposed-servers/5302077",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The GPU giant released a fix for the flaw, tracked as CVE-2026-47483"
+      },
+      {
        "title": "Wind power patents: Siemens Gamesa | Nordex | Envision | LM Wind Power",
        "url": "https://www.windpowermonthly.com/article/1971545/wind-power-patents-siemens-gamesa-nordex-envision-lm-wind-power",
        "source": "Windpower Monthly",
@@ -586,23 +613,6 @@
        "stages": [],
        "via": null,
        "blurb": "Full-stack safety solution for physical AI is being used by robotics companies."
-      },
-      {
-       "title": "Wind power patents: China Three Gorges | Dongfang | Nordex | Siemens Gamesa",
-       "url": "https://www.windpowermonthly.com/article/1971160/wind-power-patents-china-three-gorges-dongfang-nordex-siemens-gamesa",
-       "source": "Windpower Monthly",
-       "published": "2026-09-29T09:38:27.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Windpower Monthly",
-         "url": "https://www.windpowermonthly.com/article/1971160/wind-power-patents-china-three-gorges-dongfang-nordex-siemens-gamesa",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Windpower Monthly rounds up the latest wind power technology patents filed and granted in the past week."
       }
      ]
     },
@@ -1129,23 +1139,6 @@
        "blurb": "Renewable energy company Neoen has commenced construction of Stage 1 of the 346MW Goyder North Wind Farm in the Mid North region of South Australia (SA), near Burra on Ngadjuri Nation land."
       },
       {
-       "title": "Megaprojects grab 1 in 4 nonresidential construction dollars",
-       "url": "https://www.constructiondive.com/news/megaprojects-grab-1-in-4-nonresidential-construction-dollars/832256/",
-       "source": "Construction Dive",
-       "published": "2026-10-06T18:56:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Construction Dive",
-         "url": "https://www.constructiondive.com/news/megaprojects-grab-1-in-4-nonresidential-construction-dollars/832256/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Construction appears strongest in areas connected to infrastructure, power, advanced manufacturing and data centers, economists say. Other segments, not so much."
-      },
-      {
        "title": "Namibia: Pupkewitz Breaks Ground At Grootfontein",
        "url": "https://allafrica.com/stories/202610080537.html",
        "source": "AllAfrica Business",
@@ -1178,6 +1171,23 @@
        "stages": [],
        "via": null,
        "blurb": "Design and contracting revenue rises amid market complexity as firms leverage size and capacity to win more work."
+      },
+      {
+       "title": "DOL to up minimum wage to $14 per hour for federal contractors",
+       "url": "https://www.constructiondive.com/news/dol-to-up-minimum-wage-federal-contractors/832509/",
+       "source": "Construction Dive",
+       "published": "2026-10-08T15:23:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/dol-to-up-minimum-wage-federal-contractors/832509/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Despite the increase, the rate remains below Biden-era levels, which hit $15 per hour."
       }
      ]
     },
@@ -1510,23 +1520,6 @@
        "blurb": "Robert Haus has joined Vylor as state government and industry affairs leader. Shawna Severson has been named executive vice president of the Montana Grain Growers Association. Adam Caldecott has been appointed CEO and president of Good Food Holdings, effective Oct. 5."
       },
       {
-       "title": "PepsiCo slashes forecast, deepens cost cuts as N.America recovery drags",
-       "url": "https://www.channelnewsasia.com/business/pepsico-slashes-forecast-deepens-cost-cuts-namerica-recovery-drags-6442351",
-       "source": "CNA Business",
-       "published": "2026-10-08T10:08:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/pepsico-slashes-forecast-deepens-cost-cuts-namerica-recovery-drags-6442351",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
        "title": "PepsiCo plans cost cuts as North American struggles persist",
        "url": "https://www.fooddive.com/news/PepsiCo-snacking-north-america-inflation-beverages/832484/",
        "source": "Food Dive",
@@ -1552,6 +1545,23 @@
        "stages": [],
        "via": null,
        "blurb": "CEO Ramon Laguarta said the company plans to raise prices on select offerings and evaluate “every cost with aggressive lenses.”"
+      },
+      {
+       "title": "Coca-Cola steps into better-for-you soda market with prebiotics",
+       "url": "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
+       "source": "Food Dive",
+       "published": "2026-10-07T14:11:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Food Dive",
+         "url": "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The soda giant is entering the buzzy category and will compete with Olipop and PepsiCo-owned Poppi."
       }
      ]
     },
@@ -1666,7 +1676,7 @@
        "blurb": "Mesabi Metallics’ steel facility will be the largest in the U.S., creating 1,750 jobs and adding 10 million tons of annual production capacity. The company is also investing $3 billion to complete an iron ore mine in Minnesota."
       },
       {
-       "title": "Suspended glass bead entangled with light: Maybe a quantum memory?",
+       "title": "An experimental tour-de-force: Entanglement between glass bead and light",
        "url": "https://arstechnica.com/science/2026/10/suspended-glass-bead-entangled-with-light-maybe-a-quantum-memory/",
        "source": "Ars Technica",
        "published": "2026-10-08T18:45:23.000Z",
@@ -1724,7 +1734,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
       },
       {
        "title": "UAE-backed GlobalFoundries and TSMC announce $2bn manufacturing agreement",
@@ -1741,6 +1751,11 @@
         {
          "name": "The National (UAE)",
          "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
+         "primary": false
+        },
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
          "primary": false
         },
         {
@@ -2103,23 +2118,6 @@
        "blurb": "For organizations like the Savannah River Mission Completion (SRMC), a liquid waste contractor for the U.S. Department of Energy (DOE) Office of Environmental Management at the Savannah River Site (SRS) in Aiken, South Carolina, the summer season poses significant challenges for "
       },
       {
-       "title": "Megaprojects grab 1 in 4 nonresidential construction dollars",
-       "url": "https://www.constructiondive.com/news/megaprojects-grab-1-in-4-nonresidential-construction-dollars/832256/",
-       "source": "Construction Dive",
-       "published": "2026-10-06T18:56:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Construction Dive",
-         "url": "https://www.constructiondive.com/news/megaprojects-grab-1-in-4-nonresidential-construction-dollars/832256/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Construction appears strongest in areas connected to infrastructure, power, advanced manufacturing and data centers, economists say. Other segments, not so much."
-      },
-      {
        "title": "DOL to up minimum wage to $14 per hour for federal contractors",
        "url": "https://www.constructiondive.com/news/dol-to-up-minimum-wage-federal-contractors/832509/",
        "source": "Construction Dive",
@@ -2232,7 +2230,7 @@
        "title": "Manufacturing Growth Set to Lift US Industrial Natural Gas Demand",
        "url": "https://naturalgasintel.com/news/manufacturing-growth-set-to-lift-us-industrial-natural-gas-demand/",
        "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T15:53:16.000Z",
+       "published": "2026-10-08T15:53:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -2423,6 +2421,11 @@
         {
          "name": "POWER Magazine",
          "url": "https://www.powermag.com/google-deal-backs-890-mw-of-constellation-nuclear-uprates-at-11-pjm-reactors/",
+         "primary": false
+        },
+        {
+         "name": "Canary Media",
+         "url": "https://www.canarymedia.com/articles/nuclear/constellation-google-nuclear-uprates",
          "primary": false
         },
         {
@@ -4662,7 +4665,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
       },
       {
        "title": "UAE-backed GlobalFoundries and TSMC announce $2bn manufacturing agreement",
@@ -4679,6 +4682,11 @@
         {
          "name": "The National (UAE)",
          "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
+         "primary": false
+        },
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
          "primary": false
         },
         {
@@ -4779,7 +4787,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
       },
       {
        "title": "UAE-backed GlobalFoundries and TSMC announce $2bn manufacturing agreement",
@@ -4796,6 +4804,11 @@
         {
          "name": "The National (UAE)",
          "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
+         "primary": false
+        },
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
          "primary": false
         },
         {
@@ -5097,6 +5110,11 @@
          "primary": false
         },
         {
+         "name": "The Register",
+         "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
+         "primary": false
+        },
+        {
          "name": "DatacenterDynamics",
          "url": "https://www.datacenterdynamics.com/en/news/globalfoundries-signs-2bn-five-year-deal-with-tsmc-for-production-of-advanced-packaging-components/",
          "primary": false
@@ -5249,6 +5267,11 @@
          "primary": false
         },
         {
+         "name": "Canary Media",
+         "url": "https://www.canarymedia.com/articles/nuclear/constellation-google-nuclear-uprates",
+         "primary": false
+        },
+        {
          "name": "Power Engineering",
          "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
          "primary": false
@@ -5337,6 +5360,11 @@
          "primary": false
         },
         {
+         "name": "Canary Media",
+         "url": "https://www.canarymedia.com/articles/nuclear/constellation-google-nuclear-uprates",
+         "primary": false
+        },
+        {
          "name": "Power Engineering",
          "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
          "primary": false
@@ -5378,6 +5406,11 @@
          "primary": false
         },
         {
+         "name": "The Register",
+         "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
+         "primary": false
+        },
+        {
          "name": "DatacenterDynamics",
          "url": "https://www.datacenterdynamics.com/en/news/globalfoundries-signs-2bn-five-year-deal-with-tsmc-for-production-of-advanced-packaging-components/",
          "primary": false
@@ -5407,6 +5440,11 @@
         {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/samsung-forecasts-record-80b-quarterly-profit-as-ai-boom-boosts-memory-demand/4081967",
+         "primary": false
+        },
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933",
          "primary": false
         }
        ],
@@ -6084,7 +6122,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
       }
      ]
     }
@@ -6553,6 +6591,11 @@
         {
          "name": "The National (UAE)",
          "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
+         "primary": false
+        },
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
          "primary": false
         },
         {

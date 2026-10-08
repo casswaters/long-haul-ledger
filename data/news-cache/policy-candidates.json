@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T18:56:45.887Z",
+ "generatedAt": "2026-10-08T19:28:19.695Z",
  "sector": "policy",
  "maxAgeDays": 10,
  "places": {
@@ -10,6 +10,40 @@
     "government": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Protesters blame 'vulture funds' for Spain's housing crisis",
+       "url": "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss",
+       "source": "BBC News Business",
+       "published": "2026-10-08T19:10:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Hundreds have pitched their tents in central Madrid, while the Spanish prime minister has called a snap election."
+      },
+      {
+       "title": "Philippines ex-President Duterte fit to stand trial, ICC rules",
+       "url": "https://www.aljazeera.com/news/2026/10/8/philippines-ex-president-duterte-fit-to-stand-trial-icc-rules?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-08T19:06:08.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/8/philippines-ex-president-duterte-fit-to-stand-trial-icc-rules?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The former president is able to understand the charges and follow the proceedings, panel of experts find."
+      },
       {
        "title": "UAE and Saudi Arabia sign rail and energy agreement to boost trade and connectivity",
        "url": "https://www.thenationalnews.com/news/uae/2026/10/08/uae-and-saudi-arabia-sign-rail-and-energy-agreement-to-boost-cross-border-trade-and-connectivity/",
@@ -62,7 +96,7 @@
        "blurb": "The European Parliament backed proposals on Thursday to “counter the influence” of the Muslim Brotherhood and list some of its supporters as terrorists. The resolution passed by a vote of 381 to 167, and asks the EU's member states to add people and organisations linked to the Br"
       },
       {
-       "title": "UEFA details FIFA presidential candidate criteria in bid to oust Infantino",
+       "title": "FIFA President Infantino’s crisis: UEFA details new candidate criteria",
        "url": "https://www.aljazeera.com/sports/2026/10/8/uefa-details-fifa-presidential-candidate-criteria-in-bid-to-oust-infantino?traffic_source=rss",
        "source": "Al Jazeera",
        "published": "2026-10-08T16:53:25.000Z",
@@ -111,23 +145,6 @@
        "stages": [],
        "via": null,
        "blurb": "Discussions are continuing to postpone next month's highly anticipated Palestinian legislative elections , sources told The National on Thursday, with a decision expected in the coming days. The last election for the Palestinian Legislative Council was held in 2006 and won by Ham"
-      },
-      {
-       "title": "London voters go to polls for Holborn and St Pancras by-election",
-       "url": "https://www.aljazeera.com/news/2026/10/8/london-voters-go-to-polls-for-holborn-and-st-pancras-by-election?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-08T15:19:46.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/8/london-voters-go-to-polls-for-holborn-and-st-pancras-by-election?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The vote in London's Holborn and St Pancras parliamentary seat tests whether Burnham can restore faith in Labour."
       },
       {
        "title": "Spanish government to press on with tighter data centre rules before election",
@@ -196,46 +213,12 @@
        "stages": [],
        "via": null,
        "blurb": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance."
-      },
-      {
-       "title": "Climate needs same urgency as defense spending, COP31 chief says",
-       "url": "https://www.japantimes.co.jp/environment/2026/10/08/climate-change/cop-chief-climate-defense-spending/",
-       "source": "The Japan Times",
-       "published": "2026-10-08T10:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/environment/2026/10/08/climate-change/cop-chief-climate-defense-spending/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Turkish Environment Minister and COP31 President-designate Murat Kurum said every country must show the same responsibility and determination."
       }
      ]
     },
     "econpolicy": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Fuel tax pause offers bigger break to higher-income families: budget watchdog",
-       "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/fuel-tax-pause-offers-bigger-break-to-higher-income-families-budget-watchdog/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T19:21:23.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/fuel-tax-pause-offers-bigger-break-to-higher-income-families-budget-watchdog/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The parliamentary budget officer says Ottawa’s gas tax pause is offering a bigger break at the pumps to the households that earn the most."
-      },
       {
        "title": "Energy prices drive Irish consumer price inflation to highest level since January 2024",
        "url": "https://www.irishtimes.com/business/2026/10/08/energy-prices-drive-irish-consumer-price-inflation-to-highest-level-since-january-2024/",
@@ -327,23 +310,6 @@
        "blurb": "Molybdenum is on course for a sixth consecutive year of supply deficit in 2027, setting the stage for record prices as strong demand meets a limited pipeline of new production,... The post Moly heads for 6th straight deficit, record prices: BMO appeared first on The Northern Mine"
       },
       {
-       "title": "Budget 2027: youth mortgage guarantee stays, defence hits 2.15% of GDP, €1m for AI",
-       "url": "https://www.euronews.com/2026/10/08/budget-2027-youth-mortgage-guarantee-stays-defence-hits-215-of-gdp-1m-for-ai",
-       "source": "Euronews Business",
-       "published": "2026-10-08T13:18:50.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/08/budget-2027-youth-mortgage-guarantee-stays-defence-hits-215-of-gdp-1m-for-ai",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The government on Thursday submitted to parliament the draft 2027 state budget, projecting 2% growth and a surplus of 0.1% to 0.2% of GDP. Approval is assured, as PS plans to abstain in the initial vote."
-      },
-      {
        "title": "'Come all the way' back to EU, French finance minister tells UK",
        "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
        "source": "BBC News Business",
@@ -395,6 +361,23 @@
        "blurb": "LS&Co has raised its full-year profit outlook for FY26 after a 4% increase in Q3 revenues and a significant improvement in margins."
       },
       {
+       "title": "Uganda: Govt Attributes Fuel Prices to Global Costs, Taxes, Shilling Depreciation",
+       "url": "https://allafrica.com/stories/202610080142.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-08T09:03:27.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610080142.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Independent (Kampala)] Kampala, Uganda -- Government has attributed the rise in fuel pump prices to a combination of international petroleum prices, taxation, exchange-rate movements or depreciation of the Uganda Shilling, freight, insurance and other supply-chain costs."
+      },
+      {
        "title": "Wholesale, tariff refunds deliver for Levi’s in rough Q3",
        "url": "https://www.retaildive.com/news/levis-q3-wholesale-tariff-refunds-deliver/832468/",
        "source": "Retail Dive",
@@ -412,44 +395,44 @@
        "blurb": "The denim maker’s direct-to-consumer sales were unexpectedly weak, and profits and margins were propped up by the trade reimbursements."
       },
       {
-       "title": "Uganda: Govt Attributes Fuel Prices to Global Costs, Taxes, Shilling Depreciation",
-       "url": "https://allafrica.com/stories/202610080142.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T09:03:27.000Z",
+       "title": "CBP starts paying out IEEPA tariff refunds for finally liquidated entries",
+       "url": "https://www.supplychaindive.com/news/cbp-starts-paying-out-ieepa-tariff-refunds-for-finally-liquidated-entries/832411/",
+       "source": "Supply Chain Dive",
+       "published": "2026-10-08T14:42:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080142.html",
+         "name": "Supply Chain Dive",
+         "url": "https://www.supplychaindive.com/news/cbp-starts-paying-out-ieepa-tariff-refunds-for-finally-liquidated-entries/832411/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "[Independent (Kampala)] Kampala, Uganda -- Government has attributed the rise in fuel pump prices to a combination of international petroleum prices, taxation, exchange-rate movements or depreciation of the Uganda Shilling, freight, insurance and other supply-chain costs."
+       "blurb": "However, for now, the agency can only reimburse businesses that submitted a valid importer of record number by July 30."
+      },
+      {
+       "title": "Home heating oil surges 58% as energy bill hikes wipe out budget gains",
+       "url": "https://www.irishtimes.com/business/2026/10/08/home-heating-oil-prices-rise-almost-60/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-08T11:06:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/home-heating-oil-prices-rise-almost-60/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The cost of filling a 1,000 litre domestic oil tank has gone up €400 since June and July"
       }
      ]
     },
     "regulation": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Fuel tax pause offers bigger break to higher-income families: budget watchdog",
-       "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/fuel-tax-pause-offers-bigger-break-to-higher-income-families-budget-watchdog/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T19:21:23.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/fuel-tax-pause-offers-bigger-break-to-higher-income-families-budget-watchdog/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The parliamentary budget officer says Ottawa’s gas tax pause is offering a bigger break at the pumps to the households that earn the most."
-      },
       {
        "title": "Bahrain working to 'speed up' approval of Pak-GCC free trade pact, foreign minister says",
        "url": "https://www.dawn.com/news/2035648/bahrain-working-to-speed-up-approval-of-pak-gcc-free-trade-pact-foreign-minister-says",
@@ -636,6 +619,23 @@
        "stages": [],
        "via": null,
        "blurb": "WA's energy sector is sounding the alarm over a landmark High Court ruling that overseas emissions from a proposed NSW coal mine were required to be considered when approving the project."
+      },
+      {
+       "title": "‘Lawyers should be running to courts’ to stop coal approvals after landmark ruling, NSW MP says",
+       "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
+       "source": "The Guardian Energy",
+       "published": "2026-10-07T07:24:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "High court finding in favour of Hunter Valley community group sets precedent other environmentalists should follow, advocate says Get our new political email , free app or daily news podcast A landmark decision in Australia’s first climate change high court case has been describe"
       }
      ]
     },
@@ -657,11 +657,6 @@
         {
          "name": "The Guardian Business",
          "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
-         "primary": false
-        },
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/international/2026/10/08/wto-raises-merchandise-trade-growth-forecast-to-39-as-ai-boom-offsets-hit-from-middle-east/",
          "primary": false
         },
         {
@@ -727,21 +722,21 @@
        "blurb": "The UK should keep a diplomatic presence in Jerusalem at all costs to prevent Israeli claims to the disputed city, a former British diplomat has said. Sir Vincent Fean, who served as British Consul General in Jerusalem , said the UK’s historic presence in Jerusalem was critical t"
       },
       {
-       "title": "Open letter to the US administration: The G20 invitation to Putin should come with conditions",
-       "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T18:15:11.000Z",
+       "title": "US imposes fresh sanctions on Iran’s shadow fleet",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T21:19:13.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The Trump administration recently announced that it has invited Russian President Vladimir Putin to December's G20 summit in Miami. This invitation erodes the well-deserved isolation of Putin for his brutal and unprovoked invasion of Ukraine . Putin last appeared on U.S. soil for"
+       "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
       },
       {
        "title": "Colombian embassy to open in Jerusalem, Israeli FM says",
@@ -922,6 +917,23 @@
        "stages": [],
        "via": null,
        "blurb": "Stelco Holdings Inc. has started handing out layoff notices at its Hamilton, Ont., steel plant, the first in a wave of job cuts expected to unfold over three weeks as the company moves ahead with plans to lay off up to 500 workers."
+      },
+      {
+       "title": "Molson Coors taps chief supply chain officer for Americas",
+       "url": "https://www.supplychaindive.com/news/molson-coors-taps-chief-supply-chain-officer-for-americas/832441/",
+       "source": "Supply Chain Dive",
+       "published": "2026-10-08T19:19:33.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Supply Chain Dive",
+         "url": "https://www.supplychaindive.com/news/molson-coors-taps-chief-supply-chain-officer-for-americas/832441/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Matthew Hook will step into the role on Oct. 12 with a mandate of continuing to modernize operations and boost service levels."
       },
       {
        "title": "Berlin blocks COSCO takeover of German freight forwarder",
@@ -1107,23 +1119,6 @@
        "stages": [],
        "via": null,
        "blurb": "Family run private businesses helped power China’s economic miracle, but the next generation is finding it difficult to carry on the work of their parents Growing up, Ayu would watch his parents put together hand made leather shoes on the ground floor of their three storey home i"
-      },
-      {
-       "title": "Judge says Paramount and Warner must halt merger for at least two weeks",
-       "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T12:00:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Twelve States sued to block Paramount's pending buyout of Warner last week, alleging that such a combination would “extinguish competition” in Hollywood and lead to fewer choices for consumers"
       }
      ]
     },
@@ -1272,23 +1267,6 @@
        "blurb": "Extreme weather triggered by climate change is putting growing pressure on food security across Asia, home to many of the world’s major rice-producing countries. China alone produces nearly 30 percent of the world’s rice. Changing … The post Chinese NGOs bring participatory clima"
       },
       {
-       "title": "Engaging the African diaspora in the future of US-Africa philanthropy",
-       "url": "https://www.alliancemagazine.org/blog/engaging-the-african-diaspora-in-the-future-of-us-africa-philanthropy/",
-       "source": "Alliance magazine",
-       "published": "2026-10-08T13:00:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Alliance magazine",
-         "url": "https://www.alliancemagazine.org/blog/engaging-the-african-diaspora-in-the-future-of-us-africa-philanthropy/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "This year’s U.S.-Africa Futures Summit gave us a clear mandate to reimagine and dig deeper into our vision and priorities with US-Africa relations. It’s safe to say we left that gathering with more clarity and … The post Engaging the African diaspora in the future of US-Africa ph"
-      },
-      {
        "title": "Hygiene poverty at tipping point, charity warns",
        "url": "https://www.bbc.co.uk/news/articles/cmwyv502k441o?at_medium=RSS&at_campaign=rss",
        "source": "BBC News Business",
@@ -1304,6 +1282,23 @@
        "stages": [],
        "via": null,
        "blurb": "The BBC hears people \"you would not expect\" can no longer afford items to be clean and healthy."
+      },
+      {
+       "title": "Engaging the African diaspora in the future of US-Africa philanthropy",
+       "url": "https://www.alliancemagazine.org/blog/engaging-the-african-diaspora-in-the-future-of-us-africa-philanthropy/",
+       "source": "Alliance magazine",
+       "published": "2026-10-08T13:00:26.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Alliance magazine",
+         "url": "https://www.alliancemagazine.org/blog/engaging-the-african-diaspora-in-the-future-of-us-africa-philanthropy/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "This year’s U.S.-Africa Futures Summit gave us a clear mandate to reimagine and dig deeper into our vision and priorities with US-Africa relations. It’s safe to say we left that gathering with more clarity and … The post Engaging the African diaspora in the future of US-Africa ph"
       },
       {
        "title": "Asia urged to unlock ‘new mandate for philanthropy’ for wider systems change",
@@ -1398,45 +1393,6 @@
    "label": "Mexico",
    "level": "country",
    "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Future presidents and governors of Mexico now barred from holding 2 passports: Wednesday’s mañanera recapped",
-       "url": "https://mexiconewsdaily.com/politics/future-presidents-governors-mexico-barred-2-passports-wednesdays-mananera-recapped/",
-       "source": "Mexico News Daily",
-       "published": "2026-10-07T17:24:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mexico News Daily",
-         "url": "https://mexiconewsdaily.com/politics/future-presidents-governors-mexico-barred-2-passports-wednesdays-mananera-recapped/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "President Claudia Sheinbaum signed a decree on Wednesday morning that will ensure that candidates contesting future presidential elections in Mexico have only Mexican nationality. Later in her presser, Energy Minister Luz Elena González gave an update on the government's electric"
-      },
-      {
-       "title": "Environment minister: ‘The conditions for proceeding with fracking do not exist’",
-       "url": "https://mexiconewsdaily.com/news/environment-minister-the-conditions-for-proceeding-with-fracking-do-not-exist/",
-       "source": "Mexico News Daily",
-       "published": "2026-10-07T18:28:13.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mexico News Daily",
-         "url": "https://mexiconewsdaily.com/news/environment-minister-the-conditions-for-proceeding-with-fracking-do-not-exist/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Minister Bárcena spoke before Mexico's Chamber of Deputies on Tuesday evening about the government's ongoing feasibility study of fracking, which could potentially be carried out in the Sabinas-Burro-Picachos basin. However, the country's current environmental regulations hinder "
-      }
-     ]
-    },
     "econpolicy": {
      "brief": "missing",
      "candidates": [
@@ -1484,6 +1440,23 @@
        "stages": [],
        "via": null,
        "blurb": "President Donald Trump on Thursday said the US would not attack Iran before the midterm elections and that Washington was engaged in “productive discussions” with Tehran. In a post on Truth Social, Mr Trump said Iran was in a “very bad condition” economically and militarily and t"
+      },
+      {
+       "title": "Maine’s Next Governor Will Walk a Tightrope Between Energy Affordability and Climate Action",
+       "url": "https://insideclimatenews.org/news/07102026/maines-next-governor-will-walk-a-tightrope-between-energy-affordability-and-climate-action/",
+       "source": "Inside Climate News",
+       "published": "2026-10-07T15:43:41.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Inside Climate News",
+         "url": "https://insideclimatenews.org/news/07102026/maines-next-governor-will-walk-a-tightrope-between-energy-affordability-and-climate-action/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "As Mainers prepare to choose a new governor in November, climate and energy issues may not be top of mind for every voter—but they are having big effects on residents’ lives. The average cost of heating oil recently soared to a record high of more than $6 per gallon, promising an"
       },
       {
        "title": "NIST Joins White House Effort to Drive ‘A New Golden Age of Science’",
@@ -1605,23 +1578,6 @@
        "blurb": "US President Donald Trump discussed AI development with dozens of tech bosses at the White House on Tuesday. Ahead of his \"super intelligence\" luncheon, Trump launched a new AI-powered website for government services, vowing not to stifle the technology's growth. He also said he "
       },
       {
-       "title": "Senate permitting bill could greatly expand power lines and clean energy",
-       "url": "https://www.canarymedia.com/articles/transmission/senate-permitting-bill-power-lines",
-       "source": "Canary Media",
-       "published": "2026-09-30T22:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Canary Media",
-         "url": "https://www.canarymedia.com/articles/transmission/senate-permitting-bill-power-lines",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The U.S. Senate energy permitting bill unveiled Wednesday could streamline the buildout of high-voltage power lines across the country, potentially delivering billions of dollars in electricity cost savings and dramatically improving the power system’s reliability over the coming"
-      },
-      {
        "title": "Coalition for the Common Good tells accreditor it has authority over Antioch",
        "url": "https://www.highereddive.com/news/coalition-for-the-common-good-tells-accreditor-it-has-authority-over-antioc/832323/",
        "source": "Higher Ed Dive",
@@ -1712,40 +1668,6 @@
        "blurb": "However, for now, the agency can only reimburse businesses that submitted a valid importer of record number by July 30."
       },
       {
-       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
-       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-       "source": "The Loadstar",
-       "published": "2026-10-07T12:40:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Loadstar",
-         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
-      },
-      {
-       "title": "Beyond tariffs: The US–Turkey trade relationship needs a bigger bargain",
-       "url": "https://www.atlanticcouncil.org/blogs/turkeysource/beyond-tariffs-the-us-turkey-trade-relationship-needs-a-bigger-bargain/",
-       "source": "Atlantic Council",
-       "published": "2026-10-06T19:26:11.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Atlantic Council",
-         "url": "https://www.atlanticcouncil.org/blogs/turkeysource/beyond-tariffs-the-us-turkey-trade-relationship-needs-a-bigger-bargain/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "To reach their longstanding $100 billion trade ambition, the United States and Turkey should look beyond tariffs toward a broader economic bargain. The post Beyond tariffs: The US–Turkey trade relationship needs a bigger bargain appeared first on Atlantic Council ."
-      },
-      {
        "title": "Foreign sugar subsidies cost US farmers billions, study finds",
        "url": "https://www.farmprogress.com/tv-and-radio/foreign-sugar-subsidies-cost-us-farmers-billions-study-finds",
        "source": "Farm Progress",
@@ -1795,6 +1717,23 @@
        "stages": [],
        "via": null,
        "blurb": "Despite the increase, the rate remains below Biden-era levels, which hit $15 per hour."
+      },
+      {
+       "title": "Housing finance agency chief moves to slash watchdog’s budget, leading Democrats to demand his resignation",
+       "url": "https://www.govexec.com/oversight/2026/10/housing-finance-agency-chief-moves-slash-watchdogs-budget-leading-democrats-demand-his-resignation/416397/",
+       "source": "Government Executive",
+       "published": "2026-10-02T19:06:58.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Government Executive",
+         "url": "https://www.govexec.com/oversight/2026/10/housing-finance-agency-chief-moves-slash-watchdogs-budget-leading-democrats-demand-his-resignation/416397/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Federal Housing Finance Agency inspector general said that budget cuts would force the office to reduce its staffing by up to 80% and effectively stop criminal investigations."
       },
       {
        "title": "The grueling fight to pass the Inflation Reduction Act",
@@ -1851,23 +1790,6 @@
        "stages": [],
        "via": null,
        "blurb": "The Virginia State Corporation Commission approved fuel cost securitization for the second time since 2023, adding additional interest costs for customers."
-      },
-      {
-       "title": "US supreme court hears big oil’s bid to block climate damage lawsuits",
-       "url": "https://www.theguardian.com/us-news/2026/oct/05/supreme-court-big-oil-climate-damage-lawsuits",
-       "source": "The Guardian Energy",
-       "published": "2026-10-05T19:57:36.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/us-news/2026/oct/05/supreme-court-big-oil-climate-damage-lawsuits",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "How the court will lean is unclear amid Suncor Energy and ExxonMobil’s attempt to stop lawsuits at state level The US supreme court began its new nine-month term hearing arguments on Monday in a major case in which big oil companies attempted to strike a fatal blow against lawsui"
       },
       {
        "title": "Tennessee Valley Authority Gets Approval to Build Small Nuclear Reactor",
@@ -1943,6 +1865,23 @@
        "blurb": "Nature, Published online: 08 October 2026; doi:10.1038/d41586-026-03154-4 The device will be launched on a joint UAE-US-built craft. Some researchers say it could be the last mission constructed with outside help."
       },
       {
+       "title": "Housing finance agency chief moves to slash watchdog’s budget, leading Democrats to demand his resignation",
+       "url": "https://www.govexec.com/oversight/2026/10/housing-finance-agency-chief-moves-slash-watchdogs-budget-leading-democrats-demand-his-resignation/416397/",
+       "source": "Government Executive",
+       "published": "2026-10-02T19:06:58.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Government Executive",
+         "url": "https://www.govexec.com/oversight/2026/10/housing-finance-agency-chief-moves-slash-watchdogs-budget-leading-democrats-demand-his-resignation/416397/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Federal Housing Finance Agency inspector general said that budget cuts would force the office to reduce its staffing by up to 80% and effectively stop criminal investigations."
+      },
+      {
        "title": "GAO report looks at NRC workforce recruitment and retention",
        "url": "https://www.ans.org/news/2026-10-05/article-8460/gao-report-looks-at-nrc-workforce-recruitment-and-retention/",
        "source": "ANS Nuclear Newswire",
@@ -1982,21 +1921,21 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Open letter to the US administration: The G20 invitation to Putin should come with conditions",
-       "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T18:15:11.000Z",
+       "title": "US imposes fresh sanctions on Iran’s shadow fleet",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T21:19:13.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The Trump administration recently announced that it has invited Russian President Vladimir Putin to December's G20 summit in Miami. This invitation erodes the well-deserved isolation of Putin for his brutal and unprovoked invasion of Ukraine . Putin last appeared on U.S. soil for"
+       "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
       },
       {
        "title": "UN Security Council extends arms embargo in Sudan's Darfur as US pushes for nationwide ban",
@@ -2123,6 +2062,23 @@
        "blurb": "“We are disappointed by the lieutenant governor’s decision and respectfully disagree with it,” Neil Nissan, a spokesperson for NextEra Energy, told Utility Dive. State regulators are set to hold their first local hearing on the case Wednesday."
       },
       {
+       "title": "Molson Coors taps chief supply chain officer for Americas",
+       "url": "https://www.supplychaindive.com/news/molson-coors-taps-chief-supply-chain-officer-for-americas/832441/",
+       "source": "Supply Chain Dive",
+       "published": "2026-10-08T19:19:33.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Supply Chain Dive",
+         "url": "https://www.supplychaindive.com/news/molson-coors-taps-chief-supply-chain-officer-for-americas/832441/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Matthew Hook will step into the role on Oct. 12 with a mandate of continuing to modernize operations and boost service levels."
+      },
+      {
        "title": "Leo Pareja named CEO of AGNT, Glenn Sanford steps down",
        "url": "https://www.housingwire.com/articles/agnt-leo-pareja-ceo/",
        "source": "HousingWire",
@@ -2160,23 +2116,6 @@
        "stages": [],
        "via": null,
        "blurb": "US midstream operator ONEOK has completed its previously announced acquisition of Brazos Midstream’s natural gas gathering and processing assets in the Permian Midland Basin for approximately $4.425bn in cash."
-      },
-      {
-       "title": "ESRT Faces New Activist Investor Following Stake Acquisition",
-       "url": "https://commercialobserver.com/2026/10/esrt-erez-asset-management-stake-acquisition/",
-       "source": "Commercial Observer",
-       "published": "2026-10-07T17:52:50.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Commercial Observer",
-         "url": "https://commercialobserver.com/2026/10/esrt-erez-asset-management-stake-acquisition/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "An activist shareholder has arrived at Empire State Building Trust (ESRT). Erez Asset Management, a New Rochelle, N.Y.-based activist investment firm and hedge fund manager, has disclosed its acquisition of 10 million shares, or a 5.8 percent stake, in ESRT, Bisnow first reported"
       },
       {
        "title": "Matador outlines drilling plans with Paloma acquisition now closed",
@@ -2437,23 +2376,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "London voters go to polls for Holborn and St Pancras by-election",
-       "url": "https://www.aljazeera.com/news/2026/10/8/london-voters-go-to-polls-for-holborn-and-st-pancras-by-election?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-08T15:19:46.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/8/london-voters-go-to-polls-for-holborn-and-st-pancras-by-election?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The vote in London's Holborn and St Pancras parliamentary seat tests whether Burnham can restore faith in Labour."
-      },
-      {
        "title": "'Come all the way' back to EU, French finance minister tells UK",
        "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
        "source": "BBC News Business",
@@ -2637,6 +2559,23 @@
        "stages": [],
        "via": null,
        "blurb": "Regulator also vetoes extra Blackpool service, citing lack of space on west coast mainline for new trains to capital Business live – latest updates Plans to run direct train services to Wrexham and Rochdale from London have been rejected by the rail regulator because of “signific"
+      },
+      {
+       "title": "AI giants promise to play nice with personal data after UK watchdog scrutiny",
+       "url": "https://www.theregister.com/ai-and-ml/2026/10/08/ai-giants-promise-to-play-nice-with-personal-data-after-uk-watchdog-scrutiny/5301966",
+       "source": "The Register",
+       "published": "2026-10-08T12:35:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/ai-and-ml/2026/10/08/ai-giants-promise-to-play-nice-with-personal-data-after-uk-watchdog-scrutiny/5301966",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Amazon, Google, Microsoft, OpenAI and six others agree to changes, but the ICO isn't done asking questions"
       },
       {
        "title": "Deloitte fined £6M by FRC over go-ahead group auditing",
@@ -3170,23 +3109,6 @@
        "blurb": "Independent Planning Commission says climate change impacts from Hunter Valley project will be ‘outweighed’ by economic benefits Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast The New South Wales independent pla"
       },
       {
-       "title": "'Enough is enough': Alan Jones emails to schoolboy read in court",
-       "url": "https://www.abc.net.au/news/2026-10-08/nsw-alan-jones-accuser-denies-deceiving-broadcaster/107237644",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T01:49:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/nsw-alan-jones-accuser-denies-deceiving-broadcaster/107237644",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A court is read extensive correspondences Alan Jones had with a schoolboy boy after he asked for help with his family's financial struggles."
-      },
-      {
        "title": "Hunter Valley community group wins landmark high court climate change case over Mount Pleasant coalmine",
        "url": "https://www.theguardian.com/environment/2026/oct/07/mount-pleasant-coalmine-case-high-court-climate-change-hunter-valley",
        "source": "The Guardian Energy",
@@ -3274,46 +3196,12 @@
        "stages": [],
        "via": null,
        "blurb": "Canada's budget watchdog says the NATO 5% pledge means US$112 billion of core defence spending in 2035-36, with US$44 billion added to the deficit. The post Canada’s NATO Path Needs US$112 Billion by 2035 appeared first on The Rio Times ."
-      },
-      {
-       "title": "Fuel tax pause offers bigger break to higher-income families: budget watchdog",
-       "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/fuel-tax-pause-offers-bigger-break-to-higher-income-families-budget-watchdog/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T19:21:23.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/fuel-tax-pause-offers-bigger-break-to-higher-income-families-budget-watchdog/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The parliamentary budget officer says Ottawa’s gas tax pause is offering a bigger break at the pumps to the households that earn the most."
       }
      ]
     },
     "regulation": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Fuel tax pause offers bigger break to higher-income families: budget watchdog",
-       "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/fuel-tax-pause-offers-bigger-break-to-higher-income-families-budget-watchdog/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T19:21:23.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/fuel-tax-pause-offers-bigger-break-to-higher-income-families-budget-watchdog/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The parliamentary budget officer says Ottawa’s gas tax pause is offering a bigger break at the pumps to the households that earn the most."
-      },
       {
        "title": "Canadian fined CAD 30k for violations of prawn-fishing permit conditions",
        "url": "https://www.undercurrentnews.com/2026/10/08/canadian-fined-cad-30k-for-violations-of-prawn-fishing-permit-conditions/",
@@ -3509,33 +3397,6 @@
        "blurb": "Roland Lescure tells the BBC that being in the bloc enables members to better address the challenges facing the world."
       },
       {
-       "title": "Record bets against the euro: how low could it fall amid France's fiscal crisis and Europe's energy shock?",
-       "url": "https://www.euronews.com/2026/10/07/record-bets-against-the-euro-how-low-could-it-fall-amid-frances-fiscal-crisis-and-europes-",
-       "source": "Euronews Business",
-       "published": "2026-10-07T04:49:29.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "DW Business",
-         "url": "https://www.dw.com/en/euro-plummets-against-us-dollar-has-the-next-financial-crisis-begun/a-79549031?maca=en-rss-en-bus-2091-rdf",
-         "primary": false
-        },
-        {
-         "name": "France 24 Business",
-         "url": "https://www.france24.com/en/tv-shows/business/20261005-euro-falls-to-17-month-low-against-the-usd-on-french-debt-concerns",
-         "primary": false
-        },
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/07/record-bets-against-the-euro-how-low-could-it-fall-amid-frances-fiscal-crisis-and-europes-",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The euro hit a 17-month low as French debt fears and Europe's energy shock weigh on the currency. Bond market stress could limit further ECB rate hikes, while analysts see scope for the euro to fall to $1.10 if the pressure intensifies."
-      },
-      {
        "title": "'Potemkin budget’: French government slams Marine Le Pen’s plans",
        "url": "https://www.euronews.com/2026/10/07/france-government-slams-marine-le-pens-alternative-budget",
        "source": "Euronews Business",
@@ -3728,28 +3589,6 @@
       }
      ]
     },
-    "econpolicy": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Beyond tariffs: The US–Turkey trade relationship needs a bigger bargain",
-       "url": "https://www.atlanticcouncil.org/blogs/turkeysource/beyond-tariffs-the-us-turkey-trade-relationship-needs-a-bigger-bargain/",
-       "source": "Atlantic Council",
-       "published": "2026-10-06T19:26:11.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Atlantic Council",
-         "url": "https://www.atlanticcouncil.org/blogs/turkeysource/beyond-tariffs-the-us-turkey-trade-relationship-needs-a-bigger-bargain/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "To reach their longstanding $100 billion trade ambition, the United States and Turkey should look beyond tariffs toward a broader economic bargain. The post Beyond tariffs: The US–Turkey trade relationship needs a bigger bargain appeared first on Atlantic Council ."
-      }
-     ]
-    },
     "international": {
      "brief": "missing",
      "candidates": [
@@ -3786,6 +3625,234 @@
        "stages": [],
        "via": null,
        "blurb": "Global campaign group 350.org urges Cop31 hosts to announce a coal phase-out date and national roadmaps to get off fossil fuels Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here The hosts of the next major United Nations climate conference, T"
+      }
+     ]
+    }
+   }
+  },
+  "ir": {
+   "label": "Iran",
+   "level": "country",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Trump rules out attack on Iran before midterm elections",
+       "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
+       "source": "The National (UAE)",
+       "published": "2026-10-08T17:37:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "President Donald Trump on Thursday said the US would not attack Iran before the midterm elections and that Washington was engaged in “productive discussions” with Tehran. In a post on Truth Social, Mr Trump said Iran was in a “very bad condition” economically and militarily and t"
+      }
+     ]
+    },
+    "econpolicy": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "India hikes interest rates for first time in over three years as Iran war fuels inflation",
+       "url": "https://www.euronews.com/2026/10/07/india-hikes-interest-rates-for-first-time-in-over-three-years-as-iran-war-fuels-inflation",
+       "source": "Euronews Business",
+       "published": "2026-10-07T07:27:44.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/07/india-hikes-interest-rates-for-first-time-in-over-three-years-as-iran-war-fuels-inflation",
+         "primary": false
+        },
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Industry/air-india-akasa-hike-fuel-surcharge-as-costs-climb/article71560439.ece",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Reserve Bank of India raised borrowing costs for the first time in over three years on Wednesday, as the Middle East war pushes up prices in Asia's third-biggest economy and weighs on an already fragile rupee."
+      },
+      {
+       "title": "Global trade weathers Iran, Ukraine and Trump's tariffs",
+       "url": "https://www.dw.com/en/global-trade-weathers-iran-ukraine-and-trump-s-tariffs/a-79352643?maca=en-rss-en-bus-2091-rdf",
+       "source": "DW Business",
+       "published": "2026-09-29T10:35:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DW Business",
+         "url": "https://www.dw.com/en/global-trade-weathers-iran-ukraine-and-trump-s-tariffs/a-79352643?maca=en-rss-en-bus-2091-rdf",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Over the past six years, COVID, two wars and Donald Trump's tariffs have shaken world trade. With globalization already stalling, is this a temporary shock or the start of a great reversal?"
+      },
+      {
+       "title": "IMF chief signals austerity is back as global public debt heads for 100% of GDP",
+       "url": "https://www.euronews.com/2026/10/07/imf-chief-signals-austerity-is-back-as-global-public-debt-heads-for-100-of-gdp",
+       "source": "Euronews Business",
+       "published": "2026-10-07T08:14:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/07/imf-chief-signals-austerity-is-back-as-global-public-debt-heads-for-100-of-gdp",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "IMF chief Kristalina Georgieva has urged heavily indebted governments to tighten their belts and central banks to take a hawkish stance, signalling a return to austerity as the energy shock from the Iran war, record public debt and a credit-fuelled AI investment boom weigh on the"
+      }
+     ]
+    },
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "US imposes fresh sanctions on Iran’s shadow fleet",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T21:19:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
+      },
+      {
+       "title": "EU and GCC to strengthen relations at leaders' summit in Riyadh",
+       "url": "https://www.thenationalnews.com/news/europe/2026/10/08/eu-and-gcc-to-strengthen-relations-at-leaders-summit-in-riyadh/",
+       "source": "The National (UAE)",
+       "published": "2026-10-08T13:23:36.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/europe/2026/10/08/eu-and-gcc-to-strengthen-relations-at-leaders-summit-in-riyadh/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The European Union hopes to deepen security and energy relations with Gulf countries at the second leaders' summit in Riyadh next month. Since the start of the Iran war on February 28, Europe has cast itself as a solid ally to the Gulf , despite being unable to match superior US "
+      }
+     ]
+    }
+   }
+  },
+  "ir-th": {
+   "label": "Tehran",
+   "level": "admin1",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Trump rules out attack on Iran before midterm elections",
+       "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
+       "source": "The National (UAE)",
+       "published": "2026-10-08T17:37:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "President Donald Trump on Thursday said the US would not attack Iran before the midterm elections and that Washington was engaged in “productive discussions” with Tehran. In a post on Truth Social, Mr Trump said Iran was in a “very bad condition” economically and militarily and t"
+      }
+     ]
+    },
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "US imposes fresh sanctions on Iran’s shadow fleet",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T21:19:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
+      }
+     ]
+    }
+   }
+  },
+  "ir-city-tehran": {
+   "label": "Tehran",
+   "level": "city",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Trump rules out attack on Iran before midterm elections",
+       "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
+       "source": "The National (UAE)",
+       "published": "2026-10-08T17:37:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "President Donald Trump on Thursday said the US would not attack Iran before the midterm elections and that Washington was engaged in “productive discussions” with Tehran. In a post on Truth Social, Mr Trump said Iran was in a “very bad condition” economically and militarily and t"
+      }
+     ]
+    },
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "US imposes fresh sanctions on Iran’s shadow fleet",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T21:19:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
       }
      ]
     }
@@ -3836,23 +3903,6 @@
        "stages": [],
        "via": null,
        "blurb": "In an interview with RFI, Russian opposition figure Vladimir Kara-Murza has accused France of sending a “very dangerous” signal that the West is ready to return to “business as usual” with Vladimir Putin, after the French government pushed for European Union sanctions against Rus"
-      },
-      {
-       "title": "Open letter to the US administration: The G20 invitation to Putin should come with conditions",
-       "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T18:15:11.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Trump administration recently announced that it has invited Russian President Vladimir Putin to December's G20 summit in Miami. This invitation erodes the well-deserved isolation of Putin for his brutal and unprovoked invasion of Ukraine . Putin last appeared on U.S. soil for"
       },
       {
        "title": "U.K. Expands Sanctions to Cover 90% of Russian Oil Output, Shadow Fleet and Finance Networks",
@@ -4011,23 +4061,6 @@
     "international": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Open letter to the US administration: The G20 invitation to Putin should come with conditions",
-       "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T18:15:11.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Trump administration recently announced that it has invited Russian President Vladimir Putin to December's G20 summit in Miami. This invitation erodes the well-deserved isolation of Putin for his brutal and unprovoked invasion of Ukraine . Putin last appeared on U.S. soil for"
-      },
       {
        "title": "Ukrainian refugees raised Poland’s GDP by 2.4% in 2025, finds UN study",
        "url": "https://notesfrompoland.com/2026/10/08/ukrainian-refugees-raised-polands-gdp-by-2-4-in-2025-finds-un-study/",
@@ -4390,10 +4423,172 @@
     }
    }
   },
+  "ng": {
+   "label": "Nigeria",
+   "level": "country",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ethiopia: Nigeria, Ethiopia Move to Deepen Ties in Trade, Agriculture, Security",
+       "url": "https://allafrica.com/stories/202610080122.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-08T07:39:44.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610080122.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Leadership] Nigeria and Ethiopia have moved to deepen bilateral cooperation in trade, investment, agriculture, food security, aviation, and security, with Vice President Kashim Shettima and Ethiopia's Deputy Prime Minister, Mr Temesgen Tiruneh, reviewing relations between the tw"
+      },
+      {
+       "title": "Leadership and storytelling in election season, By Azu Ishiekwene",
+       "url": "https://www.premiumtimesng.com/opinion/915527-leadership-and-storytelling-in-election-season-by-azu-ishiekwene.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-08T18:56:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/opinion/915527-leadership-and-storytelling-in-election-season-by-azu-ishiekwene.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "On the economy, we tell the story of renewal and hard times. As elections draw near, we hear official accounts of macroeconomic progress. But the story must connect today’s pain with tomorrow’s promise. When people ask the government what it has done with savings from the removal"
+      },
+      {
+       "title": "Nigeria: NAF Plane Crash - Huriwa Dismisses Presidential Investigation",
+       "url": "https://allafrica.com/stories/202610080435.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-08T12:56:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610080435.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Leadership] A civil rights advocacy group, Human Rights Writers Association of Nigeria (HURIWA), has dismissed President Bola Ahmed Tinubu's order of investigation of the crash of NAF 931 plane in Igbokoda area of Ondo State."
+      }
+     ]
+    },
+    "econpolicy": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Campaign council defends Obi over fuel subsidy U-turn",
+       "url": "https://www.premiumtimesng.com/news/top-news/915482-campaign-council-defends-obi-over-fuel-subsidy-u-turn.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-08T15:55:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/news/top-news/915482-campaign-council-defends-obi-over-fuel-subsidy-u-turn.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Mr Obi also explained how he intended to tackle corruption, arguing that the conduct of the president and members of his immediate family would be central to his anti-corruption strategy. The post Campaign council defends Obi over fuel subsidy U-turn appeared first on Premium Tim"
+      }
+     ]
+    },
+    "regulation": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Nigeria: Minna Miners' Deaths - Probe Panel Cites Institutional Breakdown, Training Gaps",
+       "url": "https://allafrica.com/stories/202610080125.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-08T07:39:46.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610080125.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Premium Times] Federal panel investigating the deaths of 37 persons in NSCDC custody says institutional gaps, overzealousness, and inadequate training may have contributed to the incident."
+      },
+      {
+       "title": "Military Plane Crash: Air Chief sets up probe panel, assures adequate support for bereaved families",
+       "url": "https://www.premiumtimesng.com/regional/ssouth-west/915520-military-plane-crash-air-chief-sets-up-probe-panel-assures-adequate-support-for-bereaved-families.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-08T17:59:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/regional/ssouth-west/915520-military-plane-crash-air-chief-sets-up-probe-panel-assures-adequate-support-for-bereaved-families.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The air chief said he knew everyone on the ill-fated plane, having flown it alongside his family in the past. The post Military Plane Crash: Air Chief sets up probe panel, assures adequate support for bereaved families appeared first on Premium Times Nigeria ."
+      },
+      {
+       "title": "Nigeria: NAF Plane Crash - Huriwa Dismisses Presidential Investigation",
+       "url": "https://allafrica.com/stories/202610080435.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-08T12:56:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610080435.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Leadership] A civil rights advocacy group, Human Rights Writers Association of Nigeria (HURIWA), has dismissed President Bola Ahmed Tinubu's order of investigation of the crash of NAF 931 plane in Igbokoda area of Ondo State."
+      }
+     ]
+    }
+   }
+  },
   "ph": {
    "label": "Philippines",
    "level": "country",
    "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Philippines ex-President Duterte fit to stand trial, ICC rules",
+       "url": "https://www.aljazeera.com/news/2026/10/8/philippines-ex-president-duterte-fit-to-stand-trial-icc-rules?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-08T19:06:08.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/8/philippines-ex-president-duterte-fit-to-stand-trial-icc-rules?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The former president is able to understand the charges and follow the proceedings, panel of experts find."
+      }
+     ]
+    },
     "econpolicy": {
      "brief": "missing",
      "candidates": [
@@ -4934,32 +5129,38 @@
     }
    }
   },
-  "gb-we": {
-   "label": "Westminster",
+  "us-me": {
+   "label": "Maine",
    "level": "admin1",
    "sources": {
     "government": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "London voters go to polls for Holborn and St Pancras by-election",
-       "url": "https://www.aljazeera.com/news/2026/10/8/london-voters-go-to-polls-for-holborn-and-st-pancras-by-election?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-08T15:19:46.000Z",
+       "title": "Maine’s Next Governor Will Walk a Tightrope Between Energy Affordability and Climate Action",
+       "url": "https://insideclimatenews.org/news/07102026/maines-next-governor-will-walk-a-tightrope-between-energy-affordability-and-climate-action/",
+       "source": "Inside Climate News",
+       "published": "2026-10-07T15:43:41.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/8/london-voters-go-to-polls-for-holborn-and-st-pancras-by-election?traffic_source=rss",
+         "name": "Inside Climate News",
+         "url": "https://insideclimatenews.org/news/07102026/maines-next-governor-will-walk-a-tightrope-between-energy-affordability-and-climate-action/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The vote in London's Holborn and St Pancras parliamentary seat tests whether Burnham can restore faith in Labour."
+       "blurb": "As Mainers prepare to choose a new governor in November, climate and energy issues may not be top of mind for every voter—but they are having big effects on residents’ lives. The average cost of heating oil recently soared to a record high of more than $6 per gallon, promising an"
       }
      ]
-    },
+    }
+   }
+  },
+  "gb-we": {
+   "label": "Westminster",
+   "level": "admin1",
+   "sources": {
     "econpolicy": {
      "brief": "missing",
      "candidates": [
@@ -5055,28 +5256,6 @@
    "label": "London",
    "level": "city",
    "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "London voters go to polls for Holborn and St Pancras by-election",
-       "url": "https://www.aljazeera.com/news/2026/10/8/london-voters-go-to-polls-for-holborn-and-st-pancras-by-election?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-08T15:19:46.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/8/london-voters-go-to-polls-for-holborn-and-st-pancras-by-election?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The vote in London's Holborn and St Pancras parliamentary seat tests whether Burnham can restore faith in Labour."
-      }
-     ]
-    },
     "econpolicy": {
      "brief": "missing",
      "candidates": [
@@ -5236,117 +5415,6 @@
        "stages": [],
        "via": null,
        "blurb": "The federal government says the High Court decision is constrained to New South Wales but the industry in Queensland isn't so sure there won't be ramifications."
-      }
-     ]
-    }
-   }
-  },
-  "ir": {
-   "label": "Iran",
-   "level": "country",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Trump rules out attack on Iran before midterm elections",
-       "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T17:37:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "President Donald Trump on Thursday said the US would not attack Iran before the midterm elections and that Washington was engaged in “productive discussions” with Tehran. In a post on Truth Social, Mr Trump said Iran was in a “very bad condition” economically and militarily and t"
-      }
-     ]
-    },
-    "econpolicy": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "India hikes interest rates for first time in over three years as Iran war fuels inflation",
-       "url": "https://www.euronews.com/2026/10/07/india-hikes-interest-rates-for-first-time-in-over-three-years-as-iran-war-fuels-inflation",
-       "source": "Euronews Business",
-       "published": "2026-10-07T07:27:44.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/07/india-hikes-interest-rates-for-first-time-in-over-three-years-as-iran-war-fuels-inflation",
-         "primary": false
-        },
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/air-india-akasa-hike-fuel-surcharge-as-costs-climb/article71560439.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Reserve Bank of India raised borrowing costs for the first time in over three years on Wednesday, as the Middle East war pushes up prices in Asia's third-biggest economy and weighs on an already fragile rupee."
-      },
-      {
-       "title": "Global trade weathers Iran, Ukraine and Trump's tariffs",
-       "url": "https://www.dw.com/en/global-trade-weathers-iran-ukraine-and-trump-s-tariffs/a-79352643?maca=en-rss-en-bus-2091-rdf",
-       "source": "DW Business",
-       "published": "2026-09-29T10:35:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DW Business",
-         "url": "https://www.dw.com/en/global-trade-weathers-iran-ukraine-and-trump-s-tariffs/a-79352643?maca=en-rss-en-bus-2091-rdf",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Over the past six years, COVID, two wars and Donald Trump's tariffs have shaken world trade. With globalization already stalling, is this a temporary shock or the start of a great reversal?"
-      },
-      {
-       "title": "IMF chief signals austerity is back as global public debt heads for 100% of GDP",
-       "url": "https://www.euronews.com/2026/10/07/imf-chief-signals-austerity-is-back-as-global-public-debt-heads-for-100-of-gdp",
-       "source": "Euronews Business",
-       "published": "2026-10-07T08:14:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/07/imf-chief-signals-austerity-is-back-as-global-public-debt-heads-for-100-of-gdp",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "IMF chief Kristalina Georgieva has urged heavily indebted governments to tighten their belts and central banks to take a hawkish stance, signalling a return to austerity as the energy shock from the Iran war, record public debt and a credit-fuelled AI investment boom weigh on the"
-      }
-     ]
-    },
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "EU and GCC to strengthen relations at leaders' summit in Riyadh",
-       "url": "https://www.thenationalnews.com/news/europe/2026/10/08/eu-and-gcc-to-strengthen-relations-at-leaders-summit-in-riyadh/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T13:23:36.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/europe/2026/10/08/eu-and-gcc-to-strengthen-relations-at-leaders-summit-in-riyadh/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The European Union hopes to deepen security and energy relations with Gulf countries at the second leaders' summit in Riyadh next month. Since the start of the Iran war on February 28, Europe has cast itself as a solid ally to the Gulf , despite being unable to match superior US "
       }
      ]
     }
@@ -5591,101 +5659,124 @@
     }
    }
   },
-  "ca-on": {
-   "label": "Ontario",
-   "level": "admin1",
+  "es": {
+   "label": "Spain",
+   "level": "country",
    "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Protesters blame 'vulture funds' for Spain's housing crisis",
+       "url": "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss",
+       "source": "BBC News Business",
+       "published": "2026-10-08T19:10:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Hundreds have pitched their tents in central Madrid, while the Spanish prime minister has called a snap election."
+      },
+      {
+       "title": "Spanish government to press on with tighter data centre rules before election",
+       "url": "https://www.channelnewsasia.com/business/spanish-government-press-tighter-data-centre-rules-election-6443271",
+       "source": "CNA Business",
+       "published": "2026-10-08T14:37:15.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/spanish-government-press-tighter-data-centre-rules-election-6443271",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      }
+     ]
+    },
     "econpolicy": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Fuel tax pause offers bigger break to higher-income families: budget watchdog",
-       "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/fuel-tax-pause-offers-bigger-break-to-higher-income-families-budget-watchdog/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T19:21:23.000Z",
+       "title": "Taxes account for over 53% of labour costs in Spain, study finds",
+       "url": "https://www.euronews.com/2026/10/08/taxes-account-for-over-53-of-labour-costs-in-spain-study-finds",
+       "source": "Euronews Business",
+       "published": "2026-10-08T19:11:03.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/fuel-tax-pause-offers-bigger-break-to-higher-income-families-budget-watchdog/",
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/08/taxes-account-for-over-53-of-labour-costs-in-spain-study-finds",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The parliamentary budget officer says Ottawa’s gas tax pause is offering a bigger break at the pumps to the households that earn the most."
-      }
-     ]
-    },
-    "regulation": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Fuel tax pause offers bigger break to higher-income families: budget watchdog",
-       "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/fuel-tax-pause-offers-bigger-break-to-higher-income-families-budget-watchdog/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T19:21:23.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/fuel-tax-pause-offers-bigger-break-to-higher-income-families-budget-watchdog/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The parliamentary budget officer says Ottawa’s gas tax pause is offering a bigger break at the pumps to the households that earn the most."
+       "blurb": "In 2025, Spain's Finance Ministry argued that its tax cuts for middle-income earners had delivered €38 billion in savings"
       }
      ]
     }
    }
   },
-  "ca-city-ottawa": {
-   "label": "Ottawa",
-   "level": "city",
+  "es-md": {
+   "label": "Madrid",
+   "level": "admin1",
    "sources": {
-    "econpolicy": {
+    "government": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Fuel tax pause offers bigger break to higher-income families: budget watchdog",
-       "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/fuel-tax-pause-offers-bigger-break-to-higher-income-families-budget-watchdog/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T19:21:23.000Z",
+       "title": "Protesters blame 'vulture funds' for Spain's housing crisis",
+       "url": "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss",
+       "source": "BBC News Business",
+       "published": "2026-10-08T19:10:06.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/fuel-tax-pause-offers-bigger-break-to-higher-income-families-budget-watchdog/",
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The parliamentary budget officer says Ottawa’s gas tax pause is offering a bigger break at the pumps to the households that earn the most."
+       "blurb": "Hundreds have pitched their tents in central Madrid, while the Spanish prime minister has called a snap election."
       }
      ]
-    },
-    "regulation": {
+    }
+   }
+  },
+  "es-city-madrid": {
+   "label": "Madrid",
+   "level": "city",
+   "sources": {
+    "government": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Fuel tax pause offers bigger break to higher-income families: budget watchdog",
-       "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/fuel-tax-pause-offers-bigger-break-to-higher-income-families-budget-watchdog/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T19:21:23.000Z",
+       "title": "Protesters blame 'vulture funds' for Spain's housing crisis",
+       "url": "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss",
+       "source": "BBC News Business",
+       "published": "2026-10-08T19:10:06.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/fuel-tax-pause-offers-bigger-break-to-higher-income-families-budget-watchdog/",
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The parliamentary budget officer says Ottawa’s gas tax pause is offering a bigger break at the pumps to the households that earn the most."
+       "blurb": "Hundreds have pitched their tents in central Madrid, while the Spanish prime minister has called a snap election."
       }
      ]
     }
@@ -6057,150 +6148,6 @@
     }
    }
   },
-  "us-ny": {
-   "label": "New York",
-   "level": "admin1",
-   "sources": {
-    "econpolicy": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
-       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-       "source": "The Loadstar",
-       "published": "2026-10-07T12:40:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Loadstar",
-         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
-      }
-     ]
-    },
-    "regulation": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Sigma Lithium jumps after Brazil court reopens mine",
-       "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
-       "source": "The Northern Miner",
-       "published": "2026-10-07T15:33:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Sigma Lithium (Nasdaq, TSXV: SGML; ASX: SAU) shares rose as much as 6.7% in New York on Wednesday after a Brazilian appeals court upheld its environmental licences, clearing the company... The post Sigma Lithium jumps after Brazil court reopens mine appeared first on The Northern"
-      }
-     ]
-    },
-    "nonprofits": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Philanthropic fund launched to prevent Amazon rainforest wildfires",
-       "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
-       "source": "Alliance magazine",
-       "published": "2026-10-07T08:00:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Alliance magazine",
-         "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A new philanthropic fund has been launched aimed at preventing and detecting Amazon rainforest wildfires. The South America Wildfire Fund, launched during Climate Week in New York City, received support from the US-based Gordon and … The post Philanthropic fund launched to preven"
-      }
-     ]
-    }
-   }
-  },
-  "us-city-new-york": {
-   "label": "New York",
-   "level": "city",
-   "sources": {
-    "econpolicy": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
-       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-       "source": "The Loadstar",
-       "published": "2026-10-07T12:40:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Loadstar",
-         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
-      }
-     ]
-    },
-    "regulation": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Sigma Lithium jumps after Brazil court reopens mine",
-       "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
-       "source": "The Northern Miner",
-       "published": "2026-10-07T15:33:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Sigma Lithium (Nasdaq, TSXV: SGML; ASX: SAU) shares rose as much as 6.7% in New York on Wednesday after a Brazilian appeals court upheld its environmental licences, clearing the company... The post Sigma Lithium jumps after Brazil court reopens mine appeared first on The Northern"
-      }
-     ]
-    },
-    "nonprofits": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Philanthropic fund launched to prevent Amazon rainforest wildfires",
-       "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
-       "source": "Alliance magazine",
-       "published": "2026-10-07T08:00:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Alliance magazine",
-         "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A new philanthropic fund has been launched aimed at preventing and detecting Amazon rainforest wildfires. The South America Wildfire Fund, launched during Climate Week in New York City, received support from the US-based Gordon and … The post Philanthropic fund launched to preven"
-      }
-     ]
-    }
-   }
-  },
   "et": {
    "label": "Ethiopia",
    "level": "country",
@@ -6246,129 +6193,6 @@
        "stages": [],
        "via": null,
        "blurb": "In August I travelled to Addis Ababa for the US-Africa Futures Summit, organised by Humanity United, the Open Society Foundations and the Institute for Security Studies (ISS). It was my first time at this summit, … The post What and whose ‘futures’? appeared first on Alliance mag"
-      }
-     ]
-    }
-   }
-  },
-  "ng": {
-   "label": "Nigeria",
-   "level": "country",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ethiopia: Nigeria, Ethiopia Move to Deepen Ties in Trade, Agriculture, Security",
-       "url": "https://allafrica.com/stories/202610080122.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T07:39:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080122.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Leadership] Nigeria and Ethiopia have moved to deepen bilateral cooperation in trade, investment, agriculture, food security, aviation, and security, with Vice President Kashim Shettima and Ethiopia's Deputy Prime Minister, Mr Temesgen Tiruneh, reviewing relations between the tw"
-      },
-      {
-       "title": "Nigeria: NAF Plane Crash - Huriwa Dismisses Presidential Investigation",
-       "url": "https://allafrica.com/stories/202610080435.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T12:56:13.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080435.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Leadership] A civil rights advocacy group, Human Rights Writers Association of Nigeria (HURIWA), has dismissed President Bola Ahmed Tinubu's order of investigation of the crash of NAF 931 plane in Igbokoda area of Ondo State."
-      }
-     ]
-    },
-    "econpolicy": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Campaign council defends Obi over fuel subsidy U-turn",
-       "url": "https://www.premiumtimesng.com/news/top-news/915482-campaign-council-defends-obi-over-fuel-subsidy-u-turn.html",
-       "source": "Premium Times (Nigeria)",
-       "published": "2026-10-08T15:55:37.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Premium Times (Nigeria)",
-         "url": "https://www.premiumtimesng.com/news/top-news/915482-campaign-council-defends-obi-over-fuel-subsidy-u-turn.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Mr Obi also explained how he intended to tackle corruption, arguing that the conduct of the president and members of his immediate family would be central to his anti-corruption strategy. The post Campaign council defends Obi over fuel subsidy U-turn appeared first on Premium Tim"
-      }
-     ]
-    },
-    "regulation": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Nigeria: Minna Miners' Deaths - Probe Panel Cites Institutional Breakdown, Training Gaps",
-       "url": "https://allafrica.com/stories/202610080125.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T07:39:46.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080125.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Premium Times] Federal panel investigating the deaths of 37 persons in NSCDC custody says institutional gaps, overzealousness, and inadequate training may have contributed to the incident."
-      },
-      {
-       "title": "Military Plane Crash: Air Chief sets up probe panel, assures adequate support for bereaved families",
-       "url": "https://www.premiumtimesng.com/regional/ssouth-west/915520-military-plane-crash-air-chief-sets-up-probe-panel-assures-adequate-support-for-bereaved-families.html",
-       "source": "Premium Times (Nigeria)",
-       "published": "2026-10-08T17:59:13.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Premium Times (Nigeria)",
-         "url": "https://www.premiumtimesng.com/regional/ssouth-west/915520-military-plane-crash-air-chief-sets-up-probe-panel-assures-adequate-support-for-bereaved-families.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The air chief said he knew everyone on the ill-fated plane, having flown it alongside his family in the past. The post Military Plane Crash: Air Chief sets up probe panel, assures adequate support for bereaved families appeared first on Premium Times Nigeria ."
-      },
-      {
-       "title": "Nigeria: NAF Plane Crash - Huriwa Dismisses Presidential Investigation",
-       "url": "https://allafrica.com/stories/202610080435.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T12:56:13.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080435.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Leadership] A civil rights advocacy group, Human Rights Writers Association of Nigeria (HURIWA), has dismissed President Bola Ahmed Tinubu's order of investigation of the crash of NAF 931 plane in Igbokoda area of Ondo State."
       }
      ]
     }
@@ -6441,6 +6265,106 @@
        "stages": [],
        "via": null,
        "blurb": "After having its hopes dashed for a more ambitious deal last year in Brazil, the European Union is setting its sights low for next month's Cop31 climate summit in Turkey."
+      }
+     ]
+    }
+   }
+  },
+  "us-ny": {
+   "label": "New York",
+   "level": "admin1",
+   "sources": {
+    "regulation": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Sigma Lithium jumps after Brazil court reopens mine",
+       "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
+       "source": "The Northern Miner",
+       "published": "2026-10-07T15:33:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Sigma Lithium (Nasdaq, TSXV: SGML; ASX: SAU) shares rose as much as 6.7% in New York on Wednesday after a Brazilian appeals court upheld its environmental licences, clearing the company... The post Sigma Lithium jumps after Brazil court reopens mine appeared first on The Northern"
+      }
+     ]
+    },
+    "nonprofits": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Philanthropic fund launched to prevent Amazon rainforest wildfires",
+       "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
+       "source": "Alliance magazine",
+       "published": "2026-10-07T08:00:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Alliance magazine",
+         "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A new philanthropic fund has been launched aimed at preventing and detecting Amazon rainforest wildfires. The South America Wildfire Fund, launched during Climate Week in New York City, received support from the US-based Gordon and … The post Philanthropic fund launched to preven"
+      }
+     ]
+    }
+   }
+  },
+  "us-city-new-york": {
+   "label": "New York",
+   "level": "city",
+   "sources": {
+    "regulation": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Sigma Lithium jumps after Brazil court reopens mine",
+       "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
+       "source": "The Northern Miner",
+       "published": "2026-10-07T15:33:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Sigma Lithium (Nasdaq, TSXV: SGML; ASX: SAU) shares rose as much as 6.7% in New York on Wednesday after a Brazilian appeals court upheld its environmental licences, clearing the company... The post Sigma Lithium jumps after Brazil court reopens mine appeared first on The Northern"
+      }
+     ]
+    },
+    "nonprofits": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Philanthropic fund launched to prevent Amazon rainforest wildfires",
+       "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
+       "source": "Alliance magazine",
+       "published": "2026-10-07T08:00:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Alliance magazine",
+         "url": "https://www.alliancemagazine.org/blog/philanthropic-fund-launched-to-prevent-amazon-rainforest-wildfires/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A new philanthropic fund has been launched aimed at preventing and detecting Amazon rainforest wildfires. The South America Wildfire Fund, launched during Climate Week in New York City, received support from the US-based Gordon and … The post Philanthropic fund launched to preven"
       }
      ]
     }
@@ -6666,11 +6590,6 @@
          "primary": false
         },
         {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/international/2026/10/08/wto-raises-merchandise-trade-growth-forecast-to-39-as-ai-boom-offsets-hit-from-middle-east/",
-         "primary": false
-        },
-        {
          "name": "Dawn Business",
          "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
          "primary": false
@@ -6855,34 +6774,6 @@
        "stages": [],
        "via": null,
        "blurb": "The National Assembly of Zambia is undergoing major rehabilitation and expansion works to accommodate the increased number of Members of Parliament (MPs) and ensure that the members operate in a conducive environment. Clerk of the National Assembly Loveness Mayaka says the works "
-      }
-     ]
-    }
-   }
-  },
-  "es": {
-   "label": "Spain",
-   "level": "country",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Spanish government to press on with tighter data centre rules before election",
-       "url": "https://www.channelnewsasia.com/business/spanish-government-press-tighter-data-centre-rules-election-6443271",
-       "source": "CNA Business",
-       "published": "2026-10-08T14:37:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/spanish-government-press-tighter-data-centre-rules-election-6443271",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
       }
      ]
     }
@@ -7671,62 +7562,6 @@
     }
    }
   },
-  "us-fl": {
-   "label": "Florida",
-   "level": "admin1",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Open letter to the US administration: The G20 invitation to Putin should come with conditions",
-       "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T18:15:11.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Trump administration recently announced that it has invited Russian President Vladimir Putin to December's G20 summit in Miami. This invitation erodes the well-deserved isolation of Putin for his brutal and unprovoked invasion of Ukraine . Putin last appeared on U.S. soil for"
-      }
-     ]
-    }
-   }
-  },
-  "us-city-miami": {
-   "label": "Miami",
-   "level": "city",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Open letter to the US administration: The G20 invitation to Putin should come with conditions",
-       "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T18:15:11.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Trump administration recently announced that it has invited Russian President Vladimir Putin to December's G20 summit in Miami. This invitation erodes the well-deserved isolation of Putin for his brutal and unprovoked invasion of Ukraine . Putin last appeared on U.S. soil for"
-      }
-     ]
-    }
-   }
-  },
   "co": {
    "label": "Colombia",
    "level": "country",
@@ -7750,62 +7585,6 @@
        "stages": [],
        "via": null,
        "blurb": "Colombian President Abelardo De la Espriella had promised closer ties with Israel on the campaign trail."
-      }
-     ]
-    }
-   }
-  },
-  "ir-th": {
-   "label": "Tehran",
-   "level": "admin1",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Trump rules out attack on Iran before midterm elections",
-       "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T17:37:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "President Donald Trump on Thursday said the US would not attack Iran before the midterm elections and that Washington was engaged in “productive discussions” with Tehran. In a post on Truth Social, Mr Trump said Iran was in a “very bad condition” economically and militarily and t"
-      }
-     ]
-    }
-   }
-  },
-  "ir-city-tehran": {
-   "label": "Tehran",
-   "level": "city",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Trump rules out attack on Iran before midterm elections",
-       "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T17:37:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "President Donald Trump on Thursday said the US would not attack Iran before the midterm elections and that Washington was engaged in “productive discussions” with Tehran. In a post on Truth Social, Mr Trump said Iran was in a “very bad condition” economically and militarily and t"
       }
      ]
     }
@@ -8068,28 +7847,6 @@
        "stages": [],
        "via": null,
        "blurb": "Children's toys and baby walkers are among the products the Commerce Commission alleges were non-compliant."
-      }
-     ]
-    },
-    "corporate": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "RNZ board member Richard Dellabarca steps in following unexpected resignation of CFO",
-       "url": "https://www.rnz.co.nz/news/business/1784322/rnz-board-member-richard-dellabarca-steps-in-following-unexpected-resignation-of-cfo",
-       "source": "RNZ Business",
-       "published": "2026-10-07T06:41:30.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "RNZ Business",
-         "url": "https://www.rnz.co.nz/news/business/1784322/rnz-board-member-richard-dellabarca-steps-in-following-unexpected-resignation-of-cfo",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "RNZ said it expected to meet the timeframe for reporting its accounts."
       }
      ]
     }
