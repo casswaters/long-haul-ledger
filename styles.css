@@ -1981,3 +1981,28 @@ button.vbadge:focus-visible { outline: 1px solid var(--ink); outline-offset: 1px
 .method-tab summary { cursor: pointer; }
 .method-tab[open] summary { margin-bottom: 0.35rem; }
 .method-cross, .method-conv { font-size: 0.8rem; color: var(--ink-dim); margin: 0.35rem 0; }
+
+/* —— Monday Haul sign-up (free, email only) —— */
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.signup-slot[hidden] { display: none; }
+.signup-slot-rail { padding: 0.25rem 0.75rem 1rem; position: relative; z-index: 1; }
+.signup-slot-footer { margin: 0.4rem 0 0.6rem; }
+.signup { border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg); padding: 0.75rem 0.85rem; display: flex; flex-direction: column; gap: 0.45rem; }
+.signup-title { margin: 0; font-size: 0.86rem; font-weight: 600; color: var(--ink); }
+.signup-promise { margin: 0; font-size: 0.78rem; color: var(--ink-dim); line-height: 1.45; }
+.signup-row { display: flex; gap: 0.4rem; }
+.signup-row[hidden] { display: none; }
+.signup-email { flex: 1 1 auto; min-width: 0; min-height: 44px; padding: 0 0.7rem; font: inherit; font-size: 16px; color: var(--ink); background: var(--bg-elev); border: 1px solid var(--line); border-radius: var(--radius); }
+.signup-email::placeholder { color: var(--ink-mute); }
+.signup-email:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.signup.is-invalid .signup-email { border-color: var(--accent); }
+.signup-btn { flex: 0 0 auto; min-height: 44px; padding: 0 0.9rem; font: inherit; font-size: 0.8rem; font-weight: 600; color: var(--bg); background: var(--accent); border: 1px solid var(--accent); border-radius: var(--radius); cursor: pointer; }
+.signup-btn:hover { filter: brightness(1.08); }
+.signup-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.signup-btn:disabled { opacity: 0.6; cursor: default; }
+.signup-msg { margin: 0; font-size: 0.72rem; color: var(--ink-mute); }
+.signup.is-invalid .signup-msg { color: var(--accent); }
+.signup.is-done .signup-msg { font-size: 0.8rem; color: var(--ink); }
+.signup-compact { padding: 0.6rem 0.7rem; }
+.signup-compact .signup-title { font-size: 0.8rem; }
+@media (max-width: 420px) { .signup-btn { padding: 0 0.7rem; } }

@@ -9,100 +9,59 @@
   "briefs": {
     "world": {
       "nuclear": {
-        "generated_at": "2026-10-07T23:10:00Z",
-        "week_of": "2026-10-01",
-        "checked": "Every number, date and @handle was checked against the linked sources on Oct 7, 2026. Handles are written as text; they are the organizations' own X accounts.",
+        "generated_at": "2026-10-08T12:50:00Z",
+        "week_of": "2026-10-05",
+        "checked": "Every number, date and @handle was checked against the linked sources on Oct 8, 2026. Handles are written as text; they are the organizations' own X accounts.",
         "items": [
           {
-            "text": "Google @Google signed a 20-year deal with Constellation @ConstellationEG to pay for uprates at 11 reactors across six plants in Illinois, Pennsylvania, and New Jersey. An uprate means squeezing more power out of a machine that already runs. The target is about 890 megawatts of new output on the PJM grid, the regional market that covers 13 states. Constellation says that is more than $4.3 billion of its own investment. The first extra watts are expected by 2028. The full 890 megawatts are aimed at before the end of 2032. They also signed a separate 15-year deal covering 2,700 megawatts of Constellation's existing fleet. No power price was published. Announced October 6.",
-            "place": "us",
+            "text": "China's Tianwan 7 reactor sent its first electricity to the grid on October 8, just over a week after it first sustained a controlled chain reaction. It is a Russian-designed VVER-1200 unit on the coast of Jiangsu province, built under a 2018 deal between Russia and China, and construction began in May 2021. Owner China National Nuclear Corporation (CNNC) says power will now be raised in steps, with tests at each level, before commercial operation, which was scheduled for 2026. Its twin, unit 8, is due in 2027. Once all units run, the site will have more than 9 gigawatts (GW) of capacity.",
             "sources": [
               {
-                "title": "Google and Constellation Announce Landmark Agreement to Bring 890 MW of New Nuclear Capacity to PJM Grid (Constellation release)",
-                "url": "https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html",
-                "date": "2026-10-06",
-                "primary": true
-              },
-              {
-                "title": "Why we're backing America's existing nuclear plants (Google)",
-                "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/",
-                "date": "2026-10-06",
-                "primary": true
+                "title": "China's Tianwan 7 connected to the grid (World Nuclear News)",
+                "url": "https://www.world-nuclear-news.org/articles/chinas-tianwan-7-connected-to-the-grid",
+                "date": "2026-10-08"
               }
-            ]
+            ],
+            "place": "cn"
           },
           {
-            "text": "The Department of Energy @ENERGY offered Vistra a conditional loan commitment of up to $4.2 billion for uprates and modernization at Beaver Valley in Pennsylvania and Davis-Besse and Perry in Ohio. Vistra is a power company based in Irving, Texas. It owns plants and sells electricity. Its nuclear fleet is Comanche Peak in Texas, plus those three plants in Pennsylvania and Ohio, which came with the Energy Harbor deal in 2024. It is not a reactor designer. It runs the machines and sells the watts. The package would add about 433 megawatts and keep nearly 4 gigawatts of existing nuclear on the grid, with an option later for Comanche Peak. Conditional means the money is not wired. Vistra still has to clear technical, legal, environmental, and financial conditions. Announced October 5.",
-            "place": "us",
+            "text": "Swiss voters may get the final say on new reactors. Switzerland has banned building new nuclear plants since 2018, and parliament has approved lifting that ban. A coalition led by the Greens and Social Democrats says it has handed in more than 131,800 signatures, far above the 50,000 needed, to force a national referendum on the change. If the referendum is approved, the vote could come on February 28, 2027 at the earliest. A business and utility alliance including Axpo, Alpiq and BKW has started campaigning for a yes. Switzerland's four reactors make about one third of its electricity.",
             "sources": [
               {
-                "title": "Energy Department Announces $4.2 Billion Investment to Boost Nuclear Power in Pennsylvania and Ohio (DOE)",
-                "url": "https://www.energy.gov/articles/energy-department-announces-42-billion-investment-boost-nuclear-power-and-help-lower",
+                "title": "Swiss citizens may get to vote on construction of new reactors (World Nuclear News)",
+                "url": "https://www.world-nuclear-news.org/articles/swiss-citizens-may-get-to-vote-on-construction-of-new-reactors",
+                "date": "2026-10-07"
+              }
+            ],
+            "place": "ch"
+          },
+          {
+            "text": "Westinghouse @WECNuclear hired South Korea's Hyundai Engineering & Construction to do part of the early design work, called front-end engineering design (FEED), for two large AP1000 reactors the Netherlands plans to build. The Dutch state reactor company NEO NL awarded design study contracts to EDF and Westinghouse in August; the studies take 12 to 18 months. The first phase does not depend on the site, so work can start while the government chooses one; Borssele is the cabinet's preferred location and a site choice is expected next month. The two new units are planned for around 2035.",
+            "sources": [
+              {
+                "title": "Westinghouse teams up with Hyundai E&C for Dutch FEED studies (World Nuclear News)",
+                "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
+                "date": "2026-10-08"
+              }
+            ],
+            "place": "nl"
+          },
+          {
+            "text": "A small reactor has a first customer in Canada. BWX Technologies said on October 5 that its BANR reactor, a compact, factory-built gas-cooled design of about 22 megawatts (MW) of electricity, was picked for Prodigy Clean Energy's transportable nuclear plant at Belledune, New Brunswick. Two units would give up to 50 MW. The project is a partnership with the Pabineau and Eel River Bar First Nations, which would own it, and New Brunswick's government has signed a letter of intent to buy the power. Operation is targeted for the early 2030s; the reactor has not yet started licensing with Canada's nuclear regulator.",
+            "sources": [
+              {
+                "title": "BWXT's BANR Microreactor Chosen for Canadian Transportable Nuclear Power Plant Project (BWXT)",
+                "url": "https://www.bwxt.com/bwxts-banr-microreactor-chosen-for-canadian-transportable-nuclear-power-plant-project/",
                 "date": "2026-10-05",
                 "primary": true
               },
               {
-                "title": "Vistra Completes Energy Harbor Acquisition (Vistra)",
-                "url": "https://investor.vistracorp.com/2024-03-01-Vistra-Completes-Energy-Harbor-Acquisition",
-                "date": "2024-03-01",
-                "primary": true
-              },
-              {
-                "title": "DOE offers Vistra loan for reactor upgrades and uprates (World Nuclear News)",
-                "url": "https://www.world-nuclear-news.org/articles/doe-offers-vistra-loan-for-reactor-upgrades-and-uprates",
-                "date": "2026-10-06"
-              }
-            ]
-          },
-          {
-            "text": "Fuel loading at Palisades in Michigan stopped after one used assembly tilted in the core. Holtec @holtecintl says the grapple had already let go when the assembly shifted and stuck at a tilt. The Nuclear Regulatory Commission @NRCgov says the rods are intact. An NRC spokesperson has said there was no release and no one was hurt. Holtec asked the NRC on September 30 for a license amendment so crews can move that assembly to the spent fuel pool with custom gear. The NRC opened a public comment opportunity on October 6. Holtec has not given a new restart date. Reports say its power contract calls for supply by March 2027. That date now depends on getting this assembly out.",
-            "place": "us",
-            "sources": [
-              {
-                "title": "NRC Reviewing Palisades License Amendment Request, Public Comment Opportunity Open (NRC, Palisades plant page)",
-                "url": "https://www.nrc.gov/info-finder/reactors/pali.html",
-                "date": "2026-10-06",
-                "primary": true
-              },
-              {
-                "title": "News Releases 2026: S-26-007, NRC Reviewing Palisades License Amendment Request (NRC)",
-                "url": "https://www.nrc.gov/reading-rm/doc-collections/news/2026/",
-                "date": "2026-10-06",
-                "primary": true
-              },
-              {
-                "title": "Palisades restart delayed (Nuclear Engineering International)",
-                "url": "https://www.neimagazine.com/news/palisades-restart-delayed/",
-                "date": "2026-09-28"
-              },
-              {
-                "title": "Incident pauses Palisades fuel loading; plant connected to switchyard (ANS Nuclear Newswire)",
-                "url": "https://www.ans.org/news/article-8436/incident-pauses-palisades-fuel-loading-plant-connected-to-switchyard/",
-                "date": "2026-09-25"
-              }
-            ]
-          },
-          {
-            "text": "The United States and South Korea outlined Project Power, a framework for eight large reactors in the United States: six Westinghouse @WECNuclear AP1000s and two Korean APR1400s. The Commerce Department fact sheet, issued September 30, puts the package at $120 billion, $100 billion for construction and $20 billion held as contingency. Sites are not picked. Schedules and contracts are not signed. Seoul said this week the project is likely to take a real shape around 2028. It is a blueprint, not a pour.",
-            "place": "us",
-            "sources": [
-              {
-                "title": "Fact Sheet: Korea and the United States Announce Historic Strategic Investment Projects (U.S. Department of Commerce)",
-                "url": "https://www.commerce.gov/news/fact-sheets/2026/09/fact-sheet-korea-and-united-states-announce-historic-strategic-investment",
-                "date": "2026-09-30",
-                "primary": true
-              },
-              {
-                "title": "U.S. Nuclear Project to Take Shape Around 2028, Seoul Says (Seoul Economic Daily)",
-                "url": "https://en.sedaily.com/finance/2026/10/07/us-nuclear-project-to-take-shape-around-2028-seoul-says",
+                "title": "BWXT's BANR selected for Canadian project (ANS Nuclear Newswire)",
+                "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
                 "date": "2026-10-07"
-              },
-              {
-                "title": "USA, South Korea targeting six AP1000 and two APR1400 units (World Nuclear News)",
-                "url": "https://www.world-nuclear-news.org/articles/usa-south-korea-targeting-six-ap1000-two-apr1400-units",
-                "date": "2026-10-01"
               }
-            ]
+            ],
+            "place": "ca"
           }
         ]
       },
