@@ -32,20 +32,23 @@
       <nav class="sector-nav" aria-label="Sectors">
         <a class="snav snav-featured" href="#energy" id="nav-energy" data-open-sector="energy" aria-label="Energy: power and fuel by source for the selected place"><span class="hnav-emoji" aria-hidden="true">⚡</span> Energy</a>
         <span class="snav-sep" aria-hidden="true"></span>
-        <a class="snav" href="#materials" id="nav-materials" data-open-sector="materials" aria-label="Raw materials (Primary sector): farming, fishing, forestry, mining, oil and gas">Raw materials</a>
-        <a class="snav" href="#manufacturing" id="nav-manufacturing" data-open-sector="manufacturing" aria-label="Manufacturing (Secondary sector): factories, construction, power plants and refineries">Manufacturing</a>
-        <a class="snav" href="#services" id="nav-services" data-open-sector="services" aria-label="Services (Tertiary sector): shops, banks, housing, health, schools, travel, transport, utilities">Services</a>
-        <a class="snav" href="#technology" id="nav-technology" data-open-sector="technology" aria-label="Technology (Quaternary sector): software, data centers, telecom, research, consulting, media">Technology</a>
-        <a class="snav" href="#policy" id="nav-policy" data-open-sector="policy" aria-label="Policy (Quinary sector): government, central banks, regulators, trade, corporate and nonprofit leadership">Policy</a>
+        <span class="snav-group-label" aria-hidden="true">Sectors of the Economy</span>
+        <a class="snav" href="#materials" id="nav-materials" data-open-sector="materials" aria-label="Raw materials (Primary sector): farming, fishing, forestry, mining, oil and gas"><span class="hnav-emoji" aria-hidden="true">⛏️</span> Raw materials<span class="snav-type" aria-hidden="true"> · Primary</span></a>
+        <a class="snav" href="#manufacturing" id="nav-manufacturing" data-open-sector="manufacturing" aria-label="Manufacturing (Secondary sector): factories, construction, power plants and refineries"><span class="hnav-emoji" aria-hidden="true">🏭</span> Manufacturing<span class="snav-type" aria-hidden="true"> · Secondary</span></a>
+        <a class="snav" href="#services" id="nav-services" data-open-sector="services" aria-label="Services (Tertiary sector): shops, banks, housing, health, schools, travel, transport, utilities"><span class="hnav-emoji" aria-hidden="true">🤝</span> Services<span class="snav-type" aria-hidden="true"> · Tertiary</span></a>
+        <a class="snav" href="#technology" id="nav-technology" data-open-sector="technology" aria-label="Technology (Quaternary sector): software, data centers, telecom, research, consulting, media"><span class="hnav-emoji" aria-hidden="true">💻</span> Technology<span class="snav-type" aria-hidden="true"> · Quaternary</span></a>
+        <a class="snav" href="#policy" id="nav-policy" data-open-sector="policy" aria-label="Policy (Quinary sector): government, central banks, regulators, trade, corporate and nonprofit leadership"><span class="hnav-emoji" aria-hidden="true">🏛️</span> Policy<span class="snav-type" aria-hidden="true"> · Quinary</span></a>
       </nav>
       <div class="header-meta">
         <span class="proto-badge header-example-badge" id="header-example-badge" title="This view includes example scores. Country scores, value chains, company profiles and constraints are example data for UX testing. Not sourced." hidden>Example data</span>
+        <button type="button" class="hnav reorient-top" id="reorient-top" aria-label="Back to the top: the map and the selected place" title="Back to the top" hidden><span aria-hidden="true">↑</span> Top</button>
         <time class="date-stamp" id="date-stamp">·</time>
       </div>
     </header>
 
     <div class="main">
       <section class="map-stage" aria-label="World map">
+        <p class="visually-hidden" id="map-nudge-live" role="status" aria-live="polite"></p>
         <div class="map-label" id="map-label" aria-label="Map navigation legend">
           <button type="button" class="map-label-toggle" id="map-label-toggle" aria-expanded="false" aria-controls="map-label-tips" title="Atlas tips">
             <span class="map-label-toggle-icon" aria-hidden="true">i</span>
