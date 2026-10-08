@@ -94,6 +94,76 @@ export function dxyRows(rowsBySeries) {
 
 export const fredCsv = (id) => `https://fred.stlouisfed.org/graph/fredgraph.csv?id=${encodeURIComponent(id)}`;
 export const fredPage = (id) => `https://fred.stlouisfed.org/series/${encodeURIComponent(id)}`;
+/**
+ * Sectors of the Economy: World Bank shares shown as a strip on each of the five tabs (annual, no key).
+ * Same 10-year age rule as the What changed lines.
+ */
+export const SECTOR_INDICATORS = [
+  { id: 'agr', tab: 'materials', code: 'NV.AGR.TOTL.ZS', label: 'Agriculture, forestry and fishing', unit: '% of GDP' },
+  { id: 'rents', tab: 'materials', code: 'NY.GDP.TOTL.RT.ZS', label: 'Natural resource rents', unit: '% of GDP' },
+  { id: 'mfgshare', tab: 'manufacturing', code: 'NV.IND.MANF.ZS', label: 'Manufacturing', unit: '% of GDP' },
+  { id: 'industry', tab: 'manufacturing', code: 'NV.IND.TOTL.ZS', label: 'Industry, including construction', unit: '% of GDP' },
+  { id: 'services', tab: 'services', code: 'NV.SRV.TOTL.ZS', label: 'Services', unit: '% of GDP' },
+  { id: 'srvjobs', tab: 'services', code: 'SL.SRV.EMPL.ZS', label: 'Jobs in services', unit: '% of employment' },
+  { id: 'hitech', tab: 'technology', code: 'TX.VAL.TECH.MF.ZS', label: 'High-tech exports', unit: '% of manufactured exports' },
+  { id: 'ict', tab: 'technology', code: 'BX.GSR.CCIS.ZS', label: 'ICT service exports', unit: '% of service exports' },
+  { id: 'rnd', tab: 'technology', code: 'GB.XPD.RSDV.GD.ZS', label: 'R&D spending', unit: '% of GDP' },
+  { id: 'govcons', tab: 'policy', code: 'NE.CON.GOVT.ZS', label: 'Government consumption', unit: '% of GDP' },
+  { id: 'tax', tab: 'policy', code: 'GC.TAX.TOTL.GD.ZS', label: 'Tax revenue', unit: '% of GDP' },
+];
+
+/**
+ * Energy tab: electricity generation mix per country (shares of generation, latest full year).
+ * Our World in Data energy dataset (CC BY 4.0), built on Ember and the Energy Institute Statistical Review.
+ */
+export const OWID_ENERGY_CSV = 'https://raw.githubusercontent.com/owid/energy-data/master/owid-energy-data.csv';
+export const OWID_MIX_PAGE = 'https://ourworldindata.org/electricity-mix';
+export const MIX_SOURCES = [
+  { id: 'coal', col: 'coal_share_elec', label: 'Coal' },
+  { id: 'gas', col: 'gas_share_elec', label: 'Gas' },
+  { id: 'oil', col: 'oil_share_elec', label: 'Oil' },
+  { id: 'nuclear', col: 'nuclear_share_elec', label: 'Nuclear' },
+  { id: 'hydro', col: 'hydro_share_elec', label: 'Hydro' },
+  { id: 'wind', col: 'wind_share_elec', label: 'Wind' },
+  { id: 'solar', col: 'solar_share_elec', label: 'Solar' },
+  { id: 'bio', col: 'biofuel_share_elec', label: 'Bioenergy' },
+  { id: 'other', col: 'other_renewables_share_elec_exc_biofuel', label: 'Other renewables' },
+];
+
+/** Parse the OWID energy CSV into the latest complete electricity mix per ISO3 code. */
+export function owidMix(csvText, { minYear = 0 } = {}) {
+  const lines = String(csvText || '').split(/\r?\n/);
+  const head = lines.shift().split(',');
+  const ix = (c) => head.indexOf(c);
+  const iIso = ix('iso_code'), iYear = ix('year'), iCountry = ix('country'), iGen = ix('electricity_generation');
+  const cols = MIX_SOURCES.map((m) => ix(m.col));
+  const best = {};
+  for (const line of lines) {
+    if (!line) continue;
+    const f = line.split(',');
+    if (f.length !== head.length) continue;
+    const iso = f[iIso] || (f[iCountry] === 'World' ? 'OWID_WRL' : '');
+    if (!iso || !/^([A-Z]{3}|OWID_KOS|OWID_WRL)$/.test(iso)) continue;
+    const year = Number(f[iYear]);
+    if (!(year >= minYear)) continue;
+    const shares = cols.map((c) => (f[c] === '' ? null : Number(f[c])));
+    if (shares.filter((v) => Number.isFinite(v)).length < 6) continue;
+    const total = shares.reduce((a, v) => a + (Number.isFinite(v) ? v : 0), 0);
+    if (total < 95 || total > 105) continue;
+    if (!best[iso] || best[iso].year < year) {
+      best[iso] = { country: f[iCountry], year, generationTWh: f[iGen] === '' ? null : Number(f[iGen]), shares: Object.fromEntries(MIX_SOURCES.map((m, k) => [m.id, Number.isFinite(shares[k]) ? Math.round(shares[k] * 10) / 10 : null])) };
+    }
+  }
+  return best;
+}
+
+/** Compact a World Bank record for the sector strips: [value, year, priorValue, priorYear]. */
+export function compactWb(rec) {
+  if (!rec || !Number.isFinite(rec.value)) return null;
+  const r2 = (v) => Math.round(v * 100) / 100;
+  return rec.prior ? [r2(rec.value), Number(rec.year), r2(rec.prior.value), Number(rec.prior.year)] : [r2(rec.value), Number(rec.year)];
+}
+
 export const wbPage = (code, iso2) => `https://data.worldbank.org/indicator/${code}?locations=${String(iso2).toUpperCase()}`;
 
 /** Parse FRED graph CSV → [{date, value}] (skips '.' / blanks). */

@@ -1,7 +1,19 @@
 {
   "meta": {
     "note": "Public channels only. Verified roles list an official source and as-of date; seats we could not verify are marked source pending or Not yet covered. No response-time estimates: a response time appears only where an official published service standard exists.",
-    "asOf": "2026-10-07"
+    "asOf": "2026-10-08",
+    "heads": {
+      "checked": "2026-10-08",
+      "method": "Candidates from Wikidata (P35, P6, P39 with start date, office P856). A seat goes live only when the candidate is the latest current holder on Wikidata AND the name appears on an official government page fetched on the checked date. Start dates show only when the year (or full date) appears next to the name on that page.",
+      "counts": {
+        "hsFilled": 81,
+        "hgFilled": 70,
+        "bothFilled": 51,
+        "anyFilled": 100,
+        "kept": 14
+      },
+      "countries": 187
+    }
   },
   "areas": {
     "us": {
@@ -19,7 +31,15 @@
           "term": {
             "text": "Jan 20, 2025 – Jan 20, 2029 (elected)",
             "badge": null
-          }
+          },
+          "kind": "Head of state and government",
+          "source": {
+            "url": "https://www.whitehouse.gov/administration/donald-j-trump/",
+            "name": "whitehouse.gov (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true
         },
         {
           "title": "Vice President",
@@ -1917,7 +1937,13 @@
             "name": "President of India"
           },
           "asOf": "2026-10-07",
-          "verified": true
+          "verified": true,
+          "kind": "Head of state",
+          "since": {
+            "text": "2022",
+            "date": "2022",
+            "confirmedOn": "https://presidentofindia.gov.in"
+          }
         },
         {
           "title": "Prime Minister",
@@ -1930,7 +1956,8 @@
             "name": "PM India"
           },
           "asOf": "2026-10-07",
-          "verified": true
+          "verified": true,
+          "kind": "Head of government"
         },
         {
           "title": "Minister of Commerce and Industry",
@@ -2025,7 +2052,15 @@
           "term": {
             "text": "elected by Federal Supreme Council; serving since May 2022",
             "badge": null
-          }
+          },
+          "kind": "Head of state",
+          "source": {
+            "url": "https://u.ae/en/about-the-uae/the-uae-government/government-leaders",
+            "name": "u.ae (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true
         },
         {
           "title": "Prime Minister / Ruler of Dubai",
@@ -2037,7 +2072,15 @@
           "term": {
             "text": "serving since 2006 (PM)",
             "badge": null
-          }
+          },
+          "kind": "Head of government",
+          "source": {
+            "url": "https://u.ae/en/about-the-uae/the-uae-government/government-leaders",
+            "name": "u.ae (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true
         },
         {
           "title": "Minister of Foreign Affairs",
@@ -2102,7 +2145,8 @@
             "name": "Imperial Household Agency"
           },
           "asOf": "2026-10-07",
-          "verified": true
+          "verified": true,
+          "kind": "Head of state"
         },
         {
           "title": "Prime Minister",
@@ -2115,7 +2159,8 @@
             "name": "Prime Minister's Office, reshuffle press conference (2026-09-18)"
           },
           "asOf": "2026-10-07",
-          "verified": true
+          "verified": true,
+          "kind": "Head of government"
         },
         {
           "title": "Minister of Economy, Trade and Industry",
@@ -2164,7 +2209,15 @@
           "term": {
             "text": "elected; serving since May 2023",
             "badge": null
-          }
+          },
+          "kind": "Head of state and government",
+          "source": {
+            "url": "http://www.statehouse.gov.ng/",
+            "name": "statehouse.gov.ng (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true
         },
         {
           "title": "Key ministers (summary)",
@@ -2183,14 +2236,22 @@
       "label": "Chile · national",
       "roles": [
         {
-          "title": "President",
+          "title": "Head of state",
+          "kind": "Head of state",
           "name": "",
           "notCovered": true,
-          "plannedSource": "https://www.gob.cl/",
-          "contact": {
-            "site": "https://www.gob.cl/"
-          },
-          "checked": "2026-10-08"
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.gob.cl/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.gob.cl/"
         }
       ]
     },
@@ -12676,6 +12737,15 @@
       "label": "Canada",
       "roles": [
         {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://pm.gc.ca"
+        },
+        {
           "title": "Prime Minister",
           "name": "Mark Carney",
           "contact": {
@@ -12686,7 +12756,8 @@
             "name": "Prime Minister of Canada, Cabinet"
           },
           "asOf": "2026-10-07",
-          "verified": true
+          "verified": true,
+          "kind": "Head of government"
         },
         {
           "title": "Minister of International Trade",
@@ -12731,7 +12802,8 @@
             "name": "Presidencia de la República"
           },
           "asOf": "2026-10-07",
-          "verified": true
+          "verified": true,
+          "kind": "Head of state and government"
         },
         {
           "title": "Secretary of Economy",
@@ -12763,7 +12835,8 @@
             "name": "The State Council, PRC"
           },
           "asOf": "2026-10-07",
-          "verified": true
+          "verified": true,
+          "kind": "Head of state"
         },
         {
           "title": "Premier of the State Council",
@@ -12776,7 +12849,13 @@
             "name": "The State Council, PRC"
           },
           "asOf": "2026-10-07",
-          "verified": true
+          "verified": true,
+          "kind": "Head of government",
+          "since": {
+            "text": "2023",
+            "date": "2023",
+            "confirmedOn": "http://www.gov.cn/premier/index.htm"
+          }
         },
         {
           "title": "Minister of Commerce",
@@ -12808,7 +12887,8 @@
             "name": "Federal President of Germany"
           },
           "asOf": "2026-10-07",
-          "verified": true
+          "verified": true,
+          "kind": "Head of state"
         },
         {
           "title": "Federal Chancellor",
@@ -12821,7 +12901,8 @@
             "name": "Federal Chancellor"
           },
           "asOf": "2026-10-07",
-          "verified": true
+          "verified": true,
+          "kind": "Head of government"
         },
         {
           "title": "Federal Minister for Economic Affairs and Energy",
@@ -12853,7 +12934,13 @@
             "name": "Office of the President"
           },
           "asOf": "2026-10-07",
-          "verified": true
+          "verified": true,
+          "kind": "Head of state and government",
+          "since": {
+            "text": "2025",
+            "date": "2025",
+            "confirmedOn": "https://en.president.go.kr/"
+          }
         },
         {
           "title": "Minister for Trade (Ministry of Trade, Industry and Resources)",
@@ -12875,6 +12962,22 @@
       "label": "United Kingdom",
       "roles": [
         {
+          "title": "King",
+          "kind": "Head of state",
+          "name": "Charles III",
+          "contact": {
+            "site": "https://www.royal.uk/the-king-0"
+          },
+          "source": {
+            "url": "https://www.royal.uk/the-king-0",
+            "name": "royal.uk (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
           "title": "Prime Minister",
           "name": "Andy Burnham",
           "contact": {
@@ -12885,7 +12988,13 @@
             "name": "GOV.UK, Ministers"
           },
           "asOf": "2026-10-07",
-          "verified": true
+          "verified": true,
+          "kind": "Head of government",
+          "since": {
+            "text": "Jul 20, 2026",
+            "date": "2026-07-20",
+            "confirmedOn": "https://www.gov.uk/government/organisations/prime-ministers-office-10-downing-street"
+          }
         },
         {
           "title": "Secretary of State for Business, Innovation, Science and Trade",
@@ -12917,7 +13026,8 @@
             "name": "Office of the President"
           },
           "asOf": "2026-10-07",
-          "verified": true
+          "verified": true,
+          "kind": "Head of state"
         },
         {
           "title": "Premier",
@@ -12930,7 +13040,8 @@
             "name": "Executive Yuan"
           },
           "asOf": "2026-10-07",
-          "verified": true
+          "verified": true,
+          "kind": "Head of government"
         },
         {
           "title": "Minister of Economic Affairs",
@@ -12962,7 +13073,8 @@
             "name": "Vietnam.vn (government appointments, 2026-04-08)"
           },
           "asOf": "2026-10-07",
-          "verified": true
+          "verified": true,
+          "kind": "Head of state"
         },
         {
           "title": "Prime Minister",
@@ -12975,7 +13087,8 @@
             "name": "Government portal (2026-04-07)"
           },
           "asOf": "2026-10-07",
-          "verified": true
+          "verified": true,
+          "kind": "Head of government"
         },
         {
           "title": "Minister of Industry and Trade",
@@ -12997,6 +13110,15 @@
       "label": "Puerto Rico",
       "roles": [
         {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.fortaleza.gobierno.pr"
+        },
+        {
           "title": "Governor",
           "name": "Jenniffer González-Colón",
           "contact": {
@@ -13007,7 +13129,8 @@
             "name": "National Governors Association roster"
           },
           "asOf": "2026-10-07",
-          "verified": true
+          "verified": true,
+          "kind": "Head of government"
         },
         {
           "title": "Secretary of State (first in line of succession)",
@@ -13298,6 +13421,4893 @@
           },
           "asOf": "2026-10-07",
           "verified": true
+        }
+      ]
+    },
+    "_ncyprus": {
+      "level": "country",
+      "label": "Northern Cyprus",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "_somaliland": {
+      "level": "country",
+      "label": "Somaliland",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "af": {
+      "level": "country",
+      "label": "Afghanistan",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "al": {
+      "level": "country",
+      "label": "Albania",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.president.al/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.president.al/"
+        }
+      ]
+    },
+    "am": {
+      "level": "country",
+      "label": "Armenia",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Vahagn Khachaturyan",
+          "contact": {
+            "site": "https://www.president.am"
+          },
+          "source": {
+            "url": "https://www.president.am",
+            "name": "president.am (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Nikol Pashinyan",
+          "contact": {
+            "site": "http://www.primeminister.am/hy"
+          },
+          "source": {
+            "url": "http://www.primeminister.am/hy",
+            "name": "primeminister.am (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "ao": {
+      "level": "country",
+      "label": "Angola",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state and government",
+          "name": "João Lourenço",
+          "contact": {
+            "site": "https://governo.gov.ao/"
+          },
+          "source": {
+            "url": "https://governo.gov.ao/biografia/presid%C3%AAncia/jo%C3%A3o-manuel-gon%C3%A7alves-louren%C3%A7o",
+            "name": "governo.gov.ao (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2017",
+            "date": "2017",
+            "confirmedOn": "https://governo.gov.ao/biografia/presid%C3%AAncia/jo%C3%A3o-manuel-gon%C3%A7alves-louren%C3%A7o"
+          }
+        }
+      ]
+    },
+    "ar": {
+      "level": "country",
+      "label": "Argentina",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state and government",
+          "name": "Javier Gerardo Milei",
+          "contact": {
+            "site": "https://www.argentina.gob.ar/presidencia"
+          },
+          "source": {
+            "url": "https://www.argentina.gob.ar/presidencia",
+            "name": "argentina.gob.ar (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "at": {
+      "level": "country",
+      "label": "Austria",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Alexander Van der Bellen",
+          "contact": {
+            "site": "http://www.bundespraesident.at/"
+          },
+          "source": {
+            "url": "http://www.bundespraesident.at/",
+            "name": "bundespraesident.at (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Federal Chancellor",
+          "kind": "Head of government",
+          "name": "Christian Stocker",
+          "contact": {
+            "site": "https://www.bundeskanzleramt.gv.at"
+          },
+          "source": {
+            "url": "https://www.bundeskanzleramt.gv.at",
+            "name": "bundeskanzleramt.gv.at (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "au": {
+      "level": "country",
+      "label": "Australia",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.pm.gov.au/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.pm.gov.au/"
+        }
+      ]
+    },
+    "az": {
+      "level": "country",
+      "label": "Azerbaijan",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Ilham Aliyev",
+          "contact": {
+            "site": "http://en.president.az/"
+          },
+          "source": {
+            "url": "http://en.president.az/",
+            "name": "en.president.az (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Ali Asadov",
+          "contact": {
+            "site": "http://cabmin.gov.az"
+          },
+          "source": {
+            "url": "http://cabmin.gov.az",
+            "name": "cabmin.gov.az (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "ba": {
+      "level": "country",
+      "label": "Bosnia and Herzegovina",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.predsjednistvobih.ba"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.predsjednistvobih.ba"
+        }
+      ]
+    },
+    "bd": {
+      "level": "country",
+      "label": "Bangladesh",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.bangabhaban.gov.bd/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.bangabhaban.gov.bd/"
+        }
+      ]
+    },
+    "be": {
+      "level": "country",
+      "label": "Belgium",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.premier.be/"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Bart De Wever",
+          "contact": {
+            "site": "https://www.premier.be/"
+          },
+          "source": {
+            "url": "https://www.premier.be/",
+            "name": "premier.be (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "bf": {
+      "level": "country",
+      "label": "Burkina Faso",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Ibrahim Traoré",
+          "contact": {
+            "site": "https://www.gouvernement.gov.bf/accueil"
+          },
+          "source": {
+            "url": "https://www.gouvernement.gov.bf/accueil",
+            "name": "gouvernement.gov.bf (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "Sep 30, 2022",
+            "date": "2022-09-30",
+            "confirmedOn": "https://www.gouvernement.gov.bf/accueil"
+          }
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.gouvernement.gov.bf/accueil"
+        }
+      ]
+    },
+    "bg": {
+      "level": "country",
+      "label": "Bulgaria",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Iliana Iotova",
+          "contact": {
+            "site": "https://www.president.bg/"
+          },
+          "source": {
+            "url": "https://www.president.bg/",
+            "name": "president.bg (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2026",
+            "date": "2026",
+            "confirmedOn": "https://www.president.bg/"
+          }
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Rumen Radev",
+          "contact": {
+            "site": "https://www.government.bg/"
+          },
+          "source": {
+            "url": "https://www.government.bg/",
+            "name": "government.bg (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2026",
+            "date": "2026",
+            "confirmedOn": "https://www.government.bg/"
+          }
+        }
+      ]
+    },
+    "bi": {
+      "level": "country",
+      "label": "Burundi",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Évariste Ndayishimiye",
+          "contact": {
+            "site": "https://www.presidence.gov.bi/"
+          },
+          "source": {
+            "url": "https://www.presidence.gov.bi/",
+            "name": "presidence.gov.bi (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.presidence.gov.bi/"
+        }
+      ]
+    },
+    "bj": {
+      "level": "country",
+      "label": "Benin",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Romuald Wadagni",
+          "contact": {
+            "site": "https://presidence.bj/"
+          },
+          "source": {
+            "url": "https://presidence.bj/",
+            "name": "presidence.bj (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "May 24, 2026",
+            "date": "2026-05-24",
+            "confirmedOn": "https://presidence.bj/"
+          }
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://presidence.bj/"
+        }
+      ]
+    },
+    "bn": {
+      "level": "country",
+      "label": "Brunei",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.gov.bn/SitePages/Home.aspx"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.gov.bn/SitePages/Home.aspx"
+        }
+      ]
+    },
+    "bo": {
+      "level": "country",
+      "label": "Bolivia",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state and government",
+          "name": "Rodrigo Paz",
+          "contact": {
+            "site": "http://www.presidencia.gob.bo/"
+          },
+          "source": {
+            "url": "http://www.presidencia.gob.bo/",
+            "name": "presidencia.gob.bo (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "br": {
+      "level": "country",
+      "label": "Brazil",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state and government",
+          "name": "Luiz Inácio Lula da Silva",
+          "contact": {
+            "site": "https://www.gov.br/planalto/"
+          },
+          "source": {
+            "url": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biografia-do-presidente",
+            "name": "gov.br (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "bs": {
+      "level": "country",
+      "label": "Bahamas",
+      "roles": [
+        {
+          "title": "King",
+          "kind": "Head of state",
+          "name": "Charles III",
+          "contact": {
+            "site": "https://www.bahamas.gov.bs/"
+          },
+          "source": {
+            "url": "https://www.bahamas.gov.bs/",
+            "name": "bahamas.gov.bs (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Philip Davis",
+          "contact": {
+            "site": "https://www.bahamas.gov.bs/"
+          },
+          "source": {
+            "url": "https://www.bahamas.gov.bs/",
+            "name": "bahamas.gov.bs (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "bt": {
+      "level": "country",
+      "label": "Bhutan",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.bhutan.gov.bt"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.bhutan.gov.bt"
+        }
+      ]
+    },
+    "bw": {
+      "level": "country",
+      "label": "Botswana",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Duma Gideon Boko",
+          "contact": {
+            "site": "https://gov.bw/"
+          },
+          "source": {
+            "url": "https://gov.bw/",
+            "name": "gov.bw (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2024",
+            "date": "2024",
+            "confirmedOn": "https://gov.bw/"
+          }
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://gov.bw/"
+        }
+      ]
+    },
+    "by": {
+      "level": "country",
+      "label": "Belarus",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Aleksandr Lukashenko",
+          "contact": {
+            "site": "https://president.gov.by/"
+          },
+          "source": {
+            "url": "https://president.gov.by/",
+            "name": "president.gov.by (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://president.gov.by/"
+        }
+      ]
+    },
+    "bz": {
+      "level": "country",
+      "label": "Belize",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.belize.gov.bz/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.belize.gov.bz/"
+        }
+      ]
+    },
+    "cd": {
+      "level": "country",
+      "label": "Democratic Republic of the Congo",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "cf": {
+      "level": "country",
+      "label": "Central African Republic",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://la-renaissance.cf"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://la-renaissance.cf"
+        }
+      ]
+    },
+    "cg": {
+      "level": "country",
+      "label": "Republic of the Congo",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Denis Sassou Nguesso",
+          "contact": {
+            "site": "https://gouvernement.cg/"
+          },
+          "source": {
+            "url": "https://gouvernement.cg/",
+            "name": "gouvernement.cg (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.sgg.cg/fr/accueil.html"
+        }
+      ]
+    },
+    "ch": {
+      "level": "country",
+      "label": "Switzerland",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.admin.ch/gov/de/start.html"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.admin.ch/gov/de/start.html"
+        }
+      ]
+    },
+    "ci": {
+      "level": "country",
+      "label": "Côte d'Ivoire",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Alassane Ouattara",
+          "contact": {
+            "site": "https://www.gouv.ci/Main.php"
+          },
+          "source": {
+            "url": "https://www.gouv.ci/Main.php",
+            "name": "gouv.ci (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Robert Beugré Mambé",
+          "contact": {
+            "site": "http://www.premierministre.ci/"
+          },
+          "source": {
+            "url": "http://www.premierministre.ci/",
+            "name": "premierministre.ci (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "cm": {
+      "level": "country",
+      "label": "Cameroon",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Paul Biya",
+          "contact": {
+            "site": "https://www.prc.cm/en/"
+          },
+          "source": {
+            "url": "https://www.prc.cm/en/",
+            "name": "prc.cm (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "1982",
+            "date": "1982",
+            "confirmedOn": "https://www.prc.cm/en/"
+          }
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.prc.cm/en/"
+        }
+      ]
+    },
+    "co": {
+      "level": "country",
+      "label": "Colombia",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://wsp.presidencia.gov.co"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://wsp.presidencia.gov.co"
+        }
+      ]
+    },
+    "cr": {
+      "level": "country",
+      "label": "Costa Rica",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state and government",
+          "name": "Laura Fernández",
+          "contact": {
+            "site": "https://presidencia.go.cr"
+          },
+          "source": {
+            "url": "https://presidencia.go.cr",
+            "name": "presidencia.go.cr (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2026",
+            "date": "2026",
+            "confirmedOn": "https://presidencia.go.cr"
+          }
+        }
+      ]
+    },
+    "cu": {
+      "level": "country",
+      "label": "Cuba",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.cubagob.cu/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.cubagob.cu/"
+        }
+      ]
+    },
+    "cv": {
+      "level": "country",
+      "label": "Cape Verde",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "José Maria Neves",
+          "contact": {
+            "site": "https://www.governo.cv/outros-orgaos-do-estado/presidencia/"
+          },
+          "source": {
+            "url": "https://www.governo.cv/outros-orgaos-do-estado/presidencia/",
+            "name": "governo.cv (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Francisco Carvalho",
+          "contact": {
+            "site": "https://www.governo.cv/governo/primeiro-ministro-e-ministro-das-financas/"
+          },
+          "source": {
+            "url": "https://www.governo.cv/governo/primeiro-ministro-e-ministro-das-financas/",
+            "name": "governo.cv (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2026",
+            "date": "2026",
+            "confirmedOn": "https://www.governo.cv/governo/primeiro-ministro-e-ministro-das-financas/"
+          }
+        }
+      ]
+    },
+    "cy": {
+      "level": "country",
+      "label": "Cyprus",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.presidency.gov.cy/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.presidency.gov.cy/"
+        }
+      ]
+    },
+    "cz": {
+      "level": "country",
+      "label": "Czechia",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Petr Pavel",
+          "contact": {
+            "site": "https://www.hrad.cz/"
+          },
+          "source": {
+            "url": "https://www.hrad.cz/",
+            "name": "hrad.cz (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.hrad.cz/"
+        }
+      ]
+    },
+    "dj": {
+      "level": "country",
+      "label": "Djibouti",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "dk": {
+      "level": "country",
+      "label": "Denmark",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.stm.dk/Index/mainstart.asp/_a_1644.html"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.stm.dk/Index/mainstart.asp/_a_1644.html"
+        }
+      ]
+    },
+    "dm": {
+      "level": "country",
+      "label": "Dominica",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Sylvanie Burton",
+          "contact": {
+            "site": "http://www.dominica.gov.dm/"
+          },
+          "source": {
+            "url": "http://www.dominica.gov.dm/",
+            "name": "dominica.gov.dm (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Roosevelt Skerrit",
+          "contact": {
+            "site": "https://dominica.gov.dm/"
+          },
+          "source": {
+            "url": "https://dominica.gov.dm/",
+            "name": "dominica.gov.dm (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "do": {
+      "level": "country",
+      "label": "Dominican Republic",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidencia.gov.do/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidencia.gov.do/"
+        }
+      ]
+    },
+    "dz": {
+      "level": "country",
+      "label": "Algeria",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.el-mouradia.dz/ar/home"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.el-mouradia.dz/ar/home"
+        }
+      ]
+    },
+    "ec": {
+      "level": "country",
+      "label": "Ecuador",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidencia.gov.ec"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidencia.gov.ec"
+        }
+      ]
+    },
+    "ee": {
+      "level": "country",
+      "label": "Estonia",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Alar Karis",
+          "contact": {
+            "site": "http://www.president.ee/"
+          },
+          "source": {
+            "url": "http://www.president.ee/",
+            "name": "president.ee (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Kristen Michal",
+          "contact": {
+            "site": "https://valitsus.ee/"
+          },
+          "source": {
+            "url": "https://valitsus.ee/",
+            "name": "valitsus.ee (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2024",
+            "date": "2024",
+            "confirmedOn": "https://valitsus.ee/"
+          }
+        }
+      ]
+    },
+    "eg": {
+      "level": "country",
+      "label": "Egypt",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Abdel Fattah el-Sisi",
+          "contact": {
+            "site": "https://www.presidency.eg"
+          },
+          "source": {
+            "url": "https://www.presidency.eg",
+            "name": "presidency.eg (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Mostafa Madbouly",
+          "contact": {
+            "site": "https://www.cabinet.gov.eg"
+          },
+          "source": {
+            "url": "https://www.cabinet.gov.eg",
+            "name": "cabinet.gov.eg (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "eh": {
+      "level": "country",
+      "label": "Western Sahara",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "er": {
+      "level": "country",
+      "label": "Eritrea",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "es": {
+      "level": "country",
+      "label": "Spain",
+      "roles": [
+        {
+          "title": "King",
+          "kind": "Head of state",
+          "name": "Felipe VI",
+          "contact": {
+            "site": "http://www.casareal.es"
+          },
+          "source": {
+            "url": "http://www.casareal.es",
+            "name": "casareal.es (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "Jun 19, 2014",
+            "date": "2014-06-19",
+            "confirmedOn": "http://www.casareal.es"
+          }
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Pedro Sánchez",
+          "contact": {
+            "site": "http://www.lamoncloa.gob.es"
+          },
+          "source": {
+            "url": "http://www.lamoncloa.gob.es",
+            "name": "lamoncloa.gob.es (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "et": {
+      "level": "country",
+      "label": "Ethiopia",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "fi": {
+      "level": "country",
+      "label": "Finland",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Alexander Stubb",
+          "contact": {
+            "site": "https://www.presidentti.fi/"
+          },
+          "source": {
+            "url": "https://www.presidentti.fi/",
+            "name": "presidentti.fi (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.presidentti.fi/"
+        }
+      ]
+    },
+    "fj": {
+      "level": "country",
+      "label": "Fiji",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.pmoffice.gov.fj/"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Sitiveni Rabuka",
+          "contact": {
+            "site": "https://www.pmoffice.gov.fj/"
+          },
+          "source": {
+            "url": "https://www.pmoffice.gov.fj/",
+            "name": "pmoffice.gov.fj (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "fk": {
+      "level": "country",
+      "label": "Falkland Islands",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.gov.uk/world/organisations/governors-office-stanley"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.gov.uk/world/organisations/governors-office-stanley"
+        }
+      ]
+    },
+    "fr": {
+      "level": "country",
+      "label": "France",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Emmanuel Macron",
+          "contact": {
+            "site": "https://www.elysee.fr/"
+          },
+          "source": {
+            "url": "https://www.elysee.fr/",
+            "name": "elysee.fr (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Sébastien Lecornu",
+          "contact": {
+            "site": "https://www.info.gouv.fr/le-premier-ministre"
+          },
+          "source": {
+            "url": "https://www.info.gouv.fr/agenda/ministre/sebastien-lecornu",
+            "name": "info.gouv.fr (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "ga": {
+      "level": "country",
+      "label": "Gabon",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://gouvernement.ga"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://gouvernement.ga"
+        }
+      ]
+    },
+    "ge": {
+      "level": "country",
+      "label": "Georgia",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://president.ge/ka"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://president.ge/ka"
+        }
+      ]
+    },
+    "gh": {
+      "level": "country",
+      "label": "Ghana",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "John Dramani Mahama",
+          "contact": {
+            "site": "http://www.presidency.gov.gh"
+          },
+          "source": {
+            "url": "https://www.ghana.gov.gh/about/",
+            "name": "ghana.gov.gh (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidency.gov.gh"
+        }
+      ]
+    },
+    "gl": {
+      "level": "country",
+      "label": "Greenland",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://naalakkersuisut.gl/en/Naalakkersuisut/Departments/Formandens-departement"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Jens-Frederik Nielsen",
+          "contact": {
+            "site": "http://naalakkersuisut.gl/en/Naalakkersuisut/Departments/Formandens-departement"
+          },
+          "source": {
+            "url": "https://naalakkersuisut.gl",
+            "name": "naalakkersuisut.gl (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "gm": {
+      "level": "country",
+      "label": "Gambia",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state and government",
+          "name": "Adama Barrow",
+          "contact": {
+            "site": "https://op.gov.gm/"
+          },
+          "source": {
+            "url": "https://op.gov.gm/",
+            "name": "op.gov.gm (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "gn": {
+      "level": "country",
+      "label": "Guinea",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.primature.gov.gn/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.primature.gov.gn/"
+        }
+      ]
+    },
+    "gq": {
+      "level": "country",
+      "label": "Equatorial Guinea",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "gr": {
+      "level": "country",
+      "label": "Greece",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.presidency.gr"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.presidency.gr"
+        }
+      ]
+    },
+    "gt": {
+      "level": "country",
+      "label": "Guatemala",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.guatemala.gob.gt"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.guatemala.gob.gt"
+        }
+      ]
+    },
+    "gw": {
+      "level": "country",
+      "label": "Guinea-Bissau",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.presidencia.gw/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.presidencia.gw/"
+        }
+      ]
+    },
+    "gy": {
+      "level": "country",
+      "label": "Guyana",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Irfaan Ali",
+          "contact": {
+            "site": "http://www.op.gov.gy/"
+          },
+          "source": {
+            "url": "http://www.op.gov.gy/",
+            "name": "op.gov.gy (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.op.gov.gy/"
+        }
+      ]
+    },
+    "hn": {
+      "level": "country",
+      "label": "Honduras",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidencia.gob.hn/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidencia.gob.hn/"
+        }
+      ]
+    },
+    "hr": {
+      "level": "country",
+      "label": "Croatia",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Zoran Milanović",
+          "contact": {
+            "site": "https://www.predsjednik.hr"
+          },
+          "source": {
+            "url": "https://www.predsjednik.hr",
+            "name": "predsjednik.hr (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Andrej Plenković",
+          "contact": {
+            "site": "http://www.vlada.hr/"
+          },
+          "source": {
+            "url": "http://www.vlada.hr/",
+            "name": "vlada.hr (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "ht": {
+      "level": "country",
+      "label": "Haiti",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.communication.gouv.ht/rubrique/presidence/"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Alix Didier Fils-Aimé",
+          "contact": {
+            "site": "http://primature.gouv.ht/"
+          },
+          "source": {
+            "url": "http://primature.gouv.ht/",
+            "name": "primature.gouv.ht (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2024",
+            "date": "2024",
+            "confirmedOn": "http://primature.gouv.ht/"
+          }
+        }
+      ]
+    },
+    "hu": {
+      "level": "country",
+      "label": "Hungary",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Baka András",
+          "contact": {
+            "site": "http://www.keh.hu"
+          },
+          "source": {
+            "url": "http://www.keh.hu",
+            "name": "keh.hu (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2026",
+            "date": "2026",
+            "confirmedOn": "http://www.keh.hu"
+          }
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.keh.hu"
+        }
+      ]
+    },
+    "id": {
+      "level": "country",
+      "label": "Indonesia",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.presidenri.go.id/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.presidenri.go.id/"
+        }
+      ]
+    },
+    "ie": {
+      "level": "country",
+      "label": "Ireland",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Catherine Connolly",
+          "contact": {
+            "site": "https://president.ie/en"
+          },
+          "source": {
+            "url": "https://president.ie/en",
+            "name": "president.ie (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Taoiseach",
+          "kind": "Head of government",
+          "name": "Micheál Martin",
+          "contact": {
+            "site": "https://www.gov.ie/en/organisation/department-of-the-taoiseach/"
+          },
+          "source": {
+            "url": "https://www.gov.ie/en/organisation/department-of-the-taoiseach/",
+            "name": "gov.ie (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "il": {
+      "level": "country",
+      "label": "Israel",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Isaac Herzog",
+          "contact": {
+            "site": "https://president.gov.il"
+          },
+          "source": {
+            "url": "https://president.gov.il",
+            "name": "president.gov.il (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Benjamin Netanyahu",
+          "contact": {
+            "site": "https://www.gov.il/he/departments/prime_ministers_office"
+          },
+          "source": {
+            "url": "https://www.gov.il/he/departments/prime_ministers_office",
+            "name": "gov.il (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "iq": {
+      "level": "country",
+      "label": "Iraq",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.pmo.iq/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.pmo.iq/"
+        }
+      ]
+    },
+    "ir": {
+      "level": "country",
+      "label": "Iran",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://president.ir"
+        },
+        {
+          "title": "President",
+          "kind": "Head of government",
+          "name": "Masoud Pezeshkian",
+          "contact": {
+            "site": "https://president.ir"
+          },
+          "source": {
+            "url": "https://president.ir",
+            "name": "president.ir (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "is": {
+      "level": "country",
+      "label": "Iceland",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://english.forseti.is"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://english.forseti.is"
+        }
+      ]
+    },
+    "it": {
+      "level": "country",
+      "label": "Italy",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Sergio Mattarella",
+          "contact": {
+            "site": "http://www.quirinale.it/"
+          },
+          "source": {
+            "url": "http://www.quirinale.it/",
+            "name": "quirinale.it (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.quirinale.it/"
+        }
+      ]
+    },
+    "jm": {
+      "level": "country",
+      "label": "Jamaica",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://kingshouse.gov.jm/"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Andrew Holness",
+          "contact": {
+            "site": "http://www.opm.gov.jm/"
+          },
+          "source": {
+            "url": "http://www.opm.gov.jm/",
+            "name": "opm.gov.jm (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "jo": {
+      "level": "country",
+      "label": "Jordan",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.pm.gov.jo"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Jafar Hassan",
+          "contact": {
+            "site": "https://www.pm.gov.jo"
+          },
+          "source": {
+            "url": "https://www.pm.gov.jo",
+            "name": "pm.gov.jo (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "ke": {
+      "level": "country",
+      "label": "Kenya",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state and government",
+          "name": "William Ruto",
+          "contact": {
+            "site": "http://www.statehousekenya.go.ke/"
+          },
+          "source": {
+            "url": "http://www.president.go.ke",
+            "name": "president.go.ke (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "kg": {
+      "level": "country",
+      "label": "Kyrgyzstan",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.president.kg"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Adylbek Kasymaliev",
+          "contact": {
+            "site": "https://www.gov.kg/ky"
+          },
+          "source": {
+            "url": "https://www.gov.kg/ky",
+            "name": "gov.kg (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "kh": {
+      "level": "country",
+      "label": "Cambodia",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.samdechhunsen.gov.kh/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.samdechhunsen.gov.kh/"
+        }
+      ]
+    },
+    "km": {
+      "level": "country",
+      "label": "Comoros",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "kp": {
+      "level": "country",
+      "label": "North Korea",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "kw": {
+      "level": "country",
+      "label": "Kuwait",
+      "roles": [
+        {
+          "title": "Emir",
+          "kind": "Head of state",
+          "name": "Mishal Al-Ahmad Al-Jaber Al-Sabah",
+          "contact": {
+            "site": "http://www.da.gov.kw"
+          },
+          "source": {
+            "url": "http://www.da.gov.kw",
+            "name": "da.gov.kw (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2023",
+            "date": "2023",
+            "confirmedOn": "http://www.da.gov.kw"
+          }
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.da.gov.kw"
+        }
+      ]
+    },
+    "kz": {
+      "level": "country",
+      "label": "Kazakhstan",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Kassym-Jomart Tokayev",
+          "contact": {
+            "site": "http://akorda.kz/"
+          },
+          "source": {
+            "url": "http://akorda.kz/",
+            "name": "akorda.kz (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Oljas Bektenov",
+          "contact": {
+            "site": "http://www.primeminister.kz/"
+          },
+          "source": {
+            "url": "http://www.primeminister.kz/",
+            "name": "primeminister.kz (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2024",
+            "date": "2024",
+            "confirmedOn": "http://www.primeminister.kz/"
+          }
+        }
+      ]
+    },
+    "la": {
+      "level": "country",
+      "label": "Laos",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "lb": {
+      "level": "country",
+      "label": "Lebanon",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Joseph Aoun",
+          "contact": {
+            "site": "http://www.presidency.gov.lb/"
+          },
+          "source": {
+            "url": "http://www.presidency.gov.lb/",
+            "name": "presidency.gov.lb (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2025",
+            "date": "2025",
+            "confirmedOn": "http://www.presidency.gov.lb/"
+          }
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Nawaf Salam",
+          "contact": {
+            "site": "http://www.pcm.gov.lb"
+          },
+          "source": {
+            "url": "http://www.pcm.gov.lb",
+            "name": "pcm.gov.lb (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2025",
+            "date": "2025",
+            "confirmedOn": "http://www.pcm.gov.lb"
+          }
+        }
+      ]
+    },
+    "lc": {
+      "level": "country",
+      "label": "Saint Lucia",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.govt.lc/"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Philip J. Pierre",
+          "contact": {
+            "site": "http://www.govt.lc/"
+          },
+          "source": {
+            "url": "http://www.govt.lc/",
+            "name": "govt.lc (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "lk": {
+      "level": "country",
+      "label": "Sri Lanka",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Anura Kumara Dissanayake",
+          "contact": {
+            "site": "https://www.president.gov.lk"
+          },
+          "source": {
+            "url": "https://www.president.gov.lk",
+            "name": "president.gov.lk (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.president.gov.lk"
+        }
+      ]
+    },
+    "lr": {
+      "level": "country",
+      "label": "Liberia",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state and government",
+          "name": "Joseph Boakai",
+          "contact": {
+            "site": "http://www.emansion.gov.lr/"
+          },
+          "source": {
+            "url": "https://www.emansion.gov.lr/general/biography-president-joseph-nyuma-boakai-sr",
+            "name": "emansion.gov.lr (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "Jan 22, 2024",
+            "date": "2024-01-22",
+            "confirmedOn": "https://www.emansion.gov.lr/general/biography-president-joseph-nyuma-boakai-sr"
+          }
+        }
+      ]
+    },
+    "ls": {
+      "level": "country",
+      "label": "Lesotho",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.gov.ls/"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Sam Matekane",
+          "contact": {
+            "site": "https://www.gov.ls/"
+          },
+          "source": {
+            "url": "https://www.gov.ls/",
+            "name": "gov.ls (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "lt": {
+      "level": "country",
+      "label": "Lithuania",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.president.lt/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.president.lt/"
+        }
+      ]
+    },
+    "lu": {
+      "level": "country",
+      "label": "Luxembourg",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.monarchie.lu/"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Luc Frieden",
+          "contact": {
+            "site": "https://gouvernement.lu/fr.html"
+          },
+          "source": {
+            "url": "https://gouvernement.lu/fr.html",
+            "name": "gouvernement.lu (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "lv": {
+      "level": "country",
+      "label": "Latvia",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Edgars Rinkēvičs",
+          "contact": {
+            "site": "https://www.president.lv/"
+          },
+          "source": {
+            "url": "https://www.president.lv/",
+            "name": "president.lv (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2023",
+            "date": "2023",
+            "confirmedOn": "https://www.president.lv/"
+          }
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Andris Kulbergs",
+          "contact": {
+            "site": "https://www.mk.gov.lv/"
+          },
+          "source": {
+            "url": "https://www.mk.gov.lv/",
+            "name": "mk.gov.lv (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2026",
+            "date": "2026",
+            "confirmedOn": "https://www.mk.gov.lv/"
+          }
+        }
+      ]
+    },
+    "ly": {
+      "level": "country",
+      "label": "Libya",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.pm.gov.ly/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.pm.gov.ly/"
+        }
+      ]
+    },
+    "ma": {
+      "level": "country",
+      "label": "Morocco",
+      "roles": [
+        {
+          "title": "King",
+          "kind": "Head of state",
+          "name": "Mohammed VI",
+          "contact": {
+            "site": "https://maroc.ma/"
+          },
+          "source": {
+            "url": "https://maroc.ma/",
+            "name": "maroc.ma (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://maroc.ma/"
+        }
+      ]
+    },
+    "md": {
+      "level": "country",
+      "label": "Moldova",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Maia Sandu",
+          "contact": {
+            "site": "https://presedinte.md/"
+          },
+          "source": {
+            "url": "https://presedinte.md/",
+            "name": "presedinte.md (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Vasile Tofan",
+          "contact": {
+            "site": "https://gov.md"
+          },
+          "source": {
+            "url": "https://gov.md",
+            "name": "gov.md (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2026",
+            "date": "2026",
+            "confirmedOn": "https://gov.md"
+          }
+        }
+      ]
+    },
+    "me": {
+      "level": "country",
+      "label": "Montenegro",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.predsjednik.me/"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Milojko Spajić",
+          "contact": {
+            "site": "https://www.gov.me"
+          },
+          "source": {
+            "url": "https://www.gov.me",
+            "name": "gov.me (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "mg": {
+      "level": "country",
+      "label": "Madagascar",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.primature.gov.mg/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.primature.gov.mg/"
+        }
+      ]
+    },
+    "mk": {
+      "level": "country",
+      "label": "North Macedonia",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://pretsedatel.mk/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://pretsedatel.mk/"
+        }
+      ]
+    },
+    "ml": {
+      "level": "country",
+      "label": "Mali",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.primature.gov.ml"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.primature.gov.ml"
+        }
+      ]
+    },
+    "mm": {
+      "level": "country",
+      "label": "Myanmar",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.myanmar.gov.mm/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.myanmar.gov.mm/"
+        }
+      ]
+    },
+    "mn": {
+      "level": "country",
+      "label": "Mongolia",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://president.mn/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://president.mn/"
+        }
+      ]
+    },
+    "mr": {
+      "level": "country",
+      "label": "Mauritania",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "mt": {
+      "level": "country",
+      "label": "Malta",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Myriam Spiteri Debono",
+          "contact": {
+            "site": "https://president.gov.mt/"
+          },
+          "source": {
+            "url": "https://president.gov.mt/",
+            "name": "president.gov.mt (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2024",
+            "date": "2024",
+            "confirmedOn": "https://president.gov.mt/"
+          }
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://president.gov.mt/"
+        }
+      ]
+    },
+    "mu": {
+      "level": "country",
+      "label": "Mauritius",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Dharam Gokhool",
+          "contact": {
+            "site": "http://president.gov.mu"
+          },
+          "source": {
+            "url": "https://president.govmu.org/",
+            "name": "president.govmu.org (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "Dec 7, 2024",
+            "date": "2024-12-07",
+            "confirmedOn": "https://president.govmu.org/"
+          }
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://president.gov.mu"
+        }
+      ]
+    },
+    "mv": {
+      "level": "country",
+      "label": "Maldives",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidencymaldives.gov.mv/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidencymaldives.gov.mv/"
+        }
+      ]
+    },
+    "mw": {
+      "level": "country",
+      "label": "Malawi",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Peter Mutharika",
+          "contact": {
+            "site": "https://statehouse.mw/"
+          },
+          "source": {
+            "url": "http://www.malawi.gov.mw/",
+            "name": "malawi.gov.mw (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "Oct 4, 2025",
+            "date": "2025-10-04",
+            "confirmedOn": "http://www.malawi.gov.mw/"
+          }
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://statehouse.mw/"
+        }
+      ]
+    },
+    "my": {
+      "level": "country",
+      "label": "Malaysia",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.istananegara.gov.my/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.istananegara.gov.my/"
+        }
+      ]
+    },
+    "mz": {
+      "level": "country",
+      "label": "Mozambique",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Daniel Francisco Chapo",
+          "contact": {
+            "site": "https://portaldogoverno.gov.mz/informacao-geral/"
+          },
+          "source": {
+            "url": "https://portaldogoverno.gov.mz/informacao-geral/",
+            "name": "portaldogoverno.gov.mz (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Maria Benvinda Levy",
+          "contact": {
+            "site": "https://portaldogoverno.gov.mz/informacao-geral/"
+          },
+          "source": {
+            "url": "https://portaldogoverno.gov.mz/informacao-geral/",
+            "name": "portaldogoverno.gov.mz (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "na": {
+      "level": "country",
+      "label": "Namibia",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://op.gov.na/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://op.gov.na/"
+        }
+      ]
+    },
+    "nc": {
+      "level": "country",
+      "label": "New Caledonia",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://gouv.nc"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://gouv.nc"
+        }
+      ]
+    },
+    "ne": {
+      "level": "country",
+      "label": "Niger",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidence.ne/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidence.ne/"
+        }
+      ]
+    },
+    "ni": {
+      "level": "country",
+      "label": "Nicaragua",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidencia.gob.ni/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidencia.gob.ni/"
+        }
+      ]
+    },
+    "nl": {
+      "level": "country",
+      "label": "Netherlands",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.government.nl/ministries/ministry-of-general-affairs"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Rob Jetten",
+          "contact": {
+            "site": "https://www.government.nl/ministries/ministry-of-general-affairs"
+          },
+          "source": {
+            "url": "https://www.government.nl/ministries/ministry-of-general-affairs",
+            "name": "government.nl (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2026",
+            "date": "2026",
+            "confirmedOn": "https://www.government.nl/ministries/ministry-of-general-affairs"
+          }
+        }
+      ]
+    },
+    "no": {
+      "level": "country",
+      "label": "Norway",
+      "roles": [
+        {
+          "title": "King",
+          "kind": "Head of state",
+          "name": "Haakon VIII",
+          "contact": {
+            "site": "https://www.kongehuset.no/"
+          },
+          "source": {
+            "url": "https://www.kongehuset.no/",
+            "name": "kongehuset.no (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2026",
+            "date": "2026",
+            "confirmedOn": "https://www.kongehuset.no/"
+          }
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.kongehuset.no/"
+        }
+      ]
+    },
+    "np": {
+      "level": "country",
+      "label": "Nepal",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Ram Chandra Paudel",
+          "contact": {
+            "site": "https://www.presidentofnepal.gov.np/"
+          },
+          "source": {
+            "url": "https://www.presidentofnepal.gov.np/",
+            "name": "presidentofnepal.gov.np (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.presidentofnepal.gov.np/"
+        }
+      ]
+    },
+    "nz": {
+      "level": "country",
+      "label": "New Zealand",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.primeminister.govt.nz/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.primeminister.govt.nz/"
+        }
+      ]
+    },
+    "om": {
+      "level": "country",
+      "label": "Oman",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "pa": {
+      "level": "country",
+      "label": "Panama",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidencia.gob.pa/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidencia.gob.pa/"
+        }
+      ]
+    },
+    "pe": {
+      "level": "country",
+      "label": "Peru",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Keiko Fujimori",
+          "contact": {
+            "site": "http://www.presidencia.gob.pe/"
+          },
+          "source": {
+            "url": "http://www.presidencia.gob.pe/",
+            "name": "presidencia.gob.pe (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2026",
+            "date": "2026",
+            "confirmedOn": "http://www.presidencia.gob.pe/"
+          }
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidencia.gob.pe/"
+        }
+      ]
+    },
+    "pg": {
+      "level": "country",
+      "label": "Papua New Guinea",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.pm.gov.pg/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.pm.gov.pg/"
+        }
+      ]
+    },
+    "ph": {
+      "level": "country",
+      "label": "Philippines",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.president.gov.ph/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.president.gov.ph/"
+        }
+      ]
+    },
+    "pk": {
+      "level": "country",
+      "label": "Pakistan",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Asif Ali Zardari",
+          "contact": {
+            "site": "http://www.president.gov.pk"
+          },
+          "source": {
+            "url": "http://www.president.gov.pk",
+            "name": "president.gov.pk (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Shehbaz Sharif",
+          "contact": {
+            "site": "http://www.pakistan.gov.pk/"
+          },
+          "source": {
+            "url": "http://www.pakistan.gov.pk/",
+            "name": "pakistan.gov.pk (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2024",
+            "date": "2024",
+            "confirmedOn": "http://www.pakistan.gov.pk/"
+          }
+        }
+      ]
+    },
+    "pl": {
+      "level": "country",
+      "label": "Poland",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.prezydent.pl"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Donald Tusk",
+          "contact": {
+            "site": "https://www.gov.pl/web/premier"
+          },
+          "source": {
+            "url": "https://www.gov.pl/web/premier",
+            "name": "gov.pl (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "ps": {
+      "level": "country",
+      "label": "Palestinian Territories",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.president.ps/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.president.ps/"
+        }
+      ]
+    },
+    "pt": {
+      "level": "country",
+      "label": "Portugal",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "António José Seguro",
+          "contact": {
+            "site": "http://www.presidencia.pt"
+          },
+          "source": {
+            "url": "https://www.presidencia.pt/presidente-da-republica/o-presidente/biografia/",
+            "name": "presidencia.pt (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "Mar 9, 2026",
+            "date": "2026-03-09",
+            "confirmedOn": "https://www.presidencia.pt/presidente-da-republica/o-presidente/biografia/"
+          }
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Luís Montenegro",
+          "contact": {
+            "site": "http://www.portugal.gov.pt"
+          },
+          "source": {
+            "url": "http://www.portugal.gov.pt",
+            "name": "portugal.gov.pt (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "py": {
+      "level": "country",
+      "label": "Paraguay",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidencia.gov.py"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidencia.gov.py"
+        }
+      ]
+    },
+    "qa": {
+      "level": "country",
+      "label": "Qatar",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.diwan.gov.qa/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.diwan.gov.qa/"
+        }
+      ]
+    },
+    "ro": {
+      "level": "country",
+      "label": "Romania",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidency.ro/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidency.ro/"
+        }
+      ]
+    },
+    "rs": {
+      "level": "country",
+      "label": "Serbia",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.predsednik.rs/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.predsednik.rs/"
+        }
+      ]
+    },
+    "ru": {
+      "level": "country",
+      "label": "Russia",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Vladimir Putin",
+          "contact": {
+            "site": "http://en.kremlin.ru"
+          },
+          "source": {
+            "url": "http://en.kremlin.ru",
+            "name": "en.kremlin.ru (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Mikhail Mishustin",
+          "contact": {
+            "site": "http://premier.gov.ru/"
+          },
+          "source": {
+            "url": "http://premier.gov.ru/",
+            "name": "premier.gov.ru (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "Jan 16, 2020",
+            "date": "2020-01-16",
+            "confirmedOn": "http://premier.gov.ru/"
+          }
+        }
+      ]
+    },
+    "rw": {
+      "level": "country",
+      "label": "Rwanda",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Paul Kagame",
+          "contact": {
+            "site": "https://www.gov.rw/president"
+          },
+          "source": {
+            "url": "https://www.gov.rw/president",
+            "name": "gov.rw (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Justin Nsengiyumva",
+          "contact": {
+            "site": "https://www.gov.rw/cabinet"
+          },
+          "source": {
+            "url": "https://www.gov.rw/cabinet",
+            "name": "gov.rw (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "sa": {
+      "level": "country",
+      "label": "Saudi Arabia",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.saudi.gov.sa"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.saudi.gov.sa"
+        }
+      ]
+    },
+    "sb": {
+      "level": "country",
+      "label": "Solomon Islands",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://solomons.gov.sb"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://solomons.gov.sb"
+        }
+      ]
+    },
+    "sc": {
+      "level": "country",
+      "label": "Seychelles",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state and government",
+          "name": "Patrick Herminie",
+          "contact": {
+            "site": "http://www.statehouse.gov.sc"
+          },
+          "source": {
+            "url": "http://www.statehouse.gov.sc",
+            "name": "statehouse.gov.sc (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "sd": {
+      "level": "country",
+      "label": "Sudan",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.sudan.gov.sd/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.sudan.gov.sd/"
+        }
+      ]
+    },
+    "se": {
+      "level": "country",
+      "label": "Sweden",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.regeringen.se/sveriges-regering/statsradsberedningen/"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Ulf Kristersson",
+          "contact": {
+            "site": "http://www.regeringen.se/sveriges-regering/statsradsberedningen/"
+          },
+          "source": {
+            "url": "http://www.regeringen.se/sveriges-regering/statsradsberedningen/",
+            "name": "regeringen.se (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "sg": {
+      "level": "country",
+      "label": "Singapore",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Tharman Shanmugaratnam",
+          "contact": {
+            "site": "https://www.istana.gov.sg"
+          },
+          "source": {
+            "url": "https://www.istana.gov.sg",
+            "name": "istana.gov.sg (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Lawrence Wong",
+          "contact": {
+            "site": "https://pmo.gov.sg/"
+          },
+          "source": {
+            "url": "https://pmo.gov.sg/",
+            "name": "pmo.gov.sg (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "si": {
+      "level": "country",
+      "label": "Slovenia",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.up-rs.si/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.up-rs.si/"
+        }
+      ]
+    },
+    "sk": {
+      "level": "country",
+      "label": "Slovakia",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Peter Pellegrini",
+          "contact": {
+            "site": "https://www.prezident.sk/"
+          },
+          "source": {
+            "url": "https://www.prezident.sk/",
+            "name": "prezident.sk (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2024",
+            "date": "2024",
+            "confirmedOn": "https://www.prezident.sk/"
+          }
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.prezident.sk/"
+        }
+      ]
+    },
+    "sl": {
+      "level": "country",
+      "label": "Sierra Leone",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Julius Maada Bio",
+          "contact": {
+            "site": "http://www.statehouse.gov.sl/"
+          },
+          "source": {
+            "url": "http://www.statehouse.gov.sl/",
+            "name": "statehouse.gov.sl (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.statehouse.gov.sl/"
+        }
+      ]
+    },
+    "sn": {
+      "level": "country",
+      "label": "Senegal",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.sec.gouv.sn/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.sec.gouv.sn/"
+        }
+      ]
+    },
+    "so": {
+      "level": "country",
+      "label": "Somalia",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.villasomalia.gov.so"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.villasomalia.gov.so"
+        }
+      ]
+    },
+    "sr": {
+      "level": "country",
+      "label": "Suriname",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.kabinet.sr.org/index.htm"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.kabinet.sr.org/index.htm"
+        }
+      ]
+    },
+    "ss": {
+      "level": "country",
+      "label": "South Sudan",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "st": {
+      "level": "country",
+      "label": "São Tomé and Príncipe",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "sv": {
+      "level": "country",
+      "label": "El Salvador",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state and government",
+          "name": "Nayib Bukele",
+          "contact": {
+            "site": "http://www.presidencia.gob.sv/"
+          },
+          "source": {
+            "url": "http://www.presidencia.gob.sv/",
+            "name": "presidencia.gob.sv (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "sy": {
+      "level": "country",
+      "label": "Syria",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "sz": {
+      "level": "country",
+      "label": "Eswatini",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.gov.sz/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.gov.sz/"
+        }
+      ]
+    },
+    "td": {
+      "level": "country",
+      "label": "Chad",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Mahamat Idriss Déby Itno",
+          "contact": {
+            "site": "http://www.presidencetchad.org/"
+          },
+          "source": {
+            "url": "http://www.presidencetchad.org/",
+            "name": "presidencetchad.org (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidencetchad.org/"
+        }
+      ]
+    },
+    "tf": {
+      "level": "country",
+      "label": "French Southern Territories",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "tg": {
+      "level": "country",
+      "label": "Togo",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "th": {
+      "level": "country",
+      "label": "Thailand",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.royaloffice.th/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.royaloffice.th/"
+        }
+      ]
+    },
+    "tj": {
+      "level": "country",
+      "label": "Tajikistan",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Emomali Rahmon",
+          "contact": {
+            "site": "http://www.prezident.tj"
+          },
+          "source": {
+            "url": "http://www.prezident.tj",
+            "name": "prezident.tj (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.prezident.tj"
+        }
+      ]
+    },
+    "tl": {
+      "level": "country",
+      "label": "Timor-Leste",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://presidenciarepublica.tl/"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Xanana Gusmão",
+          "contact": {
+            "site": "http://timor-leste.gov.tl/?p=13"
+          },
+          "source": {
+            "url": "http://timor-leste.gov.tl/?p=13",
+            "name": "timor-leste.gov.tl (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "tm": {
+      "level": "country",
+      "label": "Turkmenistan",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state and government",
+          "name": "Serdar Berdimuhamedow",
+          "contact": {
+            "site": "http://www.turkmenistan.gov.tm/"
+          },
+          "source": {
+            "url": "http://www.turkmenistan.gov.tm/",
+            "name": "turkmenistan.gov.tm (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "tn": {
+      "level": "country",
+      "label": "Tunisia",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Kais Saied",
+          "contact": {
+            "site": "http://www.carthage.tn/"
+          },
+          "source": {
+            "url": "http://www.carthage.tn/",
+            "name": "carthage.tn (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Sara Zaafarani",
+          "contact": {
+            "site": "http://www.pm.gov.tn/pm/content/index.php"
+          },
+          "source": {
+            "url": "http://www.pm.gov.tn/pm/content/index.php",
+            "name": "pm.gov.tn (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "tr": {
+      "level": "country",
+      "label": "Türkiye",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.tccb.gov.tr/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.tccb.gov.tr/"
+        }
+      ]
+    },
+    "tt": {
+      "level": "country",
+      "label": "Trinidad and Tobago",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.thepresident.tt"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.thepresident.tt"
+        }
+      ]
+    },
+    "tz": {
+      "level": "country",
+      "label": "Tanzania",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state and government",
+          "name": "Samia Suluhu Hassan",
+          "contact": {
+            "site": "http://www.ikulu.go.tz"
+          },
+          "source": {
+            "url": "https://www.ikulu.go.tz/cabinet",
+            "name": "ikulu.go.tz (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "ua": {
+      "level": "country",
+      "label": "Ukraine",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://president.gov.ua"
+        },
+        {
+          "title": "Prime Minister",
+          "kind": "Head of government",
+          "name": "Serhii Koretskyi",
+          "contact": {
+            "site": "https://www.kmu.gov.ua"
+          },
+          "source": {
+            "url": "https://www.kmu.gov.ua",
+            "name": "kmu.gov.ua (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "2026",
+            "date": "2026",
+            "confirmedOn": "https://www.kmu.gov.ua"
+          }
+        }
+      ]
+    },
+    "ug": {
+      "level": "country",
+      "label": "Uganda",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.statehouse.go.ug/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.statehouse.go.ug/"
+        }
+      ]
+    },
+    "uy": {
+      "level": "country",
+      "label": "Uruguay",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.gub.uy/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.gub.uy/"
+        }
+      ]
+    },
+    "uz": {
+      "level": "country",
+      "label": "Uzbekistan",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Shavkat Mirziyoyev",
+          "contact": {
+            "site": "https://gov.uz/en/pages/president"
+          },
+          "source": {
+            "url": "https://gov.uz/en/pages/president",
+            "name": "gov.uz (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "since": {
+            "text": "Dec 14, 2016",
+            "date": "2016-12-14",
+            "confirmedOn": "https://gov.uz/en/pages/president"
+          }
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.gov.uz/en"
+        }
+      ]
+    },
+    "vc": {
+      "level": "country",
+      "label": "Saint Vincent and the Grenadines",
+      "roles": [
+        {
+          "title": "King",
+          "kind": "Head of state",
+          "name": "Charles III",
+          "contact": {
+            "site": "https://www.gov.vc/index.php/visitors/about-svg"
+          },
+          "source": {
+            "url": "https://www.gov.vc/index.php/visitors/about-svg",
+            "name": "gov.vc (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.gov.vc/"
+        }
+      ]
+    },
+    "ve": {
+      "level": "country",
+      "label": "Venezuela",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Delcy Rodríguez",
+          "contact": {
+            "site": "http://www.presidencia.gob.ve/"
+          },
+          "source": {
+            "url": "http://www.presidencia.gob.ve/",
+            "name": "presidencia.gob.ve (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.presidencia.gob.ve/"
+        }
+      ]
+    },
+    "vu": {
+      "level": "country",
+      "label": "Vanuatu",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.gov.vu/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://www.gov.vu/"
+        }
+      ]
+    },
+    "xk": {
+      "level": "country",
+      "label": "Kosovo",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.president-ksgov.net/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.president-ksgov.net/"
+        }
+      ]
+    },
+    "ye": {
+      "level": "country",
+      "label": "Yemen",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state",
+          "name": "Rashad al-Alimi",
+          "contact": {
+            "site": "https://presidentalalimi.net/"
+          },
+          "source": {
+            "url": "https://presidentalalimi.net/",
+            "name": "presidentalalimi.net (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "https://presidentalalimi.net/"
+        }
+      ]
+    },
+    "za": {
+      "level": "country",
+      "label": "South Africa",
+      "roles": [
+        {
+          "title": "President",
+          "kind": "Head of state and government",
+          "name": "Cyril Ramaphosa",
+          "contact": {
+            "site": "https://thepresidency.gov.za"
+          },
+          "source": {
+            "url": "https://thepresidency.gov.za",
+            "name": "thepresidency.gov.za (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed"
+        }
+      ]
+    },
+    "zm": {
+      "level": "country",
+      "label": "Zambia",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08"
+        }
+      ]
+    },
+    "zw": {
+      "level": "country",
+      "label": "Zimbabwe",
+      "roles": [
+        {
+          "title": "Head of state",
+          "kind": "Head of state",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.opc.gov.zw/"
+        },
+        {
+          "title": "Head of government",
+          "kind": "Head of government",
+          "name": "",
+          "notCovered": true,
+          "contact": {},
+          "checked": "2026-10-08",
+          "plannedSource": "http://www.opc.gov.zw/"
         }
       ]
     }

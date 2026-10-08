@@ -240,7 +240,10 @@ export function whatChangedHtml(model, { placeLabel = 'World', checked = '', par
 /** Method page: one line of build-time coverage counts (data/coverage.json). */
 export function coverageLine(c) {
   if (!c) return '';
-  return `Coverage today: leaders for ${c.leaders.countries} of ${c.countries} countries, ${c.leaders.stateEquivalents} of ${c.stateEquivalents.toLocaleString('en-US')} state equivalents and ${c.leaders.cities} of ${c.cities.toLocaleString('en-US')} cities; What changed lines for ${c.indicators.countries} of ${c.countries} countries${c.indicators.world ? ' and the World' : ''}; key seats for ${c.seats.places} ${c.seats.places === 1 ? 'country' : 'places'} (${c.seats.seats} seats); own news stories for ${c.news.countriesWithStories} of ${c.countries} countries; ${c.briefs.energySlots} Energy brief slots and ${c.briefs.sectorSlots} sector brief slots written.`;
+  const h = c.heads;
+  const heads = h ? `heads of state confirmed for ${h.headOfState} of ${c.countries} countries and heads of government for ${h.headOfGovernment} (both seats for ${h.both}); ` : '';
+  const sect = c.sectors ? `sector share strips for ${c.sectors.countries} of ${c.countries} countries and the electricity mix for ${c.energyMix?.countries ?? 0}; ` : '';
+  return `Coverage today: ${heads}leaders for ${c.leaders.countries} of ${c.countries} countries, ${c.leaders.stateEquivalents} of ${c.stateEquivalents.toLocaleString('en-US')} state equivalents and ${c.leaders.cities} of ${c.cities.toLocaleString('en-US')} cities; What changed lines for ${c.indicators.countries} of ${c.countries} countries${c.indicators.world ? ' and the World' : ''}; ${sect}key seats for ${c.seats.places} ${c.seats.places === 1 ? 'country' : 'places'} (${c.seats.seats} seats); own news stories for ${c.news.countriesWithStories} of ${c.countries} countries; ${c.briefs.energySlots} Energy brief slots and ${c.briefs.sectorSlots} sector brief slots written.`;
 }
 
 export const ALL_SERIES = [...FRED_SERIES, ...PINK_SERIES];
