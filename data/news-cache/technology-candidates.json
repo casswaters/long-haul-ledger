@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T12:50:32.489Z",
+ "generatedAt": "2026-10-08T17:27:21.415Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -11,26 +11,70 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "France's Sesterce plans $11 billion AI investment in Finland",
-       "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726",
+       "title": "GlobalFoundries to make key AI chip component for TSMC in $2 billion deal",
+       "url": "https://www.channelnewsasia.com/business/globalfoundries-make-key-ai-chip-component-tsmc-in-2-billion-deal-6442886",
        "source": "CNA Business",
-       "published": "2026-10-08T05:44:06.000Z",
+       "published": "2026-10-08T12:44:18.000Z",
        "verification": "multiple",
        "outlets": [
         {
          "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726",
+         "url": "https://www.channelnewsasia.com/business/globalfoundries-make-key-ai-chip-component-tsmc-in-2-billion-deal-6442886",
+         "primary": false
+        },
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/uae-backed-globalfoundries-and-tsmc-announce-2bn-manufacturing-agreement/",
          "primary": false
         },
         {
          "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
+         "url": "https://www.datacenterdynamics.com/en/news/globalfoundries-signs-2bn-five-year-deal-with-tsmc-for-production-of-advanced-packaging-components/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
        "blurb": ""
+      },
+      {
+       "title": "Deutsche Telekom says AI traffic will not drive more mobile uplink capex",
+       "url": "https://rcrwireless.com/20261008/ai/deutsche-telekom-ai-traffic",
+       "source": "RCR Wireless News",
+       "published": "2026-10-08T16:32:40.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/ai-machine-learning/deutsche-telekom-dashes-vendor-hopes-for-big-mobile-uplink-spending",
+         "primary": false
+        },
+        {
+         "name": "RCR Wireless News",
+         "url": "https://rcrwireless.com/20261008/ai/deutsche-telekom-ai-traffic",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Uplink growth is real, but the capex discipline holds In sum – what we know: Deutsche Telekom does not expect AI-related mobile uplink demand to require incremental radio-access-network investment in…"
+      },
+      {
+       "title": "OSFI says geopolitical, economic and AI risks have intensified for financial system",
+       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/osfi-says-geopolitical-economic-and-ai-risks-have-intensified-for-financial-system/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-08T18:26:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/osfi-says-geopolitical-economic-and-ai-risks-have-intensified-for-financial-system/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Office of the Superintendent of Financial Institutions says rapid technological advances have intensified risk in the Canadian financial system."
       },
       {
        "title": "Samsung flags 783% profit jump to record $80bn as AI chip boom also lifts TSMC sales",
@@ -82,21 +126,55 @@
        "blurb": "It already has 20 employees in Singapore and aims to grow its local team to more than 100 over the next three years."
       },
       {
-       "title": "Swiss pension fund hit by data leak after cyber attack on software provider",
-       "url": "https://www.channelnewsasia.com/business/swiss-pension-fund-hit-data-leak-after-cyber-attack-software-provider-6442016",
-       "source": "CNA Business",
-       "published": "2026-10-08T08:04:48.000Z",
+       "title": "Hear from Ambrosia Energy and Bloom Energy execs on where the AI infrastructure boom is creating opportunity at TechCrunch Disrupt 2026",
+       "url": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T15:00:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/swiss-pension-fund-hit-data-leak-after-cyber-attack-software-provider-6442016",
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": ""
+       "blurb": "Ambrosia Energy CEO Ben Longmier and Bloom Energy SVP Bill Thayer join the Smart Systems Stage at TechCrunch Disrupt. Register now to save up to $100. Grab a second of the same pass to save 50%."
+      },
+      {
+       "title": "Budget 2027: youth mortgage guarantee stays, defence hits 2.15% of GDP, €1m for AI",
+       "url": "https://www.euronews.com/2026/10/08/budget-2027-youth-mortgage-guarantee-stays-defence-hits-215-of-gdp-1m-for-ai",
+       "source": "Euronews Business",
+       "published": "2026-10-08T13:18:50.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/08/budget-2027-youth-mortgage-guarantee-stays-defence-hits-215-of-gdp-1m-for-ai",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The government on Thursday submitted to parliament the draft 2027 state budget, projecting 2% growth and a surplus of 0.1% to 0.2% of GDP. Approval is assured, as PS plans to abstain in the initial vote."
+      },
+      {
+       "title": "Sesterce to invest $10bn in 600MW AI data center campus in Jämsä, Finland",
+       "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T10:52:56.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Developer says it has already secured an anchor customer for the site"
       },
       {
        "title": "Sri Lanka Telecom bets on AI to reinvent a 169-year-old telco",
@@ -116,43 +194,38 @@
        "blurb": "Sri Lanka Telecom struggles to address ageing workforce and legacy IT systems as the 169-year-old telco works to become AI-native."
       },
       {
-       "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
-       "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-       "source": "TechCrunch",
-       "published": "2026-10-07T20:22:37.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
-         "primary": false
-        },
-        {
-         "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents."
-      },
-      {
-       "title": "Sponsored: Shell achieves NVIDIA DSX Ready Coolant qualification for direct liquid cooling, advancing high-performance AI computing",
-       "url": "https://www.datacenterdynamics.com/en/product-news/shell-achieves-nvidia-dsx-ready-coolant-qualification-for-direct-liquid-cooling-advancing-high-performance-ai-computing/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-08T08:00:00.000Z",
+       "title": "HCLTech rolls out a bouquet of industry AI solutions",
+       "url": "https://www.thehindu.com/business/Industry/hcltech-rolls-out-a-bouquet-of-industry-ai-solutions/article71560553.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-08T15:13:47.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/product-news/shell-achieves-nvidia-dsx-ready-coolant-qualification-for-direct-liquid-cooling-advancing-high-performance-ai-computing/",
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Industry/hcltech-rolls-out-a-bouquet-of-industry-ai-solutions/article71560553.ece",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Shell's direct liquid cooling (DLC) fluid has achieved NVIDIA DSX Ready Coolant qualification, reinforcing Shell's role in supporting the next generation of high-performance, AI-ready data center infrastructure"
+       "blurb": "The solutions combine deep domain expertise with AI capabilities to address high-value, industry-specific use cases across banking, healthcare and life sciences, aerospace, retail, telecom, mobility, energy and manufacturing."
+      },
+      {
+       "title": "A $6 trillion question hangs over the AI construction boom",
+       "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
+       "source": "Construction Dive",
+       "published": "2026-10-08T13:24:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
       },
       {
        "title": "Alibaba’s AI cloud revenue set to surge over 50% as investment blitz pays off: analysts",
@@ -170,74 +243,6 @@
        "stages": [],
        "via": null,
        "blurb": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to analysts. Analysts across several financial institutions proje"
-      },
-      {
-       "title": "Oracle to cut another 70 jobs in Ireland in AI cost-cutting push",
-       "url": "https://www.irishtimes.com/business/2026/10/07/oracle-to-cut-another-70-jobs-in-ireland-in-ai-cost-cutting-push/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-07T16:32:24.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/07/oracle-to-cut-another-70-jobs-in-ireland-in-ai-cost-cutting-push/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Cloud computing giant has already shed around 150 Irish roles this year"
-      },
-      {
-       "title": "Analysts predict SET to reach 1,680 by year-end",
-       "url": "https://www.bangkokpost.com/business/investment/3333435/analysts-predict-set-to-reach-1680-by-yearend",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-07T23:16:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/investment/3333435/analysts-predict-set-to-reach-1680-by-yearend",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Stock Exchange of Thailand (SET) index is expected to finish at 1,680 points by year-end, supported by investment in artificial intelligence (AI) technology and its supply chain, listed-company earnings, foreign fund inflows and a recovery in the domestic economy, says the In"
-      },
-      {
-       "title": "Making the case for non-lithium batteries for AI data centres",
-       "url": "https://www.energy-storage.news/making-the-case-for-non-lithium-batteries-for-ai-data-centres/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-08T07:48:32.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/making-the-case-for-non-lithium-batteries-for-ai-data-centres/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "AI data centres have energy and power requirements demanding enough to potentially stretch lithium-ion beyond its versatile limits, writes Intertek CEA market intelligence consultant Aaron Marks."
-      },
-      {
-       "title": "Will AI kill our rosy jobs growth forecasts?",
-       "url": "https://www.irishtimes.com/business/2026/10/08/will-ai-kill-our-rosy-jobs-growth-forecasts/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-08T04:37:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/will-ai-kill-our-rosy-jobs-growth-forecasts/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Department of Finance draws attention ‘to risks to employment prospects from AI over the medium-term’"
       }
      ]
     },
@@ -245,17 +250,165 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Consultants for Hydro-Quebec defend proposal to double energy costs for data centres",
+       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-08T20:11:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Two consultants hired by Hydro-Quebec say they expect the demand from data centres to more than double between 2024 and 2030."
+      },
+      {
+       "title": "Russia's Yandex says unclear whether data centre can be restored after drone strike",
+       "url": "https://www.channelnewsasia.com/business/russias-yandex-says-unclear-whether-data-centre-can-be-restored-after-drone-strike-6443541",
+       "source": "CNA Business",
+       "published": "2026-10-08T16:22:19.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/russias-yandex-says-unclear-whether-data-centre-can-be-restored-after-drone-strike-6443541",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
+      {
+       "title": "Spanish government to press on with tighter data centre rules before election",
+       "url": "https://www.channelnewsasia.com/business/spanish-government-press-tighter-data-centre-rules-election-6443271",
+       "source": "CNA Business",
+       "published": "2026-10-08T14:37:15.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/spanish-government-press-tighter-data-centre-rules-election-6443271",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
+      {
+       "title": "Data Centers, Gas, and Who Pays: Power Association Leaders Find Common Ground",
+       "url": "https://www.powermag.com/data-centers-gas-and-who-pays-power-association-leaders-find-common-ground/",
+       "source": "POWER Magazine",
+       "published": "2026-10-08T16:39:30.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/data-centers-gas-and-who-pays-power-association-leaders-find-common-ground/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "When the heads of three of the power sector’s biggest trade associations shared a stage at Experience POWER on Sept. 30, the most notable thing was how little they disagreed. Whether the question was data center backlash, grid security, or what to do about gas-plant emissions rul"
+      },
+      {
+       "title": "KT Cloud plans 50MW data center project in Incheon, South Korea",
+       "url": "https://www.datacenterdynamics.com/en/news/kt-cloud-plans-50mw-data-center-project-in-incheon-south-korea/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T16:33:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/kt-cloud-plans-50mw-data-center-project-in-incheon-south-korea/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "KT Cloud will serve as the design, build, and operate partner"
+      },
+      {
+       "title": "Waste heat from Goodman data center in Frankfurt, Germany, to power district heating system",
+       "url": "https://www.datacenterdynamics.com/en/news/waste-heat-from-goodman-data-center-in-frankfurt-germany-to-power-district-heating-system/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T15:55:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/waste-heat-from-goodman-data-center-in-frankfurt-germany-to-power-district-heating-system/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Firm will recover and supply 50MW to warm buildings and a swimming pool"
+      },
+      {
+       "title": "Hear from Ambrosia Energy and Bloom Energy execs on where the AI infrastructure boom is creating opportunity at TechCrunch Disrupt 2026",
+       "url": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T15:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Ambrosia Energy CEO Ben Longmier and Bloom Energy SVP Bill Thayer join the Smart Systems Stage at TechCrunch Disrupt. Register now to save up to $100. Grab a second of the same pass to save 50%."
+      },
+      {
+       "title": "Google's €13bn data center buildout in Finland under investigation for 300-hectare forest removal",
+       "url": "https://www.datacenterdynamics.com/en/news/googles-13bn-data-center-buildout-in-finland-under-investigation-for-300-hectare-forest-removal/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T14:15:46.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/googles-13bn-data-center-buildout-in-finland-under-investigation-for-300-hectare-forest-removal/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Finnish Licensing and Supervision Authority requests reports from local municipalities"
+      },
+      {
+       "title": "Ukrainian Drones Hit Yandex Data Center, Industrial Facilities Across Russia",
+       "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T12:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
+      },
+      {
        "title": "Sesterce to invest $10bn in 600MW AI data center campus in Jämsä, Finland",
        "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
        "source": "DatacenterDynamics",
        "published": "2026-10-08T10:52:56.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726",
-         "primary": false
-        },
         {
          "name": "DatacenterDynamics",
          "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
@@ -265,33 +418,6 @@
        "stages": [],
        "via": null,
        "blurb": "Developer says it has already secured an anchor customer for the site"
-      },
-      {
-       "title": "Russia's largest Yandex data center reportedly hit in drone attack",
-       "url": "https://kyivindependent.com/russias-largest-yandex-data-center-reportedly-hit-in-drone-attack/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T03:14:20.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/russias-largest-yandex-data-center-reportedly-hit-in-drone-attack/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/yandex-data-center-hit-in-drone-attack-in-russia/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Sasovo data center is located on the grounds of the Sasta machine-tool plant, a manufacturer of metal-cutting and high-precision CNC metalworking machines used across Russian industry, including the defense-industrial, aerospace, oil and gas, and heavy machinery sectors."
       },
       {
        "title": "Explainer-Data centers' 'flexible' power usage could save the grid billions. Can they scale?",
@@ -309,40 +435,6 @@
        "stages": [],
        "via": null,
        "blurb": ""
-      },
-      {
-       "title": "Built to power data centers at scale",
-       "url": "https://www.datacenterdynamics.com/en/whitepapers/built-to-power-data-centers-at-scale/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-08T08:43:31.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/whitepapers/built-to-power-data-centers-at-scale/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "How hyperscale data center operators can scale AI infrastructure with reliable power, advanced cooling and repeatable architectures for 1 GW deployments"
-      },
-      {
-       "title": "DCD Data Center Construction Channel Sample Audience",
-       "url": "https://www.datacenterdynamics.com/en/dcd-downloads/dcd-data-center-construction-channel-sample-audience/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-08T08:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/dcd-downloads/dcd-data-center-construction-channel-sample-audience/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Engage high-intent buyers from across the industry"
       },
       {
        "title": "Next-generation geothermal: borrowing oil and gas tech for the data centre boom",
@@ -365,114 +457,51 @@
        "stages": [],
        "via": null,
        "blurb": "Energy Technology’s new episode examines Big Tech’s interest in geothermal, and the nascent sector’s need for oil and gas equipment and expertise. The post Next-generation geothermal: borrowing oil and gas tech for the data centre boom appeared first on Mining Technology ."
-      },
-      {
-       "title": "Making the case for non-lithium batteries for AI data centres",
-       "url": "https://www.energy-storage.news/making-the-case-for-non-lithium-batteries-for-ai-data-centres/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-08T07:48:32.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/making-the-case-for-non-lithium-batteries-for-ai-data-centres/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "AI data centres have energy and power requirements demanding enough to potentially stretch lithium-ion beyond its versatile limits, writes Intertek CEA market intelligence consultant Aaron Marks."
-      },
-      {
-       "title": "Beyond the Demand Forecast: Six Questions About Powering Data Centers From DPX 2026",
-       "url": "https://www.powermag.com/beyond-the-demand-forecast-six-questions-about-powering-data-centers-from-dpx-2026/",
-       "source": "POWER Magazine",
-       "published": "2026-10-07T19:37:33.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "POWER Magazine",
-         "url": "https://www.powermag.com/beyond-the-demand-forecast-six-questions-about-powering-data-centers-from-dpx-2026/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "This year’s Data Center POWER eXchange (DPX), whose programming POWER’s editors curated, was structured to look beyond the scale of opportunity presented by large-load forecasts and delve into the questions they raise. A key focus: What will it take to deliver power infrastructur"
-      },
-      {
-       "title": "AirTrunk plans additional $1bn investment in data center campus in Inzai, Japan",
-       "url": "https://www.datacenterdynamics.com/en/news/airtrunk-plans-additional-1bn-investment-in-data-center-campus-in-inzai-japan/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-07T16:10:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/airtrunk-plans-additional-1bn-investment-in-data-center-campus-in-inzai-japan/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Company plans to triple overall investment in country to $30bn"
-      },
-      {
-       "title": "Black Hills to invest $1.8bn in gas power for Google data centre",
-       "url": "https://www.power-technology.com/news/black-hills-invest-power-google-data-centre/",
-       "source": "Power Technology",
-       "published": "2026-10-07T09:53:43.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Power Technology",
-         "url": "https://www.power-technology.com/news/black-hills-invest-power-google-data-centre/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Black Hills announced plans to invest $1.8bn to construct new natural-gas fired power generation capacity to support a Google data centre."
-      },
-      {
-       "title": "Town questions $15b data centre set to use enough power for 1m homes",
-       "url": "https://www.abc.net.au/news/2026-10-08/mixed-response-to-proposed-data-centre-near-wagga-wagga/107214860",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-07T19:31:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/mixed-response-to-proposed-data-centre-near-wagga-wagga/107214860",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "One Wagga Wagga resident says she feels \"back-stabbed\" by the development, while others say the town needs more industry."
-      },
-      {
-       "title": "Using AI to mitigate the growing environmental threat of data centers",
-       "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
-       "source": "MIT News",
-       "published": "2026-10-08T04:00:00.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "MIT News",
-         "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient."
       }
      ]
     },
     "telecom": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Deutsche Telekom says AI traffic will not drive more mobile uplink capex",
+       "url": "https://rcrwireless.com/20261008/ai/deutsche-telekom-ai-traffic",
+       "source": "RCR Wireless News",
+       "published": "2026-10-08T16:32:40.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/ai-machine-learning/deutsche-telekom-dashes-vendor-hopes-for-big-mobile-uplink-spending",
+         "primary": false
+        },
+        {
+         "name": "RCR Wireless News",
+         "url": "https://rcrwireless.com/20261008/ai/deutsche-telekom-ai-traffic",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Uplink growth is real, but the capex discipline holds In sum – what we know: Deutsche Telekom does not expect AI-related mobile uplink demand to require incremental radio-access-network investment in…"
+      },
+      {
+       "title": "Nokia to cut more than 250 jobs in Finland - report",
+       "url": "https://www.datacenterdynamics.com/en/news/nokia-to-cut-more-than-250-jobs-in-finland-report/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T16:41:20.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/nokia-to-cut-more-than-250-jobs-in-finland-report/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The cuts are part of the company's cost-cutting plans put forward in 2023"
+      },
       {
        "title": "Sri Lanka Telecom bets on AI to reinvent a 169-year-old telco",
        "url": "https://www.lightreading.com/ai-machine-learning/sri-lanka-telecom-bets-on-ai-to-reinvent-a-169-year-old-telco",
@@ -491,99 +520,70 @@
        "blurb": "Sri Lanka Telecom struggles to address ageing workforce and legacy IT systems as the 169-year-old telco works to become AI-native."
       },
       {
-       "title": "Ghana awards 5G licenses to Telecel, MTN after slow rollout woes",
-       "url": "https://www.datacenterdynamics.com/en/news/ghana-awards-5g-licenses-to-telecel-mtn-after-slow-rollout-woes/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-07T16:12:45.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/ghana-awards-5g-licenses-to-telecel-mtn-after-slow-rollout-woes/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Telecel plans to launch 5G in December"
-      },
-      {
-       "title": "Worldwide telecom capex rises 5% in 1H26 – Dell'Oro",
-       "url": "https://www.lightreading.com/5g/worldwide-telecom-capex-rises-5-in-1h26-dell-oro",
-       "source": "Light Reading",
-       "published": "2026-10-06T18:06:01.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Light Reading",
-         "url": "https://www.lightreading.com/5g/worldwide-telecom-capex-rises-5-in-1h26-dell-oro",
-         "primary": false
-        },
-        {
-         "name": "Fierce Network",
-         "url": "https://www.fierce-network.com/newswire/delloro-reports-worldwide-telecom-capex-rose-5-1h26",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Longer-term capex outlook remains muted as investment shifts from coverage to capacity. #pressrelease"
-      },
-      {
-       "title": "Airtel hikes postpaid tariffs, others may follow",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/airtel-hikes-postpaid-tariffs-others-may-follow/articleshow/134777582.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-08T01:48:18.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/airtel-hikes-postpaid-tariffs-others-may-follow/articleshow/134777582.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Bharti Airtel is set to raise its postpaid tariffs by 3-10% starting Thursday, which affects all users. The new plans will incorporate free international roaming, valued at Rs 2,000 for each SIM once per trip. This change means that postpaid plans will now begin at Rs 499, reflec"
-      },
-      {
-       "title": "Elon Musk alleges ‘oligarch’ interference in Starlink’s India launch",
-       "url": "https://www.thehindu.com/business/Industry/elon-musk-alleges-oligarch-interference-instarlinksindia-launch/article71557189.ece",
+       "title": "‘Is Ambani the real boss of India’, asks Elon Musk, as Centre refutes bias in Starlink authorisation",
+       "url": "https://www.thehindu.com/business/Industry/dot-refutes-bias-in-starlink-authorisation-says-all-licensees-approvals-pending/article71560045.ece",
        "source": "The Hindu Business",
-       "published": "2026-10-08T07:13:46.000Z",
+       "published": "2026-10-08T16:48:39.000Z",
        "verification": "multiple",
        "outlets": [
         {
          "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/elon-musk-alleges-oligarch-interference-instarlinksindia-launch/article71557189.ece",
+         "url": "https://www.thehindu.com/business/Industry/dot-refutes-bias-in-starlink-authorisation-says-all-licensees-approvals-pending/article71560045.ece",
          "primary": false
         },
         {
          "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/07/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/",
+         "url": "https://techcrunch.com/2026/10/08/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/",
+         "primary": false
+        },
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/india-dismisses-elon-musk-claims-over-satellite-approval-process-in-country/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Mr. Musk made the allegation hours after Lauren Dreyer, a SpaceX executive, said she hoped that the service would be operational in India by next year"
+       "blurb": "Reliance Jio chairman Akash Ambani declines to comment when asked about Mr. Musk’s remarks; LoP Rahul Gandhi joined the debate saying, “Wait till you discover the other guy”"
       },
       {
-       "title": "StarHub to acquire MyRepublic’s mobile business amid ongoing telco consolidation",
-       "url": "https://www.straitstimes.com/business/starhub-to-acquire-myrepublics-mobile-business-amid-ongoing-telco-consolidation",
-       "source": "The Straits Times Business",
-       "published": "2026-10-08T10:10:00.000Z",
+       "title": "Arelion partners with Nokia on live network field trial",
+       "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+       "source": "Light Reading",
+       "published": "2026-10-08T14:53:22.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+         "primary": false
+        },
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Arelion's 500-kilometer route from Amsterdam to London uses Nokia's 1830 Global Express (GX) Super C and Super L open line system, CHMQ6 thin transponder modules and ICE-X 400G and 800G ZR+ coherent pluggable optics. #pressrelease"
+      },
+      {
+       "title": "More change for Verizon's tech team as network exec heads for exit",
+       "url": "https://www.lightreading.com/business-management/more-change-for-verizon-s-tech-team-as-network-exec-heads-for-exit",
+       "source": "Light Reading",
+       "published": "2026-10-08T14:23:28.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/starhub-to-acquire-myrepublics-mobile-business-amid-ongoing-telco-consolidation",
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/business-management/more-change-for-verizon-s-tech-team-as-network-exec-heads-for-exit",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The acquisition will have no impact on MyRepublic’s mobile service customers."
+       "blurb": "Adam Koeppe, chief network officer for core engineering and operations, announced he is leaving at the end of this year to 'move on to the next chapter.'"
       },
       {
        "title": "Eurobites: VodafoneThree eyes more synergy savings",
@@ -603,23 +603,6 @@
        "blurb": "Also in today's EMEA regional roundup: Nokia cuts jobs in Finland; KLM taps Starlink for in-flight connectivity; VEON hooks up with Amdocs."
       },
       {
-       "title": "India denies bias in satellite internet approvals after Musk's 'oligarchs' jab",
-       "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
-       "source": "CNA Business",
-       "published": "2026-10-08T05:09:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
        "title": "Schneider Electric and PTC consolidate industrial AI stack – but where’s the network? (Telco Diary)",
        "url": "https://rcrwireless.com/20261006/opinion/schneider-electric-ptc-industrial-ai-network-telco-diary",
        "source": "RCR Wireless News",
@@ -635,6 +618,23 @@
        "stages": [],
        "via": null,
        "blurb": "From the newsletter (October 6; sign-up or follow if you want it sooner): Schneider Electric is to buy PTC for a cool $22.6bn – to consolidate its stake in the…"
+      },
+      {
+       "title": "Amazon builds 1,000th satellite, will launch space internet service by end of year",
+       "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
+       "source": "Ars Technica",
+       "published": "2026-10-08T15:28:36.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "\"If this was easy, everybody else would be doing it.\""
       },
       {
        "title": "Nokia campus sale nears as Hotard bets on industrial AI",
@@ -693,6 +693,45 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
+       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+       "source": "Manufacturing Dive",
+       "published": "2026-10-08T16:03:05.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Manufacturing Dive",
+         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+         "primary": false
+        },
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/wolfspeed-receives-15bn-conditional-loan-commitment-from-us-govt-to-boost-domestic-sic-and-gan-production/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+      },
+      {
+       "title": "DOE announces grants for SiC cladding research and testing",
+       "url": "https://www.ans.org/news/2026-10-08/article-8473/doe-announces-grants-for-sic-cladding-research-and-testing/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-08T16:00:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-08/article-8473/doe-announces-grants-for-sic-cladding-research-and-testing/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "On October 5, the Department of Energy announced that it plans to award up to $50 million in grants over three years to support research on the use of silicon carbide (SiC) as fuel cladding material. The DOE touts SiC for what it says is the material’s potential to improve the sa"
+      },
+      {
        "title": "Tata Power, Ocean Sun to pilot membrane-based floating solar technology in India",
        "url": "https://www.pv-tech.org/tata-power-ocean-sun-to-pilot-membrane-based-floating-solar-technology-in-india/",
        "source": "PV Tech",
@@ -718,6 +757,46 @@
        "blurb": "Tata Power has partnered with Norway’s Ocean Sun to test membrane-based floating solar technology at its Maharashtra reservoir."
       },
       {
+       "title": "DCD Studio: Market models for SMRs with Rosa Rotko, Mott MacDonald",
+       "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-market-models-for-smrs-with-rosa-rotko-mott-macdonald/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T16:32:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-market-models-for-smrs-with-rosa-rotko-mott-macdonald/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Tam Pledger speaks with Rosa Rotko of Mott MacDonald on critical grid connection delays impacting UK energy projects"
+      },
+      {
+       "title": "DSG 2026 offers a new perspective on the future of geothermal energy",
+       "url": "https://www.thinkgeoenergy.com/dsg-2026-offers-a-new-perspective-on-the-future-of-geothermal-energy/",
+       "source": "ThinkGeoEnergy",
+       "published": "2026-10-08T16:19:56.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ThinkGeoEnergy",
+         "url": "https://www.thinkgeoenergy.com/dsg-2026-offers-a-new-perspective-on-the-future-of-geothermal-energy/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "In this interview, Dr. Zeynel Öztürk of Anadolu Innovation talks about the evolution of the geothermal sector and the DSG workshop recently held in Türkiye. The post DSG 2026 offers a new perspective on the future of geothermal energy first appeared on ThinkGeoEnergy - Geothermal"
+      },
+      {
        "title": "BWXT’s BANR selected for Canadian project",
        "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
        "source": "ANS Nuclear Newswire",
@@ -741,6 +820,46 @@
         "stage": "innovation"
        },
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+      },
+      {
+       "title": "EU expert group urges curbs on high-risk solar suppliers",
+       "url": "https://www.pv-magazine.com/2026/10/08/eu-expert-group-urges-curbs-on-high-risk-solar-suppliers/",
+       "source": "pv magazine",
+       "published": "2026-10-08T14:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/eu-expert-group-urges-curbs-on-high-risk-solar-suppliers/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Cybersecurity experts advising the European Commission say PV components and software from high-risk third-country suppliers should be restricted in all market segments, including plug-in systems, and that inverters should face third-party certification under the Cyber Resilience"
+      },
+      {
+       "title": "Thorizon, Urenco to cooperate on MSR fuel cycle",
+       "url": "https://www.world-nuclear-news.org/articles/thorizon-urenco-to-cooperate-on-msr-fuel-cycle",
+       "source": "World Nuclear News",
+       "published": "2026-10-08T12:47:19.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/thorizon-urenco-to-cooperate-on-msr-fuel-cycle",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "A memorandum of understanding with the molten salt reactor developer Thorizon will examine Urenco's potential role in the molten salt fuel supply chain and how depleted uranium could become a fuel resource for advanced nuclear."
       },
       {
        "title": "Researchers find almost 8,000 European solar energy systems exposed to internet cyberattacks",
@@ -821,139 +940,46 @@
         "stage": "innovation"
        },
        "blurb": "France Energies Marines has approved four new research and innovation projects involving 33 public and private partners, with a combined..."
-      },
-      {
-       "title": "DOE selects second round of hydropower projects for technical support, with modernization in mind",
-       "url": "https://www.power-eng.com/renewables/hydropower/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
-       "source": "Power Engineering",
-       "published": "2026-10-07T17:27:00.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Hydro Review",
-         "url": "https://www.renewableenergyworld.com/hydro-power/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
-         "primary": false
-        },
-        {
-         "name": "Power Engineering",
-         "url": "https://www.power-eng.com/renewables/hydropower/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "The U.S. Department of Energy's Hydropower and Hydrokinetic Office selected 14 hydropower projects for negotiations on vouchers for in-kind support."
-      },
-      {
-       "title": "Chalmers study finds bypassing weak cells extends EV life",
-       "url": "https://www.automotiveworld.com/news/chalmers-study-finds-bypassing-weak-cells-extends-ev-life/",
-       "source": "Automotive World",
-       "published": "2026-10-08T05:00:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Automotive World",
-         "url": "https://www.automotiveworld.com/news/chalmers-study-finds-bypassing-weak-cells-extends-ev-life/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Reconfigurable battery packs shift EV durability from cell chemistry to control electronics, opening a new lever for automakers The post Chalmers study finds bypassing weak cells extends EV life appeared first on Automotive World ."
-      },
-      {
-       "title": "TÜV SÜD launches Digital Battery Passport certification",
-       "url": "https://www.automotiveworld.com/news/tuv-sud-launches-digital-battery-passport-certification/",
-       "source": "Automotive World",
-       "published": "2026-10-08T04:45:50.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Automotive World",
-         "url": "https://www.automotiveworld.com/news/tuv-sud-launches-digital-battery-passport-certification/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "The Digital Battery Passport is turning EU compliance into a data problem, and TÜV SÜD is betting manufacturers will pay for proof The post TÜV SÜD launches Digital Battery Passport certification appeared first on Automotive World ."
-      },
-      {
-       "title": "UNSW and UtmoLight set 23.5% efficiency record for large-area perovskite solar submodule",
-       "url": "https://www.pv-tech.org/unsw-and-utmolight-set-23-5-efficiency-record-for-large-area-perovskite-solar-submodule/",
-       "source": "PV Tech",
-       "published": "2026-10-08T03:25:59.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/unsw-and-utmolight-set-23-5-efficiency-record-for-large-area-perovskite-solar-submodule/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Researchers at UNSW and UtmoLight have achieved a certified stabilised efficiency of 23.5% for a large-area perovskite solar submodule."
-      },
-      {
-       "title": "GAIN announces fourth round of 2026 vouchers",
-       "url": "https://www.ans.org/news/2026-10-07/article-8470/iter-welcomes-last-major-component-needed-for-core-machine-assembly/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-07T17:35:30.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-07/article-8470/iter-welcomes-last-major-component-needed-for-core-machine-assembly/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "This week, the Department of Energy’s Gateway for Accelerated Innovation in Nuclear (GAIN) announced three fourth-round fiscal year 2026 vouchers to support the development of innovative nuclear technologies. Each company will get access to specific capabilities and expertise in "
-      },
-      {
-       "title": "Next-generation geothermal: borrowing oil and gas tech for the data centre boom",
-       "url": "https://www.mining-technology.com/news/next-generation-geothermal-oil-gas-tech-data-centre-boom/",
-       "source": "Mining Technology",
-       "published": "2026-10-07T09:45:53.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Power Technology",
-         "url": "https://www.power-technology.com/news/next-generation-geothermal-oil-gas-tech-data-centre-boom/",
-         "primary": false
-        },
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/next-generation-geothermal-oil-gas-tech-data-centre-boom/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Energy Technology’s new episode examines Big Tech’s interest in geothermal, and the nascent sector’s need for oil and gas equipment and expertise. The post Next-generation geothermal: borrowing oil and gas tech for the data centre boom appeared first on Mining Technology ."
       }
      ]
     },
     "consulting": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Consultants for Hydro-Quebec defend proposal to double energy costs for data centres",
+       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-08T20:11:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Two consultants hired by Hydro-Quebec say they expect the demand from data centres to more than double between 2024 and 2030."
+      },
+      {
+       "title": "A $6 trillion question hangs over the AI construction boom",
+       "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
+       "source": "Construction Dive",
+       "published": "2026-10-08T13:24:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
+      },
       {
        "title": "Tender – Framework agreement for geothermal consultancy at Grangegorman, Ireland",
        "url": "https://www.thinkgeoenergy.com/tender-framework-agreement-for-geothermal-consultancy-at-grangegorman-ireland/",
@@ -989,24 +1015,24 @@
        "blurb": "Studio Pietrangeli has begun consultancy work on the proposed 24 MW Zungki and 42 MW Lower Tizu hydropower projects in Nagaland, India. The post Studio Pietrangeli begins consultancy work on two Indian hydropower projects appeared first on International Water Power ."
       },
       {
-       "title": "Oilpatch profits vastly outpacing spending — at least for now: Deloitte",
-       "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/08/oilpatch-profits-vastly-outpacing-spending-at-least-for-now-deloitte/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T14:37:38.000Z",
+       "title": "Deloitte fined £6M by FRC over go-ahead group auditing",
+       "url": "https://www.accountingtoday.com/articles/deloitte-fined-6m-by-frc-over-go-ahead-group-auditing",
+       "source": "Accounting Today",
+       "published": "2026-10-08T15:29:54.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/08/oilpatch-profits-vastly-outpacing-spending-at-least-for-now-deloitte/",
+         "name": "Accounting Today",
+         "url": "https://www.accountingtoday.com/articles/deloitte-fined-6m-by-frc-over-go-ahead-group-auditing",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Canadian oil producers saw a 68 per cent surge in operating profits between the first and second quarters of this year, but capital spending hasn’t kept anywhere near the same pace, says a new report from Deloitte Canada."
+       "blurb": "The Big Four firm was hit with a more than £6 million ($7.9 million) fine by a U.K. regulator over audits of the Go-Ahead Group Ltd."
       },
       {
-       "title": "Recording exists to show worker was pressured to take Deloitte partner’s name out of HR complaint, WRC told",
+       "title": "Recording supports claim employee pressured to omit Deloitte partner name from HR complaint, WRC told",
        "url": "https://www.irishtimes.com/business/2026/10/08/recording-exists-to-show-worker-was-pressured-to-take-deloitte-partners-name-out-of-hr-complaint-wrc-told/",
        "source": "The Irish Times Business",
        "published": "2026-10-08T12:05:10.000Z",
@@ -1118,6 +1144,57 @@
        "blurb": "The merger brings two of America's oldest moviemaking studios together under the helm of billionaire David Ellison and Ynon Kreiz, in a move that is projected to concentrate power in an industry already run by just a handful of major players"
       },
       {
+       "title": "Spotify renews multiyear deal with podcaster Joe Rogan",
+       "url": "https://www.channelnewsasia.com/business/spotify-renews-multiyear-deal-podcaster-joe-rogan-6443031",
+       "source": "CNA Business",
+       "published": "2026-10-08T13:28:44.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/spotify-renews-multiyear-deal-podcaster-joe-rogan-6443031",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
+      {
+       "title": "New York alleges TikTok gave teens, children a placebo safety feature instead of a real one",
+       "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T15:06:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New York’s lawsuit against the company is one of more than two dozen cases brought by states accusing the social media giant of designing its platform to encourage addictive use among children."
+      },
+      {
+       "title": "Spotify is getting more serious about selling enterprise software",
+       "url": "https://techcrunch.com/2026/10/08/spotify-is-getting-more-serious-about-selling-enterprise-software/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T14:34:33.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/spotify-is-getting-more-serious-about-selling-enterprise-software/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The company launched technology.spotify.com, a new site that will make its internal tech available to outsiders."
+      },
+      {
        "title": "ByteDance heads first SCMP Plus Going Global 100 ranking",
        "url": "https://www.scmp.com/business/china-business/article/3370010/bytedance-heads-first-scmp-plus-going-global-100-ranking?utm_source=rss_feed",
        "source": "South China Morning Post",
@@ -1186,23 +1263,6 @@
        "blurb": "MyBundle has branched beyond video streaming by introducing a mobile service in partnership with Gigs, starting at $20 per month per line. New customers can also get a free year of a premium, ad-supported streaming service."
       },
       {
-       "title": "TikTok to add AI-powered discovery and one-click checkout",
-       "url": "https://www.retaildive.com/news/tiktok-ai-powered-discovery-one-click-checkout/832326/",
-       "source": "Retail Dive",
-       "published": "2026-10-07T14:20:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Retail Dive",
-         "url": "https://www.retaildive.com/news/tiktok-ai-powered-discovery-one-click-checkout/832326/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The social media platform is hoping to capitalize on its role as a product discovery engine by adding a conversational AI agent and simpler checkout."
-      },
-      {
        "title": "CNG Expands Recycle-Ready Films Platform",
        "url": "https://www.plasticstoday.com/packaging/cng-expands-recycle-ready-films-platform",
        "source": "Plastics Today",
@@ -1259,21 +1319,21 @@
        "blurb": "With artificial intelligence removing hurdles for would-be hackers, experts warn cybersecurity threats are becoming more sophisticated and widespread."
       },
       {
-       "title": "Swiss pension fund hit by data leak after cyber attack on software provider",
-       "url": "https://www.channelnewsasia.com/business/swiss-pension-fund-hit-data-leak-after-cyber-attack-software-provider-6442016",
-       "source": "CNA Business",
-       "published": "2026-10-08T08:04:48.000Z",
+       "title": "EU expert group urges curbs on high-risk solar suppliers",
+       "url": "https://www.pv-magazine.com/2026/10/08/eu-expert-group-urges-curbs-on-high-risk-solar-suppliers/",
+       "source": "pv magazine",
+       "published": "2026-10-08T14:30:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/swiss-pension-fund-hit-data-leak-after-cyber-attack-software-provider-6442016",
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/eu-expert-group-urges-curbs-on-high-risk-solar-suppliers/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": ""
+       "blurb": "Cybersecurity experts advising the European Commission say PV components and software from high-risk third-country suppliers should be restricted in all market segments, including plug-in systems, and that inverters should face third-party certification under the Cyber Resilience"
       },
       {
        "title": "Researchers find almost 8,000 European solar energy systems exposed to internet cyberattacks",
@@ -1293,6 +1353,23 @@
        "blurb": "A joint Dutch team of researchers shows commercial solar power assets are internet-accessible, creating a dangerous threat to infrastructure."
       },
       {
+       "title": "Hundreds of European wind assets at risk of cyber attacks – report",
+       "url": "https://www.windpowermonthly.com/article/1972007/hundreds-european-wind-assets-risk-cyber-attacks-%E2%80%93-report",
+       "source": "Windpower Monthly",
+       "published": "2026-10-08T11:04:40.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Windpower Monthly",
+         "url": "https://www.windpowermonthly.com/article/1972007/hundreds-european-wind-assets-risk-cyber-attacks-%E2%80%93-report",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "More than 600 European wind power systems are exposed to remote cyber interference, with attackers capable of striking within hours, according to new research."
+      },
+      {
        "title": "An energy-first cybersecurity platform for solar, storage and the grid",
        "url": "https://www.pv-magazine.com/2026/10/08/an-energy-first-cybersecurity-platform-for-solar-storage-and-the-grid/",
        "source": "pv magazine",
@@ -1310,24 +1387,7 @@
        "blurb": "Romanian EPC contractor Enevo says the SentryOT platform stands apart from IT-led competitors by translating network threats into terms energy engineers understand. The post An energy-first cybersecurity platform for solar, storage and the grid appeared first on pv magazine Globa"
       },
       {
-       "title": "NHTSA to review vehicle cybersecurity best practices",
-       "url": "https://www.automotiveworld.com/news/nhtsa-to-review-vehicle-cybersecurity-best-practices/",
-       "source": "Automotive World",
-       "published": "2026-10-08T04:15:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Automotive World",
-         "url": "https://www.automotiveworld.com/news/nhtsa-to-review-vehicle-cybersecurity-best-practices/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "By reviewing its best practices, NHTSA is signalling that guidance written for connected cars must now cover AI-assisted attacks The post NHTSA to review vehicle cybersecurity best practices appeared first on Automotive World ."
-      },
-      {
-       "title": "UK’s ASOS says cyber hack accessed customers’ personal data",
+       "title": "UK’s ASOS says cyberhack accessed customers’ personal data",
        "url": "https://www.straitstimes.com/business/uks-asos-says-cyber-hack-accessed-customers-personal-data",
        "source": "The Straits Times Business",
        "published": "2026-10-08T11:00:00.000Z",
@@ -1366,6 +1426,40 @@
        "blurb": "Attacks targeting key industrial sites and unforced errors among leading AI companies are raising alarm bells."
       },
       {
+       "title": "Asos hackers took more personal details than first revealed, BBC finds",
+       "url": "https://www.bbc.co.uk/news/articles/c3zxjdw5ywgpo?at_medium=RSS&at_campaign=rss",
+       "source": "BBC News Business",
+       "published": "2026-10-08T16:29:33.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/c3zxjdw5ywgpo?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Retailer issues update after BBC contacted by cyber criminals who said this week's breach went beyond \"basic contact details\""
+      },
+      {
+       "title": "Coupang files lawsuits over $462 million in South Korea fines over data breach",
+       "url": "https://www.channelnewsasia.com/business/coupang-files-lawsuits-over-462-million-in-south-korea-fines-over-data-breach-6443436",
+       "source": "CNA Business",
+       "published": "2026-10-08T15:28:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/coupang-files-lawsuits-over-462-million-in-south-korea-fines-over-data-breach-6443436",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
+      {
        "title": "Frontline workers are vital to effective cybersecurity",
        "url": "https://www.ttnews.com/articles/frontline-vital-cybersecurity",
        "source": "Transport Topics",
@@ -1383,72 +1477,38 @@
        "blurb": "Experts at the NMFTA Cybersecurity Conference emphasized that as cargo theft schemes become more sophisticated, the importance of keeping humans involved to counter them becomes more crucial."
       },
       {
-       "title": "Asos customers’ names, search histories and contact details accessed in hack, says retailer",
-       "url": "https://www.theguardian.com/business/2026/oct/08/asos-customer-data-accessed-hacker-posing-impersonated",
-       "source": "The Guardian Business",
-       "published": "2026-10-08T11:44:22.000Z",
+       "title": "Asos confirms breach of customer data after hackers send rogue app notification",
+       "url": "https://techcrunch.com/2026/10/08/asos-confirms-breach-of-customer-data-after-hackers-send-rogue-app-notification/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T15:01:15.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/business/2026/oct/08/asos-customer-data-accessed-hacker-posing-impersonated",
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/asos-confirms-breach-of-customer-data-after-hackers-send-rogue-app-notification/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Hackers gained access to millions of users’ personal data, but not card details or passwords, Asos says Business live – live updates Asos hackers gained access to millions of customers’ recent search histories as well as names, addresses and phone numbers, the online fashion reta"
+       "blurb": "The hackers alerted the fashion giant's customers through a push notification that said they had \"fully compromised\" the company's cloud storage."
       },
       {
-       "title": "Asos hackers took more personal details than first revealed, BBC finds",
-       "url": "https://www.bbc.co.uk/news/articles/c3zxjdw5ywgpo?at_medium=RSS&at_campaign=rss",
-       "source": "BBC News Business",
-       "published": "2026-10-08T11:01:29.000Z",
+       "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
+       "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+       "source": "The Register",
+       "published": "2026-10-08T13:27:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/c3zxjdw5ywgpo?at_medium=RSS&at_campaign=rss",
+         "name": "The Register",
+         "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Retailer issues update after BBC contacted by cyber criminals who said this week's breach went beyond \"basic contact details\""
-      },
-      {
-       "title": "'Group of individuals' impacted by data breach at SA hospital",
-       "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T05:01:42.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "An Adelaide private hospital has notified individuals and cyber security authorities of a data breach of personal information."
-      },
-      {
-       "title": "Sungrow patches iSolarCloud vulnerability after security researchers gain access",
-       "url": "https://www.pv-magazine.com/2026/10/08/sungrow-patches-isolarcloud-vulnerability-after-security-researchers-gain-access/",
-       "source": "pv magazine",
-       "published": "2026-10-08T12:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/08/sungrow-patches-isolarcloud-vulnerability-after-security-researchers-gain-access/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A German cybersecurity firm has discovered an authentication flaw in Sungrow’s iSolarCloud platform that exposed connected devices, prompting an emergency patch. The post Sungrow patches iSolarCloud vulnerability after security researchers gain access appeared first on pv magazin"
+       "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
       }
      ]
     }
@@ -1461,6 +1521,23 @@
     "software": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "A $6 trillion question hangs over the AI construction boom",
+       "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
+       "source": "Construction Dive",
+       "published": "2026-10-08T13:24:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
+      },
       {
        "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
        "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
@@ -1477,23 +1554,6 @@
        "stages": [],
        "via": null,
        "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
-      },
-      {
-       "title": "Google and Oracle deals support long-term US plant operations",
-       "url": "https://www.world-nuclear-news.org/articles/new-end-user-agreements-support-long-term-us-plant-operations",
-       "source": "World Nuclear News",
-       "published": "2026-10-06T15:23:47.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/new-end-user-agreements-support-long-term-us-plant-operations",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Google and Constellation Energy have announced a long-term collaboration to bring 890 MW of new nuclear capacity onto the PJM Interconnection grid, as well as a power purchase agreement. Meanwhile, Oracle is to subscribe to output from the Point Beach nuclear power plant."
       },
       {
        "title": "Using AI to mitigate the growing environmental threat of data centers",
@@ -1615,23 +1675,6 @@
        "blurb": "The company presented new data about the prevalence of different forms of social-engineering attacks, saying identity fundamentals still matter in the AI era."
       },
       {
-       "title": "TikTok to add AI-powered discovery and one-click checkout",
-       "url": "https://www.retaildive.com/news/tiktok-ai-powered-discovery-one-click-checkout/832326/",
-       "source": "Retail Dive",
-       "published": "2026-10-07T14:20:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Retail Dive",
-         "url": "https://www.retaildive.com/news/tiktok-ai-powered-discovery-one-click-checkout/832326/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The social media platform is hoping to capitalize on its role as a product discovery engine by adding a conversational AI agent and simpler checkout."
-      },
-      {
        "title": "Hilton taps former Uber exec as CTO",
        "url": "https://www.hoteldive.com/news/hilton-taps-cto-former-uber-exec/832312/",
        "source": "Hotel Dive",
@@ -1669,12 +1712,46 @@
        "stages": [],
        "via": null,
        "blurb": "Some of the report's conclusions may be optimistic and there is a need to look at them critically. The post Everlaw’s 2026 AI Report: A Glass Half Full Or Half Empty? appeared first on Above the Law ."
+      },
+      {
+       "title": "Margaret Hamilton, computing pioneer who led software development for the Apollo program, dies at 90",
+       "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+       "source": "MIT News",
+       "published": "2026-10-07T20:55:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "MIT News",
+         "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Over two decades at MIT, Hamilton forged new paths in computer science and engineering. Her groundbreaking work included leading the team that programmed the first computers that took humans to the moon."
       }
      ]
     },
     "cloud": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Alabama Sets Stricter Data Center Rules. But There’s a Loophole.",
+       "url": "https://insideclimatenews.org/news/07102026/alabama-data-center-rules-loophole/",
+       "source": "Inside Climate News",
+       "published": "2026-10-07T08:55:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Inside Climate News",
+         "url": "https://insideclimatenews.org/news/07102026/alabama-data-center-rules-loophole/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "MONTGOMERY, Ala.—The Alabama Public Service Commission approved a new set of rules for future data center projects Tuesday that require more transparency and disclosure from data center companies and public votes by the PSC for data center approval. But they leave in place what c"
+      },
       {
        "title": "TeraWulf Doubles Kentucky Data Center Power to 1 GW",
        "url": "https://www.enr.com/articles/63799-terawulf-doubles-kentucky-data-center-power-to-1-gw",
@@ -1742,59 +1819,29 @@
        "stages": [],
        "via": null,
        "blurb": "America’s data center boom is moving fast, but the infrastructure needed to power it isn’t always keeping pace. From transmission and fuel constraints to construction setbacks, major projects are finding that turning billions of dollars in investment into energized megawatts can "
-      },
-      {
-       "title": "Constellation, Google strike 890-MW nuclear deal to meet data center power demand",
-       "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/",
-       "source": "Construction Dive",
-       "published": "2026-10-06T13:23:00.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Utility Dive",
-         "url": "https://www.utilitydive.com/news/doe-intends-to-loan-vistra-42b-for-nuclear-fleet-improvements/832236/",
-         "primary": false
-        },
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/doe-offers-vistra-loan-for-reactor-upgrades-and-uprates",
-         "primary": false
-        },
-        {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/",
-         "primary": false
-        },
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/vistra_gets_conditional_42b_doe_loan_for_pjm_nuclear_fleet-06-oct-2026-184787-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "POWER Magazine",
-         "url": "https://www.powermag.com/google-deal-backs-890-mw-of-constellation-nuclear-uprates-at-11-pjm-reactors/",
-         "primary": false
-        },
-        {
-         "name": "Construction Dive",
-         "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/",
-         "primary": false
-        },
-        {
-         "name": "Power Engineering",
-         "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Constellation Energy has signed 20-year power purchase agreements with both Google and Amazon in the last week, supporting almost 1.1 GW of nuclear expansions."
       }
      ]
     },
     "telecom": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Amazon builds 1,000th satellite, will launch space internet service by end of year",
+       "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
+       "source": "Ars Technica",
+       "published": "2026-10-08T15:28:36.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "\"If this was easy, everybody else would be doing it.\""
+      },
       {
        "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
        "url": "https://www.fierce-network.com/sponsored/huawei-and-qualcomm-announce-broad-patent-license-agreement",
@@ -1817,6 +1864,28 @@
     "research": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
+       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+       "source": "Manufacturing Dive",
+       "published": "2026-10-08T16:03:05.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Manufacturing Dive",
+         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+         "primary": false
+        },
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/wolfspeed-receives-15bn-conditional-loan-commitment-from-us-govt-to-boost-domestic-sic-and-gan-production/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+      },
       {
        "title": "How a reluctant Iowa farming county undid a ban on battery storage",
        "url": "https://www.canarymedia.com/articles/food-and-farms/iowa-farm-county-battery-storage",
@@ -1928,23 +1997,6 @@
        "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
       },
       {
-       "title": "Farm Hands on the Potomac: Joel Leftwich joins Idealyst Innovation, ​Robert Haus goes to Vylor, General Mills names Dana McNabb as CEO",
-       "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
-       "source": "Agri-Pulse",
-       "published": "2026-10-07T10:05:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Agri-Pulse",
-         "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Joel Leftwich will join Idealyst Innovation as executive vice president of policy innovation and director of the Center for American Food Power. Robert Haus has joined Vylor as state government and industry affairs leader. General Mills named Dana McNabb as CEO, effective Jan. 1,"
-      },
-      {
        "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
        "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
        "source": "NPR Science",
@@ -1965,6 +2017,23 @@
        "stages": [],
        "via": null,
        "blurb": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s."
+      },
+      {
+       "title": "Farm Hands on the Potomac: Joel Leftwich joins Idealyst Innovation, ​Robert Haus goes to Vylor, General Mills names Dana McNabb as CEO",
+       "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
+       "source": "Agri-Pulse",
+       "published": "2026-10-07T10:05:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Agri-Pulse",
+         "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Joel Leftwich will join Idealyst Innovation as executive vice president of policy innovation and director of the Center for American Food Power. Robert Haus has joined Vylor as state government and industry affairs leader. General Mills named Dana McNabb as CEO, effective Jan. 1,"
       },
       {
        "title": "US selects 14 hydropower projects for testing support",
@@ -2012,64 +2081,61 @@
        "blurb": "It’s only the second time that American regulators have approved a next-generation commercial reactor for construction. Big hurdles remain."
       },
       {
-       "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
-       "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
-       "source": "NASA News",
-       "published": "2026-10-07T21:16:42.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "NASA and SpaceX are targeting 6:33 a.m. EDT, Tuesday, Oct. 13, for the next launch to deliver science investigations, supplies, and equipment, including the final set of International Space Station Roll-Out Solar Arrays, to the space station. This is the 35th SpaceX commercial re"
-      },
-      {
-       "title": "Second part of construction permit application submitted for SMRs at Palisades",
-       "url": "https://www.world-nuclear-news.org/articles/second-part-of-construction-permit-application-submitted-for-pioneer-smrs",
-       "source": "World Nuclear News",
-       "published": "2026-10-02T14:38:26.000Z",
+       "title": "Foreign sugar subsidies cost US farmers billions, study finds",
+       "url": "https://www.farmprogress.com/tv-and-radio/foreign-sugar-subsidies-cost-us-farmers-billions-study-finds",
+       "source": "Farm Progress",
+       "published": "2026-10-08T12:51:02.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/second-part-of-construction-permit-application-submitted-for-pioneer-smrs",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Holtec has submitted the Preliminary Safety Analysis Report to the US Nuclear Regulatory Commission for two small modular reactor units at the Palisades Energy Center in Michigan, completing the second phase of the Construction Permit Application process."
-      },
-      {
-       "title": "Plastic Ingenuity Showcasing Sustainable Packaging Innovation at Pack Expo",
-       "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
-       "source": "Plastics Today",
-       "published": "2026-10-06T11:58:31.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Plastics Today",
-         "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
+         "name": "Farm Progress",
+         "url": "https://www.farmprogress.com/tv-and-radio/foreign-sugar-subsidies-cost-us-farmers-billions-study-finds",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Plastic Ingenuity's Ameristar Award-winning PET medical device reel replaces PVC with recyclable material, converting 236,000 pounds annually. The company will spotlight its innovations at Pack Expo 2026, being held later this month in Chicago."
+       "blurb": "Farm Progress America"
+      },
+      {
+       "title": "Healthcare organizations are underprepared for quantum computing threats",
+       "url": "https://www.healthcaredive.com/news/healthcare-organizations-are-underprepared-for-quantum-computing-threats/832516/",
+       "source": "Healthcare Dive",
+       "published": "2026-10-08T17:24:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Healthcare Dive",
+         "url": "https://www.healthcaredive.com/news/healthcare-organizations-are-underprepared-for-quantum-computing-threats/832516/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Once scientists are able to develop practical quantum computers, the technology could quickly break the encryption methods protecting patient data. Experts say healthcare leaders should start preparing for that reality today."
       }
      ]
     },
     "consulting": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "A $6 trillion question hangs over the AI construction boom",
+       "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
+       "source": "Construction Dive",
+       "published": "2026-10-08T13:24:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
+      },
       {
        "title": "Payments income bolsters banks",
        "url": "https://www.paymentsdive.com/news/payments-income-bolsters-banks/832378/",
@@ -2149,21 +2215,21 @@
        "blurb": "The merger brings two of America's oldest moviemaking studios together under the helm of billionaire David Ellison and Ynon Kreiz, in a move that is projected to concentrate power in an industry already run by just a handful of major players"
       },
       {
-       "title": "TikTok to add AI-powered discovery and one-click checkout",
-       "url": "https://www.retaildive.com/news/tiktok-ai-powered-discovery-one-click-checkout/832326/",
-       "source": "Retail Dive",
-       "published": "2026-10-07T14:20:00.000Z",
+       "title": "New York alleges TikTok gave teens, children a placebo safety feature instead of a real one",
+       "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T15:06:17.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Retail Dive",
-         "url": "https://www.retaildive.com/news/tiktok-ai-powered-discovery-one-click-checkout/832326/",
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The social media platform is hoping to capitalize on its role as a product discovery engine by adding a conversational AI agent and simpler checkout."
+       "blurb": "New York’s lawsuit against the company is one of more than two dozen cases brought by states accusing the social media giant of designing its platform to encourage addictive use among children."
       },
       {
        "title": "CNG Expands Recycle-Ready Films Platform",
@@ -2370,6 +2436,60 @@
    "label": "Netherlands",
    "level": "country",
    "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Arelion, Nokia trial boosts optical capacity for AI traffic",
+       "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
+       "source": "Fierce Network",
+       "published": null,
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+         "primary": false
+        },
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Arelion says a live Amsterdam-to-London field trial with Nokia expanded usable optical spectrum by 21%, adding capacity for AI-driven data center and cloud connectivity."
+      }
+     ]
+    },
+    "telecom": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Arelion partners with Nokia on live network field trial",
+       "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+       "source": "Light Reading",
+       "published": "2026-10-08T14:53:22.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+         "primary": false
+        },
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Arelion's 500-kilometer route from Amsterdam to London uses Nokia's 1830 Global Express (GX) Super C and Super L open line system, CHMQ6 thin transponder modules and ICE-X 400G and 800G ZR+ coherent pluggable optics. #pressrelease"
+      }
+     ]
+    },
     "research": {
      "brief": "missing",
      "candidates": [
@@ -2500,6 +2620,50 @@
    "label": "South Korea",
    "level": "country",
    "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
+       "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+       "source": "The Register",
+       "published": "2026-10-08T13:27:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
+      }
+     ]
+    },
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "KT Cloud plans 50MW data center project in Incheon, South Korea",
+       "url": "https://www.datacenterdynamics.com/en/news/kt-cloud-plans-50mw-data-center-project-in-incheon-south-korea/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T16:33:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/kt-cloud-plans-50mw-data-center-project-in-incheon-south-korea/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "KT Cloud will serve as the design, build, and operate partner"
+      }
+     ]
+    },
     "research": {
      "brief": "missing",
      "candidates": [
@@ -2522,6 +2686,45 @@
         "stage": "innovation"
        },
        "blurb": "South Korea's Hyundai Engineering & Construction has been contracted by Westinghouse to carry out basic design studies for the construction of two large nuclear power plants in the Netherlands based on Westinghouse's AP1000 design."
+      }
+     ]
+    },
+    "cyber": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Coupang files lawsuits over $462 million in South Korea fines over data breach",
+       "url": "https://www.channelnewsasia.com/business/coupang-files-lawsuits-over-462-million-in-south-korea-fines-over-data-breach-6443436",
+       "source": "CNA Business",
+       "published": "2026-10-08T15:28:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/coupang-files-lawsuits-over-462-million-in-south-korea-fines-over-data-breach-6443436",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
+      {
+       "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
+       "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+       "source": "The Register",
+       "published": "2026-10-08T13:27:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
       }
      ]
     }
@@ -2555,6 +2758,34 @@
     }
    }
   },
+  "ua": {
+   "label": "Ukraine",
+   "level": "country",
+   "sources": {
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ukrainian Drones Hit Yandex Data Center, Industrial Facilities Across Russia",
+       "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T12:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
+      }
+     ]
+    }
+   }
+  },
   "ru": {
    "label": "Russia",
    "level": "country",
@@ -2563,37 +2794,64 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Russia's largest Yandex data center reportedly hit in drone attack",
-       "url": "https://kyivindependent.com/russias-largest-yandex-data-center-reportedly-hit-in-drone-attack/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T03:14:20.000Z",
-       "verification": "multiple",
+       "title": "Russia's Yandex says unclear whether data centre can be restored after drone strike",
+       "url": "https://www.channelnewsasia.com/business/russias-yandex-says-unclear-whether-data-centre-can-be-restored-after-drone-strike-6443541",
+       "source": "CNA Business",
+       "published": "2026-10-08T16:22:19.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/russias-largest-yandex-data-center-reportedly-hit-in-drone-attack/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/yandex-data-center-hit-in-drone-attack-in-russia/",
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/russias-yandex-says-unclear-whether-data-centre-can-be-restored-after-drone-strike-6443541",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The Sasovo data center is located on the grounds of the Sasta machine-tool plant, a manufacturer of metal-cutting and high-precision CNC metalworking machines used across Russian industry, including the defense-industrial, aerospace, oil and gas, and heavy machinery sectors."
+       "blurb": ""
+      },
+      {
+       "title": "Ukrainian Drones Hit Yandex Data Center, Industrial Facilities Across Russia",
+       "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T12:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
       }
      ]
     },
     "research": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Sochi Reopens Beaches After Drone Attack on Oil Tanker",
+       "url": "https://www.themoscowtimes.com/2026/10/08/sochi-reopens-beaches-after-drone-attack-on-oil-tanker-a93918",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T15:06:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/08/sochi-reopens-beaches-after-drone-attack-on-oil-tanker-a93918",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Authorities said tests found no oil contamination following a drone attack ignited a major blaze on an oil tanker."
+      },
       {
        "title": "Five things to know about the death at Russia’s anti-plague laboratory",
        "url": "https://www.atlanticcouncil.org/dispatches/five-things-to-know-about-the-death-at-russias-anti-plague-laboratory/",
@@ -2637,10 +2895,110 @@
     }
    }
   },
+  "ru-ms-2": {
+   "label": "Moskva",
+   "level": "admin1",
+   "sources": {
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ukrainian Drones Hit Yandex Data Center, Industrial Facilities Across Russia",
+       "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T12:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
+      }
+     ]
+    }
+   }
+  },
+  "ru-city-moscow": {
+   "label": "Moscow",
+   "level": "city",
+   "sources": {
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ukrainian Drones Hit Yandex Data Center, Industrial Facilities Across Russia",
+       "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T12:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
+      }
+     ]
+    }
+   }
+  },
   "ca": {
    "label": "Canada",
    "level": "country",
    "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "OSFI says geopolitical, economic and AI risks have intensified for financial system",
+       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/osfi-says-geopolitical-economic-and-ai-risks-have-intensified-for-financial-system/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-08T18:26:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/osfi-says-geopolitical-economic-and-ai-risks-have-intensified-for-financial-system/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Office of the Superintendent of Financial Institutions says rapid technological advances have intensified risk in the Canadian financial system."
+      }
+     ]
+    },
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Consultants for Hydro-Quebec defend proposal to double energy costs for data centres",
+       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-08T20:11:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Two consultants hired by Hydro-Quebec say they expect the demand from data centres to more than double between 2024 and 2030."
+      }
+     ]
+    },
     "research": {
      "brief": "missing",
      "candidates": [
@@ -2675,21 +3033,21 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Oilpatch profits vastly outpacing spending — at least for now: Deloitte",
-       "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/08/oilpatch-profits-vastly-outpacing-spending-at-least-for-now-deloitte/",
+       "title": "Consultants for Hydro-Quebec defend proposal to double energy costs for data centres",
+       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
        "source": "BNN Bloomberg",
-       "published": "2026-10-08T14:37:38.000Z",
+       "published": "2026-10-08T20:11:09.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/08/oilpatch-profits-vastly-outpacing-spending-at-least-for-now-deloitte/",
+         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Canadian oil producers saw a 68 per cent surge in operating profits between the first and second quarters of this year, but capital spending hasn’t kept anywhere near the same pace, says a new report from Deloitte Canada."
+       "blurb": "Two consultants hired by Hydro-Quebec say they expect the demand from data centres to more than double between 2024 and 2030."
       }
      ]
     }
@@ -2762,38 +3120,32 @@
     }
    }
   },
-  "us-pa": {
-   "label": "Pennsylvania",
-   "level": "admin1",
+  "de": {
+   "label": "Germany",
+   "level": "country",
    "sources": {
     "cloud": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Fit Energy Will Use Gas-Powered Fuel Cells For Pennsylvania Data Center Project",
-       "url": "https://www.powermag.com/fit-energy-will-use-gas-powered-fuel-cells-for-pennsylvania-data-center-project/",
-       "source": "POWER Magazine",
-       "published": "2026-10-06T16:42:25.000Z",
+       "title": "Waste heat from Goodman data center in Frankfurt, Germany, to power district heating system",
+       "url": "https://www.datacenterdynamics.com/en/news/waste-heat-from-goodman-data-center-in-frankfurt-germany-to-power-district-heating-system/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T15:55:25.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "POWER Magazine",
-         "url": "https://www.powermag.com/fit-energy-will-use-gas-powered-fuel-cells-for-pennsylvania-data-center-project/",
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/waste-heat-from-goodman-data-center-in-frankfurt-germany-to-power-district-heating-system/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Fit Energy, a developer of energy solutions for data center projects, has announced plans for a fuel cell power generation and data center project in Newport Township, Luzerne County, Pennsylvania. The project received township zoning approval for both uses in August of this year"
+       "blurb": "Firm will recover and supply 50MW to warm buildings and a swimming pool"
       }
      ]
-    }
-   }
-  },
-  "de": {
-   "label": "Germany",
-   "level": "country",
-   "sources": {
+    },
     "research": {
      "brief": "missing",
      "candidates": [
@@ -2818,23 +3170,6 @@
        "blurb": "A newly launched research projects aims to develop guidelines and standards for the practical deployment of mine water geothermal heating in Germany. The post Partnership formed for research on mine water geothermal energy in Germany first appeared on ThinkGeoEnergy - Geothermal "
       },
       {
-       "title": "Sungrow patches iSolarCloud vulnerability after security researchers gain access",
-       "url": "https://www.pv-magazine.com/2026/10/08/sungrow-patches-isolarcloud-vulnerability-after-security-researchers-gain-access/",
-       "source": "pv magazine",
-       "published": "2026-10-08T12:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/08/sungrow-patches-isolarcloud-vulnerability-after-security-researchers-gain-access/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A German cybersecurity firm has discovered an authentication flaw in Sungrow’s iSolarCloud platform that exposed connected devices, prompting an emergency patch. The post Sungrow patches iSolarCloud vulnerability after security researchers gain access appeared first on pv magazin"
-      },
-      {
        "title": "Drilling and testing of geothermal wells in Geiselbullach, Germany completed",
        "url": "https://www.thinkgeoenergy.com/drilling-and-testing-of-geothermal-wells-in-geiselbullach-germany-completed/",
        "source": "ThinkGeoEnergy",
@@ -2853,6 +3188,40 @@
         "stage": "innovation"
        },
        "blurb": "The geothermal heating project in Geiselbullach, Germany is now proceeding to the construction phase after successful drilling and testing of two deep wells. The post Drilling and testing of geothermal wells in Geiselbullach, Germany completed first appeared on ThinkGeoEnergy - G"
+      },
+      {
+       "title": "Fakuma 2026 Celebrates 30 Years of Plastics Innovation",
+       "url": "https://www.plasticstoday.com/industry-trends/fakuma-2026-celebrates-30-years-of-plastics-innovation",
+       "source": "Plastics Today",
+       "published": "2026-10-08T13:01:03.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/industry-trends/fakuma-2026-celebrates-30-years-of-plastics-innovation",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The 30th Fakuma international trade fair returns to Friedrichshafen, Germany, October 12 to 16, 2026, featuring 1,600 exhibitors, new awards, career initiatives, and comprehensive plastics processing innovations."
+      },
+      {
+       "title": "Sungrow patches iSolarCloud vulnerability after security researchers gain access",
+       "url": "https://www.pv-magazine.com/2026/10/08/sungrow-patches-isolarcloud-vulnerability-after-security-researchers-gain-access/",
+       "source": "pv magazine",
+       "published": "2026-10-08T12:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/sungrow-patches-isolarcloud-vulnerability-after-security-researchers-gain-access/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A German cybersecurity firm has discovered an authentication flaw in Sungrow’s iSolarCloud platform that exposed connected devices, prompting an emergency patch. The post Sungrow patches iSolarCloud vulnerability after security researchers gain access appeared first on pv magazin"
       },
       {
        "title": "Stadler Inaugurates Test Center for Recycling Innovation",
@@ -3008,23 +3377,51 @@
     }
    }
   },
-  "us-mi": {
-   "label": "Michigan",
+  "us-pa": {
+   "label": "Pennsylvania",
    "level": "admin1",
+   "sources": {
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Fit Energy Will Use Gas-Powered Fuel Cells For Pennsylvania Data Center Project",
+       "url": "https://www.powermag.com/fit-energy-will-use-gas-powered-fuel-cells-for-pennsylvania-data-center-project/",
+       "source": "POWER Magazine",
+       "published": "2026-10-06T16:42:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/fit-energy-will-use-gas-powered-fuel-cells-for-pennsylvania-data-center-project/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Fit Energy, a developer of energy solutions for data center projects, has announced plans for a fuel cell power generation and data center project in Newport Township, Luzerne County, Pennsylvania. The project received township zoning approval for both uses in August of this year"
+      }
+     ]
+    }
+   }
+  },
+  "tr": {
+   "label": "Türkiye",
+   "level": "country",
    "sources": {
     "research": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Second part of construction permit application submitted for SMRs at Palisades",
-       "url": "https://www.world-nuclear-news.org/articles/second-part-of-construction-permit-application-submitted-for-pioneer-smrs",
-       "source": "World Nuclear News",
-       "published": "2026-10-02T14:38:26.000Z",
+       "title": "DSG 2026 offers a new perspective on the future of geothermal energy",
+       "url": "https://www.thinkgeoenergy.com/dsg-2026-offers-a-new-perspective-on-the-future-of-geothermal-energy/",
+       "source": "ThinkGeoEnergy",
+       "published": "2026-10-08T16:19:56.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/second-part-of-construction-permit-application-submitted-for-pioneer-smrs",
+         "name": "ThinkGeoEnergy",
+         "url": "https://www.thinkgeoenergy.com/dsg-2026-offers-a-new-perspective-on-the-future-of-geothermal-energy/",
          "primary": false
         }
        ],
@@ -3033,7 +3430,7 @@
         "from": "energy",
         "stage": "innovation"
        },
-       "blurb": "Holtec has submitted the Preliminary Safety Analysis Report to the US Nuclear Regulatory Commission for two small modular reactor units at the Palisades Energy Center in Michigan, completing the second phase of the Construction Permit Application process."
+       "blurb": "In this interview, Dr. Zeynel Öztürk of Anadolu Innovation talks about the evolution of the geothermal sector and the DSG workshop recently held in Türkiye. The post DSG 2026 offers a new perspective on the future of geothermal energy first appeared on ThinkGeoEnergy - Geothermal"
       }
      ]
     }
@@ -3046,28 +3443,6 @@
     "software": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "France's Sesterce plans $11 billion AI investment in Finland",
-       "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726",
-       "source": "CNA Business",
-       "published": "2026-10-08T05:44:06.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
       {
        "title": "Why I quit the movement shaping AI",
        "url": "https://www.france24.com/en/tv-shows/tech-24/20261004-why-i-quit-the-movement-shaping-ai",
@@ -3138,79 +3513,6 @@
    "label": "Ireland",
    "level": "country",
    "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Oracle to cut another 70 jobs in Ireland in AI cost-cutting push",
-       "url": "https://www.irishtimes.com/business/2026/10/07/oracle-to-cut-another-70-jobs-in-ireland-in-ai-cost-cutting-push/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-07T16:32:24.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/07/oracle-to-cut-another-70-jobs-in-ireland-in-ai-cost-cutting-push/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Cloud computing giant has already shed around 150 Irish roles this year"
-      },
-      {
-       "title": "Will AI kill our rosy jobs growth forecasts?",
-       "url": "https://www.irishtimes.com/business/2026/10/08/will-ai-kill-our-rosy-jobs-growth-forecasts/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-08T04:37:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/will-ai-kill-our-rosy-jobs-growth-forecasts/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Department of Finance draws attention ‘to risks to employment prospects from AI over the medium-term’"
-      },
-      {
-       "title": "‘AI should give us more room for the human’: What can we learn from the office superusers?",
-       "url": "https://www.irishtimes.com/business/2026/10/08/ai-should-give-us-more-room-for-the-human-what-can-we-learn-from-the-office-superusers/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-08T04:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/ai-should-give-us-more-room-for-the-human-what-can-we-learn-from-the-office-superusers/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Leaders who have gone all-in on new tech tools describe how they are reimagining their working lives"
-      },
-      {
-       "title": "Limerick start-up uses AI to take the pain out of compliance",
-       "url": "https://www.irishtimes.com/business/innovation/2026/10/08/limerick-start-up-uses-ai-to-take-the-pain-out-of-compliance/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-08T02:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/innovation/2026/10/08/limerick-start-up-uses-ai-to-take-the-pain-out-of-compliance/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Envaira is targeting multinationals struggling to keep track of hundreds of environmental, health and safety requirements across multiple sites"
-      }
-     ]
-    },
     "consulting": {
      "brief": "missing",
      "candidates": [
@@ -3232,7 +3534,7 @@
        "blurb": "A tender has been announced for a single-party framework agreement for geothermal engineering consultancy services for the Grangegorman site in Ireland. The post Tender – Framework agreement for geothermal consultancy at Grangegorman, Ireland first appeared on ThinkGeoEnergy - Ge"
       },
       {
-       "title": "Recording exists to show worker was pressured to take Deloitte partner’s name out of HR complaint, WRC told",
+       "title": "Recording supports claim employee pressured to omit Deloitte partner name from HR complaint, WRC told",
        "url": "https://www.irishtimes.com/business/2026/10/08/recording-exists-to-show-worker-was-pressured-to-take-deloitte-partners-name-out-of-hr-complaint-wrc-told/",
        "source": "The Irish Times Business",
        "published": "2026-10-08T12:05:10.000Z",
@@ -3305,120 +3607,6 @@
     }
    }
   },
-  "ua": {
-   "label": "Ukraine",
-   "level": "country",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukrainian Drones Hit Yandex Data Center After Wave of Russian Attacks",
-       "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
-       "source": "The Moscow Times",
-       "published": "2026-10-08T08:21:34.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/russias-largest-yandex-data-center-reportedly-hit-in-drone-attack/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/yandex-data-center-hit-in-drone-attack-in-russia/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
-      }
-     ]
-    }
-   }
-  },
-  "ru-ms-2": {
-   "label": "Moskva",
-   "level": "admin1",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukrainian Drones Hit Yandex Data Center After Wave of Russian Attacks",
-       "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
-       "source": "The Moscow Times",
-       "published": "2026-10-08T08:21:34.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/russias-largest-yandex-data-center-reportedly-hit-in-drone-attack/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/yandex-data-center-hit-in-drone-attack-in-russia/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
-      }
-     ]
-    }
-   }
-  },
-  "ru-city-moscow": {
-   "label": "Moscow",
-   "level": "city",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukrainian Drones Hit Yandex Data Center After Wave of Russian Attacks",
-       "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
-       "source": "The Moscow Times",
-       "published": "2026-10-08T08:21:34.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/russias-largest-yandex-data-center-reportedly-hit-in-drone-attack/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/yandex-data-center-hit-in-drone-attack-in-russia/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
-      }
-     ]
-    }
-   }
-  },
   "sa": {
    "label": "Saudi Arabia",
    "level": "country",
@@ -3450,56 +3638,6 @@
     }
    }
   },
-  "jp": {
-   "label": "Japan",
-   "level": "country",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "AirTrunk plans additional $1bn investment in data center campus in Inzai, Japan",
-       "url": "https://www.datacenterdynamics.com/en/news/airtrunk-plans-additional-1bn-investment-in-data-center-campus-in-inzai-japan/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-07T16:10:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/airtrunk-plans-additional-1bn-investment-in-data-center-campus-in-inzai-japan/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Company plans to triple overall investment in country to $30bn"
-      }
-     ]
-    },
-    "cyber": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Japan and cybersecurity: What’s behind recent attacks and what’s being done?",
-       "url": "https://www.japantimes.co.jp/business/2026/10/08/tech/focus-japan-data-leak/",
-       "source": "The Japan Times",
-       "published": "2026-10-08T09:03:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/business/2026/10/08/tech/focus-japan-data-leak/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "With artificial intelligence removing hurdles for would-be hackers, experts warn cybersecurity threats are becoming more sophisticated and widespread."
-      }
-     ]
-    }
-   }
-  },
   "gb": {
    "label": "United Kingdom",
    "level": "country",
@@ -3523,6 +3661,55 @@
        "stages": [],
        "via": null,
        "blurb": "Amazon, Google, Microsoft, OpenAI and six others agree to changes, but the ICO isn't done asking questions"
+      },
+      {
+       "title": "Arelion, Nokia trial boosts optical capacity for AI traffic",
+       "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
+       "source": "Fierce Network",
+       "published": null,
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+         "primary": false
+        },
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Arelion says a live Amsterdam-to-London field trial with Nokia expanded usable optical spectrum by 21%, adding capacity for AI-driven data center and cloud connectivity."
+      }
+     ]
+    },
+    "telecom": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Arelion partners with Nokia on live network field trial",
+       "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+       "source": "Light Reading",
+       "published": "2026-10-08T14:53:22.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+         "primary": false
+        },
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Arelion's 500-kilometer route from Amsterdam to London uses Nokia's 1830 Global Express (GX) Super C and Super L open line system, CHMQ6 thin transponder modules and ICE-X 400G and 800G ZR+ coherent pluggable optics. #pressrelease"
       }
      ]
     },
@@ -3530,17 +3717,32 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "DCD Studio: Market models for SMRs with Rosa Rotko, Mott MacDonald",
+       "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-market-models-for-smrs-with-rosa-rotko-mott-macdonald/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T16:32:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-market-models-for-smrs-with-rosa-rotko-mott-macdonald/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Tam Pledger speaks with Rosa Rotko of Mott MacDonald on critical grid connection delays impacting UK energy projects"
+      },
+      {
        "title": "Subsea Battery System for Offshore Wind Completes Test Before Deployment",
        "url": "https://offshorewind.biz/2026/10/06/subsea-battery-system-for-offshore-wind-completes-test-before-deployment",
        "source": "offshoreWIND.biz",
        "published": "2026-10-06T13:53:08.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
-        {
-         "name": "Offshore Energy",
-         "url": "https://offshore-energy.biz/2026/10/06/subsea-battery-system-for-offshore-wind-completes-test-before-deployment",
-         "primary": false
-        },
         {
          "name": "offshoreWIND.biz",
          "url": "https://offshorewind.biz/2026/10/06/subsea-battery-system-for-offshore-wind-completes-test-before-deployment",
@@ -3593,11 +3795,33 @@
       }
      ]
     },
+    "consulting": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Deloitte fined £6M by FRC over go-ahead group auditing",
+       "url": "https://www.accountingtoday.com/articles/deloitte-fined-6m-by-frc-over-go-ahead-group-auditing",
+       "source": "Accounting Today",
+       "published": "2026-10-08T15:29:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Accounting Today",
+         "url": "https://www.accountingtoday.com/articles/deloitte-fined-6m-by-frc-over-go-ahead-group-auditing",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Big Four firm was hit with a more than £6 million ($7.9 million) fine by a U.K. regulator over audits of the Go-Ahead Group Ltd."
+      }
+     ]
+    },
     "cyber": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "UK’s ASOS says cyber hack accessed customers’ personal data",
+       "title": "UK’s ASOS says cyberhack accessed customers’ personal data",
        "url": "https://www.straitstimes.com/business/uks-asos-says-cyber-hack-accessed-customers-personal-data",
        "source": "The Straits Times Business",
        "published": "2026-10-08T11:00:00.000Z",
@@ -3639,6 +3863,62 @@
     }
    }
   },
+  "de-he": {
+   "label": "Hessen",
+   "level": "admin1",
+   "sources": {
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Waste heat from Goodman data center in Frankfurt, Germany, to power district heating system",
+       "url": "https://www.datacenterdynamics.com/en/news/waste-heat-from-goodman-data-center-in-frankfurt-germany-to-power-district-heating-system/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T15:55:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/waste-heat-from-goodman-data-center-in-frankfurt-germany-to-power-district-heating-system/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Firm will recover and supply 50MW to warm buildings and a swimming pool"
+      }
+     ]
+    }
+   }
+  },
+  "de-city-frankfurt": {
+   "label": "Frankfurt",
+   "level": "city",
+   "sources": {
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Waste heat from Goodman data center in Frankfurt, Germany, to power district heating system",
+       "url": "https://www.datacenterdynamics.com/en/news/waste-heat-from-goodman-data-center-in-frankfurt-germany-to-power-district-heating-system/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T15:55:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/waste-heat-from-goodman-data-center-in-frankfurt-germany-to-power-district-heating-system/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Firm will recover and supply 50MW to warm buildings and a swimming pool"
+      }
+     ]
+    }
+   }
+  },
   "in": {
    "label": "India",
    "level": "country",
@@ -3646,6 +3926,23 @@
     "software": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "HCLTech rolls out a bouquet of industry AI solutions",
+       "url": "https://www.thehindu.com/business/Industry/hcltech-rolls-out-a-bouquet-of-industry-ai-solutions/article71560553.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-08T15:13:47.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Industry/hcltech-rolls-out-a-bouquet-of-industry-ai-solutions/article71560553.ece",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The solutions combine deep domain expertise with AI capabilities to address high-value, industry-specific use cases across banking, healthcare and life sciences, aerospace, retail, telecom, mobility, energy and manufacturing."
+      },
       {
        "title": "AI regulation consultation paper next month, says IT minister Vaishnaw",
        "url": "https://timesofindia.indiatimes.com/business/india-business/ai-regulation-consultation-paper-next-month-says-it-minister-vaishnaw-focus-on-safety-deepfakes/articleshow/134785844.cms",
@@ -3703,60 +4000,31 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Elon Musk alleges ‘oligarch’ interference in Starlink’s India launch",
-       "url": "https://www.thehindu.com/business/Industry/elon-musk-alleges-oligarch-interference-instarlinksindia-launch/article71557189.ece",
+       "title": "‘Is Ambani the real boss of India’, asks Elon Musk, as Centre refutes bias in Starlink authorisation",
+       "url": "https://www.thehindu.com/business/Industry/dot-refutes-bias-in-starlink-authorisation-says-all-licensees-approvals-pending/article71560045.ece",
        "source": "The Hindu Business",
-       "published": "2026-10-08T07:13:46.000Z",
+       "published": "2026-10-08T16:48:39.000Z",
        "verification": "multiple",
        "outlets": [
         {
          "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/elon-musk-alleges-oligarch-interference-instarlinksindia-launch/article71557189.ece",
+         "url": "https://www.thehindu.com/business/Industry/dot-refutes-bias-in-starlink-authorisation-says-all-licensees-approvals-pending/article71560045.ece",
          "primary": false
         },
         {
          "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/07/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/",
+         "url": "https://techcrunch.com/2026/10/08/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/",
          "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Mr. Musk made the allegation hours after Lauren Dreyer, a SpaceX executive, said she hoped that the service would be operational in India by next year"
-      },
-      {
-       "title": "Airtel hikes postpaid tariffs, others may follow",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/airtel-hikes-postpaid-tariffs-others-may-follow/articleshow/134777582.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-08T01:48:18.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
+        },
         {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/airtel-hikes-postpaid-tariffs-others-may-follow/articleshow/134777582.cms",
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/india-dismisses-elon-musk-claims-over-satellite-approval-process-in-country/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Bharti Airtel is set to raise its postpaid tariffs by 3-10% starting Thursday, which affects all users. The new plans will incorporate free international roaming, valued at Rs 2,000 for each SIM once per trip. This change means that postpaid plans will now begin at Rs 499, reflec"
-      },
-      {
-       "title": "India denies bias in satellite internet approvals after Musk's 'oligarchs' jab",
-       "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
-       "source": "CNA Business",
-       "published": "2026-10-08T05:09:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
+       "blurb": "Reliance Jio chairman Akash Ambani declines to comment when asked about Mr. Musk’s remarks; LoP Rahul Gandhi joined the debate saying, “Wait till you discover the other guy”"
       }
      ]
     },
@@ -3958,10 +4226,92 @@
     }
    }
   },
+  "us-al": {
+   "label": "Alabama",
+   "level": "admin1",
+   "sources": {
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Alabama Sets Stricter Data Center Rules. But There’s a Loophole.",
+       "url": "https://insideclimatenews.org/news/07102026/alabama-data-center-rules-loophole/",
+       "source": "Inside Climate News",
+       "published": "2026-10-07T08:55:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Inside Climate News",
+         "url": "https://insideclimatenews.org/news/07102026/alabama-data-center-rules-loophole/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "MONTGOMERY, Ala.—The Alabama Public Service Commission approved a new set of rules for future data center projects Tuesday that require more transparency and disclosure from data center companies and public votes by the PSC for data center approval. But they leave in place what c"
+      }
+     ]
+    }
+   }
+  },
   "nl-nh": {
    "label": "Noord-Holland",
    "level": "admin1",
    "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Arelion, Nokia trial boosts optical capacity for AI traffic",
+       "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
+       "source": "Fierce Network",
+       "published": null,
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+         "primary": false
+        },
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Arelion says a live Amsterdam-to-London field trial with Nokia expanded usable optical spectrum by 21%, adding capacity for AI-driven data center and cloud connectivity."
+      }
+     ]
+    },
+    "telecom": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Arelion partners with Nokia on live network field trial",
+       "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+       "source": "Light Reading",
+       "published": "2026-10-08T14:53:22.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+         "primary": false
+        },
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Arelion's 500-kilometer route from Amsterdam to London uses Nokia's 1830 Global Express (GX) Super C and Super L open line system, CHMQ6 thin transponder modules and ICE-X 400G and 800G ZR+ coherent pluggable optics. #pressrelease"
+      }
+     ]
+    },
     "research": {
      "brief": "missing",
      "candidates": [
@@ -3993,6 +4343,60 @@
    "label": "Amsterdam",
    "level": "city",
    "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Arelion, Nokia trial boosts optical capacity for AI traffic",
+       "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
+       "source": "Fierce Network",
+       "published": null,
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+         "primary": false
+        },
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Arelion says a live Amsterdam-to-London field trial with Nokia expanded usable optical spectrum by 21%, adding capacity for AI-driven data center and cloud connectivity."
+      }
+     ]
+    },
+    "telecom": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Arelion partners with Nokia on live network field trial",
+       "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+       "source": "Light Reading",
+       "published": "2026-10-08T14:53:22.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+         "primary": false
+        },
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Arelion's 500-kilometer route from Amsterdam to London uses Nokia's 1830 Global Express (GX) Super C and Super L open line system, CHMQ6 thin transponder modules and ICE-X 400G and 800G ZR+ coherent pluggable optics. #pressrelease"
+      }
+     ]
+    },
     "research": {
      "brief": "missing",
      "candidates": [
@@ -4110,6 +4514,193 @@
     }
    }
   },
+  "us-ny": {
+   "label": "New York",
+   "level": "admin1",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
+       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
+       "source": "The Loadstar",
+       "published": "2026-10-07T12:40:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Loadstar",
+         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
+      }
+     ]
+    },
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
+       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+       "source": "Manufacturing Dive",
+       "published": "2026-10-08T16:03:05.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Manufacturing Dive",
+         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+         "primary": false
+        },
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/wolfspeed-receives-15bn-conditional-loan-commitment-from-us-govt-to-boost-domestic-sic-and-gan-production/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+      }
+     ]
+    },
+    "media": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "New York alleges TikTok gave teens, children a placebo safety feature instead of a real one",
+       "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T15:06:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New York’s lawsuit against the company is one of more than two dozen cases brought by states accusing the social media giant of designing its platform to encourage addictive use among children."
+      }
+     ]
+    }
+   }
+  },
+  "us-nc": {
+   "label": "North Carolina",
+   "level": "admin1",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
+       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+       "source": "Manufacturing Dive",
+       "published": "2026-10-08T16:03:05.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Manufacturing Dive",
+         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+         "primary": false
+        },
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/wolfspeed-receives-15bn-conditional-loan-commitment-from-us-govt-to-boost-domestic-sic-and-gan-production/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+      }
+     ]
+    }
+   }
+  },
+  "us-city-new-york": {
+   "label": "New York",
+   "level": "city",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
+       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
+       "source": "The Loadstar",
+       "published": "2026-10-07T12:40:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Loadstar",
+         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
+      }
+     ]
+    },
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
+       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+       "source": "Manufacturing Dive",
+       "published": "2026-10-08T16:03:05.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Manufacturing Dive",
+         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+         "primary": false
+        },
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/wolfspeed-receives-15bn-conditional-loan-commitment-from-us-govt-to-boost-domestic-sic-and-gan-production/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+      }
+     ]
+    },
+    "media": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "New York alleges TikTok gave teens, children a placebo safety feature instead of a real one",
+       "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T15:06:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New York’s lawsuit against the company is one of more than two dozen cases brought by states accusing the social media giant of designing its platform to encourage addictive use among children."
+      }
+     ]
+    }
+   }
+  },
   "sg": {
    "label": "Singapore",
    "level": "country",
@@ -4206,13 +4797,8 @@
        "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
        "source": "DatacenterDynamics",
        "published": "2026-10-08T10:52:56.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726",
-         "primary": false
-        },
         {
          "name": "DatacenterDynamics",
          "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
@@ -4229,17 +4815,29 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Google's €13bn data center buildout in Finland under investigation for 300-hectare forest removal",
+       "url": "https://www.datacenterdynamics.com/en/news/googles-13bn-data-center-buildout-in-finland-under-investigation-for-300-hectare-forest-removal/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T14:15:46.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/googles-13bn-data-center-buildout-in-finland-under-investigation-for-300-hectare-forest-removal/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Finnish Licensing and Supervision Authority requests reports from local municipalities"
+      },
+      {
        "title": "Sesterce to invest $10bn in 600MW AI data center campus in Jämsä, Finland",
        "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
        "source": "DatacenterDynamics",
        "published": "2026-10-08T10:52:56.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726",
-         "primary": false
-        },
         {
          "name": "DatacenterDynamics",
          "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
@@ -4255,6 +4853,23 @@
     "telecom": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Nokia to cut more than 250 jobs in Finland - report",
+       "url": "https://www.datacenterdynamics.com/en/news/nokia-to-cut-more-than-250-jobs-in-finland-report/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T16:41:20.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/nokia-to-cut-more-than-250-jobs-in-finland-report/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The cuts are part of the company's cost-cutting plans put forward in 2023"
+      },
       {
        "title": "Eurobites: VodafoneThree eyes more synergy savings",
        "url": "https://www.lightreading.com/business-transformation/eurobites-vodafonethree-eyes-more-synergy-savings",
@@ -4416,23 +5031,6 @@
        "blurb": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to analysts. Analysts across several financial institutions proje"
       },
       {
-       "title": "Amid battle for AI edge, Hong Kong presses HSBC over Singapore hub decision: sources",
-       "url": "https://www.scmp.com/business/banking-finance/article/3370203/amid-battle-ai-edge-hong-kong-presses-hsbc-over-singapore-hub-decision-sources?utm_source=rss_feed",
-       "source": "South China Morning Post",
-       "published": "2026-10-08T12:00:11.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "South China Morning Post",
-         "url": "https://www.scmp.com/business/banking-finance/article/3370203/amid-battle-ai-edge-hong-kong-presses-hsbc-over-singapore-hub-decision-sources?utm_source=rss_feed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "As Hong Kong and Singapore compete for leadership in businesses ranging from foreign exchange trading to wealth management, the battleground has extended to artificial intelligence, with both cities vying to attract investment from HSBC Holdings and other major corporations, acco"
-      },
-      {
        "title": "Not just AI. China is building technologies that challenge U.S. dominance",
        "url": "https://restofworld.org/2026/china-america-tech-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
        "source": "Rest of World",
@@ -4450,6 +5048,23 @@
        "blurb": "From batteries and solar panels to drones and satellites, China is building tech capabilities that extend well beyond AI, writes Steve Feldstein in his new book, \"Bytes and Bullets: Global Rivalries, Big Tech, and the New Shape of Modern Warfare.\""
       },
       {
+       "title": "Amid battle for AI edge, Hong Kong presses HSBC over Singapore hub decision: sources",
+       "url": "https://www.scmp.com/business/banking-finance/article/3370203/amid-battle-ai-edge-hong-kong-presses-hsbc-over-singapore-hub-decision-sources?utm_source=rss_feed",
+       "source": "South China Morning Post",
+       "published": "2026-10-08T12:00:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "South China Morning Post",
+         "url": "https://www.scmp.com/business/banking-finance/article/3370203/amid-battle-ai-edge-hong-kong-presses-hsbc-over-singapore-hub-decision-sources?utm_source=rss_feed",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "As Hong Kong and Singapore compete for leadership in businesses ranging from foreign exchange trading to wealth management, the battleground has extended to artificial intelligence, with both cities vying to attract investment from HSBC Holdings and other major corporations, acco"
+      },
+      {
        "title": "Trump says he doesn't want to work with China on AI safety",
        "url": "https://www.france24.com/en/tv-shows/business/20260929-trump-says-doesn-t-want-to-work-with-china-on-ai-safety",
        "source": "France 24 Business",
@@ -4465,6 +5080,23 @@
        "stages": [],
        "via": null,
        "blurb": "US President Donald Trump discussed AI development with dozens of tech bosses at the White House on Tuesday. Ahead of his \"super intelligence\" luncheon, Trump launched a new AI-powered website for government services, vowing not to stifle the technology's growth. He also said he "
+      },
+      {
+       "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
+       "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+       "source": "The Register",
+       "published": "2026-10-08T13:27:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
       },
       {
        "title": "Roundup #89: It isn’t X, it’s Y",
@@ -4507,23 +5139,6 @@
         "stage": "innovation"
        },
        "blurb": "Windpower Monthly rounds up the latest wind power technology patents filed and granted in the past week."
-      },
-      {
-       "title": "Yarn Expo Spring Returns To Shanghai In 2027 As Material Innovation Reshapes Sourcing",
-       "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/yarn-expo-spring-returns-to-shanghai-in-2027-as-material-innovation-reshapes-sourcing/",
-       "source": "Textile World",
-       "published": "2026-10-06T15:57:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Textile World",
-         "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/yarn-expo-spring-returns-to-shanghai-in-2027-as-material-innovation-reshapes-sourcing/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "SHANGHAI — October 6, 2026 — Yarn Expo Spring will welcome the global yarn and fibre industry back to the National Exhibition and Convention Center (Shanghai) from 10 – 12 March 2027. The upcoming fair follows its strongest edition to date, held in March this year, when over 600 "
       }
      ]
     },
@@ -4548,60 +5163,26 @@
        "blurb": "TikTok owner ByteDance is China’s Going Global champion, according to a new SCMP Plus databank tracking mainland companies’ overseas expansion efforts. The social media giant topped the debut SCMP Plus Going Global 100 ranking ahead of Apple assembler Foxconn Industrial Internet,"
       }
      ]
-    }
-   }
-  },
-  "us-ny": {
-   "label": "New York",
-   "level": "admin1",
-   "sources": {
-    "software": {
+    },
+    "cyber": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
-       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-       "source": "The Loadstar",
-       "published": "2026-10-07T12:40:49.000Z",
+       "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
+       "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+       "source": "The Register",
+       "published": "2026-10-08T13:27:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Loadstar",
-         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
+         "name": "The Register",
+         "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
-      }
-     ]
-    }
-   }
-  },
-  "us-city-new-york": {
-   "label": "New York",
-   "level": "city",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
-       "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-       "source": "The Loadstar",
-       "published": "2026-10-07T12:40:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Loadstar",
-         "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
+       "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
       }
      ]
     }
@@ -4673,6 +5254,84 @@
     }
    }
   },
+  "ca-qc": {
+   "label": "Québec",
+   "level": "admin1",
+   "sources": {
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Consultants for Hydro-Quebec defend proposal to double energy costs for data centres",
+       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-08T20:11:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Two consultants hired by Hydro-Quebec say they expect the demand from data centres to more than double between 2024 and 2030."
+      }
+     ]
+    },
+    "consulting": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Consultants for Hydro-Quebec defend proposal to double energy costs for data centres",
+       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-08T20:11:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/consultants-for-hydro-quebec-defend-proposal-to-double-energy-costs-for-data-centres/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Two consultants hired by Hydro-Quebec say they expect the demand from data centres to more than double between 2024 and 2030."
+      }
+     ]
+    }
+   }
+  },
+  "es": {
+   "label": "Spain",
+   "level": "country",
+   "sources": {
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Spanish government to press on with tighter data centre rules before election",
+       "url": "https://www.channelnewsasia.com/business/spanish-government-press-tighter-data-centre-rules-election-6443271",
+       "source": "CNA Business",
+       "published": "2026-10-08T14:37:15.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/spanish-government-press-tighter-data-centre-rules-election-6443271",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      }
+     ]
+    }
+   }
+  },
   "nz": {
    "label": "New Zealand",
    "level": "country",
@@ -4701,113 +5360,149 @@
     }
    }
   },
-  "cn-sh": {
-   "label": "Shanghai",
+  "gb-we": {
+   "label": "Westminster",
    "level": "admin1",
    "sources": {
-    "research": {
+    "software": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Yarn Expo Spring Returns To Shanghai In 2027 As Material Innovation Reshapes Sourcing",
-       "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/yarn-expo-spring-returns-to-shanghai-in-2027-as-material-innovation-reshapes-sourcing/",
-       "source": "Textile World",
-       "published": "2026-10-06T15:57:00.000Z",
-       "verification": "unconfirmed",
+       "title": "Arelion, Nokia trial boosts optical capacity for AI traffic",
+       "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
+       "source": "Fierce Network",
+       "published": null,
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "Textile World",
-         "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/yarn-expo-spring-returns-to-shanghai-in-2027-as-material-innovation-reshapes-sourcing/",
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+         "primary": false
+        },
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "SHANGHAI — October 6, 2026 — Yarn Expo Spring will welcome the global yarn and fibre industry back to the National Exhibition and Convention Center (Shanghai) from 10 – 12 March 2027. The upcoming fair follows its strongest edition to date, held in March this year, when over 600 "
+       "blurb": "Arelion says a live Amsterdam-to-London field trial with Nokia expanded usable optical spectrum by 21%, adding capacity for AI-driven data center and cloud connectivity."
+      }
+     ]
+    },
+    "telecom": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Arelion partners with Nokia on live network field trial",
+       "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+       "source": "Light Reading",
+       "published": "2026-10-08T14:53:22.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+         "primary": false
+        },
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Arelion's 500-kilometer route from Amsterdam to London uses Nokia's 1830 Global Express (GX) Super C and Super L open line system, CHMQ6 thin transponder modules and ICE-X 400G and 800G ZR+ coherent pluggable optics. #pressrelease"
       }
      ]
     }
    }
   },
-  "cn-city-shanghai": {
-   "label": "Shanghai",
+  "gb-city-london": {
+   "label": "London",
    "level": "city",
    "sources": {
-    "research": {
+    "software": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Yarn Expo Spring Returns To Shanghai In 2027 As Material Innovation Reshapes Sourcing",
-       "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/yarn-expo-spring-returns-to-shanghai-in-2027-as-material-innovation-reshapes-sourcing/",
-       "source": "Textile World",
-       "published": "2026-10-06T15:57:00.000Z",
-       "verification": "unconfirmed",
+       "title": "Arelion, Nokia trial boosts optical capacity for AI traffic",
+       "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
+       "source": "Fierce Network",
+       "published": null,
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "Textile World",
-         "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/yarn-expo-spring-returns-to-shanghai-in-2027-as-material-innovation-reshapes-sourcing/",
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+         "primary": false
+        },
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "SHANGHAI — October 6, 2026 — Yarn Expo Spring will welcome the global yarn and fibre industry back to the National Exhibition and Convention Center (Shanghai) from 10 – 12 March 2027. The upcoming fair follows its strongest edition to date, held in March this year, when over 600 "
+       "blurb": "Arelion says a live Amsterdam-to-London field trial with Nokia expanded usable optical spectrum by 21%, adding capacity for AI-driven data center and cloud connectivity."
+      }
+     ]
+    },
+    "telecom": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Arelion partners with Nokia on live network field trial",
+       "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+       "source": "Light Reading",
+       "published": "2026-10-08T14:53:22.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
+         "primary": false
+        },
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Arelion's 500-kilometer route from Amsterdam to London uses Nokia's 1830 Global Express (GX) Super C and Super L open line system, CHMQ6 thin transponder modules and ICE-X 400G and 800G ZR+ coherent pluggable optics. #pressrelease"
       }
      ]
     }
    }
   },
-  "us-il": {
-   "label": "Illinois",
-   "level": "admin1",
+  "cu": {
+   "label": "Cuba",
+   "level": "country",
    "sources": {
-    "research": {
+    "software": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Plastic Ingenuity Showcasing Sustainable Packaging Innovation at Pack Expo",
-       "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
-       "source": "Plastics Today",
-       "published": "2026-10-06T11:58:31.000Z",
+       "title": "AI Platform Synthesia Moves HQ to 50K SF at GFP’s 675 Avenue of the Americas",
+       "url": "https://commercialobserver.com/2026/10/synthesia-lease-gfp-675-avenue-of-the-americas/",
+       "source": "Commercial Observer",
+       "published": "2026-10-08T14:30:16.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Plastics Today",
-         "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
+         "name": "Commercial Observer",
+         "url": "https://commercialobserver.com/2026/10/synthesia-lease-gfp-675-avenue-of-the-americas/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Plastic Ingenuity's Ameristar Award-winning PET medical device reel replaces PVC with recyclable material, converting 236,000 pounds annually. The company will spotlight its innovations at Pack Expo 2026, being held later this month in Chicago."
-      }
-     ]
-    }
-   }
-  },
-  "us-city-chicago": {
-   "label": "Chicago",
-   "level": "city",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Plastic Ingenuity Showcasing Sustainable Packaging Innovation at Pack Expo",
-       "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
-       "source": "Plastics Today",
-       "published": "2026-10-06T11:58:31.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Plastics Today",
-         "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Plastic Ingenuity's Ameristar Award-winning PET medical device reel replaces PVC with recyclable material, converting 236,000 pounds annually. The company will spotlight its innovations at Pack Expo 2026, being held later this month in Chicago."
+       "blurb": "Artificial intelligence companies are continuing to scoop up Midtown’s premiere office space. AI video platform Synthesia, which provides an enterprise-focused communications platform backed by “Shark Tank” entrepreneur Mark Cuban, inked a 50,000-square-foot lease at GFP Real Est"
       }
      ]
     }
@@ -4863,68 +5558,29 @@
     }
    }
   },
-  "ch": {
-   "label": "Switzerland",
+  "jp": {
+   "label": "Japan",
    "level": "country",
    "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Swiss pension fund hit by data leak after cyber attack on software provider",
-       "url": "https://www.channelnewsasia.com/business/swiss-pension-fund-hit-data-leak-after-cyber-attack-software-provider-6442016",
-       "source": "CNA Business",
-       "published": "2026-10-08T08:04:48.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/swiss-pension-fund-hit-data-leak-after-cyber-attack-software-provider-6442016",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      }
-     ]
-    },
     "cyber": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Swiss pension fund hit by data leak after cyber attack on software provider",
-       "url": "https://www.channelnewsasia.com/business/swiss-pension-fund-hit-data-leak-after-cyber-attack-software-provider-6442016",
-       "source": "CNA Business",
-       "published": "2026-10-08T08:04:48.000Z",
+       "title": "Japan and cybersecurity: What’s behind recent attacks and what’s being done?",
+       "url": "https://www.japantimes.co.jp/business/2026/10/08/tech/focus-japan-data-leak/",
+       "source": "The Japan Times",
+       "published": "2026-10-08T09:03:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/swiss-pension-fund-hit-data-leak-after-cyber-attack-software-provider-6442016",
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/business/2026/10/08/tech/focus-japan-data-leak/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": ""
-      },
-      {
-       "title": "Basel Committee meets to advance supervisory and regulatory initiatives and discuss risks and vulnerabilities to the global banking system",
-       "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
-       "source": "Bank for International Settlements",
-       "published": "2026-10-01T00:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "Bank for International Settlements",
-         "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Exchanges experiences and views on developments in artificial intelligence for the global banking system and supervisors, modernisation efforts and implications for the Committee’s future work programme..."
+       "blurb": "With artificial intelligence removing hurdles for would-be hackers, experts warn cybersecurity threats are becoming more sophisticated and widespread."
       }
      ]
     }
@@ -4981,34 +5637,6 @@
        "stages": [],
        "via": null,
        "blurb": "An Adelaide private hospital has notified individuals and cyber security authorities of a data breach of personal information."
-      }
-     ]
-    }
-   }
-  },
-  "gh": {
-   "label": "Ghana",
-   "level": "country",
-   "sources": {
-    "telecom": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ghana awards 5G licenses to Telecel, MTN after slow rollout woes",
-       "url": "https://www.datacenterdynamics.com/en/news/ghana-awards-5g-licenses-to-telecel-mtn-after-slow-rollout-woes/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-07T16:12:45.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/ghana-awards-5g-licenses-to-telecel-mtn-after-slow-rollout-woes/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Telecel plans to launch 5G in December"
       }
      ]
     }
@@ -5177,6 +5805,34 @@
        "stages": [],
        "via": null,
        "blurb": "Researchers at the Universities of Edinburgh and Glasgow analysed data from more than 129,000 people over five years."
+      }
+     ]
+    }
+   }
+  },
+  "ch": {
+   "label": "Switzerland",
+   "level": "country",
+   "sources": {
+    "cyber": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Basel Committee meets to advance supervisory and regulatory initiatives and discuss risks and vulnerabilities to the global banking system",
+       "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
+       "source": "Bank for International Settlements",
+       "published": "2026-10-01T00:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "Bank for International Settlements",
+         "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Exchanges experiences and views on developments in artificial intelligence for the global banking system and supervisors, modernisation efforts and implications for the Committee’s future work programme..."
       }
      ]
     }
