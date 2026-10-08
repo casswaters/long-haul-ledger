@@ -2,7 +2,7 @@
 
 Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md and RESEARCH-RUNS.md) and never ships to the live site.
 
-**Last updated:** 2026-10-08, 11:51 MT
+**Last updated:** 2026-10-08, 11:58 MT
 
 ## House rules
 - Everything is free. No paid tier, pricing or paywall copy until Cassidy says go.
@@ -29,6 +29,16 @@ Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md an
 - **Phase 5: Most reliable voices in the space (after coverage fill).** One list per field (Energy + the five sector tabs), 10 people max, alphabetical, no numeric score. Inclusion needs 3 of 5 linked evidence criteria: primary-source role, checkable track record, citations by primary institutions or peer review, corrections history, disclosed affiliations. Each profile: role, dated accomplishments, a current-affairs bio with every sentence sourced; weekly refresh in the research runs; stale after 14 days. About 8 to 10 sessions. Lists stay in a draft file off Pages until Cassidy approves them.
   - Phase 0 status: shipped in SW v29 (see Shipped). Phase 1 is next.
 - **Who's in the seat (SW v29, US first).** Key seats per place, each confirmed on an official page with its checked date; recent seat changes also tagged in the news column. Next: more countries (central bank, energy and finance ministries, regulators). Later each seat links to its Most reliable voices profile (Phase 5).
+- **Project mind map (Cassidy, Oct 8, 11:55 AM MT; roadmap only, not built).** A 'Mind map' button appears whenever you select a project, a development, or a place plus a sector (for example, Energy in Utah). Tapping it opens one clear map of what's going on, built only from sourced, dated facts:
+  1. Players: the companies, agencies, utilities, investors, landowners and officials involved, and each one's role.
+  2. Proposed projects: what's planned, where, how big (megawatts, dollars, acres or jobs), and its current status.
+  3. Blockers: hard stops, like a denied permit, a lawsuit, missing financing, or no grid connection.
+  4. Obstacles: slower headwinds, like local opposition, supply chain delays, labor, costs or policy uncertainty.
+  5. Milestones reached: what's already done, each with a date and source.
+  6. Next steps: the specific things that have to happen next and who has to do them, like a hearing, a permit decision or a financing close.
+  7. End goal: what success realistically looks like, kept within reason and backed by what the project has actually stated.
+  - Guardrails: one level deep (tapping a player or project shows its details in place instead of spawning a new map, so there's no endless loop); a clear Close returns to the map; every item links to its source and shows an as-of date; empty items say 'Not yet covered'; the daily research runs flag a mind map as stale when a milestone, blocker or next step changes.
+  - Replaces the current industry mind map (double-click/long-press).
 - **Growth path (decided by Cassidy, Oct 8): keep everything free and build a user base with email-only Buttondown sign-ups (no passwords, double opt-in). Paid stays off.** Done: content gaps pass, sign-up box (SW v27). Next: the weekly Monday Haul email and its archive.
 - **On-demand briefs (option, not built).** A "write this brief now" path for places without a precomputed brief would need: a small server-side function (the site is static on GitHub Pages, so it cannot hold an AI key), a model API key kept server-side, a cache per place, source and week so each brief is written once, the same validation as the precomputed file (sources required, no item without a link), and a visible "written automatically, not reviewed" label. Today only reviewed, precomputed briefs ship.
 - **Sector briefs for the five tabs.** Research runs write "Top 4 this week" briefs for Raw materials, Manufacturing, Services, Technology and Policy into data/{tab}-briefs.json after the Energy briefs: World and the United States first, then major countries. Same schema, rules and validator as Energy (see RESEARCH-RUNS.md). Nothing is seeded; empty slots say not ready yet.
