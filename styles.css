@@ -1947,11 +1947,23 @@ button.vbadge:focus-visible { outline: 1px solid var(--ink); outline-offset: 1px
 .snav[aria-current="true"] { color: var(--accent); border-bottom-color: var(--accent); }
 .snav-featured { color: var(--ink); font-weight: 600; display: inline-flex; align-items: center; gap: 0.3rem; }
 .snav-sep { flex: 0 0 1px; height: 1rem; background: var(--line); margin: 0 0.35rem; }
+/* Phones and narrow tablets: one sideways-swiping row, full bleed, snap, edge fade where more tabs wait. */
+.site-header { --hpad: 1.25rem; }
+@media (max-width: 520px) { .site-header { --hpad: 0.85rem; } }
 @media (max-width: 900px) {
-  .sector-nav { order: 4; margin: 0.1rem 0 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.3rem; overflow: visible; }
+  .sector-nav {
+    order: 4; flex: 0 0 calc(100% + 2 * var(--hpad)); max-width: none; min-width: 0;
+    margin: 0 calc(-1 * var(--hpad)) -0.65rem; padding: 0 var(--hpad);
+    display: flex; flex-wrap: nowrap; gap: 0.1rem; overflow-x: auto; overflow-y: hidden;
+    -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain; touch-action: pan-x pan-y;
+    scroll-snap-type: x mandatory; scroll-padding-inline: var(--hpad); scrollbar-width: none;
+  }
+  .sector-nav.fade-start, .sector-nav.fade-end { -webkit-mask-image: var(--snav-mask); mask-image: var(--snav-mask); }
+  .sector-nav.fade-end { --snav-mask: linear-gradient(to right, #000 0, #000 calc(100% - 2.25rem), transparent 100%); }
+  .sector-nav.fade-start { --snav-mask: linear-gradient(to right, transparent 0, #000 2.25rem, #000 100%); }
+  .sector-nav.fade-start.fade-end { --snav-mask: linear-gradient(to right, transparent 0, #000 2.25rem, #000 calc(100% - 2.25rem), transparent 100%); }
   .snav-sep { display: none; }
-  .snav { text-align: center; justify-content: center; border: 1px solid var(--line); border-radius: var(--radius); padding: 0.42rem 0.3rem; font-size: 0.72rem; overflow: hidden; text-overflow: ellipsis; }
-  .snav[aria-current="true"] { border-color: var(--accent); }
+  .snav { flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; padding: 0 0.7rem; font-size: 0.78rem; scroll-snap-align: start; }
   .header-nav { order: 2; }
 }
 

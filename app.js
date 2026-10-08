@@ -833,6 +833,7 @@ function renderOverlay() {
     renderSectorTab(root);
     return;
   }
+  syncSectorNav();
   if (sectorViewKey) {
     // A sector tab just closed: return focus to its header tab (unless another panel takes over).
     const closedTab = sectorViewKey.split('|')[0];
@@ -887,6 +888,43 @@ function syncSectorNav() {
     if (a.dataset.openSector === state.stab) a.setAttribute('aria-current', 'true');
     else a.removeAttribute('aria-current');
   });
+  scrollActiveSectorTab();
+}
+
+/** Phones: the sector row scrolls sideways. Fade the edge that has more tabs. */
+function updateSectorNavFade() {
+  const nav = document.querySelector('.sector-nav');
+  if (!nav) return;
+  const max = nav.scrollWidth - nav.clientWidth;
+  nav.classList.toggle('fade-start', max > 2 && nav.scrollLeft > 2);
+  nav.classList.toggle('fade-end', max > 2 && nav.scrollLeft < max - 2);
+}
+
+let sectorNavScrolledFor = null;
+/** Keep the open tab visible in the swipeable row (deep links included). Only scrolls the row, never the page. */
+function scrollActiveSectorTab() {
+  const nav = document.querySelector('.sector-nav');
+  if (!nav) return;
+  const active = nav.querySelector('[aria-current="true"]');
+  if (!active || nav.scrollWidth <= nav.clientWidth + 2) { sectorNavScrolledFor = state.stab; updateSectorNavFade(); return; }
+  if (sectorNavScrolledFor === state.stab) return;
+  const first = sectorNavScrolledFor === null;
+  sectorNavScrolledFor = state.stab;
+  const n = nav.getBoundingClientRect();
+  const r = active.getBoundingClientRect();
+  if (r.left >= n.left + 24 && r.right <= n.right - 24) { updateSectorNavFade(); return; }
+  const target = nav.scrollLeft + (r.left - n.left) - (nav.clientWidth - r.width) / 2;
+  const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+  nav.scrollTo({ left: Math.max(0, target), behavior: first || reduce ? 'auto' : 'smooth' });
+  updateSectorNavFade();
+}
+
+function wireSectorNav() {
+  const nav = document.querySelector('.sector-nav');
+  if (!nav) return;
+  nav.addEventListener('scroll', updateSectorNavFade, { passive: true });
+  window.addEventListener('resize', () => { sectorNavScrolledFor = undefined; scrollActiveSectorTab(); updateSectorNavFade(); });
+  updateSectorNavFade();
 }
 
 function renderSectorTab(root) {
@@ -2057,6 +2095,7 @@ function boot() {
   loadLiveFeed();
   window.addEventListener('resize', () => applyMapTransform());
   window.addEventListener('hashchange', applyHash);
+  wireSectorNav();
   document.addEventListener('click', (e) => {
     if (e.target.closest?.('.vwrap')) return;
     $$('.vwrap.open').forEach((w) => {
