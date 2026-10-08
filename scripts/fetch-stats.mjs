@@ -11,7 +11,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { dirname, join, resolve as resolvePath } from 'path';
 import { fileURLToPath } from 'url';
 import { inflateRawSync } from 'zlib';
-import { FRED_SERIES, WB_INDICATORS, PINK_SERIES, PINK_SHEET_PAGE, fredCsv, parseCsv, buildRecord, mergeSeries, wbPage, validateStat } from '../stats.js';
+import { FRED_SERIES, DXY_LEGS, dxyRows, WB_INDICATORS, PINK_SERIES, PINK_SHEET_PAGE, fredCsv, parseCsv, buildRecord, mergeSeries, wbPage, validateStat } from '../stats.js';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const OUT = join(__dir, '..', 'data', 'stats');
@@ -39,7 +39,12 @@ export async function runFred({ fetchText = get, now = new Date() } = {}) {
   const results = [];
   for (const def of FRED_SERIES) {
     try {
-      const rows = parseCsv(await fetchText(fredCsv(def.seriesId), 'text/csv'));
+      let rows;
+      if (def.composite === 'dxy') {
+        const legs = {};
+        for (const leg of DXY_LEGS) legs[leg.seriesId] = parseCsv(await fetchText(fredCsv(leg.seriesId), 'text/csv'));
+        rows = dxyRows(legs);
+      } else rows = parseCsv(await fetchText(fredCsv(def.seriesId), 'text/csv'));
       if (!rows.length) throw new Error('no observations parsed');
       const last = rows[rows.length - 1];
       if (Date.parse(`${last.date}T00:00:00Z`) > now.getTime() + 86400000) throw new Error(`future date ${last.date}`);

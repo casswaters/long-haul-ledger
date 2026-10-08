@@ -38,7 +38,7 @@ export const DESKS = [
   {
     id: 'prices',
     title: 'Prices',
-    scope: 'Globally watched benchmarks: gold, silver, bitcoin, WTI and Brent crude, then copper, natural gas, the US dollar index and US CPI inflation.',
+    scope: 'Globally watched benchmarks: gold, silver, bitcoin, WTI and Brent crude, then copper, natural gas, the dollar index (DXY formula) and US CPI inflation.',
     trigger: 'A new observation from the source. The prior reading stays visible as the change.',
     columns: ['Series', 'Value', 'Unit', 'Change', 'As of', 'Source'],
     sources: [
@@ -46,7 +46,7 @@ export const DESKS = [
       { name: 'Coinbase bitcoin price via FRED (CBBTCUSD)', url: 'https://fred.stlouisfed.org/series/CBBTCUSD' },
       { name: 'EIA WTI and Brent spot via FRED (DCOILWTICO, DCOILBRENTEU)', url: 'https://fred.stlouisfed.org/series/DCOILWTICO' },
       { name: 'EIA Henry Hub spot via FRED (DHHNGSP)', url: 'https://fred.stlouisfed.org/series/DHHNGSP' },
-      { name: 'Federal Reserve broad dollar index via FRED (DTWEXBGS)', url: 'https://fred.stlouisfed.org/series/DTWEXBGS' },
+      { name: 'Dollar index (DXY formula) rebuilt from Federal Reserve H.10 rates via FRED; not the official ICE DXY', url: 'https://www.federalreserve.gov/releases/h10/' },
       { name: 'BLS CPI via FRED (CPIAUCSL)', url: 'https://fred.stlouisfed.org/series/CPIAUCSL' },
       { name: 'World Bank consumer price inflation (countries, annual)', url: 'https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG' },
     ],

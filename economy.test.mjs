@@ -258,7 +258,7 @@ assert('tab definitions carry the same emojis (panel kicker)', ECONOMY_TABS.map(
 assert('header links carry data-open-sector and official names in aria-labels', ECONOMY_TABS.every((t) => new RegExp(`id="nav-${t.id}"[^>]*data-open-sector="${t.id}"[^>]*aria-label="[^"]*${t.officialName}`).test(navBlock)));
 assert('Method section names the tabs and the convention', /id="method-five"/.test(index) && /Raw materials, Manufacturing, Services, Technology, Policy/.test(index) && /Three-sector_model/.test(index) && /id="method-tab-map"/.test(index));
 const sw = read('./sw.js');
-assert('SW v29 caches economy.js, tabs.js and five briefs files', /long-haul-ledger-v29/.test(sw) && /'\.\/economy\.js'/.test(sw) && /'\.\/tabs\.js'/.test(sw) && ECONOMY_TABS.every((t) => sw.includes(`./data/${t.id}-briefs.json`)));
+assert('SW v30+ caches economy.js, tabs.js and five briefs files', Number((sw.match(/long-haul-ledger-v(\d+)/) || [])[1]) >= 30 && /'\.\/economy\.js'/.test(sw) && /'\.\/tabs\.js'/.test(sw) && ECONOMY_TABS.every((t) => sw.includes(`./data/${t.id}-briefs.json`)));
 const wf = read('./.github/workflows/soft-launch.yml');
 assert('Pages excludes economy.test.mjs and the four docs', /economy\.test\.mjs/.test(wf) && ['BUILD-PLAN.md', 'RESEARCH-RUNS.md', 'ROADMAP.md', 'BRIEF.md'].every((d) => wf.includes(d)));
 assert('brief edits trigger a deploy', ECONOMY_TABS.every((t) => wf.includes(`data/${t.id}-briefs.json`)));

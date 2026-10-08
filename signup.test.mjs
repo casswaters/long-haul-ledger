@@ -47,7 +47,7 @@ assert('slot in the footer, with the coming-soon fallback kept for flag off', /i
 assert('not in the header tab row', !/<nav class="sector-nav"[\s\S]*?signup[\s\S]*?<\/nav>/.test(html));
 assert('app mounts the boxes', /import \{ mountSignup \} from '\.\/signup\.js';/.test(read('./app.js')) && /mountSignup\(document\);/.test(read('./app.js')));
 const sw = read('./sw.js');
-assert('SW v29 caches signup.js', /long-haul-ledger-v29/.test(sw) && /'\.\/signup\.js'/.test(sw));
+assert('SW v30+ caches signup.js', Number((sw.match(/long-haul-ledger-v(\d+)/) || [])[1]) >= 30 && /'\.\/signup\.js'/.test(sw));
 
 console.log('\n--- Archive scaffold (unlinked, off Pages) ---');
 const wf = read('./.github/workflows/soft-launch.yml');

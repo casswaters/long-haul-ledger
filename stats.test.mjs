@@ -1,5 +1,5 @@
 import { readFileSync, existsSync } from 'fs';
-import { FRED_SERIES, parseCsv, buildRecord, mergeSeries, validateStat, yoyPct, sparkSvg, isStale } from './stats.js';
+import { FRED_SERIES, DXY_LEGS, DXY_CONSTANT, dxyValue, dxyRows, parseCsv, buildRecord, mergeSeries, validateStat, yoyPct, sparkSvg, isStale } from './stats.js';
 import { runFred } from './scripts/fetch-stats.mjs';
 import { stripHtml } from './scripts/fetch-signals.mjs';
 import { validateCurated, applyCurated, isExpired } from './curated.js';
@@ -79,6 +79,24 @@ assert('feed: encoded markup is stripped, not rendered', !/<script/i.test(stripH
   const sig = JSON.parse(readFileSync('./data/signals-live.json', 'utf8'));
   assert('signals-live.json carries the curated Anduril item as Confirmed', sig.items.some((i) => i.id === seed.id && i.verification.status === 'confirmed'));
   assert('workflow: curated and sector-brief edits trigger a rebuild', /paths: \['data\/signals-curated\.json', 'data\/energy-briefs\.json', 'data\/materials-briefs\.json', 'data\/manufacturing-briefs\.json', 'data\/services-briefs\.json', 'data\/technology-briefs\.json', 'data\/policy-briefs\.json', 'data\/seats\.json', 'data\/leadership\.json'\]/.test(readFileSync('./.github/workflows/soft-launch.yml', 'utf8')));
+}
+console.log('\n--- Dollar index (DXY formula) ---');
+{
+  const rates = { DEXUSEU: 1.1730, DEXJPUS: 147.20, DEXUSUK: 1.3480, DEXCAUS: 1.3940, DEXSDUS: 9.42, DEXSZUS: 0.7960 };
+  const expected = 50.14348112 * 1.1730 ** -0.576 * 147.20 ** 0.136 * 1.3480 ** -0.119 * 1.3940 ** 0.091 * 9.42 ** 0.042 * 0.7960 ** 0.036;
+  assert('DXY formula constant and six published weights', DXY_CONSTANT === 50.14348112 && DXY_LEGS.map((l) => `${l.seriesId}:${l.weight}`).join(',') === 'DEXUSEU:-0.576,DEXJPUS:0.136,DEXUSUK:-0.119,DEXCAUS:0.091,DEXSDUS:0.042,DEXSZUS:0.036');
+  assert('dxyValue matches the formula', Math.abs(dxyValue(rates) - expected) < 1e-9 && expected > 90 && expected < 110);
+  assert('dxyValue refuses a missing leg', dxyValue({ ...rates, DEXSZUS: undefined }) === null);
+  const legs = Object.fromEntries(Object.entries(rates).map(([k, v]) => [k, [{ date: '2026-10-01', value: v }, { date: '2026-10-02', value: v * 1.001 }]]));
+  legs.DEXSDUS = legs.DEXSDUS.slice(0, 1);
+  const dr = dxyRows(legs);
+  assert('dxyRows keeps only dates where all six rates exist', dr.length === 1 && dr[0].date === '2026-10-01');
+  const usdDef = FRED_SERIES.find((s) => s.id === 'usd');
+  assert('Prices label and source note for the rebuilt index', usdDef.label === 'Dollar index (DXY formula)' && usdDef.caveat === 'Rebuilt daily from Federal Reserve H.10 exchange rates using the published DXY weights; not the official ICE DXY.');
+  const rec2 = buildRecord(usdDef, [{ date: '2026-10-01', value: 102.08 }, { date: '2026-10-02', value: 101.91 }], '2026-10-08T00:00:00Z');
+  assert('record: as-of, prior day and H.10 source', validateStat(rec2).length === 0 && rec2.asOf === '2026-10-02' && rec2.prior.asOf === '2026-10-01' && /federalreserve\.gov\/releases\/h10/.test(rec2.sourceUrl) && /DEXUSEU, DEXJPUS, DEXUSUK, DEXCAUS, DEXSDUS, DEXSZUS/.test(rec2.sourceName));
+  const live = JSON.parse(readFileSync('./data/stats/us.json', 'utf8')).series.find((s) => s.id === 'usd');
+  assert('us.json carries the rebuilt index in the DXY range (not the Fed broad index)', live && live.seriesId === 'DXY-H10' && live.value > 80 && live.value < 120);
 }
 console.log(`\n${pass} passed, ${fail} failed`);
 if (fail) process.exit(1);

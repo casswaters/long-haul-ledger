@@ -113,7 +113,7 @@ assert('data/coverage.json committed', json('./data/coverage.json').countries ==
 
 console.log('\n--- Release plumbing and copy ---');
 const sw = read('./sw.js');
-assert('SW v29 caches the new modules and data', /long-haul-ledger-v29/.test(sw) && ['whatchanged.js', 'seats.js', 'xsearch.js', 'data/stats/benchmarks.json', 'data/seats.json', 'data/coverage.json'].every((f) => sw.includes(`'./${f}'`)));
+assert('SW v30+ caches the new modules and data', Number((sw.match(/long-haul-ledger-v(\d+)/) || [])[1]) >= 30 && ['whatchanged.js', 'seats.js', 'xsearch.js', 'data/stats/benchmarks.json', 'data/seats.json', 'data/coverage.json'].every((f) => sw.includes(`'./${f}'`)));
 for (const wf of ['soft-launch.yml', 'stats.yml']) {
   const y = read(`./.github/workflows/${wf}`);
   assert(`${wf}: keeps tests, hauls, archive and internal docs off Pages`, /exclude_assets: '[^']*phase0\.test\.mjs[^']*hauls[^']*BUILD-PLAN\.md,RESEARCH-RUNS\.md,BRIEF\.md,ROADMAP\.md/.test(y) && /archive\.html/.test(y) && /reorient\.test\.mjs/.test(y));
