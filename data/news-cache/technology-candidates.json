@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T18:42:55.774Z",
+ "generatedAt": "2026-10-08T18:56:32.501Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -79,11 +79,6 @@
         {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/samsung-forecasts-record-80b-quarterly-profit-as-ai-boom-boosts-memory-demand/4081967",
-         "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933",
          "primary": false
         }
        ],
@@ -620,23 +615,6 @@
        "blurb": "Also in today's EMEA regional roundup: Nokia cuts jobs in Finland; KLM taps Starlink for in-flight connectivity; VEON hooks up with Amdocs."
       },
       {
-       "title": "Amazon builds 1,000th satellite, will launch space internet service by end of year",
-       "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
-       "source": "Ars Technica",
-       "published": "2026-10-08T15:28:36.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "\"If this was easy, everybody else would be doing it.\""
-      },
-      {
        "title": "Nokia campus sale nears as Hotard bets on industrial AI",
        "url": "https://www.fierce-network.com/wireless/nokia-campus-networking-sale-nears-hotard-bets-industrial-ai",
        "source": "Fierce Network",
@@ -652,6 +630,23 @@
        "stages": [],
        "via": null,
        "blurb": "Nokia may soon name a buyer for its campus private networks unit as rivals gain share, but CEO Justin Hotard is betting on bigger money in industrial infrastructure."
+      },
+      {
+       "title": "Amazon builds 1,000th satellite, will launch space internet service by end of year",
+       "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
+       "source": "Ars Technica",
+       "published": "2026-10-08T15:28:36.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "\"If this was easy, everybody else would be doing it.\""
       },
       {
        "title": "Opinion: Can carriers finally move up the stack? AT&T, Cisco and NVIDIA say AI changes the equation",
@@ -1406,28 +1401,6 @@
        "blurb": "Attacks targeting key industrial sites and unforced errors among leading AI companies are raising alarm bells."
       },
       {
-       "title": "UK’s ASOS says cyberhack accessed customers’ personal data",
-       "url": "https://www.straitstimes.com/business/uks-asos-says-cyber-hack-accessed-customers-personal-data",
-       "source": "The Straits Times Business",
-       "published": "2026-10-08T11:00:00.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/uks-asos-says-cyber-hack-accessed-customers-personal-data",
-         "primary": false
-        },
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/uks-asos-says-cyber-hack-accessed-customers-personal-data-6442321",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "ASOS said the hacker did not gain access to payment card information or account passwords."
-      },
-      {
        "title": "Asos hackers took more personal details than first revealed, BBC finds",
        "url": "https://www.bbc.co.uk/news/articles/c3zxjdw5ywgpo?at_medium=RSS&at_campaign=rss",
        "source": "BBC News Business",
@@ -1479,6 +1452,23 @@
        "blurb": ""
       },
       {
+       "title": "UK’s ASOS says cyberhack accessed customers’ personal data",
+       "url": "https://www.straitstimes.com/business/uks-asos-says-cyber-hack-accessed-customers-personal-data",
+       "source": "The Straits Times Business",
+       "published": "2026-10-08T11:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/uks-asos-says-cyber-hack-accessed-customers-personal-data",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "ASOS said the hacker did not gain access to payment card information or account passwords."
+      },
+      {
        "title": "Asos confirms breach of customer data after hackers send rogue app notification",
        "url": "https://techcrunch.com/2026/10/08/asos-confirms-breach-of-customer-data-after-hackers-send-rogue-app-notification/",
        "source": "TechCrunch",
@@ -1496,21 +1486,21 @@
        "blurb": "The hackers alerted the fashion giant's customers through a push notification that said they had \"fully compromised\" the company's cloud storage."
       },
       {
-       "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
-       "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
-       "source": "The Register",
-       "published": "2026-10-08T13:27:00.000Z",
+       "title": "'Group of individuals' impacted by data breach at SA hospital",
+       "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T05:01:42.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Register",
-         "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
+       "blurb": "An Adelaide private hospital has notified individuals and cyber security authorities of a data breach of personal information."
       }
      ]
     }
@@ -1999,28 +1989,6 @@
        "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
       },
       {
-       "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
-       "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-       "source": "NPR Science",
-       "published": "2026-10-06T10:16:28.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "NPR Science",
-         "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-         "primary": false
-        },
-        {
-         "name": "Science (AAAS) News",
-         "url": "https://www.science.org/content/article/chemistry-nobel-honors-researchers-who-developed-reactions-leading-one-handed-molecules",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s."
-      },
-      {
        "title": "Farm Hands on the Potomac: Joel Leftwich joins Idealyst Innovation, ​Robert Haus goes to Vylor, General Mills names Dana McNabb as CEO",
        "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
        "source": "Agri-Pulse",
@@ -2098,6 +2066,23 @@
        "stages": [],
        "via": null,
        "blurb": "Farm Progress America"
+      },
+      {
+       "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
+       "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
+       "source": "NASA News",
+       "published": "2026-10-07T21:16:42.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "NASA and SpaceX are targeting 6:33 a.m. EDT, Tuesday, Oct. 13, for the next launch to deliver science investigations, supplies, and equipment, including the final set of International Space Station Roll-Out Solar Arrays, to the space station. This is the 35th SpaceX commercial re"
       }
      ]
     },
@@ -2620,28 +2605,6 @@
    "label": "South Korea",
    "level": "country",
    "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
-       "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
-       "source": "The Register",
-       "published": "2026-10-08T13:27:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
-      }
-     ]
-    },
     "cloud": {
      "brief": "missing",
      "candidates": [
@@ -2708,23 +2671,6 @@
        "stages": [],
        "via": null,
        "blurb": ""
-      },
-      {
-       "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
-       "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
-       "source": "The Register",
-       "published": "2026-10-08T13:27:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
       }
      ]
     }
@@ -2840,28 +2786,6 @@
        "stages": [],
        "via": null,
        "blurb": "In light of Russia’s record on biological weapons and lab accidents, the death of an anti-plague researcher raises questions to consider. The post Five things to know about the death at Russia’s anti-plague laboratory appeared first on Atlantic Council ."
-      }
-     ]
-    },
-    "cyber": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "UK and Germany team up against Russian cyberattacks as Brexit rethink looms",
-       "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
-       "source": "The Register",
-       "published": "2026-10-08T11:22:01.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Security pact promises information-sharing and coordinated disruption, but offers little detail on agencies or funding"
       }
      ]
     }
@@ -3298,23 +3222,6 @@
     "cyber": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "UK and Germany team up against Russian cyberattacks as Brexit rethink looms",
-       "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
-       "source": "The Register",
-       "published": "2026-10-08T11:22:01.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Security pact promises information-sharing and coordinated disruption, but offers little detail on agencies or funding"
-      },
       {
        "title": "Sungrow patches iSolarCloud vulnerability after security researchers gain access",
        "url": "https://www.pv-magazine.com/2026/10/08/sungrow-patches-isolarcloud-vulnerability-after-security-researchers-gain-access/",
@@ -3875,23 +3782,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "AI giants promise to play nice with personal data after UK watchdog scrutiny",
-       "url": "https://www.theregister.com/ai-and-ml/2026/10/08/ai-giants-promise-to-play-nice-with-personal-data-after-uk-watchdog-scrutiny/5301966",
-       "source": "The Register",
-       "published": "2026-10-08T12:35:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/ai-and-ml/2026/10/08/ai-giants-promise-to-play-nice-with-personal-data-after-uk-watchdog-scrutiny/5301966",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Amazon, Google, Microsoft, OpenAI and six others agree to changes, but the ICO isn't done asking questions"
-      },
-      {
        "title": "Arelion, Nokia trial boosts optical capacity for AI traffic",
        "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
        "source": "Fierce Network",
@@ -4054,39 +3944,17 @@
        "url": "https://www.straitstimes.com/business/uks-asos-says-cyber-hack-accessed-customers-personal-data",
        "source": "The Straits Times Business",
        "published": "2026-10-08T11:00:00.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "The Straits Times Business",
          "url": "https://www.straitstimes.com/business/uks-asos-says-cyber-hack-accessed-customers-personal-data",
-         "primary": false
-        },
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/uks-asos-says-cyber-hack-accessed-customers-personal-data-6442321",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
        "blurb": "ASOS said the hacker did not gain access to payment card information or account passwords."
-      },
-      {
-       "title": "UK and Germany team up against Russian cyberattacks as Brexit rethink looms",
-       "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
-       "source": "The Register",
-       "published": "2026-10-08T11:22:01.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Security pact promises information-sharing and coordinated disruption, but offers little detail on agencies or funding"
       }
      ]
     }
@@ -4760,23 +4628,6 @@
        "stages": [],
        "via": null,
        "blurb": "As Hong Kong and Singapore compete for leadership in businesses ranging from foreign exchange trading to wealth management, the battleground has extended to artificial intelligence, with both cities vying to attract investment from HSBC Holdings and other major corporations, acco"
-      },
-      {
-       "title": "Singapore’s central bank wants all FinTech AI use cases subject to independent review",
-       "url": "https://www.theregister.com/ai-and-ml/2026/10/08/singapores-central-bank-wants-all-fintech-ai-use-cases-subject-to-independent-review/5301798",
-       "source": "The Register",
-       "published": "2026-10-08T00:53:03.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/ai-and-ml/2026/10/08/singapores-central-bank-wants-all-fintech-ai-use-cases-subject-to-independent-review/5301798",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Failures of third-party services no excuse for island nation’s financial sector"
       }
      ]
     },
@@ -4938,11 +4789,6 @@
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/samsung-forecasts-record-80b-quarterly-profit-as-ai-boom-boosts-memory-demand/4081967",
          "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933",
-         "primary": false
         }
        ],
        "stages": [],
@@ -5101,23 +4947,6 @@
        "blurb": "US President Donald Trump discussed AI development with dozens of tech bosses at the White House on Tuesday. Ahead of his \"super intelligence\" luncheon, Trump launched a new AI-powered website for government services, vowing not to stifle the technology's growth. He also said he "
       },
       {
-       "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
-       "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
-       "source": "The Register",
-       "published": "2026-10-08T13:27:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
-      },
-      {
        "title": "Roundup #89: It isn’t X, it’s Y",
        "url": "https://www.noahpinion.blog/p/roundup-89-it-isnt-x-its-y",
        "source": "Noahpinion",
@@ -5182,28 +5011,6 @@
        "blurb": "TikTok owner ByteDance is China’s Going Global champion, according to a new SCMP Plus databank tracking mainland companies’ overseas expansion efforts. The social media giant topped the debut SCMP Plus Going Global 100 ranking ahead of Apple assembler Foxconn Industrial Internet,"
       }
      ]
-    },
-    "cyber": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
-       "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
-       "source": "The Register",
-       "published": "2026-10-08T13:27:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
-      }
-     ]
     }
    }
   },
@@ -5219,16 +5026,11 @@
        "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
        "source": "NPR Science",
        "published": "2026-10-06T10:16:28.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "NPR Science",
          "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-         "primary": false
-        },
-        {
-         "name": "Science (AAAS) News",
-         "url": "https://www.science.org/content/article/chemistry-nobel-honors-researchers-who-developed-reactions-leading-one-handed-molecules",
          "primary": false
         }
        ],
@@ -5252,16 +5054,11 @@
        "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
        "source": "NPR Science",
        "published": "2026-10-06T10:16:28.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "NPR Science",
          "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-         "primary": false
-        },
-        {
-         "name": "Science (AAAS) News",
-         "url": "https://www.science.org/content/article/chemistry-nobel-honors-researchers-who-developed-reactions-leading-one-handed-molecules",
          "primary": false
         }
        ],

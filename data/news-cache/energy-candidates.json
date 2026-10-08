@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T18:41:43.577Z",
+ "generatedAt": "2026-10-08T18:55:19.176Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -499,23 +499,6 @@
        "blurb": "The U.S. Energy Information Administration raised its 2026 Brent crude oil spot price forecast by more than $5 per barrel and its 2027 Brent price forecast by $10 per barrel."
       },
       {
-       "title": "India Shuns Costly Russian Oil",
-       "url": "https://www.rigzone.com/news/wire/india_shuns_costly_russian_oil-08-oct-2026-184802-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-08T13:46:29.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/india_shuns_costly_russian_oil-08-oct-2026-184802-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Indian refiners have cut back Russian crude purchases for November delivery."
-      },
-      {
        "title": "EIA raises Brent forecast to $105 a barrel for Q4 2026; gas-heated homes to spend less this winter",
        "url": "https://www.eia.gov/outlooks/steo/",
        "source": "US Energy Information Administration",
@@ -531,6 +514,23 @@
        "stages": [],
        "via": null,
        "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
+      },
+      {
+       "title": "India Shuns Costly Russian Oil",
+       "url": "https://www.rigzone.com/news/wire/india_shuns_costly_russian_oil-08-oct-2026-184802-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-08T13:46:29.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/india_shuns_costly_russian_oil-08-oct-2026-184802-article/?rss=true",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Indian refiners have cut back Russian crude purchases for November delivery."
       }
      ]
     },

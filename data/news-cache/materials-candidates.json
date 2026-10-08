@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T18:41:54.825Z",
+ "generatedAt": "2026-10-08T18:55:30.780Z",
  "sector": "materials",
  "maxAgeDays": 10,
  "places": {
@@ -254,23 +254,6 @@
        "blurb": "The largest market for Namibian beef, the European Union, announced it has suspended imports after an outbreak of foot-and-mouth disease, which wreaked havoc in Europe 25 years ago."
       },
       {
-       "title": "The unexpected biosecurity risk hiding in your suitcase",
-       "url": "https://www.farmprogress.com/animal-health/the-unexpected-biosecurity-risk-hiding-in-your-suitcase",
-       "source": "Farm Progress",
-       "published": "2026-10-08T07:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Farm Progress",
-         "url": "https://www.farmprogress.com/animal-health/the-unexpected-biosecurity-risk-hiding-in-your-suitcase",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Livestock Insights: From clothing and footwear to food and livestock contact, international travelers need to take precautions to protect U.S. livestock."
-      },
-      {
        "title": "North Dakota Stockmen’s Association names 2026 Rancher of the Year",
        "url": "https://www.farmprogress.com/names-in-the-news/north-dakota-stockmen-s-association-names-2026-rancher-of-the-year",
        "source": "Farm Progress",
@@ -286,6 +269,23 @@
        "stages": [],
        "via": null,
        "blurb": "Brad and Jackie Gjermundson of Marshall, N.D., receive award during 97th annual convention for their dedication to the ranch, rodeo and community."
+      },
+      {
+       "title": "The unexpected biosecurity risk hiding in your suitcase",
+       "url": "https://www.farmprogress.com/animal-health/the-unexpected-biosecurity-risk-hiding-in-your-suitcase",
+       "source": "Farm Progress",
+       "published": "2026-10-08T07:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Farm Progress",
+         "url": "https://www.farmprogress.com/animal-health/the-unexpected-biosecurity-risk-hiding-in-your-suitcase",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Livestock Insights: From clothing and footwear to food and livestock contact, international travelers need to take precautions to protect U.S. livestock."
       },
       {
        "title": "Does the cattle market see an open gate?",
@@ -759,26 +759,6 @@
        "blurb": "US natural gas supply growth is expected to outpace rising demand this winter, leaving the market well stocked even with LNG exports climbing and putting downward pressure on prices compared with last winter, according to the Natural Gas Supply Association (NGSA)."
       },
       {
-       "title": "Natural Gas Futures Extend Winning Ways as Traders Size Up Hurricane Threat, Prep for Storage Print",
-       "url": "https://naturalgasintel.com/news/natural-gas-futures-extend-winning-ways-as-traders-size-up-hurricane-threat-prep-for-storage-print/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T12:43:59.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/natural-gas-futures-extend-winning-ways-as-traders-size-up-hurricane-threat-prep-for-storage-print/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "extraction"
-       },
-       "blurb": "Natural gas futures traders took stock of Hurricane Isaias approaching the Gulf Coast early Thursday as well as expectations for a bullish government inventory result."
-      },
-      {
        "title": "Posco completes second upstream lithium plant in Argentina",
        "url": "https://www.just-auto.com/news/posco-completes-second-upstream-lithium-plant-in-argentina/",
        "source": "Just Auto",
@@ -939,6 +919,26 @@
         "stage": "extraction"
        },
        "blurb": "Naturisa's $73m profit shows Songa-linked earnings concentrated upstream in shrimp farming"
+      },
+      {
+       "title": "Petrobras makes additional discovery offshore Amapá",
+       "url": "https://www.ogj.com/exploration-development/news/55409591/petrobras-makes-additional-discovery-offshore-amapa",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-05T17:21:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/exploration-development/news/55409591/petrobras-makes-additional-discovery-offshore-amapa",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "The Morpho well, drilled in deep waters off Amapá, reached an oil-bearing interval, with ongoing analyses confirming good oil quality and promising further exploration opportunities in the Foz do Amazonas basin."
       }
      ]
     },
@@ -1673,23 +1673,6 @@
        "blurb": "Sigma Lithium (Nasdaq, TSXV: SGML; ASX: SAU) shares rose as much as 6.7% in New York on Wednesday after a Brazilian appeals court upheld its environmental licences, clearing the company... The post Sigma Lithium jumps after Brazil court reopens mine appeared first on The Northern"
       },
       {
-       "title": "Discovery silver project clears key Mexico hurdle",
-       "url": "https://www.northernminer.com/news/discovery-silver-project-clears-key-mexico-hurdle/1003895471/",
-       "source": "The Northern Miner",
-       "published": "2026-10-06T21:10:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/discovery-silver-project-clears-key-mexico-hurdle/1003895471/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Discovery Mining (TSX: DSV, US-OTC: DSVSF) said it received two key environmental and land-use permits from the Mexican government, allowing the Canadian miner to advance its Cordero silver project toward... The post Discovery silver project clears key Mexico hurdle appeared firs"
-      },
-      {
        "title": "GAO report looks at NRC workforce recruitment and retention",
        "url": "https://www.ans.org/news/2026-10-05/article-8460/gao-report-looks-at-nrc-workforce-recruitment-and-retention/",
        "source": "ANS Nuclear Newswire",
@@ -2375,23 +2358,6 @@
        "blurb": "Canada’s mining industry has won the political support needed to reverse years of decline, outgoing Mining Association of Canada (MAC) president and CEO Pierre Gratton said Tuesday. Companies now need... The post Canada’s miners must seize political opening: Gratton appeared firs"
       },
       {
-       "title": "Discovery silver project clears key Mexico hurdle",
-       "url": "https://www.northernminer.com/news/discovery-silver-project-clears-key-mexico-hurdle/1003895471/",
-       "source": "The Northern Miner",
-       "published": "2026-10-06T21:10:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/discovery-silver-project-clears-key-mexico-hurdle/1003895471/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Discovery Mining (TSX: DSV, US-OTC: DSVSF) said it received two key environmental and land-use permits from the Mexican government, allowing the Canadian miner to advance its Cordero silver project toward... The post Discovery silver project clears key Mexico hurdle appeared firs"
-      },
-      {
        "title": "Vista Coal Mine Expansion Approved",
        "url": "https://www.coalage.com/departments/world-news/vista-coal-mine-expansion-approved/",
        "source": "Coal Age",
@@ -2880,56 +2846,6 @@
        "stages": [],
        "via": null,
        "blurb": "Veneer has overtaken sawn boards as Mozambique’s biggest processed timber export, with the country’s exporters shipping 22,460 cubic metres in the first half of the year, after selling none in the same period in 2025. That is according to figures from Mozambique’s government repo"
-      }
-     ]
-    }
-   }
-  },
-  "mx": {
-   "label": "Mexico",
-   "level": "country",
-   "sources": {
-    "oilgas": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Environment minister: ‘The conditions for proceeding with fracking do not exist’",
-       "url": "https://mexiconewsdaily.com/news/environment-minister-the-conditions-for-proceeding-with-fracking-do-not-exist/",
-       "source": "Mexico News Daily",
-       "published": "2026-10-07T18:28:13.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mexico News Daily",
-         "url": "https://mexiconewsdaily.com/news/environment-minister-the-conditions-for-proceeding-with-fracking-do-not-exist/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Minister Bárcena spoke before Mexico's Chamber of Deputies on Tuesday evening about the government's ongoing feasibility study of fracking, which could potentially be carried out in the Sabinas-Burro-Picachos basin. However, the country's current environmental regulations hinder "
-      }
-     ]
-    },
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Discovery silver project clears key Mexico hurdle",
-       "url": "https://www.northernminer.com/news/discovery-silver-project-clears-key-mexico-hurdle/1003895471/",
-       "source": "The Northern Miner",
-       "published": "2026-10-06T21:10:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/discovery-silver-project-clears-key-mexico-hurdle/1003895471/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Discovery Mining (TSX: DSV, US-OTC: DSVSF) said it received two key environmental and land-use permits from the Mexican government, allowing the Canadian miner to advance its Cordero silver project toward... The post Discovery silver project clears key Mexico hurdle appeared firs"
       }
      ]
     }
@@ -3976,6 +3892,34 @@
        "stages": [],
        "via": null,
        "blurb": "ISLAMABAD: Although the wheat sowing season is due to start within the next few weeks, the Federal Committee on Agriculture (FCA) was unable to set production targets for Rabi crops during a meeting on Wednesday. The meeting was chaired by the Minister for National Food Security "
+      }
+     ]
+    }
+   }
+  },
+  "mx": {
+   "label": "Mexico",
+   "level": "country",
+   "sources": {
+    "oilgas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Environment minister: ‘The conditions for proceeding with fracking do not exist’",
+       "url": "https://mexiconewsdaily.com/news/environment-minister-the-conditions-for-proceeding-with-fracking-do-not-exist/",
+       "source": "Mexico News Daily",
+       "published": "2026-10-07T18:28:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Mexico News Daily",
+         "url": "https://mexiconewsdaily.com/news/environment-minister-the-conditions-for-proceeding-with-fracking-do-not-exist/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Minister Bárcena spoke before Mexico's Chamber of Deputies on Tuesday evening about the government's ongoing feasibility study of fracking, which could potentially be carried out in the Sabinas-Burro-Picachos basin. However, the country's current environmental regulations hinder "
       }
      ]
     }

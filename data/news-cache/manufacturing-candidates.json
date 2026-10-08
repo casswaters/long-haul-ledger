@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T18:42:05.619Z",
+ "generatedAt": "2026-10-08T18:55:41.679Z",
  "sector": "manufacturing",
  "maxAgeDays": 10,
  "places": {
@@ -337,6 +337,23 @@
        "blurb": "As a producer of steel pipes and tubes, Zekelman Industries sees an opportunity as steel mills struggle to keep up with demand from data centers, semiconductor fabs and pharmaceutical buildouts."
       },
       {
+       "title": "Suspended glass bead entangled with light: Maybe a quantum memory?",
+       "url": "https://arstechnica.com/science/2026/10/suspended-glass-bead-entangled-with-light-maybe-a-quantum-memory/",
+       "source": "Ars Technica",
+       "published": "2026-10-08T18:45:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/science/2026/10/suspended-glass-bead-entangled-with-light-maybe-a-quantum-memory/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Getting a glass bead to act like a quantum object by entangling it with light."
+      },
+      {
        "title": "Everlaw’s 2026 AI Report: A Glass Half Full Or Half Empty?",
        "url": "https://abovethelaw.com/2026/10/everlaws-2026-ai-report-a-glass-half-full-or-half-empty/",
        "source": "Above the Law",
@@ -445,11 +462,6 @@
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/samsung-forecasts-record-80b-quarterly-profit-as-ai-boom-boosts-memory-demand/4081967",
          "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933",
-         "primary": false
         }
        ],
        "stages": [],
@@ -525,6 +537,23 @@
        "blurb": "Nature, Published online: 07 October 2026; doi:10.1038/d41586-026-02968-6 A material that was previously assumed to be an electrical insulator has been shown to be a semiconductor, with potential uses in electronics and optics."
       },
       {
+       "title": "Wind power patents: Siemens Gamesa | Nordex | Envision | LM Wind Power",
+       "url": "https://www.windpowermonthly.com/article/1971545/wind-power-patents-siemens-gamesa-nordex-envision-lm-wind-power",
+       "source": "Windpower Monthly",
+       "published": "2026-10-02T10:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Windpower Monthly",
+         "url": "https://www.windpowermonthly.com/article/1971545/wind-power-patents-siemens-gamesa-nordex-envision-lm-wind-power",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Windpower Monthly rounds up the latest patents for wind power technology granted and applied for in the last week."
+      },
+      {
        "title": "De-Risking the Workforce Gap: Can AI and Robotics Fill Immediate Need?",
        "url": "https://www.enr.com/articles/63810-de-risking-the-workforce-gap-can-ai-and-robotics-fill-immediate-need",
        "source": "ENR (Engineering News-Record)",
@@ -557,23 +586,6 @@
        "stages": [],
        "via": null,
        "blurb": "Full-stack safety solution for physical AI is being used by robotics companies."
-      },
-      {
-       "title": "Wind power patents: Siemens Gamesa | Nordex | Envision | LM Wind Power",
-       "url": "https://www.windpowermonthly.com/article/1971545/wind-power-patents-siemens-gamesa-nordex-envision-lm-wind-power",
-       "source": "Windpower Monthly",
-       "published": "2026-10-02T10:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Windpower Monthly",
-         "url": "https://www.windpowermonthly.com/article/1971545/wind-power-patents-siemens-gamesa-nordex-envision-lm-wind-power",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Windpower Monthly rounds up the latest patents for wind power technology granted and applied for in the last week."
       },
       {
        "title": "Wind power patents: China Three Gorges | Dongfang | Nordex | Siemens Gamesa",
@@ -1652,6 +1664,23 @@
        "stages": [],
        "via": null,
        "blurb": "Mesabi Metallics’ steel facility will be the largest in the U.S., creating 1,750 jobs and adding 10 million tons of annual production capacity. The company is also investing $3 billion to complete an iron ore mine in Minnesota."
+      },
+      {
+       "title": "Suspended glass bead entangled with light: Maybe a quantum memory?",
+       "url": "https://arstechnica.com/science/2026/10/suspended-glass-bead-entangled-with-light-maybe-a-quantum-memory/",
+       "source": "Ars Technica",
+       "published": "2026-10-08T18:45:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/science/2026/10/suspended-glass-bead-entangled-with-light-maybe-a-quantum-memory/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Getting a glass bead to act like a quantum object by entangling it with light."
       },
       {
        "title": "Everlaw’s 2026 AI Report: A Glass Half Full Or Half Empty?",
@@ -5378,11 +5407,6 @@
         {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/samsung-forecasts-record-80b-quarterly-profit-as-ai-boom-boosts-memory-demand/4081967",
-         "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933",
          "primary": false
         }
        ],
