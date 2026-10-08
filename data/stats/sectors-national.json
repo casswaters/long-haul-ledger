@@ -1,0 +1,160 @@
+{
+ "note": "Official national statistics for economies the World Bank does not publish. Hand-checked on the date shown; each row names its table. Rows: [value, year, prior value, prior year]. Merged into sectors.json under 'national' by scripts/fetch-stats.mjs; World Bank rows win where both exist.",
+ "countries": {
+  "tw": {
+   "name": "Taiwan",
+   "checked": "2026-10-08",
+   "rows": {
+    "agr": {
+     "v": [
+      1.44,
+      2025,
+      1.46,
+      2024
+     ],
+     "src": "DGBAS",
+     "url": "https://eng.stat.gov.tw/News_Content.aspx?n=2336&s=236584",
+     "table": "Statistical Abstract of National Accounts (Aug 2026), table 5-3, GDP by kind of activity, percentage distribution at current prices",
+     "file": "https://ws.dgbas.gov.tw/001/Upload/464/relfile/10866/236584/nep16.xlsx"
+    },
+    "industry": {
+     "v": [
+      43.45,
+      2025,
+      40.4,
+      2024
+     ],
+     "src": "DGBAS",
+     "url": "https://eng.stat.gov.tw/News_Content.aspx?n=2336&s=236584",
+     "table": "table 5-3 (Industry)",
+     "file": "https://ws.dgbas.gov.tw/001/Upload/464/relfile/10866/236584/nep16.xlsx"
+    },
+    "mfgshare": {
+     "v": [
+      38.55,
+      2025,
+      35.67,
+      2024
+     ],
+     "src": "DGBAS",
+     "url": "https://eng.stat.gov.tw/News_Content.aspx?n=2336&s=236584",
+     "table": "table 5-3 (Manufacturing)",
+     "file": "https://ws.dgbas.gov.tw/001/Upload/464/relfile/10866/236584/nep16.xlsx"
+    },
+    "services": {
+     "v": [
+      55.1,
+      2025,
+      58.14,
+      2024
+     ],
+     "src": "DGBAS",
+     "url": "https://eng.stat.gov.tw/News_Content.aspx?n=2336&s=236584",
+     "table": "table 5-3 (Services)",
+     "file": "https://ws.dgbas.gov.tw/001/Upload/464/relfile/10866/236584/nep16.xlsx"
+    },
+    "govcons": {
+     "v": [
+      12.31,
+      2025,
+      13.23,
+      2024
+     ],
+     "src": "DGBAS",
+     "url": "https://eng.stat.gov.tw/News_Content.aspx?n=2336&s=236584",
+     "table": "table 3-3, GDP by expenditures, percentage distribution for nominal GDP (Government final consumption)",
+     "file": "https://ws.dgbas.gov.tw/001/Upload/464/relfile/10866/236584/nep08.xlsx"
+    },
+    "srvjobs": {
+     "v": [
+      61.01,
+      2025,
+      60.81,
+      2024
+     ],
+     "src": "DGBAS",
+     "url": "https://data.gov.tw/dataset/31832",
+     "table": "Manpower Survey, employed persons by industry, annual averages (Services share)"
+    },
+    "rnd": {
+     "v": [
+      4.08,
+      2024,
+      3.97,
+      2023
+     ],
+     "src": "NSTC",
+     "url": "https://wsts.nstc.gov.tw/stsweb/technology/TechnologyStatistics.aspx?ID=1&language=E",
+     "table": "National Science and Technology Survey, R&D expenditure as a percentage of GDP"
+    },
+    "tax": {
+     "v": [
+      13.2,
+      2025,
+      14.6,
+      2024
+     ],
+     "src": "Ministry of Finance",
+     "url": "https://service.mof.gov.tw/public/Data/statistic/bulletin/115/Analysis_of_Tax_Revenue_Collection_in_2025.pdf",
+     "table": "Analysis of Tax Revenue Collection in 2025, section VI (tax revenue to GDP, all levels of government, excluding social security contributions)",
+     "def": "Ministry of Finance tax-to-GDP ratio (all levels of government, excluding social security)"
+    }
+   }
+  },
+  "fk": {
+   "name": "Falkland Islands",
+   "checked": "2026-10-08",
+   "rows": {
+    "agr": {
+     "v": [
+      61.15,
+      2024,
+      61.23,
+      2023
+     ],
+     "src": "Falkland Islands Government",
+     "url": "https://www.falklands.gov.fk/policy/statistics/national-accounts",
+     "table": "Falkland Islands National Accounts 2014-2024, table 4, GVA by economic activity at current prices (crop and animal production plus fishing and aquaculture; fishing alone 58.3% in 2024)",
+     "def": "Includes fishing and aquaculture, 58.3% of GDP in 2024",
+     "file": "https://www.falklands.gov.fk/policy/downloads?catid=9&id=290%3Afalkland-islands-national-accounts-2014-2024&task=download.send"
+    },
+    "industry": {
+     "v": [
+      6.84,
+      2024,
+      6.67,
+      2023
+     ],
+     "src": "Falkland Islands Government",
+     "url": "https://www.falklands.gov.fk/policy/statistics/national-accounts",
+     "table": "table 4 (oil and gas exploration, quarrying, manufacturing and other industrial activities, plus construction)",
+     "file": "https://www.falklands.gov.fk/policy/downloads?catid=9&id=290%3Afalkland-islands-national-accounts-2014-2024&task=download.send"
+    },
+    "mfgshare": {
+     "v": [
+      0.56,
+      2024,
+      0.53,
+      2023
+     ],
+     "src": "Falkland Islands Government",
+     "url": "https://www.falklands.gov.fk/policy/statistics/national-accounts",
+     "table": "table 4 (of which manufacturing)",
+     "file": "https://www.falklands.gov.fk/policy/downloads?catid=9&id=290%3Afalkland-islands-national-accounts-2014-2024&task=download.send"
+    },
+    "services": {
+     "v": [
+      32.01,
+      2024,
+      32.1,
+      2023
+     ],
+     "src": "Falkland Islands Government",
+     "url": "https://www.falklands.gov.fk/policy/statistics/national-accounts",
+     "table": "table 4 (codes 4 to 10, trade through other services)",
+     "file": "https://www.falklands.gov.fk/policy/downloads?catid=9&id=290%3Afalkland-islands-national-accounts-2014-2024&task=download.send"
+    }
+   }
+  }
+ }
+}

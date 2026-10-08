@@ -47,6 +47,12 @@ assert('values older than 10 years hidden with a note', sl.lines.length === 1 &&
 assert('change vs prior year in pts', sl.lines[0].change.text === '+0.5 pts');
 const html = sectorStripHtml('manufacturing', { level: 'country', country: 'fr' }, sectors, { placeLabel: 'France', checked: 'Oct 8, 2026' });
 assert('France manufacturing strip renders with World Bank links', /Share of the economy/.test(html) && /data\.worldbank\.org\/indicator\/NV\.IND\.MANF\.ZS\?locations=FR/.test(html));
+// Official national statistics where the World Bank publishes nothing (Taiwan: DGBAS, NSTC, MOF; Falklands: FIG national accounts).
+const twM = sectorLines('manufacturing', 'tw', sectors, 2026).lines;
+assert('Taiwan manufacturing share comes from DGBAS table 5-3', twM.some((l) => l.id === 'mfgshare' && l.by === 'DGBAS' && l.year >= 2025 && /stat\.gov\.tw/.test(l.url)));
+assert('Falklands agriculture line includes fishing and says so', sectorLines('materials', 'fk', sectors, 2026).lines.some((l) => l.by === 'Falkland Islands Government' && /fishing/i.test(l.def || '')));
+assert('Taiwan policy strip header names its national sources', /DGBAS and Ministry of Finance, annual/.test(sectorStripHtml('policy', { level: 'country', country: 'tw' }, sectors, { placeLabel: 'Taiwan' })));
+assert('World Bank rows still win for France', sectorLines('manufacturing', 'fr', sectors, 2026).lines.every((l) => l.by === 'World Bank'));
 assert('empty place says Not yet covered', /Not yet covered/.test(sectorStripHtml('policy', { level: 'country', country: 'zz' }, sectors, { checked: 'Oct 8, 2026' })));
 
 console.log('\n--- Electricity mix ---');

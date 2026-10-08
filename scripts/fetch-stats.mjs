@@ -280,6 +280,9 @@ if (invoked && fileURLToPath(import.meta.url) === invoked) {
     const p = join(OUT, 'world.json'); const prev = readJson(p);
     const next = await runWorldBank({ prev });
     for (const l of next.fetchLog) console.warn(`WARN ${l.indicator}: ${l.error} (kept last good)`);
+    // Official national statistics for economies the World Bank skips (Taiwan, Falklands): hand-checked file, carried every run.
+    const nat = readJson(join(OUT, 'sectors-national.json'));
+    if (nat?.countries) next.national = nat.countries;
     if (!Object.keys(next.countries).length) { console.error('no countries; not writing'); process.exit(1); }
     if (!prev || stripVolatile(prev) !== stripVolatile(next)) { writeFileSync(p, JSON.stringify(next) + '\n'); console.log(`world.json: ${Object.keys(next.countries).length} countries`); }
     else console.log('world.json unchanged');
@@ -298,6 +301,9 @@ if (invoked && fileURLToPath(import.meta.url) === invoked) {
     // A failed indicator keeps last good values from the previous file.
     if (prev && failed.size) for (const d of SECTOR_INDICATORS) if (failed.has(d.code)) { for (const [k, v] of Object.entries(prev.countries || {})) if (v[d.id]) (next.countries[k] = next.countries[k] || { name: v.name })[d.id] = v[d.id]; if (prev.world?.[d.id]) next.world[d.id] = prev.world[d.id]; }
     for (const l of next.fetchLog) console.warn(`WARN ${l.indicator}: ${l.error} (kept last good)`);
+    // Official national statistics for economies the World Bank skips (Taiwan, Falklands): hand-checked file, carried every run.
+    const nat = readJson(join(OUT, 'sectors-national.json'));
+    if (nat?.countries) next.national = nat.countries;
     if (!Object.keys(next.countries).length) { console.error('no countries; not writing'); process.exit(1); }
     if (!prev || stripVolatile(prev) !== stripVolatile(next)) { writeFileSync(p, JSON.stringify(next) + '\n'); console.log(`sectors.json: ${Object.keys(next.countries).length} economies`); }
     else console.log('sectors.json unchanged');
