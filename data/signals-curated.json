@@ -27,7 +27,194 @@
       "note": "Confirmed by the company and the Maryland governor's office; Reuters wire carried by Military Times.",
       "addedAt": "2026-10-07T18:30:00Z",
       "addedBy": "Ledger research (hand-verified)"
+    },
+    {
+      "id": "cur-isaias-gulf-shut-ins",
+      "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
+      "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
+      "source": "Argus Media",
+      "kind": "hard-news",
+      "published": "2026-10-07T17:00:00Z",
+      "country": "US",
+      "location": {
+        "countries": [
+          "us"
+        ],
+        "admin1": [
+          "us-la"
+        ]
+      },
+      "tags": [
+        "energy",
+        "oil",
+        "natural gas",
+        "offshore"
+      ],
+      "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Marine Minerals Administration (BSEE newsroom), Oct. 6 shut-in report",
+          "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-activities-invest-92l",
+          "primary": true,
+          "published": "2026-10-06"
+        },
+        {
+          "name": "Argus Media",
+          "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
+          "primary": false,
+          "published": "2026-10-07"
+        }
+      ],
+      "note": "Feed had only an analysis piece and an LNG angle. The regulator published the storm shut-in data (Oct. 6 report opened); Argus carries the Oct. 7 update.",
+      "addedAt": "2026-10-08T00:40:00Z",
+      "addedBy": "Ledger research (hand-verified)"
+    },
+    {
+      "id": "cur-eia-steo-oct-2026",
+      "title": "EIA raises Brent forecast to $105 a barrel for Q4 2026; gas-heated homes to spend less this winter",
+      "url": "https://www.eia.gov/outlooks/steo/",
+      "source": "US Energy Information Administration",
+      "kind": "hard-news",
+      "published": "2026-10-06T16:00:00Z",
+      "country": "US",
+      "location": {
+        "countries": [
+          "us"
+        ]
+      },
+      "tags": [
+        "energy",
+        "oil",
+        "natural gas",
+        "prices"
+      ],
+      "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter.",
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "EIA Short-Term Energy Outlook (Oct. 6, 2026)",
+          "url": "https://www.eia.gov/outlooks/steo/",
+          "primary": true,
+          "published": "2026-10-06"
+        }
+      ],
+      "note": "Monthly federal outlook with the Winter Fuels Outlook; missing from the feed.",
+      "addedAt": "2026-10-08T00:40:00Z",
+      "addedBy": "Ledger research (hand-verified)"
     }
   ],
-  "overrides": []
+  "overrides": [
+    {
+      "match": {
+        "id": "live-1cg640e"
+      },
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "IEA (Executive Director statement)",
+          "url": "https://www.iea.org/news/statement-by-iea-executive-director-on-meeting-of-iea-member-governments-on-7-october-2026",
+          "primary": true,
+          "published": "2026-10-07"
+        },
+        {
+          "name": "The National (UAE)",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/07/iea-members-support-faster-release-of-reserve-oil-stocks/",
+          "primary": false,
+          "published": "2026-10-07"
+        },
+        {
+          "name": "Argus Media",
+          "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887710-iea-discusses-stock-release-details-still-scant",
+          "primary": false,
+          "published": "2026-10-07"
+        }
+      ],
+      "note": "The IEA published the statement itself.",
+      "addedAt": "2026-10-08T00:40:00Z"
+    },
+    {
+      "match": {
+        "id": "live-1d7cjal"
+      },
+      "status": "confirmed",
+      "location": {
+        "countries": [
+          "us"
+        ],
+        "admin1": [
+          "us-nd",
+          "us-co"
+        ]
+      },
+      "sources": [
+        {
+          "name": "Chevron news release (SEC Form 8-K, Exhibit 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000192/cvxoct2026ex991.htm",
+          "primary": true,
+          "published": "2026-10-06"
+        },
+        {
+          "name": "Oil & Gas Journal",
+          "url": "https://www.ogj.com/general-interest/companies/news/55410127/chevron-restructures-bakken-midstream-agreements-transfers-hess-midstream-stake",
+          "primary": false,
+          "published": "2026-10-07"
+        }
+      ],
+      "note": "Chevron's own release filed with the SEC; Bakken (North Dakota) and DJ Basin (Weld County, Colorado) assets.",
+      "addedAt": "2026-10-08T00:40:00Z"
+    },
+    {
+      "match": {
+        "id": "live-1j6adjh"
+      },
+      "status": "confirmed",
+      "location": {
+        "countries": [
+          "us"
+        ],
+        "admin1": [
+          "us-ca"
+        ]
+      },
+      "sources": [
+        {
+          "name": "Bureau of Land Management (press release)",
+          "url": "https://www.blm.gov/press-release/blm-announces-december-2026-sale-oil-and-gas-leases-california",
+          "primary": true,
+          "published": "2026-10-01"
+        },
+        {
+          "name": "Oil & Gas Journal",
+          "url": "https://www.ogj.com/general-interest/government/news/55409584/us-blm-sets-december-california-oil-gas-lease-sale",
+          "primary": false,
+          "published": "2026-10-05"
+        }
+      ],
+      "note": "BLM announced the Dec. 1 sale of 43 parcels (about 35,000 acres) in Kern, Kings, San Luis Obispo and Fresno counties.",
+      "addedAt": "2026-10-08T00:40:00Z"
+    },
+    {
+      "match": {
+        "id": "live-1mozzji"
+      },
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Equinor (news release)",
+          "url": "https://www.equinor.com/news/20261007-updated-cost-estimate-snohvit-future",
+          "primary": true,
+          "published": "2026-10-07"
+        },
+        {
+          "name": "Reuters (via Baird Maritime)",
+          "url": "https://www.bairdmaritime.com/shipping/tankers/gas/equinors-emissions-project-at-lng-plant-becomes-increasingly-costly",
+          "primary": false,
+          "published": "2026-10-07"
+        }
+      ],
+      "note": "Equinor published the updated Snohvit Future estimate (NOK 26.5 billion).",
+      "addedAt": "2026-10-08T00:40:00Z"
+    }
+  ]
 }
