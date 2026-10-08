@@ -105,6 +105,121 @@
             ]
           }
         ]
+      },
+      "oil": {
+        "generated_at": "2026-10-08T00:45:00Z",
+        "week_of": "2026-10-05",
+        "checked": "Every number, date and @handle was checked against the linked sources on Oct 7, 2026. Handles are written as text; they are the organizations' own X accounts.",
+        "items": [
+          {
+            "text": "Member governments of the International Energy Agency @IEA, the Paris-based body that coordinates wealthy countries' emergency oil stocks, agreed on October 7 to speed up the rest of the stock release they pledged in March and to put diesel first where they can. About 325 million barrels have gone out so far. About 100 million more were pledged but not yet released. Members still hold about 1.1 billion barrels of public emergency stocks, including more than 200 million barrels of diesel. The same day, France said it will offer 10 million barrels of diesel from its strategic stocks to fuel distributors at cost for three months. Its prime minister said that should cut pump prices by 12 to 18 euro cents a liter. Which countries supply the 100 million barrels, and how much of it is diesel, has not been published. The IEA board meets again next week.",
+            "place": "world",
+            "sources": [
+              {
+                "title": "Statement by IEA Executive Director on meeting of IEA Member governments on 7 October 2026 (IEA)",
+                "url": "https://www.iea.org/news/statement-by-iea-executive-director-on-meeting-of-iea-member-governments-on-7-october-2026",
+                "date": "2026-10-07",
+                "primary": true
+              },
+              {
+                "title": "IEA discusses stock release, details still scant (Argus Media)",
+                "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887710-iea-discusses-stock-release-details-still-scant",
+                "date": "2026-10-07"
+              },
+              {
+                "title": "France to release 10M barrels of diesel from stocks to lower pump prices (Anadolu Agency)",
+                "url": "https://www.aa.com.tr/en/europe/france-to-release-10m-barrels-of-diesel-from-stocks-to-lower-pump-prices/4081439",
+                "date": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "Oil is back above $100. Brent, the global benchmark, rose 1% to about $101 a barrel on October 7 as traders weighed Houthi attacks on Saudi Arabia and a storm in the Gulf of Mexico against more Middle East crude moving by tanker. The US Energy Information Administration @EIAgov says Brent futures started the third quarter at $72 on July 1, passed $100 on July 23 after military strikes resumed, and peaked at $109 on September 15. Some physical cargoes sold for as much as $132. Attacks on pumping stations along Saudi Arabia's East-West pipeline and on tankers near the Bab el-Mandeb Strait were among the causes. EIA now expects Brent to average $105 in the last three months of 2026. The big unknown is whether shipments through the Strait of Hormuz keep recovering.",
+            "place": "world",
+            "sources": [
+              {
+                "title": "Crude oil prices and refinery margins generally increased throughout the third quarter (EIA Today in Energy)",
+                "url": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
+                "date": "2026-10-05",
+                "primary": true
+              },
+              {
+                "title": "Short-Term Energy Outlook, October 2026, with the Winter Fuels Outlook (EIA)",
+                "url": "https://www.eia.gov/outlooks/steo/",
+                "date": "2026-10-06",
+                "primary": true
+              },
+              {
+                "title": "Asia shares weaker, oil up as investors weigh Saudi-Houthi escalation (Reuters, via The Straits Times)",
+                "url": "https://www.straitstimes.com/business/asia-shares-weaker-oil-up-as-investors-weigh-saudi-houthi-escalation",
+                "date": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "Ukraine keeps hitting Russian oil infrastructure. On October 7, Ukraine's General Staff said its October 2 drone strike on a major oil pipeline and storage facility near the village of Prosvet, in Russia's Samara region, damaged 14 large storage tanks, sections of pipeline and an automated oil station. Later that day a large fire broke out at the same site, seen in videos and in NASA satellite fire monitoring. The site includes pumping stations, tank farms and blending stations. The cause of the new fire had not been officially stated. EIA also lists Ukrainian drone attacks on Novorossiysk, one of Russia's main Black Sea oil terminals, among the supply risks that pushed prices up in September.",
+            "place": "world",
+            "sources": [
+              {
+                "title": "Huge blaze breaks out at Russian oil facility in Samara Oblast (The Kyiv Independent)",
+                "url": "https://kyivindependent.com/huge-blaze-breaks-out-at-russian-oil-facility-in-samara-oblast/",
+                "date": "2026-10-07"
+              },
+              {
+                "title": "Crude oil prices and refinery margins generally increased throughout the third quarter (EIA Today in Energy)",
+                "url": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
+                "date": "2026-10-05",
+                "primary": true
+              }
+            ]
+          }
+        ]
+      },
+      "gas": {
+        "generated_at": "2026-10-08T00:45:00Z",
+        "week_of": "2026-10-05",
+        "checked": "Every number, date and @handle was checked against the linked sources on Oct 7, 2026. Handles are written as text; they are the organizations' own X accounts.",
+        "items": [
+          {
+            "text": "Qatar may be getting ready to ship more LNG through the Strait of Hormuz. A Bloomberg analysis of satellite images and ship tracking found at least 12 empty LNG carriers owned or chartered by QatarEnergy @qatarenergy waiting near the country. Together they can carry about 1.1 million tons, roughly 2% of the world fleet's capacity. LNG traffic through Hormuz rose in September to its highest since the war began, but it is still about 75% below February. There is no guarantee the ships will sail. On Tuesday, Greece's shipping ministry was cited as saying a Greek-owned LNG carrier had been hit by an unidentified object near the waterway. QatarEnergy did not immediately comment.",
+            "place": "world",
+            "sources": [
+              {
+                "title": "Qatar Brings Empty LNG Ships Into Gulf (Bloomberg, via Rigzone)",
+                "url": "https://www.rigzone.com/news/wire/qatar_brings_empty_lng_ships_into_gulf-07-oct-2026-184793-article/",
+                "date": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "Global LNG supply is thin going into winter. New plants and higher output outside Qatar and the UAE have replaced about 60% of the Middle East LNG lost since March, according to Morgan Stanley analysis reported by Oil & Gas Journal. Europe's storage was about 70% full in late September, against a 10-year average of 87%. Morgan Stanley raised its fourth-quarter forecast for JKM, the Asian spot LNG price, to $27.50 per million British thermal units from $25, citing a slower Qatari restart. Shipping stays cheap because the tanker fleet is growing fast: about 55 new LNG carriers were delivered in the first seven months of 2026.",
+            "place": "world",
+            "sources": [
+              {
+                "title": "LNG market tightens into winter as Europe pulls US cargoes, China reopens contract talks (Oil & Gas Journal)",
+                "url": "https://www.ogj.com/general-interest/economics-markets/news/55410250/lng-market-tightens-into-winter-as-europe-pulls-us-cargoes-china-reopens-contract-talks",
+                "date": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "Equinor @Equinor raised the cost estimate for Snøhvit Future, the upgrade of its Hammerfest LNG plant in Norway, to 26.5 billion Norwegian kroner (about $2.77 billion, per Reuters) on October 7. That is up from just over NOK 20 billion in December 2025 and NOK 13.2 billion when the plan was filed in 2022. The project adds onshore compression, which keeps gas flowing as the offshore field's pressure drops, and switches the plant to power from the grid. That cuts about 850,000 tonnes of CO2 a year, about 2% of Norway's emissions. Equinor blamed operating problems at the plant, weather and hard rock in a power cable tunnel. The schedule holds: compression in 2029 and grid power in 2030. The project is about 60% complete.",
+            "place": "world",
+            "sources": [
+              {
+                "title": "Updated cost estimate for the Snøhvit Future project (Equinor)",
+                "url": "https://www.equinor.com/news/20261007-updated-cost-estimate-snohvit-future",
+                "date": "2026-10-07",
+                "primary": true
+              },
+              {
+                "title": "Equinor's emissions project at LNG plant becomes increasingly costly (Reuters, via Baird Maritime)",
+                "url": "https://www.bairdmaritime.com/shipping/tankers/gas/equinors-emissions-project-at-lng-plant-becomes-increasingly-costly",
+                "date": "2026-10-07"
+              }
+            ]
+          }
+        ]
       }
     },
     "us": {
@@ -201,6 +316,133 @@
                 "title": "USA, South Korea targeting six AP1000 and two APR1400 units (World Nuclear News)",
                 "url": "https://www.world-nuclear-news.org/articles/usa-south-korea-targeting-six-ap1000-two-apr1400-units",
                 "date": "2026-10-01"
+              }
+            ]
+          }
+        ]
+      },
+      "oil": {
+        "generated_at": "2026-10-08T00:45:00Z",
+        "week_of": "2026-10-05",
+        "checked": "Every number, date and @handle was checked against the linked sources on Oct 7, 2026. Handles are written as text; they are the organizations' own X accounts.",
+        "items": [
+          {
+            "text": "Tropical Storm Isaias forced offshore producers in the Gulf to stop pumping. As of midday Wednesday, October 7, about 511,619 barrels a day of oil, about 25% of Gulf offshore output, was offline, based on operator reports to the Marine Minerals Administration, the federal office that tracks offshore drilling. A day earlier the figure was 9.24%. Shutting in means closing safety valves below the sea floor until the storm passes. It is a standard precaution, not damage. Chevron @Chevron and Shell were evacuating staff from several platforms. The Gulf supplies around 15% of US crude. Forecasters expected Isaias to become a hurricane on Thursday and approach the coast on Friday, toward a stretch from Louisiana to the Florida Panhandle that includes several large refineries. How long the oil stays offline depends on the storm's path.",
+            "place": "us",
+            "sources": [
+              {
+                "title": "US Gulf operators shut-in output before storm: Update (Argus Media)",
+                "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
+                "date": "2026-10-07"
+              },
+              {
+                "title": "MMA Monitors Gulf of America Oil and Gas Activities in Response to Invest 92L (Marine Minerals Administration, BSEE newsroom)",
+                "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-activities-invest-92l",
+                "date": "2026-10-06",
+                "primary": true
+              }
+            ]
+          },
+          {
+            "text": "The Energy Information Administration @EIAgov, the government's energy statistics office, raised its oil price outlook on October 6. It now expects Brent, the global benchmark crude, to average $105 a barrel in the last three months of 2026. That is $14 higher than its forecast a month ago. It sees Brent falling to $84 next year. US pump prices jumped in September: gasoline averaged $4.35 a gallon and diesel $6.29. Diesel is the tightest spot. East Coast stocks of diesel and heating oil fell 32% below their usual level for September. Homes that heat with oil, about 3% of households and mostly in the Northeast, face prices more than 30% above last winter. The forecast assumes Middle East oil flows stay limited through the end of the year.",
+            "place": "us",
+            "sources": [
+              {
+                "title": "Short-Term Energy Outlook, October 2026, with the Winter Fuels Outlook (EIA)",
+                "url": "https://www.eia.gov/outlooks/steo/",
+                "date": "2026-10-06",
+                "primary": true
+              }
+            ]
+          },
+          {
+            "text": "Chevron @Chevron agreed on October 6 to hand its stake and general partner role in Hess Midstream back to that company, along with its oil gathering pipelines in Colorado's DJ Basin. Hess Midstream runs the pipelines and processing plants that serve Chevron's wells in North Dakota's Bakken field; Chevron inherited the stake when it bought Hess in 2025. In return Chevron gets $200 million in cash and cheaper, longer contracts: fees go down, the deals run through 2045, and Chevron expects its Bakken pipeline costs per barrel to fall about 50%. Chevron will book a one-time after-tax loss of about $3 billion to $4 billion at closing and take about $3.7 billion of Hess Midstream debt off its books. Hess Midstream expects Bakken volumes to dip about 5% in 2027 as Chevron drills less. The deal still needs regulatory approvals and is expected to close by the end of 2026.",
+            "place": "us",
+            "sources": [
+              {
+                "title": "Chevron to Divest its Ownership Interests in Hess Midstream and DJ Basin Crude Midstream Assets (Chevron release, SEC Form 8-K Exhibit 99.1)",
+                "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000192/cvxoct2026ex991.htm",
+                "date": "2026-10-06",
+                "primary": true
+              },
+              {
+                "title": "Chevron restructures Bakken midstream agreements, transfers Hess Midstream stake (Oil & Gas Journal)",
+                "url": "https://www.ogj.com/general-interest/companies/news/55410127/chevron-restructures-bakken-midstream-agreements-transfers-hess-midstream-stake",
+                "date": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "The Supreme Court heard arguments on October 5 in Suncor Energy v. County Commissioners of Boulder County. Boulder County, Colorado, is suing Suncor and ExxonMobil in state court to make them pay part of the local costs of climate change. The companies argue federal law keeps state courts from hearing cases like this. If the companies win, the ruling could also end dozens of similar suits by states and cities. If Boulder wins, its case goes back to state court. Justice Samuel Alito stepped aside, so eight justices will decide. After the roughly two-hour hearing, it was not clear which way the court was leaning. No ruling has been issued.",
+            "place": "us",
+            "sources": [
+              {
+                "title": "US supreme court hears big oil's bid to block climate damage lawsuits (The Guardian)",
+                "url": "https://www.theguardian.com/us-news/2026/oct/05/supreme-court-big-oil-climate-damage-lawsuits",
+                "date": "2026-10-05"
+              }
+            ]
+          }
+        ]
+      },
+      "gas": {
+        "generated_at": "2026-10-08T00:45:00Z",
+        "week_of": "2026-10-05",
+        "checked": "Every number, date and @handle was checked against the linked sources on Oct 7, 2026. Handles are written as text; they are the organizations' own X accounts.",
+        "items": [
+          {
+            "text": "Tropical Storm Isaias also cut Gulf gas. About 350 million cubic feet a day of offshore gas, roughly 16% of Gulf output, was offline as of midday October 7, based on operator reports to the Marine Minerals Administration. The offshore Gulf is only about 5% of US gas supply, so the national hit is small. The bigger worry is the LNG export plants on the coast, where gas is chilled into a liquid for shipping overseas. Natural Gas Intelligence reported that the forecast track could miss most Gulf Coast LNG capacity, while the Coast Guard ordered storm preparations at ports on the lower Mississippi River.",
+            "place": "us",
+            "sources": [
+              {
+                "title": "US Gulf operators shut-in output before storm: Update (Argus Media)",
+                "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
+                "date": "2026-10-07"
+              },
+              {
+                "title": "MMA Monitors Gulf of America Oil and Gas Activities in Response to Invest 92L (Marine Minerals Administration, BSEE newsroom)",
+                "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-activities-invest-92l",
+                "date": "2026-10-06",
+                "primary": true
+              },
+              {
+                "title": "Isaias Track Skirts Most Gulf LNG as Coast Guard Sets Storm Conditions (Natural Gas Intelligence)",
+                "url": "https://naturalgasintel.com/news/isaias-track-skirts-most-gulf-lng-as-coast-guard-sets-storm-conditions/",
+                "date": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "The Energy Information Administration @EIAgov expects homes that heat with natural gas or propane, about half of US households, to spend less on average this winter than last. Homes on electric heat should pay slightly more. EIA forecasts the Henry Hub price, the main US gas benchmark, to average $3.16 per million British thermal units in 2027, 9% below 2026. The reason: production growth keeps storage above average even as LNG exports rise. The forecast assumes national winter temperatures close to last winter and the 10-winter average. A colder winter would change the math.",
+            "place": "us",
+            "sources": [
+              {
+                "title": "Short-Term Energy Outlook, October 2026, with the Winter Fuels Outlook (EIA)",
+                "url": "https://www.eia.gov/outlooks/steo/",
+                "date": "2026-10-06",
+                "primary": true
+              }
+            ]
+          },
+          {
+            "text": "Europe is pulling harder on American LNG. About 57% of US LNG exports went to Europe in September, up from 53% in August, according to Morgan Stanley analysis reported by Oil & Gas Journal. US feedgas, the gas flowing into export plants, rose about 6% from August as Freeport LNG recovered from an outage. Europe needs the cargoes: EU gas storage was about 70% full in late September, compared with 82% a year earlier and a 10-year average of 87%. China, which had stepped back from US deals, is showing signs of returning to long-term US contracts.",
+            "place": "us",
+            "sources": [
+              {
+                "title": "LNG market tightens into winter as Europe pulls US cargoes, China reopens contract talks (Oil & Gas Journal)",
+                "url": "https://www.ogj.com/general-interest/economics-markets/news/55410250/lng-market-tightens-into-winter-as-europe-pulls-us-cargoes-china-reopens-contract-talks",
+                "date": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "ConocoPhillips @conocophillips signed a 20-year deal to buy 1.0 million tonnes a year of LNG from Venture Global, starting in 2030. Venture Global's first three LNG projects, Calcasieu Pass, Plaquemines LNG and CP2 LNG, are in Louisiana on the Gulf coast. It says it has more than 100 million tonnes a year of capacity in production, construction or development. Announced October 6.",
+            "place": "us",
+            "sources": [
+              {
+                "title": "Venture Global and ConocoPhillips play the long game with 20-year LNG pact (Offshore Energy)",
+                "url": "https://offshore-energy.biz/2026/10/06/venture-global-and-conocophillips-play-the-long-game-with-20-year-lng-pact",
+                "date": "2026-10-06"
               }
             ]
           }
