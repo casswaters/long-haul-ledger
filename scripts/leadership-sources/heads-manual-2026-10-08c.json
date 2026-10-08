@@ -1,0 +1,126 @@
+{
+  "checked": "2026-10-08",
+  "note": "Third hand pass (Oct 8, 2026): official portals, ministries and state news agencies where the presidency or prime minister site blocks automated reads. Each name (or title plus surname) read by hand on the page listed, fetched on the checked date.",
+  "countries": {
+    "nz": {
+      "hg": {
+        "name": "Christopher Luxon",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://www.dpmc.govt.nz/",
+        "source": "https://www.dpmc.govt.nz/our-business-units/cabinet-office/ministers-and-their-portfolios/ministerial-list"
+      }
+    },
+    "ca": {
+      "hs": {
+        "name": "Charles III",
+        "title": "King of Canada (represented by the Governor General)",
+        "since": null,
+        "site": "https://www.gg.ca/en",
+        "source": "https://www.gg.ca/en/governor-general/role-and-responsibilities"
+      }
+    },
+    "co": {
+      "hs": {
+        "name": "Abelardo de la Espriella",
+        "title": "President",
+        "since": null,
+        "site": "https://www.presidencia.gov.co/",
+        "source": "https://www.presidencia.gov.co/prensa/Paginas/default.aspx"
+      },
+      "hg": {
+        "name": "Abelardo de la Espriella",
+        "title": "President",
+        "since": null,
+        "site": "https://www.presidencia.gov.co/",
+        "source": "https://www.presidencia.gov.co/prensa/Paginas/default.aspx"
+      }
+    },
+    "sr": {
+      "hs": {
+        "name": "Jennifer Simons",
+        "title": "President",
+        "since": null,
+        "site": "https://gov.sr/",
+        "source": "https://gov.sr/ministeries/kabinet-van-de-president/"
+      },
+      "hg": {
+        "name": "Jennifer Simons",
+        "title": "President",
+        "since": null,
+        "site": "https://gov.sr/",
+        "source": "https://gov.sr/ministeries/kabinet-van-de-president/"
+      }
+    },
+    "tr": {
+      "hs": {
+        "name": "Recep Tayyip Erdoğan",
+        "title": "President",
+        "since": null,
+        "site": "https://www.tccb.gov.tr/en/",
+        "source": "https://www.iletisim.gov.tr/english"
+      },
+      "hg": {
+        "name": "Recep Tayyip Erdoğan",
+        "title": "President",
+        "since": null,
+        "site": "https://www.tccb.gov.tr/en/",
+        "source": "https://www.iletisim.gov.tr/english"
+      }
+    },
+    "qa": {
+      "hs": {
+        "name": "Tamim bin Hamad Al Thani",
+        "title": "Amir",
+        "since": null,
+        "site": "https://www.diwan.gov.qa/",
+        "source": "https://www.gco.gov.qa/en/"
+      }
+    },
+    "dz": {
+      "hs": {
+        "name": "Abdelmadjid Tebboune",
+        "title": "President",
+        "since": null,
+        "site": "https://www.el-mouradia.dz/",
+        "source": "https://www.aps.dz/en/"
+      }
+    },
+    "ug": {
+      "hs": {
+        "name": "Yoweri Museveni",
+        "title": "President",
+        "since": null,
+        "site": "https://www.statehouse.go.ug/",
+        "source": "https://www.mofa.go.ug/"
+      }
+    },
+    "gy": {
+      "hg": {
+        "name": "Mark Phillips",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://op.gov.gy/",
+        "source": "https://dpi.gov.gy/"
+      }
+    },
+    "pe": {
+      "hg": {
+        "name": "Luis Fernando Galarreta Velarde",
+        "title": "President of the Council of Ministers",
+        "since": null,
+        "site": "https://www.gob.pe/pcm",
+        "source": "https://www.gob.pe/institucion/pcm/funcionarios"
+      }
+    },
+    "np": {
+      "hg": {
+        "name": "Balendra Shah",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://www.opmcm.gov.np/",
+        "source": "https://mofa.gov.np/"
+      }
+    }
+  }
+}

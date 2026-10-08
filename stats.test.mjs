@@ -29,7 +29,7 @@ assert('us.json: every line valid (unit, as-of, https source)', us && us.series.
 assert('us.json: no SAMPLE/ESTIMATE strings', us && !/SAMPLE|ESTIMATE/.test(JSON.stringify(us)));
 assert('us.json: monthly series keep monthly dates', us && us.series.filter((s) => s.frequency === 'monthly').every((s) => s.asOf.endsWith('-01')));
 const w = existsSync('./data/stats/world.json') ? JSON.parse(readFileSync('./data/stats/world.json', 'utf8')) : null;
-assert('world.json: >150 countries, each value has year + World Bank link', w && Object.keys(w.countries).length > 150 && Object.values(w.countries).every((c) => Object.entries(c).filter(([k]) => k !== 'name').every(([, v]) => /^\d{4}$/.test(v.year) && /(data\.worldbank\.org|worldbank\.org\/en\/publication\/worldwide-governance-indicators)/.test(v.sourceUrl))));
+assert('world.json: >150 countries, each value has year + World Bank link', w && Object.keys(w.countries).length > 150 && Object.values(w.countries).every((c) => Object.entries(c).filter(([k]) => k !== 'name').every(([, v]) => /^\d{4}$/.test(v.year) && /(data\.worldbank\.org|worldbank\.org\/en\/publication\/worldwide-governance-indicators|imf\.org\/external\/datamapper\/[A-Z_]+@WEO\/TWN)/.test(v.sourceUrl))));
 const wf = readFileSync('./.github/workflows/stats.yml', 'utf8');
 assert('workflow: cron daily + weekly, contents write, deploys gh-pages', /cron: '20 14,22/.test(wf) && /cron: '40 6 \* \* 1'/.test(wf) && /contents: write/.test(wf) && /publish_branch: gh-pages/.test(wf));
 const app = readFileSync('./app.js', 'utf8');

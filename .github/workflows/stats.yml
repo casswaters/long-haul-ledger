@@ -50,6 +50,11 @@ jobs:
         if: github.event.schedule == '40 6 * * 1' || (github.event_name == 'workflow_dispatch' && inputs.worldbank)
         run: node scripts/fetch-stats.mjs worldbank
 
+      - name: Taiwan (IMF DataMapper; World Bank does not publish it) → data/stats/world.json (weekly / manual)
+        if: github.event.schedule == '40 6 * * 1' || (github.event_name == 'workflow_dispatch' && inputs.worldbank)
+        continue-on-error: true
+        run: node scripts/fetch-stats.mjs imf
+
       - name: World Bank sector shares → data/stats/sectors.json (weekly / manual)
         if: github.event.schedule == '40 6 * * 1' || (github.event_name == 'workflow_dispatch' && inputs.worldbank)
         continue-on-error: true

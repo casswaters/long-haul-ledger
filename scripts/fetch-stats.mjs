@@ -94,6 +94,34 @@ export async function runWorldBank({ fetchText = get, now = new Date(), prev = n
   return { generatedAt: nowIso, note: note || 'World Bank World Development Indicators (API, no key). Latest and prior non-empty year per economy; annual data.', source: 'https://data.worldbank.org/', indicators: meta, world, countries, fetchLog: log };
 }
 
+/* ---------- Taiwan (World Bank does not publish it): IMF DataMapper, no key ---------- */
+export const IMF_TAIWAN = [
+  { id: 'gdp', code: 'NGDPD', title: 'GDP', label: 'GDP', unit: 'current US$', kind: 'money', desk: 'activity' },
+  { id: 'growth', code: 'NGDP_RPCH', title: 'Real GDP growth', label: 'GDP growth', unit: '% y/y', kind: 'pct', desk: 'activity' },
+  { id: 'inflation', code: 'PCPIPCH', title: 'Inflation, average consumer prices', label: 'Consumer price inflation', unit: '% y/y', kind: 'pct', desk: 'prices' },
+];
+export async function runImfTaiwan({ fetchText = get, now = new Date(), prev = null } = {}) {
+  const nowIso = now.toISOString().replace(/\.\d{3}Z$/, 'Z');
+  const countries = JSON.parse(JSON.stringify(prev?.countries || {}));
+  const log = [];
+  const year = String(now.getUTCFullYear());
+  const rec = { name: 'Taiwan' };
+  for (const ind of IMF_TAIWAN) {
+    try {
+      const d = JSON.parse(await fetchText(`https://www.imf.org/external/datamapper/api/v1/${ind.code}/TWN`, 'application/json'));
+      const v = d?.values?.[ind.code]?.TWN || {};
+      const yrs = Object.keys(v).filter((y) => Number.isFinite(v[y]) && y < year).sort(); // completed years only, never projections
+      const cur = yrs.at(-1); const prior = yrs.at(-2);
+      if (!cur) throw new Error('no year');
+      const row = { value: ind.id === 'gdp' ? v[cur] * 1e9 : v[cur], year: cur, sourceUrl: `https://www.imf.org/external/datamapper/${ind.code}@WEO/TWN`, source: 'IMF', dataset: 'World Economic Outlook (DataMapper)', code: ind.code };
+      if (prior) row.prior = { value: ind.id === 'gdp' ? v[prior] * 1e9 : v[prior], year: prior };
+      rec[ind.id] = row;
+    } catch (e) { log.push({ indicator: ind.code, error: String(e?.message || e), at: nowIso }); }
+  }
+  if (Object.keys(rec).length > 1) countries.tw = rec;
+  return { ...prev, generatedAt: nowIso, countries, fetchLog: [...(prev?.fetchLog || []), ...log] };
+}
+
 /* ---------- Energy mix (Our World in Data energy dataset, CSV, no key) ---------- */
 export async function runEnergyMix({ fetchText = get, now = new Date() } = {}) {
   const nowIso = now.toISOString().replace(/\.\d{3}Z$/, 'Z');
@@ -254,6 +282,12 @@ if (invoked && fileURLToPath(import.meta.url) === invoked) {
     for (const l of next.fetchLog) console.warn(`WARN ${l.indicator}: ${l.error} (kept last good)`);
     if (!Object.keys(next.countries).length) { console.error('no countries; not writing'); process.exit(1); }
     if (!prev || stripVolatile(prev) !== stripVolatile(next)) { writeFileSync(p, JSON.stringify(next) + '\n'); console.log(`world.json: ${Object.keys(next.countries).length} countries`); }
+    else console.log('world.json unchanged');
+  } else if (mode === 'imf') {
+    const p = join(OUT, 'world.json'); const prev = readJson(p);
+    const next = await runImfTaiwan({ prev });
+    for (const l of next.fetchLog) console.warn(`WARN IMF ${l.indicator}: ${l.error}`);
+    if (stripVolatile(prev) !== stripVolatile(next)) { writeFileSync(p, JSON.stringify(next) + '\n'); console.log('world.json: Taiwan from IMF DataMapper'); }
     else console.log('world.json unchanged');
   } else if (mode === 'sectors') {
     const p = join(OUT, 'sectors.json'); const prev = readJson(p);

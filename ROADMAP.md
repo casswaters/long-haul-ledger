@@ -2,7 +2,7 @@
 
 Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md and RESEARCH-RUNS.md) and never ships to the live site.
 
-**Last updated:** 2026-10-08, 13:25 MT
+**Last updated:** 2026-10-08, 13:29 MT
 
 ## House rules
 - Everything is free. No paid tier, pricing or paywall copy until Cassidy says go.
@@ -90,6 +90,7 @@ Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md an
 - 2026-10-08 (Cassidy): keep everything free; build a user base through email-only Buttondown sign-ups (`longhaulledger`, double opt-in); paid tier stays off.
 
 ## Shipped (newest first, times MT)
+- 2026-10-08 13:29: SW v33 (Phase 1, batch 3): Taiwan gets What changed lines (GDP, real growth, inflation) from the IMF World Economic Outlook DataMapper, since the World Bank does not publish Taiwan (latest completed year only, never projections). Third hand pass on heads via official portals, ministries and state news agencies: 14 more seats, now 120 heads of state and 109 heads of government (both for 88 countries).
 - 2026-10-08 13:25: SW v32 (Phase 1, batch 2): the 20 example country stubs and their invented stability, frontier pressure and opportunity scores are retired; every country panel now shows only sourced lines, including a new World Bank Worldwide Governance Indicators political stability score (0 to 100) in Capital for 207 economies. US states (all 50 plus DC) get What changed lines (BEA GDP and real growth, Census ACS population, BLS unemployment via FRED) and an EIA electricity mix on the Energy tab, built box-side from the agency APIs (keys never committed; optional repository secrets would let the weekly stats run refresh them). First hand pass on heads: 64 more seats read on official pages, now 113 heads of state and 102 heads of government (both for 79 countries). Pushes are safer for the research runs: scripts/push-main.sh (fetch, rebase, retry) and union merges for ROADMAP.md and RESEARCH-RUNS.md.
 - 2026-10-08 12:54: SW v31 (Phase 1, batch 1): heads of state and government for all 187 countries now show either a confirmed name (Wikidata candidate, name found on the country's official government page on Oct 8, no later holder recorded) or Not yet covered with the planned official source; 81 heads of state and 70 heads of government confirmed (both seats for 51 countries); start dates only where the official page states them. The six example profiles (US, IN, AE, JP, NG, CL) and their invented value chains are retired; the mind map on a profile-less country says Not yet covered. Sector share strips (World Bank, 11 indicators) on the five Sectors of the Economy tabs for 181 countries, and the electricity mix (Our World in Data, Ember and Energy Institute) on the Energy tab for 181. Method page coverage line counts all three.
 - 2026-10-08 12:02: SW v30: the Fed broad dollar index in Prices is replaced by "Dollar index (DXY formula)", rebuilt daily from Federal Reserve H.10 rates via FRED (DEXUSEU, DEXJPUS, DEXUSUK, DEXCAUS, DEXSDUS, DEXSZUS) with the published DXY weights; not the official ICE DXY. Check: 101.91 for Oct 2 vs the reported ICE close of 101.93 (WSJ), 0.02% apart. (Approved by Cassidy, 11:59 AM MT.)

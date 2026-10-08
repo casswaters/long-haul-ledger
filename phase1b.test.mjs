@@ -27,6 +27,11 @@ assert('France shows a sourced, dated political stability score in Capital', frS
 const { line } = lineFromWorldBank(stab, { value: 63.99, year: '2025', sourceUrl: stab.page, prior: { value: 62.84, year: '2024' } }, NOW);
 assert('stability line: value, unit, change vs prior year', line.display === '64.0' && line.unit === 'score 0-100' && line.change?.dir === 'up');
 
+const tw = world.countries.tw;
+assert('Taiwan: IMF GDP, growth, inflation for a completed year (no projections)', tw && ['gdp', 'growth', 'inflation'].every((k) => tw[k]?.source === 'IMF' && Number(tw[k].year) < 2026 && /imf\.org/.test(tw[k].sourceUrl)));
+const twLines = placeIndicators({ level: 'country', country: 'tw' }, { world }, NOW).groups.flatMap((g) => g.lines);
+assert('Taiwan lines credit the IMF, not the World Bank', twLines.length === 3 && twLines.every((l) => l.source.name === 'IMF' && /World Bank does not publish Taiwan/.test(l.detail)));
+
 console.log('\n--- US state figures (BEA, Census, BLS via FRED, EIA) ---');
 assert('51 state equivalents (50 states and DC) with us-xx ids', US_STATES.length === 51 && US_STATES.every((s) => /^us-[a-z]{2}$/.test(s.id)));
 const fx = stateFigures({
@@ -73,7 +78,7 @@ assert('push helper rebases, retries and stops cleanly on conflicts', existsSync
 assert('ROADMAP.md and RESEARCH-RUNS.md use union merges', /ROADMAP\.md merge=union/.test(read('./.gitattributes')) && /RESEARCH-RUNS\.md merge=union/.test(read('./.gitattributes')));
 assert('RESEARCH-RUNS tells runs to push with the helper', /scripts\/push-main\.sh/.test(read('./RESEARCH-RUNS.md')));
 const sw = read('./sw.js');
-assert('SW v32 caches the US state module and data', /long-haul-ledger-v32'/.test(sw) && ["'./usstates.js'", "'./data/stats/us-states.json'"].every((f) => sw.includes(f)));
+assert('SW v32+ caches the US state module and data', Number((sw.match(/long-haul-ledger-v(\d+)/) || [])[1]) >= 32 && ["'./usstates.js'", "'./data/stats/us-states.json'"].every((f) => sw.includes(f)));
 for (const wf of ['soft-launch.yml', 'stats.yml']) {
   const y = read(`./.github/workflows/${wf}`);
   assert(`${wf}: keeps phase1b test and .gitattributes off Pages`, /phase1b\.test\.mjs/.test(y) && /\.gitattributes/.test(y));

@@ -37,7 +37,7 @@ assert('Nigeria: 1960 trade figure hidden with a note', !ng.groups.flatMap((g) =
 const oh = placeIndicators({ level: 'admin1', country: 'us', admin1: 'us-oh' }, data, NOW);
 assert('State equivalent with nothing wired: empty with a planned source', oh.empty && /BLS/.test(oh.planned));
 const tw = placeIndicators({ level: 'country', country: 'tw' }, data, NOW);
-assert('Taiwan: empty, planned source names DGBAS', tw.empty && /DGBAS/.test(tw.planned));
+assert('Taiwan: filled from the IMF (World Bank does not publish it); planned source still names DGBAS', !tw.empty && /DGBAS/.test(tw.planned));
 const emptyHtml = whatChangedHtml(oh, { placeLabel: 'Ohio', checked: 'Oct 8, 2026', parentLabel: 'United States', parentAttr: 'data-goto-place="{}"' });
 assert('empty strip: one quiet Not yet covered line, planned source, checked date, parent link', /Not yet covered\./.test(emptyHtml) && /Planned source:/.test(emptyHtml) && /Checked Oct 8, 2026/.test(emptyHtml) && /See United States/.test(emptyHtml) && !/wc-group/.test(emptyHtml));
 const html = whatChangedHtml(world, { placeLabel: 'World' });
