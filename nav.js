@@ -13,11 +13,11 @@ export const TAB_LABELS = {
   regions: 'Regions',
   openings: 'Constraints',
 };
-/** Indicators (sourced record; internal id "desk") — opened with #d=<desk>. */
-export const DESK_TABS = ['activity', 'people', 'prices', 'capital'];
+/** Indicators (sourced record; internal id "desk"): opened with #d=<desk>. People moved to "Who's in the seat". */
+export const DESK_TABS = ['activity', 'prices', 'capital'];
 
 export function normalizeDesk(desk) {
-  if (desk == null || desk === '') return null;
+  if (desk == null || desk === '' || desk === 'people') return null;
   return DESK_TABS.includes(desk) ? desk : 'prices';
 }
 
@@ -27,7 +27,7 @@ export function parseHash(hash) {
     return {
       country: null, tab: 'signals', sector: null, region: null,
       view: 'desk', company: null, admin1: null, city: null, desk: null,
-      stab: null, ssub: null, sbrief: false,
+      stab: null, ssub: null, sbrief: false, seats: false, redirected: false,
     };
   }
   // Sector tab token (no "="): energy, energy/nuclear, energy/nuclear/brief
@@ -36,15 +36,20 @@ export function parseHash(hash) {
     raw.split('&').filter(Boolean).map((p) => {
       const [k, v = ''] = p.split('=');
       const key = decodeURIComponent(k);
-      if (!p.includes('=')) { const t = parseSectorToken(key, SECTOR_IDS); if (t) st = t; }
+      if (!p.includes('=') && key !== 'seats') { const t = parseSectorToken(key, SECTOR_IDS); if (t) st = t; }
       return [key, decodeURIComponent(v)];
     })
   );
+  // Old People indicator links (#d=people) open "Who's in the seat" (it was a US list, so US by default).
+  const oldPeople = (parts.d ?? parts.desk) === 'people';
+  const seats = oldPeople || Object.prototype.hasOwnProperty.call(parts, 'seats');
   return {
+    seats,
+    redirected: oldPeople,
     stab: st ? st.tab : null,
     ssub: st ? st.sub : null,
     sbrief: st ? st.brief : false,
-    country: parts.c || parts.country || null,
+    country: parts.c || parts.country || (oldPeople ? 'us' : null),
     tab: parts.t || parts.tab || 'signals',
     sector: parts.s || parts.sector || null,
     region: parts.r || parts.region || null,
@@ -69,10 +74,11 @@ export function buildHash({
   stab = null,
   ssub = null,
   sbrief = false,
+  seats = false,
 } = {}) {
   const d = normalizeDesk(desk);
   const tok = stab ? sectorToken({ tab: stab, sub: ssub, brief: sbrief }) : '';
-  if (!country) return [d ? `d=${encodeURIComponent(d)}` : '', tok].filter(Boolean).join('&');
+  if (!country) return [d ? `d=${encodeURIComponent(d)}` : '', seats ? 'seats' : '', tok].filter(Boolean).join('&');
   const bits = [`c=${encodeURIComponent(country)}`];
   if (admin1) bits.push(`a=${encodeURIComponent(admin1)}`);
   if (city) bits.push(`city=${encodeURIComponent(city)}`);
@@ -84,6 +90,7 @@ export function buildHash({
   if (region && v === 'desk') bits.push(`r=${encodeURIComponent(region)}`);
   if (company && v === 'company') bits.push(`co=${encodeURIComponent(company)}`);
   if (d) bits.push(`d=${encodeURIComponent(d)}`);
+  if (seats) bits.push('seats');
   if (tok) bits.push(tok);
   return bits.join('&');
 }

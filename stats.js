@@ -4,34 +4,55 @@
  * value carries unit, as-of date and source link. Cadence is the source's own.
  */
 export const FRED_SERIES = [
-  // Prices desk
-  { id: 'wti', desk: 'prices', seriesId: 'DCOILWTICO', title: 'Crude oil, WTI spot (Cushing)', unit: '$/bbl', decimals: 2, frequency: 'daily', staleAfterDays: 10, primary: 'EIA' },
-  { id: 'brent', desk: 'prices', seriesId: 'DCOILBRENTEU', title: 'Crude oil, Brent spot (Europe)', unit: '$/bbl', decimals: 2, frequency: 'daily', staleAfterDays: 10, primary: 'EIA' },
-  { id: 'copper', desk: 'prices', seriesId: 'PCOPPUSDM', title: 'Copper, global price', unit: '$/metric ton', decimals: 0, frequency: 'monthly', staleAfterDays: 120, primary: 'IMF' },
-  { id: 'steel-ppi', desk: 'prices', seriesId: 'WPU101704', title: 'PPI: hot-rolled steel bars, plates & structural shapes', unit: 'index 1982=100', decimals: 1, frequency: 'monthly', staleAfterDays: 75, primary: 'BLS', caveat: 'Producer price index, not a spot HRC price.' },
-  { id: 'cpi', desk: 'prices', seriesId: 'CPIAUCSL', title: 'CPI, all urban consumers (SA)', unit: 'index 1982-84=100', decimals: 1, frequency: 'monthly', staleAfterDays: 80, primary: 'BLS', yoy: true },
-  // Activity desk
-  { id: 'indpro', desk: 'activity', seriesId: 'INDPRO', title: 'Industrial production, total', unit: 'index 2017=100', decimals: 1, frequency: 'monthly', staleAfterDays: 80, primary: 'Federal Reserve', yoy: true },
-  { id: 'ipman', desk: 'activity', seriesId: 'IPMAN', title: 'Industrial production, manufacturing', unit: 'index 2017=100', decimals: 1, frequency: 'monthly', staleAfterDays: 80, primary: 'Federal Reserve', yoy: true },
-  { id: 'manemp', desk: 'activity', seriesId: 'MANEMP', title: 'Manufacturing employment', unit: 'thousand jobs', decimals: 0, frequency: 'monthly', staleAfterDays: 70, primary: 'BLS' },
-  { id: 'neworder', desk: 'activity', seriesId: 'NEWORDER', title: 'New orders, core capital goods (nondefense ex aircraft)', unit: '$ million', decimals: 0, frequency: 'monthly', staleAfterDays: 80, primary: 'Census' },
-  { id: 'philly', desk: 'activity', seriesId: 'GACDFSA066MSFRBPHI', title: 'Philadelphia Fed manufacturing, current activity', unit: 'diffusion index', decimals: 1, frequency: 'monthly', staleAfterDays: 70, primary: 'Philadelphia Fed', caveat: 'Regional survey; a public stand-in for ISM, which is not free to republish.' },
-  { id: 'cass-ship', desk: 'activity', seriesId: 'FRGSHPUSM649NCIS', title: 'Cass Freight Index, shipments', unit: 'index', decimals: 3, frequency: 'monthly', staleAfterDays: 75, primary: 'Cass Information Systems' },
-  { id: 'cass-exp', desk: 'activity', seriesId: 'FRGEXPUSM649NCIS', title: 'Cass Freight Index, expenditures', unit: 'index', decimals: 3, frequency: 'monthly', staleAfterDays: 75, primary: 'Cass Information Systems' },
-  { id: 'rail', desk: 'activity', seriesId: 'RAILFRTCARLOADSD11', title: 'Rail freight carloads (SA)', unit: 'carloads', decimals: 0, frequency: 'monthly', staleAfterDays: 120, primary: 'BTS' },
-  { id: 'truck', desk: 'activity', seriesId: 'TRUCKD11', title: 'Truck tonnage index (SA)', unit: 'index 2015=100', decimals: 1, frequency: 'monthly', staleAfterDays: 120, primary: 'BTS / ATA' },
-  // Capital desk
-  { id: 'dgs10', desk: 'capital', seriesId: 'DGS10', title: 'US 10-year Treasury yield', unit: '%', decimals: 2, frequency: 'daily', staleAfterDays: 7, primary: 'Federal Reserve (H.15)' },
-  { id: 'usd', desk: 'capital', seriesId: 'DTWEXBGS', title: 'US dollar, nominal broad index', unit: 'index Jan 2006=100', decimals: 2, frequency: 'daily', staleAfterDays: 10, primary: 'Federal Reserve (H.10)' },
+  // Prices: globally watched benchmarks (World), plus the US lines that are also benchmarks.
+  { id: 'bitcoin', desk: 'prices', seriesId: 'CBBTCUSD', title: 'Bitcoin (Coinbase, US dollars)', label: 'Bitcoin', unit: '$', decimals: 0, frequency: 'daily', staleAfterDays: 7, primary: 'Coinbase', places: ['world'] },
+  { id: 'wti', desk: 'prices', seriesId: 'DCOILWTICO', title: 'Crude oil, WTI spot (Cushing)', label: 'WTI crude oil', unit: '$/bbl', decimals: 2, frequency: 'daily', staleAfterDays: 10, primary: 'EIA', places: ['world', 'us'] },
+  { id: 'brent', desk: 'prices', seriesId: 'DCOILBRENTEU', title: 'Crude oil, Brent spot (Europe)', label: 'Brent crude oil', unit: '$/bbl', decimals: 2, frequency: 'daily', staleAfterDays: 10, primary: 'EIA', places: ['world'] },
+  { id: 'natgas', desk: 'prices', seriesId: 'DHHNGSP', title: 'Natural gas, Henry Hub spot', label: 'Natural gas (Henry Hub)', unit: '$/MMBtu', decimals: 2, frequency: 'daily', staleAfterDays: 10, primary: 'EIA', places: ['world', 'us'] },
+  { id: 'usd', desk: 'prices', seriesId: 'DTWEXBGS', title: 'US dollar index, nominal broad (Federal Reserve)', label: 'US dollar index', unit: 'index Jan 2006=100', decimals: 2, frequency: 'daily', staleAfterDays: 10, primary: 'Federal Reserve (H.10)', places: ['world', 'us'], caveat: 'The Federal Reserve broad trade-weighted index, not the ICE DXY.' },
+  { id: 'cpi', desk: 'prices', seriesId: 'CPIAUCSL', title: 'CPI, all urban consumers (SA)', label: 'US CPI inflation', unit: 'index 1982-84=100', decimals: 1, frequency: 'monthly', staleAfterDays: 80, primary: 'BLS', yoy: true, showYoy: true, places: ['world', 'us'] },
+  // Activity (United States)
+  { id: 'indpro', desk: 'activity', seriesId: 'INDPRO', title: 'Industrial production, total', label: 'Industrial production', unit: 'index 2017=100', decimals: 1, frequency: 'monthly', staleAfterDays: 80, primary: 'Federal Reserve', yoy: true, places: ['us'] },
+  { id: 'ipman', desk: 'activity', seriesId: 'IPMAN', title: 'Industrial production, manufacturing', label: 'Manufacturing output', unit: 'index 2017=100', decimals: 1, frequency: 'monthly', staleAfterDays: 80, primary: 'Federal Reserve', yoy: true, places: ['us'] },
+  { id: 'manemp', desk: 'activity', seriesId: 'MANEMP', title: 'Manufacturing employment', label: 'Manufacturing jobs', unit: 'thousand jobs', decimals: 0, frequency: 'monthly', staleAfterDays: 70, primary: 'BLS', places: ['us'] },
+  { id: 'neworder', desk: 'activity', seriesId: 'NEWORDER', title: 'New orders, core capital goods (nondefense ex aircraft)', label: 'Core capital goods orders', unit: '$ million', decimals: 0, frequency: 'monthly', staleAfterDays: 80, primary: 'Census', places: ['us'] },
+  { id: 'philly', desk: 'activity', seriesId: 'GACDFSA066MSFRBPHI', title: 'Philadelphia Fed manufacturing, current activity', label: 'Philadelphia Fed factory survey', unit: 'diffusion index', decimals: 1, frequency: 'monthly', staleAfterDays: 70, primary: 'Philadelphia Fed', caveat: 'Regional survey; a public stand-in for ISM, which is not free to republish.', places: ['us'] },
+  { id: 'cass-ship', desk: 'activity', seriesId: 'FRGSHPUSM649NCIS', title: 'Cass Freight Index, shipments', label: 'Freight shipments (Cass)', unit: 'index', decimals: 3, frequency: 'monthly', staleAfterDays: 75, primary: 'Cass Information Systems', places: ['us'] },
+  { id: 'cass-exp', desk: 'activity', seriesId: 'FRGEXPUSM649NCIS', title: 'Cass Freight Index, expenditures', label: 'Freight spending (Cass)', unit: 'index', decimals: 3, frequency: 'monthly', staleAfterDays: 75, primary: 'Cass Information Systems', places: ['us'] },
+  { id: 'rail', desk: 'activity', seriesId: 'RAILFRTCARLOADSD11', title: 'Rail freight carloads (SA)', label: 'Rail carloads', unit: 'carloads', decimals: 0, frequency: 'monthly', staleAfterDays: 120, primary: 'BTS', places: ['us'] },
+  { id: 'truck', desk: 'activity', seriesId: 'TRUCKD11', title: 'Truck tonnage index (SA)', label: 'Truck tonnage', unit: 'index 2015=100', decimals: 1, frequency: 'monthly', staleAfterDays: 120, primary: 'BTS / ATA', places: ['us'] },
+  // Capital (United States)
+  { id: 'dgs10', desk: 'capital', seriesId: 'DGS10', title: 'US 10-year Treasury yield', label: '10-year Treasury yield', unit: '%', decimals: 2, frequency: 'daily', staleAfterDays: 7, primary: 'Federal Reserve (H.15)', places: ['us'] },
+  { id: 'fedfunds', desk: 'capital', seriesId: 'DFF', title: 'Federal funds effective rate', label: 'Fed funds rate', unit: '%', decimals: 2, frequency: 'daily', staleAfterDays: 7, primary: 'Federal Reserve (H.15)', places: ['us'] },
 ];
 
-export const WB_INDICATORS = [
-  { id: 'gdp', code: 'NY.GDP.MKTP.CD', title: 'GDP', unit: 'current US$', kind: 'money' },
-  { id: 'growth', code: 'NY.GDP.MKTP.KD.ZG', title: 'GDP growth', unit: '% y/y', kind: 'pct' },
-  { id: 'inflation', code: 'FP.CPI.TOTL.ZG', title: 'Inflation, consumer prices', unit: '% y/y', kind: 'pct' },
-  { id: 'trade', code: 'NE.TRD.GNFS.ZS', title: 'Trade', unit: '% of GDP', kind: 'pct' },
-  { id: 'mfg', code: 'NV.IND.MANF.ZS', title: 'Manufacturing value added', unit: '% of GDP', kind: 'pct' },
+/**
+ * World Bank Commodity Price Data (the Pink Sheet), monthly averages in nominal US dollars.
+ * Free, no key. Used for metals FRED does not carry (gold, silver) and for copper (fresher than IMF via FRED).
+ * `column` is the header text in the "Monthly Prices" sheet.
+ */
+export const PINK_SHEET_PAGE = 'https://www.worldbank.org/en/research/commodity-markets';
+export const PINK_SERIES = [
+  { id: 'gold', desk: 'prices', column: 'Gold', title: 'Gold, monthly average (World Bank Pink Sheet)', label: 'Gold', unit: '$/troy oz', decimals: 0, frequency: 'monthly', staleAfterDays: 75, places: ['world'] },
+  { id: 'silver', desk: 'prices', column: 'Silver', title: 'Silver, monthly average (World Bank Pink Sheet)', label: 'Silver', unit: '$/troy oz', decimals: 2, frequency: 'monthly', staleAfterDays: 75, places: ['world'] },
+  { id: 'copper', desk: 'prices', column: 'Copper', title: 'Copper, monthly average (World Bank Pink Sheet)', label: 'Copper', unit: '$/metric ton', decimals: 0, frequency: 'monthly', staleAfterDays: 75, places: ['world'] },
 ];
+
+/** Order of the Prices group on screen: gold, silver, bitcoin, WTI, Brent first, then copper, gas, dollar, CPI. */
+export const PRICES_ORDER = ['gold', 'silver', 'bitcoin', 'wti', 'brent', 'copper', 'natgas', 'usd', 'cpi'];
+
+export const WB_INDICATORS = [
+  { id: 'gdp', code: 'NY.GDP.MKTP.CD', title: 'GDP', label: 'GDP', unit: 'current US$', kind: 'money', desk: 'activity' },
+  { id: 'growth', code: 'NY.GDP.MKTP.KD.ZG', title: 'GDP growth', label: 'GDP growth', unit: '% y/y', kind: 'pct', desk: 'activity' },
+  { id: 'mfg', code: 'NV.IND.MANF.ZS', title: 'Manufacturing value added', label: 'Manufacturing share of GDP', unit: '% of GDP', kind: 'pct', desk: 'activity' },
+  { id: 'trade', code: 'NE.TRD.GNFS.ZS', title: 'Trade', label: 'Trade (exports + imports)', unit: '% of GDP', kind: 'pct', desk: 'activity' },
+  { id: 'inflation', code: 'FP.CPI.TOTL.ZG', title: 'Inflation, consumer prices', label: 'Consumer price inflation', unit: '% y/y', kind: 'pct', desk: 'prices' },
+  { id: 'gcf', code: 'NE.GDI.TOTL.ZS', title: 'Gross capital formation', label: 'Investment (gross capital formation)', unit: '% of GDP', kind: 'pct', desk: 'capital' },
+  { id: 'fdi', code: 'BX.KLT.DINV.WD.GD.ZS', title: 'Foreign direct investment, net inflows', label: 'Foreign direct investment, net inflows', unit: '% of GDP', kind: 'pct', desk: 'capital' },
+];
+
+/** World Bank values older than this many years are hidden (with a note), not shown as current. */
+export const WB_MAX_AGE_YEARS = 10;
 
 export const fredCsv = (id) => `https://fred.stlouisfed.org/graph/fredgraph.csv?id=${encodeURIComponent(id)}`;
 export const fredPage = (id) => `https://fred.stlouisfed.org/series/${encodeURIComponent(id)}`;
@@ -75,13 +96,17 @@ export function buildRecord(def, rows, nowIso) {
   const cur = rows[rows.length - 1];
   const prior = rows.length > 1 ? rows[rows.length - 2] : null;
   const rec = {
-    id: def.id, desk: def.desk, title: def.title, seriesId: def.seriesId, unit: def.unit,
+    id: def.id, desk: def.desk, title: def.title, label: def.label || def.title, places: def.places || ['us'], seriesId: def.seriesId, unit: def.unit,
     decimals: def.decimals, frequency: def.frequency, staleAfterDays: def.staleAfterDays,
     value: cur.value, asOf: cur.date, prior: prior ? { value: prior.value, asOf: prior.date } : null,
     sourceUrl: fredPage(def.seriesId), sourceName: `${def.primary} via FRED (${def.seriesId})`,
     caveat: def.caveat || null, retrievedAt: nowIso, spark: sparkPoints(rows, def.frequency),
   };
-  if (def.yoy) rec.yoy = yoyPct(rows);
+  if (def.yoy) {
+    rec.yoy = yoyPct(rows);
+    rec.yoyPrior = rows.length > 1 ? yoyPct(rows.slice(0, -1)) : null;
+  }
+  if (def.showYoy) rec.showYoy = true;
   return rec;
 }
 
@@ -110,7 +135,7 @@ export function mergeSeries(prev, results, nowIso) {
     }
   }
   const order = FRED_SERIES.map((d) => d.id);
-  const series = [...byId.values()].sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id));
+  const series = [...byId.values()].filter((s) => order.includes(s.id)).sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id));
   return { generatedAt: nowIso, note: 'Official public series via FRED graph CSV (no key). Values as published on the as-of date; may be revised.', series, fetchLog: log };
 }
 
