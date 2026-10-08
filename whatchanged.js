@@ -121,8 +121,10 @@ export function lineFromWorldBank(ind, v, now = new Date()) {
       change: prior ? changeOf(v.value, prior.value, { unit, decimals: 1, money }) : null,
       asOf: v.year, asOfText: v.year, frequency: 'annual',
       prior: prior ? { display: money ? fmtMoneyShort(prior.value) : `${fmtNumber(prior.value, 1)} ${unit}`, asOfText: prior.year } : null,
-      detail: `${ind.title} (${ind.unit}), World Bank ${ind.dataset || 'World Development Indicators'} ${ind.code}.`,
-      source: { name: 'World Bank', url: v.sourceUrl }, caveat: year <= nowYear - 6 ? `Older figure: latest published year is ${v.year}.` : null,
+      detail: v.source === 'IMF'
+        ? `${ind.title} (${ind.unit}), IMF ${v.dataset} ${v.code}. The World Bank does not publish Taiwan; latest completed year, which may be an IMF estimate.`
+        : `${ind.title} (${ind.unit}), World Bank ${ind.dataset || 'World Development Indicators'} ${ind.code}.`,
+      source: { name: v.source || 'World Bank', url: v.sourceUrl }, caveat: year <= nowYear - 6 ? `Older figure: latest published year is ${v.year}.` : null,
       older: year <= nowYear - 6, stale: false, spark: null,
     },
   };

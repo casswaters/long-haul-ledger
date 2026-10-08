@@ -143,12 +143,14 @@ export function owidMix(csvText, { minYear = 0 } = {}) {
     if (!line) continue;
     const f = line.split(',');
     if (f.length !== head.length) continue;
-    const iso = f[iIso] || (f[iCountry] === 'World' ? 'OWID_WRL' : '');
+    // OWID leaves iso_code blank for Kosovo (and the World aggregate); map those by name.
+    const iso = f[iIso] || ({ World: 'OWID_WRL', Kosovo: 'OWID_KOS' }[f[iCountry]] || '');
     if (!iso || !/^([A-Z]{3}|OWID_KOS|OWID_WRL)$/.test(iso)) continue;
     const year = Number(f[iYear]);
     if (!(year >= minYear)) continue;
     const shares = cols.map((c) => (f[c] === '' ? null : Number(f[c])));
-    if (shares.filter((v) => Number.isFinite(v)).length < 6) continue;
+    // Blank shares are sources the country does not use (Cambodia has no gas or nuclear); the total check below guards the rest.
+    if (shares.filter((v) => Number.isFinite(v)).length < 3) continue;
     const total = shares.reduce((a, v) => a + (Number.isFinite(v) ? v : 0), 0);
     if (total < 95 || total > 105) continue;
     if (!best[iso] || best[iso].year < year) {
