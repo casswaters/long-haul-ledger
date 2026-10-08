@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T19:37:06.578Z",
+ "generatedAt": "2026-10-08T20:04:52.412Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -40,11 +40,6 @@
        "verification": "multiple",
        "outlets": [
         {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/c687z8127302o?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        },
-        {
          "name": "Euronews Business",
          "url": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
          "primary": false
@@ -63,23 +58,6 @@
        "stages": [],
        "via": null,
        "blurb": "Samsung Electronics estimated on Thursday that its third-quarter operating profit jumped almost ninefold to a record 107.4 trillion won, or $80.2 billion, while sales at Taiwan's TSMC hit a quarterly record, as the AI boom keeps demand for chips strong."
-      },
-      {
-       "title": "Anthropic changes usage policy to ban model abuse and election interference",
-       "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
-       "source": "TechCrunch",
-       "published": "2026-10-08T18:16:24.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance."
       },
       {
        "title": "Deeptech unicorn PhysicsX opens regional hub in S’pore to scale AI-powered industrial engineering",
@@ -233,6 +211,58 @@
        "stages": [],
        "via": null,
        "blurb": "AI data centres have energy and power requirements demanding enough to potentially stretch lithium-ion beyond its versatile limits, writes Intertek CEA market intelligence consultant Aaron Marks."
+      },
+      {
+       "title": "WTO upgrades 2026 goods trade growth forecast to 3.9% as AI boom offsets Middle East disruption",
+       "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+       "source": "The Straits Times Business",
+       "published": "2026-10-08T13:57:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "World Trade Organization",
+         "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
+         "primary": true
+        },
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
+         "primary": false
+        },
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
+         "primary": false
+        },
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "But it downgrades services growth outlook to 3.3% as Mid-East conflict hits transport and travel."
       }
      ]
     },
@@ -505,10 +535,10 @@
        "blurb": "Sri Lanka Telecom struggles to address ageing workforce and legacy IT systems as the 169-year-old telco works to become AI-native."
       },
       {
-       "title": "‘Is Ambani the real boss of India’, asks Elon Musk, as Centre refutes bias in Starlink authorisation",
+       "title": "‘Is Ambani the real boss of India’, asks Elon Musk as Centre refutes bias in Starlink authorisation",
        "url": "https://www.thehindu.com/business/Industry/dot-refutes-bias-in-starlink-authorisation-says-all-licensees-approvals-pending/article71560045.ece",
        "source": "The Hindu Business",
-       "published": "2026-10-08T16:48:39.000Z",
+       "published": "2026-10-08T19:16:20.000Z",
        "verification": "multiple",
        "outlets": [
         {
@@ -534,7 +564,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Reliance Jio chairman Akash Ambani declines to comment when asked about Mr. Musk’s remarks; LoP Rahul Gandhi joined the debate saying, “Wait till you discover the other guy”"
+       "blurb": "Reliance Jio chairman Akash Ambani declines to comment when asked about Mr. Musk’s remarks; Rahul Gandhi joins the debate saying, “Wait till you discover the other guy”"
       },
       {
        "title": "Arelion partners with Nokia on live network field trial",
@@ -665,23 +695,6 @@
     "research": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
-       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-       "source": "NASA News",
-       "published": "2026-10-08T15:46:25.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
-      },
       {
        "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
        "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
@@ -910,6 +923,26 @@
         "stage": "innovation"
        },
        "blurb": "South Korea's Hyundai Engineering & Construction has been contracted by Westinghouse to carry out basic design studies for the construction of two large nuclear power plants in the Netherlands based on Westinghouse's AP1000 design."
+      },
+      {
+       "title": "Italian startup offers 535 W PVT solar module with 1.4 kW thermal output",
+       "url": "https://www.pv-magazine.com/2026/10/08/italian-startup-offers-535-w-pvt-solar-module-with-1-4-kw-thermal-output/",
+       "source": "pv magazine",
+       "published": "2026-10-08T10:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/italian-startup-offers-535-w-pvt-solar-module-with-1-4-kw-thermal-output/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Syntropia has developed a 535 W hybrid photovoltaic-thermal module that combines electricity generation with heat recovery, achieving a combined energy conversion efficiency of 66.8% in recent tests. The company is also developing an integrated energy system combining PVT modules"
       }
      ]
     },
@@ -1825,23 +1858,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
-       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-       "source": "NASA News",
-       "published": "2026-10-08T15:46:25.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
-      },
-      {
        "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
        "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
        "source": "Manufacturing Dive",
@@ -1991,26 +2007,6 @@
        "blurb": "Joel Leftwich will join Idealyst Innovation as executive vice president of policy innovation and director of the Center for American Food Power. Robert Haus has joined Vylor as state government and industry affairs leader. General Mills named Dana McNabb as CEO, effective Jan. 1,"
       },
       {
-       "title": "US selects 14 hydropower projects for testing support",
-       "url": "https://www.waterpowermagazine.com/news/us-selects-14-hydropower-projects-for-testing-support/",
-       "source": "International Water Power & Dam Construction",
-       "published": "2026-10-06T10:02:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "International Water Power & Dam Construction",
-         "url": "https://www.waterpowermagazine.com/news/us-selects-14-hydropower-projects-for-testing-support/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "The US Department of Energy (DOE) has selected 14 hydropower projects to begin negotiations for testing support The post US selects 14 hydropower projects for testing support appeared first on International Water Power ."
-      },
-      {
        "title": "Tennessee Valley Authority Gets Approval to Build Small Nuclear Reactor",
        "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
        "source": "NYT Climate / Energy",
@@ -2036,6 +2032,26 @@
        "blurb": "It’s only the second time that American regulators have approved a next-generation commercial reactor for construction. Big hurdles remain."
       },
       {
+       "title": "US selects 14 hydropower projects for testing support",
+       "url": "https://www.waterpowermagazine.com/news/us-selects-14-hydropower-projects-for-testing-support/",
+       "source": "International Water Power & Dam Construction",
+       "published": "2026-10-06T10:02:58.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Water Power & Dam Construction",
+         "url": "https://www.waterpowermagazine.com/news/us-selects-14-hydropower-projects-for-testing-support/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "The US Department of Energy (DOE) has selected 14 hydropower projects to begin negotiations for testing support The post US selects 14 hydropower projects for testing support appeared first on International Water Power ."
+      },
+      {
        "title": "Foreign sugar subsidies cost US farmers billions, study finds",
        "url": "https://www.farmprogress.com/tv-and-radio/foreign-sugar-subsidies-cost-us-farmers-billions-study-finds",
        "source": "Farm Progress",
@@ -2053,21 +2069,38 @@
        "blurb": "Farm Progress America"
       },
       {
-       "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
-       "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
-       "source": "NASA News",
-       "published": "2026-10-07T21:16:42.000Z",
-       "verification": "confirmed",
+       "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
+       "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+       "source": "NPR Science",
+       "published": "2026-10-06T10:16:28.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
-         "primary": true
+         "name": "NPR Science",
+         "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+         "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "NASA and SpaceX are targeting 6:33 a.m. EDT, Tuesday, Oct. 13, for the next launch to deliver science investigations, supplies, and equipment, including the final set of International Space Station Roll-Out Solar Arrays, to the space station. This is the 35th SpaceX commercial re"
+       "blurb": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s."
+      },
+      {
+       "title": "Healthcare organizations are underprepared for quantum computing threats",
+       "url": "https://www.healthcaredive.com/news/healthcare-organizations-are-underprepared-for-quantum-computing-threats/832516/",
+       "source": "Healthcare Dive",
+       "published": "2026-10-08T17:24:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Healthcare Dive",
+         "url": "https://www.healthcaredive.com/news/healthcare-organizations-are-underprepared-for-quantum-computing-threats/832516/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Once scientists are able to develop practical quantum computers, the technology could quickly break the encryption methods protecting patient data. Experts say healthcare leaders should start preparing for that reality today."
       }
      ]
     },
@@ -3320,78 +3353,6 @@
     }
    }
   },
-  "us-co": {
-   "label": "Colorado",
-   "level": "admin1",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
-       "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
-       "source": "POWER Magazine",
-       "published": "2026-10-06T19:58:54.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/fusion-firm-xcimer-announces-fresh-doe-milestones-funding",
-         "primary": false
-        },
-        {
-         "name": "POWER Magazine",
-         "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
-      }
-     ]
-    }
-   }
-  },
-  "us-city-denver": {
-   "label": "Denver",
-   "level": "city",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
-       "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
-       "source": "POWER Magazine",
-       "published": "2026-10-06T19:58:54.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/fusion-firm-xcimer-announces-fresh-doe-milestones-funding",
-         "primary": false
-        },
-        {
-         "name": "POWER Magazine",
-         "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
-      }
-     ]
-    }
-   }
-  },
   "us-pa": {
    "label": "Pennsylvania",
    "level": "admin1",
@@ -3807,6 +3768,78 @@
     }
    }
   },
+  "us-co": {
+   "label": "Colorado",
+   "level": "admin1",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
+       "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
+       "source": "POWER Magazine",
+       "published": "2026-10-06T19:58:54.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/fusion-firm-xcimer-announces-fresh-doe-milestones-funding",
+         "primary": false
+        },
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
+      }
+     ]
+    }
+   }
+  },
+  "us-city-denver": {
+   "label": "Denver",
+   "level": "city",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
+       "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
+       "source": "POWER Magazine",
+       "published": "2026-10-06T19:58:54.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/fusion-firm-xcimer-announces-fresh-doe-milestones-funding",
+         "primary": false
+        },
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
+      }
+     ]
+    }
+   }
+  },
   "gb": {
    "label": "United Kingdom",
    "level": "country",
@@ -4164,10 +4197,10 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "‘Is Ambani the real boss of India’, asks Elon Musk, as Centre refutes bias in Starlink authorisation",
+       "title": "‘Is Ambani the real boss of India’, asks Elon Musk as Centre refutes bias in Starlink authorisation",
        "url": "https://www.thehindu.com/business/Industry/dot-refutes-bias-in-starlink-authorisation-says-all-licensees-approvals-pending/article71560045.ece",
        "source": "The Hindu Business",
-       "published": "2026-10-08T16:48:39.000Z",
+       "published": "2026-10-08T19:16:20.000Z",
        "verification": "multiple",
        "outlets": [
         {
@@ -4193,7 +4226,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Reliance Jio chairman Akash Ambani declines to comment when asked about Mr. Musk’s remarks; LoP Rahul Gandhi joined the debate saying, “Wait till you discover the other guy”"
+       "blurb": "Reliance Jio chairman Akash Ambani declines to comment when asked about Mr. Musk’s remarks; Rahul Gandhi joins the debate saying, “Wait till you discover the other guy”"
       }
      ]
     },
@@ -4680,6 +4713,23 @@
        "blurb": "It already has 20 employees in Singapore and aims to grow its local team to more than 100 over the next three years."
       },
       {
+       "title": "An air-con firm building AI, a hygiene business going regional: How home-grown SMEs are turning decades of expertise into new revenue",
+       "url": "https://www.straitstimes.com/business/home-grown-smes-turn-decades-expertise-into-new-revenue-streams-enterprise-singapore",
+       "source": "The Straits Times Business",
+       "published": "2026-10-08T20:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/home-grown-smes-turn-decades-expertise-into-new-revenue-streams-enterprise-singapore",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "With Enterprise Singapore and SME Centre support, firms are turning expertise into AI tools, services and new markets."
+      },
+      {
        "title": "Amid battle for AI edge, Hong Kong presses HSBC over Singapore hub decision: sources",
        "url": "https://www.scmp.com/business/banking-finance/article/3370203/amid-battle-ai-edge-hong-kong-presses-hsbc-over-singapore-hub-decision-sources?utm_source=rss_feed",
        "source": "South China Morning Post",
@@ -4842,11 +4892,6 @@
        "published": "2026-10-08T09:11:32.000Z",
        "verification": "multiple",
        "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/c687z8127302o?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        },
         {
          "name": "Euronews Business",
          "url": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
@@ -5304,6 +5349,23 @@
        "stages": [],
        "via": null,
        "blurb": "AWS research found AI adoption across agriculture, forestry and fishing sits just under 40 percent."
+      },
+      {
+       "title": "Alarm sounded over double risk of AI and quantum threat",
+       "url": "https://www.rnz.co.nz/news/business/1799757/alarm-sounded-over-double-risk-of-ai-and-quantum-threat",
+       "source": "RNZ Business",
+       "published": "2026-10-08T19:32:42.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "RNZ Business",
+         "url": "https://www.rnz.co.nz/news/business/1799757/alarm-sounded-over-double-risk-of-ai-and-quantum-threat",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The dual technologies will make easy work of decrypting the security of most existing digital devices."
       }
      ]
     },
@@ -5326,6 +5388,23 @@
        "stages": [],
        "via": null,
        "blurb": "The interior had to be completely refurbished, and the home failed to sell after it became known locally as \"the meth house\"."
+      },
+      {
+       "title": "Alarm sounded over double risk of AI and quantum threat",
+       "url": "https://www.rnz.co.nz/news/business/1799757/alarm-sounded-over-double-risk-of-ai-and-quantum-threat",
+       "source": "RNZ Business",
+       "published": "2026-10-08T19:32:42.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "RNZ Business",
+         "url": "https://www.rnz.co.nz/news/business/1799757/alarm-sounded-over-double-risk-of-ai-and-quantum-threat",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The dual technologies will make easy work of decrypting the security of most existing digital devices."
       }
      ]
     }

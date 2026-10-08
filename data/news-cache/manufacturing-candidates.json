@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T19:36:32.017Z",
+ "generatedAt": "2026-10-08T20:04:09.064Z",
  "sector": "manufacturing",
  "maxAgeDays": 10,
  "places": {
@@ -230,6 +230,23 @@
        "blurb": "Ashlesa Mohapatra shares her experience with using the Lean Six Sigma tool DMAIC to address purge waste, eliminate scrap from defective parts and machine idle time, as well as reduce impact from mold changes."
       },
       {
+       "title": "The plastic conundrum",
+       "url": "https://www.philstar.com/business/2026/10/09/2561831/plastic-conundrum",
+       "source": "Philstar Business",
+       "published": "2026-10-08T16:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/business/2026/10/09/2561831/plastic-conundrum",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "According to the Science History Institute, the first synthetic polymer was invented in 1869 by John Wesley Hyatt, who was inspired by a New York firm’s offer of $10,000 for anyone who could provide a substitute for ivory."
+      },
+      {
        "title": "Fakuma 2026 Celebrates 30 Years of Plastics Innovation",
        "url": "https://www.plasticstoday.com/industry-trends/fakuma-2026-celebrates-30-years-of-plastics-innovation",
        "source": "Plastics Today",
@@ -279,23 +296,6 @@
        "stages": [],
        "via": null,
        "blurb": "At a meeting on 1 October 2026, WTO members participating in the Dialogue on Plastics Pollution and Environmentally Sustainable Plastics Trade (DPP) held the first substantive round of discussions across four areas of work: circular solutions to plastics pollution; waste-manageme"
-      },
-      {
-       "title": "Delta Tecnic Launches Antimony Trioxide Masterbatch for Safer Plastics",
-       "url": "https://www.plasticstoday.com/materials/delta-tecnic-launches-antimony-trioxide-masterbatch-for-safer-plastics",
-       "source": "Plastics Today",
-       "published": "2026-10-06T14:19:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Plastics Today",
-         "url": "https://www.plasticstoday.com/materials/delta-tecnic-launches-antimony-trioxide-masterbatch-for-safer-plastics",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Delta Tecnic introduces antimony trioxide masterbatch technology that eliminates powder handling risks while improving dispersion consistency in flame-retardant systems for cables and PVC."
       }
      ]
     },
@@ -453,11 +453,6 @@
        "published": "2026-10-08T09:11:32.000Z",
        "verification": "multiple",
        "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/c687z8127302o?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        },
         {
          "name": "Euronews Business",
          "url": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
@@ -652,21 +647,26 @@
        "blurb": "The facility, dubbed Arsenal-2, will manufacture components for Virginia-class submarines. The new project follows DOD’s new Project Meridien initiative, which Anduril co-founder Palmer Luckey is co-leading."
       },
       {
-       "title": "California: $28m in funding for public EV fast chargers",
-       "url": "https://www.electrive.com/2026/10/08/california-28m-in-funding-for-public-ev-fast-chargers/",
-       "source": "electrive",
-       "published": "2026-10-08T13:30:00.000Z",
-       "verification": "unconfirmed",
+       "title": "EU and China open crunch trade talks in Beijing on hybrid car exports",
+       "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+       "source": "RFI English",
+       "published": "2026-10-08T04:10:58.000Z",
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "electrive",
-         "url": "https://www.electrive.com/2026/10/08/california-28m-in-funding-for-public-ev-fast-chargers/",
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "Just Auto",
+         "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The State of California has opened a new $28 million funding round for its existing Fast Charge California Project. This will see it offer up to $100,000 per charging port for DC fast chargers, with applications due to close on 14 January 2027."
+       "blurb": "European Union trade commissioner Maros Sefcovic arrives in Beijing on Thursday for two days of high-stakes talks with China, with Brussels seeking a pilot agreement to curb the surge in Chinese hybrid-car exports and reduce a trade deficit now running at around €1 billion per da"
       },
       {
        "title": "Anduril, US Navy to invest $6.6B in Arsenal-2 submarine shipyard in Maryland",
@@ -699,6 +699,23 @@
        "stages": [],
        "via": null,
        "blurb": "Anduril commits $3.7B of private capital to Arsenal-2 at Tradepoint Atlantic (Sparrows Point, Baltimore County); the Navy awards a contract worth up to $2.9B tied to production outcomes. About 3,100 direct jobs; initial operations targeted for 2030."
+      },
+      {
+       "title": "California: $28m in funding for public EV fast chargers",
+       "url": "https://www.electrive.com/2026/10/08/california-28m-in-funding-for-public-ev-fast-chargers/",
+       "source": "electrive",
+       "published": "2026-10-08T13:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "electrive",
+         "url": "https://www.electrive.com/2026/10/08/california-28m-in-funding-for-public-ev-fast-chargers/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The State of California has opened a new $28 million funding round for its existing Fast Charge California Project. This will see it offer up to $100,000 per charging port for DC fast chargers, with applications due to close on 14 January 2027."
       },
       {
        "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
@@ -767,23 +784,6 @@
        "stages": [],
        "via": null,
        "blurb": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy."
-      },
-      {
-       "title": "EU and China open crunch trade talks in Beijing on hybrid car exports",
-       "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
-       "source": "RFI English",
-       "published": "2026-10-08T04:10:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "RFI English",
-         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "European Union trade commissioner Maros Sefcovic arrives in Beijing on Thursday for two days of high-stakes talks with China, with Brussels seeking a pilot agreement to curb the surge in Chinese hybrid-car exports and reduce a trade deficit now running at around €1 billion per da"
       },
       {
        "title": "BMW iX4 arrives as an electric SUV-coupé starting at €70,900",
@@ -908,6 +908,23 @@
        "stages": [],
        "via": null,
        "blurb": "The global textile industry remains weak despite improvements, according to the ITMF latest Global Textile Industry Survey."
+      },
+      {
+       "title": "Syre Appoints Tim King As CEO",
+       "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/syre-appoints-tim-king-as-ceo/",
+       "source": "Textile World",
+       "published": "2026-10-08T19:35:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/syre-appoints-tim-king-as-ceo/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "STOCKHOLM, Sweden — October 7, 2026 — Syre, the textile impact company on a mission to scale textile-to-textile recycling, today announces the appointment of Tim King as its new Chief Executive Officer. Tim King, currently Syre’s Chief Operating Officer, will with his deep experi"
       },
       {
        "title": "Finland Urged to Shield Wood From Europe’s Nature Restoration Law",
@@ -1207,26 +1224,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
-       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-       "source": "NASA News",
-       "published": "2026-10-08T15:46:25.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
-      },
-      {
        "title": "Everything’s bigger in Texas",
        "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
        "source": "pv magazine",
@@ -1485,6 +1482,26 @@
         "stage": "generation"
        },
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+      },
+      {
+       "title": "Poland begins ordering long-lead components for first AP1000",
+       "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
+       "source": "World Nuclear News",
+       "published": "2026-10-08T16:16:41.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Polskie Elektrownie Jądrowe has commissioned Westinghouse to begin ordering long-lead items for the first unit of Poland's planned first nuclear power plant, which will comprise three AP1000 reactors."
       }
      ]
     }
@@ -1649,21 +1666,21 @@
        "blurb": "Ashlesa Mohapatra shares her experience with using the Lean Six Sigma tool DMAIC to address purge waste, eliminate scrap from defective parts and machine idle time, as well as reduce impact from mold changes."
       },
       {
-       "title": "Delta Tecnic Launches Antimony Trioxide Masterbatch for Safer Plastics",
-       "url": "https://www.plasticstoday.com/materials/delta-tecnic-launches-antimony-trioxide-masterbatch-for-safer-plastics",
-       "source": "Plastics Today",
-       "published": "2026-10-06T14:19:00.000Z",
+       "title": "The plastic conundrum",
+       "url": "https://www.philstar.com/business/2026/10/09/2561831/plastic-conundrum",
+       "source": "Philstar Business",
+       "published": "2026-10-08T16:00:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Plastics Today",
-         "url": "https://www.plasticstoday.com/materials/delta-tecnic-launches-antimony-trioxide-masterbatch-for-safer-plastics",
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/business/2026/10/09/2561831/plastic-conundrum",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Delta Tecnic introduces antimony trioxide masterbatch technology that eliminates powder handling risks while improving dispersion consistency in flame-retardant systems for cables and PVC."
+       "blurb": "According to the Science History Institute, the first synthetic polymer was invented in 1869 by John Wesley Hyatt, who was inspired by a New York firm’s offer of $10,000 for anyone who could provide a substitute for ivory."
       }
      ]
     },
@@ -2186,26 +2203,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
-       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-       "source": "NASA News",
-       "published": "2026-10-08T15:46:25.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
-      },
-      {
        "title": "Everything’s bigger in Texas",
        "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
        "source": "pv magazine",
@@ -2336,26 +2333,6 @@
        "blurb": "US Wind has relinquished its lease at Tradepoint Atlantic’s Sparrows Point site in Maryland, where the company had planned to manufacture steel..."
       },
       {
-       "title": "LNG Alliance Plans Second Mexico LNG Project Tapping US Natural Gas Supply",
-       "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T12:58:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "An affiliate of Singapore’s LNG Alliance is seeking US Department of Energy (DOE) permission to export US natural gas to a planned LNG export facility south of the border in the Port of Matamoros, in Tamaulipas."
-      },
-      {
        "title": "Seatrium bags first FSRU conversion for Excelerate",
        "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
        "source": "Splash247",
@@ -2469,6 +2446,51 @@
         "stage": "generation"
        },
        "blurb": "Vistra is set to receive an approximately $4.2 billion loan from the Department of Energy to upgrade and uprate its fleet of nuclear reactors in Pennsylvania and Ohio, the DOE announced Monday. This work will add 433 MW of new nuclear capacity to help meet electricity demand in P"
+      },
+      {
+       "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
+       "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
+       "source": "Maryland Matters",
+       "published": "2026-10-07T17:43:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Maryland Matters",
+         "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "US Wind turned over its Tradepoint Atlantic lease at Sparrows Point to Anduril and shelved its planned tower and monopile plant, citing legal disputes and federal uncertainty over its Ocean City offshore wind project."
+      },
+      {
+       "title": "Clearway Starts Construction of 650-MW Solar Facility in Missouri",
+       "url": "https://www.powermag.com/clearway-starts-construction-of-650-mw-solar-facility-in-missouri/",
+       "source": "POWER Magazine",
+       "published": "2026-10-07T13:12:29.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "Clearway Energy Group (press release)",
+         "url": "https://www.clearwayenergygroup.com/press-releases/clearway-closes-financing-and-begins-construction-on-650-mw-swan-energy-center-in-missouri/",
+         "primary": true
+        },
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/clearway-starts-construction-of-650-mw-solar-facility-in-missouri/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "California-headquartered Clearway Energy Group said it has closed financing and begun construction of the Swan Energy Center, a 650-MW solar facility located on portions of formerly strip-mined land in northwestern Bates County, Missouri. The project is San Francisco-based Clearw"
       }
      ]
     }
@@ -3119,129 +3141,6 @@
         "stage": "generation"
        },
        "blurb": "Having just begun construction on a 2.8GWh BESS in Belgium, Giga Storage has progressed its 1.4GWh project in Germany to the ready-to-build stage."
-      }
-     ]
-    }
-   }
-  },
-  "mx": {
-   "label": "Mexico",
-   "level": "country",
-   "sources": {
-    "power": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "LNG Alliance Plans Second Mexico LNG Project Tapping US Natural Gas Supply",
-       "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T12:58:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "An affiliate of Singapore’s LNG Alliance is seeking US Department of Energy (DOE) permission to export US natural gas to a planned LNG export facility south of the border in the Port of Matamoros, in Tamaulipas."
-      }
-     ]
-    }
-   }
-  },
-  "sg": {
-   "label": "Singapore",
-   "level": "country",
-   "sources": {
-    "power": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Seatrium bags first FSRU conversion for Excelerate",
-       "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
-       "source": "Splash247",
-       "published": "2026-10-08T12:40:37.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Offshore Energy",
-         "url": "https://offshore-energy.biz/2026/10/08/excelerate-entrusts-fsru-conversion-to-seatrium-with-another-on-the-cards",
-         "primary": false
-        },
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/americas/seatrium-scores-excelerate-fsru-conversion-gig/198115/",
-         "primary": false
-        },
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
-      },
-      {
-       "title": "LNG Alliance Plans Second Mexico LNG Project Tapping US Natural Gas Supply",
-       "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T12:58:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "An affiliate of Singapore’s LNG Alliance is seeking US Department of Energy (DOE) permission to export US natural gas to a planned LNG export facility south of the border in the Port of Matamoros, in Tamaulipas."
-      }
-     ]
-    }
-   }
-  },
-  "mx-tm": {
-   "label": "Tamaulipas",
-   "level": "admin1",
-   "sources": {
-    "power": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "LNG Alliance Plans Second Mexico LNG Project Tapping US Natural Gas Supply",
-       "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T12:58:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "An affiliate of Singapore’s LNG Alliance is seeking US Department of Energy (DOE) permission to export US natural gas to a planned LNG export facility south of the border in the Port of Matamoros, in Tamaulipas."
       }
      ]
     }
@@ -4056,6 +3955,28 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "EU and China open crunch trade talks in Beijing on hybrid car exports",
+       "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+       "source": "RFI English",
+       "published": "2026-10-08T04:10:58.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "Just Auto",
+         "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "European Union trade commissioner Maros Sefcovic arrives in Beijing on Thursday for two days of high-stakes talks with China, with Brussels seeking a pilot agreement to curb the surge in Chinese hybrid-car exports and reduce a trade deficit now running at around €1 billion per da"
+      },
+      {
        "title": "EU Eyes Import Cap on Chinese Hybrids as Trade Dispute Widens Beyond EVs",
        "url": "https://fuelcellsworks.com/2026/10/07/electric/eu-eyes-import-cap-on-chinese-hybrids-as-trade-dispute-widens-beyond-evs",
        "source": "FuelCellsWorks",
@@ -4071,23 +3992,6 @@
        "stages": [],
        "via": null,
        "blurb": ""
-      },
-      {
-       "title": "EU and China open crunch trade talks in Beijing on hybrid car exports",
-       "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
-       "source": "RFI English",
-       "published": "2026-10-08T04:10:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "RFI English",
-         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "European Union trade commissioner Maros Sefcovic arrives in Beijing on Thursday for two days of high-stakes talks with China, with Brussels seeking a pilot agreement to curb the surge in Chinese hybrid-car exports and reduce a trade deficit now running at around €1 billion per da"
       },
       {
        "title": "One in six new Mercedes passenger cars worldwide now fully electric",
@@ -4657,10 +4561,73 @@
     }
    }
   },
+  "sg": {
+   "label": "Singapore",
+   "level": "country",
+   "sources": {
+    "power": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Seatrium bags first FSRU conversion for Excelerate",
+       "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+       "source": "Splash247",
+       "published": "2026-10-08T12:40:37.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/08/excelerate-entrusts-fsru-conversion-to-seatrium-with-another-on-the-cards",
+         "primary": false
+        },
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/seatrium-scores-excelerate-fsru-conversion-gig/198115/",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
+      }
+     ]
+    }
+   }
+  },
   "us-ny": {
    "label": "New York",
    "level": "admin1",
    "sources": {
+    "chemicals": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "The plastic conundrum",
+       "url": "https://www.philstar.com/business/2026/10/09/2561831/plastic-conundrum",
+       "source": "Philstar Business",
+       "published": "2026-10-08T16:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/business/2026/10/09/2561831/plastic-conundrum",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "According to the Science History Institute, the first synthetic polymer was invented in 1869 by John Wesley Hyatt, who was inspired by a New York firm’s offer of $10,000 for anyone who could provide a substitute for ivory."
+      }
+     ]
+    },
     "machinery": {
      "brief": "missing",
      "candidates": [
@@ -4761,6 +4728,28 @@
    "label": "New York",
    "level": "city",
    "sources": {
+    "chemicals": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "The plastic conundrum",
+       "url": "https://www.philstar.com/business/2026/10/09/2561831/plastic-conundrum",
+       "source": "Philstar Business",
+       "published": "2026-10-08T16:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/business/2026/10/09/2561831/plastic-conundrum",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "According to the Science History Institute, the first synthetic polymer was invented in 1869 by John Wesley Hyatt, who was inspired by a New York firm’s offer of $10,000 for anyone who could provide a substitute for ivory."
+      }
+     ]
+    },
     "machinery": {
      "brief": "missing",
      "candidates": [
@@ -5424,11 +5413,6 @@
        "published": "2026-10-08T09:11:32.000Z",
        "verification": "multiple",
        "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/c687z8127302o?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        },
         {
          "name": "Euronews Business",
          "url": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
@@ -6219,11 +6203,16 @@
        "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
        "source": "RFI English",
        "published": "2026-10-08T04:10:58.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "RFI English",
          "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "Just Auto",
+         "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
          "primary": false
         }
        ],
@@ -6247,11 +6236,16 @@
        "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
        "source": "RFI English",
        "published": "2026-10-08T04:10:58.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "RFI English",
          "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "Just Auto",
+         "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
          "primary": false
         }
        ],
@@ -7108,6 +7102,34 @@
         "stage": "generation"
        },
        "blurb": "Hydro Tasmania has returned Poatina Power Station in Australia to service following one of its largest planned outages in recent years The post Hydro Tasmania completes first stage of Poatina upgrade appeared first on International Water Power ."
+      }
+     ]
+    }
+   }
+  },
+  "se": {
+   "label": "Sweden",
+   "level": "country",
+   "sources": {
+    "goods": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Syre Appoints Tim King As CEO",
+       "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/syre-appoints-tim-king-as-ceo/",
+       "source": "Textile World",
+       "published": "2026-10-08T19:35:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/syre-appoints-tim-king-as-ceo/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "STOCKHOLM, Sweden — October 7, 2026 — Syre, the textile impact company on a mission to scale textile-to-textile recycling, today announces the appointment of Tim King as its new Chief Executive Officer. Tim King, currently Syre’s Chief Operating Officer, will with his deep experi"
       }
      ]
     }

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T19:36:17.028Z",
+ "generatedAt": "2026-10-08T20:03:50.261Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -10,26 +10,6 @@
     "nuclear": {
      "brief": "ready",
      "candidates": [
-      {
-       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
-       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-       "source": "NASA News",
-       "published": "2026-10-08T15:46:25.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-         "primary": true
-        }
-       ],
-       "stages": [
-        "extraction",
-        "generation"
-       ],
-       "via": null,
-       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
-      },
       {
        "title": "Rising together: Collaborative project delivery for the nuclear fleet",
        "url": "https://www.ans.org/news/2026-10-08/article-8405/rising-together-collaborative-project-delivery-for-the-nuclear-fleet/",
@@ -268,6 +248,23 @@
        ],
        "via": null,
        "blurb": "This week, the Department of Energy’s Gateway for Accelerated Innovation in Nuclear (GAIN) announced three fourth-round fiscal year 2026 vouchers to support the development of innovative nuclear technologies. Each company will get access to specific capabilities and expertise in "
+      },
+      {
+       "title": "Eliminating Heat Risks in Nuclear Cleanup: A DOE Contractor’s High-Tech Blueprint",
+       "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-07T14:00:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "For organizations like the Savannah River Mission Completion (SRMC), a liquid waste contractor for the U.S. Department of Energy (DOE) Office of Environmental Management at the Savannah River Site (SRS) in Aiken, South Carolina, the summer season poses significant challenges for "
       }
      ]
     },
@@ -413,40 +410,6 @@
        "blurb": "Johannesburg’s electricity crisis is increasingly threatening years of work to regenerate the inner city."
       },
       {
-       "title": "S&P/TSX composite down despite energy sector strength as oil tops US$90 a barrel",
-       "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/sptsx-composite-down-despite-energy-sector-strength-as-oil-tops-us90-a-barrel/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T19:42:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/sptsx-composite-down-despite-energy-sector-strength-as-oil-tops-us90-a-barrel/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Canada’s main stock index was down in late-morning trading despite strength in the energy sector as the price of oil rose to top US$90 per barrel."
-      },
-      {
-       "title": "U.S. stocks edge further from their record as oil prices rise",
-       "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/higher-oil-prices-pull-the-us-stock-market-further-from-its-record/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T19:56:25.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/higher-oil-prices-pull-the-us-stock-market-further-from-its-record/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Jumping oil prices are sending bond yields higher and stocks lower on Wall Street, as the price for a barrel of Brent climbs back toward US$105."
-      },
-      {
        "title": "Govt raises petrol price by Rs2.31 per litre, high-speed diesel rate by Re0.78 per litre",
        "url": "https://www.dawn.com/news/2035716/govt-raises-petrol-price-by-rs231-per-litre-high-speed-diesel-rate-by-re078-per-litre",
        "source": "Dawn Business",
@@ -500,6 +463,23 @@
        "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
       },
       {
+       "title": "Fuel subsidy would cost Nigeria over N20trn yearly — Minister",
+       "url": "https://www.premiumtimesng.com/business/business-news/915535-fuel-subsidy-would-cost-nigeria-over-n20trn-yearly-minister.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-08T19:46:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/business/business-news/915535-fuel-subsidy-would-cost-nigeria-over-n20trn-yearly-minister.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Federal Government has rejected calls for the return of petrol subsidy, warning that restoring petrol to its pre-reform price would cost more than N20 trillion annually and could eventually push the exchange rate towards N3,000 to a dollar and petrol prices to at least N2,000"
+      },
+      {
        "title": "Rompetrol targets 2028 startup for two refinery solar projects",
        "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
        "source": "Oil & Gas Journal",
@@ -535,6 +515,23 @@
        "stages": [],
        "via": null,
        "blurb": "Brent crude, the international standard, jumped 5.3% to $105.54 per barrel early. Several explosions were heard in the Saudi capital on Oct. 8."
+      },
+      {
+       "title": "EIA Boosts Oil Price Forecast by $5 in 2026, $10 in 2027",
+       "url": "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-08T14:32:46.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/?rss=true",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The U.S. Energy Information Administration raised its 2026 Brent crude oil spot price forecast by more than $5 per barrel and its 2027 Brent price forecast by $10 per barrel."
       }
      ]
     },
@@ -624,6 +621,23 @@
        "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
       },
       {
+       "title": "New England January Natural Gas Premiums Defy Broader US Winter Outlook",
+       "url": "https://naturalgasintel.com/news/new-england-january-natural-gas-premiums-defy-broader-us-winter-outlook/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-08T19:54:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/new-england-january-natural-gas-premiums-defy-broader-us-winter-outlook/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New England natural gas forwards are topping $20/MMBtu for January 2027 at several key hubs, even as Henry Hub trades below $4 and expectations for ample US supplies point to a relatively comfortable winter market."
+      },
+      {
        "title": "Venture Global shipped 124 LNG cargoes in Q3",
        "url": "https://lngprime.com/americas/venture-global-shipped-124-lng-cargoes-in-q3/198047/",
        "source": "LNG Prime",
@@ -646,6 +660,23 @@
        ],
        "via": null,
        "blurb": "US LNG exporter Venture Global shipped 124 LNG cargoes from its Calcasieu Pass and Plaquemines LNG export terminals in the third quarter of this year."
+      },
+      {
+       "title": "Changes to NGI’s Natural Gas Price Indexes to Take Effect",
+       "url": "https://naturalgasintel.com/news/changes-to-ngis-natural-gas-price-indexes-to-take-effect/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-08T19:38:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/changes-to-ngis-natural-gas-price-indexes-to-take-effect/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In our ongoing effort to ensure the price indexes we publish reflect current market conditions in the North American natural gas market, Natural Gas Intelligence’s (NGI) previously announced modifications to the spot market price tables that appear in its various data services go"
       },
       {
        "title": "Storage Build Snaps 4-Day Natural Gas Rally as Isaias Shuts In 1.1 Bcf/d",
@@ -761,45 +792,6 @@
        ],
        "via": null,
        "blurb": "The US Energy Information Administration (EIA) on Thursday printed an injection of 85 Bcf natural gas into storage for the week ended Oct. 2. The result fell short of historical norms but exceeded market expectations. Natural gas futures slipped in immediate trading after the pri"
-      },
-      {
-       "title": "Pipeline Outages Pin Appalachian Natural Gas Prices Below $1",
-       "url": "https://naturalgasintel.com/news/pipeline-outages-pin-appalachian-natural-gas-prices-below-1/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T14:56:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/pipeline-outages-pin-appalachian-natural-gas-prices-below-1/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Texas Eastern Transmission (Tetco) expects its Line 15 outage in Kentucky to last into early November, keeping Appalachian natural gas bottled up and regional cash prices under pressure as other outages add to the squeeze."
-      },
-      {
-       "title": "LNG Alliance Plans Second Mexico LNG Project Tapping US Natural Gas Supply",
-       "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T12:58:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "An affiliate of Singapore’s LNG Alliance is seeking US Department of Energy (DOE) permission to export US natural gas to a planned LNG export facility south of the border in the Port of Matamoros, in Tamaulipas."
       }
      ]
     },
@@ -1442,24 +1434,28 @@
        "blurb": "Nigeria’s Power Crisis Creates New Opportunity for Solar as Togo Deepens Russia Ties"
       },
       {
-       "title": "Italian startup offers 535 W PVT solar module with 1.4 kW thermal output",
-       "url": "https://www.pv-magazine.com/2026/10/08/italian-startup-offers-535-w-pvt-solar-module-with-1-4-kw-thermal-output/",
-       "source": "pv magazine",
-       "published": "2026-10-08T10:30:00.000Z",
-       "verification": "unconfirmed",
+       "title": "Clearway Starts Construction of 650-MW Solar Facility in Missouri",
+       "url": "https://www.powermag.com/clearway-starts-construction-of-650-mw-solar-facility-in-missouri/",
+       "source": "POWER Magazine",
+       "published": "2026-10-07T13:12:29.000Z",
+       "verification": "confirmed",
        "outlets": [
         {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/08/italian-startup-offers-535-w-pvt-solar-module-with-1-4-kw-thermal-output/",
+         "name": "Clearway Energy Group (press release)",
+         "url": "https://www.clearwayenergygroup.com/press-releases/clearway-closes-financing-and-begins-construction-on-650-mw-swan-energy-center-in-missouri/",
+         "primary": true
+        },
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/clearway-starts-construction-of-650-mw-solar-facility-in-missouri/",
          "primary": false
         }
        ],
        "stages": [
-        "innovation",
         "generation"
        ],
        "via": null,
-       "blurb": "Syntropia has developed a 535 W hybrid photovoltaic-thermal module that combines electricity generation with heat recovery, achieving a combined energy conversion efficiency of 66.8% in recent tests. The company is also developing an integrated energy system combining PVT modules"
+       "blurb": "California-headquartered Clearway Energy Group said it has closed financing and begun construction of the Swan Energy Center, a 650-MW solar facility located on portions of formerly strip-mined land in northwestern Bates County, Missouri. The project is San Francisco-based Clearw"
       }
      ]
     },
@@ -2160,26 +2156,6 @@
      "brief": "ready",
      "candidates": [
       {
-       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
-       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-       "source": "NASA News",
-       "published": "2026-10-08T15:46:25.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-         "primary": true
-        }
-       ],
-       "stages": [
-        "extraction",
-        "generation"
-       ],
-       "via": null,
-       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
-      },
-      {
        "title": "Vistra gets $4.2B DOE loan for planned uprates in Ohio, Pennsylvania",
        "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
        "source": "ANS Nuclear Newswire",
@@ -2460,23 +2436,6 @@
        "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
       },
       {
-       "title": "U.S. stocks edge further from their record as oil prices rise",
-       "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/higher-oil-prices-pull-the-us-stock-market-further-from-its-record/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T19:56:25.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/higher-oil-prices-pull-the-us-stock-market-further-from-its-record/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Jumping oil prices are sending bond yields higher and stocks lower on Wall Street, as the price for a barrel of Brent climbs back toward US$105."
-      },
-      {
        "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
        "source": "Argus Media",
@@ -2659,6 +2618,26 @@
        ],
        "via": null,
        "blurb": "Shell's Q3 2026 update reveals declining chemical margins and operational challenges from low Rhine water levels, offset by stronger refining performance and expanded production capacity."
+      },
+      {
+       "title": "Narrowed Jones Act exemption slows energy cargo trade",
+       "url": "https://www.ttnews.com/articles/jones-act",
+       "source": "Transport Topics",
+       "published": "2026-10-07T16:58:52.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/jones-act",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Narrowing the Jones Act has curbed a roaring trade that was supplying East and West coast ports with fuel produced on the Gulf Coast, as well as crude oil and products used in refining."
       }
      ]
     },
@@ -2704,6 +2683,23 @@
        "blurb": "US industrial natural gas consumption is poised to accelerate in 2027 as stronger manufacturing activity boosts demand from gas-intensive industries, including the chemicals sector, according to the Energy Information Administration (EIA)."
       },
       {
+       "title": "New England January Natural Gas Premiums Defy Broader US Winter Outlook",
+       "url": "https://naturalgasintel.com/news/new-england-january-natural-gas-premiums-defy-broader-us-winter-outlook/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-08T19:54:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/new-england-january-natural-gas-premiums-defy-broader-us-winter-outlook/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New England natural gas forwards are topping $20/MMBtu for January 2027 at several key hubs, even as Henry Hub trades below $4 and expectations for ample US supplies point to a relatively comfortable winter market."
+      },
+      {
        "title": "Venture Global shipped 124 LNG cargoes in Q3",
        "url": "https://lngprime.com/americas/venture-global-shipped-124-lng-cargoes-in-q3/198047/",
        "source": "LNG Prime",
@@ -2726,26 +2722,6 @@
        ],
        "via": null,
        "blurb": "US LNG exporter Venture Global shipped 124 LNG cargoes from its Calcasieu Pass and Plaquemines LNG export terminals in the third quarter of this year."
-      },
-      {
-       "title": "LNG Alliance Plans Second Mexico LNG Project Tapping US Natural Gas Supply",
-       "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T12:58:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "An affiliate of Singapore’s LNG Alliance is seeking US Department of Energy (DOE) permission to export US natural gas to a planned LNG export facility south of the border in the Port of Matamoros, in Tamaulipas."
       },
       {
        "title": "Seatrium bags first FSRU conversion for Excelerate",
@@ -2873,25 +2849,6 @@
        "blurb": "Portuguese energy firm Galp has won an arbitration case against US LNG exporter Venture Global LNG over LNG sales from the Calcasieu Pass plant in Louisiana."
       },
       {
-       "title": "How Long Can Natural Gas Supply Keep Pace as Historic Demand Looms?",
-       "url": "https://naturalgasintel.com/news/how-long-can-natural-gas-supply-keep-pace-as-historic-demand-looms/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T13:05:00.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/how-long-can-natural-gas-supply-keep-pace-as-historic-demand-looms/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "via": null,
-       "blurb": "A well-supplied market is likely to weigh on US natural gas prices this winter, but comfortable balances could be upended in the years ahead as competition for supply increases, speakers said Wednesday during a webinar co-hosted by NGI and Yes Energy."
-      },
-      {
        "title": "Middle River buys 427MW Panoche natural gas plant in California, US",
        "url": "https://www.power-technology.com/news/middle-river-buys-427mw-panoche-plant/",
        "source": "Power Technology",
@@ -2909,6 +2866,25 @@
        ],
        "via": null,
        "blurb": "US-based independent power producer Middle River Power has acquired the fully contracted 427MW Panoche Energy Center, a natural gas generation facility in Firebaugh, California, US, from an Ares Infrastructure Equity fund."
+      },
+      {
+       "title": "Air Products to build Malaysia’s first LNG-based air separation unit",
+       "url": "https://lngprime.com/asia/air-products-to-build-malaysias-first-lng-based-air-separation-unit/198077/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T06:05:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/asia/air-products-to-build-malaysias-first-lng-based-air-separation-unit/198077/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "US-based Air Products said it had secured a contract to supply Malaysia’s first LNG-based air separation unit for the Petronas-led Pengerang LNG regasification terminal in Johor."
       }
      ]
     },
@@ -3634,6 +3610,25 @@
        ],
        "via": null,
        "blurb": "Portuguese energy firm Galp has won an arbitration case against US LNG exporter Venture Global LNG over LNG sales from the Calcasieu Pass plant in Louisiana."
+      },
+      {
+       "title": "Centalion buys Silver Hill’s Haynesville natural gas assets",
+       "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
+       "source": "Offshore Technology",
+       "published": "2026-10-06T09:45:47.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Offshore Technology",
+         "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "via": null,
+       "blurb": "Centalion, formerly known as Gunvor, has acquired a portfolio of upstream and midstream natural gas assets in Texas and Louisiana from US-based private energy company Silver Hill Energy Partners."
       }
      ]
     }
@@ -4072,141 +4067,6 @@
        ],
        "via": null,
        "blurb": "A brief force majeure on Kinder Morgan’s Tennessee Gas Pipeline (TGP) curtailed natural gas exports to Mexico this week, but the disruption was quickly resolved without affecting Mexico’s energy grid or triggering significant regional price volatility."
-      },
-      {
-       "title": "LNG Alliance Plans Second Mexico LNG Project Tapping US Natural Gas Supply",
-       "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T12:58:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "An affiliate of Singapore’s LNG Alliance is seeking US Department of Energy (DOE) permission to export US natural gas to a planned LNG export facility south of the border in the Port of Matamoros, in Tamaulipas."
-      }
-     ]
-    }
-   }
-  },
-  "sg": {
-   "label": "Singapore",
-   "level": "country",
-   "sources": {
-    "gas": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Seatrium bags first FSRU conversion for Excelerate",
-       "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
-       "source": "Splash247",
-       "published": "2026-10-08T12:40:37.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Offshore Energy",
-         "url": "https://offshore-energy.biz/2026/10/08/excelerate-entrusts-fsru-conversion-to-seatrium-with-another-on-the-cards",
-         "primary": false
-        },
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/americas/seatrium-scores-excelerate-fsru-conversion-gig/198115/",
-         "primary": false
-        },
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
-      },
-      {
-       "title": "LNG Alliance Plans Second Mexico LNG Project Tapping US Natural Gas Supply",
-       "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T12:58:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "An affiliate of Singapore’s LNG Alliance is seeking US Department of Energy (DOE) permission to export US natural gas to a planned LNG export facility south of the border in the Port of Matamoros, in Tamaulipas."
-      }
-     ]
-    },
-    "solar": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Australia wants to sell Singapore solar power. But does anyone want it?",
-       "url": "https://www.abc.net.au/news/2026-10-08/sun-cable-plans-to-send-australian-solar-energy-to-singapore/107229542",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-07T18:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/sun-cable-plans-to-send-australian-solar-energy-to-singapore/107229542",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "It has unrivalled ambition and is backed by a tech billionaire, but Sun Cable's plans to export solar power to Singapore are floundering."
-      }
-     ]
-    }
-   }
-  },
-  "mx-tm": {
-   "label": "Tamaulipas",
-   "level": "admin1",
-   "sources": {
-    "gas": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "LNG Alliance Plans Second Mexico LNG Project Tapping US Natural Gas Supply",
-       "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T12:58:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/lng-alliance-plans-second-mexico-lng-project-tapping-us-natural-gas-supply/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "An affiliate of Singapore’s LNG Alliance is seeking US Department of Energy (DOE) permission to export US natural gas to a planned LNG export facility south of the border in the Port of Matamoros, in Tamaulipas."
       }
      ]
     }
@@ -4844,23 +4704,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "S&P/TSX composite down despite energy sector strength as oil tops US$90 a barrel",
-       "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/sptsx-composite-down-despite-energy-sector-strength-as-oil-tops-us90-a-barrel/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T19:42:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/sptsx-composite-down-despite-energy-sector-strength-as-oil-tops-us90-a-barrel/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Canada’s main stock index was down in late-morning trading despite strength in the energy sector as the price of oil rose to top US$90 per barrel."
-      },
-      {
        "title": "Pacific Link pipeline to the West Coast officially designated a ‘national interest’ project",
        "url": "https://globalnews.ca/news/12083562/west-coast-pipeline-next-step/",
        "source": "Global News Money (Canada)",
@@ -5166,6 +5009,25 @@
        "stages": [],
        "via": null,
        "blurb": "Executives from oil and gas firms revealed where they expect the Henry Hub natural gas price to be at various points in the future in the third quarter Dallas Fed Energy Survey."
+      },
+      {
+       "title": "Centalion buys Silver Hill’s Haynesville natural gas assets",
+       "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
+       "source": "Offshore Technology",
+       "published": "2026-10-06T09:45:47.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Offshore Technology",
+         "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "via": null,
+       "blurb": "Centalion, formerly known as Gunvor, has acquired a portfolio of upstream and midstream natural gas assets in Texas and Louisiana from US-based private energy company Silver Hill Energy Partners."
       }
      ]
     },
@@ -6149,6 +6011,70 @@
     }
    }
   },
+  "sg": {
+   "label": "Singapore",
+   "level": "country",
+   "sources": {
+    "gas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Seatrium bags first FSRU conversion for Excelerate",
+       "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+       "source": "Splash247",
+       "published": "2026-10-08T12:40:37.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/08/excelerate-entrusts-fsru-conversion-to-seatrium-with-another-on-the-cards",
+         "primary": false
+        },
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/seatrium-scores-excelerate-fsru-conversion-gig/198115/",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
+      }
+     ]
+    },
+    "solar": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Australia wants to sell Singapore solar power. But does anyone want it?",
+       "url": "https://www.abc.net.au/news/2026-10-08/sun-cable-plans-to-send-australian-solar-energy-to-singapore/107229542",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-07T18:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-08/sun-cable-plans-to-send-australian-solar-energy-to-singapore/107229542",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "It has unrivalled ambition and is backed by a tech billionaire, but Sun Cable's plans to export solar power to Singapore are floundering."
+      }
+     ]
+    }
+   }
+  },
   "us-ny": {
    "label": "New York",
    "level": "admin1",
@@ -6666,23 +6592,6 @@
        "blurb": "Ryanair falls as Michael O’Leary warns that ‘insanely higher’ jet fuel prices could last until 2028"
       },
       {
-       "title": "Asia races to stockpile oil, speed up renewables in response to Iran war",
-       "url": "https://www.channelnewsasia.com/business/asia-races-stockpile-oil-speed-up-renewables-in-response-iran-war-6443281",
-       "source": "CNA Business",
-       "published": "2026-10-08T14:35:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/asia-races-stockpile-oil-speed-up-renewables-in-response-iran-war-6443281",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
        "title": "US imposes fresh sanctions on Iran’s shadow fleet",
        "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
        "source": "Daily Maverick",
@@ -6698,6 +6607,23 @@
        "stages": [],
        "via": null,
        "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
+      },
+      {
+       "title": "Asia races to stockpile oil, speed up renewables in response to Iran war",
+       "url": "https://www.channelnewsasia.com/business/asia-races-stockpile-oil-speed-up-renewables-in-response-iran-war-6443281",
+       "source": "CNA Business",
+       "published": "2026-10-08T14:35:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/asia-races-stockpile-oil-speed-up-renewables-in-response-iran-war-6443281",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
       },
       {
        "title": "Gulf economies to shrink despite higher oil prices as Iran war takes toll, World Bank says",
@@ -6806,140 +6732,6 @@
        ],
        "via": null,
        "blurb": "Iraq devalued its currency by 13 percent against the dollar."
-      }
-     ]
-    }
-   }
-  },
-  "us-co": {
-   "label": "Colorado",
-   "level": "admin1",
-   "sources": {
-    "nuclear": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
-       "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
-       "source": "POWER Magazine",
-       "published": "2026-10-06T19:58:54.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/fusion-firm-xcimer-announces-fresh-doe-milestones-funding",
-         "primary": false
-        },
-        {
-         "name": "POWER Magazine",
-         "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
-      }
-     ]
-    },
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Chevron to sell Hess Midstream stake and DJ Basin assets",
-       "url": "https://www.offshore-technology.com/news/chevron-sell-hess-midstream-dj-basin/",
-       "source": "Offshore Technology",
-       "published": "2026-10-07T09:10:14.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/companies/news/55410127/chevron-restructures-bakken-midstream-agreements-transfers-hess-midstream-stake",
-         "primary": false
-        },
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/chevron_exits_hess_midstream_as_it_restructures_bakken_dj_assets-08-oct-2026-184799-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "Offshore Technology",
-         "url": "https://www.offshore-technology.com/news/chevron-sell-hess-midstream-dj-basin/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Chevron has agreed to divest its ownership interests in Hess Midstream, along with its crude oil midstream assets in the Denver Julesburg (DJ) Basin in the US, as part of a transaction with Hess Midstream."
-      }
-     ]
-    }
-   }
-  },
-  "us-city-denver": {
-   "label": "Denver",
-   "level": "city",
-   "sources": {
-    "nuclear": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
-       "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
-       "source": "POWER Magazine",
-       "published": "2026-10-06T19:58:54.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/fusion-firm-xcimer-announces-fresh-doe-milestones-funding",
-         "primary": false
-        },
-        {
-         "name": "POWER Magazine",
-         "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
-      }
-     ]
-    },
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Chevron to sell Hess Midstream stake and DJ Basin assets",
-       "url": "https://www.offshore-technology.com/news/chevron-sell-hess-midstream-dj-basin/",
-       "source": "Offshore Technology",
-       "published": "2026-10-07T09:10:14.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/companies/news/55410127/chevron-restructures-bakken-midstream-agreements-transfers-hess-midstream-stake",
-         "primary": false
-        },
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/chevron_exits_hess_midstream_as_it_restructures_bakken_dj_assets-08-oct-2026-184799-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "Offshore Technology",
-         "url": "https://www.offshore-technology.com/news/chevron-sell-hess-midstream-dj-basin/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Chevron has agreed to divest its ownership interests in Hess Midstream, along with its crude oil midstream assets in the Denver Julesburg (DJ) Basin in the US, as part of a transaction with Hess Midstream."
       }
      ]
     }
@@ -7690,6 +7482,28 @@
       }
      ]
     },
+    "gas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "New England January Natural Gas Premiums Defy Broader US Winter Outlook",
+       "url": "https://naturalgasintel.com/news/new-england-january-natural-gas-premiums-defy-broader-us-winter-outlook/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-08T19:54:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/new-england-january-natural-gas-premiums-defy-broader-us-winter-outlook/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New England natural gas forwards are topping $20/MMBtu for January 2027 at several key hubs, even as Henry Hub trades below $4 and expectations for ample US supplies point to a relatively comfortable winter market."
+      }
+     ]
+    },
     "coal": {
      "brief": "missing",
      "candidates": [
@@ -7998,6 +7812,140 @@
     }
    }
   },
+  "us-co": {
+   "label": "Colorado",
+   "level": "admin1",
+   "sources": {
+    "nuclear": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
+       "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
+       "source": "POWER Magazine",
+       "published": "2026-10-06T19:58:54.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/fusion-firm-xcimer-announces-fresh-doe-milestones-funding",
+         "primary": false
+        },
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
+      }
+     ]
+    },
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Chevron to sell Hess Midstream stake and DJ Basin assets",
+       "url": "https://www.offshore-technology.com/news/chevron-sell-hess-midstream-dj-basin/",
+       "source": "Offshore Technology",
+       "published": "2026-10-07T09:10:14.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/companies/news/55410127/chevron-restructures-bakken-midstream-agreements-transfers-hess-midstream-stake",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/chevron_exits_hess_midstream_as_it_restructures_bakken_dj_assets-08-oct-2026-184799-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Offshore Technology",
+         "url": "https://www.offshore-technology.com/news/chevron-sell-hess-midstream-dj-basin/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Chevron has agreed to divest its ownership interests in Hess Midstream, along with its crude oil midstream assets in the Denver Julesburg (DJ) Basin in the US, as part of a transaction with Hess Midstream."
+      }
+     ]
+    }
+   }
+  },
+  "us-city-denver": {
+   "label": "Denver",
+   "level": "city",
+   "sources": {
+    "nuclear": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
+       "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
+       "source": "POWER Magazine",
+       "published": "2026-10-06T19:58:54.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/fusion-firm-xcimer-announces-fresh-doe-milestones-funding",
+         "primary": false
+        },
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
+      }
+     ]
+    },
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Chevron to sell Hess Midstream stake and DJ Basin assets",
+       "url": "https://www.offshore-technology.com/news/chevron-sell-hess-midstream-dj-basin/",
+       "source": "Offshore Technology",
+       "published": "2026-10-07T09:10:14.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/companies/news/55410127/chevron-restructures-bakken-midstream-agreements-transfers-hess-midstream-stake",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/chevron_exits_hess_midstream_as_it_restructures_bakken_dj_assets-08-oct-2026-184799-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Offshore Technology",
+         "url": "https://www.offshore-technology.com/news/chevron-sell-hess-midstream-dj-basin/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Chevron has agreed to divest its ownership interests in Hess Midstream, along with its crude oil midstream assets in the Denver Julesburg (DJ) Basin in the US, as part of a transaction with Hess Midstream."
+      }
+     ]
+    }
+   }
+  },
   "eg": {
    "label": "Egypt",
    "level": "country",
@@ -8297,6 +8245,28 @@
    "label": "Nigeria",
    "level": "country",
    "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Fuel subsidy would cost Nigeria over N20trn yearly — Minister",
+       "url": "https://www.premiumtimesng.com/business/business-news/915535-fuel-subsidy-would-cost-nigeria-over-n20trn-yearly-minister.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-08T19:46:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/business/business-news/915535-fuel-subsidy-would-cost-nigeria-over-n20trn-yearly-minister.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Federal Government has rejected calls for the return of petrol subsidy, warning that restoring petrol to its pre-reform price would cost more than N20 trillion annually and could eventually push the exchange rate towards N3,000 to a dollar and petrol prices to at least N2,000"
+      }
+     ]
+    },
     "solar": {
      "brief": "missing",
      "candidates": [
