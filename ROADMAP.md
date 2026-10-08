@@ -2,7 +2,7 @@
 
 Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md and RESEARCH-RUNS.md) and never ships to the live site.
 
-**Last updated:** 2026-10-08, 6:33 AM MT
+**Last updated:** 2026-10-08, 6:43 AM MT
 
 ## House rules
 - Everything is free. No paid tier, pricing or paywall copy until Cassidy says go.
@@ -14,7 +14,7 @@ Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md an
 ## Now
 - **Energy briefs, World and United States first (underway in the 6 AM / noon / 6 PM research runs).** As of Oct 8, 6:11 AM MT: World has 6 of 9 (Nuclear, Oil, Natural gas, Coal, Wind, Solar); United States has 5 of 9 (Nuclear, Oil, Natural gas, Solar, Wind). Still to write: World Hydro, Geothermal, Emerging; US Coal, Hydro, Geothermal, Emerging. Then China, India, Japan, Germany, the United Kingdom, France, Canada, Brazil, Saudi Arabia, Australia and South Korea. Candidates come from `node scripts/build-energy-brief.mjs --place <id> --source <source>`; run `--validate` before committing. Briefs older than 7 days show a stale flag.
 - **Content gaps (Oct 8, mostly done in SW v27):** thin segments filled (no segment under 4 worldwide stories, was 3), misfile rules tightened, World nuclear brief rewritten from non-US stories, US wind feeds added. Still open: the sector-tab briefs (none written yet; research runs) and metals, universities, livestock and food, which are still below 10 stories worldwide.
-- **First Monday Haul issue.** The free sign-up box is live (Buttondown `longhaulledger`, double opt-in). A sample issue is drafted outside the repo. Next: add a Monday Haul step to RESEARCH-RUNS.md (on Cassidy's OK), send issue 1 from Buttondown, then turn on the archive page (`archive: true` in signup.js, link it, and drop archive.html and data/monday-haul from the Pages exclude list).
+- **First Monday Haul issue (Mon Oct 12).** The Monday research run (7:46 AM MT) drafts it into `hauls/YYYY-MM-DD.md` and `.html` (off Pages) using the approved free format; Cassidy reviews and sends from Buttondown. After issue 1 is sent: turn on the archive (`archive: true` in signup.js, link it, drop archive.html and data/monday-haul from the Pages exclude list).
 - Spot-check the news column per place for wrong location tags and odd rankings; fix rules as found.
 
 ## Next
@@ -53,7 +53,6 @@ Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md an
 - Many small countries show labeled parent-level stories ("More worldwide") because they have few tagged stories.
 
 ## Open decisions (waiting on Cassidy)
-- Monday Haul format: approve the sample issue and the RESEARCH-RUNS.md step that writes it each week.
 - "Simplify this data": on demand is decided; which free tool writes the plain-language text, given the site is static and can't hold a key?
 - Paid tier: stays deferred until you say go.
 - Which countries get indicators after the United States?
@@ -61,9 +60,11 @@ Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md an
 - BRIEF.md (internal product notes, off Pages): keep as is or rewrite to match the new positioning?
 
 ## Decided
+- 2026-10-08 (Cassidy): Monday Haul sample format and the weekly draft step approved. The Monday run drafts; it never sends.
 - 2026-10-08 (Cassidy): keep everything free; build a user base through email-only Buttondown sign-ups (`longhaulledger`, double opt-in); paid tier stays off.
 
 ## Shipped (newest first, times MT)
+- 2026-10-08 06:43: Monday Haul routine: RESEARCH-RUNS.md gains a "Monday Haul" section (free format, 6 to 8 items, about 5 Energy and 3 sector, World then US, dated real sources only, `npm run haul:check -- <file> --links --html` validator with HTTP 200 link check, footer exception to rule 5 for the email only, never send email). New `hauls/` folder (off Pages) with TEMPLATE.md and the approved example; BUILD-PLAN section 2 marked paid, deferred / superseded for the free Haul. Archive still off. No SW bump.
 - 2026-10-08 06:33: SW v27: free "Get the Monday Haul, free" email sign-up (Buttondown longhaulledger, email only, double opt-in) under the news column and in the footer, with a thanks state; archive page scaffolded but off Pages and unlinked. Content gaps: 25 new free feeds (forestry, textiles, packaging, plastics, pharma, property, telecom, accounting, legal, philanthropy, higher education, US wind); no segment now has fewer than 4 worldwide stories (was 3: Forestry 2 to 12, Consumer goods 1 to 7, Metals 3 to 4); US wind stories 0 to 1 plus wind trade feeds; misfile rules tightened for DOE loans, robot flight paths, people named Ericsson, the EU's auditor, assets that breach a figure, tyre inflation, bare EU, CEO quotes, construction votes, water-pipeline drilling and nickel refineries. World nuclear brief rewritten from non-US stories (China Tianwan 7, Swiss reactor vote, Dutch AP1000 design work, Canada's BANR).
 - 2026-10-08 06:11: Research run: Energy briefs for World Coal, Wind and Solar and US Solar and Wind (week of Oct 5); curated: US wind Sparrows Point added; Baltic Power, Yangjiang Fanshi and Clearway Swan marked confirmed (Clearway Swan located to Missouri). Data only, no SW bump.
 - 2026-10-07 18:40: SW v26: slimmer phone header. The six tabs (Energy, Raw materials, Manufacturing, Services, Technology, Policy) sit in one sideways-swiping row with momentum, scroll snap, no scrollbar, 44px tap targets and an edge fade on the side with more tabs; the open tab scrolls into view, including from deep links. Desktop unchanged.

@@ -39,6 +39,8 @@ Rules:
 
 ## 2. The Monday Haul template
 
+> **Status: paid, deferred / superseded for the free Haul (Oct 8, 2026).** Cassidy approved a free Monday Haul: 6 to 8 plain-language items (about 5 Energy, 3 from the sector tabs), drafted weekly by the research runs. Its format is `hauls/TEMPLATE.md` and its routine is the "Monday Haul" section of RESEARCH-RUNS.md. The desk-based template below (Activity, People, Prices, Capital) is kept only for a possible paid edition, which stays off until Cassidy says go.
+
 ### 2.1 Inclusion test (apply to every item before it goes in)
 
 An item belongs only if all three are true:

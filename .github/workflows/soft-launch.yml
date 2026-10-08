@@ -76,5 +76,5 @@ jobs:
           force_orphan: false
           # Keep Actions build artifacts out of the static site
           # BUILD-PLAN.md, RESEARCH-RUNS.md and BRIEF.md stay on main only; they must never ship to Pages.
-          exclude_assets: '.github,node_modules,scripts,.gitignore,package-lock.json,shots.mjs,qa-retone.mjs,ledger.test.js,stats.test.mjs,location.test.mjs,energy.test.mjs,economy.test.mjs,signup.test.mjs,archive.html,data/monday-haul,BUILD-PLAN.md,RESEARCH-RUNS.md,BRIEF.md,ROADMAP.md,data/news-cache'
+          exclude_assets: '.github,node_modules,scripts,.gitignore,package-lock.json,shots.mjs,qa-retone.mjs,ledger.test.js,stats.test.mjs,location.test.mjs,energy.test.mjs,economy.test.mjs,signup.test.mjs,archive.html,data/monday-haul,hauls,BUILD-PLAN.md,RESEARCH-RUNS.md,BRIEF.md,ROADMAP.md,data/news-cache'
           commit_message: 'Deploy soft-launch news feed'

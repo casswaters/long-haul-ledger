@@ -91,7 +91,7 @@ The Energy tab shows one brief per place and energy source. Briefs live in `data
    (`get_users_by_usernames`) and write them as plain text (for example `@NRCgov`); only use a handle
    that is the organization's own account.
 5. Never add a social sign-off or call to action ("share what you've heard", "tell me in the comments",
-   etc.). No pricing, sign-up or promotional copy.
+   etc.). No pricing, sign-up or promotional copy. (One exception: the footer of the Monday Haul email; see "Monday Haul" below.)
 6. World briefs should prefer genuinely global or non-US stories when the feed has them (for example
    Poland's nuclear timeline, the Swiss reactor vote, Russia's BREST-OD-300, China's Hualong One), so
    World is not a copy of the United States brief. A big US story can still make World if it matters globally.
@@ -136,3 +136,46 @@ Write them after the Energy briefs in each run. Nothing is seeded: until a brief
 7. Commit only the briefs files you changed, with a message like `briefs: us health (services) week of 2026-10-05`,
    `git pull --rebase`, push to `main`. A push that changes any briefs file deploys within minutes; confirm it
    live (for example `#c=us&services/health/brief`). Refresh within 7 days; older briefs show a stale flag.
+
+## Monday Haul (weekly free email draft)
+
+The Monday Haul is the free weekly email (Buttondown `longhaulledger`, email-only sign-up, double opt-in).
+The research run on Mondays at 7:46 AM MT drafts it. **The run drafts only: never send email, never call the
+Buttondown API, never post the issue anywhere.** Cassidy sends it from Buttondown. Format approved by Cassidy on
+Oct 8, 2026: `hauls/TEMPLATE.md`, with the approved sample in `hauls/EXAMPLE-2026-10-05.md`. BUILD-PLAN.md
+section 2 (the desk template) is the paid edition, deferred, and does not apply here.
+
+1. `git pull --rebase`. Copy `hauls/TEMPLATE.md` to `hauls/YYYY-MM-DD.md`, named for that Monday. Set the
+   "Week of" line to the Monday of the week just covered (the past 7 days).
+2. Pick 6 to 8 items from the past 7 days: about 5 under `## Energy` and about 3 under `## Across the economy`.
+   - Energy: from the briefs in `data/energy-briefs.json` (refresh any that are stale first). World stories
+     first, then the United States. Spread across sources (oil, gas, nuclear, wind, solar, ...); one item per story.
+   - Across the economy: from the sector briefs (`data/{tab}-briefs.json`) and confirmed entries in
+     `data/signals-curated.json`. While a tab has no brief, an item may come from the news column only if you
+     open the story and its primary source and check every claim, the same as for a brief. Start each headline
+     with the tab name ("Manufacturing: ...").
+   - Prefer what a non-specialist would most want to know: big money, big output changes, prices people pay,
+     jobs, and decisions with a date.
+3. Write each item as in the template: a bold numbered headline (one plain sentence), then two or three short
+   sentences, then a `Source:` or `Sources:` line. Explain jargon in the sentence. Units on every number. Copy
+   numbers from the source, never from memory.
+4. Sources: only real, dated, primary or reputable sources (the same list as the briefs: the company or agency
+   itself, official records, established newsrooms and trade press; no aggregators, reposting sites, classifieds,
+   forums or social posts). Every link is followed by its publish date, e.g. `[EIA](https://...) (Oct 6)`. If an
+   item has no real source, cut it. Never pad to reach 6 items with weak ones; if the week has fewer than 6 good
+   items, write what you have and say so in the run report.
+5. No em dashes and no tildes. No calls to action, sign-offs or promotion in the items.
+6. Footer exception to rule 5 (email only): below the `---` line, keep the template footer as is: the link back
+   to the site, the "values may be revised" line, and the unsubscribe line with Buttondown's
+   `{{ unsubscribe_url }}`. Nothing else promotional, and none of this goes on the site or into briefs.
+7. Check it: `npm run haul:check -- hauls/YYYY-MM-DD.md --links --html`. It must report 0 errors. It checks the
+   structure (6 to 8 items, both sections, a source line with dated https links on every item, no placeholders,
+   no em dashes or tildes, no promotional copy above the footer) and that every source link returns HTTP 200,
+   then writes `hauls/YYYY-MM-DD.html` (simple inline-styled HTML for Buttondown). If a link fails, open it by
+   hand; if it really fails, replace the source or cut the item.
+8. Commit only `hauls/YYYY-MM-DD.md` and `.html` with a message like `haul: draft for 2026-10-12`, and push to
+   `main`. The `hauls/` folder is excluded from Pages, so nothing goes live. In the run report, give the file path
+   and the item headlines so Cassidy can review and send.
+9. Do not touch `data/monday-haul/issues.json`, `archive.html` or the `archive` flag in `signup.js`. The archive
+   stays off until Cassidy turns it on after the first issue is sent.
+
