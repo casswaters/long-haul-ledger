@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T12:13:22.140Z",
+ "generatedAt": "2026-10-08T12:35:34.622Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -52,6 +52,11 @@
         {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/samsung-forecasts-record-80b-quarterly-profit-as-ai-boom-boosts-memory-demand/4081967",
+         "primary": false
+        },
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933",
          "primary": false
         }
        ],
@@ -340,28 +345,6 @@
        "blurb": "Engage high-intent buyers from across the industry"
       },
       {
-       "title": "Finland tells Google to suspend work at 2 data center sites for environmental concerns",
-       "url": "https://www.aa.com.tr/en/europe/finland-tells-google-to-suspend-work-at-2-data-center-sites-for-environmental-concerns/4081256",
-       "source": "Anadolu Agency Economy",
-       "published": "2026-10-07T15:44:32.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/europe/finland-tells-google-to-suspend-work-at-2-data-center-sites-for-environmental-concerns/4081256",
-         "primary": false
-        },
-        {
-         "name": "The Loadstar",
-         "url": "https://theloadstar.com/bbc-finland-orders-halt-to-work-on-two-google-data-centres/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Regulator seeks halt to preparatory work pending environmental assessments, weeks after Google announced $14.5B investment"
-      },
-      {
        "title": "Next-generation geothermal: borrowing oil and gas tech for the data centre boom",
        "url": "https://www.mining-technology.com/news/next-generation-geothermal-oil-gas-tech-data-centre-boom/",
        "source": "Mining Technology",
@@ -433,6 +416,23 @@
        "stages": [],
        "via": null,
        "blurb": "Company plans to triple overall investment in country to $30bn"
+      },
+      {
+       "title": "Finland tells Google to suspend work at 2 data center sites for environmental concerns",
+       "url": "https://www.aa.com.tr/en/europe/finland-tells-google-to-suspend-work-at-2-data-center-sites-for-environmental-concerns/4081256",
+       "source": "Anadolu Agency Economy",
+       "published": "2026-10-07T15:44:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/europe/finland-tells-google-to-suspend-work-at-2-data-center-sites-for-environmental-concerns/4081256",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Regulator seeks halt to preparatory work pending environmental assessments, weeks after Google announced $14.5B investment"
       },
       {
        "title": "Black Hills to invest $1.8bn in gas power for Google data centre",
@@ -508,38 +508,48 @@
        "blurb": "Telecel plans to launch 5G in December"
       },
       {
-       "title": "Eurobites: Consolidation not the answer for EU telcos, says BEREC report",
-       "url": "https://www.lightreading.com/regulatory-politics/eurobites-consolidation-not-the-answer-for-eu-telcos-says-berec-report",
+       "title": "Worldwide telecom capex rises 5% in 1H26 – Dell'Oro",
+       "url": "https://www.lightreading.com/5g/worldwide-telecom-capex-rises-5-in-1h26-dell-oro",
        "source": "Light Reading",
-       "published": "2026-10-07T11:30:19.000Z",
-       "verification": "unconfirmed",
+       "published": "2026-10-06T18:06:01.000Z",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "Light Reading",
-         "url": "https://www.lightreading.com/regulatory-politics/eurobites-consolidation-not-the-answer-for-eu-telcos-says-berec-report",
+         "url": "https://www.lightreading.com/5g/worldwide-telecom-capex-rises-5-in-1h26-dell-oro",
+         "primary": false
+        },
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/newswire/delloro-reports-worldwide-telecom-capex-rose-5-1h26",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Also in today's EMEA regional roundup: CMA sets tight deadline for feedback on BT-TalkTalk deal; Orange Business gets cloud security certification; Openreach deploys Ciena's Waveserver."
+       "blurb": "Longer-term capex outlook remains muted as investment shifts from coverage to capacity. #pressrelease"
       },
       {
-       "title": "Podcast: Yttrium, Terbium, Erbium, Ytterbium — A brief history of rare earths, ft RMG’s Magnus Ericsson",
-       "url": "https://www.northernminer.com/news/podcast-yttrium-terbium-erbium-ytterbium-a-brief-history-of-rare-earths-ft-rmgs-magnus-ericsson/1003895500/",
-       "source": "The Northern Miner",
-       "published": "2026-10-07T10:40:13.000Z",
-       "verification": "unconfirmed",
+       "title": "AT&T, Global Infrastructure Partners and CPP Investments to form new fiber JV",
+       "url": "https://www.lightreading.com/broadband/at-t-global-infrastructure-partners-and-cpp-investments-to-form-new-fiber-jv",
+       "source": "Light Reading",
+       "published": "2026-10-06T15:21:07.000Z",
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/podcast-yttrium-terbium-erbium-ytterbium-a-brief-history-of-rare-earths-ft-rmgs-magnus-ericsson/1003895500/",
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/broadband/at-t-global-infrastructure-partners-and-cpp-investments-to-form-new-fiber-jv",
+         "primary": false
+        },
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/broadband/att-and-2-equity-partners-create-new-fiber-broadband-joint-venture",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "This week’s episode features Magnus Ericsson, adjunct professor at Luleå University of Technology in Sweden and co-founder of Mineral Economics and the Raw Materials Report, in conversation with host Adrian... The post Podcast: Yttrium, Terbium, Erbium, Ytterbium — A brief histor"
+       "blurb": "Joint venture will bring together Forged Fiber 37 and Gigapower under one wholesale fiber commercial open access company to accelerate expansion of fiber internet across more U.S. communities. #pressrelease"
       },
       {
        "title": "Airtel hikes postpaid tariffs, others may follow",
@@ -571,6 +581,11 @@
          "primary": false
         },
         {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
+         "primary": false
+        },
+        {
          "name": "TechCrunch",
          "url": "https://techcrunch.com/2026/10/07/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/",
          "primary": false
@@ -579,40 +594,6 @@
        "stages": [],
        "via": null,
        "blurb": "Mr. Musk made the allegation hours after Lauren Dreyer, a SpaceX executive, said she hoped that the service would be operational in India by next year"
-      },
-      {
-       "title": "Worldwide telecom capex rises 5% in 1H26 – Dell'Oro",
-       "url": "https://www.lightreading.com/5g/worldwide-telecom-capex-rises-5-in-1h26-dell-oro",
-       "source": "Light Reading",
-       "published": "2026-10-06T18:06:01.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Light Reading",
-         "url": "https://www.lightreading.com/5g/worldwide-telecom-capex-rises-5-in-1h26-dell-oro",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Longer-term capex outlook remains muted as investment shifts from coverage to capacity. #pressrelease"
-      },
-      {
-       "title": "AT&T, Global Infrastructure Partners and CPP Investments to form new fiber JV",
-       "url": "https://www.lightreading.com/broadband/at-t-global-infrastructure-partners-and-cpp-investments-to-form-new-fiber-jv",
-       "source": "Light Reading",
-       "published": "2026-10-06T15:21:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Light Reading",
-         "url": "https://www.lightreading.com/broadband/at-t-global-infrastructure-partners-and-cpp-investments-to-form-new-fiber-jv",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Joint venture will bring together Forged Fiber 37 and Gigapower under one wholesale fiber commercial open access company to accelerate expansion of fiber internet across more U.S. communities. #pressrelease"
       },
       {
        "title": "StarHub to acquire MyRepublic’s mobile business amid ongoing telco consolidation",
@@ -632,55 +613,89 @@
        "blurb": "The acquisition will have no impact on MyRepublic’s mobile service customers."
       },
       {
-       "title": "India denies bias in satellite internet approvals after Musk's 'oligarchs' jab",
-       "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
-       "source": "CNA Business",
-       "published": "2026-10-08T05:09:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
-       "title": "Ericsson and Nokia battle Huawei in 6G core clash over AI",
-       "url": "https://www.lightreading.com/6g/ericsson-and-nokia-battle-huawei-in-6g-core-clash-over-ai",
+       "title": "Eurobites: VodafoneThree eyes more synergy savings",
+       "url": "https://www.lightreading.com/business-transformation/eurobites-vodafonethree-eyes-more-synergy-savings",
        "source": "Light Reading",
-       "published": "2026-10-08T07:30:00.000Z",
+       "published": "2026-10-08T12:30:25.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Light Reading",
-         "url": "https://www.lightreading.com/6g/ericsson-and-nokia-battle-huawei-in-6g-core-clash-over-ai",
+         "url": "https://www.lightreading.com/business-transformation/eurobites-vodafonethree-eyes-more-synergy-savings",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Responding to customer demands, Ericsson and Nokia are promoting an evolutionary vision of the 6G core, while Huawei wants revolution."
+       "blurb": "Also in today's EMEA regional roundup: Nokia cuts jobs in Finland; KLM taps Starlink for in-flight connectivity; VEON hooks up with Amdocs."
       },
       {
-       "title": "Deutsche Telekom dashes vendor hopes for big mobile uplink spending",
-       "url": "https://www.lightreading.com/ai-machine-learning/deutsche-telekom-dashes-vendor-hopes-for-big-mobile-uplink-spending",
-       "source": "Light Reading",
-       "published": "2026-10-07T14:50:58.000Z",
+       "title": "Schneider Electric and PTC consolidate industrial AI stack – but where’s the network? (Telco Diary)",
+       "url": "https://rcrwireless.com/20261006/opinion/schneider-electric-ptc-industrial-ai-network-telco-diary",
+       "source": "RCR Wireless News",
+       "published": "2026-10-06T14:35:01.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "RCR Wireless News",
+         "url": "https://rcrwireless.com/20261006/opinion/schneider-electric-ptc-industrial-ai-network-telco-diary",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "From the newsletter (October 6; sign-up or follow if you want it sooner): Schneider Electric is to buy PTC for a cool $22.6bn – to consolidate its stake in the…"
+      },
+      {
+       "title": "Nokia campus sale nears as Hotard bets on industrial AI",
+       "url": "https://www.fierce-network.com/wireless/nokia-campus-networking-sale-nears-hotard-bets-industrial-ai",
+       "source": "Fierce Network",
+       "published": null,
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Light Reading",
-         "url": "https://www.lightreading.com/ai-machine-learning/deutsche-telekom-dashes-vendor-hopes-for-big-mobile-uplink-spending",
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/wireless/nokia-campus-networking-sale-nears-hotard-bets-industrial-ai",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Deutsche Telekom is investing in AI across its organization, but it does not expect to spend more in the medium term for AI's impact on mobile uplink."
+       "blurb": "Nokia may soon name a buyer for its campus private networks unit as rivals gain share, but CEO Justin Hotard is betting on bigger money in industrial infrastructure."
+      },
+      {
+       "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
+       "url": "https://www.fierce-network.com/sponsored/huawei-and-qualcomm-announce-broad-patent-license-agreement",
+       "source": "Fierce Network",
+       "published": null,
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/sponsored/huawei-and-qualcomm-announce-broad-patent-license-agreement",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Huawei and Qualcomm have announced a multi-year, broad patent license agreement that includes cross licenses to the companies' patent portfolios across a range of fields, including 5G, compute, AI, and networking, together with Qualcomm's purchase of certain Huawei U.S. patents."
+      },
+      {
+       "title": "Opinion: Can carriers finally move up the stack? AT&T, Cisco and NVIDIA say AI changes the equation",
+       "url": "https://www.fierce-network.com/cloud/can-carriers-finally-move-stack-att-cisco-and-nvidia-say-ai-changes-equation",
+       "source": "Fierce Network",
+       "published": null,
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/cloud/can-carriers-finally-move-stack-att-cisco-and-nvidia-say-ai-changes-equation",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Connectivity gets operators into the game, but compute, security and control could move them up the stack."
       }
      ]
     },
@@ -736,6 +751,26 @@
         "stage": "innovation"
        },
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+      },
+      {
+       "title": "Researchers find almost 8,000 European solar energy systems exposed to internet cyberattacks",
+       "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
+       "source": "PV Tech",
+       "published": "2026-10-08T12:22:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "A joint Dutch team of researchers shows commercial solar power assets are internet-accessible, creating a dangerous threat to infrastructure."
       },
       {
        "title": "Westinghouse teams up with Hyundai E&C for Dutch FEED studies",
@@ -796,6 +831,31 @@
         "stage": "innovation"
        },
        "blurb": "France Energies Marines has approved four new research and innovation projects involving 33 public and private partners, with a combined..."
+      },
+      {
+       "title": "DOE selects second round of hydropower projects for technical support, with modernization in mind",
+       "url": "https://www.power-eng.com/renewables/hydropower/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
+       "source": "Power Engineering",
+       "published": "2026-10-07T17:27:00.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Hydro Review",
+         "url": "https://www.renewableenergyworld.com/hydro-power/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/renewables/hydropower/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "The U.S. Department of Energy's Hydropower and Hydrokinetic Office selected 14 hydropower projects for negotiations on vouchers for in-kind support."
       },
       {
        "title": "Chalmers study finds bypassing weak cells extends EV life",
@@ -898,86 +958,12 @@
         "stage": "innovation"
        },
        "blurb": "Energy Technology’s new episode examines Big Tech’s interest in geothermal, and the nascent sector’s need for oil and gas equipment and expertise. The post Next-generation geothermal: borrowing oil and gas tech for the data centre boom appeared first on Mining Technology ."
-      },
-      {
-       "title": "How SAMDUO is entering Europe’s home battery market with household-led design",
-       "url": "https://www.pv-tech.org/samduo-entering-europes-home-battery-market-household-led-design/",
-       "source": "PV Tech",
-       "published": "2026-10-08T07:57:53.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/samduo-entering-europes-home-battery-market-household-led-design/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Clean technology provider SAMDUO unveiled its Nex E6000 and Nex E6000H home batteries at Solar Solutions Amsterdam in March 2026."
-      },
-      {
-       "title": "Making the case for non-lithium batteries for AI data centres",
-       "url": "https://www.energy-storage.news/making-the-case-for-non-lithium-batteries-for-ai-data-centres/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-08T07:48:32.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/making-the-case-for-non-lithium-batteries-for-ai-data-centres/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "AI data centres have energy and power requirements demanding enough to potentially stretch lithium-ion beyond its versatile limits, writes Intertek CEA market intelligence consultant Aaron Marks."
       }
      ]
     },
     "consulting": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "EU debt could hit €1 trillion by 2027 as spending errors rise, auditors warn",
-       "url": "https://www.euronews.com/2026/10/08/eu-debt-could-hit-1-trillion-by-2027-as-spending-errors-rise-auditors-warn",
-       "source": "Euronews Business",
-       "published": "2026-10-08T11:13:48.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/08/eu-debt-could-hit-1-trillion-by-2027-as-spending-errors-rise-auditors-warn",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "EU auditors said 3.8% of the bloc's spending last year breached funding rules, warning that borrowing could hit €1 trillion by 2027 and that the next long-term budget risks repeating the flaws of the COVID-era recovery fund, as the Commission defended its controls."
-      },
-      {
-       "title": "Increasing levels of debt carried by EU institutions a concern, says top auditor",
-       "url": "https://www.irishtimes.com/business/2026/10/08/joint-debt-taken-on-by-eu-not-virtual-money-top-auditor-warns/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-08T05:00:01.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/joint-debt-taken-on-by-eu-not-virtual-money-top-auditor-warns/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The union’s borrowing is projected to hit €1 trillion by 2027"
-      },
       {
        "title": "Tender – Framework agreement for geothermal consultancy at Grangegorman, Ireland",
        "url": "https://www.thinkgeoenergy.com/tender-framework-agreement-for-geothermal-consultancy-at-grangegorman-ireland/",
@@ -1081,6 +1067,23 @@
        "blurb": "Income from card, digital and other rails has swelled to about 40% of revenue for the global bank industry, according to consulting firm McKinsey."
       },
       {
+       "title": "Goldman Sachs ensnared in EY data breach earlier this year",
+       "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
+       "source": "Accounting Today",
+       "published": "2026-10-07T15:21:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Accounting Today",
+         "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Goldman Sachs Group Inc.'s data was exposed earlier this year in a hack of accounting firm EY, according to a person familiar with the matter."
+      },
+      {
        "title": "FBI removes Accenture contractor after missed security patch led to breach",
        "url": "https://www.govexec.com/technology/2026/10/fbi-removes-accenture-contractor-after-missed-security-patch-led-breach/416446/",
        "source": "Government Executive",
@@ -1102,6 +1105,28 @@
     "media": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Paramount and Warner Bros merge to become one Hollywood giant, Skydance",
+       "url": "https://www.thehindu.com/business/paramount-and-warner-bros-merge-to-become-one-hollywood-giant-skydance/article71552210.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-08T11:57:28.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
+         "primary": false
+        },
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The merger brings two of America's oldest moviemaking studios together under the helm of billionaire David Ellison and Ynon Kreiz, in a move that is projected to concentrate power in an industry already run by just a handful of major players"
+      },
       {
        "title": "ByteDance heads first SCMP Plus Going Global 100 ranking",
        "url": "https://www.scmp.com/business/china-business/article/3370010/bytedance-heads-first-scmp-plus-going-global-100-ranking?utm_source=rss_feed",
@@ -1188,21 +1213,21 @@
        "blurb": "The social media platform is hoping to capitalize on its role as a product discovery engine by adding a conversational AI agent and simpler checkout."
       },
       {
-       "title": "Paramount and Warner Bros complete merger to form Hollywood giant Skydance",
-       "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
-       "source": "Euronews Business",
-       "published": "2026-10-06T13:49:42.000Z",
+       "title": "CNG Expands Recycle-Ready Films Platform",
+       "url": "https://www.plasticstoday.com/packaging/cng-expands-recycle-ready-films-platform",
+       "source": "Plastics Today",
+       "published": "2026-10-07T12:52:47.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/packaging/cng-expands-recycle-ready-films-platform",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Two of America’s oldest film studios have completed their merger, bringing CNN, HBO and franchises including The Godfather and Harry Potter under one roof."
+       "blurb": "Charter Next Generation's latest heat-resistant, high-barrier, and matte MDO-PE films deliver enhanced functionality for demanding recycle-ready packaging applications."
       },
       {
        "title": "Journalists Evaluate Rural Voter Sentiment, MAHA Movement, and Gene-Editing Finding",
@@ -1226,28 +1251,6 @@
     "cyber": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Lithuania Deploys Army to Kaliningrad Border After Belarus-Latvia Breach",
-       "url": "https://www.themoscowtimes.com/2026/10/08/lithuania-deploys-army-to-kaliningrad-border-after-belarus-latvia-breach-a93920",
-       "source": "The Moscow Times",
-       "published": "2026-10-08T11:34:51.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/lithuania-to-deploy-troops-along-border-with-russias-kaliningrad-after-latvia-incident/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/lithuania-deploys-army-to-kaliningrad-border-after-belarus-latvia-breach-a93920",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Defense Minister Robertas Kaunas said around 100 soldiers would help guard the Lithuanian-Russian border over the next two weeks."
-      },
       {
        "title": "Japan and cybersecurity: What’s behind recent attacks and what’s being done?",
        "url": "https://www.japantimes.co.jp/business/2026/10/08/tech/focus-japan-data-leak/",
@@ -1281,6 +1284,23 @@
        "stages": [],
        "via": null,
        "blurb": ""
+      },
+      {
+       "title": "Researchers find almost 8,000 European solar energy systems exposed to internet cyberattacks",
+       "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
+       "source": "PV Tech",
+       "published": "2026-10-08T12:22:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A joint Dutch team of researchers shows commercial solar power assets are internet-accessible, creating a dangerous threat to infrastructure."
       },
       {
        "title": "An energy-first cybersecurity platform for solar, storage and the grid",
@@ -1407,23 +1427,6 @@
        "blurb": "Retailer issues update after BBC contacted by cyber criminals who said this week's breach went beyond \"basic contact details\""
       },
       {
-       "title": "Sungrow patches iSolarCloud vulnerability after security researchers gain access",
-       "url": "https://www.pv-magazine.com/2026/10/08/sungrow-patches-isolarcloud-vulnerability-after-security-researchers-gain-access/",
-       "source": "pv magazine",
-       "published": "2026-10-08T12:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/08/sungrow-patches-isolarcloud-vulnerability-after-security-researchers-gain-access/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A German cybersecurity firm has discovered an authentication flaw in Sungrow’s iSolarCloud platform that exposed connected devices, prompting an emergency patch. The post Sungrow patches iSolarCloud vulnerability after security researchers gain access appeared first on pv magazin"
-      },
-      {
        "title": "'Group of individuals' impacted by data breach at SA hospital",
        "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
        "source": "ABC News (Australia) Business",
@@ -1439,6 +1442,23 @@
        "stages": [],
        "via": null,
        "blurb": "An Adelaide private hospital has notified individuals and cyber security authorities of a data breach of personal information."
+      },
+      {
+       "title": "Sungrow patches iSolarCloud vulnerability after security researchers gain access",
+       "url": "https://www.pv-magazine.com/2026/10/08/sungrow-patches-isolarcloud-vulnerability-after-security-researchers-gain-access/",
+       "source": "pv magazine",
+       "published": "2026-10-08T12:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/sungrow-patches-isolarcloud-vulnerability-after-security-researchers-gain-access/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A German cybersecurity firm has discovered an authentication flaw in Sungrow’s iSolarCloud platform that exposed connected devices, prompting an emergency patch. The post Sungrow patches iSolarCloud vulnerability after security researchers gain access appeared first on pv magazin"
       }
      ]
     }
@@ -1535,23 +1555,6 @@
        "stages": [],
        "via": null,
        "blurb": "The American Nuclear Society is hosting a Supplier Showcase webinar, “From Alarm to Answer: How AI Can Reduce Equipment Load and Enhance Performance,” on October 13, from 1:00 p.m. to 2:00 p.m. (CDT) in partnership with Nuclearn, a provider of AI tools purpose-built for the nucle"
-      },
-      {
-       "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
-       "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
-       "source": "Ars Technica",
-       "published": "2026-10-06T20:50:32.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Like other solutions, it is not especially reliable, and it's easy to circumvent."
       },
       {
        "title": "Tractor Supply opens Idaho distribution center with automation, dedicated AI team",
@@ -1659,6 +1662,23 @@
        "stages": [],
        "via": null,
        "blurb": "Jeff Moore brings 20 years of experience in software engineering and operations to the role as Hilton looks to advance its AI goals."
+      },
+      {
+       "title": "Everlaw’s 2026 AI Report: A Glass Half Full Or Half Empty?",
+       "url": "https://abovethelaw.com/2026/10/everlaws-2026-ai-report-a-glass-half-full-or-half-empty/",
+       "source": "Above the Law",
+       "published": "2026-10-07T22:15:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Above the Law",
+         "url": "https://abovethelaw.com/2026/10/everlaws-2026-ai-report-a-glass-half-full-or-half-empty/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Some of the report's conclusions may be optimistic and there is a need to look at them critically. The post Everlaw’s 2026 AI Report: A Glass Half Full Or Half Empty? appeared first on Above the Law ."
       }
      ]
     },
@@ -1717,6 +1737,23 @@
        "blurb": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient."
       },
       {
+       "title": "America’s data center boom is running into a grid-sized problem",
+       "url": "https://www.power-eng.com/renewables/america-data-center-construction-delays/",
+       "source": "Power Engineering",
+       "published": "2026-10-05T19:39:51.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/renewables/america-data-center-construction-delays/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "America’s data center boom is moving fast, but the infrastructure needed to power it isn’t always keeping pace. From transmission and fuel constraints to construction setbacks, major projects are finding that turning billions of dollars in investment into energized megawatts can "
+      },
+      {
        "title": "Constellation, Google strike 890-MW nuclear deal to meet data center power demand",
        "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/",
        "source": "Construction Dive",
@@ -1741,6 +1778,11 @@
         {
          "name": "Construction Dive",
          "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
          "primary": false
         }
        ],
@@ -1775,17 +1817,39 @@
        "url": "https://www.lightreading.com/broadband/at-t-global-infrastructure-partners-and-cpp-investments-to-form-new-fiber-jv",
        "source": "Light Reading",
        "published": "2026-10-06T15:21:07.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "Light Reading",
          "url": "https://www.lightreading.com/broadband/at-t-global-infrastructure-partners-and-cpp-investments-to-form-new-fiber-jv",
+         "primary": false
+        },
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/broadband/att-and-2-equity-partners-create-new-fiber-broadband-joint-venture",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
        "blurb": "Joint venture will bring together Forged Fiber 37 and Gigapower under one wholesale fiber commercial open access company to accelerate expansion of fiber internet across more U.S. communities. #pressrelease"
+      },
+      {
+       "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
+       "url": "https://www.fierce-network.com/sponsored/huawei-and-qualcomm-announce-broad-patent-license-agreement",
+       "source": "Fierce Network",
+       "published": null,
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/sponsored/huawei-and-qualcomm-announce-broad-patent-license-agreement",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Huawei and Qualcomm have announced a multi-year, broad patent license agreement that includes cross licenses to the companies' patent portfolios across a range of fields, including 5G, compute, AI, and networking, together with Qualcomm's purchase of certain Huawei U.S. patents."
       }
      ]
     },
@@ -1811,6 +1875,31 @@
         "stage": "innovation"
        },
        "blurb": "The soil in northwest Iowa is so fertile it’s referred to as “black gold.” “It’s incredibly rich, wonderful topsoil from thousands of years of silty deposits from the Missouri River,” said Luke Seaberg, a researcher at Iowa State University’s extension program. So rich that some "
+      },
+      {
+       "title": "DOE selects second round of hydropower projects for technical support, with modernization in mind",
+       "url": "https://www.power-eng.com/renewables/hydropower/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
+       "source": "Power Engineering",
+       "published": "2026-10-07T17:27:00.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Hydro Review",
+         "url": "https://www.renewableenergyworld.com/hydro-power/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/renewables/hydropower/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "The U.S. Department of Energy's Hydropower and Hydrokinetic Office selected 14 hydropower projects for negotiations on vouchers for in-kind support."
       },
       {
        "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
@@ -1898,26 +1987,6 @@
        "blurb": "Sempra Infrastructure is advancing commissioning at Port Arthur LNG, with new startup activity bringing the Texas project closer to adding another major source of natural gas demand along the Gulf Coast."
       },
       {
-       "title": "DOE selects second round of hydropower projects for technical support, with modernization in mind",
-       "url": "https://www.renewableenergyworld.com/hydro-power/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
-       "source": "Hydro Review",
-       "published": "2026-10-07T10:48:42.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Hydro Review",
-         "url": "https://www.renewableenergyworld.com/hydro-power/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "The U.S. Department of Energy's Hydropower and Hydrokinetic Office selected 14 hydropower projects for negotiations on vouchers for in-kind support."
-      },
-      {
        "title": "Farm Hands on the Potomac: Joel Leftwich joins Idealyst Innovation, ​Robert Haus goes to Vylor, General Mills names Dana McNabb as CEO",
        "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
        "source": "Agri-Pulse",
@@ -1977,49 +2046,20 @@
        "blurb": "The US Department of Energy (DOE) has selected 14 hydropower projects to begin negotiations for testing support The post US selects 14 hydropower projects for testing support appeared first on International Water Power ."
       },
       {
-       "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
-       "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
-       "source": "NASA News",
-       "published": "2026-10-07T21:16:42.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "NASA and SpaceX are targeting 6:33 a.m. EDT, Tuesday, Oct. 13, for the next launch to deliver science investigations, supplies, and equipment, including the final set of International Space Station Roll-Out Solar Arrays, to the space station. This is the 35th SpaceX commercial re"
-      },
-      {
-       "title": "NASA’s Curiosity Captures Dawn Breaking on Wind-Carved Cliffs",
-       "url": "https://science.nasa.gov/photojournal/nasas-curiosity-captures-dawn-breaking-on-wind-carved-cliffs/",
-       "source": "NASA News",
-       "published": "2026-10-07T16:49:50.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://science.nasa.gov/photojournal/nasas-curiosity-captures-dawn-breaking-on-wind-carved-cliffs/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Description NASA’s Curiosity Mars rover captured this panorama of sunrise illuminating distant, wind-carved features called yardangs on Aug. 11, 2026, the 4,982nd Martian day, or sol, of the mission. Scientists are eager to learn more about how the yardang layer formed. Figure A "
-      },
-      {
        "title": "Tennessee Valley Authority Gets Approval to Build Small Nuclear Reactor",
        "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
        "source": "NYT Climate / Energy",
        "published": "2026-09-29T18:09:37.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "NYT Climate / Energy",
          "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/nuclear/smrs/tennessee-clinch-river-bwrx-300-smr-nrc-construction-permit/",
          "primary": false
         }
        ],
@@ -2029,6 +2069,43 @@
         "stage": "innovation"
        },
        "blurb": "It’s only the second time that American regulators have approved a next-generation commercial reactor for construction. Big hurdles remain."
+      },
+      {
+       "title": "Second part of construction permit application submitted for SMRs at Palisades",
+       "url": "https://www.world-nuclear-news.org/articles/second-part-of-construction-permit-application-submitted-for-pioneer-smrs",
+       "source": "World Nuclear News",
+       "published": "2026-10-02T14:38:26.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/second-part-of-construction-permit-application-submitted-for-pioneer-smrs",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Holtec has submitted the Preliminary Safety Analysis Report to the US Nuclear Regulatory Commission for two small modular reactor units at the Palisades Energy Center in Michigan, completing the second phase of the Construction Permit Application process."
+      },
+      {
+       "title": "Plastic Ingenuity Showcasing Sustainable Packaging Innovation at Pack Expo",
+       "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
+       "source": "Plastics Today",
+       "published": "2026-10-06T11:58:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Plastic Ingenuity's Ameristar Award-winning PET medical device reel replaces PVC with recyclable material, converting 236,000 pounds annually. The company will spotlight its innovations at Pack Expo 2026, being held later this month in Chicago."
       }
      ]
     },
@@ -2053,6 +2130,23 @@
        "blurb": "Income from card, digital and other rails has swelled to about 40% of revenue for the global bank industry, according to consulting firm McKinsey."
       },
       {
+       "title": "Goldman Sachs ensnared in EY data breach earlier this year",
+       "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
+       "source": "Accounting Today",
+       "published": "2026-10-07T15:21:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Accounting Today",
+         "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Goldman Sachs Group Inc.'s data was exposed earlier this year in a hack of accounting firm EY, according to a person familiar with the matter."
+      },
+      {
        "title": "FBI removes Accenture contractor after missed security patch led to breach",
        "url": "https://www.govexec.com/technology/2026/10/fbi-removes-accenture-contractor-after-missed-security-patch-led-breach/416446/",
        "source": "Government Executive",
@@ -2075,6 +2169,28 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Paramount and Warner Bros merge to become one Hollywood giant, Skydance",
+       "url": "https://www.thehindu.com/business/paramount-and-warner-bros-merge-to-become-one-hollywood-giant-skydance/article71552210.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-08T11:57:28.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
+         "primary": false
+        },
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The merger brings two of America's oldest moviemaking studios together under the helm of billionaire David Ellison and Ynon Kreiz, in a move that is projected to concentrate power in an industry already run by just a handful of major players"
+      },
+      {
        "title": "TikTok to add AI-powered discovery and one-click checkout",
        "url": "https://www.retaildive.com/news/tiktok-ai-powered-discovery-one-click-checkout/832326/",
        "source": "Retail Dive",
@@ -2092,21 +2208,21 @@
        "blurb": "The social media platform is hoping to capitalize on its role as a product discovery engine by adding a conversational AI agent and simpler checkout."
       },
       {
-       "title": "Paramount and Warner Bros complete merger to form Hollywood giant Skydance",
-       "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
-       "source": "Euronews Business",
-       "published": "2026-10-06T13:49:42.000Z",
+       "title": "CNG Expands Recycle-Ready Films Platform",
+       "url": "https://www.plasticstoday.com/packaging/cng-expands-recycle-ready-films-platform",
+       "source": "Plastics Today",
+       "published": "2026-10-07T12:52:47.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/packaging/cng-expands-recycle-ready-films-platform",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Two of America’s oldest film studios have completed their merger, bringing CNN, HBO and franchises including The Godfather and Harry Potter under one roof."
+       "blurb": "Charter Next Generation's latest heat-resistant, high-barrier, and matte MDO-PE films deliver enhanced functionality for demanding recycle-ready packaging applications."
       },
       {
        "title": "Journalists Evaluate Rural Voter Sentiment, MAHA Movement, and Gene-Editing Finding",
@@ -2182,6 +2298,23 @@
        "blurb": "The company presented new data about the prevalence of different forms of social-engineering attacks, saying identity fundamentals still matter in the AI era."
       },
       {
+       "title": "Goldman Sachs ensnared in EY data breach earlier this year",
+       "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
+       "source": "Accounting Today",
+       "published": "2026-10-07T15:21:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Accounting Today",
+         "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Goldman Sachs Group Inc.'s data was exposed earlier this year in a hack of accounting firm EY, according to a person familiar with the matter."
+      },
+      {
        "title": "IBM’s AI-powered vulnerability clearinghouse finds hundreds of Java flaws",
        "url": "https://www.cybersecuritydive.com/news/ibm-ai-vulnerability-java-lightwell/832249/",
        "source": "Cybersecurity Dive",
@@ -2251,11 +2384,16 @@
        "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
        "source": "NYT Climate / Energy",
        "published": "2026-09-29T18:09:37.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "NYT Climate / Energy",
          "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/nuclear/smrs/tennessee-clinch-river-bwrx-300-smr-nrc-construction-permit/",
          "primary": false
         }
        ],
@@ -2298,6 +2436,26 @@
        "blurb": "South Korea's Hyundai Engineering & Construction has been contracted by Westinghouse to carry out basic design studies for the construction of two large nuclear power plants in the Netherlands based on Westinghouse's AP1000 design."
       },
       {
+       "title": "Researchers find almost 8,000 European solar energy systems exposed to internet cyberattacks",
+       "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
+       "source": "PV Tech",
+       "published": "2026-10-08T12:22:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "A joint Dutch team of researchers shows commercial solar power assets are internet-accessible, creating a dangerous threat to infrastructure."
+      },
+      {
        "title": "Dutch design ultra-shallow-draft DSV for Gulf Region's oil & gas",
        "url": "https://offshore-energy.biz/2026/10/07/dutch-design-ultra-shallow-draft-dsv-for-gulf-regions-oil-and-gas",
        "source": "Offshore Energy",
@@ -2336,6 +2494,45 @@
         "stage": "innovation"
        },
        "blurb": "Clean technology provider SAMDUO unveiled its Nex E6000 and Nex E6000H home batteries at Solar Solutions Amsterdam in March 2026."
+      },
+      {
+       "title": "Halozyme prevails in patent fight with Merck; Enliven readies anticipated leukemia trial",
+       "url": "https://www.biopharmadive.com/news/halozyme-merck-europe-enliven-insmed-rougetx-kymathera/832282/",
+       "source": "BioPharma Dive",
+       "published": "2026-10-07T15:21:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BioPharma Dive",
+         "url": "https://www.biopharmadive.com/news/halozyme-merck-europe-enliven-insmed-rougetx-kymathera/832282/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A Dutch court barred Merck from selling subcutaneous Keytruda in several European countries. Elsewhere, an Insmed executive ended a seven-year run and two startups secured venture cash."
+      }
+     ]
+    },
+    "cyber": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Researchers find almost 8,000 European solar energy systems exposed to internet cyberattacks",
+       "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
+       "source": "PV Tech",
+       "published": "2026-10-08T12:22:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A joint Dutch team of researchers shows commercial solar power assets are internet-accessible, creating a dangerous threat to infrastructure."
       }
      ]
     }
@@ -2461,28 +2658,6 @@
     "cyber": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Lithuania Deploys Army to Kaliningrad Border After Belarus-Latvia Breach",
-       "url": "https://www.themoscowtimes.com/2026/10/08/lithuania-deploys-army-to-kaliningrad-border-after-belarus-latvia-breach-a93920",
-       "source": "The Moscow Times",
-       "published": "2026-10-08T11:34:51.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/lithuania-to-deploy-troops-along-border-with-russias-kaliningrad-after-latvia-incident/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/lithuania-deploys-army-to-kaliningrad-border-after-belarus-latvia-breach-a93920",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Defense Minister Robertas Kaunas said around 100 soldiers would help guard the Lithuanian-Russian border over the next two weeks."
-      },
       {
        "title": "UK and Germany team up against Russian cyberattacks as Brexit rethink looms",
        "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
@@ -2720,6 +2895,23 @@
         "stage": "innovation"
        },
        "blurb": "The geothermal heating project in Geiselbullach, Germany is now proceeding to the construction phase after successful drilling and testing of two deep wells. The post Drilling and testing of geothermal wells in Geiselbullach, Germany completed first appeared on ThinkGeoEnergy - G"
+      },
+      {
+       "title": "Stadler Inaugurates Test Center for Recycling Innovation",
+       "url": "https://www.plasticstoday.com/sustainability/stadler-inaugurates-test-center-for-recycling-innovation",
+       "source": "Plastics Today",
+       "published": "2026-10-06T20:02:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/sustainability/stadler-inaugurates-test-center-for-recycling-innovation",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Stadler Group inaugurated a new Test Center at its German headquarters, offering customers material testing, equipment validation, and operator training capabilities."
       }
      ]
     },
@@ -2878,22 +3070,39 @@
        "url": "https://www.aa.com.tr/en/europe/finland-tells-google-to-suspend-work-at-2-data-center-sites-for-environmental-concerns/4081256",
        "source": "Anadolu Agency Economy",
        "published": "2026-10-07T15:44:32.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/europe/finland-tells-google-to-suspend-work-at-2-data-center-sites-for-environmental-concerns/4081256",
-         "primary": false
-        },
-        {
-         "name": "The Loadstar",
-         "url": "https://theloadstar.com/bbc-finland-orders-halt-to-work-on-two-google-data-centres/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
        "blurb": "Regulator seeks halt to preparatory work pending environmental assessments, weeks after Google announced $14.5B investment"
+      }
+     ]
+    },
+    "telecom": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Eurobites: VodafoneThree eyes more synergy savings",
+       "url": "https://www.lightreading.com/business-transformation/eurobites-vodafonethree-eyes-more-synergy-savings",
+       "source": "Light Reading",
+       "published": "2026-10-08T12:30:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/business-transformation/eurobites-vodafonethree-eyes-more-synergy-savings",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Also in today's EMEA regional roundup: Nokia cuts jobs in Finland; KLM taps Starlink for in-flight connectivity; VEON hooks up with Amdocs."
       }
      ]
     }
@@ -3193,23 +3402,6 @@
        "stages": [],
        "via": null,
        "blurb": "A tender has been announced for a single-party framework agreement for geothermal engineering consultancy services for the Grangegorman site in Ireland. The post Tender – Framework agreement for geothermal consultancy at Grangegorman, Ireland first appeared on ThinkGeoEnergy - Ge"
-      },
-      {
-       "title": "Increasing levels of debt carried by EU institutions a concern, says top auditor",
-       "url": "https://www.irishtimes.com/business/2026/10/08/joint-debt-taken-on-by-eu-not-virtual-money-top-auditor-warns/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-08T05:00:01.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/joint-debt-taken-on-by-eu-not-virtual-money-top-auditor-warns/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The union’s borrowing is projected to hit €1 trillion by 2027"
       },
       {
        "title": "Recording exists to show worker was pressured to take Deloitte partner’s name out of HR complaint, WRC told",
@@ -3531,6 +3723,23 @@
         "stage": "innovation"
        },
        "blurb": "The European Marine Energy Centre (EMEC) has secured GBP 3 million (approximately EUR 3.5 million) from UK Research and Innovation (UKRI) to..."
+      },
+      {
+       "title": "Woodland improvements linked to lower antidepressant use, study finds",
+       "url": "https://www.forestryjournal.co.uk/news/26608762.investment-town-woodlands-linked-lower-antidepressant-use/?ref=rss",
+       "source": "Forestry Journal",
+       "published": "2026-10-05T14:39:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Forestry Journal",
+         "url": "https://www.forestryjournal.co.uk/news/26608762.investment-town-woodlands-linked-lower-antidepressant-use/?ref=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Researchers at the Universities of Edinburgh and Glasgow analysed data from more than 129,000 people over five years."
       }
      ]
     },
@@ -3656,6 +3865,11 @@
          "primary": false
         },
         {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
+         "primary": false
+        },
+        {
          "name": "TechCrunch",
          "url": "https://techcrunch.com/2026/10/07/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/",
          "primary": false
@@ -3681,23 +3895,6 @@
        "stages": [],
        "via": null,
        "blurb": "Bharti Airtel is set to raise its postpaid tariffs by 3-10% starting Thursday, which affects all users. The new plans will incorporate free international roaming, valued at Rs 2,000 for each SIM once per trip. This change means that postpaid plans will now begin at Rs 499, reflec"
-      },
-      {
-       "title": "India denies bias in satellite internet approvals after Musk's 'oligarchs' jab",
-       "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
-       "source": "CNA Business",
-       "published": "2026-10-08T05:09:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
       }
      ]
     },
@@ -3752,6 +3949,33 @@
        "blurb": "Studio Pietrangeli has begun consultancy work on the proposed 24 MW Zungki and 42 MW Lower Tizu hydropower projects in Nagaland, India. The post Studio Pietrangeli begins consultancy work on two Indian hydropower projects appeared first on International Water Power ."
       }
      ]
+    },
+    "media": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Judge says Paramount and Warner must halt merger for at least two weeks",
+       "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-08T12:00:26.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
+         "primary": false
+        },
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Twelve States sued to block Paramount's pending buyout of Warner last week, alleging that such a combination would “extinguish competition” in Hollywood and lead to fewer choices for consumers"
+      }
+     ]
     }
    }
   },
@@ -3786,6 +4010,23 @@
         "stage": "innovation"
        },
        "blurb": "Tata Power has partnered with Norway-based renewable energy technology company Ocean Sun to undertake a 300 kWp floating solar pilot in India based on Ocean Sun’s membrane-based floating solar technology. The post Tata Power to pilot membrane-based floating solar with Norway’s Oc"
+      },
+      {
+       "title": "Scientists decode reproductive switch in Norway spruce",
+       "url": "https://www.forestryjournal.co.uk/news/26606667.scientists-decode-reproductive-switch-norway-spruce/?ref=rss",
+       "source": "Forestry Journal",
+       "published": "2026-10-05T09:15:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Forestry Journal",
+         "url": "https://www.forestryjournal.co.uk/news/26606667.scientists-decode-reproductive-switch-norway-spruce/?ref=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In addition, the researchers discovered a previously unknown gene called DAL55."
       }
      ]
     }
@@ -4007,34 +4248,6 @@
     }
    }
   },
-  "ph": {
-   "label": "Philippines",
-   "level": "country",
-   "sources": {
-    "cyber": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "BPI Wealth assets breach P2 trillion, eyes 18% growth",
-       "url": "https://www.philstar.com/business/2026/10/08/2561578/bpi-wealth-assets-breach-p2-trillion-eyes-18-growth",
-       "source": "Philstar Business",
-       "published": "2026-10-07T16:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Philstar Business",
-         "url": "https://www.philstar.com/business/2026/10/08/2561578/bpi-wealth-assets-breach-p2-trillion-eyes-18-growth",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The asset management arm of Ayala-led Bank of the Philippine Islands (BPI) expects its assets under management to grow by as much as 18 percent this year as Filipino investors increasingly turn to fixed-income securities and global investment funds to navigate elevated inflation,"
-      }
-     ]
-    }
-   }
-  },
   "sg": {
    "label": "Singapore",
    "level": "country",
@@ -4146,6 +4359,11 @@
         {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/samsung-forecasts-record-80b-quarterly-profit-as-ai-boom-boosts-memory-demand/4081967",
+         "primary": false
+        },
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933",
          "primary": false
         }
        ],
@@ -4345,6 +4563,23 @@
         "stage": "innovation"
        },
        "blurb": "Windpower Monthly rounds up the latest wind power technology patents filed and granted in the past week."
+      },
+      {
+       "title": "Yarn Expo Spring Returns To Shanghai In 2027 As Material Innovation Reshapes Sourcing",
+       "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/yarn-expo-spring-returns-to-shanghai-in-2027-as-material-innovation-reshapes-sourcing/",
+       "source": "Textile World",
+       "published": "2026-10-06T15:57:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/yarn-expo-spring-returns-to-shanghai-in-2027-as-material-innovation-reshapes-sourcing/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "SHANGHAI — October 6, 2026 — Yarn Expo Spring will welcome the global yarn and fibre industry back to the National Exhibition and Convention Center (Shanghai) from 10 – 12 March 2027. The upcoming fair follows its strongest edition to date, held in March this year, when over 600 "
       }
      ]
     },
@@ -4423,34 +4658,6 @@
        "stages": [],
        "via": null,
        "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
-      }
-     ]
-    }
-   }
-  },
-  "se": {
-   "label": "Sweden",
-   "level": "country",
-   "sources": {
-    "telecom": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Podcast: Yttrium, Terbium, Erbium, Ytterbium — A brief history of rare earths, ft RMG’s Magnus Ericsson",
-       "url": "https://www.northernminer.com/news/podcast-yttrium-terbium-erbium-ytterbium-a-brief-history-of-rare-earths-ft-rmgs-magnus-ericsson/1003895500/",
-       "source": "The Northern Miner",
-       "published": "2026-10-07T10:40:13.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/podcast-yttrium-terbium-erbium-ytterbium-a-brief-history-of-rare-earths-ft-rmgs-magnus-ericsson/1003895500/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "This week’s episode features Magnus Ericsson, adjunct professor at Luleå University of Technology in Sweden and co-founder of Mineral Economics and the Raw Materials Report, in conversation with host Adrian... The post Podcast: Yttrium, Terbium, Erbium, Ytterbium — A brief histor"
       }
      ]
     }
@@ -4550,100 +4757,113 @@
     }
    }
   },
-  "lt": {
-   "label": "Lithuania",
-   "level": "country",
+  "cn-sh": {
+   "label": "Shanghai",
+   "level": "admin1",
    "sources": {
-    "cyber": {
+    "research": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Lithuania Deploys Army to Kaliningrad Border After Belarus-Latvia Breach",
-       "url": "https://www.themoscowtimes.com/2026/10/08/lithuania-deploys-army-to-kaliningrad-border-after-belarus-latvia-breach-a93920",
-       "source": "The Moscow Times",
-       "published": "2026-10-08T11:34:51.000Z",
-       "verification": "multiple",
+       "title": "Yarn Expo Spring Returns To Shanghai In 2027 As Material Innovation Reshapes Sourcing",
+       "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/yarn-expo-spring-returns-to-shanghai-in-2027-as-material-innovation-reshapes-sourcing/",
+       "source": "Textile World",
+       "published": "2026-10-06T15:57:00.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/lithuania-to-deploy-troops-along-border-with-russias-kaliningrad-after-latvia-incident/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/lithuania-deploys-army-to-kaliningrad-border-after-belarus-latvia-breach-a93920",
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/yarn-expo-spring-returns-to-shanghai-in-2027-as-material-innovation-reshapes-sourcing/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Defense Minister Robertas Kaunas said around 100 soldiers would help guard the Lithuanian-Russian border over the next two weeks."
+       "blurb": "SHANGHAI — October 6, 2026 — Yarn Expo Spring will welcome the global yarn and fibre industry back to the National Exhibition and Convention Center (Shanghai) from 10 – 12 March 2027. The upcoming fair follows its strongest edition to date, held in March this year, when over 600 "
       }
      ]
     }
    }
   },
-  "by": {
-   "label": "Belarus",
-   "level": "country",
+  "cn-city-shanghai": {
+   "label": "Shanghai",
+   "level": "city",
    "sources": {
-    "cyber": {
+    "research": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Lithuania Deploys Army to Kaliningrad Border After Belarus-Latvia Breach",
-       "url": "https://www.themoscowtimes.com/2026/10/08/lithuania-deploys-army-to-kaliningrad-border-after-belarus-latvia-breach-a93920",
-       "source": "The Moscow Times",
-       "published": "2026-10-08T11:34:51.000Z",
-       "verification": "multiple",
+       "title": "Yarn Expo Spring Returns To Shanghai In 2027 As Material Innovation Reshapes Sourcing",
+       "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/yarn-expo-spring-returns-to-shanghai-in-2027-as-material-innovation-reshapes-sourcing/",
+       "source": "Textile World",
+       "published": "2026-10-06T15:57:00.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/lithuania-to-deploy-troops-along-border-with-russias-kaliningrad-after-latvia-incident/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/lithuania-deploys-army-to-kaliningrad-border-after-belarus-latvia-breach-a93920",
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/yarn-expo-spring-returns-to-shanghai-in-2027-as-material-innovation-reshapes-sourcing/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Defense Minister Robertas Kaunas said around 100 soldiers would help guard the Lithuanian-Russian border over the next two weeks."
+       "blurb": "SHANGHAI — October 6, 2026 — Yarn Expo Spring will welcome the global yarn and fibre industry back to the National Exhibition and Convention Center (Shanghai) from 10 – 12 March 2027. The upcoming fair follows its strongest edition to date, held in March this year, when over 600 "
       }
      ]
     }
    }
   },
-  "lv": {
-   "label": "Latvia",
-   "level": "country",
+  "us-il": {
+   "label": "Illinois",
+   "level": "admin1",
    "sources": {
-    "cyber": {
+    "research": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Lithuania Deploys Army to Kaliningrad Border After Belarus-Latvia Breach",
-       "url": "https://www.themoscowtimes.com/2026/10/08/lithuania-deploys-army-to-kaliningrad-border-after-belarus-latvia-breach-a93920",
-       "source": "The Moscow Times",
-       "published": "2026-10-08T11:34:51.000Z",
-       "verification": "multiple",
+       "title": "Plastic Ingenuity Showcasing Sustainable Packaging Innovation at Pack Expo",
+       "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
+       "source": "Plastics Today",
+       "published": "2026-10-06T11:58:31.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/lithuania-to-deploy-troops-along-border-with-russias-kaliningrad-after-latvia-incident/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/lithuania-deploys-army-to-kaliningrad-border-after-belarus-latvia-breach-a93920",
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Defense Minister Robertas Kaunas said around 100 soldiers would help guard the Lithuanian-Russian border over the next two weeks."
+       "blurb": "Plastic Ingenuity's Ameristar Award-winning PET medical device reel replaces PVC with recyclable material, converting 236,000 pounds annually. The company will spotlight its innovations at Pack Expo 2026, being held later this month in Chicago."
+      }
+     ]
+    }
+   }
+  },
+  "us-city-chicago": {
+   "label": "Chicago",
+   "level": "city",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Plastic Ingenuity Showcasing Sustainable Packaging Innovation at Pack Expo",
+       "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
+       "source": "Plastics Today",
+       "published": "2026-10-06T11:58:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Plastic Ingenuity's Ameristar Award-winning PET medical device reel replaces PVC with recyclable material, converting 236,000 pounds annually. The company will spotlight its innovations at Pack Expo 2026, being held later this month in Chicago."
       }
      ]
     }
@@ -4873,6 +5093,146 @@
        "stages": [],
        "via": null,
        "blurb": "The global AI boom is fast becoming the key driver of economies around the world but the boom is risking wider global inequality by leaving some nations behind, International Monetary Fund (IMF) chief Kristalina Georgieva warned on Wednesday. She also lamented a lack of “decisive"
+      }
+     ]
+    }
+   }
+  },
+  "my": {
+   "label": "Malaysia",
+   "level": "country",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Telekom Malaysia bets on agentic AI to meet surging infrastructure demand",
+       "url": "https://www.fierce-network.com/wireless/telekom-malaysia-bets-agentic-ai-meet-surging-infrastructure-demand",
+       "source": "Fierce Network",
+       "published": null,
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/wireless/telekom-malaysia-bets-agentic-ai-meet-surging-infrastructure-demand",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Telekom Malaysia, the country’s incumbent operator and its largest fixed-line broadband provider, may be using AI to improve efficiency across its network operations but says AI-led revenue opportunities have yet to emerge."
+      }
+     ]
+    }
+   }
+  },
+  "gb-eb": {
+   "label": "Edinburgh",
+   "level": "admin1",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Woodland improvements linked to lower antidepressant use, study finds",
+       "url": "https://www.forestryjournal.co.uk/news/26608762.investment-town-woodlands-linked-lower-antidepressant-use/?ref=rss",
+       "source": "Forestry Journal",
+       "published": "2026-10-05T14:39:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Forestry Journal",
+         "url": "https://www.forestryjournal.co.uk/news/26608762.investment-town-woodlands-linked-lower-antidepressant-use/?ref=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Researchers at the Universities of Edinburgh and Glasgow analysed data from more than 129,000 people over five years."
+      }
+     ]
+    }
+   }
+  },
+  "gb-gg": {
+   "label": "Glasgow",
+   "level": "admin1",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Woodland improvements linked to lower antidepressant use, study finds",
+       "url": "https://www.forestryjournal.co.uk/news/26608762.investment-town-woodlands-linked-lower-antidepressant-use/?ref=rss",
+       "source": "Forestry Journal",
+       "published": "2026-10-05T14:39:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Forestry Journal",
+         "url": "https://www.forestryjournal.co.uk/news/26608762.investment-town-woodlands-linked-lower-antidepressant-use/?ref=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Researchers at the Universities of Edinburgh and Glasgow analysed data from more than 129,000 people over five years."
+      }
+     ]
+    }
+   }
+  },
+  "gb-city-edinburgh": {
+   "label": "Edinburgh",
+   "level": "city",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Woodland improvements linked to lower antidepressant use, study finds",
+       "url": "https://www.forestryjournal.co.uk/news/26608762.investment-town-woodlands-linked-lower-antidepressant-use/?ref=rss",
+       "source": "Forestry Journal",
+       "published": "2026-10-05T14:39:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Forestry Journal",
+         "url": "https://www.forestryjournal.co.uk/news/26608762.investment-town-woodlands-linked-lower-antidepressant-use/?ref=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Researchers at the Universities of Edinburgh and Glasgow analysed data from more than 129,000 people over five years."
+      }
+     ]
+    }
+   }
+  },
+  "gb-city-glasgow": {
+   "label": "Glasgow",
+   "level": "city",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Woodland improvements linked to lower antidepressant use, study finds",
+       "url": "https://www.forestryjournal.co.uk/news/26608762.investment-town-woodlands-linked-lower-antidepressant-use/?ref=rss",
+       "source": "Forestry Journal",
+       "published": "2026-10-05T14:39:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Forestry Journal",
+         "url": "https://www.forestryjournal.co.uk/news/26608762.investment-town-woodlands-linked-lower-antidepressant-use/?ref=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Researchers at the Universities of Edinburgh and Glasgow analysed data from more than 129,000 people over five years."
       }
      ]
     }

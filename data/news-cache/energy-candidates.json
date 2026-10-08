@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T12:12:31.619Z",
+ "generatedAt": "2026-10-08T12:34:35.294Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -93,6 +93,46 @@
        "blurb": "Russia’s state-owned Rosatom has completed the buyout of Delo Group founder Sergei Shishkarev’s controlling stake, taking full control of one of the country’s largest transport and container logistics groups. Rosatom, which previously held 49% of Delo, has acquired Shishkarev’s r"
       },
       {
+       "title": "Constellation, Vistra uprate deals signal fastest path to new nuclear megawatts",
+       "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
+       "source": "Power Engineering",
+       "published": "2026-10-07T20:00:20.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Utility Dive",
+         "url": "https://www.utilitydive.com/news/constellation-google-deal-will-bring-890-mw-of-new-nuclear-to-pjm/832223/",
+         "primary": false
+        },
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/",
+         "primary": false
+        },
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/google-deal-backs-890-mw-of-constellation-nuclear-uprates-at-11-pjm-reactors/",
+         "primary": false
+        },
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Google, Meta and DOE are backing more than 1.3 GW of upgrades at existing reactors, much of it in power-hungry PJM."
+      },
+      {
        "title": "GAIN announces fourth round of 2026 vouchers",
        "url": "https://www.ans.org/news/2026-10-07/article-8470/iter-welcomes-last-major-component-needed-for-core-machine-assembly/",
        "source": "ANS Nuclear Newswire",
@@ -110,6 +150,23 @@
        ],
        "via": null,
        "blurb": "This week, the Department of Energy’s Gateway for Accelerated Innovation in Nuclear (GAIN) announced three fourth-round fiscal year 2026 vouchers to support the development of innovative nuclear technologies. Each company will get access to specific capabilities and expertise in "
+      },
+      {
+       "title": "Eliminating Heat Risks in Nuclear Cleanup: A DOE Contractor’s High-Tech Blueprint",
+       "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-07T14:00:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "For organizations like the Savannah River Mission Completion (SRMC), a liquid waste contractor for the U.S. Department of Energy (DOE) Office of Environmental Management at the Savannah River Site (SRS) in Aiken, South Carolina, the summer season poses significant challenges for "
       },
       {
        "title": "Vistra gets $4.2B DOE loan for planned uprates in Ohio, Pennsylvania",
@@ -226,45 +283,6 @@
        "stages": [],
        "via": null,
        "blurb": "The deal reportedly brings Rosatom’s market share in Russia’s container handling market to 50% and rail container transport to 44%."
-      },
-      {
-       "title": "Swiss citizens may get to vote on construction of new reactors",
-       "url": "https://www.world-nuclear-news.org/articles/swiss-citizens-may-get-to-vote-on-construction-of-new-reactors",
-       "source": "World Nuclear News",
-       "published": "2026-10-07T12:00:25.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/swiss-citizens-may-get-to-vote-on-construction-of-new-reactors",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "The Alliance for Secure Electricity Supply has launched a campaign for the lifting of the ban on new nuclear power plant construction in Switzerland. It comes as a broad coalition claims to have collected enough signatures in support of a referendum against the construction of ne"
-      },
-      {
-       "title": "German uranium oxide storage facility commissioned",
-       "url": "https://www.world-nuclear-news.org/articles/german-uranium-oxide-storage-facility-commissioned",
-       "source": "World Nuclear News",
-       "published": "2026-10-07T11:55:24.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/german-uranium-oxide-storage-facility-commissioned",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Uranium enrichment services provider Urenco has officially commissioned the uranium oxide storage facility at its site in Gronau, Germany. Construction of the facility was completed several years ago."
       }
      ]
     },
@@ -332,11 +350,6 @@
         {
          "name": "The Guardian Business",
          "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
-         "primary": false
-        },
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/brent-crude-jumps-over-4-as-middle-east-tensions-flare-while-share-prices-retreat/",
          "primary": false
         },
         {
@@ -440,6 +453,23 @@
        "blurb": "The Gazprom Neftekhim Salavat facility is one of Russia’s largest oil refining and petrochemical plants, located some 1,300 kilometers (800 miles) from the front line in Ukraine."
       },
       {
+       "title": "Asia Intelligence Brief — Thursday, October 8, 2026",
+       "url": "https://www.riotimesonline.com/asia-intelligence-brief-thursday-october-8-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T12:02:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/asia-intelligence-brief-thursday-october-8-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Rio Times · Asia Intelligence Brief October 8, 2024 — Asian equities retreat on oil and yield pressure; China plans post-reunification Taiwan governance and taps ultra-deep oil; India weighs US F-35 aircraft. The post Asia Intelligence Brief — Thursday, October 8, 2026 appeared f"
+      },
+      {
        "title": "Gulf economies to shrink despite higher oil prices as Iran war takes toll, World Bank says",
        "url": "https://www.euronews.com/2026/10/08/gulf-economies-to-shrink-despite-higher-oil-prices-as-iran-war-takes-toll-world-bank-says",
        "source": "Euronews Business",
@@ -477,23 +507,6 @@
        ],
        "via": null,
        "blurb": "Lithium carbonate production capacity at the site increased to 48,000 tons/year."
-      },
-      {
-       "title": "Ryanair CEO sees no European jet fuel shortages into summer 2027",
-       "url": "https://www.euronews.com/2026/10/08/ryanair-ceo-sees-no-european-jet-fuel-shortages-into-summer-2027",
-       "source": "Euronews Business",
-       "published": "2026-10-08T10:52:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/08/ryanair-ceo-sees-no-european-jet-fuel-shortages-into-summer-2027",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Ryanair CEO Michael O’Leary expects Europe to have enough jet fuel through next summer, but warns that high prices will persist for another 12 to 18 months."
       },
       {
        "title": "EIA raises Brent forecast to $105 a barrel for Q4 2026; gas-heated homes to spend less this winter",
@@ -562,7 +575,7 @@
        "title": "MISC to order five more LNG carriers for Petronas charter",
        "url": "https://lngprime.com/asia/misc-to-order-five-more-lng-carriers-for-petronas-charter/198123/",
        "source": "LNG Prime",
-       "published": "2026-10-08T11:13:37.000Z",
+       "published": "2026-10-08T12:24:37.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -576,6 +589,25 @@
        ],
        "via": null,
        "blurb": "Malaysian shipping firm MISC will order five additional newbuild 174,000-cbm liquefied natural gas (LNG) carriers at China's Hudong-Zhonghua. The vessels will serve a 20-year charter with a unit of MISC's parent, Petronas."
+      },
+      {
+       "title": "Galp wins Calcasieu Pass arbitration against Venture Global",
+       "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T12:22:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Portuguese energy firm Galp has won an arbitration case against US LNG exporter Venture Global LNG over LNG sales from the Calcasieu Pass plant in Louisiana."
       },
       {
        "title": "Japan’s first LNG bunkering ship wraps up 200th STS op",
@@ -752,23 +784,6 @@
        ],
        "via": null,
        "blurb": "The US Coast Guard ordered storm preparations at lower Mississippi River ports on Wednesday as forecasters predict Tropical Storm Isaias to become a hurricane by Thursday on a track that could avoid most Gulf Coast LNG export capacity."
-      },
-      {
-       "title": "EIA Sees Lower Winter Natural Gas Heating Bills, With 1 Key Exception",
-       "url": "https://naturalgasintel.com/news/eia-sees-lower-winter-natural-gas-heating-bills-with-1-key-exception/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T17:43:36.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/eia-sees-lower-winter-natural-gas-heating-bills-with-1-key-exception/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A mix of depressed prices and a potential for warmer weather in parts of the United States could mean homes that use natural gas for heating are in line for lower bills this winter, according to the US Energy Information Administration (EIA)."
       }
      ]
     },
@@ -962,6 +977,30 @@
      "brief": "ready",
      "candidates": [
       {
+       "title": "Northland, ORLEN complete turbine installation at Baltic Power wind farm",
+       "url": "https://www.power-technology.com/news/northland-orlen-turbine-installation-baltic-power/",
+       "source": "Power Technology",
+       "published": "2026-10-08T07:31:04.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/northland-orlen-turbine-installation-baltic-power/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/offshore-wind/orlen-submits-baltic-west-environmental-reports/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Canadian power producer Northland Power, in partnership with ORLEN, has completed the installation of all 76 turbines at the 1.1GW Baltic Power offshore wind project in the Baltic Sea off Poland’s coast."
+      },
+      {
        "title": "Dogger Bank B Wind Turbine Installation Passes Halfway Mark",
        "url": "https://offshorewind.biz/2026/10/08/dogger-bank-b-wind-turbine-installation-passes-halfway-mark",
        "source": "offshoreWIND.biz",
@@ -979,6 +1018,25 @@
        ],
        "via": null,
        "blurb": "Forty-nine wind turbines have been installed at the Dogger Bank B offshore wind farm site in the UK, according to the latest mariners' notice..."
+      },
+      {
+       "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
+       "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
+       "source": "Maryland Matters",
+       "published": "2026-10-07T17:43:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Maryland Matters",
+         "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "US Wind turned over its Tradepoint Atlantic lease at Sparrows Point to Anduril and shelved its planned tower and monopile plant, citing legal disputes and federal uncertainty over its Ocean City offshore wind project."
       },
       {
        "title": "Ten OEMs lined up for share of 5.5GW in Chinese onshore wind auction",
@@ -1015,25 +1073,6 @@
        "stages": [],
        "via": null,
        "blurb": "The Global Wind Energy Council (GWEC) and more than 50 companies and organisations involved in floating offshore wind have called for coordinated..."
-      },
-      {
-       "title": "Northland, ORLEN complete turbine installation at Baltic Power wind farm",
-       "url": "https://www.power-technology.com/news/northland-orlen-turbine-installation-baltic-power/",
-       "source": "Power Technology",
-       "published": "2026-10-08T07:31:04.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Power Technology",
-         "url": "https://www.power-technology.com/news/northland-orlen-turbine-installation-baltic-power/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Canadian power producer Northland Power, in partnership with ORLEN, has completed the installation of all 76 turbines at the 1.1GW Baltic Power offshore wind project in the Baltic Sea off Poland’s coast."
       },
       {
        "title": "France Energies Marines Launches Four Offshore Wind R&D Projects",
@@ -1177,23 +1216,6 @@
        ],
        "via": null,
        "blurb": "Verlume, a UK-headquartered subsea batteries and power management systems specialist, has put its 500 kWh modular subsea energy storage system to..."
-      },
-      {
-       "title": "Vestas eyes collaboration with deepwater offshore wind tech company",
-       "url": "https://www.windpowermonthly.com/article/1971824/vestas-eyes-collaboration-deepwater-offshore-wind-tech-company",
-       "source": "Windpower Monthly",
-       "published": "2026-10-06T16:01:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Windpower Monthly",
-         "url": "https://www.windpowermonthly.com/article/1971824/vestas-eyes-collaboration-deepwater-offshore-wind-tech-company",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
       }
      ]
     },
@@ -1223,6 +1245,25 @@
        ],
        "via": null,
        "blurb": "Tata Power has partnered with Norway’s Ocean Sun to test membrane-based floating solar technology at its Maharashtra reservoir."
+      },
+      {
+       "title": "Researchers find almost 8,000 European solar energy systems exposed to internet cyberattacks",
+       "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
+       "source": "PV Tech",
+       "published": "2026-10-08T12:22:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "A joint Dutch team of researchers shows commercial solar power assets are internet-accessible, creating a dangerous threat to infrastructure."
       },
       {
        "title": "Solar emerges as an alternative to Nigeria’s unreliable grid {Business Africa}",
@@ -1279,6 +1320,26 @@
        "stages": [],
        "via": null,
        "blurb": "SolarPower Europe expects the EU solar workforce to fall 12% by 2030 as deployment growth stalls, according to a new report."
+      },
+      {
+       "title": "ContourGlobal begins Arizona solar-storage construction",
+       "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+       "source": "reNEWS",
+       "published": "2026-10-08T09:48:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
       },
       {
        "title": "Global PV oversupply accelerates consolidation, regional price divergence",
@@ -1392,44 +1453,6 @@
        "stages": [],
        "via": null,
        "blurb": "A Canadian-Swiss-German collaboration has developed semi-transparent organic solar cells with efficiencies of up to 12.04% and fully printed modules reaching 10.2%. The technology combines Brilliant Matters’ BM10 OPV platform with HeiQ’s silver nanowire electrodes and is targeted"
-      },
-      {
-       "title": "UNSW and UtmoLight set 23.5% efficiency record for large-area perovskite solar submodule",
-       "url": "https://www.pv-tech.org/unsw-and-utmolight-set-23-5-efficiency-record-for-large-area-perovskite-solar-submodule/",
-       "source": "PV Tech",
-       "published": "2026-10-08T03:25:59.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/unsw-and-utmolight-set-23-5-efficiency-record-for-large-area-perovskite-solar-submodule/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "Researchers at UNSW and UtmoLight have achieved a certified stabilised efficiency of 23.5% for a large-area perovskite solar submodule."
-      },
-      {
-       "title": "Australia wants to sell Singapore solar power. But does anyone want it?",
-       "url": "https://www.abc.net.au/news/2026-10-08/sun-cable-plans-to-send-australian-solar-energy-to-singapore/107229542",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-07T18:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/sun-cable-plans-to-send-australian-solar-energy-to-singapore/107229542",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "It has unrivalled ambition and is backed by a tech billionaire, but Sun Cable's plans to export solar power to Singapore are floundering."
       }
      ]
     },
@@ -1473,6 +1496,30 @@
        "blurb": "Eryri National Park Authority in Wales has agreed to withdraw planning approval for a proposed Eryri hydropower scheme near Llan Ffestiniog The post Eryri hydropower approval withdrawn following legal challenge appeared first on International Water Power ."
       },
       {
+       "title": "DOE selects second round of hydropower projects for technical support, with modernization in mind",
+       "url": "https://www.power-eng.com/renewables/hydropower/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
+       "source": "Power Engineering",
+       "published": "2026-10-07T17:27:00.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Hydro Review",
+         "url": "https://www.renewableenergyworld.com/hydro-power/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/renewables/hydropower/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "The U.S. Department of Energy's Hydropower and Hydrokinetic Office selected 14 hydropower projects for negotiations on vouchers for in-kind support."
+      },
+      {
        "title": "Wave and tidal energy outlook: global potential, policy and technology",
        "url": "https://www.waterpowermagazine.com/analysis/wave-and-tidal-energy-outlook-global-potential-policy-and-technology/",
        "source": "International Water Power & Dam Construction",
@@ -1507,25 +1554,6 @@
        ],
        "via": null,
        "blurb": "Studio Pietrangeli has begun consultancy work on the proposed 24 MW Zungki and 42 MW Lower Tizu hydropower projects in Nagaland, India. The post Studio Pietrangeli begins consultancy work on two Indian hydropower projects appeared first on International Water Power ."
-      },
-      {
-       "title": "DOE selects second round of hydropower projects for technical support, with modernization in mind",
-       "url": "https://www.renewableenergyworld.com/hydro-power/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
-       "source": "Hydro Review",
-       "published": "2026-10-07T10:48:42.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Hydro Review",
-         "url": "https://www.renewableenergyworld.com/hydro-power/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "The U.S. Department of Energy's Hydropower and Hydrokinetic Office selected 14 hydropower projects for negotiations on vouchers for in-kind support."
       },
       {
        "title": "Adani and DGPC agree 770MW Chamkharchhu-I hydropower partnership, Bhutan",
@@ -1911,6 +1939,25 @@
        "blurb": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy."
       },
       {
+       "title": "R.Power completes Jedwabno battery installation",
+       "url": "https://www.renews.biz/other-news/energy-storage/r-power-completes-jedwabno-battery-installation/",
+       "source": "reNEWS",
+       "published": "2026-10-08T09:00:10.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/other-news/energy-storage/r-power-completes-jedwabno-battery-installation/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Polish 150MW energy storage project targets December 2026 energisation"
+      },
+      {
        "title": "Global BESS failure rates declined 99% between 2018 and 2025",
        "url": "https://www.energy-storage.news/global-bess-failure-rates-declined-99-between-2018-and-2025/",
        "source": "Energy-Storage.news",
@@ -2063,43 +2110,24 @@
        "blurb": "The Philippines is exploring a one-percent sustainable aviation fuel blending mandate for the aviation sector by 2030, according to a senior energy official."
       },
       {
-       "title": "Deployable Energy to test its Unity nuclear battery in DOME",
-       "url": "https://www.world-nuclear-news.org/articles/deployable-energy-to-test-its-unity-nuclear-battery-in-dome",
-       "source": "World Nuclear News",
-       "published": "2026-10-07T14:16:05.000Z",
+       "title": "Nala begins construction at 125MW BESS project",
+       "url": "https://www.renews.biz/other-news/energy-storage/nala-begins-construction-at-125mw-bess-project/",
+       "source": "reNEWS",
+       "published": "2026-10-07T15:18:37.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/deployable-energy-to-test-its-unity-nuclear-battery-in-dome",
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/other-news/energy-storage/nala-begins-construction-at-125mw-bess-project/",
          "primary": false
         }
        ],
        "stages": [
-        "innovation",
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
-      },
-      {
-       "title": "NextEra halts Long Island BESS operations over drinking water contamination concerns",
-       "url": "https://www.energy-storage.news/nextera-halts-long-island-bess-operations-over-drinking-water-contamination-concerns/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-07T13:12:30.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/nextera-halts-long-island-bess-operations-over-drinking-water-contamination-concerns/",
-         "primary": false
-        }
-       ],
-       "stages": [
+        "generation",
         "grid"
        ],
        "via": null,
-       "blurb": "US energy holding company and project developer-owner NextEra Energy has suspended operations at two energy storage facilities in Long Island, New York, US."
+       "blurb": "Finnish system brings developer's pipeline to 275MW"
       }
      ]
     }
@@ -2192,6 +2220,23 @@
        "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
       },
       {
+       "title": "Eliminating Heat Risks in Nuclear Cleanup: A DOE Contractor’s High-Tech Blueprint",
+       "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-07T14:00:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "For organizations like the Savannah River Mission Completion (SRMC), a liquid waste contractor for the U.S. Department of Energy (DOE) Office of Environmental Management at the Savannah River Site (SRS) in Aiken, South Carolina, the summer season poses significant challenges for "
+      },
+      {
        "title": "Deployable Energy to test its Unity nuclear battery in DOME",
        "url": "https://www.world-nuclear-news.org/articles/deployable-energy-to-test-its-unity-nuclear-battery-in-dome",
        "source": "World Nuclear News",
@@ -2232,6 +2277,26 @@
        "blurb": "Google and Constellation Energy have announced a long-term collaboration to bring 890 MW of new nuclear capacity onto the PJM Interconnection grid, as well as a power purchase agreement. Meanwhile, Oracle is to subscribe to output from the Point Beach nuclear power plant."
       },
       {
+       "title": "Amazon, Constellation sign 20-year PPA to expand Maryland nuclear plant",
+       "url": "https://www.utilitydive.com/news/amazon-constellation-sign-20-year-ppa-to-expand-maryland-nuclear-plant/832145/",
+       "source": "Utility Dive",
+       "published": "2026-10-05T16:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Utility Dive",
+         "url": "https://www.utilitydive.com/news/amazon-constellation-sign-20-year-ppa-to-expand-maryland-nuclear-plant/832145/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "The tech giant and energy producer are backing improvements and renovations at the 1,790-MW Calvert Cliffs Clean Energy Center, the state’s largest source of clean energy."
+      },
+      {
        "title": "Energy Firms Try to Squeeze More Power Out of Old Nuclear Plants",
        "url": "https://www.nytimes.com/2026/10/06/climate/nuclear-power-plant-google-data-centers.html",
        "source": "NYT Technology",
@@ -2251,24 +2316,29 @@
        "blurb": "It takes a long time to build new nuclear plants. So, some U.S. companies are looking to get more electricity out of reactors that already exist."
       },
       {
-       "title": "Amazon, Constellation sign 20-year PPA to expand Maryland nuclear plant",
-       "url": "https://www.utilitydive.com/news/amazon-constellation-sign-20-year-ppa-to-expand-maryland-nuclear-plant/832145/",
-       "source": "Utility Dive",
-       "published": "2026-10-05T16:00:00.000Z",
-       "verification": "unconfirmed",
+       "title": "Tennessee Valley Authority Gets Approval to Build Small Nuclear Reactor",
+       "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
+       "source": "NYT Climate / Energy",
+       "published": "2026-09-29T18:09:37.000Z",
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "Utility Dive",
-         "url": "https://www.utilitydive.com/news/amazon-constellation-sign-20-year-ppa-to-expand-maryland-nuclear-plant/832145/",
+         "name": "NYT Climate / Energy",
+         "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/nuclear/smrs/tennessee-clinch-river-bwrx-300-smr-nrc-construction-permit/",
          "primary": false
         }
        ],
        "stages": [
         "generation",
-        "grid"
+        "innovation"
        ],
        "via": null,
-       "blurb": "The tech giant and energy producer are backing improvements and renovations at the 1,790-MW Calvert Cliffs Clean Energy Center, the state’s largest source of clean energy."
+       "blurb": "It’s only the second time that American regulators have approved a next-generation commercial reactor for construction. Big hurdles remain."
       },
       {
        "title": "Constellation, Google strike 890-MW nuclear deal to meet data center power demand",
@@ -2295,6 +2365,11 @@
         {
          "name": "Construction Dive",
          "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
          "primary": false
         }
        ],
@@ -2325,26 +2400,6 @@
        "blurb": "For most Americans, electricity is so woven into daily life that we rarely consider what its absence means. Hospitals depend on it to preserve medicines and operate equipment. Schools, factories, farms, and businesses depend on it to function. Reliable electricity is one of the f"
       },
       {
-       "title": "Tennessee Valley Authority Gets Approval to Build Small Nuclear Reactor",
-       "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
-       "source": "NYT Climate / Energy",
-       "published": "2026-09-29T18:09:37.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NYT Climate / Energy",
-         "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "It’s only the second time that American regulators have approved a next-generation commercial reactor for construction. Big hurdles remain."
-      },
-      {
        "title": "Second part of construction permit application submitted for SMRs at Palisades",
        "url": "https://www.world-nuclear-news.org/articles/second-part-of-construction-permit-application-submitted-for-pioneer-smrs",
        "source": "World Nuclear News",
@@ -2363,26 +2418,6 @@
        ],
        "via": null,
        "blurb": "Holtec has submitted the Preliminary Safety Analysis Report to the US Nuclear Regulatory Commission for two small modular reactor units at the Palisades Energy Center in Michigan, completing the second phase of the Construction Permit Application process."
-      },
-      {
-       "title": "GAO report looks at NRC workforce recruitment and retention",
-       "url": "https://www.ans.org/news/2026-10-05/article-8460/gao-report-looks-at-nrc-workforce-recruitment-and-retention/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-05T13:17:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-05/article-8460/gao-report-looks-at-nrc-workforce-recruitment-and-retention/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction",
-        "generation"
-       ],
-       "via": null,
-       "blurb": "A recently released report from the U.S. Government Accountability Office recommends that the Nuclear Regulatory Commission establish metrics to gauge whether its recruitment and retention efforts are meeting its current and future workforce needs, as well as complete its work on"
       }
      ]
     },
@@ -2429,6 +2464,23 @@
        "stages": [],
        "via": null,
        "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
+      },
+      {
+       "title": "Asia Intelligence Brief — Thursday, October 8, 2026",
+       "url": "https://www.riotimesonline.com/asia-intelligence-brief-thursday-october-8-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T12:02:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/asia-intelligence-brief-thursday-october-8-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Rio Times · Asia Intelligence Brief October 8, 2024 — Asian equities retreat on oil and yield pressure; China plans post-reunification Taiwan governance and taps ultra-deep oil; India weighs US F-35 aircraft. The post Asia Intelligence Brief — Thursday, October 8, 2026 appeared f"
       },
       {
        "title": "EIA: US crude oil inventories down 3.2 million bbl",
@@ -2509,23 +2561,40 @@
        "blurb": "Chevron has agreed to divest its ownership interests in Hess Midstream, along with its crude oil midstream assets in the Denver Julesburg (DJ) Basin in the US, as part of a transaction with Hess Midstream."
       },
       {
-       "title": "Westwin to build $502M nickel refinery in Mississippi",
-       "url": "https://www.northernminer.com/news/westwin-to-build-502m-nickel-refinery-in-mississippi/1003895478/",
-       "source": "The Northern Miner",
-       "published": "2026-10-06T20:55:06.000Z",
-       "verification": "unconfirmed",
+       "title": "Crude oil prices and refinery margins generally increased throughout the third quarter",
+       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
+       "source": "EIA Today in Energy",
+       "published": "2026-10-05T14:00:00.000Z",
+       "verification": "confirmed",
        "outlets": [
         {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/westwin-to-build-502m-nickel-refinery-in-mississippi/1003895478/",
-         "primary": false
+         "name": "EIA Today in Energy",
+         "url": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
+         "primary": true
         }
        ],
        "stages": [
         "generation"
        ],
        "via": null,
-       "blurb": "Westwin Elements plans to invest $502 million over five years to build a commercial-scale high-purity nickel refinery in Mississippi, as the U.S. seeks to expand domestic processing of critical minerals.... The post Westwin to build $502M nickel refinery in Mississippi appeared f"
+       "blurb": "Petroleum markets in the third quarter of 2026 (3Q26) were characterized by increasing prices for crude oil and petroleum products amid persistent conflict in the Middle East."
+      },
+      {
+       "title": "US supreme court hears big oil’s bid to block climate damage lawsuits",
+       "url": "https://www.theguardian.com/us-news/2026/oct/05/supreme-court-big-oil-climate-damage-lawsuits",
+       "source": "The Guardian Energy",
+       "published": "2026-10-05T19:57:36.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/us-news/2026/oct/05/supreme-court-big-oil-climate-damage-lawsuits",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "How the court will lean is unclear amid Suncor Energy and ExxonMobil’s attempt to stop lawsuits at state level The US supreme court began its new nine-month term hearing arguments on Monday in a major case in which big oil companies attempted to strike a fatal blow against lawsui"
       },
       {
        "title": "US BLM sets December California oil, gas lease sale",
@@ -2569,60 +2638,23 @@
        "blurb": "Chevron CFO Eimear Bonner expects energy prices to stay elevated, while a major trucking CEO says contracts signed before diesel prices rose are hurting the bottom line."
       },
       {
-       "title": "Narrowed Jones Act exemption slows energy cargo trade",
-       "url": "https://www.ttnews.com/articles/jones-act",
-       "source": "Transport Topics",
-       "published": "2026-10-07T16:58:52.000Z",
+       "title": "Shell Reports Declining Chemical Margins Amid Refining Gains",
+       "url": "https://www.plasticstoday.com/materials/shell-reports-declining-chemical-margins-amid-refining-gains",
+       "source": "Plastics Today",
+       "published": "2026-10-07T17:38:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Transport Topics",
-         "url": "https://www.ttnews.com/articles/jones-act",
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/materials/shell-reports-declining-chemical-margins-amid-refining-gains",
          "primary": false
         }
        ],
        "stages": [
-        "extraction",
         "generation"
        ],
        "via": null,
-       "blurb": "Narrowing the Jones Act has curbed a roaring trade that was supplying East and West coast ports with fuel produced on the Gulf Coast, as well as crude oil and products used in refining."
-      },
-      {
-       "title": "Diesel prices are rising worldwide. So are electric truck sales.",
-       "url": "https://www.canarymedia.com/articles/clean-fleets/diesel-prices-electric-truck-sales",
-       "source": "Canary Media",
-       "published": "2026-10-02T07:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Canary Media",
-         "url": "https://www.canarymedia.com/articles/clean-fleets/diesel-prices-electric-truck-sales",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "See more from Canary Media’s ​“Chart of the Week” column . The market for battery-powered trucks may be slowing in the U.S. — but globally it’s a very different story. Worldwide, sales of medium- and heavy-duty electric trucks hit a record high in the first half of this year, acc"
-      },
-      {
-       "title": "Daybreak Oct. 5: Trump says no to diesel export ban",
-       "url": "https://www.agri-pulse.com/articles/25333-daybreak-oct-5-trump-says-no-to-diesel-export-ban",
-       "source": "Agri-Pulse",
-       "published": "2026-10-05T13:07:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Agri-Pulse",
-         "url": "https://www.agri-pulse.com/articles/25333-daybreak-oct-5-trump-says-no-to-diesel-export-ban",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "The national average for a gallon of gasoline and diesel fell last week as crude oil prices cooled, though costs at the pump remain the highest ever for this time of year, with midterm elections less than a month away."
+       "blurb": "Shell's Q3 2026 update reveals declining chemical margins and operational challenges from low Rhine water levels, offset by stronger refining performance and expanded production capacity."
       }
      ]
     },
@@ -2672,6 +2704,25 @@
        ],
        "via": null,
        "blurb": "Great Basin Gas Transmission has upsized its northern Nevada natural gas expansion to nearly 950 MMcf/d and a 48-inch diameter pipe, leaving room to add compression later for growing demand from data centers, power generators and industrial users."
+      },
+      {
+       "title": "Galp wins Calcasieu Pass arbitration against Venture Global",
+       "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T12:22:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Portuguese energy firm Galp has won an arbitration case against US LNG exporter Venture Global LNG over LNG sales from the Calcasieu Pass plant in Louisiana."
       },
       {
        "title": "LNG market tightens into winter as Europe pulls US cargoes, China reopens contract talks",
@@ -2767,25 +2818,6 @@
        "stages": [],
        "via": null,
        "blurb": "A mix of depressed prices and a potential for warmer weather in parts of the United States could mean homes that use natural gas for heating are in line for lower bills this winter, according to the US Energy Information Administration (EIA)."
-      },
-      {
-       "title": "U.S. natural gas production reached a record high in July 2026",
-       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68225",
-       "source": "EIA Today in Energy",
-       "published": "2026-10-02T14:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "EIA Today in Energy",
-         "url": "https://www.eia.gov/todayinenergy/detail.php?id=68225",
-         "primary": true
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "via": null,
-       "blurb": "U.S. natural gas production hit an all-time high in July 2026, driven primarily by increased output in the Permian Basin, according to our latest Natural Gas Monthly."
       },
       {
        "title": "Execs Predict Future Henry Hub NatGas Prices",
@@ -2888,9 +2920,53 @@
       }
      ]
     },
+    "wind": {
+     "brief": "ready",
+     "candidates": [
+      {
+       "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
+       "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
+       "source": "Maryland Matters",
+       "published": "2026-10-07T17:43:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Maryland Matters",
+         "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "US Wind turned over its Tradepoint Atlantic lease at Sparrows Point to Anduril and shelved its planned tower and monopile plant, citing legal disputes and federal uncertainty over its Ocean City offshore wind project."
+      }
+     ]
+    },
     "solar": {
      "brief": "ready",
      "candidates": [
+      {
+       "title": "ContourGlobal begins Arizona solar-storage construction",
+       "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+       "source": "reNEWS",
+       "published": "2026-10-08T09:48:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
+      },
       {
        "title": "Clearway secures financing, starts construction on 650MW Missouri solar project",
        "url": "https://www.pv-tech.org/clearway-secures-financing-starts-construction-on-650mw-missouri-solar-project/",
@@ -3032,23 +3108,6 @@
        "blurb": "Manufacturers say they are close to perfecting a new, more efficient solar panel that could help the United States reclaim ground it lost."
       },
       {
-       "title": "Will a BAAJA blast quench America’s thirst for energy? | Factor This Brief",
-       "url": "https://www.renewableenergyworld.com/energy-business/new-project-development/will-a-baaja-blast-quench-americas-thirst-for-energy-factor-this-brief/",
-       "source": "Hydro Review",
-       "published": "2026-10-05T09:55:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Hydro Review",
-         "url": "https://www.renewableenergyworld.com/energy-business/new-project-development/will-a-baaja-blast-quench-americas-thirst-for-energy-factor-this-brief/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A long-awaited permitting bill surfaces; Black & Veatch puts the finishing touches on Mitsui & Co.'s first US utility-scale solar project, TurningPoint Energy and Nautilus partner on another Delaware community solar site, Lydian Energy closes on a $300M credit facility, and indus"
-      },
-      {
        "title": "Despite big Texas solar purchase agreement, Meta still uses lots of gas",
        "url": "https://www.canarymedia.com/articles/corporate-procurement/meta-large-solar-purchase-texas",
        "source": "Canary Media",
@@ -3093,14 +3152,19 @@
      "candidates": [
       {
        "title": "DOE selects second round of hydropower projects for technical support, with modernization in mind",
-       "url": "https://www.renewableenergyworld.com/hydro-power/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
-       "source": "Hydro Review",
-       "published": "2026-10-07T10:48:42.000Z",
-       "verification": "unconfirmed",
+       "url": "https://www.power-eng.com/renewables/hydropower/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
+       "source": "Power Engineering",
+       "published": "2026-10-07T17:27:00.000Z",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "Hydro Review",
          "url": "https://www.renewableenergyworld.com/hydro-power/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/renewables/hydropower/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
          "primary": false
         }
        ],
@@ -3410,6 +3474,86 @@
     }
    }
   },
+  "us-md": {
+   "label": "Maryland",
+   "level": "admin1",
+   "sources": {
+    "nuclear": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Amazon, Constellation sign 20-year PPA to expand Maryland nuclear plant",
+       "url": "https://www.utilitydive.com/news/amazon-constellation-sign-20-year-ppa-to-expand-maryland-nuclear-plant/832145/",
+       "source": "Utility Dive",
+       "published": "2026-10-05T16:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Utility Dive",
+         "url": "https://www.utilitydive.com/news/amazon-constellation-sign-20-year-ppa-to-expand-maryland-nuclear-plant/832145/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "The tech giant and energy producer are backing improvements and renovations at the 1,790-MW Calvert Cliffs Clean Energy Center, the state’s largest source of clean energy."
+      }
+     ]
+    },
+    "wind": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
+       "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
+       "source": "Maryland Matters",
+       "published": "2026-10-07T17:43:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Maryland Matters",
+         "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "US Wind turned over its Tradepoint Atlantic lease at Sparrows Point to Anduril and shelved its planned tower and monopile plant, citing legal disputes and federal uncertainty over its Ocean City offshore wind project."
+      }
+     ]
+    },
+    "emerging": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Maryland nets 440 MW/1,760 MWh in first bulk energy storage procurement",
+       "url": "https://www.utilitydive.com/news/maryland-nets-440-mw1760-mwh-in-first-bulk-energy-storage-procurement/832261/",
+       "source": "Utility Dive",
+       "published": "2026-10-06T16:01:15.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Utility Dive",
+         "url": "https://www.utilitydive.com/news/maryland-nets-440-mw1760-mwh-in-first-bulk-energy-storage-procurement/832261/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "The first round of awards under the Maryland Next Generation Energy Act fell short of the state’s 800-MW target as the PJM Interconnection’s capacity crunch continues."
+      }
+     ]
+    }
+   }
+  },
   "us-la": {
    "label": "Louisiana",
    "level": "admin1",
@@ -3446,6 +3590,25 @@
     "gas": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Galp wins Calcasieu Pass arbitration against Venture Global",
+       "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T12:22:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Portuguese energy firm Galp has won an arbitration case against US LNG exporter Venture Global LNG over LNG sales from the Calcasieu Pass plant in Louisiana."
+      },
       {
        "title": "Centalion buys Silver Hill’s Haynesville natural gas assets",
        "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
@@ -3501,11 +3664,16 @@
        "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
        "source": "NYT Climate / Energy",
        "published": "2026-09-29T18:09:37.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "NYT Climate / Energy",
          "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/nuclear/smrs/tennessee-clinch-river-bwrx-300-smr-nrc-construction-permit/",
          "primary": false
         }
        ],
@@ -3546,6 +3714,37 @@
        ],
        "via": null,
        "blurb": "Great Basin Gas Transmission has upsized its northern Nevada natural gas expansion to nearly 950 MMcf/d and a 48-inch diameter pipe, leaving room to add compression later for growing demand from data centers, power generators and industrial users."
+      }
+     ]
+    }
+   }
+  },
+  "fi": {
+   "label": "Finland",
+   "level": "country",
+   "sources": {
+    "emerging": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Nala begins construction at 125MW BESS project",
+       "url": "https://www.renews.biz/other-news/energy-storage/nala-begins-construction-at-125mw-bess-project/",
+       "source": "reNEWS",
+       "published": "2026-10-07T15:18:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/other-news/energy-storage/nala-begins-construction-at-125mw-bess-project/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Finnish system brings developer's pipeline to 275MW"
       }
      ]
     }
@@ -3784,11 +3983,16 @@
        "url": "https://www.pv-tech.org/sonnedix-adds-54mw-of-italian-solar-assets-taking-operational-portfolio-above-1-3gw/",
        "source": "PV Tech",
        "published": "2026-10-07T13:32:48.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "PV Tech",
          "url": "https://www.pv-tech.org/sonnedix-adds-54mw-of-italian-solar-assets-taking-operational-portfolio-above-1-3gw/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/sonnedix-buys-54mw-italian-solar-portfolio/",
          "primary": false
         }
        ],
@@ -4009,6 +4213,30 @@
    "label": "Portugal",
    "level": "country",
    "sources": {
+    "gas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Galp wins Calcasieu Pass arbitration against Venture Global",
+       "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T12:22:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Portuguese energy firm Galp has won an arbitration case against US LNG exporter Venture Global LNG over LNG sales from the Calcasieu Pass plant in Louisiana."
+      }
+     ]
+    },
     "wind": {
      "brief": "missing",
      "candidates": [
@@ -4146,15 +4374,39 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Sonnedix adds 54MW of Italian solar assets, taking operational portfolio above 1.3GW",
-       "url": "https://www.pv-tech.org/sonnedix-adds-54mw-of-italian-solar-assets-taking-operational-portfolio-above-1-3gw/",
+       "title": "Researchers find almost 8,000 European solar energy systems exposed to internet cyberattacks",
+       "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
        "source": "PV Tech",
-       "published": "2026-10-07T13:32:48.000Z",
+       "published": "2026-10-08T12:22:38.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "PV Tech",
+         "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "A joint Dutch team of researchers shows commercial solar power assets are internet-accessible, creating a dangerous threat to infrastructure."
+      },
+      {
+       "title": "Sonnedix adds 54MW of Italian solar assets, taking operational portfolio above 1.3GW",
+       "url": "https://www.pv-tech.org/sonnedix-adds-54mw-of-italian-solar-assets-taking-operational-portfolio-above-1-3gw/",
+       "source": "PV Tech",
+       "published": "2026-10-07T13:32:48.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "PV Tech",
          "url": "https://www.pv-tech.org/sonnedix-adds-54mw-of-italian-solar-assets-taking-operational-portfolio-above-1-3gw/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/sonnedix-buys-54mw-italian-solar-portfolio/",
          "primary": false
         }
        ],
@@ -4302,10 +4554,27 @@
        "blurb": "Kenya's Dangote Group names contractors for planned $16-billion crude oil refining and processing facility, billed as the largest-ever foreign investment in the country."
       },
       {
-       "title": "Sensex dives 1,045 points amid sharp spike in oil prices, fears of further monetary tightening",
+       "title": "Asia Intelligence Brief — Thursday, October 8, 2026",
+       "url": "https://www.riotimesonline.com/asia-intelligence-brief-thursday-october-8-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T12:02:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/asia-intelligence-brief-thursday-october-8-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Rio Times · Asia Intelligence Brief October 8, 2024 — Asian equities retreat on oil and yield pressure; China plans post-reunification Taiwan governance and taps ultra-deep oil; India weighs US F-35 aircraft. The post Asia Intelligence Brief — Thursday, October 8, 2026 appeared f"
+      },
+      {
+       "title": "Sensex, Nifty hit lowest level in 1.5 years amid rising crude prices, reaction to RBI policy",
        "url": "https://www.thehindu.com/business/markets/sensex-dives-1045-points-amid-sharp-spike-in-oil-prices-fears-of-further-monetary-tightening/article71559342.ece",
        "source": "The Hindu Business",
-       "published": "2026-10-08T11:09:54.000Z",
+       "published": "2026-10-08T11:56:32.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -4316,7 +4585,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Falling for the second day running, the 30-share BSE Sensex tumbled 1,045.46 points, or 1.44%, to settle at 71,593.24"
+       "blurb": "According to experts, the recovery in the markets that took place between April and August is now done, and that a further fall can be expected"
       }
      ]
     },
@@ -4612,11 +4881,16 @@
        "url": "https://www.power-technology.com/news/northland-orlen-turbine-installation-baltic-power/",
        "source": "Power Technology",
        "published": "2026-10-08T07:31:04.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "Power Technology",
          "url": "https://www.power-technology.com/news/northland-orlen-turbine-installation-baltic-power/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/offshore-wind/orlen-submits-baltic-west-environmental-reports/",
          "primary": false
         }
        ],
@@ -4787,11 +5061,16 @@
        "url": "https://www.pv-tech.org/sonnedix-adds-54mw-of-italian-solar-assets-taking-operational-portfolio-above-1-3gw/",
        "source": "PV Tech",
        "published": "2026-10-07T13:32:48.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "PV Tech",
          "url": "https://www.pv-tech.org/sonnedix-adds-54mw-of-italian-solar-assets-taking-operational-portfolio-above-1-3gw/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/sonnedix-buys-54mw-italian-solar-portfolio/",
          "primary": false
         }
        ],
@@ -4872,6 +5151,37 @@
     }
    }
   },
+  "us-az": {
+   "label": "Arizona",
+   "level": "admin1",
+   "sources": {
+    "solar": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "ContourGlobal begins Arizona solar-storage construction",
+       "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+       "source": "reNEWS",
+       "published": "2026-10-08T09:48:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
+      }
+     ]
+    }
+   }
+  },
   "cn": {
    "label": "China",
    "level": "country",
@@ -4905,6 +5215,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Asia Intelligence Brief — Thursday, October 8, 2026",
+       "url": "https://www.riotimesonline.com/asia-intelligence-brief-thursday-october-8-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T12:02:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/asia-intelligence-brief-thursday-october-8-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Rio Times · Asia Intelligence Brief October 8, 2024 — Asian equities retreat on oil and yield pressure; China plans post-reunification Taiwan governance and taps ultra-deep oil; India weighs US F-35 aircraft. The post Asia Intelligence Brief — Thursday, October 8, 2026 appeared f"
+      },
+      {
        "title": "China Refiners Flock to Iraqi Crude",
        "url": "https://www.rigzone.com/news/wire/china_refiners_flock_to_iraqi_crude-06-oct-2026-184784-article/?rss=true",
        "source": "Rigzone",
@@ -4930,7 +5257,7 @@
        "title": "MISC to order five more LNG carriers for Petronas charter",
        "url": "https://lngprime.com/asia/misc-to-order-five-more-lng-carriers-for-petronas-charter/198123/",
        "source": "LNG Prime",
-       "published": "2026-10-08T11:13:37.000Z",
+       "published": "2026-10-08T12:24:37.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -4964,23 +5291,6 @@
        ],
        "via": null,
        "blurb": "New capacity outside the Middle East offsets some losses, but inventories remain low, raising winter risk concerns."
-      },
-      {
-       "title": "Norwegian Car Carriers orders more LNG-powered PCTCs in China",
-       "url": "https://lngprime.com/asia/norwegian-car-carriers-orders-more-lng-powered-pctcs-in-china/198035/",
-       "source": "LNG Prime",
-       "published": "2026-10-07T09:59:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/asia/norwegian-car-carriers-orders-more-lng-powered-pctcs-in-china/198035/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "JP Morgan’s Norwegian Car Carriers (NOCC) has ordered more LNG dual-fuel pure car and truck carriers from China’s CIMC Raffles in Yantai."
       }
      ]
     },
@@ -5610,62 +5920,6 @@
        ],
        "via": null,
        "blurb": "Fit Energy, a developer of energy solutions for data center projects, has announced plans for a fuel cell power generation and data center project in Newport Township, Luzerne County, Pennsylvania. The project received township zoning approval for both uses in August of this year"
-      }
-     ]
-    }
-   }
-  },
-  "us-md": {
-   "label": "Maryland",
-   "level": "admin1",
-   "sources": {
-    "nuclear": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Amazon, Constellation sign 20-year PPA to expand Maryland nuclear plant",
-       "url": "https://www.utilitydive.com/news/amazon-constellation-sign-20-year-ppa-to-expand-maryland-nuclear-plant/832145/",
-       "source": "Utility Dive",
-       "published": "2026-10-05T16:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Utility Dive",
-         "url": "https://www.utilitydive.com/news/amazon-constellation-sign-20-year-ppa-to-expand-maryland-nuclear-plant/832145/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "The tech giant and energy producer are backing improvements and renovations at the 1,790-MW Calvert Cliffs Clean Energy Center, the state’s largest source of clean energy."
-      }
-     ]
-    },
-    "emerging": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Maryland nets 440 MW/1,760 MWh in first bulk energy storage procurement",
-       "url": "https://www.utilitydive.com/news/maryland-nets-440-mw1760-mwh-in-first-bulk-energy-storage-procurement/832261/",
-       "source": "Utility Dive",
-       "published": "2026-10-06T16:01:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Utility Dive",
-         "url": "https://www.utilitydive.com/news/maryland-nets-440-mw1760-mwh-in-first-bulk-energy-storage-procurement/832261/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "The first round of awards under the Maryland Next Generation Energy Act fell short of the state’s 800-MW target as the PJM Interconnection’s capacity crunch continues."
       }
      ]
     }
@@ -6524,11 +6778,16 @@
        "url": "https://www.power-technology.com/news/northland-orlen-turbine-installation-baltic-power/",
        "source": "Power Technology",
        "published": "2026-10-08T07:31:04.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "Power Technology",
          "url": "https://www.power-technology.com/news/northland-orlen-turbine-installation-baltic-power/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/offshore-wind/orlen-submits-baltic-west-environmental-reports/",
          "primary": false
         }
        ],
@@ -6543,6 +6802,25 @@
     "emerging": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "R.Power completes Jedwabno battery installation",
+       "url": "https://www.renews.biz/other-news/energy-storage/r-power-completes-jedwabno-battery-installation/",
+       "source": "reNEWS",
+       "published": "2026-10-08T09:00:10.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/other-news/energy-storage/r-power-completes-jedwabno-battery-installation/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Polish 150MW energy storage project targets December 2026 energisation"
+      },
       {
        "title": "Actis buys 1.14GWh of BESS in Poland from DTEK’s DRI",
        "url": "https://www.energy-storage.news/actis-buys-1-14gwh-of-bess-in-poland-from-dteks-dri/",
@@ -6693,30 +6971,6 @@
    "label": "Mississippi",
    "level": "admin1",
    "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Westwin to build $502M nickel refinery in Mississippi",
-       "url": "https://www.northernminer.com/news/westwin-to-build-502m-nickel-refinery-in-mississippi/1003895478/",
-       "source": "The Northern Miner",
-       "published": "2026-10-06T20:55:06.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/westwin-to-build-502m-nickel-refinery-in-mississippi/1003895478/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Westwin Elements plans to invest $502 million over five years to build a commercial-scale high-purity nickel refinery in Mississippi, as the U.S. seeks to expand domestic processing of critical minerals.... The post Westwin to build $502M nickel refinery in Mississippi appeared f"
-      }
-     ]
-    },
     "gas": {
      "brief": "missing",
      "candidates": [
@@ -6822,23 +7076,6 @@
        ],
        "via": null,
        "blurb": "Equinor on Wednesday again said it would cost more than expected to extend the life of its Hammerfest LNG export facility in Norway, pushing the cost estimate up to about $2.76 billion, but saying the project remains on track to be completed on time."
-      },
-      {
-       "title": "Norwegian Car Carriers orders more LNG-powered PCTCs in China",
-       "url": "https://lngprime.com/asia/norwegian-car-carriers-orders-more-lng-powered-pctcs-in-china/198035/",
-       "source": "LNG Prime",
-       "published": "2026-10-07T09:59:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/asia/norwegian-car-carriers-orders-more-lng-powered-pctcs-in-china/198035/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "JP Morgan’s Norwegian Car Carriers (NOCC) has ordered more LNG dual-fuel pure car and truck carriers from China’s CIMC Raffles in Yantai."
       }
      ]
     },
@@ -7108,6 +7345,83 @@
     }
    }
   },
+  "tw": {
+   "label": "Taiwan",
+   "level": "country",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Asia Intelligence Brief — Thursday, October 8, 2026",
+       "url": "https://www.riotimesonline.com/asia-intelligence-brief-thursday-october-8-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T12:02:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/asia-intelligence-brief-thursday-october-8-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Rio Times · Asia Intelligence Brief October 8, 2024 — Asian equities retreat on oil and yield pressure; China plans post-reunification Taiwan governance and taps ultra-deep oil; India weighs US F-35 aircraft. The post Asia Intelligence Brief — Thursday, October 8, 2026 appeared f"
+      }
+     ]
+    },
+    "gas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Aeroderivative gas turbine installation: How a 180 MW plant went live in ten months",
+       "url": "https://www.power-eng.com/gas/turbines/aeroderivative-gas-turbine-installation-how-a-180-mw-plant-went-live-in-ten-months/",
+       "source": "Power Engineering",
+       "published": "2026-10-05T10:20:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/gas/turbines/aeroderivative-gas-turbine-installation-how-a-180-mw-plant-went-live-in-ten-months/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "See how a 180 MW aeroderivative gas turbine installation went from groundbreaking to full grid operation in ten months at Taiwan's Tung Hsiao plant."
+      }
+     ]
+    },
+    "wind": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Siemens Gamesa suffers second turbine issue at Ørsted project in two months",
+       "url": "https://www.windpowermonthly.com/article/1971657/siemens-gamesa-suffers-second-turbine-issue-orsted-project-two-months",
+       "source": "Windpower Monthly",
+       "published": "2026-10-05T10:08:43.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Windpower Monthly",
+         "url": "https://www.windpowermonthly.com/article/1971657/siemens-gamesa-suffers-second-turbine-issue-orsted-project-two-months",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "A Siemens Gamesa turbine blade has been damaged at Ørsted's 583MW Greater Changhua 4 offshore wind farm in Taiwan."
+      }
+     ]
+    }
+   }
+  },
   "us-mi": {
    "label": "Michigan",
    "level": "admin1",
@@ -7269,11 +7583,16 @@
        "url": "https://www.pv-tech.org/sonnedix-adds-54mw-of-italian-solar-assets-taking-operational-portfolio-above-1-3gw/",
        "source": "PV Tech",
        "published": "2026-10-07T13:32:48.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "PV Tech",
          "url": "https://www.pv-tech.org/sonnedix-adds-54mw-of-italian-solar-assets-taking-operational-portfolio-above-1-3gw/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/sonnedix-buys-54mw-italian-solar-portfolio/",
          "primary": false
         }
        ],
@@ -7631,28 +7950,6 @@
        "blurb": "This offshore engineering contract enables KBR to support Aramco’s field development program off the coast of Saudi Arabia."
       }
      ]
-    },
-    "solar": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Saudi 250MW solar PV site is base for endangered species breeding programme",
-       "url": "https://www.pv-tech.org/saudi-250mw-solar-pv-site-is-base-for-endangered-species-breeding-programme/",
-       "source": "PV Tech",
-       "published": "2026-10-06T14:08:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/saudi-250mw-solar-pv-site-is-base-for-endangered-species-breeding-programme/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A 250MW solar park in the Prince Mohammed bin Salman Royal Reserve will be the site of a scheme to reintroduce endangered sand gazelles into the wild."
-      }
-     ]
     }
    }
   },
@@ -7952,6 +8249,34 @@
     }
    }
   },
+  "us-sc": {
+   "label": "South Carolina",
+   "level": "admin1",
+   "sources": {
+    "nuclear": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Eliminating Heat Risks in Nuclear Cleanup: A DOE Contractor’s High-Tech Blueprint",
+       "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-07T14:00:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "For organizations like the Savannah River Mission Completion (SRMC), a liquid waste contractor for the U.S. Department of Energy (DOE) Office of Environmental Management at the Savannah River Site (SRS) in Aiken, South Carolina, the summer season poses significant challenges for "
+      }
+     ]
+    }
+   }
+  },
   "us-in": {
    "label": "Indiana",
    "level": "admin1",
@@ -8194,7 +8519,7 @@
        "title": "MISC to order five more LNG carriers for Petronas charter",
        "url": "https://lngprime.com/asia/misc-to-order-five-more-lng-carriers-for-petronas-charter/198123/",
        "source": "LNG Prime",
-       "published": "2026-10-08T11:13:37.000Z",
+       "published": "2026-10-08T12:24:37.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -8810,36 +9135,6 @@
     }
    }
   },
-  "tw": {
-   "label": "Taiwan",
-   "level": "country",
-   "sources": {
-    "wind": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Siemens Gamesa suffers second turbine issue at Ørsted project in two months",
-       "url": "https://www.windpowermonthly.com/article/1971657/siemens-gamesa-suffers-second-turbine-issue-orsted-project-two-months",
-       "source": "Windpower Monthly",
-       "published": "2026-10-05T10:08:43.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Windpower Monthly",
-         "url": "https://www.windpowermonthly.com/article/1971657/siemens-gamesa-suffers-second-turbine-issue-orsted-project-two-months",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "A Siemens Gamesa turbine blade has been damaged at Ørsted's 583MW Greater Changhua 4 offshore wind farm in Taiwan."
-      }
-     ]
-    }
-   }
-  },
   "tw-cg": {
    "label": "Changhua",
    "level": "admin1",
@@ -8895,34 +9190,6 @@
        ],
        "via": null,
        "blurb": "A Siemens Gamesa turbine blade has been damaged at Ørsted's 583MW Greater Changhua 4 offshore wind farm in Taiwan."
-      }
-     ]
-    }
-   }
-  },
-  "us-de": {
-   "label": "Delaware",
-   "level": "admin1",
-   "sources": {
-    "solar": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Will a BAAJA blast quench America’s thirst for energy? | Factor This Brief",
-       "url": "https://www.renewableenergyworld.com/energy-business/new-project-development/will-a-baaja-blast-quench-americas-thirst-for-energy-factor-this-brief/",
-       "source": "Hydro Review",
-       "published": "2026-10-05T09:55:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Hydro Review",
-         "url": "https://www.renewableenergyworld.com/energy-business/new-project-development/will-a-baaja-blast-quench-americas-thirst-for-energy-factor-this-brief/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A long-awaited permitting bill surfaces; Black & Veatch puts the finishing touches on Mitsui & Co.'s first US utility-scale solar project, TurningPoint Energy and Nautilus partner on another Delaware community solar site, Lydian Energy closes on a $300M credit facility, and indus"
       }
      ]
     }

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T12:12:48.424Z",
+ "generatedAt": "2026-10-08T12:34:53.693Z",
  "sector": "manufacturing",
  "maxAgeDays": 10,
  "places": {
@@ -10,6 +10,28 @@
     "food": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "PepsiCo cuts forecast, deepens cost cuts as North America recovery drags",
+       "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/pepsico-to-cut-costs-as-weak-north-america-business-hurts-annual-core-profit-forecast/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-08T16:26:33.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/pepsico-to-cut-costs-as-weak-north-america-business-hurts-annual-core-profit-forecast/",
+         "primary": false
+        },
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/pepsico-cuts-forecast-deepens-cost-cuts-namerica-recovery-drags-6442351",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "PepsiCo warned on Thursday that growth and margin recovery in its key North American market was taking longer than planned and said it would pursue additional cost cuts to offset sluggish demand for its snacks and beverages."
+      },
       {
        "title": "Farm Hands on the Potomac: Joel Leftwich joins Idealyst Innovation, ​Robert Haus goes to Vylor, General Mills names Dana McNabb as CEO",
        "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
@@ -43,40 +65,6 @@
        "stages": [],
        "via": null,
        "blurb": "Robert Haus has joined Vylor as state government and industry affairs leader. Shawna Severson has been named executive vice president of the Montana Grain Growers Association. Adam Caldecott has been appointed CEO and president of Good Food Holdings, effective Oct. 5."
-      },
-      {
-       "title": "PepsiCo to cut costs as weak North America business hurts annual core profit forecast",
-       "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/pepsico-to-cut-costs-as-weak-north-america-business-hurts-annual-core-profit-forecast/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T14:22:23.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/pepsico-to-cut-costs-as-weak-north-america-business-hurts-annual-core-profit-forecast/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "PepsiCo said on Thursday it would pursue additional cost cuts after lowering its annual core profit forecast due to sluggish demand for its snacks and beverages in North America and rising input costs."
-      },
-      {
-       "title": "PepsiCo cuts forecast, deepens cost cuts as N.America recovery drags",
-       "url": "https://www.channelnewsasia.com/business/pepsico-cuts-forecast-deepens-cost-cuts-namerica-recovery-drags-6442351",
-       "source": "CNA Business",
-       "published": "2026-10-08T10:08:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/pepsico-cuts-forecast-deepens-cost-cuts-namerica-recovery-drags-6442351",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
       },
       {
        "title": "6 food manufacturers talk supply chain tactics",
@@ -152,6 +140,23 @@
        "blurb": "American pharmaceutical company Eli Lilly has broken ground on a $6.5bn Houston factory that will make Foundayo (orforglipron), the company’s first synthetic oral GLP-1 variant for treatment of type 2… The post Ground broken on $6.5bn Eli Lilly manufacturing facility for GLP-1 ap"
       },
       {
+       "title": "‘Majority of’ BCI cotton growers slash chemical use, carbon footprint",
+       "url": "https://www.just-style.com/news/bci-cotton-growers-report/",
+       "source": "Just Style",
+       "published": "2026-10-07T09:52:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Just Style",
+         "url": "https://www.just-style.com/news/bci-cotton-growers-report/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A majority of Better Cotton Initiative (BCI) growers have achieved deep reductions in nitrogen and pesticide use, as well as major drops in their carbon footprint."
+      },
+      {
        "title": "Bayer to invest $2.2B in Ohio pharmaceutical facility",
        "url": "https://www.manufacturingdive.com/news/bayer-to-invest-2b-ohio-pharmaceutical-facility-new-albany/832237/",
        "source": "Manufacturing Dive",
@@ -169,6 +174,57 @@
        "blurb": "The drugmaker plans to develop a “flexible, modular campus” with advanced digital and automation technologies. The first phase is set to be ready in 2031."
       },
       {
+       "title": "Shell Reports Declining Chemical Margins Amid Refining Gains",
+       "url": "https://www.plasticstoday.com/materials/shell-reports-declining-chemical-margins-amid-refining-gains",
+       "source": "Plastics Today",
+       "published": "2026-10-07T17:38:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/materials/shell-reports-declining-chemical-margins-amid-refining-gains",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Shell's Q3 2026 update reveals declining chemical margins and operational challenges from low Rhine water levels, offset by stronger refining performance and expanded production capacity."
+      },
+      {
+       "title": "Trust the Process: How Lean Six Sigma Optimizes Plastics Manufacturing",
+       "url": "https://www.plasticstoday.com/industry-trends/trust-the-process-how-lean-six-sigma-optimizes-plastics-manufacturing",
+       "source": "Plastics Today",
+       "published": "2026-10-07T13:06:47.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/industry-trends/trust-the-process-how-lean-six-sigma-optimizes-plastics-manufacturing",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Ashlesa Mohapatra shares her experience with using the Lean Six Sigma tool DMAIC to address purge waste, eliminate scrap from defective parts and machine idle time, as well as reduce impact from mold changes."
+      },
+      {
+       "title": "Halozyme prevails in patent fight with Merck; Enliven readies anticipated leukemia trial",
+       "url": "https://www.biopharmadive.com/news/halozyme-merck-europe-enliven-insmed-rougetx-kymathera/832282/",
+       "source": "BioPharma Dive",
+       "published": "2026-10-07T15:21:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BioPharma Dive",
+         "url": "https://www.biopharmadive.com/news/halozyme-merck-europe-enliven-insmed-rougetx-kymathera/832282/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A Dutch court barred Merck from selling subcutaneous Keytruda in several European countries. Elsewhere, an Insmed executive ended a seven-year run and two startups secured venture cash."
+      },
+      {
        "title": "Co-sponsors of Plastics Dialogue hold first round of technical discussions following MC14",
        "url": "https://www.wto.org/english/news_e/news26_e/ppesp_01oct26_504_e.htm",
        "source": "World Trade Organization",
@@ -184,6 +240,23 @@
        "stages": [],
        "via": null,
        "blurb": "At a meeting on 1 October 2026, WTO members participating in the Dialogue on Plastics Pollution and Environmentally Sustainable Plastics Trade (DPP) held the first substantive round of discussions across four areas of work: circular solutions to plastics pollution; waste-manageme"
+      },
+      {
+       "title": "Plastic Ingenuity Showcasing Sustainable Packaging Innovation at Pack Expo",
+       "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
+       "source": "Plastics Today",
+       "published": "2026-10-06T11:58:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Plastic Ingenuity's Ameristar Award-winning PET medical device reel replaces PVC with recyclable material, converting 236,000 pounds annually. The company will spotlight its innovations at Pack Expo 2026, being held later this month in Chicago."
       }
      ]
     },
@@ -228,6 +301,23 @@
        "stages": [],
        "via": null,
        "blurb": "While a majority of lawmakers moved the legislation through Friday, several raised concerns that the project was being rushed and without public input."
+      },
+      {
+       "title": "Everlaw’s 2026 AI Report: A Glass Half Full Or Half Empty?",
+       "url": "https://abovethelaw.com/2026/10/everlaws-2026-ai-report-a-glass-half-full-or-half-empty/",
+       "source": "Above the Law",
+       "published": "2026-10-07T22:15:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Above the Law",
+         "url": "https://abovethelaw.com/2026/10/everlaws-2026-ai-report-a-glass-half-full-or-half-empty/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Some of the report's conclusions may be optimistic and there is a need to look at them critically. The post Everlaw’s 2026 AI Report: A Glass Half Full Or Half Empty? appeared first on Above the Law ."
       }
      ]
     },
@@ -254,6 +344,11 @@
         {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/samsung-forecasts-record-80b-quarterly-profit-as-ai-boom-boosts-memory-demand/4081967",
+         "primary": false
+        },
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933",
          "primary": false
         }
        ],
@@ -299,23 +394,6 @@
        "stages": [],
        "via": null,
        "blurb": "Shell's direct liquid cooling (DLC) fluid has achieved NVIDIA DSX Ready Coolant qualification, reinforcing Shell's role in supporting the next generation of high-performance, AI-ready data center infrastructure"
-      },
-      {
-       "title": "Caterpillar powers remote gold mining operation with continuous, scalable solution",
-       "url": "https://im-mining.com/2026/10/07/caterpillar-powers-remote-gold-mining-operation-with-continuous-scalable-solution/",
-       "source": "International Mining",
-       "published": "2026-10-07T13:58:21.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "International Mining",
-         "url": "https://im-mining.com/2026/10/07/caterpillar-powers-remote-gold-mining-operation-with-continuous-scalable-solution/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "In the remote Aktobe region of Kazakhstan, a new gold mining operation is taking shape, with the power solution made up of new Cat® G3500K series gas generator sets. With the site located nearly 300 km from the nearest city and no existing electrical infrastructure, West Gold Min"
       },
       {
        "title": "Semiconductors pushed into insulator territory",
@@ -401,6 +479,23 @@
        "stages": [],
        "via": null,
        "blurb": "Windpower Monthly rounds up the latest patents for wind power technology granted and applied for in the last week."
+      },
+      {
+       "title": "Siemens to supply 1.7 GW of gas turbine cores for Dynamis’ ‘hypermobile’ power package",
+       "url": "https://www.power-eng.com/gas/turbines/siemens-to-supply-1-7-gw-of-gas-turbine-cores-for-dynamis-hypermobile-power-package/",
+       "source": "Power Engineering",
+       "published": "2026-10-01T13:01:15.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/gas/turbines/siemens-to-supply-1-7-gw-of-gas-turbine-cores-for-dynamis-hypermobile-power-package/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Siemens Energy and Dynamis Power Solutions have agreed to supply 119 gas turbine cores for mobile power generation in the US, starting in 2027, to meet growing energy demands."
       },
       {
        "title": "Wind power patents: China Three Gorges | Dongfang | Nordex | Siemens Gamesa",
@@ -689,43 +784,87 @@
       }
      ]
     },
-    "construction": {
+    "goods": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Mine backed by US, Australia and Gina Rinehart moves towards construction",
-       "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T07:10:55.000Z",
-       "verification": "unconfirmed",
+       "title": "ITMF survey finds textile demand remains weak despite improved outlook",
+       "url": "https://www.just-style.com/news/itmf-textile-industry-survey/",
+       "source": "Just Style",
+       "published": "2026-10-07T10:22:11.000Z",
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
+         "name": "Just Style",
+         "url": "https://www.just-style.com/news/itmf-textile-industry-survey/",
+         "primary": false
+        },
+        {
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/2026/10/results-of-the-40th-itmf-global-textile-industry-survey-slight-improvement-but-the-textile-industry-remains-under-pressure/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "After decades in development, a $1.8 billion rare earths mining project has finally seen ground broken in remote Central Australia."
+       "blurb": "The global textile industry remains weak despite improvements, according to the ITMF latest Global Textile Industry Survey."
       },
       {
-       "title": "Westinghouse teams up with Hyundai E&C for Dutch FEED studies",
-       "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
-       "source": "World Nuclear News",
-       "published": "2026-10-08T11:04:41.000Z",
+       "title": "EverDye Recognized By The Textile Industry: ZDHC Certification And CEMATEX Start-Up Grant To Scale Up Sustainable Dyeing",
+       "url": "https://www.textileworld.com/textile-world/2026/10/everdye-recognized-by-the-textile-industry-zdhc-certification-and-cematex-start-up-grant-to-scale-up-sustainable-dyeing/",
+       "source": "Textile World",
+       "published": "2026-10-06T16:17:40.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/2026/10/everdye-recognized-by-the-textile-industry-zdhc-certification-and-cematex-start-up-grant-to-scale-up-sustainable-dyeing/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "South Korea's Hyundai Engineering & Construction has been contracted by Westinghouse to carry out basic design studies for the construction of two large nuclear power plants in the Netherlands based on Westinghouse's AP1000 design."
+       "blurb": "PARIS — October 5, 2026 — EverDye, the startup developing low-impact textile dyeing solutions, received two important recognition from the textile industry. The company secured the ZDHC Certification (Zero Discharge of Hazardous Chemicals), and is one of the 20 startups selected "
       },
+      {
+       "title": "US Court Keeps Chinese Plywood Exporters out of Antidumping Order",
+       "url": "https://woodcentral.com.au/plywood-antidumping-order-ruling/",
+       "source": "Wood Central",
+       "published": "2026-10-08T03:05:29.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/plywood-antidumping-order-ruling/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Two Chinese hardwood plywood exporters will stay outside the 2018 US antidumping order and pay no dumping margins under it, after a federal trade court blocked the Department of Commerce from reopening the record, five months after the Federal Circuit restored a 183.36 per cent r"
+      },
+      {
+       "title": "The Nature Conservancy Launches Microfiber Action Alliance To Reduce Microfiber Pollution In Textile Sector",
+       "url": "https://www.textileworld.com/textile-world/2026/10/the-nature-conservancy-launches-microfiber-action-alliance-to-reduce-microfiber-pollution-in-textile-sector/",
+       "source": "Textile World",
+       "published": "2026-10-06T17:12:01.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/2026/10/the-nature-conservancy-launches-microfiber-action-alliance-to-reduce-microfiber-pollution-in-textile-sector/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "SACRAMENTO, CA— October 6, 2026 — The Nature Conservancy (TNC) has launched the Microfiber Action Alliance (MAA), a new multi-stakeholder initiative to combat microfiber pollution by accelerating the adoption and scaling of effective, evidence-based solutions. Convened by TNC, th"
+      }
+     ]
+    },
+    "construction": {
+     "brief": "missing",
+     "candidates": [
       {
        "title": "Clearway Starts Construction of 650-MW Solar Facility in Missouri",
        "url": "https://www.powermag.com/clearway-starts-construction-of-650-mw-solar-facility-in-missouri/",
@@ -747,23 +886,6 @@
        "stages": [],
        "via": null,
        "blurb": "California-headquartered Clearway Energy Group said it has closed financing and begun construction of the Swan Energy Center, a 650-MW solar facility located on portions of formerly strip-mined land in northwestern Bates County, Missouri. The project is San Francisco-based Clearw"
-      },
-      {
-       "title": "DCD Data Center Construction Channel Sample Audience",
-       "url": "https://www.datacenterdynamics.com/en/dcd-downloads/dcd-data-center-construction-channel-sample-audience/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-08T08:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/dcd-downloads/dcd-data-center-construction-channel-sample-audience/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Engage high-intent buyers from across the industry"
       },
       {
        "title": "Clearway secures financing, starts construction on 650MW Missouri solar project",
@@ -788,38 +910,38 @@
        "blurb": "US clean energy developer Clearway Energy has closed financing and started construction on a 650MW solar project in Missouri."
       },
       {
-       "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
-       "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
-       "source": "ENR (Engineering News-Record)",
-       "published": "2026-10-07T16:27:48.000Z",
+       "title": "Eliminating Heat Risks in Nuclear Cleanup: A DOE Contractor’s High-Tech Blueprint",
+       "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-07T14:00:17.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "ENR (Engineering News-Record)",
-         "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering."
+       "blurb": "For organizations like the Savannah River Mission Completion (SRMC), a liquid waste contractor for the U.S. Department of Energy (DOE) Office of Environmental Management at the Savannah River Site (SRS) in Aiken, South Carolina, the summer season poses significant challenges for "
       },
       {
-       "title": "FTMA’s Future Framing Markets Forum",
-       "url": "https://www.timberbiz.com.au/ftmas-future-framing-markets-forum/",
-       "source": "Timberbiz",
-       "published": "2026-10-08T05:59:35.000Z",
+       "title": "Nala begins construction at 125MW BESS project",
+       "url": "https://www.renews.biz/other-news/energy-storage/nala-begins-construction-at-125mw-bess-project/",
+       "source": "reNEWS",
+       "published": "2026-10-07T15:18:37.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Timberbiz",
-         "url": "https://www.timberbiz.com.au/ftmas-future-framing-markets-forum/",
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/other-news/energy-storage/nala-begins-construction-at-125mw-bess-project/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "There is an enormous amount happening across housing, Modern Methods of Construction (MMC), prefabrication and future construction markets, and FTMA wants to make sure that frame and truss manufacturers are part of the conversation. Source: Timberbiz On Tuesday 20 October, FTMA w"
+       "blurb": "Finnish system brings developer's pipeline to 275MW"
       },
       {
        "title": "Neoen breaks ground on 346MW Goyder North Wind Farm in Australia",
@@ -839,21 +961,21 @@
        "blurb": "Renewable energy company Neoen has commenced construction of Stage 1 of the 346MW Goyder North Wind Farm in the Mid North region of South Australia (SA), near Burra on Ngadjuri Nation land."
       },
       {
-       "title": "Swiss citizens may get to vote on construction of new reactors",
-       "url": "https://www.world-nuclear-news.org/articles/swiss-citizens-may-get-to-vote-on-construction-of-new-reactors",
-       "source": "World Nuclear News",
-       "published": "2026-10-07T12:00:25.000Z",
+       "title": "Utility Contractor Shows Systematic Success",
+       "url": "https://www.enr.com/articles/63795-utility-contractor-shows-systematic-success",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-06T15:00:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/swiss-citizens-may-get-to-vote-on-construction-of-new-reactors",
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63795-utility-contractor-shows-systematic-success",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The Alliance for Secure Electricity Supply has launched a campaign for the lifting of the ban on new nuclear power plant construction in Switzerland. It comes as a broad coalition claims to have collected enough signatures in support of a referendum against the construction of ne"
+       "blurb": "New Jersey-based Skoda Contracting has taken a purposeful approach to becoming a leading underground utility contractor."
       },
       {
        "title": "ENR 2026 Top 100 Green Design Firms and Contractors: Green Building Market Deepens",
@@ -905,12 +1027,54 @@
        "stages": [],
        "via": null,
        "blurb": "Contractors strive to be “active listeners” to community concerns, but say scrutiny has done little to cool demand."
+      },
+      {
+       "title": "FBI removes Accenture contractor after missed security patch led to breach",
+       "url": "https://www.govexec.com/technology/2026/10/fbi-removes-accenture-contractor-after-missed-security-patch-led-breach/416446/",
+       "source": "Government Executive",
+       "published": "2026-10-06T20:29:20.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Government Executive",
+         "url": "https://www.govexec.com/technology/2026/10/fbi-removes-accenture-contractor-after-missed-security-patch-led-breach/416446/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The bureau’s cyber chief blamed a contractor’s failure to apply an available fix for an intrusion that may have exposed sensitive employee information."
       }
      ]
     },
     "power": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Northland, ORLEN complete turbine installation at Baltic Power wind farm",
+       "url": "https://www.power-technology.com/news/northland-orlen-turbine-installation-baltic-power/",
+       "source": "Power Technology",
+       "published": "2026-10-08T07:31:04.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/northland-orlen-turbine-installation-baltic-power/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/offshore-wind/orlen-submits-baltic-west-environmental-reports/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Canadian power producer Northland Power, in partnership with ORLEN, has completed the installation of all 76 turbines at the 1.1GW Baltic Power offshore wind project in the Baltic Sea off Poland’s coast."
+      },
       {
        "title": "Russian oil refinery in Salavat hit by Ukraine, General Staff confirms",
        "url": "https://kyivindependent.com/oil-refinery-in-russias-salavat-reportedly-burning-after-attack/",
@@ -977,6 +1141,46 @@
        "blurb": "Tianwan Nuclear Power Plant's unit 7 has been successfully connected to the grid, China National Nuclear Corporation has announced."
       },
       {
+       "title": "MISC to order five more LNG carriers for Petronas charter",
+       "url": "https://lngprime.com/asia/misc-to-order-five-more-lng-carriers-for-petronas-charter/198123/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T12:24:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/asia/misc-to-order-five-more-lng-carriers-for-petronas-charter/198123/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Malaysian shipping firm MISC will order five additional newbuild 174,000-cbm liquefied natural gas (LNG) carriers at China's Hudong-Zhonghua. The vessels will serve a 20-year charter with a unit of MISC's parent, Petronas."
+      },
+      {
+       "title": "Galp wins Calcasieu Pass arbitration against Venture Global",
+       "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T12:22:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Portuguese energy firm Galp has won an arbitration case against US LNG exporter Venture Global LNG over LNG sales from the Calcasieu Pass plant in Louisiana."
+      },
+      {
        "title": "Posco completes second upstream lithium plant in Argentina",
        "url": "https://www.just-auto.com/news/posco-completes-second-upstream-lithium-plant-in-argentina/",
        "source": "Just Auto",
@@ -1015,26 +1219,6 @@
         "stage": "generation"
        },
        "blurb": "A detailed look at Maxxen’s advanced BESS factory from an on-the-ground tour. The post Inside BESS manufacturing: Maxxen’s utility-scale storage factory in Europe appeared first on pv magazine Global ."
-      },
-      {
-       "title": "MISC to order five more LNG carriers for Petronas charter",
-       "url": "https://lngprime.com/asia/misc-to-order-five-more-lng-carriers-for-petronas-charter/198123/",
-       "source": "LNG Prime",
-       "published": "2026-10-08T11:13:37.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/asia/misc-to-order-five-more-lng-carriers-for-petronas-charter/198123/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Malaysian shipping firm MISC will order five additional newbuild 174,000-cbm liquefied natural gas (LNG) carriers at China's Hudong-Zhonghua. The vessels will serve a 20-year charter with a unit of MISC's parent, Petronas."
       },
       {
        "title": "Westinghouse teams up with Hyundai E&C for Dutch FEED studies",
@@ -1097,15 +1281,15 @@
        "blurb": "Forty-nine wind turbines have been installed at the Dogger Bank B offshore wind farm site in the UK, according to the latest mariners' notice..."
       },
       {
-       "title": "Aker Solutions wins Norway’s Nes hydropower upgrade contract",
-       "url": "https://www.waterpowermagazine.com/news/aker-solutions-wins-norways-nes-hydropower-upgrade-contract/",
-       "source": "International Water Power & Dam Construction",
-       "published": "2026-10-08T09:31:56.000Z",
+       "title": "ContourGlobal begins Arizona solar-storage construction",
+       "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+       "source": "reNEWS",
+       "published": "2026-10-08T09:48:02.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "International Water Power & Dam Construction",
-         "url": "https://www.waterpowermagazine.com/news/aker-solutions-wins-norways-nes-hydropower-upgrade-contract/",
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
          "primary": false
         }
        ],
@@ -1114,47 +1298,7 @@
         "from": "energy",
         "stage": "generation"
        },
-       "blurb": "Aker Solutions has won a contract by Hafslund Kraft to upgrade Nes Power Station in Buskerud, Norway, as part of a modernisation programme The post Aker Solutions wins Norway’s Nes hydropower upgrade contract appeared first on International Water Power ."
-      },
-      {
-       "title": "Global PV oversupply accelerates consolidation, regional price divergence",
-       "url": "https://www.pv-magazine.com/2026/10/08/global-pv-oversupply-accelerates-consolidation-regional-price-divergence/",
-       "source": "pv magazine",
-       "published": "2026-10-08T09:24:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/08/global-pv-oversupply-accelerates-consolidation-regional-price-divergence/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "pv magazine spoke with Edurne Zoco, Head of Technologies and Supply Chains at S&P Global Energy, about global PV supply chain trends, persistent overcapacity and the impact of China's new efficiency standards on solar manufacturing. She discussed module pricing, shifting trade po"
-      },
-      {
-       "title": "Ten OEMs lined up for share of 5.5GW in Chinese onshore wind auction",
-       "url": "https://www.windpowermonthly.com/article/1971980/ten-oems-lined-share-55gw-chinese-onshore-wind-auction",
-       "source": "Windpower Monthly",
-       "published": "2026-10-08T09:03:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Windpower Monthly",
-         "url": "https://www.windpowermonthly.com/article/1971980/ten-oems-lined-share-55gw-chinese-onshore-wind-auction",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "China’s State Power Investment Corporation (SPIC) has announced preferred bidders for around 5.52GW of wind turbine capacity under its second large-scale wind turbine procurement round of 2026, with ten Chinese manufacturers securing a share of the orders."
+       "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
       }
      ]
     }
@@ -1167,6 +1311,28 @@
     "food": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "PepsiCo cuts forecast, deepens cost cuts as N.America recovery drags",
+       "url": "https://www.channelnewsasia.com/business/pepsico-cuts-forecast-deepens-cost-cuts-namerica-recovery-drags-6442351",
+       "source": "CNA Business",
+       "published": "2026-10-08T10:08:17.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/pepsico-to-cut-costs-as-weak-north-america-business-hurts-annual-core-profit-forecast/",
+         "primary": false
+        },
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/pepsico-cuts-forecast-deepens-cost-cuts-namerica-recovery-drags-6442351",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
       {
        "title": "Farm Hands on the Potomac: Joel Leftwich joins Idealyst Innovation, ​Robert Haus goes to Vylor, General Mills names Dana McNabb as CEO",
        "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
@@ -1200,23 +1366,6 @@
        "stages": [],
        "via": null,
        "blurb": "Robert Haus has joined Vylor as state government and industry affairs leader. Shawna Severson has been named executive vice president of the Montana Grain Growers Association. Adam Caldecott has been appointed CEO and president of Good Food Holdings, effective Oct. 5."
-      },
-      {
-       "title": "PepsiCo cuts forecast, deepens cost cuts as N.America recovery drags",
-       "url": "https://www.channelnewsasia.com/business/pepsico-cuts-forecast-deepens-cost-cuts-namerica-recovery-drags-6442351",
-       "source": "CNA Business",
-       "published": "2026-10-08T10:08:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/pepsico-cuts-forecast-deepens-cost-cuts-namerica-recovery-drags-6442351",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
       },
       {
        "title": "6 food manufacturers talk supply chain tactics",
@@ -1290,6 +1439,57 @@
        "stages": [],
        "via": null,
        "blurb": "The drugmaker plans to develop a “flexible, modular campus” with advanced digital and automation technologies. The first phase is set to be ready in 2031."
+      },
+      {
+       "title": "Shell Reports Declining Chemical Margins Amid Refining Gains",
+       "url": "https://www.plasticstoday.com/materials/shell-reports-declining-chemical-margins-amid-refining-gains",
+       "source": "Plastics Today",
+       "published": "2026-10-07T17:38:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/materials/shell-reports-declining-chemical-margins-amid-refining-gains",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Shell's Q3 2026 update reveals declining chemical margins and operational challenges from low Rhine water levels, offset by stronger refining performance and expanded production capacity."
+      },
+      {
+       "title": "Trust the Process: How Lean Six Sigma Optimizes Plastics Manufacturing",
+       "url": "https://www.plasticstoday.com/industry-trends/trust-the-process-how-lean-six-sigma-optimizes-plastics-manufacturing",
+       "source": "Plastics Today",
+       "published": "2026-10-07T13:06:47.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/industry-trends/trust-the-process-how-lean-six-sigma-optimizes-plastics-manufacturing",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Ashlesa Mohapatra shares her experience with using the Lean Six Sigma tool DMAIC to address purge waste, eliminate scrap from defective parts and machine idle time, as well as reduce impact from mold changes."
+      },
+      {
+       "title": "Plastic Ingenuity Showcasing Sustainable Packaging Innovation at Pack Expo",
+       "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
+       "source": "Plastics Today",
+       "published": "2026-10-06T11:58:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Plastic Ingenuity's Ameristar Award-winning PET medical device reel replaces PVC with recyclable material, converting 236,000 pounds annually. The company will spotlight its innovations at Pack Expo 2026, being held later this month in Chicago."
       }
      ]
     },
@@ -1317,6 +1517,23 @@
        "stages": [],
        "via": null,
        "blurb": "While a majority of lawmakers moved the legislation through Friday, several raised concerns that the project was being rushed and without public input."
+      },
+      {
+       "title": "Everlaw’s 2026 AI Report: A Glass Half Full Or Half Empty?",
+       "url": "https://abovethelaw.com/2026/10/everlaws-2026-ai-report-a-glass-half-full-or-half-empty/",
+       "source": "Above the Law",
+       "published": "2026-10-07T22:15:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Above the Law",
+         "url": "https://abovethelaw.com/2026/10/everlaws-2026-ai-report-a-glass-half-full-or-half-empty/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Some of the report's conclusions may be optimistic and there is a need to look at them critically. The post Everlaw’s 2026 AI Report: A Glass Half Full Or Half Empty? appeared first on Above the Law ."
       }
      ]
     },
@@ -1356,6 +1573,23 @@
        "stages": [],
        "via": null,
        "blurb": "Full-stack safety solution for physical AI is being used by robotics companies."
+      },
+      {
+       "title": "Siemens to supply 1.7 GW of gas turbine cores for Dynamis’ ‘hypermobile’ power package",
+       "url": "https://www.power-eng.com/gas/turbines/siemens-to-supply-1-7-gw-of-gas-turbine-cores-for-dynamis-hypermobile-power-package/",
+       "source": "Power Engineering",
+       "published": "2026-10-01T13:01:15.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/gas/turbines/siemens-to-supply-1-7-gw-of-gas-turbine-cores-for-dynamis-hypermobile-power-package/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Siemens Energy and Dynamis Power Solutions have agreed to supply 119 gas turbine cores for mobile power generation in the US, starting in 2027, to meet growing energy demands."
       },
       {
        "title": "Planning system ensures a robot’s flight path will remain collision-free",
@@ -1520,26 +1754,65 @@
       }
      ]
     },
-    "construction": {
+    "goods": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Mine backed by US, Australia and Gina Rinehart moves towards construction",
-       "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T07:10:55.000Z",
+       "title": "US Court Keeps Chinese Plywood Exporters out of Antidumping Order",
+       "url": "https://woodcentral.com.au/plywood-antidumping-order-ruling/",
+       "source": "Wood Central",
+       "published": "2026-10-08T03:05:29.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/plywood-antidumping-order-ruling/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "After decades in development, a $1.8 billion rare earths mining project has finally seen ground broken in remote Central Australia."
+       "blurb": "Two Chinese hardwood plywood exporters will stay outside the 2018 US antidumping order and pay no dumping margins under it, after a federal trade court blocked the Department of Commerce from reopening the record, five months after the Federal Circuit restored a 183.36 per cent r"
       },
+      {
+       "title": "EverDye Recognized By The Textile Industry: ZDHC Certification And CEMATEX Start-Up Grant To Scale Up Sustainable Dyeing",
+       "url": "https://www.textileworld.com/textile-world/2026/10/everdye-recognized-by-the-textile-industry-zdhc-certification-and-cematex-start-up-grant-to-scale-up-sustainable-dyeing/",
+       "source": "Textile World",
+       "published": "2026-10-06T16:17:40.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/2026/10/everdye-recognized-by-the-textile-industry-zdhc-certification-and-cematex-start-up-grant-to-scale-up-sustainable-dyeing/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "PARIS — October 5, 2026 — EverDye, the startup developing low-impact textile dyeing solutions, received two important recognition from the textile industry. The company secured the ZDHC Certification (Zero Discharge of Hazardous Chemicals), and is one of the 20 startups selected "
+      },
+      {
+       "title": "The Nature Conservancy Launches Microfiber Action Alliance To Reduce Microfiber Pollution In Textile Sector",
+       "url": "https://www.textileworld.com/textile-world/2026/10/the-nature-conservancy-launches-microfiber-action-alliance-to-reduce-microfiber-pollution-in-textile-sector/",
+       "source": "Textile World",
+       "published": "2026-10-06T17:12:01.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/2026/10/the-nature-conservancy-launches-microfiber-action-alliance-to-reduce-microfiber-pollution-in-textile-sector/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "SACRAMENTO, CA— October 6, 2026 — The Nature Conservancy (TNC) has launched the Microfiber Action Alliance (MAA), a new multi-stakeholder initiative to combat microfiber pollution by accelerating the adoption and scaling of effective, evidence-based solutions. Convened by TNC, th"
+      }
+     ]
+    },
+    "construction": {
+     "brief": "missing",
+     "candidates": [
       {
        "title": "Clearway secures financing, starts construction on 650MW Missouri solar project",
        "url": "https://www.pv-tech.org/clearway-secures-financing-starts-construction-on-650mw-missouri-solar-project/",
@@ -1585,21 +1858,38 @@
        "blurb": "California-headquartered Clearway Energy Group said it has closed financing and begun construction of the Swan Energy Center, a 650-MW solar facility located on portions of formerly strip-mined land in northwestern Bates County, Missouri. The project is San Francisco-based Clearw"
       },
       {
-       "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
-       "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
-       "source": "ENR (Engineering News-Record)",
-       "published": "2026-10-07T16:27:48.000Z",
+       "title": "Eliminating Heat Risks in Nuclear Cleanup: A DOE Contractor’s High-Tech Blueprint",
+       "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-07T14:00:17.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "ENR (Engineering News-Record)",
-         "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering."
+       "blurb": "For organizations like the Savannah River Mission Completion (SRMC), a liquid waste contractor for the U.S. Department of Energy (DOE) Office of Environmental Management at the Savannah River Site (SRS) in Aiken, South Carolina, the summer season poses significant challenges for "
+      },
+      {
+       "title": "Utility Contractor Shows Systematic Success",
+       "url": "https://www.enr.com/articles/63795-utility-contractor-shows-systematic-success",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-06T15:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63795-utility-contractor-shows-systematic-success",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New Jersey-based Skoda Contracting has taken a purposeful approach to becoming a leading underground utility contractor."
       },
       {
        "title": "Data center contractors learn to live with the backlash",
@@ -1617,23 +1907,6 @@
        "stages": [],
        "via": null,
        "blurb": "Contractors strive to be “active listeners” to community concerns, but say scrutiny has done little to cool demand."
-      },
-      {
-       "title": "Second part of construction permit application submitted for SMRs at Palisades",
-       "url": "https://www.world-nuclear-news.org/articles/second-part-of-construction-permit-application-submitted-for-pioneer-smrs",
-       "source": "World Nuclear News",
-       "published": "2026-10-02T14:38:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/second-part-of-construction-permit-application-submitted-for-pioneer-smrs",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Holtec has submitted the Preliminary Safety Analysis Report to the US Nuclear Regulatory Commission for two small modular reactor units at the Palisades Energy Center in Michigan, completing the second phase of the Construction Permit Application process."
       },
       {
        "title": "FBI removes Accenture contractor after missed security patch led to breach",
@@ -1658,6 +1931,26 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "ContourGlobal begins Arizona solar-storage construction",
+       "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+       "source": "reNEWS",
+       "published": "2026-10-08T09:48:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
+      },
+      {
        "title": "Clearway secures financing, starts construction on 650MW Missouri solar project",
        "url": "https://www.pv-tech.org/clearway-secures-financing-starts-construction-on-650mw-missouri-solar-project/",
        "source": "PV Tech",
@@ -1681,6 +1974,26 @@
         "stage": "generation"
        },
        "blurb": "US clean energy developer Clearway Energy has closed financing and started construction on a 650MW solar project in Missouri."
+      },
+      {
+       "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
+       "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
+       "source": "Maryland Matters",
+       "published": "2026-10-07T17:43:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Maryland Matters",
+         "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "US Wind turned over its Tradepoint Atlantic lease at Sparrows Point to Anduril and shelved its planned tower and monopile plant, citing legal disputes and federal uncertainty over its Ocean City offshore wind project."
       },
       {
        "title": "Vistra gets $4.2B DOE loan for planned uprates in Ohio, Pennsylvania",
@@ -1761,6 +2074,26 @@
         "stage": "generation"
        },
        "blurb": "Great Basin Gas Transmission has upsized its northern Nevada natural gas expansion to nearly 950 MMcf/d and a 48-inch diameter pipe, leaving room to add compression later for growing demand from data centers, power generators and industrial users."
+      },
+      {
+       "title": "Galp wins Calcasieu Pass arbitration against Venture Global",
+       "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T12:22:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Portuguese energy firm Galp has won an arbitration case against US LNG exporter Venture Global LNG over LNG sales from the Calcasieu Pass plant in Louisiana."
       },
       {
        "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
@@ -1861,66 +2194,6 @@
         "stage": "generation"
        },
        "blurb": "US-based independent power producer Middle River Power has acquired the fully contracted 427MW Panoche Energy Center, a natural gas generation facility in Firebaugh, California, US, from an Ares Infrastructure Equity fund."
-      },
-      {
-       "title": "Connecticut’s solar ambitions hit skepticism from a major utility",
-       "url": "https://www.canarymedia.com/articles/solar/connecticut-solar-utility-skepticism",
-       "source": "Canary Media",
-       "published": "2026-10-07T07:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Canary Media",
-         "url": "https://www.canarymedia.com/articles/solar/connecticut-solar-utility-skepticism",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Connecticut is trying to clean up its grid with more solar energy. But a major utility’s reluctance to commit to buying power from some projects is raising questions about the prospects for success. Connecticut last month announced plans to secure 63.4 megawatts of new solar capa"
-      },
-      {
-       "title": "Maryland nets 440 MW/1,760 MWh in first bulk energy storage procurement",
-       "url": "https://www.utilitydive.com/news/maryland-nets-440-mw1760-mwh-in-first-bulk-energy-storage-procurement/832261/",
-       "source": "Utility Dive",
-       "published": "2026-10-06T16:01:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Utility Dive",
-         "url": "https://www.utilitydive.com/news/maryland-nets-440-mw1760-mwh-in-first-bulk-energy-storage-procurement/832261/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "The first round of awards under the Maryland Next Generation Energy Act fell short of the state’s 800-MW target as the PJM Interconnection’s capacity crunch continues."
-      },
-      {
-       "title": "Isaias Track Skirts Most Gulf LNG as Coast Guard Sets Storm Conditions",
-       "url": "https://naturalgasintel.com/news/isaias-track-skirts-most-gulf-lng-as-coast-guard-sets-storm-conditions/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T18:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/isaias-track-skirts-most-gulf-lng-as-coast-guard-sets-storm-conditions/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "The US Coast Guard ordered storm preparations at lower Mississippi River ports on Wednesday as forecasters predict Tropical Storm Isaias to become a hurricane by Thursday on a track that could avoid most Gulf Coast LNG export capacity."
       }
      ]
     }
@@ -2009,6 +2282,26 @@
     "power": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
+       "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
+       "source": "Maryland Matters",
+       "published": "2026-10-07T17:43:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Maryland Matters",
+         "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "US Wind turned over its Tradepoint Atlantic lease at Sparrows Point to Anduril and shelved its planned tower and monopile plant, citing legal disputes and federal uncertainty over its Ocean City offshore wind project."
+      },
       {
        "title": "Maryland nets 440 MW/1,760 MWh in first bulk energy storage procurement",
        "url": "https://www.utilitydive.com/news/maryland-nets-440-mw1760-mwh-in-first-bulk-energy-storage-procurement/832261/",
@@ -2100,28 +2393,6 @@
    "label": "Tennessee",
    "level": "admin1",
    "sources": {
-    "construction": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
-       "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
-       "source": "ENR (Engineering News-Record)",
-       "published": "2026-10-07T16:27:48.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ENR (Engineering News-Record)",
-         "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering."
-      }
-     ]
-    },
     "power": {
      "brief": "missing",
      "candidates": [
@@ -2150,11 +2421,16 @@
        "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
        "source": "NYT Climate / Energy",
        "published": "2026-09-29T18:09:37.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "NYT Climate / Energy",
          "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
+         "primary": false
+        },
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/nuclear/smrs/tennessee-clinch-river-bwrx-300-smr-nrc-construction-permit/",
          "primary": false
         }
        ],
@@ -2200,29 +2476,87 @@
     }
    }
   },
-  "ch": {
-   "label": "Switzerland",
+  "fi": {
+   "label": "Finland",
    "level": "country",
    "sources": {
     "construction": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Swiss citizens may get to vote on construction of new reactors",
-       "url": "https://www.world-nuclear-news.org/articles/swiss-citizens-may-get-to-vote-on-construction-of-new-reactors",
-       "source": "World Nuclear News",
-       "published": "2026-10-07T12:00:25.000Z",
+       "title": "Nala begins construction at 125MW BESS project",
+       "url": "https://www.renews.biz/other-news/energy-storage/nala-begins-construction-at-125mw-bess-project/",
+       "source": "reNEWS",
+       "published": "2026-10-07T15:18:37.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/swiss-citizens-may-get-to-vote-on-construction-of-new-reactors",
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/other-news/energy-storage/nala-begins-construction-at-125mw-bess-project/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The Alliance for Secure Electricity Supply has launched a campaign for the lifting of the ban on new nuclear power plant construction in Switzerland. It comes as a broad coalition claims to have collected enough signatures in support of a referendum against the construction of ne"
+       "blurb": "Finnish system brings developer's pipeline to 275MW"
+      }
+     ]
+    },
+    "power": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Nala begins construction at 125MW BESS project",
+       "url": "https://www.renews.biz/other-news/energy-storage/nala-begins-construction-at-125mw-bess-project/",
+       "source": "reNEWS",
+       "published": "2026-10-07T15:18:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/other-news/energy-storage/nala-begins-construction-at-125mw-bess-project/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Finnish system brings developer's pipeline to 275MW"
+      }
+     ]
+    }
+   }
+  },
+  "ch": {
+   "label": "Switzerland",
+   "level": "country",
+   "sources": {
+    "goods": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Results Of The 40th ITMF Global Textile Industry Survey : Slight Improvement, But The Textile Industry Remains Under Pressure",
+       "url": "https://www.textileworld.com/textile-world/2026/10/results-of-the-40th-itmf-global-textile-industry-survey-slight-improvement-but-the-textile-industry-remains-under-pressure/",
+       "source": "Textile World",
+       "published": "2026-10-06T16:58:38.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Just Style",
+         "url": "https://www.just-style.com/news/itmf-textile-industry-survey/",
+         "primary": false
+        },
+        {
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/2026/10/results-of-the-40th-itmf-global-textile-industry-survey-slight-improvement-but-the-textile-industry-remains-under-pressure/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "ZÜRICH, Switzerland — October 6, 2026 — The 40th ITMF Global Textile Industry Survey (GTIS), conducted from 21 to 29 September 2026, shows a slight improvement in the global business situation, to -23pp, well above the November 2023 low of -46pp. Conditions nevertheless remain we"
       }
      ]
     },
@@ -2530,28 +2864,6 @@
       }
      ]
     },
-    "construction": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Westinghouse teams up with Hyundai E&C for Dutch FEED studies",
-       "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
-       "source": "World Nuclear News",
-       "published": "2026-10-08T11:04:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "South Korea's Hyundai Engineering & Construction has been contracted by Westinghouse to carry out basic design studies for the construction of two large nuclear power plants in the Netherlands based on Westinghouse's AP1000 design."
-      }
-     ]
-    },
     "power": {
      "brief": "missing",
      "candidates": [
@@ -2599,34 +2911,6 @@
     }
    }
   },
-  "kz": {
-   "label": "Kazakhstan",
-   "level": "country",
-   "sources": {
-    "machinery": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Caterpillar powers remote gold mining operation with continuous, scalable solution",
-       "url": "https://im-mining.com/2026/10/07/caterpillar-powers-remote-gold-mining-operation-with-continuous-scalable-solution/",
-       "source": "International Mining",
-       "published": "2026-10-07T13:58:21.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "International Mining",
-         "url": "https://im-mining.com/2026/10/07/caterpillar-powers-remote-gold-mining-operation-with-continuous-scalable-solution/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "In the remote Aktobe region of Kazakhstan, a new gold mining operation is taking shape, with the power solution made up of new Cat® G3500K series gas generator sets. With the site located nearly 300 km from the nearest city and no existing electrical infrastructure, West Gold Min"
-      }
-     ]
-    }
-   }
-  },
   "pt": {
    "label": "Portugal",
    "level": "country",
@@ -2634,6 +2918,26 @@
     "power": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Galp wins Calcasieu Pass arbitration against Venture Global",
+       "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T12:22:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Portuguese energy firm Galp has won an arbitration case against US LNG exporter Venture Global LNG over LNG sales from the Calcasieu Pass plant in Louisiana."
+      },
       {
        "title": "Man dies at CS Wind turbine tower factory in Portugal – media reports",
        "url": "https://www.windpowermonthly.com/article/1971772/man-dies-cs-wind-turbine-tower-factory-portugal-%E2%80%93-media-reports",
@@ -2662,29 +2966,29 @@
    "label": "Netherlands",
    "level": "country",
    "sources": {
-    "vehicles": {
+    "chemicals": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Westinghouse teams up with Hyundai E&C for Dutch FEED studies",
-       "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
-       "source": "World Nuclear News",
-       "published": "2026-10-08T11:04:41.000Z",
+       "title": "Halozyme prevails in patent fight with Merck; Enliven readies anticipated leukemia trial",
+       "url": "https://www.biopharmadive.com/news/halozyme-merck-europe-enliven-insmed-rougetx-kymathera/832282/",
+       "source": "BioPharma Dive",
+       "published": "2026-10-07T15:21:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
+         "name": "BioPharma Dive",
+         "url": "https://www.biopharmadive.com/news/halozyme-merck-europe-enliven-insmed-rougetx-kymathera/832282/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "South Korea's Hyundai Engineering & Construction has been contracted by Westinghouse to carry out basic design studies for the construction of two large nuclear power plants in the Netherlands based on Westinghouse's AP1000 design."
+       "blurb": "A Dutch court barred Merck from selling subcutaneous Keytruda in several European countries. Elsewhere, an Insmed executive ended a seven-year run and two startups secured venture cash."
       }
      ]
     },
-    "construction": {
+    "vehicles": {
      "brief": "missing",
      "candidates": [
       {
@@ -2952,11 +3256,16 @@
        "url": "https://www.power-technology.com/news/northland-orlen-turbine-installation-baltic-power/",
        "source": "Power Technology",
        "published": "2026-10-08T07:31:04.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "Power Technology",
          "url": "https://www.power-technology.com/news/northland-orlen-turbine-installation-baltic-power/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/offshore-wind/orlen-submits-baltic-west-environmental-reports/",
          "primary": false
         }
        ],
@@ -3055,6 +3364,31 @@
        "blurb": "Syntropia has developed a 535 W hybrid photovoltaic-thermal module that combines electricity generation with heat recovery, achieving a combined energy conversion efficiency of 66.8% in recent tests. The company is also developing an integrated energy system combining PVT modules"
       },
       {
+       "title": "Sonnedix buys 54MW Italian solar portfolio",
+       "url": "https://www.renews.biz/solar/sonnedix-buys-54mw-italian-solar-portfolio/",
+       "source": "reNEWS",
+       "published": "2026-10-07T10:27:52.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/sonnedix-adds-54mw-of-italian-solar-assets-taking-operational-portfolio-above-1-3gw/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/sonnedix-buys-54mw-italian-solar-portfolio/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Deal lifts operational capacity in Italy above 1.3GW"
+      },
+      {
        "title": "How to integrate air-source steam-generating heat pumps with PV, battery storage",
        "url": "https://www.pv-magazine.com/2026/10/08/how-to-integrate-air-source-steam-generating-heat-pumps-with-pv-battery-storage/",
        "source": "pv magazine",
@@ -3098,6 +3432,37 @@
         "stage": "generation"
        },
        "blurb": "BESS owner-operator BW ESS has launched construction on its second large-scale project in Italy in the space of a month, while developers Galileo and Aura Power have progressed portfolios in the country."
+      }
+     ]
+    }
+   }
+  },
+  "us-az": {
+   "label": "Arizona",
+   "level": "admin1",
+   "sources": {
+    "power": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "ContourGlobal begins Arizona solar-storage construction",
+       "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+       "source": "reNEWS",
+       "published": "2026-10-08T09:48:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
       }
      ]
     }
@@ -3241,6 +3606,28 @@
       }
      ]
     },
+    "goods": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "US Court Keeps Chinese Plywood Exporters out of Antidumping Order",
+       "url": "https://woodcentral.com.au/plywood-antidumping-order-ruling/",
+       "source": "Wood Central",
+       "published": "2026-10-08T03:05:29.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/plywood-antidumping-order-ruling/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Two Chinese hardwood plywood exporters will stay outside the 2018 US antidumping order and pay no dumping margins under it, after a federal trade court blocked the Department of Commerce from reopening the record, five months after the Federal Circuit restored a 183.36 per cent r"
+      }
+     ]
+    },
     "power": {
      "brief": "missing",
      "candidates": [
@@ -3308,7 +3695,7 @@
        "title": "MISC to order five more LNG carriers for Petronas charter",
        "url": "https://lngprime.com/asia/misc-to-order-five-more-lng-carriers-for-petronas-charter/198123/",
        "source": "LNG Prime",
-       "published": "2026-10-08T11:13:37.000Z",
+       "published": "2026-10-08T12:24:37.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -3528,23 +3915,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Mine backed by US, Australia and Gina Rinehart moves towards construction",
-       "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T07:10:55.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "After decades in development, a $1.8 billion rare earths mining project has finally seen ground broken in remote Central Australia."
-      },
-      {
        "title": "Neoen breaks ground on 346MW Goyder North Wind Farm in Australia",
        "url": "https://www.power-technology.com/news/neoen-346mw-goyder-north-wind-farm/",
        "source": "Power Technology",
@@ -3560,23 +3930,6 @@
        "stages": [],
        "via": null,
        "blurb": "Renewable energy company Neoen has commenced construction of Stage 1 of the 346MW Goyder North Wind Farm in the Mid North region of South Australia (SA), near Burra on Ngadjuri Nation land."
-      },
-      {
-       "title": "FTMA’s Future Framing Markets Forum",
-       "url": "https://www.timberbiz.com.au/ftmas-future-framing-markets-forum/",
-       "source": "Timberbiz",
-       "published": "2026-10-08T05:59:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Timberbiz",
-         "url": "https://www.timberbiz.com.au/ftmas-future-framing-markets-forum/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "There is an enormous amount happening across housing, Modern Methods of Construction (MMC), prefabrication and future construction markets, and FTMA wants to make sure that frame and truss manufacturers are part of the conversation. Source: Timberbiz On Tuesday 20 October, FTMA w"
       }
      ]
     },
@@ -4099,6 +4452,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "'A genuinely capable off-road utility vehicle': Toyota Land Cruiser review",
+       "url": "https://www.forestryjournal.co.uk/news/26611806.toyota-land-cruiser-review-a-genuinely-capable-off-road-vehicle/?ref=rss",
+       "source": "Forestry Journal",
+       "published": "2026-10-08T06:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Forestry Journal",
+         "url": "https://www.forestryjournal.co.uk/news/26611806.toyota-land-cruiser-review-a-genuinely-capable-off-road-vehicle/?ref=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Toyota’s new Land Cruiser Commercial brings old-school durability and serious off‑road ability back to the forestry sector."
+      },
+      {
        "title": "Believ to install over 600 EV charging points across Ayrshire",
        "url": "https://www.electrive.com/2026/10/07/believ-to-install-over-600-ev-charging-points-across-ayrshire/",
        "source": "electrive",
@@ -4241,11 +4611,16 @@
        "url": "https://www.power-technology.com/news/northland-orlen-turbine-installation-baltic-power/",
        "source": "Power Technology",
        "published": "2026-10-08T07:31:04.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "Power Technology",
          "url": "https://www.power-technology.com/news/northland-orlen-turbine-installation-baltic-power/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/offshore-wind/orlen-submits-baltic-west-environmental-reports/",
          "primary": false
         }
        ],
@@ -4377,26 +4752,6 @@
         "stage": "generation"
        },
        "blurb": "The US Coast Guard ordered storm preparations at lower Mississippi River ports on Wednesday as forecasters predict Tropical Storm Isaias to become a hurricane by Thursday on a track that could avoid most Gulf Coast LNG export capacity."
-      },
-      {
-       "title": "Westwin to build $502M nickel refinery in Mississippi",
-       "url": "https://www.northernminer.com/news/westwin-to-build-502m-nickel-refinery-in-mississippi/1003895478/",
-       "source": "The Northern Miner",
-       "published": "2026-10-06T20:55:06.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/westwin-to-build-502m-nickel-refinery-in-mississippi/1003895478/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Westwin Elements plans to invest $502 million over five years to build a commercial-scale high-purity nickel refinery in Mississippi, as the U.S. seeks to expand domestic processing of critical minerals.... The post Westwin to build $502M nickel refinery in Mississippi appeared f"
       }
      ]
     }
@@ -4453,32 +4808,115 @@
     }
    }
   },
-  "us-mi": {
-   "label": "Michigan",
-   "level": "admin1",
+  "tw": {
+   "label": "Taiwan",
+   "level": "country",
    "sources": {
-    "construction": {
+    "machinery": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Second part of construction permit application submitted for SMRs at Palisades",
-       "url": "https://www.world-nuclear-news.org/articles/second-part-of-construction-permit-application-submitted-for-pioneer-smrs",
-       "source": "World Nuclear News",
-       "published": "2026-10-02T14:38:26.000Z",
-       "verification": "unconfirmed",
+       "title": "Samsung flags 783% profit jump to record $80bn as AI chip boom also lifts TSMC sales",
+       "url": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
+       "source": "Euronews Business",
+       "published": "2026-10-08T09:11:32.000Z",
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/second-part-of-construction-permit-application-submitted-for-pioneer-smrs",
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/c687z8127302o?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/samsung-forecasts-record-80b-quarterly-profit-as-ai-boom-boosts-memory-demand/4081967",
+         "primary": false
+        },
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Holtec has submitted the Preliminary Safety Analysis Report to the US Nuclear Regulatory Commission for two small modular reactor units at the Palisades Energy Center in Michigan, completing the second phase of the Construction Permit Application process."
+       "blurb": "Samsung Electronics estimated on Thursday that its third-quarter operating profit jumped almost ninefold to a record 107.4 trillion won, or $80.2 billion, while sales at Taiwan's TSMC hit a quarterly record, as the AI boom keeps demand for chips strong."
+      },
+      {
+       "title": "Siemens Gamesa suffers second turbine issue at Ørsted project in two months",
+       "url": "https://www.windpowermonthly.com/article/1971657/siemens-gamesa-suffers-second-turbine-issue-orsted-project-two-months",
+       "source": "Windpower Monthly",
+       "published": "2026-10-05T10:08:43.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Windpower Monthly",
+         "url": "https://www.windpowermonthly.com/article/1971657/siemens-gamesa-suffers-second-turbine-issue-orsted-project-two-months",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A Siemens Gamesa turbine blade has been damaged at Ørsted's 583MW Greater Changhua 4 offshore wind farm in Taiwan."
       }
      ]
     },
+    "power": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Aeroderivative gas turbine installation: How a 180 MW plant went live in ten months",
+       "url": "https://www.power-eng.com/gas/turbines/aeroderivative-gas-turbine-installation-how-a-180-mw-plant-went-live-in-ten-months/",
+       "source": "Power Engineering",
+       "published": "2026-10-05T10:20:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/gas/turbines/aeroderivative-gas-turbine-installation-how-a-180-mw-plant-went-live-in-ten-months/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "See how a 180 MW aeroderivative gas turbine installation went from groundbreaking to full grid operation in ten months at Taiwan's Tung Hsiao plant."
+      },
+      {
+       "title": "Siemens Gamesa suffers second turbine issue at Ørsted project in two months",
+       "url": "https://www.windpowermonthly.com/article/1971657/siemens-gamesa-suffers-second-turbine-issue-orsted-project-two-months",
+       "source": "Windpower Monthly",
+       "published": "2026-10-05T10:08:43.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Windpower Monthly",
+         "url": "https://www.windpowermonthly.com/article/1971657/siemens-gamesa-suffers-second-turbine-issue-orsted-project-two-months",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "A Siemens Gamesa turbine blade has been damaged at Ørsted's 583MW Greater Changhua 4 offshore wind farm in Taiwan."
+      }
+     ]
+    }
+   }
+  },
+  "us-mi": {
+   "label": "Michigan",
+   "level": "admin1",
+   "sources": {
     "power": {
      "brief": "missing",
      "candidates": [
@@ -4568,6 +5006,34 @@
     }
    }
   },
+  "us-nj": {
+   "label": "New Jersey",
+   "level": "admin1",
+   "sources": {
+    "construction": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Utility Contractor Shows Systematic Success",
+       "url": "https://www.enr.com/articles/63795-utility-contractor-shows-systematic-success",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-06T15:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63795-utility-contractor-shows-systematic-success",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New Jersey-based Skoda Contracting has taken a purposeful approach to becoming a leading underground utility contractor."
+      }
+     ]
+    }
+   }
+  },
   "us-ak": {
    "label": "Alaska",
    "level": "admin1",
@@ -4622,6 +5088,34 @@
        "stages": [],
        "via": null,
        "blurb": "American pharmaceutical company Eli Lilly has broken ground on a $6.5bn Houston factory that will make Foundayo (orforglipron), the company’s first synthetic oral GLP-1 variant for treatment of type 2… The post Ground broken on $6.5bn Eli Lilly manufacturing facility for GLP-1 ap"
+      }
+     ]
+    }
+   }
+  },
+  "us-sc": {
+   "label": "South Carolina",
+   "level": "admin1",
+   "sources": {
+    "construction": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Eliminating Heat Risks in Nuclear Cleanup: A DOE Contractor’s High-Tech Blueprint",
+       "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-07T14:00:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "For organizations like the Savannah River Mission Completion (SRMC), a liquid waste contractor for the U.S. Department of Energy (DOE) Office of Environmental Management at the Savannah River Site (SRS) in Aiken, South Carolina, the summer season poses significant challenges for "
       }
      ]
     }
@@ -4784,7 +5278,7 @@
        "title": "MISC to order five more LNG carriers for Petronas charter",
        "url": "https://lngprime.com/asia/misc-to-order-five-more-lng-carriers-for-petronas-charter/198123/",
        "source": "LNG Prime",
-       "published": "2026-10-08T11:13:37.000Z",
+       "published": "2026-10-08T12:24:37.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -4799,6 +5293,37 @@
         "stage": "generation"
        },
        "blurb": "Malaysian shipping firm MISC will order five additional newbuild 174,000-cbm liquefied natural gas (LNG) carriers at China's Hudong-Zhonghua. The vessels will serve a 20-year charter with a unit of MISC's parent, Petronas."
+      }
+     ]
+    }
+   }
+  },
+  "us-la": {
+   "label": "Louisiana",
+   "level": "admin1",
+   "sources": {
+    "power": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Galp wins Calcasieu Pass arbitration against Venture Global",
+       "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T12:22:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/contracts-and-tenders/galp-wins-calcasieu-pass-arbitration-against-venture-global/198132/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Portuguese energy firm Galp has won an arbitration case against US LNG exporter Venture Global LNG over LNG sales from the Calcasieu Pass plant in Louisiana."
       }
      ]
     }
@@ -5065,86 +5590,6 @@
         "stage": "generation"
        },
        "blurb": "Fusion for Energy, in collaboration with Ansaldo Nucleare, Westinghouse and Walter Tosto, has completed manufacturing Europe's final vacuum vessel sector for the International Thermonuclear Experimental Reactor at Cadarache in south-eastern France."
-      }
-     ]
-    }
-   }
-  },
-  "tw": {
-   "label": "Taiwan",
-   "level": "country",
-   "sources": {
-    "machinery": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Samsung flags 783% profit jump to record $80bn as AI chip boom also lifts TSMC sales",
-       "url": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
-       "source": "Euronews Business",
-       "published": "2026-10-08T09:11:32.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/c687z8127302o?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/economy/samsung-forecasts-record-80b-quarterly-profit-as-ai-boom-boosts-memory-demand/4081967",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Samsung Electronics estimated on Thursday that its third-quarter operating profit jumped almost ninefold to a record 107.4 trillion won, or $80.2 billion, while sales at Taiwan's TSMC hit a quarterly record, as the AI boom keeps demand for chips strong."
-      },
-      {
-       "title": "Siemens Gamesa suffers second turbine issue at Ørsted project in two months",
-       "url": "https://www.windpowermonthly.com/article/1971657/siemens-gamesa-suffers-second-turbine-issue-orsted-project-two-months",
-       "source": "Windpower Monthly",
-       "published": "2026-10-05T10:08:43.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Windpower Monthly",
-         "url": "https://www.windpowermonthly.com/article/1971657/siemens-gamesa-suffers-second-turbine-issue-orsted-project-two-months",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A Siemens Gamesa turbine blade has been damaged at Ørsted's 583MW Greater Changhua 4 offshore wind farm in Taiwan."
-      }
-     ]
-    },
-    "power": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Siemens Gamesa suffers second turbine issue at Ørsted project in two months",
-       "url": "https://www.windpowermonthly.com/article/1971657/siemens-gamesa-suffers-second-turbine-issue-orsted-project-two-months",
-       "source": "Windpower Monthly",
-       "published": "2026-10-05T10:08:43.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Windpower Monthly",
-         "url": "https://www.windpowermonthly.com/article/1971657/siemens-gamesa-suffers-second-turbine-issue-orsted-project-two-months",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "A Siemens Gamesa turbine blade has been damaged at Ørsted's 583MW Greater Changhua 4 offshore wind farm in Taiwan."
       }
      ]
     }
@@ -5715,6 +6160,62 @@
         "stage": "generation"
        },
        "blurb": "Hydro Tasmania has returned Poatina Power Station in Australia to service following one of its largest planned outages in recent years The post Hydro Tasmania completes first stage of Poatina upgrade appeared first on International Water Power ."
+      }
+     ]
+    }
+   }
+  },
+  "us-il": {
+   "label": "Illinois",
+   "level": "admin1",
+   "sources": {
+    "chemicals": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Plastic Ingenuity Showcasing Sustainable Packaging Innovation at Pack Expo",
+       "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
+       "source": "Plastics Today",
+       "published": "2026-10-06T11:58:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Plastic Ingenuity's Ameristar Award-winning PET medical device reel replaces PVC with recyclable material, converting 236,000 pounds annually. The company will spotlight its innovations at Pack Expo 2026, being held later this month in Chicago."
+      }
+     ]
+    }
+   }
+  },
+  "us-city-chicago": {
+   "label": "Chicago",
+   "level": "city",
+   "sources": {
+    "chemicals": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Plastic Ingenuity Showcasing Sustainable Packaging Innovation at Pack Expo",
+       "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
+       "source": "Plastics Today",
+       "published": "2026-10-06T11:58:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Plastic Ingenuity's Ameristar Award-winning PET medical device reel replaces PVC with recyclable material, converting 236,000 pounds annually. The company will spotlight its innovations at Pack Expo 2026, being held later this month in Chicago."
       }
      ]
     }

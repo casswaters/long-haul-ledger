@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T12:13:01.421Z",
+ "generatedAt": "2026-10-08T12:35:09.141Z",
  "sector": "services",
  "maxAgeDays": 10,
  "places": {
@@ -77,6 +77,11 @@
          "name": "CNA Business",
          "url": "https://www.channelnewsasia.com/business/uniqlo-operator-fast-retailing-posts-32-rise-in-full-year-profit-6441836",
          "primary": false
+        },
+        {
+         "name": "Just Style",
+         "url": "https://www.just-style.com/news/fast-retailing-raises-fy27-forecast-on-uniqlo-outperformance/",
+         "primary": false
         }
        ],
        "stages": [],
@@ -84,21 +89,21 @@
        "blurb": "Operating profit rose about 32% to 743.13 billion yen in the 12 months ended Aug 31."
       },
       {
-       "title": "Why Luxury Travel Can’t Ignore the Rise of Experiential Retail",
-       "url": "https://skift.com/2026/10/07/luxury-travel-experiential-retail-convergence/",
-       "source": "Skift",
-       "published": "2026-10-07T12:30:00.000Z",
-       "verification": "analysis",
+       "title": "Retailers Warn Europe’s Fishing Industry to Stop Overfishing",
+       "url": "https://insideclimatenews.org/news/06102026/europe-retailers-warn-industry-of-overfishing/",
+       "source": "Inside Climate News",
+       "published": "2026-10-06T18:57:39.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Skift",
-         "url": "https://skift.com/2026/10/07/luxury-travel-experiential-retail-convergence/",
+         "name": "Inside Climate News",
+         "url": "https://insideclimatenews.org/news/06102026/europe-retailers-warn-industry-of-overfishing/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The industry's biggest blind spot may be one of travelers' biggest spending categories. As retail becomes a vehicle for discovery, culture, and connection, it’s becoming harder to treat it as a sideline to the trip."
+       "blurb": "Europe’s fish stocks are in such dire straits that even the retailers who rely on them are now telling the fishing industry to slow down. Last week, the International Council for the Exploration of the Sea—an intergovernmental marine science organization whose data is used to det"
       },
       {
        "title": "Asos customers’ names, search histories and contact details accessed in hack, says retailer",
@@ -169,23 +174,6 @@
        "blurb": "Fast Retailing, the parent company of Japanese clothing retailer Uniqlo, has defied the ongoing political tensions between Beijing and Tokyo and soft consumer sentiment in China to log a rebound in sales and profits on the Chinese mainland. The Japanese firm said the 2026 financi"
       },
       {
-       "title": "Tesco predicts a low-alcohol ‘healthier’ Christmas",
-       "url": "https://www.theguardian.com/business/2026/oct/08/tesco-lifts-profit-forecast-consumer-confidence-resilient",
-       "source": "The Guardian Business",
-       "published": "2026-10-08T06:52:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/business/2026/oct/08/tesco-lifts-profit-forecast-consumer-confidence-resilient",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "First-half sales rise 2% to £33.8bn, helped by strong trade online, as retailer says it is making more delivery slots available Supermarket shake-up: why Asda or Morrisons could vanish Business live – latest updates Tesco has raised its profit outlook as it expects households to "
-      },
-      {
        "title": "Sales in Tesco’s Irish business rise",
        "url": "https://www.irishtimes.com/business/2026/10/08/sales-in-tescos-irish-business-rise/",
        "source": "The Irish Times Business",
@@ -201,6 +189,23 @@
        "stages": [],
        "via": null,
        "blurb": "Retailer raises group profit outlook floor after first-half rise"
+      },
+      {
+       "title": "F&F Clothing upgrades lift Tesco H1",
+       "url": "https://www.just-style.com/news/ff-clothing-upgrades-lift-tesco-h1/",
+       "source": "Just Style",
+       "published": "2026-10-08T10:24:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Just Style",
+         "url": "https://www.just-style.com/news/ff-clothing-upgrades-lift-tesco-h1/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Tesco says its clothing division F&F helped drive \"further growth in full-price and planned-event sales\" in the first half (H1)."
       },
       {
        "title": "US wholesale: Cod, haddock, pollock prices rise despite softer China markets",
@@ -224,6 +229,23 @@
     "finance": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "U.S. Housing Costs Could Return to “Normal” Within 5 Years. Here’s What It Would Take.",
+       "url": "https://www.redfin.com/news/return-to-normal-housing-costs/",
+       "source": "Redfin News",
+       "published": "2026-10-08T12:00:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Redfin News",
+         "url": "https://www.redfin.com/news/return-to-normal-housing-costs/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Housing costs could hypothetically return to “normal” within the next five years if mortgage rates drop to 6% and home-price growth holds steady around 2.1%. Alternatively, housing costs could return to normal in just a slightly longer timeline–within about six years–if mortgage "
+      },
       {
        "title": "Dogger Bank B Wind Turbine Installation Passes Halfway Mark",
        "url": "https://offshorewind.biz/2026/10/08/dogger-bank-b-wind-turbine-installation-passes-halfway-mark",
@@ -293,38 +315,6 @@
        "blurb": "Among the 30 Sensex firms, ITC, Adani Ports, Bharat Electronics, Bajaj Finance, Bajaj Finserv and InterGlobe Aviation were among the major laggards"
       },
       {
-       "title": "Vistra gets $4.2B DOE loan for planned uprates in Ohio, Pennsylvania",
-       "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-06T15:35:47.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Utility Dive",
-         "url": "https://www.utilitydive.com/news/doe-intends-to-loan-vistra-42b-for-nuclear-fleet-improvements/832236/",
-         "primary": false
-        },
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/doe-offers-vistra-loan-for-reactor-upgrades-and-uprates",
-         "primary": false
-        },
-        {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
-         "primary": false
-        },
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/vistra_gets_conditional_42b_doe_loan_for_pjm_nuclear_fleet-06-oct-2026-184787-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Vistra is set to receive an approximately $4.2 billion loan from the Department of Energy to upgrade and uprate its fleet of nuclear reactors in Pennsylvania and Ohio, the DOE announced Monday. This work will add 433 MW of new nuclear capacity to help meet electricity demand in P"
-      },
-      {
        "title": "ACEN boosts war chest with P3.5 billion ING loan",
        "url": "https://www.philstar.com/business/2026/10/08/2561577/acen-boosts-war-chest-p35-billion-ing-loan",
        "source": "Philstar Business",
@@ -340,6 +330,23 @@
        "stages": [],
        "via": null,
        "blurb": "ACEN Corp. of the Zobel family has secured additional financing of &euro;50 million (about P3.5 billion) from Dutch banking giant ING Bank N.V. to bolster its renewable energy expansion."
+      },
+      {
+       "title": "Tsholotsho RDC seeks US$1m loan for roads, equipment",
+       "url": "https://newsday.co.zw/article/tsholotsho-rdc-seeks-us1m-loan-for-roads-equipment-2",
+       "source": "NewsDay (Zimbabwe)",
+       "published": "2026-10-08T07:42:45.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NewsDay (Zimbabwe)",
+         "url": "https://newsday.co.zw/article/tsholotsho-rdc-seeks-us1m-loan-for-roads-equipment-2",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "TSHOLOTSHO, Oct. 8 (NewsDay Live) – Tsholotsho Rural District Council is seeking a US$1 million loan from People’s Own Savings Bank (POSB) to address infrastructure and service-delivery gaps affecting communities in the district. The proposed borrowing would fund equipment for ro"
       },
       {
        "title": "South Korea Investigates Possible Use of A.I. in Hackings on Its Banks",
@@ -376,6 +383,23 @@
        "blurb": "Some financial analysts and wealth managers in recent years have suggested that the second- and third-generation leaders of family offices in Asia are moving away from the basic principles that helped to create and accumulate their existing assets, but that is not strictly accura"
       },
       {
+       "title": "Indonesia’s Kenangan Coffee considering IPO on SGX within next 24 months, CEO says",
+       "url": "https://www.straitstimes.com/business/indonesias-kenangan-coffee-considering-ipo-on-sgx-within-next-24-months-ceo-says",
+       "source": "The Straits Times Business",
+       "published": "2026-10-08T12:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/indonesias-kenangan-coffee-considering-ipo-on-sgx-within-next-24-months-ceo-says",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "It would first like greater clarity on how companies could pursue dual listings in Singapore and on regional exchanges."
+      },
+      {
        "title": "Amid battle for AI edge, Hong Kong presses HSBC over Singapore hub decision: sources",
        "url": "https://www.scmp.com/business/banking-finance/article/3370203/amid-battle-ai-edge-hong-kong-presses-hsbc-over-singapore-hub-decision-sources?utm_source=rss_feed",
        "source": "South China Morning Post",
@@ -408,40 +432,6 @@
        "stages": [],
        "via": null,
        "blurb": "Several retail properties sold recently by prominent Hong Kong investors have been offloaded at a loss – a trend analysts attributed to banks maintaining a tough stance on debt collection. Stanley Poon Chi-ming, managing director at Centaline Commercial, said retail property pric"
-      },
-      {
-       "title": "CNA Explains: Why are Singapore bank shares falling after a record run?",
-       "url": "https://www.channelnewsasia.com/singapore/bank-shares-decline-ocbc-uob-dbs-citi-report-6441941",
-       "source": "CNA Business",
-       "published": "2026-10-08T09:40:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/singapore/bank-shares-decline-ocbc-uob-dbs-citi-report-6441941",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Singapore bank stocks tumbled for the second day in a row after a Citi report downgraded OCBC to a “sell” rating, saying it expected the bank's third-quarter earnings to be flat from a year earlier."
-      },
-      {
-       "title": "Hong Kong IPO boom at risk as cornerstone backers get cold feet, sources say",
-       "url": "https://www.scmp.com/business/banking-finance/article/3370173/hong-kong-ipo-boom-risk-cornerstone-backers-get-cold-feet-sources-say?utm_source=rss_feed",
-       "source": "South China Morning Post",
-       "published": "2026-10-08T08:11:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "South China Morning Post",
-         "url": "https://www.scmp.com/business/banking-finance/article/3370173/hong-kong-ipo-boom-risk-cornerstone-backers-get-cold-feet-sources-say?utm_source=rss_feed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Exuberance among cornerstone investors in Hong Kong’s booming initial public offering (IPO) market seems to be fading, forcing some issuers that had hoped to list this month to postpone their offerings. With more than 60 per cent of new listings in the third quarter now trading b"
       }
      ]
     },
@@ -500,6 +490,40 @@
        "blurb": "In a notable shift, US mortgage rates have climbed to an alarming 7.49 percent, the peak since November 2023. This increase has further strained the housing market as the election period looms. Mortgage applications saw a 4.2 percent decline last week, reaching their lowest point"
       },
       {
+       "title": "Three Fashion Tenants Ink Deals at 231 West 39th Street",
+       "url": "https://commercialobserver.com/2026/10/rino-pelle-lease-231-west-39th-street/",
+       "source": "Commercial Observer",
+       "published": "2026-10-07T17:35:27.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Commercial Observer",
+         "url": "https://commercialobserver.com/2026/10/rino-pelle-lease-231-west-39th-street/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Three women’s apparel brands have taken office and showroom space at 231 West 39th Street in Manhattan’s Garment District, landlord broker and building manager Adams & Company announced Wednesday. Rino & Pelle, a Netherlands-based women’s fashion and accessories brand, has inked "
+      },
+      {
+       "title": "Video: October 5, 2026, Economic and Housing Market Outlook",
+       "url": "https://www.realtor.com/research/video-economic-and-housing-market-update-october-5-2026/",
+       "source": "Realtor.com Economic Research",
+       "published": "2026-10-05T10:00:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Realtor.com Economic Research",
+         "url": "https://www.realtor.com/research/video-economic-and-housing-market-update-october-5-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The October 5, 2026 Housing Market Outlook video gives you the info you need to know to navigate the housing market as a homebuyer, home seller, renter, or industry professional."
+      },
+      {
        "title": "Data shows rental tenants have hit breaking point",
        "url": "https://www.abc.net.au/news/2026-10-08/tenants-hit-breaking-point-record-rent-costs-according-to-domain/107238110",
        "source": "ABC News (Australia) Business",
@@ -515,6 +539,57 @@
        "stages": [],
        "via": null,
        "blurb": "New data from Domain shows despite severe rental shortages, landlords are struggling to increase rental prices due to tenants hitting their affordability limit."
+      },
+      {
+       "title": "Soft September Jobs Report May Give Fed Reason to Pause Rate Hikes, Slowing Ascent of Mortgage Rates",
+       "url": "https://www.redfin.com/news/soft-september-jobs-meaning-for-mortgage-rates/",
+       "source": "Redfin News",
+       "published": "2026-10-02T15:37:39.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Redfin News",
+         "url": "https://www.redfin.com/news/soft-september-jobs-meaning-for-mortgage-rates/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Takeaway: A soft jobs report may finally offer some relief for mortgage rates, or at least help to stem the march upward. Jobs data is no longer the key to whether the Fed continues to hike, but this data should give them a reason to wait. Jobs data points to a softer job market "
+      },
+      {
+       "title": "Mortgage Rates Tick Up Even as the Odds of a Fed Rate Hike Decline",
+       "url": "https://www.redfin.com/news/weekly-economic-take-october-5/",
+       "source": "Redfin News",
+       "published": "2026-10-05T18:08:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Redfin News",
+         "url": "https://www.redfin.com/news/weekly-economic-take-october-5/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In A Nutshell: There’s still upward pressure on rates, as bond market investors have all of the same worries that have caused mortgage rates to increase by 1.5 percentage points already this year. Last Week’s Highlights Last week’s main economic data and news all reduced the prob"
+      },
+      {
+       "title": "Mortgage Rates Jump to Highest Level in Nearly Three Years",
+       "url": "https://www.realtor.com/research/freddie-mac-mortgage-rates-october-1-2026/",
+       "source": "Realtor.com Economic Research",
+       "published": "2026-10-01T16:02:04.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Realtor.com Economic Research",
+         "url": "https://www.realtor.com/research/freddie-mac-mortgage-rates-october-1-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Freddie Mac 30-year fixed mortgage rate hit 7.28% this week, the highest reading since November 2023."
       }
      ]
     },
@@ -537,6 +612,23 @@
        "stages": [],
        "via": null,
        "blurb": "[The content of this article has been produced by our advertising partner.] As DBS Hong Kong and Manulife Hong Kong celebrate the 10th anniversary of their bancassurance partnership, the two organizations are marking the milestone with a HK$1 million donation to Oasis – Centre fo"
+      },
+      {
+       "title": "Health Care Investment Firm Lorient Inks 6K-SF lease at Durst’s 825 Third Avenue",
+       "url": "https://commercialobserver.com/2026/10/lorient-lease-durst-825-third-avenue/",
+       "source": "Commercial Observer",
+       "published": "2026-10-07T11:00:19.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Commercial Observer",
+         "url": "https://commercialobserver.com/2026/10/lorient-lease-durst-825-third-avenue/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Lorient, an investment firm focused on health care, will open its first New York City office at the Durst Organization‘s 825 Third Avenue in Midtown East, Commercial Observer has learned. The Miami-based investment firm signed a 5,556-square-foot lease at the 40-story office towe"
       },
       {
        "title": "‘Medicare for All’ Is Back. Now Comes the Hard Part.",
@@ -624,33 +716,6 @@
        "blurb": "The financing includes an $8M seed round co-led by Sequoia Capital and First Round Capital, and a $30 million Series A led by Hummingbird Ventures."
       },
       {
-       "title": "Top healthcare conferences to attend in 2027",
-       "url": "https://www.healthcaredive.com/news/top-healthcare-conferences-2027/831809/",
-       "source": "Healthcare Dive",
-       "published": "2026-10-06T13:03:49.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Banking Dive",
-         "url": "https://www.bankingdive.com/news/2027-banking-conference-roundup/832080/",
-         "primary": false
-        },
-        {
-         "name": "Healthcare Dive",
-         "url": "https://www.healthcaredive.com/news/top-healthcare-conferences-2027/831809/",
-         "primary": false
-        },
-        {
-         "name": "K-12 Dive",
-         "url": "https://www.k12dive.com/news/top-k12-events-2027/832172/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "These are the best industry events for digital health, provider and payer leaders to attend next year."
-      },
-      {
        "title": "FTC escalates price transparency crackdown with warning letters to hospitals",
        "url": "https://www.healthcaredive.com/news/ftc-escalates-price-transparency-crackdown-with-warning-letters-to-hospital/832247/",
        "source": "Healthcare Dive",
@@ -666,6 +731,23 @@
        "stages": [],
        "via": null,
        "blurb": "Regulators warned two dozen hospital systems that incomplete or misleading pricing disclosures could violate federal consumer protection laws."
+      },
+      {
+       "title": "The DAS decision hospitals can’t treat as an afterthought (Reader Forum)",
+       "url": "https://rcrwireless.com/20261006/opinion/the-das-decision-hospitals-cant-treat-as-an-afterthought-reader-forum",
+       "source": "RCR Wireless News",
+       "published": "2026-10-06T12:01:11.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "RCR Wireless News",
+         "url": "https://rcrwireless.com/20261006/opinion/the-das-decision-hospitals-cant-treat-as-an-afterthought-reader-forum",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Hospitals increasingly need DAS to solve three problems at once: public-safety compliance, clinical connectivity and security. Wilson Connectivity argues that analog architecture can simplify lifecycle costs, reliability and HIPAA-related risk…"
       },
       {
        "title": "Burnham says he would put PR in Labour manifesto and scrap triple lock to fund social care – as it happened",
@@ -746,23 +828,6 @@
        "blurb": "The Army said the takeover of the park form part of measures to prevent the area from being used as a hideout by criminal groups. The post Army takes over Old Oyo Park for military training in aftermath of school abduction appeared first on Premium Times Nigeria ."
       },
       {
-       "title": "Sandvik looks to raise mining expertise with new education program",
-       "url": "https://im-mining.com/2026/10/08/sandvik-looks-to-raise-mining-expertise-with-new-education-program/",
-       "source": "International Mining",
-       "published": "2026-10-08T09:19:32.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "International Mining",
-         "url": "https://im-mining.com/2026/10/08/sandvik-looks-to-raise-mining-expertise-with-new-education-program/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Sandvik says it has high hopes for the launch of a unique five-continent mining engineering program aimed at training the next generation of leaders in the industry. The new global postgraduate program, launched in March 2026, marks a shift in how Sandvik intends to build experti"
-      },
-      {
        "title": "French students return to streets despite government bid to ease crisis",
        "url": "https://www.rfi.fr/en/france/20261008-french-pm-lecornu-denies-police-crackdown-as-france-s-student-protests-intensify",
        "source": "RFI English",
@@ -778,6 +843,23 @@
        "stages": [],
        "via": null,
        "blurb": "High school and university students across France launched a fourth straight day of nationwide action on Thursday, after Prime Minister Sébastien Lecornu promised measures to improve conditions in schools but stopped short of announcing immediate changes."
+      },
+      {
+       "title": "Government urges institutions to insure infrastructure against natural disasters",
+       "url": "https://newsday.co.zw/article/tsholotsho-rdc-seeks-us1m-loan-for-roads-equipment",
+       "source": "NewsDay (Zimbabwe)",
+       "published": "2026-10-08T06:34:04.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NewsDay (Zimbabwe)",
+         "url": "https://newsday.co.zw/article/tsholotsho-rdc-seeks-us1m-loan-for-roads-equipment",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Sibanda's call follows Monday's hailstorm that damaged several buildings at Masvingo Polytechnic, Masvingo Teachers' College and Great Zimbabwe University (GZU). The post Government urges institutions to insure infrastructure against natural disasters appeared first on Newsday ."
       },
       {
        "title": "French PM vows to address debt despite student protests",
@@ -904,55 +986,26 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Japan’s halt on new foreign restaurant workers fuels urban influx",
-       "url": "https://www.japantimes.co.jp/business/2026/10/08/foreign-restaurant-workers-urban-influx/",
-       "source": "The Japan Times",
-       "published": "2026-10-08T11:35:00.000Z",
-       "verification": "unconfirmed",
+       "title": "The top hospitality conferences in 2027",
+       "url": "https://www.hoteldive.com/news/top-hospitality-conferences-2027/832168/",
+       "source": "Hotel Dive",
+       "published": "2026-10-06T13:27:16.000Z",
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/business/2026/10/08/foreign-restaurant-workers-urban-influx/",
+         "name": "Hotel Dive",
+         "url": "https://www.hoteldive.com/news/top-hospitality-conferences-2027/832168/",
+         "primary": false
+        },
+        {
+         "name": "BioPharma Dive",
+         "url": "https://www.biopharmadive.com/news/top-biotech-pharma-medical-conferences-2027/832075/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "A survey showed that the number of job openings in the industry for foreign workers with the Type I status has increased by 2.8 times since April."
-      },
-      {
-       "title": "Supreme Court to examine plea that systemic blind spots in aviation boom left disabled travellers stranded",
-       "url": "https://www.thehindu.com/news/national/supreme-court-to-examine-plea-that-systemic-blind-spots-in-aviation-boom-left-disabled-travellers-stranded/article71555374.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-07T14:14:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/news/national/supreme-court-to-examine-plea-that-systemic-blind-spots-in-aviation-boom-left-disabled-travellers-stranded/article71555374.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The plea highlights a systemic and nationwide failure of non-implementation of accessibility across all stages of air travel, including booking, web-check-in, airport entry and navigation, counter check-in, security screening, Digi Yatra processing, immigration, boarding, in-flig"
-      },
-      {
-       "title": "Why Luxury Travel Can’t Ignore the Rise of Experiential Retail",
-       "url": "https://skift.com/2026/10/07/luxury-travel-experiential-retail-convergence/",
-       "source": "Skift",
-       "published": "2026-10-07T12:30:00.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Skift",
-         "url": "https://skift.com/2026/10/07/luxury-travel-experiential-retail-convergence/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The industry's biggest blind spot may be one of travelers' biggest spending categories. As retail becomes a vehicle for discovery, culture, and connection, it’s becoming harder to treat it as a sideline to the trip."
+       "blurb": "Industry professionals will have many opportunities to connect, discuss and learn at events focused on hotel technology, development, investment and more."
       },
       {
        "title": "PPA allots P1.35 billion for Ilocos Norte cruise port upgrade",
@@ -1006,23 +1059,6 @@
        "blurb": "Four years after Flyr bought its way into hotels, it's handing the unit to one of the two rivals Skift said it would have to beat."
       },
       {
-       "title": "The top hospitality conferences in 2027",
-       "url": "https://www.hoteldive.com/news/top-hospitality-conferences-2027/832168/",
-       "source": "Hotel Dive",
-       "published": "2026-10-06T13:27:16.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Hotel Dive",
-         "url": "https://www.hoteldive.com/news/top-hospitality-conferences-2027/832168/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Industry professionals will have many opportunities to connect, discuss and learn at events focused on hotel technology, development, investment and more."
-      },
-      {
        "title": "Dubai’s Luxury Hotels Add Perks to Avoid Rate Cuts",
        "url": "https://skift.com/2026/10/08/dubais-luxury-hotels-add-perks-to-avoid-rate-cuts/",
        "source": "Skift",
@@ -1038,6 +1074,23 @@
        "stages": [],
        "via": null,
        "blurb": "Dubai’s luxury hotels face a choice between protecting rates and filling rooms. Value-adds let them do some of both. The question is how long their 2025 buffers will last."
+      },
+      {
+       "title": "Why Hotel Operators Need to Think More Like Owners",
+       "url": "https://skift.com/2026/10/08/hotel-growth-better-scorecard/",
+       "source": "Skift",
+       "published": "2026-10-08T12:30:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Skift",
+         "url": "https://skift.com/2026/10/08/hotel-growth-better-scorecard/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Asset-light growth can help hotel companies scale faster, but owners still carry the capital risk. Operators with skin in the game may be better positioned to test ideas, challenge investment assumptions, and focus on long-term hotel value."
       },
       {
        "title": "Centara unveils Global Payments alliance",
@@ -1106,6 +1159,45 @@
        "stages": [],
        "via": null,
        "blurb": "From a competition perspective, Vrbo is catching up to Booking.com and Airbnb in pushing the fee burden onto hosts. Eliminating or greatly reducing guest fees has great optics, but travelers will end up paying for them in the form of higher rates."
+      },
+      {
+       "title": "Hilton taps former Uber exec as CTO",
+       "url": "https://www.hoteldive.com/news/hilton-taps-cto-former-uber-exec/832312/",
+       "source": "Hotel Dive",
+       "published": "2026-10-06T19:01:02.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Hotel Dive",
+         "url": "https://www.hoteldive.com/news/hilton-taps-cto-former-uber-exec/832312/",
+         "primary": false
+        },
+        {
+         "name": "CIO Dive",
+         "url": "https://www.ciodive.com/news/hilton-taps-cto-former-uber-exec/832298/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Jeff Moore brings 20 years of experience in software engineering and operations to the role as Hilton looks to advance its AI goals."
+      },
+      {
+       "title": "Gas stoves put restaurant cooks’ health at risk, new study finds",
+       "url": "https://www.canarymedia.com/articles/emissions-reduction/gas-stoves-restaurant-cooks-health",
+       "source": "Canary Media",
+       "published": "2026-10-06T09:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Canary Media",
+         "url": "https://www.canarymedia.com/articles/emissions-reduction/gas-stoves-restaurant-cooks-health",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In restaurant kitchens around the U.S., cooks are toiling away to create mouthwatering meals, from bibimbap to spaghetti puttanesca. But their own stomachs may be roiling. That’s what Christopher Galarza, a longtime chef and co-founder of sustainable kitchen certification company"
       }
      ]
     },
@@ -1122,11 +1214,6 @@
         {
          "name": "The Guardian Business",
          "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
-         "primary": false
-        },
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/brent-crude-jumps-over-4-as-middle-east-tensions-flare-while-share-prices-retreat/",
          "primary": false
         },
         {
@@ -1284,23 +1371,6 @@
        "blurb": "Arizona State University is offering a shorter teacher pathway this fall with a goal of removing financial barriers for students aspiring to enter the profession."
       },
       {
-       "title": "Middle East flights: Singapore Airlines, Scoot and Wizz Air extend suspensions",
-       "url": "https://www.thenationalnews.com/travel/2026/10/08/uae-dubai-abu-dhabi-flights-status/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T08:10:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/travel/2026/10/08/uae-dubai-abu-dhabi-flights-status/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "International airlines continue to adjust schedules for Middle East flights as airspace restrictions linked to the Iran war persist. Against the backdrop of continuing geopolitical uncertainty across the region, here's how airlines are adapting their operations. Wizz Air Wizz Air"
-      },
-      {
        "title": "High yields spark new container services on ‘bumpy’ India-Middle East trade",
        "url": "https://theloadstar.com/high-yields-spark-new-container-services-on-bumpy-india-middle-east-trade/",
        "source": "The Loadstar",
@@ -1350,6 +1420,23 @@
        "stages": [],
        "via": null,
        "blurb": "Hong Kong is looking to the new Pinglu Canal to stem the decline in cargo volumes at its port by extending its reach into western China’s inland markets, and strengthening its role as a regional transhipment hub. The Hong Kong government sees the newly opened canal, which links i"
+      },
+      {
+       "title": "Fashion’s next supply chain crisis could be a lack of water",
+       "url": "https://www.just-style.com/comment/fashions-next-supply-chain-crisis-could-be-a-lack-of-water/",
+       "source": "Just Style",
+       "published": "2026-10-08T10:51:50.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Just Style",
+         "url": "https://www.just-style.com/comment/fashions-next-supply-chain-crisis-could-be-a-lack-of-water/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Water is the invisible thread holding the fashion industry, and many others, together – and it is wearing thin, says Oliver Carpenter, Head of Environmental Analytics, Risilience."
       }
      ]
     },
@@ -1462,6 +1549,26 @@
        "blurb": "A detailed look at Maxxen’s advanced BESS factory from an on-the-ground tour. The post Inside BESS manufacturing: Maxxen’s utility-scale storage factory in Europe appeared first on pv magazine Global ."
       },
       {
+       "title": "ContourGlobal begins Arizona solar-storage construction",
+       "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+       "source": "reNEWS",
+       "published": "2026-10-08T09:48:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
+      },
+      {
        "title": "Explainer-Data centers' 'flexible' power usage could save the grid billions. Can they scale?",
        "url": "https://www.channelnewsasia.com/business/explainer-data-centers-flexible-power-usage-could-save-grid-billions-can-they-scale-6442466",
        "source": "CNA Business",
@@ -1494,6 +1601,26 @@
        "stages": [],
        "via": null,
        "blurb": "Togo's cabinet adopted a draft electricity law on Tuesday, 6 October, that would open the grid to private producers and direct sales to big users. The post Togo Moves to Open Power Grid as Demand Set to Rise 32% appeared first on The Rio Times ."
+      },
+      {
+       "title": "R.Power completes Jedwabno battery installation",
+       "url": "https://www.renews.biz/other-news/energy-storage/r-power-completes-jedwabno-battery-installation/",
+       "source": "reNEWS",
+       "published": "2026-10-08T09:00:10.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/other-news/energy-storage/r-power-completes-jedwabno-battery-installation/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "Polish 150MW energy storage project targets December 2026 energisation"
       },
       {
        "title": "Sao Tome Runs Out of Petrol, Awaits US$17 Million Cargo",
@@ -1554,76 +1681,6 @@
         "stage": "grid"
        },
        "blurb": "Elenger, a unit of Estonian investment firm Infortar, has secured additional liquefied natural gas (LNG) cargoes for the upcoming heating season."
-      },
-      {
-       "title": "An energy-first cybersecurity platform for solar, storage and the grid",
-       "url": "https://www.pv-magazine.com/2026/10/08/an-energy-first-cybersecurity-platform-for-solar-storage-and-the-grid/",
-       "source": "pv magazine",
-       "published": "2026-10-08T08:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/08/an-energy-first-cybersecurity-platform-for-solar-storage-and-the-grid/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "Romanian EPC contractor Enevo says the SentryOT platform stands apart from IT-led competitors by translating network threats into terms energy engineers understand. The post An energy-first cybersecurity platform for solar, storage and the grid appeared first on pv magazine Globa"
-      },
-      {
-       "title": "Oil Dips as Middle East Flows Recover",
-       "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-07T20:43:41.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
-         "primary": false
-        },
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/brent-crude-jumps-over-4-as-middle-east-tensions-flare-while-share-prices-retreat/",
-         "primary": false
-        },
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/international-business/oil-remains-beyond-100-per-barrel-as-middle-east-supply-concerns-persist/articleshow/134777591.cms",
-         "primary": false
-        },
-        {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks",
-         "primary": false
-        },
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/markets/2026/10/08/oil-rises-as-supply-concerns-persist-amid-shipping-attacks/",
-         "primary": false
-        },
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "Transport Topics",
-         "url": "https://www.ttnews.com/articles/oil-prices-attacks-mideast",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "Brent closed near $100 as traders weighed escalating Hormuz threats against resilient regional oil exports."
       }
      ]
     }
@@ -1705,26 +1762,38 @@
        "blurb": "Toast Fuel allows customers to run gas payments inside the store and at the pump alongside foodservice and general retail sales."
       },
       {
-       "title": "Top retail trade shows in 2027",
-       "url": "https://www.retaildive.com/news/top-retail-trade-shows-in-2027/832294/",
-       "source": "Retail Dive",
-       "published": "2026-10-06T21:47:00.000Z",
-       "verification": "multiple",
+       "title": "Walmart Settles Its Four-Year Legal Case Over Structurlam’s Collapse",
+       "url": "https://woodcentral.com.au/structurlam-walmart-settlement/",
+       "source": "Wood Central",
+       "published": "2026-10-07T22:38:54.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Construction Dive",
-         "url": "https://www.constructiondive.com/news/2027-top-construction-trade-shows/832065/",
-         "primary": false
-        },
-        {
-         "name": "Retail Dive",
-         "url": "https://www.retaildive.com/news/top-retail-trade-shows-in-2027/832294/",
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/structurlam-walmart-settlement/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "These events feature C-suite speakers who will discuss AI-driven solutions, understanding consumer behavior and leveraging technology, among other subjects."
+       "blurb": "Walmart has settled its case over more than US$80 million in claims against Structurlam, the Canadian mass timber manufacturer it hired to supply its new head office. That is according to the US Bankruptcy Court for the District of Delaware, which approved the settlement with the"
+      },
+      {
+       "title": "Grocery consumption shifts require smaller packages, NielsenIQ reports",
+       "url": "https://www.packagingdive.com/news/grocery-consumption-shifts-demand-smaller-packages-nielseniq-report/832322/",
+       "source": "Packaging Dive",
+       "published": "2026-10-07T16:46:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Packaging Dive",
+         "url": "https://www.packagingdive.com/news/grocery-consumption-shifts-demand-smaller-packages-nielseniq-report/832322/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Brands and packaging converters need to evolve alongside consumers, including by taking into account generational differences in consumption, the report says."
       }
      ]
     },
@@ -1732,36 +1801,21 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Vistra gets $4.2B DOE loan for planned uprates in Ohio, Pennsylvania",
-       "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-06T15:35:47.000Z",
-       "verification": "multiple",
+       "title": "U.S. Housing Costs Could Return to “Normal” Within 5 Years. Here’s What It Would Take.",
+       "url": "https://www.redfin.com/news/return-to-normal-housing-costs/",
+       "source": "Redfin News",
+       "published": "2026-10-08T12:00:02.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Utility Dive",
-         "url": "https://www.utilitydive.com/news/doe-intends-to-loan-vistra-42b-for-nuclear-fleet-improvements/832236/",
-         "primary": false
-        },
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/doe-offers-vistra-loan-for-reactor-upgrades-and-uprates",
-         "primary": false
-        },
-        {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
-         "primary": false
-        },
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/vistra_gets_conditional_42b_doe_loan_for_pjm_nuclear_fleet-06-oct-2026-184787-article/?rss=true",
+         "name": "Redfin News",
+         "url": "https://www.redfin.com/news/return-to-normal-housing-costs/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Vistra is set to receive an approximately $4.2 billion loan from the Department of Energy to upgrade and uprate its fleet of nuclear reactors in Pennsylvania and Ohio, the DOE announced Monday. This work will add 433 MW of new nuclear capacity to help meet electricity demand in P"
+       "blurb": "Housing costs could hypothetically return to “normal” within the next five years if mortgage rates drop to 6% and home-price growth holds steady around 2.1%. Alternatively, housing costs could return to normal in just a slightly longer timeline–within about six years–if mortgage "
       },
       {
        "title": "US mortgage rates jump to 7.49%, hit highest level in nearly 3 years",
@@ -1864,6 +1918,91 @@
        "stages": [],
        "via": null,
        "blurb": "Income from card, digital and other rails has swelled to about 40% of revenue for the global bank industry, according to consulting firm McKinsey."
+      },
+      {
+       "title": "Soft September Jobs Report May Give Fed Reason to Pause Rate Hikes, Slowing Ascent of Mortgage Rates",
+       "url": "https://www.redfin.com/news/soft-september-jobs-meaning-for-mortgage-rates/",
+       "source": "Redfin News",
+       "published": "2026-10-02T15:37:39.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Redfin News",
+         "url": "https://www.redfin.com/news/soft-september-jobs-meaning-for-mortgage-rates/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Takeaway: A soft jobs report may finally offer some relief for mortgage rates, or at least help to stem the march upward. Jobs data is no longer the key to whether the Fed continues to hike, but this data should give them a reason to wait. Jobs data points to a softer job market "
+      },
+      {
+       "title": "Goldman Sachs ensnared in EY data breach earlier this year",
+       "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
+       "source": "Accounting Today",
+       "published": "2026-10-07T15:21:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Accounting Today",
+         "url": "https://www.accountingtoday.com/articles/goldman-sachs-ensnared-in-ey-data-breach-earlier-this-year",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Goldman Sachs Group Inc.'s data was exposed earlier this year in a hack of accounting firm EY, according to a person familiar with the matter."
+      },
+      {
+       "title": "Small Mortgages are Disappearing, but Congress is Trying to Save Them",
+       "url": "https://www.realtor.com/research/small-mortgages-2026/",
+       "source": "Realtor.com Economic Research",
+       "published": "2026-10-07T10:00:39.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Realtor.com Economic Research",
+         "url": "https://www.realtor.com/research/small-mortgages-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New federal legislation aims to encourage mortgages under $100,000 by offering financial incentives to lenders, reforming processes calibrated to larger loans, and relaxing appraisal requirements."
+      },
+      {
+       "title": "Mortgage Rates Tick Up Even as the Odds of a Fed Rate Hike Decline",
+       "url": "https://www.redfin.com/news/weekly-economic-take-october-5/",
+       "source": "Redfin News",
+       "published": "2026-10-05T18:08:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Redfin News",
+         "url": "https://www.redfin.com/news/weekly-economic-take-october-5/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In A Nutshell: There’s still upward pressure on rates, as bond market investors have all of the same worries that have caused mortgage rates to increase by 1.5 percentage points already this year. Last Week’s Highlights Last week’s main economic data and news all reduced the prob"
+      },
+      {
+       "title": "Mortgage Rates Jump to Highest Level in Nearly Three Years",
+       "url": "https://www.realtor.com/research/freddie-mac-mortgage-rates-october-1-2026/",
+       "source": "Realtor.com Economic Research",
+       "published": "2026-10-01T16:02:04.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Realtor.com Economic Research",
+         "url": "https://www.realtor.com/research/freddie-mac-mortgage-rates-october-1-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Freddie Mac 30-year fixed mortgage rate hit 7.28% this week, the highest reading since November 2023."
       }
      ]
     },
@@ -1886,12 +2025,97 @@
        "stages": [],
        "via": null,
        "blurb": "In a notable shift, US mortgage rates have climbed to an alarming 7.49 percent, the peak since November 2023. This increase has further strained the housing market as the election period looms. Mortgage applications saw a 4.2 percent decline last week, reaching their lowest point"
+      },
+      {
+       "title": "Video: October 5, 2026, Economic and Housing Market Outlook",
+       "url": "https://www.realtor.com/research/video-economic-and-housing-market-update-october-5-2026/",
+       "source": "Realtor.com Economic Research",
+       "published": "2026-10-05T10:00:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Realtor.com Economic Research",
+         "url": "https://www.realtor.com/research/video-economic-and-housing-market-update-october-5-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The October 5, 2026 Housing Market Outlook video gives you the info you need to know to navigate the housing market as a homebuyer, home seller, renter, or industry professional."
+      },
+      {
+       "title": "Soft September Jobs Report May Give Fed Reason to Pause Rate Hikes, Slowing Ascent of Mortgage Rates",
+       "url": "https://www.redfin.com/news/soft-september-jobs-meaning-for-mortgage-rates/",
+       "source": "Redfin News",
+       "published": "2026-10-02T15:37:39.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Redfin News",
+         "url": "https://www.redfin.com/news/soft-september-jobs-meaning-for-mortgage-rates/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Takeaway: A soft jobs report may finally offer some relief for mortgage rates, or at least help to stem the march upward. Jobs data is no longer the key to whether the Fed continues to hike, but this data should give them a reason to wait. Jobs data points to a softer job market "
+      },
+      {
+       "title": "Mortgage Rates Tick Up Even as the Odds of a Fed Rate Hike Decline",
+       "url": "https://www.redfin.com/news/weekly-economic-take-october-5/",
+       "source": "Redfin News",
+       "published": "2026-10-05T18:08:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Redfin News",
+         "url": "https://www.redfin.com/news/weekly-economic-take-october-5/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In A Nutshell: There’s still upward pressure on rates, as bond market investors have all of the same worries that have caused mortgage rates to increase by 1.5 percentage points already this year. Last Week’s Highlights Last week’s main economic data and news all reduced the prob"
+      },
+      {
+       "title": "Mortgage Rates Jump to Highest Level in Nearly Three Years",
+       "url": "https://www.realtor.com/research/freddie-mac-mortgage-rates-october-1-2026/",
+       "source": "Realtor.com Economic Research",
+       "published": "2026-10-01T16:02:04.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Realtor.com Economic Research",
+         "url": "https://www.realtor.com/research/freddie-mac-mortgage-rates-october-1-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Freddie Mac 30-year fixed mortgage rate hit 7.28% this week, the highest reading since November 2023."
       }
      ]
     },
     "health": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Health Care Investment Firm Lorient Inks 6K-SF lease at Durst’s 825 Third Avenue",
+       "url": "https://commercialobserver.com/2026/10/lorient-lease-durst-825-third-avenue/",
+       "source": "Commercial Observer",
+       "published": "2026-10-07T11:00:19.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Commercial Observer",
+         "url": "https://commercialobserver.com/2026/10/lorient-lease-durst-825-third-avenue/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Lorient, an investment firm focused on health care, will open its first New York City office at the Durst Organization‘s 825 Third Avenue in Midtown East, Commercial Observer has learned. The Miami-based investment firm signed a 5,556-square-foot lease at the 40-story office towe"
+      },
       {
        "title": "Medical Debt Is Crushing Hospital Patients in Los Angeles. Health Officials May Have a Fix.",
        "url": "https://kffhealthnews.org/health-industry/medical-debt-hospital-patients-los-angeles-county-charity-care-presumptive-eligibility/",
@@ -1942,33 +2166,6 @@
        "stages": [],
        "via": null,
        "blurb": "The idea of scrapping the U.S. health insurance system for a massive expansion of government-funded healthcare isn’t new. But voters hit by ballooning private health insurance costs are rallying behind midterm candidates calling for universal coverage."
-      },
-      {
-       "title": "Top healthcare conferences to attend in 2027",
-       "url": "https://www.healthcaredive.com/news/top-healthcare-conferences-2027/831809/",
-       "source": "Healthcare Dive",
-       "published": "2026-10-06T13:03:49.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Banking Dive",
-         "url": "https://www.bankingdive.com/news/2027-banking-conference-roundup/832080/",
-         "primary": false
-        },
-        {
-         "name": "Healthcare Dive",
-         "url": "https://www.healthcaredive.com/news/top-healthcare-conferences-2027/831809/",
-         "primary": false
-        },
-        {
-         "name": "K-12 Dive",
-         "url": "https://www.k12dive.com/news/top-k12-events-2027/832172/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "These are the best industry events for digital health, provider and payer leaders to attend next year."
       },
       {
        "title": "FTC escalates price transparency crackdown with warning letters to hospitals",
@@ -2093,23 +2290,6 @@
        "stages": [],
        "via": null,
        "blurb": "Martin Trust Center Managing Director Bill Aulet introduces Dear Dreamer, a free platform for middle and high school students who want to learn about entrepreneurship."
-      },
-      {
-       "title": "Why the Trump administration’s bid to end diversity efforts at nonprofit schools is likely to get tied up in court",
-       "url": "https://nonprofitquarterly.org/why-the-trump-administrations-bid-to-end-diversity-efforts-at-nonprofit-schools-is-likely-to-get-tied-up-in-court/",
-       "source": "Nonprofit Quarterly",
-       "published": "2026-09-30T21:34:05.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Nonprofit Quarterly",
-         "url": "https://nonprofitquarterly.org/why-the-trump-administrations-bid-to-end-diversity-efforts-at-nonprofit-schools-is-likely-to-get-tied-up-in-court/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Some 18,000 private schools could be affected by a proposed new rule if it goes into effect. Jumping Rocks/Universal Images Group via Getty Images Elizabeth Schmidt, UMass Amherst The Trump administration wants to strip all nonprofit colleges, universities and private K-12 school"
       }
      ]
     },
@@ -2121,11 +2301,16 @@
        "url": "https://www.hoteldive.com/news/top-hospitality-conferences-2027/832168/",
        "source": "Hotel Dive",
        "published": "2026-10-06T13:27:16.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "Hotel Dive",
          "url": "https://www.hoteldive.com/news/top-hospitality-conferences-2027/832168/",
+         "primary": false
+        },
+        {
+         "name": "BioPharma Dive",
+         "url": "https://www.biopharmadive.com/news/top-biotech-pharma-medical-conferences-2027/832075/",
          "primary": false
         }
        ],
@@ -2229,21 +2414,21 @@
        "blurb": "Historically high freight yields are driving a wave of dedicated container services between India and the Middle East, a tradelane that has been through a number of upheavals since the outbreak of Iran-US military tension. The latest example: Maersk has just rolled out a new cont"
       },
       {
-       "title": "Port Arthur LNG Commissioning Builds Ahead of 2027 Startup Push",
-       "url": "https://naturalgasintel.com/news/port-arthur-lng-commissioning-builds-ahead-of-2027-startup-push/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T13:34:54.000Z",
+       "title": "New $100 million Baltimore fund targets vacant housing pipeline",
+       "url": "https://www.housingwire.com/articles/baltimore-vacant-housing-fund/",
+       "source": "HousingWire",
+       "published": "2026-10-07T18:50:56.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/port-arthur-lng-commissioning-builds-ahead-of-2027-startup-push/",
+         "name": "HousingWire",
+         "url": "https://www.housingwire.com/articles/baltimore-vacant-housing-fund/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Sempra Infrastructure is advancing commissioning at Port Arthur LNG, with new startup activity bringing the Texas project closer to adding another major source of natural gas demand along the Gulf Coast."
+       "blurb": "The Greater Baltimore Committee and Enterprise will launch a Funders’ Consortium in November"
       },
       {
        "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
@@ -2353,23 +2538,6 @@
        "blurb": "Jeff Moore brings 20 years of experience in software engineering and operations to the role as Hilton looks to advance its AI goals."
       },
       {
-       "title": "Planning system ensures a robot’s flight path will remain collision-free",
-       "url": "https://news.mit.edu/2026/planning-system-ensures-robots-flight-path-will-remain-collision-free-1007",
-       "source": "MIT News",
-       "published": "2026-10-07T04:00:00.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "MIT News",
-         "url": "https://news.mit.edu/2026/planning-system-ensures-robots-flight-path-will-remain-collision-free-1007",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "This new method, called “SANDO,” could help disaster-response robots navigate dangerous, unknown environments."
-      },
-      {
        "title": "Met Warehouse dedication ceremony launches new era",
        "url": "https://news.mit.edu/2026/met-warehouse-dedication-ceremony-launches-new-era-1002",
        "source": "MIT News",
@@ -2391,6 +2559,26 @@
     "utilities": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "ContourGlobal begins Arizona solar-storage construction",
+       "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+       "source": "reNEWS",
+       "published": "2026-10-08T09:48:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
+      },
       {
        "title": "Venture Global shipped 124 LNG cargoes in Q3",
        "url": "https://lngprime.com/americas/venture-global-shipped-124-lng-cargoes-in-q3/198047/",
@@ -2630,26 +2818,6 @@
         "stage": "grid"
        },
        "blurb": "US natural gas futures surged through midday trade on Wednesday as cooler longer range forecasts, expectations for a below-normal storage injection and short covering lifted the front of the curve."
-      },
-      {
-       "title": "Amazon, Constellation sign 20-year PPA to expand Maryland nuclear plant",
-       "url": "https://www.utilitydive.com/news/amazon-constellation-sign-20-year-ppa-to-expand-maryland-nuclear-plant/832145/",
-       "source": "Utility Dive",
-       "published": "2026-10-05T16:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Utility Dive",
-         "url": "https://www.utilitydive.com/news/amazon-constellation-sign-20-year-ppa-to-expand-maryland-nuclear-plant/832145/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "The tech giant and energy producer are backing improvements and renovations at the 1,790-MW Calvert Cliffs Clean Energy Center, the state’s largest source of clean energy."
       }
      ]
     }
@@ -2681,6 +2849,37 @@
         "stage": "grid"
        },
        "blurb": "Great Basin Gas Transmission has upsized its northern Nevada natural gas expansion to nearly 950 MMcf/d and a 48-inch diameter pipe, leaving room to add compression later for growing demand from data centers, power generators and industrial users."
+      }
+     ]
+    }
+   }
+  },
+  "fi": {
+   "label": "Finland",
+   "level": "country",
+   "sources": {
+    "utilities": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Nala begins construction at 125MW BESS project",
+       "url": "https://www.renews.biz/other-news/energy-storage/nala-begins-construction-at-125mw-bess-project/",
+       "source": "reNEWS",
+       "published": "2026-10-07T15:18:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/other-news/energy-storage/nala-begins-construction-at-125mw-bess-project/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "Finnish system brings developer's pipeline to 275MW"
       }
      ]
     }
@@ -2886,6 +3085,81 @@
        "stages": [],
        "via": null,
        "blurb": "The spice and seasoning maker is mitigating the impact through pricing and productivity measures, as well as the acquisition of a Mexico subsidiary."
+      }
+     ]
+    }
+   }
+  },
+  "us-az": {
+   "label": "Arizona",
+   "level": "admin1",
+   "sources": {
+    "education": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Can 3-year degrees boost the teacher pipeline?",
+       "url": "https://www.highereddive.com/news/can-3-year-degrees-boost-the-teacher-pipeline/832113/",
+       "source": "Higher Ed Dive",
+       "published": "2026-10-08T09:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Higher Ed Dive",
+         "url": "https://www.highereddive.com/news/can-3-year-degrees-boost-the-teacher-pipeline/832113/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Arizona State University is offering a shorter teacher pathway this fall with a goal of removing financial barriers for students aspiring to enter the profession."
+      }
+     ]
+    },
+    "transport": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Can 3-year degrees boost the teacher pipeline?",
+       "url": "https://www.highereddive.com/news/can-3-year-degrees-boost-the-teacher-pipeline/832113/",
+       "source": "Higher Ed Dive",
+       "published": "2026-10-08T09:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Higher Ed Dive",
+         "url": "https://www.highereddive.com/news/can-3-year-degrees-boost-the-teacher-pipeline/832113/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Arizona State University is offering a shorter teacher pathway this fall with a goal of removing financial barriers for students aspiring to enter the profession."
+      }
+     ]
+    },
+    "utilities": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "ContourGlobal begins Arizona solar-storage construction",
+       "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+       "source": "reNEWS",
+       "published": "2026-10-08T09:48:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
       }
      ]
     }
@@ -3148,6 +3422,28 @@
       }
      ]
     },
+    "education": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Russell Group universities to showcase UK higher ed at China open days",
+       "url": "https://thepienews.com/russell-group-universities-to-showcase-uk-higher-ed-at-china-open-days/",
+       "source": "The PIE News",
+       "published": "2026-10-07T13:07:21.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The PIE News",
+         "url": "https://thepienews.com/russell-group-universities-to-showcase-uk-higher-ed-at-china-open-days/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Fifteen UK research-intensive universities will take part in collaborative events in Shanghai and Beijing designed to highlight future skills, academic excellence and the long-term value of a UK education. The post Russell Group universities to showcase UK higher ed at China open"
+      }
+     ]
+    },
     "transport": {
      "brief": "missing",
      "candidates": [
@@ -3323,6 +3619,28 @@
    "label": "Maryland",
    "level": "admin1",
    "sources": {
+    "transport": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "New $100 million Baltimore fund targets vacant housing pipeline",
+       "url": "https://www.housingwire.com/articles/baltimore-vacant-housing-fund/",
+       "source": "HousingWire",
+       "published": "2026-10-07T18:50:56.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "HousingWire",
+         "url": "https://www.housingwire.com/articles/baltimore-vacant-housing-fund/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Greater Baltimore Committee and Enterprise will launch a Funders’ Consortium in November"
+      }
+     ]
+    },
     "utilities": {
      "brief": "missing",
      "candidates": [
@@ -3374,43 +3692,6 @@
    "label": "Ohio",
    "level": "admin1",
    "sources": {
-    "finance": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Vistra gets $4.2B DOE loan for planned uprates in Ohio, Pennsylvania",
-       "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-06T15:35:47.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Utility Dive",
-         "url": "https://www.utilitydive.com/news/doe-intends-to-loan-vistra-42b-for-nuclear-fleet-improvements/832236/",
-         "primary": false
-        },
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/doe-offers-vistra-loan-for-reactor-upgrades-and-uprates",
-         "primary": false
-        },
-        {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
-         "primary": false
-        },
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/vistra_gets_conditional_42b_doe_loan_for_pjm_nuclear_fleet-06-oct-2026-184787-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Vistra is set to receive an approximately $4.2 billion loan from the Department of Energy to upgrade and uprate its fleet of nuclear reactors in Pennsylvania and Ohio, the DOE announced Monday. This work will add 433 MW of new nuclear capacity to help meet electricity demand in P"
-      }
-     ]
-    },
     "utilities": {
      "brief": "missing",
      "candidates": [
@@ -3457,43 +3738,6 @@
    "label": "Pennsylvania",
    "level": "admin1",
    "sources": {
-    "finance": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Vistra gets $4.2B DOE loan for planned uprates in Ohio, Pennsylvania",
-       "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-06T15:35:47.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Utility Dive",
-         "url": "https://www.utilitydive.com/news/doe-intends-to-loan-vistra-42b-for-nuclear-fleet-improvements/832236/",
-         "primary": false
-        },
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/doe-offers-vistra-loan-for-reactor-upgrades-and-uprates",
-         "primary": false
-        },
-        {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
-         "primary": false
-        },
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/vistra_gets_conditional_42b_doe_loan_for_pjm_nuclear_fleet-06-oct-2026-184787-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Vistra is set to receive an approximately $4.2 billion loan from the Department of Energy to upgrade and uprate its fleet of nuclear reactors in Pennsylvania and Ohio, the DOE announced Monday. This work will add 433 MW of new nuclear capacity to help meet electricity demand in P"
-      }
-     ]
-    },
     "utilities": {
      "brief": "missing",
      "candidates": [
@@ -3656,6 +3900,28 @@
        "stages": [],
        "via": null,
        "blurb": "An Adelaide private hospital has notified individuals and cyber security authorities of a data breach of personal information."
+      }
+     ]
+    },
+    "education": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Australia’s Coalition pledges to scrap Temporary Graduate visas, cut student numbers",
+       "url": "https://thepienews.com/australias-coalition-pledges-to-scrap-temporary-graduate-visas-cut-student-numbers/",
+       "source": "The PIE News",
+       "published": "2026-10-06T12:18:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The PIE News",
+         "url": "https://thepienews.com/australias-coalition-pledges-to-scrap-temporary-graduate-visas-cut-student-numbers/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "If elected, the Coalition has vowed to abolish Temporary Graduate visas and cut international student commencements to 240,000 a year under a sweeping migration plan. The post Australia’s Coalition pledges to scrap Temporary Graduate visas, cut student numbers appeared first on T"
       }
      ]
     },
@@ -3830,6 +4096,23 @@
        "blurb": "As Hong Kong and Singapore compete for leadership in businesses ranging from foreign exchange trading to wealth management, the battleground has extended to artificial intelligence, with both cities vying to attract investment from HSBC Holdings and other major corporations, acco"
       },
       {
+       "title": "Indonesia’s Kenangan Coffee considering IPO on SGX within next 24 months, CEO says",
+       "url": "https://www.straitstimes.com/business/indonesias-kenangan-coffee-considering-ipo-on-sgx-within-next-24-months-ceo-says",
+       "source": "The Straits Times Business",
+       "published": "2026-10-08T12:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/indonesias-kenangan-coffee-considering-ipo-on-sgx-within-next-24-months-ceo-says",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "It would first like greater clarity on how companies could pursue dual listings in Singapore and on regional exchanges."
+      },
+      {
        "title": "Singapore’s central bank wants all FinTech AI use cases subject to independent review",
        "url": "https://www.theregister.com/ai-and-ml/2026/10/08/singapores-central-bank-wants-all-fintech-ai-use-cases-subject-to-independent-review/5301798",
        "source": "The Register",
@@ -3845,28 +4128,6 @@
        "stages": [],
        "via": null,
        "blurb": "Failures of third-party services no excuse for island nation’s financial sector"
-      }
-     ]
-    },
-    "transport": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Middle East flights: Singapore Airlines, Scoot and Wizz Air extend suspensions",
-       "url": "https://www.thenationalnews.com/travel/2026/10/08/uae-dubai-abu-dhabi-flights-status/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T08:10:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/travel/2026/10/08/uae-dubai-abu-dhabi-flights-status/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "International airlines continue to adjust schedules for Middle East flights as airspace restrictions linked to the Iran war persist. Against the backdrop of continuing geopolitical uncertainty across the region, here's how airlines are adapting their operations. Wizz Air Wizz Air"
       }
      ]
     },
@@ -3892,79 +4153,6 @@
         "stage": "grid"
        },
        "blurb": "It has unrivalled ambition and is backed by a tech billionaire, but Sun Cable's plans to export solar power to Singapore are floundering."
-      }
-     ]
-    }
-   }
-  },
-  "us-tx": {
-   "label": "Texas",
-   "level": "admin1",
-   "sources": {
-    "transport": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Port Arthur LNG Commissioning Builds Ahead of 2027 Startup Push",
-       "url": "https://naturalgasintel.com/news/port-arthur-lng-commissioning-builds-ahead-of-2027-startup-push/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T13:34:54.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/port-arthur-lng-commissioning-builds-ahead-of-2027-startup-push/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Sempra Infrastructure is advancing commissioning at Port Arthur LNG, with new startup activity bringing the Texas project closer to adding another major source of natural gas demand along the Gulf Coast."
-      }
-     ]
-    },
-    "utilities": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Linea Energy closes financing for 500MWh Texas BESS project",
-       "url": "https://www.energy-storage.news/linea-energy-closes-financing-for-500mwh-texas-bess-project/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-06T11:46:12.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/linea-energy-closes-financing-for-500mwh-texas-bess-project/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "IPP Linea Energy has closed a debt financing and preferred equity commitment for its 250MW/500MWh Mesa View energy storage project in Upton County, Texas, US."
-      },
-      {
-       "title": "Despite big Texas solar purchase agreement, Meta still uses lots of gas",
-       "url": "https://www.canarymedia.com/articles/corporate-procurement/meta-large-solar-purchase-texas",
-       "source": "Canary Media",
-       "published": "2026-10-01T07:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Canary Media",
-         "url": "https://www.canarymedia.com/articles/corporate-procurement/meta-large-solar-purchase-texas",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "This article originally appeared on Inside Climate News , a nonprofit, nonpartisan news organization that covers climate, energy, and the environment. Sign up for their newsletter. Apex Clean Energy and Meta have entered into a power purchase agreement that allows the technology "
       }
      ]
     }
@@ -4024,23 +4212,6 @@
        "stages": [],
        "via": null,
        "blurb": "Reports have emerged that tanker captains are earning $100,000 plus a $50,000 per-trip bonus to transit the strait."
-      },
-      {
-       "title": "Middle East flights: Singapore Airlines, Scoot and Wizz Air extend suspensions",
-       "url": "https://www.thenationalnews.com/travel/2026/10/08/uae-dubai-abu-dhabi-flights-status/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T08:10:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/travel/2026/10/08/uae-dubai-abu-dhabi-flights-status/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "International airlines continue to adjust schedules for Middle East flights as airspace restrictions linked to the Iran war persist. Against the backdrop of continuing geopolitical uncertainty across the region, here's how airlines are adapting their operations. Wizz Air Wizz Air"
       },
       {
        "title": "High yields spark new container services on ‘bumpy’ India-Middle East trade",
@@ -4212,6 +4383,37 @@
     }
    }
   },
+  "tw": {
+   "label": "Taiwan",
+   "level": "country",
+   "sources": {
+    "utilities": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Aeroderivative gas turbine installation: How a 180 MW plant went live in ten months",
+       "url": "https://www.power-eng.com/gas/turbines/aeroderivative-gas-turbine-installation-how-a-180-mw-plant-went-live-in-ten-months/",
+       "source": "Power Engineering",
+       "published": "2026-10-05T10:20:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/gas/turbines/aeroderivative-gas-turbine-installation-how-a-180-mw-plant-went-live-in-ten-months/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "See how a 180 MW aeroderivative gas turbine installation went from groundbreaking to full grid operation in ten months at Taiwan's Tung Hsiao plant."
+      }
+     ]
+    }
+   }
+  },
   "pk": {
    "label": "Pakistan",
    "level": "country",
@@ -4296,6 +4498,85 @@
     }
    }
   },
+  "us-nj": {
+   "label": "New Jersey",
+   "level": "admin1",
+   "sources": {
+    "utilities": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Utility Contractor Shows Systematic Success",
+       "url": "https://www.enr.com/articles/63795-utility-contractor-shows-systematic-success",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-06T15:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63795-utility-contractor-shows-systematic-success",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New Jersey-based Skoda Contracting has taken a purposeful approach to becoming a leading underground utility contractor."
+      }
+     ]
+    }
+   }
+  },
+  "us-tx": {
+   "label": "Texas",
+   "level": "admin1",
+   "sources": {
+    "utilities": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Linea Energy closes financing for 500MWh Texas BESS project",
+       "url": "https://www.energy-storage.news/linea-energy-closes-financing-for-500mwh-texas-bess-project/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-06T11:46:12.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/linea-energy-closes-financing-for-500mwh-texas-bess-project/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "IPP Linea Energy has closed a debt financing and preferred equity commitment for its 250MW/500MWh Mesa View energy storage project in Upton County, Texas, US."
+      },
+      {
+       "title": "Despite big Texas solar purchase agreement, Meta still uses lots of gas",
+       "url": "https://www.canarymedia.com/articles/corporate-procurement/meta-large-solar-purchase-texas",
+       "source": "Canary Media",
+       "published": "2026-10-01T07:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Canary Media",
+         "url": "https://www.canarymedia.com/articles/corporate-procurement/meta-large-solar-purchase-texas",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "This article originally appeared on Inside Climate News , a nonprofit, nonpartisan news organization that covers climate, energy, and the environment. Sign up for their newsletter. Apex Clean Energy and Meta have entered into a power purchase agreement that allows the technology "
+      }
+     ]
+    }
+   }
+  },
   "gr": {
    "label": "Greece",
    "level": "country",
@@ -4375,6 +4656,28 @@
        "stages": [],
        "via": null,
        "blurb": "Higher interest rates have weighed on property markets in both Hong Kong and New York, but Morgan Stanley sees greater upside potential in the Asian financial hub – particularly the office segment – in the months ahead, according to its latest report. The US investment bank highl"
+      }
+     ]
+    },
+    "health": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Health Care Investment Firm Lorient Inks 6K-SF lease at Durst’s 825 Third Avenue",
+       "url": "https://commercialobserver.com/2026/10/lorient-lease-durst-825-third-avenue/",
+       "source": "Commercial Observer",
+       "published": "2026-10-07T11:00:19.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Commercial Observer",
+         "url": "https://commercialobserver.com/2026/10/lorient-lease-durst-825-third-avenue/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Lorient, an investment firm focused on health care, will open its first New York City office at the Durst Organization‘s 825 Third Avenue in Midtown East, Commercial Observer has learned. The Miami-based investment firm signed a 5,556-square-foot lease at the 40-story office towe"
       }
      ]
     },
@@ -4520,6 +4823,28 @@
       }
      ]
     },
+    "health": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Health Care Investment Firm Lorient Inks 6K-SF lease at Durst’s 825 Third Avenue",
+       "url": "https://commercialobserver.com/2026/10/lorient-lease-durst-825-third-avenue/",
+       "source": "Commercial Observer",
+       "published": "2026-10-07T11:00:19.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Commercial Observer",
+         "url": "https://commercialobserver.com/2026/10/lorient-lease-durst-825-third-avenue/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Lorient, an investment firm focused on health care, will open its first New York City office at the Durst Organization‘s 825 Third Avenue in Midtown East, Commercial Observer has learned. The Miami-based investment firm signed a 5,556-square-foot lease at the 40-story office towe"
+      }
+     ]
+    },
     "education": {
      "brief": "missing",
      "candidates": [
@@ -4603,6 +4928,34 @@
         "stage": "grid"
        },
        "blurb": "US energy holding company and project developer-owner NextEra Energy has suspended operations at two energy storage facilities in Long Island, New York, US."
+      }
+     ]
+    }
+   }
+  },
+  "us-city-baltimore": {
+   "label": "Baltimore",
+   "level": "city",
+   "sources": {
+    "transport": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "New $100 million Baltimore fund targets vacant housing pipeline",
+       "url": "https://www.housingwire.com/articles/baltimore-vacant-housing-fund/",
+       "source": "HousingWire",
+       "published": "2026-10-07T18:50:56.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "HousingWire",
+         "url": "https://www.housingwire.com/articles/baltimore-vacant-housing-fund/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Greater Baltimore Committee and Enterprise will launch a Funders’ Consortium in November"
       }
      ]
     }
@@ -5150,6 +5503,40 @@
        "stages": [],
        "via": null,
        "blurb": "UK's Stirling university secures £2.4m grant for Vietnamese aquaculture AMR project"
+      },
+      {
+       "title": "BSC Education enters liquidation, ceases trading",
+       "url": "https://thepienews.com/bsc-education-enters-liquidation-ceases-trading/",
+       "source": "The PIE News",
+       "published": "2026-10-08T06:27:19.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The PIE News",
+         "url": "https://thepienews.com/bsc-education-enters-liquidation-ceases-trading/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The English language school group with centres in the UK, Malta is entering liquidation. The post BSC Education enters liquidation, ceases trading appeared first on The PIE News ."
+      },
+      {
+       "title": "Russell Group universities to showcase UK higher ed at China open days",
+       "url": "https://thepienews.com/russell-group-universities-to-showcase-uk-higher-ed-at-china-open-days/",
+       "source": "The PIE News",
+       "published": "2026-10-07T13:07:21.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The PIE News",
+         "url": "https://thepienews.com/russell-group-universities-to-showcase-uk-higher-ed-at-china-open-days/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Fifteen UK research-intensive universities will take part in collaborative events in Shanghai and Beijing designed to highlight future skills, academic excellence and the long-term value of a UK education. The post Russell Group universities to showcase UK higher ed at China open"
       }
      ]
     },
@@ -5286,6 +5673,128 @@
     }
    }
   },
+  "pl": {
+   "label": "Poland",
+   "level": "country",
+   "sources": {
+    "education": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "One dead, two injured in Poland’s second school attack in two days",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-one-dead-two-injured-in-polands-second-school-attack-in-two-days/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T12:33:02.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Notes from Poland",
+         "url": "https://notesfrompoland.com/2026/10/08/one-person-killed-in-second-school-knife-attack-in-poland-in-two-days/",
+         "primary": false
+        },
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-one-dead-two-injured-in-polands-second-school-attack-in-two-days/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A 15-year-old former pupil killed one person and injured two others at a Polish school on Thursday, police said, just a day after a 19-year-old wounded 10 people including himself in an attack at another school."
+      }
+     ]
+    },
+    "transport": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Sweden sends air defence to protect Ukraine logistics hub in Poland",
+       "url": "https://www.thelocal.se/20261006/sweden-sends-air-defence-to-protect-ukraine-logistics-hub-in-poland",
+       "source": "The Local Sweden",
+       "published": "2026-10-06T13:37:35.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Local Sweden",
+         "url": "https://www.thelocal.se/20261006/sweden-sends-air-defence-to-protect-ukraine-logistics-hub-in-poland",
+         "primary": false
+        },
+        {
+         "name": "Notes from Poland",
+         "url": "https://notesfrompoland.com/2026/10/06/sweden-to-deploy-patriot-air-defence-systems-to-poland/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Sweden is sending its Patriot air defence system to Poland to protect a logistics base for military and civilian support for Ukraine."
+      },
+      {
+       "title": "Five shortlisted for Warsaw-Łódź high-speed contract",
+       "url": "https://www.globalconstructionreview.com/five-shortlisted-for-warsaw-lodz-high-speed-contract/",
+       "source": "Global Construction Review",
+       "published": "2026-10-02T12:17:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Global Construction Review",
+         "url": "https://www.globalconstructionreview.com/five-shortlisted-for-warsaw-lodz-high-speed-contract/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Five bidders have been shortlisted to build a 14.3km-long high-speed railway linking the Polish cities of Warsaw and Łódź as part of Poland’s Port Polska mega transport project. The winner… The post Five shortlisted for Warsaw-Łódź high-speed contract appeared first on Global Con"
+      }
+     ]
+    },
+    "utilities": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "R.Power completes Jedwabno battery installation",
+       "url": "https://www.renews.biz/other-news/energy-storage/r-power-completes-jedwabno-battery-installation/",
+       "source": "reNEWS",
+       "published": "2026-10-08T09:00:10.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/other-news/energy-storage/r-power-completes-jedwabno-battery-installation/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "Polish 150MW energy storage project targets December 2026 energisation"
+      },
+      {
+       "title": "Actis buys 1.14GWh of BESS in Poland from DTEK’s DRI",
+       "url": "https://www.energy-storage.news/actis-buys-1-14gwh-of-bess-in-poland-from-dteks-dri/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-08T11:02:15.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/actis-buys-1-14gwh-of-bess-in-poland-from-dteks-dri/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "Infrastructure investor Actis has entered the Polish energy storage market with the acquisition of two large-scale projects from DTEK's DRI, while R.Power and Solax have announced project updates in the country."
+      }
+     ]
+    }
+   }
+  },
   "ro": {
    "label": "Romania",
    "level": "country",
@@ -5371,6 +5880,23 @@
        "stages": [],
        "via": null,
        "blurb": "The family behind Canada’s biggest pharmacy and grocery chains is growing its empire with the acquisition of U.K. drugstore Boots."
+      },
+      {
+       "title": "Walmart Settles Its Four-Year Legal Case Over Structurlam’s Collapse",
+       "url": "https://woodcentral.com.au/structurlam-walmart-settlement/",
+       "source": "Wood Central",
+       "published": "2026-10-07T22:38:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/structurlam-walmart-settlement/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Walmart has settled its case over more than US$80 million in claims against Structurlam, the Canadian mass timber manufacturer it hired to supply its new head office. That is according to the US Bankruptcy Court for the District of Delaware, which approved the settlement with the"
       },
       {
        "title": "The next Canada Groceries and Essentials Benefit goes out on Monday",
@@ -5593,108 +6119,6 @@
     }
    }
   },
-  "pl": {
-   "label": "Poland",
-   "level": "country",
-   "sources": {
-    "education": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "One dead, two injured in Poland’s second school attack in two days",
-       "url": "https://www.dailymaverick.co.za/article/2026-10-08-one-dead-two-injured-in-polands-second-school-attack-in-two-days/",
-       "source": "Daily Maverick",
-       "published": "2026-10-08T12:33:02.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Notes from Poland",
-         "url": "https://notesfrompoland.com/2026/10/08/one-person-killed-in-second-school-knife-attack-in-poland-in-two-days/",
-         "primary": false
-        },
-        {
-         "name": "Daily Maverick",
-         "url": "https://www.dailymaverick.co.za/article/2026-10-08-one-dead-two-injured-in-polands-second-school-attack-in-two-days/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A 15-year-old former pupil killed one person and injured two others at a Polish school on Thursday, police said, just a day after a 19-year-old wounded 10 people including himself in an attack at another school."
-      }
-     ]
-    },
-    "transport": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Sweden sends air defence to protect Ukraine logistics hub in Poland",
-       "url": "https://www.thelocal.se/20261006/sweden-sends-air-defence-to-protect-ukraine-logistics-hub-in-poland",
-       "source": "The Local Sweden",
-       "published": "2026-10-06T13:37:35.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Local Sweden",
-         "url": "https://www.thelocal.se/20261006/sweden-sends-air-defence-to-protect-ukraine-logistics-hub-in-poland",
-         "primary": false
-        },
-        {
-         "name": "Notes from Poland",
-         "url": "https://notesfrompoland.com/2026/10/06/sweden-to-deploy-patriot-air-defence-systems-to-poland/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Sweden is sending its Patriot air defence system to Poland to protect a logistics base for military and civilian support for Ukraine."
-      },
-      {
-       "title": "Five shortlisted for Warsaw-Łódź high-speed contract",
-       "url": "https://www.globalconstructionreview.com/five-shortlisted-for-warsaw-lodz-high-speed-contract/",
-       "source": "Global Construction Review",
-       "published": "2026-10-02T12:17:25.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Global Construction Review",
-         "url": "https://www.globalconstructionreview.com/five-shortlisted-for-warsaw-lodz-high-speed-contract/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Five bidders have been shortlisted to build a 14.3km-long high-speed railway linking the Polish cities of Warsaw and Łódź as part of Poland’s Port Polska mega transport project. The winner… The post Five shortlisted for Warsaw-Łódź high-speed contract appeared first on Global Con"
-      }
-     ]
-    },
-    "utilities": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Actis buys 1.14GWh of BESS in Poland from DTEK’s DRI",
-       "url": "https://www.energy-storage.news/actis-buys-1-14gwh-of-bess-in-poland-from-dteks-dri/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-08T11:02:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/actis-buys-1-14gwh-of-bess-in-poland-from-dteks-dri/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "Infrastructure investor Actis has entered the Polish energy storage market with the acquisition of two large-scale projects from DTEK's DRI, while R.Power and Solax have announced project updates in the country."
-      }
-     ]
-    }
-   }
-  },
   "gb-so": {
    "label": "Stoke-on-Trent",
    "level": "admin1",
@@ -5874,6 +6298,28 @@
        "stages": [],
        "via": null,
        "blurb": "ACEN Corp. of the Zobel family has secured additional financing of &euro;50 million (about P3.5 billion) from Dutch banking giant ING Bank N.V. to bolster its renewable energy expansion."
+      }
+     ]
+    },
+    "property": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Three Fashion Tenants Ink Deals at 231 West 39th Street",
+       "url": "https://commercialobserver.com/2026/10/rino-pelle-lease-231-west-39th-street/",
+       "source": "Commercial Observer",
+       "published": "2026-10-07T17:35:27.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Commercial Observer",
+         "url": "https://commercialobserver.com/2026/10/rino-pelle-lease-231-west-39th-street/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Three women’s apparel brands have taken office and showroom space at 231 West 39th Street in Manhattan’s Garment District, landlord broker and building manager Adams & Company announced Wednesday. Rino & Pelle, a Netherlands-based women’s fashion and accessories brand, has inked "
       }
      ]
     },
@@ -6227,6 +6673,56 @@
     }
    }
   },
+  "zw": {
+   "label": "Zimbabwe",
+   "level": "country",
+   "sources": {
+    "finance": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Tsholotsho RDC seeks US$1m loan for roads, equipment",
+       "url": "https://newsday.co.zw/article/tsholotsho-rdc-seeks-us1m-loan-for-roads-equipment-2",
+       "source": "NewsDay (Zimbabwe)",
+       "published": "2026-10-08T07:42:45.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NewsDay (Zimbabwe)",
+         "url": "https://newsday.co.zw/article/tsholotsho-rdc-seeks-us1m-loan-for-roads-equipment-2",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "TSHOLOTSHO, Oct. 8 (NewsDay Live) – Tsholotsho Rural District Council is seeking a US$1 million loan from People’s Own Savings Bank (POSB) to address infrastructure and service-delivery gaps affecting communities in the district. The proposed borrowing would fund equipment for ro"
+      }
+     ]
+    },
+    "education": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Government urges institutions to insure infrastructure against natural disasters",
+       "url": "https://newsday.co.zw/article/tsholotsho-rdc-seeks-us1m-loan-for-roads-equipment",
+       "source": "NewsDay (Zimbabwe)",
+       "published": "2026-10-08T06:34:04.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NewsDay (Zimbabwe)",
+         "url": "https://newsday.co.zw/article/tsholotsho-rdc-seeks-us1m-loan-for-roads-equipment",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Sibanda's call follows Monday's hailstorm that damaged several buildings at Masvingo Polytechnic, Masvingo Teachers' College and Great Zimbabwe University (GZU). The post Government urges institutions to insure infrastructure against natural disasters appeared first on Newsday ."
+      }
+     ]
+    }
+   }
+  },
   "ar": {
    "label": "Argentina",
    "level": "country",
@@ -6404,23 +6900,6 @@
        "stages": [],
        "via": null,
        "blurb": ""
-      },
-      {
-       "title": "Consolidated account statements to reflect deposits in banks",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/consolidated-account-statements-to-reflect-deposits-in-banks/articleshow/134777538.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-08T01:38:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/consolidated-account-statements-to-reflect-deposits-in-banks/articleshow/134777538.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Individuals will soon benefit from easier access to financial assets in one place through RBI's measures. Interoperable account aggregators will enable customers to access financial information across various banks with consent. Survivors of deceased account holders will find it "
       }
      ]
     },
@@ -6443,45 +6922,6 @@
        "stages": [],
        "via": null,
        "blurb": "India's transition to zero-emission buses has so far been driven largely by public transport authorities (PTAs). However, public fleets represent only 8 to 10 per cent of the country's bus market, while private operators account for around 90 per cent or approximately 1.6 million"
-      }
-     ]
-    },
-    "hospitality": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Supreme Court to examine plea that systemic blind spots in aviation boom left disabled travellers stranded",
-       "url": "https://www.thehindu.com/news/national/supreme-court-to-examine-plea-that-systemic-blind-spots-in-aviation-boom-left-disabled-travellers-stranded/article71555374.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-07T14:14:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/news/national/supreme-court-to-examine-plea-that-systemic-blind-spots-in-aviation-boom-left-disabled-travellers-stranded/article71555374.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The plea highlights a systemic and nationwide failure of non-implementation of accessibility across all stages of air travel, including booking, web-check-in, airport entry and navigation, counter check-in, security screening, Digi Yatra processing, immigration, boarding, in-flig"
-      },
-      {
-       "title": "Royal Orchid Follows Indian Travelers Beyond the Metros, From Pilgrim Towns to Branded Homes",
-       "url": "https://skift.com/2026/10/07/royal-orchid-follows-indian-travelers-beyond-the-metros-from-pilgrim-towns-to-branded-homes/",
-       "source": "Skift",
-       "published": "2026-10-07T06:19:11.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Skift",
-         "url": "https://skift.com/2026/10/07/royal-orchid-follows-indian-travelers-beyond-the-metros-from-pilgrim-towns-to-branded-homes/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Royal Orchid is betting India’s next hotel winners will follow travelers, not the old hotel map. The test now is making sure its brands don’t end up chasing the same customer under slightly different names."
       }
      ]
     },
@@ -6708,56 +7148,6 @@
     }
    }
   },
-  "us-az": {
-   "label": "Arizona",
-   "level": "admin1",
-   "sources": {
-    "education": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Can 3-year degrees boost the teacher pipeline?",
-       "url": "https://www.highereddive.com/news/can-3-year-degrees-boost-the-teacher-pipeline/832113/",
-       "source": "Higher Ed Dive",
-       "published": "2026-10-08T09:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Higher Ed Dive",
-         "url": "https://www.highereddive.com/news/can-3-year-degrees-boost-the-teacher-pipeline/832113/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Arizona State University is offering a shorter teacher pathway this fall with a goal of removing financial barriers for students aspiring to enter the profession."
-      }
-     ]
-    },
-    "transport": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Can 3-year degrees boost the teacher pipeline?",
-       "url": "https://www.highereddive.com/news/can-3-year-degrees-boost-the-teacher-pipeline/832113/",
-       "source": "Higher Ed Dive",
-       "published": "2026-10-08T09:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Higher Ed Dive",
-         "url": "https://www.highereddive.com/news/can-3-year-degrees-boost-the-teacher-pipeline/832113/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Arizona State University is offering a shorter teacher pathway this fall with a goal of removing financial barriers for students aspiring to enter the profession."
-      }
-     ]
-    }
-   }
-  },
   "jp": {
    "label": "Japan",
    "level": "country",
@@ -6798,28 +7188,6 @@
        "stages": [],
        "via": null,
        "blurb": "Japanese, South Korean and Thai brands have increased their share of new entrants in Hong Kong’s retail property market by 7 percentage points to more than one-third in the first nine months of 2026, while the demand for shops from mainland Chinese brands has slipped, according t"
-      }
-     ]
-    },
-    "hospitality": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Japan’s halt on new foreign restaurant workers fuels urban influx",
-       "url": "https://www.japantimes.co.jp/business/2026/10/08/foreign-restaurant-workers-urban-influx/",
-       "source": "The Japan Times",
-       "published": "2026-10-08T11:35:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/business/2026/10/08/foreign-restaurant-workers-urban-influx/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A survey showed that the number of job openings in the industry for foreign workers with the Type I status has increased by 2.8 times since April."
       }
      ]
     },
@@ -7294,6 +7662,62 @@
     }
    }
   },
+  "us-fl": {
+   "label": "Florida",
+   "level": "admin1",
+   "sources": {
+    "health": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Health Care Investment Firm Lorient Inks 6K-SF lease at Durst’s 825 Third Avenue",
+       "url": "https://commercialobserver.com/2026/10/lorient-lease-durst-825-third-avenue/",
+       "source": "Commercial Observer",
+       "published": "2026-10-07T11:00:19.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Commercial Observer",
+         "url": "https://commercialobserver.com/2026/10/lorient-lease-durst-825-third-avenue/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Lorient, an investment firm focused on health care, will open its first New York City office at the Durst Organization‘s 825 Third Avenue in Midtown East, Commercial Observer has learned. The Miami-based investment firm signed a 5,556-square-foot lease at the 40-story office towe"
+      }
+     ]
+    }
+   }
+  },
+  "us-city-miami": {
+   "label": "Miami",
+   "level": "city",
+   "sources": {
+    "health": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Health Care Investment Firm Lorient Inks 6K-SF lease at Durst’s 825 Third Avenue",
+       "url": "https://commercialobserver.com/2026/10/lorient-lease-durst-825-third-avenue/",
+       "source": "Commercial Observer",
+       "published": "2026-10-07T11:00:19.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Commercial Observer",
+         "url": "https://commercialobserver.com/2026/10/lorient-lease-durst-825-third-avenue/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Lorient, an investment firm focused on health care, will open its first New York City office at the Durst Organization‘s 825 Third Avenue in Midtown East, Commercial Observer has learned. The Miami-based investment firm signed a 5,556-square-foot lease at the 40-story office towe"
+      }
+     ]
+    }
+   }
+  },
   "kr": {
    "label": "South Korea",
    "level": "country",
@@ -7563,6 +7987,162 @@
     }
    }
   },
+  "cn-sh": {
+   "label": "Shanghai",
+   "level": "admin1",
+   "sources": {
+    "education": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Russell Group universities to showcase UK higher ed at China open days",
+       "url": "https://thepienews.com/russell-group-universities-to-showcase-uk-higher-ed-at-china-open-days/",
+       "source": "The PIE News",
+       "published": "2026-10-07T13:07:21.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The PIE News",
+         "url": "https://thepienews.com/russell-group-universities-to-showcase-uk-higher-ed-at-china-open-days/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Fifteen UK research-intensive universities will take part in collaborative events in Shanghai and Beijing designed to highlight future skills, academic excellence and the long-term value of a UK education. The post Russell Group universities to showcase UK higher ed at China open"
+      }
+     ]
+    }
+   }
+  },
+  "cn-bj": {
+   "label": "Beijing",
+   "level": "admin1",
+   "sources": {
+    "retail": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Uniqlo sees profits soar in China despite Beijing-Tokyo tensions",
+       "url": "https://www.scmp.com/business/china-business/article/3370187/uniqlo-sees-profits-soar-china-despite-beijing-tokyo-tensions?utm_source=rss_feed",
+       "source": "South China Morning Post",
+       "published": "2026-10-08T09:15:41.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "South China Morning Post",
+         "url": "https://www.scmp.com/business/china-business/article/3370187/uniqlo-sees-profits-soar-china-despite-beijing-tokyo-tensions?utm_source=rss_feed",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Fast Retailing, the parent company of Japanese clothing retailer Uniqlo, has defied the ongoing political tensions between Beijing and Tokyo and soft consumer sentiment in China to log a rebound in sales and profits on the Chinese mainland. The Japanese firm said the 2026 financi"
+      }
+     ]
+    },
+    "education": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Russell Group universities to showcase UK higher ed at China open days",
+       "url": "https://thepienews.com/russell-group-universities-to-showcase-uk-higher-ed-at-china-open-days/",
+       "source": "The PIE News",
+       "published": "2026-10-07T13:07:21.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The PIE News",
+         "url": "https://thepienews.com/russell-group-universities-to-showcase-uk-higher-ed-at-china-open-days/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Fifteen UK research-intensive universities will take part in collaborative events in Shanghai and Beijing designed to highlight future skills, academic excellence and the long-term value of a UK education. The post Russell Group universities to showcase UK higher ed at China open"
+      }
+     ]
+    }
+   }
+  },
+  "cn-city-shanghai": {
+   "label": "Shanghai",
+   "level": "city",
+   "sources": {
+    "education": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Russell Group universities to showcase UK higher ed at China open days",
+       "url": "https://thepienews.com/russell-group-universities-to-showcase-uk-higher-ed-at-china-open-days/",
+       "source": "The PIE News",
+       "published": "2026-10-07T13:07:21.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The PIE News",
+         "url": "https://thepienews.com/russell-group-universities-to-showcase-uk-higher-ed-at-china-open-days/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Fifteen UK research-intensive universities will take part in collaborative events in Shanghai and Beijing designed to highlight future skills, academic excellence and the long-term value of a UK education. The post Russell Group universities to showcase UK higher ed at China open"
+      }
+     ]
+    }
+   }
+  },
+  "cn-city-beijing": {
+   "label": "Beijing",
+   "level": "city",
+   "sources": {
+    "retail": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Uniqlo sees profits soar in China despite Beijing-Tokyo tensions",
+       "url": "https://www.scmp.com/business/china-business/article/3370187/uniqlo-sees-profits-soar-china-despite-beijing-tokyo-tensions?utm_source=rss_feed",
+       "source": "South China Morning Post",
+       "published": "2026-10-08T09:15:41.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "South China Morning Post",
+         "url": "https://www.scmp.com/business/china-business/article/3370187/uniqlo-sees-profits-soar-china-despite-beijing-tokyo-tensions?utm_source=rss_feed",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Fast Retailing, the parent company of Japanese clothing retailer Uniqlo, has defied the ongoing political tensions between Beijing and Tokyo and soft consumer sentiment in China to log a rebound in sales and profits on the Chinese mainland. The Japanese firm said the 2026 financi"
+      }
+     ]
+    },
+    "education": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Russell Group universities to showcase UK higher ed at China open days",
+       "url": "https://thepienews.com/russell-group-universities-to-showcase-uk-higher-ed-at-china-open-days/",
+       "source": "The PIE News",
+       "published": "2026-10-07T13:07:21.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The PIE News",
+         "url": "https://thepienews.com/russell-group-universities-to-showcase-uk-higher-ed-at-china-open-days/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Fifteen UK research-intensive universities will take part in collaborative events in Shanghai and Beijing designed to highlight future skills, academic excellence and the long-term value of a UK education. The post Russell Group universities to showcase UK higher ed at China open"
+      }
+     ]
+    }
+   }
+  },
   "us-ks": {
    "label": "Kansas",
    "level": "admin1",
@@ -7692,6 +8272,34 @@
        "stages": [],
        "via": null,
        "blurb": "Sweden is sending its Patriot air defence system to Poland to protect a logistics base for military and civilian support for Ukraine."
+      }
+     ]
+    }
+   }
+  },
+  "id": {
+   "label": "Indonesia",
+   "level": "country",
+   "sources": {
+    "finance": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Indonesia’s Kenangan Coffee considering IPO on SGX within next 24 months, CEO says",
+       "url": "https://www.straitstimes.com/business/indonesias-kenangan-coffee-considering-ipo-on-sgx-within-next-24-months-ceo-says",
+       "source": "The Straits Times Business",
+       "published": "2026-10-08T12:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/indonesias-kenangan-coffee-considering-ipo-on-sgx-within-next-24-months-ceo-says",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "It would first like greater clarity on how companies could pursue dual listings in Singapore and on regional exchanges."
       }
      ]
     }
@@ -8050,62 +8658,6 @@
     }
    }
   },
-  "cn-bj": {
-   "label": "Beijing",
-   "level": "admin1",
-   "sources": {
-    "retail": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Uniqlo sees profits soar in China despite Beijing-Tokyo tensions",
-       "url": "https://www.scmp.com/business/china-business/article/3370187/uniqlo-sees-profits-soar-china-despite-beijing-tokyo-tensions?utm_source=rss_feed",
-       "source": "South China Morning Post",
-       "published": "2026-10-08T09:15:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "South China Morning Post",
-         "url": "https://www.scmp.com/business/china-business/article/3370187/uniqlo-sees-profits-soar-china-despite-beijing-tokyo-tensions?utm_source=rss_feed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Fast Retailing, the parent company of Japanese clothing retailer Uniqlo, has defied the ongoing political tensions between Beijing and Tokyo and soft consumer sentiment in China to log a rebound in sales and profits on the Chinese mainland. The Japanese firm said the 2026 financi"
-      }
-     ]
-    }
-   }
-  },
-  "cn-city-beijing": {
-   "label": "Beijing",
-   "level": "city",
-   "sources": {
-    "retail": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Uniqlo sees profits soar in China despite Beijing-Tokyo tensions",
-       "url": "https://www.scmp.com/business/china-business/article/3370187/uniqlo-sees-profits-soar-china-despite-beijing-tokyo-tensions?utm_source=rss_feed",
-       "source": "South China Morning Post",
-       "published": "2026-10-08T09:15:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "South China Morning Post",
-         "url": "https://www.scmp.com/business/china-business/article/3370187/uniqlo-sees-profits-soar-china-despite-beijing-tokyo-tensions?utm_source=rss_feed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Fast Retailing, the parent company of Japanese clothing retailer Uniqlo, has defied the ongoing political tensions between Beijing and Tokyo and soft consumer sentiment in China to log a rebound in sales and profits on the Chinese mainland. The Japanese firm said the 2026 financi"
-      }
-     ]
-    }
-   }
-  },
   "us-city-los-angeles": {
    "label": "Los Angeles",
    "level": "city",
@@ -8188,6 +8740,34 @@
        "stages": [],
        "via": null,
        "blurb": "Retailer raises group profit outlook floor after first-half rise"
+      }
+     ]
+    }
+   }
+  },
+  "mt": {
+   "label": "Malta",
+   "level": "country",
+   "sources": {
+    "education": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "BSC Education enters liquidation, ceases trading",
+       "url": "https://thepienews.com/bsc-education-enters-liquidation-ceases-trading/",
+       "source": "The PIE News",
+       "published": "2026-10-08T06:27:19.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The PIE News",
+         "url": "https://thepienews.com/bsc-education-enters-liquidation-ceases-trading/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The English language school group with centres in the UK, Malta is entering liquidation. The post BSC Education enters liquidation, ceases trading appeared first on The PIE News ."
       }
      ]
     }
@@ -8305,6 +8885,34 @@
     }
    }
   },
+  "us-de": {
+   "label": "Delaware",
+   "level": "admin1",
+   "sources": {
+    "retail": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Walmart Settles Its Four-Year Legal Case Over Structurlam’s Collapse",
+       "url": "https://woodcentral.com.au/structurlam-walmart-settlement/",
+       "source": "Wood Central",
+       "published": "2026-10-07T22:38:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/structurlam-walmart-settlement/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Walmart has settled its case over more than US$80 million in claims against Structurlam, the Canadian mass timber manufacturer it hired to supply its new head office. That is according to the US Bankruptcy Court for the District of Delaware, which approved the settlement with the"
+      }
+     ]
+    }
+   }
+  },
   "nz": {
    "label": "New Zealand",
    "level": "country",
@@ -8328,6 +8936,28 @@
        "stages": [],
        "via": null,
        "blurb": "Rent prices have been mostly flat in recent years, but is the approaching election likely to change that?"
+      }
+     ]
+    },
+    "education": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Spotlight on… Te Herenga Waka, Victoria University of Wellington",
+       "url": "https://thepienews.com/spotlight-on-te-herenga-waka-victoria-university-of-wellington/",
+       "source": "The PIE News",
+       "published": "2026-10-07T12:20:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The PIE News",
+         "url": "https://thepienews.com/spotlight-on-te-herenga-waka-victoria-university-of-wellington/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The PIE sat down with Victoria University of Wellington to discuss the future of international education, New Zealand’s growing global appeal and what sets studying in the country’s capital apart. The post Spotlight on… Te Herenga Waka, Victoria University of Wellington appeared "
       }
      ]
     }
@@ -8496,6 +9126,62 @@
        "stages": [],
        "via": null,
        "blurb": "The Detroit startup has widened its scope beyond mobility to help drone and robotics companies find U.S.-based manufacturers, shippers, and more."
+      }
+     ]
+    }
+   }
+  },
+  "nz-mw": {
+   "label": "Manawatu-Wanganui",
+   "level": "admin1",
+   "sources": {
+    "education": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Spotlight on… Te Herenga Waka, Victoria University of Wellington",
+       "url": "https://thepienews.com/spotlight-on-te-herenga-waka-victoria-university-of-wellington/",
+       "source": "The PIE News",
+       "published": "2026-10-07T12:20:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The PIE News",
+         "url": "https://thepienews.com/spotlight-on-te-herenga-waka-victoria-university-of-wellington/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The PIE sat down with Victoria University of Wellington to discuss the future of international education, New Zealand’s growing global appeal and what sets studying in the country’s capital apart. The post Spotlight on… Te Herenga Waka, Victoria University of Wellington appeared "
+      }
+     ]
+    }
+   }
+  },
+  "nz-city-wellington": {
+   "label": "Wellington",
+   "level": "city",
+   "sources": {
+    "education": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Spotlight on… Te Herenga Waka, Victoria University of Wellington",
+       "url": "https://thepienews.com/spotlight-on-te-herenga-waka-victoria-university-of-wellington/",
+       "source": "The PIE News",
+       "published": "2026-10-07T12:20:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The PIE News",
+         "url": "https://thepienews.com/spotlight-on-te-herenga-waka-victoria-university-of-wellington/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The PIE sat down with Victoria University of Wellington to discuss the future of international education, New Zealand’s growing global appeal and what sets studying in the country’s capital apart. The post Spotlight on… Te Herenga Waka, Victoria University of Wellington appeared "
       }
      ]
     }
