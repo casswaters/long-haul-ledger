@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T12:34:44.743Z",
+ "generatedAt": "2026-10-08T12:47:07.522Z",
  "sector": "materials",
  "maxAgeDays": 10,
  "places": {
@@ -60,6 +60,23 @@
        "stages": [],
        "via": null,
        "blurb": "The EU's Enlargement Commissioner, Marta Kos, had already said, \"We have to protect the farmers in the EU, and we are already discussing this subject with Ukraine.\""
+      },
+      {
+       "title": "Summit snub casts doubt over China’s soybean purchases",
+       "url": "https://www.farmprogress.com/markets-and-quotes/morning-market-review",
+       "source": "Farm Progress",
+       "published": "2026-10-08T12:33:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Farm Progress",
+         "url": "https://www.farmprogress.com/markets-and-quotes/morning-market-review",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Morning Market Analysis: Soybean futures fell overnight a day ahead of a USDA report that’s expected to illustrate prospects for a record harvest; corn and wheat are firmer."
       },
       {
        "title": "Ethiopia: Nigeria, Ethiopia Move to Deepen Ties in Trade, Agriculture, Security",
@@ -196,23 +213,6 @@
        "stages": [],
        "via": null,
        "blurb": "A majority of Better Cotton Initiative (BCI) growers have achieved deep reductions in nitrogen and pesticide use, as well as major drops in their carbon footprint."
-      },
-      {
-       "title": "Agriculture industry slow to take up new AI tech",
-       "url": "https://www.rnz.co.nz/news/business/1787388/agriculture-industry-slow-to-take-up-new-ai-tech",
-       "source": "RNZ Business",
-       "published": "2026-10-07T18:06:54.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "RNZ Business",
-         "url": "https://www.rnz.co.nz/news/business/1787388/agriculture-industry-slow-to-take-up-new-ai-tech",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "AWS research found AI adoption across agriculture, forestry and fishing sits just under 40 percent."
       }
      ]
     },
@@ -410,6 +410,23 @@
        "stages": [],
        "via": null,
        "blurb": "Veneer has overtaken sawn boards as Mozambique’s biggest processed timber export, with the country’s exporters shipping 22,460 cubic metres in the first half of the year, after selling none in the same period in 2025. That is according to figures from Mozambique’s government repo"
+      },
+      {
+       "title": "Australia’s Foresters Give Dr Michelle Freeman a Standing Ovation",
+       "url": "https://woodcentral.com.au/forestry-australia-president-freeman/",
+       "source": "Wood Central",
+       "published": "2026-10-08T12:42:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/forestry-australia-president-freeman/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Forestry is increasingly recognised for the important role it plays in Australia’s future. That is according to Dr Michelle Freeman, a forest scientist who retired as Forestry Australia president, and who spoke to Wood Central last night following her final Annual General Meeting"
       },
       {
        "title": "Forestry leaders to meet minister over merger fears",
@@ -745,6 +762,51 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Oil and gas prices jump on Middle East shipping attacks, sending bond yields higher and stocks lower – business live",
+       "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+       "source": "The Guardian Business",
+       "published": "2026-10-08T12:26:58.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/international-business/oil-remains-beyond-100-per-barrel-as-middle-east-supply-concerns-persist/articleshow/134777591.cms",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/markets/2026/10/08/oil-rises-as-supply-concerns-persist-amid-shipping-attacks/",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/oil-prices-attacks-mideast",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "Brent crude tops $105 a barrel amid attacks on tankers and squeeze on US oil output in Gulf of Mexico as storm Isaias approaches Here’s our wrap of the moves in markets: The sell-off in bond markets has put the euro under pressure, pushing to close to a 17-month low. Continue rea"
+      },
+      {
        "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
        "source": "Argus Media",
@@ -768,6 +830,26 @@
         "stage": "extraction"
        },
        "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
+      },
+      {
+       "title": "Natural Gas Futures Extend Winning Ways as Traders Size Up Hurricane Threat, Prep for Storage Print",
+       "url": "https://naturalgasintel.com/news/natural-gas-futures-extend-winning-ways-as-traders-size-up-hurricane-threat-prep-for-storage-print/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-08T12:43:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/natural-gas-futures-extend-winning-ways-as-traders-size-up-hurricane-threat-prep-for-storage-print/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "Natural gas futures traders took stock of Hurricane Isaias approaching the Gulf Coast early Thursday as well as expectations for a bullish government inventory result."
       },
       {
        "title": "Posco completes second upstream lithium plant in Argentina",
@@ -950,46 +1032,6 @@
         "stage": "extraction"
        },
        "blurb": "Egypt secures new investment from Chevron to unlock Mediterranean gas reserves with 3D seismic data and two new wells."
-      },
-      {
-       "title": "Centalion buys Silver Hill’s Haynesville natural gas assets",
-       "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
-       "source": "Offshore Technology",
-       "published": "2026-10-06T09:45:47.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Offshore Technology",
-         "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "extraction"
-       },
-       "blurb": "Centalion, formerly known as Gunvor, has acquired a portfolio of upstream and midstream natural gas assets in Texas and Louisiana from US-based private energy company Silver Hill Energy Partners."
-      },
-      {
-       "title": "Petrobras makes additional discovery offshore Amapá",
-       "url": "https://www.ogj.com/exploration-development/news/55409591/petrobras-makes-additional-discovery-offshore-amapa",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-05T17:21:38.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/exploration-development/news/55409591/petrobras-makes-additional-discovery-offshore-amapa",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "extraction"
-       },
-       "blurb": "The Morpho well, drilled in deep waters off Amapá, reached an oil-bearing interval, with ongoing analyses confirming good oil quality and promising further exploration opportunities in the Foz do Amazonas basin."
       }
      ]
     },
@@ -1036,6 +1078,23 @@
        "blurb": "After decades in development, a $1.8 billion rare earths mining project has finally seen ground broken in remote Central Australia."
       },
       {
+       "title": "FLS to deliver world’s largest gyratory as part of Chile copper mine expansion package",
+       "url": "https://im-mining.com/2026/10/08/fls-to-deliver-worlds-largest-gyratory-as-part-of-chile-copper-mine-expansion-package/",
+       "source": "International Mining",
+       "published": "2026-10-08T12:13:51.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/08/fls-to-deliver-worlds-largest-gyratory-as-part-of-chile-copper-mine-expansion-package/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Leading mineral processing technology and service provider, FLSmidth (FLS), says it has received a DKK 360 million order to supply long-lead crushing and grinding technologies to a copper expansion project in northern Chile. Under the scope of the agreement, FLS will deliver the "
+      },
+      {
        "title": "Posco completes second upstream lithium plant in Argentina",
        "url": "https://www.just-auto.com/news/posco-completes-second-upstream-lithium-plant-in-argentina/",
        "source": "Just Auto",
@@ -1051,6 +1110,23 @@
        "stages": [],
        "via": null,
        "blurb": "Lithium carbonate production capacity at the site increased to 48,000 tons/year."
+      },
+      {
+       "title": "Sandvik looks to raise mining expertise with new education program",
+       "url": "https://im-mining.com/2026/10/08/sandvik-looks-to-raise-mining-expertise-with-new-education-program/",
+       "source": "International Mining",
+       "published": "2026-10-08T09:19:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/08/sandvik-looks-to-raise-mining-expertise-with-new-education-program/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Sandvik says it has high hopes for the launch of a unique five-continent mining engineering program aimed at training the next generation of leaders in the industry. The new global postgraduate program, launched in March 2026, marks a shift in how Sandvik intends to build experti"
       },
       {
        "title": "Aclara, CAP launch rare earth metals demonstration plant in Chile",
@@ -1121,6 +1197,28 @@
        "blurb": "[263Chat] Zimbabwe's mineral export sales more than doubled in the first nine months of 2026, reaching US$4.735 billion with lithium overtaking platinum group metals (PGMs) as the country's biggest revenue earner."
       },
       {
+       "title": "BHP agrees to sell Kambalda nickel concentrator to Gold Fields",
+       "url": "https://im-mining.com/2026/10/07/bhp-agrees-to-sell-kambalda-nickel-concentrator-to-gold-fields/",
+       "source": "International Mining",
+       "published": "2026-10-07T13:16:04.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/bhp-kambalda-nickel-gold-fields/",
+         "primary": false
+        },
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/07/bhp-agrees-to-sell-kambalda-nickel-concentrator-to-gold-fields/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Gold Fields has entered into formal agreements to acquire BHP’s nickel concentrator and associated exploration properties in Kambalda, Western Australia. Gold Fields will now undertake a detailed assessment of the assets and the opportunities they may provide, including evaluatin"
+      },
+      {
        "title": "New technologies target energy use in Australian ore processing",
        "url": "https://www.mining-technology.com/analysis/new-technologies-target-energy-use-in-australian-ore-processing/",
        "source": "Mining Technology",
@@ -1153,57 +1251,6 @@
        "stages": [],
        "via": null,
        "blurb": "AI data centres have energy and power requirements demanding enough to potentially stretch lithium-ion beyond its versatile limits, writes Intertek CEA market intelligence consultant Aaron Marks."
-      },
-      {
-       "title": "Case study: BHP looks to mining waste for more copper",
-       "url": "https://www.mining-technology.com/analysis/case-study-bhp-looks-to-mining-waste-for-more-copper/",
-       "source": "Mining Technology",
-       "published": "2026-10-08T07:00:00.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/analysis/case-study-bhp-looks-to-mining-waste-for-more-copper/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "With copper demand rising and declining grades, BHP and SiTration are testing a new source of metal recovery. The post Case study: BHP looks to mining waste for more copper appeared first on Mining Technology ."
-      },
-      {
-       "title": "Canada’s miners must seize political opening: Gratton",
-       "url": "https://www.northernminer.com/news/canadas-miners-must-seize-political-opening-gratton/1003895518/",
-       "source": "The Northern Miner",
-       "published": "2026-10-07T20:30:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/canadas-miners-must-seize-political-opening-gratton/1003895518/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Canada’s mining industry has won the political support needed to reverse years of decline, outgoing Mining Association of Canada (MAC) president and CEO Pierre Gratton said Tuesday. Companies now need... The post Canada’s miners must seize political opening: Gratton appeared firs"
-      },
-      {
-       "title": "Rock Tech cuts lithium plant cost estimate by 54%",
-       "url": "https://www.northernminer.com/news/rock-tech-cuts-lithium-plant-cost-estimate-by-54/1003895546/",
-       "source": "The Northern Miner",
-       "published": "2026-10-07T15:35:29.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/rock-tech-cuts-lithium-plant-cost-estimate-by-54/1003895546/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Rock Tech Lithium’s (TSXV: RCK; US-OTC: RCKTF) proposed Ontario lithium refinery will cost $596 million (US$420.9 million), less than half its previous estimate, although the company hasn’t explained most of... The post Rock Tech cuts lithium plant cost estimate by 54% appeared f"
       }
      ]
     }
@@ -1474,6 +1521,51 @@
     "oilgas": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Oil and gas prices jump on Middle East shipping attacks, sending bond yields higher and stocks lower – business live",
+       "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+       "source": "The Guardian Business",
+       "published": "2026-10-08T12:26:58.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/international-business/oil-remains-beyond-100-per-barrel-as-middle-east-supply-concerns-persist/articleshow/134777591.cms",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/markets/2026/10/08/oil-rises-as-supply-concerns-persist-amid-shipping-attacks/",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/oil-prices-attacks-mideast",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "Brent crude tops $105 a barrel amid attacks on tankers and squeeze on US oil output in Gulf of Mexico as storm Isaias approaches Here’s our wrap of the moves in markets: The sell-off in bond markets has put the euro under pressure, pushing to close to a 17-month low. Continue rea"
+      },
       {
        "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
@@ -1831,6 +1923,213 @@
         "stage": "extraction"
        },
        "blurb": "Centalion, formerly known as Gunvor, has acquired a portfolio of upstream and midstream natural gas assets in Texas and Louisiana from US-based private energy company Silver Hill Energy Partners."
+      }
+     ]
+    }
+   }
+  },
+  "au": {
+   "label": "Australia",
+   "level": "country",
+   "sources": {
+    "forestry": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Your view on timber truss bridges is needed",
+       "url": "https://www.timberbiz.com.au/your-view-on-timber-truss-bridges-is-needed/",
+       "source": "Timberbiz",
+       "published": "2026-10-08T05:57:19.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Timberbiz",
+         "url": "https://www.timberbiz.com.au/your-view-on-timber-truss-bridges-is-needed/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Share your views on the future of NSW’s historic timber truss bridges and their role in local communities. Source: Timberbiz The Timber Truss Bridge Strategy is Transport for NSW’s framework for deciding which historic timber road bridges should be conserved, how they should be m"
+      },
+      {
+       "title": "Australia’s Foresters Give Dr Michelle Freeman a Standing Ovation",
+       "url": "https://woodcentral.com.au/forestry-australia-president-freeman/",
+       "source": "Wood Central",
+       "published": "2026-10-08T12:42:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/forestry-australia-president-freeman/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Forestry is increasingly recognised for the important role it plays in Australia’s future. That is according to Dr Michelle Freeman, a forest scientist who retired as Forestry Australia president, and who spoke to Wood Central last night following her final Annual General Meeting"
+      },
+      {
+       "title": "Hyne Timber Invests in X-Ray Log Scanning",
+       "url": "https://internationalforestindustries.com/2026/10/02/hyne-timber-invests-in-x-ray-log-scanning/",
+       "source": "International Forest Industries",
+       "published": "2026-10-02T09:55:43.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Forest Industries",
+         "url": "https://internationalforestindustries.com/2026/10/02/hyne-timber-invests-in-x-ray-log-scanning/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Hyne Timber’s Tuan Mill, the largest timber mill in Queensland, Australia, has once again chosen to invest in MiCROTEC’s technology, with the multi-sensor real-shape and quality scanner, Logeye. With nearly two decades of experience using MiCROTEC’s solutions, Hyne’s latest inves"
+      }
+     ]
+    },
+    "fishing": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Seafood shop owners fear being forced to close due to gillnet ban",
+       "url": "https://www.abc.net.au/news/2026-10-08/regional-fishing-towns-prepare-for-impact-of-gillnet-ban/107238342",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-07T22:32:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-08/regional-fishing-towns-prepare-for-impact-of-gillnet-ban/107238342",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "There are fears small businesses may struggle if the looming gillnet ban pushes Queensland fishers out of the water."
+      }
+     ]
+    },
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Mine backed by US, Australia and Gina Rinehart moves towards construction",
+       "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T07:10:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "After decades in development, a $1.8 billion rare earths mining project has finally seen ground broken in remote Central Australia."
+      },
+      {
+       "title": "New technologies target energy use in Australian ore processing",
+       "url": "https://www.mining-technology.com/analysis/new-technologies-target-energy-use-in-australian-ore-processing/",
+       "source": "Mining Technology",
+       "published": "2026-10-08T10:56:43.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/analysis/new-technologies-target-energy-use-in-australian-ore-processing/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Ore processing: from alternative crushing to coarse-particle flotation and dry separation, miners are exploring ways to reduce energy. The post New technologies target energy use in Australian ore processing appeared first on Mining Technology ."
+      },
+      {
+       "title": "BHP agrees to sell Kambalda nickel concentrator to Gold Fields",
+       "url": "https://im-mining.com/2026/10/07/bhp-agrees-to-sell-kambalda-nickel-concentrator-to-gold-fields/",
+       "source": "International Mining",
+       "published": "2026-10-07T13:16:04.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/bhp-kambalda-nickel-gold-fields/",
+         "primary": false
+        },
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/07/bhp-agrees-to-sell-kambalda-nickel-concentrator-to-gold-fields/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Gold Fields has entered into formal agreements to acquire BHP’s nickel concentrator and associated exploration properties in Kambalda, Western Australia. Gold Fields will now undertake a detailed assessment of the assets and the opportunities they may provide, including evaluatin"
+      },
+      {
+       "title": "EORA Energy and Tulla Group form JV focused on mining, remote-energy projects",
+       "url": "https://im-mining.com/2026/10/07/eora-energy-and-tulla-group-form-jv-focused-on-mining-remote-energy-projects/",
+       "source": "International Mining",
+       "published": "2026-10-07T08:33:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/07/eora-energy-and-tulla-group-form-jv-focused-on-mining-remote-energy-projects/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Australian energy company EORA Energy is expanding its business beyond battery storage to become an integrated energy infrastructure developer following the formation of a joint venture with resources investor Kevin Maloney’s Tulla Group. The partnership will initially target min"
+      },
+      {
+       "title": "ABB’s power conversion system for Fortescue’s North Star Junction hub",
+       "url": "https://im-mining.com/2026/10/07/abbs-power-conversion-system-for-fortescues-north-star-junction-hub/",
+       "source": "International Mining",
+       "published": "2026-10-07T10:14:36.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/07/abbs-power-conversion-system-for-fortescues-north-star-junction-hub/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Fortescue is one of the world’s largest producers of iron ore, so when its emerging power network in the Pilbara, Western Australia required a power conversion system (PCS) to support a consistent, stable and reliable power supply for its mining operations, it opted to partner wi"
+      }
+     ]
+    }
+   }
+  },
+  "kz": {
+   "label": "Kazakhstan",
+   "level": "country",
+   "sources": {
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Caterpillar powers remote gold mining operation with continuous, scalable solution",
+       "url": "https://im-mining.com/2026/10/07/caterpillar-powers-remote-gold-mining-operation-with-continuous-scalable-solution/",
+       "source": "International Mining",
+       "published": "2026-10-07T13:58:21.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/07/caterpillar-powers-remote-gold-mining-operation-with-continuous-scalable-solution/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In the remote Aktobe region of Kazakhstan, a new gold mining operation is taking shape, with the power solution made up of new Cat® G3500K series gas generator sets. With the site located nearly 300 km from the nearest city and no existing electrical infrastructure, West Gold Min"
       }
      ]
     }
@@ -2600,129 +2899,6 @@
     }
    }
   },
-  "au": {
-   "label": "Australia",
-   "level": "country",
-   "sources": {
-    "forestry": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Your view on timber truss bridges is needed",
-       "url": "https://www.timberbiz.com.au/your-view-on-timber-truss-bridges-is-needed/",
-       "source": "Timberbiz",
-       "published": "2026-10-08T05:57:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Timberbiz",
-         "url": "https://www.timberbiz.com.au/your-view-on-timber-truss-bridges-is-needed/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Share your views on the future of NSW’s historic timber truss bridges and their role in local communities. Source: Timberbiz The Timber Truss Bridge Strategy is Transport for NSW’s framework for deciding which historic timber road bridges should be conserved, how they should be m"
-      },
-      {
-       "title": "Hyne Timber Invests in X-Ray Log Scanning",
-       "url": "https://internationalforestindustries.com/2026/10/02/hyne-timber-invests-in-x-ray-log-scanning/",
-       "source": "International Forest Industries",
-       "published": "2026-10-02T09:55:43.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "International Forest Industries",
-         "url": "https://internationalforestindustries.com/2026/10/02/hyne-timber-invests-in-x-ray-log-scanning/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Hyne Timber’s Tuan Mill, the largest timber mill in Queensland, Australia, has once again chosen to invest in MiCROTEC’s technology, with the multi-sensor real-shape and quality scanner, Logeye. With nearly two decades of experience using MiCROTEC’s solutions, Hyne’s latest inves"
-      }
-     ]
-    },
-    "fishing": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Seafood shop owners fear being forced to close due to gillnet ban",
-       "url": "https://www.abc.net.au/news/2026-10-08/regional-fishing-towns-prepare-for-impact-of-gillnet-ban/107238342",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-07T22:32:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/regional-fishing-towns-prepare-for-impact-of-gillnet-ban/107238342",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "There are fears small businesses may struggle if the looming gillnet ban pushes Queensland fishers out of the water."
-      }
-     ]
-    },
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Mine backed by US, Australia and Gina Rinehart moves towards construction",
-       "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T07:10:55.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "After decades in development, a $1.8 billion rare earths mining project has finally seen ground broken in remote Central Australia."
-      },
-      {
-       "title": "New technologies target energy use in Australian ore processing",
-       "url": "https://www.mining-technology.com/analysis/new-technologies-target-energy-use-in-australian-ore-processing/",
-       "source": "Mining Technology",
-       "published": "2026-10-08T10:56:43.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/analysis/new-technologies-target-energy-use-in-australian-ore-processing/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Ore processing: from alternative crushing to coarse-particle flotation and dry separation, miners are exploring ways to reduce energy. The post New technologies target energy use in Australian ore processing appeared first on Mining Technology ."
-      },
-      {
-       "title": "BHP to sell Kambalda concentrator and tenements to Gold Fields",
-       "url": "https://www.mining-technology.com/news/bhp-kambalda-nickel-gold-fields/",
-       "source": "Mining Technology",
-       "published": "2026-10-07T12:36:25.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/bhp-kambalda-nickel-gold-fields/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "BHP has agreed to sell the Kambalda Nickel Concentrator (KNC) as well as a group of related tenements and mineral rights in Western Australia (WA) to Gold Fields. The post BHP to sell Kambalda concentrator and tenements to Gold Fields appeared first on Mining Technology ."
-      }
-     ]
-    }
-   }
-  },
   "ca-on": {
    "label": "Ontario",
    "level": "admin1",
@@ -2880,6 +3056,56 @@
        "stages": [],
        "via": null,
        "blurb": "First Canadian Graphite (TSXV: FCI; US-OTC: GRAPF) plans to start drilling its Zone 13 discovery at Lac Guéret South in Quebec next month and deliver a first resource estimate early... The post FC Graphite pushes towards first resource appeared first on The Northern Miner ."
+      }
+     ]
+    }
+   }
+  },
+  "au-wa": {
+   "label": "Western Australia",
+   "level": "admin1",
+   "sources": {
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "BHP agrees to sell Kambalda nickel concentrator to Gold Fields",
+       "url": "https://im-mining.com/2026/10/07/bhp-agrees-to-sell-kambalda-nickel-concentrator-to-gold-fields/",
+       "source": "International Mining",
+       "published": "2026-10-07T13:16:04.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/bhp-kambalda-nickel-gold-fields/",
+         "primary": false
+        },
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/07/bhp-agrees-to-sell-kambalda-nickel-concentrator-to-gold-fields/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Gold Fields has entered into formal agreements to acquire BHP’s nickel concentrator and associated exploration properties in Kambalda, Western Australia. Gold Fields will now undertake a detailed assessment of the assets and the opportunities they may provide, including evaluatin"
+      },
+      {
+       "title": "ABB’s power conversion system for Fortescue’s North Star Junction hub",
+       "url": "https://im-mining.com/2026/10/07/abbs-power-conversion-system-for-fortescues-north-star-junction-hub/",
+       "source": "International Mining",
+       "published": "2026-10-07T10:14:36.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/07/abbs-power-conversion-system-for-fortescues-north-star-junction-hub/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Fortescue is one of the world’s largest producers of iron ore, so when its emerging power network in the Pilbara, Western Australia required a power conversion system (PCS) to support a consistent, stable and reliable power supply for its mining operations, it opted to partner wi"
       }
      ]
     }
@@ -3504,6 +3730,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "FLS to deliver world’s largest gyratory as part of Chile copper mine expansion package",
+       "url": "https://im-mining.com/2026/10/08/fls-to-deliver-worlds-largest-gyratory-as-part-of-chile-copper-mine-expansion-package/",
+       "source": "International Mining",
+       "published": "2026-10-08T12:13:51.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/08/fls-to-deliver-worlds-largest-gyratory-as-part-of-chile-copper-mine-expansion-package/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Leading mineral processing technology and service provider, FLSmidth (FLS), says it has received a DKK 360 million order to supply long-lead crushing and grinding technologies to a copper expansion project in northern Chile. Under the scope of the agreement, FLS will deliver the "
+      },
+      {
        "title": "Aclara, CAP launch rare earth metals demonstration plant in Chile",
        "url": "https://www.mining-technology.com/news/aclara-cap-rare-earth-demonstration-plant-chile/",
        "source": "Mining Technology",
@@ -3631,34 +3874,6 @@
        "stages": [],
        "via": null,
        "blurb": "Sigma Lithium (Nasdaq, TSXV: SGML; ASX: SAU) shares rose as much as 6.7% in New York on Wednesday after a Brazilian appeals court upheld its environmental licences, clearing the company... The post Sigma Lithium jumps after Brazil court reopens mine appeared first on The Northern"
-      }
-     ]
-    }
-   }
-  },
-  "au-wa": {
-   "label": "Western Australia",
-   "level": "admin1",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "BHP to sell Kambalda concentrator and tenements to Gold Fields",
-       "url": "https://www.mining-technology.com/news/bhp-kambalda-nickel-gold-fields/",
-       "source": "Mining Technology",
-       "published": "2026-10-07T12:36:25.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/bhp-kambalda-nickel-gold-fields/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "BHP has agreed to sell the Kambalda Nickel Concentrator (KNC) as well as a group of related tenements and mineral rights in Western Australia (WA) to Gold Fields. The post BHP to sell Kambalda concentrator and tenements to Gold Fields appeared first on Mining Technology ."
       }
      ]
     }
@@ -4070,6 +4285,28 @@
    "label": "China",
    "level": "country",
    "sources": {
+    "crops": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Summit snub casts doubt over China’s soybean purchases",
+       "url": "https://www.farmprogress.com/markets-and-quotes/morning-market-review",
+       "source": "Farm Progress",
+       "published": "2026-10-08T12:33:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Farm Progress",
+         "url": "https://www.farmprogress.com/markets-and-quotes/morning-market-review",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Morning Market Analysis: Soybean futures fell overnight a day ahead of a USDA report that’s expected to illustrate prospects for a record harvest; corn and wheat are firmer."
+      }
+     ]
+    },
     "fishing": {
      "brief": "missing",
      "candidates": [

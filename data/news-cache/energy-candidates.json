@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T12:34:35.294Z",
+ "generatedAt": "2026-10-08T12:46:55.555Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -10,6 +10,26 @@
     "nuclear": {
      "brief": "ready",
      "candidates": [
+      {
+       "title": "Rising together: Collaborative project delivery for the nuclear fleet",
+       "url": "https://www.ans.org/news/2026-10-08/article-8405/rising-together-collaborative-project-delivery-for-the-nuclear-fleet/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-08T12:43:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-08/article-8405/rising-together-collaborative-project-delivery-for-the-nuclear-fleet/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Karen Fili As the nuclear industry enters one of the most significant investment periods in its history, utilities are managing unprecedented capital portfolios while simultaneously preparing for long-term operation, plant modernization, extended power uprates, digital transforma"
+      },
       {
        "title": "BWXT’s BANR selected for Canadian project",
        "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
@@ -266,29 +286,57 @@
        ],
        "via": null,
        "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
-      },
-      {
-       "title": "Rosatom Takes Full Control of Transport Conglomerate Delo Group in $900M Buyout",
-       "url": "https://www.themoscowtimes.com/2026/10/07/rosatom-takes-full-control-of-delo-group-in-900m-buyout-a93906",
-       "source": "The Moscow Times",
-       "published": "2026-10-07T12:33:32.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/07/rosatom-takes-full-control-of-delo-group-in-900m-buyout-a93906",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The deal reportedly brings Rosatom’s market share in Russia’s container handling market to 50% and rail container transport to 44%."
       }
      ]
     },
     "oil": {
      "brief": "ready",
      "candidates": [
+      {
+       "title": "Oil and gas prices jump on Middle East shipping attacks, sending bond yields higher and stocks lower – business live",
+       "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+       "source": "The Guardian Business",
+       "published": "2026-10-08T12:26:58.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/international-business/oil-remains-beyond-100-per-barrel-as-middle-east-supply-concerns-persist/articleshow/134777591.cms",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/markets/2026/10/08/oil-rises-as-supply-concerns-persist-amid-shipping-attacks/",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/oil-prices-attacks-mideast",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Brent crude tops $105 a barrel amid attacks on tankers and squeeze on US oil output in Gulf of Mexico as storm Isaias approaches Here’s our wrap of the moves in markets: The sell-off in bond markets has put the euro under pressure, pushing to close to a 17-month low. Continue rea"
+      },
       {
        "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
@@ -339,48 +387,6 @@
        "stages": [],
        "via": null,
        "blurb": "Move expected to make pump pricing more transparent and encourage competition after diesel hits record £2 a litre Drivers will be able to see live petrol prices on Google Maps for the first time from Thursday, in a move that will help motorists shop around for the cheapest fuel. "
-      },
-      {
-       "title": "Oil rises as Middle East supply concerns persist amid shipping attacks",
-       "url": "https://www.straitstimes.com/business/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks",
-       "source": "The Straits Times Business",
-       "published": "2026-10-08T02:45:00.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
-         "primary": false
-        },
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/international-business/oil-remains-beyond-100-per-barrel-as-middle-east-supply-concerns-persist/articleshow/134777591.cms",
-         "primary": false
-        },
-        {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks",
-         "primary": false
-        },
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/markets/2026/10/08/oil-rises-as-supply-concerns-persist-amid-shipping-attacks/",
-         "primary": false
-        },
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "Transport Topics",
-         "url": "https://www.ttnews.com/articles/oil-prices-attacks-mideast",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Distillate fuel inventories dropped by 42,000 barrels to 105.14 million barrels."
       },
       {
        "title": "Canada’s oil and gas emissions dropped in 2025 despite increased production: report",
@@ -451,6 +457,23 @@
        ],
        "via": null,
        "blurb": "The Gazprom Neftekhim Salavat facility is one of Russia’s largest oil refining and petrochemical plants, located some 1,300 kilometers (800 miles) from the front line in Ukraine."
+      },
+      {
+       "title": "Oil prices soar after explosions in Saudi capital",
+       "url": "https://www.ttnews.com/articles/oil-prices-explosions-saudi",
+       "source": "Transport Topics",
+       "published": "2026-10-08T12:27:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/oil-prices-explosions-saudi",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Brent crude, the international standard, jumped 5% to reach $105.16 per barrel early. Several explosions were heard in the Saudi capital on Oct. 8."
       },
       {
        "title": "Asia Intelligence Brief — Thursday, October 8, 2026",
@@ -524,29 +547,86 @@
        "stages": [],
        "via": null,
        "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
-      },
-      {
-       "title": "Oil Prices Rebound Intraday Thursday",
-       "url": "https://www.rigzone.com/news/oil_prices_rebound_intraday_thursday-08-oct-2026-184798-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-08T09:24:12.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/oil_prices_rebound_intraday_thursday-08-oct-2026-184798-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Naeem Aslam, CIO at Zaye Capital Markets, outlines the main driver."
       }
      ]
     },
     "gas": {
      "brief": "ready",
      "candidates": [
+      {
+       "title": "Oil and gas prices jump on Middle East shipping attacks, sending bond yields higher and stocks lower – business live",
+       "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+       "source": "The Guardian Business",
+       "published": "2026-10-08T12:26:58.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/international-business/oil-remains-beyond-100-per-barrel-as-middle-east-supply-concerns-persist/articleshow/134777591.cms",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/markets/2026/10/08/oil-rises-as-supply-concerns-persist-amid-shipping-attacks/",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/oil-prices-attacks-mideast",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Brent crude tops $105 a barrel amid attacks on tankers and squeeze on US oil output in Gulf of Mexico as storm Isaias approaches Here’s our wrap of the moves in markets: The sell-off in bond markets has put the euro under pressure, pushing to close to a 17-month low. Continue rea"
+      },
+      {
+       "title": "Seatrium bags first FSRU conversion for Excelerate",
+       "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+       "source": "Splash247",
+       "published": "2026-10-08T12:40:37.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/08/excelerate-entrusts-fsru-conversion-to-seatrium-with-another-on-the-cards",
+         "primary": false
+        },
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/seatrium-scores-excelerate-fsru-conversion-gig/198115/",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
+      },
       {
        "title": "Venture Global shipped 124 LNG cargoes in Q3",
        "url": "https://lngprime.com/americas/venture-global-shipped-124-lng-cargoes-in-q3/198047/",
@@ -570,6 +650,26 @@
        ],
        "via": null,
        "blurb": "US LNG exporter Venture Global shipped 124 LNG cargoes from its Calcasieu Pass and Plaquemines LNG export terminals in the third quarter of this year."
+      },
+      {
+       "title": "Natural Gas Futures Extend Winning Ways as Traders Size Up Hurricane Threat, Prep for Storage Print",
+       "url": "https://naturalgasintel.com/news/natural-gas-futures-extend-winning-ways-as-traders-size-up-hurricane-threat-prep-for-storage-print/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-08T12:43:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/natural-gas-futures-extend-winning-ways-as-traders-size-up-hurricane-threat-prep-for-storage-print/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid",
+        "extraction"
+       ],
+       "via": null,
+       "blurb": "Natural gas futures traders took stock of Hurricane Isaias approaching the Gulf Coast early Thursday as well as expectations for a bullish government inventory result."
       },
       {
        "title": "MISC to order five more LNG carriers for Petronas charter",
@@ -724,66 +824,6 @@
        ],
        "via": null,
        "blurb": "Qatar has amassed a fleet of empty liquefied natural gas tankers in the Persian Gulf."
-      },
-      {
-       "title": "‘Surprised’ by Demand, Great Basin Goes Bigger on Nevada Natural Gas Expansion",
-       "url": "https://naturalgasintel.com/news/surprised-by-demand-great-basin-goes-bigger-on-nevada-natural-gas-expansion/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T19:29:21.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/surprised-by-demand-great-basin-goes-bigger-on-nevada-natural-gas-expansion/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Great Basin Gas Transmission has upsized its northern Nevada natural gas expansion to nearly 950 MMcf/d and a 48-inch diameter pipe, leaving room to add compression later for growing demand from data centers, power generators and industrial users."
-      },
-      {
-       "title": "Producers Take Breather, but Natural Gas Output Projected to Ramp Up as Winter Approaches",
-       "url": "https://naturalgasintel.com/news/producers-take-breather-but-natural-gas-output-projected-to-ramp-up-as-winter-approaches/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T18:12:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/producers-take-breather-but-natural-gas-output-projected-to-ramp-up-as-winter-approaches/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Natural gas production pulled back enough to lend futures market price support in the heart of the fall season, but analysts anticipate a rebound ahead of a winter in which export demand could surge and necessitate near-record supply levels to balance the market."
-      },
-      {
-       "title": "Isaias Track Skirts Most Gulf LNG as Coast Guard Sets Storm Conditions",
-       "url": "https://naturalgasintel.com/news/isaias-track-skirts-most-gulf-lng-as-coast-guard-sets-storm-conditions/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T18:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/isaias-track-skirts-most-gulf-lng-as-coast-guard-sets-storm-conditions/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "The US Coast Guard ordered storm preparations at lower Mississippi River ports on Wednesday as forecasters predict Tropical Storm Isaias to become a hurricane by Thursday on a track that could avoid most Gulf Coast LNG export capacity."
       }
      ]
     },
@@ -1001,6 +1041,25 @@
        "blurb": "Canadian power producer Northland Power, in partnership with ORLEN, has completed the installation of all 76 turbines at the 1.1GW Baltic Power offshore wind project in the Baltic Sea off Poland’s coast."
       },
       {
+       "title": "US Wind Gives Up Sparrows Point Site as Offshore Wind Project Faces Delays",
+       "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
+       "source": "offshoreWIND.biz",
+       "published": "2026-10-08T12:25:16.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "offshoreWIND.biz",
+         "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "US Wind has relinquished its lease at Tradepoint Atlantic’s Sparrows Point site in Maryland, where the company had planned to manufacture steel..."
+      },
+      {
        "title": "Dogger Bank B Wind Turbine Installation Passes Halfway Mark",
        "url": "https://offshorewind.biz/2026/10/08/dogger-bank-b-wind-turbine-installation-passes-halfway-mark",
        "source": "offshoreWIND.biz",
@@ -1191,31 +1250,6 @@
        "stages": [],
        "via": null,
        "blurb": "French floating offshore wind specialist Eolink has been put up for sale by its owners as part of “court-ordered reorganisation proceedings”, the company announced."
-      },
-      {
-       "title": "Subsea Battery System for Offshore Wind Completes Test Before Deployment",
-       "url": "https://offshorewind.biz/2026/10/06/subsea-battery-system-for-offshore-wind-completes-test-before-deployment",
-       "source": "offshoreWIND.biz",
-       "published": "2026-10-06T13:53:08.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Offshore Energy",
-         "url": "https://offshore-energy.biz/2026/10/06/subsea-battery-system-for-offshore-wind-completes-test-before-deployment",
-         "primary": false
-        },
-        {
-         "name": "offshoreWIND.biz",
-         "url": "https://offshorewind.biz/2026/10/06/subsea-battery-system-for-offshore-wind-completes-test-before-deployment",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "innovation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Verlume, a UK-headquartered subsea batteries and power management systems specialist, has put its 500 kWh modular subsea energy storage system to..."
       }
      ]
     },
@@ -1245,6 +1279,31 @@
        ],
        "via": null,
        "blurb": "Tata Power has partnered with Norway’s Ocean Sun to test membrane-based floating solar technology at its Maharashtra reservoir."
+      },
+      {
+       "title": "ContourGlobal begins Arizona solar-storage construction",
+       "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+       "source": "reNEWS",
+       "published": "2026-10-08T09:48:02.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/contourglobal-construction-project-sterling/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
       },
       {
        "title": "Researchers find almost 8,000 European solar energy systems exposed to internet cyberattacks",
@@ -1320,26 +1379,6 @@
        "stages": [],
        "via": null,
        "blurb": "SolarPower Europe expects the EU solar workforce to fall 12% by 2030 as deployment growth stalls, according to a new report."
-      },
-      {
-       "title": "ContourGlobal begins Arizona solar-storage construction",
-       "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
-       "source": "reNEWS",
-       "published": "2026-10-08T09:48:02.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "reNEWS",
-         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
       },
       {
        "title": "Global PV oversupply accelerates consolidation, regional price divergence",
@@ -2425,6 +2464,51 @@
      "brief": "ready",
      "candidates": [
       {
+       "title": "Oil and gas prices jump on Middle East shipping attacks, sending bond yields higher and stocks lower – business live",
+       "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+       "source": "The Guardian Business",
+       "published": "2026-10-08T12:26:58.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/international-business/oil-remains-beyond-100-per-barrel-as-middle-east-supply-concerns-persist/articleshow/134777591.cms",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/markets/2026/10/08/oil-rises-as-supply-concerns-persist-amid-shipping-attacks/",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/oil-prices-attacks-mideast",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Brent crude tops $105 a barrel amid attacks on tankers and squeeze on US oil output in Gulf of Mexico as storm Isaias approaches Here’s our wrap of the moves in markets: The sell-off in bond markets has put the euro under pressure, pushing to close to a 17-month low. Continue rea"
+      },
+      {
        "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
        "source": "Argus Media",
@@ -2636,31 +2720,57 @@
        "stages": [],
        "via": null,
        "blurb": "Chevron CFO Eimear Bonner expects energy prices to stay elevated, while a major trucking CEO says contracts signed before diesel prices rose are hurting the bottom line."
-      },
-      {
-       "title": "Shell Reports Declining Chemical Margins Amid Refining Gains",
-       "url": "https://www.plasticstoday.com/materials/shell-reports-declining-chemical-margins-amid-refining-gains",
-       "source": "Plastics Today",
-       "published": "2026-10-07T17:38:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Plastics Today",
-         "url": "https://www.plasticstoday.com/materials/shell-reports-declining-chemical-margins-amid-refining-gains",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Shell's Q3 2026 update reveals declining chemical margins and operational challenges from low Rhine water levels, offset by stronger refining performance and expanded production capacity."
       }
      ]
     },
     "gas": {
      "brief": "ready",
      "candidates": [
+      {
+       "title": "Oil and gas prices jump on Middle East shipping attacks, sending bond yields higher and stocks lower – business live",
+       "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+       "source": "The Guardian Business",
+       "published": "2026-10-08T12:26:58.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/international-business/oil-remains-beyond-100-per-barrel-as-middle-east-supply-concerns-persist/articleshow/134777591.cms",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/markets/2026/10/08/oil-rises-as-supply-concerns-persist-amid-shipping-attacks/",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/oil-prices-attacks-mideast",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Brent crude tops $105 a barrel amid attacks on tankers and squeeze on US oil output in Gulf of Mexico as storm Isaias approaches Here’s our wrap of the moves in markets: The sell-off in bond markets has put the euro under pressure, pushing to close to a 17-month low. Continue rea"
+      },
       {
        "title": "Venture Global shipped 124 LNG cargoes in Q3",
        "url": "https://lngprime.com/americas/venture-global-shipped-124-lng-cargoes-in-q3/198047/",
@@ -2684,6 +2794,35 @@
        ],
        "via": null,
        "blurb": "US LNG exporter Venture Global shipped 124 LNG cargoes from its Calcasieu Pass and Plaquemines LNG export terminals in the third quarter of this year."
+      },
+      {
+       "title": "Seatrium bags first FSRU conversion for Excelerate",
+       "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+       "source": "Splash247",
+       "published": "2026-10-08T12:40:37.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/08/excelerate-entrusts-fsru-conversion-to-seatrium-with-another-on-the-cards",
+         "primary": false
+        },
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/seatrium-scores-excelerate-fsru-conversion-gig/198115/",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
       },
       {
        "title": "‘Surprised’ by Demand, Great Basin Goes Bigger on Nevada Natural Gas Expansion",
@@ -2837,26 +2976,6 @@
        "blurb": "Executives from oil and gas firms revealed where they expect the Henry Hub natural gas price to be at various points in the future in the third quarter Dallas Fed Energy Survey."
       },
       {
-       "title": "Port Arthur LNG Commissioning Builds Ahead of 2027 Startup Push",
-       "url": "https://naturalgasintel.com/news/port-arthur-lng-commissioning-builds-ahead-of-2027-startup-push/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T13:34:54.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/port-arthur-lng-commissioning-builds-ahead-of-2027-startup-push/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "Sempra Infrastructure is advancing commissioning at Port Arthur LNG, with new startup activity bringing the Texas project closer to adding another major source of natural gas demand along the Gulf Coast."
-      },
-      {
        "title": "November Natural Gas Futures Blast Past $3.20 as Cooler Forecasts Stoke Buying",
        "url": "https://naturalgasintel.com/news/november-natural-gas-futures-blast-past-320-as-cooler-forecasts-stoke-buying/",
        "source": "Natural Gas Intelligence",
@@ -2874,25 +2993,6 @@
        ],
        "via": null,
        "blurb": "US natural gas futures surged through midday trade on Wednesday as cooler longer range forecasts, expectations for a below-normal storage injection and short covering lifted the front of the curve."
-      },
-      {
-       "title": "Centalion buys Silver Hill’s Haynesville natural gas assets",
-       "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
-       "source": "Offshore Technology",
-       "published": "2026-10-06T09:45:47.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Offshore Technology",
-         "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "via": null,
-       "blurb": "Centalion, formerly known as Gunvor, has acquired a portfolio of upstream and midstream natural gas assets in Texas and Louisiana from US-based private energy company Silver Hill Energy Partners."
       }
      ]
     },
@@ -2924,6 +3024,25 @@
      "brief": "ready",
      "candidates": [
       {
+       "title": "US Wind Gives Up Sparrows Point Site as Offshore Wind Project Faces Delays",
+       "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
+       "source": "offshoreWIND.biz",
+       "published": "2026-10-08T12:25:16.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "offshoreWIND.biz",
+         "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "US Wind has relinquished its lease at Tradepoint Atlantic’s Sparrows Point site in Maryland, where the company had planned to manufacture steel..."
+      },
+      {
        "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
        "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
        "source": "Maryland Matters",
@@ -2952,8 +3071,13 @@
        "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
        "source": "reNEWS",
        "published": "2026-10-08T09:48:02.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/contourglobal-construction-project-sterling/",
+         "primary": false
+        },
         {
          "name": "reNEWS",
          "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
@@ -3506,6 +3630,25 @@
     "wind": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "US Wind Gives Up Sparrows Point Site as Offshore Wind Project Faces Delays",
+       "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
+       "source": "offshoreWIND.biz",
+       "published": "2026-10-08T12:25:16.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "offshoreWIND.biz",
+         "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "US Wind has relinquished its lease at Tradepoint Atlantic’s Sparrows Point site in Maryland, where the company had planned to manufacture steel..."
+      },
       {
        "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
        "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
@@ -5128,13 +5271,8 @@
        "url": "https://www.energy-storage.news/bw-ess-starts-building-828mwh-bess-italy-market-moves-execution/",
        "source": "Energy-Storage.news",
        "published": "2026-10-07T11:10:08.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
-        {
-         "name": "Power Technology",
-         "url": "https://www.power-technology.com/news/bw-ess-danske-commodities-uk-bess-agreement/",
-         "primary": false
-        },
         {
          "name": "Energy-Storage.news",
          "url": "https://www.energy-storage.news/bw-ess-starts-building-828mwh-bess-italy-market-moves-execution/",
@@ -5163,8 +5301,13 @@
        "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
        "source": "reNEWS",
        "published": "2026-10-08T09:48:02.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/contourglobal-construction-project-sterling/",
+         "primary": false
+        },
         {
          "name": "reNEWS",
          "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
@@ -5975,6 +6118,40 @@
    "label": "Singapore",
    "level": "country",
    "sources": {
+    "gas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Seatrium bags first FSRU conversion for Excelerate",
+       "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+       "source": "Splash247",
+       "published": "2026-10-08T12:40:37.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/08/excelerate-entrusts-fsru-conversion-to-seatrium-with-another-on-the-cards",
+         "primary": false
+        },
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/seatrium-scores-excelerate-fsru-conversion-gig/198115/",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
+      }
+     ]
+    },
     "solar": {
      "brief": "missing",
      "candidates": [
@@ -6001,92 +6178,41 @@
     }
    }
   },
-  "us-tx": {
-   "label": "Texas",
+  "us-ny": {
+   "label": "New York",
    "level": "admin1",
    "sources": {
     "gas": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Execs Predict Future Henry Hub NatGas Prices",
-       "url": "https://www.rigzone.com/news/execs_predict_future_henry_hub_natgas_prices-07-oct-2026-184795-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-07T14:30:03.000Z",
-       "verification": "unconfirmed",
+       "title": "Seatrium bags first FSRU conversion for Excelerate",
+       "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+       "source": "Splash247",
+       "published": "2026-10-08T12:40:37.000Z",
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/execs_predict_future_henry_hub_natgas_prices-07-oct-2026-184795-article/?rss=true",
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/08/excelerate-entrusts-fsru-conversion-to-seatrium-with-another-on-the-cards",
          "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Executives from oil and gas firms revealed where they expect the Henry Hub natural gas price to be at various points in the future in the third quarter Dallas Fed Energy Survey."
-      },
-      {
-       "title": "Port Arthur LNG Commissioning Builds Ahead of 2027 Startup Push",
-       "url": "https://naturalgasintel.com/news/port-arthur-lng-commissioning-builds-ahead-of-2027-startup-push/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T13:34:54.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
+        },
         {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/port-arthur-lng-commissioning-builds-ahead-of-2027-startup-push/",
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/seatrium-scores-excelerate-fsru-conversion-gig/198115/",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
          "primary": false
         }
        ],
        "stages": [
-        "generation",
-        "innovation"
+        "generation"
        ],
        "via": null,
-       "blurb": "Sempra Infrastructure is advancing commissioning at Port Arthur LNG, with new startup activity bringing the Texas project closer to adding another major source of natural gas demand along the Gulf Coast."
-      },
-      {
-       "title": "Centalion buys Silver Hill’s Haynesville natural gas assets",
-       "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
-       "source": "Offshore Technology",
-       "published": "2026-10-06T09:45:47.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Offshore Technology",
-         "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "via": null,
-       "blurb": "Centalion, formerly known as Gunvor, has acquired a portfolio of upstream and midstream natural gas assets in Texas and Louisiana from US-based private energy company Silver Hill Energy Partners."
-      }
-     ]
-    },
-    "solar": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Despite big Texas solar purchase agreement, Meta still uses lots of gas",
-       "url": "https://www.canarymedia.com/articles/corporate-procurement/meta-large-solar-purchase-texas",
-       "source": "Canary Media",
-       "published": "2026-10-01T07:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Canary Media",
-         "url": "https://www.canarymedia.com/articles/corporate-procurement/meta-large-solar-purchase-texas",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "This article originally appeared on Inside Climate News , a nonprofit, nonpartisan news organization that covers climate, energy, and the environment. Sign up for their newsletter. Apex Clean Energy and Meta have entered into a power purchase agreement that allows the technology "
+       "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
       }
      ]
     },
@@ -6094,15 +6220,15 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Linea Energy closes financing for 500MWh Texas BESS project",
-       "url": "https://www.energy-storage.news/linea-energy-closes-financing-for-500mwh-texas-bess-project/",
+       "title": "NextEra halts Long Island BESS operations over drinking water contamination concerns",
+       "url": "https://www.energy-storage.news/nextera-halts-long-island-bess-operations-over-drinking-water-contamination-concerns/",
        "source": "Energy-Storage.news",
-       "published": "2026-10-06T11:46:12.000Z",
+       "published": "2026-10-07T13:12:30.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/linea-energy-closes-financing-for-500mwh-texas-bess-project/",
+         "url": "https://www.energy-storage.news/nextera-halts-long-island-bess-operations-over-drinking-water-contamination-concerns/",
          "primary": false
         }
        ],
@@ -6110,7 +6236,71 @@
         "grid"
        ],
        "via": null,
-       "blurb": "IPP Linea Energy has closed a debt financing and preferred equity commitment for its 250MW/500MWh Mesa View energy storage project in Upton County, Texas, US."
+       "blurb": "US energy holding company and project developer-owner NextEra Energy has suspended operations at two energy storage facilities in Long Island, New York, US."
+      }
+     ]
+    }
+   }
+  },
+  "us-city-new-york": {
+   "label": "New York",
+   "level": "city",
+   "sources": {
+    "gas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Seatrium bags first FSRU conversion for Excelerate",
+       "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+       "source": "Splash247",
+       "published": "2026-10-08T12:40:37.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/08/excelerate-entrusts-fsru-conversion-to-seatrium-with-another-on-the-cards",
+         "primary": false
+        },
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/seatrium-scores-excelerate-fsru-conversion-gig/198115/",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
+      }
+     ]
+    },
+    "emerging": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "NextEra halts Long Island BESS operations over drinking water contamination concerns",
+       "url": "https://www.energy-storage.news/nextera-halts-long-island-bess-operations-over-drinking-water-contamination-concerns/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-07T13:12:30.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/nextera-halts-long-island-bess-operations-over-drinking-water-contamination-concerns/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "US energy holding company and project developer-owner NextEra Energy has suspended operations at two energy storage facilities in Long Island, New York, US."
       }
      ]
     }
@@ -6605,30 +6795,6 @@
     "emerging": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "BW ESS, Danske Commodities ink decade-long UK BESS agreement",
-       "url": "https://www.power-technology.com/news/bw-ess-danske-commodities-uk-bess-agreement/",
-       "source": "Power Technology",
-       "published": "2026-10-06T13:29:09.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Power Technology",
-         "url": "https://www.power-technology.com/news/bw-ess-danske-commodities-uk-bess-agreement/",
-         "primary": false
-        },
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/bw-ess-starts-building-828mwh-bess-italy-market-moves-execution/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "BW ESS and Danske Commodities have entered into a 10-year agreement for the trading and optimisation of the entire 200MW/857MWh Berkswell battery energy storage system (BESS) in the UK."
-      },
       {
        "title": "Subsea Battery System for Offshore Wind Completes Test Before Deployment",
        "url": "https://offshorewind.biz/2026/10/06/subsea-battery-system-for-offshore-wind-completes-test-before-deployment",
@@ -7914,6 +8080,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Oil prices soar after explosions in Saudi capital",
+       "url": "https://www.ttnews.com/articles/oil-prices-explosions-saudi",
+       "source": "Transport Topics",
+       "published": "2026-10-08T12:27:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/oil-prices-explosions-saudi",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Brent crude, the international standard, jumped 5% to reach $105.16 per barrel early. Several explosions were heard in the Saudi capital on Oct. 8."
+      },
+      {
        "title": "Dutch design ultra-shallow-draft DSV for Gulf Region's oil & gas",
        "url": "https://offshore-energy.biz/2026/10/07/dutch-design-ultra-shallow-draft-dsv-for-gulf-regions-oil-and-gas",
        "source": "Offshore Energy",
@@ -7978,6 +8161,101 @@
        ],
        "via": null,
        "blurb": "South Korea may invest in the long-delayed Alaska LNG project, contingent on feasibility reviews, as part of a broader US energy investment initiative."
+      }
+     ]
+    }
+   }
+  },
+  "us-tx": {
+   "label": "Texas",
+   "level": "admin1",
+   "sources": {
+    "gas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Execs Predict Future Henry Hub NatGas Prices",
+       "url": "https://www.rigzone.com/news/execs_predict_future_henry_hub_natgas_prices-07-oct-2026-184795-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-07T14:30:03.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/execs_predict_future_henry_hub_natgas_prices-07-oct-2026-184795-article/?rss=true",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Executives from oil and gas firms revealed where they expect the Henry Hub natural gas price to be at various points in the future in the third quarter Dallas Fed Energy Survey."
+      },
+      {
+       "title": "Centalion buys Silver Hill’s Haynesville natural gas assets",
+       "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
+       "source": "Offshore Technology",
+       "published": "2026-10-06T09:45:47.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Offshore Technology",
+         "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "via": null,
+       "blurb": "Centalion, formerly known as Gunvor, has acquired a portfolio of upstream and midstream natural gas assets in Texas and Louisiana from US-based private energy company Silver Hill Energy Partners."
+      }
+     ]
+    },
+    "solar": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Despite big Texas solar purchase agreement, Meta still uses lots of gas",
+       "url": "https://www.canarymedia.com/articles/corporate-procurement/meta-large-solar-purchase-texas",
+       "source": "Canary Media",
+       "published": "2026-10-01T07:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Canary Media",
+         "url": "https://www.canarymedia.com/articles/corporate-procurement/meta-large-solar-purchase-texas",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "This article originally appeared on Inside Climate News , a nonprofit, nonpartisan news organization that covers climate, energy, and the environment. Sign up for their newsletter. Apex Clean Energy and Meta have entered into a power purchase agreement that allows the technology "
+      }
+     ]
+    },
+    "emerging": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Linea Energy closes financing for 500MWh Texas BESS project",
+       "url": "https://www.energy-storage.news/linea-energy-closes-financing-for-500mwh-texas-bess-project/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-06T11:46:12.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/linea-energy-closes-financing-for-500mwh-texas-bess-project/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "IPP Linea Energy has closed a debt financing and preferred equity commitment for its 250MW/500MWh Mesa View energy storage project in Upton County, Texas, US."
       }
      ]
     }
@@ -9648,66 +9926,6 @@
        "stages": [],
        "via": null,
        "blurb": ""
-      }
-     ]
-    }
-   }
-  },
-  "us-ny": {
-   "label": "New York",
-   "level": "admin1",
-   "sources": {
-    "emerging": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "NextEra halts Long Island BESS operations over drinking water contamination concerns",
-       "url": "https://www.energy-storage.news/nextera-halts-long-island-bess-operations-over-drinking-water-contamination-concerns/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-07T13:12:30.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/nextera-halts-long-island-bess-operations-over-drinking-water-contamination-concerns/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "US energy holding company and project developer-owner NextEra Energy has suspended operations at two energy storage facilities in Long Island, New York, US."
-      }
-     ]
-    }
-   }
-  },
-  "us-city-new-york": {
-   "label": "New York",
-   "level": "city",
-   "sources": {
-    "emerging": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "NextEra halts Long Island BESS operations over drinking water contamination concerns",
-       "url": "https://www.energy-storage.news/nextera-halts-long-island-bess-operations-over-drinking-water-contamination-concerns/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-07T13:12:30.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/nextera-halts-long-island-bess-operations-over-drinking-water-contamination-concerns/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "US energy holding company and project developer-owner NextEra Energy has suspended operations at two energy storage facilities in Long Island, New York, US."
       }
      ]
     }

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T12:35:34.622Z",
+ "generatedAt": "2026-10-08T12:48:10.236Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -418,23 +418,6 @@
        "blurb": "Company plans to triple overall investment in country to $30bn"
       },
       {
-       "title": "Finland tells Google to suspend work at 2 data center sites for environmental concerns",
-       "url": "https://www.aa.com.tr/en/europe/finland-tells-google-to-suspend-work-at-2-data-center-sites-for-environmental-concerns/4081256",
-       "source": "Anadolu Agency Economy",
-       "published": "2026-10-07T15:44:32.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/europe/finland-tells-google-to-suspend-work-at-2-data-center-sites-for-environmental-concerns/4081256",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Regulator seeks halt to preparatory work pending environmental assessments, weeks after Google announced $14.5B investment"
-      },
-      {
        "title": "Black Hills to invest $1.8bn in gas power for Google data centre",
        "url": "https://www.power-technology.com/news/black-hills-invest-power-google-data-centre/",
        "source": "Power Technology",
@@ -467,6 +450,23 @@
        "stages": [],
        "via": null,
        "blurb": "One Wagga Wagga resident says she feels \"back-stabbed\" by the development, while others say the town needs more industry."
+      },
+      {
+       "title": "Using AI to mitigate the growing environmental threat of data centers",
+       "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+       "source": "MIT News",
+       "published": "2026-10-08T04:00:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "MIT News",
+         "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient."
       }
      ]
     },
@@ -530,28 +530,6 @@
        "blurb": "Longer-term capex outlook remains muted as investment shifts from coverage to capacity. #pressrelease"
       },
       {
-       "title": "AT&T, Global Infrastructure Partners and CPP Investments to form new fiber JV",
-       "url": "https://www.lightreading.com/broadband/at-t-global-infrastructure-partners-and-cpp-investments-to-form-new-fiber-jv",
-       "source": "Light Reading",
-       "published": "2026-10-06T15:21:07.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Light Reading",
-         "url": "https://www.lightreading.com/broadband/at-t-global-infrastructure-partners-and-cpp-investments-to-form-new-fiber-jv",
-         "primary": false
-        },
-        {
-         "name": "Fierce Network",
-         "url": "https://www.fierce-network.com/broadband/att-and-2-equity-partners-create-new-fiber-broadband-joint-venture",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Joint venture will bring together Forged Fiber 37 and Gigapower under one wholesale fiber commercial open access company to accelerate expansion of fiber internet across more U.S. communities. #pressrelease"
-      },
-      {
        "title": "Airtel hikes postpaid tariffs, others may follow",
        "url": "https://timesofindia.indiatimes.com/business/india-business/airtel-hikes-postpaid-tariffs-others-may-follow/articleshow/134777582.cms",
        "source": "Times of India Business",
@@ -578,11 +556,6 @@
         {
          "name": "The Hindu Business",
          "url": "https://www.thehindu.com/business/Industry/elon-musk-alleges-oligarch-interference-instarlinksindia-launch/article71557189.ece",
-         "primary": false
-        },
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
          "primary": false
         },
         {
@@ -628,6 +601,23 @@
        "stages": [],
        "via": null,
        "blurb": "Also in today's EMEA regional roundup: Nokia cuts jobs in Finland; KLM taps Starlink for in-flight connectivity; VEON hooks up with Amdocs."
+      },
+      {
+       "title": "India denies bias in satellite internet approvals after Musk's 'oligarchs' jab",
+       "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
+       "source": "CNA Business",
+       "published": "2026-10-08T05:09:15.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
       },
       {
        "title": "Schneider Electric and PTC consolidate industrial AI stack – but where’s the network? (Telco Diary)",
@@ -1789,51 +1779,12 @@
        "stages": [],
        "via": null,
        "blurb": "Constellation Energy has signed 20-year power purchase agreements with both Google and Amazon in the last week, supporting almost 1.1 GW of nuclear expansions."
-      },
-      {
-       "title": "Data center contractors learn to live with the backlash",
-       "url": "https://www.constructiondive.com/news/data-center-contractors-learn-to-live-backlash/832142/",
-       "source": "Construction Dive",
-       "published": "2026-10-05T15:49:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Construction Dive",
-         "url": "https://www.constructiondive.com/news/data-center-contractors-learn-to-live-backlash/832142/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Contractors strive to be “active listeners” to community concerns, but say scrutiny has done little to cool demand."
       }
      ]
     },
     "telecom": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "AT&T, Global Infrastructure Partners and CPP Investments to form new fiber JV",
-       "url": "https://www.lightreading.com/broadband/at-t-global-infrastructure-partners-and-cpp-investments-to-form-new-fiber-jv",
-       "source": "Light Reading",
-       "published": "2026-10-06T15:21:07.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Light Reading",
-         "url": "https://www.lightreading.com/broadband/at-t-global-infrastructure-partners-and-cpp-investments-to-form-new-fiber-jv",
-         "primary": false
-        },
-        {
-         "name": "Fierce Network",
-         "url": "https://www.fierce-network.com/broadband/att-and-2-equity-partners-create-new-fiber-broadband-joint-venture",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Joint venture will bring together Forged Fiber 37 and Gigapower under one wholesale fiber commercial open access company to accelerate expansion of fiber internet across more U.S. communities. #pressrelease"
-      },
       {
        "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
        "url": "https://www.fierce-network.com/sponsored/huawei-and-qualcomm-announce-broad-patent-license-agreement",
@@ -1967,26 +1918,6 @@
        "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
       },
       {
-       "title": "Port Arthur LNG Commissioning Builds Ahead of 2027 Startup Push",
-       "url": "https://naturalgasintel.com/news/port-arthur-lng-commissioning-builds-ahead-of-2027-startup-push/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T13:34:54.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/port-arthur-lng-commissioning-builds-ahead-of-2027-startup-push/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Sempra Infrastructure is advancing commissioning at Port Arthur LNG, with new startup activity bringing the Texas project closer to adding another major source of natural gas demand along the Gulf Coast."
-      },
-      {
        "title": "Farm Hands on the Potomac: Joel Leftwich joins Idealyst Innovation, ​Robert Haus goes to Vylor, General Mills names Dana McNabb as CEO",
        "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
        "source": "Agri-Pulse",
@@ -2002,28 +1933,6 @@
        "stages": [],
        "via": null,
        "blurb": "Joel Leftwich will join Idealyst Innovation as executive vice president of policy innovation and director of the Center for American Food Power. Robert Haus has joined Vylor as state government and industry affairs leader. General Mills named Dana McNabb as CEO, effective Jan. 1,"
-      },
-      {
-       "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
-       "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-       "source": "NPR Science",
-       "published": "2026-10-06T10:16:28.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "NPR Science",
-         "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-         "primary": false
-        },
-        {
-         "name": "Science (AAAS) News",
-         "url": "https://www.science.org/content/article/chemistry-nobel-honors-researchers-who-developed-reactions-leading-one-handed-molecules",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s."
       },
       {
        "title": "US selects 14 hydropower projects for testing support",
@@ -2071,6 +1980,23 @@
        "blurb": "It’s only the second time that American regulators have approved a next-generation commercial reactor for construction. Big hurdles remain."
       },
       {
+       "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
+       "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+       "source": "NPR Science",
+       "published": "2026-10-06T10:16:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NPR Science",
+         "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s."
+      },
+      {
        "title": "Second part of construction permit application submitted for SMRs at Palisades",
        "url": "https://www.world-nuclear-news.org/articles/second-part-of-construction-permit-application-submitted-for-pioneer-smrs",
        "source": "World Nuclear News",
@@ -2106,6 +2032,23 @@
        "stages": [],
        "via": null,
        "blurb": "Plastic Ingenuity's Ameristar Award-winning PET medical device reel replaces PVC with recyclable material, converting 236,000 pounds annually. The company will spotlight its innovations at Pack Expo 2026, being held later this month in Chicago."
+      },
+      {
+       "title": "Gas stoves put restaurant cooks’ health at risk, new study finds",
+       "url": "https://www.canarymedia.com/articles/emissions-reduction/gas-stoves-restaurant-cooks-health",
+       "source": "Canary Media",
+       "published": "2026-10-06T09:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Canary Media",
+         "url": "https://www.canarymedia.com/articles/emissions-reduction/gas-stoves-restaurant-cooks-health",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In restaurant kitchens around the U.S., cooks are toiling away to create mouthwatering meals, from bibimbap to spaghetti puttanesca. But their own stomachs may be roiling. That’s what Christopher Galarza, a longtime chef and co-founder of sustainable kitchen certification company"
       }
      ]
     },
@@ -2978,136 +2921,6 @@
     }
    }
   },
-  "us-tx": {
-   "label": "Texas",
-   "level": "admin1",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Port Arthur LNG Commissioning Builds Ahead of 2027 Startup Push",
-       "url": "https://naturalgasintel.com/news/port-arthur-lng-commissioning-builds-ahead-of-2027-startup-push/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T13:34:54.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/port-arthur-lng-commissioning-builds-ahead-of-2027-startup-push/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Sempra Infrastructure is advancing commissioning at Port Arthur LNG, with new startup activity bringing the Texas project closer to adding another major source of natural gas demand along the Gulf Coast."
-      }
-     ]
-    }
-   }
-  },
-  "fi": {
-   "label": "Finland",
-   "level": "country",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Sesterce to invest $10bn in 600MW AI data center campus in Jämsä, Finland",
-       "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-08T10:52:56.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Developer says it has already secured an anchor customer for the site"
-      }
-     ]
-    },
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Sesterce to invest $10bn in 600MW AI data center campus in Jämsä, Finland",
-       "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-08T10:52:56.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Developer says it has already secured an anchor customer for the site"
-      },
-      {
-       "title": "Finland tells Google to suspend work at 2 data center sites for environmental concerns",
-       "url": "https://www.aa.com.tr/en/europe/finland-tells-google-to-suspend-work-at-2-data-center-sites-for-environmental-concerns/4081256",
-       "source": "Anadolu Agency Economy",
-       "published": "2026-10-07T15:44:32.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/europe/finland-tells-google-to-suspend-work-at-2-data-center-sites-for-environmental-concerns/4081256",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Regulator seeks halt to preparatory work pending environmental assessments, weeks after Google announced $14.5B investment"
-      }
-     ]
-    },
-    "telecom": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Eurobites: VodafoneThree eyes more synergy savings",
-       "url": "https://www.lightreading.com/business-transformation/eurobites-vodafonethree-eyes-more-synergy-savings",
-       "source": "Light Reading",
-       "published": "2026-10-08T12:30:25.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Light Reading",
-         "url": "https://www.lightreading.com/business-transformation/eurobites-vodafonethree-eyes-more-synergy-savings",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Also in today's EMEA regional roundup: Nokia cuts jobs in Finland; KLM taps Starlink for in-flight connectivity; VEON hooks up with Amdocs."
-      }
-     ]
-    }
-   }
-  },
   "us-co": {
    "label": "Colorado",
    "level": "admin1",
@@ -3676,6 +3489,28 @@
    "label": "United Kingdom",
    "level": "country",
    "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "AI giants promise to play nice with personal data after UK watchdog scrutiny",
+       "url": "https://www.theregister.com/ai-and-ml/2026/10/08/ai-giants-promise-to-play-nice-with-personal-data-after-uk-watchdog-scrutiny/5301966",
+       "source": "The Register",
+       "published": "2026-10-08T12:35:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/ai-and-ml/2026/10/08/ai-giants-promise-to-play-nice-with-personal-data-after-uk-watchdog-scrutiny/5301966",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Amazon, Google, Microsoft, OpenAI and six others agree to changes, but the ICO isn't done asking questions"
+      }
+     ]
+    },
     "research": {
      "brief": "missing",
      "candidates": [
@@ -3865,11 +3700,6 @@
          "primary": false
         },
         {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
-         "primary": false
-        },
-        {
          "name": "TechCrunch",
          "url": "https://techcrunch.com/2026/10/07/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/",
          "primary": false
@@ -3895,6 +3725,23 @@
        "stages": [],
        "via": null,
        "blurb": "Bharti Airtel is set to raise its postpaid tariffs by 3-10% starting Thursday, which affects all users. The new plans will incorporate free international roaming, valued at Rs 2,000 for each SIM once per trip. This change means that postpaid plans will now begin at Rs 499, reflec"
+      },
+      {
+       "title": "India denies bias in satellite internet approvals after Musk's 'oligarchs' jab",
+       "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
+       "source": "CNA Business",
+       "published": "2026-10-08T05:09:15.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
       }
      ]
     },
@@ -4332,6 +4179,88 @@
     }
    }
   },
+  "fi": {
+   "label": "Finland",
+   "level": "country",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Sesterce to invest $10bn in 600MW AI data center campus in Jämsä, Finland",
+       "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T10:52:56.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726",
+         "primary": false
+        },
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Developer says it has already secured an anchor customer for the site"
+      }
+     ]
+    },
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Sesterce to invest $10bn in 600MW AI data center campus in Jämsä, Finland",
+       "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T10:52:56.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726",
+         "primary": false
+        },
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Developer says it has already secured an anchor customer for the site"
+      }
+     ]
+    },
+    "telecom": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Eurobites: VodafoneThree eyes more synergy savings",
+       "url": "https://www.lightreading.com/business-transformation/eurobites-vodafonethree-eyes-more-synergy-savings",
+       "source": "Light Reading",
+       "published": "2026-10-08T12:30:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/business-transformation/eurobites-vodafonethree-eyes-more-synergy-savings",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Also in today's EMEA regional roundup: Nokia cuts jobs in Finland; KLM taps Starlink for in-flight connectivity; VEON hooks up with Amdocs."
+      }
+     ]
+    }
+   }
+  },
   "tw": {
    "label": "Taiwan",
    "level": "country",
@@ -4675,16 +4604,11 @@
        "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
        "source": "NPR Science",
        "published": "2026-10-06T10:16:28.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "NPR Science",
          "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-         "primary": false
-        },
-        {
-         "name": "Science (AAAS) News",
-         "url": "https://www.science.org/content/article/chemistry-nobel-honors-researchers-who-developed-reactions-leading-one-handed-molecules",
          "primary": false
         }
        ],
@@ -4708,16 +4632,11 @@
        "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
        "source": "NPR Science",
        "published": "2026-10-06T10:16:28.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "NPR Science",
          "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-         "primary": false
-        },
-        {
-         "name": "Science (AAAS) News",
-         "url": "https://www.science.org/content/article/chemistry-nobel-honors-researchers-who-developed-reactions-leading-one-handed-molecules",
          "primary": false
         }
        ],

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T12:34:53.693Z",
+ "generatedAt": "2026-10-08T12:47:18.700Z",
  "sector": "manufacturing",
  "maxAgeDays": 10,
  "places": {
@@ -25,6 +25,11 @@
         {
          "name": "CNA Business",
          "url": "https://www.channelnewsasia.com/business/pepsico-cuts-forecast-deepens-cost-cuts-namerica-recovery-drags-6442351",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/pepsico-cuts-earnings-outlook-as-north-american-recovery-takes-longer-than-expected/4082302",
          "primary": false
         }
        ],
@@ -225,23 +230,6 @@
        "blurb": "A Dutch court barred Merck from selling subcutaneous Keytruda in several European countries. Elsewhere, an Insmed executive ended a seven-year run and two startups secured venture cash."
       },
       {
-       "title": "Co-sponsors of Plastics Dialogue hold first round of technical discussions following MC14",
-       "url": "https://www.wto.org/english/news_e/news26_e/ppesp_01oct26_504_e.htm",
-       "source": "World Trade Organization",
-       "published": "2026-10-01T00:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "World Trade Organization",
-         "url": "https://www.wto.org/english/news_e/news26_e/ppesp_01oct26_504_e.htm",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "At a meeting on 1 October 2026, WTO members participating in the Dialogue on Plastics Pollution and Environmentally Sustainable Plastics Trade (DPP) held the first substantive round of discussions across four areas of work: circular solutions to plastics pollution; waste-manageme"
-      },
-      {
        "title": "Plastic Ingenuity Showcasing Sustainable Packaging Innovation at Pack Expo",
        "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
        "source": "Plastics Today",
@@ -396,6 +384,23 @@
        "blurb": "Shell's direct liquid cooling (DLC) fluid has achieved NVIDIA DSX Ready Coolant qualification, reinforcing Shell's role in supporting the next generation of high-performance, AI-ready data center infrastructure"
       },
       {
+       "title": "Caterpillar powers remote gold mining operation with continuous, scalable solution",
+       "url": "https://im-mining.com/2026/10/07/caterpillar-powers-remote-gold-mining-operation-with-continuous-scalable-solution/",
+       "source": "International Mining",
+       "published": "2026-10-07T13:58:21.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/07/caterpillar-powers-remote-gold-mining-operation-with-continuous-scalable-solution/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In the remote Aktobe region of Kazakhstan, a new gold mining operation is taking shape, with the power solution made up of new Cat® G3500K series gas generator sets. With the site located nearly 300 km from the nearest city and no existing electrical infrastructure, West Gold Min"
+      },
+      {
        "title": "Semiconductors pushed into insulator territory",
        "url": "https://www.nature.com/articles/d41586-026-02968-6",
        "source": "Nature",
@@ -530,23 +535,6 @@
        "stages": [],
        "via": null,
        "blurb": "I went to Galaxy Robot Park in Seoul to see how we might one day live with robots. It was part cutting-edge technology, part theatrics."
-      },
-      {
-       "title": "Planning system ensures a robot’s flight path will remain collision-free",
-       "url": "https://news.mit.edu/2026/planning-system-ensures-robots-flight-path-will-remain-collision-free-1007",
-       "source": "MIT News",
-       "published": "2026-10-07T04:00:00.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "MIT News",
-         "url": "https://news.mit.edu/2026/planning-system-ensures-robots-flight-path-will-remain-collision-free-1007",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "This new method, called “SANDO,” could help disaster-response robots navigate dangerous, unknown environments."
       }
      ]
     },
@@ -866,6 +854,28 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "ContourGlobal begins construction on Project Sterling in Arizona, US",
+       "url": "https://www.power-technology.com/news/contourglobal-construction-project-sterling/",
+       "source": "Power Technology",
+       "published": "2026-10-08T09:37:06.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/contourglobal-construction-project-sterling/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "ContourGlobal has commenced construction on Project Sterling, a combined solar and battery storage facility in Mohave County, Arizona, US."
+      },
+      {
        "title": "Clearway Starts Construction of 650-MW Solar Facility in Missouri",
        "url": "https://www.powermag.com/clearway-starts-construction-of-650-mw-solar-facility-in-missouri/",
        "source": "POWER Magazine",
@@ -1012,23 +1022,6 @@
        "blurb": "While most insurers and even contractors themselves shy away from any new technology that might open them up to risk, the rash of retirements of older, skilled tradesmen and project managers may force contractors to reconsider deploying artificial intelligence-enabled workflows t"
       },
       {
-       "title": "Data center contractors learn to live with the backlash",
-       "url": "https://www.constructiondive.com/news/data-center-contractors-learn-to-live-backlash/832142/",
-       "source": "Construction Dive",
-       "published": "2026-10-05T15:49:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Construction Dive",
-         "url": "https://www.constructiondive.com/news/data-center-contractors-learn-to-live-backlash/832142/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Contractors strive to be “active listeners” to community concerns, but say scrutiny has done little to cool demand."
-      },
-      {
        "title": "FBI removes Accenture contractor after missed security patch led to breach",
        "url": "https://www.govexec.com/technology/2026/10/fbi-removes-accenture-contractor-after-missed-security-patch-led-breach/416446/",
        "source": "Government Executive",
@@ -1050,6 +1043,81 @@
     "power": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Seatrium bags first FSRU conversion for Excelerate",
+       "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+       "source": "Splash247",
+       "published": "2026-10-08T12:40:37.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/08/excelerate-entrusts-fsru-conversion-to-seatrium-with-another-on-the-cards",
+         "primary": false
+        },
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/seatrium-scores-excelerate-fsru-conversion-gig/198115/",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
+      },
+      {
+       "title": "ContourGlobal begins Arizona solar-storage construction",
+       "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+       "source": "reNEWS",
+       "published": "2026-10-08T09:48:02.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/contourglobal-construction-project-sterling/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
+      },
+      {
+       "title": "Rising together: Collaborative project delivery for the nuclear fleet",
+       "url": "https://www.ans.org/news/2026-10-08/article-8405/rising-together-collaborative-project-delivery-for-the-nuclear-fleet/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-08T12:43:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-08/article-8405/rising-together-collaborative-project-delivery-for-the-nuclear-fleet/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Karen Fili As the nuclear industry enters one of the most significant investment periods in its history, utilities are managing unprecedented capital portfolios while simultaneously preparing for long-term operation, plant modernization, extended power uprates, digital transforma"
+      },
       {
        "title": "Northland, ORLEN complete turbine installation at Baltic Power wind farm",
        "url": "https://www.power-technology.com/news/northland-orlen-turbine-installation-baltic-power/",
@@ -1141,6 +1209,26 @@
        "blurb": "Tianwan Nuclear Power Plant's unit 7 has been successfully connected to the grid, China National Nuclear Corporation has announced."
       },
       {
+       "title": "US Wind Gives Up Sparrows Point Site as Offshore Wind Project Faces Delays",
+       "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
+       "source": "offshoreWIND.biz",
+       "published": "2026-10-08T12:25:16.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "offshoreWIND.biz",
+         "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "US Wind has relinquished its lease at Tradepoint Atlantic’s Sparrows Point site in Maryland, where the company had planned to manufacture steel..."
+      },
+      {
        "title": "MISC to order five more LNG carriers for Petronas charter",
        "url": "https://lngprime.com/asia/misc-to-order-five-more-lng-carriers-for-petronas-charter/198123/",
        "source": "LNG Prime",
@@ -1219,86 +1307,6 @@
         "stage": "generation"
        },
        "blurb": "A detailed look at Maxxen’s advanced BESS factory from an on-the-ground tour. The post Inside BESS manufacturing: Maxxen’s utility-scale storage factory in Europe appeared first on pv magazine Global ."
-      },
-      {
-       "title": "Westinghouse teams up with Hyundai E&C for Dutch FEED studies",
-       "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
-       "source": "World Nuclear News",
-       "published": "2026-10-08T11:04:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "South Korea's Hyundai Engineering & Construction has been contracted by Westinghouse to carry out basic design studies for the construction of two large nuclear power plants in the Netherlands based on Westinghouse's AP1000 design."
-      },
-      {
-       "title": "Italian startup offers 535 W PVT solar module with 1.4 kW thermal output",
-       "url": "https://www.pv-magazine.com/2026/10/08/italian-startup-offers-535-w-pvt-solar-module-with-1-4-kw-thermal-output/",
-       "source": "pv magazine",
-       "published": "2026-10-08T10:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/08/italian-startup-offers-535-w-pvt-solar-module-with-1-4-kw-thermal-output/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Syntropia has developed a 535 W hybrid photovoltaic-thermal module that combines electricity generation with heat recovery, achieving a combined energy conversion efficiency of 66.8% in recent tests. The company is also developing an integrated energy system combining PVT modules"
-      },
-      {
-       "title": "Dogger Bank B Wind Turbine Installation Passes Halfway Mark",
-       "url": "https://offshorewind.biz/2026/10/08/dogger-bank-b-wind-turbine-installation-passes-halfway-mark",
-       "source": "offshoreWIND.biz",
-       "published": "2026-10-08T09:52:57.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "offshoreWIND.biz",
-         "url": "https://offshorewind.biz/2026/10/08/dogger-bank-b-wind-turbine-installation-passes-halfway-mark",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Forty-nine wind turbines have been installed at the Dogger Bank B offshore wind farm site in the UK, according to the latest mariners' notice..."
-      },
-      {
-       "title": "ContourGlobal begins Arizona solar-storage construction",
-       "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
-       "source": "reNEWS",
-       "published": "2026-10-08T09:48:02.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "reNEWS",
-         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
       }
      ]
     }
@@ -1326,6 +1334,11 @@
         {
          "name": "CNA Business",
          "url": "https://www.channelnewsasia.com/business/pepsico-cuts-forecast-deepens-cost-cuts-namerica-recovery-drags-6442351",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/pepsico-cuts-earnings-outlook-as-north-american-recovery-takes-longer-than-expected/4082302",
          "primary": false
         }
        ],
@@ -1814,6 +1827,28 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "ContourGlobal begins construction on Project Sterling in Arizona, US",
+       "url": "https://www.power-technology.com/news/contourglobal-construction-project-sterling/",
+       "source": "Power Technology",
+       "published": "2026-10-08T09:37:06.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/contourglobal-construction-project-sterling/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "ContourGlobal has commenced construction on Project Sterling, a combined solar and battery storage facility in Mohave County, Arizona, US."
+      },
+      {
        "title": "Clearway secures financing, starts construction on 650MW Missouri solar project",
        "url": "https://www.pv-tech.org/clearway-secures-financing-starts-construction-on-650mw-missouri-solar-project/",
        "source": "PV Tech",
@@ -1892,23 +1927,6 @@
        "blurb": "New Jersey-based Skoda Contracting has taken a purposeful approach to becoming a leading underground utility contractor."
       },
       {
-       "title": "Data center contractors learn to live with the backlash",
-       "url": "https://www.constructiondive.com/news/data-center-contractors-learn-to-live-backlash/832142/",
-       "source": "Construction Dive",
-       "published": "2026-10-05T15:49:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Construction Dive",
-         "url": "https://www.constructiondive.com/news/data-center-contractors-learn-to-live-backlash/832142/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Contractors strive to be “active listeners” to community concerns, but say scrutiny has done little to cool demand."
-      },
-      {
        "title": "FBI removes Accenture contractor after missed security patch led to breach",
        "url": "https://www.govexec.com/technology/2026/10/fbi-removes-accenture-contractor-after-missed-security-patch-led-breach/416446/",
        "source": "Government Executive",
@@ -1935,8 +1953,13 @@
        "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
        "source": "reNEWS",
        "published": "2026-10-08T09:48:02.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/contourglobal-construction-project-sterling/",
+         "primary": false
+        },
         {
          "name": "reNEWS",
          "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
@@ -1949,6 +1972,56 @@
         "stage": "generation"
        },
        "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
+      },
+      {
+       "title": "US Wind Gives Up Sparrows Point Site as Offshore Wind Project Faces Delays",
+       "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
+       "source": "offshoreWIND.biz",
+       "published": "2026-10-08T12:25:16.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "offshoreWIND.biz",
+         "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "US Wind has relinquished its lease at Tradepoint Atlantic’s Sparrows Point site in Maryland, where the company had planned to manufacture steel..."
+      },
+      {
+       "title": "Seatrium bags first FSRU conversion for Excelerate",
+       "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+       "source": "Splash247",
+       "published": "2026-10-08T12:40:37.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/08/excelerate-entrusts-fsru-conversion-to-seatrium-with-another-on-the-cards",
+         "primary": false
+        },
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/seatrium-scores-excelerate-fsru-conversion-gig/198115/",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
       },
       {
        "title": "Clearway secures financing, starts construction on 650MW Missouri solar project",
@@ -2154,46 +2227,6 @@
         "stage": "generation"
        },
        "blurb": "Independent power producer (IPP) Zelestra has closed a US$350 million credit facility for the 203 MW Reclamation Solar project in Indiana."
-      },
-      {
-       "title": "Air Products to build Malaysia’s first LNG-based air separation unit",
-       "url": "https://lngprime.com/asia/air-products-to-build-malaysias-first-lng-based-air-separation-unit/198077/",
-       "source": "LNG Prime",
-       "published": "2026-10-08T06:05:06.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/asia/air-products-to-build-malaysias-first-lng-based-air-separation-unit/198077/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "US-based Air Products said it had secured a contract to supply Malaysia’s first LNG-based air separation unit for the Petronas-led Pengerang LNG regasification terminal in Johor."
-      },
-      {
-       "title": "Middle River buys 427MW Panoche natural gas plant in California, US",
-       "url": "https://www.power-technology.com/news/middle-river-buys-427mw-panoche-plant/",
-       "source": "Power Technology",
-       "published": "2026-10-07T07:43:37.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Power Technology",
-         "url": "https://www.power-technology.com/news/middle-river-buys-427mw-panoche-plant/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "US-based independent power producer Middle River Power has acquired the fully contracted 427MW Panoche Energy Center, a natural gas generation facility in Firebaugh, California, US, from an Ares Infrastructure Equity fund."
       }
      ]
     }
@@ -2282,6 +2315,26 @@
     "power": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "US Wind Gives Up Sparrows Point Site as Offshore Wind Project Faces Delays",
+       "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
+       "source": "offshoreWIND.biz",
+       "published": "2026-10-08T12:25:16.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "offshoreWIND.biz",
+         "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "US Wind has relinquished its lease at Tradepoint Atlantic’s Sparrows Point site in Maryland, where the company had planned to manufacture steel..."
+      },
       {
        "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
        "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
@@ -2911,6 +2964,34 @@
     }
    }
   },
+  "kz": {
+   "label": "Kazakhstan",
+   "level": "country",
+   "sources": {
+    "machinery": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Caterpillar powers remote gold mining operation with continuous, scalable solution",
+       "url": "https://im-mining.com/2026/10/07/caterpillar-powers-remote-gold-mining-operation-with-continuous-scalable-solution/",
+       "source": "International Mining",
+       "published": "2026-10-07T13:58:21.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/07/caterpillar-powers-remote-gold-mining-operation-with-continuous-scalable-solution/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In the remote Aktobe region of Kazakhstan, a new gold mining operation is taking shape, with the power solution made up of new Cat® G3500K series gas generator sets. With the site located nearly 300 km from the nearest city and no existing electrical infrastructure, West Gold Min"
+      }
+     ]
+    }
+   }
+  },
   "pt": {
    "label": "Portugal",
    "level": "country",
@@ -3413,13 +3494,8 @@
        "url": "https://www.energy-storage.news/bw-ess-starts-building-828mwh-bess-italy-market-moves-execution/",
        "source": "Energy-Storage.news",
        "published": "2026-10-07T11:10:08.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
-        {
-         "name": "Power Technology",
-         "url": "https://www.power-technology.com/news/bw-ess-danske-commodities-uk-bess-agreement/",
-         "primary": false
-        },
         {
          "name": "Energy-Storage.news",
          "url": "https://www.energy-storage.news/bw-ess-starts-building-828mwh-bess-italy-market-moves-execution/",
@@ -3441,6 +3517,33 @@
    "label": "Arizona",
    "level": "admin1",
    "sources": {
+    "construction": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "ContourGlobal begins construction on Project Sterling in Arizona, US",
+       "url": "https://www.power-technology.com/news/contourglobal-construction-project-sterling/",
+       "source": "Power Technology",
+       "published": "2026-10-08T09:37:06.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/contourglobal-construction-project-sterling/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "ContourGlobal has commenced construction on Project Sterling, a combined solar and battery storage facility in Mohave County, Arizona, US."
+      }
+     ]
+    },
     "power": {
      "brief": "missing",
      "candidates": [
@@ -3449,8 +3552,13 @@
        "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
        "source": "reNEWS",
        "published": "2026-10-08T09:48:02.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/contourglobal-construction-project-sterling/",
+         "primary": false
+        },
         {
          "name": "reNEWS",
          "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
@@ -4287,45 +4395,33 @@
     }
    }
   },
-  "us-tx": {
-   "label": "Texas",
-   "level": "admin1",
+  "sg": {
+   "label": "Singapore",
+   "level": "country",
    "sources": {
-    "chemicals": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ground broken on $6.5bn Eli Lilly manufacturing facility for GLP-1",
-       "url": "https://www.globalconstructionreview.com/ground-broken-on-6-5bn-eli-lilly-manufacturing-facility-for-glp-1/",
-       "source": "Global Construction Review",
-       "published": "2026-10-08T10:42:16.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Global Construction Review",
-         "url": "https://www.globalconstructionreview.com/ground-broken-on-6-5bn-eli-lilly-manufacturing-facility-for-glp-1/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "American pharmaceutical company Eli Lilly has broken ground on a $6.5bn Houston factory that will make Foundayo (orforglipron), the company’s first synthetic oral GLP-1 variant for treatment of type 2… The post Ground broken on $6.5bn Eli Lilly manufacturing facility for GLP-1 ap"
-      }
-     ]
-    },
     "power": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Port Arthur LNG Commissioning Builds Ahead of 2027 Startup Push",
-       "url": "https://naturalgasintel.com/news/port-arthur-lng-commissioning-builds-ahead-of-2027-startup-push/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T13:34:54.000Z",
-       "verification": "unconfirmed",
+       "title": "Seatrium bags first FSRU conversion for Excelerate",
+       "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+       "source": "Splash247",
+       "published": "2026-10-08T12:40:37.000Z",
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/port-arthur-lng-commissioning-builds-ahead-of-2027-startup-push/",
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/08/excelerate-entrusts-fsru-conversion-to-seatrium-with-another-on-the-cards",
+         "primary": false
+        },
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/seatrium-scores-excelerate-fsru-conversion-gig/198115/",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
          "primary": false
         }
        ],
@@ -4334,7 +4430,89 @@
         "from": "energy",
         "stage": "generation"
        },
-       "blurb": "Sempra Infrastructure is advancing commissioning at Port Arthur LNG, with new startup activity bringing the Texas project closer to adding another major source of natural gas demand along the Gulf Coast."
+       "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
+      }
+     ]
+    }
+   }
+  },
+  "us-ny": {
+   "label": "New York",
+   "level": "admin1",
+   "sources": {
+    "power": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Seatrium bags first FSRU conversion for Excelerate",
+       "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+       "source": "Splash247",
+       "published": "2026-10-08T12:40:37.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/08/excelerate-entrusts-fsru-conversion-to-seatrium-with-another-on-the-cards",
+         "primary": false
+        },
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/seatrium-scores-excelerate-fsru-conversion-gig/198115/",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
+      }
+     ]
+    }
+   }
+  },
+  "us-city-new-york": {
+   "label": "New York",
+   "level": "city",
+   "sources": {
+    "power": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Seatrium bags first FSRU conversion for Excelerate",
+       "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+       "source": "Splash247",
+       "published": "2026-10-08T12:40:37.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/08/excelerate-entrusts-fsru-conversion-to-seatrium-with-another-on-the-cards",
+         "primary": false
+        },
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/seatrium-scores-excelerate-fsru-conversion-gig/198115/",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
       }
      ]
     }
@@ -5060,6 +5238,34 @@
         "stage": "generation"
        },
        "blurb": "South Korea may invest in the long-delayed Alaska LNG project, contingent on feasibility reviews, as part of a broader US energy investment initiative."
+      }
+     ]
+    }
+   }
+  },
+  "us-tx": {
+   "label": "Texas",
+   "level": "admin1",
+   "sources": {
+    "chemicals": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ground broken on $6.5bn Eli Lilly manufacturing facility for GLP-1",
+       "url": "https://www.globalconstructionreview.com/ground-broken-on-6-5bn-eli-lilly-manufacturing-facility-for-glp-1/",
+       "source": "Global Construction Review",
+       "published": "2026-10-08T10:42:16.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Global Construction Review",
+         "url": "https://www.globalconstructionreview.com/ground-broken-on-6-5bn-eli-lilly-manufacturing-facility-for-glp-1/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "American pharmaceutical company Eli Lilly has broken ground on a $6.5bn Houston factory that will make Foundayo (orforglipron), the company’s first synthetic oral GLP-1 variant for treatment of type 2… The post Ground broken on $6.5bn Eli Lilly manufacturing facility for GLP-1 ap"
       }
      ]
     }

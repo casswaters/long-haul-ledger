@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T12:35:09.141Z",
+ "generatedAt": "2026-10-08T12:47:38.822Z",
  "sector": "services",
  "maxAgeDays": 10,
  "places": {
@@ -230,21 +230,46 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "U.S. Housing Costs Could Return to “Normal” Within 5 Years. Here’s What It Would Take.",
-       "url": "https://www.redfin.com/news/return-to-normal-housing-costs/",
-       "source": "Redfin News",
-       "published": "2026-10-08T12:00:02.000Z",
-       "verification": "unconfirmed",
+       "title": "Oil and gas prices jump on Middle East shipping attacks, sending bond yields higher and stocks lower – business live",
+       "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+       "source": "The Guardian Business",
+       "published": "2026-10-08T12:26:58.000Z",
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "Redfin News",
-         "url": "https://www.redfin.com/news/return-to-normal-housing-costs/",
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/international-business/oil-remains-beyond-100-per-barrel-as-middle-east-supply-concerns-persist/articleshow/134777591.cms",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/markets/2026/10/08/oil-rises-as-supply-concerns-persist-amid-shipping-attacks/",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/oil-prices-attacks-mideast",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Housing costs could hypothetically return to “normal” within the next five years if mortgage rates drop to 6% and home-price growth holds steady around 2.1%. Alternatively, housing costs could return to normal in just a slightly longer timeline–within about six years–if mortgage "
+       "blurb": "Brent crude tops $105 a barrel amid attacks on tankers and squeeze on US oil output in Gulf of Mexico as storm Isaias approaches Here’s our wrap of the moves in markets: The sell-off in bond markets has put the euro under pressure, pushing to close to a 17-month low. Continue rea"
       },
       {
        "title": "Dogger Bank B Wind Turbine Installation Passes Halfway Mark",
@@ -454,23 +479,6 @@
        "stages": [],
        "via": null,
        "blurb": "Rent prices have been mostly flat in recent years, but is the approaching election likely to change that?"
-      },
-      {
-       "title": "Average asking rents fall 4.2% in September, marking 24 months of decreases",
-       "url": "https://www.bnnbloomberg.ca/business/real-estate/2026/10/07/average-asking-rents-fall-42-in-september-marking-24-months-of-decreases/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T00:03:12.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/real-estate/2026/10/07/average-asking-rents-fall-42-in-september-marking-24-months-of-decreases/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The average asking price for a rental unit in September was $2,034, down 4.2 per cent compared with a year ago."
       },
       {
        "title": "US mortgage rates jump to 7.49%, hit highest level in nearly 3 years",
@@ -828,6 +836,23 @@
        "blurb": "The Army said the takeover of the park form part of measures to prevent the area from being used as a hideout by criminal groups. The post Army takes over Old Oyo Park for military training in aftermath of school abduction appeared first on Premium Times Nigeria ."
       },
       {
+       "title": "Sandvik looks to raise mining expertise with new education program",
+       "url": "https://im-mining.com/2026/10/08/sandvik-looks-to-raise-mining-expertise-with-new-education-program/",
+       "source": "International Mining",
+       "published": "2026-10-08T09:19:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/08/sandvik-looks-to-raise-mining-expertise-with-new-education-program/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Sandvik says it has high hopes for the launch of a unique five-continent mining engineering program aimed at training the next generation of leaders in the industry. The new global postgraduate program, launched in March 2026, marks a shift in how Sandvik intends to build experti"
+      },
+      {
        "title": "French students return to streets despite government bid to ease crisis",
        "url": "https://www.rfi.fr/en/france/20261008-french-pm-lecornu-denies-police-crackdown-as-france-s-student-protests-intensify",
        "source": "RFI English",
@@ -962,23 +987,6 @@
        "stages": [],
        "via": null,
        "blurb": "[Vanguard] The Academic Staff Union of Secondary Schools (ASUSS), Federal Capital Territory (FCT) Chapter, has rejected the indefinite strike declared by the Nigeria Union of Teachers (NUT), FCT Wing, directing secondary school teachers and education officers to report to work an"
-      },
-      {
-       "title": "Schools could lead India’s private bus transition, World Bank expert says",
-       "url": "https://www.electrive.com/2026/10/08/schools-could-lead-indias-private-bus-transition-world-bank-expert-says/",
-       "source": "electrive",
-       "published": "2026-10-08T11:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "electrive",
-         "url": "https://www.electrive.com/2026/10/08/schools-could-lead-indias-private-bus-transition-world-bank-expert-says/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "India's transition to zero-emission buses has so far been driven largely by public transport authorities (PTAs). However, public fleets represent only 8 to 10 per cent of the country's bus market, while private operators account for around 90 per cent or approximately 1.6 million"
       }
      ]
     },
@@ -1205,10 +1213,10 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Oil rises as Middle East supply concerns persist amid shipping attacks",
-       "url": "https://www.straitstimes.com/business/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks",
-       "source": "The Straits Times Business",
-       "published": "2026-10-08T02:45:00.000Z",
+       "title": "Oil and gas prices jump on Middle East shipping attacks, sending bond yields higher and stocks lower – business live",
+       "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+       "source": "The Guardian Business",
+       "published": "2026-10-08T12:26:58.000Z",
        "verification": "multiple",
        "outlets": [
         {
@@ -1244,7 +1252,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Distillate fuel inventories dropped by 42,000 barrels to 105.14 million barrels."
+       "blurb": "Brent crude tops $105 a barrel amid attacks on tankers and squeeze on US oil output in Gulf of Mexico as storm Isaias approaches Here’s our wrap of the moves in markets: The sell-off in bond markets has put the euro under pressure, pushing to close to a 17-month low. Continue rea"
       },
       {
        "title": "Traveller costs must stay down in airport privatization plan: industry group",
@@ -1444,6 +1452,96 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Oil and gas prices jump on Middle East shipping attacks, sending bond yields higher and stocks lower – business live",
+       "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+       "source": "The Guardian Business",
+       "published": "2026-10-08T12:26:58.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/international-business/oil-remains-beyond-100-per-barrel-as-middle-east-supply-concerns-persist/articleshow/134777591.cms",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/markets/2026/10/08/oil-rises-as-supply-concerns-persist-amid-shipping-attacks/",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/oil-prices-attacks-mideast",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "Brent crude tops $105 a barrel amid attacks on tankers and squeeze on US oil output in Gulf of Mexico as storm Isaias approaches Here’s our wrap of the moves in markets: The sell-off in bond markets has put the euro under pressure, pushing to close to a 17-month low. Continue rea"
+      },
+      {
+       "title": "ContourGlobal begins Arizona solar-storage construction",
+       "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+       "source": "reNEWS",
+       "published": "2026-10-08T09:48:02.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/contourglobal-construction-project-sterling/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
+      },
+      {
+       "title": "Rising together: Collaborative project delivery for the nuclear fleet",
+       "url": "https://www.ans.org/news/2026-10-08/article-8405/rising-together-collaborative-project-delivery-for-the-nuclear-fleet/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-08T12:43:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-08/article-8405/rising-together-collaborative-project-delivery-for-the-nuclear-fleet/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "Karen Fili As the nuclear industry enters one of the most significant investment periods in its history, utilities are managing unprecedented capital portfolios while simultaneously preparing for long-term operation, plant modernization, extended power uprates, digital transforma"
+      },
+      {
        "title": "Venture Global shipped 124 LNG cargoes in Q3",
        "url": "https://lngprime.com/americas/venture-global-shipped-124-lng-cargoes-in-q3/198047/",
        "source": "LNG Prime",
@@ -1487,6 +1585,26 @@
         "stage": "grid"
        },
        "blurb": "Tianwan Nuclear Power Plant's unit 7 has been successfully connected to the grid, China National Nuclear Corporation has announced."
+      },
+      {
+       "title": "Natural Gas Futures Extend Winning Ways as Traders Size Up Hurricane Threat, Prep for Storage Print",
+       "url": "https://naturalgasintel.com/news/natural-gas-futures-extend-winning-ways-as-traders-size-up-hurricane-threat-prep-for-storage-print/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-08T12:43:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/natural-gas-futures-extend-winning-ways-as-traders-size-up-hurricane-threat-prep-for-storage-print/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "Natural gas futures traders took stock of Hurricane Isaias approaching the Gulf Coast early Thursday as well as expectations for a bullish government inventory result."
       },
       {
        "title": "Solar emerges as an alternative to Nigeria’s unreliable grid {Business Africa}",
@@ -1549,26 +1667,6 @@
        "blurb": "A detailed look at Maxxen’s advanced BESS factory from an on-the-ground tour. The post Inside BESS manufacturing: Maxxen’s utility-scale storage factory in Europe appeared first on pv magazine Global ."
       },
       {
-       "title": "ContourGlobal begins Arizona solar-storage construction",
-       "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
-       "source": "reNEWS",
-       "published": "2026-10-08T09:48:02.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "reNEWS",
-         "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
-      },
-      {
        "title": "Explainer-Data centers' 'flexible' power usage could save the grid billions. Can they scale?",
        "url": "https://www.channelnewsasia.com/business/explainer-data-centers-flexible-power-usage-could-save-grid-billions-can-they-scale-6442466",
        "source": "CNA Business",
@@ -1621,66 +1719,6 @@
         "stage": "grid"
        },
        "blurb": "Polish 150MW energy storage project targets December 2026 energisation"
-      },
-      {
-       "title": "Sao Tome Runs Out of Petrol, Awaits US$17 Million Cargo",
-       "url": "https://www.riotimesonline.com/sao-tome-fuel-shortage-petrol-kerosene-2026/",
-       "source": "The Rio Times",
-       "published": "2026-10-08T08:59:39.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Rio Times",
-         "url": "https://www.riotimesonline.com/sao-tome-fuel-shortage-petrol-kerosene-2026/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "São Tomé and Príncipe has run out of petrol and cooking kerosene. The finance minister says a US$17 million import is due within a week. The post Sao Tome Runs Out of Petrol, Awaits US$17 Million Cargo appeared first on The Rio Times ."
-      },
-      {
-       "title": "Global BESS failure rates declined 99% between 2018 and 2025",
-       "url": "https://www.energy-storage.news/global-bess-failure-rates-declined-99-between-2018-and-2025/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-08T08:48:16.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/global-bess-failure-rates-declined-99-between-2018-and-2025/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "Annual battery energy storage system (BESS) failures per-deployed-GWh declined 99% globally between 2018 and 2025, as installed BESS capacity grew exponentially."
-      },
-      {
-       "title": "Elenger secures additional LNG cargoes",
-       "url": "https://lngprime.com/europe/elenger-secures-additional-lng-cargoes/198086/",
-       "source": "LNG Prime",
-       "published": "2026-10-08T08:36:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/europe/elenger-secures-additional-lng-cargoes/198086/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "Elenger, a unit of Estonian investment firm Infortar, has secured additional liquefied natural gas (LNG) cargoes for the upcoming heating season."
       }
      ]
     }
@@ -1801,21 +1839,46 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "U.S. Housing Costs Could Return to “Normal” Within 5 Years. Here’s What It Would Take.",
-       "url": "https://www.redfin.com/news/return-to-normal-housing-costs/",
-       "source": "Redfin News",
-       "published": "2026-10-08T12:00:02.000Z",
-       "verification": "unconfirmed",
+       "title": "Oil and gas prices jump on Middle East shipping attacks, sending bond yields higher and stocks lower – business live",
+       "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+       "source": "The Guardian Business",
+       "published": "2026-10-08T12:26:58.000Z",
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "Redfin News",
-         "url": "https://www.redfin.com/news/return-to-normal-housing-costs/",
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/international-business/oil-remains-beyond-100-per-barrel-as-middle-east-supply-concerns-persist/articleshow/134777591.cms",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/markets/2026/10/08/oil-rises-as-supply-concerns-persist-amid-shipping-attacks/",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/oil-prices-attacks-mideast",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Housing costs could hypothetically return to “normal” within the next five years if mortgage rates drop to 6% and home-price growth holds steady around 2.1%. Alternatively, housing costs could return to normal in just a slightly longer timeline–within about six years–if mortgage "
+       "blurb": "Brent crude tops $105 a barrel amid attacks on tankers and squeeze on US oil output in Gulf of Mexico as storm Isaias approaches Here’s our wrap of the moves in markets: The sell-off in bond markets has put the euro under pressure, pushing to close to a 17-month low. Continue rea"
       },
       {
        "title": "US mortgage rates jump to 7.49%, hit highest level in nearly 3 years",
@@ -2380,6 +2443,48 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Oil and gas prices jump on Middle East shipping attacks, sending bond yields higher and stocks lower – business live",
+       "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+       "source": "The Guardian Business",
+       "published": "2026-10-08T12:26:58.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/international-business/oil-remains-beyond-100-per-barrel-as-middle-east-supply-concerns-persist/articleshow/134777591.cms",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/markets/2026/10/08/oil-rises-as-supply-concerns-persist-amid-shipping-attacks/",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/oil-prices-attacks-mideast",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Brent crude tops $105 a barrel amid attacks on tankers and squeeze on US oil output in Gulf of Mexico as storm Isaias approaches Here’s our wrap of the moves in markets: The sell-off in bond markets has put the euro under pressure, pushing to close to a 17-month low. Continue rea"
+      },
+      {
        "title": "Can 3-year degrees boost the teacher pipeline?",
        "url": "https://www.highereddive.com/news/can-3-year-degrees-boost-the-teacher-pipeline/832113/",
        "source": "Higher Ed Dive",
@@ -2397,23 +2502,6 @@
        "blurb": "Arizona State University is offering a shorter teacher pathway this fall with a goal of removing financial barriers for students aspiring to enter the profession."
       },
       {
-       "title": "High yields spark new container services on ‘bumpy’ India-Middle East trade",
-       "url": "https://theloadstar.com/high-yields-spark-new-container-services-on-bumpy-india-middle-east-trade/",
-       "source": "The Loadstar",
-       "published": "2026-10-08T12:12:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Loadstar",
-         "url": "https://theloadstar.com/high-yields-spark-new-container-services-on-bumpy-india-middle-east-trade/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Historically high freight yields are driving a wave of dedicated container services between India and the Middle East, a tradelane that has been through a number of upheavals since the outbreak of Iran-US military tension. The latest example: Maersk has just rolled out a new cont"
-      },
-      {
        "title": "New $100 million Baltimore fund targets vacant housing pipeline",
        "url": "https://www.housingwire.com/articles/baltimore-vacant-housing-fund/",
        "source": "HousingWire",
@@ -2429,6 +2517,23 @@
        "stages": [],
        "via": null,
        "blurb": "The Greater Baltimore Committee and Enterprise will launch a Funders’ Consortium in November"
+      },
+      {
+       "title": "High yields spark new container services on ‘bumpy’ India-Middle East trade",
+       "url": "https://theloadstar.com/high-yields-spark-new-container-services-on-bumpy-india-middle-east-trade/",
+       "source": "The Loadstar",
+       "published": "2026-10-08T12:12:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Loadstar",
+         "url": "https://theloadstar.com/high-yields-spark-new-container-services-on-bumpy-india-middle-east-trade/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Historically high freight yields are driving a wave of dedicated container services between India and the Middle East, a tradelane that has been through a number of upheavals since the outbreak of Iran-US military tension. The latest example: Maersk has just rolled out a new cont"
       },
       {
        "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
@@ -2564,8 +2669,13 @@
        "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
        "source": "reNEWS",
        "published": "2026-10-08T09:48:02.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/contourglobal-construction-project-sterling/",
+         "primary": false
+        },
         {
          "name": "reNEWS",
          "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
@@ -2578,6 +2688,51 @@
         "stage": "grid"
        },
        "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
+      },
+      {
+       "title": "Oil and gas prices jump on Middle East shipping attacks, sending bond yields higher and stocks lower – business live",
+       "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+       "source": "The Guardian Business",
+       "published": "2026-10-08T12:26:58.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/international-business/oil-remains-beyond-100-per-barrel-as-middle-east-supply-concerns-persist/articleshow/134777591.cms",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/markets/2026/10/08/oil-rises-as-supply-concerns-persist-amid-shipping-attacks/",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/oil-prices-attacks-mideast",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "Brent crude tops $105 a barrel amid attacks on tankers and squeeze on US oil output in Gulf of Mexico as storm Isaias approaches Here’s our wrap of the moves in markets: The sell-off in bond markets has put the euro under pressure, pushing to close to a 17-month low. Continue rea"
       },
       {
        "title": "Venture Global shipped 124 LNG cargoes in Q3",
@@ -2798,26 +2953,6 @@
         "stage": "grid"
        },
        "blurb": "Google and Constellation Energy have announced a long-term collaboration to bring 890 MW of new nuclear capacity onto the PJM Interconnection grid, as well as a power purchase agreement. Meanwhile, Oracle is to subscribe to output from the Point Beach nuclear power plant."
-      },
-      {
-       "title": "November Natural Gas Futures Blast Past $3.20 as Cooler Forecasts Stoke Buying",
-       "url": "https://naturalgasintel.com/news/november-natural-gas-futures-blast-past-320-as-cooler-forecasts-stoke-buying/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T16:32:08.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/november-natural-gas-futures-blast-past-320-as-cooler-forecasts-stoke-buying/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "US natural gas futures surged through midday trade on Wednesday as cooler longer range forecasts, expectations for a below-normal storage injection and short covering lifted the front of the curve."
       }
      ]
     }
@@ -3146,8 +3281,13 @@
        "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
        "source": "reNEWS",
        "published": "2026-10-08T09:48:02.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/contourglobal-construction-project-sterling/",
+         "primary": false
+        },
         {
          "name": "reNEWS",
          "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
@@ -5603,31 +5743,6 @@
        "blurb": "US natural gas futures surged through midday trade on Wednesday as cooler longer range forecasts, expectations for a below-normal storage injection and short covering lifted the front of the curve."
       },
       {
-       "title": "BW ESS, Danske Commodities ink decade-long UK BESS agreement",
-       "url": "https://www.power-technology.com/news/bw-ess-danske-commodities-uk-bess-agreement/",
-       "source": "Power Technology",
-       "published": "2026-10-06T13:29:09.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Power Technology",
-         "url": "https://www.power-technology.com/news/bw-ess-danske-commodities-uk-bess-agreement/",
-         "primary": false
-        },
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/bw-ess-starts-building-828mwh-bess-italy-market-moves-execution/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "BW ESS and Danske Commodities have entered into a 10-year agreement for the trading and optimisation of the entire 200MW/857MWh Berkswell battery energy storage system (BESS) in the UK."
-      },
-      {
        "title": "Subsea Battery System for Offshore Wind Completes Test Before Deployment",
        "url": "https://offshorewind.biz/2026/10/06/subsea-battery-system-for-offshore-wind-completes-test-before-deployment",
        "source": "offshoreWIND.biz",
@@ -5987,28 +6102,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Emera and Canadian Utilities plan $10bn merger to form major utility",
-       "url": "https://www.power-technology.com/news/emera-canadian-utilities-merger/",
-       "source": "Power Technology",
-       "published": "2026-10-07T07:34:28.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Power Technology",
-         "url": "https://www.power-technology.com/news/emera-canadian-utilities-merger/",
-         "primary": false
-        },
-        {
-         "name": "Global News Money (Canada)",
-         "url": "https://globalnews.ca/news/12089863/atco-emera-canadian-utilities-merger/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Emera has agreed to merge with Canadian Utilities in an all-share deal valued at approximately C$14.3bn ($10bn)."
-      },
-      {
        "title": "Canadian Solar’s e-STORAGE to deliver 200MWh BESS for Australian solar-plus-storage site",
        "url": "https://www.energy-storage.news/canadian-solars-e-storage-to-deliver-200mwh-bess-for-australian-solar-plus-storage-site/",
        "source": "Energy-Storage.news",
@@ -6027,6 +6120,23 @@
         "stage": "grid"
        },
        "blurb": "e-STORAGE has signed an agreement to supply and commission a 100MW/200MWh BESS for OX2's Muswellbrook solar-plus-storage site in Australia."
+      },
+      {
+       "title": "Emera inks Canadian Utilities merger deal with ATCO to create $72B energy ‘powerhouse’",
+       "url": "https://globalnews.ca/news/12089863/atco-emera-canadian-utilities-merger/",
+       "source": "Global News Money (Canada)",
+       "published": "2026-10-06T18:16:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Global News Money (Canada)",
+         "url": "https://globalnews.ca/news/12089863/atco-emera-canadian-utilities-merger/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Existing Emera shareholders are expected to own about 60 per cent of the combined utility, while former Atco and Canadian Utilities shareholders are set to own about 40 per cent."
       },
       {
        "title": "Pacific Link pipeline to the West Coast officially designated a ‘national interest’ project",
@@ -8277,6 +8387,51 @@
     }
    }
   },
+  "tr": {
+   "label": "Türkiye",
+   "level": "country",
+   "sources": {
+    "finance": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Türkiye’s banking sector loans reach $586B last week",
+       "url": "https://www.aa.com.tr/en/economy/turkiye-s-banking-sector-loans-reach-586b-last-week/4082307",
+       "source": "Anadolu Agency Economy",
+       "published": "2026-10-08T12:38:18.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/turkiye-s-banking-sector-loans-reach-586b-last-week/4082307",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Consumer loans total $71.6B, while personal credit card debt stands at $72.3B as of Oct. 2"
+      },
+      {
+       "title": "Turkey: Stock market scandal hits half a million investors",
+       "url": "https://www.dw.com/en/turkey-stock-market-scandal-hits-half-a-million-investors/a-79494710?maca=en-rss-en-bus-2091-rdf",
+       "source": "DW Business",
+       "published": "2026-10-02T04:32:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DW Business",
+         "url": "https://www.dw.com/en/turkey-stock-market-scandal-hits-half-a-million-investors/a-79494710?maca=en-rss-en-bus-2091-rdf",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Asset managers are alleged to have artificially inflated the value of their funds. Turkish authorities have made multiple arrests, and a leading AKP lawmaker has resigned."
+      }
+     ]
+    }
+   }
+  },
   "id": {
    "label": "Indonesia",
    "level": "country",
@@ -9350,34 +9505,6 @@
        "stages": [],
        "via": null,
        "blurb": "Plus, Choice Hotels launched a new points-sharing feature, allowing loyalty members to share points “seamlessly and for free.”"
-      }
-     ]
-    }
-   }
-  },
-  "tr": {
-   "label": "Türkiye",
-   "level": "country",
-   "sources": {
-    "finance": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Turkey: Stock market scandal hits half a million investors",
-       "url": "https://www.dw.com/en/turkey-stock-market-scandal-hits-half-a-million-investors/a-79494710?maca=en-rss-en-bus-2091-rdf",
-       "source": "DW Business",
-       "published": "2026-10-02T04:32:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DW Business",
-         "url": "https://www.dw.com/en/turkey-stock-market-scandal-hits-half-a-million-investors/a-79494710?maca=en-rss-en-bus-2091-rdf",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Asset managers are alleged to have artificially inflated the value of their funds. Turkish authorities have made multiple arrests, and a leading AKP lawmaker has resigned."
       }
      ]
     }
