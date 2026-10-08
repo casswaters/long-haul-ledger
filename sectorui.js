@@ -220,11 +220,24 @@ export function renderSectorOverlay(ctx) {
         <span class="slot-copy">${esc(s.copy)}</span>
       </button></li>`;
   }).join('');
+  // Sectors of the Economy = the five tabs with an economic type (Primary to Quinary).
+  // Energy is separate: its own featured tab, no window title, no switcher, no type label.
+  const econ = !!sector.economicType;
+  const group = econ ? (ctx.tabs || []).filter((t) => t.economicType) : [];
+  const typeLabel = (t) => ECONOMIC_TYPES[t.economicType]?.label || '';
+  const windowBar = econ ? `
+      <div class="sector-window-bar">
+        <h2 class="sector-window-title" id="sector-window-title">Sectors of the Economy</h2>
+        ${group.length > 1 ? `<div class="sector-switch" role="group" aria-label="Switch sector">${group.map((t) => {
+          const cur = t.id === sector.id;
+          return `<button type="button" class="sswitch${cur ? ' is-current' : ''}" data-sswitch="${esc(t.id)}" aria-label="${esc(t.label)}, ${esc(typeLabel(t))} sector" title="${esc(t.label)} · ${esc(typeLabel(t))}"${cur ? ' aria-current="true"' : ''}><span aria-hidden="true">${t.emoji || esc(t.label.slice(0, 1))}</span></button>`;
+        }).join('')}</div>` : ''}
+      </div>` : '';
   return `
-    <div class="overlay-panel sector-panel" role="dialog" aria-modal="true" aria-labelledby="sector-title" data-sector-tab="${esc(sector.id)}">
+    <div class="overlay-panel sector-panel${econ ? ' is-economy' : ''}" role="dialog" aria-modal="true" aria-labelledby="${econ ? 'sector-window-title ' : ''}sector-title" data-sector-tab="${esc(sector.id)}">${windowBar}
       <div class="overlay-head sector-head">
         <div class="sector-head-main">
-          <div class="overlay-kicker">${sector.emoji ? `<span aria-hidden="true">${sector.emoji}</span> ` : ''}${esc(sector.label)} · ${esc(LEVEL_NAMES[place.level])}${sector.economicType ? ` <span class="kicker-official">${esc(sector.officialName)}</span>${infoChip(segmentReference(sector), `tab-pop-${sector.id}`, 'tab-info')}` : ''}</div>
+          <div class="overlay-kicker">${sector.emoji ? `<span aria-hidden="true">${sector.emoji}</span> ` : ''}<span class="kicker-name">${esc(sector.label)}</span>${econ ? ` · <span class="kicker-official" title="${esc(sector.officialName)}">${esc(typeLabel(sector))}</span>${infoChip(segmentReference(sector), `tab-pop-${sector.id}`, 'tab-info')}` : ''} · ${esc(LEVEL_NAMES[place.level])}</div>
           <nav class="sector-path" aria-label="Place">${placePath(place, names)}</nav>
           <h2 id="sector-title" tabindex="-1">${esc(label)}</h2>
           <p class="overlay-hint">${esc(sector.headline(headPlace))}</p>
@@ -244,6 +257,17 @@ export function renderSectorOverlay(ctx) {
 /** Wire clicks/keys. `act` = { selectSub, openBrief, closeBrief, setStage, goPlace, close, expand, method }. */
 export function wireSectorOverlay(root, act) {
   root.querySelectorAll('[data-ssub]').forEach((b) => b.addEventListener('click', () => act.selectSub(b.dataset.ssub)));
+  root.querySelectorAll('[data-sswitch]').forEach((b) => b.addEventListener('click', () => { if (!b.classList.contains('is-current')) act.switchTab?.(b.dataset.sswitch); }));
+  // Left/Right moves between sectors in the switcher.
+  const sw = root.querySelector('.sector-switch');
+  sw?.addEventListener('keydown', (e) => {
+    if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+    const btns = [...sw.querySelectorAll('.sswitch')];
+    const i = btns.indexOf(document.activeElement);
+    if (i < 0) return;
+    e.preventDefault();
+    btns[(i + (e.key === 'ArrowRight' ? 1 : btns.length - 1)) % btns.length].focus();
+  });
   root.querySelectorAll('[data-sclose]').forEach((b) => b.addEventListener('click', () => act.close()));
   root.querySelectorAll('[data-sback]').forEach((b) => b.addEventListener('click', () => act.selectSub(null)));
   root.querySelectorAll('[data-sbrief-open]').forEach((b) => b.addEventListener('click', () => act.openBrief()));

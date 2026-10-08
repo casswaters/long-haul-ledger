@@ -11,7 +11,8 @@ import {
 import {
   clampZoom, resetTransform, zoomAt, panBy,
   wheelToScale, stepZoom, exceededDragThreshold,
-  pinchDistance, pinchCenter, ZOOM_MIN, ZOOM_MAX,
+  pinchDistance, pinchCenter, ZOOM_MIN, ZOOM_MAX, ZOOM_STEP,
+  svgBoxToHostRect, fitScale, clampPan, edgeBumpCounter,
 } from './zoom.js';
 import {
   industriesForMindMap, mindMapLayout, getValueChain, getCompany, chainStages,
@@ -87,6 +88,10 @@ let lastFitKey = null;
 let liveFeed = null;
 
 const mapXform = resetTransform();
+/** SVG-space box of the selected country (the pan/zoom bounds below World level), or null at World. */
+let countryFrame = null;
+let countryFrameKey = '';
+const edgeBumps = edgeBumpCounter({ count: 3, windowMs: 6000 });
 
 const $ = (sel, el = document) => el.querySelector(sel);
 const $$ = (sel, el = document) => [...el.querySelectorAll(sel)];
@@ -182,17 +187,77 @@ function applyMapTransform() {
   scheduleLabelLayout();
 }
 
+/**
+ * Pan/zoom bounds. At World: the whole map, zoom 1 to ZOOM_MAX. Below World (a country,
+ * a state equivalent or a city is chosen): the whole selected country, so the view can
+ * zoom out until the full country fits and pan anywhere across it, but not beyond it.
+ */
+function mapBounds() {
+  const host = $('#world-map-host');
+  const svg = $('#world-map-host svg');
+  const vb = svg?.viewBox?.baseVal;
+  if (!host || !vb || !vb.width) return null;
+  const r = host.getBoundingClientRect();
+  const W = r.width, H = r.height;
+  if (!W || !H) return null;
+  if (state.country && countryFrame) {
+    const rect = svgBoxToHostRect(countryFrame, vb, W, H);
+    const min = Math.min(1, fitScale(rect, W, H, 0.06));
+    return { W, H, rect, min, max: ZOOM_MAX, pad: Math.round(Math.min(W, H) * 0.06), country: true };
+  }
+  return { W, H, rect: { x0: 0, y0: 0, x1: W, y1: H }, min: ZOOM_MIN, max: ZOOM_MAX, pad: 0, country: false };
+}
+
+/** Clamp the current transform to the bounds; returns true when a bound stopped it. */
+function clampMapXform(b = mapBounds()) {
+  if (!b) return false;
+  const c = clampPan(mapXform, b.rect, b.W, b.H, b.pad);
+  mapXform.tx = c.tx; mapXform.ty = c.ty;
+  return !!(c.hitX || c.hitY);
+}
+
 function setZoom(nextScale, focalX, focalY) {
   const host = $('#world-map-host');
-  if (!host) return;
+  if (!host) return false;
   const rect = host.getBoundingClientRect();
   const fx = focalX == null ? rect.width / 2 : focalX;
   const fy = focalY == null ? rect.height / 2 : focalY;
-  Object.assign(mapXform, zoomAt(mapXform, nextScale, fx, fy));
-  if (mapXform.scale <= ZOOM_MIN + 0.001) {
+  const b = mapBounds();
+  const min = b?.min ?? ZOOM_MIN, max = b?.max ?? ZOOM_MAX;
+  const before = mapXform.scale;
+  const atMin = before <= min + 0.001 && nextScale < before - 0.0005;
+  Object.assign(mapXform, zoomAt(mapXform, nextScale, fx, fy, min, max));
+  if (!b?.country && mapXform.scale <= ZOOM_MIN + 0.001) {
     Object.assign(mapXform, resetTransform());
+  } else {
+    clampMapXform(b);
   }
   applyMapTransform();
+  return atMin;
+}
+
+/**
+ * Edge bumps: dragging against the country bounds, or zooming out past the whole
+ * country. One gesture counts once; 3 bumps within 6 s make the World button pulse.
+ */
+function registerEdgeBump() {
+  if (!state.country) return;
+  if (edgeBumps.bump(Date.now())) nudgeWorldButton();
+}
+
+function nudgeWorldButton() {
+  const btn = $('#map-breadcrumb [data-bc-level="world"]');
+  if (!btn) return;
+  btn.classList.remove('is-nudge');
+  void btn.offsetWidth; // restart the animation
+  btn.classList.add('is-nudge');
+  const live = $('#map-nudge-live');
+  if (live) live.textContent = 'Edge of the country. Use World to step back out to the world map.';
+  clearTimeout(nudgeWorldButton.t);
+  nudgeWorldButton.t = setTimeout(() => {
+    btn.classList.remove('is-nudge');
+    if (live) live.textContent = '';
+  }, 3200);
 }
 
 function wireZoomControls() {
@@ -201,21 +266,30 @@ function wireZoomControls() {
   if (!host || !stage) return;
 
   $('#zoom-in')?.addEventListener('click', () => {
-    setZoom(stepZoom(mapXform.scale, +1));
+    setZoom(mapXform.scale * ZOOM_STEP);
   });
   $('#zoom-out')?.addEventListener('click', () => {
-    setZoom(stepZoom(mapXform.scale, -1));
+    if (setZoom(mapXform.scale / ZOOM_STEP)) registerEdgeBump();
   });
   $('#zoom-reset')?.addEventListener('click', () => {
     Object.assign(mapXform, resetTransform());
     applyMapTransform();
   });
 
+  // Wheel / trackpad: one burst (events less than 400 ms apart) counts as one edge bump.
+  let wheelLast = 0;
+  let wheelBumped = false;
   host.addEventListener('wheel', (e) => {
     e.preventDefault();
+    const now = Date.now();
+    if (now - wheelLast > 400) wheelBumped = false;
+    wheelLast = now;
     const rect = host.getBoundingClientRect();
-    const next = wheelToScale(mapXform.scale, e.deltaY);
-    setZoom(next, e.clientX - rect.left, e.clientY - rect.top);
+    const next = mapXform.scale * Math.exp(-e.deltaY * 0.0015);
+    if (setZoom(next, e.clientX - rect.left, e.clientY - rect.top) && !wheelBumped) {
+      wheelBumped = true;
+      registerEdgeBump();
+    }
   }, { passive: false });
 
   let pointers = new Map();
@@ -228,6 +302,7 @@ function wireZoomControls() {
   let longPressTimer = null;
   let longPressFired = false;
   let pendingHit = null;
+  let gestureBumped = false;
 
   function clearLongPress() {
     if (longPressTimer) clearTimeout(longPressTimer);
@@ -291,10 +366,11 @@ function wireZoomControls() {
 
   host.addEventListener('pointerdown', (e) => {
     if (e.button != null && e.button !== 0) return;
-    host.setPointerCapture?.(e.pointerId);
+    try { host.setPointerCapture?.(e.pointerId); } catch { /* pointer already gone */ }
     pointers.set(e.pointerId, e);
     dragMoved = false;
     longPressFired = false;
+    if (pointers.size === 1) gestureBumped = false;
     pendingHit = hitFromEvent(e);
 
     if (pointers.size === 1) {
@@ -326,8 +402,11 @@ function wireZoomControls() {
       if (pinchStartDist > 0) {
         const rect = host.getBoundingClientRect();
         const center = pinchCenter(a, b, rect);
-        const next = clampZoom(pinchStartScale * (dist / pinchStartDist));
-        setZoom(next, center.x, center.y);
+        const next = pinchStartScale * (dist / pinchStartDist);
+        if (setZoom(next, center.x, center.y) && !gestureBumped) {
+          gestureBumped = true;
+          registerEdgeBump();
+        }
         dragMoved = true;
       }
       return;
@@ -339,13 +418,19 @@ function wireZoomControls() {
       if (exceededDragThreshold(dx, dy)) {
         clearLongPress();
         dragMoved = true;
-        if (mapXform.scale > 1.02) {
+        // World: pan only when zoomed in. Below World: pan anywhere across the whole country.
+        if (mapXform.scale > 1.02 || state.country) {
           Object.assign(mapXform, panBy(
             { scale: mapXform.scale, tx: panOrigin.tx, ty: panOrigin.ty },
-            dx, dy
+            dx, dy, mapXform.scale, mapXform.scale
           ));
+          const hit = clampMapXform();
           applyMapTransform();
           stage.classList.add('is-panning');
+          if (hit && !gestureBumped) {
+            gestureBumped = true; // one long drag counts once
+            registerEdgeBump();
+          }
         }
       }
     }
@@ -517,6 +602,25 @@ function fitToSvgBox(box, padRatio = 0.08) {
   setViewBox(svgBoxToViewBox(box, padRatio));
 }
 
+/** The selected country's SVG box, the same box the Country level fits to. */
+function updateCountryFrame(svg, country) {
+  const key = `${country || ''}|${admin1Countries.has(country) ? 1 : 0}`;
+  if (key === countryFrameKey && (countryFrame || !country)) return;
+  countryFrameKey = key;
+  edgeBumps.reset();
+  countryFrame = null;
+  if (!country || !svg) return;
+  const worldPath = svg.querySelector(`#${CSS.escape(country)}`);
+  try {
+    if (!admin1Countries.has(country) || clipAdminToWorld(country)) {
+      const b = worldPath?.getBBox();
+      if (b && b.width) countryFrame = { x: b.x, y: b.y, width: b.width, height: b.height };
+    } else {
+      countryFrame = countryDrillSvgBox(admin1Geo, country) || null;
+    }
+  } catch { countryFrame = null; }
+}
+
 const SVG_NS = 'http://www.w3.org/2000/svg';
 function svgEl(tag, attrs = {}) {
   const el = document.createElementNS(SVG_NS, tag);
@@ -537,6 +641,7 @@ function renderDrillLayer() {
   drill.innerHTML = '';
 
   const country = state.country;
+  updateCountryFrame(svg, country);
   if (!country) {
     if (lastFitKey !== '') {
       lastFitKey = '';
@@ -959,12 +1064,14 @@ function renderSectorTab(root) {
     stage: sectorStage,
     expanded: sectorExpanded,
     card: (it, extra) => newsCard(it, names, extra),
+    tabs: SECTOR_TABS,
   };
   const panelScroll = root.querySelector('.sector-panel')?.scrollTop || 0;
   // Re-renders replace the DOM (navigate + hashchange both render); keep focus on the same control.
   const fa = document.activeElement && root.contains(document.activeElement) ? document.activeElement : null;
   const focusSel = fa ? (fa.id ? `#${fa.id}` : ['data-ssub', 'data-sstage'].filter((k) => fa.hasAttribute(k)).map((k) => `[${k}="${fa.getAttribute(k)}"]`)[0]
     || ['brief-h', 'sector-detail-h', 'brief-missing', 'brief-btn'].filter((c) => fa.classList.contains(c)).map((c) => `.${c}`)[0] || (fa.hasAttribute('data-brief-missing') ? '[data-brief-missing]' : null)) : null;
+  const fromSwitch = !!fa?.hasAttribute('data-sswitch');
   document.body.classList.add('overlay-open');
   root.hidden = false;
   root.innerHTML = renderSectorOverlay(ctx);
@@ -978,6 +1085,7 @@ function renderSectorTab(root) {
       navigate({ country: p.country || null, admin1: p.admin1 || null, city: p.city || null, view: 'desk', sbrief: brief ? true : state.sbrief });
       if (!p.country) fitToBbox(null);
     },
+    switchTab: (id) => openSectorTab(id),
     close: () => navigate({ stab: null, ssub: null, sbrief: false }),
     method: () => { navigate({ stab: null, ssub: null, sbrief: false }); document.getElementById('method-sectors')?.scrollIntoView({ behavior: 'smooth' }); },
   });
@@ -994,6 +1102,8 @@ function renderSectorTab(root) {
     if (state.ssub && target) { target.setAttribute('tabindex', '-1'); target.focus({ preventScroll: true }); }
     else if (!state.ssub && prev.split('|')[1]) root.querySelector(`[data-ssub="${prev.split('|')[1]}"]`)?.focus({ preventScroll: true });
   }
+  // Switching sectors from the emoji row keeps focus on the row (the new current sector).
+  if (fromSwitch) root.querySelector('.sswitch.is-current')?.focus({ preventScroll: true });
   sectorViewKey = key;
 }
 
@@ -2048,17 +2158,59 @@ function wireAtlasLegend() {
 }
 
 
+/** Reorient: back to the top of the page (the map and the selected place). Keeps the selection. */
+function reorientToTop() {
+  const raw = (location.hash || '').replace(/^#/, '');
+  if (raw === 'about') {
+    history.pushState(null, '', location.pathname + location.search);
+  }
+  const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+  window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+  const stage = $('.map-stage');
+  if (stage) {
+    if (!stage.hasAttribute('tabindex')) stage.setAttribute('tabindex', '-1');
+    stage.focus({ preventScroll: true });
+  }
+}
+
 function wireMethodTop() {
   const btn = $('#about-top');
-  if (!btn) return;
-  btn.addEventListener('click', (e) => {
+  btn?.addEventListener('click', (e) => {
     e.preventDefault();
-    const raw = (location.hash || '').replace(/^#/, '');
-    if (raw === 'about') {
-      history.pushState(null, '', location.pathname + location.search);
-    }
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    reorientToTop();
   });
+  // The header stays pinned, but the map scrolls away. Once it has, a compact
+  // "Top" button shows in the header so the reorient control is always one tap away.
+  const top = $('#reorient-top');
+  const stage = $('.map-stage');
+  const header = $('.site-header');
+  if (!top || !stage || !header) return;
+  top.addEventListener('click', (e) => {
+    e.preventDefault();
+    reorientToTop();
+  });
+  const show = (away) => {
+    top.hidden = !away;
+    header.classList.toggle('is-away', away);
+  };
+  if (!('IntersectionObserver' in window)) {
+    const onScroll = () => show(stage.getBoundingClientRect().bottom <= header.getBoundingClientRect().bottom + 8);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+    return;
+  }
+  let io = null;
+  const observe = () => {
+    io?.disconnect();
+    const h = Math.round(header.getBoundingClientRect().height);
+    io = new IntersectionObserver((entries) => {
+      for (const en of entries) show(!en.isIntersecting);
+    }, { rootMargin: `-${h + 8}px 0px 0px 0px`, threshold: 0 });
+    io.observe(stage);
+  };
+  observe();
+  let rt = 0;
+  window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(observe, 200); });
 }
 
 function boot() {

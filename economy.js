@@ -24,7 +24,7 @@ const anySub = (t, ids) => (t.subs || []).some((s) => ids.includes(s));
 
 export const RAW_MATERIALS = {
   id: 'materials',
-  emoji: '',
+  emoji: '\u26CF\uFE0F',
   label: 'Raw materials',
   short: 'Raw materials',
   economicType: 'primary',
@@ -98,7 +98,7 @@ export const RAW_MATERIALS = {
 
 export const MANUFACTURING = {
   id: 'manufacturing',
-  emoji: '',
+  emoji: '\u{1F3ED}',
   label: 'Manufacturing',
   short: 'Manufacturing',
   economicType: 'secondary',
@@ -173,7 +173,7 @@ export const MANUFACTURING = {
 
 export const SERVICES = {
   id: 'services',
-  emoji: '',
+  emoji: '\u{1F91D}',
   label: 'Services',
   short: 'Services',
   economicType: 'tertiary',
@@ -260,7 +260,7 @@ export const SERVICES = {
 
 export const TECHNOLOGY = {
   id: 'technology',
-  emoji: '',
+  emoji: '\u{1F4BB}',
   label: 'Technology',
   short: 'Technology',
   economicType: 'quaternary',
@@ -325,7 +325,7 @@ export const TECHNOLOGY = {
 
 export const POLICY = {
   id: 'policy',
-  emoji: '',
+  emoji: '\u{1F3DB}\uFE0F',
   label: 'Policy',
   short: 'Policy',
   economicType: 'quinary',

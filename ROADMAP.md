@@ -2,7 +2,7 @@
 
 Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md and RESEARCH-RUNS.md) and never ships to the live site.
 
-**Last updated:** 2026-10-08, 6:43 AM MT
+**Last updated:** 2026-10-08, 11:25 AM MT
 
 ## House rules
 - Everything is free. No paid tier, pricing or paywall copy until Cassidy says go.
@@ -60,10 +60,12 @@ Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md an
 - BRIEF.md (internal product notes, off Pages): keep as is or rewrite to match the new positioning?
 
 ## Decided
+- 2026-10-08 (Cassidy): the five sector tabs are "Sectors of the Economy"; Energy is separate (its own featured tab with its 9 sources), no Primary to Quinary label.
 - 2026-10-08 (Cassidy): Monday Haul sample format and the weekly draft step approved. The Monday run drafts; it never sends.
 - 2026-10-08 (Cassidy): keep everything free; build a user base through email-only Buttondown sign-ups (`longhaulledger`, double opt-in); paid tier stays off.
 
 ## Shipped (newest first, times MT)
+- 2026-10-08 11:25: SW v28: (1) Reorient: a compact Top button appears in the pinned header once the map scrolls away (keyboard and screen-reader labeled, honors reduced motion, returns focus to the map); the footer Top no longer slides under the header. (2) Whole-country panning: below World the map pans and zooms anywhere across the selected country (zoom out until the whole country fits), never beyond it; dragging or zooming against the country edge 3 times within 6 s makes the World button pulse 3 times (static highlight with reduced motion). (3) Emojis on all tabs: Energy, Raw materials, Manufacturing, Services, Technology, Policy. (4) Sectors of the Economy: the five sector panels carry that window title, an emoji switcher to change sector without closing, and the type next to the name (Raw materials · Primary through Policy · Quinary); wide screens show the group label and types in the tab row. Energy stays its own featured tab, outside the group.
 - 2026-10-08 06:43: Monday Haul routine: RESEARCH-RUNS.md gains a "Monday Haul" section (free format, 6 to 8 items, about 5 Energy and 3 sector, World then US, dated real sources only, `npm run haul:check -- <file> --links --html` validator with HTTP 200 link check, footer exception to rule 5 for the email only, never send email). New `hauls/` folder (off Pages) with TEMPLATE.md and the approved example; BUILD-PLAN section 2 marked paid, deferred / superseded for the free Haul. Archive still off. No SW bump.
 - 2026-10-08 06:33: SW v27: free "Get the Monday Haul, free" email sign-up (Buttondown longhaulledger, email only, double opt-in) under the news column and in the footer, with a thanks state; archive page scaffolded but off Pages and unlinked. Content gaps: 25 new free feeds (forestry, textiles, packaging, plastics, pharma, property, telecom, accounting, legal, philanthropy, higher education, US wind); no segment now has fewer than 4 worldwide stories (was 3: Forestry 2 to 12, Consumer goods 1 to 7, Metals 3 to 4); US wind stories 0 to 1 plus wind trade feeds; misfile rules tightened for DOE loans, robot flight paths, people named Ericsson, the EU's auditor, assets that breach a figure, tyre inflation, bare EU, CEO quotes, construction votes, water-pipeline drilling and nickel refineries. World nuclear brief rewritten from non-US stories (China Tianwan 7, Swiss reactor vote, Dutch AP1000 design work, Canada's BANR).
 - 2026-10-08 06:11: Research run: Energy briefs for World Coal, Wind and Solar and US Solar and Wind (week of Oct 5); curated: US wind Sparrows Point added; Baltic Power, Yangjiang Fanshi and Clearway Swan marked confirmed (Clearway Swan located to Missouri). Data only, no SW bump.
