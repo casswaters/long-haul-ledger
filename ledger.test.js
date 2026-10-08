@@ -32,7 +32,7 @@ assert('domain intent noted', META.domainIntent === 'longhaulledger.com');
 assert('sample flag true', META.sample === true);
 assert('index.html exists', existsSync(new URL('./index.html', import.meta.url)));
 assert('world.svg exists', existsSync(new URL('./world.svg', import.meta.url)));
-assert('sw.js cache name long-haul-ledger-v24', /long-haul-ledger-v24/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v(?:[678]|9|19|20|21|22|23)'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+assert('sw.js cache name long-haul-ledger-v25', /long-haul-ledger-v25/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v(?:[678]|9|19|20|21|22|23|24)'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
 assert('BRIEF.md exists', existsSync(new URL('./BRIEF.md', import.meta.url)));
 assert('app has ?fresh=1 bust', /\bfresh\b/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 assert('zoom.js exists', existsSync(new URL('./zoom.js', import.meta.url)));
@@ -321,7 +321,7 @@ console.log('\n--- Soft-launch normalize / score ---');
   assert('sources.json exists', existsSync(new URL('./data/sources.json', import.meta.url)));
   assert('signals-live.json exists', existsSync(new URL('./data/signals-live.json', import.meta.url)));
   const live = JSON.parse(readFileSync(new URL('./data/signals-live.json', import.meta.url), 'utf8'));
-  assert('live items capped 200–720 (per-location caps)', live.itemCount >= 200 && live.itemCount <= 720, String(live.itemCount));
+  assert('live items capped 200–1080 (per-location caps + sector top-up)', live.itemCount >= 200 && live.itemCount <= 1080, String(live.itemCount));
   assert('live items REAL with urls', live.items.every((i) => i.real && /^https?:/i.test(i.url)));
   assert('soft-launch workflow exists', existsSync(new URL('./.github/workflows/soft-launch.yml', import.meta.url)));
   assert('BRIEF documents soft launch', /soft launch/i.test(brief) && /US Progress/i.test(brief));
@@ -657,16 +657,18 @@ console.log('\n--- Voice: no em dashes or tildes in our own copy ---');
     .split('\n').map((l) => l.replace(/(^|\s)\/\/.*$/, '$1').replace(/\[[^\]\n]*\u2014[^\]\n]*\]/g, '')).join('\n');
   const offenders = (label, text) => text.split('\n').map((l, i) => [i + 1, l]).filter(([, l]) => BAD.test(l)).map(([n, l]) => `${label}:${n} ${l.trim().slice(0, 80)}`);
   const jsFiles = ['app.js', 'chains.js', 'curated.js', 'data.js', 'desks.js', 'geo.js', 'labels.js', 'leadership.js', 'locate.js', 'nav.js', 'newsrank.js', 'places.js', 'stats.js', 'verify.js', 'zoom.js',
-    'sectors.js', 'energy.js', 'sectorui.js',
+    'sectors.js', 'energy.js', 'economy.js', 'tabs.js', 'sectorui.js',
     'scripts/fetch-signals.mjs', 'scripts/fetch-prices.mjs', 'scripts/fetch-stats.mjs', 'scripts/build-energy-brief.mjs'];
   const jsBad = jsFiles.flatMap((f) => offenders(f, codeText(rd('./' + f))));
   assert('JS copy + generated labels: no em dash / tilde', jsBad.length === 0, jsBad.join(' | '));
   const htmlText = rd('./index.html').replace(/<!--[\s\S]*?-->/g, '');
   assert('index.html: no em dash / tilde', !BAD.test(htmlText), offenders('index.html', htmlText).join(' | '));
   assert('manifest: no em dash / tilde', !BAD.test(rd('./manifest.webmanifest')));
-  const briefsDoc = JSON.parse(rd('./data/energy-briefs.json'));
-  const briefText = JSON.stringify([briefsDoc.notes, Object.values(briefsDoc.briefs || {}).flatMap((b) => Object.values(b).flatMap((x) => [x.checked, ...(x.items || []).flatMap((i) => [i.text, ...(i.sources || []).map((s) => s.title)])]))]);
-  assert('energy briefs: no em dash / tilde in brief copy', !BAD.test(briefText));
+  for (const tab of ['energy', 'materials', 'manufacturing', 'services', 'technology', 'policy']) {
+    const briefsDoc = JSON.parse(rd(`./data/${tab}-briefs.json`));
+    const briefText = JSON.stringify([briefsDoc.notes, Object.values(briefsDoc.briefs || {}).flatMap((b) => Object.values(b).flatMap((x) => [x.checked, ...(x.items || []).flatMap((i) => [i.text, ...(i.sources || []).map((s) => s.title)])]))]);
+    assert(`${tab} briefs: no em dash / tilde in brief copy`, !BAD.test(briefText));
+  }
   const cssContent = (rd('./styles.css').replace(/\/\*[\s\S]*?\*\//g, '').match(/content:\s*(['"]).*?\1/g) || []);
   assert('styles.css content strings: no em dash / tilde', !cssContent.some((c) => BAD.test(c)), cssContent.filter((c) => BAD.test(c)).join(' | '));
   const strings = (v, path = '', out = []) => {

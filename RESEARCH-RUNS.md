@@ -104,3 +104,35 @@ The Energy tab shows one brief per place and energy source. Briefs live in `data
     Japan, Germany, the United Kingdom, France, Canada, Brazil, Saudi Arabia, Australia, South Korea).
     Where no brief exists the site says "not ready yet" and shows the top stories; never fill a slot with
     an unsourced brief.
+
+## Sector briefs (Raw materials, Manufacturing, Services, Technology, Policy)
+
+The five sector tabs use the same "Top 4 this week" schema, rules and validator as the Energy briefs above.
+Write them after the Energy briefs in each run. Nothing is seeded: until a brief exists, a slot says
+"not ready yet" and shows the top stories.
+
+| Tab | Official reference | File | Segment ids, in order |
+| --- | --- | --- | --- |
+| Raw materials | Primary sector | `data/materials-briefs.json` | `crops`, `livestock`, `forestry`, `fishing`, `oilgas`, `mining` |
+| Manufacturing | Secondary sector | `data/manufacturing-briefs.json` | `food`, `chemicals`, `metals`, `machinery`, `vehicles`, `goods`, `construction`, `power` |
+| Services | Tertiary sector | `data/services-briefs.json` | `retail`, `finance`, `property`, `health`, `education`, `hospitality`, `transport`, `utilities` |
+| Technology | Quaternary sector | `data/technology-briefs.json` | `software`, `cloud`, `telecom`, `research`, `consulting`, `media`, `cyber` |
+| Policy | Quinary sector | `data/policy-briefs.json` | `government`, `econpolicy`, `regulation`, `international`, `corporate`, `universities`, `nonprofits` |
+
+1. Get candidates: `node scripts/build-energy-brief.mjs --sector <tab> --place <placeId> --source <segment>`
+   (for example `--sector services --place us --source health`). The 6-hourly build writes every slot to
+   `data/news-cache/<tab>-candidates.json`. Candidates are leads, not sources.
+2. Write the brief into `data/<tab>-briefs.json` under `briefs[placeId][segment]`, same shape as the Energy
+   example: `generated_at`, `week_of`, `checked`, and 1 to 4 `items`, each with sources (`title`, https `url`,
+   `date` as YYYY-MM-DD). The site writes the heading "The 4 most important things happening in {segment} this week".
+3. Same rules as Energy: plain language, units on every number, no em dashes or tildes, primary sources or
+   reputable outlets only, every URL opened and stating the claim, handles checked and written as text,
+   no social sign-off, no pricing or promotional copy.
+4. Cross-listed Energy stories (marked "From Energy" on the site, for example a refinery story under
+   Manufacturing, Power plants and refineries) can be used, but do not copy the Energy brief: write for the segment.
+5. Work order: World and the United States first, for every segment of all five tabs, then the major
+   countries listed above. World briefs should prefer global or non-US stories when the feed has them.
+6. Run `node scripts/build-energy-brief.mjs --validate` (checks all six tabs) and `npm test`. Both must pass.
+7. Commit only the briefs files you changed, with a message like `briefs: us health (services) week of 2026-10-05`,
+   `git pull --rebase`, push to `main`. A push that changes any briefs file deploys within minutes; confirm it
+   live (for example `#c=us&services/health/brief`). Refresh within 7 days; older briefs show a stale flag.

@@ -26,9 +26,17 @@
         <p class="brand-tagline">Economic activity at every scale, from the world to your city.</p>
       </div>
       <nav class="header-nav" aria-label="Sections">
-        <a class="hnav hnav-sector" href="#energy" id="nav-energy" data-open-sector="energy" aria-label="Energy: power and fuel by source for the selected place"><span class="hnav-emoji" aria-hidden="true">⚡</span> Energy</a>
         <a class="hnav hnav-primary" href="#d=prices" id="nav-desks">Indicators</a>
         <a class="hnav" href="#about" id="nav-method">Method</a>
+      </nav>
+      <nav class="sector-nav" aria-label="Sectors">
+        <a class="snav snav-featured" href="#energy" id="nav-energy" data-open-sector="energy" aria-label="Energy: power and fuel by source for the selected place"><span class="hnav-emoji" aria-hidden="true">⚡</span> Energy</a>
+        <span class="snav-sep" aria-hidden="true"></span>
+        <a class="snav" href="#materials" id="nav-materials" data-open-sector="materials" aria-label="Raw materials (Primary sector): farming, fishing, forestry, mining, oil and gas">Raw materials</a>
+        <a class="snav" href="#manufacturing" id="nav-manufacturing" data-open-sector="manufacturing" aria-label="Manufacturing (Secondary sector): factories, construction, power plants and refineries">Manufacturing</a>
+        <a class="snav" href="#services" id="nav-services" data-open-sector="services" aria-label="Services (Tertiary sector): shops, banks, housing, health, schools, travel, transport, utilities">Services</a>
+        <a class="snav" href="#technology" id="nav-technology" data-open-sector="technology" aria-label="Technology (Quaternary sector): software, data centers, telecom, research, consulting, media">Technology</a>
+        <a class="snav" href="#policy" id="nav-policy" data-open-sector="policy" aria-label="Policy (Quinary sector): government, central banks, regulators, trade, corporate and nonprofit leadership">Policy</a>
       </nav>
       <div class="header-meta">
         <span class="proto-badge header-example-badge" id="header-example-badge" title="This view includes example scores. Country scores, value chains, company profiles and constraints are example data for UX testing. Not sourced." hidden>Example data</span>
@@ -93,7 +101,12 @@
           <p><strong>Tagging.</strong> Each story in the news feed is filed to one or more sources by keyword rules on its headline and summary (for example reactor, uprate or uranium for nuclear), with exclusions such as weapons talks for nuclear or palm oil for oil. A headline hit counts double; a lone passing word in a summary is not enough. When a place has fewer than 4 stories for a source, the list adds clearly labeled stories from the next level up ("More from United States"). Sector feeds (agency releases and trade press for each source) were added for depth. Tags can be wrong; every story links to its outlet and keeps its verification badge.</p>
           <p><strong>Lifecycle stages.</strong> Each energy story also gets a stage chip with a plain label. Each label points to an official category: the economic type and the matching NAICS industry codes (North American Industry Classification System). Tap the i next to a chip for the codes and links.</p>
           <div id="method-stage-map"></div>
-          <p><strong>Top 4 this week.</strong> A brief is four short plain-language paragraphs about the most important things happening in one source in one place. Briefs are written ahead of time by our research runs, three times a day, from the tagged stories and primary sources (company releases, agencies, regulators). Every item lists its sources with dates; an item without a source is rejected before it can publish. A brief older than 7 days is marked as such. Where no brief exists yet, the tab says so and shows the top stories instead. Nothing in a brief is generated in your browser.</p>
+          <h2 id="method-five">Sector tabs: Raw materials, Manufacturing, Services, Technology, Policy</h2>
+          <p>Five more tabs follow the five economic types: Raw materials (Primary), Manufacturing (Secondary), Services (Tertiary), Technology (Quaternary) and Policy (Quinary). They work like the Energy tab: they follow the map with the same labeled backfill, and each holds 6 to 8 segments in plain words. Each segment is based on official categories: NAICS 2022 sectors and subsectors, every code checked on census.gov, with the BLS industries index as the taxonomy reference. Tap the i next to a tab or segment name for its economic type, codes and links.</p>
+          <p><strong>Policy is a convention.</strong> NAICS has no quinary sector, and definitions of the quinary sector vary. We map it to Public Administration (NAICS 92) plus the top leadership of companies (55), universities (611310) and nonprofits (813), following the common description of the quinary sector as the highest level of decision making (<a href="https://en.wikipedia.org/wiki/Three-sector_model" target="_blank" rel="noopener noreferrer">Three-sector model, Wikipedia</a>).</p>
+          <p><strong>Cross-listing.</strong> Energy stories also appear in the matching segment by their lifecycle stage: Extraction in Raw materials (Oil and gas, or Mining for coal, uranium and lithium), Generation and refining in Manufacturing (Power plants and refineries), Grid and distribution in Services (Utilities), Innovation in Technology (Research and science). Those stories carry a small "From Energy" tag. Segments are also filled by keyword rules on the headline and summary, the same way as Energy; tags can be wrong.</p>
+          <div id="method-tab-map" class="method-tab-map"></div>
+          <p><strong>Top 4 this week.</strong> A brief is four short plain-language paragraphs about the most important things happening in one source or segment in one place. Briefs are written ahead of time by our research runs, three times a day, from the tagged stories and primary sources (company releases, agencies, regulators). Every item lists its sources with dates; an item without a source is rejected before it can publish. A brief older than 7 days is marked as such. Where no brief exists yet, the tab says so and shows the top stories instead. Nothing in a brief is generated in your browser.</p>
         </section>
         <section>
           <h2>Disclaimers</h2>

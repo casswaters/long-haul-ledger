@@ -11,6 +11,9 @@ export const ENERGY = {
   id: 'energy',
   emoji: '\u26A1',
   label: 'Energy',
+  short: 'Energy',
+  subsNoun: 'sources',
+  subNoun: 'source',
   headline: (place) => `Every major way ${place} makes power or fuel, each in its own slot.`,
   subs: [
     {
@@ -120,5 +123,4 @@ export function energySub(id) { return ENERGY.subs.find((s) => s.id === id) || n
 export function energyStage(id) { return ENERGY.stages.find((s) => s.id === id) || null; }
 
 /** Every sector tab registered on the site (future: the five economic types). */
-export const SECTOR_TABS = [ENERGY];
-export const SECTOR_IDS = SECTOR_TABS.map((s) => s.id);
+/* The full tab list (Energy plus the five economic types) lives in tabs.js. */

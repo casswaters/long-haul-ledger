@@ -14,7 +14,7 @@ import { existsSync } from 'fs';
 import { buildGazetteer, tagLocation, categorize } from '../locate.js';
 import { COUNTRY_NAMES } from '../places.js';
 import { withSectorTags, filterSector } from '../sectors.js';
-import { SECTOR_TABS } from '../energy.js';
+import { SECTOR_TABS } from '../tabs.js';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dir, '..');
@@ -368,14 +368,17 @@ export function tagSectors(items, sectors = SECTOR_TABS) {
 
 /** Extra sector depth: stories per sector source and primary country kept beyond the location caps. */
 export const SECTOR_PER_KEY = 10;
-export const SECTOR_EXTRA_CAP = 240;
+/** The five sector tabs get a lighter top-up than the featured Energy tab, to keep the payload small on phones. */
+export const SECTOR_PER_KEY_ECON = 5;
+export const SECTOR_EXTRA_CAP = 380;
 
 /**
  * Sector top-up: after the per-location caps, add the best sector-tagged
  * stories that were cut, up to SECTOR_PER_KEY per (source, country) and
  * SECTOR_EXTRA_CAP overall, so each energy source keeps depth per place.
  */
-export function topUpSectors(kept, pool, { sectors = SECTOR_TABS, perKey = SECTOR_PER_KEY, cap = SECTOR_EXTRA_CAP } = {}) {
+export function topUpSectors(kept, pool, { sectors = SECTOR_TABS, perKey = SECTOR_PER_KEY, perKeyEcon = SECTOR_PER_KEY_ECON, cap = SECTOR_EXTRA_CAP } = {}) {
+  const limit = (sector) => (sector.id === 'energy' ? perKey : Math.min(perKey, perKeyEcon));
   const have = new Set(kept.map((i) => i.url.replace(/#.*$/, '').toLowerCase()));
   const per = new Map();
   for (const sector of sectors) {
@@ -399,7 +402,7 @@ export function topUpSectors(kept, pool, { sectors = SECTOR_TABS, perKey = SECTO
       for (const sub of it.sectors?.[sector.id]?.subs || []) {
         const k = `${sector.id}|${sub}|${it.loc?.countries?.[0] || '_'}`;
         keys.push(k);
-        if ((per.get(k) || 0) < perKey) room = true;
+        if ((per.get(k) || 0) < limit(sector)) room = true;
       }
     }
     if (!room) continue;

@@ -4,7 +4,8 @@
  * brief schema validation, hash tokens, feed top-up, UI wiring.
  */
 import { readFileSync } from 'fs';
-import { ENERGY, SECTOR_IDS, ENERGY_SUB_IDS } from './energy.js';
+import { ENERGY, ENERGY_SUB_IDS } from './energy.js';
+import { SECTOR_IDS } from './tabs.js';
 import {
   tagSector, sectorColumn, sectorCounts, validateBriefs, briefFor, nearestParentBrief, placeKey,
   briefHeading, parseSectorToken, sectorToken, naicsUrl, ECONOMIC_TYPES, topChildren, inSentence, filterSector,
@@ -152,7 +153,7 @@ assert('no seed source is a reposting or classifieds site', !allItems.some((i) =
 assert('no social sign-off on the site', !JSON.stringify(seed).toLowerCase().includes('comment section') && !JSON.stringify(seed).toLowerCase().includes('spicy'));
 
 console.log('\n--- Hash tokens (deep links) ---');
-assert('sector ids', SECTOR_IDS.join(',') === 'energy');
+assert('sector ids: Energy first, then the five tabs', SECTOR_IDS.join(',') === 'energy,materials,manufacturing,services,technology,policy');
 assert('token parse', JSON.stringify(parseSectorToken('energy/nuclear/brief', SECTOR_IDS)) === '{"tab":"energy","sub":"nuclear","brief":true}' && parseSectorToken('about', SECTOR_IDS) === null);
 assert('token build', sectorToken({ tab: 'energy', sub: 'nuclear', brief: true }) === 'energy/nuclear/brief' && sectorToken({ tab: 'energy', brief: true }) === 'energy');
 const h = parseHash('#c=us&a=us-oh&energy/nuclear');
@@ -178,11 +179,12 @@ assert('trade-press energy feeds do not assume a home country', srcs.filter((s) 
 
 console.log('\n--- UI wiring ---');
 const html = read('./index.html');
-assert('header Energy button with lightning emoji next to Indicators', /id="nav-energy"[^>]*data-open-sector="energy"[\s\S]*?\u26A1[\s\S]*?Energy<\/a>\s*<a class="hnav hnav-primary" href="#d=prices" id="nav-desks">/.test(html));
+assert('header: featured Energy tab with lightning emoji leads the sector row', /<nav class="sector-nav"[^>]*>\s*<a class="snav snav-featured" href="#energy" id="nav-energy"[^>]*data-open-sector="energy"[\s\S]*?\u26A1[\s\S]*?Energy<\/a>/.test(html));
+assert('header: Indicators stays in the header nav', /<a class="hnav hnav-primary" href="#d=prices" id="nav-desks">/.test(html));
 assert('Method page explains energy tagging, stages and briefs', /id="method-sectors"/.test(html) && /Lifecycle stages/.test(html) && /Top 4 this week/.test(html) && /id="method-stage-map"/.test(html));
 assert('never shows admin-1 in UI copy', !/admin-1/i.test(html) && !/admin-1/i.test(read('./sectorui.js').replace(/\/\*[\s\S]*?\*\//g, '')));
 const sw = read('./sw.js');
-assert('SW v24 caches sector files and briefs', /long-haul-ledger-v24/.test(sw) && /sectors\.js/.test(sw) && /energy\.js/.test(sw) && /sectorui\.js/.test(sw) && /energy-briefs\.json/.test(sw));
+assert('SW v25 caches sector files and briefs', /long-haul-ledger-v25/.test(sw) && /sectors\.js/.test(sw) && /energy\.js/.test(sw) && /sectorui\.js/.test(sw) && /energy-briefs\.json/.test(sw));
 const wf = read('./.github/workflows/soft-launch.yml');
 assert('Pages excludes repo-only docs and candidates cache', /ROADMAP\.md/.test(wf) && /BRIEF\.md/.test(wf) && /data\/news-cache/.test(wf) && /energy\.test\.mjs/.test(wf));
 const htmlOut = renderSectorOverlay({

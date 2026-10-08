@@ -2,7 +2,7 @@
 
 Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md and RESEARCH-RUNS.md) and never ships to the live site.
 
-**Last updated:** 2026-10-07, 5:18 PM MT
+**Last updated:** 2026-10-07, 6:40 PM MT
 
 ## House rules
 - No paid tier, pricing or paywall copy until Cassidy says go.
@@ -18,15 +18,9 @@ Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md an
 ## Next
 - **Energy briefs for all 9 sources and major countries.** Research runs write the "Top 4 this week" briefs into data/energy-briefs.json (keyed by place id and source) after checking every number, date and @handle against the linked sources. Start with World and the United States for all 9 sources, then China, India, Japan, Germany, the United Kingdom, France, Canada, Brazil, Saudi Arabia, Australia and South Korea. Candidates come from `node scripts/build-energy-brief.mjs --place <id> --source <source>`; run `--validate` before committing. Briefs older than 7 days show a stale flag.
 - **On-demand briefs (option, not built).** A "write this brief now" path for places without a precomputed brief would need: a small server-side function (the site is static on GitHub Pages, so it cannot hold an AI key), a model API key kept server-side, a cache per place, source and week so each brief is written once, the same validation as the precomputed file (sources required, no item without a link), and a visible "written automatically, not reviewed" label. Today only reviewed, precomputed briefs ship.
-- **Sector tabs for the five economic types (Primary to Quinary), after Energy is right.** Taxonomy follows the BLS industries index (https://www.bls.gov/iag/tgs/iag_index_alpha.htm) and NAICS 2022 (https://www.census.gov/naics/).
-  - Primary: farming, mining, fishing, forestry.
-  - Secondary: manufacturing, construction, food processing.
-  - Tertiary: healthcare, education, retail, banking, hospitality.
-  - Quaternary: IT, R&D, consulting.
-  - Quinary: government leadership, higher-ed admin, top non-profit management.
-  - Reuse the Energy engine: sectors.js (tagging, place filtering with labeled backfill, brief schema and validation, deep links), sectorui.js (the tab), and a definition file like energy.js. A new tab is a definition file plus a header button.
-  - Keep the plain label plus official reference pattern: visible labels stay plain; on tap or hover each shows its economic type and the NAICS code(s) it maps to, linked to census.gov NAICS or the BLS industries pages. Only codes verified on the official sites.
-  - Energy stories already carry lifecycle stage tags (Extraction = Primary, Generation and refining = Secondary, Grid and distribution = Tertiary, Innovation = Quaternary), so these tabs can pull energy stories by stage.
+- **Sector briefs for the five tabs.** Research runs write "Top 4 this week" briefs for Raw materials, Manufacturing, Services, Technology and Policy into data/{tab}-briefs.json after the Energy briefs: World and the United States first, then major countries. Same schema, rules and validator as Energy (see RESEARCH-RUNS.md). Nothing is seeded; empty slots say not ready yet.
+- **Thin sector feeds.** Free RSS that works from the runner is scarce for fishing, forestry, chemicals and pharma, textiles and paper, and property. Failed on Oct 7: agriculture.com, AgWeb, USDA, Fierce Pharma, Forestry.com, Consultancy.uk, Telecoms.com, Devex, OECD (403); FAO, Farmers Weekly, Mining Weekly, SeafoodSource, National Fisherman, The Fish Site, IndustryWeek, C&EN, Chronicle of Philanthropy (404); IMF, Wood Business (429); Chemical Week, Mining Journal, World Bank (no items). Find replacements.
+- **Sector tagging precision.** Segment tags are keyword rules; spot-check each tab's segments per place and tighten rules as misfiles show up (as done for farm-down, LNG trains, car carriers, turbine foundations).
 - **"Simplify this data" button.** On any data panel, indicator or story, a button labeled "Simplify this data" rewrites the explanation in plain language at about an 8th-grade reading level.
   - Every number, unit, as-of date and source stays visible and unchanged.
   - Never call it ELI5 or anything condescending.
@@ -51,7 +45,8 @@ Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md an
 
 ## Known limits
 - Automatic location tags can be wrong; the site says so.
-- Energy source and stage tags are keyword rules on the headline and summary; they can misfile a story (the tab says so).
+- Energy source and stage tags, and the sector tab segment tags, are keyword rules on the headline and summary; they can misfile a story (the tabs say so).
+- Policy (Quinary) has no NAICS sector; its mapping (92 plus top company, university and nonprofit leadership) is our convention, stated on the Method page.
 - Indicators are United States only.
 - Many small countries show labeled parent-level stories ("More worldwide") because they have few tagged stories.
 
@@ -63,6 +58,7 @@ Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md an
 - BRIEF.md (internal product notes, off Pages): keep as is or rewrite to match the new positioning?
 
 ## Shipped (newest first, times MT)
+- 2026-10-07 18:40: SW v25: five sector tabs beside ⚡ Energy: Raw materials (Primary), Manufacturing (Secondary), Services (Tertiary), Technology (Quaternary), Policy (Quinary). 6 to 8 segments each with plain names and one-line descriptions; the "i" popup shows the official sector and NAICS 2022 codes (104 checked on census.gov). News per segment follows the selected place with labeled backfill; "Top 4 this week" slot says not ready yet until a sourced brief exists. Energy stories cross-list by stage (Extraction to Raw materials, Generation and refining to Manufacturing, Grid and distribution to Services, Innovation to Technology). 44 new free sector feeds. Method page section; deep links like #services/health/brief.
 - 2026-10-07 17:18: SW v24: ⚡ Energy tab. Nine sources in Cassidy's order and copy (Nuclear, Oil, Natural gas, Coal, Wind, Solar, Hydro, Geothermal, Emerging), news per source that follows the selected place with labeled backfill, lifecycle stage chips with official NAICS references, "Top 4 this week" briefs (sourced nuclear brief for World and the United States; other sources say not ready yet), deep links like #energy/nuclear, 20 new free energy feeds, reusable sector-tab engine.
 - 2026-10-07 14:42 — CI: overlapping data runs can no longer fail; feed and GDELT failures are non-fatal (no site change).
 - 2026-10-07 13:41 — SW v22: news column follows the selected place (world, country, state equivalent, city) with labeled fallback; 67 free sources; neutral site wording.

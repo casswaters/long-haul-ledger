@@ -38,7 +38,7 @@ import {
   placeOf, buildColumn, rankedForPlace, placeLabel, parentPlace, CATEGORIES, CATEGORY_LABELS, categoryOf, LEVEL_NAMES,
 } from './newsrank.js';
 import { validateBriefs, ECONOMIC_TYPES, naicsUrl, OFFICIAL_SOURCES } from './sectors.js';
-import { SECTOR_TABS } from './energy.js';
+import { SECTOR_TABS } from './tabs.js';
 import { renderSectorOverlay, wireSectorOverlay } from './sectorui.js';
 
 const state = {
@@ -63,7 +63,8 @@ const sectorBriefs = {};
 let sectorStage = null;
 let sectorExpanded = false;
 let sectorViewKey = '';
-let lastSectorSub = null;
+/** Last selected segment per tab, so reopening a tab returns to it. */
+const lastSectorSub = {};
 
 /** @type {any} Prices desk (data/desks/prices.json) */
 let pricesDesk = null;
@@ -832,6 +833,14 @@ function renderOverlay() {
     renderSectorTab(root);
     return;
   }
+  if (sectorViewKey) {
+    // A sector tab just closed: return focus to its header tab (unless another panel takes over).
+    const closedTab = sectorViewKey.split('|')[0];
+    setTimeout(() => {
+      const ae = document.activeElement;
+      if (!state.stab && !state.desk && (!ae || ae === document.body || !ae.isConnected)) document.getElementById(`nav-${closedTab}`)?.focus({ preventScroll: true });
+    }, 0);
+  }
   sectorViewKey = '';
 
   if (state.desk) {
@@ -872,20 +881,37 @@ function sectorDef() {
   return SECTOR_TABS.find((s) => s.id === state.stab) || null;
 }
 
+/** Header tab buttons show which sector tab is open. */
+function syncSectorNav() {
+  document.querySelectorAll('[data-open-sector]').forEach((a) => {
+    if (a.dataset.openSector === state.stab) a.setAttribute('aria-current', 'true');
+    else a.removeAttribute('aria-current');
+  });
+}
+
 function renderSectorTab(root) {
   const sector = sectorDef();
-  if (!sector) { state.stab = null; root.hidden = true; root.innerHTML = ''; return; }
+  syncSectorNav();
+  if (!sector) {
+    const wasOpen = !root.hidden && sectorViewKey;
+    const closedTab = wasOpen ? sectorViewKey.split('|')[0] : null;
+    const focusLost = !document.activeElement || document.activeElement === document.body || root.contains(document.activeElement);
+    state.stab = null; root.hidden = true; root.innerHTML = ''; sectorViewKey = '';
+    // Return focus to the header tab that opened the panel.
+    if (closedTab && focusLost) document.getElementById(`nav-${closedTab}`)?.focus({ preventScroll: true });
+    return;
+  }
   if (state.ssub && !sector.subs.some((s) => s.id === state.ssub)) state.ssub = null;
   const place = placeOf(state);
   const placeKeyNow = `${place.level}|${place.country || ''}|${place.admin1 || ''}|${place.city || ''}`;
   const key = `${sector.id}|${state.ssub || ''}|${state.sbrief ? 1 : 0}|${placeKeyNow}`;
-  const opening = !sectorViewKey;
   const prev = sectorViewKey;
+  const opening = !prev || prev.split('|')[0] !== sector.id;
   if (prev.split('|').slice(0, 2).join('|') !== key.split('|').slice(0, 2).join('|') || !prev.endsWith(placeKeyNow)) {
     sectorStage = null;
     sectorExpanded = false;
   }
-  if (state.ssub) lastSectorSub = state.ssub;
+  if (state.ssub) lastSectorSub[sector.id] = state.ssub;
   const names = placeNames();
   const ctx = {
     sector, state, place, names,
@@ -933,7 +959,10 @@ function renderSectorTab(root) {
 }
 
 function openSectorTab(id = 'energy') {
-  navigate({ stab: id, ssub: state.ssub || lastSectorSub || null, sbrief: false, desk: null });
+  const sector = SECTOR_TABS.find((s) => s.id === id);
+  const keep = state.stab === id && state.ssub ? state.ssub : null;
+  const sub = keep || lastSectorSub[id] || null;
+  navigate({ stab: id, ssub: sector && sub && sector.subs.some((x) => x.id === sub) ? sub : null, sbrief: false, desk: null });
 }
 
 async function loadSectorBriefs() {
@@ -950,6 +979,22 @@ async function loadSectorBriefs() {
   if (state.stab) renderOverlay();
 }
 
+/** Plain description of a tab's energy cross-listing, from its definition. */
+function crossSummary(tab) {
+  const energy = SECTOR_TABS.find((t) => t.id === 'energy');
+  const out = [];
+  for (const st of energy.stages) {
+    const subs = new Set();
+    for (const c of tab.cross || []) {
+      for (const subIds of [['oil'], ['gas'], ['coal'], ['nuclear'], ['emerging'], ['wind'], ['solar'], ['hydro'], ['geothermal']]) {
+        for (const m of c.map({ subs: subIds, stages: [st.id] })) subs.add(m.sub);
+      }
+    }
+    if (subs.size) out.push(`${st.label} to ${[...subs].map((id) => tab.subs.find((x) => x.id === id).name).join(' or ')}`);
+  }
+  return out.join('; ');
+}
+
 /** Method page: the stage mapping (plain label, economic type, NAICS codes), from the same schema the tab uses. */
 function renderMethodSectors() {
   const host = document.getElementById('method-stage-map');
@@ -959,6 +1004,16 @@ function renderMethodSectors() {
     const codes = st.naics.map((n) => `<a href="${escapeHtml(naicsUrl(n.code))}" target="_blank" rel="noopener noreferrer">${escapeHtml(n.code)}</a> ${escapeHtml(n.title)}`).join('; ');
     return `<li><strong>${escapeHtml(st.label)}</strong> = ${escapeHtml(type.label)} sector (${escapeHtml(type.plain.toLowerCase())}). NAICS ${codes}.</li>`;
   }));
+  const tabsHost = document.getElementById('method-tab-map');
+  if (tabsHost) {
+    tabsHost.innerHTML = SECTOR_TABS.filter((t) => t.economicType).map((t) => {
+      const type = ECONOMIC_TYPES[t.economicType];
+      const segs = t.subs.map((sub) => `<li><strong>${escapeHtml(sub.name)}</strong>: ${escapeHtml(sub.copy)} NAICS ${sub.naics.map((n) => `<a href="${escapeHtml(naicsUrl(n.code))}" target="_blank" rel="noopener noreferrer">${escapeHtml(n.code)}</a> ${escapeHtml(n.title)}`).join('; ')}.</li>`).join('');
+      const cross = (t.cross || []).length ? `<p class="method-cross">Energy stories also appear here by stage: ${escapeHtml(crossSummary(t))}.</p>` : '';
+      const conv = t.convention ? `<p class="method-conv">${escapeHtml(t.convention.text)} Source: <a href="${escapeHtml(t.convention.source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(t.convention.source.title)}</a>.</p>` : '';
+      return `<details class="method-tab"><summary><strong>${escapeHtml(t.label)}</strong> = ${escapeHtml(type.label)} sector (${escapeHtml(type.plain.toLowerCase())}) · ${t.subs.length} segments</summary>${conv}<ul class="method-list">${segs}</ul>${cross}</details>`;
+    }).join('');
+  }
   host.innerHTML = `<ul class="method-list">${rows.join('')}</ul><p class="method-src">Codes and titles from <a href="${escapeHtml(OFFICIAL_SOURCES.naics.url)}" target="_blank" rel="noopener noreferrer">NAICS 2022 (U.S. Census Bureau)</a>; industry taxonomy from <a href="${escapeHtml(OFFICIAL_SOURCES.blsIndustries.url)}" target="_blank" rel="noopener noreferrer">BLS Industries at a Glance</a>.</p>`;
 }
 
@@ -2011,7 +2066,12 @@ function boot() {
   });
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && state.stab) {
-      if ($('.stage-chip.open')) { $$('.stage-chip.open').forEach((w) => w.classList.remove('open')); return; }
+      const openChips = $$('.stage-chip.open');
+      if (openChips.length) {
+        openChips.forEach((w) => { w.classList.remove('open'); w.querySelector('[data-stage-info]')?.setAttribute('aria-expanded', 'false'); });
+        openChips[0].querySelector('[data-stage-info]')?.focus({ preventScroll: true });
+        return;
+      }
       if (state.sbrief) navigate({ sbrief: false });
       else navigate({ stab: null, ssub: null, sbrief: false });
     } else if (e.key === 'Escape' && state.desk) {
