@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T00:47:20.487Z",
+ "generatedAt": "2026-10-08T06:45:42.536Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -10,6 +10,23 @@
     "software": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "France's Sesterce plans $11 billion AI investment in Finland",
+       "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726",
+       "source": "CNA Business",
+       "published": "2026-10-08T05:44:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
       {
        "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
        "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
@@ -31,23 +48,6 @@
        "stages": [],
        "via": null,
        "blurb": "Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents."
-      },
-      {
-       "title": "UAE report examines how to power AI in a water-scarce world",
-       "url": "https://www.thenationalnews.com/news/us/2026/10/07/ai-water-scarcity-uae-report/",
-       "source": "The National (UAE)",
-       "published": "2026-10-07T21:27:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/us/2026/10/07/ai-water-scarcity-uae-report/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Artificial intelligence has become a major focus for global water and energy, bringing significant new demands while offering tools to improve water management, a report from the UAE Foreign Ministry has said. The report, Crosscurrents: Navigating the AI-Water -Energy Nexus , hig"
       },
       {
        "title": "Oracle to cut another 70 jobs in Ireland in AI cost-cutting push",
@@ -84,6 +84,40 @@
        "blurb": "The Stock Exchange of Thailand (SET) index is expected to finish at 1,680 points by year-end, supported by investment in artificial intelligence (AI) technology and its supply chain, listed-company earnings, foreign fund inflows and a recovery in the domestic economy, says the In"
       },
       {
+       "title": "AI data-center boom ignites bidding war for critical TDK unit",
+       "url": "https://www.japantimes.co.jp/business/2026/10/08/companies/tdk-bidding-war-ai-data-center/",
+       "source": "The Japan Times",
+       "published": "2026-10-08T04:47:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/business/2026/10/08/companies/tdk-bidding-war-ai-data-center/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The winning bidder for TDK's magnetic-heads business would be able to expand in-house capabilities in the $23 billion hard-drive market."
+      },
+      {
+       "title": "Will AI kill our rosy jobs growth forecasts?",
+       "url": "https://www.irishtimes.com/business/2026/10/08/will-ai-kill-our-rosy-jobs-growth-forecasts/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-08T04:37:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/will-ai-kill-our-rosy-jobs-growth-forecasts/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Department of Finance draws attention ‘to risks to employment prospects from AI over the medium-term’"
+      },
+      {
        "title": "DHL: Tech beats tariffs – the AI boom ‘has become a powerful driver of global trade’",
        "url": "https://theloadstar.com/dhl-tech-beats-tariffs-the-ai-boom-has-become-a-powerful-driver-of-global-trade/",
        "source": "The Loadstar",
@@ -116,6 +150,23 @@
        "stages": [],
        "via": null,
        "blurb": "Japanese airfreight exports are forecast to rise 11.9% this year, driven in part by a surge in semiconductor-related cargo, as investment in AI and data centres accelerates. In its latest analysis, NX Logistics Research Institute expects airfreight exports from Japan to reach 1.1"
+      },
+      {
+       "title": "Using AI to mitigate the growing environmental threat of data centers",
+       "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+       "source": "MIT News",
+       "published": "2026-10-08T04:00:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "MIT News",
+         "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient."
       },
       {
        "title": "Agriculture industry slow to take up new AI tech",
@@ -167,63 +218,29 @@
        "stages": [],
        "via": null,
        "blurb": "From batteries and solar panels to drones and satellites, China is building tech capabilities that extend well beyond AI, writes Steve Feldstein in his new book, \"Bytes and Bullets: Global Rivalries, Big Tech, and the New Shape of Modern Warfare.\""
-      },
-      {
-       "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
-       "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
-       "source": "Ars Technica",
-       "published": "2026-10-06T20:50:32.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Like other solutions, it is not especially reliable, and it's easy to circumvent."
-      },
-      {
-       "title": "Robot data startup Mecka AI nabs $60M from Sequoia",
-       "url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
-       "source": "TechCrunch",
-       "published": "2026-10-07T23:36:57.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Mecka AI collects and analyzes human motion data to train humanoid robots and other kinds of robots. The startup pays people to record everyday tasks."
-      },
-      {
-       "title": "Regulator beefs up cyber-resilience measures",
-       "url": "https://www.bangkokpost.com/business/general/3333375/regulator-beefs-up-cyberresilience-measures",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-07T23:13:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333375/regulator-beefs-up-cyberresilience-measures",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The insurance industry is reporting more complex cyberthreats powered by artificial intelligence (AI), prompting the Office of the Insurance Commission (OIC) to join hands with 67 life and non-life insurers to strengthen cyber-resilience, from prevention and response to recovery."
       }
      ]
     },
     "cloud": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Russia's largest Yandex data center reportedly hit in drone attack",
+       "url": "https://kyivindependent.com/russias-largest-yandex-data-center-reportedly-hit-in-drone-attack/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-08T03:14:20.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/russias-largest-yandex-data-center-reportedly-hit-in-drone-attack/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Sasovo data center is located on the grounds of the Sasta machine-tool plant, a manufacturer of metal-cutting and high-precision CNC metalworking machines used across Russian industry, including the defense-industrial, aerospace, oil and gas, and heavy machinery sectors."
+      },
       {
        "title": "Finland tells Google to suspend work at 2 data center sites for environmental concerns",
        "url": "https://www.aa.com.tr/en/europe/finland-tells-google-to-suspend-work-at-2-data-center-sites-for-environmental-concerns/4081256",
@@ -320,23 +337,6 @@
        "blurb": "Company plans to triple overall investment in country to $30bn"
       },
       {
-       "title": "Goodman’s Japanese data center under fire following Sydney site setback",
-       "url": "https://www.japantimes.co.jp/business/2026/10/07/companies/australia-data-center-japan-tension/",
-       "source": "The Japan Times",
-       "published": "2026-10-07T07:31:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/business/2026/10/07/companies/australia-data-center-japan-tension/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The dispute with residents in Japan is part of a broader global backlash against data centers."
-      },
-      {
        "title": "1,000-year-old Scottish castle could be destroyed to make way for hyperscale data center",
        "url": "https://www.datacenterdynamics.com/en/news/1000-year-old-scottish-castle-could-be-destroyed-to-make-way-for-hyperscale-data-center/",
        "source": "DatacenterDynamics",
@@ -371,23 +371,6 @@
        "blurb": "Measures were first suggested during the summer"
       },
       {
-       "title": "Town questions $15b data centre set to use enough power for 1m homes",
-       "url": "https://www.abc.net.au/news/2026-10-08/mixed-response-to-proposed-data-centre-near-wagga-wagga/107214860",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-07T19:31:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/mixed-response-to-proposed-data-centre-near-wagga-wagga/107214860",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "One Wagga Wagga resident says she feels \"back-stabbed\" by the development, while others say the town needs more industry."
-      },
-      {
        "title": "AI and data centre boom still driving increased global airfreight traffic",
        "url": "https://theloadstar.com/ai-and-data-centre-boom-still-driving-increased-global-airfreight-traffic/",
        "source": "The Loadstar",
@@ -403,6 +386,23 @@
        "stages": [],
        "via": null,
        "blurb": "Japanese airfreight exports are forecast to rise 11.9% this year, driven in part by a surge in semiconductor-related cargo, as investment in AI and data centres accelerates. In its latest analysis, NX Logistics Research Institute expects airfreight exports from Japan to reach 1.1"
+      },
+      {
+       "title": "Town questions $15b data centre set to use enough power for 1m homes",
+       "url": "https://www.abc.net.au/news/2026-10-08/mixed-response-to-proposed-data-centre-near-wagga-wagga/107214860",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-07T19:31:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-08/mixed-response-to-proposed-data-centre-near-wagga-wagga/107214860",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "One Wagga Wagga resident says she feels \"back-stabbed\" by the development, while others say the town needs more industry."
       },
       {
        "title": "Black Hills to invest $1.8bn in gas power for Google data centre",
@@ -422,21 +422,21 @@
        "blurb": "Black Hills announced plans to invest $1.8bn to construct new natural-gas fired power generation capacity to support a Google data centre."
       },
       {
-       "title": "Sponsored: A sealed server is your license to operate a data center",
-       "url": "https://www.datacenterdynamics.com/en/opinions/a-sealed-server-is-your-license-to-operate-a-data-center/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-07T15:00:00.000Z",
+       "title": "Using AI to mitigate the growing environmental threat of data centers",
+       "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+       "source": "MIT News",
+       "published": "2026-10-08T04:00:00.000Z",
        "verification": "analysis",
        "outlets": [
         {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/opinions/a-sealed-server-is-your-license-to-operate-a-data-center/",
+         "name": "MIT News",
+         "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Sealed management solves the water, power, and waste heat problems the public is increasingly wary of"
+       "blurb": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient."
       }
      ]
     },
@@ -458,6 +458,11 @@
         {
          "name": "Times of India Business",
          "url": "https://timesofindia.indiatimes.com/business/india-business/some-oligarchs-blocking-entry-of-starlink-in-india-elon-musk/articleshow/134776971.cms",
+         "primary": false
+        },
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/07/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/",
          "primary": false
         }
        ],
@@ -517,6 +522,23 @@
        "blurb": "This week’s episode features Magnus Ericsson, adjunct professor at Luleå University of Technology in Sweden and co-founder of Mineral Economics and the Raw Materials Report, in conversation with host Adrian... The post Podcast: Yttrium, Terbium, Erbium, Ytterbium — A brief histor"
       },
       {
+       "title": "Airtel hikes postpaid tariffs, others may follow",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/airtel-hikes-postpaid-tariffs-others-may-follow/articleshow/134777582.cms",
+       "source": "Times of India Business",
+       "published": "2026-10-08T01:48:18.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/airtel-hikes-postpaid-tariffs-others-may-follow/articleshow/134777582.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Bharti Airtel is set to raise its postpaid tariffs by 3-10% starting Thursday, which affects all users. The new plans will incorporate free international roaming, valued at Rs 2,000 for each SIM once per trip. This change means that postpaid plans will now begin at Rs 499, reflec"
+      },
+      {
        "title": "AT&T, Global Infrastructure Partners and CPP Investments to form new fiber JV",
        "url": "https://www.lightreading.com/broadband/at-t-global-infrastructure-partners-and-cpp-investments-to-form-new-fiber-jv",
        "source": "Light Reading",
@@ -539,23 +561,6 @@
        "blurb": "Joint venture will bring together Forged Fiber 37 and Gigapower under one wholesale fiber commercial open access company to accelerate expansion of fiber internet across more U.S. communities. #pressrelease"
       },
       {
-       "title": "4G mobiles make a comeback on costlier 5G smartphones",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/4g-mobiles-make-a-comeback-on-costlier-5g-smartphones/articleshow/134753200.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-07T00:49:22.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/4g-mobiles-make-a-comeback-on-costlier-5g-smartphones/articleshow/134753200.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "India is experiencing a noticeable slowdown in the shift to 5G smartphones due to rising costs. As a result, the demand for 4G devices is increasing, especially in the Rs 10,000-20,000 segment. More smartphone brands are now offering 4G models as consumers seek better specificati"
-      },
-      {
        "title": "Worldwide telecom capex rises 5% in 1H26 – Dell'Oro",
        "url": "https://www.lightreading.com/5g/worldwide-telecom-capex-rises-5-in-1h26-dell-oro",
        "source": "Light Reading",
@@ -573,15 +578,15 @@
        "blurb": "Longer-term capex outlook remains muted as investment shifts from coverage to capacity. #pressrelease"
       },
       {
-       "title": "US FCC to vote on advancing new spectrum auction to boost 'direct to device' services",
-       "url": "https://www.channelnewsasia.com/business/us-fcc-vote-advancing-new-spectrum-auction-boost-direct-device-services-6440136",
+       "title": "India denies bias in satellite internet approvals after Musk's 'oligarchs' jab",
+       "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
        "source": "CNA Business",
-       "published": "2026-10-07T15:25:04.000Z",
+       "published": "2026-10-08T05:09:15.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/us-fcc-vote-advancing-new-spectrum-auction-boost-direct-device-services-6440136",
+         "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
          "primary": false
         }
        ],
@@ -622,23 +627,6 @@
        "stages": [],
        "via": null,
        "blurb": "Deutsche Telekom is investing in AI across its organization, but it does not expect to spend more in the medium term for AI's impact on mobile uplink."
-      },
-      {
-       "title": "Starlink gets India-ready with 20 gateway sites, local data controls",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/starlink-gets-india-ready-with-20-gateway-sites-local-data-controls/articleshow/134761532.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-07T09:15:42.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/starlink-gets-india-ready-with-20-gateway-sites-local-data-controls/articleshow/134761532.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Starlink has completed a major ground infrastructure with 20 gateway sites and hundreds of antennas in India. The company has developed security controls to keep Indian users’ data within India while engaging with local regulators. Starlink has been granted licenses to operate in"
       }
      ]
     },
@@ -669,6 +657,46 @@
         "stage": "innovation"
        },
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+      },
+      {
+       "title": "Scientists in Vienna and Beijing create world’s first nuclear clocks",
+       "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+       "source": "The Japan Times",
+       "published": "2026-10-08T02:28:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "One of the scientists said he envisions uses for nuclear clocks in areas such as satellite-based navigation and the synchronization of data transfer."
+      },
+      {
+       "title": "UNSW and UtmoLight set 23.5% efficiency record for large-area perovskite solar submodule",
+       "url": "https://www.pv-tech.org/unsw-and-utmolight-set-23-5-efficiency-record-for-large-area-perovskite-solar-submodule/",
+       "source": "PV Tech",
+       "published": "2026-10-08T03:25:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/unsw-and-utmolight-set-23-5-efficiency-record-for-large-area-perovskite-solar-submodule/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Researchers at UNSW and UtmoLight have achieved a certified stabilised efficiency of 23.5% for a large-area perovskite solar submodule."
       },
       {
        "title": "GAIN announces fourth round of 2026 vouchers",
@@ -741,23 +769,6 @@
        "blurb": "Norway-based shipping firm Wallenius Wilhelmsen is in advanced talks with yards to sign shipbuilding contracts for LNG dual-fuel RoRo vessels."
       },
       {
-       "title": "Kenya: The Researchers Building Kenya's Cotton Industry From The Seed Up",
-       "url": "https://allafrica.com/stories/202610070632.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T16:49:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070632.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Bird Story Agency] At Kirinyaga University, researchers are testing whether Kenya can produce quality Bt cotton seed locally. The trials could help improve supply and lower costs, but taking the research to farmers will require commercial investment and support across the cotton"
-      },
-      {
        "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
        "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
        "source": "ENR (Engineering News-Record)",
@@ -775,24 +786,7 @@
         "from": "energy",
         "stage": "innovation"
        },
-       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering"
-      },
-      {
-       "title": "Ghana: Harmonise Biotech Regulations to Attract Investment - Minister",
-       "url": "https://allafrica.com/stories/202610070580.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T15:36:50.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070580.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Ghanaian Times] THE Minister of Environment, Science and Technology, Dr Zanetor Agyeman-Rawlings, has called for the harmonisation of regulatory frameworks governing biotechnology to attract the investment needed to grow the sector."
+       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering."
       },
       {
        "title": "DCD Studio: The rise of US nuclear power, with Mark Gusakov, The Digital Infrastructure Alliance",
@@ -813,6 +807,33 @@
         "stage": "innovation"
        },
        "blurb": "Tam Pledger speaks with Mark Gusakov of The Digital Infrastructure Alliance about solving AI-driven power deficits, fostering community, and integrating nuclear energy to sustainably support the growing digital economy."
+      },
+      {
+       "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
+       "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+       "source": "NPR Science",
+       "published": "2026-10-06T10:16:28.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "NPR Science",
+         "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+         "primary": false
+        },
+        {
+         "name": "Nature",
+         "url": "https://www.nature.com/articles/d41586-026-03208-7",
+         "primary": false
+        },
+        {
+         "name": "Science (AAAS) News",
+         "url": "https://www.science.org/content/article/chemistry-nobel-honors-researchers-who-developed-reactions-leading-one-handed-molecules",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s."
       },
       {
        "title": "Deployable Energy to test its Unity nuclear battery in DOME",
@@ -873,39 +894,29 @@
         "stage": "innovation"
        },
        "blurb": "Buchan Offshore Wind has received Basic Design Certification from DNV for the BW Ideol-designed concrete Damping Pool floating foundation..."
-      },
-      {
-       "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
-       "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-       "source": "NPR Science",
-       "published": "2026-10-06T10:16:28.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "NPR Science",
-         "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-         "primary": false
-        },
-        {
-         "name": "Nature",
-         "url": "https://www.nature.com/articles/d41586-026-03208-7",
-         "primary": false
-        },
-        {
-         "name": "Science (AAAS) News",
-         "url": "https://www.science.org/content/article/chemistry-nobel-honors-researchers-who-developed-reactions-leading-one-handed-molecules",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s."
       }
      ]
     },
     "consulting": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Increasing levels of debt carried by EU institutions a concern, says top auditor",
+       "url": "https://www.irishtimes.com/business/2026/10/08/joint-debt-taken-on-by-eu-not-virtual-money-top-auditor-warns/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-08T05:00:01.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/joint-debt-taken-on-by-eu-not-virtual-money-top-auditor-warns/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The union’s borrowing is projected to hit €1 trillion by 2027"
+      },
       {
        "title": "Tender – Framework agreement for geothermal consultancy at Grangegorman, Ireland",
        "url": "https://www.thinkgeoenergy.com/tender-framework-agreement-for-geothermal-consultancy-at-grangegorman-ireland/",
@@ -1014,6 +1025,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "ByteDance heads first SCMP Plus Going Global 100 ranking",
+       "url": "https://www.scmp.com/business/china-business/article/3370010/bytedance-heads-first-scmp-plus-going-global-100-ranking?utm_source=rss_feed",
+       "source": "South China Morning Post",
+       "published": "2026-10-08T03:02:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "South China Morning Post",
+         "url": "https://www.scmp.com/business/china-business/article/3370010/bytedance-heads-first-scmp-plus-going-global-100-ranking?utm_source=rss_feed",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "TikTok owner ByteDance is China’s Going Global champion, according to a new SCMP Plus databank tracking mainland companies’ overseas expansion efforts. The social media giant topped the debut SCMP Plus Going Global 100 ranking ahead of Apple assembler Foxconn Industrial Internet,"
+      },
+      {
        "title": "TikTok gave teens, children placebo safety feature in experiment, New York alleges",
        "url": "https://www.channelnewsasia.com/business/tiktok-gave-teens-children-placebo-safety-feature-in-experiment-new-york-alleges-6440981",
        "source": "CNA Business",
@@ -1031,26 +1059,21 @@
        "blurb": ""
       },
       {
-       "title": "Goodbye Warner, hello Skydance: how will the major merger really impact Hollywood?",
-       "url": "https://www.theguardian.com/film/2026/oct/07/paramount-warner-bros-skydance-merger-explainer",
+       "title": "Will the Zuckerberg, Musk and Altman movies make a dent on tech giant evangelism?",
+       "url": "https://www.theguardian.com/film/2026/oct/07/the-social-reckoning-musk-and-artificial-zuckerberg-musk-and-altman-movies-tech",
        "source": "The Guardian Business",
-       "published": "2026-10-07T09:00:45.000Z",
-       "verification": "multiple",
+       "published": "2026-10-07T13:43:43.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/film/2026/oct/07/paramount-warner-bros-skydance-merger-explainer",
-         "primary": false
-        },
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
+         "url": "https://www.theguardian.com/film/2026/oct/07/the-social-reckoning-musk-and-artificial-zuckerberg-musk-and-altman-movies-tech",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "After a windier road than expected, Paramount and Warner are now one, under the banner of Skydance, and the film industry is set for a shake-up Hollywood’s big five have officially become the big four. Following a twist-filled saga that saw the century-old studio Warner Bros near"
+       "blurb": "The triple release of The Social Reckoning, Musk and Artificial is less a clear political stance, more like movie studio opportunism Hollywood is sending a clear message: it’s a friend of tech. Netflix is no longer a lone disruptor: historic studio MGM is now the property of Amaz"
       },
       {
        "title": "Disney Keeps Cheapest Tickets Flat as Add-On Prices Climb",
@@ -1068,23 +1091,6 @@
        "stages": [],
        "via": null,
        "blurb": "Lower priced tickets can help build loyal visitors while premium add-ons drive more spending at the parks."
-      },
-      {
-       "title": "Will the Zuckerberg, Musk and Altman movies make a dent on tech giant evangelism?",
-       "url": "https://www.theguardian.com/film/2026/oct/07/the-social-reckoning-musk-and-artificial-zuckerberg-musk-and-altman-movies-tech",
-       "source": "The Guardian Business",
-       "published": "2026-10-07T13:43:43.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/film/2026/oct/07/the-social-reckoning-musk-and-artificial-zuckerberg-musk-and-altman-movies-tech",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The triple release of The Social Reckoning, Musk and Artificial is less a clear political stance, more like movie studio opportunism Hollywood is sending a clear message: it’s a friend of tech. Netflix is no longer a lone disruptor: historic studio MGM is now the property of Amaz"
       },
       {
        "title": "MyBundle reveals mobile pricing and packaging, streaming perks for new subs",
@@ -1119,6 +1125,23 @@
        "stages": [],
        "via": null,
        "blurb": "The social media platform is hoping to capitalize on its role as a product discovery engine by adding a conversational AI agent and simpler checkout."
+      },
+      {
+       "title": "Paramount and Warner Bros complete merger to form Hollywood giant Skydance",
+       "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
+       "source": "Euronews Business",
+       "published": "2026-10-06T13:49:42.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Two of America’s oldest film studios have completed their merger, bringing CNN, HBO and franchises including The Godfather and Harry Potter under one roof."
       },
       {
        "title": "HBO Max, Paramount+, and Discovery+ \"will unify into a single service”",
@@ -1160,23 +1183,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Frontline workers are vital to effective cybersecurity",
-       "url": "https://www.ttnews.com/articles/frontline-vital-cybersecurity",
-       "source": "Transport Topics",
-       "published": "2026-10-07T18:52:23.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Transport Topics",
-         "url": "https://www.ttnews.com/articles/frontline-vital-cybersecurity",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Experts at the NMFTA Cybersecurity Conference emphasized that as cargo theft schemes become more sophisticated, the importance of keeping humans involved to counter them becomes more crucial."
-      },
-      {
        "title": "US cyber resilience, oversight tested in series of attacks",
        "url": "https://www.cybersecuritydive.com/news/us-cyber-resilience-oversight-attacks/832235/",
        "source": "Cybersecurity Dive",
@@ -1194,32 +1200,49 @@
        "blurb": "Attacks targeting key industrial sites and unforced errors among leading AI companies are raising alarm bells."
       },
       {
-       "title": "Regulator beefs up cyber-resilience measures",
-       "url": "https://www.bangkokpost.com/business/general/3333375/regulator-beefs-up-cyberresilience-measures",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-07T23:13:00.000Z",
+       "title": "Frontline workers are vital to effective cybersecurity",
+       "url": "https://www.ttnews.com/articles/frontline-vital-cybersecurity",
+       "source": "Transport Topics",
+       "published": "2026-10-07T18:52:23.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333375/regulator-beefs-up-cyberresilience-measures",
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/frontline-vital-cybersecurity",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The insurance industry is reporting more complex cyberthreats powered by artificial intelligence (AI), prompting the Office of the Insurance Commission (OIC) to join hands with 67 life and non-life insurers to strengthen cyber-resilience, from prevention and response to recovery."
+       "blurb": "Experts at the NMFTA Cybersecurity Conference emphasized that as cargo theft schemes become more sophisticated, the importance of keeping humans involved to counter them becomes more crucial."
       },
       {
-       "title": "Revolut will cover costs for customers hit by data hack, Western Europe CEO says",
-       "url": "https://www.channelnewsasia.com/business/revolut-will-cover-costs-customers-hit-data-hack-western-europe-ceo-says-6439851",
+       "title": "'Group of individuals' impacted by data breach at SA hospital",
+       "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T05:01:42.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "An Adelaide private hospital has notified individuals and cyber security authorities of a data breach of personal information."
+      },
+      {
+       "title": "CrowdStrike says China-based suspect used AI tools in South Korean bank hacks",
+       "url": "https://www.channelnewsasia.com/business/crowdstrike-says-china-based-suspect-used-ai-tools-in-south-korean-bank-hacks-6441386",
        "source": "CNA Business",
-       "published": "2026-10-07T14:09:40.000Z",
+       "published": "2026-10-08T03:13:09.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/revolut-will-cover-costs-customers-hit-data-hack-western-europe-ceo-says-6439851",
+         "url": "https://www.channelnewsasia.com/business/crowdstrike-says-china-based-suspect-used-ai-tools-in-south-korean-bank-hacks-6441386",
          "primary": false
         }
        ],
@@ -1228,21 +1251,38 @@
        "blurb": ""
       },
       {
-       "title": "What can I do to protect myself after 'Asos hacked' message?",
-       "url": "https://www.bbc.co.uk/news/articles/ck1l3g8097rzo?at_medium=RSS&at_campaign=rss",
-       "source": "BBC News Business",
-       "published": "2026-10-07T10:23:37.000Z",
+       "title": "Ransomware fixer claimed he could decrypt files, allegedly defrauded clients instead",
+       "url": "https://www.theregister.com/cyber-crime/2026/10/08/ransomware-fixer-claimed-he-could-decrypt-files-allegedly-defrauded-clients-instead/5301831",
+       "source": "The Register",
+       "published": "2026-10-08T02:29:55.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/ck1l3g8097rzo?at_medium=RSS&at_campaign=rss",
+         "name": "The Register",
+         "url": "https://www.theregister.com/cyber-crime/2026/10/08/ransomware-fixer-claimed-he-could-decrypt-files-allegedly-defrauded-clients-instead/5301831",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Asos says people should not engage with the unauthorised notification and says it'll provide further information."
+       "blurb": "Feds claim he charged clients more than ransoms, paid up, pocketed the difference"
+      },
+      {
+       "title": "Insurance regulator focuses on cyber-resilience",
+       "url": "https://www.bangkokpost.com/business/general/3333375/insurance-regulator-focuses-on-cyberresilience",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-07T23:13:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333375/insurance-regulator-focuses-on-cyberresilience",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The insurance industry is reporting more complex cyberthreats powered by artificial intelligence (AI), prompting the Office of the Insurance Commission (OIC) to join hands with 67 life and non-life insurers to strengthen cyber-resilience, from prevention and response to recovery."
       },
       {
        "title": "Poetry is the new AI security threat as PoeLLM malware infects 3K+ servers",
@@ -1375,6 +1415,23 @@
        "blurb": "PRESS RELEASE Tech beats tariffs: global trade growth accelerates and globalization sets new record 10/07/2026, 02:30 PM CEST This is one of the key findings of the latest edition of the DHL Globalization Tracker, released today by DHL and New York University’s Stern School of Bu"
       },
       {
+       "title": "Using AI to mitigate the growing environmental threat of data centers",
+       "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+       "source": "MIT News",
+       "published": "2026-10-08T04:00:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "MIT News",
+         "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient."
+      },
+      {
        "title": "Google and Oracle deals support long-term US plant operations",
        "url": "https://www.world-nuclear-news.org/articles/new-end-user-agreements-support-long-term-us-plant-operations",
        "source": "World Nuclear News",
@@ -1441,28 +1498,6 @@
        "stages": [],
        "via": null,
        "blurb": "The retailer's site in Nampa will distribute inventory to 123 stores and includes a group that aims to \"apply practical artificial intelligence to operational needs.\""
-      },
-      {
-       "title": "Microsoft event debuts new AI-friendly hardware and Windows changes",
-       "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
-       "source": "Ars Technica",
-       "published": "2026-10-08T00:00:24.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
-         "primary": false
-        },
-        {
-         "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Get ready for more AI in your Windows and more AI on the desktop."
       },
       {
        "title": "South Korea’s AI chip giants are fighting for a bigger role in America’s AI boom",
@@ -1533,23 +1568,6 @@
        "blurb": "The social media platform is hoping to capitalize on its role as a product discovery engine by adding a conversational AI agent and simpler checkout."
       },
       {
-       "title": "Margaret Hamilton, computing pioneer who led software development for the Apollo program, dies at 90",
-       "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
-       "source": "MIT News",
-       "published": "2026-10-07T20:55:00.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "MIT News",
-         "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Over two decades at MIT, Hamilton forged new paths in computer science and engineering. Her groundbreaking work included leading the team that programmed the first computers that took humans to the moon."
-      },
-      {
        "title": "Hilton taps former Uber exec as CTO",
        "url": "https://www.hoteldive.com/news/hilton-taps-cto-former-uber-exec/832312/",
        "source": "Hotel Dive",
@@ -1570,6 +1588,23 @@
        "stages": [],
        "via": null,
        "blurb": "Jeff Moore brings 20 years of experience in software engineering and operations to the role as Hilton looks to advance its AI goals."
+      },
+      {
+       "title": "Margaret Hamilton, computing pioneer who led software development for the Apollo program, dies at 90",
+       "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+       "source": "MIT News",
+       "published": "2026-10-07T20:55:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "MIT News",
+         "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Over two decades at MIT, Hamilton forged new paths in computer science and engineering. Her groundbreaking work included leading the team that programmed the first computers that took humans to the moon."
       }
      ]
     },
@@ -1626,6 +1661,23 @@
        "stages": [],
        "via": null,
        "blurb": "Fit Energy, a developer of energy solutions for data center projects, has announced plans for a fuel cell power generation and data center project in Newport Township, Luzerne County, Pennsylvania. The project received township zoning approval for both uses in August of this year"
+      },
+      {
+       "title": "Using AI to mitigate the growing environmental threat of data centers",
+       "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+       "source": "MIT News",
+       "published": "2026-10-08T04:00:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "MIT News",
+         "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient."
       },
       {
        "title": "Singapore's DayOne pursues US listing as its data center footprint grows",
@@ -1719,23 +1771,6 @@
        "stages": [],
        "via": null,
        "blurb": "Joint venture will bring together Forged Fiber 37 and Gigapower under one wholesale fiber commercial open access company to accelerate expansion of fiber internet across more U.S. communities. #pressrelease"
-      },
-      {
-       "title": "US FCC to vote on advancing new spectrum auction to boost 'direct to device' services",
-       "url": "https://www.channelnewsasia.com/business/us-fcc-vote-advancing-new-spectrum-auction-boost-direct-device-services-6440136",
-       "source": "CNA Business",
-       "published": "2026-10-07T15:25:04.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/us-fcc-vote-advancing-new-spectrum-auction-boost-direct-device-services-6440136",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
       }
      ]
     },
@@ -1760,7 +1795,7 @@
         "from": "energy",
         "stage": "innovation"
        },
-       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering"
+       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering."
       },
       {
        "title": "DCD Studio: The rise of US nuclear power, with Mark Gusakov, The Digital Infrastructure Alliance",
@@ -1806,26 +1841,6 @@
         "stage": "innovation"
        },
        "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
-      },
-      {
-       "title": "The U.S. market is writing its own sodium-ion spec",
-       "url": "https://www.pv-magazine.com/2026/10/07/the-u-s-market-is-writing-its-own-sodium-ion-spec/",
-       "source": "pv magazine",
-       "published": "2026-10-07T05:50:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/07/the-u-s-market-is-writing-its-own-sodium-ion-spec/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Sodium-ion batteries are rapidly transitioning from promising alternative to commercial reality in the U.S. energy storage market, but navigating federal domestic content policies, complex FEOC sourcing rules, and stringent UL 9540A safety testing remains crucial for developers s"
       },
       {
        "title": "Deployable Energy to test its Unity nuclear battery in DOME",
@@ -1952,6 +1967,23 @@
        "blurb": "The US Department of Energy (DOE) has selected 14 hydropower projects to begin negotiations for testing support The post US selects 14 hydropower projects for testing support appeared first on International Water Power ."
       },
       {
+       "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
+       "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
+       "source": "NASA News",
+       "published": "2026-10-07T21:16:42.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "NASA and SpaceX are targeting 6:33 a.m. EDT, Tuesday, Oct. 13, for the next launch to deliver science investigations, supplies, and equipment, including the final set of International Space Station Roll-Out Solar Arrays, to the space station. This is the 35th SpaceX commercial re"
+      },
+      {
        "title": "Tennessee Valley Authority Gets Approval to Build Small Nuclear Reactor",
        "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
        "source": "NYT Climate / Energy",
@@ -2053,28 +2085,6 @@
        "blurb": ""
       },
       {
-       "title": "Paramount and Warner Bros complete merger to form Hollywood giant Skydance",
-       "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
-       "source": "Euronews Business",
-       "published": "2026-10-06T13:49:42.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/film/2026/oct/07/paramount-warner-bros-skydance-merger-explainer",
-         "primary": false
-        },
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Two of America’s oldest film studios have completed their merger, bringing CNN, HBO and franchises including The Godfather and Harry Potter under one roof."
-      },
-      {
        "title": "TikTok to add AI-powered discovery and one-click checkout",
        "url": "https://www.retaildive.com/news/tiktok-ai-powered-discovery-one-click-checkout/832326/",
        "source": "Retail Dive",
@@ -2090,6 +2100,23 @@
        "stages": [],
        "via": null,
        "blurb": "The social media platform is hoping to capitalize on its role as a product discovery engine by adding a conversational AI agent and simpler checkout."
+      },
+      {
+       "title": "Paramount and Warner Bros complete merger to form Hollywood giant Skydance",
+       "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
+       "source": "Euronews Business",
+       "published": "2026-10-06T13:49:42.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/06/paramount-and-warner-bros-complete-merger-to-form-hollywood-giant-skydance",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Two of America’s oldest film studios have completed their merger, bringing CNN, HBO and franchises including The Godfather and Harry Potter under one roof."
       },
       {
        "title": "HBO Max, Paramount+, and Discovery+ \"will unify into a single service”",
@@ -2244,7 +2271,7 @@
         "from": "energy",
         "stage": "innovation"
        },
-       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering"
+       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering."
       },
       {
        "title": "Tennessee Valley Authority Gets Approval to Build Small Nuclear Reactor",
@@ -2293,6 +2320,56 @@
        "stages": [],
        "via": null,
        "blurb": "Kentucky Power's planned Muskie buildout would begin substation construction in 2027, with TeraWulf also funding residential bill credits and Big Sandy financing costs for customers."
+      }
+     ]
+    }
+   }
+  },
+  "ru": {
+   "label": "Russia",
+   "level": "country",
+   "sources": {
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Russia's largest Yandex data center reportedly hit in drone attack",
+       "url": "https://kyivindependent.com/russias-largest-yandex-data-center-reportedly-hit-in-drone-attack/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-08T03:14:20.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/russias-largest-yandex-data-center-reportedly-hit-in-drone-attack/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Sasovo data center is located on the grounds of the Sasta machine-tool plant, a manufacturer of metal-cutting and high-precision CNC metalworking machines used across Russian industry, including the defense-industrial, aerospace, oil and gas, and heavy machinery sectors."
+      }
+     ]
+    },
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Five things to know about the death at Russia’s anti-plague laboratory",
+       "url": "https://www.atlanticcouncil.org/dispatches/five-things-to-know-about-the-death-at-russias-anti-plague-laboratory/",
+       "source": "Atlantic Council",
+       "published": "2026-10-06T21:22:59.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Atlantic Council",
+         "url": "https://www.atlanticcouncil.org/dispatches/five-things-to-know-about-the-death-at-russias-anti-plague-laboratory/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In light of Russia’s record on biological weapons and lab accidents, the death of an anti-plague researcher raises questions to consider. The post Five things to know about the death at Russia’s anti-plague laboratory appeared first on Atlantic Council ."
       }
      ]
     }
@@ -2556,6 +2633,28 @@
    "label": "Finland",
    "level": "country",
    "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "France's Sesterce plans $11 billion AI investment in Finland",
+       "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726",
+       "source": "CNA Business",
+       "published": "2026-10-08T05:44:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      }
+     ]
+    },
     "cloud": {
      "brief": "missing",
      "candidates": [
@@ -2675,6 +2774,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "AI data-center boom ignites bidding war for critical TDK unit",
+       "url": "https://www.japantimes.co.jp/business/2026/10/08/companies/tdk-bidding-war-ai-data-center/",
+       "source": "The Japan Times",
+       "published": "2026-10-08T04:47:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/business/2026/10/08/companies/tdk-bidding-war-ai-data-center/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The winning bidder for TDK's magnetic-heads business would be able to expand in-house capabilities in the $23 billion hard-drive market."
+      },
+      {
        "title": "AI and data centre boom still driving increased global airfreight traffic",
        "url": "https://theloadstar.com/ai-and-data-centre-boom-still-driving-increased-global-airfreight-traffic/",
        "source": "The Loadstar",
@@ -2712,23 +2828,6 @@
        "stages": [],
        "via": null,
        "blurb": "Company plans to triple overall investment in country to $30bn"
-      },
-      {
-       "title": "Goodman’s Japanese data center under fire following Sydney site setback",
-       "url": "https://www.japantimes.co.jp/business/2026/10/07/companies/australia-data-center-japan-tension/",
-       "source": "The Japan Times",
-       "published": "2026-10-07T07:31:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/business/2026/10/07/companies/australia-data-center-japan-tension/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The dispute with residents in Japan is part of a broader global backlash against data centers."
       },
       {
        "title": "AI and data centre boom still driving increased global airfreight traffic",
@@ -2919,6 +3018,57 @@
        "stages": [],
        "via": null,
        "blurb": "Cloud computing giant has already shed around 150 Irish roles this year"
+      },
+      {
+       "title": "Will AI kill our rosy jobs growth forecasts?",
+       "url": "https://www.irishtimes.com/business/2026/10/08/will-ai-kill-our-rosy-jobs-growth-forecasts/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-08T04:37:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/will-ai-kill-our-rosy-jobs-growth-forecasts/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Department of Finance draws attention ‘to risks to employment prospects from AI over the medium-term’"
+      },
+      {
+       "title": "‘AI should give us more room for the human’: What can we learn from the office superusers?",
+       "url": "https://www.irishtimes.com/business/2026/10/08/ai-should-give-us-more-room-for-the-human-what-can-we-learn-from-the-office-superusers/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-08T04:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/ai-should-give-us-more-room-for-the-human-what-can-we-learn-from-the-office-superusers/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Leaders who have gone all-in on new tech tools describe how they are reimagining their working lives"
+      },
+      {
+       "title": "Limerick start-up uses AI to take the pain out of compliance",
+       "url": "https://www.irishtimes.com/business/innovation/2026/10/08/limerick-start-up-uses-ai-to-take-the-pain-out-of-compliance/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-08T02:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/innovation/2026/10/08/limerick-start-up-uses-ai-to-take-the-pain-out-of-compliance/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Envaira is targeting multinationals struggling to keep track of hundreds of environmental, health and safety requirements across multiple sites"
       }
      ]
     },
@@ -2941,6 +3091,23 @@
        "stages": [],
        "via": null,
        "blurb": "A tender has been announced for a single-party framework agreement for geothermal engineering consultancy services for the Grangegorman site in Ireland. The post Tender – Framework agreement for geothermal consultancy at Grangegorman, Ireland first appeared on ThinkGeoEnergy - Ge"
+      },
+      {
+       "title": "Increasing levels of debt carried by EU institutions a concern, says top auditor",
+       "url": "https://www.irishtimes.com/business/2026/10/08/joint-debt-taken-on-by-eu-not-virtual-money-top-auditor-warns/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-08T05:00:01.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/joint-debt-taken-on-by-eu-not-virtual-money-top-auditor-warns/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The union’s borrowing is projected to hit €1 trillion by 2027"
       }
      ]
     }
@@ -3130,197 +3297,6 @@
     }
    }
   },
-  "ke": {
-   "label": "Kenya",
-   "level": "country",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Kenya: The Researchers Building Kenya's Cotton Industry From The Seed Up",
-       "url": "https://allafrica.com/stories/202610070632.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T16:49:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070632.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Bird Story Agency] At Kirinyaga University, researchers are testing whether Kenya can produce quality Bt cotton seed locally. The trials could help improve supply and lower costs, but taking the research to farmers will require commercial investment and support across the cotton"
-      }
-     ]
-    }
-   }
-  },
-  "cn": {
-   "label": "China",
-   "level": "country",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Not just AI. China is building technologies that challenge U.S. dominance",
-       "url": "https://restofworld.org/2026/china-america-tech-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-       "source": "Rest of World",
-       "published": "2026-10-06T10:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rest of World",
-         "url": "https://restofworld.org/2026/china-america-tech-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "From batteries and solar panels to drones and satellites, China is building tech capabilities that extend well beyond AI, writes Steve Feldstein in his new book, \"Bytes and Bullets: Global Rivalries, Big Tech, and the New Shape of Modern Warfare.\""
-      },
-      {
-       "title": "Trump says he doesn't want to work with China on AI safety",
-       "url": "https://www.france24.com/en/tv-shows/business/20260929-trump-says-doesn-t-want-to-work-with-china-on-ai-safety",
-       "source": "France 24 Business",
-       "published": "2026-09-29T21:05:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "France 24 Business",
-         "url": "https://www.france24.com/en/tv-shows/business/20260929-trump-says-doesn-t-want-to-work-with-china-on-ai-safety",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "US President Donald Trump discussed AI development with dozens of tech bosses at the White House on Tuesday. Ahead of his \"super intelligence\" luncheon, Trump launched a new AI-powered website for government services, vowing not to stifle the technology's growth. He also said he "
-      },
-      {
-       "title": "As China’s AI race accelerates, ‘model fatigue’ becomes the next challenge",
-       "url": "https://www.scmp.com/tech/big-tech/article/3369757/chinas-ai-race-accelerates-model-fatigue-becomes-next-challenge?utm_source=rss_feed",
-       "source": "South China Morning Post",
-       "published": "2026-10-06T12:00:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "South China Morning Post",
-         "url": "https://www.scmp.com/tech/big-tech/article/3369757/chinas-ai-race-accelerates-model-fatigue-becomes-next-challenge?utm_source=rss_feed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "On September 22, the global artificial intelligence landscape spun on its axis within a matter of hours. In Beijing, Xiaomi engineers went live with an unusual broadcast, streaming the training run of their new MiMo-V2.6 model. In San Francisco, Anthropic unveiled its frontier Op"
-      },
-      {
-       "title": "Moonshot AI eyes Hong Kong IPO after $50 billion valuation as DeepSeek raises capital",
-       "url": "https://www.euronews.com/2026/10/06/moonshot-ai-eyes-hong-kong-ipo-after-50-billion-valuation-as-deepseek-raises-capital",
-       "source": "Euronews Business",
-       "published": "2026-10-06T08:56:37.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/06/moonshot-ai-eyes-hong-kong-ipo-after-50-billion-valuation-as-deepseek-raises-capital",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Chinese AI start-up Moonshot AI is targeting for a Hong Kong listing in early 2027 after its valuation hit $50 billion (€44.6bn), while rival DeepSeek is raising between ¥80 billion (€10.6bn) and ¥100 billion (€13.3bn) in a round led by Tencent and CATL, fuelling bets on its own "
-      },
-      {
-       "title": "Mox, BOCHK, ZA Bank and Citibank apps land among Asia-Pacific’s 10 best, study says",
-       "url": "https://www.scmp.com/business/banking-finance/article/3369900/mox-bochk-za-bank-and-citibank-apps-land-among-asia-pacifics-10-best-study-says?utm_source=rss_feed",
-       "source": "South China Morning Post",
-       "published": "2026-10-06T08:00:11.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "South China Morning Post",
-         "url": "https://www.scmp.com/business/banking-finance/article/3369900/mox-bochk-za-bank-and-citibank-apps-land-among-asia-pacifics-10-best-study-says?utm_source=rss_feed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Banking apps from Mox Bank, Bank of China (Hong Kong) (BOCHK), ZA Bank and Citibank Hong Kong are among the top 10 in Asia-Pacific, according to a study exclusively previewed by the South China Morning Post. Sia, an international consulting firm, assessed 145 banking apps in 20 m"
-      },
-      {
-       "title": "Roundup #89: It isn’t X, it’s Y",
-       "url": "https://www.noahpinion.blog/p/roundup-89-it-isnt-x-its-y",
-       "source": "Noahpinion",
-       "published": "2026-10-01T06:14:51.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Noahpinion",
-         "url": "https://www.noahpinion.blog/p/roundup-89-it-isnt-x-its-y",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "AI risk; Reindustrialization; The rent crisis; AI and jobs; Mass deportation; Chinese investment; Cyber risk"
-      }
-     ]
-    },
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Heterojunction solar cell built with biomass lignin-based silver paste achieves 25.96% efficiency",
-       "url": "https://www.pv-magazine.com/2026/10/07/heterojunction-solar-cell-built-with-biomass-lignin-based-silver-paste-achieves-25-96-efficiency/",
-       "source": "pv magazine",
-       "published": "2026-10-07T06:34:47.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/07/heterojunction-solar-cell-built-with-biomass-lignin-based-silver-paste-achieves-25-96-efficiency/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Chinese researchers have developed a biomass lignin-based silver paste for HJT solar cells that reduces reliance on petroleum-based resins and improves electrical performance. The optimized paste increased solar cell efficiency from 25.01% to 25.96% while improving printability, "
-      },
-      {
-       "title": "Wind power patents: China Three Gorges | Dongfang | Nordex | Siemens Gamesa",
-       "url": "https://www.windpowermonthly.com/article/1971160/wind-power-patents-china-three-gorges-dongfang-nordex-siemens-gamesa",
-       "source": "Windpower Monthly",
-       "published": "2026-09-29T09:38:27.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Windpower Monthly",
-         "url": "https://www.windpowermonthly.com/article/1971160/wind-power-patents-china-three-gorges-dongfang-nordex-siemens-gamesa",
-         "primary": false
-        },
-        {
-         "name": "offshoreWIND.biz",
-         "url": "https://offshorewind.biz/2026/09/30/china-three-gorges-connects-first-qingzhou-v-and-vii-offshore-wind-turbines-to-grid",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Windpower Monthly rounds up the latest wind power technology patents filed and granted in the past week."
-      }
-     ]
-    }
-   }
-  },
   "th": {
    "label": "Thailand",
    "level": "country",
@@ -3443,6 +3419,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "France's Sesterce plans $11 billion AI investment in Finland",
+       "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726",
+       "source": "CNA Business",
+       "published": "2026-10-08T05:44:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/frances-sesterce-plans-11-billion-ai-investment-in-finland-6441726",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
+      {
        "title": "Why I quit the movement shaping AI",
        "url": "https://www.france24.com/en/tv-shows/tech-24/20261004-why-i-quit-the-movement-shaping-ai",
        "source": "France 24 Business",
@@ -3488,57 +3481,162 @@
     }
    }
   },
-  "ae": {
-   "label": "United Arab Emirates",
+  "at": {
+   "label": "Austria",
+   "level": "country",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Scientists in Vienna and Beijing create world’s first nuclear clocks",
+       "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+       "source": "The Japan Times",
+       "published": "2026-10-08T02:28:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "One of the scientists said he envisions uses for nuclear clocks in areas such as satellite-based navigation and the synchronization of data transfer."
+      }
+     ]
+    }
+   }
+  },
+  "cn": {
+   "label": "China",
    "level": "country",
    "sources": {
     "software": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "UAE report examines how to power AI in a water-scarce world",
-       "url": "https://www.thenationalnews.com/news/us/2026/10/07/ai-water-scarcity-uae-report/",
-       "source": "The National (UAE)",
-       "published": "2026-10-07T21:27:53.000Z",
+       "title": "Not just AI. China is building technologies that challenge U.S. dominance",
+       "url": "https://restofworld.org/2026/china-america-tech-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+       "source": "Rest of World",
+       "published": "2026-10-06T10:00:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/us/2026/10/07/ai-water-scarcity-uae-report/",
+         "name": "Rest of World",
+         "url": "https://restofworld.org/2026/china-america-tech-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Artificial intelligence has become a major focus for global water and energy, bringing significant new demands while offering tools to improve water management, a report from the UAE Foreign Ministry has said. The report, Crosscurrents: Navigating the AI-Water -Energy Nexus , hig"
-      }
-     ]
-    }
-   }
-  },
-  "gh": {
-   "label": "Ghana",
-   "level": "country",
-   "sources": {
-    "telecom": {
-     "brief": "missing",
-     "candidates": [
+       "blurb": "From batteries and solar panels to drones and satellites, China is building tech capabilities that extend well beyond AI, writes Steve Feldstein in his new book, \"Bytes and Bullets: Global Rivalries, Big Tech, and the New Shape of Modern Warfare.\""
+      },
       {
-       "title": "Ghana awards 5G licenses to Telecel, MTN after slow rollout woes",
-       "url": "https://www.datacenterdynamics.com/en/news/ghana-awards-5g-licenses-to-telecel-mtn-after-slow-rollout-woes/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-07T16:12:45.000Z",
+       "title": "CrowdStrike says China-based suspect used AI tools in South Korean bank hacks",
+       "url": "https://www.channelnewsasia.com/business/crowdstrike-says-china-based-suspect-used-ai-tools-in-south-korean-bank-hacks-6441386",
+       "source": "CNA Business",
+       "published": "2026-10-08T03:13:09.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/ghana-awards-5g-licenses-to-telecel-mtn-after-slow-rollout-woes/",
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/crowdstrike-says-china-based-suspect-used-ai-tools-in-south-korean-bank-hacks-6441386",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Telecel plans to launch 5G in December"
+       "blurb": ""
+      },
+      {
+       "title": "Trump says he doesn't want to work with China on AI safety",
+       "url": "https://www.france24.com/en/tv-shows/business/20260929-trump-says-doesn-t-want-to-work-with-china-on-ai-safety",
+       "source": "France 24 Business",
+       "published": "2026-09-29T21:05:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "France 24 Business",
+         "url": "https://www.france24.com/en/tv-shows/business/20260929-trump-says-doesn-t-want-to-work-with-china-on-ai-safety",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "US President Donald Trump discussed AI development with dozens of tech bosses at the White House on Tuesday. Ahead of his \"super intelligence\" luncheon, Trump launched a new AI-powered website for government services, vowing not to stifle the technology's growth. He also said he "
+      },
+      {
+       "title": "As China’s AI race accelerates, ‘model fatigue’ becomes the next challenge",
+       "url": "https://www.scmp.com/tech/big-tech/article/3369757/chinas-ai-race-accelerates-model-fatigue-becomes-next-challenge?utm_source=rss_feed",
+       "source": "South China Morning Post",
+       "published": "2026-10-06T12:00:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "South China Morning Post",
+         "url": "https://www.scmp.com/tech/big-tech/article/3369757/chinas-ai-race-accelerates-model-fatigue-becomes-next-challenge?utm_source=rss_feed",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "On September 22, the global artificial intelligence landscape spun on its axis within a matter of hours. In Beijing, Xiaomi engineers went live with an unusual broadcast, streaming the training run of their new MiMo-V2.6 model. In San Francisco, Anthropic unveiled its frontier Op"
+      },
+      {
+       "title": "Moonshot AI eyes Hong Kong IPO after $50 billion valuation as DeepSeek raises capital",
+       "url": "https://www.euronews.com/2026/10/06/moonshot-ai-eyes-hong-kong-ipo-after-50-billion-valuation-as-deepseek-raises-capital",
+       "source": "Euronews Business",
+       "published": "2026-10-06T08:56:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/06/moonshot-ai-eyes-hong-kong-ipo-after-50-billion-valuation-as-deepseek-raises-capital",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Chinese AI start-up Moonshot AI is targeting for a Hong Kong listing in early 2027 after its valuation hit $50 billion (€44.6bn), while rival DeepSeek is raising between ¥80 billion (€10.6bn) and ¥100 billion (€13.3bn) in a round led by Tencent and CATL, fuelling bets on its own "
+      },
+      {
+       "title": "Roundup #89: It isn’t X, it’s Y",
+       "url": "https://www.noahpinion.blog/p/roundup-89-it-isnt-x-its-y",
+       "source": "Noahpinion",
+       "published": "2026-10-01T06:14:51.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Noahpinion",
+         "url": "https://www.noahpinion.blog/p/roundup-89-it-isnt-x-its-y",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "AI risk; Reindustrialization; The rent crisis; AI and jobs; Mass deportation; Chinese investment; Cyber risk"
+      },
+      {
+       "title": "Mox, BOCHK, ZA Bank and Citibank apps land among Asia-Pacific’s 10 best, study says",
+       "url": "https://www.scmp.com/business/banking-finance/article/3369900/mox-bochk-za-bank-and-citibank-apps-land-among-asia-pacifics-10-best-study-says?utm_source=rss_feed",
+       "source": "South China Morning Post",
+       "published": "2026-10-06T08:00:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "South China Morning Post",
+         "url": "https://www.scmp.com/business/banking-finance/article/3369900/mox-bochk-za-bank-and-citibank-apps-land-among-asia-pacifics-10-best-study-says?utm_source=rss_feed",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Banking apps from Mox Bank, Bank of China (Hong Kong) (BOCHK), ZA Bank and Citibank Hong Kong are among the top 10 in Asia-Pacific, according to a study exclusively previewed by the South China Morning Post. Sia, an international consulting firm, assessed 145 banking apps in 20 m"
       }
      ]
     },
@@ -3546,21 +3644,261 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Ghana: Harmonise Biotech Regulations to Attract Investment - Minister",
-       "url": "https://allafrica.com/stories/202610070580.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T15:36:50.000Z",
+       "title": "Scientists in Vienna and Beijing create world’s first nuclear clocks",
+       "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+       "source": "The Japan Times",
+       "published": "2026-10-08T02:28:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070580.html",
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "One of the scientists said he envisions uses for nuclear clocks in areas such as satellite-based navigation and the synchronization of data transfer."
+      },
+      {
+       "title": "Wind power patents: China Three Gorges | Dongfang | Nordex | Siemens Gamesa",
+       "url": "https://www.windpowermonthly.com/article/1971160/wind-power-patents-china-three-gorges-dongfang-nordex-siemens-gamesa",
+       "source": "Windpower Monthly",
+       "published": "2026-09-29T09:38:27.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Windpower Monthly",
+         "url": "https://www.windpowermonthly.com/article/1971160/wind-power-patents-china-three-gorges-dongfang-nordex-siemens-gamesa",
+         "primary": false
+        },
+        {
+         "name": "offshoreWIND.biz",
+         "url": "https://offshorewind.biz/2026/09/30/china-three-gorges-connects-first-qingzhou-v-and-vii-offshore-wind-turbines-to-grid",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Windpower Monthly rounds up the latest wind power technology patents filed and granted in the past week."
+      }
+     ]
+    },
+    "media": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "ByteDance heads first SCMP Plus Going Global 100 ranking",
+       "url": "https://www.scmp.com/business/china-business/article/3370010/bytedance-heads-first-scmp-plus-going-global-100-ranking?utm_source=rss_feed",
+       "source": "South China Morning Post",
+       "published": "2026-10-08T03:02:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "South China Morning Post",
+         "url": "https://www.scmp.com/business/china-business/article/3370010/bytedance-heads-first-scmp-plus-going-global-100-ranking?utm_source=rss_feed",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "[Ghanaian Times] THE Minister of Environment, Science and Technology, Dr Zanetor Agyeman-Rawlings, has called for the harmonisation of regulatory frameworks governing biotechnology to attract the investment needed to grow the sector."
+       "blurb": "TikTok owner ByteDance is China’s Going Global champion, according to a new SCMP Plus databank tracking mainland companies’ overseas expansion efforts. The social media giant topped the debut SCMP Plus Going Global 100 ranking ahead of Apple assembler Foxconn Industrial Internet,"
+      }
+     ]
+    },
+    "cyber": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "CrowdStrike says China-based suspect used AI tools in South Korean bank hacks",
+       "url": "https://www.channelnewsasia.com/business/crowdstrike-says-china-based-suspect-used-ai-tools-in-south-korean-bank-hacks-6441386",
+       "source": "CNA Business",
+       "published": "2026-10-08T03:13:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/crowdstrike-says-china-based-suspect-used-ai-tools-in-south-korean-bank-hacks-6441386",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      }
+     ]
+    }
+   }
+  },
+  "at-wi": {
+   "label": "Wien",
+   "level": "admin1",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Scientists in Vienna and Beijing create world’s first nuclear clocks",
+       "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+       "source": "The Japan Times",
+       "published": "2026-10-08T02:28:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "One of the scientists said he envisions uses for nuclear clocks in areas such as satellite-based navigation and the synchronization of data transfer."
+      }
+     ]
+    }
+   }
+  },
+  "cn-bj": {
+   "label": "Beijing",
+   "level": "admin1",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "As China’s AI race accelerates, ‘model fatigue’ becomes the next challenge",
+       "url": "https://www.scmp.com/tech/big-tech/article/3369757/chinas-ai-race-accelerates-model-fatigue-becomes-next-challenge?utm_source=rss_feed",
+       "source": "South China Morning Post",
+       "published": "2026-10-06T12:00:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "South China Morning Post",
+         "url": "https://www.scmp.com/tech/big-tech/article/3369757/chinas-ai-race-accelerates-model-fatigue-becomes-next-challenge?utm_source=rss_feed",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "On September 22, the global artificial intelligence landscape spun on its axis within a matter of hours. In Beijing, Xiaomi engineers went live with an unusual broadcast, streaming the training run of their new MiMo-V2.6 model. In San Francisco, Anthropic unveiled its frontier Op"
+      }
+     ]
+    },
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Scientists in Vienna and Beijing create world’s first nuclear clocks",
+       "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+       "source": "The Japan Times",
+       "published": "2026-10-08T02:28:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "One of the scientists said he envisions uses for nuclear clocks in areas such as satellite-based navigation and the synchronization of data transfer."
+      }
+     ]
+    }
+   }
+  },
+  "at-city-vienna": {
+   "label": "Vienna",
+   "level": "city",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Scientists in Vienna and Beijing create world’s first nuclear clocks",
+       "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+       "source": "The Japan Times",
+       "published": "2026-10-08T02:28:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "One of the scientists said he envisions uses for nuclear clocks in areas such as satellite-based navigation and the synchronization of data transfer."
+      }
+     ]
+    }
+   }
+  },
+  "cn-city-beijing": {
+   "label": "Beijing",
+   "level": "city",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "As China’s AI race accelerates, ‘model fatigue’ becomes the next challenge",
+       "url": "https://www.scmp.com/tech/big-tech/article/3369757/chinas-ai-race-accelerates-model-fatigue-becomes-next-challenge?utm_source=rss_feed",
+       "source": "South China Morning Post",
+       "published": "2026-10-06T12:00:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "South China Morning Post",
+         "url": "https://www.scmp.com/tech/big-tech/article/3369757/chinas-ai-race-accelerates-model-fatigue-becomes-next-challenge?utm_source=rss_feed",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "On September 22, the global artificial intelligence landscape spun on its axis within a matter of hours. In Beijing, Xiaomi engineers went live with an unusual broadcast, streaming the training run of their new MiMo-V2.6 model. In San Francisco, Anthropic unveiled its frontier Op"
+      }
+     ]
+    },
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Scientists in Vienna and Beijing create world’s first nuclear clocks",
+       "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+       "source": "The Japan Times",
+       "published": "2026-10-08T02:28:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "One of the scientists said he envisions uses for nuclear clocks in areas such as satellite-based navigation and the synchronization of data transfer."
       }
      ]
     }
@@ -3624,23 +3962,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Goodman’s Japanese data center under fire following Sydney site setback",
-       "url": "https://www.japantimes.co.jp/business/2026/10/07/companies/australia-data-center-japan-tension/",
-       "source": "The Japan Times",
-       "published": "2026-10-07T07:31:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/business/2026/10/07/companies/australia-data-center-japan-tension/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The dispute with residents in Japan is part of a broader global backlash against data centers."
-      },
-      {
        "title": "Town questions $15b data centre set to use enough power for 1m homes",
        "url": "https://www.abc.net.au/news/2026-10-08/mixed-response-to-proposed-data-centre-near-wagga-wagga/107214860",
        "source": "ABC News (Australia) Business",
@@ -3659,81 +3980,25 @@
       }
      ]
     },
-    "research": {
+    "cyber": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Forest scientists, manager and growers gather in Canberra",
-       "url": "https://www.timberbiz.com.au/forest-scientists-manager-and-growers-gather-in-canberra/",
-       "source": "Timberbiz",
-       "published": "2026-10-06T23:28:58.000Z",
+       "title": "'Group of individuals' impacted by data breach at SA hospital",
+       "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T05:01:42.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Timberbiz",
-         "url": "https://www.timberbiz.com.au/forest-scientists-manager-and-growers-gather-in-canberra/",
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Forest scientists, managers, growers and communicators from across Australia gathered in Canberra for the 2026 Forestry Australia Symposium. More than 280 delegates registered to attend the three-day symposium focused on having conversations about building trust in the Australian"
-      }
-     ]
-    }
-   }
-  },
-  "au-ns": {
-   "label": "New South Wales",
-   "level": "admin1",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Goodman’s Japanese data center under fire following Sydney site setback",
-       "url": "https://www.japantimes.co.jp/business/2026/10/07/companies/australia-data-center-japan-tension/",
-       "source": "The Japan Times",
-       "published": "2026-10-07T07:31:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/business/2026/10/07/companies/australia-data-center-japan-tension/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The dispute with residents in Japan is part of a broader global backlash against data centers."
-      }
-     ]
-    }
-   }
-  },
-  "au-city-sydney": {
-   "label": "Sydney",
-   "level": "city",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Goodman’s Japanese data center under fire following Sydney site setback",
-       "url": "https://www.japantimes.co.jp/business/2026/10/07/companies/australia-data-center-japan-tension/",
-       "source": "The Japan Times",
-       "published": "2026-10-07T07:31:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/business/2026/10/07/companies/australia-data-center-japan-tension/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The dispute with residents in Japan is part of a broader global backlash against data centers."
+       "blurb": "An Adelaide private hospital has notified individuals and cyber security authorities of a data breach of personal information."
       }
      ]
     }
@@ -3743,6 +4008,28 @@
    "label": "Singapore",
    "level": "country",
    "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Singapore’s central bank wants all FinTech AI use cases subject to independent review",
+       "url": "https://www.theregister.com/ai-and-ml/2026/10/08/singapores-central-bank-wants-all-fintech-ai-use-cases-subject-to-independent-review/5301798",
+       "source": "The Register",
+       "published": "2026-10-08T00:53:03.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/ai-and-ml/2026/10/08/singapores-central-bank-wants-all-fintech-ai-use-cases-subject-to-independent-review/5301798",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Failures of third-party services no excuse for island nation’s financial sector"
+      }
+     ]
+    },
     "cloud": {
      "brief": "missing",
      "candidates": [
@@ -3910,6 +4197,11 @@
          "name": "Times of India Business",
          "url": "https://timesofindia.indiatimes.com/business/india-business/some-oligarchs-blocking-entry-of-starlink-in-india-elon-musk/articleshow/134776971.cms",
          "primary": false
+        },
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/07/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/",
+         "primary": false
         }
        ],
        "stages": [],
@@ -3917,38 +4209,38 @@
        "blurb": "Elon Musk has claimed that certain oligarchs are obstructing Starlink's entry into the Indian market. Starlink has already established the necessary infrastructure and is prepared to launch its services. The company aims to provide affordable broadband connectivity to areas lacki"
       },
       {
-       "title": "4G mobiles make a comeback on costlier 5G smartphones",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/4g-mobiles-make-a-comeback-on-costlier-5g-smartphones/articleshow/134753200.cms",
+       "title": "Airtel hikes postpaid tariffs, others may follow",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/airtel-hikes-postpaid-tariffs-others-may-follow/articleshow/134777582.cms",
        "source": "Times of India Business",
-       "published": "2026-10-07T00:49:22.000Z",
+       "published": "2026-10-08T01:48:18.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/4g-mobiles-make-a-comeback-on-costlier-5g-smartphones/articleshow/134753200.cms",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/airtel-hikes-postpaid-tariffs-others-may-follow/articleshow/134777582.cms",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "India is experiencing a noticeable slowdown in the shift to 5G smartphones due to rising costs. As a result, the demand for 4G devices is increasing, especially in the Rs 10,000-20,000 segment. More smartphone brands are now offering 4G models as consumers seek better specificati"
+       "blurb": "Bharti Airtel is set to raise its postpaid tariffs by 3-10% starting Thursday, which affects all users. The new plans will incorporate free international roaming, valued at Rs 2,000 for each SIM once per trip. This change means that postpaid plans will now begin at Rs 499, reflec"
       },
       {
-       "title": "Starlink gets India-ready with 20 gateway sites, local data controls",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/starlink-gets-india-ready-with-20-gateway-sites-local-data-controls/articleshow/134761532.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-07T09:15:42.000Z",
+       "title": "India denies bias in satellite internet approvals after Musk's 'oligarchs' jab",
+       "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
+       "source": "CNA Business",
+       "published": "2026-10-08T05:09:15.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/starlink-gets-india-ready-with-20-gateway-sites-local-data-controls/articleshow/134761532.cms",
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/india-denies-bias-in-satellite-internet-approvals-after-musks-oligarchs-jab-6441661",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Starlink has completed a major ground infrastructure with 20 gateway sites and hundreds of antennas in India. The company has developed security controls to keep Indian users’ data within India while engaging with local regulators. Starlink has been granted licenses to operate in"
+       "blurb": ""
       }
      ]
     },
@@ -4176,34 +4468,6 @@
     }
    }
   },
-  "ru": {
-   "label": "Russia",
-   "level": "country",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Five things to know about the death at Russia’s anti-plague laboratory",
-       "url": "https://www.atlanticcouncil.org/dispatches/five-things-to-know-about-the-death-at-russias-anti-plague-laboratory/",
-       "source": "Atlantic Council",
-       "published": "2026-10-06T21:22:59.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Atlantic Council",
-         "url": "https://www.atlanticcouncil.org/dispatches/five-things-to-know-about-the-death-at-russias-anti-plague-laboratory/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "In light of Russia’s record on biological weapons and lab accidents, the death of an anti-plague researcher raises questions to consider. The post Five things to know about the death at Russia’s anti-plague laboratory appeared first on Atlantic Council ."
-      }
-     ]
-    }
-   }
-  },
   "nz": {
    "label": "New Zealand",
    "level": "country",
@@ -4227,23 +4491,6 @@
        "stages": [],
        "via": null,
        "blurb": "AWS research found AI adoption across agriculture, forestry and fishing sits just under 40 percent."
-      },
-      {
-       "title": "EatClub dining discount app launches with more than 250 venues signed up",
-       "url": "https://www.rnz.co.nz/news/business/1778391/eatclub-dining-discount-app-launches-with-more-than-250-venues-signed-up",
-       "source": "RNZ Business",
-       "published": "2026-10-06T20:41:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "RNZ Business",
-         "url": "https://www.rnz.co.nz/news/business/1778391/eatclub-dining-discount-app-launches-with-more-than-250-venues-signed-up",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Eight Michelin-starred venues are among more than 250 signed up to the app."
       }
      ]
     }
@@ -4256,6 +4503,23 @@
     "software": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "CrowdStrike says China-based suspect used AI tools in South Korean bank hacks",
+       "url": "https://www.channelnewsasia.com/business/crowdstrike-says-china-based-suspect-used-ai-tools-in-south-korean-bank-hacks-6441386",
+       "source": "CNA Business",
+       "published": "2026-10-08T03:13:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/crowdstrike-says-china-based-suspect-used-ai-tools-in-south-korean-bank-hacks-6441386",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
       {
        "title": "South Korea’s AI chip giants are fighting for a bigger role in America’s AI boom",
        "url": "https://restofworld.org/2026/samsung-sk-hynix-ai-memory-chip-war-nvidia-openai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
@@ -4272,6 +4536,112 @@
        "stages": [],
        "via": null,
        "blurb": "Samsung and SK Hynix dominate the high-bandwidth memory market. Now they are competing to become indispensable to Nvidia, OpenAI, and other U.S. AI companies."
+      }
+     ]
+    },
+    "cyber": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "CrowdStrike says China-based suspect used AI tools in South Korean bank hacks",
+       "url": "https://www.channelnewsasia.com/business/crowdstrike-says-china-based-suspect-used-ai-tools-in-south-korean-bank-hacks-6441386",
+       "source": "CNA Business",
+       "published": "2026-10-08T03:13:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/crowdstrike-says-china-based-suspect-used-ai-tools-in-south-korean-bank-hacks-6441386",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      }
+     ]
+    }
+   }
+  },
+  "au-sa": {
+   "label": "South Australia",
+   "level": "admin1",
+   "sources": {
+    "cyber": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "'Group of individuals' impacted by data breach at SA hospital",
+       "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T05:01:42.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "An Adelaide private hospital has notified individuals and cyber security authorities of a data breach of personal information."
+      }
+     ]
+    }
+   }
+  },
+  "au-city-adelaide": {
+   "label": "Adelaide",
+   "level": "city",
+   "sources": {
+    "cyber": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "'Group of individuals' impacted by data breach at SA hospital",
+       "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T05:01:42.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "An Adelaide private hospital has notified individuals and cyber security authorities of a data breach of personal information."
+      }
+     ]
+    }
+   }
+  },
+  "gh": {
+   "label": "Ghana",
+   "level": "country",
+   "sources": {
+    "telecom": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ghana awards 5G licenses to Telecel, MTN after slow rollout woes",
+       "url": "https://www.datacenterdynamics.com/en/news/ghana-awards-5g-licenses-to-telecel-mtn-after-slow-rollout-woes/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-07T16:12:45.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/ghana-awards-5g-licenses-to-telecel-mtn-after-slow-rollout-woes/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Telecel plans to launch 5G in December"
       }
      ]
     }
@@ -4466,93 +4836,9 @@
     }
    }
   },
-  "au-ct": {
-   "label": "Australian Capital Territory",
-   "level": "admin1",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Forest scientists, manager and growers gather in Canberra",
-       "url": "https://www.timberbiz.com.au/forest-scientists-manager-and-growers-gather-in-canberra/",
-       "source": "Timberbiz",
-       "published": "2026-10-06T23:28:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Timberbiz",
-         "url": "https://www.timberbiz.com.au/forest-scientists-manager-and-growers-gather-in-canberra/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Forest scientists, managers, growers and communicators from across Australia gathered in Canberra for the 2026 Forestry Australia Symposium. More than 280 delegates registered to attend the three-day symposium focused on having conversations about building trust in the Australian"
-      }
-     ]
-    }
-   }
-  },
-  "cn-bj": {
-   "label": "Beijing",
-   "level": "admin1",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "As China’s AI race accelerates, ‘model fatigue’ becomes the next challenge",
-       "url": "https://www.scmp.com/tech/big-tech/article/3369757/chinas-ai-race-accelerates-model-fatigue-becomes-next-challenge?utm_source=rss_feed",
-       "source": "South China Morning Post",
-       "published": "2026-10-06T12:00:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "South China Morning Post",
-         "url": "https://www.scmp.com/tech/big-tech/article/3369757/chinas-ai-race-accelerates-model-fatigue-becomes-next-challenge?utm_source=rss_feed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "On September 22, the global artificial intelligence landscape spun on its axis within a matter of hours. In Beijing, Xiaomi engineers went live with an unusual broadcast, streaming the training run of their new MiMo-V2.6 model. In San Francisco, Anthropic unveiled its frontier Op"
-      }
-     ]
-    }
-   }
-  },
   "us-ca": {
    "label": "California",
    "level": "admin1",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "As China’s AI race accelerates, ‘model fatigue’ becomes the next challenge",
-       "url": "https://www.scmp.com/tech/big-tech/article/3369757/chinas-ai-race-accelerates-model-fatigue-becomes-next-challenge?utm_source=rss_feed",
-       "source": "South China Morning Post",
-       "published": "2026-10-06T12:00:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "South China Morning Post",
-         "url": "https://www.scmp.com/tech/big-tech/article/3369757/chinas-ai-race-accelerates-model-fatigue-becomes-next-challenge?utm_source=rss_feed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "On September 22, the global artificial intelligence landscape spun on its axis within a matter of hours. In Beijing, Xiaomi engineers went live with an unusual broadcast, streaming the training run of their new MiMo-V2.6 model. In San Francisco, Anthropic unveiled its frontier Op"
-      }
-     ]
-    }
-   }
-  },
-  "cn-city-beijing": {
-   "label": "Beijing",
-   "level": "city",
    "sources": {
     "software": {
      "brief": "missing",

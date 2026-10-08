@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T00:46:41.698Z",
+ "generatedAt": "2026-10-08T06:44:52.023Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -36,6 +36,25 @@
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
       },
       {
+       "title": "Scientists in Vienna and Beijing create world’s first nuclear clocks",
+       "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+       "source": "The Japan Times",
+       "published": "2026-10-08T02:28:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "One of the scientists said he envisions uses for nuclear clocks in areas such as satellite-based navigation and the synchronization of data transfer."
+      },
+      {
        "title": "GAIN announces fourth round of 2026 vouchers",
        "url": "https://www.ans.org/news/2026-10-07/article-8470/iter-welcomes-last-major-component-needed-for-core-machine-assembly/",
        "source": "ANS Nuclear Newswire",
@@ -53,26 +72,6 @@
        ],
        "via": null,
        "blurb": "This week, the Department of Energy’s Gateway for Accelerated Innovation in Nuclear (GAIN) announced three fourth-round fiscal year 2026 vouchers to support the development of innovative nuclear technologies. Each company will get access to specific capabilities and expertise in "
-      },
-      {
-       "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
-       "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
-       "source": "ENR (Engineering News-Record)",
-       "published": "2026-10-07T16:27:48.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ENR (Engineering News-Record)",
-         "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering"
       },
       {
        "title": "Vistra gets $4.2B DOE loan for planned uprates in Ohio, Pennsylvania",
@@ -108,6 +107,26 @@
        ],
        "via": null,
        "blurb": "Vistra is set to receive an approximately $4.2 billion loan from the Department of Energy to upgrade and uprate its fleet of nuclear reactors in Pennsylvania and Ohio, the DOE announced Monday. This work will add 433 MW of new nuclear capacity to help meet electricity demand in P"
+      },
+      {
+       "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
+       "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-07T16:27:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering."
       },
       {
        "title": "DCD Studio: The rise of US nuclear power, with Mark Gusakov, The Digital Infrastructure Alliance",
@@ -166,6 +185,30 @@
        "blurb": "The deal reportedly brings Rosatom’s market share in Russia’s container handling market to 50% and rail container transport to 44%."
       },
       {
+       "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
+       "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
+       "source": "POWER Magazine",
+       "published": "2026-10-06T19:58:54.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/fusion-firm-xcimer-announces-fresh-doe-milestones-funding",
+         "primary": false
+        },
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
+      },
+      {
        "title": "Swiss citizens may get to vote on construction of new reactors",
        "url": "https://www.world-nuclear-news.org/articles/swiss-citizens-may-get-to-vote-on-construction-of-new-reactors",
        "source": "World Nuclear News",
@@ -203,49 +246,6 @@
        ],
        "via": null,
        "blurb": "Uranium enrichment services provider Urenco has officially commissioned the uranium oxide storage facility at its site in Gronau, Germany. Construction of the facility was completed several years ago."
-      },
-      {
-       "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
-       "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
-       "source": "POWER Magazine",
-       "published": "2026-10-06T19:58:54.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/fusion-firm-xcimer-announces-fresh-doe-milestones-funding",
-         "primary": false
-        },
-        {
-         "name": "POWER Magazine",
-         "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
-      },
-      {
-       "title": "Belmont launches gravity survey at Crackingstone uranium site",
-       "url": "https://www.mining-technology.com/news/belmont-gravity-survey-crackingstone-site/",
-       "source": "Mining Technology",
-       "published": "2026-10-07T09:42:29.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/belmont-gravity-survey-crackingstone-site/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "via": null,
-       "blurb": "Belmont Resources has launched a high-resolution ground gravity survey at its wholly owned Crackingstone Uranium Project situated around 6km from Uranium City, Saskatchewan, Canada. The post Belmont launches gravity survey at Crackingstone uranium site appeared first on Mining Te"
       },
       {
        "title": "Nuclear clocks tick for the first time",
@@ -297,42 +297,62 @@
        "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
       },
       {
-       "title": "IEA members support faster release of reserve oil stocks",
-       "url": "https://www.thenationalnews.com/business/energy/2026/10/07/iea-members-support-faster-release-of-reserve-oil-stocks/",
-       "source": "The National (UAE)",
-       "published": "2026-10-07T16:30:42.000Z",
-       "verification": "confirmed",
+       "title": "UK motorists can now see live fuel prices on Google Maps",
+       "url": "https://www.theguardian.com/money/2026/oct/08/uk-drivers-live-petrol-diesel-prices-google-maps-pump-pricing",
+       "source": "The Guardian Business",
+       "published": "2026-10-08T05:00:11.000Z",
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "IEA (Executive Director statement)",
-         "url": "https://www.iea.org/news/statement-by-iea-executive-director-on-meeting-of-iea-member-governments-on-7-october-2026",
-         "primary": true
-        },
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/business/energy/2026/10/07/iea-members-support-faster-release-of-reserve-oil-stocks/",
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/ckx2d4ddjn2eo?at_medium=RSS&at_campaign=rss",
          "primary": false
         },
         {
-         "name": "Argus Media",
-         "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887710-iea-discusses-stock-release-details-still-scant",
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/money/2026/oct/08/uk-drivers-live-petrol-diesel-prices-google-maps-pump-pricing",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Members of the International Energy Agency (IEA) expressed support on Wednesday for accelerating the release of roughly 100 million barrels of reserve oil stocks previously agreed to in March. About 325 million barrels of oil have been released under the March agreement to ease o"
+       "blurb": "Move expected to make pump pricing more transparent and encourage competition after diesel hits record £2 a litre Drivers will be able to see live petrol prices on Google Maps for the first time from Thursday, in a move that will help motorists shop around for the cheapest fuel. "
       },
       {
-       "title": "Oil Dips as Middle East Flows Recover",
-       "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-07T20:43:41.000Z",
+       "title": "Oil rises as Middle East supply concerns persist amid shipping attacks",
+       "url": "https://www.straitstimes.com/business/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks",
+       "source": "The Straits Times Business",
+       "published": "2026-10-08T02:45:00.000Z",
        "verification": "multiple",
        "outlets": [
         {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/8/us-stocks-slide-as-oil-prices-fluctuate-over-renewed-iran-war-fears?traffic_source=rss",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/international-business/oil-remains-beyond-100-per-barrel-as-middle-east-supply-concerns-persist/articleshow/134777591.cms",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks",
+         "primary": false
+        },
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/oil-rises-middle-east-supply-concerns-persist-amid-shipping-attacks-6441226",
+         "primary": false
+        },
+        {
          "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/07/hostelworld-shares-slide-as-earnings-to-miss-estimates-amid-middle-east-conflict/",
+         "url": "https://www.irishtimes.com/business/markets/2026/10/08/oil-rises-as-supply-concerns-persist-amid-shipping-attacks/",
+         "primary": false
+        },
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/travel/2026/10/08/riyadh-airport-flights-delayed-and-cancelled-after-houthi-attacks-on-saudi-arabia/",
          "primary": false
         },
         {
@@ -346,11 +366,45 @@
          "primary": false
         }
        ],
+       "stages": [],
+       "via": null,
+       "blurb": "Distillate fuel inventories dropped by 42,000 barrels to 105.14 million barrels."
+      },
+      {
+       "title": "EIA raises Brent forecast to $105 a barrel for Q4 2026; gas-heated homes to spend less this winter",
+       "url": "https://www.eia.gov/outlooks/steo/",
+       "source": "US Energy Information Administration",
+       "published": "2026-10-06T16:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "EIA Short-Term Energy Outlook (Oct. 6, 2026)",
+         "url": "https://www.eia.gov/outlooks/steo/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
+      },
+      {
+       "title": "Nigeria: Dangote Refinery - Marketers Differ Over Petrol Sale Restriction to Importers",
+       "url": "https://allafrica.com/stories/202610080091.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-08T06:22:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610080091.html",
+         "primary": false
+        }
+       ],
        "stages": [
-        "grid"
+        "generation"
        ],
        "via": null,
-       "blurb": "Brent closed near $100 as traders weighed escalating Hormuz threats against resilient regional oil exports."
+       "blurb": "[Daily Trust] The Independent Petroleum Marketers' Association of Nigeria (IPMAN) has said the association has no problem with the decision of Dangote Refinery and Petrochemical to stop the sale of petroleum products to importers."
       },
       {
        "title": "Oil price volatility tops list of earnings risks for Japan firms - Reuters survey",
@@ -387,21 +441,21 @@
        "blurb": "Albertans vote this month on staying in Canada or moving ahead to a binding independence referendum."
       },
       {
-       "title": "EIA raises Brent forecast to $105 a barrel for Q4 2026; gas-heated homes to spend less this winter",
-       "url": "https://www.eia.gov/outlooks/steo/",
-       "source": "US Energy Information Administration",
-       "published": "2026-10-06T16:00:00.000Z",
-       "verification": "confirmed",
+       "title": "How much longer can the world absorb the Iran war shock?",
+       "url": "https://www.irishtimes.com/business/economy/2026/10/08/martin-wolf-iran-united-states-donald-trump-war-oil-strait-of-hormuz-economy-energy/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-08T05:00:01.000Z",
+       "verification": "analysis",
        "outlets": [
         {
-         "name": "EIA Short-Term Energy Outlook (Oct. 6, 2026)",
-         "url": "https://www.eia.gov/outlooks/steo/",
-         "primary": true
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/economy/2026/10/08/martin-wolf-iran-united-states-donald-trump-war-oil-strait-of-hormuz-economy-energy/",
+         "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
+       "blurb": "Disruption to oil supply, oil prices and the world economy has been surprisingly manageable so far"
       },
       {
        "title": "Govt raises petrol price by Rs1.82 per litre, reduces high-speed diesel rate by Re0.91",
@@ -421,40 +475,6 @@
        "blurb": "body{margin:0;padding:0;font-family:system-ui,-apple-system,sans-serif;overflow-wrap:anywhere;} Pakistan fuel prices, 2026 Official ex-depot prices (PKR/litre) — OGRA & Ministry of Energy notifications Petrol (MS-92) Diesel (HSD) Pre-crisis baseline Source: OGRA / Ministry of Ene"
       },
       {
-       "title": "Oil Fuel Fund mulls loan options",
-       "url": "https://www.bangkokpost.com/business/general/3333230/oil-fuel-fund-mulls-loan-options",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-07T23:03:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333230/oil-fuel-fund-mulls-loan-options",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Energy Ministry has stressed that borrowing money from banks to shore up the loss-riddled Oil Fuel Fund is a last resort, despite the fund's deficit approaching 100 billion baht."
-      },
-      {
-       "title": "Iran has 'lost complete control' of Strait of Hormuz', US claims",
-       "url": "https://www.thenationalnews.com/news/mena/2026/10/07/iran-has-lost-complete-control-of-strait-of-hormuz-us-claims/",
-       "source": "The National (UAE)",
-       "published": "2026-10-07T15:21:56.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/mena/2026/10/07/iran-has-lost-complete-control-of-strait-of-hormuz-us-claims/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "US Secretary of State Marco Rubio said on Wednesday that Iran had “lost complete control” of the Strait of Hormuz, saying oil flows through the waterway had returned to near prewar levels. “The Strait of Hormuz is open. There’s almost as much oil flowing out now as there was befo"
-      },
-      {
        "title": "Huge blaze breaks out at Russian oil facility in Samara Oblast",
        "url": "https://kyivindependent.com/huge-blaze-breaks-out-at-russian-oil-facility-in-samara-oblast/",
        "source": "The Kyiv Independent",
@@ -470,6 +490,23 @@
        "stages": [],
        "via": null,
        "blurb": "NASA's Fire Information for Resource Management System (FIRMS), which uses satellite data to detect thermal anomalies and fires, detected multiple hotspots at the facility."
+      },
+      {
+       "title": "Oil Fuel Fund mulls loan options",
+       "url": "https://www.bangkokpost.com/business/general/3333230/oil-fuel-fund-mulls-loan-options",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-07T23:03:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333230/oil-fuel-fund-mulls-loan-options",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Energy Ministry has stressed that borrowing money from banks to shore up the loss-riddled Oil Fuel Fund is a last resort, despite the fund's deficit approaching 100 billion baht."
       },
       {
        "title": "Next-generation geothermal: borrowing oil and gas tech for the data centre boom",
@@ -495,34 +532,53 @@
        ],
        "via": null,
        "blurb": "Energy Technology’s new episode examines Big Tech’s interest in geothermal, and the nascent sector’s need for oil and gas equipment and expertise. The post Next-generation geothermal: borrowing oil and gas tech for the data centre boom appeared first on Mining Technology ."
-      },
-      {
-       "title": "Chevron to sell Hess Midstream stake and DJ Basin assets",
-       "url": "https://www.offshore-technology.com/news/chevron-sell-hess-midstream-dj-basin/",
-       "source": "Offshore Technology",
-       "published": "2026-10-07T09:10:14.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/companies/news/55410127/chevron-restructures-bakken-midstream-agreements-transfers-hess-midstream-stake",
-         "primary": false
-        },
-        {
-         "name": "Offshore Technology",
-         "url": "https://www.offshore-technology.com/news/chevron-sell-hess-midstream-dj-basin/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Chevron has agreed to divest its ownership interests in Hess Midstream, along with its crude oil midstream assets in the Denver Julesburg (DJ) Basin in the US, as part of a transaction with Hess Midstream."
       }
      ]
     },
     "gas": {
      "brief": "ready",
      "candidates": [
+      {
+       "title": "Venture Global shipped 124 LNG cargoes in Q3",
+       "url": "https://lngprime.com/americas/venture-global-shipped-124-lng-cargoes-in-q3/198047/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T06:15:46.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/06/venture-global-and-conocophillips-play-the-long-game-with-20-year-lng-pact",
+         "primary": false
+        },
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/venture-global-shipped-124-lng-cargoes-in-q3/198047/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "US LNG exporter Venture Global shipped 124 LNG cargoes from its Calcasieu Pass and Plaquemines LNG export terminals in the third quarter of this year."
+      },
+      {
+       "title": "Japan’s Tokyo Gas in Indonesian LNG move",
+       "url": "https://lngprime.com/asia/japans-tokyo-gas-in-indonesian-lng-move/198067/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T06:10:44.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/asia/japans-tokyo-gas-in-indonesian-lng-move/198067/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Japan’s city gas supplier and LNG importer, Tokyo Gas, said it had acquired all shares of Indonesian LNG developer AGP Indonesia Utama (AGPIU)."
+      },
       {
        "title": "Golar picks NYK carrier for fourth FLNG conversion",
        "url": "https://splash247.com/golar-picks-nyk-carrier-for-fourth-flng-conversion/",
@@ -572,26 +628,6 @@
        "blurb": "Costs for Equinor’s Snohvit Future project, which includes upgrading the 4.3 mtpa Hammerfest LNG export facility on Melkoya Island in Norway, have increased further from the original estimates."
       },
       {
-       "title": "‘Surprised’ by Demand, Great Basin Goes Bigger on Nevada Natural Gas Expansion",
-       "url": "https://naturalgasintel.com/news/surprised-by-demand-great-basin-goes-bigger-on-nevada-natural-gas-expansion/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T19:29:21.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/surprised-by-demand-great-basin-goes-bigger-on-nevada-natural-gas-expansion/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Great Basin Gas Transmission has upsized its northern Nevada natural gas expansion to nearly 950 MMcf/d and a 48-inch diameter pipe, leaving room to add compression later for growing demand from data centers, power generators and industrial users."
-      },
-      {
        "title": "Wallenius Wilhelmsen in advanced talks with yards to order LNG-powered vessels",
        "url": "https://lngprime.com/europe/wallenius-wilhelmsen-in-advanced-talks-with-yards-to-order-lng-powered-vessels/198004/",
        "source": "LNG Prime",
@@ -614,6 +650,26 @@
        ],
        "via": null,
        "blurb": "Norway-based shipping firm Wallenius Wilhelmsen is in advanced talks with yards to sign shipbuilding contracts for LNG dual-fuel RoRo vessels."
+      },
+      {
+       "title": "‘Surprised’ by Demand, Great Basin Goes Bigger on Nevada Natural Gas Expansion",
+       "url": "https://naturalgasintel.com/news/surprised-by-demand-great-basin-goes-bigger-on-nevada-natural-gas-expansion/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-07T19:29:21.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/surprised-by-demand-great-basin-goes-bigger-on-nevada-natural-gas-expansion/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Great Basin Gas Transmission has upsized its northern Nevada natural gas expansion to nearly 950 MMcf/d and a 48-inch diameter pipe, leaving room to add compression later for growing demand from data centers, power generators and industrial users."
       },
       {
        "title": "Producers Take Breather, but Natural Gas Output Projected to Ramp Up as Winter Approaches",
@@ -730,42 +786,6 @@
        ],
        "via": null,
        "blurb": "Equinor on Wednesday again said it would cost more than expected to extend the life of its Hammerfest LNG export facility in Norway, pushing the cost estimate up to about $2.76 billion, but saying the project remains on track to be completed on time."
-      },
-      {
-       "title": "Execs Predict Future Henry Hub NatGas Prices",
-       "url": "https://www.rigzone.com/news/execs_predict_future_henry_hub_natgas_prices-07-oct-2026-184795-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-07T14:30:03.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/execs_predict_future_henry_hub_natgas_prices-07-oct-2026-184795-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Executives from oil and gas firms revealed where they expect the Henry Hub natural gas price to be at various points in the future in the third quarter Dallas Fed Energy Survey."
-      },
-      {
-       "title": "Qatar Brings Empty LNG Ships Into Gulf",
-       "url": "https://www.rigzone.com/news/wire/qatar_brings_empty_lng_ships_into_gulf-07-oct-2026-184793-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-07T13:37:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/qatar_brings_empty_lng_ships_into_gulf-07-oct-2026-184793-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Qatar has amassed a fleet of empty liquefied natural gas tankers in the Persian Gulf."
       }
      ]
     },
@@ -773,26 +793,21 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "‘Lawyers should be running to courts’ to stop coal approvals after landmark ruling, NSW MP says",
-       "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
-       "source": "The Guardian Energy",
-       "published": "2026-10-07T07:24:31.000Z",
-       "verification": "multiple",
+       "title": "Biggest coal-producing state fears impact of High Court emissions decision",
+       "url": "https://www.abc.net.au/news/2026-10-08/qld-mining-sector-concerns-nsw-high-court-emissions-decision/107242190",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T05:11:43.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
-         "primary": false
-        },
-        {
          "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-07/mount-pleasant-coal-mine-high-court-ruling/107233650",
+         "url": "https://www.abc.net.au/news/2026-10-08/qld-mining-sector-concerns-nsw-high-court-emissions-decision/107242190",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "High court finding in favour of Hunter Valley community group sets precedent other environmentalists should follow, advocate says Get our new political email , free app or daily news podcast A landmark decision in Australia’s first climate change high court case has been describe"
+       "blurb": "The federal government says the High Court decision is constrained to New South Wales but the industry in Queensland isn't so sure there won't be ramifications."
       },
       {
        "title": "Overseas, Albanese sees ‘the very definition of climate injustice’ – but at home, he still wants coal",
@@ -810,6 +825,23 @@
        "stages": [],
        "via": null,
        "blurb": "It isn’t hard to see a contradiction between the PM’s message in Fiji and his opposition to legal action to stop a NSW coalmine Get our new political email , free app or daily news podcast There are unlikely to be many bigger moments in Australian community action on the climate "
+      },
+      {
+       "title": "‘Lawyers should be running to courts’ to stop coal approvals after landmark ruling, NSW MP says",
+       "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
+       "source": "The Guardian Energy",
+       "published": "2026-10-07T07:24:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "High court finding in favour of Hunter Valley community group sets precedent other environmentalists should follow, advocate says Get our new political email , free app or daily news podcast A landmark decision in Australia’s first climate change high court case has been describe"
       },
       {
        "title": "SMPC: Semirara coal auction rules unfair",
@@ -1207,6 +1239,83 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Bangladesh approves 442 MW solar project with eight-hour battery storage",
+       "url": "https://www.pv-magazine.com/2026/10/08/bangladesh-approves-442-mw-solar-project-with-eight-hour-battery-storage/",
+       "source": "pv magazine",
+       "published": "2026-10-08T06:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/bangladesh-approves-442-mw-solar-project-with-eight-hour-battery-storage/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Bangladesh has approved a 442 MW grid-connected solar project with eight hours of battery storage at the site of a planned expansion of the Rampal coal-fired power station. The Bangladesh Power Development Board will invest BDT 25 billion ($200 million) in the project. The post B"
+      },
+      {
+       "title": "High defect rates drag down solar performance and yield, finds report",
+       "url": "https://www.pv-magazine.com/2026/10/08/high-defect-rates-drag-down-solar-performance-and-yield-finds-report/",
+       "source": "pv magazine",
+       "published": "2026-10-08T06:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/high-defect-rates-drag-down-solar-performance-and-yield-finds-report/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "HelioVolta’s 2026 SolarGrade PV Health Report, based on inspections of nearly 8 GW across over 1,500 solar projects in the U.S. and Puerto Rico, found widespread safety and quality concerns, with 87% of projects requiring urgent corrective action and 8% facing critical issues. Th"
+      },
+      {
+       "title": "UNSW and UtmoLight set 23.5% efficiency record for large-area perovskite solar submodule",
+       "url": "https://www.pv-tech.org/unsw-and-utmolight-set-23-5-efficiency-record-for-large-area-perovskite-solar-submodule/",
+       "source": "PV Tech",
+       "published": "2026-10-08T03:25:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/unsw-and-utmolight-set-23-5-efficiency-record-for-large-area-perovskite-solar-submodule/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "Researchers at UNSW and UtmoLight have achieved a certified stabilised efficiency of 23.5% for a large-area perovskite solar submodule."
+      },
+      {
+       "title": "Australia’s rooftop installs rise on back of battery rebate scheme",
+       "url": "https://www.pv-magazine.com/2026/10/08/rooftop-installs-rise-on-back-of-battery-rebate-scheme/",
+       "source": "pv magazine",
+       "published": "2026-10-08T03:22:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/rooftop-installs-rise-on-back-of-battery-rebate-scheme/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Australia’s rooftop solar deployments increased by more than 7% last month with the latest data revealing that almost 312 MW of small-scale PV capacity was installed across the country in September 2026. The post Australia’s rooftop installs rise on back of battery rebate scheme "
+      },
+      {
        "title": "Australia wants to sell Singapore solar power. But does anyone want it?",
        "url": "https://www.abc.net.au/news/2026-10-08/sun-cable-plans-to-send-australian-solar-energy-to-singapore/107229542",
        "source": "ABC News (Australia) Business",
@@ -1360,77 +1469,6 @@
        ],
        "via": null,
        "blurb": "Independent power producer (IPP) Zelestra has closed a US$350 million credit facility for the 203 MW Reclamation Solar project in Indiana."
-      },
-      {
-       "title": "DNV: Solar PV to become largest global contributor to electricity mix from 2031",
-       "url": "https://www.pv-tech.org/dnv-solar-pv-largest-contributor-electricity-mix-2031/",
-       "source": "PV Tech",
-       "published": "2026-10-07T11:43:52.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/dnv-solar-pv-largest-contributor-electricity-mix-2031/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "As solar PV continues to grow globally, the technology is set to become the largest contributor to the world’s electricity mix from 2031, according to a report from technical and safety expert DNV."
-      },
-      {
-       "title": "Bondada secures US$119.3 million EPC order for 270MW solar PV project in Maharashtra",
-       "url": "https://www.pv-tech.org/bondada-secures-us119-3-million-epc-order-for-270mw-solar-pv-project-in-maharashtra/",
-       "source": "PV Tech",
-       "published": "2026-10-07T10:51:52.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/bondada-secures-us119-3-million-epc-order-for-270mw-solar-pv-project-in-maharashtra/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Bondada Engineering secures a US$119.3 million solar EPC order, while its subsidiary Onix IPP secures US$94.1 million in SBI financing."
-      },
-      {
-       "title": "Plant diversity under PV modules rivals grassland at Japanese solar park",
-       "url": "https://www.pv-magazine.com/2026/10/07/plant-diversity-under-pv-modules-rivals-grassland-at-japanese-solar-park/",
-       "source": "pv magazine",
-       "published": "2026-10-07T09:59:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/07/plant-diversity-under-pv-modules-rivals-grassland-at-japanese-solar-park/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "Researchers surveying a 55 MW solar plant on a former golf course in central Japan found that plant diversity under the panels was statistically indistinguishable from open grassland, with communities resembling forest edges, after five years of only twice-yearly mowing. The post"
-      },
-      {
-       "title": "US solar industry to reflect on optimistic policy landscape at PV CellTech 2026",
-       "url": "https://www.pv-tech.org/us-solar-industry-reflect-optimistic-policy-landscape-pv-celltech-2026/",
-       "source": "PV Tech",
-       "published": "2026-10-07T09:29:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/us-solar-industry-reflect-optimistic-policy-landscape-pv-celltech-2026/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The US solar sector will discuss a policy landscape includes “a lot of good news” at next week's PV CellTech USA conference."
       }
      ]
     },
@@ -1529,6 +1567,23 @@
        "blurb": "Glaciers in Switzerland – the home to the most in the Alps – lost 5.5% of their ice volume this year, the second-biggest percentage drop on record due to heat waves and low winter snowfall, experts report."
       },
       {
+       "title": "Can wave energy power data centers? | Q&A with Eco Wave Power CEO Inna Braverman",
+       "url": "https://www.renewableenergyworld.com/hydro-power/tidal-wave-energy/can-wave-energy-power-data-centers-qa-with-eco-wave-power-ceo-inna-braverman/",
+       "source": "Hydro Review",
+       "published": "2026-10-05T14:56:24.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Hydro Review",
+         "url": "https://www.renewableenergyworld.com/hydro-power/tidal-wave-energy/can-wave-energy-power-data-centers-qa-with-eco-wave-power-ceo-inna-braverman/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Eco Wave Power CEO Inna Braverman believes wave energy presents a compelling opportunity to power seaside data center load."
+      },
+      {
        "title": "Latin America’s hydropower outlook to 2035",
        "url": "https://www.waterpowermagazine.com/analysis/latin-americas-hydropower-outlook-to-2035/",
        "source": "International Water Power & Dam Construction",
@@ -1546,23 +1601,6 @@
        ],
        "via": null,
        "blurb": "Hydropower capacity in Latin America and the Caribbean is forecast to continue growing over the next decade The post Latin America’s hydropower outlook to 2035 appeared first on International Water Power ."
-      },
-      {
-       "title": "Can wave energy power data centers? | Q&A with Eco Wave Power CEO Inna Braverman",
-       "url": "https://www.renewableenergyworld.com/hydro-power/tidal-wave-energy/can-wave-energy-power-data-centers-qa-with-eco-wave-power-ceo-inna-braverman/",
-       "source": "Hydro Review",
-       "published": "2026-10-05T14:56:24.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Hydro Review",
-         "url": "https://www.renewableenergyworld.com/hydro-power/tidal-wave-energy/can-wave-energy-power-data-centers-qa-with-eco-wave-power-ceo-inna-braverman/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Eco Wave Power CEO Inna Braverman believes wave energy presents a compelling opportunity to power seaside data center load."
       },
       {
        "title": "DGPC signs Bhutanese partnership for 40MW Parochhu hydropower project",
@@ -1856,26 +1894,60 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Hithium’s ∞Cell N785Ah vs CATL, HiNa, and its own LFP range: a sodium-ion comparison for BESS",
-       "url": "https://www.energy-storage.news/hithiums-%e2%88%9ecell-n785ah-vs-catl-hina-and-its-own-lfp-range-a-sodium-ion-comparison-for-bess/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-07T11:45:36.000Z",
-       "verification": "multiple",
+       "title": "Bangladesh approves 442 MW solar project with eight-hour battery storage",
+       "url": "https://www.pv-magazine.com/2026/10/08/bangladesh-approves-442-mw-solar-project-with-eight-hour-battery-storage/",
+       "source": "pv magazine",
+       "published": "2026-10-08T06:30:00.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/07/hithiums-sodium-ion-storage-push-where-it-could-win-where-it-wont-and-path-to-bankability/",
+         "url": "https://www.pv-magazine.com/2026/10/08/bangladesh-approves-442-mw-solar-project-with-eight-hour-battery-storage/",
          "primary": false
-        },
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Bangladesh has approved a 442 MW grid-connected solar project with eight hours of battery storage at the site of a planned expansion of the Rampal coal-fired power station. The Bangladesh Power Development Board will invest BDT 25 billion ($200 million) in the project. The post B"
+      },
+      {
+       "title": "Australia: Eku Energy locks community deals for 2.76GWh Queensland BESS duo as Valo wins 1.6GWh contract",
+       "url": "https://www.energy-storage.news/australia-eku-energy-locks-community-deals-for-2-76gwh-queensland-bess-duo-as-valo-wins-1-6gwh-contract/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-08T03:23:27.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
         {
          "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/hithiums-%e2%88%9ecell-n785ah-vs-catl-hina-and-its-own-lfp-range-a-sodium-ion-comparison-for-bess/",
+         "url": "https://www.energy-storage.news/australia-eku-energy-locks-community-deals-for-2-76gwh-queensland-bess-duo-as-valo-wins-1-6gwh-contract/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Hithium's recent sodium-ion battery and BESS product launch is the latest in a long line of announcements showing an inflection point for the battery chemistry. But how do its new products compare to other sodium-ion systems out there, and to its own LFP offering?"
+       "blurb": "Eku Energy has signed CBAs with Gladstone Regional Council and Western Downs Regional Council for two BESS projects in Queensland."
+      },
+      {
+       "title": "Australia’s rooftop installs rise on back of battery rebate scheme",
+       "url": "https://www.pv-magazine.com/2026/10/08/rooftop-installs-rise-on-back-of-battery-rebate-scheme/",
+       "source": "pv magazine",
+       "published": "2026-10-08T03:22:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/rooftop-installs-rise-on-back-of-battery-rebate-scheme/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Australia’s rooftop solar deployments increased by more than 7% last month with the latest data revealing that almost 312 MW of small-scale PV capacity was installed across the country in September 2026. The post Australia’s rooftop installs rise on back of battery rebate scheme "
       },
       {
        "title": "Philippines plans to mandate 1% SAF mix by 2030",
@@ -1953,6 +2025,43 @@
        "blurb": "The 48 V residential energy storage system uses sodium-ion NCO chemistry and offers 9.7 kWh of rated energy. AuroraCell claims a cycle life of 20,000 cycles at 100% depth of discharge and backs the battery with a 20-year warranty. The post AuroraCell launches 9.7 kWh sodium-ion c"
       },
       {
+       "title": "Hithium’s ∞Cell N785Ah vs CATL, HiNa, and its own LFP range: a sodium-ion comparison for BESS",
+       "url": "https://www.energy-storage.news/hithiums-%e2%88%9ecell-n785ah-vs-catl-hina-and-its-own-lfp-range-a-sodium-ion-comparison-for-bess/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-07T11:45:36.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/hithiums-%e2%88%9ecell-n785ah-vs-catl-hina-and-its-own-lfp-range-a-sodium-ion-comparison-for-bess/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Hithium's recent sodium-ion battery and BESS product launch is the latest in a long line of announcements showing an inflection point for the battery chemistry. But how do its new products compare to other sodium-ion systems out there, and to its own LFP offering?"
+      },
+      {
+       "title": "e‑STORAGE to deliver 100MW battery system for OX2’s Muswellbrook project",
+       "url": "https://www.power-technology.com/news/e-storage-battery-system-muswellbrook/",
+       "source": "Power Technology",
+       "published": "2026-10-07T10:03:04.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/e-storage-battery-system-muswellbrook/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "e-STORAGE has agreed to supply and commission a 100MW/200MWh BESS for OX2’s Muswellbrook Solar Farm and Battery project in Australia."
+      },
+      {
        "title": "Walmart Chile and Copec Inaugurate First Hydrogen Station for High-Tonnage Trucks",
        "url": "https://fuelcellsworks.com/2026/10/01/electrolyzer/walmart-chile-and-copec-inaugurate-first-hydrogen-station-for-high-tonnage-trucks",
        "source": "FuelCellsWorks",
@@ -1989,26 +2098,6 @@
        "blurb": ""
       },
       {
-       "title": "e‑STORAGE to deliver 100MW battery system for OX2’s Muswellbrook project",
-       "url": "https://www.power-technology.com/news/e-storage-battery-system-muswellbrook/",
-       "source": "Power Technology",
-       "published": "2026-10-07T10:03:04.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Power Technology",
-         "url": "https://www.power-technology.com/news/e-storage-battery-system-muswellbrook/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid",
-        "generation"
-       ],
-       "via": null,
-       "blurb": "e-STORAGE has agreed to supply and commission a 100MW/200MWh BESS for OX2’s Muswellbrook Solar Farm and Battery project in Australia."
-      },
-      {
        "title": "DNV Cuts 2060 Clean Hydrogen Forecast to 210 Million Tonnes — Just Five Months After Previous Outlook",
        "url": "https://fuelcellsworks.com/2026/10/07/h2/dnv-cuts-2060-clean-hydrogen-forecast-to-210-million-tonnes-just-five-months-after-previous-outlook",
        "source": "FuelCellsWorks",
@@ -2024,63 +2113,6 @@
        "stages": [],
        "via": null,
        "blurb": ""
-      },
-      {
-       "title": "Germany’s Hydrogen Rollout Risks Falling Out of Sync, Ariadne Warns",
-       "url": "https://fuelcellsworks.com/2026/10/06/h2/germany-s-hydrogen-rollout-risks-falling-out-of-sync-ariadne-warns",
-       "source": "FuelCellsWorks",
-       "published": "2026-10-07T16:30:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "FuelCellsWorks",
-         "url": "https://fuelcellsworks.com/2026/10/06/h2/germany-s-hydrogen-rollout-risks-falling-out-of-sync-ariadne-warns",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
-       "title": "France’s largest battery goes online",
-       "url": "https://www.pv-magazine.com/2026/10/07/frances-largest-battery-goes-online/",
-       "source": "pv magazine",
-       "published": "2026-10-07T07:31:57.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/07/frances-largest-battery-goes-online/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "TagEnergy has inaugurated a 240 MW/480 MWh battery storage facility in northeastern France, the country’s largest operational BESS. The Tesla Megapack-based project provides grid-balancing services and is jointly owned by TagEnergy and Banque des Territoires. The post France’s la"
-      },
-      {
-       "title": "Fraunhofer opens research centre in Braunschweig",
-       "url": "https://www.electrive.com/2026/10/07/fraunhofer-opens-research-centre-in-braunschweig/",
-       "source": "electrive",
-       "published": "2026-10-07T06:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "electrive",
-         "url": "https://www.electrive.com/2026/10/07/fraunhofer-opens-research-centre-in-braunschweig/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "innovation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "The Fraunhofer-Gesellschaft has inaugurated the new Center for Energy Storage and Systems (ZESS) in Braunschweig. The federal government and the state have invested nearly €50 million euros in the research hub, which focuses on solid-state batteries, cell production, and hydrogen"
       }
      ]
     }
@@ -2093,26 +2125,6 @@
     "nuclear": {
      "brief": "ready",
      "candidates": [
-      {
-       "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
-       "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
-       "source": "ENR (Engineering News-Record)",
-       "published": "2026-10-07T16:27:48.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ENR (Engineering News-Record)",
-         "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering"
-      },
       {
        "title": "Vistra gets $4.2B DOE loan for planned uprates in Ohio, Pennsylvania",
        "url": "https://www.ans.org/news/2026-10-06/article-8464/vistra-gets-42b-doe-loan-for-planned-uprates-in-ohio-pennsylvania/",
@@ -2147,6 +2159,26 @@
        ],
        "via": null,
        "blurb": "Vistra is set to receive an approximately $4.2 billion loan from the Department of Energy to upgrade and uprate its fleet of nuclear reactors in Pennsylvania and Ohio, the DOE announced Monday. This work will add 433 MW of new nuclear capacity to help meet electricity demand in P"
+      },
+      {
+       "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
+       "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-07T16:27:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering."
       },
       {
        "title": "DCD Studio: The rise of US nuclear power, with Mark Gusakov, The Digital Infrastructure Alliance",
@@ -2411,23 +2443,6 @@
        "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
       },
       {
-       "title": "Iran has 'lost complete control' of Strait of Hormuz', US claims",
-       "url": "https://www.thenationalnews.com/news/mena/2026/10/07/iran-has-lost-complete-control-of-strait-of-hormuz-us-claims/",
-       "source": "The National (UAE)",
-       "published": "2026-10-07T15:21:56.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/mena/2026/10/07/iran-has-lost-complete-control-of-strait-of-hormuz-us-claims/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "US Secretary of State Marco Rubio said on Wednesday that Iran had “lost complete control” of the Strait of Hormuz, saying oil flows through the waterway had returned to near prewar levels. “The Strait of Hormuz is open. There’s almost as much oil flowing out now as there was befo"
-      },
-      {
        "title": "EIA: US crude oil inventories down 3.2 million bbl",
        "url": "https://www.ogj.com/general-interest/economics-markets/news/55410217/eia-us-crude-oil-inventories-down-32-million-bbl",
        "source": "Oil & Gas Journal",
@@ -2508,43 +2523,6 @@
        "blurb": "Chevron has agreed to divest its ownership interests in Hess Midstream, along with its crude oil midstream assets in the Denver Julesburg (DJ) Basin in the US, as part of a transaction with Hess Midstream."
       },
       {
-       "title": "Asia shares weaker, oil up as investors weigh Saudi-Houthi escalation",
-       "url": "https://www.straitstimes.com/business/asia-shares-weaker-oil-up-as-investors-weigh-saudi-houthi-escalation",
-       "source": "The Straits Times Business",
-       "published": "2026-10-07T07:20:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/asia-shares-weaker-oil-up-as-investors-weigh-saudi-houthi-escalation",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "In Asian trading, US crude ticked up 0.9% to US$90.2 a barrel."
-      },
-      {
-       "title": "Brent crosses $101 as Saudi attacks, US storm add to oil supply concerns",
-       "url": "https://timesofindia.indiatimes.com/business/international-business/brent-crosses-101-as-saudi-attacks-us-storm-add-to-oil-supply-concerns/articleshow/134753570.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-07T01:49:46.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/international-business/brent-crosses-101-as-saudi-attacks-us-storm-add-to-oil-supply-concerns/articleshow/134753570.cms",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction",
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Rising oil prices, now exceeding 1%, raise alarms over potential storm disruptions affecting U.S. oil production and refineries. With Brent crude passing $101 per barrel and WTI crude hitting $90.38, concerns are amplified by supply issues from Saudi Arabia and mixed signals on U"
-      },
-      {
        "title": "Diesel’s supply crunch may hit CFOs through freight contracts",
        "url": "https://www.supplychaindive.com/news/diesels-supply-crunch-may-hit-cfos-through-freight-contracts/831981/",
        "source": "Supply Chain Dive",
@@ -2604,12 +2582,53 @@
        ],
        "via": null,
        "blurb": "Narrowing the Jones Act has curbed a roaring trade that was supplying East and West coast ports with fuel produced on the Gulf Coast, as well as crude oil and products used in refining."
+      },
+      {
+       "title": "100+ Oil Execs Predict Future WTI Oil Prices",
+       "url": "https://www.rigzone.com/news/100_oil_execs_predict_future_wti_oil_prices-06-oct-2026-184781-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-06T12:06:40.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/100_oil_execs_predict_future_wti_oil_prices-06-oct-2026-184781-article/?rss=true",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "More than 100 oil and gas firm executives revealed where they expect the WTI crude oil price to be at various points in the future in the third quarter Dallas Fed Energy Survey."
       }
      ]
     },
     "gas": {
      "brief": "ready",
      "candidates": [
+      {
+       "title": "Venture Global shipped 124 LNG cargoes in Q3",
+       "url": "https://lngprime.com/americas/venture-global-shipped-124-lng-cargoes-in-q3/198047/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T06:15:46.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/06/venture-global-and-conocophillips-play-the-long-game-with-20-year-lng-pact",
+         "primary": false
+        },
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/venture-global-shipped-124-lng-cargoes-in-q3/198047/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "US LNG exporter Venture Global shipped 124 LNG cargoes from its Calcasieu Pass and Plaquemines LNG export terminals in the third quarter of this year."
+      },
       {
        "title": "‘Surprised’ by Demand, Great Basin Goes Bigger on Nevada Natural Gas Expansion",
        "url": "https://naturalgasintel.com/news/surprised-by-demand-great-basin-goes-bigger-on-nevada-natural-gas-expansion/",
@@ -2787,13 +2806,8 @@
        "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
        "source": "Offshore Technology",
        "published": "2026-10-06T09:45:47.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/americas/centalion-buys-haynesville-natural-gas-assets/197958/",
-         "primary": false
-        },
         {
          "name": "Offshore Technology",
          "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
@@ -2805,23 +2819,6 @@
        ],
        "via": null,
        "blurb": "Centalion, formerly known as Gunvor, has acquired a portfolio of upstream and midstream natural gas assets in Texas and Louisiana from US-based private energy company Silver Hill Energy Partners."
-      },
-      {
-       "title": "Venture Global and ConocoPhillips play the long game with 20-year LNG pact",
-       "url": "https://offshore-energy.biz/2026/10/06/venture-global-and-conocophillips-play-the-long-game-with-20-year-lng-pact",
-       "source": "Offshore Energy",
-       "published": "2026-10-06T14:13:47.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Offshore Energy",
-         "url": "https://offshore-energy.biz/2026/10/06/venture-global-and-conocophillips-play-the-long-game-with-20-year-lng-pact",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "ConocoPhillips has penned a multi-year liquefied natural gas (LNG) deal with Venture Global, securing long-term U.S. energy supply starting in 2030."
       },
       {
        "title": "Trump cites $54 billion South Korean plan for Alaska LNG",
@@ -2894,6 +2891,25 @@
        ],
        "via": null,
        "blurb": "California-headquartered Clearway Energy Group said it has closed financing and begun construction of the Swan Energy Center, a 650-MW solar facility located on portions of formerly strip-mined land in northwestern Bates County, Missouri. The project is San Francisco-based Clearw"
+      },
+      {
+       "title": "High defect rates drag down solar performance and yield, finds report",
+       "url": "https://www.pv-magazine.com/2026/10/08/high-defect-rates-drag-down-solar-performance-and-yield-finds-report/",
+       "source": "pv magazine",
+       "published": "2026-10-08T06:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/high-defect-rates-drag-down-solar-performance-and-yield-finds-report/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "HelioVolta’s 2026 SolarGrade PV Health Report, based on inspections of nearly 8 GW across over 1,500 solar projects in the U.S. and Puerto Rico, found widespread safety and quality concerns, with 87% of projects requiring urgent corrective action and 8% facing critical issues. Th"
       },
       {
        "title": "Toyo cuts the ribbon on its newly-expanded solar factory in Texas",
@@ -3209,26 +3225,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "The U.S. market is writing its own sodium-ion spec",
-       "url": "https://www.pv-magazine.com/2026/10/07/the-u-s-market-is-writing-its-own-sodium-ion-spec/",
-       "source": "pv magazine",
-       "published": "2026-10-07T05:50:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/07/the-u-s-market-is-writing-its-own-sodium-ion-spec/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid",
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "Sodium-ion batteries are rapidly transitioning from promising alternative to commercial reality in the U.S. energy storage market, but navigating federal domestic content policies, complex FEOC sourcing rules, and stringent UL 9540A safety testing remains crucial for developers s"
-      },
-      {
        "title": "Maryland nets 440 MW/1,760 MWh in first bulk energy storage procurement",
        "url": "https://www.utilitydive.com/news/maryland-nets-440-mw1760-mwh-in-first-bulk-energy-storage-procurement/832261/",
        "source": "Utility Dive",
@@ -3410,13 +3406,8 @@
        "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
        "source": "Offshore Technology",
        "published": "2026-10-06T09:45:47.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/americas/centalion-buys-haynesville-natural-gas-assets/197958/",
-         "primary": false
-        },
         {
          "name": "Offshore Technology",
          "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
@@ -3458,7 +3449,7 @@
         "innovation"
        ],
        "via": null,
-       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering"
+       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering."
       },
       {
        "title": "Tennessee Valley Authority Gets Approval to Build Small Nuclear Reactor",
@@ -3925,13 +3916,8 @@
        "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
        "source": "Offshore Technology",
        "published": "2026-10-06T09:45:47.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/americas/centalion-buys-haynesville-natural-gas-assets/197958/",
-         "primary": false
-        },
         {
          "name": "Offshore Technology",
          "url": "https://www.offshore-technology.com/news/centalion-buys-silver-hills-haynesville-assets/",
@@ -4147,16 +4133,11 @@
        "url": "https://www.energy-storage.news/sumitomo-corporation-invests-in-hero-future-energies-solar-wind-storage-hybrid-in-karnataka-india/",
        "source": "Energy-Storage.news",
        "published": "2026-10-06T05:46:37.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Energy-Storage.news",
          "url": "https://www.energy-storage.news/sumitomo-corporation-invests-in-hero-future-energies-solar-wind-storage-hybrid-in-karnataka-india/",
-         "primary": false
-        },
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/sumitomo-invests-in-500mw-200mwh-solar-wind-storage-project-in-india/",
          "primary": false
         }
        ],
@@ -4236,25 +4217,6 @@
        ],
        "via": null,
        "blurb": "Kenya's Dangote Group names contractors for planned $16-billion crude oil refining and processing facility, billed as the largest-ever foreign investment in the country."
-      },
-      {
-       "title": "Kenya: Parliament Gatekeepers Blocking Scrutiny of Dangote Refinery - Sifuna",
-       "url": "https://allafrica.com/stories/202610070282.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T10:20:38.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070282.html",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "[Capital FM] Nairobi -- Nairobi Senator Edwin Sifuna has accused parliamentary \"gatekeepers\" of frustrating scrutiny of the proposed Lamu refinery, just days after he filed a formal request for documents on the project with the Senate set to proceed on recess on October 9."
       }
      ]
     }
@@ -4498,6 +4460,62 @@
     }
    }
   },
+  "bd": {
+   "label": "Bangladesh",
+   "level": "country",
+   "sources": {
+    "solar": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Bangladesh approves 442 MW solar project with eight-hour battery storage",
+       "url": "https://www.pv-magazine.com/2026/10/08/bangladesh-approves-442-mw-solar-project-with-eight-hour-battery-storage/",
+       "source": "pv magazine",
+       "published": "2026-10-08T06:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/bangladesh-approves-442-mw-solar-project-with-eight-hour-battery-storage/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Bangladesh has approved a 442 MW grid-connected solar project with eight hours of battery storage at the site of a planned expansion of the Rampal coal-fired power station. The Bangladesh Power Development Board will invest BDT 25 billion ($200 million) in the project. The post B"
+      }
+     ]
+    },
+    "emerging": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Bangladesh approves 442 MW solar project with eight-hour battery storage",
+       "url": "https://www.pv-magazine.com/2026/10/08/bangladesh-approves-442-mw-solar-project-with-eight-hour-battery-storage/",
+       "source": "pv magazine",
+       "published": "2026-10-08T06:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/bangladesh-approves-442-mw-solar-project-with-eight-hour-battery-storage/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Bangladesh has approved a 442 MW grid-connected solar project with eight hours of battery storage at the site of a planned expansion of the Rampal coal-fired power station. The Bangladesh Power Development Board will invest BDT 25 billion ($200 million) in the project. The post B"
+      }
+     ]
+    }
+   }
+  },
   "us-mo": {
    "label": "Missouri",
    "level": "admin1",
@@ -4706,26 +4724,38 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "NSW coalmine climate ruling a massive shake-up to Australia's coal and gas",
-       "url": "https://www.abc.net.au/news/2026-10-07/mount-pleasant-coal-mine-high-court-ruling/107233650",
+       "title": "Biggest coal-producing state fears impact of High Court emissions decision",
+       "url": "https://www.abc.net.au/news/2026-10-08/qld-mining-sector-concerns-nsw-high-court-emissions-decision/107242190",
        "source": "ABC News (Australia) Business",
-       "published": "2026-10-06T23:48:54.000Z",
-       "verification": "multiple",
+       "published": "2026-10-08T05:11:43.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
-         "primary": false
-        },
-        {
          "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-07/mount-pleasant-coal-mine-high-court-ruling/107233650",
+         "url": "https://www.abc.net.au/news/2026-10-08/qld-mining-sector-concerns-nsw-high-court-emissions-decision/107242190",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Australia's High Court rules in favour of a Hunter Valley community group in a landmark climate ruling that could redraw how fossil fuel projects are approved in Australia."
+       "blurb": "The federal government says the High Court decision is constrained to New South Wales but the industry in Queensland isn't so sure there won't be ramifications."
+      },
+      {
+       "title": "‘Lawyers should be running to courts’ to stop coal approvals after landmark ruling, NSW MP says",
+       "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
+       "source": "The Guardian Energy",
+       "published": "2026-10-07T07:24:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "High court finding in favour of Hunter Valley community group sets precedent other environmentalists should follow, advocate says Get our new political email , free app or daily news podcast A landmark decision in Australia’s first climate change high court case has been describe"
       },
       {
        "title": "Overseas, Albanese sees ‘the very definition of climate injustice’ – but at home, he still wants coal",
@@ -4828,6 +4858,25 @@
     "solar": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Australia’s rooftop installs rise on back of battery rebate scheme",
+       "url": "https://www.pv-magazine.com/2026/10/08/rooftop-installs-rise-on-back-of-battery-rebate-scheme/",
+       "source": "pv magazine",
+       "published": "2026-10-08T03:22:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/rooftop-installs-rise-on-back-of-battery-rebate-scheme/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Australia’s rooftop solar deployments increased by more than 7% last month with the latest data revealing that almost 312 MW of small-scale PV capacity was installed across the country in September 2026. The post Australia’s rooftop installs rise on back of battery rebate scheme "
+      },
       {
        "title": "Australia wants to sell Singapore solar power. But does anyone want it?",
        "url": "https://www.abc.net.au/news/2026-10-08/sun-cable-plans-to-send-australian-solar-energy-to-singapore/107229542",
@@ -4955,6 +5004,42 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Australia: Eku Energy locks community deals for 2.76GWh Queensland BESS duo as Valo wins 1.6GWh contract",
+       "url": "https://www.energy-storage.news/australia-eku-energy-locks-community-deals-for-2-76gwh-queensland-bess-duo-as-valo-wins-1-6gwh-contract/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-08T03:23:27.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/australia-eku-energy-locks-community-deals-for-2-76gwh-queensland-bess-duo-as-valo-wins-1-6gwh-contract/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Eku Energy has signed CBAs with Gladstone Regional Council and Western Downs Regional Council for two BESS projects in Queensland."
+      },
+      {
+       "title": "Australia’s rooftop installs rise on back of battery rebate scheme",
+       "url": "https://www.pv-magazine.com/2026/10/08/rooftop-installs-rise-on-back-of-battery-rebate-scheme/",
+       "source": "pv magazine",
+       "published": "2026-10-08T03:22:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/rooftop-installs-rise-on-back-of-battery-rebate-scheme/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Australia’s rooftop solar deployments increased by more than 7% last month with the latest data revealing that almost 312 MW of small-scale PV capacity was installed across the country in September 2026. The post Australia’s rooftop installs rise on back of battery rebate scheme "
+      },
+      {
        "title": "Atmos Renewables closes financing on 1.6GWh Capacity Investment Scheme-backed battery storage system in Australia",
        "url": "https://www.energy-storage.news/atmos-renewables-closes-financing-on-1-6gwh-capacity-investment-scheme-backed-battery-storage-system-in-australia/",
        "source": "Energy-Storage.news",
@@ -5032,26 +5117,6 @@
        ],
        "via": null,
        "blurb": "Australia's 59 grid-scale BESS earned a combined AU$88.91 million in estimated gross energy and FCAS market revenue in the NEM."
-      },
-      {
-       "title": "Australia’s Origin Energy targets building ‘Southern Hemisphere’s largest battery storage complex’",
-       "url": "https://www.energy-storage.news/australias-origin-energy-targets-building-southern-hemispheres-largest-battery-storage-complex/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-06T04:26:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/australias-origin-energy-targets-building-southern-hemispheres-largest-battery-storage-complex/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Origin Energy has referred a new BESS project, Eraring BESS North, for assessment under Australia's EPBC Act."
       }
      ]
     }
@@ -5318,9 +5383,48 @@
    "label": "Queensland",
    "level": "admin1",
    "sources": {
+    "coal": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Biggest coal-producing state fears impact of High Court emissions decision",
+       "url": "https://www.abc.net.au/news/2026-10-08/qld-mining-sector-concerns-nsw-high-court-emissions-decision/107242190",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T05:11:43.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-08/qld-mining-sector-concerns-nsw-high-court-emissions-decision/107242190",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The federal government says the High Court decision is constrained to New South Wales but the industry in Queensland isn't so sure there won't be ramifications."
+      }
+     ]
+    },
     "emerging": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Australia: Eku Energy locks community deals for 2.76GWh Queensland BESS duo as Valo wins 1.6GWh contract",
+       "url": "https://www.energy-storage.news/australia-eku-energy-locks-community-deals-for-2-76gwh-queensland-bess-duo-as-valo-wins-1-6gwh-contract/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-08T03:23:27.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/australia-eku-energy-locks-community-deals-for-2-76gwh-queensland-bess-duo-as-valo-wins-1-6gwh-contract/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Eku Energy has signed CBAs with Gladstone Regional Council and Western Downs Regional Council for two BESS projects in Queensland."
+      },
       {
        "title": "Atmos Renewables closes financing on 1.6GWh Capacity Investment Scheme-backed battery storage system in Australia",
        "url": "https://www.energy-storage.news/atmos-renewables-closes-financing-on-1-6gwh-capacity-investment-scheme-backed-battery-storage-system-in-australia/",
@@ -5417,6 +5521,28 @@
     "oil": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "UK motorists can now see live fuel prices on Google Maps",
+       "url": "https://www.theguardian.com/money/2026/oct/08/uk-drivers-live-petrol-diesel-prices-google-maps-pump-pricing",
+       "source": "The Guardian Business",
+       "published": "2026-10-08T05:00:11.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/ckx2d4ddjn2eo?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/money/2026/oct/08/uk-drivers-live-petrol-diesel-prices-google-maps-pump-pricing",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Move expected to make pump pricing more transparent and encourage competition after diesel hits record £2 a litre Drivers will be able to see live petrol prices on Google Maps for the first time from Thursday, in a move that will help motorists shop around for the cheapest fuel. "
+      },
       {
        "title": "New UK gas and oil projects are a ‘no-brainer’, says EDF boss",
        "url": "https://www.theguardian.com/business/2026/sep/30/uk-gas-and-oil-climate-crisis-energy-edf-boss",
@@ -5961,26 +6087,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Norway’s Hammerfest LNG Project Still on Track After ‘Unforeseen Issues’ Inflate Costs",
-       "url": "https://naturalgasintel.com/news/norways-hammerfest-lng-project-still-on-track-after-unforeseen-issues-inflate-costs/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T15:54:30.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/norways-hammerfest-lng-project-still-on-track-after-unforeseen-issues-inflate-costs/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Equinor on Wednesday again said it would cost more than expected to extend the life of its Hammerfest LNG export facility in Norway, pushing the cost estimate up to about $2.76 billion, but saying the project remains on track to be completed on time."
-      },
-      {
        "title": "Equinor says Hammerfest LNG upgrade costs climb further",
        "url": "https://lngprime.com/europe/equinor-says-hammerfest-lng-upgrade-costs-climb-further/198023/",
        "source": "LNG Prime",
@@ -6003,6 +6109,26 @@
        ],
        "via": null,
        "blurb": "Costs for Equinor’s Snohvit Future project, which includes upgrading the 4.3 mtpa Hammerfest LNG export facility on Melkoya Island in Norway, have increased further from the original estimates."
+      },
+      {
+       "title": "Norway’s Hammerfest LNG Project Still on Track After ‘Unforeseen Issues’ Inflate Costs",
+       "url": "https://naturalgasintel.com/news/norways-hammerfest-lng-project-still-on-track-after-unforeseen-issues-inflate-costs/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-07T15:54:30.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/norways-hammerfest-lng-project-still-on-track-after-unforeseen-issues-inflate-costs/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Equinor on Wednesday again said it would cost more than expected to extend the life of its Hammerfest LNG export facility in Norway, pushing the cost estimate up to about $2.76 billion, but saying the project remains on track to be completed on time."
       },
       {
        "title": "Norwegian Car Carriers orders more LNG-powered PCTCs in China",
@@ -6789,43 +6915,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Asia shares weaker, oil up as investors weigh Saudi-Houthi escalation",
-       "url": "https://www.straitstimes.com/business/asia-shares-weaker-oil-up-as-investors-weigh-saudi-houthi-escalation",
-       "source": "The Straits Times Business",
-       "published": "2026-10-07T07:20:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/asia-shares-weaker-oil-up-as-investors-weigh-saudi-houthi-escalation",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "In Asian trading, US crude ticked up 0.9% to US$90.2 a barrel."
-      },
-      {
-       "title": "Brent crosses $101 as Saudi attacks, US storm add to oil supply concerns",
-       "url": "https://timesofindia.indiatimes.com/business/international-business/brent-crosses-101-as-saudi-attacks-us-storm-add-to-oil-supply-concerns/articleshow/134753570.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-07T01:49:46.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/international-business/brent-crosses-101-as-saudi-attacks-us-storm-add-to-oil-supply-concerns/articleshow/134753570.cms",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction",
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Rising oil prices, now exceeding 1%, raise alarms over potential storm disruptions affecting U.S. oil production and refineries. With Brent crude passing $101 per barrel and WTI crude hitting $90.38, concerns are amplified by supply issues from Saudi Arabia and mixed signals on U"
-      },
-      {
        "title": "Dutch design ultra-shallow-draft DSV for Gulf Region's oil & gas",
        "url": "https://offshore-energy.biz/2026/10/07/dutch-design-ultra-shallow-draft-dsv-for-gulf-regions-oil-and-gas",
        "source": "Offshore Energy",
@@ -6951,6 +7040,30 @@
    "label": "China",
    "level": "country",
    "sources": {
+    "nuclear": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Scientists in Vienna and Beijing create world’s first nuclear clocks",
+       "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+       "source": "The Japan Times",
+       "published": "2026-10-08T02:28:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "One of the scientists said he envisions uses for nuclear clocks in areas such as satellite-based navigation and the synchronization of data transfer."
+      }
+     ]
+    },
     "oil": {
      "brief": "missing",
      "candidates": [
@@ -7068,25 +7181,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Heterojunction solar cell built with biomass lignin-based silver paste achieves 25.96% efficiency",
-       "url": "https://www.pv-magazine.com/2026/10/07/heterojunction-solar-cell-built-with-biomass-lignin-based-silver-paste-achieves-25-96-efficiency/",
-       "source": "pv magazine",
-       "published": "2026-10-07T06:34:47.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/07/heterojunction-solar-cell-built-with-biomass-lignin-based-silver-paste-achieves-25-96-efficiency/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "Chinese researchers have developed a biomass lignin-based silver paste for HJT solar cells that reduces reliance on petroleum-based resins and improves electrical performance. The optimized paste increased solar cell efficiency from 25.01% to 25.96% while improving printability, "
-      },
-      {
        "title": "US Solar Panel Makers Try to Catch China With a Big Leap in Technology",
        "url": "https://www.nytimes.com/2026/10/05/business/energy-environment/tandem-solar-panels-us-china.html",
        "source": "NYT Technology",
@@ -7106,34 +7200,34 @@
        "blurb": "Manufacturers say they are close to perfecting a new, more efficient solar panel that could help the United States reclaim ground it lost."
       }
      ]
-    },
-    "emerging": {
+    }
+   }
+  },
+  "pr": {
+   "label": "Puerto Rico",
+   "level": "country",
+   "sources": {
+    "solar": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Hithium’s sodium-ion storage push, where it could win, where it won’t, and path to bankability",
-       "url": "https://www.pv-magazine.com/2026/10/07/hithiums-sodium-ion-storage-push-where-it-could-win-where-it-wont-and-path-to-bankability/",
+       "title": "High defect rates drag down solar performance and yield, finds report",
+       "url": "https://www.pv-magazine.com/2026/10/08/high-defect-rates-drag-down-solar-performance-and-yield-finds-report/",
        "source": "pv magazine",
-       "published": "2026-10-07T07:26:01.000Z",
-       "verification": "multiple",
+       "published": "2026-10-08T06:00:00.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/07/hithiums-sodium-ion-storage-push-where-it-could-win-where-it-wont-and-path-to-bankability/",
-         "primary": false
-        },
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/hithiums-%e2%88%9ecell-n785ah-vs-catl-hina-and-its-own-lfp-range-a-sodium-ion-comparison-for-bess/",
+         "url": "https://www.pv-magazine.com/2026/10/08/high-defect-rates-drag-down-solar-performance-and-yield-finds-report/",
          "primary": false
         }
        ],
        "stages": [
-        "grid",
         "generation"
        ],
        "via": null,
-       "blurb": "After Chinese manufacturer Hithium launched its new 4 MWh sodium-ion BESS alongside its new 785Ah cell for energy storage, in response to questions, Leb Lan, senior product manager, Hithium, spoke with ESS News to discuss not only the technology developments but also where and wh"
+       "blurb": "HelioVolta’s 2026 SolarGrade PV Health Report, based on inspections of nearly 8 GW across over 1,500 solar projects in the U.S. and Puerto Rico, found widespread safety and quality concerns, with 87% of projects requiring urgent corrective action and 8% facing critical issues. Th"
       }
      ]
     }
@@ -7456,6 +7550,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Japan’s Tokyo Gas in Indonesian LNG move",
+       "url": "https://lngprime.com/asia/japans-tokyo-gas-in-indonesian-lng-move/198067/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T06:10:44.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/asia/japans-tokyo-gas-in-indonesian-lng-move/198067/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Japan’s city gas supplier and LNG importer, Tokyo Gas, said it had acquired all shares of Indonesian LNG developer AGP Indonesia Utama (AGPIU)."
+      },
+      {
        "title": "Golar picks NYK carrier for fourth FLNG conversion",
        "url": "https://splash247.com/golar-picks-nyk-carrier-for-fourth-flng-conversion/",
        "source": "Splash247",
@@ -7509,16 +7620,11 @@
        "url": "https://www.energy-storage.news/sumitomo-corporation-invests-in-hero-future-energies-solar-wind-storage-hybrid-in-karnataka-india/",
        "source": "Energy-Storage.news",
        "published": "2026-10-06T05:46:37.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Energy-Storage.news",
          "url": "https://www.energy-storage.news/sumitomo-corporation-invests-in-hero-future-energies-solar-wind-storage-hybrid-in-karnataka-india/",
-         "primary": false
-        },
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/sumitomo-invests-in-500mw-200mwh-solar-wind-storage-project-in-india/",
          "primary": false
         }
        ],
@@ -7703,41 +7809,6 @@
     }
    }
   },
-  "in-ka": {
-   "label": "Karnataka",
-   "level": "admin1",
-   "sources": {
-    "solar": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Sumitomo Corporation invests in Hero Future Energies’ solar-wind-storage hybrid in Karnataka, India",
-       "url": "https://www.energy-storage.news/sumitomo-corporation-invests-in-hero-future-energies-solar-wind-storage-hybrid-in-karnataka-india/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-06T05:46:37.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/sumitomo-corporation-invests-in-hero-future-energies-solar-wind-storage-hybrid-in-karnataka-india/",
-         "primary": false
-        },
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/sumitomo-invests-in-500mw-200mwh-solar-wind-storage-project-in-india/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Japanese trading company Sumitomo Corporation has invested in a utility-scale renewable energy park combining solar PV, wind and energy storage in India."
-      }
-     ]
-    }
-   }
-  },
   "ca-sk": {
    "label": "Saskatchewan",
    "level": "admin1",
@@ -7763,6 +7834,90 @@
        ],
        "via": null,
        "blurb": "Belmont Resources has launched a high-resolution ground gravity survey at its wholly owned Crackingstone Uranium Project situated around 6km from Uranium City, Saskatchewan, Canada. The post Belmont launches gravity survey at Crackingstone uranium site appeared first on Mining Te"
+      }
+     ]
+    }
+   }
+  },
+  "id": {
+   "label": "Indonesia",
+   "level": "country",
+   "sources": {
+    "gas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Japan’s Tokyo Gas in Indonesian LNG move",
+       "url": "https://lngprime.com/asia/japans-tokyo-gas-in-indonesian-lng-move/198067/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T06:10:44.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/asia/japans-tokyo-gas-in-indonesian-lng-move/198067/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Japan’s city gas supplier and LNG importer, Tokyo Gas, said it had acquired all shares of Indonesian LNG developer AGP Indonesia Utama (AGPIU)."
+      }
+     ]
+    }
+   }
+  },
+  "jp-tk": {
+   "label": "Tokyo",
+   "level": "admin1",
+   "sources": {
+    "gas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Japan’s Tokyo Gas in Indonesian LNG move",
+       "url": "https://lngprime.com/asia/japans-tokyo-gas-in-indonesian-lng-move/198067/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T06:10:44.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/asia/japans-tokyo-gas-in-indonesian-lng-move/198067/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Japan’s city gas supplier and LNG importer, Tokyo Gas, said it had acquired all shares of Indonesian LNG developer AGP Indonesia Utama (AGPIU)."
+      }
+     ]
+    }
+   }
+  },
+  "jp-city-tokyo": {
+   "label": "Tokyo",
+   "level": "city",
+   "sources": {
+    "gas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Japan’s Tokyo Gas in Indonesian LNG move",
+       "url": "https://lngprime.com/asia/japans-tokyo-gas-in-indonesian-lng-move/198067/",
+       "source": "LNG Prime",
+       "published": "2026-10-08T06:10:44.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/asia/japans-tokyo-gas-in-indonesian-lng-move/198067/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Japan’s city gas supplier and LNG importer, Tokyo Gas, said it had acquired all shares of Indonesian LNG developer AGP Indonesia Utama (AGPIU)."
       }
      ]
     }
@@ -7966,207 +8121,6 @@
     }
    }
   },
-  "ir": {
-   "label": "Iran",
-   "level": "country",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Iran has 'lost complete control' of Strait of Hormuz', US claims",
-       "url": "https://www.thenationalnews.com/news/mena/2026/10/07/iran-has-lost-complete-control-of-strait-of-hormuz-us-claims/",
-       "source": "The National (UAE)",
-       "published": "2026-10-07T15:21:56.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/mena/2026/10/07/iran-has-lost-complete-control-of-strait-of-hormuz-us-claims/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "US Secretary of State Marco Rubio said on Wednesday that Iran had “lost complete control” of the Strait of Hormuz, saying oil flows through the waterway had returned to near prewar levels. “The Strait of Hormuz is open. There’s almost as much oil flowing out now as there was befo"
-      },
-      {
-       "title": "Iran war disruption creates ‘huge’ oil trading opportunities, Vitol says",
-       "url": "https://www.thenationalnews.com/business/energy/2026/10/07/iran-war-disruption-creates-huge-oil-trading-opportunities-vitol-says/",
-       "source": "The National (UAE)",
-       "published": "2026-10-07T13:11:27.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/business/energy/2026/10/07/iran-war-disruption-creates-huge-oil-trading-opportunities-vitol-says/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "The Iran war is creating “huge” arbitrage opportunities across global energy markets as disrupted trade flows stretch tanker fleets to capacity and send oil on longer journeys, according to Vitol Group, the world’s largest independent oil trader. “There’s huge arbitrage opportuni"
-      },
-      {
-       "title": "Vitol CEO Says Oil Inventories in West Have Been Exhausted",
-       "url": "https://www.rigzone.com/news/wire/vitol_ceo_says_oil_inventories_in_west_have_been_exhausted-06-oct-2026-184782-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-06T13:48:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/vitol_ceo_says_oil_inventories_in_west_have_been_exhausted-06-oct-2026-184782-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Oil inventories in western countries have been exhausted as a result of the Iran war, the boss of the world's largest independent oil trader said."
-      }
-     ]
-    }
-   }
-  },
-  "tr": {
-   "label": "Türkiye",
-   "level": "country",
-   "sources": {
-    "gas": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Botas goes to market for nearly three-year LNG carrier charter",
-       "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
-       "source": "Splash247",
-       "published": "2026-10-07T10:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Turkey’s state-owned energy company Botas has gone to market for an LNG carrier on a firm 940-day time charter as it continues to build out its gas shipping capacity. The Ankara-based company is seeking a vessel built in 2015 or later with capacity of between 173,600 and 175,000 "
-      }
-     ]
-    },
-    "coal": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Australia and Turkey criticised for hosting UN climate conference while embracing coal",
-       "url": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
-       "source": "The Guardian Energy",
-       "published": "2026-10-04T14:00:32.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Global campaign group 350.org urges Cop31 hosts to announce a coal phase-out date and national roadmaps to get off fossil fuels Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here The hosts of the next major United Nations climate conference, T"
-      }
-     ]
-    },
-    "geothermal": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Margün Enerji plans exploratory geothermal drilling campaign in Buldan, Denizli, Türkiye",
-       "url": "https://www.thinkgeoenergy.com/margun-enerji-plans-exploratory-geothermal-drilling-campaign-in-buldan-denizli-turkiye/",
-       "source": "ThinkGeoEnergy",
-       "published": "2026-10-01T09:40:03.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ThinkGeoEnergy",
-         "url": "https://www.thinkgeoenergy.com/margun-enerji-plans-exploratory-geothermal-drilling-campaign-in-buldan-denizli-turkiye/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "via": null,
-       "blurb": "Margün Enerji plans to drill eight exploratory geothermal wells in Buldan in Denizli, Türkiye as part of the development plan for its portfolio of licenses. The post Margün Enerji plans exploratory geothermal drilling campaign in Buldan, Denizli, Türkiye first appeared on ThinkGe"
-      }
-     ]
-    }
-   }
-  },
-  "tr-an": {
-   "label": "Ankara",
-   "level": "admin1",
-   "sources": {
-    "gas": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Botas goes to market for nearly three-year LNG carrier charter",
-       "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
-       "source": "Splash247",
-       "published": "2026-10-07T10:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Turkey’s state-owned energy company Botas has gone to market for an LNG carrier on a firm 940-day time charter as it continues to build out its gas shipping capacity. The Ankara-based company is seeking a vessel built in 2015 or later with capacity of between 173,600 and 175,000 "
-      }
-     ]
-    }
-   }
-  },
-  "tr-city-ankara": {
-   "label": "Ankara",
-   "level": "city",
-   "sources": {
-    "gas": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Botas goes to market for nearly three-year LNG carrier charter",
-       "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
-       "source": "Splash247",
-       "published": "2026-10-07T10:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Turkey’s state-owned energy company Botas has gone to market for an LNG carrier on a firm 940-day time charter as it continues to build out its gas shipping capacity. The Ankara-based company is seeking a vessel built in 2015 or later with capacity of between 173,600 and 175,000 "
-      }
-     ]
-    }
-   }
-  },
   "be": {
    "label": "Belgium",
    "level": "country",
@@ -8282,6 +8236,51 @@
     }
    }
   },
+  "ir": {
+   "label": "Iran",
+   "level": "country",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "How much longer can the world absorb the Iran war shock?",
+       "url": "https://www.irishtimes.com/business/economy/2026/10/08/martin-wolf-iran-united-states-donald-trump-war-oil-strait-of-hormuz-economy-energy/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-08T05:00:01.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/economy/2026/10/08/martin-wolf-iran-united-states-donald-trump-war-oil-strait-of-hormuz-economy-energy/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Disruption to oil supply, oil prices and the world economy has been surprisingly manageable so far"
+      },
+      {
+       "title": "Vitol CEO Says Oil Inventories in West Have Been Exhausted",
+       "url": "https://www.rigzone.com/news/wire/vitol_ceo_says_oil_inventories_in_west_have_been_exhausted-06-oct-2026-184782-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-06T13:48:44.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/vitol_ceo_says_oil_inventories_in_west_have_been_exhausted-06-oct-2026-184782-article/?rss=true",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Oil inventories in western countries have been exhausted as a result of the Iran war, the boss of the world's largest independent oil trader said."
+      }
+     ]
+    }
+   }
+  },
   "th": {
    "label": "Thailand",
    "level": "country",
@@ -8329,23 +8328,40 @@
     }
    }
   },
-  "ke-na-2": {
-   "label": "Nairobi",
+  "au-ns": {
+   "label": "New South Wales",
    "level": "admin1",
    "sources": {
-    "oil": {
+    "coal": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Kenya: Parliament Gatekeepers Blocking Scrutiny of Dangote Refinery - Sifuna",
-       "url": "https://allafrica.com/stories/202610070282.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T10:20:38.000Z",
+       "title": "Biggest coal-producing state fears impact of High Court emissions decision",
+       "url": "https://www.abc.net.au/news/2026-10-08/qld-mining-sector-concerns-nsw-high-court-emissions-decision/107242190",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T05:11:43.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070282.html",
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-08/qld-mining-sector-concerns-nsw-high-court-emissions-decision/107242190",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The federal government says the High Court decision is constrained to New South Wales but the industry in Queensland isn't so sure there won't be ramifications."
+      },
+      {
+       "title": "Approval of biggest coal project in NSW planning commission’s history described as ‘infamous betrayal’",
+       "url": "https://www.theguardian.com/australia-news/2026/sep/30/hunter-valley-coal-project-singleton-ipc-planning-decision",
+       "source": "The Guardian Energy",
+       "published": "2026-09-30T05:48:20.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/australia-news/2026/sep/30/hunter-valley-coal-project-singleton-ipc-planning-decision",
          "primary": false
         }
        ],
@@ -8353,37 +8369,37 @@
         "generation"
        ],
        "via": null,
-       "blurb": "[Capital FM] Nairobi -- Nairobi Senator Edwin Sifuna has accused parliamentary \"gatekeepers\" of frustrating scrutiny of the proposed Lamu refinery, just days after he filed a formal request for documents on the project with the Senate set to proceed on recess on October 9."
+       "blurb": "Independent Planning Commission says climate change impacts from Hunter Valley project will be ‘outweighed’ by economic benefits Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast The New South Wales independent pla"
       }
      ]
     }
    }
   },
-  "ke-city-nairobi": {
-   "label": "Nairobi",
-   "level": "city",
+  "in-ka": {
+   "label": "Karnataka",
+   "level": "admin1",
    "sources": {
-    "oil": {
+    "solar": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Kenya: Parliament Gatekeepers Blocking Scrutiny of Dangote Refinery - Sifuna",
-       "url": "https://allafrica.com/stories/202610070282.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T10:20:38.000Z",
+       "title": "Sumitomo Corporation invests in Hero Future Energies’ solar-wind-storage hybrid in Karnataka, India",
+       "url": "https://www.energy-storage.news/sumitomo-corporation-invests-in-hero-future-energies-solar-wind-storage-hybrid-in-karnataka-india/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-06T05:46:37.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070282.html",
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/sumitomo-corporation-invests-in-hero-future-energies-solar-wind-storage-hybrid-in-karnataka-india/",
          "primary": false
         }
        ],
        "stages": [
-        "generation"
+        "grid"
        ],
        "via": null,
-       "blurb": "[Capital FM] Nairobi -- Nairobi Senator Edwin Sifuna has accused parliamentary \"gatekeepers\" of frustrating scrutiny of the proposed Lamu refinery, just days after he filed a formal request for documents on the project with the Senate set to proceed on recess on October 9."
+       "blurb": "Japanese trading company Sumitomo Corporation has invested in a utility-scale renewable energy park combining solar PV, wind and energy storage in India."
       }
      ]
     }
@@ -8486,25 +8502,6 @@
     "oil": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Oil Reserves Release Speeds Up, Diesel First",
-       "url": "https://www.riotimesonline.com/iea-oil-reserve-release-speeds-up-diesel-first/",
-       "source": "The Rio Times",
-       "published": "2026-10-07T23:49:38.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Rio Times",
-         "url": "https://www.riotimesonline.com/iea-oil-reserve-release-speeds-up-diesel-first/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "via": null,
-       "blurb": "IEA members back a faster release of emergency oil, with diesel first. About 100 million barrels of pledges remain as Brent holds above US$100. The post Oil Reserves Release Speeds Up, Diesel First appeared first on The Rio Times ."
-      },
       {
        "title": "Petrobras makes additional discovery offshore Amapá",
        "url": "https://www.ogj.com/exploration-development/news/55409591/petrobras-makes-additional-discovery-offshore-amapa",
@@ -8672,6 +8669,58 @@
     }
    }
   },
+  "tr": {
+   "label": "Türkiye",
+   "level": "country",
+   "sources": {
+    "coal": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Australia and Turkey criticised for hosting UN climate conference while embracing coal",
+       "url": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
+       "source": "The Guardian Energy",
+       "published": "2026-10-04T14:00:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Global campaign group 350.org urges Cop31 hosts to announce a coal phase-out date and national roadmaps to get off fossil fuels Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here The hosts of the next major United Nations climate conference, T"
+      }
+     ]
+    },
+    "geothermal": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Margün Enerji plans exploratory geothermal drilling campaign in Buldan, Denizli, Türkiye",
+       "url": "https://www.thinkgeoenergy.com/margun-enerji-plans-exploratory-geothermal-drilling-campaign-in-buldan-denizli-turkiye/",
+       "source": "ThinkGeoEnergy",
+       "published": "2026-10-01T09:40:03.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ThinkGeoEnergy",
+         "url": "https://www.thinkgeoenergy.com/margun-enerji-plans-exploratory-geothermal-drilling-campaign-in-buldan-denizli-turkiye/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "via": null,
+       "blurb": "Margün Enerji plans to drill eight exploratory geothermal wells in Buldan in Denizli, Türkiye as part of the development plan for its portfolio of licenses. The post Margün Enerji plans exploratory geothermal drilling campaign in Buldan, Denizli, Türkiye first appeared on ThinkGe"
+      }
+     ]
+    }
+   }
+  },
   "pk": {
    "label": "Pakistan",
    "level": "country",
@@ -8689,23 +8738,6 @@
         {
          "name": "Dawn Business",
          "url": "https://www.dawn.com/news/2035445/govt-raises-petrol-price-by-rs182-per-litre-reduces-high-speed-diesel-rate-by-re091",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "body{margin:0;padding:0;font-family:system-ui,-apple-system,sans-serif;overflow-wrap:anywhere;} Pakistan fuel prices, 2026 Official ex-depot prices (PKR/litre) — OGRA & Ministry of Energy notifications Petrol (MS-92) Diesel (HSD) Pre-crisis baseline Source: OGRA / Ministry of Ene"
-      },
-      {
-       "title": "Petrol price up by Rs1.19 per litre, high-speed diesel's down by Rs1.91 in latest revision",
-       "url": "https://www.dawn.com/news/2035208/petrol-price-up-by-rs119-per-litre-high-speed-diesels-down-by-rs191-in-latest-revision",
-       "source": "Dawn Business",
-       "published": "2026-10-06T17:59:31.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2035208/petrol-price-up-by-rs119-per-litre-high-speed-diesels-down-by-rs191-in-latest-revision",
          "primary": false
         }
        ],
@@ -8742,6 +8774,156 @@
        ],
        "via": null,
        "blurb": "The Morpho well, drilled in deep waters off Amapá, reached an oil-bearing interval, with ongoing analyses confirming good oil quality and promising further exploration opportunities in the Foz do Amazonas basin."
+      }
+     ]
+    }
+   }
+  },
+  "at": {
+   "label": "Austria",
+   "level": "country",
+   "sources": {
+    "nuclear": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Scientists in Vienna and Beijing create world’s first nuclear clocks",
+       "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+       "source": "The Japan Times",
+       "published": "2026-10-08T02:28:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "One of the scientists said he envisions uses for nuclear clocks in areas such as satellite-based navigation and the synchronization of data transfer."
+      }
+     ]
+    }
+   }
+  },
+  "at-wi": {
+   "label": "Wien",
+   "level": "admin1",
+   "sources": {
+    "nuclear": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Scientists in Vienna and Beijing create world’s first nuclear clocks",
+       "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+       "source": "The Japan Times",
+       "published": "2026-10-08T02:28:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "One of the scientists said he envisions uses for nuclear clocks in areas such as satellite-based navigation and the synchronization of data transfer."
+      }
+     ]
+    }
+   }
+  },
+  "cn-bj": {
+   "label": "Beijing",
+   "level": "admin1",
+   "sources": {
+    "nuclear": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Scientists in Vienna and Beijing create world’s first nuclear clocks",
+       "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+       "source": "The Japan Times",
+       "published": "2026-10-08T02:28:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "One of the scientists said he envisions uses for nuclear clocks in areas such as satellite-based navigation and the synchronization of data transfer."
+      }
+     ]
+    }
+   }
+  },
+  "at-city-vienna": {
+   "label": "Vienna",
+   "level": "city",
+   "sources": {
+    "nuclear": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Scientists in Vienna and Beijing create world’s first nuclear clocks",
+       "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+       "source": "The Japan Times",
+       "published": "2026-10-08T02:28:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "One of the scientists said he envisions uses for nuclear clocks in areas such as satellite-based navigation and the synchronization of data transfer."
+      }
+     ]
+    }
+   }
+  },
+  "cn-city-beijing": {
+   "label": "Beijing",
+   "level": "city",
+   "sources": {
+    "nuclear": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Scientists in Vienna and Beijing create world’s first nuclear clocks",
+       "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+       "source": "The Japan Times",
+       "published": "2026-10-08T02:28:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/08/world/science-health/china-vienna-first-nuclear-clocks/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "One of the scientists said he envisions uses for nuclear clocks in areas such as satellite-based navigation and the synchronization of data transfer."
       }
      ]
     }
@@ -8830,6 +9012,55 @@
        ],
        "via": null,
        "blurb": "An Israeli wind power developer is one of more than 200 companies allegedly contributing to the illegal Israeli occupation of Palestinian land and settlement building in the West Bank, according to the UN Human Rights Council (UNHRC)."
+      }
+     ]
+    }
+   }
+  },
+  "ng": {
+   "label": "Nigeria",
+   "level": "country",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Nigeria: Dangote Refinery - Marketers Differ Over Petrol Sale Restriction to Importers",
+       "url": "https://allafrica.com/stories/202610080091.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-08T06:22:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610080091.html",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "[Daily Trust] The Independent Petroleum Marketers' Association of Nigeria (IPMAN) has said the association has no problem with the decision of Dangote Refinery and Petrochemical to stop the sale of petroleum products to importers."
+      },
+      {
+       "title": "2027: Duke vows to reduce petrol price to ₦300 per litre if elected president",
+       "url": "https://www.premiumtimesng.com/regional/south-south-regional/915294-2027-duke-vows-to-reduce-petrol-price-to-%e2%82%a6300-per-litre-if-elected-president.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-07T18:00:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/regional/south-south-regional/915294-2027-duke-vows-to-reduce-petrol-price-to-%e2%82%a6300-per-litre-if-elected-president.html",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "via": null,
+       "blurb": "PRP presidential candidate Donald Duke says he will cut petrol to ₦300 per litre by allocating part of Nigeria’s crude production for domestic consumption, challenging the subsidy-free approach of President Tinubu and rival 2027 contenders. The post 2027: Duke vows to reduce petr"
       }
      ]
     }
@@ -8955,36 +9186,6 @@
        "stages": [],
        "via": null,
        "blurb": "NASA's Fire Information for Resource Management System (FIRMS), which uses satellite data to detect thermal anomalies and fires, detected multiple hotspots at the facility."
-      }
-     ]
-    }
-   }
-  },
-  "au-ns": {
-   "label": "New South Wales",
-   "level": "admin1",
-   "sources": {
-    "coal": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Approval of biggest coal project in NSW planning commission’s history described as ‘infamous betrayal’",
-       "url": "https://www.theguardian.com/australia-news/2026/sep/30/hunter-valley-coal-project-singleton-ipc-planning-decision",
-       "source": "The Guardian Energy",
-       "published": "2026-09-30T05:48:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/australia-news/2026/sep/30/hunter-valley-coal-project-singleton-ipc-planning-decision",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Independent Planning Commission says climate change impacts from Hunter Valley project will be ‘outweighed’ by economic benefits Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast The New South Wales independent pla"
       }
      ]
     }
@@ -9248,36 +9449,6 @@
        "stages": [],
        "via": null,
        "blurb": "Landsvirkjun has signed an agreement with ANDRITZ Hydro GmbH to supply four replacement stators for Búrfell hydropower station The post ANDRITZ to supply four stators for Iceland’s Búrfell hydropower station appeared first on International Water Power ."
-      }
-     ]
-    }
-   }
-  },
-  "ng": {
-   "label": "Nigeria",
-   "level": "country",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "2027: Duke vows to reduce petrol price to ₦300 per litre if elected president",
-       "url": "https://www.premiumtimesng.com/regional/south-south-regional/915294-2027-duke-vows-to-reduce-petrol-price-to-%e2%82%a6300-per-litre-if-elected-president.html",
-       "source": "Premium Times (Nigeria)",
-       "published": "2026-10-07T18:00:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Premium Times (Nigeria)",
-         "url": "https://www.premiumtimesng.com/regional/south-south-regional/915294-2027-duke-vows-to-reduce-petrol-price-to-%e2%82%a6300-per-litre-if-elected-president.html",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "via": null,
-       "blurb": "PRP presidential candidate Donald Duke says he will cut petrol to ₦300 per litre by allocating part of Nigeria’s crude production for domestic consumption, challenging the subsidy-free approach of President Tinubu and rival 2027 contenders. The post 2027: Duke vows to reduce petr"
       }
      ]
     }

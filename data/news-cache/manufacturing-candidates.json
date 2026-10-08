@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T00:46:54.443Z",
+ "generatedAt": "2026-10-08T06:45:08.281Z",
  "sector": "manufacturing",
  "maxAgeDays": 10,
  "places": {
@@ -59,7 +59,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "A list of must-attend conferences and trade shows for professionals to keep up with the biggest innovations and consumer trends set to define the year to come."
+       "blurb": "A list of must-attend conferences and trade shows for professionals to keep up with the biggest innovations and consumer trends set to define next year."
       },
       {
        "title": "Authorities investigate Japan's four biggest beer brewers over price rises",
@@ -245,23 +245,6 @@
        "stages": [],
        "via": null,
        "blurb": "While a majority of lawmakers moved the legislation through Friday, several raised concerns that the project was being rushed and without public input."
-      },
-      {
-       "title": "Liberia: Arcelormittal Assured By Fenceline Communities",
-       "url": "https://allafrica.com/stories/202610070554.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T15:28:16.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070554.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[New Republic] Fenceline communities surrounding ArcelorMittal Liberia's mining and railway operations in Nimba, Bong and Grand Bassa counties have reaffirmed their commitment to maintaining a peaceful and constructive relationship with the company, emphasizing dialogue, cooperat"
       }
      ]
     },
@@ -289,23 +272,6 @@
        "stages": [],
        "via": null,
        "blurb": "Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents."
-      },
-      {
-       "title": "Gradiant bets big on India, secures five contracts, including semiconductor fab",
-       "url": "https://www.thehindu.com/business/Industry/gradiant-bets-big-on-india-secures-five-contracts-including-semiconductor-fab/article71555160.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-07T11:11:29.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/gradiant-bets-big-on-india-secures-five-contracts-including-semiconductor-fab/article71555160.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Company appoints Hari Prasad as India MD as water-treatment firm wins five contracts across semiconductor, PCB and solar manufacturing"
       },
       {
        "title": "Caterpillar powers remote gold mining operation with continuous, scalable solution",
@@ -359,23 +325,6 @@
        "blurb": "Nature, Published online: 07 October 2026; doi:10.1038/d41586-026-02968-6 A material that was previously assumed to be an electrical insulator has been shown to be a semiconductor, with potential uses in electronics and optics."
       },
       {
-       "title": "Robot data startup Mecka AI nabs $60M from Sequoia",
-       "url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
-       "source": "TechCrunch",
-       "published": "2026-10-07T23:36:57.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Mecka AI collects and analyzes human motion data to train humanoid robots and other kinds of robots. The startup pays people to record everyday tasks."
-      },
-      {
        "title": "Caterpillar plans $1bn expansion of its North Carolina plant",
        "url": "https://www.globalconstructionreview.com/caterpillar-plans-1bn-expansion-of-its-north-carolina-plant/",
        "source": "Global Construction Review",
@@ -396,6 +345,23 @@
        "stages": [],
        "via": null,
        "blurb": "US equipment maker Caterpillar plans to invest $1bn to expand its manufacturing plant in Sanford, North Carolina with a new facility producing compact track loaders and telehandlers to meet increased… The post Caterpillar plans $1bn expansion of its North Carolina plant appeared "
+      },
+      {
+       "title": "De-Risking the Workforce Gap: Can AI and Robotics Fill an Immediate Need?",
+       "url": "https://www.enr.com/articles/63810-de-risking-the-workforce-gap-can-ai-and-robotics-fill-an-immediate-need",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-08T03:13:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63810-de-risking-the-workforce-gap-can-ai-and-robotics-fill-an-immediate-need",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "While most insurers and even contractors themselves shy away from any new technology that might open them up to risk, the rash of retirements of older, skilled tradesmen and project managers may force contractors to reconsider deploying artificial intelligence-enabled workflows t"
       },
       {
        "title": "Wind power patents: China Three Gorges | Dongfang | Nordex | Siemens Gamesa",
@@ -486,12 +452,51 @@
        "stages": [],
        "via": null,
        "blurb": "This new method, called “SANDO,” could help disaster-response robots navigate dangerous, unknown environments."
+      },
+      {
+       "title": "Siemens Gamesa suffers second turbine issue at Ørsted project in two months",
+       "url": "https://www.windpowermonthly.com/article/1971657/siemens-gamesa-suffers-second-turbine-issue-orsted-project-two-months",
+       "source": "Windpower Monthly",
+       "published": "2026-10-05T10:08:43.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Windpower Monthly",
+         "url": "https://www.windpowermonthly.com/article/1971657/siemens-gamesa-suffers-second-turbine-issue-orsted-project-two-months",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A Siemens Gamesa turbine blade has been damaged at Ørsted's 583MW Greater Changhua 4 offshore wind farm in Taiwan."
       }
      ]
     },
     "vehicles": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "EU and China open crunch trade talks in Beijing on hybrid car exports",
+       "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+       "source": "RFI English",
+       "published": "2026-10-08T04:10:58.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/business/2026/10/08/economy/eu-china-trade-gap-talks/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "European Union trade commissioner Maros Sefcovic arrives in Beijing on Thursday for two days of high-stakes talks with China, with Brussels seeking a pilot agreement to curb the surge in Chinese hybrid-car exports and reduce a trade deficit now running at around €1 billion per da"
+      },
       {
        "title": "Anduril, US Navy to invest $6.6B in Arsenal-2 submarine shipyard in Maryland",
        "url": "https://www.anduril.com/news/anduril-u-s-navy-invest-usd6-6-billion-to-expand-america-s-submarine-industrial-base",
@@ -523,6 +528,23 @@
        "stages": [],
        "via": null,
        "blurb": "Anduril commits $3.7B of private capital to Arsenal-2 at Tradepoint Atlantic (Sparrows Point, Baltimore County); the Navy awards a contract worth up to $2.9B tied to production outcomes. About 3,100 direct jobs; initial operations targeted for 2030."
+      },
+      {
+       "title": "Renault Trucks’ Blainville-sur-Orne plant marks 70 years",
+       "url": "https://www.automotiveworld.com/uncategorised/renault-trucks-blainville-sur-orne-plant-marks-70-years/",
+       "source": "Automotive World",
+       "published": "2026-10-08T04:20:36.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Automotive World",
+         "url": "https://www.automotiveworld.com/uncategorised/renault-trucks-blainville-sur-orne-plant-marks-70-years/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Blainville-sur-Orne plant shows Renault Trucks keeping diesel and electric output on one site as electric truck demand matures The post Renault Trucks’ Blainville-sur-Orne plant marks 70 years appeared first on Automotive World ."
       },
       {
        "title": "Trump, Hegseth Announce New Maryland Shipyard",
@@ -608,23 +630,6 @@
        "blurb": "Applied Intuition will use its Vehicle OS software to help Honda speed up its in-house development of a SDV platform."
       },
       {
-       "title": "EU ambassadors wave through largest-ever list of Russia sanctions",
-       "url": "https://kyivindependent.com/eu-ambassadors-wave-through-largest-ever-list-of-russia-sanctions-2/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-07T11:51:18.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/eu-ambassadors-wave-through-largest-ever-list-of-russia-sanctions-2/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The list targets a wide range of defense industry players, from shipyards and aviation companies to electronics manufacturers, armored vehicle repair facilities, and aerospace companies."
-      },
-      {
        "title": "New EV incentive scheme promises ‘up to €9,000’ in Croatia",
        "url": "https://www.electrive.com/2026/10/07/new-ev-incentive-scheme-promises-up-to-e9000-in-croatia/",
        "source": "electrive",
@@ -674,23 +679,6 @@
        "stages": [],
        "via": null,
        "blurb": "The market in recent months has been supported by vehicle tax cuts and order backlogs."
-      },
-      {
-       "title": "Volkswagen brings GTI badge to EVs with 166kW ID. Polo GTI",
-       "url": "https://www.automotiveworld.com/news/volkswagen-brings-gti-badge-to-evs-with-166kw-id-polo-gti/",
-       "source": "Automotive World",
-       "published": "2026-10-07T05:25:46.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Automotive World",
-         "url": "https://www.automotiveworld.com/news/volkswagen-brings-gti-badge-to-evs-with-166kw-id-polo-gti/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The ID. Polo GTI tests whether Volkswagen’s most valuable performance badge can sell electric cars at an accessible price The post Volkswagen brings GTI badge to EVs with 166kW ID. Polo GTI appeared first on Automotive World ."
       },
       {
        "title": "Tesla is now making more EVs that can double as a home battery",
@@ -768,24 +756,24 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering"
+       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering."
       },
       {
-       "title": "Hwange councillor raises alarm over idle contractors on Byo-Vic Falls highway",
-       "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-07T12:29:07.000Z",
+       "title": "FTMA’s Future Framing Markets Forum",
+       "url": "https://www.timberbiz.com.au/ftmas-future-framing-markets-forum/",
+       "source": "Timberbiz",
+       "published": "2026-10-08T05:59:35.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
+         "name": "Timberbiz",
+         "url": "https://www.timberbiz.com.au/ftmas-future-framing-markets-forum/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Moyo said the strategic highway, which links Victoria Falls with Bulawayo and neighbouring countries to the north, had deteriorated to the extent that motorists were facing lengthy and difficult journeys. The post Hwange councillor raises alarm over idle contractors on Byo-Vic Fa"
+       "blurb": "There is an enormous amount happening across housing, Modern Methods of Construction (MMC), prefabrication and future construction markets, and FTMA wants to make sure that frame and truss manufacturers are part of the conversation. Source: Timberbiz On Tuesday 20 October, FTMA w"
       },
       {
        "title": "Neoen breaks ground on 346MW Goyder North Wind Farm in Australia",
@@ -822,23 +810,6 @@
        "blurb": "The Alliance for Secure Electricity Supply has launched a campaign for the lifting of the ban on new nuclear power plant construction in Switzerland. It comes as a broad coalition claims to have collected enough signatures in support of a referendum against the construction of ne"
       },
       {
-       "title": "Liberia: Liberia Will Be a Construction Site in Two Months, Giddings Says",
-       "url": "https://allafrica.com/stories/202610070284.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T10:34:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070284.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Liberian Investigator] MONROVIA -- Public Works Minister Roland Layfette Giddings said on Monday that Liberia will become a construction site in the next two months as contractors begin work on several major road projects, including paving the Tapita-Zwedru highway."
-      },
-      {
        "title": "AOM Water/Environment: RiverRenew Tunnel System Project",
        "url": "https://www.enr.com/articles/63789-aom-water-environment-riverrenew-tunnel-system-project",
        "source": "ENR (Engineering News-Record)",
@@ -854,6 +825,23 @@
        "stages": [],
        "via": null,
        "blurb": "Completed at budget and on schedule despite an aggressive time schedule and pandemic-related cost increases, the complex project eliminates long-standing combined sewer overflow issues"
+      },
+      {
+       "title": "De-Risking the Workforce Gap: Can AI and Robotics Fill an Immediate Need?",
+       "url": "https://www.enr.com/articles/63810-de-risking-the-workforce-gap-can-ai-and-robotics-fill-an-immediate-need",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-08T03:13:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63810-de-risking-the-workforce-gap-can-ai-and-robotics-fill-an-immediate-need",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "While most insurers and even contractors themselves shy away from any new technology that might open them up to risk, the rash of retirements of older, skilled tradesmen and project managers may force contractors to reconsider deploying artificial intelligence-enabled workflows t"
       },
       {
        "title": "Data center contractors learn to live with the backlash",
@@ -937,6 +925,83 @@
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
       },
       {
+       "title": "Bangladesh approves 442 MW solar project with eight-hour battery storage",
+       "url": "https://www.pv-magazine.com/2026/10/08/bangladesh-approves-442-mw-solar-project-with-eight-hour-battery-storage/",
+       "source": "pv magazine",
+       "published": "2026-10-08T06:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/bangladesh-approves-442-mw-solar-project-with-eight-hour-battery-storage/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Bangladesh has approved a 442 MW grid-connected solar project with eight hours of battery storage at the site of a planned expansion of the Rampal coal-fired power station. The Bangladesh Power Development Board will invest BDT 25 billion ($200 million) in the project. The post B"
+      },
+      {
+       "title": "Nigeria: Dangote Refinery - Marketers Differ Over Petrol Sale Restriction to Importers",
+       "url": "https://allafrica.com/stories/202610080091.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-08T06:22:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610080091.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "[Daily Trust] The Independent Petroleum Marketers' Association of Nigeria (IPMAN) has said the association has no problem with the decision of Dangote Refinery and Petrochemical to stop the sale of petroleum products to importers."
+      },
+      {
+       "title": "High defect rates drag down solar performance and yield, finds report",
+       "url": "https://www.pv-magazine.com/2026/10/08/high-defect-rates-drag-down-solar-performance-and-yield-finds-report/",
+       "source": "pv magazine",
+       "published": "2026-10-08T06:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/high-defect-rates-drag-down-solar-performance-and-yield-finds-report/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "HelioVolta’s 2026 SolarGrade PV Health Report, based on inspections of nearly 8 GW across over 1,500 solar projects in the U.S. and Puerto Rico, found widespread safety and quality concerns, with 87% of projects requiring urgent corrective action and 8% facing critical issues. Th"
+      },
+      {
+       "title": "Zambia’s Power Capacity Hits 4,722MW, Nearly Double Peak Demand, As Hichilema Warns The Grid Is Lagging",
+       "url": "https://www.lusakatimes.com/2026/10/08/zambias-power-capacity-hits-4722mw-nearly-double-peak-demand-as-hichilema-warns-the-grid-is-lagging/",
+       "source": "Lusaka Times",
+       "published": "2026-10-08T05:55:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/08/zambias-power-capacity-hits-4722mw-nearly-double-peak-demand-as-hichilema-warns-the-grid-is-lagging/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Zambia’s installed electricity generation capacity has climbed to 4,722.3 megawatts, up from 3,777MW in 2024 and now nearly twice the country’s peak demand. President Hakainde Hichilema warned, however, that the transmission and distribution network needed to deliver that power i"
+      },
+      {
        "title": "Golar picks NYK carrier for fourth FLNG conversion",
        "url": "https://splash247.com/golar-picks-nyk-carrier-for-fourth-flng-conversion/",
        "source": "Splash247",
@@ -960,6 +1025,26 @@
         "stage": "generation"
        },
        "blurb": "Golar LNG has acquired a 2013-built LNG carrier from Japan’s NYK Line for conversion into its fourth floating LNG unit, filling in a key missing piece of its $2.45bn expansion programme. The Nasdaq-listed FLNG specialist has agreed to buy the 177,427 cu m Grace Dahlia, which will"
+      },
+      {
+       "title": "Australia’s rooftop installs rise on back of battery rebate scheme",
+       "url": "https://www.pv-magazine.com/2026/10/08/rooftop-installs-rise-on-back-of-battery-rebate-scheme/",
+       "source": "pv magazine",
+       "published": "2026-10-08T03:22:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/rooftop-installs-rise-on-back-of-battery-rebate-scheme/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Australia’s rooftop solar deployments increased by more than 7% last month with the latest data revealing that almost 312 MW of small-scale PV capacity was installed across the country in September 2026. The post Australia’s rooftop installs rise on back of battery rebate scheme "
       },
       {
        "title": "Clearway Starts Construction of 650-MW Solar Facility in Missouri",
@@ -1012,26 +1097,6 @@
        "blurb": "Energy Technology’s new episode examines Big Tech’s interest in geothermal, and the nascent sector’s need for oil and gas equipment and expertise. The post Next-generation geothermal: borrowing oil and gas tech for the data centre boom appeared first on Mining Technology ."
       },
       {
-       "title": "Iran war disruption creates ‘huge’ oil trading opportunities, Vitol says",
-       "url": "https://www.thenationalnews.com/business/energy/2026/10/07/iran-war-disruption-creates-huge-oil-trading-opportunities-vitol-says/",
-       "source": "The National (UAE)",
-       "published": "2026-10-07T13:11:27.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/business/energy/2026/10/07/iran-war-disruption-creates-huge-oil-trading-opportunities-vitol-says/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "The Iran war is creating “huge” arbitrage opportunities across global energy markets as disrupted trade flows stretch tanker fleets to capacity and send oil on longer journeys, according to Vitol Group, the world’s largest independent oil trader. “There’s huge arbitrage opportuni"
-      },
-      {
        "title": "Honeywell, Engineers India Picked for $16B Kenya Crude Oil Refinery Project",
        "url": "https://www.enr.com/articles/63804-honeywell-picked-for-16b-kenya-crude-oil-processing-facility",
        "source": "ENR (Engineering News-Record)",
@@ -1072,23 +1137,6 @@
        "blurb": "Great Basin Gas Transmission has upsized its northern Nevada natural gas expansion to nearly 950 MMcf/d and a 48-inch diameter pipe, leaving room to add compression later for growing demand from data centers, power generators and industrial users."
       },
       {
-       "title": "Zambia’s installed power capacity rises",
-       "url": "https://www.lusakatimes.com/2026/10/07/zambias-installed-power-capacity-rises/",
-       "source": "Lusaka Times",
-       "published": "2026-10-07T19:25:37.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/07/zambias-installed-power-capacity-rises/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "President Hakainde Hichilema has revealed that Zambia’s installed power generation capacity has risen from 3,777 megawatts in 2024 to 4,722.3 megawatts currently. President Hichilema has also disclosed that solar installed capacity power has increased from 178 megawatts in 2024 t"
-      },
-      {
        "title": "Wind turbine taller than the Eiffel Tower aims to boost German electricity production",
        "url": "https://www.renewableenergyworld.com/wind-power/wind-turbine-taller-than-the-eiffel-tower-aims-to-boost-german-electricity-production/",
        "source": "Hydro Review",
@@ -1107,66 +1155,6 @@
         "stage": "generation"
        },
        "blurb": "A 365-meter wind turbine, the tallest in the world, was built by Gicon in Lusatia, Germany, and will be inaugurated on November 19."
-      },
-      {
-       "title": "Isaias Track Skirts Most Gulf LNG as Coast Guard Sets Storm Conditions",
-       "url": "https://naturalgasintel.com/news/isaias-track-skirts-most-gulf-lng-as-coast-guard-sets-storm-conditions/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T18:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/isaias-track-skirts-most-gulf-lng-as-coast-guard-sets-storm-conditions/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "The US Coast Guard ordered storm preparations at lower Mississippi River ports on Wednesday as forecasters predict Tropical Storm Isaias to become a hurricane by Thursday on a track that could avoid most Gulf Coast LNG export capacity."
-      },
-      {
-       "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
-       "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
-       "source": "ENR (Engineering News-Record)",
-       "published": "2026-10-07T16:27:48.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ENR (Engineering News-Record)",
-         "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering"
-      },
-      {
-       "title": "LNG market tightens into winter as Europe pulls US cargoes, China reopens contract talks",
-       "url": "https://www.ogj.com/general-interest/economics-markets/news/55410250/lng-market-tightens-into-winter-as-europe-pulls-us-cargoes-china-reopens-contract-talks",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-07T16:24:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410250/lng-market-tightens-into-winter-as-europe-pulls-us-cargoes-china-reopens-contract-talks",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "New capacity outside the Middle East offsets some losses, but inventories remain low, raising winter risk concerns."
       }
      ]
     }
@@ -1228,7 +1216,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "A list of must-attend conferences and trade shows for professionals to keep up with the biggest innovations and consumer trends set to define the year to come."
+       "blurb": "A list of must-attend conferences and trade shows for professionals to keep up with the biggest innovations and consumer trends set to define next year."
       },
       {
        "title": "Philippines canned food company launches ‘Mega Sardines’ brand in US Kroger stores",
@@ -1611,7 +1599,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering"
+       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering."
       },
       {
        "title": "Data center contractors learn to live with the backlash",
@@ -1715,15 +1703,15 @@
        "blurb": "Great Basin Gas Transmission has upsized its northern Nevada natural gas expansion to nearly 950 MMcf/d and a 48-inch diameter pipe, leaving room to add compression later for growing demand from data centers, power generators and industrial users."
       },
       {
-       "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
-       "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
-       "source": "ENR (Engineering News-Record)",
-       "published": "2026-10-07T16:27:48.000Z",
+       "title": "High defect rates drag down solar performance and yield, finds report",
+       "url": "https://www.pv-magazine.com/2026/10/08/high-defect-rates-drag-down-solar-performance-and-yield-finds-report/",
+       "source": "pv magazine",
+       "published": "2026-10-08T06:00:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "ENR (Engineering News-Record)",
-         "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/high-defect-rates-drag-down-solar-performance-and-yield-finds-report/",
          "primary": false
         }
        ],
@@ -1732,27 +1720,7 @@
         "from": "energy",
         "stage": "generation"
        },
-       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering"
-      },
-      {
-       "title": "LNG market tightens into winter as Europe pulls US cargoes, China reopens contract talks",
-       "url": "https://www.ogj.com/general-interest/economics-markets/news/55410250/lng-market-tightens-into-winter-as-europe-pulls-us-cargoes-china-reopens-contract-talks",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-07T16:24:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410250/lng-market-tightens-into-winter-as-europe-pulls-us-cargoes-china-reopens-contract-talks",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "New capacity outside the Middle East offsets some losses, but inventories remain low, raising winter risk concerns."
+       "blurb": "HelioVolta’s 2026 SolarGrade PV Health Report, based on inspections of nearly 8 GW across over 1,500 solar projects in the U.S. and Puerto Rico, found widespread safety and quality concerns, with 87% of projects requiring urgent corrective action and 8% facing critical issues. Th"
       },
       {
        "title": "Vistra gets $4.2B DOE loan for planned uprates in Ohio, Pennsylvania",
@@ -1790,6 +1758,46 @@
        "blurb": "Vistra is set to receive an approximately $4.2 billion loan from the Department of Energy to upgrade and uprate its fleet of nuclear reactors in Pennsylvania and Ohio, the DOE announced Monday. This work will add 433 MW of new nuclear capacity to help meet electricity demand in P"
       },
       {
+       "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
+       "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-07T16:27:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering."
+      },
+      {
+       "title": "LNG market tightens into winter as Europe pulls US cargoes, China reopens contract talks",
+       "url": "https://www.ogj.com/general-interest/economics-markets/news/55410250/lng-market-tightens-into-winter-as-europe-pulls-us-cargoes-china-reopens-contract-talks",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-07T16:24:41.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410250/lng-market-tightens-into-winter-as-europe-pulls-us-cargoes-china-reopens-contract-talks",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "New capacity outside the Middle East offsets some losses, but inventories remain low, raising winter risk concerns."
+      },
+      {
        "title": "Toyo cuts the ribbon on its newly-expanded solar factory in Texas",
        "url": "https://www.pv-magazine.com/2026/10/07/toyo-cuts-the-ribbon-on-its-newly-expanded-solar-factory-in-texas/",
        "source": "pv magazine",
@@ -1808,26 +1816,6 @@
         "stage": "generation"
        },
        "blurb": "Company officers and government officials celebrated the 2 GW expansion of Toyo’s Humble, Texas solar module facility and looked forward to planned heterojunction cell production at the site in 2028. The post Toyo cuts the ribbon on its newly-expanded solar factory in Texas appea"
-      },
-      {
-       "title": "Zelestra closes US$350 million financing at 203MW PV plant in Indiana backed by Meta",
-       "url": "https://www.pv-tech.org/zelestra-closes-us350-million-financing-at-203mw-pv-plant-in-indiana-backed-by-meta/",
-       "source": "PV Tech",
-       "published": "2026-10-07T12:14:22.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/zelestra-closes-us350-million-financing-at-203mw-pv-plant-in-indiana-backed-by-meta/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Independent power producer (IPP) Zelestra has closed a US$350 million credit facility for the 203 MW Reclamation Solar project in Indiana."
       },
       {
        "title": "Westwin to build $502M nickel refinery in Mississippi",
@@ -1853,6 +1841,26 @@
         "stage": "generation"
        },
        "blurb": "Westwin Elements plans to invest $502 million over five years to build a commercial-scale high-purity nickel refinery in Mississippi, as the U.S. seeks to expand domestic processing of critical minerals.... The post Westwin to build $502M nickel refinery in Mississippi appeared f"
+      },
+      {
+       "title": "Zelestra closes US$350 million financing at 203MW PV plant in Indiana backed by Meta",
+       "url": "https://www.pv-tech.org/zelestra-closes-us350-million-financing-at-203mw-pv-plant-in-indiana-backed-by-meta/",
+       "source": "PV Tech",
+       "published": "2026-10-07T12:14:22.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/zelestra-closes-us350-million-financing-at-203mw-pv-plant-in-indiana-backed-by-meta/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Independent power producer (IPP) Zelestra has closed a US$350 million credit facility for the 203 MW Reclamation Solar project in Indiana."
       },
       {
        "title": "Middle River buys 427MW Panoche natural gas plant in California, US",
@@ -1893,26 +1901,6 @@
         "stage": "generation"
        },
        "blurb": "Connecticut is trying to clean up its grid with more solar energy. But a major utility’s reluctance to commit to buying power from some projects is raising questions about the prospects for success. Connecticut last month announced plans to secure 63.4 megawatts of new solar capa"
-      },
-      {
-       "title": "Isaias Track Skirts Most Gulf LNG as Coast Guard Sets Storm Conditions",
-       "url": "https://naturalgasintel.com/news/isaias-track-skirts-most-gulf-lng-as-coast-guard-sets-storm-conditions/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-07T18:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/isaias-track-skirts-most-gulf-lng-as-coast-guard-sets-storm-conditions/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "The US Coast Guard ordered storm preparations at lower Mississippi River ports on Wednesday as forecasters predict Tropical Storm Isaias to become a hurricane by Thursday on a track that could avoid most Gulf Coast LNG export capacity."
       },
       {
        "title": "Maryland nets 440 MW/1,760 MWh in first bulk energy storage procurement",
@@ -2133,7 +2121,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering"
+       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering."
       }
      ]
     },
@@ -2158,7 +2146,7 @@
         "from": "energy",
         "stage": "generation"
        },
-       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering"
+       "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering."
       },
       {
        "title": "Tennessee Valley Authority Gets Approval to Build Small Nuclear Reactor",
@@ -2552,28 +2540,6 @@
    "label": "India",
    "level": "country",
    "sources": {
-    "machinery": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Gradiant bets big on India, secures five contracts, including semiconductor fab",
-       "url": "https://www.thehindu.com/business/Industry/gradiant-bets-big-on-india-secures-five-contracts-including-semiconductor-fab/article71555160.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-07T11:11:29.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/gradiant-bets-big-on-india-secures-five-contracts-including-semiconductor-fab/article71555160.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Company appoints Hari Prasad as India MD as water-treatment firm wins five contracts across semiconductor, PCB and solar manufacturing"
-      }
-     ]
-    },
     "power": {
      "brief": "missing",
      "candidates": [
@@ -2687,26 +2653,6 @@
         "stage": "generation"
        },
        "blurb": "Kenya's Dangote Group names contractors for planned $16-billion crude oil refining and processing facility, billed as the largest-ever foreign investment in the country."
-      },
-      {
-       "title": "Kenya: Parliament Gatekeepers Blocking Scrutiny of Dangote Refinery - Sifuna",
-       "url": "https://allafrica.com/stories/202610070282.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T10:20:38.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070282.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "[Capital FM] Nairobi -- Nairobi Senator Edwin Sifuna has accused parliamentary \"gatekeepers\" of frustrating scrutiny of the proposed Lamu refinery, just days after he filed a formal request for documents on the project with the Senate set to proceed on recess on October 9."
       }
      ]
     }
@@ -2838,6 +2784,65 @@
         "stage": "generation"
        },
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+      }
+     ]
+    }
+   }
+  },
+  "bd": {
+   "label": "Bangladesh",
+   "level": "country",
+   "sources": {
+    "power": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Bangladesh approves 442 MW solar project with eight-hour battery storage",
+       "url": "https://www.pv-magazine.com/2026/10/08/bangladesh-approves-442-mw-solar-project-with-eight-hour-battery-storage/",
+       "source": "pv magazine",
+       "published": "2026-10-08T06:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/bangladesh-approves-442-mw-solar-project-with-eight-hour-battery-storage/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Bangladesh has approved a 442 MW grid-connected solar project with eight hours of battery storage at the site of a planned expansion of the Rampal coal-fired power station. The Bangladesh Power Development Board will invest BDT 25 billion ($200 million) in the project. The post B"
+      }
+     ]
+    }
+   }
+  },
+  "zm": {
+   "label": "Zambia",
+   "level": "country",
+   "sources": {
+    "power": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Zambia’s Power Capacity Hits 4,722MW, Nearly Double Peak Demand, As Hichilema Warns The Grid Is Lagging",
+       "url": "https://www.lusakatimes.com/2026/10/08/zambias-power-capacity-hits-4722mw-nearly-double-peak-demand-as-hichilema-warns-the-grid-is-lagging/",
+       "source": "Lusaka Times",
+       "published": "2026-10-08T05:55:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/08/zambias-power-capacity-hits-4722mw-nearly-double-peak-demand-as-hichilema-warns-the-grid-is-lagging/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Zambia’s installed electricity generation capacity has climbed to 4,722.3 megawatts, up from 3,777MW in 2024 and now nearly twice the country’s peak demand. President Hakainde Hichilema warned, however, that the transmission and distribution network needed to deliver that power i"
       }
      ]
     }
@@ -3095,12 +3100,49 @@
        "stages": [],
        "via": null,
        "blurb": "Renewable energy company Neoen has commenced construction of Stage 1 of the 346MW Goyder North Wind Farm in the Mid North region of South Australia (SA), near Burra on Ngadjuri Nation land."
+      },
+      {
+       "title": "FTMA’s Future Framing Markets Forum",
+       "url": "https://www.timberbiz.com.au/ftmas-future-framing-markets-forum/",
+       "source": "Timberbiz",
+       "published": "2026-10-08T05:59:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Timberbiz",
+         "url": "https://www.timberbiz.com.au/ftmas-future-framing-markets-forum/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "There is an enormous amount happening across housing, Modern Methods of Construction (MMC), prefabrication and future construction markets, and FTMA wants to make sure that frame and truss manufacturers are part of the conversation. Source: Timberbiz On Tuesday 20 October, FTMA w"
       }
      ]
     },
     "power": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Australia’s rooftop installs rise on back of battery rebate scheme",
+       "url": "https://www.pv-magazine.com/2026/10/08/rooftop-installs-rise-on-back-of-battery-rebate-scheme/",
+       "source": "pv magazine",
+       "published": "2026-10-08T03:22:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/rooftop-installs-rise-on-back-of-battery-rebate-scheme/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Australia’s rooftop solar deployments increased by more than 7% last month with the latest data revealing that almost 312 MW of small-scale PV capacity was installed across the country in September 2026. The post Australia’s rooftop installs rise on back of battery rebate scheme "
+      },
       {
        "title": "Neoen breaks ground on 346MW Goyder North Wind Farm in Australia",
        "url": "https://www.power-technology.com/news/neoen-346mw-goyder-north-wind-farm/",
@@ -3200,26 +3242,6 @@
         "stage": "generation"
        },
        "blurb": "e-STORAGE has signed an agreement to supply and commission a 100MW/200MWh BESS for OX2's Muswellbrook solar-plus-storage site in Australia."
-      },
-      {
-       "title": "Australia’s Origin Energy targets building ‘Southern Hemisphere’s largest battery storage complex’",
-       "url": "https://www.energy-storage.news/australias-origin-energy-targets-building-southern-hemispheres-largest-battery-storage-complex/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-06T04:26:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/australias-origin-energy-targets-building-southern-hemispheres-largest-battery-storage-complex/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Origin Energy has referred a new BESS project, Eraring BESS North, for assessment under Australia's EPBC Act."
       },
       {
        "title": "NEM Data Spotlight: Solar output hits 4,780GWh in September with rooftop generation up 31%",
@@ -4266,21 +4288,26 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Mercedes global sales fall 6% as electric car sales hit record high",
-       "url": "https://www.euronews.com/2026/10/07/mercedes-global-sales-fall-6-as-electric-car-sales-hit-record-high",
-       "source": "Euronews Business",
-       "published": "2026-10-07T13:04:38.000Z",
-       "verification": "unconfirmed",
+       "title": "EU and China open crunch trade talks in Beijing on hybrid car exports",
+       "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+       "source": "RFI English",
+       "published": "2026-10-08T04:10:58.000Z",
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/07/mercedes-global-sales-fall-6-as-electric-car-sales-hit-record-high",
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/business/2026/10/08/economy/eu-china-trade-gap-talks/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Mercedes-Benz shares fell after the German carmaker reported a 6% fall in global sales, driven by weakness in China. Sales outside China edged higher, supported by growth in Europe and North America."
+       "blurb": "European Union trade commissioner Maros Sefcovic arrives in Beijing on Thursday for two days of high-stakes talks with China, with Brussels seeking a pilot agreement to curb the surge in Chinese hybrid-car exports and reduce a trade deficit now running at around €1 billion per da"
       },
       {
        "title": "Awkward: Saudi Arabia’s new EV brand takes on the U.S. rival it already controls",
@@ -4298,6 +4325,23 @@
        "stages": [],
        "via": null,
        "blurb": "The Saudi wealth fund’s new EV will compete with Chinese rivals and with Lucid, the U.S. carmaker the fund controls."
+      },
+      {
+       "title": "Mercedes global sales fall 6% as electric car sales hit record high",
+       "url": "https://www.euronews.com/2026/10/07/mercedes-global-sales-fall-6-as-electric-car-sales-hit-record-high",
+       "source": "Euronews Business",
+       "published": "2026-10-07T13:04:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/07/mercedes-global-sales-fall-6-as-electric-car-sales-hit-record-high",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Mercedes-Benz shares fell after the German carmaker reported a 6% fall in global sales, driven by weakness in China. Sales outside China edged higher, supported by growth in Europe and North America."
       }
      ]
     },
@@ -4405,22 +4449,28 @@
         "stage": "generation"
        },
        "blurb": "China Three Gorges Corporation (CTG) has connected the first batch of turbines at its 2 GW Qingzhou V & VII offshore wind project off Yangjiang,..."
-      },
+      }
+     ]
+    }
+   }
+  },
+  "pr": {
+   "label": "Puerto Rico",
+   "level": "country",
+   "sources": {
+    "power": {
+     "brief": "missing",
+     "candidates": [
       {
-       "title": "Hithium’s sodium-ion storage push, where it could win, where it won’t, and path to bankability",
-       "url": "https://www.pv-magazine.com/2026/10/07/hithiums-sodium-ion-storage-push-where-it-could-win-where-it-wont-and-path-to-bankability/",
+       "title": "High defect rates drag down solar performance and yield, finds report",
+       "url": "https://www.pv-magazine.com/2026/10/08/high-defect-rates-drag-down-solar-performance-and-yield-finds-report/",
        "source": "pv magazine",
-       "published": "2026-10-07T07:26:01.000Z",
-       "verification": "multiple",
+       "published": "2026-10-08T06:00:00.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/07/hithiums-sodium-ion-storage-push-where-it-could-win-where-it-wont-and-path-to-bankability/",
-         "primary": false
-        },
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/hithiums-%e2%88%9ecell-n785ah-vs-catl-hina-and-its-own-lfp-range-a-sodium-ion-comparison-for-bess/",
+         "url": "https://www.pv-magazine.com/2026/10/08/high-defect-rates-drag-down-solar-performance-and-yield-finds-report/",
          "primary": false
         }
        ],
@@ -4429,35 +4479,7 @@
         "from": "energy",
         "stage": "generation"
        },
-       "blurb": "After Chinese manufacturer Hithium launched its new 4 MWh sodium-ion BESS alongside its new 785Ah cell for energy storage, in response to questions, Leb Lan, senior product manager, Hithium, spoke with ESS News to discuss not only the technology developments but also where and wh"
-      }
-     ]
-    }
-   }
-  },
-  "zm": {
-   "label": "Zambia",
-   "level": "country",
-   "sources": {
-    "power": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Zambia’s installed power capacity rises",
-       "url": "https://www.lusakatimes.com/2026/10/07/zambias-installed-power-capacity-rises/",
-       "source": "Lusaka Times",
-       "published": "2026-10-07T19:25:37.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/07/zambias-installed-power-capacity-rises/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "President Hakainde Hichilema has revealed that Zambia’s installed power generation capacity has risen from 3,777 megawatts in 2024 to 4,722.3 megawatts currently. President Hichilema has also disclosed that solar installed capacity power has increased from 178 megawatts in 2024 t"
+       "blurb": "HelioVolta’s 2026 SolarGrade PV Health Report, based on inspections of nearly 8 GW across over 1,500 solar projects in the U.S. and Puerto Rico, found widespread safety and quality concerns, with 87% of projects requiring urgent corrective action and 8% facing critical issues. Th"
       }
      ]
     }
@@ -4827,6 +4849,72 @@
     }
    }
   },
+  "cn-bj": {
+   "label": "Beijing",
+   "level": "admin1",
+   "sources": {
+    "vehicles": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "EU and China open crunch trade talks in Beijing on hybrid car exports",
+       "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+       "source": "RFI English",
+       "published": "2026-10-08T04:10:58.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/business/2026/10/08/economy/eu-china-trade-gap-talks/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "European Union trade commissioner Maros Sefcovic arrives in Beijing on Thursday for two days of high-stakes talks with China, with Brussels seeking a pilot agreement to curb the surge in Chinese hybrid-car exports and reduce a trade deficit now running at around €1 billion per da"
+      }
+     ]
+    }
+   }
+  },
+  "cn-city-beijing": {
+   "label": "Beijing",
+   "level": "city",
+   "sources": {
+    "vehicles": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "EU and China open crunch trade talks in Beijing on hybrid car exports",
+       "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+       "source": "RFI English",
+       "published": "2026-10-08T04:10:58.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/business/2026/10/08/economy/eu-china-trade-gap-talks/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "European Union trade commissioner Maros Sefcovic arrives in Beijing on Thursday for two days of high-stakes talks with China, with Brussels seeking a pilot agreement to curb the surge in Chinese hybrid-car exports and reduce a trade deficit now running at around €1 billion per da"
+      }
+     ]
+    }
+   }
+  },
   "ca-on": {
    "label": "Ontario",
    "level": "admin1",
@@ -4911,37 +4999,6 @@
     }
    }
   },
-  "ir": {
-   "label": "Iran",
-   "level": "country",
-   "sources": {
-    "power": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Iran war disruption creates ‘huge’ oil trading opportunities, Vitol says",
-       "url": "https://www.thenationalnews.com/business/energy/2026/10/07/iran-war-disruption-creates-huge-oil-trading-opportunities-vitol-says/",
-       "source": "The National (UAE)",
-       "published": "2026-10-07T13:11:27.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/business/energy/2026/10/07/iran-war-disruption-creates-huge-oil-trading-opportunities-vitol-says/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "The Iran war is creating “huge” arbitrage opportunities across global energy markets as disrupted trade flows stretch tanker fleets to capacity and send oil on longer journeys, according to Vitol Group, the world’s largest independent oil trader. “There’s huge arbitrage opportuni"
-      }
-     ]
-    }
-   }
-  },
   "it": {
    "label": "Italy",
    "level": "country",
@@ -4973,99 +5030,6 @@
         "stage": "generation"
        },
        "blurb": "BESS owner-operator BW ESS has launched construction on its second large-scale project in Italy in the space of a month, while developers Galileo and Aura Power have progressed portfolios in the country."
-      }
-     ]
-    }
-   }
-  },
-  "tr": {
-   "label": "Türkiye",
-   "level": "country",
-   "sources": {
-    "power": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Botas goes to market for nearly three-year LNG carrier charter",
-       "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
-       "source": "Splash247",
-       "published": "2026-10-07T10:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Turkey’s state-owned energy company Botas has gone to market for an LNG carrier on a firm 940-day time charter as it continues to build out its gas shipping capacity. The Ankara-based company is seeking a vessel built in 2015 or later with capacity of between 173,600 and 175,000 "
-      }
-     ]
-    }
-   }
-  },
-  "tr-an": {
-   "label": "Ankara",
-   "level": "admin1",
-   "sources": {
-    "power": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Botas goes to market for nearly three-year LNG carrier charter",
-       "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
-       "source": "Splash247",
-       "published": "2026-10-07T10:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Turkey’s state-owned energy company Botas has gone to market for an LNG carrier on a firm 940-day time charter as it continues to build out its gas shipping capacity. The Ankara-based company is seeking a vessel built in 2015 or later with capacity of between 173,600 and 175,000 "
-      }
-     ]
-    }
-   }
-  },
-  "tr-city-ankara": {
-   "label": "Ankara",
-   "level": "city",
-   "sources": {
-    "power": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Botas goes to market for nearly three-year LNG carrier charter",
-       "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
-       "source": "Splash247",
-       "published": "2026-10-07T10:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/botas-goes-to-market-for-nearly-three-year-lng-carrier-charter/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Turkey’s state-owned energy company Botas has gone to market for an LNG carrier on a firm 940-day time charter as it continues to build out its gas shipping capacity. The Ankara-based company is seeking a vessel built in 2015 or later with capacity of between 173,600 and 175,000 "
       }
      ]
     }
@@ -5125,68 +5089,6 @@
        "stages": [],
        "via": null,
        "blurb": "China's independent refiners are turning to Iraqi crude."
-      }
-     ]
-    }
-   }
-  },
-  "ke-na-2": {
-   "label": "Nairobi",
-   "level": "admin1",
-   "sources": {
-    "power": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Kenya: Parliament Gatekeepers Blocking Scrutiny of Dangote Refinery - Sifuna",
-       "url": "https://allafrica.com/stories/202610070282.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T10:20:38.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070282.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "[Capital FM] Nairobi -- Nairobi Senator Edwin Sifuna has accused parliamentary \"gatekeepers\" of frustrating scrutiny of the proposed Lamu refinery, just days after he filed a formal request for documents on the project with the Senate set to proceed on recess on October 9."
-      }
-     ]
-    }
-   }
-  },
-  "ke-city-nairobi": {
-   "label": "Nairobi",
-   "level": "city",
-   "sources": {
-    "power": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Kenya: Parliament Gatekeepers Blocking Scrutiny of Dangote Refinery - Sifuna",
-       "url": "https://allafrica.com/stories/202610070282.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T10:20:38.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070282.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "[Capital FM] Nairobi -- Nairobi Senator Edwin Sifuna has accused parliamentary \"gatekeepers\" of frustrating scrutiny of the proposed Lamu refinery, just days after he filed a formal request for documents on the project with the Senate set to proceed on recess on October 9."
       }
      ]
     }
@@ -5500,179 +5402,23 @@
     }
    }
   },
-  "zw": {
-   "label": "Zimbabwe",
+  "ng": {
+   "label": "Nigeria",
    "level": "country",
    "sources": {
-    "construction": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Hwange councillor raises alarm over idle contractors on Byo-Vic Falls highway",
-       "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-07T12:29:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Moyo said the strategic highway, which links Victoria Falls with Bulawayo and neighbouring countries to the north, had deteriorated to the extent that motorists were facing lengthy and difficult journeys. The post Hwange councillor raises alarm over idle contractors on Byo-Vic Fa"
-      }
-     ]
-    }
-   }
-  },
-  "zw-bu": {
-   "label": "Bulawayo",
-   "level": "admin1",
-   "sources": {
-    "construction": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Hwange councillor raises alarm over idle contractors on Byo-Vic Falls highway",
-       "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-07T12:29:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Moyo said the strategic highway, which links Victoria Falls with Bulawayo and neighbouring countries to the north, had deteriorated to the extent that motorists were facing lengthy and difficult journeys. The post Hwange councillor raises alarm over idle contractors on Byo-Vic Fa"
-      }
-     ]
-    }
-   }
-  },
-  "zw-city-bulawayo": {
-   "label": "Bulawayo",
-   "level": "city",
-   "sources": {
-    "construction": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Hwange councillor raises alarm over idle contractors on Byo-Vic Falls highway",
-       "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-07T12:29:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Moyo said the strategic highway, which links Victoria Falls with Bulawayo and neighbouring countries to the north, had deteriorated to the extent that motorists were facing lengthy and difficult journeys. The post Hwange councillor raises alarm over idle contractors on Byo-Vic Fa"
-      }
-     ]
-    }
-   }
-  },
-  "lr": {
-   "label": "Liberia",
-   "level": "country",
-   "sources": {
-    "metals": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Liberia: Arcelormittal Assured By Fenceline Communities",
-       "url": "https://allafrica.com/stories/202610070554.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T15:28:16.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070554.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[New Republic] Fenceline communities surrounding ArcelorMittal Liberia's mining and railway operations in Nimba, Bong and Grand Bassa counties have reaffirmed their commitment to maintaining a peaceful and constructive relationship with the company, emphasizing dialogue, cooperat"
-      }
-     ]
-    },
-    "construction": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Liberia: Liberia Will Be a Construction Site in Two Months, Giddings Says",
-       "url": "https://allafrica.com/stories/202610070284.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-07T10:34:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610070284.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Liberian Investigator] MONROVIA -- Public Works Minister Roland Layfette Giddings said on Monday that Liberia will become a construction site in the next two months as contractors begin work on several major road projects, including paving the Tapita-Zwedru highway."
-      }
-     ]
-    }
-   }
-  },
-  "sa": {
-   "label": "Saudi Arabia",
-   "level": "country",
-   "sources": {
-    "vehicles": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Awkward: Saudi Arabia’s new EV brand takes on the U.S. rival it already controls",
-       "url": "https://restofworld.org/2026/saudi-arabia-ceer-motors-ev-exobot-pif-lucid-byd/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-       "source": "Rest of World",
-       "published": "2026-10-01T10:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rest of World",
-         "url": "https://restofworld.org/2026/saudi-arabia-ceer-motors-ev-exobot-pif-lucid-byd/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Saudi wealth fund’s new EV will compete with Chinese rivals and with Lucid, the U.S. carmaker the fund controls."
-      }
-     ]
-    },
     "power": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Brent crosses $101 as Saudi attacks, US storm add to oil supply concerns",
-       "url": "https://timesofindia.indiatimes.com/business/international-business/brent-crosses-101-as-saudi-attacks-us-storm-add-to-oil-supply-concerns/articleshow/134753570.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-07T01:49:46.000Z",
+       "title": "Nigeria: Dangote Refinery - Marketers Differ Over Petrol Sale Restriction to Importers",
+       "url": "https://allafrica.com/stories/202610080091.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-08T06:22:28.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/international-business/brent-crosses-101-as-saudi-attacks-us-storm-add-to-oil-supply-concerns/articleshow/134753570.cms",
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610080091.html",
          "primary": false
         }
        ],
@@ -5681,35 +5427,7 @@
         "from": "energy",
         "stage": "generation"
        },
-       "blurb": "Rising oil prices, now exceeding 1%, raise alarms over potential storm disruptions affecting U.S. oil production and refineries. With Brent crude passing $101 per barrel and WTI crude hitting $90.38, concerns are amplified by supply issues from Saudi Arabia and mixed signals on U"
-      }
-     ]
-    }
-   }
-  },
-  "ru": {
-   "label": "Russia",
-   "level": "country",
-   "sources": {
-    "vehicles": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "EU ambassadors wave through largest-ever list of Russia sanctions",
-       "url": "https://kyivindependent.com/eu-ambassadors-wave-through-largest-ever-list-of-russia-sanctions-2/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-07T11:51:18.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/eu-ambassadors-wave-through-largest-ever-list-of-russia-sanctions-2/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The list targets a wide range of defense industry players, from shipyards and aviation companies to electronics manufacturers, armored vehicle repair facilities, and aerospace companies."
+       "blurb": "[Daily Trust] The Independent Petroleum Marketers' Association of Nigeria (IPMAN) has said the association has no problem with the decision of Dangote Refinery and Petrochemical to stop the sale of petroleum products to importers."
       }
      ]
     }
@@ -5741,34 +5459,6 @@
         "stage": "generation"
        },
        "blurb": "Independent Planning Commission says climate change impacts from Hunter Valley project will be ‘outweighed’ by economic benefits Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast The New South Wales independent pla"
-      }
-     ]
-    }
-   }
-  },
-  "ie": {
-   "label": "Ireland",
-   "level": "country",
-   "sources": {
-    "power": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Power station shutdown cost ESB almost €11m",
-       "url": "https://www.irishtimes.com/business/2026/10/07/power-station-shutdown-cost-esb-almost-11m/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-07T05:00:01.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/07/power-station-shutdown-cost-esb-almost-11m/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Turbine repairs put Coolkeeragh plant out of action for six months"
       }
      ]
     }
@@ -5859,6 +5549,23 @@
        "stages": [],
        "via": null,
        "blurb": "Toyota Thailand is asking the government to consider tax deductions for manufacturers affected by recent flooding."
+      },
+      {
+       "title": "Weather disruption muddies Q4 auto sales",
+       "url": "https://www.bangkokpost.com/business/motoring/3333165/weather-disruption-muddies-q4-auto-sales",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-07T23:23:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/motoring/3333165/weather-disruption-muddies-q4-auto-sales",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Thailand's floods are expected to slightly affect domestic car sales in the fourth quarter as consumers delay purchases and dealerships face delivery disruptions, according to Mazda Sales (Thailand)."
       }
      ]
     }
@@ -5925,6 +5632,34 @@
     }
    }
   },
+  "zw": {
+   "label": "Zimbabwe",
+   "level": "country",
+   "sources": {
+    "vehicles": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Zimbabwe: Supreme Court Reinstates PetroZim GM's Dismissal, Slams Labour Court Ruling As 'Irrational'",
+       "url": "https://allafrica.com/stories/202610080080.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-08T06:13:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610080080.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[New Zimbabwe] The Supreme Court has reinstated the dismissal of former PetroZim Line general manager Catherine Katsande, ruling that the Labour Court acted \"manifestly irrationally\" when it overturned her conviction on multiple misconduct charges linked to her dealings with majo"
+      }
+     ]
+    }
+   }
+  },
   "de-by": {
    "label": "Bayern",
    "level": "admin1",
@@ -5976,34 +5711,6 @@
        "stages": [],
        "via": null,
        "blurb": "BMW is presenting the most powerful drivetrain variant of its premium iX3 eSUV to date. The new BMW iX3 M60 xDrive takes the lead in the lineup with 450 kW and is said to accelerate from 0 to 100 km/h in under four seconds. The Munich-based manufacturer plans to open order books "
-      }
-     ]
-    }
-   }
-  },
-  "bd": {
-   "label": "Bangladesh",
-   "level": "country",
-   "sources": {
-    "vehicles": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Airbus says Biman Bangladesh confirms order for 10 jets",
-       "url": "https://www.channelnewsasia.com/business/airbus-says-biman-bangladesh-confirms-order-10-jets-6440276",
-       "source": "CNA Business",
-       "published": "2026-10-07T16:54:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/airbus-says-biman-bangladesh-confirms-order-10-jets-6440276",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
       }
      ]
     }
@@ -6122,6 +5829,34 @@
         "stage": "generation"
        },
        "blurb": "On a sunny September day in New York City, I followed a throng of people off the subway and into Queens’ Flushing Meadows Corona Park. The crowds were there for the U.S. Open tennis tournament, but I wasn’t — I’d come to see a novel experiment to wean the city’s iconic food carts"
+      }
+     ]
+    }
+   }
+  },
+  "sa": {
+   "label": "Saudi Arabia",
+   "level": "country",
+   "sources": {
+    "vehicles": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Awkward: Saudi Arabia’s new EV brand takes on the U.S. rival it already controls",
+       "url": "https://restofworld.org/2026/saudi-arabia-ceer-motors-ev-exobot-pif-lucid-byd/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+       "source": "Rest of World",
+       "published": "2026-10-01T10:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rest of World",
+         "url": "https://restofworld.org/2026/saudi-arabia-ceer-motors-ev-exobot-pif-lucid-byd/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Saudi wealth fund’s new EV will compete with Chinese rivals and with Lucid, the U.S. carmaker the fund controls."
       }
      ]
     }
