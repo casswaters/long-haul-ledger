@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T19:33:48.037Z",
+ "generatedAt": "2026-10-08T19:36:17.028Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -275,6 +275,30 @@
      "brief": "ready",
      "candidates": [
       {
+       "title": "Global shares fall as oil tops $105 amid fresh tanker attacks by Iran",
+       "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-08T16:34:30.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/08/oil-prices-are-climbing-on-concerns-about-an-escalating-iran-war",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Ryanair falls as Michael O’Leary warns that ‘insanely higher’ jet fuel prices could last until 2028"
+      },
+      {
        "title": "Oil jumps 5% as Hormuz tanker attacks escalate, US Gulf hurricane shuts in production",
        "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
        "source": "Oil & Gas Journal",
@@ -299,11 +323,6 @@
         {
          "name": "The Straits Times Business",
          "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
-         "primary": false
-        },
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
          "primary": false
         },
         {
@@ -516,23 +535,6 @@
        "stages": [],
        "via": null,
        "blurb": "Brent crude, the international standard, jumped 5.3% to $105.54 per barrel early. Several explosions were heard in the Saudi capital on Oct. 8."
-      },
-      {
-       "title": "EIA Boosts Oil Price Forecast by $5 in 2026, $10 in 2027",
-       "url": "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-08T14:32:46.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The U.S. Energy Information Administration raised its 2026 Brent crude oil spot price forecast by more than $5 per barrel and its 2027 Brent price forecast by $10 per barrel."
       }
      ]
     },
@@ -649,7 +651,7 @@
        "title": "Storage Build Snaps 4-Day Natural Gas Rally as Isaias Shuts In 1.1 Bcf/d",
        "url": "https://naturalgasintel.com/news/storage-build-snaps-4-day-natural-gas-rally-as-isaias-shuts-in-11-bcfd/",
        "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T19:26:22.000Z",
+       "published": "2026-10-08T19:26:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -1212,6 +1214,30 @@
      "brief": "ready",
      "candidates": [
       {
+       "title": "Everything’s bigger in Texas",
+       "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
+       "source": "pv magazine",
+       "published": "2026-10-08T16:00:00.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
+         "primary": false
+        },
+        {
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/packaging/novolex-opens-applied-innovation-center-in-texas",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "By almost any measure, the story of solar power in Texas has been one of astounding success. The state is by far the country’s fastest-growing solar market. The Solar Energy Industries Association (SEIA) records nearly 54 GW of solar and more than 29 GWh of batteries have been in"
+      },
+      {
        "title": "Tata Power, Ocean Sun to pilot membrane-based floating solar technology in India",
        "url": "https://www.pv-tech.org/tata-power-ocean-sun-to-pilot-membrane-based-floating-solar-technology-in-india/",
        "source": "PV Tech",
@@ -1279,25 +1305,6 @@
        ],
        "via": null,
        "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
-      },
-      {
-       "title": "Everything’s bigger in Texas",
-       "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
-       "source": "pv magazine",
-       "published": "2026-10-08T16:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "By almost any measure, the story of solar power in Texas has been one of astounding success. The state is by far the country’s fastest-growing solar market. The Solar Energy Industries Association (SEIA) records nearly 54 GW of solar and more than 29 GWh of batteries have been in"
       },
       {
        "title": "EU expert group urges curbs on high-risk solar suppliers",
@@ -1963,6 +1970,23 @@
        "blurb": "A detailed look at Maxxen’s advanced BESS factory from an on-the-ground tour. The post Inside BESS manufacturing: Maxxen’s utility-scale storage factory in Europe appeared first on pv magazine Global ."
       },
       {
+       "title": "Brazil Develops Hybrid Hydrogen Propulsion System for JAQ H2 Vessel",
+       "url": "https://fuelcellsworks.com/2026/10/08/fuel-cells/brazil-develops-hybrid-hydrogen-propulsion-system-for-jaq-h2-vessel",
+       "source": "FuelCellsWorks",
+       "published": "2026-10-08T16:34:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "FuelCellsWorks",
+         "url": "https://fuelcellsworks.com/2026/10/08/fuel-cells/brazil-develops-hybrid-hydrogen-propulsion-system-for-jaq-h2-vessel",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
+      {
        "title": "South Korea picks solar, battery and EVs as key sectors in US$747 billion Green Industrial Plan",
        "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
        "source": "PV Tech",
@@ -2019,6 +2043,57 @@
        "blurb": "Annual battery energy storage system (BESS) failures per-deployed-GWh declined 99% globally between 2018 and 2025, as installed BESS capacity grew exponentially."
       },
       {
+       "title": "PowerCell Secures SEK 27 Million Follow-Up Order for Two Additional Hydrogen-Electric Bulk Carriers",
+       "url": "https://fuelcellsworks.com/2026/10/08/electrolyzer/powercell-secures-sek-27-million-follow-up-order-for-two-additional-hydrogen-electric-bulk-carriers",
+       "source": "FuelCellsWorks",
+       "published": "2026-10-08T16:09:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "FuelCellsWorks",
+         "url": "https://fuelcellsworks.com/2026/10/08/electrolyzer/powercell-secures-sek-27-million-follow-up-order-for-two-additional-hydrogen-electric-bulk-carriers",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
+      {
+       "title": "Hydrogen Combustion Moves Into Heavy Machinery",
+       "url": "https://fuelcellsworks.com/2026/10/07/h2/hydrogen-combustion-moves-into-heavy-machinery",
+       "source": "FuelCellsWorks",
+       "published": "2026-10-08T16:08:40.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "FuelCellsWorks",
+         "url": "https://fuelcellsworks.com/2026/10/07/h2/hydrogen-combustion-moves-into-heavy-machinery",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
+      {
+       "title": "EU Hydrogen Expansion Unlikely to Strain Most Water Supplies",
+       "url": "https://fuelcellsworks.com/2026/10/08/h2/eu-hydrogen-expansion-unlikely-to-strain-most-water-supplies",
+       "source": "FuelCellsWorks",
+       "published": "2026-10-08T15:51:27.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "FuelCellsWorks",
+         "url": "https://fuelcellsworks.com/2026/10/08/h2/eu-hydrogen-expansion-unlikely-to-strain-most-water-supplies",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
+      {
        "title": "Australia: Eku Energy locks community deals for 2.76GWh Queensland BESS duo as Valo wins 1.6GWh contract",
        "url": "https://www.energy-storage.news/australia-eku-energy-locks-community-deals-for-2-76gwh-queensland-bess-duo-as-valo-wins-1-6gwh-contract/",
        "source": "Energy-Storage.news",
@@ -2072,85 +2147,6 @@
        ],
        "via": null,
        "blurb": "AI data centres have energy and power requirements demanding enough to potentially stretch lithium-ion beyond its versatile limits, writes Intertek CEA market intelligence consultant Aaron Marks."
-      },
-      {
-       "title": "How a reluctant Iowa farming county undid a ban on battery storage",
-       "url": "https://www.canarymedia.com/articles/food-and-farms/iowa-farm-county-battery-storage",
-       "source": "Canary Media",
-       "published": "2026-10-08T07:30:00.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Canary Media",
-         "url": "https://www.canarymedia.com/articles/food-and-farms/iowa-farm-county-battery-storage",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid",
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "The soil in northwest Iowa is so fertile it’s referred to as “black gold.” “It’s incredibly rich, wonderful topsoil from thousands of years of silty deposits from the Missouri River,” said Luke Seaberg, a researcher at Iowa State University’s extension program. So rich that some "
-      },
-      {
-       "title": "Nala begins construction at 125MW BESS project",
-       "url": "https://www.renews.biz/other-news/energy-storage/nala-begins-construction-at-125mw-bess-project/",
-       "source": "reNEWS",
-       "published": "2026-10-07T15:18:37.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "reNEWS",
-         "url": "https://www.renews.biz/other-news/energy-storage/nala-begins-construction-at-125mw-bess-project/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Finnish system brings developer's pipeline to 275MW"
-      },
-      {
-       "title": "Deployable Energy to test its Unity nuclear battery in DOME",
-       "url": "https://www.world-nuclear-news.org/articles/deployable-energy-to-test-its-unity-nuclear-battery-in-dome",
-       "source": "World Nuclear News",
-       "published": "2026-10-07T14:16:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/deployable-energy-to-test-its-unity-nuclear-battery-in-dome",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "innovation",
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
-      },
-      {
-       "title": "NextEra halts Long Island BESS operations over drinking water contamination concerns",
-       "url": "https://www.energy-storage.news/nextera-halts-long-island-bess-operations-over-drinking-water-contamination-concerns/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-07T13:12:30.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/nextera-halts-long-island-bess-operations-over-drinking-water-contamination-concerns/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "US energy holding company and project developer-owner NextEra Energy has suspended operations at two energy storage facilities in Long Island, New York, US."
       }
      ]
     }
@@ -2420,11 +2416,6 @@
          "primary": false
         },
         {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
-         "primary": false
-        },
-        {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
          "primary": false
@@ -2544,6 +2535,28 @@
        "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
       },
       {
+       "title": "Brent crude tops $105 as Trump weighs resuming 'major combat operations' in Iran",
+       "url": "https://www.euronews.com/2026/10/08/oil-prices-are-climbing-on-concerns-about-an-escalating-iran-war",
+       "source": "Euronews Business",
+       "published": "2026-10-08T06:35:51.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/08/oil-prices-are-climbing-on-concerns-about-an-escalating-iran-war",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Brent crude rose above $105 a barrel on Thursday after reports that US President Donald Trump is considering a return to \"major combat operations\" against Iran, while European stock markets opened lower as rising oil prices fuelled inflation fears."
+      },
+      {
        "title": "EIA: US crude oil inventories down 3.2 million bbl",
        "url": "https://www.ogj.com/general-interest/economics-markets/news/55410217/eia-us-crude-oil-inventories-down-32-million-bbl",
        "source": "Oil & Gas Journal",
@@ -2588,23 +2601,6 @@
        "blurb": "Chevron has agreed to divest its ownership interests in Hess Midstream, along with its crude oil midstream assets in the Denver Julesburg (DJ) Basin in the US, as part of a transaction with Hess Midstream."
       },
       {
-       "title": "Brent crude tops $105 as Trump weighs resuming 'major combat operations' in Iran",
-       "url": "https://www.euronews.com/2026/10/08/oil-prices-are-climbing-on-concerns-about-an-escalating-iran-war",
-       "source": "Euronews Business",
-       "published": "2026-10-08T06:35:51.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/08/oil-prices-are-climbing-on-concerns-about-an-escalating-iran-war",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Brent crude rose above $105 a barrel on Thursday after reports that US President Donald Trump is considering a return to \"major combat operations\" against Iran, while European stock markets opened lower as rising oil prices fuelled inflation fears."
-      },
-      {
        "title": "US BLM sets December California oil, gas lease sale",
        "url": "https://www.ogj.com/general-interest/government/news/55409584/us-blm-sets-december-california-oil-gas-lease-sale",
        "source": "Oil & Gas Journal",
@@ -2646,24 +2642,23 @@
        "blurb": "Chevron CFO Eimear Bonner expects energy prices to stay elevated, while a major trucking CEO says contracts signed before diesel prices rose are hurting the bottom line."
       },
       {
-       "title": "Narrowed Jones Act exemption slows energy cargo trade",
-       "url": "https://www.ttnews.com/articles/jones-act",
-       "source": "Transport Topics",
-       "published": "2026-10-07T16:58:52.000Z",
+       "title": "Shell Reports Declining Chemical Margins Amid Refining Gains",
+       "url": "https://www.plasticstoday.com/materials/shell-reports-declining-chemical-margins-amid-refining-gains",
+       "source": "Plastics Today",
+       "published": "2026-10-07T17:38:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Transport Topics",
-         "url": "https://www.ttnews.com/articles/jones-act",
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/materials/shell-reports-declining-chemical-margins-amid-refining-gains",
          "primary": false
         }
        ],
        "stages": [
-        "extraction",
         "generation"
        ],
        "via": null,
-       "blurb": "Narrowing the Jones Act has curbed a roaring trade that was supplying East and West coast ports with fuel produced on the Gulf Coast, as well as crude oil and products used in refining."
+       "blurb": "Shell's Q3 2026 update reveals declining chemical margins and operational challenges from low Rhine water levels, offset by stronger refining performance and expanded production capacity."
       }
      ]
     },
@@ -2988,6 +2983,30 @@
      "brief": "ready",
      "candidates": [
       {
+       "title": "Everything’s bigger in Texas",
+       "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
+       "source": "pv magazine",
+       "published": "2026-10-08T16:00:00.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
+         "primary": false
+        },
+        {
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/packaging/novolex-opens-applied-innovation-center-in-texas",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "By almost any measure, the story of solar power in Texas has been one of astounding success. The state is by far the country’s fastest-growing solar market. The Solar Energy Industries Association (SEIA) records nearly 54 GW of solar and more than 29 GWh of batteries have been in"
+      },
+      {
        "title": "ContourGlobal begins Arizona solar-storage construction",
        "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
        "source": "reNEWS",
@@ -3011,25 +3030,6 @@
        ],
        "via": null,
        "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
-      },
-      {
-       "title": "Everything’s bigger in Texas",
-       "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
-       "source": "pv magazine",
-       "published": "2026-10-08T16:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "By almost any measure, the story of solar power in Texas has been one of astounding success. The state is by far the country’s fastest-growing solar market. The Solar Energy Industries Association (SEIA) records nearly 54 GW of solar and more than 29 GWh of batteries have been in"
       },
       {
        "title": "Toyo expands Texas solar module manufacturing facility to 2GW",
@@ -4023,23 +4023,6 @@
     "emerging": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Germany’s Hydrogen Rollout Risks Falling Out of Sync, Ariadne Warns",
-       "url": "https://fuelcellsworks.com/2026/10/06/h2/germany-s-hydrogen-rollout-risks-falling-out-of-sync-ariadne-warns",
-       "source": "FuelCellsWorks",
-       "published": "2026-10-07T16:30:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "FuelCellsWorks",
-         "url": "https://fuelcellsworks.com/2026/10/06/h2/germany-s-hydrogen-rollout-risks-falling-out-of-sync-ariadne-warns",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
       {
        "title": "Dutch BESS developer Giga Storage brings gigawatt-hour-scale project strategy to Germany",
        "url": "https://www.energy-storage.news/dutch-bess-developer-giga-storage-brings-gigawatt-hour-scale-project-strategy-to-germany/",
@@ -5194,11 +5177,16 @@
        "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
        "source": "pv magazine",
        "published": "2026-10-08T16:00:00.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "pv magazine",
          "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
+         "primary": false
+        },
+        {
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/packaging/novolex-opens-applied-innovation-center-in-texas",
          "primary": false
         }
        ],
@@ -6654,6 +6642,30 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Global shares fall as oil tops $105 amid fresh tanker attacks by Iran",
+       "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-08T16:34:30.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/08/oil-prices-are-climbing-on-concerns-about-an-escalating-iran-war",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Ryanair falls as Michael O’Leary warns that ‘insanely higher’ jet fuel prices could last until 2028"
+      },
+      {
        "title": "Asia races to stockpile oil, speed up renewables in response to Iran war",
        "url": "https://www.channelnewsasia.com/business/asia-races-stockpile-oil-speed-up-renewables-in-response-iran-war-6443281",
        "source": "CNA Business",
@@ -6705,23 +6717,6 @@
        ],
        "via": null,
        "blurb": "The Iran war has hit two mainstays of Gulf business: energy exports and aviation. The disruption extends to Europe, where buyers have had to replace missing gas supplies."
-      },
-      {
-       "title": "Brent crude tops $105 as Trump weighs resuming 'major combat operations' in Iran",
-       "url": "https://www.euronews.com/2026/10/08/oil-prices-are-climbing-on-concerns-about-an-escalating-iran-war",
-       "source": "Euronews Business",
-       "published": "2026-10-08T06:35:51.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/08/oil-prices-are-climbing-on-concerns-about-an-escalating-iran-war",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Brent crude rose above $105 a barrel on Thursday after reports that US President Donald Trump is considering a return to \"major combat operations\" against Iran, while European stock markets opened lower as rising oil prices fuelled inflation fears."
       }
      ]
     }
@@ -7392,65 +7387,6 @@
     "oil": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Shares fall as Middle East tanker attacks drive oil prices higher",
-       "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-08T16:34:30.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "World Trade Organization",
-         "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
-         "primary": true
-        },
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
-         "primary": false
-        },
-        {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
-         "primary": false
-        },
-        {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
-         "primary": false
-        },
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
-         "primary": false
-        },
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
-         "primary": false
-        },
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Ryanair falls as Michael O’Leary warns that ‘insanely higher’ jet fuel prices could last until 2028"
-      },
       {
        "title": "Home heating oil surges 58% as energy bill hikes wipe out budget gains",
        "url": "https://www.irishtimes.com/business/2026/10/08/home-heating-oil-prices-rise-almost-60/",
@@ -9059,11 +8995,6 @@
          "primary": false
         },
         {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
-         "primary": false
-        },
-        {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
          "primary": false
@@ -9316,6 +9247,28 @@
        ],
        "via": null,
        "blurb": "Registration is open for a Geothermal Workshop hosted by Vallourec in Belo Horizonte, Brazil to discuss the latest technologies for geothermal wells and tubulars. The post Registration open – Geothermal Workshop by Vallourec; Belo Horizonte, Brazil; 11-12 November 2026 first appe"
+      }
+     ]
+    },
+    "emerging": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Brazil Develops Hybrid Hydrogen Propulsion System for JAQ H2 Vessel",
+       "url": "https://fuelcellsworks.com/2026/10/08/fuel-cells/brazil-develops-hybrid-hydrogen-propulsion-system-for-jaq-h2-vessel",
+       "source": "FuelCellsWorks",
+       "published": "2026-10-08T16:34:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "FuelCellsWorks",
+         "url": "https://fuelcellsworks.com/2026/10/08/fuel-cells/brazil-develops-hybrid-hydrogen-propulsion-system-for-jaq-h2-vessel",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
       }
      ]
     }
@@ -9829,34 +9782,6 @@
        "stages": [],
        "via": null,
        "blurb": "Two consultants hired by Hydro-Quebec say they expect the demand from data centres to more than double between 2024 and 2030."
-      }
-     ]
-    }
-   }
-  },
-  "cl": {
-   "label": "Chile",
-   "level": "country",
-   "sources": {
-    "emerging": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Walmart Chile and Copec Inaugurate First Hydrogen Station for High-Tonnage Trucks",
-       "url": "https://fuelcellsworks.com/2026/10/01/electrolyzer/walmart-chile-and-copec-inaugurate-first-hydrogen-station-for-high-tonnage-trucks",
-       "source": "FuelCellsWorks",
-       "published": "2026-10-07T18:44:10.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "FuelCellsWorks",
-         "url": "https://fuelcellsworks.com/2026/10/01/electrolyzer/walmart-chile-and-copec-inaugurate-first-hydrogen-station-for-high-tonnage-trucks",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
       }
      ]
     }

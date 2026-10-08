@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T19:34:31.472Z",
+ "generatedAt": "2026-10-08T19:36:46.144Z",
  "sector": "services",
  "maxAgeDays": 10,
  "places": {
@@ -77,23 +77,6 @@
        "stages": [],
        "via": null,
        "blurb": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to analysts. Analysts across several financial institutions proje"
-      },
-      {
-       "title": "Walmart Chile and Copec Inaugurate First Hydrogen Station for High-Tonnage Trucks",
-       "url": "https://fuelcellsworks.com/2026/10/01/electrolyzer/walmart-chile-and-copec-inaugurate-first-hydrogen-station-for-high-tonnage-trucks",
-       "source": "FuelCellsWorks",
-       "published": "2026-10-07T18:44:10.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "FuelCellsWorks",
-         "url": "https://fuelcellsworks.com/2026/10/01/electrolyzer/walmart-chile-and-copec-inaugurate-first-hydrogen-station-for-high-tonnage-trucks",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
       },
       {
        "title": "Uniqlo operator Fast Retailing posts 32% rise in profit, beats forecasts",
@@ -218,6 +201,23 @@
        "stages": [],
        "via": null,
        "blurb": "Fast Retailing, the parent company of Japanese clothing retailer Uniqlo, has defied the ongoing political tensions between Beijing and Tokyo and soft consumer sentiment in China to log a rebound in sales and profits on the Chinese mainland. The Japanese firm said the 2026 financi"
+      },
+      {
+       "title": "Popular US gas station, convenience store tests sushi at select locations",
+       "url": "https://www.undercurrentnews.com/2026/10/08/popular-us-gas-station-convenience-store-tests-sushi-at-select-locations/",
+       "source": "Undercurrent News",
+       "published": "2026-10-08T15:40:42.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Undercurrent News",
+         "url": "https://www.undercurrentnews.com/2026/10/08/popular-us-gas-station-convenience-store-tests-sushi-at-select-locations/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Popular US gas station, convenience store tests sushi at select locations"
       }
      ]
     },
@@ -1188,6 +1188,28 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Global shares fall as oil tops $105 amid fresh tanker attacks by Iran",
+       "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-08T16:34:30.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/08/oil-prices-are-climbing-on-concerns-about-an-escalating-iran-war",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Ryanair falls as Michael O’Leary warns that ‘insanely higher’ jet fuel prices could last until 2028"
+      },
+      {
        "title": "Oil jumps 5% as Hormuz tanker attacks escalate, US Gulf hurricane shuts in production",
        "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
        "source": "Oil & Gas Journal",
@@ -1212,11 +1234,6 @@
         {
          "name": "The Straits Times Business",
          "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
-         "primary": false
-        },
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
          "primary": false
         },
         {
@@ -1418,29 +1435,37 @@
        "stages": [],
        "via": null,
        "blurb": "After a local hunter reported a 'big cat sighting' near Munich, local police have deployed drones, dogs and a helicopter to comb the surrounding region."
-      },
-      {
-       "title": "The battle against supply chain chaos keeps SMBs ‘in overdrive’",
-       "url": "https://theloadstar.com/the-battle-against-supply-chain-chaos-keeps-smbs-in-overdrive/",
-       "source": "The Loadstar",
-       "published": "2026-10-08T14:00:08.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Loadstar",
-         "url": "https://theloadstar.com/the-battle-against-supply-chain-chaos-keeps-smbs-in-overdrive/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Small and mid-sized shippers (SMBs) are in a state of permanent overdrive, according to a report by Netstock. Inventory moves have accelerated, dead stock is threatening to pile up on them, and traditional, linear supply chain planning is failing. The 2026 Supply Chain Planning B"
       }
      ]
     },
     "utilities": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Global shares fall as oil tops $105 amid fresh tanker attacks by Iran",
+       "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-08T16:34:30.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/08/oil-prices-are-climbing-on-concerns-about-an-escalating-iran-war",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "Ryanair falls as Michael O’Leary warns that ‘insanely higher’ jet fuel prices could last until 2028"
+      },
       {
        "title": "Oil jumps 5% as Hormuz tanker attacks escalate, US Gulf hurricane shuts in production",
        "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
@@ -1466,11 +1491,6 @@
         {
          "name": "The Straits Times Business",
          "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
-         "primary": false
-        },
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
          "primary": false
         },
         {
@@ -1689,7 +1709,7 @@
        "title": "Storage Build Snaps 4-Day Natural Gas Rally as Isaias Shuts In 1.1 Bcf/d",
        "url": "https://naturalgasintel.com/news/storage-build-snaps-4-day-natural-gas-rally-as-isaias-shuts-in-11-bcfd/",
        "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T19:26:22.000Z",
+       "published": "2026-10-08T19:26:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -1724,23 +1744,6 @@
         "stage": "grid"
        },
        "blurb": "A brief force majeure on Kinder Morgan’s Tennessee Gas Pipeline (TGP) curtailed natural gas exports to Mexico this week, but the disruption was quickly resolved without affecting Mexico’s energy grid or triggering significant regional price volatility."
-      },
-      {
-       "title": "Hallador and Merom Execute $700M Sale",
-       "url": "https://www.coalage.com/departments/breaking-news/hallador-and-merom-execute-700m-sale/",
-       "source": "Coal Age",
-       "published": "2026-10-08T18:33:56.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Coal Age",
-         "url": "https://www.coalage.com/departments/breaking-news/hallador-and-merom-execute-700m-sale/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Hallador Energy Co. announced that its subsidiary, Hallador Power Co., LLC, has executed six-year capacity and energy agreements with an investment-grade MISO Zone 6 utility (Utility) covering deliveries from the Merom Generating Station from June 1, 2029, through May 31, 2035. T"
       }
      ]
     }
@@ -2661,11 +2664,6 @@
          "primary": false
         },
         {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
-         "primary": false
-        },
-        {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
          "primary": false
@@ -2907,11 +2905,6 @@
         {
          "name": "The Straits Times Business",
          "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
-         "primary": false
-        },
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
          "primary": false
         },
         {
@@ -4137,23 +4130,6 @@
        "blurb": "Some financial analysts and wealth managers in recent years have suggested that the second- and third-generation leaders of family offices in Asia are moving away from the basic principles that helped to create and accumulate their existing assets, but that is not strictly accura"
       },
       {
-       "title": "More global investors eye Chinese equities, ending 4-year underweight run, bank says",
-       "url": "https://www.scmp.com/business/china-business/article/3370035/more-global-investors-eye-chinese-equities-ending-4-year-underweight-run-bank-says?utm_source=rss_feed",
-       "source": "South China Morning Post",
-       "published": "2026-10-08T01:00:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "South China Morning Post",
-         "url": "https://www.scmp.com/business/china-business/article/3370035/more-global-investors-eye-chinese-equities-ending-4-year-underweight-run-bank-says?utm_source=rss_feed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Global investors are taking another look at Chinese equities after years of cautious positioning, drawn by relatively cheap valuations and opportunities in artificial intelligence, although an end to persistent selling does not indicate an outright bullish turn, according to anal"
-      },
-      {
        "title": "Hong Kong banks grow cautious on One Stanley mortgages amid investigation",
        "url": "https://www.scmp.com/business/article/3370086/hong-kong-banks-grow-cautious-one-stanley-mortgages-amid-investigation?utm_source=rss_feed",
        "source": "South China Morning Post",
@@ -4662,6 +4638,28 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Global shares fall as oil tops $105 amid fresh tanker attacks by Iran",
+       "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-08T16:34:30.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/08/oil-prices-are-climbing-on-concerns-about-an-escalating-iran-war",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Ryanair falls as Michael O’Leary warns that ‘insanely higher’ jet fuel prices could last until 2028"
+      },
+      {
        "title": "High yields spark new container services on ‘bumpy’ India-Middle East trade",
        "url": "https://theloadstar.com/high-yields-spark-new-container-services-on-bumpy-india-middle-east-trade/",
        "source": "The Loadstar",
@@ -4683,6 +4681,31 @@
     "utilities": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Global shares fall as oil tops $105 amid fresh tanker attacks by Iran",
+       "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-08T16:34:30.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/08/oil-prices-are-climbing-on-concerns-about-an-escalating-iran-war",
+         "primary": false
+        },
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "Ryanair falls as Michael O’Leary warns that ‘insanely higher’ jet fuel prices could last until 2028"
+      },
       {
        "title": "Gulf economies to shrink despite higher oil prices as Iran war takes toll, World Bank says",
        "url": "https://www.euronews.com/2026/10/08/gulf-economies-to-shrink-despite-higher-oil-prices-as-iran-war-takes-toll-world-bank-says",
@@ -6387,131 +6410,9 @@
       }
      ]
     },
-    "transport": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Shares fall as Middle East tanker attacks drive oil prices higher",
-       "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-08T16:34:30.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "World Trade Organization",
-         "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
-         "primary": true
-        },
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
-         "primary": false
-        },
-        {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
-         "primary": false
-        },
-        {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
-         "primary": false
-        },
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
-         "primary": false
-        },
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
-         "primary": false
-        },
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Ryanair falls as Michael O’Leary warns that ‘insanely higher’ jet fuel prices could last until 2028"
-      }
-     ]
-    },
     "utilities": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Shares fall as Middle East tanker attacks drive oil prices higher",
-       "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-08T16:34:30.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "World Trade Organization",
-         "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
-         "primary": true
-        },
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
-         "primary": false
-        },
-        {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
-         "primary": false
-        },
-        {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
-         "primary": false
-        },
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
-         "primary": false
-        },
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
-         "primary": false
-        },
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "Ryanair falls as Michael O’Leary warns that ‘insanely higher’ jet fuel prices could last until 2028"
-      },
       {
        "title": "Home heating oil surges 58% as energy bill hikes wipe out budget gains",
        "url": "https://www.irishtimes.com/business/2026/10/08/home-heating-oil-prices-rise-almost-60/",
@@ -6599,11 +6500,6 @@
          "primary": false
         },
         {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
-         "primary": false
-        },
-        {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
          "primary": false
@@ -6658,11 +6554,6 @@
         {
          "name": "The Straits Times Business",
          "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
-         "primary": false
-        },
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/shares-fall-as-middle-east-tanker-attacks-drive-oil-prices-higher/",
          "primary": false
         },
         {
@@ -8160,34 +8051,6 @@
        "stages": [],
        "via": null,
        "blurb": "Yinson Production has closed the largest FPSO project bond to date at $1.458 billion, marking the first-ever non-Brazil issuance for the asset class."
-      }
-     ]
-    }
-   }
-  },
-  "cl": {
-   "label": "Chile",
-   "level": "country",
-   "sources": {
-    "retail": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Walmart Chile and Copec Inaugurate First Hydrogen Station for High-Tonnage Trucks",
-       "url": "https://fuelcellsworks.com/2026/10/01/electrolyzer/walmart-chile-and-copec-inaugurate-first-hydrogen-station-for-high-tonnage-trucks",
-       "source": "FuelCellsWorks",
-       "published": "2026-10-07T18:44:10.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "FuelCellsWorks",
-         "url": "https://fuelcellsworks.com/2026/10/01/electrolyzer/walmart-chile-and-copec-inaugurate-first-hydrogen-station-for-high-tonnage-trucks",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
       }
      ]
     }
