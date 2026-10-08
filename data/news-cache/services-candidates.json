@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T19:27:31.567Z",
+ "generatedAt": "2026-10-08T19:34:31.472Z",
  "sector": "services",
  "maxAgeDays": 10,
  "places": {
@@ -244,7 +244,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
       },
       {
        "title": "U.S. stocks edge further from their record as oil prices rise",
@@ -1686,6 +1686,26 @@
        "blurb": "Karen Fili As the nuclear industry enters one of the most significant investment periods in its history, utilities are managing unprecedented capital portfolios while simultaneously preparing for long-term operation, plant modernization, extended power uprates, digital transforma"
       },
       {
+       "title": "Storage Build Snaps 4-Day Natural Gas Rally as Isaias Shuts In 1.1 Bcf/d",
+       "url": "https://naturalgasintel.com/news/storage-build-snaps-4-day-natural-gas-rally-as-isaias-shuts-in-11-bcfd/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-08T19:26:22.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/storage-build-snaps-4-day-natural-gas-rally-as-isaias-shuts-in-11-bcfd/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "A slightly bearish government storage surprise tempered bullish sentiment in the natural gas futures market, ending a four-day run of gains for the prompt month on Thursday."
+      },
+      {
        "title": "US-Mexico Natural Gas Flows Recover After Brief TGP Force Majeure",
        "url": "https://naturalgasintel.com/news/us-mexico-natural-gas-flows-recover-after-brief-tgp-force-majeure/",
        "source": "Natural Gas Intelligence",
@@ -1721,26 +1741,6 @@
        "stages": [],
        "via": null,
        "blurb": "Hallador Energy Co. announced that its subsidiary, Hallador Power Co., LLC, has executed six-year capacity and energy agreements with an investment-grade MISO Zone 6 utility (Utility) covering deliveries from the Merom Generating Station from June 1, 2029, through May 31, 2035. T"
-      },
-      {
-       "title": "European Natural Gas Prices Defy Rebound in Middle Eastern LNG Shipments",
-       "url": "https://naturalgasintel.com/news/european-natural-gas-prices-defy-rebound-in-middle-eastern-lng-shipments/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T17:44:01.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/european-natural-gas-prices-defy-rebound-in-middle-eastern-lng-shipments/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "LNG moving through the Strait of Hormuz climbed to 1.13 Mt in September, according to Kpler data, marking a 13% increase from 1 Mt in August. September’s volumes were the highest monthly ..."
       }
      ]
     }
@@ -2074,7 +2074,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
       },
       {
        "title": "Bank of Ireland contains losses on US leveraged finance loans with insurance deals",
@@ -3008,26 +3008,6 @@
        "blurb": "PV Talk: Indosol's Manoj Pothireddy tells PV Tech Premium that opportunities remain for overseas wafer manufacturers to export to the US."
       },
       {
-       "title": "US Natural Gas Supply Growth Seen Outpacing Winter Demand Despite LNG Gains",
-       "url": "https://naturalgasintel.com/news/us-natural-gas-supply-growth-seen-outpacing-winter-demand-despite-lng-gains/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T12:56:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/us-natural-gas-supply-growth-seen-outpacing-winter-demand-despite-lng-gains/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "grid"
-       },
-       "blurb": "US natural gas supply growth is expected to outpace rising demand this winter, leaving the market well stocked even with LNG exports climbing and putting downward pressure on prices compared with last winter, according to the Natural Gas Supply Association (NGSA)."
-      },
-      {
        "title": "Venture Global shipped 124 LNG cargoes in Q3",
        "url": "https://lngprime.com/americas/venture-global-shipped-124-lng-cargoes-in-q3/198047/",
        "source": "LNG Prime",
@@ -3191,6 +3171,26 @@
         "stage": "grid"
        },
        "blurb": "Today’s announcement will deliver more reliable American energy, strengthen the grid, lower costs, and meet growing power demand across the 13-state PJM Interconnection, L.L.C. region."
+      },
+      {
+       "title": "How a reluctant Iowa farming county undid a ban on battery storage",
+       "url": "https://www.canarymedia.com/articles/food-and-farms/iowa-farm-county-battery-storage",
+       "source": "Canary Media",
+       "published": "2026-10-08T07:30:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Canary Media",
+         "url": "https://www.canarymedia.com/articles/food-and-farms/iowa-farm-county-battery-storage",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "grid"
+       },
+       "blurb": "The soil in northwest Iowa is so fertile it’s referred to as “black gold.” “It’s incredibly rich, wonderful topsoil from thousands of years of silty deposits from the Missouri River,” said Luke Seaberg, a researcher at Iowa State University’s extension program. So rich that some "
       }
      ]
     }
@@ -4135,6 +4135,23 @@
        "stages": [],
        "via": null,
        "blurb": "Some financial analysts and wealth managers in recent years have suggested that the second- and third-generation leaders of family offices in Asia are moving away from the basic principles that helped to create and accumulate their existing assets, but that is not strictly accura"
+      },
+      {
+       "title": "More global investors eye Chinese equities, ending 4-year underweight run, bank says",
+       "url": "https://www.scmp.com/business/china-business/article/3370035/more-global-investors-eye-chinese-equities-ending-4-year-underweight-run-bank-says?utm_source=rss_feed",
+       "source": "South China Morning Post",
+       "published": "2026-10-08T01:00:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "South China Morning Post",
+         "url": "https://www.scmp.com/business/china-business/article/3370035/more-global-investors-eye-chinese-equities-ending-4-year-underweight-run-bank-says?utm_source=rss_feed",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Global investors are taking another look at Chinese equities after years of cautious positioning, drawn by relatively cheap valuations and opportunities in artificial intelligence, although an end to persistent selling does not indicate an outright bullish turn, according to anal"
       },
       {
        "title": "Hong Kong banks grow cautious on One Stanley mortgages amid investigation",
@@ -5248,7 +5265,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
       },
       {
        "title": "Why Morgan Stanley sees more upside in Hong Kong offices than New York towers",
@@ -5373,7 +5390,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
       },
       {
        "title": "Why Morgan Stanley sees more upside in Hong Kong offices than New York towers",
@@ -6316,7 +6333,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
       }
      ]
     }
@@ -8199,34 +8216,6 @@
        "stages": [],
        "via": null,
        "blurb": "Government has commenced the phased handover of 100 fuel tankers received from King Long Motors Zambia Limited to 100 youth cooperatives under the Fuel Tanker Empowerment Programme, with 12,000 youths expected to benefit. Ministry of Youth, Sport and Arts Permanent Secretary Kang"
-      }
-     ]
-    }
-   }
-  },
-  "ph": {
-   "label": "Philippines",
-   "level": "country",
-   "sources": {
-    "transport": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "‘Gokongwei-Gotianun airport PPP lacks documents’",
-       "url": "https://www.philstar.com/business/2026/10/09/2561829/gokongwei-gotianun-airport-ppp-lacks-documents",
-       "source": "Philstar Business",
-       "published": "2026-10-08T16:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Philstar Business",
-         "url": "https://www.philstar.com/business/2026/10/09/2561829/gokongwei-gotianun-airport-ppp-lacks-documents",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The country’s maiden bundled airport project has been deemed as incomplete by the government, but its proponents are expected to complete the documents needed for the P21.64-billion plan to proceed."
       }
      ]
     }

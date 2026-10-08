@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T19:26:44.262Z",
+ "generatedAt": "2026-10-08T19:33:48.037Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -646,6 +646,26 @@
        "blurb": "US LNG exporter Venture Global shipped 124 LNG cargoes from its Calcasieu Pass and Plaquemines LNG export terminals in the third quarter of this year."
       },
       {
+       "title": "Storage Build Snaps 4-Day Natural Gas Rally as Isaias Shuts In 1.1 Bcf/d",
+       "url": "https://naturalgasintel.com/news/storage-build-snaps-4-day-natural-gas-rally-as-isaias-shuts-in-11-bcfd/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-08T19:26:22.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/storage-build-snaps-4-day-natural-gas-rally-as-isaias-shuts-in-11-bcfd/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "A slightly bearish government storage surprise tempered bullish sentiment in the natural gas futures market, ending a four-day run of gains for the prompt month on Thursday."
+      },
+      {
        "title": "US-Mexico Natural Gas Flows Recover After Brief TGP Force Majeure",
        "url": "https://naturalgasintel.com/news/us-mexico-natural-gas-flows-recover-after-brief-tgp-force-majeure/",
        "source": "Natural Gas Intelligence",
@@ -778,26 +798,6 @@
        ],
        "via": null,
        "blurb": "An affiliate of Singapore’s LNG Alliance is seeking US Department of Energy (DOE) permission to export US natural gas to a planned LNG export facility south of the border in the Port of Matamoros, in Tamaulipas."
-      },
-      {
-       "title": "US Natural Gas Supply Growth Seen Outpacing Winter Demand Despite LNG Gains",
-       "url": "https://naturalgasintel.com/news/us-natural-gas-supply-growth-seen-outpacing-winter-demand-despite-lng-gains/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T12:56:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/us-natural-gas-supply-growth-seen-outpacing-winter-demand-despite-lng-gains/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "US natural gas supply growth is expected to outpace rising demand this winter, leaving the market well stocked even with LNG exports climbing and putting downward pressure on prices compared with last winter, according to the Natural Gas Supply Association (NGSA)."
       }
      ]
     },
@@ -1212,30 +1212,6 @@
      "brief": "ready",
      "candidates": [
       {
-       "title": "Everything’s bigger in Texas",
-       "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
-       "source": "pv magazine",
-       "published": "2026-10-08T16:00:00.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
-         "primary": false
-        },
-        {
-         "name": "Plastics Today",
-         "url": "https://www.plasticstoday.com/packaging/novolex-opens-applied-innovation-center-in-texas",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "By almost any measure, the story of solar power in Texas has been one of astounding success. The state is by far the country’s fastest-growing solar market. The Solar Energy Industries Association (SEIA) records nearly 54 GW of solar and more than 29 GWh of batteries have been in"
-      },
-      {
        "title": "Tata Power, Ocean Sun to pilot membrane-based floating solar technology in India",
        "url": "https://www.pv-tech.org/tata-power-ocean-sun-to-pilot-membrane-based-floating-solar-technology-in-india/",
        "source": "PV Tech",
@@ -1303,6 +1279,25 @@
        ],
        "via": null,
        "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
+      },
+      {
+       "title": "Everything’s bigger in Texas",
+       "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
+       "source": "pv magazine",
+       "published": "2026-10-08T16:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "By almost any measure, the story of solar power in Texas has been one of astounding success. The state is by far the country’s fastest-growing solar market. The Solar Energy Industries Association (SEIA) records nearly 54 GW of solar and more than 29 GWh of batteries have been in"
       },
       {
        "title": "EU expert group urges curbs on high-risk solar suppliers",
@@ -2651,23 +2646,24 @@
        "blurb": "Chevron CFO Eimear Bonner expects energy prices to stay elevated, while a major trucking CEO says contracts signed before diesel prices rose are hurting the bottom line."
       },
       {
-       "title": "Shell Reports Declining Chemical Margins Amid Refining Gains",
-       "url": "https://www.plasticstoday.com/materials/shell-reports-declining-chemical-margins-amid-refining-gains",
-       "source": "Plastics Today",
-       "published": "2026-10-07T17:38:00.000Z",
+       "title": "Narrowed Jones Act exemption slows energy cargo trade",
+       "url": "https://www.ttnews.com/articles/jones-act",
+       "source": "Transport Topics",
+       "published": "2026-10-07T16:58:52.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Plastics Today",
-         "url": "https://www.plasticstoday.com/materials/shell-reports-declining-chemical-margins-amid-refining-gains",
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/jones-act",
          "primary": false
         }
        ],
        "stages": [
+        "extraction",
         "generation"
        ],
        "via": null,
-       "blurb": "Shell's Q3 2026 update reveals declining chemical margins and operational challenges from low Rhine water levels, offset by stronger refining performance and expanded production capacity."
+       "blurb": "Narrowing the Jones Act has curbed a roaring trade that was supplying East and West coast ports with fuel produced on the Gulf Coast, as well as crude oil and products used in refining."
       }
      ]
     },
@@ -2711,26 +2707,6 @@
        ],
        "via": null,
        "blurb": "US industrial natural gas consumption is poised to accelerate in 2027 as stronger manufacturing activity boosts demand from gas-intensive industries, including the chemicals sector, according to the Energy Information Administration (EIA)."
-      },
-      {
-       "title": "US Natural Gas Supply Growth Seen Outpacing Winter Demand Despite LNG Gains",
-       "url": "https://naturalgasintel.com/news/us-natural-gas-supply-growth-seen-outpacing-winter-demand-despite-lng-gains/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T12:56:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/us-natural-gas-supply-growth-seen-outpacing-winter-demand-despite-lng-gains/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "US natural gas supply growth is expected to outpace rising demand this winter, leaving the market well stocked even with LNG exports climbing and putting downward pressure on prices compared with last winter, according to the Natural Gas Supply Association (NGSA)."
       },
       {
        "title": "Venture Global shipped 124 LNG cargoes in Q3",
@@ -2902,6 +2878,25 @@
        "blurb": "Portuguese energy firm Galp has won an arbitration case against US LNG exporter Venture Global LNG over LNG sales from the Calcasieu Pass plant in Louisiana."
       },
       {
+       "title": "How Long Can Natural Gas Supply Keep Pace as Historic Demand Looms?",
+       "url": "https://naturalgasintel.com/news/how-long-can-natural-gas-supply-keep-pace-as-historic-demand-looms/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-08T13:05:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/how-long-can-natural-gas-supply-keep-pace-as-historic-demand-looms/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "via": null,
+       "blurb": "A well-supplied market is likely to weigh on US natural gas prices this winter, but comfortable balances could be upended in the years ahead as competition for supply increases, speakers said Wednesday during a webinar co-hosted by NGI and Yes Energy."
+      },
+      {
        "title": "Middle River buys 427MW Panoche natural gas plant in California, US",
        "url": "https://www.power-technology.com/news/middle-river-buys-427mw-panoche-plant/",
        "source": "Power Technology",
@@ -2993,30 +2988,6 @@
      "brief": "ready",
      "candidates": [
       {
-       "title": "Everything’s bigger in Texas",
-       "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
-       "source": "pv magazine",
-       "published": "2026-10-08T16:00:00.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
-         "primary": false
-        },
-        {
-         "name": "Plastics Today",
-         "url": "https://www.plasticstoday.com/packaging/novolex-opens-applied-innovation-center-in-texas",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "By almost any measure, the story of solar power in Texas has been one of astounding success. The state is by far the country’s fastest-growing solar market. The Solar Energy Industries Association (SEIA) records nearly 54 GW of solar and more than 29 GWh of batteries have been in"
-      },
-      {
        "title": "ContourGlobal begins Arizona solar-storage construction",
        "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
        "source": "reNEWS",
@@ -3040,6 +3011,25 @@
        ],
        "via": null,
        "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
+      },
+      {
+       "title": "Everything’s bigger in Texas",
+       "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
+       "source": "pv magazine",
+       "published": "2026-10-08T16:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "By almost any measure, the story of solar power in Texas has been one of astounding success. The state is by far the country’s fastest-growing solar market. The Solar Energy Industries Association (SEIA) records nearly 54 GW of solar and more than 29 GWh of batteries have been in"
       },
       {
        "title": "Toyo expands Texas solar module manufacturing facility to 2GW",
@@ -5204,16 +5194,11 @@
        "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
        "source": "pv magazine",
        "published": "2026-10-08T16:00:00.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "pv magazine",
          "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
-         "primary": false
-        },
-        {
-         "name": "Plastics Today",
-         "url": "https://www.plasticstoday.com/packaging/novolex-opens-applied-innovation-center-in-texas",
          "primary": false
         }
        ],
