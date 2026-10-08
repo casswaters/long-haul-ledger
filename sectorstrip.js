@@ -1,5 +1,6 @@
 /**
- * Long Haul Ledger: share strips for the Sectors of the Economy tabs (World Bank, annual)
+ * Long Haul Ledger: share strips for the Sectors of the Economy tabs (World Bank, annual; official
+ * national statistics where the World Bank publishes nothing)
  * and the electricity generation mix on the Energy tab (Our World in Data). Real, dated
  * sources only; values older than 10 years are hidden, places without data say Not yet covered.
  */
@@ -19,14 +20,19 @@ export function stripScope(place) {
 export function sectorLines(tabId, scopeId, data, nowYear = new Date().getUTCFullYear()) {
   const defs = Object.values(data?.indicators || {}).filter((d) => d.tab === tabId);
   const rec = scopeId === 'world' ? data?.world : data?.countries?.[scopeId];
+  // Official national statistics fill in where the World Bank publishes nothing (Taiwan: DGBAS; Falklands: FIG).
+  const nat = scopeId === 'world' ? null : data?.national?.[scopeId];
   const lines = []; const hidden = [];
   for (const d of defs) {
-    const r = rec?.[d.id];
+    let r = rec?.[d.id]; let src = null;
+    if (!(Array.isArray(r) && Number.isFinite(r[0])) && Array.isArray(nat?.rows?.[d.id]?.v)) { src = nat.rows[d.id]; r = src.v; }
     if (!Array.isArray(r) || !Number.isFinite(r[0])) continue;
     const [v, y, pv, py] = r;
-    if (nowYear - y > MAX_AGE_YEARS) { hidden.push(`${d.label}: latest World Bank figure is from ${y}, not shown.`); continue; }
+    const by = src ? src.src : 'World Bank';
+    if (nowYear - y > MAX_AGE_YEARS) { hidden.push(`${d.label}: latest ${by} figure is from ${y}, not shown.`); continue; }
     lines.push({ id: d.id, label: d.label, unit: d.unit, value: v, year: y, prior: Number.isFinite(pv) ? { value: pv, year: py } : null,
-      change: Number.isFinite(pv) ? changeOf(v, pv, { unit: d.unit, decimals: 1 }) : null, url: WB_PAGE(d.code, scopeId), code: d.code, old: nowYear - y >= 6 });
+      change: Number.isFinite(pv) ? changeOf(v, pv, { unit: d.unit, decimals: 1 }) : null, url: src ? src.url : WB_PAGE(d.code, scopeId), code: d.code, old: nowYear - y >= 6,
+      by, title: src ? `${src.src}: ${src.table}` : `World Bank ${d.code}`, def: src?.def || null });
   }
   return { lines, hidden };
 }
@@ -35,7 +41,10 @@ export function sectorStripHtml(tabId, place, data, { placeLabel = 'World', coun
   const scope = stripScope(place);
   const { lines, hidden } = sectorLines(tabId, scope.id, data);
   const where = scope.id === 'world' ? 'World' : (scope.national ? `${countryLabel}, national figures` : (scope.state ? (rec?.country || placeLabel) : placeLabel));
-  const head = `<div class="ss-head"><h3 class="ss-title">Share of the economy</h3><span class="ss-sub">${esc(where)} · World Bank, annual · latest vs prior year</span></div>`;
+  const bys = [...new Set(lines.map((l) => l.by))];
+  const byText = bys.length ? (bys.length > 1 ? `${bys.slice(0, -1).join(', ')} and ${bys[bys.length - 1]}` : bys[0]) : 'World Bank';
+  const head = `<div class="ss-head"><h3 class="ss-title">Share of the economy</h3><span class="ss-sub">${esc(where)} · ${esc(byText)}, annual · latest vs prior year</span></div>`;
+  const defsNote = lines.filter((l) => l.def).map((l) => `${l.label}: ${l.def}.`).join(' ');
   if (!lines.length) {
     return `<section class="sector-strip" data-sector-strip="${esc(tabId)}" data-empty>${head}${notCoveredHtml({ planned: 'World Bank World Development Indicators', checked })}${hidden.length ? `<p class="ss-hidden">${esc(hidden.join(' '))}</p>` : ''}</section>`;
   }
@@ -44,9 +53,9 @@ export function sectorStripHtml(tabId, place, data, { placeLabel = 'World', coun
         <span class="ss-label">${esc(l.label)}</span>
         <span class="ss-val"><strong>${esc(fmtNumber(l.value, 1))}</strong> <span class="ss-unit">${esc(l.unit)}</span></span>
         ${l.change ? `<span class="ss-delta is-${l.change.dir}" title="${esc(`${l.change.label} vs ${l.prior.year}`)}">${l.change.arrow} ${esc(l.change.text)}</span>` : '<span class="ss-delta ink-mute">no prior year</span>'}
-        <a class="ss-asof" href="${esc(l.url)}" target="_blank" rel="noopener noreferrer" title="World Bank ${esc(l.code)}">${l.year}${l.old ? ' · older figure' : ''}</a>
+        <a class="ss-asof" href="${esc(l.url)}" target="_blank" rel="noopener noreferrer" title="${esc(l.title)}">${l.year}${l.old ? ' · older figure' : ''}</a>
       </li>`).join('');
-  return `<section class="sector-strip" data-sector-strip="${esc(tabId)}">${head}<ul class="ss-lines">${items}</ul>${hidden.length ? `<p class="ss-hidden">${esc(hidden.join(' '))}</p>` : ''}</section>`;
+  return `<section class="sector-strip" data-sector-strip="${esc(tabId)}">${head}<ul class="ss-lines">${items}</ul>${defsNote ? `<p class="ss-hidden">${esc(defsNote)}</p>` : ''}${hidden.length ? `<p class="ss-hidden">${esc(hidden.join(' '))}</p>` : ''}</section>`;
 }
 
 /** Electricity mix for a place's country (or the World), sorted by share. */
