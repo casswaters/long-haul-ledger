@@ -139,6 +139,27 @@ assert('electric bus tyres are not chemicals', !subs(MANUFACTURING, 'Charge elec
 assert('award judges are not courts', !subs(POLICY, 'MidAtlantic Judges Select 35 Projects').includes('regulation'));
 assert('podcast is not media by itself', !subs(TECHNOLOGY, 'Podcast: Could holographic 3D printing be real?').includes('media'));
 assert('Hyatt Studios is not media', !subs(TECHNOLOGY, 'Hyatt updates Hyatt Place, Hyatt Studios prototypes').includes('media'));
+console.log('  regressions from the Oct 8 content pass:');
+assert('DOE loan to a utility is not banking', !subs(SERVICES, 'Vistra gets $4.2B DOE loan for planned uprates in Ohio, Pennsylvania').includes('finance'));
+assert('bank loans still are', subs(SERVICES, 'Outstanding SME bank loans hit record as lenders ease terms').includes('finance'));
+assert('a robot flight path is not air travel', !subs(SERVICES, 'Planning system ensures a robot\u2019s flight path will remain collision-free').includes('transport'));
+assert('flight cancellations are', subs(SERVICES, 'Flight cancellations pile up at Heathrow').includes('transport'));
+assert('a person named Ericsson is not telecom', !subs(TECHNOLOGY, 'Podcast: A brief history of rare earths, ft RMG\u2019s Magnus Ericsson').includes('telecom'));
+assert('the EU\'s top auditor is not an audit firm', !subs(TECHNOLOGY, 'Increasing levels of debt carried by EU institutions a concern, says top auditor').includes('consulting'));
+assert('assets that breach a figure are not a hack', !subs(TECHNOLOGY, 'BPI Wealth assets breach P2 trillion, eyes 18% growth').includes('cyber'));
+assert('a data breach still is', subs(TECHNOLOGY, 'Data breach at hospital exposes patient records').includes('cyber'));
+assert('tyre inflation systems are not economic policy', !subs(POLICY, 'Trelleborg out to optimise inflation systems for OTR tyres').includes('econpolicy'));
+assert('bare EU is not international affairs', !subs(POLICY, 'OpenAI will watermark ChatGPT outputs by default, but only in the EU').includes('international'));
+assert('EU trade measures are', subs(POLICY, 'Merz, Macron seek tougher EU measures against unfair trade').includes('international'));
+assert('a CEO quoted on prices is not leadership news', !subs(POLICY, 'Vitol CEO says oil inventories in West have been exhausted').includes('corporate'));
+assert('a CEO stepping down is', subs(POLICY, 'Nestle CEO steps down after board review').includes('corporate'));
+assert('a vote on building reactors is not construction work', !subs(MANUFACTURING, 'Swiss citizens may get to vote on construction of new reactors').includes('construction'));
+assert('starting construction is', subs(MANUFACTURING, 'Clearway starts construction of 650-MW solar facility in Missouri').includes('construction'));
+assert('directional drilling for a water pipeline is not oil and gas', !subs(RAW_MATERIALS, 'James River Underwater Pipeline pushes limits of directional drilling').includes('oilgas'));
+assert('a nickel refinery is not oil', !tagSector(sectorById('energy'), { title: 'Westwin to build $502M nickel refinery in Mississippi' }).subs.includes('oil'));
+assert('an oil refinery still is', tagSector(sectorById('energy'), { title: 'Refinery restarts after crude unit fire' }).subs.includes('oil'));
+assert('US Wind (the company) and named US offshore projects are wind', ['US Wind drops Sparrows Point turbine-parts plant', 'Revolution Wind resumes work after stop-work order'].every((t) => tagSector(sectorById('energy'), { title: t }).subs.includes('wind')));
+assert('gas turbine makers are not wind', !tagSector(sectorById('energy'), { title: 'Gas turbine makers sold out through 2030' }).subs.includes('wind'));
 assert('at most 3 subs per story without cross-listing', ECONOMY_TABS.every((t) => subs(t, 'Senate passes budget bill as Fed, SEC and UN meet over trade, tariffs and courts').length <= 3));
 
 console.log('\n--- Cross-listing from Energy by stage ---');
@@ -225,7 +246,7 @@ assert('header row: Energy featured, then the five plain names', navLabels.join(
 assert('header links carry data-open-sector and official names in aria-labels', ECONOMY_TABS.every((t) => new RegExp(`id="nav-${t.id}"[^>]*data-open-sector="${t.id}"[^>]*aria-label="[^"]*${t.officialName}`).test(navBlock)));
 assert('Method section names the tabs and the convention', /id="method-five"/.test(index) && /Raw materials, Manufacturing, Services, Technology, Policy/.test(index) && /Three-sector_model/.test(index) && /id="method-tab-map"/.test(index));
 const sw = read('./sw.js');
-assert('SW v26 caches economy.js, tabs.js and five briefs files', /long-haul-ledger-v26/.test(sw) && /'\.\/economy\.js'/.test(sw) && /'\.\/tabs\.js'/.test(sw) && ECONOMY_TABS.every((t) => sw.includes(`./data/${t.id}-briefs.json`)));
+assert('SW v27 caches economy.js, tabs.js and five briefs files', /long-haul-ledger-v27/.test(sw) && /'\.\/economy\.js'/.test(sw) && /'\.\/tabs\.js'/.test(sw) && ECONOMY_TABS.every((t) => sw.includes(`./data/${t.id}-briefs.json`)));
 const wf = read('./.github/workflows/soft-launch.yml');
 assert('Pages excludes economy.test.mjs and the four docs', /economy\.test\.mjs/.test(wf) && ['BUILD-PLAN.md', 'RESEARCH-RUNS.md', 'ROADMAP.md', 'BRIEF.md'].every((d) => wf.includes(d)));
 assert('brief edits trigger a deploy', ECONOMY_TABS.every((t) => wf.includes(`data/${t.id}-briefs.json`)));

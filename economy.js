@@ -70,7 +70,7 @@ export const RAW_MATERIALS = {
       copy: 'Drilling for crude oil and natural gas, on land and offshore.',
       naics: [{ code: '211', title: 'Oil and Gas Extraction' }, { code: '213111', title: 'Drilling Oil and Gas Wells' }, { code: '213112', title: 'Support Activities for Oil and Gas Operations' }],
       rules: [W('oilfields?|oil fields?|gas fields?|drilling|drillers?|rig counts?|shale|upstream|crude (?:output|production)|oil (?:output|production)|gas (?:output|production)|barrels (?:per|a) day|bpd|offshore blocks?|exploration wells?|fracking|oil and gas (?:producers?|companies|exploration)'), /\bOPEC\b/],
-      neg: [W('drilling (?:down|into the data)|geothermal|lithium brine')],
+      neg: [W('drilling (?:down|into the data)|geothermal|lithium brine|directional drill\\w*|water pipeline|underwater pipeline|tunnel')],
       keep: [W('oil|natural gas|crude|OPEC|shale|LNG')],
     },
     {
@@ -156,7 +156,7 @@ export const MANUFACTURING = {
       id: 'construction', name: 'Construction', noun: 'construction',
       copy: 'Building homes, offices, factories, roads, bridges and other infrastructure.',
       naics: [{ code: '23', title: 'Construction' }, { code: '236', title: 'Construction of Buildings' }, { code: '237', title: 'Heavy and Civil Engineering Construction' }, { code: '238', title: 'Specialty Trade Contractors' }],
-      rules: [W('construction|homebuild\\w*|housebuild\\w*|housing starts|building permits|infrastructure (?:projects?|spending|plans?|bill|deals?|investment)|megaprojects?|groundbreaking|broke ground|breaks ground|contractors?|skyscrapers?|highway (?:projects?|expansion)|bridge (?:projects?|construction|collapse)|tunnels?|construction (?:costs?|workers|firms?|industry|sector|output)')],
+      rules: [W('construction (?:industry|firms?|compan(?:y|ies)|workers|jobs|spending|output|starts|costs?|materials|sector|contracts?|boom|slump|crews?|sites?|loans?|activity|projects?)|(?:begins?|began|starts?|started|completes?|completed|halts?|halted|resumes?|resumed) construction|construction (?:begins|began|starts|started|resumes)|homebuild\\w*|housebuild\\w*|housing starts|building permits|infrastructure (?:projects?|spending|plans?|bill|deals?|investment)|megaprojects?|groundbreaking|broke ground|breaks ground|contractors?|skyscrapers?|highway (?:projects?|expansion)|bridge (?:projects?|construction|collapse)|tunnels?|construction (?:costs?|workers|firms?|industry|sector|output)')],
       neg: [W('social construction|under construction(?: site)? for (?:the )?website')],
     },
     {
@@ -207,8 +207,8 @@ export const SERVICES = {
       copy: 'Banks, lenders, insurers, payments and the markets that move money.',
       naics: [{ code: '52', title: 'Finance and Insurance' }, { code: '522', title: 'Credit Intermediation and Related Activities' }, { code: '523', title: 'Securities, Commodity Contracts, and Other Financial Investments and Related Activities' }, { code: '524', title: 'Insurance Carriers and Related Activities' }],
       rules: [W('banks?|banking|bankers?|lenders?|lending|loans?|mortgages?|insurers?|insurance|reinsur\\w*|payments?|fintech|credit cards?|stock markets?|stocks? (?:fell|rose|rallied|slid|tumbled|surged|plunged)|stock prices|equities|shares (?:fell|rose|jumped|slumped|plunged|surged|rallied)|Wall Street|IPOs?|bonds?|asset managers?|hedge funds?|private equity|brokerages?|JPMorgan|Goldman Sachs|Morgan Stanley|HSBC|Citi(?:group)?|Barclays|UBS|BlackRock|Visa|Mastercard|PayPal|stablecoins?')],
-      neg: [W('West Bank|central banks?|World Bank|food banks?|blood banks?|river ?banks?|Bank of (?:England|Japan|Canada|Korea|Israel|Russia|Thailand|Ghana)|Reserve Bank|People.s Bank|European Central|development bank|power banks?')],
-      keep: [W('lenders?|loans?|mortgages?|insurers?|insurance|fintech|credit cards?|bank stocks?|banking (?:sector|system|group|giant)|commercial banks?|Wall Street|IPOs?')],
+      neg: [W('West Bank|central banks?|World Bank|food banks?|blood banks?|river ?banks?|Bank of (?:England|Japan|Canada|Korea|Israel|Russia|Thailand|Ghana)|Reserve Bank|People.s Bank|European Central|development bank|power banks?|DOE loans?|Loan Programs Office|loan guarantees?|conditional (?:loan|commitment)|(?:DOE|Energy Department|Department of Energy)[^.]{0,40}loan')],
+      keep: [W('lenders?|bank loans?|consumer loans?|mortgages?|insurers?|insurance|fintech|credit cards?|bank stocks?|banking (?:sector|system|group|giant)|commercial banks?|Wall Street|IPOs?')],
     },
     {
       id: 'property', name: 'Housing and real estate', noun: 'housing and real estate',
@@ -241,8 +241,8 @@ export const SERVICES = {
       id: 'transport', name: 'Transport and logistics', noun: 'transport and logistics',
       copy: 'Moving people and goods by air, rail, road, sea and pipeline, plus warehouses.',
       naics: [{ code: '48-49', title: 'Transportation and Warehousing' }, { code: '481', title: 'Air Transportation' }, { code: '482', title: 'Rail Transportation' }, { code: '483', title: 'Water Transportation' }, { code: '484', title: 'Truck Transportation' }, { code: '486', title: 'Pipeline Transportation' }, { code: '493', title: 'Warehousing and Storage' }],
-      rules: [W('airlines?|airports?|flights?|railways?|railroads?|rail (?:freight|lines?|network|operators?)|trains?|freight|shipping|container ships?|containers?|ports?|trucking|truckers?|logistics|warehouses?|warehousing|couriers?|parcel|FedEx|UPS|DHL|Maersk|MSC|Suez Canal|Panama Canal|Red Sea shipping|supply chains?|tankers?|pipelines?|transit|buses|ride-hailing|Uber|Lyft|Delta Air|United Airlines|Ryanair|Lufthansa|Emirates')],
-      neg: [W('free shipping|LNG trains?|liquefaction trains?|pipeline of (?:talent|deals|projects)|deal pipeline')],
+      rules: [W('airlines?|airports?|flights? (?:cancell\\w*|delays?|delayed|disrupt\\w*|routes?|bookings?|attendants?)|passenger flights?|direct flights?|airfares?|railways?|railroads?|rail (?:freight|lines?|network|operators?)|trains?|freight|shipping|container ships?|containers?|ports?|trucking|truckers?|logistics|warehouses?|warehousing|couriers?|parcel|FedEx|UPS|DHL|Maersk|MSC|Suez Canal|Panama Canal|Red Sea shipping|supply chains?|tankers?|pipelines?|transit|buses|ride-hailing|Uber|Lyft|Delta Air|United Airlines|Ryanair|Lufthansa|Emirates')],
+      neg: [W('free shipping|LNG trains?|liquefaction trains?|pipeline of (?:talent|deals|projects)|deal pipeline|Port Arthur LNG|underwater pipeline|water pipeline')],
       keep: [W('airlines?|airports?|freight|shipping|railways?|trucking|logistics|seaports?|ports|port (?:authority|congestion|strikes?|operators?|calls?)|pipelines? (?:operator|company|project|route)')],
     },
     {
@@ -291,7 +291,7 @@ export const TECHNOLOGY = {
       copy: 'Phone networks, broadband, satellites and undersea cables.',
       naics: [{ code: '517', title: 'Telecommunications' }, { code: '519', title: 'Web Search Portals, Libraries, Archives, and Other Information Services' }],
       rules: [W('telecoms?|telecommunications?|telcos?|broadband|5G|6G|mobile networks?|wireless carriers?|mobile carriers?|fib(?:er|re) (?:networks?|optic|broadband|rollout)|internet (?:service|access|outages?|providers?|shutdowns?)|satellite internet|Starlink|undersea cables?|subsea cables?|spectrum (?:auctions?|licen[cs]es?)|Verizon|AT&T|T-Mobile|Vodafone|Deutsche Telekom|Orange|BT Group|Jio|Airtel|Huawei|Ericsson|Nokia|search engines?')],
-      neg: [W('aircraft carriers?')],
+      neg: [W('aircraft carriers?|Magnus Ericsson')],
     },
     {
       id: 'research', name: 'Research and science', noun: 'research and science',
@@ -303,7 +303,7 @@ export const TECHNOLOGY = {
       id: 'consulting', name: 'Consulting and professional services', noun: 'consulting and professional services',
       copy: 'Consultants, lawyers, accountants, engineers and architects who sell expertise.',
       naics: [{ code: '5416', title: 'Management, Scientific, and Technical Consulting Services' }, { code: '5411', title: 'Legal Services' }, { code: '5412', title: 'Accounting, Tax Preparation, Bookkeeping, and Payroll Services' }, { code: '5413', title: 'Architectural, Engineering, and Related Services' }],
-      rules: [W('consult(?:ing|ancy|ancies|ants?)|McKinsey|Deloitte|PwC|KPMG|Accenture|Boston Consulting|Bain|law firms?|accounting firms?|auditors?|audit firms?|engineering firms?|architects?|architecture firms?|advisory firms?|Big Four'), W('EY|BCG', '')],
+      rules: [W('consult(?:ing|ancy|ancies|ants?)|McKinsey|Deloitte|PwC|KPMG|Accenture|Boston Consulting|Bain|law firms?|accounting firms?|external auditors?|audit (?:firms?|failures?|fees)|engineering firms?|architects?|architecture firms?|advisory firms?|Big Four'), W('EY|BCG', '')],
     },
     {
       id: 'media', name: 'Media and entertainment', noun: 'media and entertainment',
@@ -315,7 +315,7 @@ export const TECHNOLOGY = {
       id: 'cyber', name: 'Cybersecurity', noun: 'cybersecurity',
       copy: 'Protecting computers and networks from hacks, ransomware and outages.',
       naics: [{ code: '5415', title: 'Computer Systems Design and Related Services' }],
-      rules: [W('cyber\\w*|hacks?|hackers?|hacked|hacking|ransomware|data breach(?:es)?|breach(?:es)?|malware|phishing|vulnerabilit(?:y|ies)|zero-days?|spyware'), W('DDoS|CISA', '')],
+      rules: [W('cyber\\w*|hacks?|hackers?|hacked|hacking|ransomware|data breach(?:es)?|security breach(?:es)?|breach notification|breached (?:systems?|networks?|servers?|accounts?)|led to (?:a |the )?breach|security patch\\w*|malware|phishing|vulnerabilit(?:y|ies)|zero-days?|spyware'), W('DDoS|CISA', '')],
     },
   ],
   stages: [],
@@ -358,6 +358,7 @@ export const POLICY = {
       copy: 'Interest rates, budgets, taxes, tariffs and the officials who set them.',
       naics: [{ code: '921130', title: 'Public Finance Activities' }, { code: '926', title: 'Administration of Economic Programs' }, { code: '521110', title: 'Monetary Authorities-Central Bank' }],
       rules: [W('central banks?|Federal Reserve|Bank of England|Bank of Japan|Bank of Canada|Reserve Bank|People.s Bank|interest rates?|rate (?:cuts?|hikes?|decisions?)|inflation|budgets?|deficits?|tax(?:es)?|tax (?:cuts?|hikes?|bill|reform)|tariffs?|fiscal|monetary policy|finance ministers?|treasur(?:y|er)|Treasury|stimulus|debt ceiling|subsid(?:y|ies)|minimum wage|price controls?'), W('Fed|ECB|IMF', '')],
+      neg: [W('inflation systems?|(?:tyre|tire) inflation|inflatable')],
     },
     {
       id: 'regulation', name: 'Regulators and courts', noun: 'regulation and the courts',
@@ -370,13 +371,13 @@ export const POLICY = {
       id: 'international', name: 'Trade and international affairs', noun: 'trade and international affairs',
       copy: 'Trade deals, summits, diplomacy and the bodies that run them.',
       naics: [{ code: '928120', title: 'International Affairs' }, { code: '928', title: 'National Security and International Affairs' }],
-      rules: [W('trade (?:deals?|talks|wars?|agreements?|pacts?|disputes?|negotiations?|tensions?|ministers?|representative)|summits?|diplomat\\w*|foreign ministers?|United Nations|sanctions|embass(?:y|ies)|bilateral|treat(?:y|ies)|free trade|European Union|export controls?|ceasefire|peace talks'), W('G7|G20|WTO|UN|NATO|EU|APEC|BRICS|ASEAN', '')],
+      rules: [W('trade (?:deals?|talks|wars?|agreements?|pacts?|disputes?|negotiations?|tensions?|ministers?|representative)|summits?|diplomat\\w*|foreign ministers?|United Nations|sanctions|embass(?:y|ies)|bilateral|treat(?:y|ies)|free trade|European Union|export (?:controls?|curbs|bans?|restrictions)|unfair trade|ceasefire|peace talks'), W('G7|G20|WTO|UN|NATO|APEC|BRICS|ASEAN|EU (?:leaders?|summit|trade|tariffs?|sanctions|ministers?|foreign|membership|accession|talks|deal|pact|agreement|measures|suspends|bans|imposes|weighs (?:\\w+ )?quotas)|EU-(?:China|US|UK|India|Mercosur)|back to (?:the )?EU|rejoin\\w* the EU', '')],
     },
     {
       id: 'corporate', name: 'Corporate leadership', noun: 'corporate leadership',
       copy: 'Chief executives and boards making the biggest company decisions.',
       naics: [{ code: '55', title: 'Management of Companies and Enterprises' }, { code: '551114', title: 'Corporate, Subsidiary, and Regional Managing Offices' }],
-      rules: [W('CEOs?|chief executives?|boards? of directors|board (?:members?|seats?|shake-?up|vote)|chair(?:man|woman|person)|executives?|shareholders?|activist investors?|mergers?|acquisitions?|takeovers?|buyouts?|steps? down|stepped down|succession|appoint(?:s|ed)? (?:a )?(?:new )?(?:CEO|chief)|spin-?offs?|restructuring|layoffs?|job cuts')],
+      rules: [W('CEO (?:steps?|stepped|resigns?|resigned|ousted|fired|succession|search|pay|exits?|departure)|new (?:CEO|chief executive|chair\\w*)|(?:names|named|appoints?|appointed|hires?|hired|taps|tapped) (?:a )?(?:new |former )?(?:CEO|chief|chair\\w*|president)|chief executives? (?:resigns?|steps?|quits?|ousted)|boards? of directors|board (?:members?|seats?|shake-?up|vote)|executive (?:shake-?up|pay|compensation|departures?|hires?)|executives? (?:take|took|face) pay cuts|joins (?:\\w+ ){0,3}as (?:CEO|chief|president|chair\\w*)|shareholders?|activist investors?|mergers?|acquisitions?|takeovers?|buyouts?|steps? down|stepped down|succession|appoint(?:s|ed)? (?:a )?(?:new )?(?:CEO|chief)|spin-?offs?|restructuring|layoffs?|job cuts')],
     },
     {
       id: 'universities', name: 'University leadership', noun: 'university leadership',

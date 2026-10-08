@@ -2,10 +2,10 @@
 
 Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md and RESEARCH-RUNS.md) and never ships to the live site.
 
-**Last updated:** 2026-10-08, 6:20 AM MT
+**Last updated:** 2026-10-08, 6:33 AM MT
 
 ## House rules
-- No paid tier, pricing or paywall copy until Cassidy says go.
+- Everything is free. No paid tier, pricing or paywall copy until Cassidy says go.
 - Real sources only: every story and number links to a real public source. No invented metrics; example data is labeled PROTOTYPE.
 - No flag styling.
 - Never show "admin-1" in the UI. Say "state equivalent".
@@ -13,14 +13,15 @@ Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md an
 
 ## Now
 - **Energy briefs, World and United States first (underway in the 6 AM / noon / 6 PM research runs).** As of Oct 8, 6:11 AM MT: World has 6 of 9 (Nuclear, Oil, Natural gas, Coal, Wind, Solar); United States has 5 of 9 (Nuclear, Oil, Natural gas, Solar, Wind). Still to write: World Hydro, Geothermal, Emerging; US Coal, Hydro, Geothermal, Emerging. Then China, India, Japan, Germany, the United Kingdom, France, Canada, Brazil, Saudi Arabia, Australia and South Korea. Candidates come from `node scripts/build-energy-brief.mjs --place <id> --source <source>`; run `--validate` before committing. Briefs older than 7 days show a stale flag.
-- **Content gaps before any sign-up (Oct 8 proposal, step 1):** thin segments, misfiled stories, the World nuclear brief repeating the US one, few US wind stories, and the unwritten sector-tab briefs.
+- **Content gaps (Oct 8, mostly done in SW v27):** thin segments filled (no segment under 4 worldwide stories, was 3), misfile rules tightened, World nuclear brief rewritten from non-US stories, US wind feeds added. Still open: the sector-tab briefs (none written yet; research runs) and metals, universities, livestock and food, which are still below 10 stories worldwide.
+- **First Monday Haul issue.** The free sign-up box is live (Buttondown `longhaulledger`, double opt-in). A sample issue is drafted outside the repo. Next: add a Monday Haul step to RESEARCH-RUNS.md (on Cassidy's OK), send issue 1 from Buttondown, then turn on the archive page (`archive: true` in signup.js, link it, and drop archive.html and data/monday-haul from the Pages exclude list).
 - Spot-check the news column per place for wrong location tags and odd rankings; fix rules as found.
 
 ## Next
-- **Path to a subscription (proposed Oct 8, waiting on Cassidy's OK).** 1) Fill the content gaps (in Now). 2) A free weekly sample email built from the Monday Haul as the lead magnet. 3) Free Buttondown email sign-up plus an issue archive, no paywall. 4) Paid only when Cassidy says go.
+- **Growth path (decided by Cassidy, Oct 8): keep everything free and build a user base with email-only Buttondown sign-ups (no passwords, double opt-in). Paid stays off.** Done: content gaps pass, sign-up box (SW v27). Next: the weekly Monday Haul email and its archive.
 - **On-demand briefs (option, not built).** A "write this brief now" path for places without a precomputed brief would need: a small server-side function (the site is static on GitHub Pages, so it cannot hold an AI key), a model API key kept server-side, a cache per place, source and week so each brief is written once, the same validation as the precomputed file (sources required, no item without a link), and a visible "written automatically, not reviewed" label. Today only reviewed, precomputed briefs ship.
 - **Sector briefs for the five tabs.** Research runs write "Top 4 this week" briefs for Raw materials, Manufacturing, Services, Technology and Policy into data/{tab}-briefs.json after the Energy briefs: World and the United States first, then major countries. Same schema, rules and validator as Energy (see RESEARCH-RUNS.md). Nothing is seeded; empty slots say not ready yet.
-- **Thin sector feeds.** Free RSS that works from the runner is scarce for fishing, forestry, chemicals and pharma, textiles and paper, and property. Failed on Oct 7: agriculture.com, AgWeb, USDA, Fierce Pharma, Forestry.com, Consultancy.uk, Telecoms.com, Devex, OECD (403); FAO, Farmers Weekly, Mining Weekly, SeafoodSource, National Fisherman, The Fish Site, IndustryWeek, C&EN, Chronicle of Philanthropy (404); IMF, Wood Business (429); Chemical Week, Mining Journal, World Bank (no items). Find replacements.
+- **Thin sector feeds.** Oct 8: 25 replacements added (forestry, textiles, packaging, plastics, pharma, property, telecom, accounting, legal, philanthropy, higher education, US wind). Still thin: fishing, metals, universities. Free RSS that works from the runner is scarce for these. Failed on Oct 7: agriculture.com, AgWeb, USDA, Fierce Pharma, Forestry.com, Consultancy.uk, Telecoms.com, Devex, OECD (403); FAO, Farmers Weekly, Mining Weekly, SeafoodSource, National Fisherman, The Fish Site, IndustryWeek, C&EN, Chronicle of Philanthropy (404); IMF, Wood Business (429); Chemical Week, Mining Journal, World Bank (no items). Find replacements.
 - **Sector tagging precision.** Segment tags are keyword rules; spot-check each tab's segments per place and tighten rules as misfiles show up (as done for farm-down, LNG trains, car carriers, turbine foundations).
 - **"Simplify this data" button.** On any data panel, indicator or story, a button labeled "Simplify this data" rewrites the explanation in plain language at about an 8th-grade reading level.
   - Every number, unit, as-of date and source stays visible and unchanged.
@@ -37,7 +38,7 @@ Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md an
 ## Later
 - Indicators beyond the United States (currently US-only); needs free official series per country.
 - Better city-level news (few stories are tagged to cities today).
-- Monday Haul weekly summary (no sign-up yet).
+- Monday Haul archive page (scaffolded, off Pages and unlinked until the first issue).
 - Paid tier: deferred until Cassidy says go.
 
 ## Ideas
@@ -52,14 +53,18 @@ Repo-only planning file. It is excluded from GitHub Pages (like BUILD-PLAN.md an
 - Many small countries show labeled parent-level stories ("More worldwide") because they have few tagged stories.
 
 ## Open decisions (waiting on Cassidy)
-- Subscription path (Oct 8 proposal: fill gaps, free Monday Haul sample email, free Buttondown sign-up and archive, paid only on your go): OK to start?
+- Monday Haul format: approve the sample issue and the RESEARCH-RUNS.md step that writes it each week.
 - "Simplify this data": on demand is decided; which free tool writes the plain-language text, given the site is static and can't hold a key?
 - Paid tier: stays deferred until you say go.
 - Which countries get indicators after the United States?
 - Wire-heavy outlets (BNN Bloomberg, CNA, Straits Times, The National, Anadolu, Bangkok Post): stories with no named place are now filed as worldwide rather than the outlet's home country. Keep that?
 - BRIEF.md (internal product notes, off Pages): keep as is or rewrite to match the new positioning?
 
+## Decided
+- 2026-10-08 (Cassidy): keep everything free; build a user base through email-only Buttondown sign-ups (`longhaulledger`, double opt-in); paid tier stays off.
+
 ## Shipped (newest first, times MT)
+- 2026-10-08 06:33: SW v27: free "Get the Monday Haul, free" email sign-up (Buttondown longhaulledger, email only, double opt-in) under the news column and in the footer, with a thanks state; archive page scaffolded but off Pages and unlinked. Content gaps: 25 new free feeds (forestry, textiles, packaging, plastics, pharma, property, telecom, accounting, legal, philanthropy, higher education, US wind); no segment now has fewer than 4 worldwide stories (was 3: Forestry 2 to 12, Consumer goods 1 to 7, Metals 3 to 4); US wind stories 0 to 1 plus wind trade feeds; misfile rules tightened for DOE loans, robot flight paths, people named Ericsson, the EU's auditor, assets that breach a figure, tyre inflation, bare EU, CEO quotes, construction votes, water-pipeline drilling and nickel refineries. World nuclear brief rewritten from non-US stories (China Tianwan 7, Swiss reactor vote, Dutch AP1000 design work, Canada's BANR).
 - 2026-10-08 06:11: Research run: Energy briefs for World Coal, Wind and Solar and US Solar and Wind (week of Oct 5); curated: US wind Sparrows Point added; Baltic Power, Yangjiang Fanshi and Clearway Swan marked confirmed (Clearway Swan located to Missouri). Data only, no SW bump.
 - 2026-10-07 18:40: SW v26: slimmer phone header. The six tabs (Energy, Raw materials, Manufacturing, Services, Technology, Policy) sit in one sideways-swiping row with momentum, scroll snap, no scrollbar, 44px tap targets and an edge fade on the side with more tabs; the open tab scrolls into view, including from deep links. Desktop unchanged.
 - 2026-10-07 18:28: SW v25: five sector tabs beside ⚡ Energy: Raw materials (Primary), Manufacturing (Secondary), Services (Tertiary), Technology (Quaternary), Policy (Quinary). 6 to 8 segments each with plain names and one-line descriptions; the "i" popup shows the official sector and NAICS 2022 codes (104 checked on census.gov). News per segment follows the selected place with labeled backfill; "Top 4 this week" slot says not ready yet until a sourced brief exists. Energy stories cross-list by stage (Extraction to Raw materials, Generation and refining to Manufacturing, Grid and distribution to Services, Innovation to Technology). 44 new free sector feeds. Method page section; deep links like #services/health/brief.

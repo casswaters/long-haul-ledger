@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Monday Haul archive · Long Haul Ledger</title>
+  <link rel="stylesheet" href="./styles.css">
+  <style>
+    .archive { max-width: 44rem; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
+    .archive h1 { font-size: 1.3rem; margin: 0 0 0.3rem; }
+    .archive .lede { color: var(--ink-dim); margin: 0 0 1.25rem; font-size: 0.9rem; }
+    .issue-list { list-style: none; padding: 0; margin: 0 0 1.5rem; display: flex; flex-direction: column; gap: 0.6rem; }
+    .issue-list li { border: 1px solid var(--line); border-radius: var(--radius); padding: 0.7rem 0.85rem; }
+    .issue-date { font-size: 0.72rem; color: var(--ink-mute); }
+    .issue-summary { margin: 0.25rem 0 0; font-size: 0.82rem; color: var(--ink-dim); }
+    .archive-empty { color: var(--ink-mute); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <main class="archive">
+    <p><a href="./">‹ Long Haul Ledger</a></p>
+    <h1>Monday Haul archive</h1>
+    <p class="lede">Past issues of the free weekly email. Every item links to its source.</p>
+    <ol class="issue-list" id="issue-list" aria-label="Past issues"></ol>
+    <p class="archive-empty" id="archive-empty" hidden>No issues yet.</p>
+    <div class="signup-slot signup-slot-footer" id="signup-footer" hidden></div>
+  </main>
+  <script type="module">
+    import { mountSignup } from './signup.js';
+    const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    fetch('./data/monday-haul/issues.json', { cache: 'no-store' }).then((r) => r.json()).then((doc) => {
+      const list = (doc.issues || []).filter((i) => /^https:\/\//.test(i.url || '') && /^\d{4}-\d{2}-\d{2}$/.test(i.date || ''));
+      document.getElementById('issue-list').innerHTML = list.map((i) => `<li><span class="issue-date">${esc(i.date)}</span><br><a href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">${esc(i.title)}</a>${i.summary ? `<p class="issue-summary">${esc(i.summary)}</p>` : ''}</li>`).join('');
+      document.getElementById('archive-empty').hidden = list.length > 0;
+    }).catch(() => { document.getElementById('archive-empty').hidden = false; });
+    mountSignup(document);
+  </script>
+</body>
+</html>

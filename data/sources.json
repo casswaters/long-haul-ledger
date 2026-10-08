@@ -11,7 +11,8 @@
     "Analysis classification: kind=analysis feeds are always Analysis. Additionally the fetcher/verify heuristics reclassify hard-news items whose titles match why/how/opinion/essay/the case for/trend-roundup/explainer patterns (also /opinion|/explainer|/essay URL paths). NPR Science stays hard-news for discrete events; its explainers/roundups flip via heuristics.",
     "requireTopic: general-news feeds only contribute items that classify as energy, infrastructure, industry or geopolitics (locate.js categorize).",
     "Energy sector feeds (sector: energy) were added in v24 for the Energy tab: agency releases (NRC, DOE Office of Nuclear Energy, EIA) plus trade press per source. Trade-press feeds do not assume a home country, so a story that names no place is filed worldwide. Tested and not added (box, Oct 7 2026): IEA (no public RSS, 404), Recharge (404), Hydrogen Insight (404), NEI (403), FERC (403), Mining.com (403), CleanTechnica (403), Hydrogen Fuel News (403, bot filter), S&P Global (403), Renewables Now (404), IAEA (404), NucNet (404), H2 View and Biofuels Digest (feeds return no items), World Oil (no item dates), NEI Magazine and IEEFA (stale).",
-    "Sector tab feeds (v25, tested Oct 7, 2026): free RSS for Raw materials, Manufacturing, Services, Technology and Policy, marked with a sector field. Not added: 403 from the box: agriculture.com, AgWeb, USDA, Fierce Pharma, Forestry.com, Consultancy.uk, Telecoms.com, Devex, OECD. 404: FAO, Farmers Weekly, Mining Weekly, SeafoodSource, National Fisherman, The Fish Site, IndustryWeek, Assembly, C&EN, Chronicle of Philanthropy, SteelOrbis. 429: IMF, Wood Business. No items: Chemical Week, Mining Journal, The Manufacturer, World Bank news. Stale: Aerospace Technology, WHO news, FreightWaves dates."
+    "Sector tab feeds (v25, tested Oct 7, 2026): free RSS for Raw materials, Manufacturing, Services, Technology and Policy, marked with a sector field. Not added: 403 from the box: agriculture.com, AgWeb, USDA, Fierce Pharma, Forestry.com, Consultancy.uk, Telecoms.com, Devex, OECD. 404: FAO, Farmers Weekly, Mining Weekly, SeafoodSource, National Fisherman, The Fish Site, IndustryWeek, Assembly, C&EN, Chronicle of Philanthropy, SteelOrbis. 429: IMF, Wood Business. No items: Chemical Week, Mining Journal, The Manufacturer, World Bank news. Stale: Aerospace Technology, WHO news, FreightWaves dates.",
+    "Content gaps pass (Oct 8, 2026): 25 more free feeds for thin segments and wind (reNEWS, American Clean Power, Inside Climate News, Power Engineering; textiles, packaging, wood, plastics, pharma; forestry; housing; telecom; accounting and legal; philanthropy; international higher education). offshoreWIND.biz and EIA Today in Energy were already listed. Not added: 404 or 401 from the box: DOE EERE, USDA Forest Service, FDA press, Pharmaceutical Manufacturing, European Pharmaceutical Review, Chemical Processing, CHEManager, Candid, NAR, CBRE, University World News, Consulting magazine. 403: Times Higher Education, Fierce Biotech, Lesprom. Timed out: North American Windpower, Pulp and Paper Canada. Empty feed: Sourcing Journal, Chemistry World, The Real Deal, GlobeSt, Fibre2Fashion, Philanthropy News Digest. Not useful: Heatmap, Recharge (404), NREL (timed out), CleanTechnica (403). Stale: BOEM (May 2026), Windpower Engineering (Dec 2025)."
   ],
   "sources": [
     {
@@ -1909,6 +1910,357 @@
       "assumeHome": false,
       "sector": "policy",
       "primary": true
+    },
+    {
+      "id": "renews",
+      "name": "reNEWS",
+      "url": "https://renews.biz/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "wind",
+        "renewables"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "energy"
+    },
+    {
+      "id": "acp-news",
+      "name": "American Clean Power Association",
+      "url": "https://cleanpower.org/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "wind",
+        "solar",
+        "storage"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "energy"
+    },
+    {
+      "id": "just-style",
+      "name": "Just Style",
+      "url": "https://www.just-style.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "apparel",
+        "textiles"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "manufacturing"
+    },
+    {
+      "id": "textile-world",
+      "name": "Textile World",
+      "url": "https://www.textileworld.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "textiles"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "manufacturing"
+    },
+    {
+      "id": "packaging-dive",
+      "name": "Packaging Dive",
+      "url": "https://www.packagingdive.com/feeds/news/",
+      "kind": "hard-news",
+      "tags": [
+        "packaging",
+        "paper"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "manufacturing"
+    },
+    {
+      "id": "woodworking-network",
+      "name": "Woodworking Network",
+      "url": "https://www.woodworkingnetwork.com/rss.xml",
+      "kind": "hard-news",
+      "tags": [
+        "wood products"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "manufacturing"
+    },
+    {
+      "id": "plastics-today",
+      "name": "Plastics Today",
+      "url": "https://www.plasticstoday.com/rss.xml",
+      "kind": "hard-news",
+      "tags": [
+        "plastics",
+        "chemicals"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "manufacturing"
+    },
+    {
+      "id": "biopharma-dive",
+      "name": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/feeds/news/",
+      "kind": "hard-news",
+      "tags": [
+        "pharmaceuticals",
+        "biotech"
+      ],
+      "quality": 3,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "manufacturing"
+    },
+    {
+      "id": "forestry-journal",
+      "name": "Forestry Journal",
+      "url": "https://www.forestryjournal.co.uk/news/rss/",
+      "kind": "hard-news",
+      "tags": [
+        "forestry",
+        "timber"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": true,
+      "sector": "materials"
+    },
+    {
+      "id": "wood-central",
+      "name": "Wood Central",
+      "url": "https://woodcentral.com.au/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "forestry",
+        "timber"
+      ],
+      "quality": 2,
+      "home": "au",
+      "assumeHome": false,
+      "sector": "materials"
+    },
+    {
+      "id": "intl-forest-industries",
+      "name": "International Forest Industries",
+      "url": "https://internationalforestindustries.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "forestry",
+        "logging"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "materials"
+    },
+    {
+      "id": "housingwire",
+      "name": "HousingWire",
+      "url": "https://www.housingwire.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "housing",
+        "mortgages",
+        "real estate"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "services"
+    },
+    {
+      "id": "commercial-observer",
+      "name": "Commercial Observer",
+      "url": "https://commercialobserver.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "commercial real estate"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "services"
+    },
+    {
+      "id": "multihousing-news",
+      "name": "Multi-Housing News",
+      "url": "https://www.multihousingnews.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "rental housing",
+        "real estate"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "services"
+    },
+    {
+      "id": "realtor-research",
+      "name": "Realtor.com Economic Research",
+      "url": "https://www.realtor.com/research/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "housing",
+        "real estate data"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "services"
+    },
+    {
+      "id": "redfin-news",
+      "name": "Redfin News",
+      "url": "https://www.redfin.com/news/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "housing",
+        "real estate data"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "services"
+    },
+    {
+      "id": "fierce-network",
+      "name": "Fierce Network",
+      "url": "https://www.fierce-network.com/rss/xml",
+      "kind": "hard-news",
+      "tags": [
+        "telecom",
+        "networks"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "technology"
+    },
+    {
+      "id": "rcr-wireless",
+      "name": "RCR Wireless News",
+      "url": "https://www.rcrwireless.com/feed",
+      "kind": "hard-news",
+      "tags": [
+        "telecom",
+        "wireless"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "technology"
+    },
+    {
+      "id": "telecompetitor",
+      "name": "Telecompetitor",
+      "url": "https://www.telecompetitor.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "telecom",
+        "broadband"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "technology"
+    },
+    {
+      "id": "accounting-today",
+      "name": "Accounting Today",
+      "url": "https://www.accountingtoday.com/feed?rss=true",
+      "kind": "hard-news",
+      "tags": [
+        "accounting",
+        "professional services"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "technology"
+    },
+    {
+      "id": "above-the-law",
+      "name": "Above the Law",
+      "url": "https://abovethelaw.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "law firms",
+        "legal services"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": true,
+      "sector": "technology"
+    },
+    {
+      "id": "alliance-magazine",
+      "name": "Alliance magazine",
+      "url": "https://www.alliancemagazine.org/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "philanthropy",
+        "foundations"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "policy"
+    },
+    {
+      "id": "the-pie-news",
+      "name": "The PIE News",
+      "url": "https://thepienews.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "higher education",
+        "international education"
+      ],
+      "quality": 2,
+      "home": "gb",
+      "assumeHome": false,
+      "sector": "policy"
+    },
+    {
+      "id": "inside-climate-news",
+      "name": "Inside Climate News",
+      "url": "https://insideclimatenews.org/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "climate"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "energy"
+    },
+    {
+      "id": "power-engineering",
+      "name": "Power Engineering",
+      "url": "https://www.power-eng.com/feed/",
+      "kind": "hard-news",
+      "tags": [
+        "energy",
+        "power plants"
+      ],
+      "quality": 2,
+      "home": "us",
+      "assumeHome": false,
+      "sector": "energy"
     }
   ],
   "analysisTitlePatterns": [

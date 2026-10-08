@@ -145,10 +145,13 @@ const sv = validateBriefs(seed, ENERGY, { now });
 assert('seed briefs validate with no errors', !sv.errors.length, sv.errors.join(' | '));
 assert('world and US nuclear briefs present, 4 items each', sv.valid.briefs.world?.nuclear?.items.length === 4 && sv.valid.briefs.us?.nuclear?.items.length === 4);
 const allItems = [...sv.valid.briefs.world.nuclear.items, ...sv.valid.briefs.us.nuclear.items];
-assert('every seed item has a primary source', allItems.every((i) => i.sources.some((s) => s.primary)));
+const usItems = sv.valid.briefs.us.nuclear.items, worldItems = sv.valid.briefs.world.nuclear.items;
+assert('every US nuclear item has a primary source', usItems.every((i) => i.sources.some((s) => s.primary)));
+assert('every World nuclear item has a primary source or established nuclear trade press', worldItems.every((i) => i.sources.some((s) => s.primary || /^https:\/\/(?:www\.)?(?:world-nuclear-news\.org|ans\.org)\//.test(s.url))));
+assert('World nuclear brief is genuinely global, not a copy of the US brief', worldItems.every((w) => !usItems.some((u) => u.text === w.text)) && worldItems.filter((i) => i.place && i.place !== 'us').length >= 3);
 assert('seed corrections: no "emergency" amendment, no unsourced March 2027 promise', !allItems.some((i) => /emergency license/.test(i.text)) && !allItems.some((i) => /Holtec still says/.test(i.text)));
 const pal = allItems.filter((i) => /Palisades/.test(i.text));
-assert('Palisades item cites the NRC itself, no reposting or classifieds links', pal.length === 2 && pal.every((i) => i.sources.some((s) => /^https:\/\/www\.nrc\.gov\//.test(s.url)) && !i.sources.some((s) => /pubt\.io|publicnow|classifieds\./.test(s.url))));
+assert('Palisades item cites the NRC itself, no reposting or classifieds links', pal.length === 1 && pal.every((i) => i.sources.some((s) => /^https:\/\/www\.nrc\.gov\//.test(s.url)) && !i.sources.some((s) => /pubt\.io|publicnow|classifieds\./.test(s.url))));
 assert('no seed source is a reposting or classifieds site', !allItems.some((i) => i.sources.some((s) => /pubt\.io|publicnow|classifieds\./.test(s.url))));
 assert('no social sign-off on the site', !JSON.stringify(seed).toLowerCase().includes('comment section') && !JSON.stringify(seed).toLowerCase().includes('spicy'));
 
@@ -184,7 +187,7 @@ assert('header: Indicators stays in the header nav', /<a class="hnav hnav-primar
 assert('Method page explains energy tagging, stages and briefs', /id="method-sectors"/.test(html) && /Lifecycle stages/.test(html) && /Top 4 this week/.test(html) && /id="method-stage-map"/.test(html));
 assert('never shows admin-1 in UI copy', !/admin-1/i.test(html) && !/admin-1/i.test(read('./sectorui.js').replace(/\/\*[\s\S]*?\*\//g, '')));
 const sw = read('./sw.js');
-assert('SW v26 caches sector files and briefs', /long-haul-ledger-v26/.test(sw) && /sectors\.js/.test(sw) && /energy\.js/.test(sw) && /sectorui\.js/.test(sw) && /energy-briefs\.json/.test(sw));
+assert('SW v27 caches sector files and briefs', /long-haul-ledger-v27/.test(sw) && /sectors\.js/.test(sw) && /energy\.js/.test(sw) && /sectorui\.js/.test(sw) && /energy-briefs\.json/.test(sw));
 const wf = read('./.github/workflows/soft-launch.yml');
 assert('Pages excludes repo-only docs and candidates cache', /ROADMAP\.md/.test(wf) && /BRIEF\.md/.test(wf) && /data\/news-cache/.test(wf) && /energy\.test\.mjs/.test(wf));
 const htmlOut = renderSectorOverlay({

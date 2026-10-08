@@ -40,6 +40,7 @@ import {
 import { validateBriefs, ECONOMIC_TYPES, naicsUrl, OFFICIAL_SOURCES } from './sectors.js';
 import { SECTOR_TABS } from './tabs.js';
 import { renderSectorOverlay, wireSectorOverlay } from './sectorui.js';
+import { mountSignup } from './signup.js';
 
 const state = {
   country: null,
@@ -2096,6 +2097,7 @@ function boot() {
   window.addEventListener('resize', () => applyMapTransform());
   window.addEventListener('hashchange', applyHash);
   wireSectorNav();
+  mountSignup(document);
   document.addEventListener('click', (e) => {
     if (e.target.closest?.('.vwrap')) return;
     $$('.vwrap.open').forEach((w) => {

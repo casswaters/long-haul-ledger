@@ -27,8 +27,8 @@ export const ENERGY = {
       id: 'oil', name: 'Oil', noun: 'oil',
       copy: 'A liquid pulled out of the ground and run through a refinery. Fuel, chemical feedstock, asphalt, lubricants, and a long list of products that start in the same barrel.',
       rules: [/\b(?:oil|crude|Brent|WTI|OPEC\+?|refiner(?:y|ies)|refining|petroleum|gasoline|petrol|diesel|jet fuel|barrels?|bpd|oilfields?|oil fields?|petrochemicals?|asphalt|lubricants?|upstream|downstream|offshore drilling|drilling rigs?|rig count)\b/i],
-      neg: [/\b(?:palm oil|olive oil|cooking oil|vegetable oil|edible oil|essential oils?|oil paint\w*|fish oil|coconut oil|sunflower oil)\b/i],
-      keep: [/\b(?:crude|barrels?|OPEC|refiner\w*|petroleum|Brent|WTI)\b/i],
+      neg: [/\b(?:palm oil|olive oil|cooking oil|vegetable oil|edible oil|essential oils?|oil paint\w*|fish oil|coconut oil|sunflower oil|(?:nickel|copper|lithium|cobalt|zinc|gold|silver|alumina|sugar|metals?|rare earths?) refiner(?:y|ies))\b/i],
+      keep: [/\b(?:crude|barrels?|OPEC|oil refiner\w*|refining margins?|petroleum|Brent|WTI)\b/i],
     },
     {
       id: 'gas', name: 'Natural gas', noun: 'natural gas',
@@ -45,7 +45,7 @@ export const ENERGY = {
     {
       id: 'wind', name: 'Wind', noun: 'wind',
       copy: 'Moving air turns a blade. The blade turns a generator.',
-      rules: [/\b(?:wind (?:farms?|power|energy|turbines?|projects?|parks?|developers?|capacity|auction|lease)|offshore wind|onshore wind|floating wind|windfarms?|turbine blades?|Vestas|Orsted|\u00D8rsted|Siemens Gamesa|Nordex|Goldwind|Mingyang)\b/i],
+      rules: [/\b(?:wind (?:farms?|power|energy|turbines?|projects?|parks?|developers?|capacity|auction|lease)|offshore wind|onshore wind|floating wind|windfarms?|turbine blades?|wind turbine makers?|turbine(?:-| )parts|wind (?:industry|sector|supply chain|ports?|towers?|repowering|installations?|orders?)|Vestas|Orsted|\u00D8rsted|Siemens Gamesa|Nordex|Goldwind|Mingyang)\b/i, /\b(?:US Wind|Revolution Wind|Empire Wind|Sunrise Wind|Vineyard Wind|SouthCoast Wind|Atlantic Shores|Coastal Virginia Offshore Wind)\b/],
     },
     {
       id: 'solar', name: 'Solar', noun: 'solar',
