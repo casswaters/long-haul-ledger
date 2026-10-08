@@ -14,15 +14,49 @@
       "kind": "hard-news",
       "published": "2026-10-06T14:00:00Z",
       "country": "US",
-      "location": { "countries": ["us"], "admin1": ["us-md"], "cities": ["us-city-baltimore"] },
-      "tags": ["defense", "manufacturing", "shipbuilding"],
+      "location": {
+        "countries": [
+          "us"
+        ],
+        "admin1": [
+          "us-md"
+        ],
+        "cities": [
+          "us-city-baltimore"
+        ]
+      },
+      "tags": [
+        "defense",
+        "manufacturing",
+        "shipbuilding"
+      ],
       "blurb": "Anduril commits $3.7B of private capital to Arsenal-2 at Tradepoint Atlantic (Sparrows Point, Baltimore County); the Navy awards a contract worth up to $2.9B tied to production outcomes. About 3,100 direct jobs; initial operations targeted for 2030.",
       "status": "confirmed",
       "sources": [
-        { "name": "Anduril (company release)", "url": "https://www.anduril.com/news/anduril-u-s-navy-invest-usd6-6-billion-to-expand-america-s-submarine-industrial-base", "primary": true, "published": "2026-10-06" },
-        { "name": "Office of Governor Wes Moore (Maryland)", "url": "https://governor.maryland.gov/news/press-releases/state-maryland-baltimore-county-announce-anduril-industries-invest-37b", "primary": true, "published": "2026-10-06" },
-        { "name": "Reuters (via Military Times)", "url": "https://www.militarytimes.com/industry/techwatch/2026/10/06/anduril-us-navy-invest-66-billion-to-boost-submarine-parts-production/", "primary": false, "published": "2026-10-06" },
-        { "name": "Manufacturing Dive", "url": "https://www.manufacturingdive.com/news/anduril-industries-u-s-navy-arsenal-2-shipyard-baltimore-county-maryland/832275/", "primary": false, "published": "2026-10-07" }
+        {
+          "name": "Anduril (company release)",
+          "url": "https://www.anduril.com/news/anduril-u-s-navy-invest-usd6-6-billion-to-expand-america-s-submarine-industrial-base",
+          "primary": true,
+          "published": "2026-10-06"
+        },
+        {
+          "name": "Office of Governor Wes Moore (Maryland)",
+          "url": "https://governor.maryland.gov/news/press-releases/state-maryland-baltimore-county-announce-anduril-industries-invest-37b",
+          "primary": true,
+          "published": "2026-10-06"
+        },
+        {
+          "name": "Reuters (via Military Times)",
+          "url": "https://www.militarytimes.com/industry/techwatch/2026/10/06/anduril-us-navy-invest-66-billion-to-boost-submarine-parts-production/",
+          "primary": false,
+          "published": "2026-10-06"
+        },
+        {
+          "name": "Manufacturing Dive",
+          "url": "https://www.manufacturingdive.com/news/anduril-industries-u-s-navy-arsenal-2-shipyard-baltimore-county-maryland/832275/",
+          "primary": false,
+          "published": "2026-10-07"
+        }
       ],
       "note": "Confirmed by the company and the Maryland governor's office; Reuters wire carried by Military Times.",
       "addedAt": "2026-10-07T18:30:00Z",
@@ -101,6 +135,42 @@
       ],
       "note": "Monthly federal outlook with the Winter Fuels Outlook; missing from the feed.",
       "addedAt": "2026-10-08T00:40:00Z",
+      "addedBy": "Ledger research (hand-verified)"
+    },
+    {
+      "id": "cur-us-wind-sparrows-point",
+      "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
+      "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
+      "source": "Maryland Matters",
+      "kind": "hard-news",
+      "published": "2026-10-07T17:43:00Z",
+      "country": "US",
+      "location": {
+        "countries": [
+          "us"
+        ],
+        "admin1": [
+          "us-md"
+        ]
+      },
+      "tags": [
+        "energy",
+        "wind",
+        "offshore",
+        "manufacturing"
+      ],
+      "blurb": "US Wind turned over its Tradepoint Atlantic lease at Sparrows Point to Anduril and shelved its planned tower and monopile plant, citing legal disputes and federal uncertainty over its Ocean City offshore wind project.",
+      "status": "unconfirmed",
+      "sources": [
+        {
+          "name": "Maryland Matters",
+          "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
+          "primary": false,
+          "published": "2026-10-07"
+        }
+      ],
+      "note": "US offshore wind supply-chain retreat missing from the feed (US wind had no candidates).",
+      "addedAt": "2026-10-08T12:45:00Z",
       "addedBy": "Ledger research (hand-verified)"
     }
   ],
@@ -215,6 +285,80 @@
       ],
       "note": "Equinor published the updated Snohvit Future estimate (NOK 26.5 billion).",
       "addedAt": "2026-10-08T00:40:00Z"
+    },
+    {
+      "match": {
+        "id": "live-skyyty"
+      },
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "Northland Power (news release)",
+          "url": "https://northlandpower.com/northlands-baltic-power-offshore-wind-project-completes-installation-of-all-76-turbines/",
+          "primary": true,
+          "published": "2026-10-07"
+        },
+        {
+          "name": "offshoreWIND.biz",
+          "url": "https://offshorewind.biz/2026/10/07/all-turbines-installed-at-polands-first-offshore-wind-farm",
+          "primary": false,
+          "published": "2026-10-07"
+        }
+      ],
+      "note": "Co-owner Northland Power announced all 76 Baltic Power turbines installed.",
+      "addedAt": "2026-10-08T12:45:00Z"
+    },
+    {
+      "match": {
+        "id": "live-1854qlq"
+      },
+      "status": "confirmed",
+      "sources": [
+        {
+          "name": "China General Nuclear Power Group (news release, Chinese)",
+          "url": "https://www.cgnpc.com.cn/cgn/c100944/2026-09/24/content_59bb0ee3eae3477293e06b1c17ff36b9.shtml",
+          "primary": true,
+          "published": "2026-09-24"
+        },
+        {
+          "name": "CGTN",
+          "url": "https://news.cgtn.com/news/2026-09-24/China-s-first-18-MW-offshore-wind-power-project-begins-operation-1QHMa7UAoRa/p.html",
+          "primary": false,
+          "published": "2026-09-24"
+        }
+      ],
+      "note": "CGN announced full-capacity operation of the 2 GW Yangjiang Fanshi project.",
+      "addedAt": "2026-10-08T12:45:00Z"
+    },
+    {
+      "match": {
+        "id": "live-yq8khl"
+      },
+      "status": "confirmed",
+      "location": {
+        "countries": [
+          "us"
+        ],
+        "admin1": [
+          "us-mo"
+        ]
+      },
+      "sources": [
+        {
+          "name": "Clearway Energy Group (press release)",
+          "url": "https://www.clearwayenergygroup.com/press-releases/clearway-closes-financing-and-begins-construction-on-650-mw-swan-energy-center-in-missouri/",
+          "primary": true,
+          "published": "2026-10-06"
+        },
+        {
+          "name": "POWER Magazine",
+          "url": "https://www.powermag.com/clearway-starts-construction-of-650-mw-solar-facility-in-missouri/",
+          "primary": false,
+          "published": "2026-10-07"
+        }
+      ],
+      "note": "Clearway's own release; project is in Bates County, Missouri, not California (the tagger picked up the San Francisco headquarters).",
+      "addedAt": "2026-10-08T12:45:00Z"
     }
   ]
 }
