@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T00:29:55.907Z",
+ "generatedAt": "2026-10-08T00:42:59.974Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -1952,23 +1952,6 @@
        "blurb": "The US Department of Energy (DOE) has selected 14 hydropower projects to begin negotiations for testing support The post US selects 14 hydropower projects for testing support appeared first on International Water Power ."
       },
       {
-       "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
-       "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
-       "source": "NASA News",
-       "published": "2026-10-07T21:16:42.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "NASA and SpaceX are targeting 6:33 a.m. EDT, Tuesday, Oct. 13, for the next launch to deliver science investigations, supplies, and equipment, including the final set of International Space Station Roll-Out Solar Arrays, to the space station. This is the 35th SpaceX commercial re"
-      },
-      {
        "title": "Tennessee Valley Authority Gets Approval to Build Small Nuclear Reactor",
        "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
        "source": "NYT Climate / Energy",
@@ -1987,6 +1970,26 @@
         "stage": "innovation"
        },
        "blurb": "It’s only the second time that American regulators have approved a next-generation commercial reactor for construction. Big hurdles remain."
+      },
+      {
+       "title": "Second part of construction permit application submitted for SMRs at Palisades",
+       "url": "https://www.world-nuclear-news.org/articles/second-part-of-construction-permit-application-submitted-for-pioneer-smrs",
+       "source": "World Nuclear News",
+       "published": "2026-10-02T14:38:26.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/second-part-of-construction-permit-application-submitted-for-pioneer-smrs",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Holtec has submitted the Preliminary Safety Analysis Report to the US Nuclear Regulatory Commission for two small modular reactor units at the Palisades Energy Center in Michigan, completing the second phase of the Construction Permit Application process."
       }
      ]
     },

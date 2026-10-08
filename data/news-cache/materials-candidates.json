@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T00:29:15.320Z",
+ "generatedAt": "2026-10-08T00:42:12.267Z",
  "sector": "materials",
  "maxAgeDays": 10,
  "places": {
@@ -10,6 +10,23 @@
     "crops": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Tanzania Pitches Mines and Farms to Dutch Firms",
+       "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T00:21:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Tanzania’s planning minister asked Dutch investors in The Hague to back mining, agriculture and port logistics, from graphite to cashew nuts. The post Tanzania Pitches Mines and Farms to Dutch Firms appeared first on The Rio Times ."
+      },
       {
        "title": "French wine industry facing historic low harvest after extreme summer heat",
        "url": "https://www.theguardian.com/food/2026/oct/07/french-wine-industry-historic-low-harvest-extreme-summer-heat",
@@ -196,23 +213,6 @@
        "stages": [],
        "via": null,
        "blurb": "Ag Marketing IQ In Depth: Strong basis and export demand meet record carry costs as farmers consider crop sales. Traders expect rollicking markets ahead of Friday’s USDA report."
-      },
-      {
-       "title": "Master Farmer and Rancher program launches in Nebraska",
-       "url": "https://www.farmprogress.com/farm-business/master-farmer-and-rancher-program-launches-in-nebraska",
-       "source": "Farm Progress",
-       "published": "2026-10-07T06:40:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Farm Progress",
-         "url": "https://www.farmprogress.com/farm-business/master-farmer-and-rancher-program-launches-in-nebraska",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Nominate yourself, a family member, a neighbor, a best friend, a favorite customer or a successful farmer by March 1."
       }
      ]
     },
@@ -623,26 +623,6 @@
        "blurb": "PRP presidential candidate Donald Duke says he will cut petrol to ₦300 per litre by allocating part of Nigeria’s crude production for domestic consumption, challenging the subsidy-free approach of President Tinubu and rival 2027 contenders. The post 2027: Duke vows to reduce petr"
       },
       {
-       "title": "Oil Reserves Release Speeds Up, Diesel First",
-       "url": "https://www.riotimesonline.com/iea-oil-reserve-release-speeds-up-diesel-first/",
-       "source": "The Rio Times",
-       "published": "2026-10-07T23:49:38.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Rio Times",
-         "url": "https://www.riotimesonline.com/iea-oil-reserve-release-speeds-up-diesel-first/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "extraction"
-       },
-       "blurb": "IEA members back a faster release of emergency oil, with diesel first. About 100 million barrels of pledges remain as Brent holds above US$100. The post Oil Reserves Release Speeds Up, Diesel First appeared first on The Rio Times ."
-      },
-      {
        "title": "Westwin plans $502m Class 1 nickel refinery in Mississippi, US",
        "url": "https://www.mining-technology.com/news/westwin-502m-nickel-refinery-mississippi/",
        "source": "Mining Technology",
@@ -796,6 +776,23 @@
         "stage": "extraction"
        },
        "blurb": "Egypt secures new investment from Chevron to unlock Mediterranean gas reserves with 3D seismic data and two new wells."
+      },
+      {
+       "title": "MidAtlantic Project of the Year: James River Underwater Pipeline Pushes Limits of Directional Drilling",
+       "url": "https://www.enr.com/articles/63748-midatlantic-project-of-the-year-james-river-underwater-pipeline-pushes-limits-of-directional-drilling",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-06T09:01:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63748-midatlantic-project-of-the-year-james-river-underwater-pipeline-pushes-limits-of-directional-drilling",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In designing and building a critical section of underwater pipeline, the project team on the James River Crossing pushed the perceived limits of horizontal directional drilling with large-diameter high-density polyethylene (HDPE) pipe."
       }
      ]
     },
@@ -820,6 +817,23 @@
        "blurb": "South Africa’s mining sector, it must be said, is showing promising signs of a turnaround. Fruitful partnerships between the Department of Mineral Resources and Petroleum and the industry can build on this momentum. Hopefully, the current thaw becomes a permanent state of warming"
       },
       {
+       "title": "Tanzania Pitches Mines and Farms to Dutch Firms",
+       "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T00:21:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Tanzania’s planning minister asked Dutch investors in The Hague to back mining, agriculture and port logistics, from graphite to cashew nuts. The post Tanzania Pitches Mines and Farms to Dutch Firms appeared first on The Rio Times ."
+      },
+      {
        "title": "BHP agrees to sell Kambalda nickel concentrator to Gold Fields",
        "url": "https://im-mining.com/2026/10/07/bhp-agrees-to-sell-kambalda-nickel-concentrator-to-gold-fields/",
        "source": "International Mining",
@@ -840,23 +854,6 @@
        "stages": [],
        "via": null,
        "blurb": "Gold Fields has entered into formal agreements to acquire BHP’s nickel concentrator and associated exploration properties in Kambalda, Western Australia. Gold Fields will now undertake a detailed assessment of the assets and the opportunities they may provide, including evaluatin"
-      },
-      {
-       "title": "Peru Copper Output Rises 3.7% in July",
-       "url": "https://www.riotimesonline.com/peru-copper-output-rises-july-2026-minem/",
-       "source": "The Rio Times",
-       "published": "2026-10-07T23:50:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Rio Times",
-         "url": "https://www.riotimesonline.com/peru-copper-output-rises-july-2026-minem/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Peru’s copper output rose 3.7% to 236,515 tonnes in July, while zinc fell 22.2% and gold 9.0%, according to the Ministry of Energy and Mines. The post Peru Copper Output Rises 3.7% in July appeared first on The Rio Times ."
       },
       {
        "title": "Canada’s miners must seize political opening: Gratton",
@@ -2429,34 +2426,6 @@
     }
    }
   },
-  "pe": {
-   "label": "Peru",
-   "level": "country",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Peru Copper Output Rises 3.7% in July",
-       "url": "https://www.riotimesonline.com/peru-copper-output-rises-july-2026-minem/",
-       "source": "The Rio Times",
-       "published": "2026-10-07T23:50:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Rio Times",
-         "url": "https://www.riotimesonline.com/peru-copper-output-rises-july-2026-minem/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Peru’s copper output rose 3.7% to 236,515 tonnes in July, while zinc fell 22.2% and gold 9.0%, according to the Ministry of Energy and Mines. The post Peru Copper Output Rises 3.7% in July appeared first on The Rio Times ."
-      }
-     ]
-    }
-   }
-  },
   "us-de": {
    "label": "Delaware",
    "level": "admin1",
@@ -2480,6 +2449,223 @@
        "stages": [],
        "via": null,
        "blurb": "Through the Paloma acquisition and the expected acreage additions from the recently announced Ridge Runner Resources deal, Matador Resources will have about 240,000 net acres in the core of the Delaware basin in fourth-quarter 2026. Together with the May Federal lease sale, the d"
+      }
+     ]
+    }
+   }
+  },
+  "tz": {
+   "label": "Tanzania",
+   "level": "country",
+   "sources": {
+    "crops": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Tanzania Pitches Mines and Farms to Dutch Firms",
+       "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T00:21:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Tanzania’s planning minister asked Dutch investors in The Hague to back mining, agriculture and port logistics, from graphite to cashew nuts. The post Tanzania Pitches Mines and Farms to Dutch Firms appeared first on The Rio Times ."
+      }
+     ]
+    },
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Tanzania Pitches Mines and Farms to Dutch Firms",
+       "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T00:21:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Tanzania’s planning minister asked Dutch investors in The Hague to back mining, agriculture and port logistics, from graphite to cashew nuts. The post Tanzania Pitches Mines and Farms to Dutch Firms appeared first on The Rio Times ."
+      }
+     ]
+    }
+   }
+  },
+  "nl": {
+   "label": "Netherlands",
+   "level": "country",
+   "sources": {
+    "crops": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Tanzania Pitches Mines and Farms to Dutch Firms",
+       "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T00:21:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Tanzania’s planning minister asked Dutch investors in The Hague to back mining, agriculture and port logistics, from graphite to cashew nuts. The post Tanzania Pitches Mines and Farms to Dutch Firms appeared first on The Rio Times ."
+      }
+     ]
+    },
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Tanzania Pitches Mines and Farms to Dutch Firms",
+       "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T00:21:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Tanzania’s planning minister asked Dutch investors in The Hague to back mining, agriculture and port logistics, from graphite to cashew nuts. The post Tanzania Pitches Mines and Farms to Dutch Firms appeared first on The Rio Times ."
+      },
+      {
+       "title": "Kenzoll and MSF plan restart of Namibia’s Sperrgebiet Diamond Mine",
+       "url": "https://www.mining-technology.com/news/kenzoll-msf-restart-sperrgebiet-diamond-mine/",
+       "source": "Mining Technology",
+       "published": "2026-10-07T12:27:27.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/kenzoll-msf-restart-sperrgebiet-diamond-mine/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Kenzoll Capital, a private equity firm based in Amsterdam, has entered into a partnership with MSF Commercials to revive operations at the Sperrgebiet Diamond Mine in southern Namibia. The post Kenzoll and MSF plan restart of Namibia’s Sperrgebiet Diamond Mine appeared first on M"
+      }
+     ]
+    }
+   }
+  },
+  "nl-zh": {
+   "label": "Zuid-Holland",
+   "level": "admin1",
+   "sources": {
+    "crops": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Tanzania Pitches Mines and Farms to Dutch Firms",
+       "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T00:21:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Tanzania’s planning minister asked Dutch investors in The Hague to back mining, agriculture and port logistics, from graphite to cashew nuts. The post Tanzania Pitches Mines and Farms to Dutch Firms appeared first on The Rio Times ."
+      }
+     ]
+    },
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Tanzania Pitches Mines and Farms to Dutch Firms",
+       "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T00:21:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Tanzania’s planning minister asked Dutch investors in The Hague to back mining, agriculture and port logistics, from graphite to cashew nuts. The post Tanzania Pitches Mines and Farms to Dutch Firms appeared first on The Rio Times ."
+      }
+     ]
+    }
+   }
+  },
+  "nl-city-the-hague": {
+   "label": "The Hague",
+   "level": "city",
+   "sources": {
+    "crops": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Tanzania Pitches Mines and Farms to Dutch Firms",
+       "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T00:21:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Tanzania’s planning minister asked Dutch investors in The Hague to back mining, agriculture and port logistics, from graphite to cashew nuts. The post Tanzania Pitches Mines and Farms to Dutch Firms appeared first on The Rio Times ."
+      }
+     ]
+    },
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Tanzania Pitches Mines and Farms to Dutch Firms",
+       "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+       "source": "The Rio Times",
+       "published": "2026-10-08T00:21:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/tanzania-pitches-mines-farms-dutch-investors/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Tanzania’s planning minister asked Dutch investors in The Hague to back mining, agriculture and port logistics, from graphite to cashew nuts. The post Tanzania Pitches Mines and Farms to Dutch Firms appeared first on The Rio Times ."
       }
      ]
     }
@@ -2871,26 +3057,6 @@
     "oilgas": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Oil Reserves Release Speeds Up, Diesel First",
-       "url": "https://www.riotimesonline.com/iea-oil-reserve-release-speeds-up-diesel-first/",
-       "source": "The Rio Times",
-       "published": "2026-10-07T23:49:38.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Rio Times",
-         "url": "https://www.riotimesonline.com/iea-oil-reserve-release-speeds-up-diesel-first/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "extraction"
-       },
-       "blurb": "IEA members back a faster release of emergency oil, with diesel first. About 100 million barrels of pledges remain as Brent holds above US$100. The post Oil Reserves Release Speeds Up, Diesel First appeared first on The Rio Times ."
-      },
       {
        "title": "Petrobras makes additional discovery offshore Amapá",
        "url": "https://www.ogj.com/exploration-development/news/55409591/petrobras-makes-additional-discovery-offshore-amapa",
@@ -3300,34 +3466,6 @@
       }
      ]
     },
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Kenzoll and MSF plan restart of Namibia’s Sperrgebiet Diamond Mine",
-       "url": "https://www.mining-technology.com/news/kenzoll-msf-restart-sperrgebiet-diamond-mine/",
-       "source": "Mining Technology",
-       "published": "2026-10-07T12:27:27.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/kenzoll-msf-restart-sperrgebiet-diamond-mine/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Kenzoll Capital, a private equity firm based in Amsterdam, has entered into a partnership with MSF Commercials to revive operations at the Sperrgebiet Diamond Mine in southern Namibia. The post Kenzoll and MSF plan restart of Namibia’s Sperrgebiet Diamond Mine appeared first on M"
-      }
-     ]
-    }
-   }
-  },
-  "nl": {
-   "label": "Netherlands",
-   "level": "country",
-   "sources": {
     "mining": {
      "brief": "missing",
      "candidates": [

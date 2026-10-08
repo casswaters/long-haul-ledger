@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T00:29:23.089Z",
+ "generatedAt": "2026-10-08T00:42:21.741Z",
  "sector": "manufacturing",
  "maxAgeDays": 10,
  "places": {
@@ -59,7 +59,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "A list of must-attend conferences and trade shows for professionals to keep up with the biggest innovations and consumer trends set to define next year."
+       "blurb": "A list of must-attend conferences and trade shows for professionals to keep up with the biggest innovations and consumer trends set to define the year to come."
       },
       {
        "title": "Authorities investigate Japan's four biggest beer brewers over price rises",
@@ -771,23 +771,6 @@
        "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering"
       },
       {
-       "title": "Hwange councillor raises alarm over idle contractors on Byo-Vic Falls highway",
-       "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-07T12:29:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Moyo said the strategic highway, which links Victoria Falls with Bulawayo and neighbouring countries to the north, had deteriorated to the extent that motorists were facing lengthy and difficult journeys. The post Hwange councillor raises alarm over idle contractors on Byo-Vic Fa"
-      },
-      {
        "title": "Neoen breaks ground on 346MW Goyder North Wind Farm in Australia",
        "url": "https://www.power-technology.com/news/neoen-346mw-goyder-north-wind-farm/",
        "source": "Power Technology",
@@ -1228,7 +1211,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "A list of must-attend conferences and trade shows for professionals to keep up with the biggest innovations and consumer trends set to define next year."
+       "blurb": "A list of must-attend conferences and trade shows for professionals to keep up with the biggest innovations and consumer trends set to define the year to come."
       },
       {
        "title": "Philippines canned food company launches ‘Mega Sardines’ brand in US Kroger stores",
@@ -5500,90 +5483,6 @@
     }
    }
   },
-  "zw": {
-   "label": "Zimbabwe",
-   "level": "country",
-   "sources": {
-    "construction": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Hwange councillor raises alarm over idle contractors on Byo-Vic Falls highway",
-       "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-07T12:29:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Moyo said the strategic highway, which links Victoria Falls with Bulawayo and neighbouring countries to the north, had deteriorated to the extent that motorists were facing lengthy and difficult journeys. The post Hwange councillor raises alarm over idle contractors on Byo-Vic Fa"
-      }
-     ]
-    }
-   }
-  },
-  "zw-bu": {
-   "label": "Bulawayo",
-   "level": "admin1",
-   "sources": {
-    "construction": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Hwange councillor raises alarm over idle contractors on Byo-Vic Falls highway",
-       "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-07T12:29:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Moyo said the strategic highway, which links Victoria Falls with Bulawayo and neighbouring countries to the north, had deteriorated to the extent that motorists were facing lengthy and difficult journeys. The post Hwange councillor raises alarm over idle contractors on Byo-Vic Fa"
-      }
-     ]
-    }
-   }
-  },
-  "zw-city-bulawayo": {
-   "label": "Bulawayo",
-   "level": "city",
-   "sources": {
-    "construction": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Hwange councillor raises alarm over idle contractors on Byo-Vic Falls highway",
-       "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
-       "source": "NewsDay (Zimbabwe)",
-       "published": "2026-10-07T12:29:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NewsDay (Zimbabwe)",
-         "url": "https://newsday.co.zw/article/hwange-councillor-raises-alarm-over-idle-contractors-on-byo-vic-falls-highway",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Moyo said the strategic highway, which links Victoria Falls with Bulawayo and neighbouring countries to the north, had deteriorated to the extent that motorists were facing lengthy and difficult journeys. The post Hwange councillor raises alarm over idle contractors on Byo-Vic Fa"
-      }
-     ]
-    }
-   }
-  },
   "lr": {
    "label": "Liberia",
    "level": "country",
@@ -5831,6 +5730,34 @@
         "stage": "generation"
        },
        "blurb": "Hydro Tasmania has returned Poatina Power Station in Australia to service following one of its largest planned outages in recent years The post Hydro Tasmania completes first stage of Poatina upgrade appeared first on International Water Power ."
+      }
+     ]
+    }
+   }
+  },
+  "th": {
+   "label": "Thailand",
+   "level": "country",
+   "sources": {
+    "vehicles": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Toyota seeks tax relief for impeded producers",
+       "url": "https://www.bangkokpost.com/business/general/3333095/toyota-seeks-tax-relief-for-impeded-producers",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-08T00:09:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333095/toyota-seeks-tax-relief-for-impeded-producers",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Toyota Thailand is asking the government to consider tax deductions for manufacturers affected by recent flooding."
       }
      ]
     }
