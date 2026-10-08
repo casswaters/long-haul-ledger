@@ -32,7 +32,7 @@ assert('domain intent noted', META.domainIntent === 'longhaulledger.com');
 assert('sample flag true', META.sample === true);
 assert('index.html exists', existsSync(new URL('./index.html', import.meta.url)));
 assert('world.svg exists', existsSync(new URL('./world.svg', import.meta.url)));
-assert('sw.js cache name long-haul-ledger-v31', /long-haul-ledger-v31'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v(?:[678]|9|19|20|21|22|23|24|25|26|27|28)'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
+assert('sw.js cache name long-haul-ledger-v32', /long-haul-ledger-v32'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')) && !/long-haul-ledger-v(?:[678]|9|19|20|21|22|23|24|25|26|27|28|29|30|31)'/.test(readFileSync(new URL('./sw.js', import.meta.url), 'utf8')));
 assert('BRIEF.md exists', existsSync(new URL('./BRIEF.md', import.meta.url)));
 assert('app has ?fresh=1 bust', /\bfresh\b/.test(readFileSync(new URL('./app.js', import.meta.url), 'utf8')));
 assert('zoom.js exists', existsSync(new URL('./zoom.js', import.meta.url)));
@@ -43,9 +43,9 @@ assert('no full example profiles remain', fullCountryIds().length === 0 && Objec
 for (const id of FULL) assert(`${id}: no example profile (sourced pieces only)`, !COUNTRIES[id] && getCountry(id) === null);
 
 console.log('\n--- Stubs & helpers ---');
-assert('stubs present', Object.keys(STUBS).length >= 8);
+assert('example stubs retired (no invented scores)', Object.keys(STUBS).length === 0);
 assert('getCountry us: retired profile returns null', getCountry('us') === null);
-assert('getCountry CN stub case-insensitive', getCountry('CN')?.tier === 'stub');
+assert('getCountry CN: retired stub returns null', getCountry('CN') === null);
 assert('getCountry unknown null', getCountry('zz') === null);
 assert('allCountryIds includes full+stubs', allCountryIds().length === fullCountryIds().length + Object.keys(STUBS).length);
 const feed = globalFeed(10);

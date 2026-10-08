@@ -61,7 +61,7 @@ for (cid, title), kind in KIND_BY_TITLE.items():
 cnt = {'hsFilled': 0, 'hgFilled': 0, 'bothFilled': 0, 'anyFilled': 0, 'kept': 0}
 for cid, e in src['countries'].items():
     hs, hg, planned = e['hs'], e['hg'], e['planned']
-    same = hs and hg and hs['wikidata'] == hg['wikidata']
+    same = hs and hg and (hs.get('wikidata') or hs['name']) == (hg.get('wikidata') or hg['name'])
     blk = A.get(cid)
     existing = [r for r in (blk or {}).get('roles', []) if r.get('name') and not r.get('notCovered')]
     new = []

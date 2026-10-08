@@ -1,0 +1,584 @@
+{
+  "checked": "2026-10-08",
+  "note": "Second hand pass (Oct 8, 2026, afternoon): each name read by hand on the official page listed, which was fetched on the checked date. Start dates only where that page states them.",
+  "countries": {
+    "al": {
+      "hg": {
+        "name": "Edi Rama",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://kryeministria.al/en/",
+        "source": "https://kryeministria.al/en/"
+      }
+    },
+    "ba": {
+      "hg": {
+        "name": "Borjana Krišto",
+        "title": "Chair of the Council of Ministers",
+        "since": null,
+        "site": "https://www.vijeceministara.gov.ba/",
+        "source": "https://www.vijeceministara.gov.ba/"
+      }
+    },
+    "ch": {
+      "hs": {
+        "name": "Guy Parmelin",
+        "title": "President of the Swiss Confederation (2026); the seven-member Federal Council is collectively head of state and government",
+        "since": {
+          "date": "2026",
+          "precision": "year"
+        },
+        "site": "https://www.admin.ch/",
+        "source": "https://www.admin.ch/gov/en/start/federal-council/members-of-the-federal-council.html"
+      },
+      "hg": {
+        "name": "Guy Parmelin",
+        "title": "President of the Swiss Confederation (2026); the seven-member Federal Council is collectively head of state and government",
+        "since": {
+          "date": "2026",
+          "precision": "year"
+        },
+        "site": "https://www.admin.ch/",
+        "source": "https://www.admin.ch/gov/en/start/federal-council/members-of-the-federal-council.html"
+      }
+    },
+    "cy": {
+      "hs": {
+        "name": "Nikos Christodoulides",
+        "title": "President",
+        "since": null,
+        "site": "https://www.presidency.gov.cy/",
+        "source": "https://www.presidency.gov.cy/"
+      },
+      "hg": {
+        "name": "Nikos Christodoulides",
+        "title": "President",
+        "since": null,
+        "site": "https://www.presidency.gov.cy/",
+        "source": "https://www.presidency.gov.cy/"
+      }
+    },
+    "cz": {
+      "hg": {
+        "name": "Andrej Babiš",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://vlada.gov.cz/en/",
+        "source": "https://vlada.gov.cz/en/"
+      }
+    },
+    "dk": {
+      "hs": {
+        "name": "Frederik X",
+        "title": "King",
+        "since": {
+          "date": "2024-01-14",
+          "precision": "day"
+        },
+        "site": "https://www.kongehuset.dk/en",
+        "source": "https://www.kongehuset.dk/en/the-royal-family/hm-the-king"
+      },
+      "hg": {
+        "name": "Mette Frederiksen",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://www.stm.dk/en/",
+        "source": "https://www.stm.dk/en/"
+      }
+    },
+    "fi": {
+      "hg": {
+        "name": "Petteri Orpo",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://valtioneuvosto.fi/en/",
+        "source": "https://valtioneuvosto.fi/en/frontpage"
+      }
+    },
+    "hu": {
+      "hg": {
+        "name": "Péter Magyar",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://kormany.hu/",
+        "source": "https://kormany.hu/miniszterelnok"
+      }
+    },
+    "is": {
+      "hs": {
+        "name": "Halla Tómasdóttir",
+        "title": "President",
+        "since": null,
+        "site": "https://www.forseti.is/en/",
+        "source": "https://www.forseti.is/en/"
+      },
+      "hg": {
+        "name": "Kristrún Frostadóttir",
+        "title": "Prime Minister",
+        "since": {
+          "date": "2024-12-21",
+          "precision": "day"
+        },
+        "site": "https://www.government.is/",
+        "source": "https://www.government.is/"
+      }
+    },
+    "it": {
+      "hg": {
+        "name": "Giorgia Meloni",
+        "title": "President of the Council of Ministers",
+        "since": null,
+        "site": "https://www.governo.it/en",
+        "source": "https://www.governo.it/en"
+      }
+    },
+    "me": {
+      "hs": {
+        "name": "Jakov Milatović",
+        "title": "President",
+        "since": null,
+        "site": "https://www.predsjednik.me/",
+        "source": "https://www.predsjednik.me/"
+      }
+    },
+    "mk": {
+      "hs": {
+        "name": "Gordana Siljanovska-Davkova",
+        "title": "President",
+        "since": null,
+        "site": "https://pretsedatel.mk/en/",
+        "source": "https://pretsedatel.mk/en/biography/"
+      }
+    },
+    "nl": {
+      "hs": {
+        "name": "Willem-Alexander",
+        "title": "King",
+        "since": null,
+        "site": "https://www.royal-house.nl/",
+        "source": "https://www.royal-house.nl/"
+      }
+    },
+    "rs": {
+      "hs": {
+        "name": "Aleksandar Vučić",
+        "title": "President",
+        "since": null,
+        "site": "https://www.predsednik.rs/en",
+        "source": "https://www.predsednik.rs/en"
+      }
+    },
+    "si": {
+      "hs": {
+        "name": "Nataša Pirc Musar",
+        "title": "President",
+        "since": null,
+        "site": "https://www.predsednica-slo.si/en",
+        "source": "https://www.predsednica-slo.si/en"
+      },
+      "hg": {
+        "name": "Janez Janša",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://www.gov.si/en/",
+        "source": "https://www.gov.si/en/state-authorities/government/prime-minister/"
+      }
+    },
+    "xk": {
+      "hs": {
+        "name": "Justina Shiroka-Pula",
+        "title": "President",
+        "since": null,
+        "site": "https://president-ksgov.net/",
+        "source": "https://president-ksgov.net/"
+      },
+      "hg": {
+        "name": "Albin Kurti",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://kryeministri.rks-gov.net/",
+        "source": "https://kryeministri.rks-gov.net/"
+      }
+    },
+    "cu": {
+      "hs": {
+        "name": "Miguel Díaz-Canel Bermúdez",
+        "title": "President",
+        "since": null,
+        "site": "https://www.presidencia.gob.cu/es/",
+        "source": "https://www.presidencia.gob.cu/es/"
+      }
+    },
+    "do": {
+      "hs": {
+        "name": "Luis Abinader",
+        "title": "President",
+        "since": null,
+        "site": "https://presidencia.gob.do/",
+        "source": "https://presidencia.gob.do/"
+      },
+      "hg": {
+        "name": "Luis Abinader",
+        "title": "President",
+        "since": null,
+        "site": "https://presidencia.gob.do/",
+        "source": "https://presidencia.gob.do/"
+      }
+    },
+    "ec": {
+      "hs": {
+        "name": "Daniel Noboa",
+        "title": "President",
+        "since": null,
+        "site": "https://www.presidencia.gob.ec/",
+        "source": "https://www.presidencia.gob.ec/"
+      },
+      "hg": {
+        "name": "Daniel Noboa",
+        "title": "President",
+        "since": null,
+        "site": "https://www.presidencia.gob.ec/",
+        "source": "https://www.presidencia.gob.ec/"
+      }
+    },
+    "ht": {
+      "hg": {
+        "name": "Alix Didier Fils-Aimé",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://primature.gouv.ht/",
+        "source": "https://primature.gouv.ht/"
+      }
+    },
+    "pa": {
+      "hs": {
+        "name": "José Raúl Mulino",
+        "title": "President",
+        "since": null,
+        "site": "https://www.presidencia.gob.pa/",
+        "source": "https://www.presidencia.gob.pa/"
+      },
+      "hg": {
+        "name": "José Raúl Mulino",
+        "title": "President",
+        "since": null,
+        "site": "https://www.presidencia.gob.pa/",
+        "source": "https://www.presidencia.gob.pa/"
+      }
+    },
+    "tt": {
+      "hs": {
+        "name": "Christine Kangaloo",
+        "title": "President",
+        "since": null,
+        "site": "https://www.otp.tt/",
+        "source": "https://www.otp.tt/"
+      }
+    },
+    "vc": {
+      "hg": {
+        "name": "Godwin Friday",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://pmoffice.gov.vc/",
+        "source": "https://pmoffice.gov.vc/"
+      }
+    },
+    "cl": {
+      "hs": {
+        "name": "José Antonio Kast",
+        "title": "President",
+        "since": null,
+        "site": "https://www.gob.cl/",
+        "source": "https://prensa.presidencia.cl/"
+      },
+      "hg": {
+        "name": "José Antonio Kast",
+        "title": "President",
+        "since": null,
+        "site": "https://www.gob.cl/",
+        "source": "https://prensa.presidencia.cl/"
+      }
+    },
+    "bz": {
+      "hg": {
+        "name": "John Briceño",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://www.pressoffice.gov.bz/",
+        "source": "https://www.pressoffice.gov.bz/"
+      }
+    },
+    "nz": {
+      "hs": {
+        "name": "Charles III",
+        "title": "King of New Zealand (represented by the Governor-General)",
+        "since": null,
+        "site": "https://gg.govt.nz/",
+        "source": "https://gg.govt.nz/"
+      }
+    },
+    "bn": {
+      "hs": {
+        "name": "Hassanal Bolkiah",
+        "title": "Sultan and Prime Minister",
+        "since": null,
+        "site": "https://www.pmo.gov.bn/",
+        "source": "https://www.pmo.gov.bn/"
+      },
+      "hg": {
+        "name": "Hassanal Bolkiah",
+        "title": "Sultan and Prime Minister",
+        "since": null,
+        "site": "https://www.pmo.gov.bn/",
+        "source": "https://www.pmo.gov.bn/"
+      }
+    },
+    "kh": {
+      "hs": {
+        "name": "Norodom Sihamoni",
+        "title": "King",
+        "since": null,
+        "site": "https://pressocm.gov.kh/en/",
+        "source": "https://pressocm.gov.kh/en/"
+      },
+      "hg": {
+        "name": "Hun Manet",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://pressocm.gov.kh/en/",
+        "source": "https://pressocm.gov.kh/en/"
+      }
+    },
+    "mn": {
+      "hg": {
+        "name": "Nyam-Osor Uchral",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://zasag.mn/en",
+        "source": "https://zasag.mn/en"
+      }
+    },
+    "mv": {
+      "hs": {
+        "name": "Mohamed Muizzu",
+        "title": "President",
+        "since": null,
+        "site": "https://presidency.gov.mv/",
+        "source": "https://presidency.gov.mv/"
+      },
+      "hg": {
+        "name": "Mohamed Muizzu",
+        "title": "President",
+        "since": null,
+        "site": "https://presidency.gov.mv/",
+        "source": "https://presidency.gov.mv/"
+      }
+    },
+    "my": {
+      "hg": {
+        "name": "Anwar Ibrahim",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://www.pmo.gov.my/",
+        "source": "https://www.pmo.gov.my/"
+      }
+    },
+    "id": {
+      "hs": {
+        "name": "Prabowo Subianto",
+        "title": "President",
+        "since": null,
+        "site": "https://www.presidenri.go.id/",
+        "source": "https://www.setneg.go.id/"
+      },
+      "hg": {
+        "name": "Prabowo Subianto",
+        "title": "President",
+        "since": null,
+        "site": "https://www.presidenri.go.id/",
+        "source": "https://www.setneg.go.id/"
+      }
+    },
+    "jo": {
+      "hs": {
+        "name": "Abdullah II",
+        "title": "King",
+        "since": null,
+        "site": "https://rhc.jo/en",
+        "source": "https://rhc.jo/en"
+      }
+    },
+    "iq": {
+      "hs": {
+        "name": "Nizar Amedi",
+        "title": "President",
+        "since": {
+          "date": "2026-04-12",
+          "precision": "day"
+        },
+        "site": "https://presidency.iq/EN/",
+        "source": "https://presidency.iq/EN/"
+      }
+    },
+    "sa": {
+      "hs": {
+        "name": "Salman bin Abdulaziz Al Saud",
+        "title": "King (Custodian of the Two Holy Mosques)",
+        "since": null,
+        "site": "https://www.my.gov.sa/",
+        "source": "https://www.spa.gov.sa/en"
+      }
+    },
+    "dj": {
+      "hs": {
+        "name": "Ismail Omar Guelleh",
+        "title": "President",
+        "since": null,
+        "site": "https://www.presidence.dj/",
+        "source": "https://www.presidence.dj/"
+      }
+    },
+    "et": {
+      "hg": {
+        "name": "Abiy Ahmed Ali",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://www.pmo.gov.et/",
+        "source": "https://www.pmo.gov.et/"
+      }
+    },
+    "cd": {
+      "hs": {
+        "name": "Félix Tshisekedi",
+        "title": "President",
+        "since": null,
+        "site": "https://www.presidence.cd/",
+        "source": "https://www.presidence.cd/"
+      },
+      "hg": {
+        "name": "Judith Suminwa Tuluka",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://www.primature.cd/",
+        "source": "https://www.primature.cd/"
+      }
+    },
+    "cg": {
+      "hg": {
+        "name": "Anatole Collinet Makosso",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://www.gouvernement.cg/",
+        "source": "https://www.gouvernement.cg/"
+      }
+    },
+    "ml": {
+      "hs": {
+        "name": "Assimi Goïta",
+        "title": "President of the Transition",
+        "since": null,
+        "site": "https://www.koulouba.ml/",
+        "source": "https://www.koulouba.ml/"
+      }
+    },
+    "mu": {
+      "hg": {
+        "name": "Navinchandra Ramgoolam",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://pmo.govmu.org/",
+        "source": "https://pmo.govmu.org/"
+      }
+    },
+    "ne": {
+      "hs": {
+        "name": "Abdourahamane Tiani",
+        "title": "President",
+        "since": null,
+        "site": "https://www.presidence.ne/",
+        "source": "https://www.presidence.ne/"
+      }
+    },
+    "sn": {
+      "hs": {
+        "name": "Bassirou Diomaye Faye",
+        "title": "President",
+        "since": null,
+        "site": "https://www.presidence.sn/",
+        "source": "https://www.presidence.sn/"
+      },
+      "hg": {
+        "name": "Ahmadou Al Aminou Lo",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://primature.sn/",
+        "source": "https://primature.sn/"
+      }
+    },
+    "so": {
+      "hs": {
+        "name": "Hassan Sheikh Mohamud",
+        "title": "President",
+        "since": null,
+        "site": "https://villasomalia.gov.so/",
+        "source": "https://villasomalia.gov.so/"
+      }
+    },
+    "ug": {
+      "hg": {
+        "name": "Robinah Nabbanja",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://www.opm.go.ug/",
+        "source": "https://www.opm.go.ug/"
+      }
+    },
+    "zw": {
+      "hs": {
+        "name": "Emmerson Mnangagwa",
+        "title": "President",
+        "since": null,
+        "site": "https://www.zim.gov.zw/",
+        "source": "https://www.zim.gov.zw/"
+      },
+      "hg": {
+        "name": "Emmerson Mnangagwa",
+        "title": "President",
+        "since": null,
+        "site": "https://www.zim.gov.zw/",
+        "source": "https://www.zim.gov.zw/"
+      }
+    },
+    "ga": {
+      "hs": {
+        "name": "Brice Clotaire Oligui Nguema",
+        "title": "President",
+        "since": null,
+        "site": "https://www.presidence.ga/",
+        "source": "https://www.presidence.ga/"
+      }
+    },
+    "cm": {
+      "hg": {
+        "name": "Joseph Dion Ngute",
+        "title": "Prime Minister",
+        "since": null,
+        "site": "https://www.spm.gov.cm/",
+        "source": "https://www.spm.gov.cm/site/?q=en"
+      }
+    },
+    "bw": {
+      "hg": {
+        "name": "Duma Gideon Boko",
+        "title": "President",
+        "since": {
+          "date": "2024",
+          "precision": "year"
+        },
+        "site": "https://www.gov.bw/",
+        "source": "https://www.gov.bw/"
+      }
+    }
+  }
+}

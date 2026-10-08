@@ -34,7 +34,7 @@ export function sectorLines(tabId, scopeId, data, nowYear = new Date().getUTCFul
 export function sectorStripHtml(tabId, place, data, { placeLabel = 'World', countryLabel = '', checked = '' } = {}) {
   const scope = stripScope(place);
   const { lines, hidden } = sectorLines(tabId, scope.id, data);
-  const where = scope.id === 'world' ? 'World' : (scope.national ? `${countryLabel}, national figures` : placeLabel);
+  const where = scope.id === 'world' ? 'World' : (scope.national ? `${countryLabel}, national figures` : (scope.state ? (rec?.country || placeLabel) : placeLabel));
   const head = `<div class="ss-head"><h3 class="ss-title">Share of the economy</h3><span class="ss-sub">${esc(where)} · World Bank, annual · latest vs prior year</span></div>`;
   if (!lines.length) {
     return `<section class="sector-strip" data-sector-strip="${esc(tabId)}" data-empty>${head}${notCoveredHtml({ planned: 'World Bank World Development Indicators', checked })}${hidden.length ? `<p class="ss-hidden">${esc(hidden.join(' '))}</p>` : ''}</section>`;
@@ -51,8 +51,11 @@ export function sectorStripHtml(tabId, place, data, { placeLabel = 'World', coun
 
 /** Electricity mix for a place's country (or the World), sorted by share. */
 export function mixFor(place, mix, nowYear = new Date().getUTCFullYear()) {
-  const scope = stripScope(place);
-  const rec = scope.id === 'world' ? mix?.world : mix?.countries?.[scope.id];
+  let scope = stripScope(place);
+  // US states carry their own EIA mix (mix.states, merged in from us-states.json).
+  const own = place?.level !== 'world' && place?.admin1 ? mix?.states?.[place.admin1] : null;
+  if (own) scope = { id: place.admin1, national: false, state: true };
+  const rec = own || (scope.id === 'world' ? mix?.world : mix?.countries?.[scope.id]);
   if (!rec || nowYear - rec.year > MAX_AGE_YEARS) return { scope, rec: null };
   const labels = Object.fromEntries((mix.sources || []).map((s) => [s.id, s.label]));
   const parts = Object.entries(rec.shares || {}).filter(([, v]) => Number.isFinite(v) && v > 0).map(([id, v]) => ({ id, label: labels[id] || id, share: v })).sort((a, b) => b.share - a.share);
@@ -61,7 +64,7 @@ export function mixFor(place, mix, nowYear = new Date().getUTCFullYear()) {
 
 export function energyMixHtml(place, mix, { placeLabel = 'World', countryLabel = '', checked = '' } = {}) {
   const { scope, rec, parts } = mixFor(place, mix);
-  const where = scope.id === 'world' ? 'World' : (scope.national ? `${countryLabel}, national figures` : placeLabel);
+  const where = scope.id === 'world' ? 'World' : (scope.national ? `${countryLabel}, national figures` : (scope.state ? (rec?.country || placeLabel) : placeLabel));
   const head = `<div class="ss-head"><h3 class="ss-title">Electricity mix</h3><span class="ss-sub">${esc(where)} · share of generation${rec ? ` · ${rec.year}` : ''}</span></div>`;
   if (!rec) return `<section class="energy-mix" data-empty>${head}${notCoveredHtml({ planned: 'Our World in Data energy dataset (Ember, Energy Institute)', checked })}</section>`;
   const bar = parts.map((p) => `<span class="mix-seg mix-${esc(p.id)}" style="width:${Math.max(0.5, p.share)}%" title="${esc(p.label)} ${esc(fmtNumber(p.share, 1))}%"></span>`).join('');
@@ -69,6 +72,8 @@ export function energyMixHtml(place, mix, { placeLabel = 'World', countryLabel =
   return `<section class="energy-mix" data-energy-mix>${head}
       <div class="mix-bar" role="img" aria-label="${esc(parts.map((p) => `${p.label} ${fmtNumber(p.share, 1)}%`).join(', '))}">${bar}</div>
       <ul class="mix-legend">${legend}</ul>
-      <p class="ss-src">${rec.generationTWh ? `${esc(fmtNumber(rec.generationTWh, 0))} TWh generated in ${rec.year}. ` : ''}Source: <a href="${esc(mix.source)}" target="_blank" rel="noopener noreferrer">Our World in Data</a>, based on Ember and the Energy Institute Statistical Review (CC BY 4.0).</p>
+      <p class="ss-src">${rec.generationTWh ? `${esc(fmtNumber(rec.generationTWh, rec.generationTWh < 10 ? 1 : 0))} TWh generated in ${rec.year}. ` : ''}${rec.sourceUrl
+        ? `Source: <a href="${esc(rec.sourceUrl)}" target="_blank" rel="noopener noreferrer">${esc(rec.sourceName)}</a>, ${esc(rec.sourceText)}.`
+        : `Source: <a href="${esc(mix.source)}" target="_blank" rel="noopener noreferrer">Our World in Data</a>, based on Ember and the Energy Institute Statistical Review (CC BY 4.0).`}</p>
     </section>`;
 }

@@ -80,7 +80,7 @@ export async function runWorldBank({ fetchText = get, now = new Date(), prev = n
       }
       for (const [iso2, e] of byEconomy) {
         const [cur, prior] = e.rows.sort((a, b) => b.year.localeCompare(a.year));
-        const rec = { value: cur.value, year: cur.year, sourceUrl: wbPage(ind.code, iso2 === 'world' ? '1W' : iso2) };
+        const rec = { value: cur.value, year: cur.year, sourceUrl: ind.page || wbPage(ind.code, iso2 === 'world' ? '1W' : iso2) };
         if (prior) rec.prior = { value: prior.value, year: prior.year };
         if (iso2 === 'world') { world.name = 'World'; world[ind.id] = rec; continue; }
         countries[iso2] = countries[iso2] || { name: e.name };

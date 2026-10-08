@@ -5,6 +5,15 @@ Hand-verified items and verification-tier corrections live in `data/signals-cura
 and any push to `main` that changes it triggers an immediate rebuild + deploy.
 This file stays on `main` only (excluded from the Pages site).
 
+**Pushing safely (read first).** Several things push to `main` during the day: the feed and stats bots
+every few hours, and build sessions that ship releases (they also edit `ROADMAP.md`). Always push with
+`scripts/push-main.sh` instead of a bare `git push`: it fetches, rebases your commits onto the newest
+`origin/main`, pushes, and retries up to 5 times if someone pushed first. `ROADMAP.md` and this file use
+git's union merge (`.gitattributes`), so two runs editing the same lines (the Last updated line, the
+Shipped log) keep both versions instead of stopping the rebase; tidy any duplicate line in your next edit.
+If the script still exits with a conflict it lists the files; fix them by hand and rerun it.
+Work in your own clone, never in another session's working copy.
+
 1. Only edit `data/signals-curated.json`. Never edit `data/signals-live.json` directly.
 2. Never invent anything. Every URL must be a real https page you opened and that returned HTTP 200,
    and it must actually state the claim. Use the publish date shown on the page.
@@ -97,7 +106,7 @@ The Energy tab shows one brief per place and energy source. Briefs live in `data
    World is not a copy of the United States brief. A big US story can still make World if it matters globally.
 7. Run `node scripts/build-energy-brief.mjs --validate` and `npm test` before committing. Both must pass.
 8. Commit only `data/energy-briefs.json`, with a message like `briefs: us nuclear week of 2026-10-05`,
-   and push to `main` (run `git pull --rebase` first; the feed bot commits often). About 5 minutes after
+   and push with `scripts/push-main.sh` (it rebases onto the newest `main`; the feed bot commits often). About 5 minutes after
    the run, confirm the brief shows on the live site (for example `#c=us&energy/nuclear/brief`).
 9. Refresh each brief within 7 days. Briefs older than 7 days show a stale flag on the site.
 10. Work order: World and the United States for all 9 sources first, then major countries (China, India,
@@ -134,7 +143,7 @@ Write them after the Energy briefs in each run. Nothing is seeded: until a brief
    countries listed above. World briefs should prefer global or non-US stories when the feed has them.
 6. Run `node scripts/build-energy-brief.mjs --validate` (checks all six tabs) and `npm test`. Both must pass.
 7. Commit only the briefs files you changed, with a message like `briefs: us health (services) week of 2026-10-05`,
-   `git pull --rebase`, push to `main`. A push that changes any briefs file deploys within minutes; confirm it
+   push with `scripts/push-main.sh`. A push that changes any briefs file deploys within minutes; confirm it
    live (for example `#c=us&services/health/brief`). Refresh within 7 days; older briefs show a stale flag.
 
 ## Monday Haul (weekly free email draft)

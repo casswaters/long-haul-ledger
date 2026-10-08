@@ -38,6 +38,9 @@ export function buildCoverage({ now = new Date() } = {}) {
   const hasHs = (c) => { const k = kindsOf(lead[c]); return k.has('Head of state') || k.has('Head of state and government'); };
   const hasHg = (c) => { const k = kindsOf(lead[c]); return k.has('Head of government') || k.has('Head of state and government'); };
   const sectors = readOr('data/stats/sectors.json', null);
+  const usStates = readOr('data/stats/us-states.json', null);
+  const usStateLines = usStates ? Object.values(usStates.states || {}).filter((r) => r.gdp || r.unemployment || r.population).length : 0;
+  const usStateMix = usStates ? Object.values(usStates.states || {}).filter((r) => r.mix).length : 0;
   const mix = readOr('data/stats/energy-mix.json', null);
   const tabs = ['materials', 'manufacturing', 'services', 'technology', 'policy'];
   const nowYear = now.getUTCFullYear();
@@ -62,7 +65,8 @@ export function buildCoverage({ now = new Date() } = {}) {
     briefs: { energySlots, sectorSlots },
     heads: { headOfState: countries.filter(hasHs).length, headOfGovernment: countries.filter(hasHg).length, both: countries.filter((c) => hasHs(c) && hasHg(c)).length },
     sectors: { countries: withSectors },
-    energyMix: { countries: withMix },
+    energyMix: { countries: withMix, usStates: usStateMix },
+    usStates: { whatChanged: usStateLines },
   };
   return out;
 }

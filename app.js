@@ -1,5 +1,6 @@
 import { sparkSvg } from './stats.js';
 import { sectorStripHtml, energyMixHtml } from './sectorstrip.js';
+import { stateMix } from './usstates.js';
 import { coverageLine, placeIndicators, groupCounts, whatChangedHtml, lineHtml, notCoveredHtml, GROUPS, NOT_COVERED, changeOf, asOfLabel, fmtNumber } from './whatchanged.js';
 import { seatsFor, seatsHtml, isSeatChange, validateSeats, dayText } from './seats.js';
 import { xSearchUrl, xQueryForStory, xQueryForPanel, xLinkHtml } from './xsearch.js';
@@ -84,6 +85,8 @@ let statsBench = null;
 /** Sector share strips (data/stats/sectors.json) and electricity mix (data/stats/energy-mix.json). */
 let sectorsData = null;
 let energyMixData = null;
+/** US state figures (data/stats/us-states.json): BEA, Census, BLS via FRED, EIA. */
+let statsUsStates = null;
 let seatsData = null;
 /** Build-time coverage counts (data/coverage.json) for the Method page. */
 let coverageData = null;
@@ -1394,7 +1397,7 @@ function protoNote() {
 function currentPlace() { return placeOf(state); }
 function currentPlaceLabel() { return placeLabel(currentPlace(), placeNames()); }
 function indicatorModel(place = currentPlace()) {
-  return placeIndicators(place, { us: statsUs, benchmarks: statsBench, world: statsWorld });
+  return placeIndicators(place, { us: statsUs, benchmarks: statsBench, world: statsWorld, usStates: statsUsStates });
 }
 /** Parent place button for empty states ("See United States"). */
 function parentLink(place) {
@@ -2056,10 +2059,15 @@ function watchPanelDollar() {
 
 async function loadStats() {
   const get = async (p) => { try { const r = await fetch(p, { cache: 'no-store' }); return r.ok ? await r.json() : null; } catch { return null; } };
-  [statsUs, statsWorld, statsBench, seatsData, coverageData, sectorsData, energyMixData] = await Promise.all([
+  [statsUs, statsWorld, statsBench, seatsData, coverageData, sectorsData, energyMixData, statsUsStates] = await Promise.all([
     get('./data/stats/us.json'), get('./data/stats/world.json'), get('./data/stats/benchmarks.json'),
     get('./data/seats.json'), get('./data/coverage.json'), get('./data/stats/sectors.json'), get('./data/stats/energy-mix.json'),
+    get('./data/stats/us-states.json'),
   ]);
+  // US state electricity mixes (EIA) ride along with the OWID country mixes.
+  if (energyMixData && statsUsStates) {
+    energyMixData.states = Object.fromEntries(Object.keys(statsUsStates.states || {}).map((id) => [id, stateMix(id, statsUsStates)]).filter(([, v]) => v));
+  }
   if (seatsData && validateSeats(seatsData).length) seatsData = null;
   renderCoverageLine();
   if (state.country) renderPanel(); else renderPanel();

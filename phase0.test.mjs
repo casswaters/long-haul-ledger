@@ -102,7 +102,7 @@ const lead = json('./data/leadership.json');
 const ls = JSON.stringify(lead);
 assert('leadership: no response-time estimates left', !/responseTime/.test(ls));
 assert('leadership: no "(see ...)" names or SAMPLE rows', !/\(see |SAMPLE/.test(ls));
-assert('former placeholders are Not yet covered rows with a planned source', lead.areas.cl.roles.every((r) => r.notCovered && r.plannedSource) && lead.areas['us-city-new-york'].roles.some((r) => r.notCovered));
+assert('former placeholders are Not yet covered rows with a planned source', lead.areas.cl.roles.every((r) => (r.notCovered && r.plannedSource) || (r.verified && /^https:\/\//.test(r.source?.url || ''))) && lead.areas['us-city-new-york'].roles.some((r) => r.notCovered));
 assert('brief missing says Not yet covered with planned source and checked date', /Not yet covered\.<\/strong> Planned source:/.test(read('./sectorui.js')) && /Checked \$\{esc\(ctx\.checked\)\}/.test(read('./sectorui.js')));
 const cov = buildCoverage({ now: NOW });
 assert('coverage: real counts from the files (187 countries, 4,315 state equivalents, 1,122 cities)', cov.countries === 187 && cov.stateEquivalents === 4315 && cov.cities === 1122 && cov.leaders.countries > 0);

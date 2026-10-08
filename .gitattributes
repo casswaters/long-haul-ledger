@@ -1,0 +1,3 @@
+# Hand-edited logs that several runs append to: keep both sides instead of stopping a rebase.
+ROADMAP.md merge=union
+RESEARCH-RUNS.md merge=union
