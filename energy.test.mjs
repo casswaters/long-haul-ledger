@@ -184,7 +184,7 @@ assert('header: Indicators stays in the header nav', /<a class="hnav hnav-primar
 assert('Method page explains energy tagging, stages and briefs', /id="method-sectors"/.test(html) && /Lifecycle stages/.test(html) && /Top 4 this week/.test(html) && /id="method-stage-map"/.test(html));
 assert('never shows admin-1 in UI copy', !/admin-1/i.test(html) && !/admin-1/i.test(read('./sectorui.js').replace(/\/\*[\s\S]*?\*\//g, '')));
 const sw = read('./sw.js');
-assert('SW v25 caches sector files and briefs', /long-haul-ledger-v25/.test(sw) && /sectors\.js/.test(sw) && /energy\.js/.test(sw) && /sectorui\.js/.test(sw) && /energy-briefs\.json/.test(sw));
+assert('SW v26 caches sector files and briefs', /long-haul-ledger-v26/.test(sw) && /sectors\.js/.test(sw) && /energy\.js/.test(sw) && /sectorui\.js/.test(sw) && /energy-briefs\.json/.test(sw));
 const wf = read('./.github/workflows/soft-launch.yml');
 assert('Pages excludes repo-only docs and candidates cache', /ROADMAP\.md/.test(wf) && /BRIEF\.md/.test(wf) && /data\/news-cache/.test(wf) && /energy\.test\.mjs/.test(wf));
 const htmlOut = renderSectorOverlay({

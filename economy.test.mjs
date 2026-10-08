@@ -225,7 +225,7 @@ assert('header row: Energy featured, then the five plain names', navLabels.join(
 assert('header links carry data-open-sector and official names in aria-labels', ECONOMY_TABS.every((t) => new RegExp(`id="nav-${t.id}"[^>]*data-open-sector="${t.id}"[^>]*aria-label="[^"]*${t.officialName}`).test(navBlock)));
 assert('Method section names the tabs and the convention', /id="method-five"/.test(index) && /Raw materials, Manufacturing, Services, Technology, Policy/.test(index) && /Three-sector_model/.test(index) && /id="method-tab-map"/.test(index));
 const sw = read('./sw.js');
-assert('SW v25 caches economy.js, tabs.js and five briefs files', /long-haul-ledger-v25/.test(sw) && /'\.\/economy\.js'/.test(sw) && /'\.\/tabs\.js'/.test(sw) && ECONOMY_TABS.every((t) => sw.includes(`./data/${t.id}-briefs.json`)));
+assert('SW v26 caches economy.js, tabs.js and five briefs files', /long-haul-ledger-v26/.test(sw) && /'\.\/economy\.js'/.test(sw) && /'\.\/tabs\.js'/.test(sw) && ECONOMY_TABS.every((t) => sw.includes(`./data/${t.id}-briefs.json`)));
 const wf = read('./.github/workflows/soft-launch.yml');
 assert('Pages excludes economy.test.mjs and the four docs', /economy\.test\.mjs/.test(wf) && ['BUILD-PLAN.md', 'RESEARCH-RUNS.md', 'ROADMAP.md', 'BRIEF.md'].every((d) => wf.includes(d)));
 assert('brief edits trigger a deploy', ECONOMY_TABS.every((t) => wf.includes(`data/${t.id}-briefs.json`)));
@@ -235,6 +235,19 @@ const rr = read('./RESEARCH-RUNS.md');
 assert('RESEARCH-RUNS covers sector briefs after Energy, World and US first', /## Sector briefs/.test(rr) && /World and the United States first/.test(rr) && rr.indexOf('## Energy briefs') < rr.indexOf('## Sector briefs'));
 const rm = read('./ROADMAP.md');
 assert('ROADMAP has the v25 entry', /v25/.test(rm) && /Raw materials/.test(rm));
+
+console.log('\n--- Phone header: one swipeable row ---');
+const css = read('./styles.css');
+const phone = (css.match(/@media \(max-width: 900px\) \{\s*\.sector-nav \{[\s\S]*?\n\}/) || [''])[0];
+assert('phone row: one line, scrolls sideways, no grid', /flex-wrap: nowrap/.test(phone) && /overflow-x: auto/.test(phone) && !/grid-template-columns/.test(phone));
+assert('phone row: scroll snap and momentum', /scroll-snap-type: x mandatory/.test(phone) && /scroll-snap-align: start/.test(phone) && /-webkit-overflow-scrolling: touch/.test(phone));
+assert('phone row: no visible scrollbar', /scrollbar-width: none/.test(phone) && /\.sector-nav::-webkit-scrollbar \{ display: none; \}/.test(css));
+assert('phone row: edge fade only where more tabs wait', /\.sector-nav\.fade-end/.test(phone) && /\.sector-nav\.fade-start/.test(phone) && /mask-image/.test(phone));
+assert('phone row: tap targets at least 44px', /\.snav \{[^}]*min-height: 44px;[^}]*min-width: 44px;/.test(phone));
+assert('phone row: full bleed without widening the page', /flex: 0 0 calc\(100% \+ 2 \* var\(--hpad\)\)/.test(phone) && /margin: 0 calc\(-1 \* var\(--hpad\)\)/.test(phone));
+const appJs = read('./app.js');
+assert('active tab scrolls into view in the row only (not the page)', /function scrollActiveSectorTab\(\)/.test(appJs) && /nav\.scrollTo\(\{ left:/.test(appJs) && !/active\.scrollIntoView/.test(appJs));
+assert('fade updates on scroll and resize', /addEventListener\('scroll', updateSectorNavFade, \{ passive: true \}\)/.test(appJs));
 
 console.log('\n--- Voice ---');
 const copy = JSON.stringify(ECONOMY_TABS.map((t) => [t.label, t.short, t.officialName, t.headline('the world'), t.convention?.text, t.subs.map((s) => [s.name, s.noun, s.copy])]));
