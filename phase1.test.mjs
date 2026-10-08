@@ -72,6 +72,12 @@ assert('coverage counts heads, sectors and mix', cov.heads && cov.sectors && cov
 const sw = read('./sw.js');
 assert('SW v31+ caches the strip module and data', Number((sw.match(/long-haul-ledger-v(\d+)/) || [])[1]) >= 31 && ['sectorstrip.js', 'data/stats/sectors.json', 'data/stats/energy-mix.json'].every((f) => sw.includes(`'./${f}'`)));
 for (const w of ['stats.yml', 'soft-launch.yml']) assert(`${w} keeps phase1.test.mjs off Pages`, read(`./.github/workflows/${w}`).includes('phase1.test.mjs'));
+const LA = lead.areas;
+const headOf = (c, k) => (LA[c]?.roles || []).find((r) => r.kind === k && r.name);
+assert('Nicaragua Co-Presidents fill both seats from the CIA World Leaders directory', /Co-Presidents/.test(headOf('ni', 'Head of state and government')?.title || '') && /CIA World Leaders/.test(headOf('ni', 'Head of state and government')?.source?.name || ''));
+assert('CIA-sourced seats say so in the seat note', ['bd', 'af', 'mg'].every((c) => /CIA World Leaders directory \(US government\), updated/.test(headOf(c, 'Head of state')?.seatNote || '')));
+assert('start dates from the dates file carry their official page', headOf('nl', 'Head of state')?.since?.text === 'Apr 30, 2013' && /royal-house\.nl/.test(headOf('nl', 'Head of state')?.since?.confirmedOn || ''));
+assert('Haiti head of state stays Not yet covered (no official name)', !headOf('ht', 'Head of state') && !headOf('ht', 'Head of state and government'));
 const copy = read('./sectorstrip.js') + JSON.stringify(lead.meta);
 assert('no em dashes, tildes or admin-1 wording in new copy', !/[\u2014~]/.test(copy) && !/admin-1/i.test(copy));
 console.log(`\n${pass} passed, ${fail} failed`);

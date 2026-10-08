@@ -41,7 +41,7 @@ def since(x):
     return {'text': s['date'][:4], 'date': s['date'], 'confirmedOn': x['source']}
 def role(x, kind):
     r = {'title': title_of(x), 'kind': kind, 'name': display_name(x), 'contact': {'site': x['site']},
-         'source': {'url': x['source'], 'name': f"{host(x['source'])} (official site)"}, 'asOf': D, 'checked': D, 'verified': True}
+         'source': {'url': x['source'], 'name': x.get('sourceName') or f"{host(x['source'])} (official site)"}, 'asOf': D, 'checked': D, 'verified': True}
     s = since(x)
     if s: r['since'] = s
     else: r['sinceNote'] = 'Not yet confirmed'
@@ -110,6 +110,18 @@ for cid, e in src['countries'].items():
     A[cid]['roles'] = roles = [r for r in roles if not (r.get('notCovered') and r.get('kind') in filled_kinds)]
     h1 = bool(k & {'Head of state', 'Head of state and government'}); h2 = bool(k & {'Head of government', 'Head of state and government'})
     cnt['hsFilled'] += h1; cnt['hgFilled'] += h2; cnt['bothFilled'] += h1 and h2; cnt['anyFilled'] += h1 or h2
+# Official start dates confirmed on a separate official page (since-*.json): {cid: {hs|hg: {date, precision, url}}}.
+nsince = 0
+for sf in sorted(glob.glob('scripts/leadership-sources/since-*.json')):
+    for cid, seats in json.load(open(sf))['countries'].items():
+        for seat, v in seats.items():
+            kinds = ('Head of state', 'Head of state and government') if seat == 'hs' else ('Head of government', 'Head of state and government')
+            for r in A.get(cid, {}).get('roles', []):
+                if r.get('name') and not r.get('notCovered') and r.get('kind') in kinds:
+                    s = since({'since': {'date': v['date'], 'precision': v['precision']}, 'source': v['url']})
+                    r['since'] = s; r.pop('sinceNote', None); nsince += 1
+                    break
+cnt['sinceFromDatesFile'] = nsince
 cat['meta']['asOf'] = D
 cat['meta']['heads'] = {'checked': D, 'method': src['method'], 'counts': cnt, 'countries': len(src['countries'])}
 json.dump(cat, open(P, 'w'), indent=2, ensure_ascii=False); open(P, 'a').write('\n')

@@ -1,0 +1,62 @@
+{
+ "checked": "2026-10-08",
+ "note": "Start dates stated on an official page (biography or swearing-in notice). Only dates the page states; precision follows the page.",
+ "countries": {
+  "nl": {
+   "hs": {
+    "date": "2013-04-30",
+    "precision": "day",
+    "url": "https://www.royal-house.nl/members-royal-house/king-willem-alexander"
+   }
+  },
+  "dk": {
+   "hg": {
+    "date": "2019-06-27",
+    "precision": "day",
+    "url": "https://www.stm.dk/en/the-prime-minister/"
+   }
+  },
+  "es": {
+   "hg": {
+    "date": "2018-06",
+    "precision": "month",
+    "url": "https://www.lamoncloa.gob.es/presidente/biografia/Paginas/index.aspx"
+   }
+  },
+  "tt": {
+   "hg": {
+    "date": "2025-05-01",
+    "precision": "day",
+    "url": "https://foreign.gov.tt/about/prime-minister-trinidad-and-tobago/"
+   }
+  },
+  "cz": {
+   "hs": {
+    "date": "2023-03",
+    "precision": "month",
+    "url": "https://www.hrad.cz/en/president-of-the-cr/current-president-of-the-cr/curriculum-vitae"
+   }
+  },
+  "br": {
+   "hs": {
+    "date": "2023-01-01",
+    "precision": "day",
+    "url": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biografia-do-presidente"
+   }
+  },
+  "fr": {
+   "hs": {
+    "date": "2017",
+    "precision": "year",
+    "url": "https://www.elysee.fr/en/emmanuel-macron"
+   }
+  },
+  "hn": {
+   "hs": {
+    "date": "2026",
+    "precision": "year",
+    "url": "https://www.sedena.gob.hn/noticias/toma-de-posesion-presidencial-2026"
+   }
+  }
+ }
+}

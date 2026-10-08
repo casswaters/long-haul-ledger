@@ -6,11 +6,12 @@
       "checked": "2026-10-08",
       "method": "Candidates from Wikidata (P35, P6, P39 with start date, office P856). A seat goes live only when the candidate is the latest current holder on Wikidata AND the name appears on an official government page fetched on the checked date. Start dates show only when the year (or full date) appears next to the name on that page.",
       "counts": {
-        "hsFilled": 175,
-        "hgFilled": 179,
-        "bothFilled": 174,
-        "anyFilled": 180,
-        "kept": 195
+        "hsFilled": 185,
+        "hgFilled": 185,
+        "bothFilled": 184,
+        "anyFilled": 186,
+        "kept": 296,
+        "sinceFromDatesFile": 8
       },
       "countries": 187
     }
@@ -13507,20 +13508,38 @@
       "label": "Afghanistan",
       "roles": [
         {
-          "title": "Head of state",
+          "title": "Overall Taliban Leader",
           "kind": "Head of state",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
-          "checked": "2026-10-08"
+          "name": "Haybatullah Akhundzada",
+          "contact": {
+            "site": "https://www.cia.gov/resources/world-leaders/foreign-governments/afghanistan/"
+          },
+          "source": {
+            "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/afghanistan/",
+            "name": "CIA World Leaders (US government)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed",
+          "seatNote": "Listed in the CIA World Leaders directory (US government), updated Sep 3, 2026; the country's own government sites did not load in our checks. The United States does not recognize the caretaker Taliban government."
         },
         {
-          "title": "Head of government",
+          "title": "Prime Minister (acting)",
           "kind": "Head of government",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
-          "checked": "2026-10-08"
+          "name": "Mohammad Hassan Akhund",
+          "contact": {
+            "site": "https://www.cia.gov/resources/world-leaders/foreign-governments/afghanistan/"
+          },
+          "source": {
+            "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/afghanistan/",
+            "name": "CIA World Leaders (US government)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed",
+          "seatNote": "Listed in the CIA World Leaders directory (US government), updated Sep 3, 2026; the country's own government sites did not load in our checks. The United States does not recognize the caretaker Taliban government."
         }
       ]
     },
@@ -13810,22 +13829,38 @@
       "label": "Bangladesh",
       "roles": [
         {
-          "title": "Head of state",
+          "title": "President",
           "kind": "Head of state",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
+          "name": "Mirza Fakhrul Islam Alamgir",
+          "contact": {
+            "site": "https://bangabhaban.gov.bd/"
+          },
+          "source": {
+            "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/bangladesh/",
+            "name": "CIA World Leaders (US government)"
+          },
+          "asOf": "2026-10-08",
           "checked": "2026-10-08",
-          "plannedSource": "http://www.bangabhaban.gov.bd/"
+          "verified": true,
+          "sinceNote": "Not yet confirmed",
+          "seatNote": "Listed in the CIA World Leaders directory (US government), updated Aug 31, 2026; the country's own government sites did not load in our checks."
         },
         {
-          "title": "Head of government",
+          "title": "Prime Minister",
           "kind": "Head of government",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
+          "name": "Tarique Rahman",
+          "contact": {
+            "site": "https://pmo.gov.bd/"
+          },
+          "source": {
+            "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/bangladesh/",
+            "name": "CIA World Leaders (US government)"
+          },
+          "asOf": "2026-10-08",
           "checked": "2026-10-08",
-          "plannedSource": "http://www.bangabhaban.gov.bd/"
+          "verified": true,
+          "sinceNote": "Not yet confirmed",
+          "seatNote": "Listed in the CIA World Leaders directory (US government), updated Aug 31, 2026; the country's own government sites did not load in our checks."
         }
       ]
     },
@@ -13964,13 +13999,21 @@
       "label": "Burundi",
       "roles": [
         {
-          "title": "Head of government",
+          "title": "Prime Minister",
           "kind": "Head of government",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
+          "name": "Nestor Ntahontuye",
+          "contact": {
+            "site": "https://primature.gov.bi/"
+          },
+          "source": {
+            "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burundi/",
+            "name": "CIA World Leaders (US government)"
+          },
+          "asOf": "2026-10-08",
           "checked": "2026-10-08",
-          "plannedSource": "https://www.presidence.gov.bi/"
+          "verified": true,
+          "sinceNote": "Not yet confirmed",
+          "seatNote": "Listed in the CIA World Leaders directory (US government), updated May 5, 2026; the country's own government sites did not load in our checks."
         },
         {
           "title": "President",
@@ -14079,7 +14122,11 @@
           "asOf": "2026-10-08",
           "checked": "2026-10-08",
           "verified": true,
-          "sinceNote": "Not yet confirmed"
+          "since": {
+            "text": "Jan 1, 2023",
+            "date": "2023-01-01",
+            "confirmedOn": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biografia-do-presidente"
+          }
         }
       ]
     },
@@ -14666,7 +14713,11 @@
           "asOf": "2026-10-08",
           "checked": "2026-10-08",
           "verified": true,
-          "sinceNote": "Not yet confirmed"
+          "since": {
+            "text": "Mar 2023",
+            "date": "2023-03",
+            "confirmedOn": "https://www.hrad.cz/en/president-of-the-cr/current-president-of-the-cr/curriculum-vitae"
+          }
         }
       ]
     },
@@ -14746,7 +14797,11 @@
           "asOf": "2026-10-08",
           "checked": "2026-10-08",
           "verified": true,
-          "sinceNote": "Not yet confirmed"
+          "since": {
+            "text": "Jun 27, 2019",
+            "date": "2019-06-27",
+            "confirmedOn": "https://www.stm.dk/en/the-prime-minister/"
+          }
         }
       ]
     },
@@ -15033,7 +15088,11 @@
           "asOf": "2026-10-08",
           "checked": "2026-10-08",
           "verified": true,
-          "sinceNote": "Not yet confirmed"
+          "since": {
+            "text": "Jun 2018",
+            "date": "2018-06",
+            "confirmedOn": "https://www.lamoncloa.gob.es/presidente/biografia/Paginas/index.aspx"
+          }
         }
       ]
     },
@@ -15213,7 +15272,11 @@
           "asOf": "2026-10-08",
           "checked": "2026-10-08",
           "verified": true,
-          "sinceNote": "Not yet confirmed"
+          "since": {
+            "text": "2017",
+            "date": "2017",
+            "confirmedOn": "https://www.elysee.fr/en/emmanuel-macron"
+          }
         },
         {
           "title": "Prime Minister",
@@ -15405,20 +15468,21 @@
       "label": "Equatorial Guinea",
       "roles": [
         {
-          "title": "Head of state",
-          "kind": "Head of state",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
-          "checked": "2026-10-08"
-        },
-        {
-          "title": "Head of government",
-          "kind": "Head of government",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
-          "checked": "2026-10-08"
+          "title": "President of the Republic",
+          "kind": "Head of state and government",
+          "name": "Teodoro Obiang Nguema Mbasogo",
+          "contact": {
+            "site": "https://www.guineaecuatorialpress.com/"
+          },
+          "source": {
+            "url": "https://www.guineaecuatorialpress.com/noticias/el_presidente_de_la_republica_viaja_para_la_viii_reunion_de_coordinacion_de_mitad_de_a%C3%B1o_de_la_union_africana",
+            "name": "guineaecuatorialpress.com (official site)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed",
+          "seatNote": "The government press office styles the President Head of State and of Government (Oct 2, 2026); a Prime Minister coordinates the administration."
         }
       ]
     },
@@ -15492,13 +15556,21 @@
       "label": "Guinea-Bissau",
       "roles": [
         {
-          "title": "Head of state",
+          "title": "Transitional President",
           "kind": "Head of state",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
+          "name": "Horta Inta-A",
+          "contact": {
+            "site": "https://www.cia.gov/resources/world-leaders/foreign-governments/guinea-bissau/"
+          },
+          "source": {
+            "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/guinea-bissau/",
+            "name": "CIA World Leaders (US government)"
+          },
+          "asOf": "2026-10-08",
           "checked": "2026-10-08",
-          "plannedSource": "https://www.presidencia.gw/"
+          "verified": true,
+          "sinceNote": "Not yet confirmed",
+          "seatNote": "Listed in the CIA World Leaders directory (US government), updated Jun 4, 2026; the country's own government sites did not load in our checks. The presidency's own site has not been updated since the November 2025 takeover."
         },
         {
           "title": "Transitional Prime Minister",
@@ -15575,8 +15647,12 @@
           "asOf": "2026-10-08",
           "checked": "2026-10-08",
           "verified": true,
-          "sinceNote": "Not yet confirmed",
-          "seatNote": "Presidential system: the constitution makes the President head of government (no separate prime minister)."
+          "seatNote": "Presidential system: the constitution makes the President head of government (no separate prime minister).",
+          "since": {
+            "text": "2026",
+            "date": "2026",
+            "confirmedOn": "https://www.sedena.gob.hn/noticias/toma-de-posesion-presidencial-2026"
+          }
         }
       ]
     },
@@ -16354,13 +16430,21 @@
       "label": "Saint Lucia",
       "roles": [
         {
-          "title": "Head of state",
+          "title": "King (represented by the Governor-General)",
           "kind": "Head of state",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
+          "name": "Charles III",
+          "contact": {
+            "site": "https://www.govt.lc/"
+          },
+          "source": {
+            "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/saint-lucia/",
+            "name": "CIA World Leaders (US government)"
+          },
+          "asOf": "2026-10-08",
           "checked": "2026-10-08",
-          "plannedSource": "http://www.govt.lc/"
+          "verified": true,
+          "sinceNote": "Not yet confirmed",
+          "seatNote": "Governor-General: Cyril Charles (CIA World Leaders directory, US government, updated Dec 22, 2025). The government portal reports a deputy acting in his absence; that page did not load in our checks."
         },
         {
           "title": "Prime Minister",
@@ -16773,13 +16857,21 @@
       "label": "Madagascar",
       "roles": [
         {
-          "title": "Head of state",
+          "title": "President",
           "kind": "Head of state",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
+          "name": "Michael Randrianirina",
+          "contact": {
+            "site": "https://presidence.gov.mg/"
+          },
+          "source": {
+            "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/madagascar/",
+            "name": "CIA World Leaders (US government)"
+          },
+          "asOf": "2026-10-08",
           "checked": "2026-10-08",
-          "plannedSource": "https://www.primature.gov.mg/"
+          "verified": true,
+          "sinceNote": "Not yet confirmed",
+          "seatNote": "Listed in the CIA World Leaders directory (US government), updated Aug 10, 2026; the country's own government sites did not load in our checks."
         },
         {
           "title": "Prime Minister",
@@ -17292,22 +17384,21 @@
       "label": "Nicaragua",
       "roles": [
         {
-          "title": "Head of state",
-          "kind": "Head of state",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
+          "title": "Co-Presidents",
+          "kind": "Head of state and government",
+          "name": "Daniel Ortega Saavedra and Rosario Murillo Zambrana de Ortega",
+          "contact": {
+            "site": "https://www.el19digital.com/"
+          },
+          "source": {
+            "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/nicaragua/",
+            "name": "CIA World Leaders (US government)"
+          },
+          "asOf": "2026-10-08",
           "checked": "2026-10-08",
-          "plannedSource": "http://www.presidencia.gob.ni/"
-        },
-        {
-          "title": "Head of government",
-          "kind": "Head of government",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
-          "checked": "2026-10-08",
-          "plannedSource": "http://www.presidencia.gob.ni/"
+          "verified": true,
+          "sinceNote": "Not yet confirmed",
+          "seatNote": "Two Co-Presidents head both state and government (no prime minister). Full names from the CIA World Leaders directory (US government), updated Sep 18, 2026; the presidency's communications site (El 19 Digital, May 4, 2026) also names them Co-Presidents."
         }
       ]
     },
@@ -17329,7 +17420,11 @@
           "asOf": "2026-10-08",
           "checked": "2026-10-08",
           "verified": true,
-          "sinceNote": "Not yet confirmed"
+          "since": {
+            "text": "Apr 30, 2013",
+            "date": "2013-04-30",
+            "confirmedOn": "https://www.royal-house.nl/members-royal-house/king-willem-alexander"
+          }
         },
         {
           "title": "Prime Minister",
@@ -18022,13 +18117,21 @@
       "label": "Solomon Islands",
       "roles": [
         {
-          "title": "Head of state",
+          "title": "King (represented by the Governor-General)",
           "kind": "Head of state",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
+          "name": "Charles III",
+          "contact": {
+            "site": "https://solomons.gov.sb/"
+          },
+          "source": {
+            "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/solomon-islands/",
+            "name": "CIA World Leaders (US government)"
+          },
+          "asOf": "2026-10-08",
           "checked": "2026-10-08",
-          "plannedSource": "https://solomons.gov.sb"
+          "verified": true,
+          "sinceNote": "Not yet confirmed",
+          "seatNote": "Governor-General: David Tiva Kapu (CIA World Leaders directory, US government, updated Sep 9, 2026)."
         },
         {
           "title": "Prime Minister",
@@ -18417,12 +18520,21 @@
       "label": "São Tomé and Príncipe",
       "roles": [
         {
-          "title": "Head of state",
+          "title": "President",
           "kind": "Head of state",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
-          "checked": "2026-10-08"
+          "name": "Carlos Manuel Vila Nova",
+          "contact": {
+            "site": "https://presidencia.st/"
+          },
+          "source": {
+            "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/sao-tome-and-principe/",
+            "name": "CIA World Leaders (US government)"
+          },
+          "asOf": "2026-10-08",
+          "checked": "2026-10-08",
+          "verified": true,
+          "sinceNote": "Not yet confirmed",
+          "seatNote": "Listed in the CIA World Leaders directory (US government), updated Feb 9, 2026; the country's own government sites did not load in our checks."
         },
         {
           "title": "Head of government",
@@ -18484,22 +18596,38 @@
       "label": "Eswatini",
       "roles": [
         {
-          "title": "Head of state",
+          "title": "King",
           "kind": "Head of state",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
+          "name": "Mswati III",
+          "contact": {
+            "site": "https://www.gov.sz/"
+          },
+          "source": {
+            "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/eswatini/",
+            "name": "CIA World Leaders (US government)"
+          },
+          "asOf": "2026-10-08",
           "checked": "2026-10-08",
-          "plannedSource": "http://www.gov.sz/"
+          "verified": true,
+          "sinceNote": "Not yet confirmed",
+          "seatNote": "Listed in the CIA World Leaders directory (US government), updated Jun 24, 2024; the country's own government sites did not load in our checks."
         },
         {
-          "title": "Head of government",
+          "title": "Prime Minister",
           "kind": "Head of government",
-          "name": "",
-          "notCovered": true,
-          "contact": {},
+          "name": "Russell Mmiso Dlamini",
+          "contact": {
+            "site": "https://www.gov.sz/"
+          },
+          "source": {
+            "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/eswatini/",
+            "name": "CIA World Leaders (US government)"
+          },
+          "asOf": "2026-10-08",
           "checked": "2026-10-08",
-          "plannedSource": "http://www.gov.sz/"
+          "verified": true,
+          "sinceNote": "Not yet confirmed",
+          "seatNote": "Listed in the CIA World Leaders directory (US government), updated Jun 24, 2024; the country's own government sites did not load in our checks."
         }
       ]
     },
@@ -18841,7 +18969,11 @@
           "asOf": "2026-10-08",
           "checked": "2026-10-08",
           "verified": true,
-          "sinceNote": "Not yet confirmed"
+          "since": {
+            "text": "May 1, 2025",
+            "date": "2025-05-01",
+            "confirmedOn": "https://foreign.gov.tt/about/prime-minister-trinidad-and-tobago/"
+          }
         },
         {
           "title": "President",
