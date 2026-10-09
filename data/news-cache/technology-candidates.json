@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T20:17:43.551Z",
+ "generatedAt": "2026-10-09T00:50:53.051Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -10,6 +10,33 @@
     "software": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Australian NVIDIA-backed AI data centre operator Firmus shelves IPO",
+       "url": "https://www.channelnewsasia.com/business/australian-nvidia-backed-ai-data-centre-operator-firmus-shelves-ipo-6444646",
+       "source": "CNA Business",
+       "published": "2026-10-08T22:12:23.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-drops-australian-ipo-plans-move-sends-ai-funding-warning",
+         "primary": false
+        },
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/australian-nvidia-backed-ai-data-centre-operator-firmus-shelves-ipo-6444646",
+         "primary": false
+        },
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/data-centers/firmus-cdc-end-planned-51b-australian-ai-buildout",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
       {
        "title": "Deutsche Telekom says AI traffic will not drive more mobile uplink capex",
        "url": "https://rcrwireless.com/20261008/ai/deutsche-telekom-ai-traffic",
@@ -179,23 +206,6 @@
        "blurb": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to analysts. Analysts across several financial institutions proje"
       },
       {
-       "title": "Analysts predict SET to reach 1,680 by year-end",
-       "url": "https://www.bangkokpost.com/business/investment/3333435/analysts-predict-set-to-reach-1680-by-yearend",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-07T23:16:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/investment/3333435/analysts-predict-set-to-reach-1680-by-yearend",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Stock Exchange of Thailand (SET) index is expected to finish at 1,680 points by year-end, supported by investment in artificial intelligence (AI) technology and its supply chain, listed-company earnings, foreign fund inflows and a recovery in the domestic economy, says the In"
-      },
-      {
        "title": "Making the case for non-lithium batteries for AI data centres",
        "url": "https://www.energy-storage.news/making-the-case-for-non-lithium-batteries-for-ai-data-centres/",
        "source": "Energy-Storage.news",
@@ -235,8 +245,18 @@
          "primary": false
         },
         {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333704/oil-surges-stocks-sink-as-us-reportedly-eyes-new-iran-strikes",
+         "primary": false
+        },
+        {
          "name": "The Straits Times Business",
          "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "primary": false
+        },
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/08/sochi-reopens-beaches-after-drone-attack-on-oil-tanker-a93918",
          "primary": false
         },
         {
@@ -251,7 +271,7 @@
         },
         {
          "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "url": "https://www.rigzone.com/news/wire/oil_surges_as_iran_tanker_attacks_escalate-08-oct-2026-184807-article/?rss=true",
          "primary": false
         },
         {
@@ -269,6 +289,33 @@
     "cloud": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Australian NVIDIA-backed AI data centre operator Firmus shelves IPO",
+       "url": "https://www.channelnewsasia.com/business/australian-nvidia-backed-ai-data-centre-operator-firmus-shelves-ipo-6444646",
+       "source": "CNA Business",
+       "published": "2026-10-08T22:12:23.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-drops-australian-ipo-plans-move-sends-ai-funding-warning",
+         "primary": false
+        },
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/australian-nvidia-backed-ai-data-centre-operator-firmus-shelves-ipo-6444646",
+         "primary": false
+        },
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/data-centers/firmus-cdc-end-planned-51b-australian-ai-buildout",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
       {
        "title": "'We always respond in kind' — Zelensky addresses Ukrainian attacks on Russian data center",
        "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/",
@@ -423,6 +470,23 @@
        "blurb": "Ambrosia Energy CEO Ben Longmier and Bloom Energy SVP Bill Thayer join the Smart Systems Stage at TechCrunch Disrupt. Register now to save up to $100. Grab a second of the same pass to save 50%."
       },
       {
+       "title": "Data centre operator Firmus pulls blockbuster ASX float after lacklustre demand",
+       "url": "https://www.abc.net.au/news/2026-10-09/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T22:12:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-09/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Firmus searches for private funding as it withdraws its application to list on the ASX just a day after closing its books to investors."
+      },
+      {
        "title": "Google's €13bn data center buildout in Finland under investigation for 300-hectare forest removal",
        "url": "https://www.datacenterdynamics.com/en/news/googles-13bn-data-center-buildout-in-finland-under-investigation-for-300-hectare-forest-removal/",
        "source": "DatacenterDynamics",
@@ -438,40 +502,6 @@
        "stages": [],
        "via": null,
        "blurb": "Finnish Licensing and Supervision Authority requests reports from local municipalities"
-      },
-      {
-       "title": "Ukrainian Drones Hit Yandex Data Center, Industrial Facilities Across Russia",
-       "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
-       "source": "The Moscow Times",
-       "published": "2026-10-08T12:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
-      },
-      {
-       "title": "Sesterce to invest $10bn in 600MW AI data center campus in Jämsä, Finland",
-       "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-08T10:52:56.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Developer says it has already secured an anchor customer for the site"
       }
      ]
     },
@@ -552,8 +582,13 @@
          "primary": false
         },
         {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/stralinks-india-entry-row-is-ambani-the-real-boss-of-india-asks-elon-musk/articleshow/134800745.cms",
+         "primary": false
+        },
+        {
          "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/08/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/",
+         "url": "https://techcrunch.com/2026/10/08/elon-musk-questions-ambanis-influence-as-starlink-india-launch-stalls/",
          "primary": false
         },
         {
@@ -565,6 +600,23 @@
        "stages": [],
        "via": null,
        "blurb": "Reliance Jio chairman Akash Ambani declines to comment when asked about Mr. Musk’s remarks; Rahul Gandhi joins the debate saying, “Wait till you discover the other guy”"
+      },
+      {
+       "title": "SpaceX takes aim at US wireless carriers with spectrum acquisition",
+       "url": "https://www.channelnewsasia.com/business/spacex-takes-aim-us-wireless-carriers-spectrum-acquisition-6444486",
+       "source": "CNA Business",
+       "published": "2026-10-08T20:21:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/spacex-takes-aim-us-wireless-carriers-spectrum-acquisition-6444486",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
       },
       {
        "title": "Arelion partners with Nokia on live network field trial",
@@ -589,23 +641,6 @@
        "blurb": "Arelion's 500-kilometer route from Amsterdam to London uses Nokia's 1830 Global Express (GX) Super C and Super L open line system, CHMQ6 thin transponder modules and ICE-X 400G and 800G ZR+ coherent pluggable optics. #pressrelease"
       },
       {
-       "title": "More change for Verizon's tech team as network exec heads for exit",
-       "url": "https://www.lightreading.com/business-management/more-change-for-verizon-s-tech-team-as-network-exec-heads-for-exit",
-       "source": "Light Reading",
-       "published": "2026-10-08T14:23:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Light Reading",
-         "url": "https://www.lightreading.com/business-management/more-change-for-verizon-s-tech-team-as-network-exec-heads-for-exit",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Adam Koeppe, chief network officer for core engineering and operations, announced he is leaving at the end of this year to 'move on to the next chapter.'"
-      },
-      {
        "title": "Schneider Electric and PTC consolidate industrial AI stack – but where’s the network? (Telco Diary)",
        "url": "https://rcrwireless.com/20261006/opinion/schneider-electric-ptc-industrial-ai-network-telco-diary",
        "source": "RCR Wireless News",
@@ -623,21 +658,38 @@
        "blurb": "From the newsletter (October 6; sign-up or follow if you want it sooner): Schneider Electric is to buy PTC for a cool $22.6bn – to consolidate its stake in the…"
       },
       {
-       "title": "Eurobites: VodafoneThree eyes more synergy savings",
-       "url": "https://www.lightreading.com/business-transformation/eurobites-vodafonethree-eyes-more-synergy-savings",
+       "title": "More change for Verizon's tech team as network exec heads for exit",
+       "url": "https://www.lightreading.com/business-management/more-change-for-verizon-s-tech-team-as-network-exec-heads-for-exit",
        "source": "Light Reading",
-       "published": "2026-10-08T12:30:25.000Z",
+       "published": "2026-10-08T14:23:28.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Light Reading",
-         "url": "https://www.lightreading.com/business-transformation/eurobites-vodafonethree-eyes-more-synergy-savings",
+         "url": "https://www.lightreading.com/business-management/more-change-for-verizon-s-tech-team-as-network-exec-heads-for-exit",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Also in today's EMEA regional roundup: Nokia cuts jobs in Finland; KLM taps Starlink for in-flight connectivity; VEON hooks up with Amdocs."
+       "blurb": "Adam Koeppe, chief network officer for core engineering and operations, announced he is leaving at the end of this year to 'move on to the next chapter.'"
+      },
+      {
+       "title": "SpaceX calls for better coordination in orbit after near-misses with Starlink",
+       "url": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
+       "source": "Ars Technica",
+       "published": "2026-10-08T21:37:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "\"These led to conjunctions of tens of meters to hundreds of meters. Way too close to comfort.\""
       },
       {
        "title": "Nokia campus sale nears as Hotard bets on industrial AI",
@@ -657,6 +709,23 @@
        "blurb": "Nokia may soon name a buyer for its campus private networks unit as rivals gain share, but CEO Justin Hotard is betting on bigger money in industrial infrastructure."
       },
       {
+       "title": "Eurobites: VodafoneThree eyes more synergy savings",
+       "url": "https://www.lightreading.com/business-transformation/eurobites-vodafonethree-eyes-more-synergy-savings",
+       "source": "Light Reading",
+       "published": "2026-10-08T12:30:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/business-transformation/eurobites-vodafonethree-eyes-more-synergy-savings",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Also in today's EMEA regional roundup: Nokia cuts jobs in Finland; KLM taps Starlink for in-flight connectivity; VEON hooks up with Amdocs."
+      },
+      {
        "title": "Amazon builds 1,000th satellite, will launch space internet service by end of year",
        "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
        "source": "Ars Technica",
@@ -672,63 +741,12 @@
        "stages": [],
        "via": null,
        "blurb": "\"If this was easy, everybody else would be doing it.\""
-      },
-      {
-       "title": "Opinion: Can carriers finally move up the stack? AT&T, Cisco and NVIDIA say AI changes the equation",
-       "url": "https://www.fierce-network.com/cloud/can-carriers-finally-move-stack-att-cisco-and-nvidia-say-ai-changes-equation",
-       "source": "Fierce Network",
-       "published": null,
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Fierce Network",
-         "url": "https://www.fierce-network.com/cloud/can-carriers-finally-move-stack-att-cisco-and-nvidia-say-ai-changes-equation",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Connectivity gets operators into the game, but compute, security and control could move them up the stack."
       }
      ]
     },
     "research": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
-       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-       "source": "NASA News",
-       "published": "2026-10-08T19:40:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are announced in conjunction with the White House Office of Science and Technology Policy’s (OS"
-      },
-      {
-       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
-       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-       "source": "NASA News",
-       "published": "2026-10-08T15:46:25.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
-      },
       {
        "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
        "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
@@ -750,6 +768,26 @@
        "stages": [],
        "via": null,
        "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
+      },
+      {
+       "title": "NRC reviews LAR on Palisades fuel loading incident, as Pioneer SMR application advances",
+       "url": "https://www.ans.org/news/2026-10-08/article-8474/nrc-reviews-lar-on-palisades-fuel-loading-incident-as-pioneer-smr-application-advances/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-08T21:18:22.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-08/article-8474/nrc-reviews-lar-on-palisades-fuel-loading-incident-as-pioneer-smr-application-advances/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "The Nuclear Regulatory Commission is reviewing a license amendment request (LAR) Holtec submitted in the aftermath of a fuel loading incident that has paused some of the restart work at the Palisades nuclear power plant in Covert, Mich."
       },
       {
        "title": "DOE announces grants for SiC cladding research and testing",
@@ -794,24 +832,21 @@
        "blurb": "Tata Power has partnered with Norway’s Ocean Sun to test membrane-based floating solar technology at its Maharashtra reservoir."
       },
       {
-       "title": "Rompetrol targets 2028 startup for two refinery solar projects",
-       "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-08T17:53:35.000Z",
+       "title": "NASA taps DoE to help it build nuclear space reactors",
+       "url": "https://www.theregister.com/offbeat/2026/10/08/nasa-taps-doe-to-help-it-build-nuclear-space-reactors/5302096",
+       "source": "The Register",
+       "published": "2026-10-08T20:15:01.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+         "name": "The Register",
+         "url": "https://www.theregister.com/offbeat/2026/10/08/nasa-taps-doe-to-help-it-build-nuclear-space-reactors/5302096",
          "primary": false
         }
        ],
        "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
+       "via": null,
+       "blurb": "Space agency claims steady progress on lunar reactor plans, but offers little evidence to back it up"
       },
       {
        "title": "BWXT’s BANR selected for Canadian project",
@@ -837,6 +872,91 @@
         "stage": "innovation"
        },
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+      },
+      {
+       "title": "Rompetrol targets 2028 startup for two refinery solar projects",
+       "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:53:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
+      },
+      {
+       "title": "Sochi Reopens Beaches After Drone Attack on Oil Tanker",
+       "url": "https://www.themoscowtimes.com/2026/10/08/sochi-reopens-beaches-after-drone-attack-on-oil-tanker-a93918",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T15:06:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "World Trade Organization",
+         "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
+         "primary": true
+        },
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
+         "primary": false
+        },
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+         "primary": false
+        },
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333704/oil-surges-stocks-sink-as-us-reportedly-eyes-new-iran-strikes",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "primary": false
+        },
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/08/sochi-reopens-beaches-after-drone-attack-on-oil-tanker-a93918",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
+         "primary": false
+        },
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_surges_as_iran_tanker_attacks_escalate-08-oct-2026-184807-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Authorities said tests found no oil contamination following a drone attack ignited a major blaze on an oil tanker."
       },
       {
        "title": "DCD Studio: Market models for SMRs with Rosa Rotko, Mott MacDonald",
@@ -917,26 +1037,6 @@
         "stage": "innovation"
        },
        "blurb": "A memorandum of understanding with the molten salt reactor developer Thorizon will examine Urenco's potential role in the molten salt fuel supply chain and how depleted uranium could become a fuel resource for advanced nuclear."
-      },
-      {
-       "title": "Researchers find almost 8,000 European solar energy systems exposed to internet cyberattacks",
-       "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
-       "source": "PV Tech",
-       "published": "2026-10-08T12:22:38.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "A joint Dutch team of researchers shows commercial solar power assets are internet-accessible, creating a dangerous threat to infrastructure."
       }
      ]
     },
@@ -1029,21 +1129,21 @@
        "blurb": "The Big Four firm was hit with a more than £6 million ($7.9 million) fine by a U.K. regulator over audits of the Go-Ahead Group Ltd."
       },
       {
-       "title": "Recording supports claim employee pressured to omit Deloitte partner name from HR complaint, WRC told",
-       "url": "https://www.irishtimes.com/business/2026/10/08/recording-exists-to-show-worker-was-pressured-to-take-deloitte-partners-name-out-of-hr-complaint-wrc-told/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-08T12:05:10.000Z",
+       "title": "The World’s Richest Law Firm Has Decided Money Isn’t Everything — See Also",
+       "url": "https://abovethelaw.com/2026/10/the-worlds-richest-law-firm-has-decided-money-isnt-everything-see-also/",
+       "source": "Above the Law",
+       "published": "2026-10-08T23:31:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/recording-exists-to-show-worker-was-pressured-to-take-deloitte-partners-name-out-of-hr-complaint-wrc-told/",
+         "name": "Above the Law",
+         "url": "https://abovethelaw.com/2026/10/the-worlds-richest-law-firm-has-decided-money-isnt-everything-see-also/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Complaint of constructive dismissal against the Big Four accountancy firm is being heard at the WRC"
+       "blurb": "Kirkland & Ellis Is Done Sharing Its Revenue With The Media: Turns out $10 billion is right where the numbers stop providing 'meaningful value.' Biglaw Wants Lawyers Who Know How To Use AI : But some law schools are outright banning it. This could turn into a recruitment problem."
       },
       {
        "title": "Engineering firm claims world record for tallest wind turbine tower",
@@ -1063,21 +1163,38 @@
        "blurb": "The installation of what is thought to be the tallest wind turbine tower ever built has been completed by an engineering company in Germany."
       },
       {
-       "title": "Payments income bolsters banks",
-       "url": "https://www.paymentsdive.com/news/payments-income-bolsters-banks/832378/",
-       "source": "Payments Dive",
-       "published": "2026-10-07T15:49:00.000Z",
+       "title": "Law Firm Morgan & Morgan Signs 71K-SF Lease at One Seaport Plaza",
+       "url": "https://commercialobserver.com/2026/10/morgan-morgan-lease-one-seaport-plaza/",
+       "source": "Commercial Observer",
+       "published": "2026-10-08T21:16:28.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Payments Dive",
-         "url": "https://www.paymentsdive.com/news/payments-income-bolsters-banks/832378/",
+         "name": "Commercial Observer",
+         "url": "https://commercialobserver.com/2026/10/morgan-morgan-lease-one-seaport-plaza/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Income from card, digital and other rails has swelled to about 40% of revenue for the global bank industry, according to consulting firm McKinsey."
+       "blurb": "Personal injury law firm Morgan & Morgan has signed a 70,602-square-foot lease at 199 Water Street, also known as One Seaport Plaza, according to third-quarter Manhattan office reports from Colliers and CBRE. Morgan & Morgan will move from a sublease to a long-term direct lease a"
+      },
+      {
+       "title": "Recording supports claim employee pressured to omit Deloitte partner name from HR complaint, WRC told",
+       "url": "https://www.irishtimes.com/business/2026/10/08/recording-exists-to-show-worker-was-pressured-to-take-deloitte-partners-name-out-of-hr-complaint-wrc-told/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-08T12:05:10.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/08/recording-exists-to-show-worker-was-pressured-to-take-deloitte-partners-name-out-of-hr-complaint-wrc-told/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Complaint of constructive dismissal against the Big Four accountancy firm is being heard at the WRC"
       },
       {
        "title": "FBI removes Accenture contractor after missed security patch led to breach",
@@ -1102,38 +1219,21 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Spotify renews multiyear deal with podcaster Joe Rogan",
-       "url": "https://www.channelnewsasia.com/business/spotify-renews-multiyear-deal-podcaster-joe-rogan-6443031",
-       "source": "CNA Business",
-       "published": "2026-10-08T13:28:44.000Z",
+       "title": "Ex-Warner Bros. CEO pockets US$600 million in sale to Paramount",
+       "url": "https://www.straitstimes.com/business/ex-warner-bros-ceo-pockets-us600-million-in-sale-to-paramount",
+       "source": "The Straits Times Business",
+       "published": "2026-10-08T23:35:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/spotify-renews-multiyear-deal-podcaster-joe-rogan-6443031",
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/ex-warner-bros-ceo-pockets-us600-million-in-sale-to-paramount",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": ""
-      },
-      {
-       "title": "Paramount and Warner Bros merge to become one Hollywood giant, Skydance",
-       "url": "https://www.thehindu.com/business/paramount-and-warner-bros-merge-to-become-one-hollywood-giant-skydance/article71552210.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T11:57:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/paramount-and-warner-bros-merge-to-become-one-hollywood-giant-skydance/article71552210.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The merger brings two of America's oldest moviemaking studios together under the helm of billionaire David Ellison and Ynon Kreiz, in a move that is projected to concentrate power in an industry already run by just a handful of major players"
+       "blurb": "Warner Bros. stockholders received US$31 a share in cash in the sale, a nearly 25% increase."
       },
       {
        "title": "Watch the trailer for ‘The Altruists,’ Netflix’s show about the FTX scandal",
@@ -1187,23 +1287,6 @@
        "blurb": "New York’s lawsuit against the company is one of more than two dozen cases brought by states accusing the social media giant of designing its platform to encourage addictive use among children."
       },
       {
-       "title": "Spotify is getting more serious about selling enterprise software",
-       "url": "https://techcrunch.com/2026/10/08/spotify-is-getting-more-serious-about-selling-enterprise-software/",
-       "source": "TechCrunch",
-       "published": "2026-10-08T14:34:33.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/08/spotify-is-getting-more-serious-about-selling-enterprise-software/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The company launched technology.spotify.com, a new site that will make its internal tech available to outsiders."
-      },
-      {
        "title": "ByteDance heads first SCMP Plus Going Global 100 ranking",
        "url": "https://www.scmp.com/business/china-business/article/3370010/bytedance-heads-first-scmp-plus-going-global-100-ranking?utm_source=rss_feed",
        "source": "South China Morning Post",
@@ -1253,6 +1336,23 @@
        "stages": [],
        "via": null,
        "blurb": "Lower priced tickets can help build loyal visitors while premium add-ons drive more spending at the parks."
+      },
+      {
+       "title": "MyBundle reveals mobile pricing and packaging, streaming perks for new subs",
+       "url": "https://www.lightreading.com/5g/mybundle-reveals-mobile-pricing-and-packaging-streaming-perks-for-new-subs",
+       "source": "Light Reading",
+       "published": "2026-10-07T16:14:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/5g/mybundle-reveals-mobile-pricing-and-packaging-streaming-perks-for-new-subs",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "MyBundle has branched beyond video streaming by introducing a mobile service in partnership with Gigs, starting at $20 per month per line. New customers can also get a free year of a premium, ad-supported streaming service."
       },
       {
        "title": "CNG Expands Recycle-Ready Films Platform",
@@ -1413,23 +1513,6 @@
        "blurb": "Retailer issues update after BBC contacted by cyber criminals who said this week's breach went beyond \"basic contact details\""
       },
       {
-       "title": "Frontline workers are vital to effective cybersecurity",
-       "url": "https://www.ttnews.com/articles/frontline-vital-cybersecurity",
-       "source": "Transport Topics",
-       "published": "2026-10-07T18:52:23.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Transport Topics",
-         "url": "https://www.ttnews.com/articles/frontline-vital-cybersecurity",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Experts at the NMFTA Cybersecurity Conference emphasized that as cargo theft schemes become more sophisticated, the importance of keeping humans involved to counter them becomes more crucial."
-      },
-      {
        "title": "Coupang files lawsuits over $462 million in South Korea fines over data breach",
        "url": "https://www.channelnewsasia.com/business/coupang-files-lawsuits-over-462-million-in-south-korea-fines-over-data-breach-6443436",
        "source": "CNA Business",
@@ -1445,6 +1528,23 @@
        "stages": [],
        "via": null,
        "blurb": ""
+      },
+      {
+       "title": "Asos says customers’ names, contact details and search histories hacked",
+       "url": "https://www.theguardian.com/business/2026/oct/08/asos-customer-data-accessed-hacker-posing-impersonated",
+       "source": "The Guardian Business",
+       "published": "2026-10-08T13:54:58.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/08/asos-customer-data-accessed-hacker-posing-impersonated",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Experts say breadth of data accessed could help attackers devise “highly convincing” phishing scams Asos hackers gained access to millions of customers’ recent search histories as well as names, addresses and phone numbers, the online fashion retailer has revealed. Terms typed in"
       },
       {
        "title": "UK’s ASOS says cyberhack accessed customers’ personal data",
@@ -1481,21 +1581,21 @@
        "blurb": "The hackers alerted the fashion giant's customers through a push notification that said they had \"fully compromised\" the company's cloud storage."
       },
       {
-       "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
-       "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
-       "source": "The Register",
-       "published": "2026-10-08T13:27:00.000Z",
+       "title": "'Group of individuals' impacted by data breach at SA hospital",
+       "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T05:01:42.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Register",
-         "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
+       "blurb": "An Adelaide private hospital has notified individuals and cyber security authorities of a data breach of personal information."
       }
      ]
     }
@@ -1526,23 +1626,6 @@
        "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
       },
       {
-       "title": "Using AI to mitigate the growing environmental threat of data centers",
-       "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
-       "source": "MIT News",
-       "published": "2026-10-08T04:00:00.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "MIT News",
-         "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient."
-      },
-      {
        "title": "Not just AI. China is building technologies that challenge U.S. dominance",
        "url": "https://restofworld.org/2026/china-america-tech-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
        "source": "Rest of World",
@@ -1558,6 +1641,23 @@
        "stages": [],
        "via": null,
        "blurb": "From batteries and solar panels to drones and satellites, China is building tech capabilities that extend well beyond AI, writes Steve Feldstein in his new book, \"Bytes and Bullets: Global Rivalries, Big Tech, and the New Shape of Modern Warfare.\""
+      },
+      {
+       "title": "Using AI to mitigate the growing environmental threat of data centers",
+       "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+       "source": "MIT News",
+       "published": "2026-10-08T04:00:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "MIT News",
+         "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient."
       },
       {
        "title": "Supplier Showcase focus: AI-driven diagnostics",
@@ -1609,6 +1709,23 @@
        "stages": [],
        "via": null,
        "blurb": "US President Donald Trump discussed AI development with dozens of tech bosses at the White House on Tuesday. Ahead of his \"super intelligence\" luncheon, Trump launched a new AI-powered website for government services, vowing not to stifle the technology's growth. He also said he "
+      },
+      {
+       "title": "3 Questions: What is the best path forward for AI in academia?",
+       "url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+       "source": "MIT News",
+       "published": "2026-10-08T21:25:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "MIT News",
+         "url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "MIT Statistics and Data Science Center Director Alexander (Sasha) Rakhlin shares important considerations for departments and institutions."
       },
       {
        "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
@@ -1665,23 +1782,6 @@
        "stages": [],
        "via": null,
        "blurb": "The company presented new data about the prevalence of different forms of social-engineering attacks, saying identity fundamentals still matter in the AI era."
-      },
-      {
-       "title": "Everlaw’s 2026 AI Report: A Glass Half Full Or Half Empty?",
-       "url": "https://abovethelaw.com/2026/10/everlaws-2026-ai-report-a-glass-half-full-or-half-empty/",
-       "source": "Above the Law",
-       "published": "2026-10-07T22:15:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Above the Law",
-         "url": "https://abovethelaw.com/2026/10/everlaws-2026-ai-report-a-glass-half-full-or-half-empty/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Some of the report's conclusions may be optimistic and there is a need to look at them critically. The post Everlaw’s 2026 AI Report: A Glass Half Full Or Half Empty? appeared first on Above the Law ."
       },
       {
        "title": "Margaret Hamilton, computing pioneer who led software development for the Apollo program, dies at 90",
@@ -1774,23 +1874,6 @@
        "blurb": "Fit Energy, a developer of energy solutions for data center projects, has announced plans for a fuel cell power generation and data center project in Newport Township, Luzerne County, Pennsylvania. The project received township zoning approval for both uses in August of this year"
       },
       {
-       "title": "Using AI to mitigate the growing environmental threat of data centers",
-       "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
-       "source": "MIT News",
-       "published": "2026-10-08T04:00:00.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "MIT News",
-         "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient."
-      },
-      {
        "title": "America’s data center boom is running into a grid-sized problem",
        "url": "https://www.power-eng.com/renewables/america-data-center-construction-delays/",
        "source": "Power Engineering",
@@ -1806,12 +1889,63 @@
        "stages": [],
        "via": null,
        "blurb": "America’s data center boom is moving fast, but the infrastructure needed to power it isn’t always keeping pace. From transmission and fuel constraints to construction setbacks, major projects are finding that turning billions of dollars in investment into energized megawatts can "
+      },
+      {
+       "title": "Using AI to mitigate the growing environmental threat of data centers",
+       "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+       "source": "MIT News",
+       "published": "2026-10-08T04:00:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "MIT News",
+         "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient."
       }
      ]
     },
     "telecom": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "SpaceX takes aim at US wireless carriers with spectrum acquisition",
+       "url": "https://www.channelnewsasia.com/business/spacex-takes-aim-us-wireless-carriers-spectrum-acquisition-6444486",
+       "source": "CNA Business",
+       "published": "2026-10-08T20:21:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/spacex-takes-aim-us-wireless-carriers-spectrum-acquisition-6444486",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
+      {
+       "title": "SpaceX calls for better coordination in orbit after near-misses with Starlink",
+       "url": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
+       "source": "Ars Technica",
+       "published": "2026-10-08T21:37:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "\"These led to conjunctions of tens of meters to hundreds of meters. Way too close to comfort.\""
+      },
       {
        "title": "Amazon builds 1,000th satellite, will launch space internet service by end of year",
        "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
@@ -1834,40 +1968,6 @@
     "research": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
-       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-       "source": "NASA News",
-       "published": "2026-10-08T19:40:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are announced in conjunction with the White House Office of Science and Technology Policy’s (OS"
-      },
-      {
-       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
-       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-       "source": "NASA News",
-       "published": "2026-10-08T15:46:25.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific disc"
-      },
       {
        "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
        "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
@@ -1909,6 +2009,31 @@
         "stage": "innovation"
        },
        "blurb": "The soil in northwest Iowa is so fertile it’s referred to as “black gold.” “It’s incredibly rich, wonderful topsoil from thousands of years of silty deposits from the Missouri River,” said Luke Seaberg, a researcher at Iowa State University’s extension program. So rich that some "
+      },
+      {
+       "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
+       "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
+       "source": "POWER Magazine",
+       "published": "2026-10-06T19:58:54.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/fusion-firm-xcimer-announces-fresh-doe-milestones-funding",
+         "primary": false
+        },
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
       },
       {
        "title": "DOE selects second round of hydropower projects for technical support, with modernization in mind",
@@ -1956,31 +2081,6 @@
        "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering."
       },
       {
-       "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
-       "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
-       "source": "POWER Magazine",
-       "published": "2026-10-06T19:58:54.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/fusion-firm-xcimer-announces-fresh-doe-milestones-funding",
-         "primary": false
-        },
-        {
-         "name": "POWER Magazine",
-         "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
-      },
-      {
        "title": "Deployable Energy to test its Unity nuclear battery in DOME",
        "url": "https://www.world-nuclear-news.org/articles/deployable-energy-to-test-its-unity-nuclear-battery-in-dome",
        "source": "World Nuclear News",
@@ -1999,23 +2099,6 @@
         "stage": "innovation"
        },
        "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
-      },
-      {
-       "title": "Farm Hands on the Potomac: Joel Leftwich joins Idealyst Innovation, ​Robert Haus goes to Vylor, General Mills names Dana McNabb as CEO",
-       "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
-       "source": "Agri-Pulse",
-       "published": "2026-10-07T10:05:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Agri-Pulse",
-         "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Joel Leftwich will join Idealyst Innovation as executive vice president of policy innovation and director of the Center for American Food Power. Robert Haus has joined Vylor as state government and industry affairs leader. General Mills named Dana McNabb as CEO, effective Jan. 1,"
       },
       {
        "title": "Tennessee Valley Authority Gets Approval to Build Small Nuclear Reactor",
@@ -2063,6 +2146,40 @@
        "blurb": "The US Department of Energy (DOE) has selected 14 hydropower projects to begin negotiations for testing support The post US selects 14 hydropower projects for testing support appeared first on International Water Power ."
       },
       {
+       "title": "Farm Hands on the Potomac: Joel Leftwich joins Idealyst Innovation, ​Robert Haus goes to Vylor, General Mills names Dana McNabb as CEO",
+       "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
+       "source": "Agri-Pulse",
+       "published": "2026-10-07T10:05:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Agri-Pulse",
+         "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Joel Leftwich will join Idealyst Innovation as executive vice president of policy innovation and director of the Center for American Food Power. Robert Haus has joined Vylor as state government and industry affairs leader. General Mills named Dana McNabb as CEO, effective Jan. 1,"
+      },
+      {
+       "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
+       "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+       "source": "NPR Science",
+       "published": "2026-10-06T10:16:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NPR Science",
+         "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s."
+      },
+      {
        "title": "Foreign sugar subsidies cost US farmers billions, study finds",
        "url": "https://www.farmprogress.com/tv-and-radio/foreign-sugar-subsidies-cost-us-farmers-billions-study-finds",
        "source": "Farm Progress",
@@ -2078,6 +2195,23 @@
        "stages": [],
        "via": null,
        "blurb": "Farm Progress America"
+      },
+      {
+       "title": "Clinical Trial Indicates A.I. Chatbots Could Aid Urgent Care",
+       "url": "https://www.nytimes.com/2026/10/08/technology/ai-chatbots-urgent-care.html",
+       "source": "NYT Technology",
+       "published": "2026-10-08T22:48:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NYT Technology",
+         "url": "https://www.nytimes.com/2026/10/08/technology/ai-chatbots-urgent-care.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Nearly 100 patients discussed their maladies with a Google bot, called AMIE, before meeting with physicians."
       }
      ]
     },
@@ -2119,21 +2253,38 @@
        "blurb": "Researchers corroborate parts of Silent Ransom Group dump detailing crypto payouts, cash brokers, and recruitment"
       },
       {
-       "title": "Payments income bolsters banks",
-       "url": "https://www.paymentsdive.com/news/payments-income-bolsters-banks/832378/",
-       "source": "Payments Dive",
-       "published": "2026-10-07T15:49:00.000Z",
+       "title": "The World’s Richest Law Firm Has Decided Money Isn’t Everything — See Also",
+       "url": "https://abovethelaw.com/2026/10/the-worlds-richest-law-firm-has-decided-money-isnt-everything-see-also/",
+       "source": "Above the Law",
+       "published": "2026-10-08T23:31:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Payments Dive",
-         "url": "https://www.paymentsdive.com/news/payments-income-bolsters-banks/832378/",
+         "name": "Above the Law",
+         "url": "https://abovethelaw.com/2026/10/the-worlds-richest-law-firm-has-decided-money-isnt-everything-see-also/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Income from card, digital and other rails has swelled to about 40% of revenue for the global bank industry, according to consulting firm McKinsey."
+       "blurb": "Kirkland & Ellis Is Done Sharing Its Revenue With The Media: Turns out $10 billion is right where the numbers stop providing 'meaningful value.' Biglaw Wants Lawyers Who Know How To Use AI : But some law schools are outright banning it. This could turn into a recruitment problem."
+      },
+      {
+       "title": "Law Firm Morgan & Morgan Signs 71K-SF Lease at One Seaport Plaza",
+       "url": "https://commercialobserver.com/2026/10/morgan-morgan-lease-one-seaport-plaza/",
+       "source": "Commercial Observer",
+       "published": "2026-10-08T21:16:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Commercial Observer",
+         "url": "https://commercialobserver.com/2026/10/morgan-morgan-lease-one-seaport-plaza/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Personal injury law firm Morgan & Morgan has signed a 70,602-square-foot lease at 199 Water Street, also known as One Seaport Plaza, according to third-quarter Manhattan office reports from Colliers and CBRE. Morgan & Morgan will move from a sublease to a long-term direct lease a"
       },
       {
        "title": "FBI removes Accenture contractor after missed security patch led to breach",
@@ -2173,23 +2324,6 @@
        "stages": [],
        "via": null,
        "blurb": "New York’s lawsuit against the company is one of more than two dozen cases brought by states accusing the social media giant of designing its platform to encourage addictive use among children."
-      },
-      {
-       "title": "Paramount and Warner Bros merge to become one Hollywood giant, Skydance",
-       "url": "https://www.thehindu.com/business/paramount-and-warner-bros-merge-to-become-one-hollywood-giant-skydance/article71552210.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T11:57:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/paramount-and-warner-bros-merge-to-become-one-hollywood-giant-skydance/article71552210.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The merger brings two of America's oldest moviemaking studios together under the helm of billionaire David Ellison and Ynon Kreiz, in a move that is projected to concentrate power in an industry already run by just a handful of major players"
       },
       {
        "title": "CNG Expands Recycle-Ready Films Platform",
@@ -2248,21 +2382,21 @@
        "blurb": "Attacks targeting key industrial sites and unforced errors among leading AI companies are raising alarm bells."
       },
       {
-       "title": "Frontline workers are vital to effective cybersecurity",
-       "url": "https://www.ttnews.com/articles/frontline-vital-cybersecurity",
-       "source": "Transport Topics",
-       "published": "2026-10-07T18:52:23.000Z",
+       "title": "Trump Mobile hack and apparent lack of FCC authorization raise security alarms",
+       "url": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/",
+       "source": "Ars Technica",
+       "published": "2026-10-08T20:39:31.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Transport Topics",
-         "url": "https://www.ttnews.com/articles/frontline-vital-cybersecurity",
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Experts at the NMFTA Cybersecurity Conference emphasized that as cargo theft schemes become more sophisticated, the importance of keeping humans involved to counter them becomes more crucial."
+       "blurb": "After hack and data breach, senator asks why Trump Mobile lacks some FCC filings."
       },
       {
        "title": "AI underscores singular importance of phishing-resistant authentication, Okta says",
@@ -2786,11 +2920,56 @@
        "url": "https://www.themoscowtimes.com/2026/10/08/sochi-reopens-beaches-after-drone-attack-on-oil-tanker-a93918",
        "source": "The Moscow Times",
        "published": "2026-10-08T15:06:00.000Z",
-       "verification": "unconfirmed",
+       "verification": "confirmed",
        "outlets": [
+        {
+         "name": "World Trade Organization",
+         "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
+         "primary": true
+        },
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
+         "primary": false
+        },
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
+         "primary": false
+        },
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333704/oil-surges-stocks-sink-as-us-reportedly-eyes-new-iran-strikes",
+         "primary": false
+        },
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "primary": false
+        },
         {
          "name": "The Moscow Times",
          "url": "https://www.themoscowtimes.com/2026/10/08/sochi-reopens-beaches-after-drone-attack-on-oil-tanker-a93918",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
+         "primary": false
+        },
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/oil_surges_as_iran_tanker_attacks_escalate-08-oct-2026-184807-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
          "primary": false
         }
        ],
@@ -4091,23 +4270,6 @@
        "blurb": "Union minister Ashwini Vaishnaw announced plans for a Consultation paper on AI regulations to address specific concerns. The focus will include AI safety, deepfakes, user harm, and the need for skilling. The government aims to establish a regulatory framework while involving vari"
       },
       {
-       "title": "TCS Q2 net up 15% to ₹13,884 cr, AI revenue crosses $3 bn; board approves ₹12 dividend",
-       "url": "https://www.thehindu.com/business/Industry/tcs-q2-net-up-15-to-13884-cr-ai-revenue-crosses-3-bn-board-approves-12-dividend/article71559388.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T11:23:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/tcs-q2-net-up-15-to-13884-cr-ai-revenue-crosses-3-bn-board-approves-12-dividend/article71559388.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Porsche and Best Buy represent a new category of transformation partnerships. Together with the clients, it is building repeatable value platforms that will industrialize AI at scale."
-      },
-      {
        "title": "Tcs Q2 Results: TCS profit jumps 15% to ₹13,884cr, AI revenue tops $3.1bn; board announces ₹12 dividend",
        "url": "https://timesofindia.indiatimes.com/business/india-business/tcs-q2-results-net-profit-rises-15-to-rs-13884-crore-revenue-up-11/articleshow/134788770.cms",
        "source": "Times of India Business",
@@ -4147,8 +4309,13 @@
          "primary": false
         },
         {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/stralinks-india-entry-row-is-ambani-the-real-boss-of-india-asks-elon-musk/articleshow/134800745.cms",
+         "primary": false
+        },
+        {
          "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/08/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/",
+         "url": "https://techcrunch.com/2026/10/08/elon-musk-questions-ambanis-influence-as-starlink-india-launch-stalls/",
          "primary": false
         },
         {
@@ -4560,34 +4727,6 @@
     }
    }
   },
-  "th": {
-   "label": "Thailand",
-   "level": "country",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Analysts predict SET to reach 1,680 by year-end",
-       "url": "https://www.bangkokpost.com/business/investment/3333435/analysts-predict-set-to-reach-1680-by-yearend",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-07T23:16:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/investment/3333435/analysts-predict-set-to-reach-1680-by-yearend",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Stock Exchange of Thailand (SET) index is expected to finish at 1,680 points by year-end, supported by investment in artificial intelligence (AI) technology and its supply chain, listed-company earnings, foreign fund inflows and a recovery in the domestic economy, says the In"
-      }
-     ]
-    }
-   }
-  },
   "us-nc": {
    "label": "North Carolina",
    "level": "admin1",
@@ -4678,28 +4817,6 @@
        "stages": [],
        "via": null,
        "blurb": "As Hong Kong and Singapore compete for leadership in businesses ranging from foreign exchange trading to wealth management, the battleground has extended to artificial intelligence, with both cities vying to attract investment from HSBC Holdings and other major corporations, acco"
-      }
-     ]
-    },
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Singapore’s EDBI, Roblox CEO back Universal Quantum start-up in US$100 million Series A round",
-       "url": "https://www.straitstimes.com/business/singapores-edbi-roblox-ceo-back-universal-quantum-start-up-in-us100-million-series-a-round",
-       "source": "The Straits Times Business",
-       "published": "2026-10-08T07:50:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/singapores-edbi-roblox-ceo-back-universal-quantum-start-up-in-us100-million-series-a-round",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Universal Quantum is among several quantum firms going public lately."
       }
      ]
     }
@@ -4857,12 +4974,22 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Firmus, CDC end planned $51B Australian AI buildout",
-       "url": "https://www.lightreading.com/data-centers/firmus-cdc-end-planned-51b-australian-ai-buildout",
-       "source": "Light Reading",
-       "published": "2026-10-07T14:09:59.000Z",
-       "verification": "unconfirmed",
+       "title": "Australian NVIDIA-backed AI data centre operator Firmus shelves IPO",
+       "url": "https://www.channelnewsasia.com/business/australian-nvidia-backed-ai-data-centre-operator-firmus-shelves-ipo-6444646",
+       "source": "CNA Business",
+       "published": "2026-10-08T22:12:23.000Z",
+       "verification": "multiple",
        "outlets": [
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-drops-australian-ipo-plans-move-sends-ai-funding-warning",
+         "primary": false
+        },
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/australian-nvidia-backed-ai-data-centre-operator-firmus-shelves-ipo-6444646",
+         "primary": false
+        },
         {
          "name": "Light Reading",
          "url": "https://www.lightreading.com/data-centers/firmus-cdc-end-planned-51b-australian-ai-buildout",
@@ -4871,13 +4998,57 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "CDC exits $51 billion AI data center project in Australia after its partner, Firmus, embarks on aggressive Asian expansion."
+       "blurb": ""
       }
      ]
     },
     "cloud": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Australian NVIDIA-backed AI data centre operator Firmus shelves IPO",
+       "url": "https://www.channelnewsasia.com/business/australian-nvidia-backed-ai-data-centre-operator-firmus-shelves-ipo-6444646",
+       "source": "CNA Business",
+       "published": "2026-10-08T22:12:23.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-drops-australian-ipo-plans-move-sends-ai-funding-warning",
+         "primary": false
+        },
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/australian-nvidia-backed-ai-data-centre-operator-firmus-shelves-ipo-6444646",
+         "primary": false
+        },
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/data-centers/firmus-cdc-end-planned-51b-australian-ai-buildout",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
+      {
+       "title": "Data centre operator Firmus pulls blockbuster ASX float after lacklustre demand",
+       "url": "https://www.abc.net.au/news/2026-10-09/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T22:12:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-09/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Firmus searches for private funding as it withdraws its application to list on the ASX just a day after closing its books to investors."
+      },
       {
        "title": "Town questions $15b data centre set to use enough power for 1m homes",
        "url": "https://www.abc.net.au/news/2026-10-08/mixed-response-to-proposed-data-centre-near-wagga-wagga/107214860",
@@ -4944,6 +5115,23 @@
        "stages": [],
        "via": null,
        "blurb": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to analysts. Analysts across several financial institutions proje"
+      },
+      {
+       "title": "Hong Kong’s AI Marketing Moment is Here. The Question is Whether Business Leaders are Moving Fast Enough",
+       "url": "https://www.scmp.com/business/article/3370188/hong-kongs-ai-marketing-moment-here-question-whether-business-leaders-are-moving-fast-enough?utm_source=rss_feed",
+       "source": "South China Morning Post",
+       "published": "2026-10-08T23:00:10.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "South China Morning Post",
+         "url": "https://www.scmp.com/business/article/3370188/hong-kongs-ai-marketing-moment-here-question-whether-business-leaders-are-moving-fast-enough?utm_source=rss_feed",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[The content of this article has been produced by our advertising partner.] AI is moving faster than many businesses can absorb. Across Asia, brands are testing new tools, automating workflows and rethinking how customers are reached. Yet one question remains unresolved: are comp"
       },
       {
        "title": "Not just AI. China is building technologies that challenge U.S. dominance",
@@ -5209,90 +5397,6 @@
     }
    }
   },
-  "nz": {
-   "label": "New Zealand",
-   "level": "country",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Agriculture industry slow to take up new AI tech",
-       "url": "https://www.rnz.co.nz/news/business/1787388/agriculture-industry-slow-to-take-up-new-ai-tech",
-       "source": "RNZ Business",
-       "published": "2026-10-07T18:06:54.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "RNZ Business",
-         "url": "https://www.rnz.co.nz/news/business/1787388/agriculture-industry-slow-to-take-up-new-ai-tech",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "AWS research found AI adoption across agriculture, forestry and fishing sits just under 40 percent."
-      },
-      {
-       "title": "Alarm sounded over double risk of AI and quantum threat",
-       "url": "https://www.rnz.co.nz/news/business/1799757/alarm-sounded-over-double-risk-of-ai-and-quantum-threat",
-       "source": "RNZ Business",
-       "published": "2026-10-08T19:32:42.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "RNZ Business",
-         "url": "https://www.rnz.co.nz/news/business/1799757/alarm-sounded-over-double-risk-of-ai-and-quantum-threat",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The dual technologies will make easy work of decrypting the security of most existing digital devices."
-      }
-     ]
-    },
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Han Jiang ordered to pay $100,000 after meth lab contaminated Auckland rental",
-       "url": "https://www.rnz.co.nz/news/business/1799373/han-jiang-ordered-to-pay-100-000-after-meth-lab-contaminated-auckland-rental",
-       "source": "RNZ Business",
-       "published": "2026-10-08T19:03:46.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "RNZ Business",
-         "url": "https://www.rnz.co.nz/news/business/1799373/han-jiang-ordered-to-pay-100-000-after-meth-lab-contaminated-auckland-rental",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The interior had to be completely refurbished, and the home failed to sell after it became known locally as \"the meth house\"."
-      },
-      {
-       "title": "Alarm sounded over double risk of AI and quantum threat",
-       "url": "https://www.rnz.co.nz/news/business/1799757/alarm-sounded-over-double-risk-of-ai-and-quantum-threat",
-       "source": "RNZ Business",
-       "published": "2026-10-08T19:32:42.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "RNZ Business",
-         "url": "https://www.rnz.co.nz/news/business/1799757/alarm-sounded-over-double-risk-of-ai-and-quantum-threat",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The dual technologies will make easy work of decrypting the security of most existing digital devices."
-      }
-     ]
-    }
-   }
-  },
   "gb-we": {
    "label": "Westminster",
    "level": "admin1",
@@ -5408,6 +5512,118 @@
        "stages": [],
        "via": null,
        "blurb": "Arelion's 500-kilometer route from Amsterdam to London uses Nokia's 1830 Global Express (GX) Super C and Super L open line system, CHMQ6 thin transponder modules and ICE-X 400G and 800G ZR+ coherent pluggable optics. #pressrelease"
+      }
+     ]
+    }
+   }
+  },
+  "th": {
+   "label": "Thailand",
+   "level": "country",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "AI reshapes Thailand's growth prospects",
+       "url": "https://www.bangkokpost.com/business/general/3333823/ai-reshapes-thailands-growth-prospects",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-09T00:25:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333823/ai-reshapes-thailands-growth-prospects",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Thailand should become a \"real intelligent economy\" next year, driven by artificial intelligence (AI) adoption, as the technology unlocks new sources of economic growth, according to telecom operators."
+      }
+     ]
+    }
+   }
+  },
+  "nz": {
+   "label": "New Zealand",
+   "level": "country",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Youth unemployment at 'crisis level' and AI may mean recovery is tough, NZIER says",
+       "url": "https://www.rnz.co.nz/news/business/1804356/youth-unemployment-at-crisis-level-and-ai-may-mean-recovery-is-tough-nzier-says",
+       "source": "RNZ Business",
+       "published": "2026-10-08T23:36:01.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "RNZ Business",
+         "url": "https://www.rnz.co.nz/news/business/1804356/youth-unemployment-at-crisis-level-and-ai-may-mean-recovery-is-tough-nzier-says",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The emergence of AI and other technological changes have added another layer of uncertainty."
+      },
+      {
+       "title": "Alarm sounded over double risk of AI and quantum threat",
+       "url": "https://www.rnz.co.nz/news/business/1799757/alarm-sounded-over-double-risk-of-ai-and-quantum-threat",
+       "source": "RNZ Business",
+       "published": "2026-10-08T19:32:42.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "RNZ Business",
+         "url": "https://www.rnz.co.nz/news/business/1799757/alarm-sounded-over-double-risk-of-ai-and-quantum-threat",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The dual technologies will make easy work of decrypting the security of most existing digital devices."
+      }
+     ]
+    },
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Han Jiang ordered to pay $100,000 after meth lab contaminated Auckland rental",
+       "url": "https://www.rnz.co.nz/news/business/1799373/han-jiang-ordered-to-pay-100-000-after-meth-lab-contaminated-auckland-rental",
+       "source": "RNZ Business",
+       "published": "2026-10-08T19:03:46.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "RNZ Business",
+         "url": "https://www.rnz.co.nz/news/business/1799373/han-jiang-ordered-to-pay-100-000-after-meth-lab-contaminated-auckland-rental",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The interior had to be completely refurbished, and the home failed to sell after it became known locally as \"the meth house\"."
+      },
+      {
+       "title": "Alarm sounded over double risk of AI and quantum threat",
+       "url": "https://www.rnz.co.nz/news/business/1799757/alarm-sounded-over-double-risk-of-ai-and-quantum-threat",
+       "source": "RNZ Business",
+       "published": "2026-10-08T19:32:42.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "RNZ Business",
+         "url": "https://www.rnz.co.nz/news/business/1799757/alarm-sounded-over-double-risk-of-ai-and-quantum-threat",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The dual technologies will make easy work of decrypting the security of most existing digital devices."
       }
      ]
     }

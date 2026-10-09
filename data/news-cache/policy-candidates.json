@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T20:17:52.670Z",
+ "generatedAt": "2026-10-09T00:51:06.292Z",
  "sector": "policy",
  "maxAgeDays": 10,
  "places": {
@@ -11,21 +11,60 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Major government economic legislation C-39 clears first vote",
-       "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/major-government-economic-legislation-c-39-clears-first-vote/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T23:50:42.000Z",
-       "verification": "unconfirmed",
+       "title": "Trump rules out attack on Iran before midterm elections",
+       "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
+       "source": "The National (UAE)",
+       "published": "2026-10-08T17:37:28.000Z",
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/major-government-economic-legislation-c-39-clears-first-vote/",
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/09/world/no-iran-attack-midterms/",
+         "primary": false
+        },
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "A key piece of economic legislation, Bill C-39, has passed its first vote in the House of Commons and the 243-page bill will now be studied by a special committee."
+       "blurb": "President Donald Trump on Thursday said the US would not attack Iran before the midterm elections and that Washington was engaged in “productive discussions” with Tehran. In a post on Truth Social, Mr Trump said Iran was in a “very bad condition” economically and militarily and t"
+      },
+      {
+       "title": "GROUNDUP: Ekurhuleni police force employed convicted killers, Parliament told",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-ekurhuleni-police-force-employed-convicted-killers-parliament-told/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T22:45:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-ekurhuleni-police-force-employed-convicted-killers-parliament-told/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Parliament’s Standing Committee on Public Accounts this week received a damning report on the state of five metros, following oversight visits and hearings in Mangaung, Tshwane, Ekurhuleni, Johannesburg and eThekwini."
+      },
+      {
+       "title": "SA’s foreign service is becoming a retreat for failed ministers",
+       "url": "https://www.dailymaverick.co.za/opinionista/2026-10-08-sas-foreign-service-is-becoming-a-retreat-for-failed-ministers/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T22:13:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/opinionista/2026-10-08-sas-foreign-service-is-becoming-a-retreat-for-failed-ministers/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Political appointments aren't inherently bad, but using South Africa’s diplomatic corps as a pension fund for ousted politicians undermines our global standing when expertise matters most."
       },
       {
        "title": "Protesters blame 'vulture funds' for Spain's housing crisis",
@@ -45,23 +84,6 @@
        "blurb": "Hundreds have pitched their tents in central Madrid, while the Spanish prime minister has called a snap election."
       },
       {
-       "title": "Philippines ex-President Duterte fit to stand trial, ICC rules",
-       "url": "https://www.aljazeera.com/news/2026/10/8/philippines-ex-president-duterte-fit-to-stand-trial-icc-rules?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-08T19:06:08.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/8/philippines-ex-president-duterte-fit-to-stand-trial-icc-rules?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The former president is able to understand the charges and follow the proceedings, panel of experts find."
-      },
-      {
        "title": "UAE and Saudi Arabia sign rail and energy agreement to boost trade and connectivity",
        "url": "https://www.thenationalnews.com/news/uae/2026/10/08/uae-and-saudi-arabia-sign-rail-and-energy-agreement-to-boost-cross-border-trade-and-connectivity/",
        "source": "The National (UAE)",
@@ -77,23 +99,6 @@
        "stages": [],
        "via": null,
        "blurb": "The UAE and Saudi Arabia have signed an agreement to develop rail links and deepen energy co-operation between the Gulf neighbours. Mohamed Alsuwaidi, the UAE Minister of Investment, and Prince Abdulaziz bin Salman, Saudi Minister of Energy and Minister of Industry and Mineral Re"
-      },
-      {
-       "title": "Trump rules out attack on Iran before midterm elections",
-       "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T17:37:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "President Donald Trump on Thursday said the US would not attack Iran before the midterm elections and that Washington was engaged in “productive discussions” with Tehran. In a post on Truth Social, Mr Trump said Iran was in a “very bad condition” economically and militarily and t"
       },
       {
        "title": "EU parliament calls for Muslim Brotherhood terror listings",
@@ -147,6 +152,23 @@
        "blurb": "Discussions are continuing to postpone next month's highly anticipated Palestinian legislative elections , sources told The National on Thursday, with a decision expected in the coming days. The last election for the Palestinian Legislative Council was held in 2006 and won by Ham"
       },
       {
+       "title": "President Trump awards Big Tech donors with nation’s highest science prizes",
+       "url": "https://techcrunch.com/2026/10/08/president-trump-awards-big-tech-donors-with-nations-highest-science-prizes/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T22:33:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/president-trump-awards-big-tech-donors-with-nations-highest-science-prizes/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Together, the awardees have donated nearly $6 billion to efforts tied to Trump and his administration."
+      },
+      {
        "title": "Spanish government to press on with tighter data centre rules before election",
        "url": "https://www.channelnewsasia.com/business/spanish-government-press-tighter-data-centre-rules-election-6443271",
        "source": "CNA Business",
@@ -196,23 +218,6 @@
        "stages": [],
        "via": null,
        "blurb": "The National Assembly of Zambia is undergoing major rehabilitation and expansion works to accommodate the increased number of Members of Parliament (MPs) and ensure that the members operate in a conducive environment. Clerk of the National Assembly Loveness Mayaka says the works "
-      },
-      {
-       "title": "Climate needs same urgency as defense spending, COP31 chief says",
-       "url": "https://www.japantimes.co.jp/environment/2026/10/08/climate-change/cop-chief-climate-defense-spending/",
-       "source": "The Japan Times",
-       "published": "2026-10-08T10:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/environment/2026/10/08/climate-change/cop-chief-climate-defense-spending/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Turkish Environment Minister and COP31 President-designate Murat Kurum said every country must show the same responsibility and determination."
       }
      ]
     },
@@ -220,21 +225,21 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Fuel subsidy would cost Nigeria over N20trn yearly — Minister",
-       "url": "https://www.premiumtimesng.com/business/business-news/915535-fuel-subsidy-would-cost-nigeria-over-n20trn-yearly-minister.html",
-       "source": "Premium Times (Nigeria)",
-       "published": "2026-10-08T19:46:06.000Z",
+       "title": "Moly heads for 6th straight deficit, record prices: BMO",
+       "url": "https://www.northernminer.com/news/moly-heads-for-6th-straight-deficit-record-prices-bmo/1003895563/",
+       "source": "The Northern Miner",
+       "published": "2026-10-08T20:25:53.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Premium Times (Nigeria)",
-         "url": "https://www.premiumtimesng.com/business/business-news/915535-fuel-subsidy-would-cost-nigeria-over-n20trn-yearly-minister.html",
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/moly-heads-for-6th-straight-deficit-record-prices-bmo/1003895563/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The Federal Government has rejected calls for the return of petrol subsidy, warning that restoring petrol to its pre-reform price would cost more than N20 trillion annually and could eventually push the exchange rate towards N3,000 to a dollar and petrol prices to at least N2,000"
+       "blurb": "Molybdenum is on course for a sixth consecutive year of supply deficit in 2027, setting the stage for record prices as strong demand meets a limited pipeline of new production,... The post Moly heads for 6th straight deficit, record prices: BMO appeared first on The Northern Mine"
       },
       {
        "title": "Energy prices drive Irish consumer price inflation to highest level since January 2024",
@@ -269,6 +274,23 @@
        "stages": [],
        "via": null,
        "blurb": "The EU's trade commissioner, Maros Sefcovic, arrived in Beijing this Thursday for two days of talks with his Chinese counterpart Wang Wentao. Sefcovic stated his goal of \"rebalancing\" an \"unsustainable trade deficit\". One particular area of concern is the auto sector, where Chine"
+      },
+      {
+       "title": "Fuel subsidy would cost Nigeria over N20trn yearly — Minister",
+       "url": "https://www.premiumtimesng.com/business/business-news/915535-fuel-subsidy-would-cost-nigeria-over-n20trn-yearly-minister.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-08T19:46:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/business/business-news/915535-fuel-subsidy-would-cost-nigeria-over-n20trn-yearly-minister.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Federal Government has rejected calls for the return of petrol subsidy, warning that restoring petrol to its pre-reform price would cost more than N20 trillion annually and could eventually push the exchange rate towards N3,000 to a dollar and petrol prices to at least N2,000"
       },
       {
        "title": "Pakistan reaches IMF staff deal for $1.2B as energy shocks weigh on economy",
@@ -308,40 +330,6 @@
        "stages": [],
        "via": null,
        "blurb": "Canada's budget watchdog says the NATO 5% pledge means US$112 billion of core defence spending in 2035-36, with US$44 billion added to the deficit. The post Canada’s NATO Path Needs US$112 Billion by 2035 appeared first on The Rio Times ."
-      },
-      {
-       "title": "Moly heads for 6th straight deficit, record prices: BMO",
-       "url": "https://www.northernminer.com/news/moly-heads-for-6th-straight-deficit-record-prices-bmo/1003895563/",
-       "source": "The Northern Miner",
-       "published": "2026-10-08T14:46:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/moly-heads-for-6th-straight-deficit-record-prices-bmo/1003895563/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Molybdenum is on course for a sixth consecutive year of supply deficit in 2027, setting the stage for record prices as strong demand meets a limited pipeline of new production,... The post Moly heads for 6th straight deficit, record prices: BMO appeared first on The Northern Mine"
-      },
-      {
-       "title": "'Come all the way' back to EU, French finance minister tells UK",
-       "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-       "source": "BBC News Business",
-       "published": "2026-10-08T04:02:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Roland Lescure tells the BBC that being in the bloc enables members to better address the challenges facing the world."
       },
       {
        "title": "CIOB praises Irish budget but warns of underlying constraints and a retreat on carbon taxes",
@@ -427,12 +415,46 @@
        "stages": [],
        "via": null,
        "blurb": "However, for now, the agency can only reimburse businesses that submitted a valid importer of record number by July 30."
+      },
+      {
+       "title": "McCormick cites higher freight, input costs in lifting inflation forecast",
+       "url": "https://www.supplychaindive.com/news/mccormick-cites-higher-freight-input-costs-in-lifting-inflation-forecast/832279/",
+       "source": "Supply Chain Dive",
+       "published": "2026-10-07T15:15:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Supply Chain Dive",
+         "url": "https://www.supplychaindive.com/news/mccormick-cites-higher-freight-input-costs-in-lifting-inflation-forecast/832279/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The spice and seasoning maker is mitigating the impact through pricing and productivity measures, as well as the acquisition of a Mexico subsidiary."
       }
      ]
     },
     "regulation": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "NRC reviews LAR on Palisades fuel loading incident, as Pioneer SMR application advances",
+       "url": "https://www.ans.org/news/2026-10-08/article-8474/nrc-reviews-lar-on-palisades-fuel-loading-incident-as-pioneer-smr-application-advances/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-08T21:18:22.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-08/article-8474/nrc-reviews-lar-on-palisades-fuel-loading-incident-as-pioneer-smr-application-advances/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Nuclear Regulatory Commission is reviewing a license amendment request (LAR) Holtec submitted in the aftermath of a fuel loading incident that has paused some of the restart work at the Palisades nuclear power plant in Covert, Mich."
+      },
       {
        "title": "Kingspan faces €40m fine for misleading EU regulators over abandoned deal for Slovenian rival",
        "url": "https://www.irishtimes.com/business/2026/10/08/kingspan-faces-40m-fine-over-abandoned-deal-for-slovenian-rival/",
@@ -619,46 +641,12 @@
        "stages": [],
        "via": null,
        "blurb": "The power crisis in the Visayas is the consequence of regulatory failure on the part of the Department of Energy and the Energy Regulatory Commission."
-      },
-      {
-       "title": "‘Lawyers should be running to courts’ to stop coal approvals after landmark ruling, NSW MP says",
-       "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
-       "source": "The Guardian Energy",
-       "published": "2026-10-07T07:24:31.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "High court finding in favour of Hunter Valley community group sets precedent other environmentalists should follow, advocate says Get our new political email , free app or daily news podcast A landmark decision in Australia’s first climate change high court case has been describe"
       }
      ]
     },
     "international": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
-       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-       "source": "NASA News",
-       "published": "2026-10-08T19:40:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are announced in conjunction with the White House Office of Science and Technology Policy’s (OS"
-      },
       {
        "title": "WTO hikes global trade growth forecast, names Pakistan among nations gaining from disruptions amid ME conflict",
        "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
@@ -682,8 +670,18 @@
          "primary": false
         },
         {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333704/oil-surges-stocks-sink-as-us-reportedly-eyes-new-iran-strikes",
+         "primary": false
+        },
+        {
          "name": "The Straits Times Business",
          "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "primary": false
+        },
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/08/sochi-reopens-beaches-after-drone-attack-on-oil-tanker-a93918",
          "primary": false
         },
         {
@@ -698,7 +696,7 @@
         },
         {
          "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "url": "https://www.rigzone.com/news/wire/oil_surges_as_iran_tanker_attacks_escalate-08-oct-2026-184807-article/?rss=true",
          "primary": false
         },
         {
@@ -710,6 +708,62 @@
        "stages": [],
        "via": null,
        "blurb": "ISLAMABAD: The World Trade Organisation on Thursday sharply raised its global trade growth forecast for 2026 — with merchandise trade riding the AI boom — and concluded that some nations, including Pakistan, were actually benefiting from trade disruptions amid the ongoing Middle "
+      },
+      {
+       "title": "Two Mumbai-based firms, five Indian nationals face U.S. sanctions over Iran oil trade",
+       "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-08T21:36:05.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The action against the Indian entities and individuals is part of the U.S. crackdown against Iran under Operation Economic Outcast"
+      },
+      {
+       "title": "Cleveland-Cliffs CEO says Stelco workers would be recalled if trade deal reached",
+       "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/stelco-begins-issuing-layoff-notices-as-first-job-cuts-set-to-take-effect-sunday/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-09T00:53:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/stelco-begins-issuing-layoff-notices-as-first-job-cuts-set-to-take-effect-sunday/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Hundreds of southern Ontario steelworkers facing layoffs will be recalled if Canada and the U.S. Reach a trade, the head of Stelco’s U.S.-based parent company said."
+      },
+      {
+       "title": "Israel kills or wounds Palestinian every 90 minutes in Gaza since ceasefire",
+       "url": "https://www.aljazeera.com/news/2026/10/8/israel-kills-or-wounds-palestinian-every-90-minutes-in-gaza-since-ceasefire?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-08T22:54:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/8/israel-kills-or-wounds-palestinian-every-90-minutes-in-gaza-since-ceasefire?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Islamic Relief calls for global action as deadly Israeli attacks in Gaza continue and humanitarian conditions worsen."
       },
       {
        "title": "US imposes fresh sanctions on Iran’s shadow fleet",
@@ -727,23 +781,6 @@
        "stages": [],
        "via": null,
        "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
-      },
-      {
-       "title": "Colombian embassy to open in Jerusalem, Israeli FM says",
-       "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-08T18:07:06.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Colombian President Abelardo De la Espriella had promised closer ties with Israel on the campaign trail."
       },
       {
        "title": "UN Security Council extends arms embargo in Sudan's Darfur as US pushes for nationwide ban",
@@ -819,21 +856,21 @@
        "blurb": "Following Beijing’s refusal to adopt voluntary curbs, the European Commission is weighing temporary safeguard tariffs that do not require proof of unfair trade practices."
       },
       {
-       "title": "US sanctions Indian firms, individuals as Iran oil crackdown widens",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-08T19:50:14.000Z",
+       "title": "Skift Transatlantic Summit: Five Decisions in the Room",
+       "url": "https://skift.com/2026/10/08/skift-transatlantic-summit-five-decisions-in-the-room/",
+       "source": "Skift",
+       "published": "2026-10-08T21:01:39.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+         "name": "Skift",
+         "url": "https://skift.com/2026/10/08/skift-transatlantic-summit-five-decisions-in-the-room/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "On Thursday, the United States targeted two Mumbai-based companies over their alleged oil trade involvement with Iran. The sanctions affected five Indian nationals connected to SSPL Solutions Private Limited and Samudra Marine Services Private Limited. These measures are part of "
+       "blurb": "The transatlantic corridor remains one of travel’s most important markets — and also one of the most exposed to global disruption."
       },
       {
        "title": "EU trade envoy eyes yawning goods deficit on first day of China visit",
@@ -868,46 +905,12 @@
        "stages": [],
        "via": null,
        "blurb": "Canada's budget watchdog says the NATO 5% pledge means US$112 billion of core defence spending in 2035-36, with US$44 billion added to the deficit. The post Canada’s NATO Path Needs US$112 Billion by 2035 appeared first on The Rio Times ."
-      },
-      {
-       "title": "Russian dissident Kara-Murza warns France is sending 'dangerous signal' to Putin",
-       "url": "https://www.rfi.fr/en/international/20261008-russian-dissident-kara-murza-warns-france-is-sending-dangerous-signal-to-putin",
-       "source": "RFI English",
-       "published": "2026-10-08T16:03:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "RFI English",
-         "url": "https://www.rfi.fr/en/international/20261008-russian-dissident-kara-murza-warns-france-is-sending-dangerous-signal-to-putin",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "In an interview with RFI, Russian opposition figure Vladimir Kara-Murza has accused France of sending a “very dangerous” signal that the West is ready to return to “business as usual” with Vladimir Putin, after the French government pushed for European Union sanctions against Rus"
       }
      ]
     },
     "corporate": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Stelco begins issuing layoff notices as first job cuts set to take effect Sunday",
-       "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/stelco-begins-issuing-layoff-notices-as-first-job-cuts-set-to-take-effect-sunday/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-08T21:27:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/stelco-begins-issuing-layoff-notices-as-first-job-cuts-set-to-take-effect-sunday/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Stelco Holdings Inc. has started handing out layoff notices at its Hamilton, Ont., steel plant, the first in a wave of job cuts expected to unfold over three weeks as the company moves ahead with plans to lay off up to 500 workers."
-      },
       {
        "title": "Molson Coors taps chief supply chain officer for Americas",
        "url": "https://www.supplychaindive.com/news/molson-coors-taps-chief-supply-chain-officer-for-americas/832441/",
@@ -958,6 +961,28 @@
        "stages": [],
        "via": null,
        "blurb": "“We are disappointed by the lieutenant governor’s decision and respectfully disagree with it,” Neil Nissan, a spokesperson for NextEra Energy, told Utility Dive. State regulators are set to hold their first local hearing on the case Wednesday."
+      },
+      {
+       "title": "Corus completes recapitalization transaction, announces new board of directors",
+       "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/corus-completes-recapitalization-transaction-announces-new-board-of-directors/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-09T02:07:16.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Global News Money (Canada)",
+         "url": "https://globalnews.ca/news/12093396/corus-completes-recapitalization-transaction-appoints-new-board/",
+         "primary": false
+        },
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/corus-completes-recapitalization-transaction-announces-new-board-of-directors/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Corus Entertainment Inc. says it has completed a recapitalization transaction first announced in November of last year and has appointed a new board of directors."
       },
       {
        "title": "Emera inks Canadian Utilities merger deal with ATCO to create $72B energy ‘powerhouse’",
@@ -1021,6 +1046,40 @@
        "blurb": "The deal reportedly brings Rosatom’s market share in Russia’s container handling market to 50% and rail container transport to 44%."
       },
       {
+       "title": "Better disclosure is only half the equation – shareholders must now play their part",
+       "url": "https://www.straitstimes.com/business/better-disclosure-is-only-half-the-equation-shareholders-must-now-play-their-part",
+       "source": "The Straits Times Business",
+       "published": "2026-10-08T23:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/better-disclosure-is-only-half-the-equation-shareholders-must-now-play-their-part",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "SGX RegCo’s rule changes move Singapore closer to a disclosure-based regime."
+      },
+      {
+       "title": "SpaceX takes aim at US wireless carriers with spectrum acquisition",
+       "url": "https://www.channelnewsasia.com/business/spacex-takes-aim-us-wireless-carriers-spectrum-acquisition-6444486",
+       "source": "CNA Business",
+       "published": "2026-10-08T20:21:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/spacex-takes-aim-us-wireless-carriers-spectrum-acquisition-6444486",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
+      {
        "title": "ANTA Sports becomes Puma’s largest shareholder in $1.7bn deal",
        "url": "https://www.just-style.com/news/anta-sports-puma-deal-2/",
        "source": "Just Style",
@@ -1075,40 +1134,6 @@
        "stages": [],
        "via": null,
        "blurb": "The measures form part of the Volkswagen-owned company’s “Sportwagenschmiede ’35” strategy."
-      },
-      {
-       "title": "China’s succession crisis: a generation of entrepreneurs is retiring, but are their children ready to take over?",
-       "url": "https://www.theguardian.com/world/2026/oct/08/china-succession-crisis-factory-workers-manufacturing-family-businesses",
-       "source": "The Guardian Business",
-       "published": "2026-10-07T23:19:03.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/world/2026/oct/08/china-succession-crisis-factory-workers-manufacturing-family-businesses",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Family run private businesses helped power China’s economic miracle, but the next generation is finding it difficult to carry on the work of their parents Growing up, Ayu would watch his parents put together hand made leather shoes on the ground floor of their three storey home i"
-      },
-      {
-       "title": "A real estate succession plan built over two decades",
-       "url": "https://www.housingwire.com/articles/a-real-estate-succession-plan-built-over-two-decades/",
-       "source": "HousingWire",
-       "published": "2026-10-08T20:10:12.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "HousingWire",
-         "url": "https://www.housingwire.com/articles/a-real-estate-succession-plan-built-over-two-decades/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "For business owners planning their own succession, overlap of institutional knowledge is invaluable"
       }
      ]
     },
@@ -1223,6 +1248,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "President Trump awards Big Tech donors with nation’s highest science prizes",
+       "url": "https://techcrunch.com/2026/10/08/president-trump-awards-big-tech-donors-with-nations-highest-science-prizes/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T22:33:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/president-trump-awards-big-tech-donors-with-nations-highest-science-prizes/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Together, the awardees have donated nearly $6 billion to efforts tied to Trump and his administration."
+      },
+      {
        "title": "Canadian investor and philanthropist Stephen Jarislowsky dies at age 101",
        "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/08/newsalert-canadian-investor-and-philanthropist-stephen-jarislowsky-dies-at-age-101/",
        "source": "BNN Bloomberg",
@@ -1272,23 +1314,6 @@
        "stages": [],
        "via": null,
        "blurb": "Extreme weather triggered by climate change is putting growing pressure on food security across Asia, home to many of the world’s major rice-producing countries. China alone produces nearly 30 percent of the world’s rice. Changing … The post Chinese NGOs bring participatory clima"
-      },
-      {
-       "title": "Hygiene poverty at tipping point, charity warns",
-       "url": "https://www.bbc.co.uk/news/articles/cmwyv502k441o?at_medium=RSS&at_campaign=rss",
-       "source": "BBC News Business",
-       "published": "2026-10-08T05:05:42.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cmwyv502k441o?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The BBC hears people \"you would not expect\" can no longer afford items to be clean and healthy."
       },
       {
        "title": "Engaging the African diaspora in the future of US-Africa philanthropy",
@@ -1436,8 +1461,13 @@
        "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
        "source": "The National (UAE)",
        "published": "2026-10-08T17:37:28.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/09/world/no-iran-attack-midterms/",
+         "primary": false
+        },
         {
          "name": "The National (UAE)",
          "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
@@ -1517,23 +1547,6 @@
        "blurb": "President Trump is weighing a potential suspension of the federal gas tax, as he looks for ways to ease high energy costs ahead of November’s midterm elections."
       },
       {
-       "title": "A senator tried to ban gambling on prediction markets—now she's a Kalshi lobbyist",
-       "url": "https://arstechnica.com/tech-policy/2026/10/a-senator-tried-to-ban-gambling-on-prediction-markets-now-shes-a-kalshi-lobbyist/",
-       "source": "Ars Technica",
-       "published": "2026-10-08T11:00:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/tech-policy/2026/10/a-senator-tried-to-ban-gambling-on-prediction-markets-now-shes-a-kalshi-lobbyist/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Sen. Blanche Lincoln wrote law that let US ban sports-event contracts. She lobbies for the other side now."
-      },
-      {
        "title": "Quebec separatist party wins provincial election in test of Canada's unity",
        "url": "https://www.rfi.fr/en/international/20261006-quebec-separatist-party-wins-provincial-election-in-test-of-canada-s-unity",
        "source": "RFI English",
@@ -1549,6 +1562,23 @@
        "stages": [],
        "via": null,
        "blurb": "Separatists won provincial elections in Quebec on Monday, with a promise to hold a vote on leaving Canada after US President Donald Trump leaves office, testing Prime Minister Mark Carney's message of national unity."
+      },
+      {
+       "title": "A senator tried to ban gambling on prediction markets—now she's a Kalshi lobbyist",
+       "url": "https://arstechnica.com/tech-policy/2026/10/a-senator-tried-to-ban-gambling-on-prediction-markets-now-shes-a-kalshi-lobbyist/",
+       "source": "Ars Technica",
+       "published": "2026-10-08T11:00:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/tech-policy/2026/10/a-senator-tried-to-ban-gambling-on-prediction-markets-now-shes-a-kalshi-lobbyist/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Sen. Blanche Lincoln wrote law that let US ban sports-event contracts. She lobbies for the other side now."
       },
       {
        "title": "Reports claim Trump tried to change Poland’s government. What do we know?",
@@ -1675,23 +1705,6 @@
        "blurb": "However, for now, the agency can only reimburse businesses that submitted a valid importer of record number by July 30."
       },
       {
-       "title": "Foreign sugar subsidies cost US farmers billions, study finds",
-       "url": "https://www.farmprogress.com/tv-and-radio/foreign-sugar-subsidies-cost-us-farmers-billions-study-finds",
-       "source": "Farm Progress",
-       "published": "2026-10-08T12:51:02.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Farm Progress",
-         "url": "https://www.farmprogress.com/tv-and-radio/foreign-sugar-subsidies-cost-us-farmers-billions-study-finds",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Farm Progress America"
-      },
-      {
        "title": "Trump revisits idea of federal gas tax suspension",
        "url": "https://www.ttnews.com/articles/trump-gas-tax-suspension",
        "source": "Transport Topics",
@@ -1707,6 +1720,23 @@
        "stages": [],
        "via": null,
        "blurb": "President Trump is weighing a potential suspension of the federal gas tax, as he looks for ways to ease high energy costs ahead of November’s midterm elections."
+      },
+      {
+       "title": "Foreign sugar subsidies cost US farmers billions, study finds",
+       "url": "https://www.farmprogress.com/tv-and-radio/foreign-sugar-subsidies-cost-us-farmers-billions-study-finds",
+       "source": "Farm Progress",
+       "published": "2026-10-08T12:51:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Farm Progress",
+         "url": "https://www.farmprogress.com/tv-and-radio/foreign-sugar-subsidies-cost-us-farmers-billions-study-finds",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Farm Progress America"
       },
       {
        "title": "DOL to up minimum wage to $14 per hour for federal contractors",
@@ -1855,6 +1885,40 @@
        "blurb": "Two Chinese hardwood plywood exporters will stay outside the 2018 US antidumping order and pay no dumping margins under it, after a federal trade court blocked the Department of Commerce from reopening the record, five months after the Federal Circuit restored a 183.36 per cent r"
       },
       {
+       "title": "Judge weighs if Trump can charge $100K for early access to Truth Social posts",
+       "url": "https://arstechnica.com/tech-policy/2026/10/judge-weighs-if-trump-can-charge-100k-for-early-access-to-truth-social-posts/",
+       "source": "Ars Technica",
+       "published": "2026-10-08T20:53:01.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/tech-policy/2026/10/judge-weighs-if-trump-can-charge-100k-for-early-access-to-truth-social-posts/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Judge questioned if Trump delaying access to Truth Social posts by a second harms the press."
+      },
+      {
+       "title": "Trump Mobile hack and apparent lack of FCC authorization raise security alarms",
+       "url": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/",
+       "source": "Ars Technica",
+       "published": "2026-10-08T20:39:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "After hack and data breach, senator asks why Trump Mobile lacks some FCC filings."
+      },
+      {
        "title": "UAE completes Arab world's first solo space probe – and sets course for an asteroid",
        "url": "https://www.nature.com/articles/d41586-026-03154-4",
        "source": "Nature",
@@ -1889,23 +1953,6 @@
        "blurb": "The Federal Housing Finance Agency inspector general said that budget cuts would force the office to reduce its staffing by up to 80% and effectively stop criminal investigations."
       },
       {
-       "title": "GAO report looks at NRC workforce recruitment and retention",
-       "url": "https://www.ans.org/news/2026-10-05/article-8460/gao-report-looks-at-nrc-workforce-recruitment-and-retention/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-05T13:17:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-05/article-8460/gao-report-looks-at-nrc-workforce-recruitment-and-retention/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A recently released report from the U.S. Government Accountability Office recommends that the Nuclear Regulatory Commission establish metrics to gauge whether its recruitment and retention efforts are meeting its current and future workforce needs, as well as complete its work on"
-      },
-      {
        "title": "FTC escalates price transparency crackdown with warning letters to hospitals",
        "url": "https://www.healthcaredive.com/news/ftc-escalates-price-transparency-crackdown-with-warning-letters-to-hospital/832247/",
        "source": "Healthcare Dive",
@@ -1928,21 +1975,43 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
-       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-       "source": "NASA News",
-       "published": "2026-10-08T19:40:00.000Z",
-       "verification": "confirmed",
+       "title": "Two Mumbai-based firms, five Indian nationals face U.S. sanctions over Iran oil trade",
+       "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-08T21:36:05.000Z",
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-         "primary": true
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+         "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are announced in conjunction with the White House Office of Science and Technology Policy’s (OS"
+       "blurb": "The action against the Indian entities and individuals is part of the U.S. crackdown against Iran under Operation Economic Outcast"
+      },
+      {
+       "title": "Cleveland-Cliffs CEO says Stelco workers would be recalled if trade deal reached",
+       "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/stelco-begins-issuing-layoff-notices-as-first-job-cuts-set-to-take-effect-sunday/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-09T00:53:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/stelco-begins-issuing-layoff-notices-as-first-job-cuts-set-to-take-effect-sunday/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Hundreds of southern Ontario steelworkers facing layoffs will be recalled if Canada and the U.S. Reach a trade, the head of Stelco’s U.S.-based parent company said."
       },
       {
        "title": "US imposes fresh sanctions on Iran’s shadow fleet",
@@ -1960,23 +2029,6 @@
        "stages": [],
        "via": null,
        "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
-      },
-      {
-       "title": "US sanctions Indian firms, individuals as Iran oil crackdown widens",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-08T19:50:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "On Thursday, the United States targeted two Mumbai-based companies over their alleged oil trade involvement with Iran. The sanctions affected five Indian nationals connected to SSPL Solutions Private Limited and Samudra Marine Services Private Limited. These measures are part of "
       },
       {
        "title": "UN Security Council extends arms embargo in Sudan's Darfur as US pushes for nationwide ban",
@@ -2101,6 +2153,23 @@
        "stages": [],
        "via": null,
        "blurb": "Matthew Hook will step into the role on Oct. 12 with a mandate of continuing to modernize operations and boost service levels."
+      },
+      {
+       "title": "SpaceX takes aim at US wireless carriers with spectrum acquisition",
+       "url": "https://www.channelnewsasia.com/business/spacex-takes-aim-us-wireless-carriers-spectrum-acquisition-6444486",
+       "source": "CNA Business",
+       "published": "2026-10-08T20:21:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/spacex-takes-aim-us-wireless-carriers-spectrum-acquisition-6444486",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
       },
       {
        "title": "A real estate succession plan built over two decades",
@@ -2254,23 +2323,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Engaging the African diaspora in the future of US-Africa philanthropy",
-       "url": "https://www.alliancemagazine.org/blog/engaging-the-african-diaspora-in-the-future-of-us-africa-philanthropy/",
-       "source": "Alliance magazine",
-       "published": "2026-10-08T13:00:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Alliance magazine",
-         "url": "https://www.alliancemagazine.org/blog/engaging-the-african-diaspora-in-the-future-of-us-africa-philanthropy/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "This year’s U.S.-Africa Futures Summit gave us a clear mandate to reimagine and dig deeper into our vision and priorities with US-Africa relations. It’s safe to say we left that gathering with more clarity and … The post Engaging the African diaspora in the future of US-Africa ph"
-      },
-      {
        "title": "Nonprofit Workers Organize for Recognition and Workplace Dignity",
        "url": "https://nonprofitquarterly.org/nonprofit-workers-organize-for-recognition-and-workplace-dignity/",
        "source": "Nonprofit Quarterly",
@@ -2286,6 +2338,23 @@
        "stages": [],
        "via": null,
        "blurb": "For years, nonprofit organizations have asked Americans to believe in the power of collective action. But what happens when the workplace itself falls short of the values an organization promotes publicly?"
+      },
+      {
+       "title": "Engaging the African diaspora in the future of US-Africa philanthropy",
+       "url": "https://www.alliancemagazine.org/blog/engaging-the-african-diaspora-in-the-future-of-us-africa-philanthropy/",
+       "source": "Alliance magazine",
+       "published": "2026-10-08T13:00:26.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Alliance magazine",
+         "url": "https://www.alliancemagazine.org/blog/engaging-the-african-diaspora-in-the-future-of-us-africa-philanthropy/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "This year’s U.S.-Africa Futures Summit gave us a clear mandate to reimagine and dig deeper into our vision and priorities with US-Africa relations. It’s safe to say we left that gathering with more clarity and … The post Engaging the African diaspora in the future of US-Africa ph"
       },
       {
        "title": "Philanthropic fund launched to prevent Amazon rainforest wildfires",
@@ -2400,23 +2469,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "'Come all the way' back to EU, French finance minister tells UK",
-       "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-       "source": "BBC News Business",
-       "published": "2026-10-08T04:02:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Roland Lescure tells the BBC that being in the bloc enables members to better address the challenges facing the world."
-      },
-      {
        "title": "Bank governor urges John Healey to use budget to allay market fears amid bond turmoil",
        "url": "https://www.theguardian.com/business/2026/oct/08/medium-term-borrowing-costs-uk-government-19-year-high",
        "source": "The Guardian Business",
@@ -2431,7 +2483,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Andrew Bailey tells chancellor ‘whatever the stance of fiscal policy, it must be credible and be seen as such by financial markets’ Business live – latest updates The Bank of England governor, Andrew Bailey, has urged the chancellor, John Healey, to agree a budget that reassures "
+       "blurb": "Andrew Bailey tells chancellor ‘whatever the stance of fiscal policy, it must be credible and be seen as such by financial markets’ The Bank of England governor, Andrew Bailey, has urged the chancellor, John Healey, to agree a budget that reassures financial markets after the UK’"
       },
       {
        "title": "Forestry leaders to meet minister over merger fears",
@@ -2455,23 +2507,6 @@
     "econpolicy": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "'Come all the way' back to EU, French finance minister tells UK",
-       "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-       "source": "BBC News Business",
-       "published": "2026-10-08T04:02:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Roland Lescure tells the BBC that being in the bloc enables members to better address the challenges facing the world."
-      },
       {
        "title": "Forestry Commission workers secure above-inflation pay rise",
        "url": "https://www.forestryjournal.co.uk/news/26619826.forestry-commission-workers-secure-above-inflation-pay-rise/?ref=rss",
@@ -2526,7 +2561,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Andrew Bailey tells chancellor ‘whatever the stance of fiscal policy, it must be credible and be seen as such by financial markets’ Business live – latest updates The Bank of England governor, Andrew Bailey, has urged the chancellor, John Healey, to agree a budget that reassures "
+       "blurb": "Andrew Bailey tells chancellor ‘whatever the stance of fiscal policy, it must be credible and be seen as such by financial markets’ The Bank of England governor, Andrew Bailey, has urged the chancellor, John Healey, to agree a budget that reassures financial markets after the UK’"
       },
       {
        "title": "Ex-Barclays traders jailed for rigging interest rates have convictions quashed",
@@ -2582,7 +2617,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Regulator also vetoes extra Blackpool service, citing lack of space on west coast mainline for new trains to capital Business live – latest updates Plans to run direct train services to Wrexham and Rochdale from London have been rejected by the rail regulator because of “signific"
+       "blurb": "Regulator also vetoes extra Blackpool service, citing lack of space on west coast mainline for new trains to capital Plans to run direct train services to Wrexham and Rochdale from London have been rejected by the rail regulator because of “significant pressure” on the line. The "
       },
       {
        "title": "AI giants promise to play nice with personal data after UK watchdog scrutiny",
@@ -2707,23 +2742,6 @@
        "stages": [],
        "via": null,
        "blurb": "The sanctions come on the heels of the EU approving another sanctions package Wednesday."
-      },
-      {
-       "title": "'Come all the way' back to EU, French finance minister tells UK",
-       "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-       "source": "BBC News Business",
-       "published": "2026-10-08T04:02:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Roland Lescure tells the BBC that being in the bloc enables members to better address the challenges facing the world."
       }
      ]
     },
@@ -2830,23 +2848,6 @@
        "stages": [],
        "via": null,
        "blurb": "The Federal Government has rejected calls for the return of petrol subsidy, warning that restoring petrol to its pre-reform price would cost more than N20 trillion annually and could eventually push the exchange rate towards N3,000 to a dollar and petrol prices to at least N2,000"
-      },
-      {
-       "title": "Ethiopia: Nigeria, Ethiopia Move to Deepen Ties in Trade, Agriculture, Security",
-       "url": "https://allafrica.com/stories/202610080122.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T07:39:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080122.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Leadership] Nigeria and Ethiopia have moved to deepen bilateral cooperation in trade, investment, agriculture, food security, aviation, and security, with Vice President Kashim Shettima and Ethiopia's Deputy Prime Minister, Mr Temesgen Tiruneh, reviewing relations between the tw"
       },
       {
        "title": "Leadership and storytelling in election season, By Azu Ishiekwene",
@@ -3205,23 +3206,6 @@
        "stages": [],
        "via": null,
        "blurb": "WA's energy sector is sounding the alarm over a landmark High Court ruling that overseas emissions from a proposed NSW coal mine were required to be considered when approving the project."
-      },
-      {
-       "title": "Former RBA member explains what happens inside interest rate meetings",
-       "url": "https://www.abc.net.au/news/2026-10-08/ian-harper-rba-board-interest-rate-meetings/107240002",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-07T18:57:23.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/ian-harper-rba-board-interest-rate-meetings/107240002",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Economist Ian Harper, who left the RBA Monetary Policy Board in August, says none of the treasurers in power during his 10-year tenure tried to influence his view on interest rate decisions."
       }
      ]
     },
@@ -3408,6 +3392,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "TD Bank gets regulatory approval to buy back up to $10 billion of its shares",
+       "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/td-bank-gets-regulatory-approval-to-buy-back-up-to-10-billion-of-its-shares/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-09T02:30:21.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/td-bank-gets-regulatory-approval-to-buy-back-up-to-10-billion-of-its-shares/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "TD Bank Group says it has received approval from the Office of the Superintendent of Financial Institutions Canada for its plan to buy back up to $10 billion worth of its shares."
+      },
+      {
        "title": "Canadian fined CAD 30k for violations of prawn-fishing permit conditions",
        "url": "https://www.undercurrentnews.com/2026/10/08/canadian-fined-cad-30k-for-violations-of-prawn-fishing-permit-conditions/",
        "source": "Undercurrent News",
@@ -3462,6 +3463,23 @@
        "stages": [],
        "via": null,
        "blurb": "Canada's budget watchdog says the NATO 5% pledge means US$112 billion of core defence spending in 2035-36, with US$44 billion added to the deficit. The post Canada’s NATO Path Needs US$112 Billion by 2035 appeared first on The Rio Times ."
+      },
+      {
+       "title": "Cleveland-Cliffs CEO says Stelco workers would be recalled if trade deal reached",
+       "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/stelco-begins-issuing-layoff-notices-as-first-job-cuts-set-to-take-effect-sunday/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-09T00:53:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/stelco-begins-issuing-layoff-notices-as-first-job-cuts-set-to-take-effect-sunday/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Hundreds of southern Ontario steelworkers facing layoffs will be recalled if Canada and the U.S. Reach a trade, the head of Stelco’s U.S.-based parent company said."
       }
      ]
     },
@@ -3581,48 +3599,9 @@
    "label": "France",
    "level": "country",
    "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "'Come all the way' back to EU, French finance minister tells UK",
-       "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-       "source": "BBC News Business",
-       "published": "2026-10-08T04:02:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Roland Lescure tells the BBC that being in the bloc enables members to better address the challenges facing the world."
-      }
-     ]
-    },
     "econpolicy": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "'Come all the way' back to EU, French finance minister tells UK",
-       "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-       "source": "BBC News Business",
-       "published": "2026-10-08T04:02:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Roland Lescure tells the BBC that being in the bloc enables members to better address the challenges facing the world."
-      },
       {
        "title": "'Potemkin budget’: French government slams Marine Le Pen’s plans",
        "url": "https://www.euronews.com/2026/10/07/france-government-slams-marine-le-pens-alternative-budget",
@@ -3701,23 +3680,6 @@
     "international": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "'Come all the way' back to EU, French finance minister tells UK",
-       "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-       "source": "BBC News Business",
-       "published": "2026-10-08T04:02:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Roland Lescure tells the BBC that being in the bloc enables members to better address the challenges facing the world."
-      },
       {
        "title": "Russian dissident Kara-Murza warns France is sending 'dangerous signal' to Putin",
        "url": "https://www.rfi.fr/en/international/20261008-russian-dissident-kara-murza-warns-france-is-sending-dangerous-signal-to-putin",
@@ -3857,6 +3819,259 @@
     }
    }
   },
+  "in": {
+   "label": "India",
+   "level": "country",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "AI regulation consultation paper next month, says IT minister Vaishnaw",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/ai-regulation-consultation-paper-next-month-says-it-minister-vaishnaw-focus-on-safety-deepfakes/articleshow/134785844.cms",
+       "source": "Times of India Business",
+       "published": "2026-10-08T10:22:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/ai-regulation-consultation-paper-next-month-says-it-minister-vaishnaw-focus-on-safety-deepfakes/articleshow/134785844.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Union minister Ashwini Vaishnaw announced plans for a Consultation paper on AI regulations to address specific concerns. The focus will include AI safety, deepfakes, user harm, and the need for skilling. The government aims to establish a regulatory framework while involving vari"
+      }
+     ]
+    },
+    "econpolicy": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "India hikes interest rates for first time in over three years as Iran war fuels inflation",
+       "url": "https://www.euronews.com/2026/10/07/india-hikes-interest-rates-for-first-time-in-over-three-years-as-iran-war-fuels-inflation",
+       "source": "Euronews Business",
+       "published": "2026-10-07T07:27:44.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/07/india-hikes-interest-rates-for-first-time-in-over-three-years-as-iran-war-fuels-inflation",
+         "primary": false
+        },
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Industry/air-india-akasa-hike-fuel-surcharge-as-costs-climb/article71560439.ece",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Reserve Bank of India raised borrowing costs for the first time in over three years on Wednesday, as the Middle East war pushes up prices in Asia's third-biggest economy and weighs on an already fragile rupee."
+      },
+      {
+       "title": "GST Council scraps tax officers' arrest powers, eases refund rules",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/gst-council-scraps-tax-officers-arrest-powers-eases-refund-rules/articleshow/134800724.cms",
+       "source": "Times of India Business",
+       "published": "2026-10-08T21:51:57.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Economy/gst-council-scraps-arrest-powers-of-gst-officers-ups-prosecution-threshold-to-5-crore/article71559868.ece",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/gst-council-scraps-tax-officers-arrest-powers-eases-refund-rules/articleshow/134800724.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The GST Council has proposed major procedural changes to enhance business operations and tax compliance. These reforms aim to streamline registration, refunds, and input tax credit processes while lowering compliance costs. Additionally, the council will remove officers' powers f"
+      },
+      {
+       "title": "Indian central bank hikes rates for first time since 2023",
+       "url": "https://www.dawn.com/news/2035423/indian-central-bank-hikes-rates-for-first-time-since-2023",
+       "source": "Dawn Business",
+       "published": "2026-10-07T13:01:19.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035423/indian-central-bank-hikes-rates-for-first-time-since-2023",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "India’s central bank hiked interest rates on Wednesday for the first time since 2023 as the Middle East conflict stoked inflation in Asia’s third-largest economy and battered a weakened rupee. The Reserve Bank of India (RBI) said the benchmark repurchase rate, the level at which "
+      },
+      {
+       "title": "RBI rate hike impact: Bond yields may hold near 7.25% after policy shift",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-rate-hike-impact-bond-yields-may-hold-near-7-25-after-policy-shift/articleshow/134782852.cms",
+       "source": "Times of India Business",
+       "published": "2026-10-08T08:36:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-rate-hike-impact-bond-yields-may-hold-near-7-25-after-policy-shift/articleshow/134782852.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In a significant policy change, the Reserve Bank of India has upped its key interest rate to 5.50% with a 25 basis point hike, the first in nearly four years. This adjustment reflects a shift to a calibrated tightening approach, hinting at potential future increases. However, con"
+      },
+      {
+       "title": "Adequate response: on the RBI and inflation",
+       "url": "https://www.thehindu.com/opinion/editorial/adequate-response-on-the-rbi-and-inflation/article71560012.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-08T19:38:33.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/opinion/editorial/adequate-response-on-the-rbi-and-inflation/article71560012.ece",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The RBI policy review will need Central assistance to effectively fight inflation"
+      }
+     ]
+    },
+    "regulation": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "AI regulation consultation paper next month, says IT minister Vaishnaw",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/ai-regulation-consultation-paper-next-month-says-it-minister-vaishnaw-focus-on-safety-deepfakes/articleshow/134785844.cms",
+       "source": "Times of India Business",
+       "published": "2026-10-08T10:22:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/ai-regulation-consultation-paper-next-month-says-it-minister-vaishnaw-focus-on-safety-deepfakes/articleshow/134785844.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Union minister Ashwini Vaishnaw announced plans for a Consultation paper on AI regulations to address specific concerns. The focus will include AI safety, deepfakes, user harm, and the need for skilling. The government aims to establish a regulatory framework while involving vari"
+      },
+      {
+       "title": "India dismisses Elon Musk claims over satellite approval process in country",
+       "url": "https://www.datacenterdynamics.com/en/news/india-dismisses-elon-musk-claims-over-satellite-approval-process-in-country/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T13:02:58.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/canadas-future-will-be-decided-by-canadians-carney-says-after-elon-musk-pushes-quebec-separatism/",
+         "primary": false
+        },
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Industry/dot-refutes-bias-in-starlink-authorisation-says-all-licensees-approvals-pending/article71560045.ece",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/stralinks-india-entry-row-is-ambani-the-real-boss-of-india-asks-elon-musk/articleshow/134800745.cms",
+         "primary": false
+        },
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/elon-musk-questions-ambanis-influence-as-starlink-india-launch-stalls/",
+         "primary": false
+        },
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/india-dismisses-elon-musk-claims-over-satellite-approval-process-in-country/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "It comes after Musk had earlier said Starlink had been \"blocked by certain oligarchs\" in the market"
+      },
+      {
+       "title": "Judge says Paramount and Warner must halt merger for at least two weeks",
+       "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-08T12:00:26.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Twelve States sued to block Paramount's pending buyout of Warner last week, alleging that such a combination would “extinguish competition” in Hollywood and lead to fewer choices for consumers"
+      }
+     ]
+    },
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Two Mumbai-based firms, five Indian nationals face U.S. sanctions over Iran oil trade",
+       "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-08T21:36:05.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The action against the Indian entities and individuals is part of the U.S. crackdown against Iran under Operation Economic Outcast"
+      }
+     ]
+    },
+    "corporate": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Judge says Paramount and Warner must halt merger for at least two weeks",
+       "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-08T12:00:26.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Twelve States sued to block Paramount's pending buyout of Warner last week, alleging that such a combination would “extinguish competition” in Hollywood and lead to fewer choices for consumers"
+      }
+     ]
+    }
+   }
+  },
   "ir": {
    "label": "Iran",
    "level": "country",
@@ -3869,8 +4084,13 @@
        "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
        "source": "The National (UAE)",
        "published": "2026-10-08T17:37:28.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/09/world/no-iran-attack-midterms/",
+         "primary": false
+        },
         {
          "name": "The National (UAE)",
          "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
@@ -3948,6 +4168,28 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Two Mumbai-based firms, five Indian nationals face U.S. sanctions over Iran oil trade",
+       "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-08T21:36:05.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The action against the Indian entities and individuals is part of the U.S. crackdown against Iran under Operation Economic Outcast"
+      },
+      {
        "title": "US imposes fresh sanctions on Iran’s shadow fleet",
        "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
        "source": "Daily Maverick",
@@ -3963,14 +4205,30 @@
        "stages": [],
        "via": null,
        "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
-      },
+      }
+     ]
+    }
+   }
+  },
+  "in-mh": {
+   "label": "Maharashtra",
+   "level": "admin1",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
       {
-       "title": "US sanctions Indian firms, individuals as Iran oil crackdown widens",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-08T19:50:14.000Z",
-       "verification": "unconfirmed",
+       "title": "Two Mumbai-based firms, five Indian nationals face U.S. sanctions over Iran oil trade",
+       "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-08T21:36:05.000Z",
+       "verification": "multiple",
        "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
+         "primary": false
+        },
         {
          "name": "Times of India Business",
          "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
@@ -3979,7 +4237,40 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "On Thursday, the United States targeted two Mumbai-based companies over their alleged oil trade involvement with Iran. The sanctions affected five Indian nationals connected to SSPL Solutions Private Limited and Samudra Marine Services Private Limited. These measures are part of "
+       "blurb": "The action against the Indian entities and individuals is part of the U.S. crackdown against Iran under Operation Economic Outcast"
+      }
+     ]
+    }
+   }
+  },
+  "in-city-mumbai": {
+   "label": "Mumbai",
+   "level": "city",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Two Mumbai-based firms, five Indian nationals face U.S. sanctions over Iran oil trade",
+       "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-08T21:36:05.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The action against the Indian entities and individuals is part of the U.S. crackdown against Iran under Operation Economic Outcast"
       }
      ]
     }
@@ -3997,8 +4288,13 @@
        "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
        "source": "The National (UAE)",
        "published": "2026-10-08T17:37:28.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/09/world/no-iran-attack-midterms/",
+         "primary": false
+        },
         {
          "name": "The National (UAE)",
          "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
@@ -4047,8 +4343,13 @@
        "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
        "source": "The National (UAE)",
        "published": "2026-10-08T17:37:28.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/09/world/no-iran-attack-midterms/",
+         "primary": false
+        },
         {
          "name": "The National (UAE)",
          "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/",
@@ -4080,322 +4381,6 @@
        "stages": [],
        "via": null,
        "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
-      }
-     ]
-    }
-   }
-  },
-  "in": {
-   "label": "India",
-   "level": "country",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "AI regulation consultation paper next month, says IT minister Vaishnaw",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/ai-regulation-consultation-paper-next-month-says-it-minister-vaishnaw-focus-on-safety-deepfakes/articleshow/134785844.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-08T10:22:06.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/ai-regulation-consultation-paper-next-month-says-it-minister-vaishnaw-focus-on-safety-deepfakes/articleshow/134785844.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Union minister Ashwini Vaishnaw announced plans for a Consultation paper on AI regulations to address specific concerns. The focus will include AI safety, deepfakes, user harm, and the need for skilling. The government aims to establish a regulatory framework while involving vari"
-      }
-     ]
-    },
-    "econpolicy": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "India hikes interest rates for first time in over three years as Iran war fuels inflation",
-       "url": "https://www.euronews.com/2026/10/07/india-hikes-interest-rates-for-first-time-in-over-three-years-as-iran-war-fuels-inflation",
-       "source": "Euronews Business",
-       "published": "2026-10-07T07:27:44.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/07/india-hikes-interest-rates-for-first-time-in-over-three-years-as-iran-war-fuels-inflation",
-         "primary": false
-        },
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/air-india-akasa-hike-fuel-surcharge-as-costs-climb/article71560439.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Reserve Bank of India raised borrowing costs for the first time in over three years on Wednesday, as the Middle East war pushes up prices in Asia's third-biggest economy and weighs on an already fragile rupee."
-      },
-      {
-       "title": "Indian central bank hikes rates for first time since 2023",
-       "url": "https://www.dawn.com/news/2035423/indian-central-bank-hikes-rates-for-first-time-since-2023",
-       "source": "Dawn Business",
-       "published": "2026-10-07T13:01:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2035423/indian-central-bank-hikes-rates-for-first-time-since-2023",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "India’s central bank hiked interest rates on Wednesday for the first time since 2023 as the Middle East conflict stoked inflation in Asia’s third-largest economy and battered a weakened rupee. The Reserve Bank of India (RBI) said the benchmark repurchase rate, the level at which "
-      },
-      {
-       "title": "RBI rate hike impact: Bond yields may hold near 7.25% after policy shift",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-rate-hike-impact-bond-yields-may-hold-near-7-25-after-policy-shift/articleshow/134782852.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-08T08:36:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-rate-hike-impact-bond-yields-may-hold-near-7-25-after-policy-shift/articleshow/134782852.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "In a significant policy change, the Reserve Bank of India has upped its key interest rate to 5.50% with a 25 basis point hike, the first in nearly four years. This adjustment reflects a shift to a calibrated tightening approach, hinting at potential future increases. However, con"
-      },
-      {
-       "title": "GST Council scraps tax officers' arrest powers; prosecution threshold raised to Rs 5 cr",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/gst-council-meeting-arresting-powers-of-tax-officers-scrapped-prosecution-threshold-raised-to-rs-5-crore/articleshow/134789551.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-08T12:01:50.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Economy/gst-council-scraps-arrest-powers-of-gst-officers-ups-prosecution-threshold-to-5-crore/article71559868.ece",
-         "primary": false
-        },
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/gst-council-meeting-arresting-powers-of-tax-officers-scrapped-prosecution-threshold-raised-to-rs-5-crore/articleshow/134789551.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The GST Council made a landmark decision by abolishing the arrest powers of tax officers. They've raised the prosecution threshold from Rs 1 crore to Rs 5 crore, easing the pressure on small sellers using e-commerce platforms. Union Finance Minister Nirmala Sitharaman announced t"
-      },
-      {
-       "title": "Adequate response: on the RBI and inflation",
-       "url": "https://www.thehindu.com/opinion/editorial/adequate-response-on-the-rbi-and-inflation/article71560012.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T19:38:33.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/opinion/editorial/adequate-response-on-the-rbi-and-inflation/article71560012.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The RBI policy review will need Central assistance to effectively fight inflation"
-      }
-     ]
-    },
-    "regulation": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "AI regulation consultation paper next month, says IT minister Vaishnaw",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/ai-regulation-consultation-paper-next-month-says-it-minister-vaishnaw-focus-on-safety-deepfakes/articleshow/134785844.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-08T10:22:06.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/ai-regulation-consultation-paper-next-month-says-it-minister-vaishnaw-focus-on-safety-deepfakes/articleshow/134785844.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Union minister Ashwini Vaishnaw announced plans for a Consultation paper on AI regulations to address specific concerns. The focus will include AI safety, deepfakes, user harm, and the need for skilling. The government aims to establish a regulatory framework while involving vari"
-      },
-      {
-       "title": "India dismisses Elon Musk claims over satellite approval process in country",
-       "url": "https://www.datacenterdynamics.com/en/news/india-dismisses-elon-musk-claims-over-satellite-approval-process-in-country/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-08T13:02:58.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/08/canadas-future-will-be-decided-by-canadians-carney-says-after-elon-musk-pushes-quebec-separatism/",
-         "primary": false
-        },
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/dot-refutes-bias-in-starlink-authorisation-says-all-licensees-approvals-pending/article71560045.ece",
-         "primary": false
-        },
-        {
-         "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/08/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/india-dismisses-elon-musk-claims-over-satellite-approval-process-in-country/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "It comes after Musk had earlier said Starlink had been \"blocked by certain oligarchs\" in the market"
-      },
-      {
-       "title": "Judge says Paramount and Warner must halt merger for at least two weeks",
-       "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T12:00:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Twelve States sued to block Paramount's pending buyout of Warner last week, alleging that such a combination would “extinguish competition” in Hollywood and lead to fewer choices for consumers"
-      },
-      {
-       "title": "TCS Q2 net up 15% to ₹13,884 cr, AI revenue crosses $3 bn; board approves ₹12 dividend",
-       "url": "https://www.thehindu.com/business/Industry/tcs-q2-net-up-15-to-13884-cr-ai-revenue-crosses-3-bn-board-approves-12-dividend/article71559388.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T11:23:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/tcs-q2-net-up-15-to-13884-cr-ai-revenue-crosses-3-bn-board-approves-12-dividend/article71559388.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Porsche and Best Buy represent a new category of transformation partnerships. Together with the clients, it is building repeatable value platforms that will industrialize AI at scale."
-      }
-     ]
-    },
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "US sanctions Indian firms, individuals as Iran oil crackdown widens",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-08T19:50:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "On Thursday, the United States targeted two Mumbai-based companies over their alleged oil trade involvement with Iran. The sanctions affected five Indian nationals connected to SSPL Solutions Private Limited and Samudra Marine Services Private Limited. These measures are part of "
-      }
-     ]
-    },
-    "corporate": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Judge says Paramount and Warner must halt merger for at least two weeks",
-       "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T12:00:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Twelve States sued to block Paramount's pending buyout of Warner last week, alleging that such a combination would “extinguish competition” in Hollywood and lead to fewer choices for consumers"
-      }
-     ]
-    }
-   }
-  },
-  "in-mh": {
-   "label": "Maharashtra",
-   "level": "admin1",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "US sanctions Indian firms, individuals as Iran oil crackdown widens",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-08T19:50:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "On Thursday, the United States targeted two Mumbai-based companies over their alleged oil trade involvement with Iran. The sanctions affected five Indian nationals connected to SSPL Solutions Private Limited and Samudra Marine Services Private Limited. These measures are part of "
-      }
-     ]
-    }
-   }
-  },
-  "in-city-mumbai": {
-   "label": "Mumbai",
-   "level": "city",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "US sanctions Indian firms, individuals as Iran oil crackdown widens",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-08T19:50:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "On Thursday, the United States targeted two Mumbai-based companies over their alleged oil trade involvement with Iran. The sanctions affected five Indian nationals connected to SSPL Solutions Private Limited and Samudra Marine Services Private Limited. These measures are part of "
       }
      ]
     }
@@ -4448,23 +4433,6 @@
        "blurb": "In an interview with RFI, Russian opposition figure Vladimir Kara-Murza has accused France of sending a “very dangerous” signal that the West is ready to return to “business as usual” with Vladimir Putin, after the French government pushed for European Union sanctions against Rus"
       },
       {
-       "title": "U.K. Expands Sanctions to Cover 90% of Russian Oil Output, Shadow Fleet and Finance Networks",
-       "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
-       "source": "The Moscow Times",
-       "published": "2026-10-08T13:07:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The sanctions come on the heels of the EU approving another sanctions package Wednesday."
-      },
-      {
        "title": "Russia eyes return to Europe's gas market despite sanctions, Ukraine war: Report",
        "url": "https://timesofindia.indiatimes.com/business/international-business/russia-eyes-return-to-europes-gas-market-despite-sanctions-ukraine-war-report/articleshow/134781494.cms",
        "source": "Times of India Business",
@@ -4480,6 +4448,23 @@
        "stages": [],
        "via": null,
        "blurb": "Reports indicate that Russia is looking to reestablish gas supplies via the Nord Stream pipelines by negotiating with US investors, including Jared Kushner and a Russian adviser to Putin. This effort faces formidable challenges due to existing US and EU sanctions. Germany has tak"
+      },
+      {
+       "title": "U.K. Expands Sanctions to Cover 90% of Russian Oil Output, Shadow Fleet and Finance Networks",
+       "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T13:07:40.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The sanctions come on the heels of the EU approving another sanctions package Wednesday."
       },
       {
        "title": "EU Lifts Belarus-Related Sanctions on Russian Billionaire Gutseriev – RFE/RL",
@@ -4838,34 +4823,6 @@
     }
    }
   },
-  "us-de": {
-   "label": "Delaware",
-   "level": "admin1",
-   "sources": {
-    "corporate": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Matador outlines drilling plans with Paloma acquisition now closed",
-       "url": "https://www.ogj.com/general-interest/companies/news/55409182/matador-outlines-drilling-plans-with-paloma-acquisition-now-closed",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-01T21:17:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/companies/news/55409182/matador-outlines-drilling-plans-with-paloma-acquisition-now-closed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Through the Paloma acquisition and the expected acreage additions from the recently announced Ridge Runner Resources deal, Matador Resources will have about 240,000 net acres in the core of the Delaware basin in fourth-quarter 2026. Together with the May Federal lease sale, the d"
-      }
-     ]
-    }
-   }
-  },
   "ar": {
    "label": "Argentina",
    "level": "country",
@@ -4987,28 +4944,6 @@
    "label": "Philippines",
    "level": "country",
    "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Philippines ex-President Duterte fit to stand trial, ICC rules",
-       "url": "https://www.aljazeera.com/news/2026/10/8/philippines-ex-president-duterte-fit-to-stand-trial-icc-rules?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-08T19:06:08.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/8/philippines-ex-president-duterte-fit-to-stand-trial-icc-rules?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The former president is able to understand the charges and follow the proceedings, panel of experts find."
-      }
-     ]
-    },
     "econpolicy": {
      "brief": "missing",
      "candidates": [
@@ -5638,7 +5573,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Regulator also vetoes extra Blackpool service, citing lack of space on west coast mainline for new trains to capital Business live – latest updates Plans to run direct train services to Wrexham and Rochdale from London have been rejected by the rail regulator because of “signific"
+       "blurb": "Regulator also vetoes extra Blackpool service, citing lack of space on west coast mainline for new trains to capital Plans to run direct train services to Wrexham and Rochdale from London have been rejected by the rail regulator because of “significant pressure” on the line. The "
       },
       {
        "title": "Ex-Barclays traders jailed for rigging interest rates have convictions quashed",
@@ -5683,7 +5618,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Regulator also vetoes extra Blackpool service, citing lack of space on west coast mainline for new trains to capital Business live – latest updates Plans to run direct train services to Wrexham and Rochdale from London have been rejected by the rail regulator because of “signific"
+       "blurb": "Regulator also vetoes extra Blackpool service, citing lack of space on west coast mainline for new trains to capital Plans to run direct train services to Wrexham and Rochdale from London have been rejected by the rail regulator because of “significant pressure” on the line. The "
       }
      ]
     }
@@ -5733,7 +5668,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Regulator also vetoes extra Blackpool service, citing lack of space on west coast mainline for new trains to capital Business live – latest updates Plans to run direct train services to Wrexham and Rochdale from London have been rejected by the rail regulator because of “signific"
+       "blurb": "Regulator also vetoes extra Blackpool service, citing lack of space on west coast mainline for new trains to capital Plans to run direct train services to Wrexham and Rochdale from London have been rejected by the rail regulator because of “significant pressure” on the line. The "
       },
       {
        "title": "Ex-Barclays traders jailed for rigging interest rates have convictions quashed",
@@ -5778,7 +5713,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Regulator also vetoes extra Blackpool service, citing lack of space on west coast mainline for new trains to capital Business live – latest updates Plans to run direct train services to Wrexham and Rochdale from London have been rejected by the rail regulator because of “signific"
+       "blurb": "Regulator also vetoes extra Blackpool service, citing lack of space on west coast mainline for new trains to capital Plans to run direct train services to Wrexham and Rochdale from London have been rejected by the rail regulator because of “significant pressure” on the line. The "
       }
      ]
     }
@@ -5874,6 +5809,34 @@
     }
    }
   },
+  "us-de": {
+   "label": "Delaware",
+   "level": "admin1",
+   "sources": {
+    "corporate": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Matador outlines drilling plans with Paloma acquisition now closed",
+       "url": "https://www.ogj.com/general-interest/companies/news/55409182/matador-outlines-drilling-plans-with-paloma-acquisition-now-closed",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-01T21:17:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/companies/news/55409182/matador-outlines-drilling-plans-with-paloma-acquisition-now-closed",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Through the Paloma acquisition and the expected acreage additions from the recently announced Ridge Runner Resources deal, Matador Resources will have about 240,000 net acres in the core of the Delaware basin in fourth-quarter 2026. Together with the May Federal lease sale, the d"
+      }
+     ]
+    }
+   }
+  },
   "fi": {
    "label": "Finland",
    "level": "country",
@@ -5909,6 +5872,23 @@
     "econpolicy": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Travel agents oppose B1,000 levy",
+       "url": "https://www.bangkokpost.com/business/general/3333918/travel-agents-oppose-b1000-levy",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-08T22:03:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333918/travel-agents-oppose-b1000-levy",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Association of Thai Travel Agents (Atta) has submitted a petition to the finance minister opposing the proposed 1,000-baht levy on all outbound passengers, currently under public consultation, warning it would raise the total tax and fee burden to 2,570 baht per trip for fore"
+      },
       {
        "title": "Toyota seeks tax relief for impeded producers",
        "url": "https://www.bangkokpost.com/business/general/3333095/toyota-seeks-tax-relief-for-impeded-producers",
@@ -5982,21 +5962,21 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Colombian embassy to open in Jerusalem, Israeli FM says",
-       "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
+       "title": "Israel kills or wounds Palestinian every 90 minutes in Gaza since ceasefire",
+       "url": "https://www.aljazeera.com/news/2026/10/8/israel-kills-or-wounds-palestinian-every-90-minutes-in-gaza-since-ceasefire?traffic_source=rss",
        "source": "Al Jazeera",
-       "published": "2026-10-08T18:07:06.000Z",
+       "published": "2026-10-08T22:54:23.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
+         "url": "https://www.aljazeera.com/news/2026/10/8/israel-kills-or-wounds-palestinian-every-90-minutes-in-gaza-since-ceasefire?traffic_source=rss",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Colombian President Abelardo De la Espriella had promised closer ties with Israel on the campaign trail."
+       "blurb": "Islamic Relief calls for global action as deadly Israeli attacks in Gaza continue and humanitarian conditions worsen."
       },
       {
        "title": "UK must remain in Jerusalem 'at all costs', says former diplomat",
@@ -6087,6 +6067,23 @@
     "international": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Israel kills or wounds Palestinian every 90 minutes in Gaza since ceasefire",
+       "url": "https://www.aljazeera.com/news/2026/10/8/israel-kills-or-wounds-palestinian-every-90-minutes-in-gaza-since-ceasefire?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-08T22:54:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/8/israel-kills-or-wounds-palestinian-every-90-minutes-in-gaza-since-ceasefire?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Islamic Relief calls for global action as deadly Israeli attacks in Gaza continue and humanitarian conditions worsen."
+      },
       {
        "title": "Updated: Israeli wind developer on UN’s illegal settlements blacklist",
        "url": "https://www.windpowermonthly.com/article/1971213/updated-israeli-wind-developer-uns-illegal-settlements-blacklist",
@@ -6231,6 +6228,90 @@
     }
    }
   },
+  "us-oh": {
+   "label": "Ohio",
+   "level": "admin1",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Cleveland-Cliffs CEO says Stelco workers would be recalled if trade deal reached",
+       "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/stelco-begins-issuing-layoff-notices-as-first-job-cuts-set-to-take-effect-sunday/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-09T00:53:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/stelco-begins-issuing-layoff-notices-as-first-job-cuts-set-to-take-effect-sunday/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Hundreds of southern Ontario steelworkers facing layoffs will be recalled if Canada and the U.S. Reach a trade, the head of Stelco’s U.S.-based parent company said."
+      }
+     ]
+    }
+   }
+  },
+  "ca-on": {
+   "label": "Ontario",
+   "level": "admin1",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Cleveland-Cliffs CEO says Stelco workers would be recalled if trade deal reached",
+       "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/stelco-begins-issuing-layoff-notices-as-first-job-cuts-set-to-take-effect-sunday/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-09T00:53:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/stelco-begins-issuing-layoff-notices-as-first-job-cuts-set-to-take-effect-sunday/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Hundreds of southern Ontario steelworkers facing layoffs will be recalled if Canada and the U.S. Reach a trade, the head of Stelco’s U.S.-based parent company said."
+      }
+     ]
+    }
+   }
+  },
+  "us-city-cleveland": {
+   "label": "Cleveland",
+   "level": "city",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Cleveland-Cliffs CEO says Stelco workers would be recalled if trade deal reached",
+       "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/stelco-begins-issuing-layoff-notices-as-first-job-cuts-set-to-take-effect-sunday/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-09T00:53:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/08/stelco-begins-issuing-layoff-notices-as-first-job-cuts-set-to-take-effect-sunday/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Hundreds of southern Ontario steelworkers facing layoffs will be recalled if Canada and the U.S. Reach a trade, the head of Stelco’s U.S.-based parent company said."
+      }
+     ]
+    }
+   }
+  },
   "by": {
    "label": "Belarus",
    "level": "country",
@@ -6254,56 +6335,6 @@
        "stages": [],
        "via": null,
        "blurb": "The billionaire remains subject to separate EU sanctions linked to Russia’s war in Ukraine."
-      }
-     ]
-    }
-   }
-  },
-  "et": {
-   "label": "Ethiopia",
-   "level": "country",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ethiopia: Nigeria, Ethiopia Move to Deepen Ties in Trade, Agriculture, Security",
-       "url": "https://allafrica.com/stories/202610080122.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T07:39:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080122.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Leadership] Nigeria and Ethiopia have moved to deepen bilateral cooperation in trade, investment, agriculture, food security, aviation, and security, with Vice President Kashim Shettima and Ethiopia's Deputy Prime Minister, Mr Temesgen Tiruneh, reviewing relations between the tw"
-      }
-     ]
-    },
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "What and whose ‘futures’?",
-       "url": "https://www.alliancemagazine.org/blog/what-and-whose-futures/",
-       "source": "Alliance magazine",
-       "published": "2026-10-08T12:59:10.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Alliance magazine",
-         "url": "https://www.alliancemagazine.org/blog/what-and-whose-futures/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "In August I travelled to Addis Ababa for the US-Africa Futures Summit, organised by Humanity United, the Open Society Foundations and the Institute for Security Studies (ISS). It was my first time at this summit, … The post What and whose ‘futures’? appeared first on Alliance mag"
       }
      ]
     }
@@ -6550,23 +6581,6 @@
        "blurb": "Agreement awaits Executive Board approval"
       },
       {
-       "title": "Discos’ sell-off faces investor trust deficit",
-       "url": "https://www.dawn.com/news/2035520/discos-sell-off-faces-investor-trust-deficit",
-       "source": "Dawn Business",
-       "published": "2026-10-08T03:11:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2035520/discos-sell-off-faces-investor-trust-deficit",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "ISLAMABAD: To attract bidders for the successful privatisation of distribution companies (Discos) and allay concerns about contract sanctity, the government is expediting measures to improve regulatory predictability and considering political risk guarantees from multilateral age"
-      },
-      {
        "title": "PSX rebounds 2,593 points on IMF optimism",
        "url": "https://www.dawn.com/news/2035290/psx-rebounds-2593-points-on-imf-optimism",
        "source": "Dawn Business",
@@ -6582,6 +6596,23 @@
        "stages": [],
        "via": null,
        "blurb": "KARACHI: After a sluggish overnight start stemming from regional and political uncertainty, the Pakistan Stock Exchange (PSX) on Tuesday saw strong buying interest at attractive valuations, helping the benchmark KSE-100 index recover from recent lows to above the 168,000 level, a"
+      },
+      {
+       "title": "Discos’ sell-off faces investor trust deficit",
+       "url": "https://www.dawn.com/news/2035520/discos-sell-off-faces-investor-trust-deficit",
+       "source": "Dawn Business",
+       "published": "2026-10-08T03:11:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035520/discos-sell-off-faces-investor-trust-deficit",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "ISLAMABAD: To attract bidders for the successful privatisation of distribution companies (Discos) and allay concerns about contract sanctity, the government is expediting measures to improve regulatory predictability and considering political risk guarantees from multilateral age"
       },
       {
        "title": "AI 'widening economic inequality', IMF chief warns",
@@ -6650,8 +6681,18 @@
          "primary": false
         },
         {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333704/oil-surges-stocks-sink-as-us-reportedly-eyes-new-iran-strikes",
+         "primary": false
+        },
+        {
          "name": "The Straits Times Business",
          "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "primary": false
+        },
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/08/sochi-reopens-beaches-after-drone-attack-on-oil-tanker-a93918",
          "primary": false
         },
         {
@@ -6666,7 +6707,7 @@
         },
         {
          "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+         "url": "https://www.rigzone.com/news/wire/oil_surges_as_iran_tanker_attacks_escalate-08-oct-2026-184807-article/?rss=true",
          "primary": false
         },
         {
@@ -6796,6 +6837,107 @@
        "stages": [],
        "via": null,
        "blurb": "US Secretary of State Marco Rubio delivered a combative defence of Washington’s right to wield its “national power” in Athens on Wednesday, while urging Europe to “awaken from its long slumber”."
+      }
+     ]
+    }
+   }
+  },
+  "za": {
+   "label": "South Africa",
+   "level": "country",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "GROUNDUP: Ekurhuleni police force employed convicted killers, Parliament told",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-ekurhuleni-police-force-employed-convicted-killers-parliament-told/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T22:45:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-ekurhuleni-police-force-employed-convicted-killers-parliament-told/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Parliament’s Standing Committee on Public Accounts this week received a damning report on the state of five metros, following oversight visits and hearings in Mangaung, Tshwane, Ekurhuleni, Johannesburg and eThekwini."
+      },
+      {
+       "title": "SA’s foreign service is becoming a retreat for failed ministers",
+       "url": "https://www.dailymaverick.co.za/opinionista/2026-10-08-sas-foreign-service-is-becoming-a-retreat-for-failed-ministers/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T22:13:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/opinionista/2026-10-08-sas-foreign-service-is-becoming-a-retreat-for-failed-ministers/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Political appointments aren't inherently bad, but using South Africa’s diplomatic corps as a pension fund for ousted politicians undermines our global standing when expertise matters most."
+      }
+     ]
+    }
+   }
+  },
+  "za-gt": {
+   "label": "Gauteng",
+   "level": "admin1",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "GROUNDUP: Ekurhuleni police force employed convicted killers, Parliament told",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-ekurhuleni-police-force-employed-convicted-killers-parliament-told/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T22:45:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-ekurhuleni-police-force-employed-convicted-killers-parliament-told/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Parliament’s Standing Committee on Public Accounts this week received a damning report on the state of five metros, following oversight visits and hearings in Mangaung, Tshwane, Ekurhuleni, Johannesburg and eThekwini."
+      }
+     ]
+    }
+   }
+  },
+  "za-city-johannesburg": {
+   "label": "Johannesburg",
+   "level": "city",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "GROUNDUP: Ekurhuleni police force employed convicted killers, Parliament told",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-08-ekurhuleni-police-force-employed-convicted-killers-parliament-told/",
+       "source": "Daily Maverick",
+       "published": "2026-10-08T22:45:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-08-ekurhuleni-police-force-employed-convicted-killers-parliament-told/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Parliament’s Standing Committee on Public Accounts this week received a damning report on the state of five metros, following oversight visits and hearings in Mangaung, Tshwane, Ekurhuleni, Johannesburg and eThekwini."
       }
      ]
     }
@@ -7249,118 +7391,6 @@
     }
    }
   },
-  "ua-kv": {
-   "label": "Kiev",
-   "level": "admin1",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "We are staying: European diplomats reject Russian calls to leave Ukraine",
-       "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/we-are-staying-european-diplomats-reject-russian-calls-to-leave-ukraine/",
-       "source": "Atlantic Council",
-       "published": "2026-10-06T20:55:45.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Atlantic Council",
-         "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/we-are-staying-european-diplomats-reject-russian-calls-to-leave-ukraine/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "European embassies in Kyiv sent a message of defiance to Moscow this week following the Kremlin’s latest call for diplomats to leave Ukraine, writes Peter Dickinson. The post We are staying: European diplomats reject Russian calls to leave Ukraine appeared first on Atlantic Counc"
-      }
-     ]
-    }
-   }
-  },
-  "ru-ms-2": {
-   "label": "Moskva",
-   "level": "admin1",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "We are staying: European diplomats reject Russian calls to leave Ukraine",
-       "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/we-are-staying-european-diplomats-reject-russian-calls-to-leave-ukraine/",
-       "source": "Atlantic Council",
-       "published": "2026-10-06T20:55:45.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Atlantic Council",
-         "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/we-are-staying-european-diplomats-reject-russian-calls-to-leave-ukraine/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "European embassies in Kyiv sent a message of defiance to Moscow this week following the Kremlin’s latest call for diplomats to leave Ukraine, writes Peter Dickinson. The post We are staying: European diplomats reject Russian calls to leave Ukraine appeared first on Atlantic Counc"
-      }
-     ]
-    }
-   }
-  },
-  "ua-city-kyiv": {
-   "label": "Kyiv",
-   "level": "city",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "We are staying: European diplomats reject Russian calls to leave Ukraine",
-       "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/we-are-staying-european-diplomats-reject-russian-calls-to-leave-ukraine/",
-       "source": "Atlantic Council",
-       "published": "2026-10-06T20:55:45.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Atlantic Council",
-         "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/we-are-staying-european-diplomats-reject-russian-calls-to-leave-ukraine/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "European embassies in Kyiv sent a message of defiance to Moscow this week following the Kremlin’s latest call for diplomats to leave Ukraine, writes Peter Dickinson. The post We are staying: European diplomats reject Russian calls to leave Ukraine appeared first on Atlantic Counc"
-      }
-     ]
-    }
-   }
-  },
-  "ru-city-moscow": {
-   "label": "Moscow",
-   "level": "city",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "We are staying: European diplomats reject Russian calls to leave Ukraine",
-       "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/we-are-staying-european-diplomats-reject-russian-calls-to-leave-ukraine/",
-       "source": "Atlantic Council",
-       "published": "2026-10-06T20:55:45.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Atlantic Council",
-         "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/we-are-staying-european-diplomats-reject-russian-calls-to-leave-ukraine/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "European embassies in Kyiv sent a message of defiance to Moscow this week following the Kremlin’s latest call for diplomats to leave Ukraine, writes Peter Dickinson. The post We are staying: European diplomats reject Russian calls to leave Ukraine appeared first on Atlantic Counc"
-      }
-     ]
-    }
-   }
-  },
   "pl": {
    "label": "Poland",
    "level": "country",
@@ -7512,6 +7542,118 @@
     }
    }
   },
+  "ua-kv": {
+   "label": "Kiev",
+   "level": "admin1",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "We are staying: European diplomats reject Russian calls to leave Ukraine",
+       "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/we-are-staying-european-diplomats-reject-russian-calls-to-leave-ukraine/",
+       "source": "Atlantic Council",
+       "published": "2026-10-06T20:55:45.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Atlantic Council",
+         "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/we-are-staying-european-diplomats-reject-russian-calls-to-leave-ukraine/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "European embassies in Kyiv sent a message of defiance to Moscow this week following the Kremlin’s latest call for diplomats to leave Ukraine, writes Peter Dickinson. The post We are staying: European diplomats reject Russian calls to leave Ukraine appeared first on Atlantic Counc"
+      }
+     ]
+    }
+   }
+  },
+  "ru-ms-2": {
+   "label": "Moskva",
+   "level": "admin1",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "We are staying: European diplomats reject Russian calls to leave Ukraine",
+       "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/we-are-staying-european-diplomats-reject-russian-calls-to-leave-ukraine/",
+       "source": "Atlantic Council",
+       "published": "2026-10-06T20:55:45.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Atlantic Council",
+         "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/we-are-staying-european-diplomats-reject-russian-calls-to-leave-ukraine/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "European embassies in Kyiv sent a message of defiance to Moscow this week following the Kremlin’s latest call for diplomats to leave Ukraine, writes Peter Dickinson. The post We are staying: European diplomats reject Russian calls to leave Ukraine appeared first on Atlantic Counc"
+      }
+     ]
+    }
+   }
+  },
+  "ua-city-kyiv": {
+   "label": "Kyiv",
+   "level": "city",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "We are staying: European diplomats reject Russian calls to leave Ukraine",
+       "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/we-are-staying-european-diplomats-reject-russian-calls-to-leave-ukraine/",
+       "source": "Atlantic Council",
+       "published": "2026-10-06T20:55:45.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Atlantic Council",
+         "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/we-are-staying-european-diplomats-reject-russian-calls-to-leave-ukraine/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "European embassies in Kyiv sent a message of defiance to Moscow this week following the Kremlin’s latest call for diplomats to leave Ukraine, writes Peter Dickinson. The post We are staying: European diplomats reject Russian calls to leave Ukraine appeared first on Atlantic Counc"
+      }
+     ]
+    }
+   }
+  },
+  "ru-city-moscow": {
+   "label": "Moscow",
+   "level": "city",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "We are staying: European diplomats reject Russian calls to leave Ukraine",
+       "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/we-are-staying-european-diplomats-reject-russian-calls-to-leave-ukraine/",
+       "source": "Atlantic Council",
+       "published": "2026-10-06T20:55:45.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Atlantic Council",
+         "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/we-are-staying-european-diplomats-reject-russian-calls-to-leave-ukraine/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "European embassies in Kyiv sent a message of defiance to Moscow this week following the Kremlin’s latest call for diplomats to leave Ukraine, writes Peter Dickinson. The post We are staying: European diplomats reject Russian calls to leave Ukraine appeared first on Atlantic Counc"
+      }
+     ]
+    }
+   }
+  },
   "se": {
    "label": "Sweden",
    "level": "country",
@@ -7568,6 +7710,34 @@
     }
    }
   },
+  "sg": {
+   "label": "Singapore",
+   "level": "country",
+   "sources": {
+    "corporate": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Better disclosure is only half the equation – shareholders must now play their part",
+       "url": "https://www.straitstimes.com/business/better-disclosure-is-only-half-the-equation-shareholders-must-now-play-their-part",
+       "source": "The Straits Times Business",
+       "published": "2026-10-08T23:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/better-disclosure-is-only-half-the-equation-shareholders-must-now-play-their-part",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "SGX RegCo’s rule changes move Singapore closer to a disclosure-based regime."
+      }
+     ]
+    }
+   }
+  },
   "au-city-sydney": {
    "label": "Sydney",
    "level": "city",
@@ -7591,124 +7761,6 @@
        "stages": [],
        "via": null,
        "blurb": "The German sportswear brand wants the Sydney-based label to stop selling the clothes and pay damages."
-      }
-     ]
-    }
-   }
-  },
-  "co": {
-   "label": "Colombia",
-   "level": "country",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Colombian embassy to open in Jerusalem, Israeli FM says",
-       "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-08T18:07:06.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Colombian President Abelardo De la Espriella had promised closer ties with Israel on the campaign trail."
-      }
-     ]
-    }
-   }
-  },
-  "il-jm": {
-   "label": "Jerusalem",
-   "level": "admin1",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Colombian embassy to open in Jerusalem, Israeli FM says",
-       "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-08T18:07:06.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Colombian President Abelardo De la Espriella had promised closer ties with Israel on the campaign trail."
-      },
-      {
-       "title": "UK must remain in Jerusalem 'at all costs', says former diplomat",
-       "url": "https://www.thenationalnews.com/news/uk/2026/10/08/uk-must-remain-in-jerusalem-at-all-costs-says-former-diplomat/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T16:14:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/uk/2026/10/08/uk-must-remain-in-jerusalem-at-all-costs-says-former-diplomat/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The UK should keep a diplomatic presence in Jerusalem at all costs to prevent Israeli claims to the disputed city, a former British diplomat has said. Sir Vincent Fean, who served as British Consul General in Jerusalem , said the UK’s historic presence in Jerusalem was critical t"
-      }
-     ]
-    }
-   }
-  },
-  "il-city-jerusalem": {
-   "label": "Jerusalem",
-   "level": "city",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Colombian embassy to open in Jerusalem, Israeli FM says",
-       "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-08T18:07:06.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/8/colombian-embassy-to-open-in-jerusalem-israeli-fm-says?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Colombian President Abelardo De la Espriella had promised closer ties with Israel on the campaign trail."
-      },
-      {
-       "title": "UK must remain in Jerusalem 'at all costs', says former diplomat",
-       "url": "https://www.thenationalnews.com/news/uk/2026/10/08/uk-must-remain-in-jerusalem-at-all-costs-says-former-diplomat/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T16:14:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/uk/2026/10/08/uk-must-remain-in-jerusalem-at-all-costs-says-former-diplomat/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The UK should keep a diplomatic presence in Jerusalem at all costs to prevent Israeli claims to the disputed city, a former British diplomat has said. Sir Vincent Fean, who served as British Consul General in Jerusalem , said the UK’s historic presence in Jerusalem was critical t"
       }
      ]
     }
@@ -7770,6 +7822,62 @@
     }
    }
   },
+  "il-jm": {
+   "label": "Jerusalem",
+   "level": "admin1",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "UK must remain in Jerusalem 'at all costs', says former diplomat",
+       "url": "https://www.thenationalnews.com/news/uk/2026/10/08/uk-must-remain-in-jerusalem-at-all-costs-says-former-diplomat/",
+       "source": "The National (UAE)",
+       "published": "2026-10-08T16:14:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/uk/2026/10/08/uk-must-remain-in-jerusalem-at-all-costs-says-former-diplomat/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The UK should keep a diplomatic presence in Jerusalem at all costs to prevent Israeli claims to the disputed city, a former British diplomat has said. Sir Vincent Fean, who served as British Consul General in Jerusalem , said the UK’s historic presence in Jerusalem was critical t"
+      }
+     ]
+    }
+   }
+  },
+  "il-city-jerusalem": {
+   "label": "Jerusalem",
+   "level": "city",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "UK must remain in Jerusalem 'at all costs', says former diplomat",
+       "url": "https://www.thenationalnews.com/news/uk/2026/10/08/uk-must-remain-in-jerusalem-at-all-costs-says-former-diplomat/",
+       "source": "The National (UAE)",
+       "published": "2026-10-08T16:14:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/uk/2026/10/08/uk-must-remain-in-jerusalem-at-all-costs-says-former-diplomat/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The UK should keep a diplomatic presence in Jerusalem at all costs to prevent Israeli claims to the disputed city, a former British diplomat has said. Sir Vincent Fean, who served as British Consul General in Jerusalem , said the UK’s historic presence in Jerusalem was critical t"
+      }
+     ]
+    }
+   }
+  },
   "kr": {
    "label": "South Korea",
    "level": "country",
@@ -7815,6 +7923,34 @@
        "stages": [],
        "via": null,
        "blurb": ""
+      }
+     ]
+    }
+   }
+  },
+  "et": {
+   "label": "Ethiopia",
+   "level": "country",
+   "sources": {
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "What and whose ‘futures’?",
+       "url": "https://www.alliancemagazine.org/blog/what-and-whose-futures/",
+       "source": "Alliance magazine",
+       "published": "2026-10-08T12:59:10.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Alliance magazine",
+         "url": "https://www.alliancemagazine.org/blog/what-and-whose-futures/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In August I travelled to Addis Ababa for the US-Africa Futures Summit, organised by Humanity United, the Open Society Foundations and the Institute for Security Studies (ISS). It was my first time at this summit, … The post What and whose ‘futures’? appeared first on Alliance mag"
       }
      ]
     }
@@ -7936,28 +8072,6 @@
    "label": "New Zealand",
    "level": "country",
    "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Will the election have an impact on rents?",
-       "url": "https://www.rnz.co.nz/news/politics_election-2026/1786726/will-the-election-have-an-impact-on-rents",
-       "source": "RNZ Business",
-       "published": "2026-10-07T20:05:23.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "RNZ Business",
-         "url": "https://www.rnz.co.nz/news/politics_election-2026/1786726/will-the-election-have-an-impact-on-rents",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Rent prices have been mostly flat in recent years, but is the approaching election likely to change that?"
-      }
-     ]
-    },
     "regulation": {
      "brief": "missing",
      "candidates": [
