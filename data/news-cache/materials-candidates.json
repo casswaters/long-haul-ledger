@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T12:42:47.805Z",
+ "generatedAt": "2026-10-09T18:39:57.958Z",
  "sector": "materials",
  "maxAgeDays": 10,
  "places": {
@@ -11,26 +11,21 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Nigeria: Nigeria's Raw Commodity Exports Will Be Under Focus As Agribusiness Leaders Meet in Uyo",
-       "url": "https://allafrica.com/stories/202610090276.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-09T09:16:48.000Z",
-       "verification": "multiple",
+       "title": "Israeli settler attacks target Palestinian olive harvest in West Bank",
+       "url": "https://www.aljazeera.com/news/2026/10/9/israeli-settler-attacks-target-palestinian-olive-harvest-in-west-bank?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-09T15:28:10.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610090276.html",
-         "primary": false
-        },
-        {
-         "name": "Premium Times (Nigeria)",
-         "url": "https://www.premiumtimesng.com/regional/south-south-regional/915588-nigerias-raw-commodity-exports-will-be-under-focus-as-agribusiness-leaders-meet-in-uyo.html",
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/9/israeli-settler-attacks-target-palestinian-olive-harvest-in-west-bank?traffic_source=rss",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "[Premium Times] As Nigeria struggles to turn its agricultural wealth into industrial growth and jobs, agribusiness leaders are targeting investment, processing and export opportunities at a regional conference in Uyo."
+       "blurb": "At least 19 settler attacks recorded across territory on Friday as Israeli forces separately detain 16 Palestinians."
       },
       {
        "title": "FAA cracks down on illegal drone spraying with record $290K fine",
@@ -84,38 +79,46 @@
        "blurb": "The DA expects agricultural output to have contracted in 3Q26 after expanding in 2Q26, with weakness potentially extending through 1Q27 as El Ni&ntilde;o intensifies."
       },
       {
-       "title": "SRA allocates all sugar output for domestic us",
-       "url": "https://www.philstar.com/business/2026/10/09/2561833/sra-allocates-all-sugar-output-domestic-us",
-       "source": "Philstar Business",
-       "published": "2026-10-08T16:00:00.000Z",
-       "verification": "unconfirmed",
+       "title": "SpaceX: Grain's lowband spectrum is our ticket to becoming 'major mobile carrier'",
+       "url": "https://www.lightreading.com/satellite/spacex-grain-s-lowband-spectrum-is-our-ticket-to-becoming-major-mobile-carrier-",
+       "source": "Light Reading",
+       "published": "2026-10-09T15:50:29.000Z",
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "Philstar Business",
-         "url": "https://www.philstar.com/business/2026/10/09/2561833/sra-allocates-all-sugar-output-domestic-us",
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/spacex-strikes-spectrum-deal-paving-way-for-starlink-to-become-major-us-mobile-carrier/4082912",
+         "primary": false
+        },
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/networks/2026/10/09/spacex-to-buy-key-spectrum-that-could-help-starlink-mobile-become-major-us-cell-carrier/5302393",
+         "primary": false
+        },
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/spacex-to-acquire-grains-800mhz-spectrum-assets-to-further-advance-carrier-ambitions/",
+         "primary": false
+        },
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/satellite/spacex-grain-s-lowband-spectrum-is-our-ticket-to-becoming-major-mobile-carrier-",
+         "primary": false
+        },
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/wireless/spacexs-800-mhz-spectrum-grab-threatens-big-3-mobile-carriers",
+         "primary": false
+        },
+        {
+         "name": "RCR Wireless News",
+         "url": "https://rcrwireless.com/20261009/network-infrastructure/spacex-grabs-earthquake-800-mhz-deal-as-starlink-rocks-us-telcos",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The Sugar Regulatory Administration mandated that all sugar production for the 2026 to 2027 crop year will be for domestic use only due to the anticipated shortfall in sugarcane harvests."
-      },
-      {
-       "title": "Farm output likely contracted in Q3, decline to persist until Q1 2027",
-       "url": "https://www.philstar.com/business/2026/10/09/2561834/farm-output-likely-contracted-q3-decline-persist-until-q1-2027",
-       "source": "Philstar Business",
-       "published": "2026-10-08T16:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Philstar Business",
-         "url": "https://www.philstar.com/business/2026/10/09/2561834/farm-output-likely-contracted-q3-decline-persist-until-q1-2027",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Agricultural output is expected to have contracted in the third quarter, with the decline likely to persist until the first quarter next year amid the El Ni&ntilde;o, according to the Department of Agriculture."
+       "blurb": "SpaceX aims to fill the lowband gap in its hybrid satellite-terrestrial network plan by acquiring Grain's 800MHz spectrum. That may help it compete with AT&T, T-Mobile and Verizon, but analysts still say SpaceX needs an MVNO deal."
       },
       {
        "title": "How a reluctant Iowa farming county undid a ban on battery storage",
@@ -135,23 +138,6 @@
        "blurb": "The soil in northwest Iowa is so fertile it’s referred to as “black gold.” “It’s incredibly rich, wonderful topsoil from thousands of years of silty deposits from the Missouri River,” said Luke Seaberg, a researcher at Iowa State University’s extension program. So rich that some "
       },
       {
-       "title": "Wheat output targets delayed till finalisation of price",
-       "url": "https://www.dawn.com/news/2035523/wheat-output-targets-delayed-till-finalisation-of-price",
-       "source": "Dawn Business",
-       "published": "2026-10-08T02:58:13.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2035523/wheat-output-targets-delayed-till-finalisation-of-price",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "ISLAMABAD: Although the wheat sowing season is due to start within the next few weeks, the Federal Committee on Agriculture (FCA) was unable to set production targets for Rabi crops during a meeting on Wednesday. The meeting was chaired by the Minister for National Food Security "
-      },
-      {
        "title": "Farm Hands on the Potomac: Joel Leftwich joins Idealyst Innovation, ​Robert Haus goes to Vylor, General Mills names Dana McNabb as CEO",
        "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
        "source": "Agri-Pulse",
@@ -169,40 +155,6 @@
        "blurb": "Joel Leftwich will join Idealyst Innovation as executive vice president of policy innovation and director of the Center for American Food Power. Robert Haus has joined Vylor as state government and industry affairs leader. General Mills named Dana McNabb as CEO, effective Jan. 1,"
       },
       {
-       "title": "Nordic Aqua nears 6,000t annual salmon harvest as Q3 beats expectations",
-       "url": "https://www.undercurrentnews.com/2026/10/09/nordic-aqua-nears-6000t-annual-salmon-harvest-as-q3-beats-expectations/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T10:09:24.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/nordic-aqua-nears-6000t-annual-salmon-harvest-as-q3-beats-expectations/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Nordic Aqua nears 6,000t annual salmon harvest as Q3 beats expectations"
-      },
-      {
-       "title": "Chilean farmer Multi X loses at least 300t of salmon to algal bloom",
-       "url": "https://www.undercurrentnews.com/2026/10/09/chilean-farmer-multi-x-loses-at-least-300t-of-salmon-to-algal-bloom/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T10:06:21.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/chilean-farmer-multi-x-loses-at-least-300t-of-salmon-to-algal-bloom/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Chilean farmer Multi X loses at least 300t of salmon to algal bloom"
-      },
-      {
        "title": "The USDA just made it way harder for farmers to get grants for solar",
        "url": "https://www.canarymedia.com/articles/food-and-farms/usda-reap-grants-for-solar",
        "source": "Canary Media",
@@ -218,6 +170,57 @@
        "stages": [],
        "via": null,
        "blurb": "Rules published Thursday essentially end federal grants that thousands of American farmers have long relied on to build revenue-generating solar systems on their land. The Trump administration’s changes to the Rural Energy for America Program (REAP) are its latest attempt to bloc"
+      },
+      {
+       "title": "Chinese NGOs bring participatory climate risk assessment to rice-farming communities",
+       "url": "https://www.alliancemagazine.org/blog/chinese-ngos-bring-participatory-climate-risk-assessment-to-rice-farming-communities/",
+       "source": "Alliance magazine",
+       "published": "2026-10-08T13:49:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Alliance magazine",
+         "url": "https://www.alliancemagazine.org/blog/chinese-ngos-bring-participatory-climate-risk-assessment-to-rice-farming-communities/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Extreme weather triggered by climate change is putting growing pressure on food security across Asia, home to many of the world’s major rice-producing countries. China alone produces nearly 30 percent of the world’s rice. Changing … The post Chinese NGOs bring participatory clima"
+      },
+      {
+       "title": "Portugal Lets Forest Owners Harvest and Still Earn Carbon Credits",
+       "url": "https://woodcentral.com.au/portugal-forest-carbon-credits/",
+       "source": "Wood Central",
+       "published": "2026-10-07T23:26:12.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/portugal-forest-carbon-credits/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Thicker stands and longer harvest cycles now qualify for carbon credits in Portugal, with standing forest eligible for the national carbon market alongside new plantings. That is according to Portugal’s Ministry of Environment and Energy, which on Tuesday announced the approval o"
+      },
+      {
+       "title": "Seven questions for USDA Undersecretary for Rural Development Glen Smith",
+       "url": "https://www.agri-pulse.com/articles/25339-seven-questions-for-usda-undersecretary-for-rural-development-glen-smith",
+       "source": "Agri-Pulse",
+       "published": "2026-10-07T10:11:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Agri-Pulse",
+         "url": "https://www.agri-pulse.com/articles/25339-seven-questions-for-usda-undersecretary-for-rural-development-glen-smith",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Agri-Pulse founder Sara Wyant caught up with USDA Undersecretary for Rural Development Glen Smith last week to discuss his vision for one of the agency’s largest mission areas, which includes everything from rural housing to hospitals, rural business loans, wastewater treatment, "
       }
      ]
     },
@@ -259,7 +262,7 @@
        "blurb": "In 1991, Random House published a picture book called “Teenage Mutant Ninja Turtles: ABC’s for a Better Planet,” in which the masked cartoon turtles trade in their signature nunchucks for signs bearing environmental slogans. For “A,” the turtles explain the sources of acid rain. "
       },
       {
-       "title": "Food court operator Singapura Heritage faces winding-up application by poultry supplier",
+       "title": "Foodcourt operator Singapura Heritage faces winding-up application from poultry supplier",
        "url": "https://www.straitstimes.com/business/food-court-operator-singapura-heritage-faces-winding-up-application-by-poultry-supplier",
        "source": "The Straits Times Business",
        "published": "2026-10-09T11:30:00.000Z",
@@ -308,23 +311,6 @@
        "stages": [],
        "via": null,
        "blurb": "Collapsed WA dairy brands Mundella Foods and the Margaret River Dairy Company have been revived after a deal spearheaded by Harvey Fresh founder Kevin Sorgiovanni."
-      },
-      {
-       "title": "Does the cattle market see an open gate?",
-       "url": "https://www.farmprogress.com/marketing/does-the-cattle-market-see-an-open-gate-",
-       "source": "Farm Progress",
-       "published": "2026-10-08T18:34:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Farm Progress",
-         "url": "https://www.farmprogress.com/marketing/does-the-cattle-market-see-an-open-gate-",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Ag Marketing IQ: Underlying friendly fundamentals clash with larger numbers, including a 15% uptick in beef imports, but futures prices could be poised to break out of recent trading range."
       },
       {
        "title": "Opinion: If America wants more beef, it needs more grass",
@@ -485,23 +471,6 @@
        "blurb": "Forestry is increasingly recognised for the important role it plays in Australia’s future. That is according to Dr Michelle Freeman, a forest scientist who retired as Forestry Australia president, and who spoke to Wood Central last night following her final Annual General Meeting"
       },
       {
-       "title": "Woodworking college receives accreditation for Carpentry and Timber Framing program",
-       "url": "https://www.woodworkingnetwork.com/news/woodworking-industry-news/woodworking-college-receives-accreditation-carpentry-and-timber",
-       "source": "Woodworking Network",
-       "published": "2026-10-08T15:57:47.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Woodworking Network",
-         "url": "https://www.woodworkingnetwork.com/news/woodworking-industry-news/woodworking-college-receives-accreditation-carpentry-and-timber",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Woodworking college receives accreditation for Carpentry and Timber Framing program October 8, 2026 | 10:57 am CDT googletag.cmd.push(function() { // Start by defining breakpoints for this ad. var mapping = googletag.sizeMapping() .addSize([768, 0], [320, 50]) .addSize([480, 0], "
-      },
-      {
        "title": "Forestry restoration allows trail to reopen after Cairngorms wildfire",
        "url": "https://www.forestryjournal.co.uk/news/26610716.cairngorms-green-lochan-path-reopens-wildfire/?ref=rss",
        "source": "Forestry Journal",
@@ -575,55 +544,21 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Norway mackerel export prices climb still in NOK terms with pressure on Japanese value chains",
-       "url": "https://www.undercurrentnews.com/2026/10/09/norway-mackerel-export-prices-climb-still-in-nok-terms-with-pressure-on-japanese-value-chains/",
+       "title": "China, Canada seafood trade deal possible if negotiators meet halfway, Chinese ambassador advises",
+       "url": "https://www.undercurrentnews.com/2026/10/09/china-canada-seafood-trade-deal-possible-if-negotiators-meet-halfway-chinese-ambassador-advises/",
        "source": "Undercurrent News",
-       "published": "2026-10-09T10:30:34.000Z",
+       "published": "2026-10-09T16:31:24.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/norway-mackerel-export-prices-climb-still-in-nok-terms-with-pressure-on-japanese-value-chains/",
+         "url": "https://www.undercurrentnews.com/2026/10/09/china-canada-seafood-trade-deal-possible-if-negotiators-meet-halfway-chinese-ambassador-advises/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Norway mackerel export prices climb still in NOK terms with pressure on Japanese value chains"
-      },
-      {
-       "title": "No sign of parliament-ordered aquaculture changes in Norway gov’t budget",
-       "url": "https://www.undercurrentnews.com/2026/10/09/no-sign-of-parliament-ordered-aquaculture-changes-in-norway-govt-budget/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T10:26:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/no-sign-of-parliament-ordered-aquaculture-changes-in-norway-govt-budget/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "No sign of parliament-ordered aquaculture changes in Norway gov't budget"
-      },
-      {
-       "title": "Shrimpers under pressure from weather, import ban",
-       "url": "https://www.bangkokpost.com/business/general/3333858/shrimpers-under-pressure-from-weather-import-ban",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-08T22:41:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333858/shrimpers-under-pressure-from-weather-import-ban",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Thai shrimp industry faces challenges from climate conditions and Malaysia's suspension of imports, says a member of the Thai Shrimp Association."
+       "blurb": "China, Canada seafood trade deal possible if negotiators meet halfway, Chinese ambassador advises"
       },
       {
        "title": "EU debates harsh working conditions for fishers: 'I had no other choice'",
@@ -643,129 +578,98 @@
        "blurb": "Endless weeks, shifts of up to 24 hours and even no drinking water: these were some of the hardships aired last week at a debate held by the EU Fisheries Committee with sector representatives."
       },
       {
-       "title": "UCN launches Europe-bound Ecuadorian vannamei shrimp FOB price assessments, with 2 year history",
-       "url": "https://www.undercurrentnews.com/2026/10/09/ucn-launches-europe-bound-ecuadorian-vannamei-shrimp-fob-price-assessments-with-2-year-history/",
+       "title": "Specialty seafood, meat retailer exits Canada",
+       "url": "https://www.undercurrentnews.com/2026/10/09/specialty-seafood-meat-retailer-exits-canada/",
        "source": "Undercurrent News",
-       "published": "2026-10-09T10:22:15.000Z",
+       "published": "2026-10-09T16:51:09.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/ucn-launches-europe-bound-ecuadorian-vannamei-shrimp-fob-price-assessments-with-2-year-history/",
+         "url": "https://www.undercurrentnews.com/2026/10/09/specialty-seafood-meat-retailer-exits-canada/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "UCN launches Europe-bound Ecuadorian vannamei shrimp FOB price assessments, with 2 year history"
+       "blurb": "Specialty seafood, meat retailer exits Canada"
       },
       {
-       "title": "Ecuador-to-Europe shrimp prices steady as sellers weigh seasonal demand prospects",
-       "url": "https://www.undercurrentnews.com/2026/10/09/ecuador-to-europe-shrimp-prices-steady-as-sellers-weigh-seasonal-demand-prospects/",
+       "title": "Red Lobster turns to $1 deals, extends Endless Shrimp",
+       "url": "https://www.undercurrentnews.com/2026/10/09/red-lobster-turns-to-1-deals-extends-endless-shrimp/",
        "source": "Undercurrent News",
-       "published": "2026-10-09T10:17:49.000Z",
+       "published": "2026-10-09T16:43:49.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/ecuador-to-europe-shrimp-prices-steady-as-sellers-weigh-seasonal-demand-prospects/",
+         "url": "https://www.undercurrentnews.com/2026/10/09/red-lobster-turns-to-1-deals-extends-endless-shrimp/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Ecuador-to-Europe shrimp prices steady as sellers weigh seasonal demand prospects"
+       "blurb": "Red Lobster turns to $1 deals, extends Endless Shrimp"
       },
       {
-       "title": "Nordic Aqua nears 6,000t annual salmon harvest as Q3 beats expectations",
-       "url": "https://www.undercurrentnews.com/2026/10/09/nordic-aqua-nears-6000t-annual-salmon-harvest-as-q3-beats-expectations/",
+       "title": "Southern bluefin tuna quota increases 14.5% as CCSBT ends year-long deadlock",
+       "url": "https://www.undercurrentnews.com/2026/10/09/southern-bluefin-tuna-quota-increases-14-5-as-ccsbt-ends-year-long-deadlock/",
        "source": "Undercurrent News",
-       "published": "2026-10-09T10:09:24.000Z",
+       "published": "2026-10-09T16:02:40.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/nordic-aqua-nears-6000t-annual-salmon-harvest-as-q3-beats-expectations/",
+         "url": "https://www.undercurrentnews.com/2026/10/09/southern-bluefin-tuna-quota-increases-14-5-as-ccsbt-ends-year-long-deadlock/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Nordic Aqua nears 6,000t annual salmon harvest as Q3 beats expectations"
+       "blurb": "Southern bluefin tuna quota increases 14.5% as CCSBT ends year-long deadlock"
       },
       {
-       "title": "Chilean farmer Multi X loses at least 300t of salmon to algal bloom",
-       "url": "https://www.undercurrentnews.com/2026/10/09/chilean-farmer-multi-x-loses-at-least-300t-of-salmon-to-algal-bloom/",
+       "title": "US red drum aquaculture startup approaches final permit hurdle",
+       "url": "https://www.undercurrentnews.com/2026/10/09/us-red-drum-aquaculture-startup-approaches-final-permit-hurdle/",
        "source": "Undercurrent News",
-       "published": "2026-10-09T10:06:21.000Z",
+       "published": "2026-10-09T15:42:41.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/chilean-farmer-multi-x-loses-at-least-300t-of-salmon-to-algal-bloom/",
+         "url": "https://www.undercurrentnews.com/2026/10/09/us-red-drum-aquaculture-startup-approaches-final-permit-hurdle/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Chilean farmer Multi X loses at least 300t of salmon to algal bloom"
-      },
-      {
-       "title": "US wholesale: Norwegian fresh salmon prices ease while scarce Chilean frozen fillets rise",
-       "url": "https://www.undercurrentnews.com/2026/10/09/norwegian-fresh-salmon-eases-while-scarce-chilean-frozen-fillets-rise/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T10:03:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/norwegian-fresh-salmon-eases-while-scarce-chilean-frozen-fillets-rise/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "US wholesale: Norwegian fresh salmon prices ease while scarce Chilean frozen fillets rise"
-      },
-      {
-       "title": "Norway, UK mackerel packers expect 2027 quota deal near ICES advice",
-       "url": "https://www.undercurrentnews.com/2026/10/09/norway-uk-mackerel-packers-expect-2027-quota-deal-near-ices-advice/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T09:56:06.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/norway-uk-mackerel-packers-expect-2027-quota-deal-near-ices-advice/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Norway, UK mackerel packers expect 2027 quota deal near ICES advice"
-      },
-      {
-       "title": "Week 41 Japan tuna roundup: Domestic bluefin prices rebound 30% as purse seine supplies ease",
-       "url": "https://www.undercurrentnews.com/2026/10/09/week-41-japan-tuna-roundup-domestic-bluefin-prices-rebound-30-as-purse-seine-supplies-ease/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T09:51:24.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/week-41-japan-tuna-roundup-domestic-bluefin-prices-rebound-30-as-purse-seine-supplies-ease/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Week 41 Japan tuna roundup: Domestic bluefin prices rebound 30% as purse seine supplies ease"
+       "blurb": "US red drum aquaculture startup approaches final permit hurdle"
       }
      ]
     },
     "oilgas": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Pacific Coast Energy Secures Agreements with PdVSA to Revive Oilfields",
+       "url": "https://www.rigzone.com/news/pacific_coast_energy_secures_agreements_with_pdvsa_to_revive_oilfields-09-oct-2026-184817-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-09T14:16:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/pacific_coast_energy_secures_agreements_with_pdvsa_to_revive_oilfields-09-oct-2026-184817-article/?rss=true",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "With a projected capital of $3.5 billion, the agreed program for the onshore Cabimas and Delta blocks forecasts production of up to 150,000-160,000 bpd for over 10 years."
+      },
       {
        "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
@@ -792,6 +696,26 @@
        "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
       },
       {
+       "title": "Hyperscaler Backs BKV’s 1.2 GW Natural Gas Power Push Near Dallas",
+       "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-09T12:56:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "BKV has locked in about 1,200 MW of natural gas-fired generation equipment with financial backing from an unnamed investment-grade hyperscaler, advancing the Barnett Shale producer’s push to sell power into the fast-growing Dallas-Fort Worth (DFW) market."
+      },
+      {
        "title": "Saudi, UAE Join Push for SE Asian Oil Reserves",
        "url": "https://www.rigzone.com/news/wire/saudi_uae_join_push_for_se_asian_oil_reserves-09-oct-2026-184808-article/?rss=true",
        "source": "Rigzone",
@@ -810,6 +734,31 @@
         "stage": "extraction"
        },
        "blurb": "Saudi Arabia and the United Arab Emirates will support a Japanese initiative to bolster oil supplies in Southeast Asia after war-driven disruptions heightened concerns over energy security."
+      },
+      {
+       "title": "Hurricane Isaias poses new threat to tight U.S. fuel market",
+       "url": "https://www.ttnews.com/articles/isaias-threat-us-fuel-market",
+       "source": "Transport Topics",
+       "published": "2026-10-08T19:15:00.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Hydro Review",
+         "url": "https://www.renewableenergyworld.com/power-grid/outage-management/southeastern-us-utilities-are-preparing-for-hurricane-isaias-to-make-landfall/",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/hurricane-isaias-fuel-prices",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "Nearly 500,000 barrels a day of oil-refining capacity sit in the projected path of Hurricane Isaias, raising the risk that the U.S. fuel market will lose critical output."
       },
       {
        "title": "Posco completes second upstream lithium plant in Argentina",
@@ -882,26 +831,6 @@
        "blurb": "The sanctions come on the heels of the EU approving another sanctions package Wednesday."
       },
       {
-       "title": "Syria Expects to Double Oil Output in a Year",
-       "url": "https://www.rigzone.com/news/wire/syria_expects_to_double_oil_output_in_a_year-08-oct-2026-184797-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-08T08:08:27.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/syria_expects_to_double_oil_output_in_a_year-08-oct-2026-184797-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "extraction"
-       },
-       "blurb": "State-owned Syria Petroleum expects oil output to increase to about 250,000 barrels a day by the end of 2027 from about 110,000 barrels a day now by investing in existing fields."
-      },
-      {
        "title": "Fresh North Sea gas discovery yields up to 10 million barrels of oil equivalent",
        "url": "https://offshore-energy.biz/2026/10/08/fresh-north-sea-gas-discovery-yields-up-to-10-million-barrels-of-oil-equivalent",
        "source": "Offshore Energy",
@@ -947,26 +876,6 @@
        "blurb": "A federal lease sale in California for oil and gas development has been announced, despite criticism from state officials over an environmental assessment."
       },
       {
-       "title": "U.S. natural gas production reached a record high in July 2026",
-       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68225",
-       "source": "EIA Today in Energy",
-       "published": "2026-10-02T14:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "EIA Today in Energy",
-         "url": "https://www.eia.gov/todayinenergy/detail.php?id=68225",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "extraction"
-       },
-       "blurb": "U.S. natural gas production hit an all-time high in July 2026, driven primarily by increased output in the Permian Basin, according to our latest Natural Gas Monthly."
-      },
-      {
        "title": "SLB signs 15-year digital drilling contract with TotalEnergies",
        "url": "https://www.offshore-technology.com/news/slb-digital-drilling-contract-totalenergies/",
        "source": "Offshore Technology",
@@ -1007,29 +916,39 @@
         "stage": "extraction"
        },
        "blurb": "The Morpho well, drilled in deep waters off Amapá, reached an oil-bearing interval, with ongoing analyses confirming good oil quality and promising further exploration opportunities in the Foz do Amazonas basin."
-      },
-      {
-       "title": "Kenorland, Auranova launch phase four drilling at South Uchi Project",
-       "url": "https://www.mining-technology.com/news/kenorland-auranova-south-uchi-phase-4-drilling/",
-       "source": "Mining Technology",
-       "published": "2026-10-08T09:45:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/kenorland-auranova-south-uchi-phase-4-drilling/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Kenorland Minerals and Auranova Resources have launched the phase 4 diamond drilling at the South Uchi Project in Ontario’s Red Lake District, Canada. The post Kenorland, Auranova launch phase four drilling at South Uchi Project appeared first on Mining Technology ."
       }
      ]
     },
     "mining": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "EU Commission selects 46 new raw materials projects",
+       "url": "https://www.electrive.com/2026/10/09/eu-commission-selects-46-new-raw-materials-projects/",
+       "source": "electrive",
+       "published": "2026-10-09T14:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "European Commission press corner",
+         "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2115",
+         "primary": true
+        },
+        {
+         "name": "electrive",
+         "url": "https://www.electrive.com/2026/10/09/eu-commission-selects-46-new-raw-materials-projects/",
+         "primary": false
+        },
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/ec-46-projects-raw-material-supply/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The EU Commission has selected 46 additional strategic raw material projects across 16 member states. Many of these involve lithium, nickel, cobalt, manganese, and graphite, which are particularly critical for the battery industry. This time, Germany is well-represented with eigh"
+      },
       {
        "title": "CleanTech Lithium expands foothold in Argentina",
        "url": "https://www.northernminer.com/news/cleantech-lithium-expands-foothold-in-argentina/1003895600/",
@@ -1097,41 +1016,106 @@
        "blurb": "If the current rate of is maintained, registered South African mines will record about 70 mining deaths in 2026, up from 41 last year."
       },
       {
-       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
-       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-       "source": "NASA News",
-       "published": "2026-10-08T15:46:25.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "extraction"
-       },
-       "blurb": "Editor’s note: This release was updated Oct. 8, 2026 with the formal name of the summit. As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Tog"
-      },
-      {
-       "title": "Copper Queens must find their hunger again",
-       "url": "https://www.lusakatimes.com/2026/10/09/copper-queens-must-find-their-hunger-again/",
-       "source": "Lusaka Times",
-       "published": "2026-10-09T12:18:34.000Z",
+       "title": "Bitdeer expands Soluna mining agreement to 35MW",
+       "url": "https://www.datacenterdynamics.com/en/news/bitdeer-expands-soluna-mining-agreement-to-35mw/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-09T16:07:46.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/09/copper-queens-must-find-their-hunger-again/",
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/bitdeer-expands-soluna-mining-agreement-to-35mw/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The 2-1 defeat to Uganda in Kampala is not just a loss, it is a warning for the Zambia Women’s National Football Team. For a team that has flown Zambia’s flag at the Tokyo 2020 and Paris 2024 Olympics, to surrender a lead so early and so cheaply against Uganda raises serious ques"
+       "blurb": "Builds on agreement announced in August"
+      },
+      {
+       "title": "Hot Chili drills shallow copper, gold in Chile",
+       "url": "https://www.northernminer.com/news/hot-chili-drills-shallow-copper-gold-in-chile/1003895627/",
+       "source": "The Northern Miner",
+       "published": "2026-10-09T15:19:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/hot-chili-drills-shallow-copper-gold-in-chile/1003895627/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New drilling by Glencore (LSE: GLEN)-backed Hot Chili (ASX, TSX-V: HCH; US-OTC: HHLKF) has extended shallow copper-gold mineralization at its La Verde porphyry discovery in coastal Chile, strengthening the case... The post Hot Chili drills shallow copper, gold in Chile appeared f"
+      },
+      {
+       "title": "Gold council urges miners to name refiners",
+       "url": "https://www.northernminer.com/news/gold-council-urges-miners-to-name-refiners/1003895621/",
+       "source": "The Northern Miner",
+       "published": "2026-10-09T14:06:41.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/gold-council-urges-miners-to-name-refiners/1003895621/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Gold miners are being urged to identify the refiners receiving metal from each operating mine under a World Gold Council disclosure framework aimed at making legitimate gold flows easier to... The post Gold council urges miners to name refiners appeared first on The Northern Mine"
+      },
+      {
+       "title": "Guanajuato Silver completes tunnel linking San Ignacio and Bolanitos mines",
+       "url": "https://www.mining-technology.com/news/guanajuato-tunnel-linking-san-ignacio-bolanitos/",
+       "source": "Mining Technology",
+       "published": "2026-10-09T13:57:56.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/guanajuato-tunnel-linking-san-ignacio-bolanitos/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Guanajuato Silver has completed a 267m long underground production ramp that connects the San Ignacio mine with the Bolanitos mining complex in central Mexico. The post Guanajuato Silver completes tunnel linking San Ignacio and Bolanitos mines appeared first on Mining Technology "
+      },
+      {
+       "title": "Liberia: Liberia Moves to Overhaul Mining Law As Second MCC Compact Negotiations Advance",
+       "url": "https://allafrica.com/stories/202610090497.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T13:18:21.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090497.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Liberian Investigator] MONROVIA -- Liberia has intensified efforts to overhaul its mining law as part of critical reforms tied to negotiations for a second Millennium Challenge Corporation (MCC) Compact, with the Law Reform Commission (LRC) leading a review of the country's lega"
+      },
+      {
+       "title": "Infographic: Can Quebec build Canada’s first graphite supply chain?",
+       "url": "https://www.northernminer.com/news/infographic-can-quebec-build-canadas-first-graphite-supply-chain/1003895573/",
+       "source": "The Northern Miner",
+       "published": "2026-10-09T13:00:29.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/infographic-can-quebec-build-canadas-first-graphite-supply-chain/1003895573/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Of Quebec’s many active and planned critical mineral operations, its graphite sector could be the first to establish a complete mine-to-battery-material supply chain in the province. Nouveau Monde Graphite (NYSE:... The post Infographic: Can Quebec build Canada’s first graphite s"
       },
       {
        "title": "UK scientists turn to biology in search for cleaner lithium",
@@ -1151,106 +1135,21 @@
        "blurb": "Researchers at the University of Birmingham are leading a £6.2-million ($8.2-million) project to develop protein-based membranes that could make lithium extraction more selective and potentially less energy-intensive. The three-year initiative,... The post UK scientists turn to b"
       },
       {
-       "title": "Mastermyne contracted for mining services at Tahmoor mine",
-       "url": "https://im-mining.com/2026/10/09/mastermyne-contracted-for-mining-services-at-tahmoor-mine/",
-       "source": "International Mining",
-       "published": "2026-10-09T08:41:46.000Z",
+       "title": "Family turns bare island into reef oasis after guano mining destroys it",
+       "url": "https://www.abc.net.au/news/2026-10-10/guano-mine-rehabilitation-on-lady-elliot-island-birds-return/107138364",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-09T18:30:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "International Mining",
-         "url": "https://im-mining.com/2026/10/09/mastermyne-contracted-for-mining-services-at-tahmoor-mine/",
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-10/guano-mine-rehabilitation-on-lady-elliot-island-birds-return/107138364",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Mastermyne Group Limited has announced the execution of a new mining services contract with GMT Mining Pty Ltd in relation to the restart and ongoing operation of Tahmoor Mine. Tahmoor Mine was acquired by a consortium comprising M Group (Mastermyne’s largest shareholder) and Gol"
-      },
-      {
-       "title": "New battery capability for dual-use UPS and AI factory dynamic power management",
-       "url": "https://www.datacenterdynamics.com/en/whitepapers/new-battery-capability-for-dual-use-ups-and-ai-factory-dynamic-power-management/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-09T08:10:37.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/whitepapers/new-battery-capability-for-dual-use-ups-and-ai-factory-dynamic-power-management/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "How nickel-zinc batteries can provide both UPS backup and rapid dynamic power support for AI data centers facing increasingly volatile power demands"
-      },
-      {
-       "title": "Trump unveils plans to build $15B steel mill in Iowa",
-       "url": "https://www.supplychaindive.com/news/trump-unveils-plans-to-build-15b-steel-mill-in-iowa/831654/",
-       "source": "Supply Chain Dive",
-       "published": "2026-10-08T14:51:04.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Supply Chain Dive",
-         "url": "https://www.supplychaindive.com/news/trump-unveils-plans-to-build-15b-steel-mill-in-iowa/831654/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Mesabi Metallics’ steel facility will be the largest in the U.S., creating 1,750 jobs and adding 10 million tons of annual production capacity. The company is also investing $3 billion to complete an iron ore mine in Minnesota."
-      },
-      {
-       "title": "Wesdome eyes low-cost gold boost at Quebec’s Kiena",
-       "url": "https://www.northernminer.com/news/wesdome-eyes-low-cost-gold-boost-at-quebecs-kiena/1003895550/",
-       "source": "The Northern Miner",
-       "published": "2026-10-08T20:35:31.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/wesdome-eyes-low-cost-gold-boost-at-quebecs-kiena/1003895550/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Wesdome Gold Mines’ (TSX: WDO; US-OTC: WDOFF) Kiena mine in Val-d’Or, Que., could increase production by 10% to 15% without major new capital spending, while an aggressive drilling program is... The post Wesdome eyes low-cost gold boost at Quebec’s Kiena appeared first on The Nor"
-      },
-      {
-       "title": "Copper price gains as Chile strike threatens output",
-       "url": "https://www.northernminer.com/news/copper-price-gains-as-chile-strike-threatens-output/1003895558/",
-       "source": "The Northern Miner",
-       "published": "2026-10-08T20:15:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/copper-price-gains-as-chile-strike-threatens-output/1003895558/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Copper prices climbed Thursday as a strike by more than 700 workers at Antofagasta’s (LSE: ANTO) Centinela mine in Chile raised concerns about production disruptions that could become more serious... The post Copper price gains as Chile strike threatens output appeared first on T"
-      },
-      {
-       "title": "Gold Mountain targets WWII tungsten mine in Brazil",
-       "url": "https://www.northernminer.com/news/gold-mountain-targets-wwii-tungsten-mine-in-brazil/1003895571/",
-       "source": "The Northern Miner",
-       "published": "2026-10-08T20:10:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/gold-mountain-targets-wwii-tungsten-mine-in-brazil/1003895571/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Gold Mountain (ASX: GMN) is weighing the revival of a Brazilian tungsten mine that began during the Second World War after securing a 12-month exclusive right to acquire the property... The post Gold Mountain targets WWII tungsten mine in Brazil appeared first on The Northern Min"
+       "blurb": "Lady Elliot Island sat bare, bleak and silent for 100 years after guano miners ravaged it, leaving a moonscape devoid of life. Then in the 1960s, one family started planting trees."
       }
      ]
     }
@@ -1388,23 +1287,6 @@
        "blurb": "Student interest in AI safety is surging, and schools are rushing to prepare for new career paths."
       },
       {
-       "title": "Does the cattle market see an open gate?",
-       "url": "https://www.farmprogress.com/marketing/does-the-cattle-market-see-an-open-gate-",
-       "source": "Farm Progress",
-       "published": "2026-10-08T18:34:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Farm Progress",
-         "url": "https://www.farmprogress.com/marketing/does-the-cattle-market-see-an-open-gate-",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Ag Marketing IQ: Underlying friendly fundamentals clash with larger numbers, including a 15% uptick in beef imports, but futures prices could be poised to break out of recent trading range."
-      },
-      {
        "title": "Opinion: If America wants more beef, it needs more grass",
        "url": "https://www.agri-pulse.com/articles/25350-if-america-wants-more-beef-it-needs-more-grass",
        "source": "Agri-Pulse",
@@ -1440,53 +1322,76 @@
       }
      ]
     },
-    "forestry": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Woodworking college receives accreditation for Carpentry and Timber Framing program",
-       "url": "https://www.woodworkingnetwork.com/news/woodworking-industry-news/woodworking-college-receives-accreditation-carpentry-and-timber",
-       "source": "Woodworking Network",
-       "published": "2026-10-08T15:57:47.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Woodworking Network",
-         "url": "https://www.woodworkingnetwork.com/news/woodworking-industry-news/woodworking-college-receives-accreditation-carpentry-and-timber",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Woodworking college receives accreditation for Carpentry and Timber Framing program October 8, 2026 | 10:57 am CDT googletag.cmd.push(function() { // Start by defining breakpoints for this ad. var mapping = googletag.sizeMapping() .addSize([768, 0], [320, 50]) .addSize([480, 0], "
-      }
-     ]
-    },
     "fishing": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "US wholesale: Norwegian fresh salmon prices ease while scarce Chilean frozen fillets rise",
-       "url": "https://www.undercurrentnews.com/2026/10/09/norwegian-fresh-salmon-eases-while-scarce-chilean-frozen-fillets-rise/",
+       "title": "US red drum aquaculture startup approaches final permit hurdle",
+       "url": "https://www.undercurrentnews.com/2026/10/09/us-red-drum-aquaculture-startup-approaches-final-permit-hurdle/",
        "source": "Undercurrent News",
-       "published": "2026-10-09T10:03:49.000Z",
+       "published": "2026-10-09T15:42:41.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/norwegian-fresh-salmon-eases-while-scarce-chilean-frozen-fillets-rise/",
+         "url": "https://www.undercurrentnews.com/2026/10/09/us-red-drum-aquaculture-startup-approaches-final-permit-hurdle/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "US wholesale: Norwegian fresh salmon prices ease while scarce Chilean frozen fillets rise"
+       "blurb": "US red drum aquaculture startup approaches final permit hurdle"
       }
      ]
     },
     "oilgas": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Hyperscaler Backs BKV’s 1.2 GW Natural Gas Power Push Near Dallas",
+       "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-09T12:56:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "BKV has locked in about 1,200 MW of natural gas-fired generation equipment with financial backing from an unnamed investment-grade hyperscaler, advancing the Barnett Shale producer’s push to sell power into the fast-growing Dallas-Fort Worth (DFW) market."
+      },
+      {
+       "title": "Hurricane Isaias poses new threat to tight U.S. fuel market",
+       "url": "https://www.ttnews.com/articles/isaias-threat-us-fuel-market",
+       "source": "Transport Topics",
+       "published": "2026-10-08T19:15:00.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Hydro Review",
+         "url": "https://www.renewableenergyworld.com/power-grid/outage-management/southeastern-us-utilities-are-preparing-for-hurricane-isaias-to-make-landfall/",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/hurricane-isaias-fuel-prices",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "Nearly 500,000 barrels a day of oil-refining capacity sit in the projected path of Hurricane Isaias, raising the risk that the U.S. fuel market will lose critical output."
+      },
       {
        "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
@@ -1533,26 +1438,6 @@
        "blurb": "Physical natural gas pricing declined overall on Thursday, led lower by the pipeline-constrained East as well as California."
       },
       {
-       "title": "U.S. natural gas production reached a record high in July 2026",
-       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68225",
-       "source": "EIA Today in Energy",
-       "published": "2026-10-02T14:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "EIA Today in Energy",
-         "url": "https://www.eia.gov/todayinenergy/detail.php?id=68225",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "extraction"
-       },
-       "blurb": "U.S. natural gas production hit an all-time high in July 2026, driven primarily by increased output in the Permian Basin, according to our latest Natural Gas Monthly."
-      },
-      {
        "title": "US BLM sets December California oil, gas lease sale",
        "url": "https://www.ogj.com/general-interest/government/news/55409584/us-blm-sets-december-california-oil-gas-lease-sale",
        "source": "Oil & Gas Journal",
@@ -1593,49 +1478,12 @@
        "stages": [],
        "via": null,
        "blurb": "Environmental groups and citizens are urging Pennsylvania regulators to increase the minimum amount of protective buffer space between gas wells and homes, schools and water sources. The issue has taken on new urgency as the AI data center buildout spurs more demand for natural g"
-      },
-      {
-       "title": "Matador outlines drilling plans with Paloma acquisition now closed",
-       "url": "https://www.ogj.com/general-interest/companies/news/55409182/matador-outlines-drilling-plans-with-paloma-acquisition-now-closed",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-01T21:17:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/companies/news/55409182/matador-outlines-drilling-plans-with-paloma-acquisition-now-closed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Through the Paloma acquisition and the expected acreage additions from the recently announced Ridge Runner Resources deal, Matador Resources will have about 240,000 net acres in the core of the Delaware basin in fourth-quarter 2026. Together with the May Federal lease sale, the d"
       }
      ]
     },
     "mining": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
-       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-       "source": "NASA News",
-       "published": "2026-10-08T15:46:25.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "extraction"
-       },
-       "blurb": "Editor’s note: This release was updated Oct. 8, 2026 with the formal name of the summit. As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Tog"
-      },
       {
        "title": "Trump unveils plans to build $15B steel mill in Iowa",
        "url": "https://www.supplychaindive.com/news/trump-unveils-plans-to-build-15b-steel-mill-in-iowa/831654/",
@@ -1652,6 +1500,23 @@
        "stages": [],
        "via": null,
        "blurb": "Mesabi Metallics’ steel facility will be the largest in the U.S., creating 1,750 jobs and adding 10 million tons of annual production capacity. The company is also investing $3 billion to complete an iron ore mine in Minnesota."
+      },
+      {
+       "title": "Hot Chili drills shallow copper, gold in Chile",
+       "url": "https://www.northernminer.com/news/hot-chili-drills-shallow-copper-gold-in-chile/1003895627/",
+       "source": "The Northern Miner",
+       "published": "2026-10-09T15:19:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/hot-chili-drills-shallow-copper-gold-in-chile/1003895627/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New drilling by Glencore (LSE: GLEN)-backed Hot Chili (ASX, TSX-V: HCH; US-OTC: HHLKF) has extended shallow copper-gold mineralization at its La Verde porphyry discovery in coastal Chile, strengthening the case... The post Hot Chili drills shallow copper, gold in Chile appeared f"
       },
       {
        "title": "Mine backed by US, Australia and Gina Rinehart moves towards construction",
@@ -1703,23 +1568,6 @@
        "stages": [],
        "via": null,
        "blurb": "Controlled Thermal Resources is strengthening and simplifying its capital structure as it develops the Hell's Kitchen geothermal and lithium project. The post CTR restructures debt to advance Hell’s Kitchen geothermal and lithium project in California first appeared on ThinkGeoEn"
-      },
-      {
-       "title": "Sigma Lithium jumps after Brazil court reopens mine",
-       "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
-       "source": "The Northern Miner",
-       "published": "2026-10-07T15:33:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Sigma Lithium (Nasdaq, TSXV: SGML; ASX: SAU) shares rose as much as 6.7% in New York on Wednesday after a Brazilian appeals court upheld its environmental licences, clearing the company... The post Sigma Lithium jumps after Brazil court reopens mine appeared first on The Northern"
       }
      ]
     }
@@ -1789,6 +1637,245 @@
     }
    }
   },
+  "ca": {
+   "label": "Canada",
+   "level": "country",
+   "sources": {
+    "fishing": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "China, Canada seafood trade deal possible if negotiators meet halfway, Chinese ambassador advises",
+       "url": "https://www.undercurrentnews.com/2026/10/09/china-canada-seafood-trade-deal-possible-if-negotiators-meet-halfway-chinese-ambassador-advises/",
+       "source": "Undercurrent News",
+       "published": "2026-10-09T16:31:24.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Undercurrent News",
+         "url": "https://www.undercurrentnews.com/2026/10/09/china-canada-seafood-trade-deal-possible-if-negotiators-meet-halfway-chinese-ambassador-advises/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "China, Canada seafood trade deal possible if negotiators meet halfway, Chinese ambassador advises"
+      },
+      {
+       "title": "Specialty seafood, meat retailer exits Canada",
+       "url": "https://www.undercurrentnews.com/2026/10/09/specialty-seafood-meat-retailer-exits-canada/",
+       "source": "Undercurrent News",
+       "published": "2026-10-09T16:51:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Undercurrent News",
+         "url": "https://www.undercurrentnews.com/2026/10/09/specialty-seafood-meat-retailer-exits-canada/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Specialty seafood, meat retailer exits Canada"
+      }
+     ]
+    },
+    "oilgas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Kenorland, Auranova launch phase four drilling at South Uchi Project",
+       "url": "https://www.mining-technology.com/news/kenorland-auranova-south-uchi-phase-4-drilling/",
+       "source": "Mining Technology",
+       "published": "2026-10-08T09:45:44.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/kenorland-auranova-south-uchi-phase-4-drilling/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Kenorland Minerals and Auranova Resources have launched the phase 4 diamond drilling at the South Uchi Project in Ontario’s Red Lake District, Canada. The post Kenorland, Auranova launch phase four drilling at South Uchi Project appeared first on Mining Technology ."
+      }
+     ]
+    },
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Infographic: Can Quebec build Canada’s first graphite supply chain?",
+       "url": "https://www.northernminer.com/news/infographic-can-quebec-build-canadas-first-graphite-supply-chain/1003895573/",
+       "source": "The Northern Miner",
+       "published": "2026-10-09T13:00:29.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/infographic-can-quebec-build-canadas-first-graphite-supply-chain/1003895573/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Of Quebec’s many active and planned critical mineral operations, its graphite sector could be the first to establish a complete mine-to-battery-material supply chain in the province. Nouveau Monde Graphite (NYSE:... The post Infographic: Can Quebec build Canada’s first graphite s"
+      },
+      {
+       "title": "Editorial: Quebec’s new power rationing",
+       "url": "https://www.northernminer.com/regulatory-issues/editorial-quebecs-new-power-rationing/1003895616/",
+       "source": "The Northern Miner",
+       "published": "2026-10-09T12:45:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/regulatory-issues/editorial-quebecs-new-power-rationing/1003895616/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "This editorial appeared in The Northern Miner’s October print edition, which features a special focus on Quebec’s mining industry. As the province pursues new mines and mineral-processing plants, we examine... The post Editorial: Quebec’s new power rationing appeared first on The"
+      },
+      {
+       "title": "Wesdome eyes low-cost gold boost at Quebec’s Kiena",
+       "url": "https://www.northernminer.com/news/wesdome-eyes-low-cost-gold-boost-at-quebecs-kiena/1003895550/",
+       "source": "The Northern Miner",
+       "published": "2026-10-08T20:35:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/wesdome-eyes-low-cost-gold-boost-at-quebecs-kiena/1003895550/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Wesdome Gold Mines’ (TSX: WDO; US-OTC: WDOFF) Kiena mine in Val-d’Or, Que., could increase production by 10% to 15% without major new capital spending, while an aggressive drilling program is... The post Wesdome eyes low-cost gold boost at Quebec’s Kiena appeared first on The Nor"
+      },
+      {
+       "title": "Elevra Lithium to supply spodumene to LG Energy Solution",
+       "url": "https://www.mining-technology.com/news/elevra-supply-spodumene-lg-energy/",
+       "source": "Mining Technology",
+       "published": "2026-10-08T12:26:40.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/elevra-supply-spodumene-lg-energy/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Elevra Lithium has signed a binding agreement to supply spodumene concentrate from its North American Lithium (NAL) facility in Québec, Canada, to LG Energy Solution. The post Elevra Lithium to supply spodumene to LG Energy Solution appeared first on Mining Technology ."
+      },
+      {
+       "title": "Vista Coal Mine Expansion Approved",
+       "url": "https://www.coalage.com/departments/world-news/vista-coal-mine-expansion-approved/",
+       "source": "Coal Age",
+       "published": "2026-09-29T19:27:08.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Coal Age",
+         "url": "https://www.coalage.com/departments/world-news/vista-coal-mine-expansion-approved/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "Coalspur Mines Ltd. received regulatory permit approvals from the Alberta Energy Regulator (AER) to move forward with its Phase II Expansion Project on the Vista coal mine, located near Hinton, Alberta, Canada. Regulatory documents show that approval for the expansion was granted"
+      }
+     ]
+    }
+   }
+  },
+  "ca-qc": {
+   "label": "Québec",
+   "level": "admin1",
+   "sources": {
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Infographic: Can Quebec build Canada’s first graphite supply chain?",
+       "url": "https://www.northernminer.com/news/infographic-can-quebec-build-canadas-first-graphite-supply-chain/1003895573/",
+       "source": "The Northern Miner",
+       "published": "2026-10-09T13:00:29.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/infographic-can-quebec-build-canadas-first-graphite-supply-chain/1003895573/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Of Quebec’s many active and planned critical mineral operations, its graphite sector could be the first to establish a complete mine-to-battery-material supply chain in the province. Nouveau Monde Graphite (NYSE:... The post Infographic: Can Quebec build Canada’s first graphite s"
+      },
+      {
+       "title": "Editorial: Quebec’s new power rationing",
+       "url": "https://www.northernminer.com/regulatory-issues/editorial-quebecs-new-power-rationing/1003895616/",
+       "source": "The Northern Miner",
+       "published": "2026-10-09T12:45:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/regulatory-issues/editorial-quebecs-new-power-rationing/1003895616/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "This editorial appeared in The Northern Miner’s October print edition, which features a special focus on Quebec’s mining industry. As the province pursues new mines and mineral-processing plants, we examine... The post Editorial: Quebec’s new power rationing appeared first on The"
+      },
+      {
+       "title": "Wesdome eyes low-cost gold boost at Quebec’s Kiena",
+       "url": "https://www.northernminer.com/news/wesdome-eyes-low-cost-gold-boost-at-quebecs-kiena/1003895550/",
+       "source": "The Northern Miner",
+       "published": "2026-10-08T20:35:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/wesdome-eyes-low-cost-gold-boost-at-quebecs-kiena/1003895550/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Wesdome Gold Mines’ (TSX: WDO; US-OTC: WDOFF) Kiena mine in Val-d’Or, Que., could increase production by 10% to 15% without major new capital spending, while an aggressive drilling program is... The post Wesdome eyes low-cost gold boost at Quebec’s Kiena appeared first on The Nor"
+      },
+      {
+       "title": "Elevra Lithium to supply spodumene to LG Energy Solution",
+       "url": "https://www.mining-technology.com/news/elevra-supply-spodumene-lg-energy/",
+       "source": "Mining Technology",
+       "published": "2026-10-08T12:26:40.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/elevra-supply-spodumene-lg-energy/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Elevra Lithium has signed a binding agreement to supply spodumene concentrate from its North American Lithium (NAL) facility in Québec, Canada, to LG Energy Solution. The post Elevra Lithium to supply spodumene to LG Energy Solution appeared first on Mining Technology ."
+      }
+     ]
+    }
+   }
+  },
   "us-pa": {
    "label": "Pennsylvania",
    "level": "admin1",
@@ -1825,6 +1912,33 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "EU Commission selects 46 new raw materials projects",
+       "url": "https://www.electrive.com/2026/10/09/eu-commission-selects-46-new-raw-materials-projects/",
+       "source": "electrive",
+       "published": "2026-10-09T14:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "European Commission press corner",
+         "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2115",
+         "primary": true
+        },
+        {
+         "name": "electrive",
+         "url": "https://www.electrive.com/2026/10/09/eu-commission-selects-46-new-raw-materials-projects/",
+         "primary": false
+        },
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/ec-46-projects-raw-material-supply/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The EU Commission has selected 46 additional strategic raw material projects across 16 member states. Many of these involve lithium, nickel, cobalt, manganese, and graphite, which are particularly critical for the battery industry. This time, Germany is well-represented with eigh"
+      },
+      {
        "title": "Partnership formed for research on mine water geothermal energy in Germany",
        "url": "https://www.thinkgeoenergy.com/partnership-formed-for-research-on-mine-water-geothermal-energy-in-germany/",
        "source": "ThinkGeoEnergy",
@@ -1840,6 +1954,99 @@
        "stages": [],
        "via": null,
        "blurb": "A newly launched research projects aims to develop guidelines and standards for the practical deployment of mine water geothermal heating in Germany. The post Partnership formed for research on mine water geothermal energy in Germany first appeared on ThinkGeoEnergy - Geothermal "
+      }
+     ]
+    }
+   }
+  },
+  "us-tx": {
+   "label": "Texas",
+   "level": "admin1",
+   "sources": {
+    "oilgas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Hyperscaler Backs BKV’s 1.2 GW Natural Gas Power Push Near Dallas",
+       "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-09T12:56:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "BKV has locked in about 1,200 MW of natural gas-fired generation equipment with financial backing from an unnamed investment-grade hyperscaler, advancing the Barnett Shale producer’s push to sell power into the fast-growing Dallas-Fort Worth (DFW) market."
+      }
+     ]
+    }
+   }
+  },
+  "us-city-dallas": {
+   "label": "Dallas",
+   "level": "city",
+   "sources": {
+    "oilgas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Hyperscaler Backs BKV’s 1.2 GW Natural Gas Power Push Near Dallas",
+       "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-09T12:56:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "BKV has locked in about 1,200 MW of natural gas-fired generation equipment with financial backing from an unnamed investment-grade hyperscaler, advancing the Barnett Shale producer’s push to sell power into the fast-growing Dallas-Fort Worth (DFW) market."
+      }
+     ]
+    }
+   }
+  },
+  "us-city-fort-worth": {
+   "label": "Fort Worth",
+   "level": "city",
+   "sources": {
+    "oilgas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Hyperscaler Backs BKV’s 1.2 GW Natural Gas Power Push Near Dallas",
+       "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-09T12:56:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "BKV has locked in about 1,200 MW of natural gas-fired generation equipment with financial backing from an unnamed investment-grade hyperscaler, advancing the Barnett Shale producer’s push to sell power into the fast-growing Dallas-Fort Worth (DFW) market."
       }
      ]
     }
@@ -1953,28 +2160,6 @@
        "stages": [],
        "via": null,
        "blurb": "The new S Series brings grapple saws to three excavator size classes, while the R Series and C Series target larger machines."
-      }
-     ]
-    },
-    "fishing": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Norway, UK mackerel packers expect 2027 quota deal near ICES advice",
-       "url": "https://www.undercurrentnews.com/2026/10/09/norway-uk-mackerel-packers-expect-2027-quota-deal-near-ices-advice/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T09:56:06.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/norway-uk-mackerel-packers-expect-2027-quota-deal-near-ices-advice/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Norway, UK mackerel packers expect 2027 quota deal near ICES advice"
       }
      ]
     },
@@ -2142,110 +2327,6 @@
     }
    }
   },
-  "ca": {
-   "label": "Canada",
-   "level": "country",
-   "sources": {
-    "oilgas": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Kenorland, Auranova launch phase four drilling at South Uchi Project",
-       "url": "https://www.mining-technology.com/news/kenorland-auranova-south-uchi-phase-4-drilling/",
-       "source": "Mining Technology",
-       "published": "2026-10-08T09:45:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/kenorland-auranova-south-uchi-phase-4-drilling/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Kenorland Minerals and Auranova Resources have launched the phase 4 diamond drilling at the South Uchi Project in Ontario’s Red Lake District, Canada. The post Kenorland, Auranova launch phase four drilling at South Uchi Project appeared first on Mining Technology ."
-      }
-     ]
-    },
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Wesdome eyes low-cost gold boost at Quebec’s Kiena",
-       "url": "https://www.northernminer.com/news/wesdome-eyes-low-cost-gold-boost-at-quebecs-kiena/1003895550/",
-       "source": "The Northern Miner",
-       "published": "2026-10-08T20:35:31.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/wesdome-eyes-low-cost-gold-boost-at-quebecs-kiena/1003895550/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Wesdome Gold Mines’ (TSX: WDO; US-OTC: WDOFF) Kiena mine in Val-d’Or, Que., could increase production by 10% to 15% without major new capital spending, while an aggressive drilling program is... The post Wesdome eyes low-cost gold boost at Quebec’s Kiena appeared first on The Nor"
-      },
-      {
-       "title": "Canada’s miners must seize political opening: Gratton",
-       "url": "https://www.northernminer.com/news/canadas-miners-must-seize-political-opening-gratton/1003895518/",
-       "source": "The Northern Miner",
-       "published": "2026-10-07T20:30:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/canadas-miners-must-seize-political-opening-gratton/1003895518/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Canada’s mining industry has won the political support needed to reverse years of decline, outgoing Mining Association of Canada (MAC) president and CEO Pierre Gratton said Tuesday. Companies now need... The post Canada’s miners must seize political opening: Gratton appeared firs"
-      },
-      {
-       "title": "Elevra Lithium to supply spodumene to LG Energy Solution",
-       "url": "https://www.mining-technology.com/news/elevra-supply-spodumene-lg-energy/",
-       "source": "Mining Technology",
-       "published": "2026-10-08T12:26:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/elevra-supply-spodumene-lg-energy/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Elevra Lithium has signed a binding agreement to supply spodumene concentrate from its North American Lithium (NAL) facility in Québec, Canada, to LG Energy Solution. The post Elevra Lithium to supply spodumene to LG Energy Solution appeared first on Mining Technology ."
-      },
-      {
-       "title": "Vista Coal Mine Expansion Approved",
-       "url": "https://www.coalage.com/departments/world-news/vista-coal-mine-expansion-approved/",
-       "source": "Coal Age",
-       "published": "2026-09-29T19:27:08.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Coal Age",
-         "url": "https://www.coalage.com/departments/world-news/vista-coal-mine-expansion-approved/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "extraction"
-       },
-       "blurb": "Coalspur Mines Ltd. received regulatory permit approvals from the Alberta Energy Regulator (AER) to move forward with its Phase II Expansion Project on the Vista coal mine, located near Hinton, Alberta, Canada. Regulatory documents show that approval for the expansion was granted"
-      }
-     ]
-    }
-   }
-  },
   "ca-ab": {
    "label": "Alberta",
    "level": "admin1",
@@ -2347,39 +2428,6 @@
        "stages": [],
        "via": null,
        "blurb": "By Vladislav Vorotnikov On July 1, Russia imposed a national procurement regime for mining equipment, restricting state purchases of foreign machinery and prioritizing domestic manufacturers. The government decree, developed by the Ministry of Industry and Trade and signed by Pri"
-      }
-     ]
-    }
-   }
-  },
-  "ng": {
-   "label": "Nigeria",
-   "level": "country",
-   "sources": {
-    "crops": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Nigeria: Nigeria's Raw Commodity Exports Will Be Under Focus As Agribusiness Leaders Meet in Uyo",
-       "url": "https://allafrica.com/stories/202610090276.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-09T09:16:48.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610090276.html",
-         "primary": false
-        },
-        {
-         "name": "Premium Times (Nigeria)",
-         "url": "https://www.premiumtimesng.com/regional/south-south-regional/915588-nigerias-raw-commodity-exports-will-be-under-focus-as-agribusiness-leaders-meet-in-uyo.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Premium Times] As Nigeria struggles to turn its agricultural wealth into industrial growth and jobs, agribusiness leaders are targeting investment, processing and export opportunities at a regional conference in Uyo."
       }
      ]
     }
@@ -2639,6 +2687,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Family turns bare island into reef oasis after guano mining destroys it",
+       "url": "https://www.abc.net.au/news/2026-10-10/guano-mine-rehabilitation-on-lady-elliot-island-birds-return/107138364",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-09T18:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-10/guano-mine-rehabilitation-on-lady-elliot-island-birds-return/107138364",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Lady Elliot Island sat bare, bleak and silent for 100 years after guano miners ravaged it, leaving a moonscape devoid of life. Then in the 1960s, one family started planting trees."
+      },
+      {
        "title": "Mine backed by US, Australia and Gina Rinehart moves towards construction",
        "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
        "source": "ABC News (Australia) Business",
@@ -2759,45 +2824,6 @@
    "label": "Japan",
    "level": "country",
    "sources": {
-    "fishing": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Norway mackerel export prices climb still in NOK terms with pressure on Japanese value chains",
-       "url": "https://www.undercurrentnews.com/2026/10/09/norway-mackerel-export-prices-climb-still-in-nok-terms-with-pressure-on-japanese-value-chains/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T10:30:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/norway-mackerel-export-prices-climb-still-in-nok-terms-with-pressure-on-japanese-value-chains/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Norway mackerel export prices climb still in NOK terms with pressure on Japanese value chains"
-      },
-      {
-       "title": "Week 41 Japan tuna roundup: Domestic bluefin prices rebound 30% as purse seine supplies ease",
-       "url": "https://www.undercurrentnews.com/2026/10/09/week-41-japan-tuna-roundup-domestic-bluefin-prices-rebound-30-as-purse-seine-supplies-ease/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T09:51:24.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/week-41-japan-tuna-roundup-domestic-bluefin-prices-rebound-30-as-purse-seine-supplies-ease/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Week 41 Japan tuna roundup: Domestic bluefin prices rebound 30% as purse seine supplies ease"
-      }
-     ]
-    },
     "oilgas": {
      "brief": "missing",
      "candidates": [
@@ -2822,132 +2848,6 @@
        "blurb": "Saudi Arabia and the United Arab Emirates will support a Japanese initiative to bolster oil supplies in Southeast Asia after war-driven disruptions heightened concerns over energy security."
       }
      ]
-    },
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Copper Queens must find their hunger again",
-       "url": "https://www.lusakatimes.com/2026/10/09/copper-queens-must-find-their-hunger-again/",
-       "source": "Lusaka Times",
-       "published": "2026-10-09T12:18:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/09/copper-queens-must-find-their-hunger-again/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The 2-1 defeat to Uganda in Kampala is not just a loss, it is a warning for the Zambia Women’s National Football Team. For a team that has flown Zambia’s flag at the Tokyo 2020 and Paris 2024 Olympics, to surrender a lead so early and so cheaply against Uganda raises serious ques"
-      }
-     ]
-    }
-   }
-  },
-  "sy": {
-   "label": "Syria",
-   "level": "country",
-   "sources": {
-    "oilgas": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Syria Expects to Double Oil Output in a Year",
-       "url": "https://www.rigzone.com/news/wire/syria_expects_to_double_oil_output_in_a_year-08-oct-2026-184797-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-08T08:08:27.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/syria_expects_to_double_oil_output_in_a_year-08-oct-2026-184797-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "extraction"
-       },
-       "blurb": "State-owned Syria Petroleum expects oil output to increase to about 250,000 barrels a day by the end of 2027 from about 110,000 barrels a day now by investing in existing fields."
-      }
-     ]
-    }
-   }
-  },
-  "ca-qc": {
-   "label": "Québec",
-   "level": "admin1",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Wesdome eyes low-cost gold boost at Quebec’s Kiena",
-       "url": "https://www.northernminer.com/news/wesdome-eyes-low-cost-gold-boost-at-quebecs-kiena/1003895550/",
-       "source": "The Northern Miner",
-       "published": "2026-10-08T20:35:31.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/wesdome-eyes-low-cost-gold-boost-at-quebecs-kiena/1003895550/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Wesdome Gold Mines’ (TSX: WDO; US-OTC: WDOFF) Kiena mine in Val-d’Or, Que., could increase production by 10% to 15% without major new capital spending, while an aggressive drilling program is... The post Wesdome eyes low-cost gold boost at Quebec’s Kiena appeared first on The Nor"
-      },
-      {
-       "title": "Elevra Lithium to supply spodumene to LG Energy Solution",
-       "url": "https://www.mining-technology.com/news/elevra-supply-spodumene-lg-energy/",
-       "source": "Mining Technology",
-       "published": "2026-10-08T12:26:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/elevra-supply-spodumene-lg-energy/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Elevra Lithium has signed a binding agreement to supply spodumene concentrate from its North American Lithium (NAL) facility in Québec, Canada, to LG Energy Solution. The post Elevra Lithium to supply spodumene to LG Energy Solution appeared first on Mining Technology ."
-      }
-     ]
-    }
-   }
-  },
-  "us-de": {
-   "label": "Delaware",
-   "level": "admin1",
-   "sources": {
-    "oilgas": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Matador outlines drilling plans with Paloma acquisition now closed",
-       "url": "https://www.ogj.com/general-interest/companies/news/55409182/matador-outlines-drilling-plans-with-paloma-acquisition-now-closed",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-01T21:17:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/companies/news/55409182/matador-outlines-drilling-plans-with-paloma-acquisition-now-closed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Through the Paloma acquisition and the expected acreage additions from the recently announced Ridge Runner Resources deal, Matador Resources will have about 240,000 net acres in the core of the Delaware basin in fourth-quarter 2026. Together with the May Federal lease sale, the d"
-      }
-     ]
     }
    }
   },
@@ -2955,28 +2855,6 @@
    "label": "Pakistan",
    "level": "country",
    "sources": {
-    "crops": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Wheat output targets delayed till finalisation of price",
-       "url": "https://www.dawn.com/news/2035523/wheat-output-targets-delayed-till-finalisation-of-price",
-       "source": "Dawn Business",
-       "published": "2026-10-08T02:58:13.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2035523/wheat-output-targets-delayed-till-finalisation-of-price",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "ISLAMABAD: Although the wheat sowing season is due to start within the next few weeks, the Federal Committee on Agriculture (FCA) was unable to set production targets for Rabi crops during a meeting on Wednesday. The meeting was chaired by the Minister for National Food Security "
-      }
-     ]
-    },
     "livestock": {
      "brief": "missing",
      "candidates": [
@@ -3077,23 +2955,6 @@
        "stages": [],
        "via": null,
        "blurb": "Gold Mountain (ASX: GMN) is weighing the revival of a Brazilian tungsten mine that began during the Second World War after securing a 12-month exclusive right to acquire the property... The post Gold Mountain targets WWII tungsten mine in Brazil appeared first on The Northern Min"
-      },
-      {
-       "title": "Sigma Lithium jumps after Brazil court reopens mine",
-       "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
-       "source": "The Northern Miner",
-       "published": "2026-10-07T15:33:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Sigma Lithium (Nasdaq, TSXV: SGML; ASX: SAU) shares rose as much as 6.7% in New York on Wednesday after a Brazilian appeals court upheld its environmental licences, clearing the company... The post Sigma Lithium jumps after Brazil court reopens mine appeared first on The Northern"
       }
      ]
     }
@@ -3181,6 +3042,78 @@
        "stages": [],
        "via": null,
        "blurb": "Prefabricated homes made from Green Triangle plantation timber could improve the way Australia delivers housing, with four more forestry, manufacturing, and construction leaders confirmed to explore that opportunity with investors in Melbourne next week. That is according to The "
+      }
+     ]
+    }
+   }
+  },
+  "cn": {
+   "label": "China",
+   "level": "country",
+   "sources": {
+    "crops": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Chinese NGOs bring participatory climate risk assessment to rice-farming communities",
+       "url": "https://www.alliancemagazine.org/blog/chinese-ngos-bring-participatory-climate-risk-assessment-to-rice-farming-communities/",
+       "source": "Alliance magazine",
+       "published": "2026-10-08T13:49:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Alliance magazine",
+         "url": "https://www.alliancemagazine.org/blog/chinese-ngos-bring-participatory-climate-risk-assessment-to-rice-farming-communities/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Extreme weather triggered by climate change is putting growing pressure on food security across Asia, home to many of the world’s major rice-producing countries. China alone produces nearly 30 percent of the world’s rice. Changing … The post Chinese NGOs bring participatory clima"
+      }
+     ]
+    },
+    "fishing": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "China, Canada seafood trade deal possible if negotiators meet halfway, Chinese ambassador advises",
+       "url": "https://www.undercurrentnews.com/2026/10/09/china-canada-seafood-trade-deal-possible-if-negotiators-meet-halfway-chinese-ambassador-advises/",
+       "source": "Undercurrent News",
+       "published": "2026-10-09T16:31:24.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Undercurrent News",
+         "url": "https://www.undercurrentnews.com/2026/10/09/china-canada-seafood-trade-deal-possible-if-negotiators-meet-halfway-chinese-ambassador-advises/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "China, Canada seafood trade deal possible if negotiators meet halfway, Chinese ambassador advises"
+      }
+     ]
+    },
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Iron ore bucks Hormuz disruption as supply disputes shift to China",
+       "url": "https://www.mining-technology.com/analysis/iron-ore-bucks-hormuz-disruption-as-supply-disputes-shift-to-china/",
+       "source": "Mining Technology",
+       "published": "2026-10-08T16:00:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/analysis/iron-ore-bucks-hormuz-disruption-as-supply-disputes-shift-to-china/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Iron ore supplies have been disrupted by Hormuz tensions, while China’s procurement strategy is reshaping commerce with Australian suppliers. The post Iron ore bucks Hormuz disruption as supply disputes shift to China appeared first on Mining Technology ."
       }
      ]
     }
@@ -3372,6 +3305,174 @@
     }
    }
   },
+  "cl": {
+   "label": "Chile",
+   "level": "country",
+   "sources": {
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "FLSmidth secures $54m order for copper mine project in Chile",
+       "url": "https://www.mining-technology.com/news/flsmidth-54m-order-copper-mine-chile/",
+       "source": "Mining Technology",
+       "published": "2026-10-09T10:05:01.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/flsmidth-54m-order-copper-mine-chile/",
+         "primary": false
+        },
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/09/fls-wins-another-copper-mine-order-in-chile-for-grinding-tech-including-hpgr-ball-mill/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Danish mining equipment company FLSmidth (FLS) has received an order valued at approximately DKr360m ($54m) to supply crushing and grinding equipment for a copper mine expansion project in Northern Chile. The post FLSmidth secures $54m order for copper mine project in Chile appea"
+      },
+      {
+       "title": "Hot Chili drills shallow copper, gold in Chile",
+       "url": "https://www.northernminer.com/news/hot-chili-drills-shallow-copper-gold-in-chile/1003895627/",
+       "source": "The Northern Miner",
+       "published": "2026-10-09T15:19:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/hot-chili-drills-shallow-copper-gold-in-chile/1003895627/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New drilling by Glencore (LSE: GLEN)-backed Hot Chili (ASX, TSX-V: HCH; US-OTC: HHLKF) has extended shallow copper-gold mineralization at its La Verde porphyry discovery in coastal Chile, strengthening the case... The post Hot Chili drills shallow copper, gold in Chile appeared f"
+      },
+      {
+       "title": "Copper price gains as Chile strike threatens output",
+       "url": "https://www.northernminer.com/news/copper-price-gains-as-chile-strike-threatens-output/1003895558/",
+       "source": "The Northern Miner",
+       "published": "2026-10-08T20:15:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/copper-price-gains-as-chile-strike-threatens-output/1003895558/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Copper prices climbed Thursday as a strike by more than 700 workers at Antofagasta’s (LSE: ANTO) Centinela mine in Chile raised concerns about production disruptions that could become more serious... The post Copper price gains as Chile strike threatens output appeared first on T"
+      },
+      {
+       "title": "Epiroc’s 47th autonomous drill in Chile plus upsides of RCS5.12",
+       "url": "https://im-mining.com/2026/10/08/epirocs-47th-autonomous-drill-in-chile-plus-upsides-of-rcs5-12/",
+       "source": "International Mining",
+       "published": "2026-10-08T13:00:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/08/epirocs-47th-autonomous-drill-in-chile-plus-upsides-of-rcs5-12/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Automation continues to advance in surface mining in Chile. Last month, Epiroc delivered the 47th autonomous Pit Viper blasthole drill in the country, a new milestone that reflects the consolidation of this technology in large-scale mining operations. The company stated: “More th"
+      }
+     ]
+    }
+   }
+  },
+  "mx": {
+   "label": "Mexico",
+   "level": "country",
+   "sources": {
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Guanajuato Silver completes tunnel linking San Ignacio and Bolanitos mines",
+       "url": "https://www.mining-technology.com/news/guanajuato-tunnel-linking-san-ignacio-bolanitos/",
+       "source": "Mining Technology",
+       "published": "2026-10-09T13:57:56.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/guanajuato-tunnel-linking-san-ignacio-bolanitos/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Guanajuato Silver has completed a 267m long underground production ramp that connects the San Ignacio mine with the Bolanitos mining complex in central Mexico. The post Guanajuato Silver completes tunnel linking San Ignacio and Bolanitos mines appeared first on Mining Technology "
+      }
+     ]
+    }
+   }
+  },
+  "mx-gj": {
+   "label": "Guanajuato",
+   "level": "admin1",
+   "sources": {
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Guanajuato Silver completes tunnel linking San Ignacio and Bolanitos mines",
+       "url": "https://www.mining-technology.com/news/guanajuato-tunnel-linking-san-ignacio-bolanitos/",
+       "source": "Mining Technology",
+       "published": "2026-10-09T13:57:56.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/guanajuato-tunnel-linking-san-ignacio-bolanitos/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Guanajuato Silver has completed a 267m long underground production ramp that connects the San Ignacio mine with the Bolanitos mining complex in central Mexico. The post Guanajuato Silver completes tunnel linking San Ignacio and Bolanitos mines appeared first on Mining Technology "
+      }
+     ]
+    }
+   }
+  },
+  "lr": {
+   "label": "Liberia",
+   "level": "country",
+   "sources": {
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Liberia: Liberia Moves to Overhaul Mining Law As Second MCC Compact Negotiations Advance",
+       "url": "https://allafrica.com/stories/202610090497.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T13:18:21.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090497.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Liberian Investigator] MONROVIA -- Liberia has intensified efforts to overhaul its mining law as part of critical reforms tied to negotiations for a second Millennium Challenge Corporation (MCC) Compact, with the Law Reform Commission (LRC) leading a review of the country's lega"
+      }
+     ]
+    }
+   }
+  },
   "za": {
    "label": "South Africa",
    "level": "country",
@@ -3412,398 +3513,6 @@
        "stages": [],
        "via": null,
        "blurb": "Steenkampskraal Monazite Mine (SMM) in South Africa’s Western Cape this week officially opened Phase 1 of the Steenkampskraal project. The plant opening marks the point at which the world’s highest-grade rare earth deposit moves from laboratory to commercial mineral processing. T"
-      }
-     ]
-    }
-   }
-  },
-  "ug": {
-   "label": "Uganda",
-   "level": "country",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Copper Queens must find their hunger again",
-       "url": "https://www.lusakatimes.com/2026/10/09/copper-queens-must-find-their-hunger-again/",
-       "source": "Lusaka Times",
-       "published": "2026-10-09T12:18:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/09/copper-queens-must-find-their-hunger-again/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The 2-1 defeat to Uganda in Kampala is not just a loss, it is a warning for the Zambia Women’s National Football Team. For a team that has flown Zambia’s flag at the Tokyo 2020 and Paris 2024 Olympics, to surrender a lead so early and so cheaply against Uganda raises serious ques"
-      }
-     ]
-    }
-   }
-  },
-  "zm": {
-   "label": "Zambia",
-   "level": "country",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Copper Queens must find their hunger again",
-       "url": "https://www.lusakatimes.com/2026/10/09/copper-queens-must-find-their-hunger-again/",
-       "source": "Lusaka Times",
-       "published": "2026-10-09T12:18:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/09/copper-queens-must-find-their-hunger-again/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The 2-1 defeat to Uganda in Kampala is not just a loss, it is a warning for the Zambia Women’s National Football Team. For a team that has flown Zambia’s flag at the Tokyo 2020 and Paris 2024 Olympics, to surrender a lead so early and so cheaply against Uganda raises serious ques"
-      }
-     ]
-    }
-   }
-  },
-  "ug-km": {
-   "label": "Kampala",
-   "level": "admin1",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Copper Queens must find their hunger again",
-       "url": "https://www.lusakatimes.com/2026/10/09/copper-queens-must-find-their-hunger-again/",
-       "source": "Lusaka Times",
-       "published": "2026-10-09T12:18:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/09/copper-queens-must-find-their-hunger-again/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The 2-1 defeat to Uganda in Kampala is not just a loss, it is a warning for the Zambia Women’s National Football Team. For a team that has flown Zambia’s flag at the Tokyo 2020 and Paris 2024 Olympics, to surrender a lead so early and so cheaply against Uganda raises serious ques"
-      }
-     ]
-    }
-   }
-  },
-  "jp-tk": {
-   "label": "Tokyo",
-   "level": "admin1",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Copper Queens must find their hunger again",
-       "url": "https://www.lusakatimes.com/2026/10/09/copper-queens-must-find-their-hunger-again/",
-       "source": "Lusaka Times",
-       "published": "2026-10-09T12:18:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/09/copper-queens-must-find-their-hunger-again/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The 2-1 defeat to Uganda in Kampala is not just a loss, it is a warning for the Zambia Women’s National Football Team. For a team that has flown Zambia’s flag at the Tokyo 2020 and Paris 2024 Olympics, to surrender a lead so early and so cheaply against Uganda raises serious ques"
-      }
-     ]
-    }
-   }
-  },
-  "ug-city-kampala": {
-   "label": "Kampala",
-   "level": "city",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Copper Queens must find their hunger again",
-       "url": "https://www.lusakatimes.com/2026/10/09/copper-queens-must-find-their-hunger-again/",
-       "source": "Lusaka Times",
-       "published": "2026-10-09T12:18:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/09/copper-queens-must-find-their-hunger-again/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The 2-1 defeat to Uganda in Kampala is not just a loss, it is a warning for the Zambia Women’s National Football Team. For a team that has flown Zambia’s flag at the Tokyo 2020 and Paris 2024 Olympics, to surrender a lead so early and so cheaply against Uganda raises serious ques"
-      }
-     ]
-    }
-   }
-  },
-  "jp-city-tokyo": {
-   "label": "Tokyo",
-   "level": "city",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Copper Queens must find their hunger again",
-       "url": "https://www.lusakatimes.com/2026/10/09/copper-queens-must-find-their-hunger-again/",
-       "source": "Lusaka Times",
-       "published": "2026-10-09T12:18:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/09/copper-queens-must-find-their-hunger-again/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The 2-1 defeat to Uganda in Kampala is not just a loss, it is a warning for the Zambia Women’s National Football Team. For a team that has flown Zambia’s flag at the Tokyo 2020 and Paris 2024 Olympics, to surrender a lead so early and so cheaply against Uganda raises serious ques"
-      }
-     ]
-    }
-   }
-  },
-  "no": {
-   "label": "Norway",
-   "level": "country",
-   "sources": {
-    "fishing": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Norway mackerel export prices climb still in NOK terms with pressure on Japanese value chains",
-       "url": "https://www.undercurrentnews.com/2026/10/09/norway-mackerel-export-prices-climb-still-in-nok-terms-with-pressure-on-japanese-value-chains/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T10:30:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/norway-mackerel-export-prices-climb-still-in-nok-terms-with-pressure-on-japanese-value-chains/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Norway mackerel export prices climb still in NOK terms with pressure on Japanese value chains"
-      },
-      {
-       "title": "No sign of parliament-ordered aquaculture changes in Norway gov’t budget",
-       "url": "https://www.undercurrentnews.com/2026/10/09/no-sign-of-parliament-ordered-aquaculture-changes-in-norway-govt-budget/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T10:26:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/no-sign-of-parliament-ordered-aquaculture-changes-in-norway-govt-budget/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "No sign of parliament-ordered aquaculture changes in Norway gov't budget"
-      },
-      {
-       "title": "Norway, UK mackerel packers expect 2027 quota deal near ICES advice",
-       "url": "https://www.undercurrentnews.com/2026/10/09/norway-uk-mackerel-packers-expect-2027-quota-deal-near-ices-advice/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T09:56:06.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/norway-uk-mackerel-packers-expect-2027-quota-deal-near-ices-advice/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Norway, UK mackerel packers expect 2027 quota deal near ICES advice"
-      },
-      {
-       "title": "US wholesale: Norwegian fresh salmon prices ease while scarce Chilean frozen fillets rise",
-       "url": "https://www.undercurrentnews.com/2026/10/09/norwegian-fresh-salmon-eases-while-scarce-chilean-frozen-fillets-rise/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T10:03:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/norwegian-fresh-salmon-eases-while-scarce-chilean-frozen-fillets-rise/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "US wholesale: Norwegian fresh salmon prices ease while scarce Chilean frozen fillets rise"
-      }
-     ]
-    }
-   }
-  },
-  "cl": {
-   "label": "Chile",
-   "level": "country",
-   "sources": {
-    "crops": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Chilean farmer Multi X loses at least 300t of salmon to algal bloom",
-       "url": "https://www.undercurrentnews.com/2026/10/09/chilean-farmer-multi-x-loses-at-least-300t-of-salmon-to-algal-bloom/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T10:06:21.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/chilean-farmer-multi-x-loses-at-least-300t-of-salmon-to-algal-bloom/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Chilean farmer Multi X loses at least 300t of salmon to algal bloom"
-      }
-     ]
-    },
-    "fishing": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Chilean farmer Multi X loses at least 300t of salmon to algal bloom",
-       "url": "https://www.undercurrentnews.com/2026/10/09/chilean-farmer-multi-x-loses-at-least-300t-of-salmon-to-algal-bloom/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T10:06:21.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/chilean-farmer-multi-x-loses-at-least-300t-of-salmon-to-algal-bloom/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Chilean farmer Multi X loses at least 300t of salmon to algal bloom"
-      },
-      {
-       "title": "US wholesale: Norwegian fresh salmon prices ease while scarce Chilean frozen fillets rise",
-       "url": "https://www.undercurrentnews.com/2026/10/09/norwegian-fresh-salmon-eases-while-scarce-chilean-frozen-fillets-rise/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T10:03:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/norwegian-fresh-salmon-eases-while-scarce-chilean-frozen-fillets-rise/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "US wholesale: Norwegian fresh salmon prices ease while scarce Chilean frozen fillets rise"
-      }
-     ]
-    },
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "FLSmidth secures $54m order for copper mine project in Chile",
-       "url": "https://www.mining-technology.com/news/flsmidth-54m-order-copper-mine-chile/",
-       "source": "Mining Technology",
-       "published": "2026-10-09T10:05:01.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/flsmidth-54m-order-copper-mine-chile/",
-         "primary": false
-        },
-        {
-         "name": "International Mining",
-         "url": "https://im-mining.com/2026/10/09/fls-wins-another-copper-mine-order-in-chile-for-grinding-tech-including-hpgr-ball-mill/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Danish mining equipment company FLSmidth (FLS) has received an order valued at approximately DKr360m ($54m) to supply crushing and grinding equipment for a copper mine expansion project in Northern Chile. The post FLSmidth secures $54m order for copper mine project in Chile appea"
-      },
-      {
-       "title": "Copper price gains as Chile strike threatens output",
-       "url": "https://www.northernminer.com/news/copper-price-gains-as-chile-strike-threatens-output/1003895558/",
-       "source": "The Northern Miner",
-       "published": "2026-10-08T20:15:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/copper-price-gains-as-chile-strike-threatens-output/1003895558/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Copper prices climbed Thursday as a strike by more than 700 workers at Antofagasta’s (LSE: ANTO) Centinela mine in Chile raised concerns about production disruptions that could become more serious... The post Copper price gains as Chile strike threatens output appeared first on T"
-      },
-      {
-       "title": "Epiroc’s 47th autonomous drill in Chile plus upsides of RCS5.12",
-       "url": "https://im-mining.com/2026/10/08/epirocs-47th-autonomous-drill-in-chile-plus-upsides-of-rcs5-12/",
-       "source": "International Mining",
-       "published": "2026-10-08T13:00:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "International Mining",
-         "url": "https://im-mining.com/2026/10/08/epirocs-47th-autonomous-drill-in-chile-plus-upsides-of-rcs5-12/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Automation continues to advance in surface mining in Chile. Last month, Epiroc delivered the 47th autonomous Pit Viper blasthole drill in the country, a new milestone that reflects the consolidation of this technology in large-scale mining operations. The company stated: “More th"
-      },
-      {
-       "title": "Aclara, CAP launch rare earth metals demonstration plant in Chile",
-       "url": "https://www.mining-technology.com/news/aclara-cap-rare-earth-demonstration-plant-chile/",
-       "source": "Mining Technology",
-       "published": "2026-10-08T08:02:06.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/aclara-cap-rare-earth-demonstration-plant-chile/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Aclara Resources and CAP announced launch of a demonstration plant aimed at advancing technology for producing rare earth metals and alloys. The post Aclara, CAP launch rare earth metals demonstration plant in Chile appeared first on Mining Technology ."
       }
      ]
     }
@@ -3870,56 +3579,6 @@
     }
    }
   },
-  "cn": {
-   "label": "China",
-   "level": "country",
-   "sources": {
-    "crops": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Chinese NGOs bring participatory climate risk assessment to rice-farming communities",
-       "url": "https://www.alliancemagazine.org/blog/chinese-ngos-bring-participatory-climate-risk-assessment-to-rice-farming-communities/",
-       "source": "Alliance magazine",
-       "published": "2026-10-08T13:49:54.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Alliance magazine",
-         "url": "https://www.alliancemagazine.org/blog/chinese-ngos-bring-participatory-climate-risk-assessment-to-rice-farming-communities/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Extreme weather triggered by climate change is putting growing pressure on food security across Asia, home to many of the world’s major rice-producing countries. China alone produces nearly 30 percent of the world’s rice. Changing … The post Chinese NGOs bring participatory clima"
-      }
-     ]
-    },
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Iron ore bucks Hormuz disruption as supply disputes shift to China",
-       "url": "https://www.mining-technology.com/analysis/iron-ore-bucks-hormuz-disruption-as-supply-disputes-shift-to-china/",
-       "source": "Mining Technology",
-       "published": "2026-10-08T16:00:00.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/analysis/iron-ore-bucks-hormuz-disruption-as-supply-disputes-shift-to-china/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Iron ore supplies have been disrupted by Hormuz tensions, while China’s procurement strategy is reshaping commerce with Australian suppliers. The post Iron ore bucks Hormuz disruption as supply disputes shift to China appeared first on Mining Technology ."
-      }
-     ]
-    }
-   }
-  },
   "ca-on": {
    "label": "Ontario",
    "level": "admin1",
@@ -3948,158 +3607,57 @@
     }
    }
   },
-  "us-ny": {
-   "label": "New York",
-   "level": "admin1",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Sigma Lithium jumps after Brazil court reopens mine",
-       "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
-       "source": "The Northern Miner",
-       "published": "2026-10-07T15:33:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Sigma Lithium (Nasdaq, TSXV: SGML; ASX: SAU) shares rose as much as 6.7% in New York on Wednesday after a Brazilian appeals court upheld its environmental licences, clearing the company... The post Sigma Lithium jumps after Brazil court reopens mine appeared first on The Northern"
-      }
-     ]
-    }
-   }
-  },
-  "us-city-new-york": {
-   "label": "New York",
-   "level": "city",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Sigma Lithium jumps after Brazil court reopens mine",
-       "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
-       "source": "The Northern Miner",
-       "published": "2026-10-07T15:33:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Sigma Lithium (Nasdaq, TSXV: SGML; ASX: SAU) shares rose as much as 6.7% in New York on Wednesday after a Brazilian appeals court upheld its environmental licences, clearing the company... The post Sigma Lithium jumps after Brazil court reopens mine appeared first on The Northern"
-      }
-     ]
-    }
-   }
-  },
-  "th": {
-   "label": "Thailand",
+  "il": {
+   "label": "Israel",
    "level": "country",
    "sources": {
-    "fishing": {
+    "crops": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Shrimpers under pressure from weather, import ban",
-       "url": "https://www.bangkokpost.com/business/general/3333858/shrimpers-under-pressure-from-weather-import-ban",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-08T22:41:00.000Z",
+       "title": "Israeli settler attacks target Palestinian olive harvest in West Bank",
+       "url": "https://www.aljazeera.com/news/2026/10/9/israeli-settler-attacks-target-palestinian-olive-harvest-in-west-bank?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-09T15:28:10.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333858/shrimpers-under-pressure-from-weather-import-ban",
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/9/israeli-settler-attacks-target-palestinian-olive-harvest-in-west-bank?traffic_source=rss",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The Thai shrimp industry faces challenges from climate conditions and Malaysia's suspension of imports, says a member of the Thai Shrimp Association."
+       "blurb": "At least 19 settler attacks recorded across territory on Friday as Israeli forces separately detain 16 Palestinians."
       }
      ]
     }
    }
   },
-  "my": {
-   "label": "Malaysia",
+  "ps": {
+   "label": "Palestinian Territories",
    "level": "country",
    "sources": {
-    "fishing": {
+    "crops": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Shrimpers under pressure from weather, import ban",
-       "url": "https://www.bangkokpost.com/business/general/3333858/shrimpers-under-pressure-from-weather-import-ban",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-08T22:41:00.000Z",
+       "title": "Israeli settler attacks target Palestinian olive harvest in West Bank",
+       "url": "https://www.aljazeera.com/news/2026/10/9/israeli-settler-attacks-target-palestinian-olive-harvest-in-west-bank?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-09T15:28:10.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333858/shrimpers-under-pressure-from-weather-import-ban",
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/9/israeli-settler-attacks-target-palestinian-olive-harvest-in-west-bank?traffic_source=rss",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The Thai shrimp industry faces challenges from climate conditions and Malaysia's suspension of imports, says a member of the Thai Shrimp Association."
-      }
-     ]
-    }
-   }
-  },
-  "ec": {
-   "label": "Ecuador",
-   "level": "country",
-   "sources": {
-    "fishing": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "UCN launches Europe-bound Ecuadorian vannamei shrimp FOB price assessments, with 2 year history",
-       "url": "https://www.undercurrentnews.com/2026/10/09/ucn-launches-europe-bound-ecuadorian-vannamei-shrimp-fob-price-assessments-with-2-year-history/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T10:22:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/ucn-launches-europe-bound-ecuadorian-vannamei-shrimp-fob-price-assessments-with-2-year-history/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "UCN launches Europe-bound Ecuadorian vannamei shrimp FOB price assessments, with 2 year history"
-      },
-      {
-       "title": "Ecuador-to-Europe shrimp prices steady as sellers weigh seasonal demand prospects",
-       "url": "https://www.undercurrentnews.com/2026/10/09/ecuador-to-europe-shrimp-prices-steady-as-sellers-weigh-seasonal-demand-prospects/",
-       "source": "Undercurrent News",
-       "published": "2026-10-09T10:17:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Undercurrent News",
-         "url": "https://www.undercurrentnews.com/2026/10/09/ecuador-to-europe-shrimp-prices-steady-as-sellers-weigh-seasonal-demand-prospects/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Ecuador-to-Europe shrimp prices steady as sellers weigh seasonal demand prospects"
+       "blurb": "At least 19 settler attacks recorded across territory on Friday as Israeli forces separately detain 16 Palestinians."
       }
      ]
     }
@@ -4128,68 +3686,6 @@
        "stages": [],
        "via": null,
        "blurb": "The DA expects agricultural output to have contracted in 3Q26 after expanding in 2Q26, with weakness potentially extending through 1Q27 as El Ni&ntilde;o intensifies."
-      },
-      {
-       "title": "SRA allocates all sugar output for domestic us",
-       "url": "https://www.philstar.com/business/2026/10/09/2561833/sra-allocates-all-sugar-output-domestic-us",
-       "source": "Philstar Business",
-       "published": "2026-10-08T16:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Philstar Business",
-         "url": "https://www.philstar.com/business/2026/10/09/2561833/sra-allocates-all-sugar-output-domestic-us",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Sugar Regulatory Administration mandated that all sugar production for the 2026 to 2027 crop year will be for domestic use only due to the anticipated shortfall in sugarcane harvests."
-      },
-      {
-       "title": "Farm output likely contracted in Q3, decline to persist until Q1 2027",
-       "url": "https://www.philstar.com/business/2026/10/09/2561834/farm-output-likely-contracted-q3-decline-persist-until-q1-2027",
-       "source": "Philstar Business",
-       "published": "2026-10-08T16:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Philstar Business",
-         "url": "https://www.philstar.com/business/2026/10/09/2561834/farm-output-likely-contracted-q3-decline-persist-until-q1-2027",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Agricultural output is expected to have contracted in the third quarter, with the decline likely to persist until the first quarter next year amid the El Ni&ntilde;o, according to the Department of Agriculture."
-      }
-     ]
-    }
-   }
-  },
-  "in": {
-   "label": "India",
-   "level": "country",
-   "sources": {
-    "crops": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Rice millers fear steep hike in rice prices",
-       "url": "https://www.thehindu.com/news/cities/Coimbatore/rice-millers-fear-steep-hike-in-rice-prices/article71560973.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T17:46:04.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/news/cities/Coimbatore/rice-millers-fear-steep-hike-in-rice-prices/article71560973.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
       }
      ]
     }
