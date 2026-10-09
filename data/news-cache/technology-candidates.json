@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T00:50:53.051Z",
+ "generatedAt": "2026-10-09T06:47:40.175Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -18,8 +18,13 @@
        "verification": "multiple",
        "outlets": [
         {
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/ck9dzpw4ll8po?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        },
+        {
          "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-drops-australian-ipo-plans-move-sends-ai-funding-warning",
+         "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-shelves-ipo-eyes-private-funding",
          "primary": false
         },
         {
@@ -36,6 +41,23 @@
        "stages": [],
        "via": null,
        "blurb": ""
+      },
+      {
+       "title": "‘AI Minister’ Niamh Smyth: ‘I’d have a very different view than President Trump’",
+       "url": "https://www.irishtimes.com/business/2026/10/09/ai-minister-niamh-smyth-id-have-a-very-different-view-than-president-trump/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-09T04:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/09/ai-minister-niamh-smyth-id-have-a-very-different-view-than-president-trump/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Minister says she is ‘cautiously optimistic’ and excited by AI - but also has concerns over its impact on Irish labour market"
       },
       {
        "title": "Deutsche Telekom says AI traffic will not drive more mobile uplink capex",
@@ -60,6 +82,23 @@
        "blurb": "Uplink growth is real, but the capex discipline holds In sum – what we know: Deutsche Telekom does not expect AI-related mobile uplink demand to require incremental radio-access-network investment in…"
       },
       {
+       "title": "Asian stocks mixed amid AI concerns, oil dips after surge",
+       "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-09T03:45:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "HONG KONG — Asian stocks headed into the weekend on a mixed note on Friday with tech weighed by renewed concerns about the artificial intelligence (AI) investment boom, while support came from a drop in oil prices after Donald Trump ruled out a pre-election strike on Iran."
+      },
+      {
        "title": "Samsung flags 783% profit jump to record $80bn as AI chip boom also lifts TSMC sales",
        "url": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
        "source": "Euronews Business",
@@ -75,11 +114,6 @@
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/samsung-forecasts-record-80b-quarterly-profit-as-ai-boom-boosts-memory-demand/4081967",
          "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933",
-         "primary": false
         }
        ],
        "stages": [],
@@ -87,21 +121,21 @@
        "blurb": "Samsung Electronics estimated on Thursday that its third-quarter operating profit jumped almost ninefold to a record 107.4 trillion won, or $80.2 billion, while sales at Taiwan's TSMC hit a quarterly record, as the AI boom keeps demand for chips strong."
       },
       {
-       "title": "Deeptech unicorn PhysicsX opens regional hub in S’pore to scale AI-powered industrial engineering",
-       "url": "https://www.straitstimes.com/business/deeptech-unicorn-physicsx-opens-regional-hub-in-spore-to-scale-ai-powered-industrial-engineering",
-       "source": "The Straits Times Business",
-       "published": "2026-10-08T11:00:00.000Z",
+       "title": "Anthropic changes usage policy to ban model abuse and election interference",
+       "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+       "source": "TechCrunch",
+       "published": "2026-10-08T18:16:24.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/deeptech-unicorn-physicsx-opens-regional-hub-in-spore-to-scale-ai-powered-industrial-engineering",
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "It already has 20 employees in Singapore and aims to grow its local team to more than 100 over the next three years."
+       "blurb": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance."
       },
       {
        "title": "Hear from Ambrosia Energy and Bloom Energy execs on where the AI infrastructure boom is creating opportunity at TechCrunch Disrupt 2026",
@@ -119,6 +153,23 @@
        "stages": [],
        "via": null,
        "blurb": "Ambrosia Energy CEO Ben Longmier and Bloom Energy SVP Bill Thayer join the Smart Systems Stage at TechCrunch Disrupt. Register now to save up to $100. Grab a second of the same pass to save 50%."
+      },
+      {
+       "title": "Big bank defends offshoring of jobs at parliamentary inquiry into AI — as it happened",
+       "url": "https://www.abc.net.au/news/2026-10-09/asx-markets-business-live-news-9-october-2026/107246104",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T20:40:34.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-09/asx-markets-business-live-news-9-october-2026/107246104",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "ANZ, Westpac and NAB have given evidence about how they are using artificial intelligence. Look back at the day's financial news and insights in the business blog."
       },
       {
        "title": "Sesterce to invest $10bn in 600MW AI data center campus in Jämsä, Finland",
@@ -155,78 +206,10 @@
        "blurb": "Sri Lanka Telecom struggles to address ageing workforce and legacy IT systems as the 169-year-old telco works to become AI-native."
       },
       {
-       "title": "HCLTech rolls out a bouquet of industry AI solutions",
-       "url": "https://www.thehindu.com/business/Industry/hcltech-rolls-out-a-bouquet-of-industry-ai-solutions/article71560553.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T15:13:47.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/hcltech-rolls-out-a-bouquet-of-industry-ai-solutions/article71560553.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The solutions combine deep domain expertise with AI capabilities to address high-value, industry-specific use cases across banking, healthcare and life sciences, aerospace, retail, telecom, mobility, energy and manufacturing."
-      },
-      {
-       "title": "A $6 trillion question hangs over the AI construction boom",
-       "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
-       "source": "Construction Dive",
-       "published": "2026-10-08T13:24:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Construction Dive",
-         "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
-      },
-      {
-       "title": "Alibaba’s AI cloud revenue set to surge over 50% as investment blitz pays off: analysts",
-       "url": "https://www.scmp.com/tech/big-tech/article/3370209/alibabas-ai-cloud-revenue-set-surge-over-50-investment-blitz-pays-analysts?utm_source=rss_feed",
-       "source": "South China Morning Post",
-       "published": "2026-10-08T11:30:22.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "South China Morning Post",
-         "url": "https://www.scmp.com/tech/big-tech/article/3370209/alibabas-ai-cloud-revenue-set-surge-over-50-investment-blitz-pays-analysts?utm_source=rss_feed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to analysts. Analysts across several financial institutions proje"
-      },
-      {
-       "title": "Making the case for non-lithium batteries for AI data centres",
-       "url": "https://www.energy-storage.news/making-the-case-for-non-lithium-batteries-for-ai-data-centres/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-08T07:48:32.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/making-the-case-for-non-lithium-batteries-for-ai-data-centres/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "AI data centres have energy and power requirements demanding enough to potentially stretch lithium-ion beyond its versatile limits, writes Intertek CEA market intelligence consultant Aaron Marks."
-      },
-      {
-       "title": "WTO upgrades 2026 goods trade growth forecast to 3.9% as AI boom offsets Middle East disruption",
-       "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
-       "source": "The Straits Times Business",
-       "published": "2026-10-08T13:57:00.000Z",
+       "title": "WTO lifts global trade outlook as AI boom powers Asian growth",
+       "url": "https://www.channelnewsasia.com/asia/world-trade-organization-wto-global-outlook-resilient-robert-staiger-interview-6444356",
+       "source": "CNA Business",
+       "published": "2026-10-09T01:26:00.000Z",
        "verification": "confirmed",
        "outlets": [
         {
@@ -245,13 +228,13 @@
          "primary": false
         },
         {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333704/oil-surges-stocks-sink-as-us-reportedly-eyes-new-iran-strikes",
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
          "primary": false
         },
         {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/asia/world-trade-organization-wto-global-outlook-resilient-robert-staiger-interview-6444356",
          "primary": false
         },
         {
@@ -273,16 +256,28 @@
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/wire/oil_surges_as_iran_tanker_attacks_escalate-08-oct-2026-184807-article/?rss=true",
          "primary": false
-        },
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Global supply chains have proved more resilient than expected to disruptions from the Middle East conflict, the World Trade Organization’s chief economist Robert Staiger tells CNA’s Olivia Marzuki in an interview."
+      },
+      {
+       "title": "HCLTech rolls out a bouquet of industry AI solutions",
+       "url": "https://www.thehindu.com/business/Industry/hcltech-rolls-out-a-bouquet-of-industry-ai-solutions/article71560553.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-08T15:13:47.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
         {
-         "name": "Splash247",
-         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Industry/hcltech-rolls-out-a-bouquet-of-industry-ai-solutions/article71560553.ece",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "But it downgrades services growth outlook to 3.3% as Mid-East conflict hits transport and travel."
+       "blurb": "The solutions combine deep domain expertise with AI capabilities to address high-value, industry-specific use cases across banking, healthcare and life sciences, aerospace, retail, telecom, mobility, energy and manufacturing."
       }
      ]
     },
@@ -297,8 +292,13 @@
        "verification": "multiple",
        "outlets": [
         {
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/ck9dzpw4ll8po?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        },
+        {
          "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-drops-australian-ipo-plans-move-sends-ai-funding-warning",
+         "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-shelves-ipo-eyes-private-funding",
          "primary": false
         },
         {
@@ -321,51 +321,22 @@
        "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/",
        "source": "The Kyiv Independent",
        "published": "2026-10-08T19:15:07.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "The Kyiv Independent",
          "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/",
+         "primary": false
+        },
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
        "blurb": "\"We certainly are capable,\" Zelensky said about striking Russian data centers. \"We always respond in kind. Regarding data centers, as you all know, they have been and still are striking our data centers.\""
-      },
-      {
-       "title": "Russia's Yandex says unclear whether data centre can be restored after drone strike",
-       "url": "https://www.channelnewsasia.com/business/russias-yandex-says-unclear-whether-data-centre-can-be-restored-after-drone-strike-6443541",
-       "source": "CNA Business",
-       "published": "2026-10-08T16:22:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/russias-yandex-says-unclear-whether-data-centre-can-be-restored-after-drone-strike-6443541",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
-       "title": "Spanish government to press on with tighter data centre rules before election",
-       "url": "https://www.channelnewsasia.com/business/spanish-government-press-tighter-data-centre-rules-election-6443271",
-       "source": "CNA Business",
-       "published": "2026-10-08T14:37:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/spanish-government-press-tighter-data-centre-rules-election-6443271",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
       },
       {
        "title": "Data Centers: There’s So Much to Talk About",
@@ -470,6 +441,23 @@
        "blurb": "Ambrosia Energy CEO Ben Longmier and Bloom Energy SVP Bill Thayer join the Smart Systems Stage at TechCrunch Disrupt. Register now to save up to $100. Grab a second of the same pass to save 50%."
       },
       {
+       "title": "Google's €13bn data center buildout in Finland under investigation for 300-hectare forest removal",
+       "url": "https://www.datacenterdynamics.com/en/news/googles-13bn-data-center-buildout-in-finland-under-investigation-for-300-hectare-forest-removal/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T14:15:46.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/googles-13bn-data-center-buildout-in-finland-under-investigation-for-300-hectare-forest-removal/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Finnish Licensing and Supervision Authority requests reports from local municipalities"
+      },
+      {
        "title": "Data centre operator Firmus pulls blockbuster ASX float after lacklustre demand",
        "url": "https://www.abc.net.au/news/2026-10-09/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230",
        "source": "ABC News (Australia) Business",
@@ -487,21 +475,38 @@
        "blurb": "Firmus searches for private funding as it withdraws its application to list on the ASX just a day after closing its books to investors."
       },
       {
-       "title": "Google's €13bn data center buildout in Finland under investigation for 300-hectare forest removal",
-       "url": "https://www.datacenterdynamics.com/en/news/googles-13bn-data-center-buildout-in-finland-under-investigation-for-300-hectare-forest-removal/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-08T14:15:46.000Z",
+       "title": "Ukrainian Drones Hit Yandex Data Center, Industrial Facilities Across Russia",
+       "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T12:30:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/googles-13bn-data-center-buildout-in-finland-under-investigation-for-300-hectare-forest-removal/",
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Finnish Licensing and Supervision Authority requests reports from local municipalities"
+       "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
+      },
+      {
+       "title": "Sesterce to invest $10bn in 600MW AI data center campus in Jämsä, Finland",
+       "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T10:52:56.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Developer says it has already secured an anchor customer for the site"
       }
      ]
     },
@@ -602,23 +607,6 @@
        "blurb": "Reliance Jio chairman Akash Ambani declines to comment when asked about Mr. Musk’s remarks; Rahul Gandhi joins the debate saying, “Wait till you discover the other guy”"
       },
       {
-       "title": "SpaceX takes aim at US wireless carriers with spectrum acquisition",
-       "url": "https://www.channelnewsasia.com/business/spacex-takes-aim-us-wireless-carriers-spectrum-acquisition-6444486",
-       "source": "CNA Business",
-       "published": "2026-10-08T20:21:23.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/spacex-takes-aim-us-wireless-carriers-spectrum-acquisition-6444486",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
        "title": "Arelion partners with Nokia on live network field trial",
        "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
        "source": "Light Reading",
@@ -658,6 +646,23 @@
        "blurb": "From the newsletter (October 6; sign-up or follow if you want it sooner): Schneider Electric is to buy PTC for a cool $22.6bn – to consolidate its stake in the…"
       },
       {
+       "title": "Nokia campus sale nears as Hotard bets on industrial AI",
+       "url": "https://www.fierce-network.com/wireless/nokia-campus-networking-sale-nears-hotard-bets-industrial-ai",
+       "source": "Fierce Network",
+       "published": null,
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/wireless/nokia-campus-networking-sale-nears-hotard-bets-industrial-ai",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Nokia may soon name a buyer for its campus private networks unit as rivals gain share, but CEO Justin Hotard is betting on bigger money in industrial infrastructure."
+      },
+      {
        "title": "More change for Verizon's tech team as network exec heads for exit",
        "url": "https://www.lightreading.com/business-management/more-change-for-verizon-s-tech-team-as-network-exec-heads-for-exit",
        "source": "Light Reading",
@@ -692,23 +697,6 @@
        "blurb": "\"These led to conjunctions of tens of meters to hundreds of meters. Way too close to comfort.\""
       },
       {
-       "title": "Nokia campus sale nears as Hotard bets on industrial AI",
-       "url": "https://www.fierce-network.com/wireless/nokia-campus-networking-sale-nears-hotard-bets-industrial-ai",
-       "source": "Fierce Network",
-       "published": null,
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Fierce Network",
-         "url": "https://www.fierce-network.com/wireless/nokia-campus-networking-sale-nears-hotard-bets-industrial-ai",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Nokia may soon name a buyer for its campus private networks unit as rivals gain share, but CEO Justin Hotard is betting on bigger money in industrial infrastructure."
-      },
-      {
        "title": "Eurobites: VodafoneThree eyes more synergy savings",
        "url": "https://www.lightreading.com/business-transformation/eurobites-vodafonethree-eyes-more-synergy-savings",
        "source": "Light Reading",
@@ -741,6 +729,23 @@
        "stages": [],
        "via": null,
        "blurb": "\"If this was easy, everybody else would be doing it.\""
+      },
+      {
+       "title": "Opinion: Can carriers finally move up the stack? AT&T, Cisco and NVIDIA say AI changes the equation",
+       "url": "https://www.fierce-network.com/cloud/can-carriers-finally-move-stack-att-cisco-and-nvidia-say-ai-changes-equation",
+       "source": "Fierce Network",
+       "published": null,
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/cloud/can-carriers-finally-move-stack-att-cisco-and-nvidia-say-ai-changes-equation",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Connectivity gets operators into the game, but compute, security and control could move them up the stack."
       }
      ]
     },
@@ -790,6 +795,26 @@
        "blurb": "The Nuclear Regulatory Commission is reviewing a license amendment request (LAR) Holtec submitted in the aftermath of a fuel loading incident that has paused some of the restart work at the Palisades nuclear power plant in Covert, Mich."
       },
       {
+       "title": "Asian stocks mixed amid AI concerns, oil dips after surge",
+       "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-09T03:45:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "HONG KONG — Asian stocks headed into the weekend on a mixed note on Friday with tech weighed by renewed concerns about the artificial intelligence (AI) investment boom, while support came from a drop in oil prices after Donald Trump ruled out a pre-election strike on Iran."
+      },
+      {
        "title": "DOE announces grants for SiC cladding research and testing",
        "url": "https://www.ans.org/news/2026-10-08/article-8473/doe-announces-grants-for-sic-cladding-research-and-testing/",
        "source": "ANS Nuclear Newswire",
@@ -832,23 +857,6 @@
        "blurb": "Tata Power has partnered with Norway’s Ocean Sun to test membrane-based floating solar technology at its Maharashtra reservoir."
       },
       {
-       "title": "NASA taps DoE to help it build nuclear space reactors",
-       "url": "https://www.theregister.com/offbeat/2026/10/08/nasa-taps-doe-to-help-it-build-nuclear-space-reactors/5302096",
-       "source": "The Register",
-       "published": "2026-10-08T20:15:01.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/offbeat/2026/10/08/nasa-taps-doe-to-help-it-build-nuclear-space-reactors/5302096",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Space agency claims steady progress on lunar reactor plans, but offers little evidence to back it up"
-      },
-      {
        "title": "BWXT’s BANR selected for Canadian project",
        "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
        "source": "ANS Nuclear Newswire",
@@ -872,6 +880,23 @@
         "stage": "innovation"
        },
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+      },
+      {
+       "title": "NASA taps DoE to help it build nuclear space reactors",
+       "url": "https://www.theregister.com/offbeat/2026/10/08/nasa-taps-doe-to-help-it-build-nuclear-space-reactors/5302096",
+       "source": "The Register",
+       "published": "2026-10-08T20:15:01.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/offbeat/2026/10/08/nasa-taps-doe-to-help-it-build-nuclear-space-reactors/5302096",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Space agency claims steady progress on lunar reactor plans, but offers little evidence to back it up"
       },
       {
        "title": "Rompetrol targets 2028 startup for two refinery solar projects",
@@ -916,13 +941,13 @@
          "primary": false
         },
         {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333704/oil-surges-stocks-sink-as-us-reportedly-eyes-new-iran-strikes",
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
          "primary": false
         },
         {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/asia/world-trade-organization-wto-global-outlook-resilient-robert-staiger-interview-6444356",
          "primary": false
         },
         {
@@ -943,11 +968,6 @@
         {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/wire/oil_surges_as_iran_tanker_attacks_escalate-08-oct-2026-184807-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
          "primary": false
         }
        ],
@@ -1017,26 +1037,6 @@
         "stage": "innovation"
        },
        "blurb": "Cybersecurity experts advising the European Commission say PV components and software from high-risk third-country suppliers should be restricted in all market segments, including plug-in systems, and that inverters should face third-party certification under the Cyber Resilience"
-      },
-      {
-       "title": "Thorizon, Urenco to cooperate on MSR fuel cycle",
-       "url": "https://www.world-nuclear-news.org/articles/thorizon-urenco-to-cooperate-on-msr-fuel-cycle",
-       "source": "World Nuclear News",
-       "published": "2026-10-08T12:47:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/thorizon-urenco-to-cooperate-on-msr-fuel-cycle",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "A memorandum of understanding with the molten salt reactor developer Thorizon will examine Urenco's potential role in the molten salt fuel supply chain and how depleted uranium could become a fuel resource for advanced nuclear."
       }
      ]
     },
@@ -1129,23 +1129,6 @@
        "blurb": "The Big Four firm was hit with a more than £6 million ($7.9 million) fine by a U.K. regulator over audits of the Go-Ahead Group Ltd."
       },
       {
-       "title": "The World’s Richest Law Firm Has Decided Money Isn’t Everything — See Also",
-       "url": "https://abovethelaw.com/2026/10/the-worlds-richest-law-firm-has-decided-money-isnt-everything-see-also/",
-       "source": "Above the Law",
-       "published": "2026-10-08T23:31:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Above the Law",
-         "url": "https://abovethelaw.com/2026/10/the-worlds-richest-law-firm-has-decided-money-isnt-everything-see-also/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Kirkland & Ellis Is Done Sharing Its Revenue With The Media: Turns out $10 billion is right where the numbers stop providing 'meaningful value.' Biglaw Wants Lawyers Who Know How To Use AI : But some law schools are outright banning it. This could turn into a recruitment problem."
-      },
-      {
        "title": "Engineering firm claims world record for tallest wind turbine tower",
        "url": "https://www.windpowermonthly.com/article/1971320/engineering-firm-claims-world-record-tallest-wind-turbine-tower",
        "source": "Windpower Monthly",
@@ -1161,6 +1144,23 @@
        "stages": [],
        "via": null,
        "blurb": "The installation of what is thought to be the tallest wind turbine tower ever built has been completed by an engineering company in Germany."
+      },
+      {
+       "title": "The World’s Richest Law Firm Has Decided Money Isn’t Everything — See Also",
+       "url": "https://abovethelaw.com/2026/10/the-worlds-richest-law-firm-has-decided-money-isnt-everything-see-also/",
+       "source": "Above the Law",
+       "published": "2026-10-08T23:31:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Above the Law",
+         "url": "https://abovethelaw.com/2026/10/the-worlds-richest-law-firm-has-decided-money-isnt-everything-see-also/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Kirkland & Ellis Is Done Sharing Its Revenue With The Media: Turns out $10 billion is right where the numbers stop providing 'meaningful value.' Biglaw Wants Lawyers Who Know How To Use AI : But some law schools are outright banning it. This could turn into a recruitment problem."
       },
       {
        "title": "Law Firm Morgan & Morgan Signs 71K-SF Lease at One Seaport Plaza",
@@ -1218,6 +1218,23 @@
     "media": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Meta bans TikTok ads on its platforms in US, Japan and other countries",
+       "url": "https://www.channelnewsasia.com/business/meta-bans-bytedance-tiktok-ads-us-japan-thailand-indonesia-6444721",
+       "source": "CNA Business",
+       "published": "2026-10-09T04:15:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/meta-bans-bytedance-tiktok-ads-us-japan-thailand-indonesia-6444721",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Meta's ban takes effect immediately in the US, Canada, Egypt, Indonesia, Japan, Thailand and Vietnam."
+      },
       {
        "title": "Ex-Warner Bros. CEO pockets US$600 million in sale to Paramount",
        "url": "https://www.straitstimes.com/business/ex-warner-bros-ceo-pockets-us600-million-in-sale-to-paramount",
@@ -1304,23 +1321,6 @@
        "blurb": "TikTok owner ByteDance is China’s Going Global champion, according to a new SCMP Plus databank tracking mainland companies’ overseas expansion efforts. The social media giant topped the debut SCMP Plus Going Global 100 ranking ahead of Apple assembler Foxconn Industrial Internet,"
       },
       {
-       "title": "Judge says Paramount and Warner must halt merger for at least two weeks",
-       "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T12:00:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Twelve States sued to block Paramount's pending buyout of Warner last week, alleging that such a combination would “extinguish competition” in Hollywood and lead to fewer choices for consumers"
-      },
-      {
        "title": "Disney Keeps Cheapest Tickets Flat as Add-On Prices Climb",
        "url": "https://skift.com/2026/10/07/disney-october-ticket-price-increase/",
        "source": "Skift",
@@ -1393,23 +1393,6 @@
     "cyber": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Japan and cybersecurity: What’s behind recent attacks and what’s being done?",
-       "url": "https://www.japantimes.co.jp/business/2026/10/08/tech/focus-japan-data-leak/",
-       "source": "The Japan Times",
-       "published": "2026-10-08T09:03:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/business/2026/10/08/tech/focus-japan-data-leak/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "With artificial intelligence removing hurdles for would-be hackers, experts warn cybersecurity threats are becoming more sophisticated and widespread."
-      },
       {
        "title": "EU expert group urges curbs on high-risk solar suppliers",
        "url": "https://www.pv-magazine.com/2026/10/08/eu-expert-group-urges-curbs-on-high-risk-solar-suppliers/",
@@ -1496,6 +1479,40 @@
        "blurb": "Attacks targeting key industrial sites and unforced errors among leading AI companies are raising alarm bells."
       },
       {
+       "title": "The FBI has seized tools used by Chinese hackers for cyber operations, officials say",
+       "url": "https://www.bnnbloomberg.ca/business/technology/2026/10/09/the-fbi-has-seized-tools-used-by-chinese-hackers-for-cyber-operations-officials-say/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-09T05:21:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/technology/2026/10/09/the-fbi-has-seized-tools-used-by-chinese-hackers-for-cyber-operations-officials-say/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The FBI has seized scanning and phishing tools used by a group of hackers that officials say is believed responsible for disruptive cyber operations in the United States and abroad."
+      },
+      {
+       "title": "Cyberthreats grow as AI adoption accelerates",
+       "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-09T00:36:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Radware, a Nasdaq-listed cybersecurity firm, is investing millions of dollars in Thailand, setting up a Bangkok data centre and point of presence (PoP) to support digital growth and an economy propelled by artificial intelligence (AI)."
+      },
+      {
        "title": "Asos hackers took more personal details than first revealed, BBC finds",
        "url": "https://www.bbc.co.uk/news/articles/c3zxjdw5ywgpo?at_medium=RSS&at_campaign=rss",
        "source": "BBC News Business",
@@ -1511,57 +1528,6 @@
        "stages": [],
        "via": null,
        "blurb": "Retailer issues update after BBC contacted by cyber criminals who said this week's breach went beyond \"basic contact details\""
-      },
-      {
-       "title": "Coupang files lawsuits over $462 million in South Korea fines over data breach",
-       "url": "https://www.channelnewsasia.com/business/coupang-files-lawsuits-over-462-million-in-south-korea-fines-over-data-breach-6443436",
-       "source": "CNA Business",
-       "published": "2026-10-08T15:28:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/coupang-files-lawsuits-over-462-million-in-south-korea-fines-over-data-breach-6443436",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
-       "title": "Asos says customers’ names, contact details and search histories hacked",
-       "url": "https://www.theguardian.com/business/2026/oct/08/asos-customer-data-accessed-hacker-posing-impersonated",
-       "source": "The Guardian Business",
-       "published": "2026-10-08T13:54:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/business/2026/oct/08/asos-customer-data-accessed-hacker-posing-impersonated",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Experts say breadth of data accessed could help attackers devise “highly convincing” phishing scams Asos hackers gained access to millions of customers’ recent search histories as well as names, addresses and phone numbers, the online fashion retailer has revealed. Terms typed in"
-      },
-      {
-       "title": "UK’s ASOS says cyberhack accessed customers’ personal data",
-       "url": "https://www.straitstimes.com/business/uks-asos-says-cyber-hack-accessed-customers-personal-data",
-       "source": "The Straits Times Business",
-       "published": "2026-10-08T11:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/uks-asos-says-cyber-hack-accessed-customers-personal-data",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "ASOS said the hacker did not gain access to payment card information or account passwords."
       },
       {
        "title": "Asos confirms breach of customer data after hackers send rogue app notification",
@@ -1596,6 +1562,40 @@
        "stages": [],
        "via": null,
        "blurb": "An Adelaide private hospital has notified individuals and cyber security authorities of a data breach of personal information."
+      },
+      {
+       "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
+       "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+       "source": "The Register",
+       "published": "2026-10-08T13:27:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Suspected Chinese speaker used Claude Code and agentic pentesting tool ARTEX in attacks on South Korean lenders"
+      },
+      {
+       "title": "Trump Mobile hack and apparent lack of FCC authorization raise security alarms",
+       "url": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/",
+       "source": "Ars Technica",
+       "published": "2026-10-08T20:39:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "After hack and data breach, senator asks why Trump Mobile lacks some FCC filings."
       }
      ]
     }
@@ -1711,23 +1711,6 @@
        "blurb": "US President Donald Trump discussed AI development with dozens of tech bosses at the White House on Tuesday. Ahead of his \"super intelligence\" luncheon, Trump launched a new AI-powered website for government services, vowing not to stifle the technology's growth. He also said he "
       },
       {
-       "title": "3 Questions: What is the best path forward for AI in academia?",
-       "url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
-       "source": "MIT News",
-       "published": "2026-10-08T21:25:00.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "MIT News",
-         "url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "MIT Statistics and Data Science Center Director Alexander (Sasha) Rakhlin shares important considerations for departments and institutions."
-      },
-      {
        "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
        "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
        "source": "Ars Technica",
@@ -1743,6 +1726,23 @@
        "stages": [],
        "via": null,
        "blurb": "Full-stack safety solution for physical AI is being used by robotics companies."
+      },
+      {
+       "title": "3 Questions: What is the best path forward for AI in academia?",
+       "url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+       "source": "MIT News",
+       "published": "2026-10-08T21:25:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "MIT News",
+         "url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "MIT Statistics and Data Science Center Director Alexander (Sasha) Rakhlin shares important considerations for departments and institutions."
       },
       {
        "title": "Hilton taps former Uber exec as CTO",
@@ -1913,23 +1913,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "SpaceX takes aim at US wireless carriers with spectrum acquisition",
-       "url": "https://www.channelnewsasia.com/business/spacex-takes-aim-us-wireless-carriers-spectrum-acquisition-6444486",
-       "source": "CNA Business",
-       "published": "2026-10-08T20:21:23.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/spacex-takes-aim-us-wireless-carriers-spectrum-acquisition-6444486",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
        "title": "SpaceX calls for better coordination in orbit after near-misses with Starlink",
        "url": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
        "source": "Ars Technica",
@@ -1991,26 +1974,6 @@
        "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
       },
       {
-       "title": "How a reluctant Iowa farming county undid a ban on battery storage",
-       "url": "https://www.canarymedia.com/articles/food-and-farms/iowa-farm-county-battery-storage",
-       "source": "Canary Media",
-       "published": "2026-10-08T07:30:00.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Canary Media",
-         "url": "https://www.canarymedia.com/articles/food-and-farms/iowa-farm-county-battery-storage",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "The soil in northwest Iowa is so fertile it’s referred to as “black gold.” “It’s incredibly rich, wonderful topsoil from thousands of years of silty deposits from the Missouri River,” said Luke Seaberg, a researcher at Iowa State University’s extension program. So rich that some "
-      },
-      {
        "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
        "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
        "source": "POWER Magazine",
@@ -2061,6 +2024,26 @@
        "blurb": "The U.S. Department of Energy's Hydropower and Hydrokinetic Office selected 14 hydropower projects for negotiations on vouchers for in-kind support."
       },
       {
+       "title": "How a reluctant Iowa farming county undid a ban on battery storage",
+       "url": "https://www.canarymedia.com/articles/food-and-farms/iowa-farm-county-battery-storage",
+       "source": "Canary Media",
+       "published": "2026-10-08T07:30:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Canary Media",
+         "url": "https://www.canarymedia.com/articles/food-and-farms/iowa-farm-county-battery-storage",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "The soil in northwest Iowa is so fertile it’s referred to as “black gold.” “It’s incredibly rich, wonderful topsoil from thousands of years of silty deposits from the Missouri River,” said Luke Seaberg, a researcher at Iowa State University’s extension program. So rich that some "
+      },
+      {
        "title": "Type One Raises $200M in Series B Round as Tennessee Fusion Project Nears Construction",
        "url": "https://www.enr.com/articles/63801-type-one-raises-200m-in-series-b-round-as-tennessee-fusion-project-nears-construction",
        "source": "ENR (Engineering News-Record)",
@@ -2079,26 +2062,6 @@
         "stage": "innovation"
        },
        "blurb": "Project Infinity prototype approaches year-end construction target at former TVA coal power plant site site while 400-MW commercial plant moves deeper into engineering."
-      },
-      {
-       "title": "Deployable Energy to test its Unity nuclear battery in DOME",
-       "url": "https://www.world-nuclear-news.org/articles/deployable-energy-to-test-its-unity-nuclear-battery-in-dome",
-       "source": "World Nuclear News",
-       "published": "2026-10-07T14:16:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/deployable-energy-to-test-its-unity-nuclear-battery-in-dome",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
       },
       {
        "title": "Tennessee Valley Authority Gets Approval to Build Small Nuclear Reactor",
@@ -2124,6 +2087,26 @@
         "stage": "innovation"
        },
        "blurb": "It’s only the second time that American regulators have approved a next-generation commercial reactor for construction. Big hurdles remain."
+      },
+      {
+       "title": "Deployable Energy to test its Unity nuclear battery in DOME",
+       "url": "https://www.world-nuclear-news.org/articles/deployable-energy-to-test-its-unity-nuclear-battery-in-dome",
+       "source": "World Nuclear News",
+       "published": "2026-10-07T14:16:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/deployable-energy-to-test-its-unity-nuclear-battery-in-dome",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
       },
       {
        "title": "US selects 14 hydropower projects for testing support",
@@ -2163,23 +2146,6 @@
        "blurb": "Joel Leftwich will join Idealyst Innovation as executive vice president of policy innovation and director of the Center for American Food Power. Robert Haus has joined Vylor as state government and industry affairs leader. General Mills named Dana McNabb as CEO, effective Jan. 1,"
       },
       {
-       "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
-       "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-       "source": "NPR Science",
-       "published": "2026-10-06T10:16:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NPR Science",
-         "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s."
-      },
-      {
        "title": "Foreign sugar subsidies cost US farmers billions, study finds",
        "url": "https://www.farmprogress.com/tv-and-radio/foreign-sugar-subsidies-cost-us-farmers-billions-study-finds",
        "source": "Farm Progress",
@@ -2212,6 +2178,23 @@
        "stages": [],
        "via": null,
        "blurb": "Nearly 100 patients discussed their maladies with a Google bot, called AMIE, before meeting with physicians."
+      },
+      {
+       "title": "Healthcare organizations are underprepared for quantum computing threats",
+       "url": "https://www.healthcaredive.com/news/healthcare-organizations-are-underprepared-for-quantum-computing-threats/832516/",
+       "source": "Healthcare Dive",
+       "published": "2026-10-08T17:24:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Healthcare Dive",
+         "url": "https://www.healthcaredive.com/news/healthcare-organizations-are-underprepared-for-quantum-computing-threats/832516/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Once scientists are able to develop practical quantum computers, the technology could quickly break the encryption methods protecting patient data. Experts say healthcare leaders should start preparing for that reality today."
       }
      ]
     },
@@ -2309,6 +2292,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Meta bans TikTok ads on its platforms in US, Japan and other countries",
+       "url": "https://www.channelnewsasia.com/business/meta-bans-bytedance-tiktok-ads-us-japan-thailand-indonesia-6444721",
+       "source": "CNA Business",
+       "published": "2026-10-09T04:15:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/meta-bans-bytedance-tiktok-ads-us-japan-thailand-indonesia-6444721",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Meta's ban takes effect immediately in the US, Canada, Egypt, Indonesia, Japan, Thailand and Vietnam."
+      },
+      {
        "title": "New York alleges TikTok gave teens, children a placebo safety feature instead of a real one",
        "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
        "source": "TechCrunch",
@@ -2380,6 +2380,23 @@
        "stages": [],
        "via": null,
        "blurb": "Attacks targeting key industrial sites and unforced errors among leading AI companies are raising alarm bells."
+      },
+      {
+       "title": "The FBI has seized tools used by Chinese hackers for cyber operations, officials say",
+       "url": "https://www.bnnbloomberg.ca/business/technology/2026/10/09/the-fbi-has-seized-tools-used-by-chinese-hackers-for-cyber-operations-officials-say/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-09T05:21:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/technology/2026/10/09/the-fbi-has-seized-tools-used-by-chinese-hackers-for-cyber-operations-officials-say/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The FBI has seized scanning and phishing tools used by a group of hackers that officials say is believed responsible for disruptive cyber operations in the United States and abroad."
       },
       {
        "title": "Trump Mobile hack and apparent lack of FCC authorization raise security alarms",
@@ -2770,23 +2787,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Coupang files lawsuits over $462 million in South Korea fines over data breach",
-       "url": "https://www.channelnewsasia.com/business/coupang-files-lawsuits-over-462-million-in-south-korea-fines-over-data-breach-6443436",
-       "source": "CNA Business",
-       "published": "2026-10-08T15:28:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/coupang-files-lawsuits-over-462-million-in-south-korea-fines-over-data-breach-6443436",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
        "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
        "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
        "source": "The Register",
@@ -2819,11 +2819,16 @@
        "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/",
        "source": "The Kyiv Independent",
        "published": "2026-10-08T19:15:07.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "The Kyiv Independent",
          "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/",
+         "primary": false
+        },
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
          "primary": false
         }
        ],
@@ -2860,32 +2865,20 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Russia's Yandex says unclear whether data centre can be restored after drone strike",
-       "url": "https://www.channelnewsasia.com/business/russias-yandex-says-unclear-whether-data-centre-can-be-restored-after-drone-strike-6443541",
-       "source": "CNA Business",
-       "published": "2026-10-08T16:22:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/russias-yandex-says-unclear-whether-data-centre-can-be-restored-after-drone-strike-6443541",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
        "title": "'We always respond in kind' — Zelensky addresses Ukrainian attacks on Russian data center",
        "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/",
        "source": "The Kyiv Independent",
        "published": "2026-10-08T19:15:07.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
         {
          "name": "The Kyiv Independent",
          "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/",
+         "primary": false
+        },
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
          "primary": false
         }
        ],
@@ -2938,13 +2931,13 @@
          "primary": false
         },
         {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333704/oil-surges-stocks-sink-as-us-reportedly-eyes-new-iran-strikes",
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
          "primary": false
         },
         {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/asia/world-trade-organization-wto-global-outlook-resilient-robert-staiger-interview-6444356",
          "primary": false
         },
         {
@@ -2965,11 +2958,6 @@
         {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/wire/oil_surges_as_iran_tanker_attacks_escalate-08-oct-2026-184807-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
          "primary": false
         }
        ],
@@ -3013,28 +3001,6 @@
        "stages": [],
        "via": null,
        "blurb": "In light of Russia’s record on biological weapons and lab accidents, the death of an anti-plague researcher raises questions to consider. The post Five things to know about the death at Russia’s anti-plague laboratory appeared first on Atlantic Council ."
-      }
-     ]
-    },
-    "cyber": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "UK and Germany team up against Russian cyberattacks as Brexit rethink looms",
-       "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
-       "source": "The Register",
-       "published": "2026-10-08T11:22:01.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Security pact promises information-sharing and coordinated disruption, but offers little detail on agencies or funding"
       }
      ]
     }
@@ -3127,6 +3093,28 @@
         "stage": "innovation"
        },
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+      }
+     ]
+    },
+    "media": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Meta bans TikTok ads on its platforms in US, Japan and other countries",
+       "url": "https://www.channelnewsasia.com/business/meta-bans-bytedance-tiktok-ads-us-japan-thailand-indonesia-6444721",
+       "source": "CNA Business",
+       "published": "2026-10-09T04:15:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/meta-bans-bytedance-tiktok-ads-us-japan-thailand-indonesia-6444721",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Meta's ban takes effect immediately in the US, Canada, Egypt, Indonesia, Japan, Thailand and Vietnam."
       }
      ]
     }
@@ -3428,23 +3416,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "UK and Germany team up against Russian cyberattacks as Brexit rethink looms",
-       "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
-       "source": "The Register",
-       "published": "2026-10-08T11:22:01.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Security pact promises information-sharing and coordinated disruption, but offers little detail on agencies or funding"
-      },
-      {
        "title": "Sungrow patches iSolarCloud vulnerability after security researchers gain access",
        "url": "https://www.pv-magazine.com/2026/10/08/sungrow-patches-isolarcloud-vulnerability-after-security-researchers-gain-access/",
        "source": "pv magazine",
@@ -3601,6 +3572,45 @@
    "label": "Ireland",
    "level": "country",
    "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "‘AI Minister’ Niamh Smyth: ‘I’d have a very different view than President Trump’",
+       "url": "https://www.irishtimes.com/business/2026/10/09/ai-minister-niamh-smyth-id-have-a-very-different-view-than-president-trump/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-09T04:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/09/ai-minister-niamh-smyth-id-have-a-very-different-view-than-president-trump/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Minister says she is ‘cautiously optimistic’ and excited by AI - but also has concerns over its impact on Irish labour market"
+      },
+      {
+       "title": "Colin Hunt’s AIB share awards, and AI’s impact on the labour market",
+       "url": "https://www.irishtimes.com/business/2026/10/09/colin-hunts-aib-share-awards-and-ais-impact-on-the-labour-market/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-09T05:15:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/09/colin-hunts-aib-share-awards-and-ais-impact-on-the-labour-market/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The best news, analysis and comment from The Irish Times business desk"
+      }
+     ]
+    },
     "consulting": {
      "brief": "missing",
      "candidates": [
@@ -3960,23 +3970,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "AI giants promise to play nice with personal data after UK watchdog scrutiny",
-       "url": "https://www.theregister.com/ai-and-ml/2026/10/08/ai-giants-promise-to-play-nice-with-personal-data-after-uk-watchdog-scrutiny/5301966",
-       "source": "The Register",
-       "published": "2026-10-08T12:35:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/ai-and-ml/2026/10/08/ai-giants-promise-to-play-nice-with-personal-data-after-uk-watchdog-scrutiny/5301966",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Amazon, Google, Microsoft, OpenAI and six others agree to changes, but the ICO isn't done asking questions"
-      },
-      {
        "title": "Arelion, Nokia trial boosts optical capacity for AI traffic",
        "url": "https://www.fierce-network.com/newswire/arelion-nokia-trial-boosts-optical-capacity-ai-traffic",
        "source": "Fierce Network",
@@ -4130,45 +4123,6 @@
        "blurb": "The Big Four firm was hit with a more than £6 million ($7.9 million) fine by a U.K. regulator over audits of the Go-Ahead Group Ltd."
       }
      ]
-    },
-    "cyber": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "UK’s ASOS says cyberhack accessed customers’ personal data",
-       "url": "https://www.straitstimes.com/business/uks-asos-says-cyber-hack-accessed-customers-personal-data",
-       "source": "The Straits Times Business",
-       "published": "2026-10-08T11:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/uks-asos-says-cyber-hack-accessed-customers-personal-data",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "ASOS said the hacker did not gain access to payment card information or account passwords."
-      },
-      {
-       "title": "UK and Germany team up against Russian cyberattacks as Brexit rethink looms",
-       "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
-       "source": "The Register",
-       "published": "2026-10-08T11:22:01.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Security pact promises information-sharing and coordinated disruption, but offers little detail on agencies or funding"
-      }
-     ]
     }
    }
   },
@@ -4251,40 +4205,6 @@
        "stages": [],
        "via": null,
        "blurb": "The solutions combine deep domain expertise with AI capabilities to address high-value, industry-specific use cases across banking, healthcare and life sciences, aerospace, retail, telecom, mobility, energy and manufacturing."
-      },
-      {
-       "title": "AI regulation consultation paper next month, says IT minister Vaishnaw",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/ai-regulation-consultation-paper-next-month-says-it-minister-vaishnaw-focus-on-safety-deepfakes/articleshow/134785844.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-08T10:22:06.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/ai-regulation-consultation-paper-next-month-says-it-minister-vaishnaw-focus-on-safety-deepfakes/articleshow/134785844.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Union minister Ashwini Vaishnaw announced plans for a Consultation paper on AI regulations to address specific concerns. The focus will include AI safety, deepfakes, user harm, and the need for skilling. The government aims to establish a regulatory framework while involving vari"
-      },
-      {
-       "title": "Tcs Q2 Results: TCS profit jumps 15% to ₹13,884cr, AI revenue tops $3.1bn; board announces ₹12 dividend",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/tcs-q2-results-net-profit-rises-15-to-rs-13884-crore-revenue-up-11/articleshow/134788770.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-08T11:35:38.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/tcs-q2-results-net-profit-rises-15-to-rs-13884-crore-revenue-up-11/articleshow/134788770.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Tata Consultancy Services has reported a notable 15% surge in net profit for the September quarter, achieving Rs 13,884 crore. The operations revenue grew by 11.22% year-on-year, hitting Rs 73,188 crore. AI revenue also surpassed $3 billion, contributing over 10% to the total inc"
       }
      ]
     },
@@ -4381,28 +4301,6 @@
        "blurb": "Studio Pietrangeli has begun consultancy work on the proposed 24 MW Zungki and 42 MW Lower Tizu hydropower projects in Nagaland, India. The post Studio Pietrangeli begins consultancy work on two Indian hydropower projects appeared first on International Water Power ."
       }
      ]
-    },
-    "media": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Judge says Paramount and Warner must halt merger for at least two weeks",
-       "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T12:00:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/judge-says-paramount-and-warner-must-halt-merger-for-at-least-two-weeks/article71248584.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Twelve States sued to block Paramount's pending buyout of Warner last week, alleging that such a combination would “extinguish competition” in Hollywood and lead to fewer choices for consumers"
-      }
-     ]
     }
    }
   },
@@ -4490,6 +4388,59 @@
         "stage": "innovation"
        },
        "blurb": "Tata Power has partnered with Norway’s Ocean Sun to test membrane-based floating solar technology at its Maharashtra reservoir."
+      }
+     ]
+    }
+   }
+  },
+  "ir": {
+   "label": "Iran",
+   "level": "country",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Asian stocks mixed amid AI concerns, oil dips after surge",
+       "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-09T03:45:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "HONG KONG — Asian stocks headed into the weekend on a mixed note on Friday with tech weighed by renewed concerns about the artificial intelligence (AI) investment boom, while support came from a drop in oil prices after Donald Trump ruled out a pre-election strike on Iran."
+      }
+     ]
+    },
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Asian stocks mixed amid AI concerns, oil dips after surge",
+       "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-09T03:45:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "HONG KONG — Asian stocks headed into the weekend on a mixed note on Friday with tech weighed by renewed concerns about the artificial intelligence (AI) investment boom, while support came from a drop in oil prices after Donald Trump ruled out a pre-election strike on Iran."
       }
      ]
     }
@@ -4760,63 +4711,51 @@
     }
    }
   },
-  "sg": {
-   "label": "Singapore",
+  "id": {
+   "label": "Indonesia",
    "level": "country",
    "sources": {
     "software": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Deeptech unicorn PhysicsX opens regional hub in S’pore to scale AI-powered industrial engineering",
-       "url": "https://www.straitstimes.com/business/deeptech-unicorn-physicsx-opens-regional-hub-in-spore-to-scale-ai-powered-industrial-engineering",
-       "source": "The Straits Times Business",
-       "published": "2026-10-08T11:00:00.000Z",
+       "title": "Yokogawa to Assist the Scale Up of Tropical Climate AI Data Center Testbed into a Multi - megawatt Pilot Facility",
+       "url": "https://en.antaranews.com/news/433844/yokogawa-to-assist-the-scale-up-of-tropical-climate-ai-data-center-testbed-into-a-multi-megawatt-pilot-facility",
+       "source": "en.antaranews.com",
+       "published": "2026-10-02T08:15:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/deeptech-unicorn-physicsx-opens-regional-hub-in-spore-to-scale-ai-powered-industrial-engineering",
+         "name": "en.antaranews.com",
+         "url": "https://en.antaranews.com/news/433844/yokogawa-to-assist-the-scale-up-of-tropical-climate-ai-data-center-testbed-into-a-multi-megawatt-pilot-facility",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "It already has 20 employees in Singapore and aims to grow its local team to more than 100 over the next three years."
-      },
+       "blurb": ""
+      }
+     ]
+    },
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
       {
-       "title": "An air-con firm building AI, a hygiene business going regional: How home-grown SMEs are turning decades of expertise into new revenue",
-       "url": "https://www.straitstimes.com/business/home-grown-smes-turn-decades-expertise-into-new-revenue-streams-enterprise-singapore",
-       "source": "The Straits Times Business",
-       "published": "2026-10-08T20:00:00.000Z",
+       "title": "Yokogawa to Assist the Scale Up of Tropical Climate AI Data Center Testbed into a Multi - megawatt Pilot Facility",
+       "url": "https://en.antaranews.com/news/433844/yokogawa-to-assist-the-scale-up-of-tropical-climate-ai-data-center-testbed-into-a-multi-megawatt-pilot-facility",
+       "source": "en.antaranews.com",
+       "published": "2026-10-02T08:15:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/home-grown-smes-turn-decades-expertise-into-new-revenue-streams-enterprise-singapore",
+         "name": "en.antaranews.com",
+         "url": "https://en.antaranews.com/news/433844/yokogawa-to-assist-the-scale-up-of-tropical-climate-ai-data-center-testbed-into-a-multi-megawatt-pilot-facility",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "With Enterprise Singapore and SME Centre support, firms are turning expertise into AI tools, services and new markets."
-      },
-      {
-       "title": "Amid battle for AI edge, Hong Kong presses HSBC over Singapore hub decision: sources",
-       "url": "https://www.scmp.com/business/banking-finance/article/3370203/amid-battle-ai-edge-hong-kong-presses-hsbc-over-singapore-hub-decision-sources?utm_source=rss_feed",
-       "source": "South China Morning Post",
-       "published": "2026-10-08T12:00:11.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "South China Morning Post",
-         "url": "https://www.scmp.com/business/banking-finance/article/3370203/amid-battle-ai-edge-hong-kong-presses-hsbc-over-singapore-hub-decision-sources?utm_source=rss_feed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "As Hong Kong and Singapore compete for leadership in businesses ranging from foreign exchange trading to wealth management, the battleground has extended to artificial intelligence, with both cities vying to attract investment from HSBC Holdings and other major corporations, acco"
+       "blurb": ""
       }
      ]
     }
@@ -4951,11 +4890,6 @@
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/samsung-forecasts-record-80b-quarterly-profit-as-ai-boom-boosts-memory-demand/4081967",
          "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933",
-         "primary": false
         }
        ],
        "stages": [],
@@ -4981,8 +4915,13 @@
        "verification": "multiple",
        "outlets": [
         {
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/ck9dzpw4ll8po?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        },
+        {
          "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-drops-australian-ipo-plans-move-sends-ai-funding-warning",
+         "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-shelves-ipo-eyes-private-funding",
          "primary": false
         },
         {
@@ -4999,6 +4938,23 @@
        "stages": [],
        "via": null,
        "blurb": ""
+      },
+      {
+       "title": "Big bank defends offshoring of jobs at parliamentary inquiry into AI — as it happened",
+       "url": "https://www.abc.net.au/news/2026-10-09/asx-markets-business-live-news-9-october-2026/107246104",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T20:40:34.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-09/asx-markets-business-live-news-9-october-2026/107246104",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "ANZ, Westpac and NAB have given evidence about how they are using artificial intelligence. Look back at the day's financial news and insights in the business blog."
       }
      ]
     },
@@ -5013,8 +4969,13 @@
        "verification": "multiple",
        "outlets": [
         {
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/ck9dzpw4ll8po?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        },
+        {
          "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-drops-australian-ipo-plans-move-sends-ai-funding-warning",
+         "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-shelves-ipo-eyes-private-funding",
          "primary": false
         },
         {
@@ -5048,23 +5009,6 @@
        "stages": [],
        "via": null,
        "blurb": "Firmus searches for private funding as it withdraws its application to list on the ASX just a day after closing its books to investors."
-      },
-      {
-       "title": "Town questions $15b data centre set to use enough power for 1m homes",
-       "url": "https://www.abc.net.au/news/2026-10-08/mixed-response-to-proposed-data-centre-near-wagga-wagga/107214860",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-07T19:31:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/mixed-response-to-proposed-data-centre-near-wagga-wagga/107214860",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "One Wagga Wagga resident says she feels \"back-stabbed\" by the development, while others say the town needs more industry."
       }
      ]
     },
@@ -5151,23 +5095,6 @@
        "blurb": "From batteries and solar panels to drones and satellites, China is building tech capabilities that extend well beyond AI, writes Steve Feldstein in his new book, \"Bytes and Bullets: Global Rivalries, Big Tech, and the New Shape of Modern Warfare.\""
       },
       {
-       "title": "Amid battle for AI edge, Hong Kong presses HSBC over Singapore hub decision: sources",
-       "url": "https://www.scmp.com/business/banking-finance/article/3370203/amid-battle-ai-edge-hong-kong-presses-hsbc-over-singapore-hub-decision-sources?utm_source=rss_feed",
-       "source": "South China Morning Post",
-       "published": "2026-10-08T12:00:11.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "South China Morning Post",
-         "url": "https://www.scmp.com/business/banking-finance/article/3370203/amid-battle-ai-edge-hong-kong-presses-hsbc-over-singapore-hub-decision-sources?utm_source=rss_feed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "As Hong Kong and Singapore compete for leadership in businesses ranging from foreign exchange trading to wealth management, the battleground has extended to artificial intelligence, with both cities vying to attract investment from HSBC Holdings and other major corporations, acco"
-      },
-      {
        "title": "Trump says he doesn't want to work with China on AI safety",
        "url": "https://www.france24.com/en/tv-shows/business/20260929-trump-says-doesn-t-want-to-work-with-china-on-ai-safety",
        "source": "France 24 Business",
@@ -5183,6 +5110,23 @@
        "stages": [],
        "via": null,
        "blurb": "US President Donald Trump discussed AI development with dozens of tech bosses at the White House on Tuesday. Ahead of his \"super intelligence\" luncheon, Trump launched a new AI-powered website for government services, vowing not to stifle the technology's growth. He also said he "
+      },
+      {
+       "title": "Amid battle for AI edge, Hong Kong presses HSBC over Singapore hub decision: sources",
+       "url": "https://www.scmp.com/business/banking-finance/article/3370203/amid-battle-ai-edge-hong-kong-presses-hsbc-over-singapore-hub-decision-sources?utm_source=rss_feed",
+       "source": "South China Morning Post",
+       "published": "2026-10-08T12:00:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "South China Morning Post",
+         "url": "https://www.scmp.com/business/banking-finance/article/3370203/amid-battle-ai-edge-hong-kong-presses-hsbc-over-singapore-hub-decision-sources?utm_source=rss_feed",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "As Hong Kong and Singapore compete for leadership in businesses ranging from foreign exchange trading to wealth management, the battleground has extended to artificial intelligence, with both cities vying to attract investment from HSBC Holdings and other major corporations, acco"
       },
       {
        "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
@@ -5271,6 +5215,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "The FBI has seized tools used by Chinese hackers for cyber operations, officials say",
+       "url": "https://www.bnnbloomberg.ca/business/technology/2026/10/09/the-fbi-has-seized-tools-used-by-chinese-hackers-for-cyber-operations-officials-say/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-09T05:21:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/business/technology/2026/10/09/the-fbi-has-seized-tools-used-by-chinese-hackers-for-cyber-operations-officials-say/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The FBI has seized scanning and phishing tools used by a group of hackers that officials say is believed responsible for disruptive cyber operations in the United States and abroad."
+      },
+      {
        "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
        "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
        "source": "The Register",
@@ -5291,57 +5252,63 @@
     }
    }
   },
-  "be": {
-   "label": "Belgium",
+  "sg": {
+   "label": "Singapore",
    "level": "country",
    "sources": {
-    "research": {
+    "software": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
-       "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-       "source": "NPR Science",
-       "published": "2026-10-06T10:16:28.000Z",
+       "title": "OpenAI’s Singapore-based APAC policy head leaving job after 6 months, source says",
+       "url": "https://www.straitstimes.com/business/openais-singapore-based-apac-policy-head-leaving-job-after-6-months-source-says",
+       "source": "The Straits Times Business",
+       "published": "2026-10-09T05:00:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "NPR Science",
-         "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/openais-singapore-based-apac-policy-head-leaving-job-after-6-months-source-says",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s."
-      }
-     ]
-    }
-   }
-  },
-  "us-wi": {
-   "label": "Wisconsin",
-   "level": "admin1",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
+       "blurb": "The reasons for his exit were not immediately clear."
+      },
       {
-       "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
-       "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-       "source": "NPR Science",
-       "published": "2026-10-06T10:16:28.000Z",
+       "title": "An air-con firm building AI, a hygiene business going regional: How home-grown SMEs are turning decades of expertise into new revenue",
+       "url": "https://www.straitstimes.com/business/home-grown-smes-turn-decades-expertise-into-new-revenue-streams-enterprise-singapore",
+       "source": "The Straits Times Business",
+       "published": "2026-10-08T20:00:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "NPR Science",
-         "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/home-grown-smes-turn-decades-expertise-into-new-revenue-streams-enterprise-singapore",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s."
+       "blurb": "With Enterprise Singapore and SME Centre support, firms are turning expertise into AI tools, services and new markets."
+      },
+      {
+       "title": "Amid battle for AI edge, Hong Kong presses HSBC over Singapore hub decision: sources",
+       "url": "https://www.scmp.com/business/banking-finance/article/3370203/amid-battle-ai-edge-hong-kong-presses-hsbc-over-singapore-hub-decision-sources?utm_source=rss_feed",
+       "source": "South China Morning Post",
+       "published": "2026-10-08T12:00:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "South China Morning Post",
+         "url": "https://www.scmp.com/business/banking-finance/article/3370203/amid-battle-ai-edge-hong-kong-presses-hsbc-over-singapore-hub-decision-sources?utm_source=rss_feed",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "As Hong Kong and Singapore compete for leadership in businesses ranging from foreign exchange trading to wealth management, the battleground has extended to artificial intelligence, with both cities vying to attract investment from HSBC Holdings and other major corporations, acco"
       }
      ]
     }
@@ -5351,28 +5318,6 @@
    "label": "Spain",
    "level": "country",
    "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Spanish government to press on with tighter data centre rules before election",
-       "url": "https://www.channelnewsasia.com/business/spanish-government-press-tighter-data-centre-rules-election-6443271",
-       "source": "CNA Business",
-       "published": "2026-10-08T14:37:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/spanish-government-press-tighter-data-centre-rules-election-6443271",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      }
-     ]
-    },
     "research": {
      "brief": "missing",
      "candidates": [
@@ -5517,6 +5462,62 @@
     }
    }
   },
+  "jp": {
+   "label": "Japan",
+   "level": "country",
+   "sources": {
+    "media": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Meta bans TikTok ads on its platforms in US, Japan and other countries",
+       "url": "https://www.channelnewsasia.com/business/meta-bans-bytedance-tiktok-ads-us-japan-thailand-indonesia-6444721",
+       "source": "CNA Business",
+       "published": "2026-10-09T04:15:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/meta-bans-bytedance-tiktok-ads-us-japan-thailand-indonesia-6444721",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Meta's ban takes effect immediately in the US, Canada, Egypt, Indonesia, Japan, Thailand and Vietnam."
+      }
+     ]
+    }
+   }
+  },
+  "eg": {
+   "label": "Egypt",
+   "level": "country",
+   "sources": {
+    "media": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Meta bans TikTok ads on its platforms in US, Japan and other countries",
+       "url": "https://www.channelnewsasia.com/business/meta-bans-bytedance-tiktok-ads-us-japan-thailand-indonesia-6444721",
+       "source": "CNA Business",
+       "published": "2026-10-09T04:15:54.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/meta-bans-bytedance-tiktok-ads-us-japan-thailand-indonesia-6444721",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Meta's ban takes effect immediately in the US, Canada, Egypt, Indonesia, Japan, Thailand and Vietnam."
+      }
+     ]
+    }
+   }
+  },
   "th": {
    "label": "Thailand",
    "level": "country",
@@ -5540,6 +5541,145 @@
        "stages": [],
        "via": null,
        "blurb": "Thailand should become a \"real intelligent economy\" next year, driven by artificial intelligence (AI) adoption, as the technology unlocks new sources of economic growth, according to telecom operators."
+      },
+      {
+       "title": "Cyberthreats grow as AI adoption accelerates",
+       "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-09T00:36:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Radware, a Nasdaq-listed cybersecurity firm, is investing millions of dollars in Thailand, setting up a Bangkok data centre and point of presence (PoP) to support digital growth and an economy propelled by artificial intelligence (AI)."
+      }
+     ]
+    },
+    "cyber": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Cyberthreats grow as AI adoption accelerates",
+       "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-09T00:36:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Radware, a Nasdaq-listed cybersecurity firm, is investing millions of dollars in Thailand, setting up a Bangkok data centre and point of presence (PoP) to support digital growth and an economy propelled by artificial intelligence (AI)."
+      }
+     ]
+    }
+   }
+  },
+  "th-bm": {
+   "label": "Bangkok Metropolis",
+   "level": "admin1",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Cyberthreats grow as AI adoption accelerates",
+       "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-09T00:36:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Radware, a Nasdaq-listed cybersecurity firm, is investing millions of dollars in Thailand, setting up a Bangkok data centre and point of presence (PoP) to support digital growth and an economy propelled by artificial intelligence (AI)."
+      }
+     ]
+    },
+    "cyber": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Cyberthreats grow as AI adoption accelerates",
+       "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-09T00:36:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Radware, a Nasdaq-listed cybersecurity firm, is investing millions of dollars in Thailand, setting up a Bangkok data centre and point of presence (PoP) to support digital growth and an economy propelled by artificial intelligence (AI)."
+      }
+     ]
+    }
+   }
+  },
+  "th-city-bangkok": {
+   "label": "Bangkok",
+   "level": "city",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Cyberthreats grow as AI adoption accelerates",
+       "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-09T00:36:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Radware, a Nasdaq-listed cybersecurity firm, is investing millions of dollars in Thailand, setting up a Bangkok data centre and point of presence (PoP) to support digital growth and an economy propelled by artificial intelligence (AI)."
+      }
+     ]
+    },
+    "cyber": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Cyberthreats grow as AI adoption accelerates",
+       "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-09T00:36:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Radware, a Nasdaq-listed cybersecurity firm, is investing millions of dollars in Thailand, setting up a Bangkok data centre and point of presence (PoP) to support digital growth and an economy propelled by artificial intelligence (AI)."
       }
      ]
     }
@@ -5763,34 +5903,6 @@
     }
    }
   },
-  "jp": {
-   "label": "Japan",
-   "level": "country",
-   "sources": {
-    "cyber": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Japan and cybersecurity: What’s behind recent attacks and what’s being done?",
-       "url": "https://www.japantimes.co.jp/business/2026/10/08/tech/focus-japan-data-leak/",
-       "source": "The Japan Times",
-       "published": "2026-10-08T09:03:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/business/2026/10/08/tech/focus-japan-data-leak/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "With artificial intelligence removing hurdles for would-be hackers, experts warn cybersecurity threats are becoming more sophisticated and widespread."
-      }
-     ]
-    }
-   }
-  },
   "au-sa": {
    "label": "South Australia",
    "level": "admin1",
@@ -5842,34 +5954,6 @@
        "stages": [],
        "via": null,
        "blurb": "An Adelaide private hospital has notified individuals and cyber security authorities of a data breach of personal information."
-      }
-     ]
-    }
-   }
-  },
-  "pk": {
-   "label": "Pakistan",
-   "level": "country",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "AI 'widening economic inequality', IMF chief warns",
-       "url": "https://www.dawn.com/news/2035379/ai-widening-economic-inequality-imf-chief-warns",
-       "source": "Dawn Business",
-       "published": "2026-10-07T07:48:59.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2035379/ai-widening-economic-inequality-imf-chief-warns",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The global AI boom is fast becoming the key driver of economies around the world but the boom is risking wider global inequality by leaving some nations behind, International Monetary Fund (IMF) chief Kristalina Georgieva warned on Wednesday. She also lamented a lack of “decisive"
       }
      ]
     }

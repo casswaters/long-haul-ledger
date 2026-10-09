@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T00:49:41.939Z",
+ "generatedAt": "2026-10-09T06:46:30.692Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -51,25 +51,6 @@
        "blurb": "Karen Fili As the nuclear industry enters one of the most significant investment periods in its history, utilities are managing unprecedented capital portfolios while simultaneously preparing for long-term operation, plant modernization, extended power uprates, digital transforma"
       },
       {
-       "title": "NASA taps DoE to help it build nuclear space reactors",
-       "url": "https://www.theregister.com/offbeat/2026/10/08/nasa-taps-doe-to-help-it-build-nuclear-space-reactors/5302096",
-       "source": "The Register",
-       "published": "2026-10-08T20:15:01.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/offbeat/2026/10/08/nasa-taps-doe-to-help-it-build-nuclear-space-reactors/5302096",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Space agency claims steady progress on lunar reactor plans, but offers little evidence to back it up"
-      },
-      {
        "title": "BWXT’s BANR selected for Canadian project",
        "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
        "source": "ANS Nuclear Newswire",
@@ -93,6 +74,25 @@
        ],
        "via": null,
        "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+      },
+      {
+       "title": "NASA taps DoE to help it build nuclear space reactors",
+       "url": "https://www.theregister.com/offbeat/2026/10/08/nasa-taps-doe-to-help-it-build-nuclear-space-reactors/5302096",
+       "source": "The Register",
+       "published": "2026-10-08T20:15:01.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/offbeat/2026/10/08/nasa-taps-doe-to-help-it-build-nuclear-space-reactors/5302096",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Space agency claims steady progress on lunar reactor plans, but offers little evidence to back it up"
       },
       {
        "title": "DCD Studio: Market models for SMRs with Rosa Rotko, Mott MacDonald",
@@ -174,45 +174,6 @@
        "blurb": "A memorandum of understanding with the molten salt reactor developer Thorizon will examine Urenco's potential role in the molten salt fuel supply chain and how depleted uranium could become a fuel resource for advanced nuclear."
       },
       {
-       "title": "Slovakia buys out Czech stake in new nuclear project company",
-       "url": "https://www.world-nuclear-news.org/articles/slovakia-buys-out-czech-stake-in-new-nuclear-project",
-       "source": "World Nuclear News",
-       "published": "2026-10-08T11:48:24.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/slovakia-buys-out-czech-stake-in-new-nuclear-project",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "ČEZ has sold its 49% stake in JESS, the company formed to develop new nuclear capacity in Slovakia, for EUR189 million (USD211 million)."
-      },
-      {
-       "title": "Westinghouse teams up with Hyundai E&C for Dutch FEED studies",
-       "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
-       "source": "World Nuclear News",
-       "published": "2026-10-08T11:04:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "South Korea's Hyundai Engineering & Construction has been contracted by Westinghouse to carry out basic design studies for the construction of two large nuclear power plants in the Netherlands based on Westinghouse's AP1000 design."
-      },
-      {
        "title": "Constellation, Vistra uprate deals signal fastest path to new nuclear megawatts",
        "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
        "source": "Power Engineering",
@@ -253,21 +214,62 @@
        "blurb": "Google, Meta and DOE are backing more than 1.3 GW of upgrades at existing reactors, much of it in power-hungry PJM."
       },
       {
-       "title": "Rosatom folds Delo into expanding logistics platform",
-       "url": "https://splash247.com/rosatom-folds-delo-into-expanding-logistics-platform/",
-       "source": "Splash247",
-       "published": "2026-10-08T10:00:00.000Z",
+       "title": "Slovakia buys out Czech stake in new nuclear project company",
+       "url": "https://www.world-nuclear-news.org/articles/slovakia-buys-out-czech-stake-in-new-nuclear-project",
+       "source": "World Nuclear News",
+       "published": "2026-10-08T11:48:24.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Splash247",
-         "url": "https://splash247.com/rosatom-folds-delo-into-expanding-logistics-platform/",
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/slovakia-buys-out-czech-stake-in-new-nuclear-project",
          "primary": false
         }
        ],
-       "stages": [],
+       "stages": [
+        "generation"
+       ],
        "via": null,
-       "blurb": "Russia’s state-owned Rosatom has completed the buyout of Delo Group founder Sergei Shishkarev’s controlling stake, taking full control of one of the country’s largest transport and container logistics groups. Rosatom, which previously held 49% of Delo, has acquired Shishkarev’s r"
+       "blurb": "ČEZ has sold its 49% stake in JESS, the company formed to develop new nuclear capacity in Slovakia, for EUR189 million (USD211 million)."
+      },
+      {
+       "title": "Westinghouse teams up with Hyundai E&C for Dutch FEED studies",
+       "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
+       "source": "World Nuclear News",
+       "published": "2026-10-08T11:04:41.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "South Korea's Hyundai Engineering & Construction has been contracted by Westinghouse to carry out basic design studies for the construction of two large nuclear power plants in the Netherlands based on Westinghouse's AP1000 design."
+      },
+      {
+       "title": "GAIN announces fourth round of 2026 vouchers",
+       "url": "https://www.ans.org/news/2026-10-07/article-8470/iter-welcomes-last-major-component-needed-for-core-machine-assembly/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-07T17:35:30.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-07/article-8470/iter-welcomes-last-major-component-needed-for-core-machine-assembly/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "This week, the Department of Energy’s Gateway for Accelerated Innovation in Nuclear (GAIN) announced three fourth-round fiscal year 2026 vouchers to support the development of innovative nuclear technologies. Each company will get access to specific capabilities and expertise in "
       }
      ]
     },
@@ -275,32 +277,10 @@
      "brief": "ready",
      "candidates": [
       {
-       "title": "Rising oil prices, falling technology stocks and reversing bond yields keep Wall Street unsettled",
-       "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/higher-oil-prices-pull-the-us-stock-market-further-from-its-record/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-09T00:23:00.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/higher-oil-prices-pull-the-us-stock-market-further-from-its-record/",
-         "primary": false
-        },
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/07/european-stocks-fall-as-wall-street-retreats-from-record-highs/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Some sharp reversals kept financial markets unsteady on Thursday, as oil prices rose and U.S. stock indexes finished mixed."
-      },
-      {
        "title": "Two Mumbai-based firms, five Indian nationals face U.S. sanctions over Iran oil trade",
        "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
        "source": "The Hindu Business",
-       "published": "2026-10-08T21:36:05.000Z",
+       "published": "2026-10-09T03:12:52.000Z",
        "verification": "multiple",
        "outlets": [
         {
@@ -317,6 +297,50 @@
        "stages": [],
        "via": null,
        "blurb": "The action against the Indian entities and individuals is part of the U.S. crackdown against Iran under Operation Economic Outcast"
+      },
+      {
+       "title": "Oil falls as Trump comments on Iran talks ease supply concerns",
+       "url": "https://www.channelnewsasia.com/business/oil-falls-trump-comments-iran-talks-ease-supply-concerns-6444926",
+       "source": "CNA Business",
+       "published": "2026-10-09T02:27:57.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-today-brent-slips-as-trump-cites-productive-talks-with-iran/articleshow/134804669.cms",
+         "primary": false
+        },
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/oil-falls-trump-comments-iran-talks-ease-supply-concerns-6444926",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
+      {
+       "title": "Nigeria: Fuel Subsidy Would Cost Nigeria Over N20trn Yearly - Minister",
+       "url": "https://allafrica.com/stories/202610090182.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T05:43:33.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090182.html",
+         "primary": false
+        },
+        {
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/business/business-news/915535-fuel-subsidy-would-cost-nigeria-over-n20trn-yearly-minister.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Premium Times] The Federal Government has rejected calls for the return of petrol subsidy, warning that restoring petrol to its pre-reform price would cost more than N20 trillion annually and could eventually push the exchange rate towards N3,000 to a dollar and petrol prices to"
       },
       {
        "title": "Oil Surges as Iran Tanker Attacks Escalate",
@@ -341,13 +365,13 @@
          "primary": false
         },
         {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333704/oil-surges-stocks-sink-as-us-reportedly-eyes-new-iran-strikes",
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
          "primary": false
         },
         {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/asia/world-trade-organization-wto-global-outlook-resilient-robert-staiger-interview-6444356",
          "primary": false
         },
         {
@@ -368,11 +392,6 @@
         {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/wire/oil_surges_as_iran_tanker_attacks_escalate-08-oct-2026-184807-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
          "primary": false
         }
        ],
@@ -407,21 +426,23 @@
        "blurb": "Ryanair falls as Michael O’Leary warns that ‘insanely higher’ jet fuel prices could last until 2028"
       },
       {
-       "title": "S&P 500, Nasdaq end lower as crude prices jump, chip stocks weigh",
-       "url": "https://www.straitstimes.com/business/companies-markets/sp-500-nasdaq-end-lower-as-crude-prices-jump-chip-stocks-weigh",
-       "source": "The Straits Times Business",
-       "published": "2026-10-08T22:19:23.000Z",
+       "title": "Ukraine reportedly targets Russian cruise missile fuel plant, oil depot in overnight attack",
+       "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-09T03:51:11.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/companies-markets/sp-500-nasdaq-end-lower-as-crude-prices-jump-chip-stocks-weigh",
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
          "primary": false
         }
        ],
-       "stages": [],
+       "stages": [
+        "generation"
+       ],
        "via": null,
-       "blurb": "The Dow Jones Industrial Average rose 51.77 points, or 0.10%, to 51,231.64."
+       "blurb": "Ukraine's military launched an attack on Russia's Tver Oblast overnight on Oct. 9, reportedly targeting a Russian factory that manufactures fuel components for Kh-55 and Kh-101 cruise missiles, Russian Telegram media channels reported."
       },
       {
        "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
@@ -448,111 +469,91 @@
        "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
       },
       {
-       "title": "US imposes fresh sanctions on Iran’s shadow fleet",
-       "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
-       "source": "Daily Maverick",
-       "published": "2026-10-08T21:19:13.000Z",
+       "title": "Rising oil prices, falling technology stocks and reversing bond yields keep Wall Street unsettled",
+       "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/higher-oil-prices-pull-the-us-stock-market-further-from-its-record/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-09T00:23:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Daily Maverick",
-         "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/higher-oil-prices-pull-the-us-stock-market-further-from-its-record/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
+       "blurb": "Some sharp reversals kept financial markets unsteady on Thursday, as oil prices rose and U.S. stock indexes finished mixed."
       },
       {
-       "title": "Govt raises petrol price by Rs2.31 per litre, high-speed diesel rate by Re0.78 per litre",
-       "url": "https://www.dawn.com/news/2035716/govt-raises-petrol-price-by-rs231-per-litre-high-speed-diesel-rate-by-re078-per-litre",
-       "source": "Dawn Business",
-       "published": "2026-10-08T18:01:35.000Z",
+       "title": "Nigeria: NNPC Discount Measure for Petrol Pump Price Has Tinubu's Backing - Presidency",
+       "url": "https://allafrica.com/stories/202610090186.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T05:43:35.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2035716/govt-raises-petrol-price-by-rs231-per-litre-high-speed-diesel-rate-by-re078-per-litre",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "body{margin:0;padding:0;font-family:system-ui,-apple-system,sans-serif;overflow-wrap:anywhere;} Pakistan fuel prices, 2026 Official ex-depot prices (PKR/litre) — OGRA & Ministry of Energy notifications Petrol (MS-92) Diesel (HSD) Pre-crisis baseline Source: OGRA / Ministry of Ene"
-      },
-      {
-       "title": "Ukraine strikes Russia's Omsk oil refinery in Siberia, General Staff confirms",
-       "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T14:25:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090186.html",
          "primary": false
         }
        ],
        "stages": [
-        "generation"
+        "grid"
        ],
        "via": null,
-       "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
+       "blurb": "[Vanguard] The Presidency on Thursday explained that the measure taken by the Nigerian National Petroleum Company Limited (NNPCL) to forgo its petrol retail profit margin and sell to Nigerians at cost to cushion the impact of global crude oil price shocks and volatility on vulner"
       },
       {
-       "title": "Fuel subsidy would cost Nigeria over N20trn yearly — Minister",
-       "url": "https://www.premiumtimesng.com/business/business-news/915535-fuel-subsidy-would-cost-nigeria-over-n20trn-yearly-minister.html",
-       "source": "Premium Times (Nigeria)",
-       "published": "2026-10-08T19:46:06.000Z",
+       "title": "Nigeria: Labour Gives Govt Two-Week Ultimatum to Revert Petrol Price to 2024 Level",
+       "url": "https://allafrica.com/stories/202610090179.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T05:43:32.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Premium Times (Nigeria)",
-         "url": "https://www.premiumtimesng.com/business/business-news/915535-fuel-subsidy-would-cost-nigeria-over-n20trn-yearly-minister.html",
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090179.html",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The Federal Government has rejected calls for the return of petrol subsidy, warning that restoring petrol to its pre-reform price would cost more than N20 trillion annually and could eventually push the exchange rate towards N3,000 to a dollar and petrol prices to at least N2,000"
+       "blurb": "[Vanguard] ABUJA -- Organised Labour has given the Federal Government a two-week ultimatum to revert the price of Premium Motor Spirit, PMS, popularly known as petrol, to its level before the signing of the current national minimum wage in 2024."
       },
       {
-       "title": "Rompetrol targets 2028 startup for two refinery solar projects",
-       "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-08T17:53:35.000Z",
+       "title": "Nigeria: Govt Offers 30-Day Petrol Discount At NNPC Stations",
+       "url": "https://allafrica.com/stories/202610090163.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T05:36:42.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090163.html",
          "primary": false
-        }
-       ],
-       "stages": [
-        "innovation",
-        "generation"
-       ],
-       "via": null,
-       "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
-      },
-      {
-       "title": "EIA raises Brent forecast to $105 a barrel for Q4 2026; gas-heated homes to spend less this winter",
-       "url": "https://www.eia.gov/outlooks/steo/",
-       "source": "US Energy Information Administration",
-       "published": "2026-10-06T16:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "EIA Short-Term Energy Outlook (Oct. 6, 2026)",
-         "url": "https://www.eia.gov/outlooks/steo/",
-         "primary": true
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
+       "blurb": "[Leadership] The federal government has announced a 30-day discount on petrol sold at filling stations operated by the Nigerian National Petroleum Company (NNPC) Limited."
+      },
+      {
+       "title": "S&P 500, Nasdaq end lower as crude prices jump, chip stocks weigh",
+       "url": "https://www.straitstimes.com/business/companies-markets/sp-500-nasdaq-end-lower-as-crude-prices-jump-chip-stocks-weigh",
+       "source": "The Straits Times Business",
+       "published": "2026-10-08T22:19:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/companies-markets/sp-500-nasdaq-end-lower-as-crude-prices-jump-chip-stocks-weigh",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Dow Jones Industrial Average rose 51.77 points, or 0.10%, to 51,231.64."
       }
      ]
     },
@@ -560,20 +561,15 @@
      "brief": "ready",
      "candidates": [
       {
-       "title": "Golar secures 2013-built LNG carrier for conversion into fourth FLNG",
-       "url": "https://offshore-energy.biz/2026/10/08/golar-secures-2013-built-lng-carrier-for-conversion-into-fourth-flng",
-       "source": "Offshore Energy",
-       "published": "2026-10-08T14:07:10.000Z",
-       "verification": "multiple",
+       "title": "Singapore LNG kicks off work on third jetty",
+       "url": "https://lngprime.com/asia/singapore-lng-kicks-off-work-on-third-jetty/198159/",
+       "source": "LNG Prime",
+       "published": "2026-10-09T06:43:04.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Offshore Energy",
-         "url": "https://offshore-energy.biz/2026/10/08/golar-secures-2013-built-lng-carrier-for-conversion-into-fourth-flng",
-         "primary": false
-        },
-        {
          "name": "LNG Prime",
-         "url": "https://lngprime.com/asia/golar-buys-conversion-vessel-for-fourth-flng/198042/",
+         "url": "https://lngprime.com/asia/singapore-lng-kicks-off-work-on-third-jetty/198159/",
          "primary": false
         }
        ],
@@ -581,7 +577,65 @@
         "generation"
        ],
        "via": null,
-       "blurb": "Golar LNG has acquired a 13-year-old vessel from NYK Line to transform it into a floating liquefaction facility by 2029."
+       "blurb": "State-owned LNG terminal operator Singapore LNG has officially kicked off the construction of a new LNG jetty, which will support the further growth of LNG bunkering in Singapore."
+      },
+      {
+       "title": "US LNG exports drop to 31 shipments",
+       "url": "https://lngprime.com/americas/us-lng-exports-drop-to-31-shipments/198139/",
+       "source": "LNG Prime",
+       "published": "2026-10-09T06:28:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/us-lng-exports-drop-to-31-shipments/198139/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "US liquefied natural gas (LNG) plants sent 31 cargoes during the week ending October 7, down six shipments from the previous week, according to the Energy Information Administration."
+      },
+      {
+       "title": "Old LNG carriers keep changing hands",
+       "url": "https://splash247.com/old-lng-carriers-keep-changing-hands/",
+       "source": "Splash247",
+       "published": "2026-10-09T06:22:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/old-lng-carriers-keep-changing-hands/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Sales of vintage large LNG carriers remain brisk as the secondhand market keeps ageing LNG tonnage afloat after the Strait of Hormuz conflict escalated in late February, with disruptions to regional LNG exports adding uncertainty to global supply. The latest sale has been complet"
+      },
+      {
+       "title": "QatarEnergy’s LNG expansion targets early 2027 production amid reports of $3bn loan",
+       "url": "https://www.euronews.com/2026/10/09/qatarenergys-lng-expansion-targets-early-2027-production-amid-reports-of-3bn-loan",
+       "source": "Euronews Business",
+       "published": "2026-10-09T05:55:27.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/09/qatarenergys-lng-expansion-targets-early-2027-production-amid-reports-of-3bn-loan",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "QatarEnergy is advancing its LNG expansion and has reportedly secured a $3 billion (€2.68bn) loan from Chinese banks as war damage and shipping risks constrain exports. Shipments through Hormuz are recovering, but remain far below pre-war levels."
       },
       {
        "title": "Energy Transfer Buys Already Integrated Vaquero Assets for Over $2.6B",
@@ -642,26 +696,6 @@
        "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
       },
       {
-       "title": "Natural Gas Spot Prices Sink in Appalachia, California as Henry Hub Bucks Downtrend",
-       "url": "https://naturalgasintel.com/news/natural-gas-spot-prices-sink-in-appalachia-california-as-henry-hub-bucks-downtrend/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T21:08:11.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/natural-gas-spot-prices-sink-in-appalachia-california-as-henry-hub-bucks-downtrend/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Physical natural gas pricing declined overall on Thursday, led lower by the pipeline-constrained East as well as California."
-      },
-      {
        "title": "Venture Global shipped 124 LNG cargoes in Q3",
        "url": "https://lngprime.com/americas/venture-global-shipped-124-lng-cargoes-in-q3/198047/",
        "source": "LNG Prime",
@@ -684,6 +718,26 @@
        ],
        "via": null,
        "blurb": "US LNG exporter Venture Global shipped 124 LNG cargoes from its Calcasieu Pass and Plaquemines LNG export terminals in the third quarter of this year."
+      },
+      {
+       "title": "Natural Gas Spot Prices Sink in Appalachia, California as Henry Hub Bucks Downtrend",
+       "url": "https://naturalgasintel.com/news/natural-gas-spot-prices-sink-in-appalachia-california-as-henry-hub-bucks-downtrend/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-08T21:08:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/natural-gas-spot-prices-sink-in-appalachia-california-as-henry-hub-bucks-downtrend/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Physical natural gas pricing declined overall on Thursday, led lower by the pipeline-constrained East as well as California."
       },
       {
        "title": "Kinder Morgan restores natural gas shipments to Mexico",
@@ -757,63 +811,6 @@
        ],
        "via": null,
        "blurb": "A slightly bearish government storage surprise tempered bullish sentiment in the natural gas futures market, ending a four-day run of gains for the prompt month on Thursday."
-      },
-      {
-       "title": "US-Mexico Natural Gas Flows Recover After Brief TGP Force Majeure",
-       "url": "https://naturalgasintel.com/news/us-mexico-natural-gas-flows-recover-after-brief-tgp-force-majeure/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T19:12:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/us-mexico-natural-gas-flows-recover-after-brief-tgp-force-majeure/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "A brief force majeure on Kinder Morgan’s Tennessee Gas Pipeline (TGP) curtailed natural gas exports to Mexico this week, but the disruption was quickly resolved without affecting Mexico’s energy grid or triggering significant regional price volatility."
-      },
-      {
-       "title": "European Natural Gas Prices Defy Rebound in Middle Eastern LNG Shipments",
-       "url": "https://naturalgasintel.com/news/european-natural-gas-prices-defy-rebound-in-middle-eastern-lng-shipments/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T17:44:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/european-natural-gas-prices-defy-rebound-in-middle-eastern-lng-shipments/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "LNG moving through the Strait of Hormuz climbed to 1.13 Mt in September, according to Kpler data, marking a 13% increase from 1 Mt in August. September’s volumes were the highest monthly ..."
-      },
-      {
-       "title": "Storage Surprise Sends Natural Gas Futures Sliding Toward $3.10",
-       "url": "https://naturalgasintel.com/news/tph-research-analyst-zack-van-everen-said-natural-gas-demand-declined-277-bcfd-weekweek-led-by-a-189-bcfd-reduction-in-power-burn-amid-a-30-drop-in-cooling-degree-days-early-estimates-for-the-storage-report-for-the-week-ending-oct-9-point-to-a-77/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-08T16:50:10.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/tph-research-analyst-zack-van-everen-said-natural-gas-demand-declined-277-bcfd-weekweek-led-by-a-189-bcfd-reduction-in-power-burn-amid-a-30-drop-in-cooling-degree-days-early-estimates-for-the-storage-report-for-the-week-ending-oct-9-point-to-a-77/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "US natural gas futures extended their losses Thursday after a larger-than-expected government storage injection, sending the November contract toward $3.100/MMBtu despite subdued domestic production and hurricane-related offshore supply disruptions."
       }
      ]
     },
@@ -1012,25 +1009,6 @@
        "blurb": "US Wind turned over its Tradepoint Atlantic lease at Sparrows Point to Anduril and shelved its planned tower and monopile plant, citing legal disputes and federal uncertainty over its Ocean City offshore wind project."
       },
       {
-       "title": "US Wind Gives Up Sparrows Point Site as Offshore Wind Project Faces Delays",
-       "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
-       "source": "offshoreWIND.biz",
-       "published": "2026-10-08T12:25:16.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "offshoreWIND.biz",
-         "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "US Wind has relinquished its lease at Tradepoint Atlantic’s Sparrows Point site in Maryland, where the company had planned to manufacture steel..."
-      },
-      {
        "title": "All Turbines Installed at Poland's First Offshore Wind Farm",
        "url": "https://offshorewind.biz/2026/10/07/all-turbines-installed-at-polands-first-offshore-wind-farm",
        "source": "offshoreWIND.biz",
@@ -1053,6 +1031,25 @@
        ],
        "via": null,
        "blurb": "All 76 Vestas V236-15.0 MW turbines are in place at the Baltic Power offshore wind farm in Poland, jointly owned by Orlen and Northland Power...."
+      },
+      {
+       "title": "US Wind Gives Up Sparrows Point Site as Offshore Wind Project Faces Delays",
+       "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
+       "source": "offshoreWIND.biz",
+       "published": "2026-10-08T12:25:16.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "offshoreWIND.biz",
+         "url": "https://offshorewind.biz/2026/10/08/us-wind-gives-up-sparrows-point-site-as-offshore-wind-project-faces-delays",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "US Wind has relinquished its lease at Tradepoint Atlantic’s Sparrows Point site in Maryland, where the company had planned to manufacture steel..."
       },
       {
        "title": "Dogger Bank B Wind Turbine Installation Passes Halfway Mark",
@@ -1277,23 +1274,6 @@
        "blurb": "Tata Power has partnered with Norway’s Ocean Sun to test membrane-based floating solar technology at its Maharashtra reservoir."
       },
       {
-       "title": "Why are more roofs not made of solar tiles?",
-       "url": "https://www.bbc.co.uk/news/articles/cdr7n610rmzo?at_medium=RSS&at_campaign=rss",
-       "source": "BBC News Business",
-       "published": "2026-10-08T23:09:56.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cdr7n610rmzo?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Solar tiles were touted as an attractive alternative to solar panels - why have they not taken off?"
-      },
-      {
        "title": "ContourGlobal begins Arizona solar-storage construction",
        "url": "https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/",
        "source": "reNEWS",
@@ -1317,6 +1297,62 @@
        ],
        "via": null,
        "blurb": "Project Sterling combines 450MWac solar capacity with 360MW battery storage"
+      },
+      {
+       "title": "South Korea picks solar, battery and EVs as key sectors in US$747 billion Green Industrial Plan",
+       "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
+       "source": "PV Tech",
+       "published": "2026-10-08T09:02:45.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/south-korea-unveils-us475-billion-green-transformation-industrial-strategy/",
+         "primary": false
+        },
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy."
+      },
+      {
+       "title": "Why are more roofs not made of solar tiles?",
+       "url": "https://www.bbc.co.uk/news/articles/cdr7n610rmzo?at_medium=RSS&at_campaign=rss",
+       "source": "BBC News Business",
+       "published": "2026-10-08T23:09:56.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/cdr7n610rmzo?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Solar tiles were touted as an attractive alternative to solar panels - why have they not taken off?"
+      },
+      {
+       "title": "Solar panel mounting firm’s former CEO set up rival business, court hears",
+       "url": "https://www.irishtimes.com/business/2026/10/09/solar-panel-mounting-firms-former-ceo-set-up-rival-business-court-hears/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-09T04:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/09/solar-panel-mounting-firms-former-ceo-set-up-rival-business-court-hears/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Judge grants orders at ex-parte hearing for preservation of company’s property and documents"
       },
       {
        "title": "Rompetrol targets 2028 startup for two refinery solar projects",
@@ -1359,6 +1395,30 @@
        "blurb": "Cybersecurity experts advising the European Commission say PV components and software from high-risk third-country suppliers should be restricted in all market segments, including plug-in systems, and that inverters should face third-party certification under the Cyber Resilience"
       },
       {
+       "title": "Clearway Starts Construction of 650-MW Solar Facility in Missouri",
+       "url": "https://www.powermag.com/clearway-starts-construction-of-650-mw-solar-facility-in-missouri/",
+       "source": "POWER Magazine",
+       "published": "2026-10-07T13:12:29.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "Clearway Energy Group (press release)",
+         "url": "https://www.clearwayenergygroup.com/press-releases/clearway-closes-financing-and-begins-construction-on-650-mw-swan-energy-center-in-missouri/",
+         "primary": true
+        },
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/clearway-starts-construction-of-650-mw-solar-facility-in-missouri/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "California-headquartered Clearway Energy Group said it has closed financing and begun construction of the Swan Energy Center, a 650-MW solar facility located on portions of formerly strip-mined land in northwestern Bates County, Missouri. The project is San Francisco-based Clearw"
+      },
+      {
        "title": "Toyo expands Texas solar module manufacturing facility to 2GW",
        "url": "https://www.pv-tech.org/toyo-expands-texas-solar-module-manufacturing-facility-2gw/",
        "source": "PV Tech",
@@ -1396,55 +1456,27 @@
        ],
        "via": null,
        "blurb": "PV Talk: Indosol's Manoj Pothireddy tells PV Tech Premium that opportunities remain for overseas wafer manufacturers to export to the US."
-      },
+      }
+     ]
+    },
+    "hydro": {
+     "brief": "missing",
+     "candidates": [
       {
-       "title": "Island Green wins permit for 500MW UK solar giant",
-       "url": "https://www.renews.biz/solar/island-green-power-secures-green-hill-consent/",
-       "source": "reNEWS",
-       "published": "2026-10-08T13:34:27.000Z",
-       "verification": "unconfirmed",
+       "title": "DOE selects second round of hydropower projects for technical support, with modernization in mind",
+       "url": "https://www.power-eng.com/renewables/hydropower/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
+       "source": "Power Engineering",
+       "published": "2026-10-07T17:27:00.000Z",
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "reNEWS",
-         "url": "https://www.renews.biz/solar/island-green-power-secures-green-hill-consent/",
+         "name": "Hydro Review",
+         "url": "https://www.renewableenergyworld.com/hydro-power/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
          "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Northamptonshire project will include 500MW battery storage system"
-      },
-      {
-       "title": "To Block Solar Energy Projects, One Community Lumped Them in With Junkyards and Adult Bookstores",
-       "url": "https://insideclimatenews.org/news/08102026/inside-clean-energy-indiana-solar-energy-fight/",
-       "source": "Inside Climate News",
-       "published": "2026-10-08T13:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
+        },
         {
-         "name": "Inside Climate News",
-         "url": "https://insideclimatenews.org/news/08102026/inside-clean-energy-indiana-solar-energy-fight/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "In Montgomery County, Indiana, utility-scale solar projects appear on an official list of undesirable land uses that also includes “adult-oriented businesses.” So it wasn’t surprising that the county Board of Commissioners unanimously rejected a 200-megawatt solar project on Sept"
-      },
-      {
-       "title": "Researchers find almost 8,000 European solar energy systems exposed to internet cyberattacks",
-       "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
-       "source": "PV Tech",
-       "published": "2026-10-08T12:22:38.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
+         "name": "Power Engineering",
+         "url": "https://www.power-eng.com/renewables/hydropower/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
          "primary": false
         }
        ],
@@ -1452,13 +1484,8 @@
         "innovation"
        ],
        "via": null,
-       "blurb": "A joint Dutch team of researchers shows commercial solar power assets are internet-accessible, creating a dangerous threat to infrastructure."
-      }
-     ]
-    },
-    "hydro": {
-     "brief": "missing",
-     "candidates": [
+       "blurb": "The U.S. Department of Energy's Hydropower and Hydrokinetic Office selected 14 hydropower projects for negotiations on vouchers for in-kind support."
+      },
       {
        "title": "Aker Solutions wins Norway’s Nes hydropower upgrade contract",
        "url": "https://www.waterpowermagazine.com/news/aker-solutions-wins-norways-nes-hydropower-upgrade-contract/",
@@ -1494,30 +1521,6 @@
        "stages": [],
        "via": null,
        "blurb": "Eryri National Park Authority in Wales has agreed to withdraw planning approval for a proposed Eryri hydropower scheme near Llan Ffestiniog The post Eryri hydropower approval withdrawn following legal challenge appeared first on International Water Power ."
-      },
-      {
-       "title": "DOE selects second round of hydropower projects for technical support, with modernization in mind",
-       "url": "https://www.power-eng.com/renewables/hydropower/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
-       "source": "Power Engineering",
-       "published": "2026-10-07T17:27:00.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Hydro Review",
-         "url": "https://www.renewableenergyworld.com/hydro-power/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
-         "primary": false
-        },
-        {
-         "name": "Power Engineering",
-         "url": "https://www.power-eng.com/renewables/hydropower/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "The U.S. Department of Energy's Hydropower and Hydrokinetic Office selected 14 hydropower projects for negotiations on vouchers for in-kind support."
       },
       {
        "title": "Wave and tidal energy outlook: global potential, policy and technology",
@@ -1884,29 +1887,23 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "South Africa to procure 4.6 GW of battery storage",
-       "url": "https://www.pv-magazine.com/2026/10/08/south-africa-to-procure-4-6-gw-of-battery-storage/",
-       "source": "pv magazine",
-       "published": "2026-10-08T14:14:39.000Z",
-       "verification": "multiple",
+       "title": "Mint Renewables wins planning approval for 800MWh battery storage system in Western Australia",
+       "url": "https://www.energy-storage.news/mint-renewables-wins-planning-approval-for-800mwh-battery-storage-system-in-western-australia/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-09T03:21:32.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/08/south-africa-to-procure-4-6-gw-of-battery-storage/",
-         "primary": false
-        },
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080348.html",
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/mint-renewables-wins-planning-approval-for-800mwh-battery-storage-system-in-western-australia/",
          "primary": false
         }
        ],
        "stages": [
-        "generation",
         "grid"
        ],
        "via": null,
-       "blurb": "South Africa is preparing large-scale procurement of battery storage facilities and gas-fired power plants in a bid to address curtailment and strengthen reliable electricity supply. The post South Africa to procure 4.6 GW of battery storage appeared first on pv magazine Global ."
+       "blurb": "Mint Renewables has received planning approval for an 800MWh battery energy storage system (BESS) near Kojonup in Western Australia."
       },
       {
        "title": "Tasmania’s ‘Battery of the Nation’ plan moves closer as Marinus Link holds sod turn in Australia",
@@ -1928,6 +1925,48 @@
        "blurb": "Marinus Link held a sod turning ceremony in North West Tasmania to mark the start of expanded construction."
       },
       {
+       "title": "South Korea picks solar, battery and EVs as key sectors in US$747 billion Green Industrial Plan",
+       "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
+       "source": "PV Tech",
+       "published": "2026-10-08T09:02:45.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/south-korea-unveils-us475-billion-green-transformation-industrial-strategy/",
+         "primary": false
+        },
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy."
+      },
+      {
+       "title": "South Africa to procure 4.6 GW of battery storage",
+       "url": "https://www.pv-magazine.com/2026/10/08/south-africa-to-procure-4-6-gw-of-battery-storage/",
+       "source": "pv magazine",
+       "published": "2026-10-08T14:14:39.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/08/south-africa-to-procure-4-6-gw-of-battery-storage/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "South Africa is preparing large-scale procurement of battery storage facilities and gas-fired power plants in a bid to address curtailment and strengthen reliable electricity supply. The post South Africa to procure 4.6 GW of battery storage appeared first on pv magazine Global ."
+      },
+      {
        "title": "Inside BESS manufacturing: Maxxen’s utility-scale storage factory in Europe",
        "url": "https://www.pv-magazine.com/2026/10/08/inside-bess-manufacturing-maxxens-utility-scale-storage-factory-in-europe/",
        "source": "pv magazine",
@@ -1946,23 +1985,6 @@
        ],
        "via": null,
        "blurb": "A detailed look at Maxxen’s advanced BESS factory from an on-the-ground tour. The post Inside BESS manufacturing: Maxxen’s utility-scale storage factory in Europe appeared first on pv magazine Global ."
-      },
-      {
-       "title": "South Korea picks solar, battery and EVs as key sectors in US$747 billion Green Industrial Plan",
-       "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
-       "source": "PV Tech",
-       "published": "2026-10-08T09:02:45.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy."
       },
       {
        "title": "R.Power completes Jedwabno battery installation",
@@ -2072,40 +2094,21 @@
        "blurb": ""
       },
       {
-       "title": "Australia: Eku Energy locks community deals for 2.76GWh Queensland BESS duo as Valo wins 1.6GWh contract",
-       "url": "https://www.energy-storage.news/australia-eku-energy-locks-community-deals-for-2-76gwh-queensland-bess-duo-as-valo-wins-1-6gwh-contract/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-08T03:23:27.000Z",
+       "title": "Forvia Hella secures series deals for hybrid battery tech",
+       "url": "https://www.automotiveworld.com/news/forvia-hella-secures-series-deals-for-hybrid-battery-tech/",
+       "source": "Automotive World",
+       "published": "2026-10-08T05:15:03.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/australia-eku-energy-locks-community-deals-for-2-76gwh-queensland-bess-duo-as-valo-wins-1-6gwh-contract/",
+         "name": "Automotive World",
+         "url": "https://www.automotiveworld.com/news/forvia-hella-secures-series-deals-for-hybrid-battery-tech/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Eku Energy has signed CBAs with Gladstone Regional Council and Western Downs Regional Council for two BESS projects in Queensland."
-      },
-      {
-       "title": "How SAMDUO is entering Europe’s home battery market with household-led design",
-       "url": "https://www.pv-tech.org/samduo-entering-europes-home-battery-market-household-led-design/",
-       "source": "PV Tech",
-       "published": "2026-10-08T07:57:53.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/samduo-entering-europes-home-battery-market-household-led-design/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "Clean technology provider SAMDUO unveiled its Nex E6000 and Nex E6000H home batteries at Solar Solutions Amsterdam in March 2026."
+       "blurb": "Forvia Hella’s order wins show automakers paying for integration, as fewer boxes and wires become a route to cheaper electrification The post Forvia Hella secures series deals for hybrid battery tech appeared first on Automotive World ."
       }
      ]
     }
@@ -2239,26 +2242,6 @@
        "blurb": "For organizations like the Savannah River Mission Completion (SRMC), a liquid waste contractor for the U.S. Department of Energy (DOE) Office of Environmental Management at the Savannah River Site (SRS) in Aiken, South Carolina, the summer season poses significant challenges for "
       },
       {
-       "title": "Deployable Energy to test its Unity nuclear battery in DOME",
-       "url": "https://www.world-nuclear-news.org/articles/deployable-energy-to-test-its-unity-nuclear-battery-in-dome",
-       "source": "World Nuclear News",
-       "published": "2026-10-07T14:16:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/deployable-energy-to-test-its-unity-nuclear-battery-in-dome",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "innovation",
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
-      },
-      {
        "title": "Tennessee Valley Authority Gets Approval to Build Small Nuclear Reactor",
        "url": "https://www.nytimes.com/2026/09/29/climate/nuclear-reactor-tennessee-valley-authority.html",
        "source": "NYT Climate / Energy",
@@ -2282,6 +2265,26 @@
        ],
        "via": null,
        "blurb": "It’s only the second time that American regulators have approved a next-generation commercial reactor for construction. Big hurdles remain."
+      },
+      {
+       "title": "Deployable Energy to test its Unity nuclear battery in DOME",
+       "url": "https://www.world-nuclear-news.org/articles/deployable-energy-to-test-its-unity-nuclear-battery-in-dome",
+       "source": "World Nuclear News",
+       "published": "2026-10-07T14:16:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/deployable-energy-to-test-its-unity-nuclear-battery-in-dome",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
       },
       {
        "title": "Energy Firms Try to Squeeze More Power Out of Old Nuclear Plants",
@@ -2308,32 +2311,10 @@
      "brief": "ready",
      "candidates": [
       {
-       "title": "Rising oil prices, falling technology stocks and reversing bond yields keep Wall Street unsettled",
-       "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/higher-oil-prices-pull-the-us-stock-market-further-from-its-record/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-09T00:23:00.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/higher-oil-prices-pull-the-us-stock-market-further-from-its-record/",
-         "primary": false
-        },
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/07/european-stocks-fall-as-wall-street-retreats-from-record-highs/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Some sharp reversals kept financial markets unsteady on Thursday, as oil prices rose and U.S. stock indexes finished mixed."
-      },
-      {
        "title": "Two Mumbai-based firms, five Indian nationals face U.S. sanctions over Iran oil trade",
        "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
        "source": "The Hindu Business",
-       "published": "2026-10-08T21:36:05.000Z",
+       "published": "2026-10-09T03:12:52.000Z",
        "verification": "multiple",
        "outlets": [
         {
@@ -2374,13 +2355,13 @@
          "primary": false
         },
         {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333704/oil-surges-stocks-sink-as-us-reportedly-eyes-new-iran-strikes",
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
          "primary": false
         },
         {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/asia/world-trade-organization-wto-global-outlook-resilient-robert-staiger-interview-6444356",
          "primary": false
         },
         {
@@ -2402,11 +2383,6 @@
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/wire/oil_surges_as_iran_tanker_attacks_escalate-08-oct-2026-184807-article/?rss=true",
          "primary": false
-        },
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
-         "primary": false
         }
        ],
        "stages": [
@@ -2416,21 +2392,21 @@
        "blurb": "Market volatility increased as geopolitical tensions in the Middle East and hurricane preparations in the US Gulf led to production cuts and shipping disruptions, pushing Brent and WTI crude prices higher."
       },
       {
-       "title": "US imposes fresh sanctions on Iran’s shadow fleet",
-       "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
-       "source": "Daily Maverick",
-       "published": "2026-10-08T21:19:13.000Z",
+       "title": "Rising oil prices, falling technology stocks and reversing bond yields keep Wall Street unsettled",
+       "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/higher-oil-prices-pull-the-us-stock-market-further-from-its-record/",
+       "source": "BNN Bloomberg",
+       "published": "2026-10-09T00:23:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Daily Maverick",
-         "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/markets/2026/10/08/higher-oil-prices-pull-the-us-stock-market-further-from-its-record/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
+       "blurb": "Some sharp reversals kept financial markets unsteady on Thursday, as oil prices rose and U.S. stock indexes finished mixed."
       },
       {
        "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
@@ -2557,6 +2533,23 @@
        "blurb": "Chevron has agreed to divest its ownership interests in Hess Midstream, along with its crude oil midstream assets in the Denver Julesburg (DJ) Basin in the US, as part of a transaction with Hess Midstream."
       },
       {
+       "title": "US supreme court hears big oil’s bid to block climate damage lawsuits",
+       "url": "https://www.theguardian.com/us-news/2026/oct/05/supreme-court-big-oil-climate-damage-lawsuits",
+       "source": "The Guardian Energy",
+       "published": "2026-10-05T19:57:36.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/us-news/2026/oct/05/supreme-court-big-oil-climate-damage-lawsuits",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "How the court will lean is unclear amid Suncor Energy and ExxonMobil’s attempt to stop lawsuits at state level The US supreme court began its new nine-month term hearing arguments on Monday in a major case in which big oil companies attempted to strike a fatal blow against lawsui"
+      },
+      {
        "title": "US BLM sets December California oil, gas lease sale",
        "url": "https://www.ogj.com/general-interest/government/news/55409584/us-blm-sets-december-california-oil-gas-lease-sale",
        "source": "Oil & Gas Journal",
@@ -2602,6 +2595,26 @@
     "gas": {
      "brief": "ready",
      "candidates": [
+      {
+       "title": "US LNG exports drop to 31 shipments",
+       "url": "https://lngprime.com/americas/us-lng-exports-drop-to-31-shipments/198139/",
+       "source": "LNG Prime",
+       "published": "2026-10-09T06:28:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/us-lng-exports-drop-to-31-shipments/198139/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "US liquefied natural gas (LNG) plants sent 31 cargoes during the week ending October 7, down six shipments from the previous week, according to the Energy Information Administration."
+      },
       {
        "title": "Natural Gas Spot Prices Sink in Appalachia, California as Henry Hub Bucks Downtrend",
        "url": "https://naturalgasintel.com/news/natural-gas-spot-prices-sink-in-appalachia-california-as-henry-hub-bucks-downtrend/",
@@ -2825,25 +2838,6 @@
        ],
        "via": null,
        "blurb": "Portuguese energy firm Galp has won an arbitration case against US LNG exporter Venture Global LNG over LNG sales from the Calcasieu Pass plant in Louisiana."
-      },
-      {
-       "title": "Middle River buys 427MW Panoche natural gas plant in California, US",
-       "url": "https://www.power-technology.com/news/middle-river-buys-427mw-panoche-plant/",
-       "source": "Power Technology",
-       "published": "2026-10-07T07:43:37.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Power Technology",
-         "url": "https://www.power-technology.com/news/middle-river-buys-427mw-panoche-plant/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "US-based independent power producer Middle River Power has acquired the fully contracted 427MW Panoche Energy Center, a natural gas generation facility in Firebaugh, California, US, from an Ares Infrastructure Equity fund."
       }
      ]
     },
@@ -3006,25 +3000,6 @@
        "blurb": "US clean energy developer Clearway Energy has closed financing and started construction on a 650MW solar project in Missouri."
       },
       {
-       "title": "To Block Solar Energy Projects, One Community Lumped Them in With Junkyards and Adult Bookstores",
-       "url": "https://insideclimatenews.org/news/08102026/inside-clean-energy-indiana-solar-energy-fight/",
-       "source": "Inside Climate News",
-       "published": "2026-10-08T13:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Inside Climate News",
-         "url": "https://insideclimatenews.org/news/08102026/inside-clean-energy-indiana-solar-energy-fight/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "In Montgomery County, Indiana, utility-scale solar projects appear on an official list of undesirable land uses that also includes “adult-oriented businesses.” So it wasn’t surprising that the county Board of Commissioners unanimously rejected a 200-megawatt solar project on Sept"
-      },
-      {
        "title": "Clearway Starts Construction of 650-MW Solar Facility in Missouri",
        "url": "https://www.powermag.com/clearway-starts-construction-of-650-mw-solar-facility-in-missouri/",
        "source": "POWER Magazine",
@@ -3047,6 +3022,25 @@
        ],
        "via": null,
        "blurb": "California-headquartered Clearway Energy Group said it has closed financing and begun construction of the Swan Energy Center, a 650-MW solar facility located on portions of formerly strip-mined land in northwestern Bates County, Missouri. The project is San Francisco-based Clearw"
+      },
+      {
+       "title": "To Block Solar Energy Projects, One Community Lumped Them in With Junkyards and Adult Bookstores",
+       "url": "https://insideclimatenews.org/news/08102026/inside-clean-energy-indiana-solar-energy-fight/",
+       "source": "Inside Climate News",
+       "published": "2026-10-08T13:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Inside Climate News",
+         "url": "https://insideclimatenews.org/news/08102026/inside-clean-energy-indiana-solar-energy-fight/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "In Montgomery County, Indiana, utility-scale solar projects appear on an official list of undesirable land uses that also includes “adult-oriented businesses.” So it wasn’t surprising that the county Board of Commissioners unanimously rejected a 200-megawatt solar project on Sept"
       },
       {
        "title": "Zelestra closes US$350 million financing at 203MW PV plant in Indiana backed by Meta",
@@ -3375,45 +3369,6 @@
        "blurb": "US energy holding company and project developer-owner NextEra Energy has suspended operations at two energy storage facilities in Long Island, New York, US."
       },
       {
-       "title": "Linea Energy closes financing for 500MWh Texas BESS project",
-       "url": "https://www.energy-storage.news/linea-energy-closes-financing-for-500mwh-texas-bess-project/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-06T11:46:12.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/linea-energy-closes-financing-for-500mwh-texas-bess-project/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "IPP Linea Energy has closed a debt financing and preferred equity commitment for its 250MW/500MWh Mesa View energy storage project in Upton County, Texas, US."
-      },
-      {
-       "title": "Antora Energy announces 5.8GWh ‘multi-day’ thermal energy storage project in Kansas, US",
-       "url": "https://www.energy-storage.news/antora-energy-announces-5-8gwh-multi-day-thermal-energy-storage-project-in-kansas-us/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-06T11:22:39.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/antora-energy-announces-5-8gwh-multi-day-thermal-energy-storage-project-in-kansas-us/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid",
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Thermal energy storage (TES) technology provider Antora Energy has announced a 5.8GWh “multi-day” TES project at Pratt Energy’s biorefinery in Pratt, Kansas, US."
-      },
-      {
        "title": "B2U CEO: US second-life BESS can compete with ‘China price’",
        "url": "https://www.energy-storage.news/b2u-ceo-us-second-life-bess-can-compete-with-china-price/",
        "source": "Energy-Storage.news",
@@ -3431,6 +3386,23 @@
        ],
        "via": null,
        "blurb": "Energy-Storage.news Premium speaks with Freeman Hall, CEO of second-life BESS firm B2U Storage Solutions."
+      },
+      {
+       "title": "Ethanol a 'promising' option for methanol-powered vessels, study says",
+       "url": "https://www.agri-pulse.com/articles/25356-ethanol-a-promising-for-methanol-powered-vessels-study-says",
+       "source": "Agri-Pulse",
+       "published": "2026-10-08T20:49:21.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Agri-Pulse",
+         "url": "https://www.agri-pulse.com/articles/25356-ethanol-a-promising-for-methanol-powered-vessels-study-says",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A new study finds ethanol is a \"promising drop-in option for methanol-fueled vessels.\""
       }
      ]
     }
@@ -3799,30 +3771,6 @@
       }
      ]
     },
-    "gas": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Fairplay Towage orders LNG tugs at Sanmar",
-       "url": "https://lngprime.com/europe/fairplay-towage-orders-lng-tugs-at-sanmar/198109/",
-       "source": "LNG Prime",
-       "published": "2026-10-08T06:00:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/europe/fairplay-towage-orders-lng-tugs-at-sanmar/198109/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "German tugboat operator Fairplay Towage has ordered new tugs at Turkiye's Sanmar to support fleet modernization and LNG terminal operations."
-      }
-     ]
-    },
     "wind": {
      "brief": "missing",
      "candidates": [
@@ -4125,8 +4073,13 @@
        "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
        "source": "PV Tech",
        "published": "2026-10-08T09:02:45.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/south-korea-unveils-us475-billion-green-transformation-industrial-strategy/",
+         "primary": false
+        },
         {
          "name": "PV Tech",
          "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
@@ -4147,8 +4100,13 @@
        "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
        "source": "PV Tech",
        "published": "2026-10-08T09:02:45.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/south-korea-unveils-us475-billion-green-transformation-industrial-strategy/",
+         "primary": false
+        },
         {
          "name": "PV Tech",
          "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
@@ -4463,7 +4421,7 @@
        "title": "Two Mumbai-based firms, five Indian nationals face U.S. sanctions over Iran oil trade",
        "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
        "source": "The Hindu Business",
-       "published": "2026-10-08T21:36:05.000Z",
+       "published": "2026-10-09T03:12:52.000Z",
        "verification": "multiple",
        "outlets": [
         {
@@ -4497,6 +4455,23 @@
        "stages": [],
        "via": null,
        "blurb": "Indian refiners have cut back Russian crude purchases for November delivery."
+      },
+      {
+       "title": "Perfect storm: Sensex slips amid rising oil, bond yields",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/perfect-storm-sensex-slips-amid-rising-oil-bond-yields/articleshow/134803327.cms",
+       "source": "Times of India Business",
+       "published": "2026-10-09T01:10:29.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/perfect-storm-sensex-slips-amid-rising-oil-bond-yields/articleshow/134803327.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Brent crude prices surged to over $105 per barrel, affecting the Indian stock market negatively. The Sensex dropped 1,045 points, significantly impacting investor wealth by Rs 10 lakh crore. Foreign portfolio investors sold stocks worth approximately Rs 13,000 crore, marking a hi"
       },
       {
        "title": "Honeywell, Engineers India Picked for $16B Kenya Crude Oil Refinery Project",
@@ -5097,6 +5072,25 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Mint Renewables wins planning approval for 800MWh battery storage system in Western Australia",
+       "url": "https://www.energy-storage.news/mint-renewables-wins-planning-approval-for-800mwh-battery-storage-system-in-western-australia/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-09T03:21:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/mint-renewables-wins-planning-approval-for-800mwh-battery-storage-system-in-western-australia/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Mint Renewables has received planning approval for an 800MWh battery energy storage system (BESS) near Kojonup in Western Australia."
+      },
+      {
        "title": "Tasmania’s ‘Battery of the Nation’ plan moves closer as Marinus Link holds sod turn in Australia",
        "url": "https://www.energy-storage.news/tasmanias-battery-of-the-nation-plan-moves-closer-as-marinus-link-holds-sod-turn-in-australia/",
        "source": "Energy-Storage.news",
@@ -5433,16 +5427,11 @@
        "url": "https://www.pv-magazine.com/2026/10/08/south-africa-to-procure-4-6-gw-of-battery-storage/",
        "source": "pv magazine",
        "published": "2026-10-08T14:14:39.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "pv magazine",
          "url": "https://www.pv-magazine.com/2026/10/08/south-africa-to-procure-4-6-gw-of-battery-storage/",
-         "primary": false
-        },
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080348.html",
          "primary": false
         }
        ],
@@ -5671,6 +5660,25 @@
     "gas": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "QatarEnergy’s LNG expansion targets early 2027 production amid reports of $3bn loan",
+       "url": "https://www.euronews.com/2026/10/09/qatarenergys-lng-expansion-targets-early-2027-production-amid-reports-of-3bn-loan",
+       "source": "Euronews Business",
+       "published": "2026-10-09T05:55:27.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/09/qatarenergys-lng-expansion-targets-early-2027-production-amid-reports-of-3bn-loan",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "QatarEnergy is advancing its LNG expansion and has reportedly secured a $3 billion (€2.68bn) loan from Chinese banks as war damage and shipping risks constrain exports. Shipments through Hormuz are recovering, but remain far below pre-war levels."
+      },
       {
        "title": "MISC to order five more LNG carriers for Petronas charter",
        "url": "https://lngprime.com/asia/misc-to-order-five-more-lng-carriers-for-petronas-charter/198123/",
@@ -5969,6 +5977,25 @@
     "gas": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Singapore LNG kicks off work on third jetty",
+       "url": "https://lngprime.com/asia/singapore-lng-kicks-off-work-on-third-jetty/198159/",
+       "source": "LNG Prime",
+       "published": "2026-10-09T06:43:04.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/asia/singapore-lng-kicks-off-work-on-third-jetty/198159/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "State-owned LNG terminal operator Singapore LNG has officially kicked off the construction of a new LNG jetty, which will support the further growth of LNG bunkering in Singapore."
+      },
       {
        "title": "Seatrium bags first FSRU conversion for Excelerate",
        "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
@@ -6445,6 +6472,50 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Oil falls as Trump comments on Iran talks ease supply concerns",
+       "url": "https://www.channelnewsasia.com/business/oil-falls-trump-comments-iran-talks-ease-supply-concerns-6444926",
+       "source": "CNA Business",
+       "published": "2026-10-09T02:27:57.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-today-brent-slips-as-trump-cites-productive-talks-with-iran/articleshow/134804669.cms",
+         "primary": false
+        },
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/oil-falls-trump-comments-iran-talks-ease-supply-concerns-6444926",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
+      {
+       "title": "Two Mumbai-based firms, five Indian nationals face U.S. sanctions over Iran oil trade",
+       "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-09T03:12:52.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The action against the Indian entities and individuals is part of the U.S. crackdown against Iran under Operation Economic Outcast"
+      },
+      {
        "title": "Oil Surges as Iran Tanker Attacks Escalate",
        "url": "https://www.rigzone.com/news/wire/oil_surges_as_iran_tanker_attacks_escalate-08-oct-2026-184807-article/?rss=true",
        "source": "Rigzone",
@@ -6467,13 +6538,13 @@
          "primary": false
         },
         {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333704/oil-surges-stocks-sink-as-us-reportedly-eyes-new-iran-strikes",
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
          "primary": false
         },
         {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/asia/world-trade-organization-wto-global-outlook-resilient-robert-staiger-interview-6444356",
          "primary": false
         },
         {
@@ -6494,11 +6565,6 @@
         {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/wire/oil_surges_as_iran_tanker_attacks_escalate-08-oct-2026-184807-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
          "primary": false
         }
        ],
@@ -6533,43 +6599,23 @@
        "blurb": "Ryanair falls as Michael O’Leary warns that ‘insanely higher’ jet fuel prices could last until 2028"
       },
       {
-       "title": "Two Mumbai-based firms, five Indian nationals face U.S. sanctions over Iran oil trade",
-       "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T21:36:05.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
-         "primary": false
-        },
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The action against the Indian entities and individuals is part of the U.S. crackdown against Iran under Operation Economic Outcast"
-      },
-      {
-       "title": "US imposes fresh sanctions on Iran’s shadow fleet",
-       "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
-       "source": "Daily Maverick",
-       "published": "2026-10-08T21:19:13.000Z",
+       "title": "Asian stocks mixed amid AI concerns, oil dips after surge",
+       "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-09T03:45:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Daily Maverick",
-         "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
          "primary": false
         }
        ],
-       "stages": [],
+       "stages": [
+        "innovation"
+       ],
        "via": null,
-       "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
+       "blurb": "HONG KONG — Asian stocks headed into the weekend on a mixed note on Friday with tech weighed by renewed concerns about the artificial intelligence (AI) investment boom, while support came from a drop in oil prices after Donald Trump ruled out a pre-election strike on Iran."
       },
       {
        "title": "Gulf economies to shrink despite higher oil prices as Iran war takes toll, World Bank says",
@@ -6906,30 +6952,6 @@
    "label": "Türkiye",
    "level": "country",
    "sources": {
-    "gas": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Fairplay Towage orders LNG tugs at Sanmar",
-       "url": "https://lngprime.com/europe/fairplay-towage-orders-lng-tugs-at-sanmar/198109/",
-       "source": "LNG Prime",
-       "published": "2026-10-08T06:00:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/europe/fairplay-towage-orders-lng-tugs-at-sanmar/198109/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "German tugboat operator Fairplay Towage has ordered new tugs at Turkiye's Sanmar to support fleet modernization and LNG terminal operations."
-      }
-     ]
-    },
     "coal": {
      "brief": "missing",
      "candidates": [
@@ -7122,28 +7144,6 @@
    "label": "Ireland",
    "level": "country",
    "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Home heating oil surges 58% as energy bill hikes wipe out budget gains",
-       "url": "https://www.irishtimes.com/business/2026/10/08/home-heating-oil-prices-rise-almost-60/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-08T11:06:37.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/08/home-heating-oil-prices-rise-almost-60/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The cost of filling a 1,000 litre domestic oil tank has gone up €400 since June and July"
-      }
-     ]
-    },
     "wind": {
      "brief": "missing",
      "candidates": [
@@ -7163,6 +7163,28 @@
        "stages": [],
        "via": null,
        "blurb": "Sumitomo Corporation Global Metals (SCGM) and Ireland-based TFI Marine have formed a strategic partnership to bring TFI Marine’s SeaSpring..."
+      }
+     ]
+    },
+    "solar": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Solar panel mounting firm’s former CEO set up rival business, court hears",
+       "url": "https://www.irishtimes.com/business/2026/10/09/solar-panel-mounting-firms-former-ceo-set-up-rival-business-court-hears/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-09T04:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/2026/10/09/solar-panel-mounting-firms-former-ceo-set-up-rival-business-court-hears/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Judge grants orders at ex-parte hearing for preservation of company’s property and documents"
       }
      ]
     },
@@ -7281,7 +7303,7 @@
        "title": "Two Mumbai-based firms, five Indian nationals face U.S. sanctions over Iran oil trade",
        "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
        "source": "The Hindu Business",
-       "published": "2026-10-08T21:36:05.000Z",
+       "published": "2026-10-09T03:12:52.000Z",
        "verification": "multiple",
        "outlets": [
         {
@@ -7398,6 +7420,28 @@
     "oil": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "UK motorists can now see live fuel prices on Google Maps",
+       "url": "https://www.theguardian.com/money/2026/oct/08/uk-drivers-live-petrol-diesel-prices-google-maps-pump-pricing",
+       "source": "The Guardian Business",
+       "published": "2026-10-08T05:00:11.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/money/2026/oct/08/uk-drivers-live-petrol-diesel-prices-google-maps-pump-pricing",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/fuel-prices-displayed-on-google-maps-for-1st-time-amid-rising-energy-costs-in-uk/4081974",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Move expected to make pump pricing more transparent and encourage competition after diesel hits record £2 a litre Drivers will be able to see live petrol prices on Google Maps for the first time from Thursday, in a move that will help motorists shop around for the cheapest fuel. "
+      },
       {
        "title": "U.K. Expands Sanctions to Cover 90% of Russian Oil Output, Shadow Fleet and Finance Networks",
        "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
@@ -8090,117 +8134,34 @@
        "blurb": "This article originally appeared on Inside Climate News , a nonprofit, nonpartisan news organization that covers climate, energy, and the environment. Sign up for their newsletter. Apex Clean Energy and Meta have entered into a power purchase agreement that allows the technology "
       }
      ]
-    },
-    "emerging": {
+    }
+   }
+  },
+  "ua": {
+   "label": "Ukraine",
+   "level": "country",
+   "sources": {
+    "oil": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Linea Energy closes financing for 500MWh Texas BESS project",
-       "url": "https://www.energy-storage.news/linea-energy-closes-financing-for-500mwh-texas-bess-project/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-06T11:46:12.000Z",
+       "title": "Ukraine reportedly targets Russian cruise missile fuel plant, oil depot in overnight attack",
+       "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-09T03:51:11.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/linea-energy-closes-financing-for-500mwh-texas-bess-project/",
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
          "primary": false
         }
        ],
        "stages": [
-        "grid"
+        "generation"
        ],
        "via": null,
-       "blurb": "IPP Linea Energy has closed a debt financing and preferred equity commitment for its 250MW/500MWh Mesa View energy storage project in Upton County, Texas, US."
-      }
-     ]
-    }
-   }
-  },
-  "in-city-mumbai": {
-   "label": "Mumbai",
-   "level": "city",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Two Mumbai-based firms, five Indian nationals face U.S. sanctions over Iran oil trade",
-       "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T21:36:05.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
-         "primary": false
-        },
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The action against the Indian entities and individuals is part of the U.S. crackdown against Iran under Operation Economic Outcast"
-      }
-     ]
-    }
-   }
-  },
-  "ir-th": {
-   "label": "Tehran",
-   "level": "admin1",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "US imposes fresh sanctions on Iran’s shadow fleet",
-       "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
-       "source": "Daily Maverick",
-       "published": "2026-10-08T21:19:13.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Daily Maverick",
-         "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
-      }
-     ]
-    }
-   }
-  },
-  "ir-city-tehran": {
-   "label": "Tehran",
-   "level": "city",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "US imposes fresh sanctions on Iran’s shadow fleet",
-       "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
-       "source": "Daily Maverick",
-       "published": "2026-10-08T21:19:13.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Daily Maverick",
-         "url": "https://www.dailymaverick.co.za/article/2026-10-08-us-imposes-fresh-sanctions-on-irans-shadow-fleet/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "WASHINGTON, Oct 8 (Reuters) - The US imposed fresh sanctions on Iran on Thursday, targeting individuals, networks and 17 vessels for transportingIranian crude, oil products and petrochemicals, the Treasury Department said, as Washington stepped up economic pressure on Tehran."
+       "blurb": "Ukraine's military launched an attack on Russia's Tver Oblast overnight on Oct. 9, reportedly targeting a Russian factory that manufactures fuel components for Kh-55 and Kh-101 cruise missiles, Russian Telegram media channels reported."
       }
      ]
     }
@@ -8213,23 +8174,6 @@
     "nuclear": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Rosatom folds Delo into expanding logistics platform",
-       "url": "https://splash247.com/rosatom-folds-delo-into-expanding-logistics-platform/",
-       "source": "Splash247",
-       "published": "2026-10-08T10:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/rosatom-folds-delo-into-expanding-logistics-platform/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Russia’s state-owned Rosatom has completed the buyout of Delo Group founder Sergei Shishkarev’s controlling stake, taking full control of one of the country’s largest transport and container logistics groups. Rosatom, which previously held 49% of Delo, has acquired Shishkarev’s r"
-      },
       {
        "title": "Rosatom Takes Full Control of Transport Conglomerate Delo Group in $900M Buyout",
        "url": "https://www.themoscowtimes.com/2026/10/07/rosatom-takes-full-control-of-delo-group-in-900m-buyout-a93906",
@@ -8253,15 +8197,15 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Ukraine strikes Russia's Omsk oil refinery in Siberia, General Staff confirms",
-       "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
+       "title": "Ukraine reportedly targets Russian cruise missile fuel plant, oil depot in overnight attack",
+       "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
        "source": "The Kyiv Independent",
-       "published": "2026-10-08T14:25:58.000Z",
+       "published": "2026-10-09T03:51:11.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
+         "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
          "primary": false
         }
        ],
@@ -8269,7 +8213,7 @@
         "generation"
        ],
        "via": null,
-       "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
+       "blurb": "Ukraine's military launched an attack on Russia's Tver Oblast overnight on Oct. 9, reportedly targeting a Russian factory that manufactures fuel components for Kh-55 and Kh-101 cruise missiles, Russian Telegram media channels reported."
       },
       {
        "title": "India Shuns Costly Russian Oil",
@@ -8330,13 +8274,13 @@
          "primary": false
         },
         {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333704/oil-surges-stocks-sink-as-us-reportedly-eyes-new-iran-strikes",
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
          "primary": false
         },
         {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/asia/world-trade-organization-wto-global-outlook-resilient-robert-staiger-interview-6444356",
          "primary": false
         },
         {
@@ -8357,11 +8301,6 @@
         {
          "name": "Rigzone",
          "url": "https://www.rigzone.com/news/wire/oil_surges_as_iran_tanker_attacks_escalate-08-oct-2026-184807-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
          "primary": false
         }
        ],
@@ -8395,6 +8334,69 @@
        ],
        "via": null,
        "blurb": "Nigeria’s Power Crisis Creates New Opportunity for Solar as Togo Deepens Russia Ties"
+      }
+     ]
+    }
+   }
+  },
+  "au-wa": {
+   "label": "Western Australia",
+   "level": "admin1",
+   "sources": {
+    "emerging": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Mint Renewables wins planning approval for 800MWh battery storage system in Western Australia",
+       "url": "https://www.energy-storage.news/mint-renewables-wins-planning-approval-for-800mwh-battery-storage-system-in-western-australia/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-09T03:21:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/mint-renewables-wins-planning-approval-for-800mwh-battery-storage-system-in-western-australia/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Mint Renewables has received planning approval for an 800MWh battery energy storage system (BESS) near Kojonup in Western Australia."
+      }
+     ]
+    }
+   }
+  },
+  "in-city-mumbai": {
+   "label": "Mumbai",
+   "level": "city",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Two Mumbai-based firms, five Indian nationals face U.S. sanctions over Iran oil trade",
+       "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-09T03:12:52.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
+         "primary": false
+        },
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The action against the Indian entities and individuals is part of the U.S. crackdown against Iran under Operation Economic Outcast"
       }
      ]
     }
@@ -8457,12 +8459,17 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Fuel subsidy would cost Nigeria over N20trn yearly — Minister",
-       "url": "https://www.premiumtimesng.com/business/business-news/915535-fuel-subsidy-would-cost-nigeria-over-n20trn-yearly-minister.html",
-       "source": "Premium Times (Nigeria)",
-       "published": "2026-10-08T19:46:06.000Z",
-       "verification": "unconfirmed",
+       "title": "Nigeria: Fuel Subsidy Would Cost Nigeria Over N20trn Yearly - Minister",
+       "url": "https://allafrica.com/stories/202610090182.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T05:43:33.000Z",
+       "verification": "multiple",
        "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090182.html",
+         "primary": false
+        },
         {
          "name": "Premium Times (Nigeria)",
          "url": "https://www.premiumtimesng.com/business/business-news/915535-fuel-subsidy-would-cost-nigeria-over-n20trn-yearly-minister.html",
@@ -8471,7 +8478,77 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The Federal Government has rejected calls for the return of petrol subsidy, warning that restoring petrol to its pre-reform price would cost more than N20 trillion annually and could eventually push the exchange rate towards N3,000 to a dollar and petrol prices to at least N2,000"
+       "blurb": "[Premium Times] The Federal Government has rejected calls for the return of petrol subsidy, warning that restoring petrol to its pre-reform price would cost more than N20 trillion annually and could eventually push the exchange rate towards N3,000 to a dollar and petrol prices to"
+      },
+      {
+       "title": "Nigeria: NNPC Discount Measure for Petrol Pump Price Has Tinubu's Backing - Presidency",
+       "url": "https://allafrica.com/stories/202610090186.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T05:43:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090186.html",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "[Vanguard] The Presidency on Thursday explained that the measure taken by the Nigerian National Petroleum Company Limited (NNPCL) to forgo its petrol retail profit margin and sell to Nigerians at cost to cushion the impact of global crude oil price shocks and volatility on vulner"
+      },
+      {
+       "title": "Nigeria: Labour Gives Govt Two-Week Ultimatum to Revert Petrol Price to 2024 Level",
+       "url": "https://allafrica.com/stories/202610090179.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T05:43:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090179.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Vanguard] ABUJA -- Organised Labour has given the Federal Government a two-week ultimatum to revert the price of Premium Motor Spirit, PMS, popularly known as petrol, to its level before the signing of the current national minimum wage in 2024."
+      },
+      {
+       "title": "Nigeria: Govt Offers 30-Day Petrol Discount At NNPC Stations",
+       "url": "https://allafrica.com/stories/202610090163.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T05:36:42.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090163.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Leadership] The federal government has announced a 30-day discount on petrol sold at filling stations operated by the Nigerian National Petroleum Company (NNPC) Limited."
+      },
+      {
+       "title": "FG to negotiate ₦1,350 petrol price ceiling as global oil shock drives pump prices",
+       "url": "https://www.premiumtimesng.com/business/business-news/915575-fg-to-negotiate-%e2%82%a61350-petrol-price-ceiling-as-global-oil-shock-drives-pump-prices.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-09T04:24:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/business/business-news/915575-fg-to-negotiate-%e2%82%a61350-petrol-price-ceiling-as-global-oil-shock-drives-pump-prices.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Minister said the Federal Government is negotiating a ₦1,350 per litre ceiling on the ex-gantry or landing cost of petrol to limit price volatility amid rising global crude oil and refined petroleum product prices. The post FG to negotiate ₦1,350 petrol price ceiling as globa"
       }
      ]
     },
@@ -8858,30 +8935,6 @@
        "stages": [],
        "via": null,
        "blurb": "Japan’s city gas supplier and LNG importer, Tokyo Gas, said it had acquired all shares of Indonesian LNG developer AGP Indonesia Utama (AGPIU)."
-      },
-      {
-       "title": "Golar buys conversion vessel for fourth FLNG",
-       "url": "https://lngprime.com/asia/golar-buys-conversion-vessel-for-fourth-flng/198042/",
-       "source": "LNG Prime",
-       "published": "2026-10-07T13:40:09.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Offshore Energy",
-         "url": "https://offshore-energy.biz/2026/10/08/golar-secures-2013-built-lng-carrier-for-conversion-into-fourth-flng",
-         "primary": false
-        },
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/asia/golar-buys-conversion-vessel-for-fourth-flng/198042/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Floating LNG player Golar has agreed to acquire the LNG carrier Grace Dahlia from Japan's NYK Line to convert it into a floating LNG production unit."
       }
      ]
     }
@@ -9090,56 +9143,11 @@
        "url": "https://www.rigzone.com/news/wire/qatar_brings_empty_lng_ships_into_gulf-07-oct-2026-184793-article/?rss=true",
        "source": "Rigzone",
        "published": "2026-10-07T13:37:15.000Z",
-       "verification": "confirmed",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "World Trade Organization",
-         "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
-         "primary": true
-        },
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
-         "primary": false
-        },
-        {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2035725/wto-hikes-global-trade-growth-forecast-names-pakistan-among-nations-gaining-from-disruptions-amid-me-conflict",
-         "primary": false
-        },
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333704/oil-surges-stocks-sink-as-us-reportedly-eyes-new-iran-strikes",
-         "primary": false
-        },
-        {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/wto-upgrades-2026-goods-trade-growth-forecast-to-3-9-as-ai-boom-offsets-middle-east-disruption",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/sochi-reopens-beaches-after-drone-attack-on-oil-tanker-a93918",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/economy/wto-raises-2026-goods-trade-growth-forecast-to-39-cuts-services-outlook/4082393",
-         "primary": false
-        },
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
-         "primary": false
-        },
-        {
          "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/oil_surges_as_iran_tanker_attacks_escalate-08-oct-2026-184807-article/?rss=true",
-         "primary": false
-        },
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+         "url": "https://www.rigzone.com/news/wire/qatar_brings_empty_lng_ships_into_gulf-07-oct-2026-184793-article/?rss=true",
          "primary": false
         }
        ],
@@ -9334,23 +9342,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Why Higher Oil Prices Rattle Asian Stocks",
-       "url": "https://www.riotimesonline.com/oil-price-rise-asian-stocks-latin-america-winners/",
-       "source": "The Rio Times",
-       "published": "2026-10-08T21:30:47.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "The Rio Times",
-         "url": "https://www.riotimesonline.com/oil-price-rise-asian-stocks-latin-america-winners/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Asian shares fell on 8 October 2026 as oil rose. We explain why dearer crude hurts Asia, who is exposed, and how Latin American producers gain. The post Why Higher Oil Prices Rattle Asian Stocks appeared first on The Rio Times ."
-      },
-      {
        "title": "Petrobras makes additional discovery offshore Amapá",
        "url": "https://www.ogj.com/exploration-development/news/55409591/petrobras-makes-additional-discovery-offshore-amapa",
        "source": "Oil & Gas Journal",
@@ -9496,23 +9487,6 @@
         {
          "name": "Dawn Business",
          "url": "https://www.dawn.com/news/2035716/govt-raises-petrol-price-by-rs231-per-litre-high-speed-diesel-rate-by-re078-per-litre",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "body{margin:0;padding:0;font-family:system-ui,-apple-system,sans-serif;overflow-wrap:anywhere;} Pakistan fuel prices, 2026 Official ex-depot prices (PKR/litre) — OGRA & Ministry of Energy notifications Petrol (MS-92) Diesel (HSD) Pre-crisis baseline Source: OGRA / Ministry of Ene"
-      },
-      {
-       "title": "Govt raises petrol price by Rs1.82 per litre, reduces high-speed diesel rate by Re0.91",
-       "url": "https://www.dawn.com/news/2035445/govt-raises-petrol-price-by-rs182-per-litre-reduces-high-speed-diesel-rate-by-re091",
-       "source": "Dawn Business",
-       "published": "2026-10-07T17:53:18.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2035445/govt-raises-petrol-price-by-rs182-per-litre-reduces-high-speed-diesel-rate-by-re091",
          "primary": false
         }
        ],
@@ -9704,96 +9678,6 @@
     }
    }
   },
-  "ua": {
-   "label": "Ukraine",
-   "level": "country",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukraine strikes Russia's Omsk oil refinery in Siberia, General Staff confirms",
-       "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T14:25:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
-      }
-     ]
-    }
-   }
-  },
-  "ru-om": {
-   "label": "Omsk",
-   "level": "admin1",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukraine strikes Russia's Omsk oil refinery in Siberia, General Staff confirms",
-       "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T14:25:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
-      }
-     ]
-    }
-   }
-  },
-  "ru-city-omsk": {
-   "label": "Omsk",
-   "level": "city",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukraine strikes Russia's Omsk oil refinery in Siberia, General Staff confirms",
-       "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T14:25:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
-      }
-     ]
-    }
-   }
-  },
   "ar": {
    "label": "Argentina",
    "level": "country",
@@ -9899,37 +9783,6 @@
        ],
        "via": null,
        "blurb": "Argentina and the UK once fought a war over the Falkland Islands. Now, the multibillion-dollar Sea Lion oil project has reignited old tensions, with Buenos Aires seeking to put a stop to the plans."
-      }
-     ]
-    }
-   }
-  },
-  "us-ks": {
-   "label": "Kansas",
-   "level": "admin1",
-   "sources": {
-    "emerging": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Antora Energy announces 5.8GWh ‘multi-day’ thermal energy storage project in Kansas, US",
-       "url": "https://www.energy-storage.news/antora-energy-announces-5-8gwh-multi-day-thermal-energy-storage-project-in-kansas-us/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-06T11:22:39.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/antora-energy-announces-5-8gwh-multi-day-thermal-energy-storage-project-in-kansas-us/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid",
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Thermal energy storage (TES) technology provider Antora Energy has announced a 5.8GWh “multi-day” TES project at Pratt Energy’s biorefinery in Pratt, Kansas, US."
       }
      ]
     }

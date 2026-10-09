@@ -1,5 +1,35 @@
 {
  "version": 1,
- "countries": {},
- "updatedAt": "2026-10-09T00:49:03.796Z"
+ "countries": {
+  "id": {
+   "fetchedAt": "2026-10-09T06:44:26.795Z",
+   "articles": [
+    {
+     "url": "https://en.antaranews.com/news/433807/august-trade-surplus-positive-for-external-resilience-bi",
+     "title": "August trade surplus positive for external resilience : BI",
+     "seendate": "20261002T081500Z",
+     "domain": "en.antaranews.com"
+    },
+    {
+     "url": "https://en.antaranews.com/news/433811/balis-pengambengan-port-project-to-create-25000-jobs-minister",
+     "title": "Bali Pengambengan Port project to create 25 , 000 jobs : Minister",
+     "seendate": "20261002T081500Z",
+     "domain": "en.antaranews.com"
+    },
+    {
+     "url": "https://en.antaranews.com/news/433844/yokogawa-to-assist-the-scale-up-of-tropical-climate-ai-data-center-testbed-into-a-multi-megawatt-pilot-facility",
+     "title": "Yokogawa to Assist the Scale Up of Tropical Climate AI Data Center Testbed into a Multi - megawatt Pilot Facility",
+     "seendate": "20261002T081500Z",
+     "domain": "en.antaranews.com"
+    },
+    {
+     "url": "https://en.antaranews.com/news/433836/indonesia-can-broaden-global-support-for-palestine-analyst",
+     "title": "Indonesia can broaden global support for Palestine : analyst",
+     "seendate": "20261002T081500Z",
+     "domain": "en.antaranews.com"
+    }
+   ]
+  }
+ },
+ "updatedAt": "2026-10-09T06:44:26.795Z"
 }

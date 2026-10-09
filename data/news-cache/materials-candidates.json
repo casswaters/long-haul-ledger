@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T00:49:53.045Z",
+ "generatedAt": "2026-10-09T06:46:41.556Z",
  "sector": "materials",
  "maxAgeDays": 10,
  "places": {
@@ -10,6 +10,23 @@
     "crops": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Agri output likely contracted in 3Q",
+       "url": "https://www.philstar.com/stock-commentary/2026/10/09/2562040/agri-output-likely-contracted-3q",
+       "source": "Philstar Business",
+       "published": "2026-10-09T05:41:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/stock-commentary/2026/10/09/2562040/agri-output-likely-contracted-3q",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The DA expects agricultural output to have contracted in 3Q26 after expanding in 2Q26, with weakness potentially extending through 1Q27 as El Ni&ntilde;o intensifies."
+      },
       {
        "title": "Summit snub casts doubt over China’s soybean purchases",
        "url": "https://www.farmprogress.com/markets-and-quotes/morning-market-review",
@@ -26,23 +43,6 @@
        "stages": [],
        "via": null,
        "blurb": "Morning Market Analysis: Soybean futures fell overnight a day ahead of a USDA report that’s expected to illustrate prospects for a record harvest; corn and wheat are firmer."
-      },
-      {
-       "title": "Takaichi continues to fend off questions about scandal-hit farm minister",
-       "url": "https://www.japantimes.co.jp/news/2026/10/08/japan/politics/yana-takaichi/",
-       "source": "The Japan Times",
-       "published": "2026-10-08T08:43:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/08/japan/politics/yana-takaichi/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Allowing the situation to fester will not bode well for the government's legislative agenda, especially in the Upper House where it lacks a majority."
       },
       {
        "title": "SRA allocates all sugar output for domestic us",
@@ -147,6 +147,23 @@
        "blurb": "A majority of Better Cotton Initiative (BCI) growers have achieved deep reductions in nitrogen and pesticide use, as well as major drops in their carbon footprint."
       },
       {
+       "title": "Nigeria: Nigeria Targets Food Sovereignty, Adopts Ethiopia's Agribusiness Model - Shettima",
+       "url": "https://allafrica.com/stories/202610090161.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T05:36:41.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090161.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Leadership] In an aggressive bid to unlock billions in untapped wealth, Nigeria has embarked on a mega-infrastructure campaign designed to turn its agricultural sector into a primary economic powerhouse."
+      },
+      {
        "title": "Naturisa’s $73m profit shows Songa-linked earnings concentrated upstream in shrimp farming",
        "url": "https://www.undercurrentnews.com/2026/10/08/naturisas-73m-profit-shows-songa-linked-earnings-concentrated-upstream-in-shrimp-farming/",
        "source": "Undercurrent News",
@@ -181,44 +198,44 @@
        "blurb": "Extreme weather triggered by climate change is putting growing pressure on food security across Asia, home to many of the world’s major rice-producing countries. China alone produces nearly 30 percent of the world’s rice. Changing … The post Chinese NGOs bring participatory clima"
       },
       {
-       "title": "Foreign sugar subsidies cost US farmers billions, study finds",
-       "url": "https://www.farmprogress.com/tv-and-radio/foreign-sugar-subsidies-cost-us-farmers-billions-study-finds",
-       "source": "Farm Progress",
-       "published": "2026-10-08T12:51:02.000Z",
+       "title": "The USDA just made it way harder for farmers to get grants for solar",
+       "url": "https://www.canarymedia.com/articles/food-and-farms/usda-reap-grants-for-solar",
+       "source": "Canary Media",
+       "published": "2026-10-01T22:00:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Farm Progress",
-         "url": "https://www.farmprogress.com/tv-and-radio/foreign-sugar-subsidies-cost-us-farmers-billions-study-finds",
+         "name": "Canary Media",
+         "url": "https://www.canarymedia.com/articles/food-and-farms/usda-reap-grants-for-solar",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Farm Progress America"
-      },
-      {
-       "title": "Rice millers fear steep hike in rice prices",
-       "url": "https://www.thehindu.com/news/cities/Coimbatore/rice-millers-fear-steep-hike-in-rice-prices/article71560973.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T17:46:04.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/news/cities/Coimbatore/rice-millers-fear-steep-hike-in-rice-prices/article71560973.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
+       "blurb": "Rules published Thursday essentially end federal grants that thousands of American farmers have long relied on to build revenue-generating solar systems on their land. The Trump administration’s changes to the Rural Energy for America Program (REAP) are its latest attempt to bloc"
       }
      ]
     },
     "livestock": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Tax-free livestock import scheme launched",
+       "url": "https://www.dawn.com/news/2035829/tax-free-livestock-import-scheme-launched",
+       "source": "Dawn Business",
+       "published": "2026-10-09T02:04:27.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035829/tax-free-livestock-import-scheme-launched",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "ISLAMABAD: The Federal Board of Revenue (FBR) has issued new rules allowing duty- and tax-free imports of live cattle, sheep, and goats for fattening and subsequent export, either as live animals or as processed meat. The facility is offered under a new scheme to facilitate expor"
+      },
       {
        "title": "The American Livestock Industry’s Main Lobbying Group Treated Climate Change as a PR Problem",
        "url": "https://insideclimatenews.org/news/07102026/livestock-industry-lobby-group-downplayed-greenhouse-gas-emissions/",
@@ -361,23 +378,6 @@
        "blurb": "The trio met Ms Martin on Tuesday, with the fate of Scottish Forestry as a standalone government agency still in the air."
       },
       {
-       "title": "Mercer Keeps Its Mass Timber Plants Running Through Debt Talks",
-       "url": "https://woodcentral.com.au/mercer-international-debt-talks/",
-       "source": "Wood Central",
-       "published": "2026-10-07T21:29:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Wood Central",
-         "url": "https://woodcentral.com.au/mercer-international-debt-talks/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "North America’s largest mass timber maker has deferred a US$25.8 million interest payment to its bondholders, with Mercer International now negotiating a deal to reduce its debt. That is according to the Vancouver-based company, which told the US Securities and Exchange Commissio"
-      },
-      {
        "title": "Forestry Commission workers secure above-inflation pay rise",
        "url": "https://www.forestryjournal.co.uk/news/26619826.forestry-commission-workers-secure-above-inflation-pay-rise/?ref=rss",
        "source": "Forestry Journal",
@@ -412,21 +412,21 @@
        "blurb": "Share your views on the future of NSW’s historic timber truss bridges and their role in local communities. Source: Timberbiz The Timber Truss Bridge Strategy is Transport for NSW’s framework for deciding which historic timber road bridges should be conserved, how they should be m"
       },
       {
-       "title": "Australia’s Foresters Give Dr Michelle Freeman a Standing Ovation",
-       "url": "https://woodcentral.com.au/forestry-australia-president-freeman/",
+       "title": "Australia’s Foresters Open Up a Debate ‘Impossible a Decade Ago’",
+       "url": "https://woodcentral.com.au/forestry-australia-symposium-closing-panel/",
        "source": "Wood Central",
-       "published": "2026-10-08T12:42:13.000Z",
+       "published": "2026-10-09T03:17:48.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Wood Central",
-         "url": "https://woodcentral.com.au/forestry-australia-president-freeman/",
+         "url": "https://woodcentral.com.au/forestry-australia-symposium-closing-panel/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Forestry is increasingly recognised for the important role it plays in Australia’s future. That is according to Dr Michelle Freeman, a forest scientist who retired as Forestry Australia president, and who spoke to Wood Central last night following her final Annual General Meeting"
+       "blurb": "Delegates at Forestry Australia’s 2026 Symposium were ready to hear viewpoints beyond their own, with the ninth and final plenary session given over to what comes next for the forestry story. That is according to Bob Gordon, chair of Australian Forest and Wood Innovations (AFWI) "
       },
       {
        "title": "Forestry leaders to meet minister over merger fears",
@@ -444,6 +444,23 @@
        "stages": [],
        "via": null,
        "blurb": "Forestry figures have voiced their opposition to the plan, with many pointing to the example of Natural Resources Wales (NRW) as a warning to ministers."
+      },
+      {
+       "title": "Australia’s Foresters Give Dr Michelle Freeman a Standing Ovation",
+       "url": "https://woodcentral.com.au/forestry-australia-president-freeman/",
+       "source": "Wood Central",
+       "published": "2026-10-08T12:42:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/forestry-australia-president-freeman/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Forestry is increasingly recognised for the important role it plays in Australia’s future. That is according to Dr Michelle Freeman, a forest scientist who retired as Forestry Australia president, and who spoke to Wood Central last night following her final Annual General Meeting"
       },
       {
        "title": "Woodworking college receives accreditation for Carpentry and Timber Framing program",
@@ -1031,40 +1048,6 @@
        "blurb": "Higher mining rates and improved underground access at the DRC mine lift quarterly output. The post Ivanhoe copper jumps 19% as Kamoa-Kakula rebounds appeared first on The Northern Miner ."
       },
       {
-       "title": "Copper Queens stumble in Olympic qualifiers opener",
-       "url": "https://www.lusakatimes.com/2026/10/08/copper-queens-stumble-in-olympic-qualifiers-opener/",
-       "source": "Lusaka Times",
-       "published": "2026-10-08T17:28:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/08/copper-queens-stumble-in-olympic-qualifiers-opener/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Zambia’s Copper Queens have kicked off their 2028 Los Angeles Olympic qualifiers with a 2-1 loss to Uganda in the second round first leg played in Kampala on Thursday afternoon. The Queens surrendered an early lead at Hamz Nakivubo Stadium. Captain Barbra Banda set up Prisca Chil"
-      },
-      {
-       "title": "Namibia: Eight Years Later - Elizabeth Bay Mine Gets Fresh Lifeline",
-       "url": "https://allafrica.com/stories/202610080538.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T15:51:18.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080538.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Namibian] Dutch private equity and special situations investor Kenzoll Capital has partnered with MSF Commercials to restart operations at the Sperrgebiet Diamond Mine, formerly known as the Elizabeth Bay Mine, near Lüderitz."
-      },
-      {
        "title": "Mine backed by US, Australia and Gina Rinehart moves towards construction",
        "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
        "source": "ABC News (Australia) Business",
@@ -1148,6 +1131,40 @@
        "stages": [],
        "via": null,
        "blurb": "Leading mineral processing technology and service provider, FLSmidth (FLS), says it has received a DKK 360 million order to supply long-lead crushing and grinding technologies to a copper expansion project in northern Chile. Under the scope of the agreement, FLS will deliver the "
+      },
+      {
+       "title": "Posco completes second upstream lithium plant in Argentina",
+       "url": "https://www.just-auto.com/news/posco-completes-second-upstream-lithium-plant-in-argentina/",
+       "source": "Just Auto",
+       "published": "2026-10-08T11:25:24.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Just Auto",
+         "url": "https://www.just-auto.com/news/posco-completes-second-upstream-lithium-plant-in-argentina/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Lithium carbonate production capacity at the site increased to 48,000 tons/year."
+      },
+      {
+       "title": "Sandvik looks to raise mining expertise with new education program",
+       "url": "https://im-mining.com/2026/10/08/sandvik-looks-to-raise-mining-expertise-with-new-education-program/",
+       "source": "International Mining",
+       "published": "2026-10-08T09:19:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/08/sandvik-looks-to-raise-mining-expertise-with-new-education-program/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Sandvik says it has high hopes for the launch of a unique five-continent mining engineering program aimed at training the next generation of leaders in the industry. The new global postgraduate program, launched in March 2026, marks a shift in how Sandvik intends to build experti"
       }
      ]
     }
@@ -1340,23 +1357,6 @@
     "forestry": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Mercer Keeps Its Mass Timber Plants Running Through Debt Talks",
-       "url": "https://woodcentral.com.au/mercer-international-debt-talks/",
-       "source": "Wood Central",
-       "published": "2026-10-07T21:29:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Wood Central",
-         "url": "https://woodcentral.com.au/mercer-international-debt-talks/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "North America’s largest mass timber maker has deferred a US$25.8 million interest payment to its bondholders, with Mercer International now negotiating a deal to reduce its debt. That is according to the Vancouver-based company, which told the US Securities and Exchange Commissio"
-      },
       {
        "title": "Woodworking college receives accreditation for Carpentry and Timber Framing program",
        "url": "https://www.woodworkingnetwork.com/news/woodworking-industry-news/woodworking-college-receives-accreditation-carpentry-and-timber",
@@ -1599,23 +1599,6 @@
        "blurb": "Wesdome Gold Mines’ (TSX: WDO; US-OTC: WDOFF) Kiena mine in Val-d’Or, Que., could increase production by 10% to 15% without major new capital spending, while an aggressive drilling program is... The post Wesdome eyes low-cost gold boost at Quebec’s Kiena appeared first on The Nor"
       },
       {
-       "title": "Copper Queens stumble in Olympic qualifiers opener",
-       "url": "https://www.lusakatimes.com/2026/10/08/copper-queens-stumble-in-olympic-qualifiers-opener/",
-       "source": "Lusaka Times",
-       "published": "2026-10-08T17:28:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/08/copper-queens-stumble-in-olympic-qualifiers-opener/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Zambia’s Copper Queens have kicked off their 2028 Los Angeles Olympic qualifiers with a 2-1 loss to Uganda in the second round first leg played in Kampala on Thursday afternoon. The Queens surrendered an early lead at Hamz Nakivubo Stadium. Captain Barbra Banda set up Prisca Chil"
-      },
-      {
        "title": "Rock Tech cuts lithium plant cost estimate by 54%",
        "url": "https://www.northernminer.com/news/rock-tech-cuts-lithium-plant-cost-estimate-by-54/1003895546/",
        "source": "The Northern Miner",
@@ -1721,202 +1704,6 @@
         "stage": "extraction"
        },
        "blurb": "Centalion, formerly known as Gunvor, has acquired a portfolio of upstream and midstream natural gas assets in Texas and Louisiana from US-based private energy company Silver Hill Energy Partners."
-      }
-     ]
-    }
-   }
-  },
-  "au": {
-   "label": "Australia",
-   "level": "country",
-   "sources": {
-    "forestry": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Australia Has the Fibre to Close Its Housing Gap but Needs a Precinct to Do It",
-       "url": "https://woodcentral.com.au/prefabricated-timber-housing-australia/",
-       "source": "Wood Central",
-       "published": "2026-10-08T22:01:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Wood Central",
-         "url": "https://woodcentral.com.au/prefabricated-timber-housing-australia/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Prefabricated homes made from Green Triangle plantation timber could improve the way Australia delivers housing, with four more forestry, manufacturing, and construction leaders confirmed to explore that opportunity with investors in Melbourne next week. That is according to The "
-      },
-      {
-       "title": "Your view on timber truss bridges is needed",
-       "url": "https://www.timberbiz.com.au/your-view-on-timber-truss-bridges-is-needed/",
-       "source": "Timberbiz",
-       "published": "2026-10-08T05:57:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Timberbiz",
-         "url": "https://www.timberbiz.com.au/your-view-on-timber-truss-bridges-is-needed/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Share your views on the future of NSW’s historic timber truss bridges and their role in local communities. Source: Timberbiz The Timber Truss Bridge Strategy is Transport for NSW’s framework for deciding which historic timber road bridges should be conserved, how they should be m"
-      },
-      {
-       "title": "Australia’s Foresters Give Dr Michelle Freeman a Standing Ovation",
-       "url": "https://woodcentral.com.au/forestry-australia-president-freeman/",
-       "source": "Wood Central",
-       "published": "2026-10-08T12:42:13.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Wood Central",
-         "url": "https://woodcentral.com.au/forestry-australia-president-freeman/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Forestry is increasingly recognised for the important role it plays in Australia’s future. That is according to Dr Michelle Freeman, a forest scientist who retired as Forestry Australia president, and who spoke to Wood Central last night following her final Annual General Meeting"
-      },
-      {
-       "title": "Hyne Timber Invests in X-Ray Log Scanning",
-       "url": "https://internationalforestindustries.com/2026/10/02/hyne-timber-invests-in-x-ray-log-scanning/",
-       "source": "International Forest Industries",
-       "published": "2026-10-02T09:55:43.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "International Forest Industries",
-         "url": "https://internationalforestindustries.com/2026/10/02/hyne-timber-invests-in-x-ray-log-scanning/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Hyne Timber’s Tuan Mill, the largest timber mill in Queensland, Australia, has once again chosen to invest in MiCROTEC’s technology, with the multi-sensor real-shape and quality scanner, Logeye. With nearly two decades of experience using MiCROTEC’s solutions, Hyne’s latest inves"
-      }
-     ]
-    },
-    "fishing": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Seafood shop owners fear being forced to close due to gillnet ban",
-       "url": "https://www.abc.net.au/news/2026-10-08/regional-fishing-towns-prepare-for-impact-of-gillnet-ban/107238342",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-07T22:32:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/regional-fishing-towns-prepare-for-impact-of-gillnet-ban/107238342",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "There are fears small businesses may struggle if the looming gillnet ban pushes Queensland fishers out of the water."
-      }
-     ]
-    },
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Mine backed by US, Australia and Gina Rinehart moves towards construction",
-       "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T07:10:55.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "After decades in development, a $1.8 billion rare earths mining project has finally seen ground broken in remote Central Australia."
-      },
-      {
-       "title": "New technologies target energy use in Australian ore processing",
-       "url": "https://www.mining-technology.com/analysis/new-technologies-target-energy-use-in-australian-ore-processing/",
-       "source": "Mining Technology",
-       "published": "2026-10-08T10:56:43.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/analysis/new-technologies-target-energy-use-in-australian-ore-processing/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Ore processing: from alternative crushing to coarse-particle flotation and dry separation, miners are exploring ways to reduce energy. The post New technologies target energy use in Australian ore processing appeared first on Mining Technology ."
-      },
-      {
-       "title": "BHP agrees to sell Kambalda nickel concentrator to Gold Fields",
-       "url": "https://im-mining.com/2026/10/07/bhp-agrees-to-sell-kambalda-nickel-concentrator-to-gold-fields/",
-       "source": "International Mining",
-       "published": "2026-10-07T13:16:04.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/bhp-kambalda-nickel-gold-fields/",
-         "primary": false
-        },
-        {
-         "name": "International Mining",
-         "url": "https://im-mining.com/2026/10/07/bhp-agrees-to-sell-kambalda-nickel-concentrator-to-gold-fields/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Gold Fields has entered into formal agreements to acquire BHP’s nickel concentrator and associated exploration properties in Kambalda, Western Australia. Gold Fields will now undertake a detailed assessment of the assets and the opportunities they may provide, including evaluatin"
-      },
-      {
-       "title": "EORA Energy and Tulla Group form JV focused on mining, remote-energy projects",
-       "url": "https://im-mining.com/2026/10/07/eora-energy-and-tulla-group-form-jv-focused-on-mining-remote-energy-projects/",
-       "source": "International Mining",
-       "published": "2026-10-07T08:33:48.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "International Mining",
-         "url": "https://im-mining.com/2026/10/07/eora-energy-and-tulla-group-form-jv-focused-on-mining-remote-energy-projects/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Australian energy company EORA Energy is expanding its business beyond battery storage to become an integrated energy infrastructure developer following the formation of a joint venture with resources investor Kevin Maloney’s Tulla Group. The partnership will initially target min"
-      },
-      {
-       "title": "ABB’s power conversion system for Fortescue’s North Star Junction hub",
-       "url": "https://im-mining.com/2026/10/07/abbs-power-conversion-system-for-fortescues-north-star-junction-hub/",
-       "source": "International Mining",
-       "published": "2026-10-07T10:14:36.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "International Mining",
-         "url": "https://im-mining.com/2026/10/07/abbs-power-conversion-system-for-fortescues-north-star-junction-hub/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Fortescue is one of the world’s largest producers of iron ore, so when its emerging power network in the Pilbara, Western Australia required a power conversion system (PCS) to support a consistent, stable and reliable power supply for its mining operations, it opted to partner wi"
       }
      ]
     }
@@ -2244,23 +2031,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Copper Queens stumble in Olympic qualifiers opener",
-       "url": "https://www.lusakatimes.com/2026/10/08/copper-queens-stumble-in-olympic-qualifiers-opener/",
-       "source": "Lusaka Times",
-       "published": "2026-10-08T17:28:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/08/copper-queens-stumble-in-olympic-qualifiers-opener/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Zambia’s Copper Queens have kicked off their 2028 Los Angeles Olympic qualifiers with a 2-1 loss to Uganda in the second round first leg played in Kampala on Thursday afternoon. The Queens surrendered an early lead at Hamz Nakivubo Stadium. Captain Barbra Banda set up Prisca Chil"
-      },
-      {
        "title": "CTR restructures debt to advance Hell’s Kitchen geothermal and lithium project in California",
        "url": "https://www.thinkgeoenergy.com/ctr-restructures-debt-to-advance-hells-kitchen-geothermal-and-lithium-project-in-california/",
        "source": "ThinkGeoEnergy",
@@ -2285,28 +2055,6 @@
    "label": "Canada",
    "level": "country",
    "sources": {
-    "forestry": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Mercer Keeps Its Mass Timber Plants Running Through Debt Talks",
-       "url": "https://woodcentral.com.au/mercer-international-debt-talks/",
-       "source": "Wood Central",
-       "published": "2026-10-07T21:29:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Wood Central",
-         "url": "https://woodcentral.com.au/mercer-international-debt-talks/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "North America’s largest mass timber maker has deferred a US$25.8 million interest payment to its bondholders, with Mercer International now negotiating a deal to reduce its debt. That is according to the Vancouver-based company, which told the US Securities and Exchange Commissio"
-      }
-     ]
-    },
     "fishing": {
      "brief": "missing",
      "candidates": [
@@ -2372,23 +2120,6 @@
        "blurb": "Wesdome Gold Mines’ (TSX: WDO; US-OTC: WDOFF) Kiena mine in Val-d’Or, Que., could increase production by 10% to 15% without major new capital spending, while an aggressive drilling program is... The post Wesdome eyes low-cost gold boost at Quebec’s Kiena appeared first on The Nor"
       },
       {
-       "title": "Elevra Lithium to supply spodumene to LG Energy Solution",
-       "url": "https://www.mining-technology.com/news/elevra-supply-spodumene-lg-energy/",
-       "source": "Mining Technology",
-       "published": "2026-10-08T12:26:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/elevra-supply-spodumene-lg-energy/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Elevra Lithium has signed a binding agreement to supply spodumene concentrate from its North American Lithium (NAL) facility in Québec, Canada, to LG Energy Solution. The post Elevra Lithium to supply spodumene to LG Energy Solution appeared first on Mining Technology ."
-      },
-      {
        "title": "Canada’s miners must seize political opening: Gratton",
        "url": "https://www.northernminer.com/news/canadas-miners-must-seize-political-opening-gratton/1003895518/",
        "source": "The Northern Miner",
@@ -2404,6 +2135,23 @@
        "stages": [],
        "via": null,
        "blurb": "Canada’s mining industry has won the political support needed to reverse years of decline, outgoing Mining Association of Canada (MAC) president and CEO Pierre Gratton said Tuesday. Companies now need... The post Canada’s miners must seize political opening: Gratton appeared firs"
+      },
+      {
+       "title": "Elevra Lithium to supply spodumene to LG Energy Solution",
+       "url": "https://www.mining-technology.com/news/elevra-supply-spodumene-lg-energy/",
+       "source": "Mining Technology",
+       "published": "2026-10-08T12:26:40.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/elevra-supply-spodumene-lg-energy/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Elevra Lithium has signed a binding agreement to supply spodumene concentrate from its North American Lithium (NAL) facility in Québec, Canada, to LG Energy Solution. The post Elevra Lithium to supply spodumene to LG Energy Solution appeared first on Mining Technology ."
       },
       {
        "title": "Rock Tech cuts lithium plant cost estimate by 54%",
@@ -2667,6 +2415,202 @@
     }
    }
   },
+  "au": {
+   "label": "Australia",
+   "level": "country",
+   "sources": {
+    "forestry": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Australia Has the Fibre to Close Its Housing Gap but Needs a Precinct to Do It",
+       "url": "https://woodcentral.com.au/prefabricated-timber-housing-australia/",
+       "source": "Wood Central",
+       "published": "2026-10-08T22:01:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/prefabricated-timber-housing-australia/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Prefabricated homes made from Green Triangle plantation timber could improve the way Australia delivers housing, with four more forestry, manufacturing, and construction leaders confirmed to explore that opportunity with investors in Melbourne next week. That is according to The "
+      },
+      {
+       "title": "Australia’s Foresters Open Up a Debate ‘Impossible a Decade Ago’",
+       "url": "https://woodcentral.com.au/forestry-australia-symposium-closing-panel/",
+       "source": "Wood Central",
+       "published": "2026-10-09T03:17:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/forestry-australia-symposium-closing-panel/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Delegates at Forestry Australia’s 2026 Symposium were ready to hear viewpoints beyond their own, with the ninth and final plenary session given over to what comes next for the forestry story. That is according to Bob Gordon, chair of Australian Forest and Wood Innovations (AFWI) "
+      },
+      {
+       "title": "Your view on timber truss bridges is needed",
+       "url": "https://www.timberbiz.com.au/your-view-on-timber-truss-bridges-is-needed/",
+       "source": "Timberbiz",
+       "published": "2026-10-08T05:57:19.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Timberbiz",
+         "url": "https://www.timberbiz.com.au/your-view-on-timber-truss-bridges-is-needed/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Share your views on the future of NSW’s historic timber truss bridges and their role in local communities. Source: Timberbiz The Timber Truss Bridge Strategy is Transport for NSW’s framework for deciding which historic timber road bridges should be conserved, how they should be m"
+      },
+      {
+       "title": "Australia’s Foresters Give Dr Michelle Freeman a Standing Ovation",
+       "url": "https://woodcentral.com.au/forestry-australia-president-freeman/",
+       "source": "Wood Central",
+       "published": "2026-10-08T12:42:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/forestry-australia-president-freeman/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Forestry is increasingly recognised for the important role it plays in Australia’s future. That is according to Dr Michelle Freeman, a forest scientist who retired as Forestry Australia president, and who spoke to Wood Central last night following her final Annual General Meeting"
+      },
+      {
+       "title": "Hyne Timber Invests in X-Ray Log Scanning",
+       "url": "https://internationalforestindustries.com/2026/10/02/hyne-timber-invests-in-x-ray-log-scanning/",
+       "source": "International Forest Industries",
+       "published": "2026-10-02T09:55:43.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Forest Industries",
+         "url": "https://internationalforestindustries.com/2026/10/02/hyne-timber-invests-in-x-ray-log-scanning/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Hyne Timber’s Tuan Mill, the largest timber mill in Queensland, Australia, has once again chosen to invest in MiCROTEC’s technology, with the multi-sensor real-shape and quality scanner, Logeye. With nearly two decades of experience using MiCROTEC’s solutions, Hyne’s latest inves"
+      }
+     ]
+    },
+    "fishing": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Seafood shop owners fear being forced to close due to gillnet ban",
+       "url": "https://www.abc.net.au/news/2026-10-08/regional-fishing-towns-prepare-for-impact-of-gillnet-ban/107238342",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-07T22:32:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-08/regional-fishing-towns-prepare-for-impact-of-gillnet-ban/107238342",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "There are fears small businesses may struggle if the looming gillnet ban pushes Queensland fishers out of the water."
+      }
+     ]
+    },
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Mine backed by US, Australia and Gina Rinehart moves towards construction",
+       "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T07:10:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-08/arafura-nolans-rare-earths-mine-alice-springs-nt-ground-broken/107240942",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "After decades in development, a $1.8 billion rare earths mining project has finally seen ground broken in remote Central Australia."
+      },
+      {
+       "title": "New technologies target energy use in Australian ore processing",
+       "url": "https://www.mining-technology.com/analysis/new-technologies-target-energy-use-in-australian-ore-processing/",
+       "source": "Mining Technology",
+       "published": "2026-10-08T10:56:43.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/analysis/new-technologies-target-energy-use-in-australian-ore-processing/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Ore processing: from alternative crushing to coarse-particle flotation and dry separation, miners are exploring ways to reduce energy. The post New technologies target energy use in Australian ore processing appeared first on Mining Technology ."
+      },
+      {
+       "title": "BHP agrees to sell Kambalda nickel concentrator to Gold Fields",
+       "url": "https://im-mining.com/2026/10/07/bhp-agrees-to-sell-kambalda-nickel-concentrator-to-gold-fields/",
+       "source": "International Mining",
+       "published": "2026-10-07T13:16:04.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/bhp-kambalda-nickel-gold-fields/",
+         "primary": false
+        },
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/07/bhp-agrees-to-sell-kambalda-nickel-concentrator-to-gold-fields/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Gold Fields has entered into formal agreements to acquire BHP’s nickel concentrator and associated exploration properties in Kambalda, Western Australia. Gold Fields will now undertake a detailed assessment of the assets and the opportunities they may provide, including evaluatin"
+      },
+      {
+       "title": "ABB’s power conversion system for Fortescue’s North Star Junction hub",
+       "url": "https://im-mining.com/2026/10/07/abbs-power-conversion-system-for-fortescues-north-star-junction-hub/",
+       "source": "International Mining",
+       "published": "2026-10-07T10:14:36.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Mining",
+         "url": "https://im-mining.com/2026/10/07/abbs-power-conversion-system-for-fortescues-north-star-junction-hub/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Fortescue is one of the world’s largest producers of iron ore, so when its emerging power network in the Pilbara, Western Australia required a power conversion system (PCS) to support a consistent, stable and reliable power supply for its mining operations, it opted to partner wi"
+      }
+     ]
+    }
+   }
+  },
   "ca-on": {
    "label": "Ontario",
    "level": "admin1",
@@ -2871,46 +2815,51 @@
     }
    }
   },
-  "ng": {
-   "label": "Nigeria",
+  "pk": {
+   "label": "Pakistan",
    "level": "country",
    "sources": {
-    "mining": {
+    "crops": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Nigeria: Minna Miners' Deaths - Probe Panel Cites Institutional Breakdown, Training Gaps",
-       "url": "https://allafrica.com/stories/202610080125.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T07:39:46.000Z",
+       "title": "Wheat output targets delayed till finalisation of price",
+       "url": "https://www.dawn.com/news/2035523/wheat-output-targets-delayed-till-finalisation-of-price",
+       "source": "Dawn Business",
+       "published": "2026-10-08T02:58:13.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080125.html",
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035523/wheat-output-targets-delayed-till-finalisation-of-price",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "[Premium Times] Federal panel investigating the deaths of 37 persons in NSCDC custody says institutional gaps, overzealousness, and inadequate training may have contributed to the incident."
-      },
+       "blurb": "ISLAMABAD: Although the wheat sowing season is due to start within the next few weeks, the Federal Committee on Agriculture (FCA) was unable to set production targets for Rabi crops during a meeting on Wednesday. The meeting was chaired by the Minister for National Food Security "
+      }
+     ]
+    },
+    "livestock": {
+     "brief": "missing",
+     "candidates": [
       {
-       "title": "Nigeria: Govt, Niger Plan to Organise Artisanal Mining, Bago Says",
-       "url": "https://allafrica.com/stories/202610080124.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T07:39:45.000Z",
+       "title": "Tax-free livestock import scheme launched",
+       "url": "https://www.dawn.com/news/2035829/tax-free-livestock-import-scheme-launched",
+       "source": "Dawn Business",
+       "published": "2026-10-09T02:04:27.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080124.html",
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2035829/tax-free-livestock-import-scheme-launched",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "[Premium Times] Niger State Governor Mohammed Bago says the state and federal governments are working to establish a responsible framework for artisanal mining."
+       "blurb": "ISLAMABAD: The Federal Board of Revenue (FBR) has issued new rules allowing duty- and tax-free imports of live cattle, sheep, and goats for fattening and subsequent export, either as live animals or as processed meat. The facility is offered under a new scheme to facilitate expor"
       }
      ]
     }
@@ -3088,6 +3037,62 @@
         "stage": "extraction"
        },
        "blurb": "The Morpho well, drilled in deep waters off Amapá, reached an oil-bearing interval, with ongoing analyses confirming good oil quality and promising further exploration opportunities in the Foz do Amazonas basin."
+      }
+     ]
+    }
+   }
+  },
+  "ng": {
+   "label": "Nigeria",
+   "level": "country",
+   "sources": {
+    "crops": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Nigeria: Nigeria Targets Food Sovereignty, Adopts Ethiopia's Agribusiness Model - Shettima",
+       "url": "https://allafrica.com/stories/202610090161.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T05:36:41.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090161.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Leadership] In an aggressive bid to unlock billions in untapped wealth, Nigeria has embarked on a mega-infrastructure campaign designed to turn its agricultural sector into a primary economic powerhouse."
+      }
+     ]
+    }
+   }
+  },
+  "et": {
+   "label": "Ethiopia",
+   "level": "country",
+   "sources": {
+    "crops": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Nigeria: Nigeria Targets Food Sovereignty, Adopts Ethiopia's Agribusiness Model - Shettima",
+       "url": "https://allafrica.com/stories/202610090161.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T05:36:41.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090161.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Leadership] In an aggressive bid to unlock billions in untapped wealth, Nigeria has embarked on a mega-infrastructure campaign designed to turn its agricultural sector into a primary economic powerhouse."
       }
      ]
     }
@@ -3422,146 +3427,6 @@
     }
    }
   },
-  "zm": {
-   "label": "Zambia",
-   "level": "country",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Copper Queens stumble in Olympic qualifiers opener",
-       "url": "https://www.lusakatimes.com/2026/10/08/copper-queens-stumble-in-olympic-qualifiers-opener/",
-       "source": "Lusaka Times",
-       "published": "2026-10-08T17:28:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/08/copper-queens-stumble-in-olympic-qualifiers-opener/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Zambia’s Copper Queens have kicked off their 2028 Los Angeles Olympic qualifiers with a 2-1 loss to Uganda in the second round first leg played in Kampala on Thursday afternoon. The Queens surrendered an early lead at Hamz Nakivubo Stadium. Captain Barbra Banda set up Prisca Chil"
-      }
-     ]
-    }
-   }
-  },
-  "ug": {
-   "label": "Uganda",
-   "level": "country",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Copper Queens stumble in Olympic qualifiers opener",
-       "url": "https://www.lusakatimes.com/2026/10/08/copper-queens-stumble-in-olympic-qualifiers-opener/",
-       "source": "Lusaka Times",
-       "published": "2026-10-08T17:28:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/08/copper-queens-stumble-in-olympic-qualifiers-opener/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Zambia’s Copper Queens have kicked off their 2028 Los Angeles Olympic qualifiers with a 2-1 loss to Uganda in the second round first leg played in Kampala on Thursday afternoon. The Queens surrendered an early lead at Hamz Nakivubo Stadium. Captain Barbra Banda set up Prisca Chil"
-      }
-     ]
-    }
-   }
-  },
-  "ug-km": {
-   "label": "Kampala",
-   "level": "admin1",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Copper Queens stumble in Olympic qualifiers opener",
-       "url": "https://www.lusakatimes.com/2026/10/08/copper-queens-stumble-in-olympic-qualifiers-opener/",
-       "source": "Lusaka Times",
-       "published": "2026-10-08T17:28:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/08/copper-queens-stumble-in-olympic-qualifiers-opener/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Zambia’s Copper Queens have kicked off their 2028 Los Angeles Olympic qualifiers with a 2-1 loss to Uganda in the second round first leg played in Kampala on Thursday afternoon. The Queens surrendered an early lead at Hamz Nakivubo Stadium. Captain Barbra Banda set up Prisca Chil"
-      }
-     ]
-    }
-   }
-  },
-  "us-city-los-angeles": {
-   "label": "Los Angeles",
-   "level": "city",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Copper Queens stumble in Olympic qualifiers opener",
-       "url": "https://www.lusakatimes.com/2026/10/08/copper-queens-stumble-in-olympic-qualifiers-opener/",
-       "source": "Lusaka Times",
-       "published": "2026-10-08T17:28:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/08/copper-queens-stumble-in-olympic-qualifiers-opener/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Zambia’s Copper Queens have kicked off their 2028 Los Angeles Olympic qualifiers with a 2-1 loss to Uganda in the second round first leg played in Kampala on Thursday afternoon. The Queens surrendered an early lead at Hamz Nakivubo Stadium. Captain Barbra Banda set up Prisca Chil"
-      }
-     ]
-    }
-   }
-  },
-  "ug-city-kampala": {
-   "label": "Kampala",
-   "level": "city",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Copper Queens stumble in Olympic qualifiers opener",
-       "url": "https://www.lusakatimes.com/2026/10/08/copper-queens-stumble-in-olympic-qualifiers-opener/",
-       "source": "Lusaka Times",
-       "published": "2026-10-08T17:28:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/08/copper-queens-stumble-in-olympic-qualifiers-opener/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Zambia’s Copper Queens have kicked off their 2028 Los Angeles Olympic qualifiers with a 2-1 loss to Uganda in the second round first leg played in Kampala on Thursday afternoon. The Queens surrendered an early lead at Hamz Nakivubo Stadium. Captain Barbra Banda set up Prisca Chil"
-      }
-     ]
-    }
-   }
-  },
   "in": {
    "label": "India",
    "level": "country",
@@ -3607,118 +3472,6 @@
        "stages": [],
        "via": null,
        "blurb": "The Hindustan Copper CMD stated the gap between global demand and supply could mean copper prices stay above the $14,000 per tonne-mark"
-      }
-     ]
-    }
-   }
-  },
-  "na": {
-   "label": "Namibia",
-   "level": "country",
-   "sources": {
-    "livestock": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "EU suspends beef exports from Namibia due to foot and mouth disease",
-       "url": "https://www.rfi.fr/en/international/20261006-eu-suspends-beef-exports-from-namibia-due-to-foot-and-mouth-disease",
-       "source": "RFI English",
-       "published": "2026-10-06T13:17:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "RFI English",
-         "url": "https://www.rfi.fr/en/international/20261006-eu-suspends-beef-exports-from-namibia-due-to-foot-and-mouth-disease",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The largest market for Namibian beef, the European Union, announced it has suspended imports after an outbreak of foot-and-mouth disease, which wreaked havoc in Europe 25 years ago."
-      }
-     ]
-    },
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Namibia: Eight Years Later - Elizabeth Bay Mine Gets Fresh Lifeline",
-       "url": "https://allafrica.com/stories/202610080538.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T15:51:18.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080538.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Namibian] Dutch private equity and special situations investor Kenzoll Capital has partnered with MSF Commercials to restart operations at the Sperrgebiet Diamond Mine, formerly known as the Elizabeth Bay Mine, near Lüderitz."
-      },
-      {
-       "title": "Kenzoll and MSF plan restart of Namibia’s Sperrgebiet Diamond Mine",
-       "url": "https://www.mining-technology.com/news/kenzoll-msf-restart-sperrgebiet-diamond-mine/",
-       "source": "Mining Technology",
-       "published": "2026-10-07T12:27:27.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/kenzoll-msf-restart-sperrgebiet-diamond-mine/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Kenzoll Capital, a private equity firm based in Amsterdam, has entered into a partnership with MSF Commercials to revive operations at the Sperrgebiet Diamond Mine in southern Namibia. The post Kenzoll and MSF plan restart of Namibia’s Sperrgebiet Diamond Mine appeared first on M"
-      }
-     ]
-    }
-   }
-  },
-  "nl": {
-   "label": "Netherlands",
-   "level": "country",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Namibia: Eight Years Later - Elizabeth Bay Mine Gets Fresh Lifeline",
-       "url": "https://allafrica.com/stories/202610080538.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T15:51:18.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080538.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Namibian] Dutch private equity and special situations investor Kenzoll Capital has partnered with MSF Commercials to restart operations at the Sperrgebiet Diamond Mine, formerly known as the Elizabeth Bay Mine, near Lüderitz."
-      },
-      {
-       "title": "Kenzoll and MSF plan restart of Namibia’s Sperrgebiet Diamond Mine",
-       "url": "https://www.mining-technology.com/news/kenzoll-msf-restart-sperrgebiet-diamond-mine/",
-       "source": "Mining Technology",
-       "published": "2026-10-07T12:27:27.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/kenzoll-msf-restart-sperrgebiet-diamond-mine/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Kenzoll Capital, a private equity firm based in Amsterdam, has entered into a partnership with MSF Commercials to revive operations at the Sperrgebiet Diamond Mine in southern Namibia. The post Kenzoll and MSF plan restart of Namibia’s Sperrgebiet Diamond Mine appeared first on M"
       }
      ]
     }
@@ -3803,6 +3556,84 @@
        "stages": [],
        "via": null,
        "blurb": "Sigma Lithium (Nasdaq, TSXV: SGML; ASX: SAU) shares rose as much as 6.7% in New York on Wednesday after a Brazilian appeals court upheld its environmental licences, clearing the company... The post Sigma Lithium jumps after Brazil court reopens mine appeared first on The Northern"
+      }
+     ]
+    }
+   }
+  },
+  "na": {
+   "label": "Namibia",
+   "level": "country",
+   "sources": {
+    "livestock": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "EU suspends beef exports from Namibia due to foot and mouth disease",
+       "url": "https://www.rfi.fr/en/international/20261006-eu-suspends-beef-exports-from-namibia-due-to-foot-and-mouth-disease",
+       "source": "RFI English",
+       "published": "2026-10-06T13:17:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261006-eu-suspends-beef-exports-from-namibia-due-to-foot-and-mouth-disease",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The largest market for Namibian beef, the European Union, announced it has suspended imports after an outbreak of foot-and-mouth disease, which wreaked havoc in Europe 25 years ago."
+      }
+     ]
+    },
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Kenzoll and MSF plan restart of Namibia’s Sperrgebiet Diamond Mine",
+       "url": "https://www.mining-technology.com/news/kenzoll-msf-restart-sperrgebiet-diamond-mine/",
+       "source": "Mining Technology",
+       "published": "2026-10-07T12:27:27.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/kenzoll-msf-restart-sperrgebiet-diamond-mine/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Kenzoll Capital, a private equity firm based in Amsterdam, has entered into a partnership with MSF Commercials to revive operations at the Sperrgebiet Diamond Mine in southern Namibia. The post Kenzoll and MSF plan restart of Namibia’s Sperrgebiet Diamond Mine appeared first on M"
+      }
+     ]
+    }
+   }
+  },
+  "nl": {
+   "label": "Netherlands",
+   "level": "country",
+   "sources": {
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Kenzoll and MSF plan restart of Namibia’s Sperrgebiet Diamond Mine",
+       "url": "https://www.mining-technology.com/news/kenzoll-msf-restart-sperrgebiet-diamond-mine/",
+       "source": "Mining Technology",
+       "published": "2026-10-07T12:27:27.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/kenzoll-msf-restart-sperrgebiet-diamond-mine/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Kenzoll Capital, a private equity firm based in Amsterdam, has entered into a partnership with MSF Commercials to revive operations at the Sperrgebiet Diamond Mine in southern Namibia. The post Kenzoll and MSF plan restart of Namibia’s Sperrgebiet Diamond Mine appeared first on M"
       }
      ]
     }
@@ -4010,57 +3841,63 @@
     }
    }
   },
-  "jp": {
-   "label": "Japan",
+  "ph": {
+   "label": "Philippines",
    "level": "country",
    "sources": {
     "crops": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Takaichi continues to fend off questions about scandal-hit farm minister",
-       "url": "https://www.japantimes.co.jp/news/2026/10/08/japan/politics/yana-takaichi/",
-       "source": "The Japan Times",
-       "published": "2026-10-08T08:43:00.000Z",
+       "title": "Agri output likely contracted in 3Q",
+       "url": "https://www.philstar.com/stock-commentary/2026/10/09/2562040/agri-output-likely-contracted-3q",
+       "source": "Philstar Business",
+       "published": "2026-10-09T05:41:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/08/japan/politics/yana-takaichi/",
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/stock-commentary/2026/10/09/2562040/agri-output-likely-contracted-3q",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Allowing the situation to fester will not bode well for the government's legislative agenda, especially in the Upper House where it lacks a majority."
-      }
-     ]
-    }
-   }
-  },
-  "pk": {
-   "label": "Pakistan",
-   "level": "country",
-   "sources": {
-    "crops": {
-     "brief": "missing",
-     "candidates": [
+       "blurb": "The DA expects agricultural output to have contracted in 3Q26 after expanding in 2Q26, with weakness potentially extending through 1Q27 as El Ni&ntilde;o intensifies."
+      },
       {
-       "title": "Wheat output targets delayed till finalisation of price",
-       "url": "https://www.dawn.com/news/2035523/wheat-output-targets-delayed-till-finalisation-of-price",
-       "source": "Dawn Business",
-       "published": "2026-10-08T02:58:13.000Z",
+       "title": "SRA allocates all sugar output for domestic us",
+       "url": "https://www.philstar.com/business/2026/10/09/2561833/sra-allocates-all-sugar-output-domestic-us",
+       "source": "Philstar Business",
+       "published": "2026-10-08T16:00:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2035523/wheat-output-targets-delayed-till-finalisation-of-price",
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/business/2026/10/09/2561833/sra-allocates-all-sugar-output-domestic-us",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "ISLAMABAD: Although the wheat sowing season is due to start within the next few weeks, the Federal Committee on Agriculture (FCA) was unable to set production targets for Rabi crops during a meeting on Wednesday. The meeting was chaired by the Minister for National Food Security "
+       "blurb": "The Sugar Regulatory Administration mandated that all sugar production for the 2026 to 2027 crop year will be for domestic use only due to the anticipated shortfall in sugarcane harvests."
+      },
+      {
+       "title": "Farm output likely contracted in Q3, decline to persist until Q1 2027",
+       "url": "https://www.philstar.com/business/2026/10/09/2561834/farm-output-likely-contracted-q3-decline-persist-until-q1-2027",
+       "source": "Philstar Business",
+       "published": "2026-10-08T16:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/business/2026/10/09/2561834/farm-output-likely-contracted-q3-decline-persist-until-q1-2027",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Agricultural output is expected to have contracted in the third quarter, with the decline likely to persist until the first quarter next year amid the El Ni&ntilde;o, according to the Department of Agriculture."
       }
      ]
     }
@@ -4117,51 +3954,6 @@
        "stages": [],
        "via": null,
        "blurb": "Skipjack tuna prices in Bangkok, Manta stable at 9-year high"
-      }
-     ]
-    }
-   }
-  },
-  "ph": {
-   "label": "Philippines",
-   "level": "country",
-   "sources": {
-    "crops": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "SRA allocates all sugar output for domestic us",
-       "url": "https://www.philstar.com/business/2026/10/09/2561833/sra-allocates-all-sugar-output-domestic-us",
-       "source": "Philstar Business",
-       "published": "2026-10-08T16:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Philstar Business",
-         "url": "https://www.philstar.com/business/2026/10/09/2561833/sra-allocates-all-sugar-output-domestic-us",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Sugar Regulatory Administration mandated that all sugar production for the 2026 to 2027 crop year will be for domestic use only due to the anticipated shortfall in sugarcane harvests."
-      },
-      {
-       "title": "Farm output likely contracted in Q3, decline to persist until Q1 2027",
-       "url": "https://www.philstar.com/business/2026/10/09/2561834/farm-output-likely-contracted-q3-decline-persist-until-q1-2027",
-       "source": "Philstar Business",
-       "published": "2026-10-08T16:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Philstar Business",
-         "url": "https://www.philstar.com/business/2026/10/09/2561834/farm-output-likely-contracted-q3-decline-persist-until-q1-2027",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Agricultural output is expected to have contracted in the third quarter, with the decline likely to persist until the first quarter next year amid the El Ni&ntilde;o, according to the Department of Agriculture."
       }
      ]
     }
@@ -4268,62 +4060,6 @@
        "stages": [],
        "via": null,
        "blurb": "There are fears small businesses may struggle if the looming gillnet ban pushes Queensland fishers out of the water."
-      }
-     ]
-    }
-   }
-  },
-  "ca-bc": {
-   "label": "British Columbia",
-   "level": "admin1",
-   "sources": {
-    "forestry": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Mercer Keeps Its Mass Timber Plants Running Through Debt Talks",
-       "url": "https://woodcentral.com.au/mercer-international-debt-talks/",
-       "source": "Wood Central",
-       "published": "2026-10-07T21:29:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Wood Central",
-         "url": "https://woodcentral.com.au/mercer-international-debt-talks/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "North America’s largest mass timber maker has deferred a US$25.8 million interest payment to its bondholders, with Mercer International now negotiating a deal to reduce its debt. That is according to the Vancouver-based company, which told the US Securities and Exchange Commissio"
-      }
-     ]
-    }
-   }
-  },
-  "ca-city-vancouver": {
-   "label": "Vancouver",
-   "level": "city",
-   "sources": {
-    "forestry": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Mercer Keeps Its Mass Timber Plants Running Through Debt Talks",
-       "url": "https://woodcentral.com.au/mercer-international-debt-talks/",
-       "source": "Wood Central",
-       "published": "2026-10-07T21:29:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Wood Central",
-         "url": "https://woodcentral.com.au/mercer-international-debt-talks/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "North America’s largest mass timber maker has deferred a US$25.8 million interest payment to its bondholders, with Mercer International now negotiating a deal to reduce its debt. That is according to the Vancouver-based company, which told the US Securities and Exchange Commissio"
       }
      ]
     }

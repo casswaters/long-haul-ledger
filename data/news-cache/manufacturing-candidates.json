@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T00:50:03.711Z",
+ "generatedAt": "2026-10-09T06:46:51.303Z",
  "sector": "manufacturing",
  "maxAgeDays": 10,
  "places": {
@@ -349,8 +349,13 @@
        "verification": "multiple",
        "outlets": [
         {
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/ck9dzpw4ll8po?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        },
+        {
          "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-drops-australian-ipo-plans-move-sends-ai-funding-warning",
+         "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-shelves-ipo-eyes-private-funding",
          "primary": false
         },
         {
@@ -391,17 +396,12 @@
        "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
       },
       {
-       "title": "UAE-backed GlobalFoundries and TSMC announce $2bn manufacturing agreement",
-       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T15:15:46.000Z",
+       "title": "GlobalFoundries signs $2bn, five-year deal with TSMC for production of advanced packaging components",
+       "url": "https://www.datacenterdynamics.com/en/news/globalfoundries-signs-2bn-five-year-deal-with-tsmc-for-production-of-advanced-packaging-components/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T15:07:16.000Z",
        "verification": "multiple",
        "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
-         "primary": false
-        },
         {
          "name": "The Register",
          "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
@@ -415,7 +415,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "UAE -backed semiconductor manufacturer GlobalFoundries has announced a $2 billion deal with Taiwan Semiconductor Manufacturing Company to bolster US chip manufacturing. GlobalFoundries , based in New York, said it would be supplying TSMC with silicon interposers, which help chips"
+       "blurb": "GF’s Malta, NY, fab will become first US source for supply of silicon interposers"
       },
       {
        "title": "Samsung flags 783% profit jump to record $80bn as AI chip boom also lifts TSMC sales",
@@ -432,11 +432,6 @@
         {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/samsung-forecasts-record-80b-quarterly-profit-as-ai-boom-boosts-memory-demand/4081967",
-         "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933",
          "primary": false
         }
        ],
@@ -635,6 +630,23 @@
        "blurb": "A senior Shipping Ministry official said that some Russian entities have also shown interest in building ships in India"
       },
       {
+       "title": "Thai minister hails partnership with Japan carmakers amid Chinese EVs' rise",
+       "url": "https://www.bangkokpost.com/business/motoring/3334188/thai-minister-hails-partnership-with-japan-carmakers-amid-chinese-evs-rise",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-09T02:13:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/motoring/3334188/thai-minister-hails-partnership-with-japan-carmakers-amid-chinese-evs-rise",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Thailand remains committed to its long-standing partnership with Japanese automakers operating in the country despite the rise of Chinese electric vehicle (EV) manufacturers, Industry Minister Varawut Silpa-archa has said, seeking greater Japanese investment in recycling used EV "
+      },
+      {
        "title": "Mexico’s auto parts output hit a record high in July, but assembled vehicle production and exports are declining",
        "url": "https://mexiconewsdaily.com/business/mexicos-auto-parts-output-hitrecord-high-in-july-assembled-vehicle-production-declines/",
        "source": "Mexico News Daily",
@@ -652,26 +664,26 @@
        "blurb": "As the main supplier of auto parts to the United States, Mexico accounted for 43.6% of total U.S. imports of parts and components in July, and Mexico's cumulative Jan-July auto parts production reached US $74.68 billion, an 8.8% increase compared to the first seven months of 2025"
       },
       {
-       "title": "EU and China open crunch trade talks in Beijing on hybrid car exports",
-       "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
-       "source": "RFI English",
-       "published": "2026-10-08T04:10:58.000Z",
+       "title": "South Korea picks solar, battery and EVs as key sectors in US$747 billion Green Industrial Plan",
+       "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
+       "source": "PV Tech",
+       "published": "2026-10-08T09:02:45.000Z",
        "verification": "multiple",
        "outlets": [
         {
-         "name": "RFI English",
-         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/south-korea-unveils-us475-billion-green-transformation-industrial-strategy/",
          "primary": false
         },
         {
-         "name": "Just Auto",
-         "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "European Union trade commissioner Maros Sefcovic arrives in Beijing on Thursday for two days of high-stakes talks with China, with Brussels seeking a pilot agreement to curb the surge in Chinese hybrid-car exports and reduce a trade deficit now running at around €1 billion per da"
+       "blurb": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy."
       },
       {
        "title": "Anduril, US Navy to invest $6.6B in Arsenal-2 submarine shipyard in Maryland",
@@ -706,21 +718,26 @@
        "blurb": "Anduril commits $3.7B of private capital to Arsenal-2 at Tradepoint Atlantic (Sparrows Point, Baltimore County); the Navy awards a contract worth up to $2.9B tied to production outcomes. About 3,100 direct jobs; initial operations targeted for 2030."
       },
       {
-       "title": "California: $28m in funding for public EV fast chargers",
-       "url": "https://www.electrive.com/2026/10/08/california-28m-in-funding-for-public-ev-fast-chargers/",
-       "source": "electrive",
-       "published": "2026-10-08T13:30:00.000Z",
-       "verification": "unconfirmed",
+       "title": "EU and China open crunch trade talks in Beijing on hybrid car exports",
+       "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+       "source": "RFI English",
+       "published": "2026-10-08T04:10:58.000Z",
+       "verification": "multiple",
        "outlets": [
         {
-         "name": "electrive",
-         "url": "https://www.electrive.com/2026/10/08/california-28m-in-funding-for-public-ev-fast-chargers/",
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "Just Auto",
+         "url": "https://www.just-auto.com/news/china-rejects-export-curbs-eu/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The State of California has opened a new $28 million funding round for its existing Fast Charge California Project. This will see it offer up to $100,000 per charging port for DC fast chargers, with applications due to close on 14 January 2027."
+       "blurb": "European Union trade commissioner Maros Sefcovic arrives in Beijing on Thursday for two days of high-stakes talks with China, with Brussels seeking a pilot agreement to curb the surge in Chinese hybrid-car exports and reduce a trade deficit now running at around €1 billion per da"
       },
       {
        "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
@@ -740,6 +757,45 @@
        "blurb": "US Wind turned over its Tradepoint Atlantic lease at Sparrows Point to Anduril and shelved its planned tower and monopile plant, citing legal disputes and federal uncertainty over its Ocean City offshore wind project."
       },
       {
+       "title": "BMW iX4 arrives as an electric SUV-coupé starting at €70,900",
+       "url": "https://www.electrive.com/2026/10/08/bmw-ix4-arrives-as-an-electric-suv-coupe-starting-at-e70900/",
+       "source": "electrive",
+       "published": "2026-10-07T22:04:00.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "electrive",
+         "url": "https://www.electrive.com/2026/10/08/bmw-ix4-arrives-as-an-electric-suv-coupe-starting-at-e70900/",
+         "primary": false
+        },
+        {
+         "name": "Automotive World",
+         "url": "https://www.automotiveworld.com/topics/software-defined-vehicle/bmw-ix4-brings-neue-klasse-technology-to-an-suv-coupe/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "BMW continues to expand its 'Neue Klasse' family with the new iX4, a sporty electric SUV coupé positioned between the iX3 and larger iX5. The model will launch in three all-wheel-drive variants, including the 450 kW iX4 M60 xDrive. Prices start at €70,900."
+      },
+      {
+       "title": "California: $28m in funding for public EV fast chargers",
+       "url": "https://www.electrive.com/2026/10/08/california-28m-in-funding-for-public-ev-fast-chargers/",
+       "source": "electrive",
+       "published": "2026-10-08T13:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "electrive",
+         "url": "https://www.electrive.com/2026/10/08/california-28m-in-funding-for-public-ev-fast-chargers/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The State of California has opened a new $28 million funding round for its existing Fast Charge California Project. This will see it offer up to $100,000 per charging port for DC fast chargers, with applications due to close on 14 January 2027."
+      },
+      {
        "title": "Westinghouse teams up with Hyundai E&C for Dutch FEED studies",
        "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
        "source": "World Nuclear News",
@@ -757,23 +813,6 @@
        "blurb": "South Korea's Hyundai Engineering & Construction has been contracted by Westinghouse to carry out basic design studies for the construction of two large nuclear power plants in the Netherlands based on Westinghouse's AP1000 design."
       },
       {
-       "title": "South Korea picks solar, battery and EVs as key sectors in US$747 billion Green Industrial Plan",
-       "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
-       "source": "PV Tech",
-       "published": "2026-10-08T09:02:45.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy."
-      },
-      {
        "title": "EU Eyes Import Cap on Chinese Hybrids as Trade Dispute Widens Beyond EVs",
        "url": "https://fuelcellsworks.com/2026/10/07/electric/eu-eyes-import-cap-on-chinese-hybrids-as-trade-dispute-widens-beyond-evs",
        "source": "FuelCellsWorks",
@@ -789,40 +828,6 @@
        "stages": [],
        "via": null,
        "blurb": ""
-      },
-      {
-       "title": "BMW iX4 arrives as an electric SUV-coupé starting at €70,900",
-       "url": "https://www.electrive.com/2026/10/08/bmw-ix4-arrives-as-an-electric-suv-coupe-starting-at-e70900/",
-       "source": "electrive",
-       "published": "2026-10-07T22:04:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "electrive",
-         "url": "https://www.electrive.com/2026/10/08/bmw-ix4-arrives-as-an-electric-suv-coupe-starting-at-e70900/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "BMW continues to expand its 'Neue Klasse' family with the new iX4, a sporty electric SUV coupé positioned between the iX3 and larger iX5. The model will launch in three all-wheel-drive variants, including the 450 kW iX4 M60 xDrive. Prices start at €70,900."
-      },
-      {
-       "title": "New EV incentive scheme promises ‘up to €9,000’ in Croatia",
-       "url": "https://www.electrive.com/2026/10/07/new-ev-incentive-scheme-promises-up-to-e9000-in-croatia/",
-       "source": "electrive",
-       "published": "2026-10-07T14:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "electrive",
-         "url": "https://www.electrive.com/2026/10/07/new-ev-incentive-scheme-promises-up-to-e9000-in-croatia/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Croatia will launch a new EV incentive program in October 2026 which will offer up to €9,000 in purchase subsidies for consumer EVs. The grant amount per person depends on the car's purchase price, with light vehicles also set to benefit."
       }
      ]
     },
@@ -845,6 +850,23 @@
        "stages": [],
        "via": null,
        "blurb": "A Chilean pulp maker could lose its investment-grade credit rating if it builds a new mill in southern Brazil, with the plant designed to make 2.5 million tonnes of pulp a year. That is according to Josefina Valdivia, head of fixed income research at Credicorp Capital, who told a"
+      },
+      {
+       "title": "Reshoring Textiles Acquires Sans Fibers To Advance US Textile Manufacturing",
+       "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/reshoring-textiles-acquires-sans-fibers-to-advance-us-textile-manufacturing/",
+       "source": "Textile World",
+       "published": "2026-10-08T15:18:18.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/reshoring-textiles-acquires-sans-fibers-to-advance-us-textile-manufacturing/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "STONEVILLE, N.C. — October 8, 2026 — Reshoring Textiles has acquired Sans Technical Fibers, an American producer of high tenacity LDI nylon 6.6 and polyester yarns. Sans will operate alongside Spinnere as a sister company within Reshoring Textiles, and industry veteran John Garne"
       },
       {
        "title": "Carbios Validates Enzymatic PET Textile Recycling at Scale",
@@ -879,6 +901,23 @@
        "stages": [],
        "via": null,
        "blurb": "The global textile industry remains weak despite improvements, according to the ITMF latest Global Textile Industry Survey."
+      },
+      {
+       "title": "Syre Appoints Tim King As CEO",
+       "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/syre-appoints-tim-king-as-ceo/",
+       "source": "Textile World",
+       "published": "2026-10-08T19:35:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/syre-appoints-tim-king-as-ceo/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "STOCKHOLM, Sweden — October 7, 2026 — Syre, the textile impact company on a mission to scale textile-to-textile recycling, today announces the appointment of Tim King as its new Chief Executive Officer. Tim King, currently Syre’s Chief Operating Officer, will with his deep experi"
       },
       {
        "title": "Finland Urged to Shield Wood From Europe’s Nature Restoration Law",
@@ -930,29 +969,29 @@
        "stages": [],
        "via": null,
        "blurb": "Two Chinese hardwood plywood exporters will stay outside the 2018 US antidumping order and pay no dumping margins under it, after a federal trade court blocked the Department of Commerce from reopening the record, five months after the Federal Circuit restored a 183.36 per cent r"
+      },
+      {
+       "title": "ReHubs Enters New Phase Of Leadership With CEO Béatrice Moureaux",
+       "url": "https://www.textileworld.com/textile-world/people/2026/10/rehubs-enters-new-phase-of-leadership-with-ceo-beatrice-moureaux/",
+       "source": "Textile World",
+       "published": "2026-10-08T19:26:39.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/people/2026/10/rehubs-enters-new-phase-of-leadership-with-ceo-beatrice-moureaux/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "BRUSSELS — October 5, 2026 — ReHubs has appointed Béatrice Moureaux as Chief Executive Officer, marking a new chapter for the European alliance as it continues to strengthen its work to scale textile-to-textile recycling across Europe. Béatrice has served as Board Advisor to ReHu"
       }
      ]
     },
     "construction": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Musk's Boring Company to explore tunnel projects in Abu Dhabi",
-       "url": "https://www.thenationalnews.com/news/uae/2026/10/08/musks-boring-company-to-explore-underground-tunnel-projects-in-abu-dhabi/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T14:36:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/uae/2026/10/08/musks-boring-company-to-explore-underground-tunnel-projects-in-abu-dhabi/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Elon Musk's Boring Company has signed an agreement to explore underground transport, utility tunnels and related infrastructure opportunities in Abu Dhabi . The deal with the Abu Dhabi Projects and Infrastructure Centre (Adpic) was signed during the Liveability and Investment (LI"
-      },
       {
        "title": "ContourGlobal begins construction on Project Sterling in Arizona, US",
        "url": "https://www.power-technology.com/news/contourglobal-construction-project-sterling/",
@@ -976,21 +1015,21 @@
        "blurb": "ContourGlobal has commenced construction on Project Sterling, a combined solar and battery storage facility in Mohave County, Arizona, US."
       },
       {
-       "title": "VSB starts construction of German repowering project",
-       "url": "https://www.renews.biz/onshore-wind/vsb-starts-construction-of-german-repowering-project/",
-       "source": "reNEWS",
-       "published": "2026-10-08T13:54:38.000Z",
+       "title": "'Fed a lie': Locals frustrated as construction site remains at famous WA beach",
+       "url": "https://www.abc.net.au/news/2026-10-09/cable-beach-broome-foreshore-redevelopment-delays/107230846",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T23:00:13.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "reNEWS",
-         "url": "https://www.renews.biz/onshore-wind/vsb-starts-construction-of-german-repowering-project/",
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-09/cable-beach-broome-foreshore-redevelopment-delays/107230846",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "18MW Liethe-Lehmden wind farm will replace four existing turbines"
+       "blurb": "Broome locals say they are not surprised the opening of a multi-million-dollar redevelopment of Cable Beach is facing further delays."
       },
       {
        "title": "Clearway Starts Construction of 650-MW Solar Facility in Missouri",
@@ -1015,21 +1054,21 @@
        "blurb": "California-headquartered Clearway Energy Group said it has closed financing and begun construction of the Swan Energy Center, a 650-MW solar facility located on portions of formerly strip-mined land in northwestern Bates County, Missouri. The project is San Francisco-based Clearw"
       },
       {
-       "title": "A $6 trillion question hangs over the AI construction boom",
-       "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
-       "source": "Construction Dive",
-       "published": "2026-10-08T13:24:00.000Z",
+       "title": "VSB starts construction of German repowering project",
+       "url": "https://www.renews.biz/onshore-wind/vsb-starts-construction-of-german-repowering-project/",
+       "source": "reNEWS",
+       "published": "2026-10-08T13:54:38.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Construction Dive",
-         "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/onshore-wind/vsb-starts-construction-of-german-repowering-project/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
+       "blurb": "18MW Liethe-Lehmden wind farm will replace four existing turbines"
       },
       {
        "title": "Clearway secures financing, starts construction on 650MW Missouri solar project",
@@ -1054,6 +1093,23 @@
        "blurb": "US clean energy developer Clearway Energy has closed financing and started construction on a 650MW solar project in Missouri."
       },
       {
+       "title": "A $6 trillion question hangs over the AI construction boom",
+       "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
+       "source": "Construction Dive",
+       "published": "2026-10-08T13:24:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
+      },
+      {
        "title": "Eliminating Heat Risks in Nuclear Cleanup: A DOE Contractor’s High-Tech Blueprint",
        "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
        "source": "ANS Nuclear Newswire",
@@ -1069,6 +1125,23 @@
        "stages": [],
        "via": null,
        "blurb": "For organizations like the Savannah River Mission Completion (SRMC), a liquid waste contractor for the U.S. Department of Energy (DOE) Office of Environmental Management at the Savannah River Site (SRS) in Aiken, South Carolina, the summer season poses significant challenges for "
+      },
+      {
+       "title": "Bikita Minerals breaks ground on Sosera-Ndambani road-rehab",
+       "url": "https://newsday.co.zw/article/bikita-minerals-breaks-ground-on-sosera-ndambani-road-rehab",
+       "source": "NewsDay (Zimbabwe)",
+       "published": "2026-10-08T13:34:04.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NewsDay (Zimbabwe)",
+         "url": "https://newsday.co.zw/article/bikita-minerals-breaks-ground-on-sosera-ndambani-road-rehab",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Bikita Minerals said the project demonstrated its commitment to supporting infrastructure development in communities surrounding its operations. The post Bikita Minerals breaks ground on Sosera-Ndambani road-rehab appeared first on Newsday ."
       },
       {
        "title": "Nala begins construction at 125MW BESS project",
@@ -1103,23 +1176,6 @@
        "stages": [],
        "via": null,
        "blurb": "Renewable energy company Neoen has commenced construction of Stage 1 of the 346MW Goyder North Wind Farm in the Mid North region of South Australia (SA), near Burra on Ngadjuri Nation land."
-      },
-      {
-       "title": "Namibia: Pupkewitz Breaks Ground At Grootfontein",
-       "url": "https://allafrica.com/stories/202610080537.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T15:50:54.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080537.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Namibian] The Pupkewitz Group has officially commenced the construction of a larger, modern Pupkewitz MegaBuild branch at Grootfontein, marking a further milestone in the group's long-term investment in Namibia's growth and development."
       },
       {
        "title": "ENR 2026 Top 100 Green Design Firms and Contractors: Green Building Market Deepens",
@@ -1160,6 +1216,66 @@
     "power": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Ukraine reportedly targets Russian cruise missile fuel plant, oil depot in overnight attack",
+       "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-09T03:51:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Ukraine's military launched an attack on Russia's Tver Oblast overnight on Oct. 9, reportedly targeting a Russian factory that manufactures fuel components for Kh-55 and Kh-101 cruise missiles, Russian Telegram media channels reported."
+      },
+      {
+       "title": "Singapore LNG kicks off work on third jetty",
+       "url": "https://lngprime.com/asia/singapore-lng-kicks-off-work-on-third-jetty/198159/",
+       "source": "LNG Prime",
+       "published": "2026-10-09T06:43:04.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/asia/singapore-lng-kicks-off-work-on-third-jetty/198159/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "State-owned LNG terminal operator Singapore LNG has officially kicked off the construction of a new LNG jetty, which will support the further growth of LNG bunkering in Singapore."
+      },
+      {
+       "title": "US LNG exports drop to 31 shipments",
+       "url": "https://lngprime.com/americas/us-lng-exports-drop-to-31-shipments/198139/",
+       "source": "LNG Prime",
+       "published": "2026-10-09T06:28:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/us-lng-exports-drop-to-31-shipments/198139/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "US liquefied natural gas (LNG) plants sent 31 cargoes during the week ending October 7, down six shipments from the previous week, according to the Energy Information Administration."
+      },
       {
        "title": "NRC reviews LAR on Palisades fuel loading incident, as Pioneer SMR application advances",
        "url": "https://www.ans.org/news/2026-10-08/article-8474/nrc-reviews-lar-on-palisades-fuel-loading-incident-as-pioneer-smr-application-advances/",
@@ -1206,45 +1322,25 @@
        "blurb": "By almost any measure, the story of solar power in Texas has been one of astounding success. The state is by far the country’s fastest-growing solar market. The Solar Energy Industries Association (SEIA) records nearly 54 GW of solar and more than 29 GWh of batteries have been in"
       },
       {
-       "title": "South Africa to procure 4.6 GW of battery storage",
-       "url": "https://www.pv-magazine.com/2026/10/08/south-africa-to-procure-4-6-gw-of-battery-storage/",
-       "source": "pv magazine",
-       "published": "2026-10-08T14:14:39.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/08/south-africa-to-procure-4-6-gw-of-battery-storage/",
-         "primary": false
-        },
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080348.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "South Africa is preparing large-scale procurement of battery storage facilities and gas-fired power plants in a bid to address curtailment and strengthen reliable electricity supply. The post South Africa to procure 4.6 GW of battery storage appeared first on pv magazine Global ."
-      },
-      {
-       "title": "Golar secures 2013-built LNG carrier for conversion into fourth FLNG",
-       "url": "https://offshore-energy.biz/2026/10/08/golar-secures-2013-built-lng-carrier-for-conversion-into-fourth-flng",
-       "source": "Offshore Energy",
-       "published": "2026-10-08T14:07:10.000Z",
+       "title": "Seatrium bags first FSRU conversion for Excelerate",
+       "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
+       "source": "Splash247",
+       "published": "2026-10-08T12:40:37.000Z",
        "verification": "multiple",
        "outlets": [
         {
          "name": "Offshore Energy",
-         "url": "https://offshore-energy.biz/2026/10/08/golar-secures-2013-built-lng-carrier-for-conversion-into-fourth-flng",
+         "url": "https://offshore-energy.biz/2026/10/08/excelerate-entrusts-fsru-conversion-to-seatrium-with-another-on-the-cards",
          "primary": false
         },
         {
          "name": "LNG Prime",
-         "url": "https://lngprime.com/asia/golar-buys-conversion-vessel-for-fourth-flng/198042/",
+         "url": "https://lngprime.com/americas/seatrium-scores-excelerate-fsru-conversion-gig/198115/",
+         "primary": false
+        },
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
          "primary": false
         }
        ],
@@ -1253,7 +1349,7 @@
         "from": "energy",
         "stage": "generation"
        },
-       "blurb": "Golar LNG has acquired a 13-year-old vessel from NYK Line to transform it into a floating liquefaction facility by 2029."
+       "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
       },
       {
        "title": "LGI to buy 42MW of operational solar PV plants in Australia and lifts pipeline target to 120MW",
@@ -1294,56 +1390,6 @@
         "stage": "generation"
        },
        "blurb": "Marinus Link held a sod turning ceremony in North West Tasmania to mark the start of expanded construction."
-      },
-      {
-       "title": "Seatrium bags first FSRU conversion for Excelerate",
-       "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
-       "source": "Splash247",
-       "published": "2026-10-08T12:40:37.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Offshore Energy",
-         "url": "https://offshore-energy.biz/2026/10/08/excelerate-entrusts-fsru-conversion-to-seatrium-with-another-on-the-cards",
-         "primary": false
-        },
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/americas/seatrium-scores-excelerate-fsru-conversion-gig/198115/",
-         "primary": false
-        },
-        {
-         "name": "Splash247",
-         "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Singapore shipyard group Seatrium has secured an EPCIC contract from New York-listed floating regasification specialist Excelerate Energy to convert an LNG carrier into an FSRU, with an option for a second unit. The project is Seatrium’s first FSRU conversion for Excelerate. Fina"
-      },
-      {
-       "title": "Ukraine strikes Russia's Omsk oil refinery in Siberia, General Staff confirms",
-       "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T14:25:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
       },
       {
        "title": "ContourGlobal begins Arizona solar-storage construction",
@@ -1391,26 +1437,6 @@
        "blurb": "Karen Fili As the nuclear industry enters one of the most significant investment periods in its history, utilities are managing unprecedented capital portfolios while simultaneously preparing for long-term operation, plant modernization, extended power uprates, digital transforma"
       },
       {
-       "title": "NASA taps DoE to help it build nuclear space reactors",
-       "url": "https://www.theregister.com/offbeat/2026/10/08/nasa-taps-doe-to-help-it-build-nuclear-space-reactors/5302096",
-       "source": "The Register",
-       "published": "2026-10-08T20:15:01.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/offbeat/2026/10/08/nasa-taps-doe-to-help-it-build-nuclear-space-reactors/5302096",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Space agency claims steady progress on lunar reactor plans, but offers little evidence to back it up"
-      },
-      {
        "title": "Northland, ORLEN complete turbine installation at Baltic Power wind farm",
        "url": "https://www.power-technology.com/news/northland-orlen-turbine-installation-baltic-power/",
        "source": "Power Technology",
@@ -1434,6 +1460,31 @@
         "stage": "generation"
        },
        "blurb": "Canadian power producer Northland Power, in partnership with ORLEN, has completed the installation of all 76 turbines at the 1.1GW Baltic Power offshore wind project in the Baltic Sea off Poland’s coast."
+      },
+      {
+       "title": "BWXT’s BANR selected for Canadian project",
+       "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-07T19:55:52.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/bwxts-banr-microreactor-selected-for-canadian-project",
+         "primary": false
+        },
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
       }
      ]
     }
@@ -1464,6 +1515,23 @@
        "blurb": "Joel Leftwich will join Idealyst Innovation as executive vice president of policy innovation and director of the Center for American Food Power. Robert Haus has joined Vylor as state government and industry affairs leader. General Mills named Dana McNabb as CEO, effective Jan. 1,"
       },
       {
+       "title": "Top food and beverage industry events in 2027",
+       "url": "https://www.fooddive.com/news/top-food-beverage-industry-trade-shows-2027/832232/",
+       "source": "Food Dive",
+       "published": "2026-10-06T13:44:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Food Dive",
+         "url": "https://www.fooddive.com/news/top-food-beverage-industry-trade-shows-2027/832232/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A list of must-attend conferences and trade shows for professionals to keep up with the biggest innovations and consumer trends set to define next year."
+      },
+      {
        "title": "PepsiCo plans cost cuts as North American struggles persist",
        "url": "https://www.fooddive.com/news/PepsiCo-snacking-north-america-inflation-beverages/832484/",
        "source": "Food Dive",
@@ -1489,23 +1557,6 @@
        "stages": [],
        "via": null,
        "blurb": "CEO Ramon Laguarta said the company plans to raise prices on select offerings and evaluate “every cost with aggressive lenses.”"
-      },
-      {
-       "title": "Top food and beverage industry events in 2027",
-       "url": "https://www.fooddive.com/news/top-food-beverage-industry-trade-shows-2027/832232/",
-       "source": "Food Dive",
-       "published": "2026-10-06T13:44:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Food Dive",
-         "url": "https://www.fooddive.com/news/top-food-beverage-industry-trade-shows-2027/832232/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A list of must-attend conferences and trade shows for professionals to keep up with the biggest innovations and consumer trends set to define next year."
       },
       {
        "title": "Coca-Cola steps into better-for-you soda market with prebiotics",
@@ -1681,33 +1732,6 @@
        "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
       },
       {
-       "title": "UAE-backed GlobalFoundries and TSMC announce $2bn manufacturing agreement",
-       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T15:15:46.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
-         "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/globalfoundries-signs-2bn-five-year-deal-with-tsmc-for-production-of-advanced-packaging-components/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "UAE -backed semiconductor manufacturer GlobalFoundries has announced a $2 billion deal with Taiwan Semiconductor Manufacturing Company to bolster US chip manufacturing. GlobalFoundries , based in New York, said it would be supplying TSMC with silicon interposers, which help chips"
-      },
-      {
        "title": "Global supply chain imbalance creates opportunities for overseas manufacturers to sell wafers to the US",
        "url": "https://www.pv-tech.org/global-supply-chain-imbalance-opportunites-overseas-manufacturers-sell-wafers-the-us/",
        "source": "PV Tech",
@@ -1723,6 +1747,28 @@
        "stages": [],
        "via": null,
        "blurb": "PV Talk: Indosol's Manoj Pothireddy tells PV Tech Premium that opportunities remain for overseas wafer manufacturers to export to the US."
+      },
+      {
+       "title": "GlobalFoundries signs $2bn, five-year deal with TSMC for production of advanced packaging components",
+       "url": "https://www.datacenterdynamics.com/en/news/globalfoundries-signs-2bn-five-year-deal-with-tsmc-for-production-of-advanced-packaging-components/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-08T15:07:16.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
+         "primary": false
+        },
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/globalfoundries-signs-2bn-five-year-deal-with-tsmc-for-production-of-advanced-packaging-components/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "GF’s Malta, NY, fab will become first US source for supply of silicon interposers"
       },
       {
        "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
@@ -1830,23 +1876,6 @@
        "blurb": "The State of California has opened a new $28 million funding round for its existing Fast Charge California Project. This will see it offer up to $100,000 per charging port for DC fast chargers, with applications due to close on 14 January 2027."
       },
       {
-       "title": "Mexico’s auto parts output hit a record high in July, but assembled vehicle production and exports are declining",
-       "url": "https://mexiconewsdaily.com/business/mexicos-auto-parts-output-hitrecord-high-in-july-assembled-vehicle-production-declines/",
-       "source": "Mexico News Daily",
-       "published": "2026-10-08T23:21:23.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mexico News Daily",
-         "url": "https://mexiconewsdaily.com/business/mexicos-auto-parts-output-hitrecord-high-in-july-assembled-vehicle-production-declines/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "As the main supplier of auto parts to the United States, Mexico accounted for 43.6% of total U.S. imports of parts and components in July, and Mexico's cumulative Jan-July auto parts production reached US $74.68 billion, an 8.8% increase compared to the first seven months of 2025"
-      },
-      {
        "title": "Anduril, US Navy to invest $6.6B in Arsenal-2 submarine shipyard in Maryland",
        "url": "https://www.anduril.com/news/anduril-u-s-navy-invest-usd6-6-billion-to-expand-america-s-submarine-industrial-base",
        "source": "Anduril",
@@ -1877,6 +1906,23 @@
        "stages": [],
        "via": null,
        "blurb": "Anduril commits $3.7B of private capital to Arsenal-2 at Tradepoint Atlantic (Sparrows Point, Baltimore County); the Navy awards a contract worth up to $2.9B tied to production outcomes. About 3,100 direct jobs; initial operations targeted for 2030."
+      },
+      {
+       "title": "Mexico’s auto parts output hit a record high in July, but assembled vehicle production and exports are declining",
+       "url": "https://mexiconewsdaily.com/business/mexicos-auto-parts-output-hitrecord-high-in-july-assembled-vehicle-production-declines/",
+       "source": "Mexico News Daily",
+       "published": "2026-10-08T23:21:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Mexico News Daily",
+         "url": "https://mexiconewsdaily.com/business/mexicos-auto-parts-output-hitrecord-high-in-july-assembled-vehicle-production-declines/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "As the main supplier of auto parts to the United States, Mexico accounted for 43.6% of total U.S. imports of parts and components in July, and Mexico's cumulative Jan-July auto parts production reached US $74.68 billion, an 8.8% increase compared to the first seven months of 2025"
       },
       {
        "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
@@ -1935,6 +1981,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Reshoring Textiles Acquires Sans Fibers To Advance US Textile Manufacturing",
+       "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/reshoring-textiles-acquires-sans-fibers-to-advance-us-textile-manufacturing/",
+       "source": "Textile World",
+       "published": "2026-10-08T15:18:18.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/reshoring-textiles-acquires-sans-fibers-to-advance-us-textile-manufacturing/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "STONEVILLE, N.C. — October 8, 2026 — Reshoring Textiles has acquired Sans Technical Fibers, an American producer of high tenacity LDI nylon 6.6 and polyester yarns. Sans will operate alongside Spinnere as a sister company within Reshoring Textiles, and industry veteran John Garne"
+      },
+      {
        "title": "Carbios Validates Enzymatic PET Textile Recycling at Scale",
        "url": "https://www.plasticstoday.com/medical/carbios-validates-enzymatic-pet-textile-recycling-at-scale",
        "source": "Plastics Today",
@@ -1967,6 +2030,23 @@
        "stages": [],
        "via": null,
        "blurb": "Two Chinese hardwood plywood exporters will stay outside the 2018 US antidumping order and pay no dumping margins under it, after a federal trade court blocked the Department of Commerce from reopening the record, five months after the Federal Circuit restored a 183.36 per cent r"
+      },
+      {
+       "title": "ReHubs Enters New Phase Of Leadership With CEO Béatrice Moureaux",
+       "url": "https://www.textileworld.com/textile-world/people/2026/10/rehubs-enters-new-phase-of-leadership-with-ceo-beatrice-moureaux/",
+       "source": "Textile World",
+       "published": "2026-10-08T19:26:39.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/people/2026/10/rehubs-enters-new-phase-of-leadership-with-ceo-beatrice-moureaux/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "BRUSSELS — October 5, 2026 — ReHubs has appointed Béatrice Moureaux as Chief Executive Officer, marking a new chapter for the European alliance as it continues to strengthen its work to scale textile-to-textile recycling across Europe. Béatrice has served as Board Advisor to ReHu"
       }
      ]
     },
@@ -2112,6 +2192,26 @@
     "power": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "US LNG exports drop to 31 shipments",
+       "url": "https://lngprime.com/americas/us-lng-exports-drop-to-31-shipments/198139/",
+       "source": "LNG Prime",
+       "published": "2026-10-09T06:28:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/americas/us-lng-exports-drop-to-31-shipments/198139/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "US liquefied natural gas (LNG) plants sent 31 cargoes during the week ending October 7, down six shipments from the previous week, according to the Energy Information Administration."
+      },
       {
        "title": "Everything’s bigger in Texas",
        "url": "https://www.pv-magazine.com/2026/10/08/everythings-bigger-in-texas/",
@@ -2356,26 +2456,6 @@
         "stage": "generation"
        },
        "blurb": "US Wind turned over its Tradepoint Atlantic lease at Sparrows Point to Anduril and shelved its planned tower and monopile plant, citing legal disputes and federal uncertainty over its Ocean City offshore wind project."
-      },
-      {
-       "title": "To Block Solar Energy Projects, One Community Lumped Them in With Junkyards and Adult Bookstores",
-       "url": "https://insideclimatenews.org/news/08102026/inside-clean-energy-indiana-solar-energy-fight/",
-       "source": "Inside Climate News",
-       "published": "2026-10-08T13:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Inside Climate News",
-         "url": "https://insideclimatenews.org/news/08102026/inside-clean-energy-indiana-solar-energy-fight/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "In Montgomery County, Indiana, utility-scale solar projects appear on an official list of undesirable land uses that also includes “adult-oriented businesses.” So it wasn’t surprising that the county Board of Commissioners unanimously rejected a 200-megawatt solar project on Sept"
       },
       {
        "title": "Clearway Starts Construction of 650-MW Solar Facility in Missouri",
@@ -2950,26 +3030,6 @@
        "blurb": "A 365-meter wind turbine, the tallest in the world, was built by Gicon in Lusatia, Germany, and will be inaugurated on November 19."
       },
       {
-       "title": "Fairplay Towage orders LNG tugs at Sanmar",
-       "url": "https://lngprime.com/europe/fairplay-towage-orders-lng-tugs-at-sanmar/198109/",
-       "source": "LNG Prime",
-       "published": "2026-10-08T06:00:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/europe/fairplay-towage-orders-lng-tugs-at-sanmar/198109/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "German tugboat operator Fairplay Towage has ordered new tugs at Turkiye's Sanmar to support fleet modernization and LNG terminal operations."
-      },
-      {
        "title": "German uranium oxide storage facility commissioned",
        "url": "https://www.world-nuclear-news.org/articles/german-uranium-oxide-storage-facility-commissioned",
        "source": "World Nuclear News",
@@ -3107,8 +3167,13 @@
        "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
        "source": "PV Tech",
        "published": "2026-10-08T09:02:45.000Z",
-       "verification": "unconfirmed",
+       "verification": "multiple",
        "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/south-korea-unveils-us475-billion-green-transformation-industrial-strategy/",
+         "primary": false
+        },
         {
          "name": "PV Tech",
          "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
@@ -3135,6 +3200,23 @@
        "stages": [],
        "via": null,
        "blurb": "South Korea's Hyundai Engineering & Construction has been contracted by Westinghouse to carry out basic design studies for the construction of two large nuclear power plants in the Netherlands based on Westinghouse's AP1000 design."
+      },
+      {
+       "title": "HD Hyundai snaps up Goltens in $247m ship repair deal",
+       "url": "https://splash247.com/hd-hyundai-snaps-up-goltens-in-247m-ship-repair-deal/",
+       "source": "Splash247",
+       "published": "2026-10-09T06:12:20.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Splash247",
+         "url": "https://splash247.com/hd-hyundai-snaps-up-goltens-in-247m-ship-repair-deal/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "South Korea’s HD Hyundai is making a major move in the global ship repair market, agreeing to acquire Goltens Worldwide for $247.5m in a deal that significantly expands its international engineering and aftermarket capabilities. The acquisition, announced on Thursday through HD H"
       }
      ]
     },
@@ -3655,8 +3737,13 @@
        "verification": "multiple",
        "outlets": [
         {
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/ck9dzpw4ll8po?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        },
+        {
          "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-drops-australian-ipo-plans-move-sends-ai-funding-warning",
+         "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-shelves-ipo-eyes-private-funding",
          "primary": false
         },
         {
@@ -3679,6 +3766,23 @@
     "construction": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "'Fed a lie': Locals frustrated as construction site remains at famous WA beach",
+       "url": "https://www.abc.net.au/news/2026-10-09/cable-beach-broome-foreshore-redevelopment-delays/107230846",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T23:00:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-09/cable-beach-broome-foreshore-redevelopment-delays/107230846",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Broome locals say they are not surprised the opening of a multi-million-dollar redevelopment of Cable Beach is facing further delays."
+      },
       {
        "title": "Neoen breaks ground on 346MW Goyder North Wind Farm in Australia",
        "url": "https://www.power-technology.com/news/neoen-346mw-goyder-north-wind-farm/",
@@ -4030,16 +4134,11 @@
        "url": "https://www.pv-magazine.com/2026/10/08/south-africa-to-procure-4-6-gw-of-battery-storage/",
        "source": "pv magazine",
        "published": "2026-10-08T14:14:39.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "pv magazine",
          "url": "https://www.pv-magazine.com/2026/10/08/south-africa-to-procure-4-6-gw-of-battery-storage/",
-         "primary": false
-        },
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080348.html",
          "primary": false
         }
        ],
@@ -4080,6 +4179,23 @@
         "stage": "generation"
        },
        "blurb": "Permitting and community engagement is progressing at the Rajabasa geothermal site in Lampung, Indonesia as developers aim to start construction work by 2027. The post Permitting and community work progressing for Rajabasa geothermal project in Lampung, Indonesia first appeared o"
+      },
+      {
+       "title": "Yokogawa to Assist the Scale Up of Tropical Climate AI Data Center Testbed into a Multi - megawatt Pilot Facility",
+       "url": "https://en.antaranews.com/news/433844/yokogawa-to-assist-the-scale-up-of-tropical-climate-ai-data-center-testbed-into-a-multi-megawatt-pilot-facility",
+       "source": "en.antaranews.com",
+       "published": "2026-10-02T08:15:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "en.antaranews.com",
+         "url": "https://en.antaranews.com/news/433844/yokogawa-to-assist-the-scale-up-of-tropical-climate-ai-data-center-testbed-into-a-multi-megawatt-pilot-facility",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
       }
      ]
     }
@@ -4229,6 +4345,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Thai minister hails partnership with Japan carmakers amid Chinese EVs' rise",
+       "url": "https://www.bangkokpost.com/business/motoring/3334188/thai-minister-hails-partnership-with-japan-carmakers-amid-chinese-evs-rise",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-09T02:13:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/motoring/3334188/thai-minister-hails-partnership-with-japan-carmakers-amid-chinese-evs-rise",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Thailand remains committed to its long-standing partnership with Japanese automakers operating in the country despite the rise of Chinese electric vehicle (EV) manufacturers, Industry Minister Varawut Silpa-archa has said, seeking greater Japanese investment in recycling used EV "
+      },
+      {
        "title": "EU and China open crunch trade talks in Beijing on hybrid car exports",
        "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
        "source": "RFI English",
@@ -4266,6 +4399,23 @@
        "stages": [],
        "via": null,
        "blurb": ""
+      },
+      {
+       "title": "Nissan Frontier Pro becomes first China-built export model",
+       "url": "https://www.automotiveworld.com/topics/e-mobility/nissan-frontier-pro-becomes-first-china-built-export-model/",
+       "source": "Automotive World",
+       "published": "2026-10-08T05:40:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Automotive World",
+         "url": "https://www.automotiveworld.com/topics/e-mobility/nissan-frontier-pro-becomes-first-china-built-export-model/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Nissan Frontier Pro shows China evolving from a sales market for Nissan into an engineering and export base for the world The post Nissan Frontier Pro becomes first China-built export model appeared first on Automotive World ."
       },
       {
        "title": "One in six new Mercedes passenger cars worldwide now fully electric",
@@ -4670,6 +4820,26 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Singapore LNG kicks off work on third jetty",
+       "url": "https://lngprime.com/asia/singapore-lng-kicks-off-work-on-third-jetty/198159/",
+       "source": "LNG Prime",
+       "published": "2026-10-09T06:43:04.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "LNG Prime",
+         "url": "https://lngprime.com/asia/singapore-lng-kicks-off-work-on-third-jetty/198159/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "State-owned LNG terminal operator Singapore LNG has officially kicked off the construction of a new LNG jetty, which will support the further growth of LNG bunkering in Singapore."
+      },
+      {
        "title": "Seatrium bags first FSRU conversion for Excelerate",
        "url": "https://splash247.com/seatrium-bags-first-fsru-conversion-for-excelerate/",
        "source": "Splash247",
@@ -4753,33 +4923,6 @@
        "stages": [],
        "via": null,
        "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
-      },
-      {
-       "title": "UAE-backed GlobalFoundries and TSMC announce $2bn manufacturing agreement",
-       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T15:15:46.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
-         "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/globalfoundries-signs-2bn-five-year-deal-with-tsmc-for-production-of-advanced-packaging-components/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "UAE -backed semiconductor manufacturer GlobalFoundries has announced a $2 billion deal with Taiwan Semiconductor Manufacturing Company to bolster US chip manufacturing. GlobalFoundries , based in New York, said it would be supplying TSMC with silicon interposers, which help chips"
       }
      ]
     },
@@ -4870,33 +5013,6 @@
        "stages": [],
        "via": null,
        "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum."
-      },
-      {
-       "title": "UAE-backed GlobalFoundries and TSMC announce $2bn manufacturing agreement",
-       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T15:15:46.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
-         "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/globalfoundries-signs-2bn-five-year-deal-with-tsmc-for-production-of-advanced-packaging-components/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "UAE -backed semiconductor manufacturer GlobalFoundries has announced a $2 billion deal with Taiwan Semiconductor Manufacturing Company to bolster US chip manufacturing. GlobalFoundries , based in New York, said it would be supplying TSMC with silicon interposers, which help chips"
       }
      ]
     },
@@ -5131,122 +5247,6 @@
     }
    }
   },
-  "ae": {
-   "label": "United Arab Emirates",
-   "level": "country",
-   "sources": {
-    "machinery": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "UAE-backed GlobalFoundries and TSMC announce $2bn manufacturing agreement",
-       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T15:15:46.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
-         "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/globalfoundries-signs-2bn-five-year-deal-with-tsmc-for-production-of-advanced-packaging-components/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "UAE -backed semiconductor manufacturer GlobalFoundries has announced a $2 billion deal with Taiwan Semiconductor Manufacturing Company to bolster US chip manufacturing. GlobalFoundries , based in New York, said it would be supplying TSMC with silicon interposers, which help chips"
-      }
-     ]
-    },
-    "construction": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Musk's Boring Company to explore tunnel projects in Abu Dhabi",
-       "url": "https://www.thenationalnews.com/news/uae/2026/10/08/musks-boring-company-to-explore-underground-tunnel-projects-in-abu-dhabi/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T14:36:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/uae/2026/10/08/musks-boring-company-to-explore-underground-tunnel-projects-in-abu-dhabi/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Elon Musk's Boring Company has signed an agreement to explore underground transport, utility tunnels and related infrastructure opportunities in Abu Dhabi . The deal with the Abu Dhabi Projects and Infrastructure Centre (Adpic) was signed during the Liveability and Investment (LI"
-      }
-     ]
-    }
-   }
-  },
-  "ae-az": {
-   "label": "Abu Dhabi",
-   "level": "admin1",
-   "sources": {
-    "construction": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Musk's Boring Company to explore tunnel projects in Abu Dhabi",
-       "url": "https://www.thenationalnews.com/news/uae/2026/10/08/musks-boring-company-to-explore-underground-tunnel-projects-in-abu-dhabi/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T14:36:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/uae/2026/10/08/musks-boring-company-to-explore-underground-tunnel-projects-in-abu-dhabi/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Elon Musk's Boring Company has signed an agreement to explore underground transport, utility tunnels and related infrastructure opportunities in Abu Dhabi . The deal with the Abu Dhabi Projects and Infrastructure Centre (Adpic) was signed during the Liveability and Investment (LI"
-      }
-     ]
-    }
-   }
-  },
-  "ae-city-abu-dhabi": {
-   "label": "Abu Dhabi",
-   "level": "city",
-   "sources": {
-    "construction": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Musk's Boring Company to explore tunnel projects in Abu Dhabi",
-       "url": "https://www.thenationalnews.com/news/uae/2026/10/08/musks-boring-company-to-explore-underground-tunnel-projects-in-abu-dhabi/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T14:36:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/uae/2026/10/08/musks-boring-company-to-explore-underground-tunnel-projects-in-abu-dhabi/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Elon Musk's Boring Company has signed an agreement to explore underground transport, utility tunnels and related infrastructure opportunities in Abu Dhabi . The deal with the Abu Dhabi Projects and Infrastructure Centre (Adpic) was signed during the Liveability and Investment (LI"
-      }
-     ]
-    }
-   }
-  },
   "ee": {
    "label": "Estonia",
    "level": "country",
@@ -5430,33 +5430,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "UAE-backed GlobalFoundries and TSMC announce $2bn manufacturing agreement",
-       "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
-       "source": "The National (UAE)",
-       "published": "2026-10-08T15:15:46.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
-         "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/globalfoundries-signs-2bn-five-year-deal-with-tsmc-for-production-of-advanced-packaging-components/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "UAE -backed semiconductor manufacturer GlobalFoundries has announced a $2 billion deal with Taiwan Semiconductor Manufacturing Company to bolster US chip manufacturing. GlobalFoundries , based in New York, said it would be supplying TSMC with silicon interposers, which help chips"
-      },
-      {
        "title": "Samsung flags 783% profit jump to record $80bn as AI chip boom also lifts TSMC sales",
        "url": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
        "source": "Euronews Business",
@@ -5471,11 +5444,6 @@
         {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/samsung-forecasts-record-80b-quarterly-profit-as-ai-boom-boosts-memory-demand/4081967",
-         "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933",
          "primary": false
         }
        ],
@@ -5721,6 +5689,90 @@
     }
    }
   },
+  "ua": {
+   "label": "Ukraine",
+   "level": "country",
+   "sources": {
+    "power": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ukraine reportedly targets Russian cruise missile fuel plant, oil depot in overnight attack",
+       "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-09T03:51:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Ukraine's military launched an attack on Russia's Tver Oblast overnight on Oct. 9, reportedly targeting a Russian factory that manufactures fuel components for Kh-55 and Kh-101 cruise missiles, Russian Telegram media channels reported."
+      }
+     ]
+    }
+   }
+  },
+  "ru": {
+   "label": "Russia",
+   "level": "country",
+   "sources": {
+    "vehicles": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Cochin Shipyard gets order to build 40 ships from U.S., Germany, Norway, other nations: Sonowal",
+       "url": "https://www.thehindu.com/business/Industry/cochin-shipyard-gets-order-to-build-40-ships-from-us-germany-norway-other-nations-sonowal/article71561344.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-08T21:07:03.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Industry/cochin-shipyard-gets-order-to-build-40-ships-from-us-germany-norway-other-nations-sonowal/article71561344.ece",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A senior Shipping Ministry official said that some Russian entities have also shown interest in building ships in India"
+      }
+     ]
+    },
+    "power": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ukraine reportedly targets Russian cruise missile fuel plant, oil depot in overnight attack",
+       "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-09T03:51:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "Ukraine's military launched an attack on Russia's Tver Oblast overnight on Oct. 9, reportedly targeting a Russian factory that manufactures fuel components for Kh-55 and Kh-101 cruise missiles, Russian Telegram media channels reported."
+      }
+     ]
+    }
+   }
+  },
   "us-va": {
    "label": "Virginia",
    "level": "admin1",
@@ -5877,26 +5929,6 @@
     "power": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Fairplay Towage orders LNG tugs at Sanmar",
-       "url": "https://lngprime.com/europe/fairplay-towage-orders-lng-tugs-at-sanmar/198109/",
-       "source": "LNG Prime",
-       "published": "2026-10-08T06:00:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/europe/fairplay-towage-orders-lng-tugs-at-sanmar/198109/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "German tugboat operator Fairplay Towage has ordered new tugs at Turkiye's Sanmar to support fleet modernization and LNG terminal operations."
-      },
       {
        "title": "PV Chart of the Week: Turkey boosts European module capacity growth",
        "url": "https://www.pv-tech.org/pv-chart-of-the-week-turkey-boosts-european-module-capacity-growth/",
@@ -6057,34 +6089,6 @@
        "stages": [],
        "via": null,
        "blurb": "For organizations like the Savannah River Mission Completion (SRMC), a liquid waste contractor for the U.S. Department of Energy (DOE) Office of Environmental Management at the Savannah River Site (SRS) in Aiken, South Carolina, the summer season poses significant challenges for "
-      }
-     ]
-    }
-   }
-  },
-  "na": {
-   "label": "Namibia",
-   "level": "country",
-   "sources": {
-    "construction": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Namibia: Pupkewitz Breaks Ground At Grootfontein",
-       "url": "https://allafrica.com/stories/202610080537.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-08T15:50:54.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610080537.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Namibian] The Pupkewitz Group has officially commenced the construction of a larger, modern Pupkewitz MegaBuild branch at Grootfontein, marking a further milestone in the group's long-term investment in Namibia's growth and development."
       }
      ]
     }
@@ -6327,42 +6331,6 @@
     }
    }
   },
-  "jp": {
-   "label": "Japan",
-   "level": "country",
-   "sources": {
-    "power": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Golar buys conversion vessel for fourth FLNG",
-       "url": "https://lngprime.com/asia/golar-buys-conversion-vessel-for-fourth-flng/198042/",
-       "source": "LNG Prime",
-       "published": "2026-10-07T13:40:09.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Offshore Energy",
-         "url": "https://offshore-energy.biz/2026/10/08/golar-secures-2013-built-lng-carrier-for-conversion-into-fourth-flng",
-         "primary": false
-        },
-        {
-         "name": "LNG Prime",
-         "url": "https://lngprime.com/asia/golar-buys-conversion-vessel-for-fourth-flng/198042/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Floating LNG player Golar has agreed to acquire the LNG carrier Grace Dahlia from Japan's NYK Line to convert it into a floating LNG production unit."
-      }
-     ]
-    }
-   }
-  },
   "be": {
    "label": "Belgium",
    "level": "country",
@@ -6447,54 +6415,57 @@
     }
    }
   },
-  "ru": {
-   "label": "Russia",
+  "th": {
+   "label": "Thailand",
    "level": "country",
    "sources": {
     "vehicles": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Cochin Shipyard gets order to build 40 ships from U.S., Germany, Norway, other nations: Sonowal",
-       "url": "https://www.thehindu.com/business/Industry/cochin-shipyard-gets-order-to-build-40-ships-from-us-germany-norway-other-nations-sonowal/article71561344.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-08T21:07:03.000Z",
+       "title": "Thai minister hails partnership with Japan carmakers amid Chinese EVs' rise",
+       "url": "https://www.bangkokpost.com/business/motoring/3334188/thai-minister-hails-partnership-with-japan-carmakers-amid-chinese-evs-rise",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-09T02:13:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/cochin-shipyard-gets-order-to-build-40-ships-from-us-germany-norway-other-nations-sonowal/article71561344.ece",
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/motoring/3334188/thai-minister-hails-partnership-with-japan-carmakers-amid-chinese-evs-rise",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "A senior Shipping Ministry official said that some Russian entities have also shown interest in building ships in India"
+       "blurb": "Thailand remains committed to its long-standing partnership with Japanese automakers operating in the country despite the rise of Chinese electric vehicle (EV) manufacturers, Industry Minister Varawut Silpa-archa has said, seeking greater Japanese investment in recycling used EV "
       }
      ]
-    },
-    "power": {
+    }
+   }
+  },
+  "jp": {
+   "label": "Japan",
+   "level": "country",
+   "sources": {
+    "vehicles": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Ukraine strikes Russia's Omsk oil refinery in Siberia, General Staff confirms",
-       "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T14:25:58.000Z",
+       "title": "Thai minister hails partnership with Japan carmakers amid Chinese EVs' rise",
+       "url": "https://www.bangkokpost.com/business/motoring/3334188/thai-minister-hails-partnership-with-japan-carmakers-amid-chinese-evs-rise",
+       "source": "Bangkok Post Business",
+       "published": "2026-10-09T02:13:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
+         "name": "Bangkok Post Business",
+         "url": "https://www.bangkokpost.com/business/motoring/3334188/thai-minister-hails-partnership-with-japan-carmakers-amid-chinese-evs-rise",
          "primary": false
         }
        ],
        "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
+       "via": null,
+       "blurb": "Thailand remains committed to its long-standing partnership with Japanese automakers operating in the country despite the rise of Chinese electric vehicle (EV) manufacturers, Industry Minister Varawut Silpa-archa has said, seeking greater Japanese investment in recycling used EV "
       }
      ]
     }
@@ -6744,11 +6715,6 @@
        "verification": "multiple",
        "outlets": [
         {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/future/technology/2026/10/08/globalfoundries-stock-tsmc-silicon-interposers/",
-         "primary": false
-        },
-        {
          "name": "The Register",
          "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
          "primary": false
@@ -6860,94 +6826,29 @@
     }
    }
   },
-  "ua": {
-   "label": "Ukraine",
+  "zw": {
+   "label": "Zimbabwe",
    "level": "country",
    "sources": {
-    "power": {
+    "construction": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Ukraine strikes Russia's Omsk oil refinery in Siberia, General Staff confirms",
-       "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T14:25:58.000Z",
+       "title": "Bikita Minerals breaks ground on Sosera-Ndambani road-rehab",
+       "url": "https://newsday.co.zw/article/bikita-minerals-breaks-ground-on-sosera-ndambani-road-rehab",
+       "source": "NewsDay (Zimbabwe)",
+       "published": "2026-10-08T13:34:04.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
+         "name": "NewsDay (Zimbabwe)",
+         "url": "https://newsday.co.zw/article/bikita-minerals-breaks-ground-on-sosera-ndambani-road-rehab",
          "primary": false
         }
        ],
        "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
-      }
-     ]
-    }
-   }
-  },
-  "ru-om": {
-   "label": "Omsk",
-   "level": "admin1",
-   "sources": {
-    "power": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukraine strikes Russia's Omsk oil refinery in Siberia, General Staff confirms",
-       "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T14:25:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
-      }
-     ]
-    }
-   }
-  },
-  "ru-city-omsk": {
-   "label": "Omsk",
-   "level": "city",
-   "sources": {
-    "power": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukraine strikes Russia's Omsk oil refinery in Siberia, General Staff confirms",
-       "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-08T14:25:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Videos and images from local residents, shared by Ukrainian monitoring channels, show explosions, fire, and smoke rising from the area surrounding the oil refinery."
+       "via": null,
+       "blurb": "Bikita Minerals said the project demonstrated its commitment to supporting infrastructure development in communities surrounding its operations. The post Bikita Minerals breaks ground on Sosera-Ndambani road-rehab appeared first on Newsday ."
       }
      ]
     }
@@ -7099,60 +7000,29 @@
     }
    }
   },
-  "th": {
-   "label": "Thailand",
+  "se": {
+   "label": "Sweden",
    "level": "country",
    "sources": {
-    "vehicles": {
+    "goods": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Toyota seeks tax relief for impeded producers",
-       "url": "https://www.bangkokpost.com/business/general/3333095/toyota-seeks-tax-relief-for-impeded-producers",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-08T00:09:00.000Z",
+       "title": "Syre Appoints Tim King As CEO",
+       "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/syre-appoints-tim-king-as-ceo/",
+       "source": "Textile World",
+       "published": "2026-10-08T19:35:06.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333095/toyota-seeks-tax-relief-for-impeded-producers",
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/syre-appoints-tim-king-as-ceo/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Toyota Thailand is asking the government to consider tax deductions for manufacturers affected by recent flooding."
-      }
-     ]
-    }
-   }
-  },
-  "us-ks": {
-   "label": "Kansas",
-   "level": "admin1",
-   "sources": {
-    "power": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Antora Energy announces 5.8GWh ‘multi-day’ thermal energy storage project in Kansas, US",
-       "url": "https://www.energy-storage.news/antora-energy-announces-5-8gwh-multi-day-thermal-energy-storage-project-in-kansas-us/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-06T11:22:39.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/antora-energy-announces-5-8gwh-multi-day-thermal-energy-storage-project-in-kansas-us/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Thermal energy storage (TES) technology provider Antora Energy has announced a 5.8GWh “multi-day” TES project at Pratt Energy’s biorefinery in Pratt, Kansas, US."
+       "blurb": "STOCKHOLM, Sweden — October 7, 2026 — Syre, the textile impact company on a mission to scale textile-to-textile recycling, today announces the appointment of Tim King as its new Chief Executive Officer. Tim King, currently Syre’s Chief Operating Officer, will with his deep experi"
       }
      ]
     }

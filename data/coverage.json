@@ -1,6 +1,6 @@
 {
  "version": 1,
- "checked": "2026-10-08",
+ "checked": "2026-10-09",
  "note": "Built from the data files by scripts/build-coverage.mjs. Real counts of what the site shows.",
  "countries": 187,
  "stateEquivalents": 4315,
@@ -19,7 +19,7 @@
   "seats": 9
  },
  "news": {
-  "countriesWithStories": 101
+  "countriesWithStories": 98
  },
  "briefs": {
   "energySlots": 11,
