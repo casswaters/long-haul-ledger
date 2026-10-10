@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T12:40:37.039Z",
+ "generatedAt": "2026-10-10T18:38:24.158Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -164,24 +164,23 @@
        "blurb": "The Nuclear Regulatory Commission is reviewing a license amendment request (LAR) Holtec submitted in the aftermath of a fuel loading incident that has paused some of the restart work at the Palisades nuclear power plant in Covert, Mich."
       },
       {
-       "title": "Rising together: Collaborative project delivery for the nuclear fleet",
-       "url": "https://www.ans.org/news/2026-10-08/article-8405/rising-together-collaborative-project-delivery-for-the-nuclear-fleet/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-08T12:43:57.000Z",
-       "verification": "unconfirmed",
+       "title": "Reading List 10/10/26",
+       "url": "https://www.construction-physics.com/p/reading-list-101026",
+       "source": "Construction Physics",
+       "published": "2026-10-10T14:55:48.000Z",
+       "verification": "analysis",
        "outlets": [
         {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-08/article-8405/rising-together-collaborative-project-delivery-for-the-nuclear-fleet/",
+         "name": "Construction Physics",
+         "url": "https://www.construction-physics.com/p/reading-list-101026",
          "primary": false
         }
        ],
        "stages": [
-        "generation",
-        "grid"
+        "generation"
        ],
        "via": null,
-       "blurb": "Karen Fili As the nuclear industry enters one of the most significant investment periods in its history, utilities are managing unprecedented capital portfolios while simultaneously preparing for long-term operation, plant modernization, extended power uprates, digital transforma"
+       "blurb": "Propane in air conditioners, Anduril making submarine parts, nuclear reactors on the moon, the robotic hand landscape, and more."
       },
       {
        "title": "Energy Department Announces $4.2 Billion Investment to Boost Nuclear Power and Help Lower Energy Costs in Pennsylvania and Ohio",
@@ -201,6 +200,26 @@
        ],
        "via": null,
        "blurb": "Today’s announcement will deliver more reliable American energy, strengthen the grid, lower costs, and meet growing power demand across the 13-state PJM Interconnection, L.L.C. region."
+      },
+      {
+       "title": "Rising together: Collaborative project delivery for the nuclear fleet",
+       "url": "https://www.ans.org/news/2026-10-08/article-8405/rising-together-collaborative-project-delivery-for-the-nuclear-fleet/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-08T12:43:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-08/article-8405/rising-together-collaborative-project-delivery-for-the-nuclear-fleet/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Karen Fili As the nuclear industry enters one of the most significant investment periods in its history, utilities are managing unprecedented capital portfolios while simultaneously preparing for long-term operation, plant modernization, extended power uprates, digital transforma"
       },
       {
        "title": "Constellation, Vistra uprate deals signal fastest path to new nuclear megawatts",
@@ -236,25 +255,6 @@
        ],
        "via": null,
        "blurb": "Google, Meta and DOE are backing more than 1.3 GW of upgrades at existing reactors, much of it in power-hungry PJM."
-      },
-      {
-       "title": "Poland begins ordering long-lead components for first AP1000",
-       "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
-       "source": "World Nuclear News",
-       "published": "2026-10-08T16:16:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Polskie Elektrownie Jądrowe has commissioned Westinghouse to begin ordering long-lead items for the first unit of Poland's planned first nuclear power plant, which will comprise three AP1000 reactors."
       }
      ]
     },
@@ -269,18 +269,8 @@
        "verification": "multiple",
        "outlets": [
         {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
-         "primary": false
-        },
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/10/us-lifts-sanctions-on-daughter-of-military-linked-myanmar-tycoon?traffic_source=rss",
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine",
          "primary": false
         },
         {
@@ -289,38 +279,13 @@
          "primary": false
         },
         {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/09/trump-says-us-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms/",
-         "primary": false
-        },
-        {
          "name": "ABC News (Australia) Business",
          "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
          "primary": false
         },
         {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/news/international/us-lifts-sanctions-on-sale-of-russian-diesel-in-global-markets/article71565823.ece",
-         "primary": false
-        },
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/us-sanctions-myanmar-businessman/",
-         "primary": false
-        },
-        {
          "name": "The Local Germany",
          "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
-         "primary": false
-        },
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
          "primary": false
         },
         {
@@ -337,6 +302,145 @@
        "stages": [],
        "via": null,
        "blurb": "The strikes came a day after US President Donald Trump announced a deal to buy Russian diesel that Kyiv warned would help fund Moscow's war in Ukraine."
+      },
+      {
+       "title": "Zelenskyy furious as Trump announces deal to buy Russian diesel",
+       "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+       "source": "The Guardian Business",
+       "published": "2026-10-10T10:09:46.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+         "primary": false
+        },
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/10/trump-says-ukraine-should-get-a-new-president-as-he-blames-zelenskyy-for-us-diesel-prices/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "US president says agreement needed to lower fuel prices, but move likely to create fresh crisis with Ukraine and Nato allies Donald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years o"
+      },
+      {
+       "title": "UAE National Guard rescues 22 people after oil tanker catches fire",
+       "url": "https://www.thenationalnews.com/news/uae/2026/10/10/uae-national-guard-rescues-22-people-after-oil-tanker-catches-fire/",
+       "source": "The National (UAE)",
+       "published": "2026-10-10T17:56:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/uae/2026/10/10/uae-national-guard-rescues-22-people-after-oil-tanker-catches-fire/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "The UAE National Guard's Coast Guard Division rescued 22 crew members after a fire broke out on an oil tanker in the Arabian Gulf. A specialised coast guard team responded to the crew's report of a fire and successfully located the tanker. The crew members were rescued, given fir"
+      },
+      {
+       "title": "'He better damn well stop' — Trump slams Zelensky for attacking Russian refineries, says Ukraine should get 'new president'",
+       "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T17:34:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "\"I think it's time for Ukraine to get a new president,\" U.S. President Donald Trump said when questioned about his deal to ease sanctions against Russia in exchange for diesel."
+      },
+      {
+       "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+       "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+       "source": "BBC News Business",
+       "published": "2026-10-10T14:24:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\"."
+      },
+      {
+       "title": "Trump says Russia to supply diesel to U.S. and global markets",
+       "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
+       "source": "The Japan Times",
+       "published": "2026-10-09T22:49:00.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
+         "primary": false
+        },
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/americas/trump-says-russia-to-supply-diesel-fuel-to-american-global-markets/4084012",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Prices for diesel are near a record and have put Trump's fellow Republicans at risk ahead of the Nov. 3 congressional elections."
+      },
+      {
+       "title": "2027: Makinde promises four-year transitional Government of National Unity if elected president",
+       "url": "https://www.premiumtimesng.com/news/headlines/916006-2027-makinde-promises-four-year-transitional-government-of-national-unity-if-elected-president.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-10T18:06:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/news/headlines/916006-2027-makinde-promises-four-year-transitional-government-of-national-unity-if-elected-president.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Makinde also challenged the federal government to publish its petroleum pricing template to enable Nigerians to understand how the prices of petroleum products are determined. The post 2027: Makinde promises four-year transitional Government of National Unity if elected president"
+      },
+      {
+       "title": "Russian Attack on Ukrainian City Kills 20, a Day After Trump Eases Diesel Sanctions on Moscow",
+       "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
+       "source": "The Moscow Times",
+       "published": "2026-10-10T17:26:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Ukrainian President offered some of his sharpest criticism of Donald Trump after this week's third mass-casualty Russian attack."
       },
       {
        "title": "Shell buying 30% stake in Bay du Nord oil project off Newfoundland",
@@ -361,6 +465,42 @@
        "blurb": "Shell Canada has agreed to buy a 30 per cent stake in the proposed Bay du Nord oil project off the East Coast of Newfoundland from Norwegian energy giant Equinor, which will continue to lead the $14-billion development."
       },
       {
+       "title": "US-Russia energy deal opens up diesel can of worms",
+       "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
+       "source": "The National (UAE)",
+       "published": "2026-10-10T09:59:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "US President Donald Trump's announcement that Russia will be supplying diesel to global markets has opened up a can of worms, says analysts. Washington agreed to lift sanctions on the Kremlin in a bid to bring down energy prices, especially for diesel, which is vital to many econ"
+      },
+      {
+       "title": "Russia's Oil Product Exports Rise",
+       "url": "https://www.rigzone.com/news/wire/russias_oil_product_exports_rise-10-oct-2026-184813-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-10T12:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/russias_oil_product_exports_rise-10-oct-2026-184813-article/?rss=true",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Russia's oil product shipments climbed to a three-month high in September."
+      },
+      {
        "title": "Germany Sticks to Russia Sanctions After Trump Diesel Announcement",
        "url": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940",
        "source": "The Moscow Times",
@@ -376,174 +516,6 @@
        "stages": [],
        "via": null,
        "blurb": "Trump said on Friday that Russia had agreed to supply diesel to the global market to ease fuel prices. Kyiv's allies are not supportive."
-      },
-      {
-       "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
-       "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-10T03:22:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "ASTRA also reported damage to a residential building in Rostov-on-Don's Donskaya Sloboda complex, identifying its location through footage posted by residents. It remained unclear what struck the building amid reports of continued drone activity and Russian air defense operations"
-      },
-      {
-       "title": "Trump Says He Will Import Russian Diesel Fuel Amid High Prices",
-       "url": "https://www.nytimes.com/2026/10/09/us/politics/trump-russia-diesel-putin.html",
-       "source": "NYT Climate / Energy",
-       "published": "2026-10-10T03:09:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NYT Climate / Energy",
-         "url": "https://www.nytimes.com/2026/10/09/us/politics/trump-russia-diesel-putin.html",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "President Trump said Russia had agreed to ship potentially millions of tons of diesel fuel in the coming months. But the amounts would be small relative to global demand."
-      },
-      {
-       "title": "Mexico Lifts Premium Gasoline Tax Relief to 71%",
-       "url": "https://www.riotimesonline.com/mexico-gasoline-tax-relief-2026/",
-       "source": "The Rio Times",
-       "published": "2026-10-10T07:27:56.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Rio Times",
-         "url": "https://www.riotimesonline.com/mexico-gasoline-tax-relief-2026/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Mexico's Finance Ministry lifted gasoline tax relief on premium fuel to 71% of the excise and kept diesel's excise at zero for 10 to 16 October. The post Mexico Lifts Premium Gasoline Tax Relief to 71% appeared first on The Rio Times ."
-      },
-      {
-       "title": "Couche-Tard buying fuel retail sites from Irving Oil in Quebec and Ontario",
-       "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/09/couche-tard-buying-fuel-retail-sites-from-irving-oil-in-quebec-and-ontario/",
-       "source": "BNN Bloomberg",
-       "published": "2026-10-09T21:06:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/09/couche-tard-buying-fuel-retail-sites-from-irving-oil-in-quebec-and-ontario/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Alimentation Couche-Tard Inc. has announced a deal to buy dozens of retail sites from Irving Oil in Quebec and Ontario."
-      },
-      {
-       "title": "Govt reduces petrol price by Re0.66 per litre, raises high-speed diesel rate by Re0.52",
-       "url": "https://www.dawn.com/news/2035954/govt-reduces-petrol-price-by-re066-per-litre-raises-high-speed-diesel-rate-by-re052",
-       "source": "Dawn Business",
-       "published": "2026-10-09T19:28:22.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2035954/govt-reduces-petrol-price-by-re066-per-litre-raises-high-speed-diesel-rate-by-re052",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "body{margin:0;padding:0;font-family:system-ui,-apple-system,sans-serif;overflow-wrap:anywhere;} Pakistan fuel prices, 2026 Official ex-depot prices (PKR/litre) — OGRA & Ministry of Energy notifications Petrol (MS-92) Diesel (HSD) Pre-crisis baseline Source: OGRA / Ministry of Ene"
-      },
-      {
-       "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
-       "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
-       "source": "Argus Media",
-       "published": "2026-10-07T17:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "Marine Minerals Administration (BSEE newsroom), Oct. 6 shut-in report",
-         "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-activities-invest-92l",
-         "primary": true
-        },
-        {
-         "name": "Argus Media",
-         "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "via": null,
-       "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
-      },
-      {
-       "title": "Euro falls, set for fifth straight weekly drop as oil prices rise",
-       "url": "https://www.channelnewsasia.com/business/euro-falls-set-fifth-straight-weekly-drop-oil-prices-rise-6444831",
-       "source": "CNA Business",
-       "published": "2026-10-09T15:23:13.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/euro-falls-set-fifth-straight-weekly-drop-oil-prices-rise-6444831",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
-       "title": "Northern California Community Wants Stronger Oversight of Dangerous Refineries Nearby",
-       "url": "https://insideclimatenews.org/news/09102026/bay-area-community-seeks-stronger-refinery-oversight/",
-       "source": "Inside Climate News",
-       "published": "2026-10-09T23:01:56.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Inside Climate News",
-         "url": "https://insideclimatenews.org/news/09102026/bay-area-community-seeks-stronger-refinery-oversight/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "MARTINEZ, Calif.—Scores of people tired of living near accident-prone refineries packed an elementary school auditorium to hear what their government officials were doing to protect them. Two local refineries, Marathon Martinez Renewables and Martinez Refining Co., have racked up"
-      },
-      {
-       "title": "Looking for Oil in Alaska, No Environmental Strings Attached",
-       "url": "https://insideclimatenews.org/news/09102026/bureau-of-land-management-accelerates-arctic-oil-exploration-permit/",
-       "source": "Inside Climate News",
-       "published": "2026-10-09T22:30:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Inside Climate News",
-         "url": "https://insideclimatenews.org/news/09102026/bureau-of-land-management-accelerates-arctic-oil-exploration-permit/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Oil companies will no longer be required to conduct environmental reviews before exploring for fossil fuel reservoirs in the Western Arctic, the largest tract of federally managed public land in the United States. The Bureau of Land Management announced a categorical exclusion un"
       }
      ]
     },
@@ -1095,23 +1067,6 @@
      "brief": "ready",
      "candidates": [
       {
-       "title": "Enugu secures $200m investment for 100MW solar power",
-       "url": "https://www.premiumtimesng.com/promoted/915901-enugu-secures-200m-investment-for-100mw-solar-power.html",
-       "source": "Premium Times (Nigeria)",
-       "published": "2026-10-10T09:42:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Premium Times (Nigeria)",
-         "url": "https://www.premiumtimesng.com/promoted/915901-enugu-secures-200m-investment-for-100mw-solar-power.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The investment, estimated at about N300 billion, was disclosed during a meeting between Governor Peter Mbah and a delegation from Eauxwell Nigeria Limited led by the Managing Director, Mr Edwin Enwegbara, at the Government House, Enugu The post Enugu secures $200m investment for "
-      },
-      {
        "title": "Austria: 43,300 applications for solar subsidies submitted in just ten minutes",
        "url": "https://www.pv-magazine.com/2026/10/10/austria-43300-applications-for-solar-subsidies-submitted-in-just-ten-minutes/",
        "source": "pv magazine",
@@ -1150,23 +1105,6 @@
        "blurb": "Forecasted capital expenditure for new U.S. solar manufacturing expansions for 2027 reflects a hesitant financing climate, with Tesla’s Texas plans having the potential to rocket boost the entire sector’s spending outlook. The post More than 70% of announced U.S. solar manufactur"
       },
       {
-       "title": "Australia backs goal of 150 million new rooftop solar systems globally by 2030",
-       "url": "https://www.pv-magazine.com/2026/10/10/australia-backs-goal-of-150-million-new-rooftop-solar-systems-globally-by-2030/",
-       "source": "pv magazine",
-       "published": "2026-10-10T05:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/10/australia-backs-goal-of-150-million-new-rooftop-solar-systems-globally-by-2030/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Australia has endorsed a global plan to double the number of homes in the world with rooftop solar, from 150 to 300 million by 2030 via the Global Rooftop Solar Declaration announced at the 2026 Pacific Pre-COP meeting in Fiji. The post Australia backs goal of 150 million new roo"
-      },
-      {
        "title": "Grenergy obtains $457m in financing for Chile solar and storage projects",
        "url": "https://www.power-technology.com/news/grenergy-457m-chile-solar-storage/",
        "source": "Power Technology",
@@ -1189,6 +1127,23 @@
        ],
        "via": null,
        "blurb": "Spanish renewable energy company Grenergy has obtained $457m in a non-recourse senior financing package for 446MW of solar projects and 1.8GWh of energy storage in Chile."
+      },
+      {
+       "title": "Australia backs goal of 150 million new rooftop solar systems globally by 2030",
+       "url": "https://www.pv-magazine.com/2026/10/10/australia-backs-goal-of-150-million-new-rooftop-solar-systems-globally-by-2030/",
+       "source": "pv magazine",
+       "published": "2026-10-10T05:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/10/australia-backs-goal-of-150-million-new-rooftop-solar-systems-globally-by-2030/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Australia has endorsed a global plan to double the number of homes in the world with rooftop solar, from 150 to 300 million by 2030 via the Global Rooftop Solar Declaration announced at the 2026 Pacific Pre-COP meeting in Fiji. The post Australia backs goal of 150 million new roo"
       },
       {
        "title": "ContourGlobal breaks ground on 450MW solar-plus-storage facility in Arizona",
@@ -1333,6 +1288,25 @@
        "stages": [],
        "via": null,
        "blurb": "Funds have been raised from private equity providers for two community solar developers that benefit several US states, in separate deals."
+      },
+      {
+       "title": "Dos Grados acquires 500MW-plus of solar projects from Akuo in Spain",
+       "url": "https://www.pv-tech.org/dos-grados-acquires-500mw-solar-projects-from-akuo-in-spain/",
+       "source": "PV Tech",
+       "published": "2026-10-09T11:33:26.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/dos-grados-acquires-500mw-solar-projects-from-akuo-in-spain/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Dos Grados has agreed to acquire three PV solar projects in Spain from Akuo, with a combined installed capacity of more than 500MW."
       }
      ]
     },
@@ -1914,6 +1888,25 @@
        "blurb": "Sharing batteries and motors with the Renault 5 lets Renault refresh its electric vans with hardware already proven in its cars The post Renault Kangoo E-Tech gains 52kW/h battery and 354km range appeared first on Automotive World ."
       },
       {
+       "title": "Mint Renewables wins planning approval for 800MWh battery storage system in Western Australia",
+       "url": "https://www.energy-storage.news/mint-renewables-wins-planning-approval-for-800mwh-battery-storage-system-in-western-australia/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-09T03:21:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/mint-renewables-wins-planning-approval-for-800mwh-battery-storage-system-in-western-australia/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Mint Renewables has received planning approval for an 800MWh battery energy storage system (BESS) near Kojonup in Western Australia."
+      },
+      {
        "title": "EXI Lighthouse Project GH2GH on Green Hydrogen and Fuel Cells Successfully Completed",
        "url": "https://fuelcellsworks.com/2026/10/07/h2/exi-lighthouse-project-gh2gh-on-green-hydrogen-and-fuel-cells-successfully-completed",
        "source": "FuelCellsWorks",
@@ -1946,26 +1939,6 @@
        "stages": [
         "extraction",
         "grid"
-       ],
-       "via": null,
-       "blurb": ""
-      },
-      {
-       "title": "Uruguay Opens Its First Green Hydrogen and Electric Mobility Pilot Plant",
-       "url": "https://fuelcellsworks.com/2026/10/09/h2/uruguay-opens-its-first-green-hydrogen-and-electric-mobility-pilot-plant",
-       "source": "FuelCellsWorks",
-       "published": "2026-10-09T15:08:33.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "FuelCellsWorks",
-         "url": "https://fuelcellsworks.com/2026/10/09/h2/uruguay-opens-its-first-green-hydrogen-and-electric-mobility-pilot-plant",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "innovation"
        ],
        "via": null,
        "blurb": ""
@@ -2064,6 +2037,25 @@
        "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
       },
       {
+       "title": "Reading List 10/10/26",
+       "url": "https://www.construction-physics.com/p/reading-list-101026",
+       "source": "Construction Physics",
+       "published": "2026-10-10T14:55:48.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Construction Physics",
+         "url": "https://www.construction-physics.com/p/reading-list-101026",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Propane in air conditioners, Anduril making submarine parts, nuclear reactors on the moon, the robotic hand landscape, and more."
+      },
+      {
        "title": "Tennessee Valley Authority gets green light to build first BWRX-300 small modular reactor in the US",
        "url": "https://www.power-eng.com/nuclear/smrs/tennessee-clinch-river-bwrx-300-smr-nrc-construction-permit/",
        "source": "Power Engineering",
@@ -2086,6 +2078,23 @@
        ],
        "via": null,
        "blurb": "The U.S. Nuclear Regulatory Commission has issued TVA a construction permit for Clinch River Unit 1, a 300-megawatt (MW) GE Vernova Hitachi Nuclear Energy BWRX-300 small boiling-water modular reactor near Oak Ridge, Tennessee."
+      },
+      {
+       "title": "Eliminating Heat Risks in Nuclear Cleanup: A DOE Contractor’s High-Tech Blueprint",
+       "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-07T14:00:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "For organizations like the Savannah River Mission Completion (SRMC), a liquid waste contractor for the U.S. Department of Energy (DOE) Office of Environmental Management at the Savannah River Site (SRS) in Aiken, South Carolina, the summer season poses significant challenges for "
       },
       {
        "title": "Energy Firms Try to Squeeze More Power Out of Old Nuclear Plants",
@@ -2132,25 +2141,15 @@
      "brief": "ready",
      "candidates": [
       {
-       "title": "US-Russia energy deal opens up diesel can of worms",
-       "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
-       "source": "The National (UAE)",
-       "published": "2026-10-10T09:59:59.000Z",
+       "title": "EU says US deal lifting diesel sanctions 'funds' Russian war on Ukraine",
+       "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine",
+       "source": "RFI English",
+       "published": "2026-10-10T15:06:41.000Z",
        "verification": "multiple",
        "outlets": [
         {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
-         "primary": false
-        },
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/10/us-lifts-sanctions-on-daughter-of-military-linked-myanmar-tycoon?traffic_source=rss",
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine",
          "primary": false
         },
         {
@@ -2159,38 +2158,13 @@
          "primary": false
         },
         {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/09/trump-says-us-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms/",
-         "primary": false
-        },
-        {
          "name": "ABC News (Australia) Business",
          "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
          "primary": false
         },
         {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/news/international/us-lifts-sanctions-on-sale-of-russian-diesel-in-global-markets/article71565823.ece",
-         "primary": false
-        },
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/us-sanctions-myanmar-businessman/",
-         "primary": false
-        },
-        {
          "name": "The Local Germany",
          "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
-         "primary": false
-        },
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
          "primary": false
         },
         {
@@ -2206,7 +2180,93 @@
        ],
        "stages": [],
        "via": null,
+       "blurb": "EU foreign policy chief Kaja Kallas said Saturday that lifting sanctions on Russian diesel helped fuel the Kremlin's war on Ukraine, after US President Donald Trump announced a deal for Moscow to supply fuel."
+      },
+      {
+       "title": "US-Russia energy deal opens up diesel can of worms",
+       "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
+       "source": "The National (UAE)",
+       "published": "2026-10-10T09:59:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
        "blurb": "US President Donald Trump's announcement that Russia will be supplying diesel to global markets has opened up a can of worms, says analysts. Washington agreed to lift sanctions on the Kremlin in a bid to bring down energy prices, especially for diesel, which is vital to many econ"
+      },
+      {
+       "title": "Trump says Russia to supply diesel to U.S. and global markets",
+       "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
+       "source": "The Japan Times",
+       "published": "2026-10-09T22:49:00.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
+         "primary": false
+        },
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/americas/trump-says-russia-to-supply-diesel-fuel-to-american-global-markets/4084012",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Prices for diesel are near a record and have put Trump's fellow Republicans at risk ahead of the Nov. 3 congressional elections."
+      },
+      {
+       "title": "Zelenskyy furious as Trump announces deal to buy Russian diesel",
+       "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+       "source": "The Guardian Business",
+       "published": "2026-10-10T10:09:46.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+         "primary": false
+        },
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/10/trump-says-ukraine-should-get-a-new-president-as-he-blames-zelenskyy-for-us-diesel-prices/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "US president says agreement needed to lower fuel prices, but move likely to create fresh crisis with Ukraine and Nato allies Donald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years o"
+      },
+      {
+       "title": "'He better damn well stop' — Trump slams Zelensky for attacking Russian refineries, says Ukraine should get 'new president'",
+       "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T17:34:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "\"I think it's time for Ukraine to get a new president,\" U.S. President Donald Trump said when questioned about his deal to ease sanctions against Russia in exchange for diesel."
       },
       {
        "title": "Northern California Community Wants Stronger Oversight of Dangerous Refineries Nearby",
@@ -2264,6 +2324,30 @@
        "blurb": "A crude oil pipeline spill last month in the Detroit suburbs has prompted federal authorities to open an investigation into the safety of all 20,000 miles of hazardous liquids pipelines operated by Energy Transfer. The 600-gallon spill at a commercial intersection in Sterling Hei"
       },
       {
+       "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
+       "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
+       "source": "Argus Media",
+       "published": "2026-10-07T17:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "Marine Minerals Administration (BSEE newsroom), Oct. 6 shut-in report",
+         "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-activities-invest-92l",
+         "primary": true
+        },
+        {
+         "name": "Argus Media",
+         "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "via": null,
+       "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
+      },
+      {
        "title": "USA Crude Oil Stocks Drop Over 3MM Barrels Week on Week",
        "url": "https://www.rigzone.com/news/usa_crude_oil_stocks_drop_over_3mm_barrels_week_on_week-09-oct-2026-184816-article/?rss=true",
        "source": "Rigzone",
@@ -2305,30 +2389,6 @@
        "blurb": "Market volatility increased as geopolitical tensions in the Middle East and hurricane preparations in the US Gulf led to production cuts and shipping disruptions, pushing Brent and WTI crude prices higher."
       },
       {
-       "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
-       "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
-       "source": "Argus Media",
-       "published": "2026-10-07T17:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "Marine Minerals Administration (BSEE newsroom), Oct. 6 shut-in report",
-         "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-activities-invest-92l",
-         "primary": true
-        },
-        {
-         "name": "Argus Media",
-         "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "via": null,
-       "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
-      },
-      {
        "title": "EIA raises Brent forecast to $105 a barrel for Q4 2026; gas-heated homes to spend less this winter",
        "url": "https://www.eia.gov/outlooks/steo/",
        "source": "US Energy Information Administration",
@@ -2344,81 +2404,6 @@
        "stages": [],
        "via": null,
        "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
-      },
-      {
-       "title": "EIA: US crude oil inventories down 3.2 million bbl",
-       "url": "https://www.ogj.com/general-interest/economics-markets/news/55410217/eia-us-crude-oil-inventories-down-32-million-bbl",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-07T15:09:33.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/economics-markets/news/55410217/eia-us-crude-oil-inventories-down-32-million-bbl",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "At 424.1 million bbl, US crude oil inventories are 1% above the 5-year average for this time of year, the Energy Information Administration report indicated."
-      },
-      {
-       "title": "EIA Boosts Oil Price Forecast by $5 in 2026, $10 in 2027",
-       "url": "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-08T14:32:46.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The U.S. Energy Information Administration raised its 2026 Brent crude oil spot price forecast by more than $5 per barrel and its 2027 Brent price forecast by $10 per barrel."
-      },
-      {
-       "title": "US BLM sets December California oil, gas lease sale",
-       "url": "https://www.ogj.com/general-interest/government/news/55409584/us-blm-sets-december-california-oil-gas-lease-sale",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-05T16:05:27.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "Bureau of Land Management (press release)",
-         "url": "https://www.blm.gov/press-release/blm-announces-december-2026-sale-oil-and-gas-leases-california",
-         "primary": true
-        },
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/general-interest/government/news/55409584/us-blm-sets-december-california-oil-gas-lease-sale",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "via": null,
-       "blurb": "A federal lease sale in California for oil and gas development has been announced, despite criticism from state officials over an environmental assessment."
-      },
-      {
-       "title": "Brent crude tops $105 as Trump weighs resuming 'major combat operations' in Iran",
-       "url": "https://www.euronews.com/2026/10/08/oil-prices-are-climbing-on-concerns-about-an-escalating-iran-war",
-       "source": "Euronews Business",
-       "published": "2026-10-08T06:35:51.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/08/oil-prices-are-climbing-on-concerns-about-an-escalating-iran-war",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Brent crude rose above $105 a barrel on Thursday after reports that US President Donald Trump is considering a return to \"major combat operations\" against Iran, while European stock markets opened lower as rising oil prices fuelled inflation fears."
       }
      ]
     },
@@ -2464,6 +2449,25 @@
        ],
        "via": null,
        "blurb": "US liquefied natural gas (LNG) plants sent 31 cargoes during the week ending October 7, down six shipments from the previous week, according to the Energy Information Administration."
+      },
+      {
+       "title": "U.S. natural gas production reached a record high in July 2026",
+       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68225",
+       "source": "EIA Today in Energy",
+       "published": "2026-10-02T14:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "EIA Today in Energy",
+         "url": "https://www.eia.gov/todayinenergy/detail.php?id=68225",
+         "primary": true
+        }
+       ],
+       "stages": [
+        "extraction"
+       ],
+       "via": null,
+       "blurb": "U.S. natural gas production hit an all-time high in July 2026, driven primarily by increased output in the Permian Basin, according to our latest Natural Gas Monthly."
       },
       {
        "title": "Freeport LNG Outage Erases Nearly 5 Bcf of Natural Gas Demand in a Week",
@@ -2542,25 +2546,6 @@
        "blurb": "The prospect of a historically strong El Niño is raising questions about US natural gas heating demand this winter, but expanding LNG exports, subdued production and the potential for regional supply constraints are complicating the market outlook."
       },
       {
-       "title": "U.S. natural gas production reached a record high in July 2026",
-       "url": "https://www.eia.gov/todayinenergy/detail.php?id=68225",
-       "source": "EIA Today in Energy",
-       "published": "2026-10-02T14:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "EIA Today in Energy",
-         "url": "https://www.eia.gov/todayinenergy/detail.php?id=68225",
-         "primary": true
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "via": null,
-       "blurb": "U.S. natural gas production hit an all-time high in July 2026, driven primarily by increased output in the Permian Basin, according to our latest Natural Gas Monthly."
-      },
-      {
        "title": "Power LNG takes step forward with Pelican Island facility",
        "url": "https://lngprime.com/americas/power-lng-takes-step-forward-with-pelican-island-facility/198182/",
        "source": "LNG Prime",
@@ -2599,26 +2584,6 @@
        "blurb": "New England natural gas forwards are topping $20/MMBtu for January 2027 at several key hubs, even as Henry Hub trades below $4 and expectations for ample US supplies point to a relatively comfortable winter market."
       },
       {
-       "title": "‘We Are Seen as Disposable’: Rural Residents Fight a Proposed Gas Pipeline",
-       "url": "https://kffhealthnews.org/rural-health/pipeline-natural-gas-rural-areas-risks-enbridge-north-carolina-research-triangle/",
-       "source": "KFF Health News",
-       "published": "2026-10-09T09:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "KFF Health News",
-         "url": "https://kffhealthnews.org/rural-health/pipeline-natural-gas-rural-areas-risks-enbridge-north-carolina-research-triangle/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid",
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "Research shows natural gas pipelines — and the public health risks they carry — are concentrated in low-income and minority areas where people suffer higher rates of poverty and physical disabilities and have fewer means to respond to crises."
-      },
-      {
        "title": "LNG market tightens into winter as Europe pulls US cargoes, China reopens contract talks",
        "url": "https://www.ogj.com/general-interest/economics-markets/news/55410250/lng-market-tightens-into-winter-as-europe-pulls-us-cargoes-china-reopens-contract-talks",
        "source": "Oil & Gas Journal",
@@ -2637,6 +2602,26 @@
        ],
        "via": null,
        "blurb": "New capacity outside the Middle East offsets some losses, but inventories remain low, raising winter risk concerns."
+      },
+      {
+       "title": "‘We Are Seen as Disposable’: Rural Residents Fight a Proposed Gas Pipeline",
+       "url": "https://kffhealthnews.org/rural-health/pipeline-natural-gas-rural-areas-risks-enbridge-north-carolina-research-triangle/",
+       "source": "KFF Health News",
+       "published": "2026-10-09T09:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "KFF Health News",
+         "url": "https://kffhealthnews.org/rural-health/pipeline-natural-gas-rural-areas-risks-enbridge-north-carolina-research-triangle/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid",
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "Research shows natural gas pipelines — and the public health risks they carry — are concentrated in low-income and minority areas where people suffer higher rates of poverty and physical disabilities and have fewer means to respond to crises."
       },
       {
        "title": "Kinder Morgan restores natural gas shipments to Mexico",
@@ -3030,23 +3015,6 @@
        "blurb": "On this episode of the This Week in Cleantech podcast, Benton Graham from Grist discusses the Massachusetts Bay Transportation Authority's plans to electrify Boston’s Fairmount Line with battery-powered trains."
       },
       {
-       "title": "Law Firm Seward & Kissel Signs 171K-SF Renewal at One Battery Park Plaza",
-       "url": "https://commercialobserver.com/2026/10/seward-kissel-lease-renewal-one-battery-park-plaza/",
-       "source": "Commercial Observer",
-       "published": "2026-10-09T13:50:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Commercial Observer",
-         "url": "https://commercialobserver.com/2026/10/seward-kissel-lease-renewal-one-battery-park-plaza/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Seward & Kissel is staying put in the Financial District. The financial services law firm has renewed its 171,112-square-foot office lease for a term of 11 years with Rudin and Allianz Real Estate at One Battery Park Plaza, according to CBRE’s office report for the third quarter "
-      },
-      {
        "title": "How a reluctant Iowa farming county undid a ban on battery storage",
        "url": "https://www.canarymedia.com/articles/food-and-farms/iowa-farm-county-battery-storage",
        "source": "Canary Media",
@@ -3084,6 +3052,23 @@
        ],
        "via": null,
        "blurb": "Fit Energy, a developer of energy solutions for data center projects, has announced plans for a fuel cell power generation and data center project in Newport Township, Luzerne County, Pennsylvania. The project received township zoning approval for both uses in August of this year"
+      },
+      {
+       "title": "Law Firm Seward & Kissel Signs 171K-SF Renewal at One Battery Park Plaza",
+       "url": "https://commercialobserver.com/2026/10/seward-kissel-lease-renewal-one-battery-park-plaza/",
+       "source": "Commercial Observer",
+       "published": "2026-10-09T13:50:58.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Commercial Observer",
+         "url": "https://commercialobserver.com/2026/10/seward-kissel-lease-renewal-one-battery-park-plaza/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Seward & Kissel is staying put in the Financial District. The financial services law firm has renewed its 171,112-square-foot office lease for a term of 11 years with Rudin and Allianz Real Estate at One Battery Park Plaza, according to CBRE’s office report for the third quarter "
       },
       {
        "title": "Deployable Energy to test its Unity nuclear battery in DOME",
@@ -3452,18 +3437,8 @@
        "verification": "multiple",
        "outlets": [
         {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
-         "primary": false
-        },
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/10/us-lifts-sanctions-on-daughter-of-military-linked-myanmar-tycoon?traffic_source=rss",
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine",
          "primary": false
         },
         {
@@ -3472,38 +3447,13 @@
          "primary": false
         },
         {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/09/trump-says-us-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms/",
-         "primary": false
-        },
-        {
          "name": "ABC News (Australia) Business",
          "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
          "primary": false
         },
         {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/news/international/us-lifts-sanctions-on-sale-of-russian-diesel-in-global-markets/article71565823.ece",
-         "primary": false
-        },
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/us-sanctions-myanmar-businessman/",
-         "primary": false
-        },
-        {
          "name": "The Local Germany",
          "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
-         "primary": false
-        },
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
          "primary": false
         },
         {
@@ -3725,77 +3675,6 @@
     }
    }
   },
-  "ng": {
-   "label": "Nigeria",
-   "level": "country",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Nigeria: NNPC Petrol Discount Is Not Fuel Subsidy - Finance Minister",
-       "url": "https://allafrica.com/stories/202610090444.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-09T12:27:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610090444.html",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "[Premium Times] According to the minister, NNPC Retail is absorbing the reduction from its profit margin, rather than relying on government funds to lower petrol prices."
-      }
-     ]
-    },
-    "solar": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Enugu secures $200m investment for 100MW solar power",
-       "url": "https://www.premiumtimesng.com/promoted/915901-enugu-secures-200m-investment-for-100mw-solar-power.html",
-       "source": "Premium Times (Nigeria)",
-       "published": "2026-10-10T09:42:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Premium Times (Nigeria)",
-         "url": "https://www.premiumtimesng.com/promoted/915901-enugu-secures-200m-investment-for-100mw-solar-power.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The investment, estimated at about N300 billion, was disclosed during a meeting between Governor Peter Mbah and a delegation from Eauxwell Nigeria Limited led by the Managing Director, Mr Edwin Enwegbara, at the Government House, Enugu The post Enugu secures $200m investment for "
-      },
-      {
-       "title": "Solar emerges as an alternative to Nigeria’s unreliable grid {Business Africa}",
-       "url": "https://www.euronews.com/2026/10/08/solar-emerges-as-an-alternative-to-nigerias-unreliable-grid-business-africa",
-       "source": "Euronews Business",
-       "published": "2026-10-08T11:59:57.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/08/solar-emerges-as-an-alternative-to-nigerias-unreliable-grid-business-africa",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Nigeria’s Power Crisis Creates New Opportunity for Solar as Togo Deepens Russia Ties"
-      }
-     ]
-    }
-   }
-  },
   "in": {
    "label": "India",
    "level": "country",
@@ -3804,10 +3683,10 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "As oil prices rise, RBI opens special window for PSU oil firms to meet their daily dollar need",
+       "title": "As oil prices increase, RBI opens special window for PSU oil firms to meet their daily dollar needs",
        "url": "https://www.thehindu.com/business/as-oil-prices-rise-rbi-opens-special-window-for-psu-oil-firms-tomeet-their-daily-dollar-need/article71567121.ece",
        "source": "The Hindu Business",
-       "published": "2026-10-10T05:28:49.000Z",
+       "published": "2026-10-10T16:02:30.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -3819,6 +3698,23 @@
        "stages": [],
        "via": null,
        "blurb": "The facility will come in effect from October 12, 2026 and will remain in place until further notice, the central bank added"
+      },
+      {
+       "title": "India Shuns Costly Russian Oil",
+       "url": "https://www.rigzone.com/news/wire/india_shuns_costly_russian_oil-08-oct-2026-184802-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-08T13:46:29.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/india_shuns_costly_russian_oil-08-oct-2026-184802-article/?rss=true",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Indian refiners have cut back Russian crude purchases for November delivery."
       },
       {
        "title": "Dangote taps EIL for Kenya grassroots refinery project",
@@ -3841,23 +3737,6 @@
        "blurb": "Engineers India Ltd. will oversee project management and engineering services for the proposed Lamu refinery, which will have a nameplate crude processing capacity of 700,000 b/d upon startup."
       },
       {
-       "title": "India Shuns Costly Russian Oil",
-       "url": "https://www.rigzone.com/news/wire/india_shuns_costly_russian_oil-08-oct-2026-184802-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-08T13:46:29.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/india_shuns_costly_russian_oil-08-oct-2026-184802-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Indian refiners have cut back Russian crude purchases for November delivery."
-      },
-      {
        "title": "Sensex, Nifty rebounds over 1% after two days of losses; IT shares lead rally amid easing crude prices",
        "url": "https://www.thehindu.com/business/markets/sensex-nifty-rebounds-over-1-after-two-days-of-losses-it-shares-lead-rally-amid-easing-crude-prices/article71563865.ece",
        "source": "The Hindu Business",
@@ -3873,23 +3752,6 @@
        "stages": [],
        "via": null,
        "blurb": "The 30-share BSE Sensex jumped 879.09 points, or 1.23%, to settle at 72,472.33 and the 50-share NSE Nifty rallied 288.65 points, or 1.30%, to end at 22,520.45"
-      },
-      {
-       "title": "Bookpeek: A different life, with less oil around",
-       "url": "https://www.thehindu.com/business/companies/bookpeek-a-different-life-with-less-oil-around/article59890484.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-09T08:32:58.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/companies/bookpeek-a-different-life-with-less-oil-around/article59890484.ece",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
       }
      ]
     },
@@ -4943,163 +4805,6 @@
     }
    }
   },
-  "ro": {
-   "label": "Romania",
-   "level": "country",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Rompetrol targets 2028 startup for two refinery solar projects",
-       "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-08T17:53:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "innovation",
-        "generation"
-       ],
-       "via": null,
-       "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
-      }
-     ]
-    },
-    "wind": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Greenvolt secures $318m in financing for 253.1MW Romanian wind project",
-       "url": "https://www.power-technology.com/news/greenvolt-financing-253-1mw-romanian-wind/",
-       "source": "Power Technology",
-       "published": "2026-10-09T07:42:25.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Power Technology",
-         "url": "https://www.power-technology.com/news/greenvolt-financing-253-1mw-romanian-wind/",
-         "primary": false
-        },
-        {
-         "name": "reNEWS",
-         "url": "https://www.renews.biz/onshore-wind/greenvolt-secures-financing-for-253mw-wind-farm/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Greenvolt Power, part of Greenvolt Group, has obtained €284m ($318m) in project financing for the 253.1MW wind farm in Gurbănești, located east of Bucharest, Romania."
-      }
-     ]
-    },
-    "solar": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Case study: Apartment solar? A novel approach from Bucharest",
-       "url": "https://www.renewableenergyworld.com/solar/residential/case-study-apartment-solar-a-novel-approach-from-bucharest/",
-       "source": "Hydro Review",
-       "published": "2026-10-09T10:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Hydro Review",
-         "url": "https://www.renewableenergyworld.com/solar/residential/case-study-apartment-solar-a-novel-approach-from-bucharest/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "innovation",
-        "extraction"
-       ],
-       "via": null,
-       "blurb": "Romanian company PhotoVoltaic Windows SRL has discovered an intriguing application for photovoltaic glass in apartments: heating domestic water."
-      },
-      {
-       "title": "Rompetrol targets 2028 startup for two refinery solar projects",
-       "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-08T17:53:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "innovation",
-        "generation"
-       ],
-       "via": null,
-       "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
-      }
-     ]
-    },
-    "emerging": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Bucharest secures €87 million for new battery-electric buses and trolleys",
-       "url": "https://www.electrive.com/2026/10/10/bucharest-secures-e87-million-for-new-battery-electric-buses-and-trolleys/",
-       "source": "electrive",
-       "published": "2026-10-10T09:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "electrive",
-         "url": "https://www.electrive.com/2026/10/10/bucharest-secures-e87-million-for-new-battery-electric-buses-and-trolleys/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Bucharest is receiving €87.44 million from the Modernisation Fund to renew its public transport fleet. According to Mayor Ciprian Ciucu, this will include the procurement of 40 electric buses and 45 new trolleybuses."
-      }
-     ]
-    }
-   }
-  },
-  "id": {
-   "label": "Indonesia",
-   "level": "country",
-   "sources": {
-    "geothermal": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Permitting and community work progressing for Rajabasa geothermal project in Lampung, Indonesia",
-       "url": "https://www.thinkgeoenergy.com/permitting-and-community-work-progressing-for-rajabasa-geothermal-project-in-lampung-indonesia/",
-       "source": "ThinkGeoEnergy",
-       "published": "2026-10-08T12:52:18.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ThinkGeoEnergy",
-         "url": "https://www.thinkgeoenergy.com/permitting-and-community-work-progressing-for-rajabasa-geothermal-project-in-lampung-indonesia/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Permitting and community engagement is progressing at the Rajabasa geothermal site in Lampung, Indonesia as developers aim to start construction work by 2027. The post Permitting and community work progressing for Rajabasa geothermal project in Lampung, Indonesia first appeared o"
-      }
-     ]
-    }
-   }
-  },
   "us-ma": {
    "label": "Massachusetts",
    "level": "admin1",
@@ -5428,6 +5133,296 @@
     }
    }
   },
+  "ru": {
+   "label": "Russia",
+   "level": "country",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Russian attacks kill at least 12 in Ukraine after Trump-Putin diesel deal",
+       "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-10T10:22:47.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine",
+         "primary": false
+        },
+        {
+         "name": "MercoPress",
+         "url": "https://en.mercopress.com/2026/10/09/trump-says-russia-will-supply-millions-of-tonnes-of-diesel-as-us-eases-sanctions-on-moscow?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
+         "primary": false
+        },
+        {
+         "name": "The Local Germany",
+         "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/trump-putin-russia-diesel-deal",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The strikes came a day after US President Donald Trump announced a deal to buy Russian diesel that Kyiv warned would help fund Moscow's war in Ukraine."
+      },
+      {
+       "title": "Zelenskyy furious as Trump announces deal to buy Russian diesel",
+       "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+       "source": "The Guardian Business",
+       "published": "2026-10-10T10:09:46.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+         "primary": false
+        },
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/10/trump-says-ukraine-should-get-a-new-president-as-he-blames-zelenskyy-for-us-diesel-prices/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "US president says agreement needed to lower fuel prices, but move likely to create fresh crisis with Ukraine and Nato allies Donald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years o"
+      },
+      {
+       "title": "'He better damn well stop' — Trump slams Zelensky for attacking Russian refineries, says Ukraine should get 'new president'",
+       "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T17:34:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "\"I think it's time for Ukraine to get a new president,\" U.S. President Donald Trump said when questioned about his deal to ease sanctions against Russia in exchange for diesel."
+      },
+      {
+       "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+       "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+       "source": "BBC News Business",
+       "published": "2026-10-10T14:24:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\"."
+      },
+      {
+       "title": "Trump says Russia to supply diesel to U.S. and global markets",
+       "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
+       "source": "The Japan Times",
+       "published": "2026-10-09T22:49:00.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
+         "primary": false
+        },
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/americas/trump-says-russia-to-supply-diesel-fuel-to-american-global-markets/4084012",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Prices for diesel are near a record and have put Trump's fellow Republicans at risk ahead of the Nov. 3 congressional elections."
+      },
+      {
+       "title": "Russian Attack on Ukrainian City Kills 20, a Day After Trump Eases Diesel Sanctions on Moscow",
+       "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
+       "source": "The Moscow Times",
+       "published": "2026-10-10T17:26:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Ukrainian President offered some of his sharpest criticism of Donald Trump after this week's third mass-casualty Russian attack."
+      },
+      {
+       "title": "Russia's Oil Product Exports Rise",
+       "url": "https://www.rigzone.com/news/wire/russias_oil_product_exports_rise-10-oct-2026-184813-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-10T12:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/russias_oil_product_exports_rise-10-oct-2026-184813-article/?rss=true",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Russia's oil product shipments climbed to a three-month high in September."
+      },
+      {
+       "title": "US-Russia energy deal opens up diesel can of worms",
+       "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
+       "source": "The National (UAE)",
+       "published": "2026-10-10T09:59:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "US President Donald Trump's announcement that Russia will be supplying diesel to global markets has opened up a can of worms, says analysts. Washington agreed to lift sanctions on the Kremlin in a bid to bring down energy prices, especially for diesel, which is vital to many econ"
+      },
+      {
+       "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
+       "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T03:22:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "ASTRA also reported damage to a residential building in Rostov-on-Don's Donskaya Sloboda complex, identifying its location through footage posted by residents. It remained unclear what struck the building amid reports of continued drone activity and Russian air defense operations"
+      },
+      {
+       "title": "Trump Says He Will Import Russian Diesel Fuel Amid High Prices",
+       "url": "https://www.nytimes.com/2026/10/09/us/politics/trump-russia-diesel-putin.html",
+       "source": "NYT Climate / Energy",
+       "published": "2026-10-10T03:09:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NYT Climate / Energy",
+         "url": "https://www.nytimes.com/2026/10/09/us/politics/trump-russia-diesel-putin.html",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "President Trump said Russia had agreed to ship potentially millions of tons of diesel fuel in the coming months. But the amounts would be small relative to global demand."
+      },
+      {
+       "title": "Germany Sticks to Russia Sanctions After Trump Diesel Announcement",
+       "url": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940",
+       "source": "The Moscow Times",
+       "published": "2026-10-10T11:26:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Trump said on Friday that Russia had agreed to supply diesel to the global market to ease fuel prices. Kyiv's allies are not supportive."
+      },
+      {
+       "title": "Rosneft Recruits Anti-Aircraft Gun Crews to Defend Samara Refinery Against Ukrainian Drones – Vyorstka",
+       "url": "https://www.themoscowtimes.com/2026/10/09/rosneft-recruits-anti-aircraft-gun-crews-to-defend-samara-refinery-against-ukrainian-drones-vyorstka-a93932",
+       "source": "The Moscow Times",
+       "published": "2026-10-09T13:09:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/09/rosneft-recruits-anti-aircraft-gun-crews-to-defend-samara-refinery-against-ukrainian-drones-vyorstka-a93932",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "The Kuibyshev refinery, on the Volga River, has been repeatedly targeted since Russia launched its full-scale invasion of Ukraine in 2022."
+      }
+     ]
+    },
+    "solar": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Solar emerges as an alternative to Nigeria’s unreliable grid {Business Africa}",
+       "url": "https://www.euronews.com/2026/10/08/solar-emerges-as-an-alternative-to-nigerias-unreliable-grid-business-africa",
+       "source": "Euronews Business",
+       "published": "2026-10-08T11:59:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/08/solar-emerges-as-an-alternative-to-nigerias-unreliable-grid-business-africa",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Nigeria’s Power Crisis Creates New Opportunity for Solar as Togo Deepens Russia Ties"
+      }
+     ]
+    }
+   }
+  },
   "at": {
    "label": "Austria",
    "level": "country",
@@ -5711,28 +5706,6 @@
    "label": "Mexico",
    "level": "country",
    "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Mexico Lifts Premium Gasoline Tax Relief to 71%",
-       "url": "https://www.riotimesonline.com/mexico-gasoline-tax-relief-2026/",
-       "source": "The Rio Times",
-       "published": "2026-10-10T07:27:56.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Rio Times",
-         "url": "https://www.riotimesonline.com/mexico-gasoline-tax-relief-2026/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Mexico's Finance Ministry lifted gasoline tax relief on premium fuel to 71% of the excise and kept diesel's excise at zero for 10 to 16 October. The post Mexico Lifts Premium Gasoline Tax Relief to 71% appeared first on The Rio Times ."
-      }
-     ]
-    },
     "gas": {
      "brief": "missing",
      "candidates": [
@@ -5896,23 +5869,6 @@
        "stages": [],
        "via": null,
        "blurb": "Shell Canada Energy, an affiliate of UK-headquartered energy giant Shell, has reached an agreement with Norway's Equinor to acquire a 30%..."
-      },
-      {
-       "title": "New UK gas and oil projects are a ‘no-brainer’, says EDF boss",
-       "url": "https://www.theguardian.com/business/2026/sep/30/uk-gas-and-oil-climate-crisis-energy-edf-boss",
-       "source": "The Guardian Energy",
-       "published": "2026-09-30T16:24:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/business/2026/sep/30/uk-gas-and-oil-climate-crisis-energy-edf-boss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Developing North Sea fields does not contradict net zero goals, according to Simone Rossi New oil and gas projects are a “no-brainer” that pose “no contradiction” to the net zero agenda, according to the head of EDF Energy. Simone Rossi has joined a string of renewables leaders i"
       },
       {
        "title": "How a multibillion-dollar oilfield has ignited the UK-Argentina feud over the Falklands",
@@ -6189,6 +6145,163 @@
        ],
        "via": null,
        "blurb": "Verlume, a UK-headquartered subsea batteries and power management systems specialist, has put its 500 kWh modular subsea energy storage system to..."
+      }
+     ]
+    }
+   }
+  },
+  "ro": {
+   "label": "Romania",
+   "level": "country",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Rompetrol targets 2028 startup for two refinery solar projects",
+       "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:53:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
+      }
+     ]
+    },
+    "wind": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Greenvolt secures $318m in financing for 253.1MW Romanian wind project",
+       "url": "https://www.power-technology.com/news/greenvolt-financing-253-1mw-romanian-wind/",
+       "source": "Power Technology",
+       "published": "2026-10-09T07:42:25.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Power Technology",
+         "url": "https://www.power-technology.com/news/greenvolt-financing-253-1mw-romanian-wind/",
+         "primary": false
+        },
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/onshore-wind/greenvolt-secures-financing-for-253mw-wind-farm/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Greenvolt Power, part of Greenvolt Group, has obtained €284m ($318m) in project financing for the 253.1MW wind farm in Gurbănești, located east of Bucharest, Romania."
+      }
+     ]
+    },
+    "solar": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Case study: Apartment solar? A novel approach from Bucharest",
+       "url": "https://www.renewableenergyworld.com/solar/residential/case-study-apartment-solar-a-novel-approach-from-bucharest/",
+       "source": "Hydro Review",
+       "published": "2026-10-09T10:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Hydro Review",
+         "url": "https://www.renewableenergyworld.com/solar/residential/case-study-apartment-solar-a-novel-approach-from-bucharest/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation",
+        "extraction"
+       ],
+       "via": null,
+       "blurb": "Romanian company PhotoVoltaic Windows SRL has discovered an intriguing application for photovoltaic glass in apartments: heating domestic water."
+      },
+      {
+       "title": "Rompetrol targets 2028 startup for two refinery solar projects",
+       "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:53:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
+      }
+     ]
+    },
+    "emerging": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Bucharest secures €87 million for new battery-electric buses and trolleys",
+       "url": "https://www.electrive.com/2026/10/10/bucharest-secures-e87-million-for-new-battery-electric-buses-and-trolleys/",
+       "source": "electrive",
+       "published": "2026-10-10T09:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "electrive",
+         "url": "https://www.electrive.com/2026/10/10/bucharest-secures-e87-million-for-new-battery-electric-buses-and-trolleys/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Bucharest is receiving €87.44 million from the Modernisation Fund to renew its public transport fleet. According to Mayor Ciprian Ciucu, this will include the procurement of 40 electric buses and 45 new trolleybuses."
+      }
+     ]
+    }
+   }
+  },
+  "id": {
+   "label": "Indonesia",
+   "level": "country",
+   "sources": {
+    "geothermal": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Permitting and community work progressing for Rajabasa geothermal project in Lampung, Indonesia",
+       "url": "https://www.thinkgeoenergy.com/permitting-and-community-work-progressing-for-rajabasa-geothermal-project-in-lampung-indonesia/",
+       "source": "ThinkGeoEnergy",
+       "published": "2026-10-08T12:52:18.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ThinkGeoEnergy",
+         "url": "https://www.thinkgeoenergy.com/permitting-and-community-work-progressing-for-rajabasa-geothermal-project-in-lampung-indonesia/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Permitting and community engagement is progressing at the Rajabasa geothermal site in Lampung, Indonesia as developers aim to start construction work by 2027. The post Permitting and community work progressing for Rajabasa geothermal project in Lampung, Indonesia first appeared o"
       }
      ]
     }
@@ -6666,82 +6779,6 @@
     }
    }
   },
-  "tr": {
-   "label": "Türkiye",
-   "level": "country",
-   "sources": {
-    "coal": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Australia and Turkey criticised for hosting UN climate conference while embracing coal",
-       "url": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
-       "source": "The Guardian Energy",
-       "published": "2026-10-04T14:00:32.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Global campaign group 350.org urges Cop31 hosts to announce a coal phase-out date and national roadmaps to get off fossil fuels Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here The hosts of the next major United Nations climate conference, T"
-      }
-     ]
-    },
-    "solar": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "PV Chart of the Week: Turkey boosts European module capacity growth",
-       "url": "https://www.pv-tech.org/pv-chart-of-the-week-turkey-boosts-european-module-capacity-growth/",
-       "source": "PV Tech",
-       "published": "2026-10-08T14:20:11.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/pv-chart-of-the-week-turkey-boosts-european-module-capacity-growth/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "This week's PV Chart of the Week looks at the breakdown in European solar cell and module capacity and production through 2026."
-      }
-     ]
-    },
-    "geothermal": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "DSG 2026 offers a new perspective on the future of geothermal energy",
-       "url": "https://www.thinkgeoenergy.com/dsg-2026-offers-a-new-perspective-on-the-future-of-geothermal-energy/",
-       "source": "ThinkGeoEnergy",
-       "published": "2026-10-08T16:19:56.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ThinkGeoEnergy",
-         "url": "https://www.thinkgeoenergy.com/dsg-2026-offers-a-new-perspective-on-the-future-of-geothermal-energy/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "In this interview, Dr. Zeynel Öztürk of Anadolu Innovation talks about the evolution of the geothermal sector and the DSG workshop recently held in Türkiye. The post DSG 2026 offers a new perspective on the future of geothermal energy first appeared on ThinkGeoEnergy - Geothermal"
-      }
-     ]
-    }
-   }
-  },
   "us-ca": {
    "label": "California",
    "level": "admin1",
@@ -6967,23 +7004,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Oil prices settle as Trump touts 'productive' talks with Iran",
-       "url": "https://www.ttnews.com/articles/oil-prices-trump-talks",
-       "source": "Transport Topics",
-       "published": "2026-10-09T14:54:04.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Transport Topics",
-         "url": "https://www.ttnews.com/articles/oil-prices-trump-talks",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Brent crude oil declined 0.4% to $103.89 a barrel. The drop in oil prices comes after stocks felt pressure on Oct. 8 from a 4.1% rise in the price for a barrel of Brent to more than $104."
-      },
-      {
        "title": "Oil Surges as Iran Tanker Attacks Escalate",
        "url": "https://www.rigzone.com/news/wire/oil_surges_as_iran_tanker_attacks_escalate-08-oct-2026-184807-article/?rss=true",
        "source": "Rigzone",
@@ -7006,6 +7026,23 @@
        ],
        "via": null,
        "blurb": "Crude posted its biggest gain in a month amid Middle East tensions and hurricane-related production cuts."
+      },
+      {
+       "title": "Oil prices settle as Trump touts 'productive' talks with Iran",
+       "url": "https://www.ttnews.com/articles/oil-prices-trump-talks",
+       "source": "Transport Topics",
+       "published": "2026-10-09T14:54:04.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/oil-prices-trump-talks",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Brent crude oil declined 0.4% to $103.89 a barrel. The drop in oil prices comes after stocks felt pressure on Oct. 8 from a 4.1% rise in the price for a barrel of Brent to more than $104."
       },
       {
        "title": "Gulf economies to shrink despite higher oil prices as Iran war takes toll, World Bank says",
@@ -7171,6 +7208,82 @@
        ],
        "via": null,
        "blurb": "Kinder Morgan is restoring natural gas shipments on its Tennessee Gas Pipeline Co. to Mexico after making repairs that triggered a force majeure earlier this week."
+      }
+     ]
+    }
+   }
+  },
+  "tr": {
+   "label": "Türkiye",
+   "level": "country",
+   "sources": {
+    "coal": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Australia and Turkey criticised for hosting UN climate conference while embracing coal",
+       "url": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
+       "source": "The Guardian Energy",
+       "published": "2026-10-04T14:00:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Global campaign group 350.org urges Cop31 hosts to announce a coal phase-out date and national roadmaps to get off fossil fuels Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here The hosts of the next major United Nations climate conference, T"
+      }
+     ]
+    },
+    "solar": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "PV Chart of the Week: Turkey boosts European module capacity growth",
+       "url": "https://www.pv-tech.org/pv-chart-of-the-week-turkey-boosts-european-module-capacity-growth/",
+       "source": "PV Tech",
+       "published": "2026-10-08T14:20:11.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/pv-chart-of-the-week-turkey-boosts-european-module-capacity-growth/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "This week's PV Chart of the Week looks at the breakdown in European solar cell and module capacity and production through 2026."
+      }
+     ]
+    },
+    "geothermal": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "DSG 2026 offers a new perspective on the future of geothermal energy",
+       "url": "https://www.thinkgeoenergy.com/dsg-2026-offers-a-new-perspective-on-the-future-of-geothermal-energy/",
+       "source": "ThinkGeoEnergy",
+       "published": "2026-10-08T16:19:56.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ThinkGeoEnergy",
+         "url": "https://www.thinkgeoenergy.com/dsg-2026-offers-a-new-perspective-on-the-future-of-geothermal-energy/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "innovation"
+       ],
+       "via": null,
+       "blurb": "In this interview, Dr. Zeynel Öztürk of Anadolu Innovation talks about the evolution of the geothermal sector and the DSG workshop recently held in Türkiye. The post DSG 2026 offers a new perspective on the future of geothermal energy first appeared on ThinkGeoEnergy - Geothermal"
       }
      ]
     }
@@ -7394,6 +7507,209 @@
        ],
        "via": null,
        "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
+      }
+     ]
+    }
+   }
+  },
+  "ua": {
+   "label": "Ukraine",
+   "level": "country",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Russian attacks kill at least 12 in Ukraine after Trump-Putin diesel deal",
+       "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-10T10:22:47.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine",
+         "primary": false
+        },
+        {
+         "name": "MercoPress",
+         "url": "https://en.mercopress.com/2026/10/09/trump-says-russia-will-supply-millions-of-tonnes-of-diesel-as-us-eases-sanctions-on-moscow?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
+         "primary": false
+        },
+        {
+         "name": "The Local Germany",
+         "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/trump-putin-russia-diesel-deal",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The strikes came a day after US President Donald Trump announced a deal to buy Russian diesel that Kyiv warned would help fund Moscow's war in Ukraine."
+      },
+      {
+       "title": "'He better damn well stop' — Trump slams Zelensky for attacking Russian refineries, says Ukraine should get 'new president'",
+       "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T17:34:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "extraction",
+        "generation"
+       ],
+       "via": null,
+       "blurb": "\"I think it's time for Ukraine to get a new president,\" U.S. President Donald Trump said when questioned about his deal to ease sanctions against Russia in exchange for diesel."
+      },
+      {
+       "title": "Russian Attack on Ukrainian City Kills 20, a Day After Trump Eases Diesel Sanctions on Moscow",
+       "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
+       "source": "The Moscow Times",
+       "published": "2026-10-10T17:26:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Ukrainian President offered some of his sharpest criticism of Donald Trump after this week's third mass-casualty Russian attack."
+      },
+      {
+       "title": "Zelenskyy furious as Trump announces deal to buy Russian diesel",
+       "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+       "source": "The Guardian Business",
+       "published": "2026-10-10T10:09:46.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+         "primary": false
+        },
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/10/trump-says-ukraine-should-get-a-new-president-as-he-blames-zelenskyy-for-us-diesel-prices/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "US president says agreement needed to lower fuel prices, but move likely to create fresh crisis with Ukraine and Nato allies Donald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years o"
+      },
+      {
+       "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+       "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+       "source": "BBC News Business",
+       "published": "2026-10-10T14:24:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BBC News Business",
+         "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\"."
+      },
+      {
+       "title": "Germany Sticks to Russia Sanctions After Trump Diesel Announcement",
+       "url": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940",
+       "source": "The Moscow Times",
+       "published": "2026-10-10T11:26:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Trump said on Friday that Russia had agreed to supply diesel to the global market to ease fuel prices. Kyiv's allies are not supportive."
+      },
+      {
+       "title": "Ukraine Says It Attacked 4th Russian Refinery This Week",
+       "url": "https://www.rigzone.com/news/wire/ukraine_says_it_attacked_4th_russian_refinery_this_week-09-oct-2026-184814-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-09T13:42:50.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/ukraine_says_it_attacked_4th_russian_refinery_this_week-09-oct-2026-184814-article/?rss=true",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Ukraine said it attacked Lukoil PJSC's Ukhta oil-processing plant, the fourth Russian refinery it's hit so far this week."
+      },
+      {
+       "title": "Rosneft Recruits Anti-Aircraft Gun Crews to Defend Samara Refinery Against Ukrainian Drones – Vyorstka",
+       "url": "https://www.themoscowtimes.com/2026/10/09/rosneft-recruits-anti-aircraft-gun-crews-to-defend-samara-refinery-against-ukrainian-drones-vyorstka-a93932",
+       "source": "The Moscow Times",
+       "published": "2026-10-09T13:09:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/09/rosneft-recruits-anti-aircraft-gun-crews-to-defend-samara-refinery-against-ukrainian-drones-vyorstka-a93932",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "The Kuibyshev refinery, on the Volga River, has been repeatedly targeted since Russia launched its full-scale invasion of Ukraine in 2022."
+      },
+      {
+       "title": "‘Obvious weakness’: Zelenskyy criticizes Trump-Putin diesel deal over lack of de-escalation",
+       "url": "https://www.aa.com.tr/en/eurasia/-obvious-weakness-zelenskyy-criticizes-trump-putin-diesel-deal-over-lack-of-de-escalation/4084075",
+       "source": "Anadolu Agency Economy",
+       "published": "2026-10-09T20:38:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/eurasia/-obvious-weakness-zelenskyy-criticizes-trump-putin-diesel-deal-over-lack-of-de-escalation/4084075",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Ukrainian president warns easing sanctions to allow Russian petroleum exports would prolong war"
       }
      ]
     }
@@ -7794,369 +8110,6 @@
     }
    }
   },
-  "pl": {
-   "label": "Poland",
-   "level": "country",
-   "sources": {
-    "nuclear": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Poland begins ordering long-lead components for first AP1000",
-       "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
-       "source": "World Nuclear News",
-       "published": "2026-10-08T16:16:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Polskie Elektrownie Jądrowe has commissioned Westinghouse to begin ordering long-lead items for the first unit of Poland's planned first nuclear power plant, which will comprise three AP1000 reactors."
-      }
-     ]
-    },
-    "wind": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "All Turbines Installed at Poland's First Offshore Wind Farm",
-       "url": "https://offshorewind.biz/2026/10/07/all-turbines-installed-at-polands-first-offshore-wind-farm",
-       "source": "offshoreWIND.biz",
-       "published": "2026-10-07T09:55:24.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "Northland Power (news release)",
-         "url": "https://northlandpower.com/northlands-baltic-power-offshore-wind-project-completes-installation-of-all-76-turbines/",
-         "primary": true
-        },
-        {
-         "name": "offshoreWIND.biz",
-         "url": "https://offshorewind.biz/2026/10/07/all-turbines-installed-at-polands-first-offshore-wind-farm",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "All 76 Vestas V236-15.0 MW turbines are in place at the Baltic Power offshore wind farm in Poland, jointly owned by Orlen and Northland Power...."
-      }
-     ]
-    },
-    "emerging": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "R.Power completes Jedwabno battery installation",
-       "url": "https://www.renews.biz/other-news/energy-storage/r-power-completes-jedwabno-battery-installation/",
-       "source": "reNEWS",
-       "published": "2026-10-08T09:00:10.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "reNEWS",
-         "url": "https://www.renews.biz/other-news/energy-storage/r-power-completes-jedwabno-battery-installation/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Polish 150MW energy storage project targets December 2026 energisation"
-      },
-      {
-       "title": "Actis buys 1.14GWh of BESS in Poland from DTEK’s DRI",
-       "url": "https://www.energy-storage.news/actis-buys-1-14gwh-of-bess-in-poland-from-dteks-dri/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-08T11:02:15.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/actis-buys-1-14gwh-of-bess-in-poland-from-dteks-dri/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Infrastructure investor Actis has entered the Polish energy storage market with the acquisition of two large-scale projects from DTEK's DRI, while R.Power and Solax have announced project updates in the country."
-      }
-     ]
-    }
-   }
-  },
-  "ru": {
-   "label": "Russia",
-   "level": "country",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Russian attacks kill at least 12 in Ukraine after Trump-Putin diesel deal",
-       "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-10T10:22:47.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
-         "primary": false
-        },
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/10/us-lifts-sanctions-on-daughter-of-military-linked-myanmar-tycoon?traffic_source=rss",
-         "primary": false
-        },
-        {
-         "name": "MercoPress",
-         "url": "https://en.mercopress.com/2026/10/09/trump-says-russia-will-supply-millions-of-tonnes-of-diesel-as-us-eases-sanctions-on-moscow?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/09/trump-says-us-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms/",
-         "primary": false
-        },
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
-         "primary": false
-        },
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/news/international/us-lifts-sanctions-on-sale-of-russian-diesel-in-global-markets/article71565823.ece",
-         "primary": false
-        },
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/us-sanctions-myanmar-businessman/",
-         "primary": false
-        },
-        {
-         "name": "The Local Germany",
-         "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
-         "primary": false
-        },
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
-         "primary": false
-        },
-        {
-         "name": "Transport Topics",
-         "url": "https://www.ttnews.com/articles/trump-putin-russia-diesel-deal",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The strikes came a day after US President Donald Trump announced a deal to buy Russian diesel that Kyiv warned would help fund Moscow's war in Ukraine."
-      },
-      {
-       "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
-       "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-10T03:22:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "ASTRA also reported damage to a residential building in Rostov-on-Don's Donskaya Sloboda complex, identifying its location through footage posted by residents. It remained unclear what struck the building amid reports of continued drone activity and Russian air defense operations"
-      },
-      {
-       "title": "Trump Says He Will Import Russian Diesel Fuel Amid High Prices",
-       "url": "https://www.nytimes.com/2026/10/09/us/politics/trump-russia-diesel-putin.html",
-       "source": "NYT Climate / Energy",
-       "published": "2026-10-10T03:09:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NYT Climate / Energy",
-         "url": "https://www.nytimes.com/2026/10/09/us/politics/trump-russia-diesel-putin.html",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "President Trump said Russia had agreed to ship potentially millions of tons of diesel fuel in the coming months. But the amounts would be small relative to global demand."
-      },
-      {
-       "title": "Germany Sticks to Russia Sanctions After Trump Diesel Announcement",
-       "url": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940",
-       "source": "The Moscow Times",
-       "published": "2026-10-10T11:26:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Trump said on Friday that Russia had agreed to supply diesel to the global market to ease fuel prices. Kyiv's allies are not supportive."
-      },
-      {
-       "title": "Rosneft Recruits Anti-Aircraft Gun Crews to Defend Samara Refinery Against Ukrainian Drones – Vyorstka",
-       "url": "https://www.themoscowtimes.com/2026/10/09/rosneft-recruits-anti-aircraft-gun-crews-to-defend-samara-refinery-against-ukrainian-drones-vyorstka-a93932",
-       "source": "The Moscow Times",
-       "published": "2026-10-09T13:09:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/09/rosneft-recruits-anti-aircraft-gun-crews-to-defend-samara-refinery-against-ukrainian-drones-vyorstka-a93932",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "The Kuibyshev refinery, on the Volga River, has been repeatedly targeted since Russia launched its full-scale invasion of Ukraine in 2022."
-      },
-      {
-       "title": "Ukraine Says It Attacked 4th Russian Refinery This Week",
-       "url": "https://www.rigzone.com/news/wire/ukraine_says_it_attacked_4th_russian_refinery_this_week-09-oct-2026-184814-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-09T13:42:50.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/ukraine_says_it_attacked_4th_russian_refinery_this_week-09-oct-2026-184814-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Ukraine said it attacked Lukoil PJSC's Ukhta oil-processing plant, the fourth Russian refinery it's hit so far this week."
-      },
-      {
-       "title": "India Shuns Costly Russian Oil",
-       "url": "https://www.rigzone.com/news/wire/india_shuns_costly_russian_oil-08-oct-2026-184802-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-08T13:46:29.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/india_shuns_costly_russian_oil-08-oct-2026-184802-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Indian refiners have cut back Russian crude purchases for November delivery."
-      },
-      {
-       "title": "U.K. Expands Sanctions to Cover 90% of Russian Oil Output, Shadow Fleet and Finance Networks",
-       "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
-       "source": "The Moscow Times",
-       "published": "2026-10-08T13:07:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "extraction"
-       ],
-       "via": null,
-       "blurb": "The sanctions come on the heels of the EU approving another sanctions package Wednesday."
-      },
-      {
-       "title": "Oil Slick Expands Near Sochi After Tanker Fire, Greenpeace Says",
-       "url": "https://www.themoscowtimes.com/2026/10/09/oil-slick-expands-near-sochi-after-tanker-fire-greenpeace-says-a93918",
-       "source": "The Moscow Times",
-       "published": "2026-10-09T08:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/09/oil-slick-expands-near-sochi-after-tanker-fire-greenpeace-says-a93918",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid",
-        "innovation"
-       ],
-       "via": null,
-       "blurb": "Authorities said tests found no oil contamination following a drone attack ignited a major blaze on an oil tanker."
-      }
-     ]
-    },
-    "solar": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Solar emerges as an alternative to Nigeria’s unreliable grid {Business Africa}",
-       "url": "https://www.euronews.com/2026/10/08/solar-emerges-as-an-alternative-to-nigerias-unreliable-grid-business-africa",
-       "source": "Euronews Business",
-       "published": "2026-10-08T11:59:57.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/08/solar-emerges-as-an-alternative-to-nigerias-unreliable-grid-business-africa",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Nigeria’s Power Crisis Creates New Opportunity for Solar as Togo Deepens Russia Ties"
-      }
-     ]
-    }
-   }
-  },
   "it": {
    "label": "Italy",
    "level": "country",
@@ -8298,149 +8251,6 @@
     }
    }
   },
-  "ua": {
-   "label": "Ukraine",
-   "level": "country",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Russian attacks kill at least 12 in Ukraine after Trump-Putin diesel deal",
-       "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-10T10:22:47.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
-         "primary": false
-        },
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/10/us-lifts-sanctions-on-daughter-of-military-linked-myanmar-tycoon?traffic_source=rss",
-         "primary": false
-        },
-        {
-         "name": "MercoPress",
-         "url": "https://en.mercopress.com/2026/10/09/trump-says-russia-will-supply-millions-of-tonnes-of-diesel-as-us-eases-sanctions-on-moscow?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/09/trump-says-us-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms/",
-         "primary": false
-        },
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
-         "primary": false
-        },
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/news/international/us-lifts-sanctions-on-sale-of-russian-diesel-in-global-markets/article71565823.ece",
-         "primary": false
-        },
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/us-sanctions-myanmar-businessman/",
-         "primary": false
-        },
-        {
-         "name": "The Local Germany",
-         "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
-         "primary": false
-        },
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
-         "primary": false
-        },
-        {
-         "name": "Transport Topics",
-         "url": "https://www.ttnews.com/articles/trump-putin-russia-diesel-deal",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The strikes came a day after US President Donald Trump announced a deal to buy Russian diesel that Kyiv warned would help fund Moscow's war in Ukraine."
-      },
-      {
-       "title": "Germany Sticks to Russia Sanctions After Trump Diesel Announcement",
-       "url": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940",
-       "source": "The Moscow Times",
-       "published": "2026-10-10T11:26:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Trump said on Friday that Russia had agreed to supply diesel to the global market to ease fuel prices. Kyiv's allies are not supportive."
-      },
-      {
-       "title": "Ukraine Says It Attacked 4th Russian Refinery This Week",
-       "url": "https://www.rigzone.com/news/wire/ukraine_says_it_attacked_4th_russian_refinery_this_week-09-oct-2026-184814-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-09T13:42:50.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/ukraine_says_it_attacked_4th_russian_refinery_this_week-09-oct-2026-184814-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Ukraine said it attacked Lukoil PJSC's Ukhta oil-processing plant, the fourth Russian refinery it's hit so far this week."
-      },
-      {
-       "title": "Rosneft Recruits Anti-Aircraft Gun Crews to Defend Samara Refinery Against Ukrainian Drones – Vyorstka",
-       "url": "https://www.themoscowtimes.com/2026/10/09/rosneft-recruits-anti-aircraft-gun-crews-to-defend-samara-refinery-against-ukrainian-drones-vyorstka-a93932",
-       "source": "The Moscow Times",
-       "published": "2026-10-09T13:09:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/09/rosneft-recruits-anti-aircraft-gun-crews-to-defend-samara-refinery-against-ukrainian-drones-vyorstka-a93932",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "The Kuibyshev refinery, on the Volga River, has been repeatedly targeted since Russia launched its full-scale invasion of Ukraine in 2022."
-      }
-     ]
-    }
-   }
-  },
   "ae": {
    "label": "United Arab Emirates",
    "level": "country",
@@ -8448,6 +8258,25 @@
     "oil": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "UAE National Guard rescues 22 people after oil tanker catches fire",
+       "url": "https://www.thenationalnews.com/news/uae/2026/10/10/uae-national-guard-rescues-22-people-after-oil-tanker-catches-fire/",
+       "source": "The National (UAE)",
+       "published": "2026-10-10T17:56:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/uae/2026/10/10/uae-national-guard-rescues-22-people-after-oil-tanker-catches-fire/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "The UAE National Guard's Coast Guard Division rescued 22 crew members after a fire broke out on an oil tanker in the Arabian Gulf. A specialised coast guard team responded to the crew's report of a fire and successfully located the tanker. The crew members were rescued, given fir"
+      },
       {
        "title": "Saudi, UAE Join Push for SE Asian Oil Reserves",
        "url": "https://www.rigzone.com/news/wire/saudi_uae_join_push_for_se_asian_oil_reserves-09-oct-2026-184808-article/?rss=true",
@@ -8466,6 +8295,179 @@
        ],
        "via": null,
        "blurb": "Saudi Arabia and the United Arab Emirates will support a Japanese initiative to bolster oil supplies in Southeast Asia after war-driven disruptions heightened concerns over energy security."
+      }
+     ]
+    }
+   }
+  },
+  "pl": {
+   "label": "Poland",
+   "level": "country",
+   "sources": {
+    "nuclear": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Poland begins ordering long-lead components for first AP1000",
+       "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
+       "source": "World Nuclear News",
+       "published": "2026-10-08T16:16:41.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/poland-begins-ordering-long-lead-components-for-first-ap1000",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Polskie Elektrownie Jądrowe has commissioned Westinghouse to begin ordering long-lead items for the first unit of Poland's planned first nuclear power plant, which will comprise three AP1000 reactors."
+      }
+     ]
+    },
+    "wind": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "All Turbines Installed at Poland's First Offshore Wind Farm",
+       "url": "https://offshorewind.biz/2026/10/07/all-turbines-installed-at-polands-first-offshore-wind-farm",
+       "source": "offshoreWIND.biz",
+       "published": "2026-10-07T09:55:24.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "Northland Power (news release)",
+         "url": "https://northlandpower.com/northlands-baltic-power-offshore-wind-project-completes-installation-of-all-76-turbines/",
+         "primary": true
+        },
+        {
+         "name": "offshoreWIND.biz",
+         "url": "https://offshorewind.biz/2026/10/07/all-turbines-installed-at-polands-first-offshore-wind-farm",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "All 76 Vestas V236-15.0 MW turbines are in place at the Baltic Power offshore wind farm in Poland, jointly owned by Orlen and Northland Power...."
+      }
+     ]
+    },
+    "emerging": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "R.Power completes Jedwabno battery installation",
+       "url": "https://www.renews.biz/other-news/energy-storage/r-power-completes-jedwabno-battery-installation/",
+       "source": "reNEWS",
+       "published": "2026-10-08T09:00:10.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "reNEWS",
+         "url": "https://www.renews.biz/other-news/energy-storage/r-power-completes-jedwabno-battery-installation/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Polish 150MW energy storage project targets December 2026 energisation"
+      },
+      {
+       "title": "Actis buys 1.14GWh of BESS in Poland from DTEK’s DRI",
+       "url": "https://www.energy-storage.news/actis-buys-1-14gwh-of-bess-in-poland-from-dteks-dri/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-08T11:02:15.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/actis-buys-1-14gwh-of-bess-in-poland-from-dteks-dri/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Infrastructure investor Actis has entered the Polish energy storage market with the acquisition of two large-scale projects from DTEK's DRI, while R.Power and Solax have announced project updates in the country."
+      }
+     ]
+    }
+   }
+  },
+  "ng": {
+   "label": "Nigeria",
+   "level": "country",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "2027: Makinde promises four-year transitional Government of National Unity if elected president",
+       "url": "https://www.premiumtimesng.com/news/headlines/916006-2027-makinde-promises-four-year-transitional-government-of-national-unity-if-elected-president.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-10T18:06:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/news/headlines/916006-2027-makinde-promises-four-year-transitional-government-of-national-unity-if-elected-president.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Makinde also challenged the federal government to publish its petroleum pricing template to enable Nigerians to understand how the prices of petroleum products are determined. The post 2027: Makinde promises four-year transitional Government of National Unity if elected president"
+      },
+      {
+       "title": "Nigeria: NNPC Petrol Discount Is Not Fuel Subsidy - Finance Minister",
+       "url": "https://allafrica.com/stories/202610090444.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T12:27:34.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090444.html",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "[Premium Times] According to the minister, NNPC Retail is absorbing the reduction from its profit margin, rather than relying on government funds to lower petrol prices."
+      }
+     ]
+    },
+    "solar": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Solar emerges as an alternative to Nigeria’s unreliable grid {Business Africa}",
+       "url": "https://www.euronews.com/2026/10/08/solar-emerges-as-an-alternative-to-nigerias-unreliable-grid-business-africa",
+       "source": "Euronews Business",
+       "published": "2026-10-08T11:59:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/08/solar-emerges-as-an-alternative-to-nigerias-unreliable-grid-business-africa",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Nigeria’s Power Crisis Creates New Opportunity for Solar as Togo Deepens Russia Ties"
       }
      ]
     }
@@ -8586,6 +8588,34 @@
        ],
        "via": null,
        "blurb": "Tata Power has partnered with Norway’s Ocean Sun to test membrane-based floating solar technology at its Maharashtra reservoir."
+      }
+     ]
+    }
+   }
+  },
+  "us-sc": {
+   "label": "South Carolina",
+   "level": "admin1",
+   "sources": {
+    "nuclear": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Eliminating Heat Risks in Nuclear Cleanup: A DOE Contractor’s High-Tech Blueprint",
+       "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-07T14:00:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-07/article-8457/eliminating-heat-risks-in-nuclear-cleanup-a-doe-contractors-hightech-blueprint/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "For organizations like the Savannah River Mission Completion (SRMC), a liquid waste contractor for the U.S. Department of Energy (DOE) Office of Environmental Management at the Savannah River Site (SRS) in Aiken, South Carolina, the summer season poses significant challenges for "
       }
      ]
     }
@@ -8825,23 +8855,6 @@
         {
          "name": "Dawn Business",
          "url": "https://www.dawn.com/news/2035954/govt-reduces-petrol-price-by-re066-per-litre-raises-high-speed-diesel-rate-by-re052",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "body{margin:0;padding:0;font-family:system-ui,-apple-system,sans-serif;overflow-wrap:anywhere;} Pakistan fuel prices, 2026 Official ex-depot prices (PKR/litre) — OGRA & Ministry of Energy notifications Petrol (MS-92) Diesel (HSD) Pre-crisis baseline Source: OGRA / Ministry of Ene"
-      },
-      {
-       "title": "Govt raises petrol price by Rs2.31 per litre, high-speed diesel rate by Re0.78 per litre",
-       "url": "https://www.dawn.com/news/2035716/govt-raises-petrol-price-by-rs231-per-litre-high-speed-diesel-rate-by-re078-per-litre",
-       "source": "Dawn Business",
-       "published": "2026-10-08T18:01:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2035716/govt-raises-petrol-price-by-rs231-per-litre-high-speed-diesel-rate-by-re078-per-litre",
          "primary": false
         }
        ],
@@ -9295,18 +9308,8 @@
        "verification": "multiple",
        "outlets": [
         {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
-         "primary": false
-        },
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/10/us-lifts-sanctions-on-daughter-of-military-linked-myanmar-tycoon?traffic_source=rss",
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine",
          "primary": false
         },
         {
@@ -9315,38 +9318,13 @@
          "primary": false
         },
         {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/09/trump-says-us-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms/",
-         "primary": false
-        },
-        {
          "name": "ABC News (Australia) Business",
          "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
          "primary": false
         },
         {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/news/international/us-lifts-sanctions-on-sale-of-russian-diesel-in-global-markets/article71565823.ece",
-         "primary": false
-        },
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/us-sanctions-myanmar-businessman/",
-         "primary": false
-        },
-        {
          "name": "The Local Germany",
          "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
-         "primary": false
-        },
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
          "primary": false
         },
         {
@@ -9363,6 +9341,23 @@
        "stages": [],
        "via": null,
        "blurb": "The strikes came a day after US President Donald Trump announced a deal to buy Russian diesel that Kyiv warned would help fund Moscow's war in Ukraine."
+      },
+      {
+       "title": "Russian Attack on Ukrainian City Kills 20, a Day After Trump Eases Diesel Sanctions on Moscow",
+       "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
+       "source": "The Moscow Times",
+       "published": "2026-10-10T17:26:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Ukrainian President offered some of his sharpest criticism of Donald Trump after this week's third mass-casualty Russian attack."
       }
      ]
     }
@@ -9383,18 +9378,8 @@
        "verification": "multiple",
        "outlets": [
         {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
-         "primary": false
-        },
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/10/us-lifts-sanctions-on-daughter-of-military-linked-myanmar-tycoon?traffic_source=rss",
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine",
          "primary": false
         },
         {
@@ -9403,38 +9388,13 @@
          "primary": false
         },
         {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/09/trump-says-us-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms/",
-         "primary": false
-        },
-        {
          "name": "ABC News (Australia) Business",
          "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
          "primary": false
         },
         {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/news/international/us-lifts-sanctions-on-sale-of-russian-diesel-in-global-markets/article71565823.ece",
-         "primary": false
-        },
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/us-sanctions-myanmar-businessman/",
-         "primary": false
-        },
-        {
          "name": "The Local Germany",
          "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
-         "primary": false
-        },
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
          "primary": false
         },
         {
@@ -9451,34 +9411,23 @@
        "stages": [],
        "via": null,
        "blurb": "The strikes came a day after US President Donald Trump announced a deal to buy Russian diesel that Kyiv warned would help fund Moscow's war in Ukraine."
-      }
-     ]
-    }
-   }
-  },
-  "ph": {
-   "label": "Philippines",
-   "level": "country",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
+      },
       {
-       "title": "Philippines, AZEC strengthen regional oil stockpiling push",
-       "url": "https://www.philstar.com/business/2026/10/10/2562070/philippines-azec-strengthen-regional-oil-stockpiling-push",
-       "source": "Philstar Business",
-       "published": "2026-10-09T16:00:00.000Z",
+       "title": "Russian Attack on Ukrainian City Kills 20, a Day After Trump Eases Diesel Sanctions on Moscow",
+       "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
+       "source": "The Moscow Times",
+       "published": "2026-10-10T17:26:05.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Philstar Business",
-         "url": "https://www.philstar.com/business/2026/10/10/2562070/philippines-azec-strengthen-regional-oil-stockpiling-push",
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Hormuz-dependent Philippines is helping advance the Asia Zero Emission Community (AZEC)’s push to strengthen oil stockpiling systems across the region."
+       "blurb": "The Ukrainian President offered some of his sharpest criticism of Donald Trump after this week's third mass-casualty Russian attack."
       }
      ]
     }
@@ -9594,18 +9543,8 @@
        "verification": "multiple",
        "outlets": [
         {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
-         "primary": false
-        },
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/10/us-lifts-sanctions-on-daughter-of-military-linked-myanmar-tycoon?traffic_source=rss",
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine",
          "primary": false
         },
         {
@@ -9614,38 +9553,13 @@
          "primary": false
         },
         {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/09/trump-says-us-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms/",
-         "primary": false
-        },
-        {
          "name": "ABC News (Australia) Business",
          "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
          "primary": false
         },
         {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/news/international/us-lifts-sanctions-on-sale-of-russian-diesel-in-global-markets/article71565823.ece",
-         "primary": false
-        },
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/us-sanctions-myanmar-businessman/",
-         "primary": false
-        },
-        {
          "name": "The Local Germany",
          "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
-         "primary": false
-        },
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
          "primary": false
         },
         {
@@ -9699,18 +9613,8 @@
        "verification": "multiple",
        "outlets": [
         {
-         "name": "BBC News Business",
-         "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
-         "primary": false
-        },
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/10/us-lifts-sanctions-on-daughter-of-military-linked-myanmar-tycoon?traffic_source=rss",
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine",
          "primary": false
         },
         {
@@ -9719,38 +9623,13 @@
          "primary": false
         },
         {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/09/trump-says-us-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms/",
-         "primary": false
-        },
-        {
          "name": "ABC News (Australia) Business",
          "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
          "primary": false
         },
         {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/news/international/us-lifts-sanctions-on-sale-of-russian-diesel-in-global-markets/article71565823.ece",
-         "primary": false
-        },
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/us-sanctions-myanmar-businessman/",
-         "primary": false
-        },
-        {
          "name": "The Local Germany",
          "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
-         "primary": false
-        },
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
          "primary": false
         },
         {

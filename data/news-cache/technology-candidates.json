@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T12:41:20.658Z",
+ "generatedAt": "2026-10-10T18:39:19.547Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -10,6 +10,23 @@
     "software": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "AI data-centre boom puts India’s power grid under pressure, drives up upgrade costs",
+       "url": "https://www.thehindu.com/business/Economy/ai-data-centre-boom-puts-indias-power-grid-under-pressure-drives-up-upgrade-costs/article71555736.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-10T13:41:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Economy/ai-data-centre-boom-puts-indias-power-grid-under-pressure-drives-up-upgrade-costs/article71555736.ece",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Electricity officials around India are grappling with the many ways Artificial Intelligence infrastructure is reshaping power transmission dynamics."
+      },
       {
        "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
        "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
@@ -140,21 +157,21 @@
        "blurb": "Uplink growth is real, but the capex discipline holds In sum – what we know: Deutsche Telekom does not expect AI-related mobile uplink demand to require incremental radio-access-network investment in…"
       },
       {
-       "title": "OE2027: youth housing guarantee stays, defence hits 2.15% of GDP, €1m for AI",
-       "url": "https://www.euronews.com/2026/10/08/oe2027-youth-housing-guarantee-stays-defence-hits-215-of-gdp-1m-for-ai",
+       "title": "Samsung flags 783% profit jump to record $80bn as AI chip boom also lifts TSMC sales",
+       "url": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
        "source": "Euronews Business",
-       "published": "2026-10-08T13:18:50.000Z",
+       "published": "2026-10-08T09:11:32.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/08/oe2027-youth-housing-guarantee-stays-defence-hits-215-of-gdp-1m-for-ai",
+         "url": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The government on Thursday submitted to parliament the 2027 state budget, projecting 2% growth and a surplus of 0.1–0.2% of GDP. Approval is assured, as the PS will abstain in the key vote."
+       "blurb": "Samsung Electronics estimated on Thursday that its third-quarter operating profit jumped almost ninefold to a record 107.4 trillion won, or $80.2 billion, while sales at Taiwan's TSMC hit a quarterly record, as the AI boom keeps demand for chips strong."
       },
       {
        "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
@@ -174,38 +191,21 @@
        "blurb": "George Williamson says ‘national resilience’ is key focus of ATI amid US and China’s runaway leadership in field The UK must not become dependent on foreign AI systems that can be switched off at short notice and must develop its own versions of the technology, according to the h"
       },
       {
-       "title": "Samsung flags 783% profit jump to record $80bn as AI chip boom also lifts TSMC sales",
-       "url": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
-       "source": "Euronews Business",
-       "published": "2026-10-08T09:11:32.000Z",
+       "title": "Pinoy startup joins Anthropic’s partner network",
+       "url": "https://www.philstar.com/business/2026/10/11/2562282/pinoy-startup-joins-anthropics-partner-network",
+       "source": "Philstar Business",
+       "published": "2026-10-10T16:00:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/business/2026/10/11/2562282/pinoy-startup-joins-anthropics-partner-network",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Samsung Electronics estimated on Thursday that its third-quarter operating profit jumped almost ninefold to a record 107.4 trillion won, or $80.2 billion, while sales at Taiwan's TSMC hit a quarterly record, as the AI boom keeps demand for chips strong."
-      },
-      {
-       "title": "Big bank defends offshoring of jobs at parliamentary inquiry into AI — as it happened",
-       "url": "https://www.abc.net.au/news/2026-10-09/asx-markets-business-live-news-9-october-2026/107246104",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T20:40:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-09/asx-markets-business-live-news-9-october-2026/107246104",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "ANZ, Westpac and NAB have given evidence about how they are using artificial intelligence. Look back at the day's financial news and insights in the business blog."
+       "blurb": "A Philippine digital startup has been selected as a network partner of Anthropic, the developer of artificial intelligence assistant Claude, to become the first in the country to do so."
       },
       {
        "title": "A $6 trillion question hangs over the AI construction boom",
@@ -230,6 +230,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Petra Power looks to modernize energy for data centers and defense vehicles",
+       "url": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/",
+       "source": "TechCrunch",
+       "published": "2026-10-10T17:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The startup says its fuel cells are super efficient and cut fuel costs during a time when the tech industry can’t get enough electricity."
+      },
+      {
        "title": "Ukraine war latest: Drones strike another Yandex data center in Russia",
        "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
        "source": "The Kyiv Independent",
@@ -252,23 +269,6 @@
        "blurb": "Key developments on October 09: Second Russian Yandex data center damaged by drone attack in two days, company says Twenty Russian officers killed in Ukrainian strikes on Donetsk, independent monitors claim Russia forcibly removes 25 Ukrainian civilians, including children, from "
       },
       {
-       "title": "Sponsored: Wärtsilä, Schneider Electric, and Stanley Consultants launch coordinated approach for faster US data center power delivery",
-       "url": "https://www.datacenterdynamics.com/en/product-news/w%C3%A4rtsil%C3%A4-schneider-electric-and-stanley-consultants-launch-coordinated-approach-for-faster-us-data-center-power-delivery/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-10T07:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/product-news/w%C3%A4rtsil%C3%A4-schneider-electric-and-stanley-consultants-launch-coordinated-approach-for-faster-us-data-center-power-delivery/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Coordinated 'generator-to-chip' approach integrates onsite generation, electrical infrastructure, and engineering to help data center customers streamline development and save time compared to traditional delivery models"
-      },
-      {
        "title": "Tasmanian EPA says it was not told extent of Firmus data centre generator plans",
        "url": "https://www.abc.net.au/news/2026-10-10/firmus-generators-epa-appeal-watchdog/107247476",
        "source": "ABC News (Australia) Business",
@@ -284,6 +284,23 @@
        "stages": [],
        "via": null,
        "blurb": "Tasmania's EPA is worried about the extent of AI data centre company Firmus's planned diesel generator use, saying it is much more than initially disclosed."
+      },
+      {
+       "title": "Sponsored: Wärtsilä, Schneider Electric, and Stanley Consultants launch coordinated approach for faster US data center power delivery",
+       "url": "https://www.datacenterdynamics.com/en/product-news/w%C3%A4rtsil%C3%A4-schneider-electric-and-stanley-consultants-launch-coordinated-approach-for-faster-us-data-center-power-delivery/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-10T07:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/product-news/w%C3%A4rtsil%C3%A4-schneider-electric-and-stanley-consultants-launch-coordinated-approach-for-faster-us-data-center-power-delivery/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Coordinated 'generator-to-chip' approach integrates onsite generation, electrical infrastructure, and engineering to help data center customers streamline development and save time compared to traditional delivery models"
       },
       {
        "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
@@ -420,23 +437,6 @@
        "stages": [],
        "via": null,
        "blurb": "Application unearthed by a local councilor who claimed details were hidden from scrutiny"
-      },
-      {
-       "title": "Hyperscaler Backs BKV’s 1.2 GW Natural Gas Power Push Near Dallas",
-       "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-09T12:56:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "BKV has locked in about 1,200 MW of natural gas-fired generation equipment with financial backing from an unnamed investment-grade hyperscaler, advancing the Barnett Shale producer’s push to sell power into the fast-growing Dallas-Fort Worth (DFW) market."
       }
      ]
     },
@@ -566,6 +566,23 @@
        "blurb": "Uplink growth is real, but the capex discipline holds In sum – what we know: Deutsche Telekom does not expect AI-related mobile uplink demand to require incremental radio-access-network investment in…"
       },
       {
+       "title": "Nokia campus sale nears as Hotard bets on industrial AI",
+       "url": "https://www.fierce-network.com/wireless/nokia-campus-networking-sale-nears-hotard-bets-industrial-ai",
+       "source": "Fierce Network",
+       "published": null,
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/wireless/nokia-campus-networking-sale-nears-hotard-bets-industrial-ai",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Nokia may soon name a buyer for its campus private networks unit as rivals gain share, but CEO Justin Hotard is betting on bigger money in industrial infrastructure."
+      },
+      {
        "title": "SpaceX: Grain's lowband spectrum is our ticket to becoming 'major mobile carrier'",
        "url": "https://www.lightreading.com/satellite/spacex-grain-s-lowband-spectrum-is-our-ticket-to-becoming-major-mobile-carrier-",
        "source": "Light Reading",
@@ -608,21 +625,21 @@
        "blurb": "SpaceX aims to fill the lowband gap in its hybrid satellite-terrestrial network plan by acquiring Grain's 800MHz spectrum. That may help it compete with AT&T, T-Mobile and Verizon, but analysts still say SpaceX needs an MVNO deal."
       },
       {
-       "title": "Nokia campus sale nears as Hotard bets on industrial AI",
-       "url": "https://www.fierce-network.com/wireless/nokia-campus-networking-sale-nears-hotard-bets-industrial-ai",
-       "source": "Fierce Network",
-       "published": null,
+       "title": "Globe’s cybersecurity chief steps down",
+       "url": "https://www.philstar.com/business/2026/10/11/2562270/globes-cybersecurity-chief-steps-down",
+       "source": "Philstar Business",
+       "published": "2026-10-10T16:00:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Fierce Network",
-         "url": "https://www.fierce-network.com/wireless/nokia-campus-networking-sale-nears-hotard-bets-industrial-ai",
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/business/2026/10/11/2562270/globes-cybersecurity-chief-steps-down",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Nokia may soon name a buyer for its campus private networks unit as rivals gain share, but CEO Justin Hotard is betting on bigger money in industrial infrastructure."
+       "blurb": "Telco-to-tech giant Globe Telecom Inc. lost its main cybersecurity leader, as he is stepping away not just from the company, but from the corporate sector."
       },
       {
        "title": "Vodafone raises cost savings target for UK unit to £1bn",
@@ -679,23 +696,6 @@
        "stages": [],
        "via": null,
        "blurb": "Arelion's 500-kilometer route from Amsterdam to London uses Nokia's 1830 Global Express (GX) Super C and Super L open line system, CHMQ6 thin transponder modules and ICE-X 400G and 800G ZR+ coherent pluggable optics. #pressrelease"
-      },
-      {
-       "title": "Starlink spectrum deal boosts Musk plan to beat AT&T, T-Mobile, and Verizon",
-       "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
-       "source": "Ars Technica",
-       "published": "2026-10-09T18:24:39.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Nationwide 800 MHz spectrum to help Starlink provide mobile coverage indoors."
       }
      ]
     },
@@ -720,6 +720,23 @@
        "blurb": "A study based on 88,000 consumer units participating in subscription-based solar generation schemes in Brazil has identified a 17% average monthly payment delinquency rate and 4% monthly customer churn. The findings highlight potential credit, liquidity and consumer protection ch"
       },
       {
+       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
+       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+       "source": "NASA News",
+       "published": "2026-10-08T19:40:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Editor’s note: This release was updated Oct. 8, 2026 with the formal name of the summit. NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are an"
+      },
+      {
        "title": "Seeing more, repairing smarter: How advanced NDE and repair technologies are changing nuclear asset management",
        "url": "https://www.ans.org/news/2026-10-09/article-8411/seeing-more-repairing-smarter-how-advanced-nde-and-repair-technologies-are-changing-nuclear-asset-management/",
        "source": "ANS Nuclear Newswire",
@@ -738,23 +755,6 @@
         "stage": "innovation"
        },
        "blurb": "A single ultrasonic inspection of reactor vessel upper head penetrations can generate more than 7 kilometers of inspection data. Historically, analysts have spent days—even weeks—reviewing those results to identify the few indications that might require further evaluation. In 202"
-      },
-      {
-       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
-       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-       "source": "NASA News",
-       "published": "2026-10-08T19:40:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Editor’s note: This release was updated Oct. 8, 2026 with the formal name of the summit. NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are an"
       },
       {
        "title": "Fermi America, Blue Energy make strides in Texas",
@@ -839,6 +839,23 @@
        "blurb": "Researchers at the University of Birmingham are leading a £6.2-million ($8.2-million) project to develop protein-based membranes that could make lithium extraction more selective and potentially less energy-intensive. The three-year initiative,... The post UK scientists turn to b"
       },
       {
+       "title": "NASA to Conduct Flyover, Engage NFL Fans at MetLife Stadium",
+       "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
+       "source": "NASA News",
+       "published": "2026-10-10T14:18:59.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "As part of the agency’s Inspiration Tour flyover, NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sunday, Oct. 11. NASA team members will engage with fans at the "
+      },
+      {
        "title": "Dangote taps EIL for Kenya grassroots refinery project",
        "url": "https://www.ogj.com/refining-processing/news/55410915/dangote-taps-eil-for-kenya-grassroots-refinery-project",
        "source": "Oil & Gas Journal",
@@ -857,6 +874,26 @@
         "stage": "innovation"
        },
        "blurb": "Engineers India Ltd. will oversee project management and engineering services for the proposed Lamu refinery, which will have a nameplate crude processing capacity of 700,000 b/d upon startup."
+      },
+      {
+       "title": "NRC reviews LAR on Palisades fuel loading incident, as Pioneer SMR application advances",
+       "url": "https://www.ans.org/news/2026-10-08/article-8474/nrc-reviews-lar-on-palisades-fuel-loading-incident-as-pioneer-smr-application-advances/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-08T21:18:22.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-08/article-8474/nrc-reviews-lar-on-palisades-fuel-loading-incident-as-pioneer-smr-application-advances/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "The Nuclear Regulatory Commission is reviewing a license amendment request (LAR) Holtec submitted in the aftermath of a fuel loading incident that has paused some of the restart work at the Palisades nuclear power plant in Covert, Mich."
       },
       {
        "title": "Wind power patents: Mingyang | Sinoma | Vestas | Enercon",
@@ -897,46 +934,6 @@
         "stage": "innovation"
        },
        "blurb": "A study by Chalmers University of Technology examines reconfigurable battery packs that can selectively bypass weaker cells. Under optimal conditions, this could extend the lifespan of batteries in certain high-voltage vehicles by more than 20 per cent."
-      },
-      {
-       "title": "Case study: Apartment solar? A novel approach from Bucharest",
-       "url": "https://www.renewableenergyworld.com/solar/residential/case-study-apartment-solar-a-novel-approach-from-bucharest/",
-       "source": "Hydro Review",
-       "published": "2026-10-09T10:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Hydro Review",
-         "url": "https://www.renewableenergyworld.com/solar/residential/case-study-apartment-solar-a-novel-approach-from-bucharest/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Romanian company PhotoVoltaic Windows SRL has discovered an intriguing application for photovoltaic glass in apartments: heating domestic water."
-      },
-      {
-       "title": "NRC reviews LAR on Palisades fuel loading incident, as Pioneer SMR application advances",
-       "url": "https://www.ans.org/news/2026-10-08/article-8474/nrc-reviews-lar-on-palisades-fuel-loading-incident-as-pioneer-smr-application-advances/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-08T21:18:22.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-08/article-8474/nrc-reviews-lar-on-palisades-fuel-loading-incident-as-pioneer-smr-application-advances/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "The Nuclear Regulatory Commission is reviewing a license amendment request (LAR) Holtec submitted in the aftermath of a fuel loading incident that has paused some of the restart work at the Palisades nuclear power plant in Covert, Mich."
       }
      ]
     },
@@ -995,23 +992,6 @@
        "blurb": "Seward & Kissel is staying put in the Financial District. The financial services law firm has renewed its 171,112-square-foot office lease for a term of 11 years with Rudin and Allianz Real Estate at One Battery Park Plaza, according to CBRE’s office report for the third quarter "
       },
       {
-       "title": "A $6 trillion question hangs over the AI construction boom",
-       "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
-       "source": "Construction Dive",
-       "published": "2026-10-08T13:24:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Construction Dive",
-         "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
-      },
-      {
        "title": "Tender – Framework agreement for geothermal consultancy at Grangegorman, Ireland",
        "url": "https://www.thinkgeoenergy.com/tender-framework-agreement-for-geothermal-consultancy-at-grangegorman-ireland/",
        "source": "ThinkGeoEnergy",
@@ -1027,6 +1007,23 @@
        "stages": [],
        "via": null,
        "blurb": "A tender has been announced for a single-party framework agreement for geothermal engineering consultancy services for the Grangegorman site in Ireland. The post Tender – Framework agreement for geothermal consultancy at Grangegorman, Ireland first appeared on ThinkGeoEnergy - Ge"
+      },
+      {
+       "title": "A $6 trillion question hangs over the AI construction boom",
+       "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
+       "source": "Construction Dive",
+       "published": "2026-10-08T13:24:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
       },
       {
        "title": "Studio Pietrangeli begins consultancy work on two Indian hydropower projects",
@@ -1085,38 +1082,21 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "After Torreón school attack, Sheinbaum presents decree on social media content for minors: Friday’s mañanera recapped",
-       "url": "https://mexiconewsdaily.com/politics/social-media-minors-decree-sheinbaum-october-9-mananera/",
-       "source": "Mexico News Daily",
-       "published": "2026-10-09T18:16:25.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mexico News Daily",
-         "url": "https://mexiconewsdaily.com/politics/social-media-minors-decree-sheinbaum-october-9-mananera/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Friday's press conference included news of a presidential order to limit minors' access to harmful social media content, a Civil Protection advisory for Hurricane Simon and the president's response to a deadly prison riot. The post After Torreón school attack, Sheinbaum presents "
-      },
-      {
-       "title": "Malawi: Minister Gangata Condemns Fake Social Media Posts in His Name",
-       "url": "https://allafrica.com/stories/202610090414.html",
+       "title": "Nigeria: Social Media Distraction Can Cause Road Crashes - FRSC Boss",
+       "url": "https://allafrica.com/stories/202610090448.html",
        "source": "AllAfrica Business",
-       "published": "2026-10-09T12:04:02.000Z",
+       "published": "2026-10-09T12:29:07.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610090414.html",
+         "url": "https://allafrica.com/stories/202610090448.html",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "[Nyasa Times] Sports Minister says impostor pages should face the full force of cyber laws, and calls on police and MACRA to unmask the person behind 'Chigona'"
+       "blurb": "[Vanguard] The Corps Marshal of the Federal Road Safety Corps, FRSC, Shehu Mohammed, has warned that distractions from social media, emotional distress and fatigue could endanger motorists and other road users, calling for greater attention to the link between mental wellbeing an"
       },
       {
        "title": "Journalists Go Behind Health Headlines From Georgia, Michigan, and Russia",
@@ -1260,6 +1240,23 @@
        "blurb": "Attacks targeting key industrial sites and unforced errors among leading AI companies are raising alarm bells."
       },
       {
+       "title": "Globe’s cybersecurity chief steps down",
+       "url": "https://www.philstar.com/business/2026/10/11/2562270/globes-cybersecurity-chief-steps-down",
+       "source": "Philstar Business",
+       "published": "2026-10-10T16:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/business/2026/10/11/2562270/globes-cybersecurity-chief-steps-down",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Telco-to-tech giant Globe Telecom Inc. lost its main cybersecurity leader, as he is stepping away not just from the company, but from the corporate sector."
+      },
+      {
        "title": "Ethiopia: Ethiopia to Observe Seventh National Cybersecurity Month",
        "url": "https://allafrica.com/stories/202610090601.html",
        "source": "AllAfrica Business",
@@ -1311,23 +1308,6 @@
        "blurb": "Student interest in AI safety is surging, and schools are rushing to prepare for new career paths."
       },
       {
-       "title": "Wi-Fi 8 – the defensive frontline for ISPs against AI-driven cyberattacks (Reader Forum)",
-       "url": "https://rcrwireless.com/20261009/opinion/wi-fi-8-defensive-frontline-isps-ai-cyberattacks-reader-forum",
-       "source": "RCR Wireless News",
-       "published": "2026-10-09T09:58:18.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "RCR Wireless News",
-         "url": "https://rcrwireless.com/20261009/opinion/wi-fi-8-defensive-frontline-isps-ai-cyberattacks-reader-forum",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Wi-Fi 8 could give ISPs a new line of defense against AI-driven cyberattacks, embedding inference hardware in residential gateways. Airties CEO Metin Taskin argues operators must pair next-generation chipsets with…"
-      },
-      {
        "title": "Basel Committee meets to advance supervisory and regulatory initiatives and discuss risks and vulnerabilities to the global banking system",
        "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
        "source": "Bank for International Settlements",
@@ -1343,6 +1323,23 @@
        "stages": [],
        "via": null,
        "blurb": "Exchanges experiences and views on developments in artificial intelligence for the global banking system and supervisors, modernisation efforts and implications for the Committee’s future work programme..."
+      },
+      {
+       "title": "Wi-Fi 8 – the defensive frontline for ISPs against AI-driven cyberattacks (Reader Forum)",
+       "url": "https://rcrwireless.com/20261009/opinion/wi-fi-8-defensive-frontline-isps-ai-cyberattacks-reader-forum",
+       "source": "RCR Wireless News",
+       "published": "2026-10-09T09:58:18.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "RCR Wireless News",
+         "url": "https://rcrwireless.com/20261009/opinion/wi-fi-8-defensive-frontline-isps-ai-cyberattacks-reader-forum",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Wi-Fi 8 could give ISPs a new line of defense against AI-driven cyberattacks, embedding inference hardware in residential gateways. Airties CEO Metin Taskin argues operators must pair next-generation chipsets with…"
       },
       {
        "title": "Watchdog to examine summertime hack of DHS information network, other incidents",
@@ -1394,23 +1391,6 @@
        "stages": [],
        "via": null,
        "blurb": "The tech giant’s announcement underscores the insufficiency of companies’ existing software supply chain security practices."
-      },
-      {
-       "title": "FBI removes Accenture contractor after missed security patch led to breach",
-       "url": "https://www.govexec.com/technology/2026/10/fbi-removes-accenture-contractor-after-missed-security-patch-led-breach/416446/",
-       "source": "Government Executive",
-       "published": "2026-10-06T20:29:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Government Executive",
-         "url": "https://www.govexec.com/technology/2026/10/fbi-removes-accenture-contractor-after-missed-security-patch-led-breach/416446/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The bureau’s cyber chief blamed a contractor’s failure to apply an available fix for an intrusion that may have exposed sensitive employee information."
       }
      ]
     }
@@ -1497,23 +1477,6 @@
        "blurb": "Oracle is considering using the same strategy in New Mexico, where a gas pipeline to help power one of its most crucial data centers is delayed and threatening the project’s timeline."
       },
       {
-       "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
-       "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
-       "source": "The Guardian Business",
-       "published": "2026-10-10T10:00:55.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "George Williamson says ‘national resilience’ is key focus of ATI amid US and China’s runaway leadership in field The UK must not become dependent on foreign AI systems that can be switched off at short notice and must develop its own versions of the technology, according to the h"
-      },
-      {
        "title": "A $6 trillion question hangs over the AI construction boom",
        "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
        "source": "Construction Dive",
@@ -1546,6 +1509,23 @@
        "stages": [],
        "via": null,
        "blurb": "From batteries and solar panels to drones and satellites, China is building tech capabilities that extend well beyond AI, writes Steve Feldstein in his new book, \"Bytes and Bullets: Global Rivalries, Big Tech, and the New Shape of Modern Warfare.\""
+      },
+      {
+       "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
+       "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+       "source": "The Guardian Business",
+       "published": "2026-10-10T10:00:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "George Williamson says ‘national resilience’ is key focus of ATI amid US and China’s runaway leadership in field The UK must not become dependent on foreign AI systems that can be switched off at short notice and must develop its own versions of the technology, according to the h"
       },
       {
        "title": "Using AI to mitigate the growing environmental threat of data centers",
@@ -1946,6 +1926,23 @@
        "blurb": "A project led by UC Irvine that aims to use AI to safely and efficiently identify geothermal resources has been selected by the US DOE for the Genesis Mission. The post US DOE selects AI-driven geothermal prospecting project for grant program first appeared on ThinkGeoEnergy - Ge"
       },
       {
+       "title": "NASA to Conduct Flyover, Engage NFL Fans at MetLife Stadium",
+       "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
+       "source": "NASA News",
+       "published": "2026-10-10T14:18:59.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "As part of the agency’s Inspiration Tour flyover, NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sunday, Oct. 11. NASA team members will engage with fans at the "
+      },
+      {
        "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
        "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
        "source": "POWER Magazine",
@@ -1988,26 +1985,6 @@
        "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
       },
       {
-       "title": "‘We Are Seen as Disposable’: Rural Residents Fight a Proposed Gas Pipeline",
-       "url": "https://kffhealthnews.org/rural-health/pipeline-natural-gas-rural-areas-risks-enbridge-north-carolina-research-triangle/",
-       "source": "KFF Health News",
-       "published": "2026-10-09T09:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "KFF Health News",
-         "url": "https://kffhealthnews.org/rural-health/pipeline-natural-gas-rural-areas-risks-enbridge-north-carolina-research-triangle/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Research shows natural gas pipelines — and the public health risks they carry — are concentrated in low-income and minority areas where people suffer higher rates of poverty and physical disabilities and have fewer means to respond to crises."
-      },
-      {
        "title": "DOE selects second round of hydropower projects for technical support, with modernization in mind",
        "url": "https://www.power-eng.com/renewables/hydropower/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
        "source": "Power Engineering",
@@ -2031,6 +2008,26 @@
         "stage": "innovation"
        },
        "blurb": "The U.S. Department of Energy's Hydropower and Hydrokinetic Office selected 14 hydropower projects for negotiations on vouchers for in-kind support."
+      },
+      {
+       "title": "‘We Are Seen as Disposable’: Rural Residents Fight a Proposed Gas Pipeline",
+       "url": "https://kffhealthnews.org/rural-health/pipeline-natural-gas-rural-areas-risks-enbridge-north-carolina-research-triangle/",
+       "source": "KFF Health News",
+       "published": "2026-10-09T09:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "KFF Health News",
+         "url": "https://kffhealthnews.org/rural-health/pipeline-natural-gas-rural-areas-risks-enbridge-north-carolina-research-triangle/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Research shows natural gas pipelines — and the public health risks they carry — are concentrated in low-income and minority areas where people suffer higher rates of poverty and physical disabilities and have fewer means to respond to crises."
       },
       {
        "title": "How a reluctant Iowa farming county undid a ban on battery storage",
@@ -2105,23 +2102,6 @@
        "stages": [],
        "via": null,
        "blurb": "Paige Greenberg, a packaging specialist at Plastic Ingenuity, discusses the company's plans for Pack Expo with PlasticsToday."
-      },
-      {
-       "title": "Clinical Trial Indicates A.I. Chatbots Could Aid Urgent Care",
-       "url": "https://www.nytimes.com/2026/10/08/technology/ai-chatbots-urgent-care.html",
-       "source": "NYT Technology",
-       "published": "2026-10-08T22:48:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "NYT Technology",
-         "url": "https://www.nytimes.com/2026/10/08/technology/ai-chatbots-urgent-care.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Nearly 100 patients discussed their maladies with a Google bot, called AMIE, before meeting with physicians."
       }
      ]
     },
@@ -2341,6 +2321,155 @@
        "stages": [],
        "via": null,
        "blurb": "The bureau’s cyber chief blamed a contractor’s failure to apply an available fix for an intrusion that may have exposed sensitive employee information."
+      }
+     ]
+    }
+   }
+  },
+  "in": {
+   "label": "India",
+   "level": "country",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "AI data-centre boom puts India’s power grid under pressure, drives up upgrade costs",
+       "url": "https://www.thehindu.com/business/Economy/ai-data-centre-boom-puts-indias-power-grid-under-pressure-drives-up-upgrade-costs/article71555736.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-10T13:41:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Economy/ai-data-centre-boom-puts-indias-power-grid-under-pressure-drives-up-upgrade-costs/article71555736.ece",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Electricity officials around India are grappling with the many ways Artificial Intelligence infrastructure is reshaping power transmission dynamics."
+      },
+      {
+       "title": "Religious, spiritual & astrology apps see nearly 30cr downloads in Jan-Sept",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/religious-spiritual-astrology-apps-see-nearly-30cr-downloads-in-jan-sept/articleshow/134842601.cms",
+       "source": "Times of India Business",
+       "published": "2026-10-09T20:54:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/religious-spiritual-astrology-apps-see-nearly-30cr-downloads-in-jan-sept/articleshow/134842601.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      }
+     ]
+    },
+    "telecom": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Elon Musk intensifies attack on Ambani over Starlink India launch delay",
+       "url": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
+       "source": "TechCrunch",
+       "published": "2026-10-10T03:10:06.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Industry/elon-musk-ups-ante-in-starlink-row-sarcastically-calls-ambani-prime-minister-alleges-monopoly/article71565795.ece",
+         "primary": false
+        },
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/india-rejects-monopoly-claim-after-musk-accuses-ambani-blocking-starlink-launch-6446291",
+         "primary": false
+        },
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
+         "primary": false
+        },
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/satellite/musk-names-ambani-in-starlink-row-as-india-rejects-bias-claims",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Elon Musk has accused Indian billionaire Mukesh Ambani of blocking competition."
+      }
+     ]
+    },
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Tata Power, Ocean Sun to pilot membrane-based floating solar technology in India",
+       "url": "https://www.pv-tech.org/tata-power-ocean-sun-to-pilot-membrane-based-floating-solar-technology-in-india/",
+       "source": "PV Tech",
+       "published": "2026-10-08T11:17:27.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/tata-power-ocean-sun-to-pilot-membrane-based-floating-solar-technology-in-india/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Tata Power has partnered with Norway’s Ocean Sun to test membrane-based floating solar technology at its Maharashtra reservoir."
+      },
+      {
+       "title": "Dangote taps EIL for Kenya grassroots refinery project",
+       "url": "https://www.ogj.com/refining-processing/news/55410915/dangote-taps-eil-for-kenya-grassroots-refinery-project",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-09T17:13:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/refining-processing/news/55410915/dangote-taps-eil-for-kenya-grassroots-refinery-project",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Engineers India Ltd. will oversee project management and engineering services for the proposed Lamu refinery, which will have a nameplate crude processing capacity of 700,000 b/d upon startup."
+      }
+     ]
+    },
+    "consulting": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Studio Pietrangeli begins consultancy work on two Indian hydropower projects",
+       "url": "https://www.waterpowermagazine.com/news/studio-pietrangeli-begins-consultancy-work-on-two-indian-hydropower-projects/",
+       "source": "International Water Power & Dam Construction",
+       "published": "2026-10-07T14:35:40.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "International Water Power & Dam Construction",
+         "url": "https://www.waterpowermagazine.com/news/studio-pietrangeli-begins-consultancy-work-on-two-indian-hydropower-projects/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Studio Pietrangeli has begun consultancy work on the proposed 24 MW Zungki and 42 MW Lower Tizu hydropower projects in Nagaland, India. The post Studio Pietrangeli begins consultancy work on two Indian hydropower projects appeared first on International Water Power ."
       }
      ]
     }
@@ -2777,57 +2906,6 @@
        "stages": [],
        "via": null,
        "blurb": "Oracle is considering using the same strategy in New Mexico, where a gas pipeline to help power one of its most crucial data centers is delayed and threatening the project’s timeline."
-      }
-     ]
-    }
-   }
-  },
-  "ro": {
-   "label": "Romania",
-   "level": "country",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Case study: Apartment solar? A novel approach from Bucharest",
-       "url": "https://www.renewableenergyworld.com/solar/residential/case-study-apartment-solar-a-novel-approach-from-bucharest/",
-       "source": "Hydro Review",
-       "published": "2026-10-09T10:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Hydro Review",
-         "url": "https://www.renewableenergyworld.com/solar/residential/case-study-apartment-solar-a-novel-approach-from-bucharest/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Romanian company PhotoVoltaic Windows SRL has discovered an intriguing application for photovoltaic glass in apartments: heating domestic water."
-      },
-      {
-       "title": "Rompetrol targets 2028 startup for two refinery solar projects",
-       "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-08T17:53:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
       }
      ]
     }
@@ -3290,6 +3368,57 @@
     }
    }
   },
+  "ro": {
+   "label": "Romania",
+   "level": "country",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Case study: Apartment solar? A novel approach from Bucharest",
+       "url": "https://www.renewableenergyworld.com/solar/residential/case-study-apartment-solar-a-novel-approach-from-bucharest/",
+       "source": "Hydro Review",
+       "published": "2026-10-09T10:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Hydro Review",
+         "url": "https://www.renewableenergyworld.com/solar/residential/case-study-apartment-solar-a-novel-approach-from-bucharest/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Romanian company PhotoVoltaic Windows SRL has discovered an intriguing application for photovoltaic glass in apartments: heating domestic water."
+      },
+      {
+       "title": "Rompetrol targets 2028 startup for two refinery solar projects",
+       "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-08T17:53:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/refining-processing/news/55410638/rompetrol-targets-2028-startup-for-two-refinery-solar-projects",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "The separate projects—both scheduled for startup by 2028—align with Rompetrol Rafinare's broader strategy to reduce carbon emissions and enhance energy independence through renewable energy investments in its Romanian operations."
+      }
+     ]
+    }
+   }
+  },
   "us-pa": {
    "label": "Pennsylvania",
    "level": "admin1",
@@ -3377,23 +3506,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Microsoft leans on open weight model from Chinese AI lab to challenge Jev",
-       "url": "https://www.theregister.com/ai-and-ml/2026/10/10/microsoft-leans-on-open-weight-model-from-chinese-ai-lab-to-challenge-jev/5302473",
-       "source": "The Register",
-       "published": "2026-10-10T07:10:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/ai-and-ml/2026/10/10/microsoft-leans-on-open-weight-model-from-chinese-ai-lab-to-challenge-jev/5302473",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The first version of Microsoft-Decision-1 is based on Qwen3.5-9B, but the next will sport homegrown tech, Redmond reassures"
-      },
-      {
        "title": "Not just AI. China is building technologies that challenge U.S. dominance",
        "url": "https://restofworld.org/2026/china-america-tech-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
        "source": "Rest of World",
@@ -3411,21 +3523,21 @@
        "blurb": "From batteries and solar panels to drones and satellites, China is building tech capabilities that extend well beyond AI, writes Steve Feldstein in his new book, \"Bytes and Bullets: Global Rivalries, Big Tech, and the New Shape of Modern Warfare.\""
       },
       {
-       "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
-       "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
-       "source": "The Guardian Business",
-       "published": "2026-10-10T10:00:55.000Z",
+       "title": "Microsoft leans on open weight model from Chinese AI lab to challenge Jev",
+       "url": "https://www.theregister.com/ai-and-ml/2026/10/10/microsoft-leans-on-open-weight-model-from-chinese-ai-lab-to-challenge-jev/5302473",
+       "source": "The Register",
+       "published": "2026-10-10T07:10:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+         "name": "The Register",
+         "url": "https://www.theregister.com/ai-and-ml/2026/10/10/microsoft-leans-on-open-weight-model-from-chinese-ai-lab-to-challenge-jev/5302473",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "George Williamson says ‘national resilience’ is key focus of ATI amid US and China’s runaway leadership in field The UK must not become dependent on foreign AI systems that can be switched off at short notice and must develop its own versions of the technology, according to the h"
+       "blurb": "The first version of Microsoft-Decision-1 is based on Qwen3.5-9B, but the next will sport homegrown tech, Redmond reassures"
       },
       {
        "title": "Alibaba’s AI cloud revenue set to surge over 50% as investment blitz pays off: analysts",
@@ -3443,6 +3555,23 @@
        "stages": [],
        "via": null,
        "blurb": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to analysts. Analysts across several financial institutions proje"
+      },
+      {
+       "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
+       "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+       "source": "The Guardian Business",
+       "published": "2026-10-10T10:00:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "George Williamson says ‘national resilience’ is key focus of ATI amid US and China’s runaway leadership in field The UK must not become dependent on foreign AI systems that can be switched off at short notice and must develop its own versions of the technology, according to the h"
       },
       {
        "title": "Amid battle for AI edge, Hong Kong presses HSBC over Singapore hub decision: sources",
@@ -3670,37 +3799,6 @@
     }
    }
   },
-  "tr": {
-   "label": "Türkiye",
-   "level": "country",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "DSG 2026 offers a new perspective on the future of geothermal energy",
-       "url": "https://www.thinkgeoenergy.com/dsg-2026-offers-a-new-perspective-on-the-future-of-geothermal-energy/",
-       "source": "ThinkGeoEnergy",
-       "published": "2026-10-08T16:19:56.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ThinkGeoEnergy",
-         "url": "https://www.thinkgeoenergy.com/dsg-2026-offers-a-new-perspective-on-the-future-of-geothermal-energy/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "In this interview, Dr. Zeynel Öztürk of Anadolu Innovation talks about the evolution of the geothermal sector and the DSG workshop recently held in Türkiye. The post DSG 2026 offers a new perspective on the future of geothermal energy first appeared on ThinkGeoEnergy - Geothermal"
-      }
-     ]
-    }
-   }
-  },
   "ke": {
    "label": "Kenya",
    "level": "country",
@@ -3727,138 +3825,6 @@
         "stage": "innovation"
        },
        "blurb": "Engineers India Ltd. will oversee project management and engineering services for the proposed Lamu refinery, which will have a nameplate crude processing capacity of 700,000 b/d upon startup."
-      }
-     ]
-    }
-   }
-  },
-  "in": {
-   "label": "India",
-   "level": "country",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Religious, spiritual & astrology apps see nearly 30cr downloads in Jan-Sept",
-       "url": "https://timesofindia.indiatimes.com/business/india-business/religious-spiritual-astrology-apps-see-nearly-30cr-downloads-in-jan-sept/articleshow/134842601.cms",
-       "source": "Times of India Business",
-       "published": "2026-10-09T20:54:57.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Times of India Business",
-         "url": "https://timesofindia.indiatimes.com/business/india-business/religious-spiritual-astrology-apps-see-nearly-30cr-downloads-in-jan-sept/articleshow/134842601.cms",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      }
-     ]
-    },
-    "telecom": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Elon Musk intensifies attack on Ambani over Starlink India launch delay",
-       "url": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
-       "source": "TechCrunch",
-       "published": "2026-10-10T03:10:06.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/elon-musk-ups-ante-in-starlink-row-sarcastically-calls-ambani-prime-minister-alleges-monopoly/article71565795.ece",
-         "primary": false
-        },
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/india-rejects-monopoly-claim-after-musk-accuses-ambani-blocking-starlink-launch-6446291",
-         "primary": false
-        },
-        {
-         "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
-         "primary": false
-        },
-        {
-         "name": "Light Reading",
-         "url": "https://www.lightreading.com/satellite/musk-names-ambani-in-starlink-row-as-india-rejects-bias-claims",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Elon Musk has accused Indian billionaire Mukesh Ambani of blocking competition."
-      }
-     ]
-    },
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Dangote taps EIL for Kenya grassroots refinery project",
-       "url": "https://www.ogj.com/refining-processing/news/55410915/dangote-taps-eil-for-kenya-grassroots-refinery-project",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-09T17:13:57.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/refining-processing/news/55410915/dangote-taps-eil-for-kenya-grassroots-refinery-project",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Engineers India Ltd. will oversee project management and engineering services for the proposed Lamu refinery, which will have a nameplate crude processing capacity of 700,000 b/d upon startup."
-      },
-      {
-       "title": "Tata Power, Ocean Sun to pilot membrane-based floating solar technology in India",
-       "url": "https://www.pv-tech.org/tata-power-ocean-sun-to-pilot-membrane-based-floating-solar-technology-in-india/",
-       "source": "PV Tech",
-       "published": "2026-10-08T11:17:27.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/tata-power-ocean-sun-to-pilot-membrane-based-floating-solar-technology-in-india/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Tata Power has partnered with Norway’s Ocean Sun to test membrane-based floating solar technology at its Maharashtra reservoir."
-      }
-     ]
-    },
-    "consulting": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Studio Pietrangeli begins consultancy work on two Indian hydropower projects",
-       "url": "https://www.waterpowermagazine.com/news/studio-pietrangeli-begins-consultancy-work-on-two-indian-hydropower-projects/",
-       "source": "International Water Power & Dam Construction",
-       "published": "2026-10-07T14:35:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "International Water Power & Dam Construction",
-         "url": "https://www.waterpowermagazine.com/news/studio-pietrangeli-begins-consultancy-work-on-two-indian-hydropower-projects/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Studio Pietrangeli has begun consultancy work on the proposed 24 MW Zungki and 42 MW Lower Tizu hydropower projects in Nagaland, India. The post Studio Pietrangeli begins consultancy work on two Indian hydropower projects appeared first on International Water Power ."
       }
      ]
     }
@@ -4037,6 +4003,37 @@
         "stage": "innovation"
        },
        "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
+      }
+     ]
+    }
+   }
+  },
+  "tr": {
+   "label": "Türkiye",
+   "level": "country",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "DSG 2026 offers a new perspective on the future of geothermal energy",
+       "url": "https://www.thinkgeoenergy.com/dsg-2026-offers-a-new-perspective-on-the-future-of-geothermal-energy/",
+       "source": "ThinkGeoEnergy",
+       "published": "2026-10-08T16:19:56.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ThinkGeoEnergy",
+         "url": "https://www.thinkgeoenergy.com/dsg-2026-offers-a-new-perspective-on-the-future-of-geothermal-energy/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "In this interview, Dr. Zeynel Öztürk of Anadolu Innovation talks about the evolution of the geothermal sector and the DSG workshop recently held in Türkiye. The post DSG 2026 offers a new perspective on the future of geothermal energy first appeared on ThinkGeoEnergy - Geothermal"
       }
      ]
     }
@@ -4258,23 +4255,6 @@
        "stages": [],
        "via": null,
        "blurb": "George Williamson says ‘national resilience’ is key focus of ATI amid US and China’s runaway leadership in field The UK must not become dependent on foreign AI systems that can be switched off at short notice and must develop its own versions of the technology, according to the h"
-      },
-      {
-       "title": "Lost generation: the AI threat to Britain’s next great directors",
-       "url": "https://www.theguardian.com/film/2026/oct/09/ai-threat-britain-directors-ridley-scott-guy-ritchie",
-       "source": "The Guardian Business",
-       "published": "2026-10-09T15:00:31.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/film/2026/oct/09/ai-threat-britain-directors-ridley-scott-guy-ritchie",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Commercials once launched careers from Ridley Scott to Guy Ritchie, now automated production is cutting costs – and the chance to learn by doing When Ridley Scott was awarded the UK’s highest accolade for a glittering career directing films from Alien and Blade Runner to Gladiato"
       },
       {
        "title": "Arelion, Nokia trial boosts optical capacity for AI traffic",
@@ -4507,6 +4487,90 @@
     }
    }
   },
+  "us-oh": {
+   "label": "Ohio",
+   "level": "admin1",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "NASA to Conduct Flyover, Engage NFL Fans at MetLife Stadium",
+       "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
+       "source": "NASA News",
+       "published": "2026-10-10T14:18:59.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "As part of the agency’s Inspiration Tour flyover, NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sunday, Oct. 11. NASA team members will engage with fans at the "
+      }
+     ]
+    }
+   }
+  },
+  "us-nj": {
+   "label": "New Jersey",
+   "level": "admin1",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "NASA to Conduct Flyover, Engage NFL Fans at MetLife Stadium",
+       "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
+       "source": "NASA News",
+       "published": "2026-10-10T14:18:59.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "As part of the agency’s Inspiration Tour flyover, NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sunday, Oct. 11. NASA team members will engage with fans at the "
+      }
+     ]
+    }
+   }
+  },
+  "us-city-cleveland": {
+   "label": "Cleveland",
+   "level": "city",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "NASA to Conduct Flyover, Engage NFL Fans at MetLife Stadium",
+       "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
+       "source": "NASA News",
+       "published": "2026-10-10T14:18:59.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "As part of the agency’s Inspiration Tour flyover, NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sunday, Oct. 11. NASA team members will engage with fans at the "
+      }
+     ]
+    }
+   }
+  },
   "sa": {
    "label": "Saudi Arabia",
    "level": "country",
@@ -4560,7 +4624,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Stylish upcycling, with a retro flare, at Spain's Museo de Historia de la Computación."
+       "blurb": "Stylish upcycling, with a retro flair, at Spain's Museo de Historia de la Computación."
       }
      ]
     },
@@ -4633,90 +4697,6 @@
        "stages": [],
        "via": null,
        "blurb": "New winner is Nguyen Nam Nhat of Vietnam for video of a roundworm and single-celled Dileptus."
-      }
-     ]
-    }
-   }
-  },
-  "us-ny": {
-   "label": "New York",
-   "level": "admin1",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
-       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-       "source": "Manufacturing Dive",
-       "published": "2026-10-08T16:03:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Manufacturing Dive",
-         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
-      }
-     ]
-    }
-   }
-  },
-  "us-nc": {
-   "label": "North Carolina",
-   "level": "admin1",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
-       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-       "source": "Manufacturing Dive",
-       "published": "2026-10-08T16:03:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Manufacturing Dive",
-         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
-      }
-     ]
-    }
-   }
-  },
-  "us-city-new-york": {
-   "label": "New York",
-   "level": "city",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
-       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-       "source": "Manufacturing Dive",
-       "published": "2026-10-08T16:03:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Manufacturing Dive",
-         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
       }
      ]
     }
@@ -5033,6 +5013,90 @@
     }
    }
   },
+  "us-ny": {
+   "label": "New York",
+   "level": "admin1",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
+       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+       "source": "Manufacturing Dive",
+       "published": "2026-10-08T16:03:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Manufacturing Dive",
+         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
+      }
+     ]
+    }
+   }
+  },
+  "us-nc": {
+   "label": "North Carolina",
+   "level": "admin1",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
+       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+       "source": "Manufacturing Dive",
+       "published": "2026-10-08T16:03:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Manufacturing Dive",
+         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
+      }
+     ]
+    }
+   }
+  },
+  "us-city-new-york": {
+   "label": "New York",
+   "level": "city",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
+       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+       "source": "Manufacturing Dive",
+       "published": "2026-10-08T16:03:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Manufacturing Dive",
+         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
+      }
+     ]
+    }
+   }
+  },
   "ua-dt": {
    "label": "Donets'k",
    "level": "admin1",
@@ -5259,6 +5323,34 @@
     }
    }
   },
+  "ng": {
+   "label": "Nigeria",
+   "level": "country",
+   "sources": {
+    "media": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Nigeria: Social Media Distraction Can Cause Road Crashes - FRSC Boss",
+       "url": "https://allafrica.com/stories/202610090448.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T12:29:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090448.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Vanguard] The Corps Marshal of the Federal Road Safety Corps, FRSC, Shehu Mohammed, has warned that distractions from social media, emotional distress and fatigue could endanger motorists and other road users, calling for greater attention to the link between mental wellbeing an"
+      }
+     ]
+    }
+   }
+  },
   "sg": {
    "label": "Singapore",
    "level": "country",
@@ -5424,6 +5516,78 @@
     }
    }
   },
+  "ph": {
+   "label": "Philippines",
+   "level": "country",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Pinoy startup joins Anthropic’s partner network",
+       "url": "https://www.philstar.com/business/2026/10/11/2562282/pinoy-startup-joins-anthropics-partner-network",
+       "source": "Philstar Business",
+       "published": "2026-10-10T16:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/business/2026/10/11/2562282/pinoy-startup-joins-anthropics-partner-network",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A Philippine digital startup has been selected as a network partner of Anthropic, the developer of artificial intelligence assistant Claude, to become the first in the country to do so."
+      }
+     ]
+    },
+    "telecom": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Globe’s cybersecurity chief steps down",
+       "url": "https://www.philstar.com/business/2026/10/11/2562270/globes-cybersecurity-chief-steps-down",
+       "source": "Philstar Business",
+       "published": "2026-10-10T16:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/business/2026/10/11/2562270/globes-cybersecurity-chief-steps-down",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Telco-to-tech giant Globe Telecom Inc. lost its main cybersecurity leader, as he is stepping away not just from the company, but from the corporate sector."
+      }
+     ]
+    },
+    "cyber": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Globe’s cybersecurity chief steps down",
+       "url": "https://www.philstar.com/business/2026/10/11/2562270/globes-cybersecurity-chief-steps-down",
+       "source": "Philstar Business",
+       "published": "2026-10-10T16:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/business/2026/10/11/2562270/globes-cybersecurity-chief-steps-down",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Telco-to-tech giant Globe Telecom Inc. lost its main cybersecurity leader, as he is stepping away not just from the company, but from the corporate sector."
+      }
+     ]
+    }
+   }
+  },
   "us-ga": {
    "label": "Georgia",
    "level": "admin1",
@@ -5512,28 +5676,6 @@
    "label": "Australia",
    "level": "country",
    "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Big bank defends offshoring of jobs at parliamentary inquiry into AI — as it happened",
-       "url": "https://www.abc.net.au/news/2026-10-09/asx-markets-business-live-news-9-october-2026/107246104",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T20:40:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-09/asx-markets-business-live-news-9-october-2026/107246104",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "ANZ, Westpac and NAB have given evidence about how they are using artificial intelligence. Look back at the day's financial news and insights in the business blog."
-      }
-     ]
-    },
     "cloud": {
      "brief": "missing",
      "candidates": [
@@ -5598,90 +5740,6 @@
        "stages": [],
        "via": null,
        "blurb": "Tasmania's EPA is worried about the extent of AI data centre company Firmus's planned diesel generator use, saying it is much more than initially disclosed."
-      }
-     ]
-    }
-   }
-  },
-  "mx": {
-   "label": "Mexico",
-   "level": "country",
-   "sources": {
-    "media": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "After Torreón school attack, Sheinbaum presents decree on social media content for minors: Friday’s mañanera recapped",
-       "url": "https://mexiconewsdaily.com/politics/social-media-minors-decree-sheinbaum-october-9-mananera/",
-       "source": "Mexico News Daily",
-       "published": "2026-10-09T18:16:25.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mexico News Daily",
-         "url": "https://mexiconewsdaily.com/politics/social-media-minors-decree-sheinbaum-october-9-mananera/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Friday's press conference included news of a presidential order to limit minors' access to harmful social media content, a Civil Protection advisory for Hurricane Simon and the president's response to a deadly prison riot. The post After Torreón school attack, Sheinbaum presents "
-      }
-     ]
-    }
-   }
-  },
-  "mx-co": {
-   "label": "Coahuila",
-   "level": "admin1",
-   "sources": {
-    "media": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "After Torreón school attack, Sheinbaum presents decree on social media content for minors: Friday’s mañanera recapped",
-       "url": "https://mexiconewsdaily.com/politics/social-media-minors-decree-sheinbaum-october-9-mananera/",
-       "source": "Mexico News Daily",
-       "published": "2026-10-09T18:16:25.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mexico News Daily",
-         "url": "https://mexiconewsdaily.com/politics/social-media-minors-decree-sheinbaum-october-9-mananera/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Friday's press conference included news of a presidential order to limit minors' access to harmful social media content, a Civil Protection advisory for Hurricane Simon and the president's response to a deadly prison riot. The post After Torreón school attack, Sheinbaum presents "
-      }
-     ]
-    }
-   }
-  },
-  "mx-city-torreon": {
-   "label": "Torreón",
-   "level": "city",
-   "sources": {
-    "media": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "After Torreón school attack, Sheinbaum presents decree on social media content for minors: Friday’s mañanera recapped",
-       "url": "https://mexiconewsdaily.com/politics/social-media-minors-decree-sheinbaum-october-9-mananera/",
-       "source": "Mexico News Daily",
-       "published": "2026-10-09T18:16:25.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mexico News Daily",
-         "url": "https://mexiconewsdaily.com/politics/social-media-minors-decree-sheinbaum-october-9-mananera/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Friday's press conference included news of a presidential order to limit minors' access to harmful social media content, a Civil Protection advisory for Hurricane Simon and the president's response to a deadly prison riot. The post After Torreón school attack, Sheinbaum presents "
       }
      ]
     }
@@ -5883,34 +5941,6 @@
     }
    }
   },
-  "mw": {
-   "label": "Malawi",
-   "level": "country",
-   "sources": {
-    "media": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Malawi: Minister Gangata Condemns Fake Social Media Posts in His Name",
-       "url": "https://allafrica.com/stories/202610090414.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-09T12:04:02.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610090414.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Nyasa Times] Sports Minister says impostor pages should face the full force of cyber laws, and calls on police and MACRA to unmask the person behind 'Chigona'"
-      }
-     ]
-    }
-   }
-  },
   "gr": {
    "label": "Greece",
    "level": "country",
@@ -5990,202 +6020,6 @@
        "stages": [],
        "via": null,
        "blurb": "Artificial intelligence could save around eight hours per air cargo shipment, by allowing truck dispatch and collection planning to begin before the traditional release-order trigger. At Aviation Connect in Athens last week, CHI Cargo Group CEO Kai Domscheit said the air cargo in"
-      }
-     ]
-    }
-   }
-  },
-  "iq": {
-   "label": "Iraq",
-   "level": "country",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Iraqi gov't reveals plans for five data centers",
-       "url": "https://www.datacenterdynamics.com/en/news/iraqi-govt-reveals-plans-for-five-data-centers/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-09T11:30:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/iraqi-govt-reveals-plans-for-five-data-centers/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "New facilities to be located in Baghdad, Basra, and Mosul"
-      }
-     ]
-    }
-   }
-  },
-  "iq-bg": {
-   "label": "Baghdad",
-   "level": "admin1",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Iraqi gov't reveals plans for five data centers",
-       "url": "https://www.datacenterdynamics.com/en/news/iraqi-govt-reveals-plans-for-five-data-centers/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-09T11:30:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/iraqi-govt-reveals-plans-for-five-data-centers/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "New facilities to be located in Baghdad, Basra, and Mosul"
-      }
-     ]
-    }
-   }
-  },
-  "iq-ba": {
-   "label": "Al-Basrah",
-   "level": "admin1",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Iraqi gov't reveals plans for five data centers",
-       "url": "https://www.datacenterdynamics.com/en/news/iraqi-govt-reveals-plans-for-five-data-centers/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-09T11:30:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/iraqi-govt-reveals-plans-for-five-data-centers/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "New facilities to be located in Baghdad, Basra, and Mosul"
-      }
-     ]
-    }
-   }
-  },
-  "iq-ni": {
-   "label": "Ninawa",
-   "level": "admin1",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Iraqi gov't reveals plans for five data centers",
-       "url": "https://www.datacenterdynamics.com/en/news/iraqi-govt-reveals-plans-for-five-data-centers/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-09T11:30:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/iraqi-govt-reveals-plans-for-five-data-centers/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "New facilities to be located in Baghdad, Basra, and Mosul"
-      }
-     ]
-    }
-   }
-  },
-  "iq-city-baghdad": {
-   "label": "Baghdad",
-   "level": "city",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Iraqi gov't reveals plans for five data centers",
-       "url": "https://www.datacenterdynamics.com/en/news/iraqi-govt-reveals-plans-for-five-data-centers/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-09T11:30:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/iraqi-govt-reveals-plans-for-five-data-centers/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "New facilities to be located in Baghdad, Basra, and Mosul"
-      }
-     ]
-    }
-   }
-  },
-  "iq-city-basra": {
-   "label": "Basra",
-   "level": "city",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Iraqi gov't reveals plans for five data centers",
-       "url": "https://www.datacenterdynamics.com/en/news/iraqi-govt-reveals-plans-for-five-data-centers/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-09T11:30:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/iraqi-govt-reveals-plans-for-five-data-centers/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "New facilities to be located in Baghdad, Basra, and Mosul"
-      }
-     ]
-    }
-   }
-  },
-  "iq-city-mosul": {
-   "label": "Mosul",
-   "level": "city",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Iraqi gov't reveals plans for five data centers",
-       "url": "https://www.datacenterdynamics.com/en/news/iraqi-govt-reveals-plans-for-five-data-centers/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-09T11:30:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/iraqi-govt-reveals-plans-for-five-data-centers/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "New facilities to be located in Baghdad, Basra, and Mosul"
       }
      ]
     }

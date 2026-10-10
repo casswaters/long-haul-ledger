@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T12:40:45.091Z",
+ "generatedAt": "2026-10-10T18:38:34.522Z",
  "sector": "materials",
  "maxAgeDays": 10,
  "places": {
@@ -10,6 +10,23 @@
     "crops": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Jerusalem Daily: Israeli settlers attack olive farmers",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-10T14:39:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Israeli settlers steal olives and attack Palestinian farmers during this year’s harvest."
+      },
       {
        "title": "FAA cracks down on illegal drone spraying with record $290K fine",
        "url": "https://www.farmprogress.com/tv-and-radio/faa-cracks-down-on-illegal-drone-spraying-with-record-290k-fine",
@@ -45,21 +62,38 @@
        "blurb": "Black Sea wheat exports are plunging at the height of the traditional shipping season as escalating attacks on commercial vessels and port infrastructure leave both Russia and Ukraine struggling to get their harvests to international markets. Fresh vessel-tracking data compiled b"
       },
       {
-       "title": "Agri output likely contracted in 3Q",
-       "url": "https://www.philstar.com/stock-commentary/2026/10/09/2562040/agri-output-likely-contracted-3q",
+       "title": "DALI may soon sell local agricultural produce",
+       "url": "https://www.philstar.com/business/2026/10/11/2562278/dali-may-soon-sell-local-agricultural-produce",
        "source": "Philstar Business",
-       "published": "2026-10-09T05:41:00.000Z",
+       "published": "2026-10-10T16:00:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Philstar Business",
-         "url": "https://www.philstar.com/stock-commentary/2026/10/09/2562040/agri-output-likely-contracted-3q",
+         "url": "https://www.philstar.com/business/2026/10/11/2562278/dali-may-soon-sell-local-agricultural-produce",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The DA expects agricultural output to have contracted in 3Q26 after expanding in 2Q26, with weakness potentially extending through 1Q27 as El Ni&ntilde;o intensifies."
+       "blurb": "The Department of Agriculture and DALI Everyday Grocery are exploring a partnership that could give Filipino farmers a direct and expanding market for their produce while opening greater opportunities for contract growing."
+      },
+      {
+       "title": "A farmer’s journey toward digitalization",
+       "url": "https://www.philstar.com/business/2026/10/11/2562281/farmers-journey-toward-digitalization",
+       "source": "Philstar Business",
+       "published": "2026-10-10T16:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/business/2026/10/11/2562281/farmers-journey-toward-digitalization",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Edgar Villanueva, a 55-year-old farmer from Kiblawan, Davao del Sur, strongly believed in traditional farming methods – practices honed through years of working the soil providing food for Filipinos."
       },
       {
        "title": "Farm Hands on the Potomac: Joel Leftwich joins Idealyst Innovation, ​Robert Haus goes to Vylor, General Mills names Dana McNabb as CEO",
@@ -527,23 +561,6 @@
        "blurb": "Endless weeks, shifts of up to 24 hours and even no drinking water: these were some of the hardships aired last week at a debate held by the EU Fisheries Committee with sector representatives."
       },
       {
-       "title": "Greece’s Seafood Problem Starts Elsewhere",
-       "url": "https://insideclimatenews.org/news/10102026/greece-seafood-problem-global-impact/",
-       "source": "Inside Climate News",
-       "published": "2026-10-10T09:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Inside Climate News",
-         "url": "https://insideclimatenews.org/news/10102026/greece-seafood-problem-global-impact/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "This story is part of an investigation conducted by an international team of journalists based at The Outlaw Ocean Project. Read the other stories here. In May, the Hellenic Aquaculture Producers Organization gathered in Athens to promote the industry as the future of sustainable"
-      },
-      {
        "title": "The fish behind America’s fish sticks is fuelling a fight over trawling in Alaska",
        "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/09/the-fish-behind-americas-fish-sticks-is-fuelling-a-fight-over-trawling-in-alaska/",
        "source": "BNN Bloomberg",
@@ -559,6 +576,23 @@
        "stages": [],
        "via": null,
        "blurb": "Alaska pollock is the second-largest fishery on Earth. It is the fish inside U.S. McDonald’s Filet-O-Fish sandwiches and is also turned into fish sticks and imitation crab. The fishery uses methods that it — and McDonald’s — say are aimed at minimizing environmental impacts, but "
+      },
+      {
+       "title": "Greece’s Seafood Problem Starts Elsewhere",
+       "url": "https://insideclimatenews.org/news/10102026/greece-seafood-problem-global-impact/",
+       "source": "Inside Climate News",
+       "published": "2026-10-10T09:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Inside Climate News",
+         "url": "https://insideclimatenews.org/news/10102026/greece-seafood-problem-global-impact/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "This story is part of an investigation conducted by an international team of journalists based at The Outlaw Ocean Project. Read the other stories here. In May, the Hellenic Aquaculture Producers Organization gathered in Athens to promote the industry as the future of sustainable"
       },
       {
        "title": "Specialty seafood, meat retailer exits Canada",
@@ -651,26 +685,24 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "SLB and TotalEnergies enter into 15-year digital drilling agreement",
-       "url": "https://offshore-energy.biz/2026/10/09/slb-and-totalenergies-enter-into-15-year-digital-drilling-agreement",
-       "source": "Offshore Energy",
-       "published": "2026-10-09T11:59:05.000Z",
-       "verification": "multiple",
+       "title": "'He better damn well stop' — Trump slams Zelensky for attacking Russian refineries, says Ukraine should get 'new president'",
+       "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T17:34:23.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Offshore Energy",
-         "url": "https://offshore-energy.biz/2026/10/09/slb-and-totalenergies-enter-into-15-year-digital-drilling-agreement",
-         "primary": false
-        },
-        {
-         "name": "Offshore Technology",
-         "url": "https://www.offshore-technology.com/news/slb-digital-drilling-contract-totalenergies/",
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
          "primary": false
         }
        ],
        "stages": [],
-       "via": null,
-       "blurb": "U.S.-headquartered energy technology company SLB has entered into a 15-year agreement with French energy giant TotalEnergies for the deployment..."
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "\"I think it's time for Ukraine to get a new president,\" U.S. President Donald Trump said when questioned about his deal to ease sanctions against Russia in exchange for diesel."
       },
       {
        "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
@@ -696,6 +728,28 @@
         "stage": "extraction"
        },
        "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
+      },
+      {
+       "title": "SLB and TotalEnergies enter into 15-year digital drilling agreement",
+       "url": "https://offshore-energy.biz/2026/10/09/slb-and-totalenergies-enter-into-15-year-digital-drilling-agreement",
+       "source": "Offshore Energy",
+       "published": "2026-10-09T11:59:05.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/09/slb-and-totalenergies-enter-into-15-year-digital-drilling-agreement",
+         "primary": false
+        },
+        {
+         "name": "Offshore Technology",
+         "url": "https://www.offshore-technology.com/news/slb-digital-drilling-contract-totalenergies/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "U.S.-headquartered energy technology company SLB has entered into a 15-year agreement with French energy giant TotalEnergies for the deployment..."
       },
       {
        "title": "Pacific Coast Energy Secures Agreements with PdVSA to Revive Oilfields",
@@ -738,26 +792,6 @@
        "blurb": "BKV has locked in about 1,200 MW of natural gas-fired generation equipment with financial backing from an unnamed investment-grade hyperscaler, advancing the Barnett Shale producer’s push to sell power into the fast-growing Dallas-Fort Worth (DFW) market."
       },
       {
-       "title": "Saudi, UAE Join Push for SE Asian Oil Reserves",
-       "url": "https://www.rigzone.com/news/wire/saudi_uae_join_push_for_se_asian_oil_reserves-09-oct-2026-184808-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-09T08:45:18.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/saudi_uae_join_push_for_se_asian_oil_reserves-09-oct-2026-184808-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "extraction"
-       },
-       "blurb": "Saudi Arabia and the United Arab Emirates will support a Japanese initiative to bolster oil supplies in Southeast Asia after war-driven disruptions heightened concerns over energy security."
-      },
-      {
        "title": "Posco completes second upstream lithium plant in Argentina",
        "url": "https://www.just-auto.com/news/posco-completes-second-upstream-lithium-plant-in-argentina/",
        "source": "Just Auto",
@@ -786,6 +820,26 @@
         "stage": "extraction"
        },
        "blurb": "Lithium carbonate production capacity at the site increased to 48,000 tons/year."
+      },
+      {
+       "title": "Saudi, UAE Join Push for SE Asian Oil Reserves",
+       "url": "https://www.rigzone.com/news/wire/saudi_uae_join_push_for_se_asian_oil_reserves-09-oct-2026-184808-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-09T08:45:18.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/saudi_uae_join_push_for_se_asian_oil_reserves-09-oct-2026-184808-article/?rss=true",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "Saudi Arabia and the United Arab Emirates will support a Japanese initiative to bolster oil supplies in Southeast Asia after war-driven disruptions heightened concerns over energy security."
       },
       {
        "title": "HyStock Completes Evaluation Drilling for Dutch Underground Hydrogen Storage Project",
@@ -825,26 +879,6 @@
        "blurb": "U.S. natural gas production hit an all-time high in July 2026, driven primarily by increased output in the Permian Basin, according to our latest Natural Gas Monthly."
       },
       {
-       "title": "U.K. Expands Sanctions to Cover 90% of Russian Oil Output, Shadow Fleet and Finance Networks",
-       "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
-       "source": "The Moscow Times",
-       "published": "2026-10-08T13:07:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "extraction"
-       },
-       "blurb": "The sanctions come on the heels of the EU approving another sanctions package Wednesday."
-      },
-      {
        "title": "US BLM sets December California oil, gas lease sale",
        "url": "https://www.ogj.com/general-interest/government/news/55409584/us-blm-sets-december-california-oil-gas-lease-sale",
        "source": "Oil & Gas Journal",
@@ -870,6 +904,26 @@
        "blurb": "A federal lease sale in California for oil and gas development has been announced, despite criticism from state officials over an environmental assessment."
       },
       {
+       "title": "U.K. Expands Sanctions to Cover 90% of Russian Oil Output, Shadow Fleet and Finance Networks",
+       "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T13:07:40.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "The sanctions come on the heels of the EU approving another sanctions package Wednesday."
+      },
+      {
        "title": "Fresh North Sea gas discovery yields up to 10 million barrels of oil equivalent",
        "url": "https://offshore-energy.biz/2026/10/08/fresh-north-sea-gas-discovery-yields-up-to-10-million-barrels-of-oil-equivalent",
        "source": "Offshore Energy",
@@ -888,26 +942,6 @@
         "stage": "extraction"
        },
        "blurb": "A routine sidetrack drilling operation in the North Sea has paid off for Equinor, yielding a fresh gas discovery."
-      },
-      {
-       "title": "Petrobras makes additional discovery offshore Amapá",
-       "url": "https://www.ogj.com/exploration-development/news/55409591/petrobras-makes-additional-discovery-offshore-amapa",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-05T17:21:38.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/exploration-development/news/55409591/petrobras-makes-additional-discovery-offshore-amapa",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "extraction"
-       },
-       "blurb": "The Morpho well, drilled in deep waters off Amapá, reached an oil-bearing interval, with ongoing analyses confirming good oil quality and promising further exploration opportunities in the Foz do Amazonas basin."
       }
      ]
     },
@@ -984,40 +1018,6 @@
        "stages": [],
        "via": null,
        "blurb": "CleanTech Lithium (LSE: CTL) has secured options to add two lithium brine properties in Argentina’s Salar de Antofalla, expanding its footprint near the flagship Laguna Verde project. The company signed... The post CleanTech Lithium expands foothold in Argentina appeared first on"
-      },
-      {
-       "title": "Canada keen to invest in mining, renewable energy sectors",
-       "url": "https://www.lusakatimes.com/2026/10/10/canada-keen-to-invest-in-mining-renewable-energy-sectors/",
-       "source": "Lusaka Times",
-       "published": "2026-10-10T06:10:12.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/10/canada-keen-to-invest-in-mining-renewable-energy-sectors/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Canada says it is keen to attract more Canadian investors to Zambia, particularly in the mining and renewable energy sectors, to complement local businesses and support the country’s development agenda. Canadian High Commissioner to Zambia, Corry Gaal, says her country is looking"
-      },
-      {
-       "title": "Halubono challenges Copper Queens to bounce back",
-       "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
-       "source": "Lusaka Times",
-       "published": "2026-10-10T06:07:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Copper Queens interim coach Charles Halubono has challenged his players to show more hunger and determination following their 2-1 defeat to Uganda in the first leg of the Los Angeles 2028 Olympic qualifiers. In a post-Match press conference in Kampala, Haalubono said the Zambian "
       },
       {
        "title": "FLSmidth secures $54m order for copper mine project in Chile",
@@ -1110,6 +1110,23 @@
        "blurb": "Of Quebec’s many active and planned critical mineral operations, its graphite sector could be the first to establish a complete mine-to-battery-material supply chain in the province. Nouveau Monde Graphite (NYSE:... The post Infographic: Can Quebec build Canada’s first graphite s"
       },
       {
+       "title": "Mushitala Secondary School receives water system",
+       "url": "https://www.lusakatimes.com/2026/10/10/mushitala-secondary-school-receives-water-system/",
+       "source": "Lusaka Times",
+       "published": "2026-10-10T13:37:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/10/mushitala-secondary-school-receives-water-system/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Tauro Mining has handed over a water system to Mushitala Secondary School in Solwezi District of North-Western Province drilled at a cost of K242,440 to provide clean and safe water to 1,680 learners at the school. Tauro Mining Marketing and Business Development Manager, Marriam "
+      },
+      {
        "title": "Hot Chili drills shallow copper, gold in Chile",
        "url": "https://www.northernminer.com/news/hot-chili-drills-shallow-copper-gold-in-chile/1003895627/",
        "source": "The Northern Miner",
@@ -1142,6 +1159,23 @@
        "stages": [],
        "via": null,
        "blurb": "Researchers at the University of Birmingham are leading a £6.2-million ($8.2-million) project to develop protein-based membranes that could make lithium extraction more selective and potentially less energy-intensive. The three-year initiative,... The post UK scientists turn to b"
+      },
+      {
+       "title": "Water, chemistry challenge Lithium Triangle growth",
+       "url": "https://www.northernminer.com/news/water-chemistry-challenge-lithium-triangle-growth/1003895641/",
+       "source": "The Northern Miner",
+       "published": "2026-10-09T20:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/water-chemistry-challenge-lithium-triangle-growth/1003895641/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Argentina, Bolivia and Chile hold about 43% of the world’s identified lithium resources, but differences in brine chemistry and water availability complicate efforts to turn the Lithium Triangle’s geological wealth... The post Water, chemistry challenge Lithium Triangle growth ap"
       }
      ]
     }
@@ -1340,6 +1374,51 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "'He better damn well stop' — Trump slams Zelensky for attacking Russian refineries, says Ukraine should get 'new president'",
+       "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T17:34:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "\"I think it's time for Ukraine to get a new president,\" U.S. President Donald Trump said when questioned about his deal to ease sanctions against Russia in exchange for diesel."
+      },
+      {
+       "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
+       "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
+       "source": "Argus Media",
+       "published": "2026-10-07T17:00:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "Marine Minerals Administration (BSEE newsroom), Oct. 6 shut-in report",
+         "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-activities-invest-92l",
+         "primary": true
+        },
+        {
+         "name": "Argus Media",
+         "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
+      },
+      {
        "title": "Hyperscaler Backs BKV’s 1.2 GW Natural Gas Power Push Near Dallas",
        "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
        "source": "Natural Gas Intelligence",
@@ -1380,31 +1459,6 @@
        "stages": [],
        "via": null,
        "blurb": "U.S.-headquartered energy technology company SLB has entered into a 15-year agreement with French energy giant TotalEnergies for the deployment..."
-      },
-      {
-       "title": "Tropical Storm Isaias shuts in about 25% of US Gulf offshore oil output and 16% of gas",
-       "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
-       "source": "Argus Media",
-       "published": "2026-10-07T17:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "Marine Minerals Administration (BSEE newsroom), Oct. 6 shut-in report",
-         "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-activities-invest-92l",
-         "primary": true
-        },
-        {
-         "name": "Argus Media",
-         "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2887918-us-gulf-operators-shut-in-output-before-storm-update",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "extraction"
-       },
-       "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
       },
       {
        "title": "U.S. natural gas production reached a record high in July 2026",
@@ -1457,23 +1511,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Halubono challenges Copper Queens to bounce back",
-       "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
-       "source": "Lusaka Times",
-       "published": "2026-10-10T06:07:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Copper Queens interim coach Charles Halubono has challenged his players to show more hunger and determination following their 2-1 defeat to Uganda in the first leg of the Los Angeles 2028 Olympic qualifiers. In a post-Match press conference in Kampala, Haalubono said the Zambian "
-      },
-      {
        "title": "Trump unveils plans to build $15B steel mill in Iowa",
        "url": "https://www.supplychaindive.com/news/trump-unveils-plans-to-build-15b-steel-mill-in-iowa/831654/",
        "source": "Supply Chain Dive",
@@ -1525,23 +1562,6 @@
        "blurb": "Magna Mining (TSX: NICU; US-OTC: MGMNF) has approved a $70-million (US$49 million) restart of its Levack nickel-copper mine near Sudbury, Ont., targeting commercial production by mid-2028. Thursday’s preliminary economic assessment... The post Levack restart puts Magna on two-min"
       },
       {
-       "title": "Wesdome eyes low-cost gold boost at Quebec’s Kiena",
-       "url": "https://www.northernminer.com/news/wesdome-eyes-low-cost-gold-boost-at-quebecs-kiena/1003895550/",
-       "source": "The Northern Miner",
-       "published": "2026-10-08T20:35:31.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/wesdome-eyes-low-cost-gold-boost-at-quebecs-kiena/1003895550/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Wesdome Gold Mines’ (TSX: WDO; US-OTC: WDOFF) Kiena mine in Val-d’Or, Que., could increase production by 10% to 15% without major new capital spending, while an aggressive drilling program is... The post Wesdome eyes low-cost gold boost at Quebec’s Kiena appeared first on The Nor"
-      },
-      {
        "title": "CTR restructures debt to advance Hell’s Kitchen geothermal and lithium project in California",
        "url": "https://www.thinkgeoenergy.com/ctr-restructures-debt-to-advance-hells-kitchen-geothermal-and-lithium-project-in-california/",
        "source": "ThinkGeoEnergy",
@@ -1557,6 +1577,23 @@
        "stages": [],
        "via": null,
        "blurb": "Controlled Thermal Resources is strengthening and simplifying its capital structure as it develops the Hell's Kitchen geothermal and lithium project. The post CTR restructures debt to advance Hell’s Kitchen geothermal and lithium project in California first appeared on ThinkGeoEn"
+      },
+      {
+       "title": "Wesdome eyes low-cost gold boost at Quebec’s Kiena",
+       "url": "https://www.northernminer.com/news/wesdome-eyes-low-cost-gold-boost-at-quebecs-kiena/1003895550/",
+       "source": "The Northern Miner",
+       "published": "2026-10-08T20:35:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/wesdome-eyes-low-cost-gold-boost-at-quebecs-kiena/1003895550/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Wesdome Gold Mines’ (TSX: WDO; US-OTC: WDOFF) Kiena mine in Val-d’Or, Que., could increase production by 10% to 15% without major new capital spending, while an aggressive drilling program is... The post Wesdome eyes low-cost gold boost at Quebec’s Kiena appeared first on The Nor"
       }
      ]
     }
@@ -1688,23 +1725,6 @@
        "stages": [],
        "via": null,
        "blurb": "Nearly half of Canada’s provinces and territories are calling on the federal Liberals to fulfil their election promise to expand eligibility for a mining exploration tax credit to help smaller mining companies get through their exploration phase."
-      },
-      {
-       "title": "Canada keen to invest in mining, renewable energy sectors",
-       "url": "https://www.lusakatimes.com/2026/10/10/canada-keen-to-invest-in-mining-renewable-energy-sectors/",
-       "source": "Lusaka Times",
-       "published": "2026-10-10T06:10:12.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/10/canada-keen-to-invest-in-mining-renewable-energy-sectors/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Canada says it is keen to attract more Canadian investors to Zambia, particularly in the mining and renewable energy sectors, to complement local businesses and support the country’s development agenda. Canadian High Commissioner to Zambia, Corry Gaal, says her country is looking"
       },
       {
        "title": "Infographic: Can Quebec build Canada’s first graphite supply chain?",
@@ -2223,23 +2243,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Halubono challenges Copper Queens to bounce back",
-       "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
-       "source": "Lusaka Times",
-       "published": "2026-10-10T06:07:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Copper Queens interim coach Charles Halubono has challenged his players to show more hunger and determination following their 2-1 defeat to Uganda in the first leg of the Los Angeles 2028 Olympic qualifiers. In a post-Match press conference in Kampala, Haalubono said the Zambian "
-      },
-      {
        "title": "CTR restructures debt to advance Hell’s Kitchen geothermal and lithium project in California",
        "url": "https://www.thinkgeoenergy.com/ctr-restructures-debt-to-advance-hells-kitchen-geothermal-and-lithium-project-in-california/",
        "source": "ThinkGeoEnergy",
@@ -2290,6 +2293,26 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "'He better damn well stop' — Trump slams Zelensky for attacking Russian refineries, says Ukraine should get 'new president'",
+       "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T17:34:23.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "\"I think it's time for Ukraine to get a new president,\" U.S. President Donald Trump said when questioned about his deal to ease sanctions against Russia in exchange for diesel."
+      },
+      {
        "title": "U.K. Expands Sanctions to Cover 90% of Russian Oil Output, Shadow Fleet and Finance Networks",
        "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
        "source": "The Moscow Times",
@@ -2338,82 +2361,29 @@
        "blurb": "Black Sea wheat exports are plunging at the height of the traditional shipping season as escalating attacks on commercial vessels and port infrastructure leave both Russia and Ukraine struggling to get their harvests to international markets. Fresh vessel-tracking data compiled b"
       }
      ]
-    }
-   }
-  },
-  "us-ia": {
-   "label": "Iowa",
-   "level": "admin1",
-   "sources": {
-    "crops": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "How a reluctant Iowa farming county undid a ban on battery storage",
-       "url": "https://www.canarymedia.com/articles/food-and-farms/iowa-farm-county-battery-storage",
-       "source": "Canary Media",
-       "published": "2026-10-08T07:30:00.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Canary Media",
-         "url": "https://www.canarymedia.com/articles/food-and-farms/iowa-farm-county-battery-storage",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The soil in northwest Iowa is so fertile it’s referred to as “black gold.” “It’s incredibly rich, wonderful topsoil from thousands of years of silty deposits from the Missouri River,” said Luke Seaberg, a researcher at Iowa State University’s extension program. So rich that some "
-      }
-     ]
     },
-    "mining": {
+    "oilgas": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Trump unveils plans to build $15B steel mill in Iowa",
-       "url": "https://www.supplychaindive.com/news/trump-unveils-plans-to-build-15b-steel-mill-in-iowa/831654/",
-       "source": "Supply Chain Dive",
-       "published": "2026-10-08T14:51:04.000Z",
+       "title": "'He better damn well stop' — Trump slams Zelensky for attacking Russian refineries, says Ukraine should get 'new president'",
+       "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T17:34:23.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Supply Chain Dive",
-         "url": "https://www.supplychaindive.com/news/trump-unveils-plans-to-build-15b-steel-mill-in-iowa/831654/",
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
          "primary": false
         }
        ],
        "stages": [],
-       "via": null,
-       "blurb": "Mesabi Metallics’ steel facility will be the largest in the U.S., creating 1,750 jobs and adding 10 million tons of annual production capacity. The company is also investing $3 billion to complete an iron ore mine in Minnesota."
-      }
-     ]
-    }
-   }
-  },
-  "us-mn": {
-   "label": "Minnesota",
-   "level": "admin1",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Trump unveils plans to build $15B steel mill in Iowa",
-       "url": "https://www.supplychaindive.com/news/trump-unveils-plans-to-build-15b-steel-mill-in-iowa/831654/",
-       "source": "Supply Chain Dive",
-       "published": "2026-10-08T14:51:04.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Supply Chain Dive",
-         "url": "https://www.supplychaindive.com/news/trump-unveils-plans-to-build-15b-steel-mill-in-iowa/831654/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Mesabi Metallics’ steel facility will be the largest in the U.S., creating 1,750 jobs and adding 10 million tons of annual production capacity. The company is also investing $3 billion to complete an iron ore mine in Minnesota."
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "\"I think it's time for Ukraine to get a new president,\" U.S. President Donald Trump said when questioned about his deal to ease sanctions against Russia in exchange for diesel."
       }
      ]
     }
@@ -2512,51 +2482,6 @@
     }
    }
   },
-  "zm": {
-   "label": "Zambia",
-   "level": "country",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Canada keen to invest in mining, renewable energy sectors",
-       "url": "https://www.lusakatimes.com/2026/10/10/canada-keen-to-invest-in-mining-renewable-energy-sectors/",
-       "source": "Lusaka Times",
-       "published": "2026-10-10T06:10:12.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/10/canada-keen-to-invest-in-mining-renewable-energy-sectors/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Canada says it is keen to attract more Canadian investors to Zambia, particularly in the mining and renewable energy sectors, to complement local businesses and support the country’s development agenda. Canadian High Commissioner to Zambia, Corry Gaal, says her country is looking"
-      },
-      {
-       "title": "Halubono challenges Copper Queens to bounce back",
-       "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
-       "source": "Lusaka Times",
-       "published": "2026-10-10T06:07:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Copper Queens interim coach Charles Halubono has challenged his players to show more hunger and determination following their 2-1 defeat to Uganda in the first leg of the Los Angeles 2028 Olympic qualifiers. In a post-Match press conference in Kampala, Haalubono said the Zambian "
-      }
-     ]
-    }
-   }
-  },
   "pk": {
    "label": "Pakistan",
    "level": "country",
@@ -2580,6 +2505,84 @@
        "stages": [],
        "via": null,
        "blurb": "ISLAMABAD: The Federal Board of Revenue (FBR) has issued new rules allowing duty- and tax-free imports of live cattle, sheep, and goats for fattening and subsequent export, either as live animals or as processed meat. The facility is offered under a new scheme to facilitate expor"
+      }
+     ]
+    }
+   }
+  },
+  "us-ia": {
+   "label": "Iowa",
+   "level": "admin1",
+   "sources": {
+    "crops": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "How a reluctant Iowa farming county undid a ban on battery storage",
+       "url": "https://www.canarymedia.com/articles/food-and-farms/iowa-farm-county-battery-storage",
+       "source": "Canary Media",
+       "published": "2026-10-08T07:30:00.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Canary Media",
+         "url": "https://www.canarymedia.com/articles/food-and-farms/iowa-farm-county-battery-storage",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The soil in northwest Iowa is so fertile it’s referred to as “black gold.” “It’s incredibly rich, wonderful topsoil from thousands of years of silty deposits from the Missouri River,” said Luke Seaberg, a researcher at Iowa State University’s extension program. So rich that some "
+      }
+     ]
+    },
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Trump unveils plans to build $15B steel mill in Iowa",
+       "url": "https://www.supplychaindive.com/news/trump-unveils-plans-to-build-15b-steel-mill-in-iowa/831654/",
+       "source": "Supply Chain Dive",
+       "published": "2026-10-08T14:51:04.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Supply Chain Dive",
+         "url": "https://www.supplychaindive.com/news/trump-unveils-plans-to-build-15b-steel-mill-in-iowa/831654/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Mesabi Metallics’ steel facility will be the largest in the U.S., creating 1,750 jobs and adding 10 million tons of annual production capacity. The company is also investing $3 billion to complete an iron ore mine in Minnesota."
+      }
+     ]
+    }
+   }
+  },
+  "us-mn": {
+   "label": "Minnesota",
+   "level": "admin1",
+   "sources": {
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Trump unveils plans to build $15B steel mill in Iowa",
+       "url": "https://www.supplychaindive.com/news/trump-unveils-plans-to-build-15b-steel-mill-in-iowa/831654/",
+       "source": "Supply Chain Dive",
+       "published": "2026-10-08T14:51:04.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Supply Chain Dive",
+         "url": "https://www.supplychaindive.com/news/trump-unveils-plans-to-build-15b-steel-mill-in-iowa/831654/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Mesabi Metallics’ steel facility will be the largest in the U.S., creating 1,750 jobs and adding 10 million tons of annual production capacity. The company is also investing $3 billion to complete an iron ore mine in Minnesota."
       }
      ]
     }
@@ -3066,113 +3069,29 @@
     }
    }
   },
-  "ug": {
-   "label": "Uganda",
+  "zm": {
+   "label": "Zambia",
    "level": "country",
    "sources": {
     "mining": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Halubono challenges Copper Queens to bounce back",
-       "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
+       "title": "Mushitala Secondary School receives water system",
+       "url": "https://www.lusakatimes.com/2026/10/10/mushitala-secondary-school-receives-water-system/",
        "source": "Lusaka Times",
-       "published": "2026-10-10T06:07:35.000Z",
+       "published": "2026-10-10T13:37:09.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
+         "url": "https://www.lusakatimes.com/2026/10/10/mushitala-secondary-school-receives-water-system/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Copper Queens interim coach Charles Halubono has challenged his players to show more hunger and determination following their 2-1 defeat to Uganda in the first leg of the Los Angeles 2028 Olympic qualifiers. In a post-Match press conference in Kampala, Haalubono said the Zambian "
-      }
-     ]
-    }
-   }
-  },
-  "ug-km": {
-   "label": "Kampala",
-   "level": "admin1",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Halubono challenges Copper Queens to bounce back",
-       "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
-       "source": "Lusaka Times",
-       "published": "2026-10-10T06:07:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Copper Queens interim coach Charles Halubono has challenged his players to show more hunger and determination following their 2-1 defeat to Uganda in the first leg of the Los Angeles 2028 Olympic qualifiers. In a post-Match press conference in Kampala, Haalubono said the Zambian "
-      }
-     ]
-    }
-   }
-  },
-  "us-city-los-angeles": {
-   "label": "Los Angeles",
-   "level": "city",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Halubono challenges Copper Queens to bounce back",
-       "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
-       "source": "Lusaka Times",
-       "published": "2026-10-10T06:07:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Copper Queens interim coach Charles Halubono has challenged his players to show more hunger and determination following their 2-1 defeat to Uganda in the first leg of the Los Angeles 2028 Olympic qualifiers. In a post-Match press conference in Kampala, Haalubono said the Zambian "
-      }
-     ]
-    }
-   }
-  },
-  "ug-city-kampala": {
-   "label": "Kampala",
-   "level": "city",
-   "sources": {
-    "mining": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Halubono challenges Copper Queens to bounce back",
-       "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
-       "source": "Lusaka Times",
-       "published": "2026-10-10T06:07:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Copper Queens interim coach Charles Halubono has challenged his players to show more hunger and determination following their 2-1 defeat to Uganda in the first leg of the Los Angeles 2028 Olympic qualifiers. In a post-Match press conference in Kampala, Haalubono said the Zambian "
+       "blurb": "Tauro Mining has handed over a water system to Mushitala Secondary School in Solwezi District of North-Western Province drilled at a cost of K242,440 to provide clean and safe water to 1,680 learners at the school. Tauro Mining Marketing and Business Development Manager, Marriam "
       }
      ]
     }
@@ -3870,6 +3789,219 @@
     }
    }
   },
+  "ph": {
+   "label": "Philippines",
+   "level": "country",
+   "sources": {
+    "crops": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "DALI may soon sell local agricultural produce",
+       "url": "https://www.philstar.com/business/2026/10/11/2562278/dali-may-soon-sell-local-agricultural-produce",
+       "source": "Philstar Business",
+       "published": "2026-10-10T16:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/business/2026/10/11/2562278/dali-may-soon-sell-local-agricultural-produce",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Department of Agriculture and DALI Everyday Grocery are exploring a partnership that could give Filipino farmers a direct and expanding market for their produce while opening greater opportunities for contract growing."
+      },
+      {
+       "title": "A farmer’s journey toward digitalization",
+       "url": "https://www.philstar.com/business/2026/10/11/2562281/farmers-journey-toward-digitalization",
+       "source": "Philstar Business",
+       "published": "2026-10-10T16:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/business/2026/10/11/2562281/farmers-journey-toward-digitalization",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Edgar Villanueva, a 55-year-old farmer from Kiblawan, Davao del Sur, strongly believed in traditional farming methods – practices honed through years of working the soil providing food for Filipinos."
+      }
+     ]
+    }
+   }
+  },
+  "ph-ds": {
+   "label": "Davao del Sur",
+   "level": "admin1",
+   "sources": {
+    "crops": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "A farmer’s journey toward digitalization",
+       "url": "https://www.philstar.com/business/2026/10/11/2562281/farmers-journey-toward-digitalization",
+       "source": "Philstar Business",
+       "published": "2026-10-10T16:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/business/2026/10/11/2562281/farmers-journey-toward-digitalization",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Edgar Villanueva, a 55-year-old farmer from Kiblawan, Davao del Sur, strongly believed in traditional farming methods – practices honed through years of working the soil providing food for Filipinos."
+      }
+     ]
+    }
+   }
+  },
+  "ph-city-davao": {
+   "label": "Davao",
+   "level": "city",
+   "sources": {
+    "crops": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "A farmer’s journey toward digitalization",
+       "url": "https://www.philstar.com/business/2026/10/11/2562281/farmers-journey-toward-digitalization",
+       "source": "Philstar Business",
+       "published": "2026-10-10T16:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Philstar Business",
+         "url": "https://www.philstar.com/business/2026/10/11/2562281/farmers-journey-toward-digitalization",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Edgar Villanueva, a 55-year-old farmer from Kiblawan, Davao del Sur, strongly believed in traditional farming methods – practices honed through years of working the soil providing food for Filipinos."
+      }
+     ]
+    }
+   }
+  },
+  "il": {
+   "label": "Israel",
+   "level": "country",
+   "sources": {
+    "crops": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Jerusalem Daily: Israeli settlers attack olive farmers",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-10T14:39:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Israeli settlers steal olives and attack Palestinian farmers during this year’s harvest."
+      }
+     ]
+    }
+   }
+  },
+  "ps": {
+   "label": "Palestinian Territories",
+   "level": "country",
+   "sources": {
+    "crops": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Jerusalem Daily: Israeli settlers attack olive farmers",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-10T14:39:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Israeli settlers steal olives and attack Palestinian farmers during this year’s harvest."
+      }
+     ]
+    }
+   }
+  },
+  "il-jm": {
+   "label": "Jerusalem",
+   "level": "admin1",
+   "sources": {
+    "crops": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Jerusalem Daily: Israeli settlers attack olive farmers",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-10T14:39:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Israeli settlers steal olives and attack Palestinian farmers during this year’s harvest."
+      }
+     ]
+    }
+   }
+  },
+  "il-city-jerusalem": {
+   "label": "Jerusalem",
+   "level": "city",
+   "sources": {
+    "crops": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Jerusalem Daily: Israeli settlers attack olive farmers",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-10T14:39:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Israeli settlers steal olives and attack Palestinian farmers during this year’s harvest."
+      }
+     ]
+    }
+   }
+  },
   "us-ak": {
    "label": "Alaska",
    "level": "admin1",
@@ -3893,34 +4025,6 @@
        "stages": [],
        "via": null,
        "blurb": "Alaska pollock is the second-largest fishery on Earth. It is the fish inside U.S. McDonald’s Filet-O-Fish sandwiches and is also turned into fish sticks and imitation crab. The fishery uses methods that it — and McDonald’s — say are aimed at minimizing environmental impacts, but "
-      }
-     ]
-    }
-   }
-  },
-  "ph": {
-   "label": "Philippines",
-   "level": "country",
-   "sources": {
-    "crops": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Agri output likely contracted in 3Q",
-       "url": "https://www.philstar.com/stock-commentary/2026/10/09/2562040/agri-output-likely-contracted-3q",
-       "source": "Philstar Business",
-       "published": "2026-10-09T05:41:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Philstar Business",
-         "url": "https://www.philstar.com/stock-commentary/2026/10/09/2562040/agri-output-likely-contracted-3q",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The DA expects agricultural output to have contracted in 3Q26 after expanding in 2Q26, with weakness potentially extending through 1Q27 as El Ni&ntilde;o intensifies."
       }
      ]
     }
