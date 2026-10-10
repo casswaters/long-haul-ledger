@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T00:48:42.661Z",
+ "generatedAt": "2026-10-10T06:42:54.719Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -106,23 +106,6 @@
        "blurb": "A Slack workspace managed by the Centers for Medicare & Medicaid Services has served as an extraordinary war room for AI industry insiders and Trump administration officials to launch a rapid campaign aimed at persuading Americans to manage their healthcare and medical records on"
       },
       {
-       "title": "‘AI Minister’ Niamh Smyth: ‘I’d have a very different view than President Trump’",
-       "url": "https://www.irishtimes.com/business/2026/10/09/ai-minister-niamh-smyth-id-have-a-very-different-view-than-president-trump/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-09T04:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/09/ai-minister-niamh-smyth-id-have-a-very-different-view-than-president-trump/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Minister says she is ‘cautiously optimistic’ and excited by AI - but also has concerns over its impact on Irish labour market"
-      },
-      {
        "title": "Oracle moves gas by trucks to avoid data center power delays",
        "url": "https://www.ttnews.com/articles/oracle-moves-gas-trucks",
        "source": "Transport Topics",
@@ -223,6 +206,23 @@
        "stages": [],
        "via": null,
        "blurb": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to analysts. Analysts across several financial institutions proje"
+      },
+      {
+       "title": "Making the case for non-lithium batteries for AI data centres",
+       "url": "https://www.energy-storage.news/making-the-case-for-non-lithium-batteries-for-ai-data-centres/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-08T07:48:32.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/making-the-case-for-non-lithium-batteries-for-ai-data-centres/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "AI data centres have energy and power requirements demanding enough to potentially stretch lithium-ion beyond its versatile limits, writes Intertek CEA market intelligence consultant Aaron Marks."
       }
      ]
     },
@@ -444,12 +444,17 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Elon Musk ups ante in Starlink row, sarcastically calls Ambani ‘Prime Minister’, alleges monopoly",
-       "url": "https://www.thehindu.com/business/Industry/elon-musk-ups-ante-in-starlink-row-sarcastically-calls-ambani-prime-minister-alleges-monopoly/article71565795.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-09T19:15:27.000Z",
+       "title": "Elon Musk lashes out at Indian ‘Prime Minister’ Mukesh Ambani in Starlink",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-sv-india-denies-blocking-ambani-musk-adani-starlink-in?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-10T02:35:28.000Z",
        "verification": "multiple",
        "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-sv-india-denies-blocking-ambani-musk-adani-starlink-in?traffic_source=rss",
+         "primary": false
+        },
         {
          "name": "The Hindu Business",
          "url": "https://www.thehindu.com/business/Industry/elon-musk-ups-ante-in-starlink-row-sarcastically-calls-ambani-prime-minister-alleges-monopoly/article71565795.ece",
@@ -461,6 +466,11 @@
          "primary": false
         },
         {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
+         "primary": false
+        },
+        {
          "name": "Light Reading",
          "url": "https://www.lightreading.com/satellite/musk-names-ambani-in-starlink-row-as-india-rejects-bias-claims",
          "primary": false
@@ -468,7 +478,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "The post bybrea Mr. Musk now marks a sharp escalation in the Starlink satcom offering row, which saw the U.S. trillionaire recently alleging that powerful business interests are seeking to block his service"
+       "blurb": "Elon Musk has accused Indian billionaire Mukesh Ambani of being India’s ‘real boss’ in over delays to Starlink's entry."
       },
       {
        "title": "Venezuela president authorizes SpaceX's Starlink to operate in the country",
@@ -603,6 +613,23 @@
        "blurb": "SpaceX aims to fill the lowband gap in its hybrid satellite-terrestrial network plan by acquiring Grain's 800MHz spectrum. That may help it compete with AT&T, T-Mobile and Verizon, but analysts still say SpaceX needs an MVNO deal."
       },
       {
+       "title": "Nokia campus sale nears as Hotard bets on industrial AI",
+       "url": "https://www.fierce-network.com/wireless/nokia-campus-networking-sale-nears-hotard-bets-industrial-ai",
+       "source": "Fierce Network",
+       "published": null,
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/wireless/nokia-campus-networking-sale-nears-hotard-bets-industrial-ai",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Nokia may soon name a buyer for its campus private networks unit as rivals gain share, but CEO Justin Hotard is betting on bigger money in industrial infrastructure."
+      },
+      {
        "title": "Vodafone raises cost savings target for UK unit to £1bn",
        "url": "https://www.datacenterdynamics.com/en/news/vodafone-raises-cost-savings-target-for-uk-unit-to-1bn/",
        "source": "DatacenterDynamics",
@@ -635,23 +662,6 @@
        "stages": [],
        "via": null,
        "blurb": "The company has put three new ground stations into service"
-      },
-      {
-       "title": "Nokia campus sale nears as Hotard bets on industrial AI",
-       "url": "https://www.fierce-network.com/wireless/nokia-campus-networking-sale-nears-hotard-bets-industrial-ai",
-       "source": "Fierce Network",
-       "published": null,
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Fierce Network",
-         "url": "https://www.fierce-network.com/wireless/nokia-campus-networking-sale-nears-hotard-bets-industrial-ai",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Nokia may soon name a buyer for its campus private networks unit as rivals gain share, but CEO Justin Hotard is betting on bigger money in industrial infrastructure."
       },
       {
        "title": "Starlink spectrum deal boosts Musk plan to beat AT&T, T-Mobile, and Verizon",
@@ -761,23 +771,6 @@
         "stage": "innovation"
        },
        "blurb": "A project led by UC Irvine that aims to use AI to safely and efficiently identify geothermal resources has been selected by the US DOE for the Genesis Mission. The post US DOE selects AI-driven geothermal prospecting project for grant program first appeared on ThinkGeoEnergy - Ge"
-      },
-      {
-       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
-       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-       "source": "NASA News",
-       "published": "2026-10-08T19:40:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Editor’s note: This release was updated Oct. 8, 2026 with the formal name of the summit. NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are an"
       },
       {
        "title": "Researchers in Vienna and Beijing report nuclear clock “milestone”",
@@ -935,6 +928,26 @@
         "stage": "innovation"
        },
        "blurb": "Romanian company PhotoVoltaic Windows SRL has discovered an intriguing application for photovoltaic glass in apartments: heating domestic water."
+      },
+      {
+       "title": "NRC reviews LAR on Palisades fuel loading incident, as Pioneer SMR application advances",
+       "url": "https://www.ans.org/news/2026-10-08/article-8474/nrc-reviews-lar-on-palisades-fuel-loading-incident-as-pioneer-smr-application-advances/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-08T21:18:22.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-08/article-8474/nrc-reviews-lar-on-palisades-fuel-loading-incident-as-pioneer-smr-application-advances/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "The Nuclear Regulatory Commission is reviewing a license amendment request (LAR) Holtec submitted in the aftermath of a fuel loading incident that has paused some of the restart work at the Palisades nuclear power plant in Covert, Mich."
       }
      ]
     },
@@ -1151,23 +1164,6 @@
        "blurb": "[Vanguard] The Corps Marshal of the Federal Road Safety Corps, FRSC, Shehu Mohammed, has warned that distractions from social media, emotional distress and fatigue could endanger motorists and other road users, calling for greater attention to the link between mental wellbeing an"
       },
       {
-       "title": "Malawi: Minister Gangata Condemns Fake Social Media Posts in His Name",
-       "url": "https://allafrica.com/stories/202610090414.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-09T12:04:02.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610090414.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Nyasa Times] Sports Minister says impostor pages should face the full force of cyber laws, and calls on police and MACRA to unmask the person behind 'Chigona'"
-      },
-      {
        "title": "Netflix plans to cut 5% of its workforce, Puck News reports",
        "url": "https://www.channelnewsasia.com/business/netflix-plans-cut-5-its-workforce-puck-news-reports-6446266",
        "source": "CNA Business",
@@ -1377,23 +1373,6 @@
        "blurb": "The Government Accountability Office is expected to flag that the Homeland Security Department delayed in notifying Congress of the incidents, according to a person familiar with the review."
       },
       {
-       "title": "Trump Mobile hack and apparent lack of FCC authorization raise security alarms",
-       "url": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/",
-       "source": "Ars Technica",
-       "published": "2026-10-08T20:39:31.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "After hack and data breach, senator asks why Trump Mobile lacks some FCC filings."
-      },
-      {
        "title": "Basel Committee meets to advance supervisory and regulatory initiatives and discuss risks and vulnerabilities to the global banking system",
        "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
        "source": "Bank for International Settlements",
@@ -1409,6 +1388,23 @@
        "stages": [],
        "via": null,
        "blurb": "Exchanges experiences and views on developments in artificial intelligence for the global banking system and supervisors, modernisation efforts and implications for the Committee’s future work programme..."
+      },
+      {
+       "title": "Trump Mobile hack and apparent lack of FCC authorization raise security alarms",
+       "url": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/",
+       "source": "Ars Technica",
+       "published": "2026-10-08T20:39:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "After hack and data breach, senator asks why Trump Mobile lacks some FCC filings."
       },
       {
        "title": "IBM’s AI-powered vulnerability clearinghouse finds hundreds of Java flaws",
@@ -1478,23 +1474,6 @@
        "blurb": "A project led by UC Irvine that aims to use AI to safely and efficiently identify geothermal resources has been selected by the US DOE for the Genesis Mission. The post US DOE selects AI-driven geothermal prospecting project for grant program first appeared on ThinkGeoEnergy - Ge"
       },
       {
-       "title": "AI-driven cargo bump sparks Transpacific air freight service",
-       "url": "https://www.supplychaindive.com/news/ai-driven-cargo-bump-sparks-transpacific-air-freight-service/832399/",
-       "source": "Supply Chain Dive",
-       "published": "2026-10-09T15:34:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Supply Chain Dive",
-         "url": "https://www.supplychaindive.com/news/ai-driven-cargo-bump-sparks-transpacific-air-freight-service/832399/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Nippon Express and Japan Airlines' weekly circuit connects Los Angeles with key hubs in Asia for AI and semiconductor cargo."
-      },
-      {
        "title": "AI, Tech Leaders Are Lobbying Trump Health Officials in a Government-Run Chat Room",
        "url": "https://kffhealthnews.org/health-industry/ai-tech-lobbying-medicare-medical-records-apps-trump-cms-slack-fda/",
        "source": "KFF Health News",
@@ -1510,6 +1489,23 @@
        "stages": [],
        "via": null,
        "blurb": "A Slack workspace managed by the Centers for Medicare & Medicaid Services has served as an extraordinary war room for AI industry insiders and Trump administration officials to launch a rapid campaign aimed at persuading Americans to manage their healthcare and medical records on"
+      },
+      {
+       "title": "AI-driven cargo bump sparks Transpacific air freight service",
+       "url": "https://www.supplychaindive.com/news/ai-driven-cargo-bump-sparks-transpacific-air-freight-service/832399/",
+       "source": "Supply Chain Dive",
+       "published": "2026-10-09T15:34:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Supply Chain Dive",
+         "url": "https://www.supplychaindive.com/news/ai-driven-cargo-bump-sparks-transpacific-air-freight-service/832399/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Nippon Express and Japan Airlines' weekly circuit connects Los Angeles with key hubs in Asia for AI and semiconductor cargo."
       },
       {
        "title": "Oracle moves gas by trucks to avoid data center power delays",
@@ -1801,6 +1797,11 @@
        "verification": "multiple",
        "outlets": [
         {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-sv-india-denies-blocking-ambani-musk-adani-starlink-in?traffic_source=rss",
+         "primary": false
+        },
+        {
          "name": "The Hindu Business",
          "url": "https://www.thehindu.com/business/Industry/elon-musk-ups-ante-in-starlink-row-sarcastically-calls-ambani-prime-minister-alleges-monopoly/article71565795.ece",
          "primary": false
@@ -1808,6 +1809,11 @@
         {
          "name": "CNA Business",
          "url": "https://www.channelnewsasia.com/business/india-rejects-monopoly-claim-after-musk-accuses-ambani-blocking-starlink-launch-6446291",
+         "primary": false
+        },
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
          "primary": false
         },
         {
@@ -1939,23 +1945,6 @@
        "blurb": "A project led by UC Irvine that aims to use AI to safely and efficiently identify geothermal resources has been selected by the US DOE for the Genesis Mission. The post US DOE selects AI-driven geothermal prospecting project for grant program first appeared on ThinkGeoEnergy - Ge"
       },
       {
-       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
-       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-       "source": "NASA News",
-       "published": "2026-10-08T19:40:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Editor’s note: This release was updated Oct. 8, 2026 with the formal name of the summit. NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are an"
-      },
-      {
        "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
        "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
        "source": "Manufacturing Dive",
@@ -1971,26 +1960,6 @@
        "stages": [],
        "via": null,
        "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
-      },
-      {
-       "title": "‘We Are Seen as Disposable’: Rural Residents Fight a Proposed Gas Pipeline",
-       "url": "https://kffhealthnews.org/rural-health/pipeline-natural-gas-rural-areas-risks-enbridge-north-carolina-research-triangle/",
-       "source": "KFF Health News",
-       "published": "2026-10-09T09:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "KFF Health News",
-         "url": "https://kffhealthnews.org/rural-health/pipeline-natural-gas-rural-areas-risks-enbridge-north-carolina-research-triangle/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Research shows natural gas pipelines — and the public health risks they carry — are concentrated in low-income and minority areas where people suffer higher rates of poverty and physical disabilities and have fewer means to respond to crises."
       },
       {
        "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
@@ -2016,6 +1985,26 @@
         "stage": "innovation"
        },
        "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
+      },
+      {
+       "title": "‘We Are Seen as Disposable’: Rural Residents Fight a Proposed Gas Pipeline",
+       "url": "https://kffhealthnews.org/rural-health/pipeline-natural-gas-rural-areas-risks-enbridge-north-carolina-research-triangle/",
+       "source": "KFF Health News",
+       "published": "2026-10-09T09:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "KFF Health News",
+         "url": "https://kffhealthnews.org/rural-health/pipeline-natural-gas-rural-areas-risks-enbridge-north-carolina-research-triangle/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Research shows natural gas pipelines — and the public health risks they carry — are concentrated in low-income and minority areas where people suffer higher rates of poverty and physical disabilities and have fewer means to respond to crises."
       },
       {
        "title": "DOE selects second round of hydropower projects for technical support, with modernization in mind",
@@ -2132,6 +2121,23 @@
        "stages": [],
        "via": null,
        "blurb": "Nearly 100 patients discussed their maladies with a Google bot, called AMIE, before meeting with physicians."
+      },
+      {
+       "title": "HHS launches new plan to strengthen vaccine injury research, reporting",
+       "url": "https://www.biopharmadive.com/news/hhs-vaccine-injury-reporting-research-rfk/832532/",
+       "source": "BioPharma Dive",
+       "published": "2026-10-08T20:57:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "BioPharma Dive",
+         "url": "https://www.biopharmadive.com/news/hhs-vaccine-injury-reporting-research-rfk/832532/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Spearheaded by vaccine skeptic Robert F. Kennedy Jr., the initiative will involve a new NIH clinic, an updated monitoring system and reimbursements for doctors who report suspected side effects."
       }
      ]
     },
@@ -2453,26 +2459,6 @@
        "blurb": "South Korea's Hyundai Engineering & Construction has been contracted by Westinghouse to carry out basic design studies for the construction of two large nuclear power plants in the Netherlands based on Westinghouse's AP1000 design."
       },
       {
-       "title": "Researchers find almost 8,000 European solar energy systems exposed to internet cyberattacks",
-       "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
-       "source": "PV Tech",
-       "published": "2026-10-08T12:22:38.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "A joint Dutch team of researchers shows commercial solar power assets are internet-accessible, creating a dangerous threat to infrastructure."
-      },
-      {
        "title": "Dutch design ultra-shallow-draft DSV for Gulf Region's oil & gas",
        "url": "https://offshore-energy.biz/2026/10/07/dutch-design-ultra-shallow-draft-dsv-for-gulf-regions-oil-and-gas",
        "source": "Offshore Energy",
@@ -2491,6 +2477,26 @@
         "stage": "innovation"
        },
        "blurb": "Saudi Arabia's Zamil Offshore, established in 1977, has contracted Dutch ship design and engineering company Conoship International to design an..."
+      },
+      {
+       "title": "Researchers find almost 8,000 European solar energy systems exposed to internet cyberattacks",
+       "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
+       "source": "PV Tech",
+       "published": "2026-10-08T12:22:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "A joint Dutch team of researchers shows commercial solar power assets are internet-accessible, creating a dangerous threat to infrastructure."
       },
       {
        "title": "How SAMDUO is entering Europe’s home battery market with household-led design",
@@ -3775,12 +3781,17 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "India rejects monopoly claim after Musk accuses Ambani of blocking Starlink launch",
-       "url": "https://www.channelnewsasia.com/business/india-rejects-monopoly-claim-after-musk-accuses-ambani-blocking-starlink-launch-6446291",
-       "source": "CNA Business",
-       "published": "2026-10-09T12:27:19.000Z",
+       "title": "Elon Musk lashes out at Indian ‘Prime Minister’ Mukesh Ambani in Starlink",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-sv-india-denies-blocking-ambani-musk-adani-starlink-in?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-10T02:35:28.000Z",
        "verification": "multiple",
        "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-sv-india-denies-blocking-ambani-musk-adani-starlink-in?traffic_source=rss",
+         "primary": false
+        },
         {
          "name": "The Hindu Business",
          "url": "https://www.thehindu.com/business/Industry/elon-musk-ups-ante-in-starlink-row-sarcastically-calls-ambani-prime-minister-alleges-monopoly/article71565795.ece",
@@ -3792,6 +3803,11 @@
          "primary": false
         },
         {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
+         "primary": false
+        },
+        {
          "name": "Light Reading",
          "url": "https://www.lightreading.com/satellite/musk-names-ambani-in-starlink-row-as-india-rejects-bias-claims",
          "primary": false
@@ -3799,7 +3815,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": ""
+       "blurb": "Elon Musk has accused Indian billionaire Mukesh Ambani of being India’s ‘real boss’ in over delays to Starlink's entry."
       }
      ]
     },
@@ -4057,23 +4073,6 @@
     "software": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "‘AI Minister’ Niamh Smyth: ‘I’d have a very different view than President Trump’",
-       "url": "https://www.irishtimes.com/business/2026/10/09/ai-minister-niamh-smyth-id-have-a-very-different-view-than-president-trump/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-09T04:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/09/ai-minister-niamh-smyth-id-have-a-very-different-view-than-president-trump/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Minister says she is ‘cautiously optimistic’ and excited by AI - but also has concerns over its impact on Irish labour market"
-      },
       {
        "title": "Colin Hunt’s AIB share awards, and AI’s impact on the labour market",
        "url": "https://www.irishtimes.com/business/2026/10/09/colin-hunts-aib-share-awards-and-ais-impact-on-the-labour-market/",
@@ -5228,6 +5227,23 @@
        "stages": [],
        "via": null,
        "blurb": "As Hong Kong and Singapore compete for leadership in businesses ranging from foreign exchange trading to wealth management, the battleground has extended to artificial intelligence, with both cities vying to attract investment from HSBC Holdings and other major corporations, acco"
+      },
+      {
+       "title": "An air-con firm building AI, a hygiene business going regional: How home-grown SMEs are turning decades of expertise into new revenue",
+       "url": "https://www.straitstimes.com/business/home-grown-smes-turn-decades-expertise-into-new-revenue-streams-enterprise-singapore",
+       "source": "The Straits Times Business",
+       "published": "2026-10-08T20:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Straits Times Business",
+         "url": "https://www.straitstimes.com/business/home-grown-smes-turn-decades-expertise-into-new-revenue-streams-enterprise-singapore",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "With Enterprise Singapore and SME Centre support, firms are turning expertise into AI tools, services and new markets."
       }
      ]
     }
@@ -5810,34 +5826,6 @@
        "stages": [],
        "via": null,
        "blurb": "[New Dawn] MONROVIA -- The Liberia National Police (LNP) has arrested between 60 and 70 foreign nationals, including a significant number of Chinese citizens, in connection with an ongoing investigation into suspected cybercrime, counterfeiting and other alleged criminal activiti"
-      }
-     ]
-    }
-   }
-  },
-  "mw": {
-   "label": "Malawi",
-   "level": "country",
-   "sources": {
-    "media": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Malawi: Minister Gangata Condemns Fake Social Media Posts in His Name",
-       "url": "https://allafrica.com/stories/202610090414.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-09T12:04:02.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610090414.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Nyasa Times] Sports Minister says impostor pages should face the full force of cyber laws, and calls on police and MACRA to unmask the person behind 'Chigona'"
       }
      ]
     }

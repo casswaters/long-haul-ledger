@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T00:47:49.894Z",
+ "generatedAt": "2026-10-10T06:42:00.450Z",
  "sector": "materials",
  "maxAgeDays": 10,
  "places": {
@@ -10,6 +10,23 @@
     "crops": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Kabwe DC urges farmers to scale up wheat, soya production",
+       "url": "https://www.lusakatimes.com/2026/10/10/kabwe-dc-urges-farmers-to-scale-up-wheat-soya-production/",
+       "source": "Lusaka Times",
+       "published": "2026-10-10T06:04:33.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/10/kabwe-dc-urges-farmers-to-scale-up-wheat-soya-production/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Kabwe District Commissioner Lennox Shimwambwa has urged farmers to venture into large-scale production of wheat and soya beans to contribute to the Grow Zambia Agenda. The national targets include producing 10 million tonnes of maize, generating 10,000 megawatts of electricity, a"
+      },
       {
        "title": "FAA cracks down on illegal drone spraying with record $290K fine",
        "url": "https://www.farmprogress.com/tv-and-radio/faa-cracks-down-on-illegal-drone-spraying-with-record-290k-fine",
@@ -62,6 +79,23 @@
        "blurb": "The DA expects agricultural output to have contracted in 3Q26 after expanding in 2Q26, with weakness potentially extending through 1Q27 as El Ni&ntilde;o intensifies."
       },
       {
+       "title": "Farm Hands on the Potomac: Joel Leftwich joins Idealyst Innovation, ​Robert Haus goes to Vylor, General Mills names Dana McNabb as CEO",
+       "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
+       "source": "Agri-Pulse",
+       "published": "2026-10-07T10:05:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Agri-Pulse",
+         "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Joel Leftwich will join Idealyst Innovation as executive vice president of policy innovation and director of the Center for American Food Power. Robert Haus has joined Vylor as state government and industry affairs leader. General Mills named Dana McNabb as CEO, effective Jan. 1,"
+      },
+      {
        "title": "SpaceX: Grain's lowband spectrum is our ticket to becoming 'major mobile carrier'",
        "url": "https://www.lightreading.com/satellite/spacex-grain-s-lowband-spectrum-is-our-ticket-to-becoming-major-mobile-carrier-",
        "source": "Light Reading",
@@ -102,23 +136,6 @@
        "stages": [],
        "via": null,
        "blurb": "SpaceX aims to fill the lowband gap in its hybrid satellite-terrestrial network plan by acquiring Grain's 800MHz spectrum. That may help it compete with AT&T, T-Mobile and Verizon, but analysts still say SpaceX needs an MVNO deal."
-      },
-      {
-       "title": "Farm Hands on the Potomac: Joel Leftwich joins Idealyst Innovation, ​Robert Haus goes to Vylor, General Mills names Dana McNabb as CEO",
-       "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
-       "source": "Agri-Pulse",
-       "published": "2026-10-07T10:05:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Agri-Pulse",
-         "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Joel Leftwich will join Idealyst Innovation as executive vice president of policy innovation and director of the Center for American Food Power. Robert Haus has joined Vylor as state government and industry affairs leader. General Mills named Dana McNabb as CEO, effective Jan. 1,"
       },
       {
        "title": "How a reluctant Iowa farming county undid a ban on battery storage",
@@ -210,6 +227,23 @@
     "livestock": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Brazil Beef Exports to US Jump 524% in September",
+       "url": "https://www.riotimesonline.com/brazil-beef-exports-us-jump-524-percent-september-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-10T05:16:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/brazil-beef-exports-us-jump-524-percent-september-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Brazil shipped US$263 million of fresh and frozen beef to the United States in September, up 524% on a year earlier, as a US quota opened. The post Brazil Beef Exports to US Jump 524% in September appeared first on The Rio Times ."
+      },
       {
        "title": "Tax-free livestock import scheme launched",
        "url": "https://www.dawn.com/news/2035829/tax-free-livestock-import-scheme-launched",
@@ -612,23 +646,6 @@
        "blurb": "Southern bluefin tuna quota increases 14.5% as CCSBT ends year-long deadlock"
       },
       {
-       "title": "'FishTok' trend creates fishing boom among young Victorians",
-       "url": "https://www.abc.net.au/news/2026-10-10/-fishtok-trend-creates-fishing-boom-among-young-victorians/107239358",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-09T23:09:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-10/-fishtok-trend-creates-fishing-boom-among-young-victorians/107239358",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The state's peak recreational fishing body says an increase in young Victorians taking up fishing has been \"incredible\" but is questioning why the government cancelled a program that may have led to the uptake."
-      },
-      {
        "title": "US red drum aquaculture startup approaches final permit hurdle",
        "url": "https://www.undercurrentnews.com/2026/10/09/us-red-drum-aquaculture-startup-approaches-final-permit-hurdle/",
        "source": "Undercurrent News",
@@ -644,6 +661,23 @@
        "stages": [],
        "via": null,
        "blurb": "US red drum aquaculture startup approaches final permit hurdle"
+      },
+      {
+       "title": "'FishTok' trend creates fishing boom among young Victorians",
+       "url": "https://www.abc.net.au/news/2026-10-10/-fishtok-trend-creates-fishing-boom-among-young-victorians/107239358",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-09T23:09:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-10/-fishtok-trend-creates-fishing-boom-among-young-victorians/107239358",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The state's peak recreational fishing body says an increase in young Victorians taking up fishing has been \"incredible\" but is questioning why the government cancelled a program that may have led to the uptake."
       }
      ]
     },
@@ -761,23 +795,6 @@
        "blurb": "Saudi Arabia and the United Arab Emirates will support a Japanese initiative to bolster oil supplies in Southeast Asia after war-driven disruptions heightened concerns over energy security."
       },
       {
-       "title": "HyStock Completes Evaluation Drilling for Dutch Underground Hydrogen Storage Project",
-       "url": "https://fuelcellsworks.com/2026/10/06/h2/hystock-completes-evaluation-drilling-for-dutch-underground-hydrogen-storage-project",
-       "source": "FuelCellsWorks",
-       "published": "2026-10-09T15:18:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "FuelCellsWorks",
-         "url": "https://fuelcellsworks.com/2026/10/06/h2/hystock-completes-evaluation-drilling-for-dutch-underground-hydrogen-storage-project",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
        "title": "Posco completes second upstream lithium plant in Argentina",
        "url": "https://www.just-auto.com/news/posco-completes-second-upstream-lithium-plant-in-argentina/",
        "source": "Just Auto",
@@ -808,6 +825,23 @@
        "blurb": "Lithium carbonate production capacity at the site increased to 48,000 tons/year."
       },
       {
+       "title": "HyStock Completes Evaluation Drilling for Dutch Underground Hydrogen Storage Project",
+       "url": "https://fuelcellsworks.com/2026/10/06/h2/hystock-completes-evaluation-drilling-for-dutch-underground-hydrogen-storage-project",
+       "source": "FuelCellsWorks",
+       "published": "2026-10-09T15:18:34.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "FuelCellsWorks",
+         "url": "https://fuelcellsworks.com/2026/10/06/h2/hystock-completes-evaluation-drilling-for-dutch-underground-hydrogen-storage-project",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
+      {
        "title": "U.K. Expands Sanctions to Cover 90% of Russian Oil Output, Shadow Fleet and Finance Networks",
        "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
        "source": "The Moscow Times",
@@ -828,26 +862,6 @@
        "blurb": "The sanctions come on the heels of the EU approving another sanctions package Wednesday."
       },
       {
-       "title": "Fresh North Sea gas discovery yields up to 10 million barrels of oil equivalent",
-       "url": "https://offshore-energy.biz/2026/10/08/fresh-north-sea-gas-discovery-yields-up-to-10-million-barrels-of-oil-equivalent",
-       "source": "Offshore Energy",
-       "published": "2026-10-08T07:30:56.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Offshore Energy",
-         "url": "https://offshore-energy.biz/2026/10/08/fresh-north-sea-gas-discovery-yields-up-to-10-million-barrels-of-oil-equivalent",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "extraction"
-       },
-       "blurb": "A routine sidetrack drilling operation in the North Sea has paid off for Equinor, yielding a fresh gas discovery."
-      },
-      {
        "title": "U.S. natural gas production reached a record high in July 2026",
        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68225",
        "source": "EIA Today in Energy",
@@ -866,6 +880,26 @@
         "stage": "extraction"
        },
        "blurb": "U.S. natural gas production hit an all-time high in July 2026, driven primarily by increased output in the Permian Basin, according to our latest Natural Gas Monthly."
+      },
+      {
+       "title": "Fresh North Sea gas discovery yields up to 10 million barrels of oil equivalent",
+       "url": "https://offshore-energy.biz/2026/10/08/fresh-north-sea-gas-discovery-yields-up-to-10-million-barrels-of-oil-equivalent",
+       "source": "Offshore Energy",
+       "published": "2026-10-08T07:30:56.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/08/fresh-north-sea-gas-discovery-yields-up-to-10-million-barrels-of-oil-equivalent",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "extraction"
+       },
+       "blurb": "A routine sidetrack drilling operation in the North Sea has paid off for Equinor, yielding a fresh gas discovery."
       },
       {
        "title": "US BLM sets December California oil, gas lease sale",
@@ -920,33 +954,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "CleanTech Lithium expands foothold in Argentina",
-       "url": "https://www.northernminer.com/news/cleantech-lithium-expands-foothold-in-argentina/1003895600/",
-       "source": "The Northern Miner",
-       "published": "2026-10-09T20:10:00.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/cleantech-lithium-agreements-antofalla-properties/",
-         "primary": false
-        },
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/cleantech-lithium-expands-foothold-in-argentina/1003895600/",
-         "primary": false
-        },
-        {
-         "name": "Just Auto",
-         "url": "https://www.just-auto.com/news/posco-completes-second-upstream-lithium-plant-in-argentina/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "CleanTech Lithium (LSE: CTL) has secured options to add two lithium brine properties in Argentina’s Salar de Antofalla, expanding its footprint near the flagship Laguna Verde project. The company signed... The post CleanTech Lithium expands foothold in Argentina appeared first on"
-      },
-      {
        "title": "EU Commission selects 46 new raw materials projects",
        "url": "https://www.electrive.com/2026/10/09/eu-commission-selects-46-new-raw-materials-projects/",
        "source": "electrive",
@@ -974,6 +981,84 @@
        "blurb": "The EU Commission has selected 46 additional strategic raw material projects across 16 member states. Many of these involve lithium, nickel, cobalt, manganese, and graphite, which are particularly critical for the battery industry. This time, Germany is well-represented with eigh"
       },
       {
+       "title": "CleanTech Lithium expands foothold in Argentina",
+       "url": "https://www.northernminer.com/news/cleantech-lithium-expands-foothold-in-argentina/1003895600/",
+       "source": "The Northern Miner",
+       "published": "2026-10-09T20:10:00.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Mining Technology",
+         "url": "https://www.mining-technology.com/news/cleantech-lithium-agreements-antofalla-properties/",
+         "primary": false
+        },
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/cleantech-lithium-expands-foothold-in-argentina/1003895600/",
+         "primary": false
+        },
+        {
+         "name": "Just Auto",
+         "url": "https://www.just-auto.com/news/posco-completes-second-upstream-lithium-plant-in-argentina/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "CleanTech Lithium (LSE: CTL) has secured options to add two lithium brine properties in Argentina’s Salar de Antofalla, expanding its footprint near the flagship Laguna Verde project. The company signed... The post CleanTech Lithium expands foothold in Argentina appeared first on"
+      },
+      {
+       "title": "Canada keen to invest in mining, renewable energy sectors",
+       "url": "https://www.lusakatimes.com/2026/10/10/canada-keen-to-invest-in-mining-renewable-energy-sectors/",
+       "source": "Lusaka Times",
+       "published": "2026-10-10T06:10:12.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/10/canada-keen-to-invest-in-mining-renewable-energy-sectors/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Canada says it is keen to attract more Canadian investors to Zambia, particularly in the mining and renewable energy sectors, to complement local businesses and support the country’s development agenda. Canadian High Commissioner to Zambia, Corry Gaal, says her country is looking"
+      },
+      {
+       "title": "Halubono challenges Copper Queens to bounce back",
+       "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
+       "source": "Lusaka Times",
+       "published": "2026-10-10T06:07:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Copper Queens interim coach Charles Halubono has challenged his players to show more hunger and determination following their 2-1 defeat to Uganda in the first leg of the Los Angeles 2028 Olympic qualifiers. In a post-Match press conference in Kampala, Haalubono said the Zambian "
+      },
+      {
+       "title": "Newmont Plans 19.7M Tonnes at Peru’s Yanacocha Mine",
+       "url": "https://www.riotimesonline.com/newmont-yanacocha-mine-plan-peru-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-10T05:45:36.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/newmont-yanacocha-mine-plan-peru-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Newmont asked Peru's regulator to let its Yanacocha mine dig 19.7 million tonnes of ore in two zones through 2027, extending low-cost gold output. The post Newmont Plans 19.7M Tonnes at Peru’s Yanacocha Mine appeared first on The Rio Times ."
+      },
+      {
        "title": "FLSmidth secures $54m order for copper mine project in Chile",
        "url": "https://www.mining-technology.com/news/flsmidth-54m-order-copper-mine-chile/",
        "source": "Mining Technology",
@@ -994,6 +1079,23 @@
        "stages": [],
        "via": null,
        "blurb": "Danish mining equipment company FLSmidth (FLS) has received an order valued at approximately DKr360m ($54m) to supply crushing and grinding equipment for a copper mine expansion project in Northern Chile. The post FLSmidth secures $54m order for copper mine project in Chile appea"
+      },
+      {
+       "title": "Surge in SA mining fatalities in 2026 deeply concerning, says Mantashe",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-09-zero-harm/",
+       "source": "Daily Maverick",
+       "published": "2026-10-09T12:54:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-09-zero-harm/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "If the current rate of is maintained, registered South African mines will record about 70 mining deaths in 2026, up from 41 last year."
       },
       {
        "title": "Gold council urges miners to name refiners",
@@ -1064,23 +1166,6 @@
        "blurb": "New drilling by Glencore (LSE: GLEN)-backed Hot Chili (ASX, TSX-V: HCH; US-OTC: HHLKF) has extended shallow copper-gold mineralization at its La Verde porphyry discovery in coastal Chile, strengthening the case... The post Hot Chili drills shallow copper, gold in Chile appeared f"
       },
       {
-       "title": "Surge in SA mining fatalities in 2026 deeply concerning, says Mantashe",
-       "url": "https://www.dailymaverick.co.za/article/2026-10-09-zero-harm/",
-       "source": "Daily Maverick",
-       "published": "2026-10-09T12:54:37.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Daily Maverick",
-         "url": "https://www.dailymaverick.co.za/article/2026-10-09-zero-harm/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "If the current rate of is maintained, registered South African mines will record about 70 mining deaths in 2026, up from 41 last year."
-      },
-      {
        "title": "UK scientists turn to biology in search for cleaner lithium",
        "url": "https://www.northernminer.com/news/uk-scientists-turn-to-biology-in-search-for-cleaner-lithium/1003895598/",
        "source": "The Northern Miner",
@@ -1096,57 +1181,6 @@
        "stages": [],
        "via": null,
        "blurb": "Researchers at the University of Birmingham are leading a £6.2-million ($8.2-million) project to develop protein-based membranes that could make lithium extraction more selective and potentially less energy-intensive. The three-year initiative,... The post UK scientists turn to b"
-      },
-      {
-       "title": "Water, chemistry challenge Lithium Triangle growth",
-       "url": "https://www.northernminer.com/news/water-chemistry-challenge-lithium-triangle-growth/1003895641/",
-       "source": "The Northern Miner",
-       "published": "2026-10-09T20:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/water-chemistry-challenge-lithium-triangle-growth/1003895641/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Argentina, Bolivia and Chile hold about 43% of the world’s identified lithium resources, but differences in brine chemistry and water availability complicate efforts to turn the Lithium Triangle’s geological wealth... The post Water, chemistry challenge Lithium Triangle growth ap"
-      },
-      {
-       "title": "What comes after lithium?",
-       "url": "https://www.renewableenergyworld.com/energy-storage/battery/what-comes-after-lithium/",
-       "source": "Hydro Review",
-       "published": "2026-10-09T18:17:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Hydro Review",
-         "url": "https://www.renewableenergyworld.com/energy-storage/battery/what-comes-after-lithium/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Will the future of energy storage be defined by one dominant technology, or by a diverse mix of technologies designed for different applications?"
-      },
-      {
-       "title": "Guanajuato Silver completes tunnel linking San Ignacio and Bolanitos mines",
-       "url": "https://www.mining-technology.com/news/guanajuato-tunnel-linking-san-ignacio-bolanitos/",
-       "source": "Mining Technology",
-       "published": "2026-10-09T13:57:56.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/guanajuato-tunnel-linking-san-ignacio-bolanitos/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Guanajuato Silver has completed a 267m long underground production ramp that connects the San Ignacio mine with the Bolanitos mining complex in central Mexico. The post Guanajuato Silver completes tunnel linking San Ignacio and Bolanitos mines appeared first on Mining Technology "
       }
      ]
     }
@@ -1249,6 +1283,23 @@
     "livestock": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Brazil Beef Exports to US Jump 524% in September",
+       "url": "https://www.riotimesonline.com/brazil-beef-exports-us-jump-524-percent-september-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-10T05:16:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/brazil-beef-exports-us-jump-524-percent-september-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Brazil shipped US$263 million of fresh and frozen beef to the United States in September, up 524% on a year earlier, as a US quota opened. The post Brazil Beef Exports to US Jump 524% in September appeared first on The Rio Times ."
+      },
       {
        "title": "As frontier models go rogue, colleges beef up AI cybersecurity education",
        "url": "https://www.cybersecuritydive.com/news/ai-cybersecurity-education-university/832132/",
@@ -1482,21 +1533,21 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Hot Chili drills shallow copper, gold in Chile",
-       "url": "https://www.northernminer.com/news/hot-chili-drills-shallow-copper-gold-in-chile/1003895627/",
-       "source": "The Northern Miner",
-       "published": "2026-10-09T20:50:49.000Z",
+       "title": "Halubono challenges Copper Queens to bounce back",
+       "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
+       "source": "Lusaka Times",
+       "published": "2026-10-10T06:07:35.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/hot-chili-drills-shallow-copper-gold-in-chile/1003895627/",
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "New drilling by Glencore (LSE: GLEN)-backed Hot Chili (ASX, TSX-V: HCH; US-OTC: HHLKF) has extended shallow copper-gold mineralization at its La Verde porphyry discovery in coastal Chile, strengthening the case... The post Hot Chili drills shallow copper, gold in Chile appeared f"
+       "blurb": "Copper Queens interim coach Charles Halubono has challenged his players to show more hunger and determination following their 2-1 defeat to Uganda in the first leg of the Los Angeles 2028 Olympic qualifiers. In a post-Match press conference in Kampala, Haalubono said the Zambian "
       },
       {
        "title": "Trump unveils plans to build $15B steel mill in Iowa",
@@ -1514,6 +1565,23 @@
        "stages": [],
        "via": null,
        "blurb": "Mesabi Metallics’ steel facility will be the largest in the U.S., creating 1,750 jobs and adding 10 million tons of annual production capacity. The company is also investing $3 billion to complete an iron ore mine in Minnesota."
+      },
+      {
+       "title": "Hot Chili drills shallow copper, gold in Chile",
+       "url": "https://www.northernminer.com/news/hot-chili-drills-shallow-copper-gold-in-chile/1003895627/",
+       "source": "The Northern Miner",
+       "published": "2026-10-09T20:50:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/hot-chili-drills-shallow-copper-gold-in-chile/1003895627/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New drilling by Glencore (LSE: GLEN)-backed Hot Chili (ASX, TSX-V: HCH; US-OTC: HHLKF) has extended shallow copper-gold mineralization at its La Verde porphyry discovery in coastal Chile, strengthening the case... The post Hot Chili drills shallow copper, gold in Chile appeared f"
       },
       {
        "title": "Levack restart puts Magna on two-mine path",
@@ -1677,31 +1745,26 @@
       }
      ]
     },
-    "oilgas": {
+    "mining": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Kenorland, Auranova launch phase four drilling at South Uchi Project",
-       "url": "https://www.mining-technology.com/news/kenorland-auranova-south-uchi-phase-4-drilling/",
-       "source": "Mining Technology",
-       "published": "2026-10-08T09:45:44.000Z",
+       "title": "Canada keen to invest in mining, renewable energy sectors",
+       "url": "https://www.lusakatimes.com/2026/10/10/canada-keen-to-invest-in-mining-renewable-energy-sectors/",
+       "source": "Lusaka Times",
+       "published": "2026-10-10T06:10:12.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/kenorland-auranova-south-uchi-phase-4-drilling/",
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/10/canada-keen-to-invest-in-mining-renewable-energy-sectors/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Kenorland Minerals and Auranova Resources have launched the phase 4 diamond drilling at the South Uchi Project in Ontario’s Red Lake District, Canada. The post Kenorland, Auranova launch phase four drilling at South Uchi Project appeared first on Mining Technology ."
-      }
-     ]
-    },
-    "mining": {
-     "brief": "missing",
-     "candidates": [
+       "blurb": "Canada says it is keen to attract more Canadian investors to Zambia, particularly in the mining and renewable energy sectors, to complement local businesses and support the country’s development agenda. Canadian High Commissioner to Zambia, Corry Gaal, says her country is looking"
+      },
       {
        "title": "Infographic: Can Quebec build Canada’s first graphite supply chain?",
        "url": "https://www.northernminer.com/news/infographic-can-quebec-build-canadas-first-graphite-supply-chain/1003895573/",
@@ -2264,6 +2327,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Halubono challenges Copper Queens to bounce back",
+       "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
+       "source": "Lusaka Times",
+       "published": "2026-10-10T06:07:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Copper Queens interim coach Charles Halubono has challenged his players to show more hunger and determination following their 2-1 defeat to Uganda in the first leg of the Los Angeles 2028 Olympic qualifiers. In a post-Match press conference in Kampala, Haalubono said the Zambian "
+      },
+      {
        "title": "CTR restructures debt to advance Hell’s Kitchen geothermal and lithium project in California",
        "url": "https://www.thinkgeoenergy.com/ctr-restructures-debt-to-advance-hells-kitchen-geothermal-and-lithium-project-in-california/",
        "source": "ThinkGeoEnergy",
@@ -2564,6 +2644,73 @@
     }
    }
   },
+  "zm": {
+   "label": "Zambia",
+   "level": "country",
+   "sources": {
+    "crops": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Kabwe DC urges farmers to scale up wheat, soya production",
+       "url": "https://www.lusakatimes.com/2026/10/10/kabwe-dc-urges-farmers-to-scale-up-wheat-soya-production/",
+       "source": "Lusaka Times",
+       "published": "2026-10-10T06:04:33.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/10/kabwe-dc-urges-farmers-to-scale-up-wheat-soya-production/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Kabwe District Commissioner Lennox Shimwambwa has urged farmers to venture into large-scale production of wheat and soya beans to contribute to the Grow Zambia Agenda. The national targets include producing 10 million tonnes of maize, generating 10,000 megawatts of electricity, a"
+      }
+     ]
+    },
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Canada keen to invest in mining, renewable energy sectors",
+       "url": "https://www.lusakatimes.com/2026/10/10/canada-keen-to-invest-in-mining-renewable-energy-sectors/",
+       "source": "Lusaka Times",
+       "published": "2026-10-10T06:10:12.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/10/canada-keen-to-invest-in-mining-renewable-energy-sectors/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Canada says it is keen to attract more Canadian investors to Zambia, particularly in the mining and renewable energy sectors, to complement local businesses and support the country’s development agenda. Canadian High Commissioner to Zambia, Corry Gaal, says her country is looking"
+      },
+      {
+       "title": "Halubono challenges Copper Queens to bounce back",
+       "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
+       "source": "Lusaka Times",
+       "published": "2026-10-10T06:07:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Copper Queens interim coach Charles Halubono has challenged his players to show more hunger and determination following their 2-1 defeat to Uganda in the first leg of the Los Angeles 2028 Olympic qualifiers. In a post-Match press conference in Kampala, Haalubono said the Zambian "
+      }
+     ]
+    }
+   }
+  },
   "au": {
    "label": "Australia",
    "level": "country",
@@ -2706,6 +2853,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Old Bendigo gold mine hosts underground piano concert",
+       "url": "https://www.abc.net.au/news/2026-10-10/piano-gold-mine-underground-concert-bendigo/107247298",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-10T03:13:40.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-10/piano-gold-mine-underground-concert-bendigo/107247298",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A unique piano recital has been held 61 metres deep underground in an old gold mine."
+      },
+      {
        "title": "Family turns bare island into reef oasis after guano mining destroys it",
        "url": "https://www.abc.net.au/news/2026-10-10/guano-mine-rehabilitation-on-lady-elliot-island-birds-return/107138364",
        "source": "ABC News (Australia) Business",
@@ -2760,6 +2924,34 @@
     }
    }
   },
+  "pe": {
+   "label": "Peru",
+   "level": "country",
+   "sources": {
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Newmont Plans 19.7M Tonnes at Peru’s Yanacocha Mine",
+       "url": "https://www.riotimesonline.com/newmont-yanacocha-mine-plan-peru-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-10T05:45:36.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/newmont-yanacocha-mine-plan-peru-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Newmont asked Peru's regulator to let its Yanacocha mine dig 19.7 million tonnes of ore in two zones through 2027, extending low-cost gold output. The post Newmont Plans 19.7M Tonnes at Peru’s Yanacocha Mine appeared first on The Rio Times ."
+      }
+     ]
+    }
+   }
+  },
   "pk": {
    "label": "Pakistan",
    "level": "country",
@@ -2792,6 +2984,28 @@
    "label": "Brazil",
    "level": "country",
    "sources": {
+    "livestock": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Brazil Beef Exports to US Jump 524% in September",
+       "url": "https://www.riotimesonline.com/brazil-beef-exports-us-jump-524-percent-september-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-10T05:16:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/brazil-beef-exports-us-jump-524-percent-september-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Brazil shipped US$263 million of fresh and frozen beef to the United States in September, up 524% on a year earlier, as a US quota opened. The post Brazil Beef Exports to US Jump 524% in September appeared first on The Rio Times ."
+      }
+     ]
+    },
     "oilgas": {
      "brief": "missing",
      "candidates": [
@@ -3231,6 +3445,118 @@
     }
    }
   },
+  "ug": {
+   "label": "Uganda",
+   "level": "country",
+   "sources": {
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Halubono challenges Copper Queens to bounce back",
+       "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
+       "source": "Lusaka Times",
+       "published": "2026-10-10T06:07:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Copper Queens interim coach Charles Halubono has challenged his players to show more hunger and determination following their 2-1 defeat to Uganda in the first leg of the Los Angeles 2028 Olympic qualifiers. In a post-Match press conference in Kampala, Haalubono said the Zambian "
+      }
+     ]
+    }
+   }
+  },
+  "ug-km": {
+   "label": "Kampala",
+   "level": "admin1",
+   "sources": {
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Halubono challenges Copper Queens to bounce back",
+       "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
+       "source": "Lusaka Times",
+       "published": "2026-10-10T06:07:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Copper Queens interim coach Charles Halubono has challenged his players to show more hunger and determination following their 2-1 defeat to Uganda in the first leg of the Los Angeles 2028 Olympic qualifiers. In a post-Match press conference in Kampala, Haalubono said the Zambian "
+      }
+     ]
+    }
+   }
+  },
+  "us-city-los-angeles": {
+   "label": "Los Angeles",
+   "level": "city",
+   "sources": {
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Halubono challenges Copper Queens to bounce back",
+       "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
+       "source": "Lusaka Times",
+       "published": "2026-10-10T06:07:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Copper Queens interim coach Charles Halubono has challenged his players to show more hunger and determination following their 2-1 defeat to Uganda in the first leg of the Los Angeles 2028 Olympic qualifiers. In a post-Match press conference in Kampala, Haalubono said the Zambian "
+      }
+     ]
+    }
+   }
+  },
+  "ug-city-kampala": {
+   "label": "Kampala",
+   "level": "city",
+   "sources": {
+    "mining": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Halubono challenges Copper Queens to bounce back",
+       "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
+       "source": "Lusaka Times",
+       "published": "2026-10-10T06:07:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/10/halubono-challenges-copper-queens-to-bounce-back/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Copper Queens interim coach Charles Halubono has challenged his players to show more hunger and determination following their 2-1 defeat to Uganda in the first leg of the Los Angeles 2028 Olympic qualifiers. In a post-Match press conference in Kampala, Haalubono said the Zambian "
+      }
+     ]
+    }
+   }
+  },
   "pl": {
    "label": "Poland",
    "level": "country",
@@ -3545,34 +3871,6 @@
        "stages": [],
        "via": null,
        "blurb": "Danish mining equipment company FLSmidth (FLS) has received an order valued at approximately DKr360m ($54m) to supply crushing and grinding equipment for a copper mine expansion project in Northern Chile. The post FLSmidth secures $54m order for copper mine project in Chile appea"
-      }
-     ]
-    }
-   }
-  },
-  "ca-on": {
-   "label": "Ontario",
-   "level": "admin1",
-   "sources": {
-    "oilgas": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Kenorland, Auranova launch phase four drilling at South Uchi Project",
-       "url": "https://www.mining-technology.com/news/kenorland-auranova-south-uchi-phase-4-drilling/",
-       "source": "Mining Technology",
-       "published": "2026-10-08T09:45:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Mining Technology",
-         "url": "https://www.mining-technology.com/news/kenorland-auranova-south-uchi-phase-4-drilling/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Kenorland Minerals and Auranova Resources have launched the phase 4 diamond drilling at the South Uchi Project in Ontario’s Red Lake District, Canada. The post Kenorland, Auranova launch phase four drilling at South Uchi Project appeared first on Mining Technology ."
       }
      ]
     }

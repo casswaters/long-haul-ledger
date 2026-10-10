@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T00:47:37.947Z",
+ "generatedAt": "2026-10-10T06:41:48.043Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -165,6 +165,25 @@
        "blurb": "Karen Fili As the nuclear industry enters one of the most significant investment periods in its history, utilities are managing unprecedented capital portfolios while simultaneously preparing for long-term operation, plant modernization, extended power uprates, digital transforma"
       },
       {
+       "title": "Energy Department Announces $4.2 Billion Investment to Boost Nuclear Power and Help Lower Energy Costs in Pennsylvania and Ohio",
+       "url": "https://www.energy.gov/articles/energy-department-announces-42-billion-investment-boost-nuclear-power-and-help-lower",
+       "source": "U.S. Department of Energy",
+       "published": "2026-10-05T16:05:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "U.S. Department of Energy",
+         "url": "https://www.energy.gov/articles/energy-department-announces-42-billion-investment-boost-nuclear-power-and-help-lower",
+         "primary": true
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Today’s announcement will deliver more reliable American energy, strengthen the grid, lower costs, and meet growing power demand across the 13-state PJM Interconnection, L.L.C. region."
+      },
+      {
        "title": "Constellation, Vistra uprate deals signal fastest path to new nuclear megawatts",
        "url": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/",
        "source": "Power Engineering",
@@ -198,25 +217,6 @@
        ],
        "via": null,
        "blurb": "Google, Meta and DOE are backing more than 1.3 GW of upgrades at existing reactors, much of it in power-hungry PJM."
-      },
-      {
-       "title": "Energy Department Announces $4.2 Billion Investment to Boost Nuclear Power and Help Lower Energy Costs in Pennsylvania and Ohio",
-       "url": "https://www.energy.gov/articles/energy-department-announces-42-billion-investment-boost-nuclear-power-and-help-lower",
-       "source": "U.S. Department of Energy",
-       "published": "2026-10-05T16:05:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "U.S. Department of Energy",
-         "url": "https://www.energy.gov/articles/energy-department-announces-42-billion-investment-boost-nuclear-power-and-help-lower",
-         "primary": true
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Today’s announcement will deliver more reliable American energy, strengthen the grid, lower costs, and meet growing power demand across the 13-state PJM Interconnection, L.L.C. region."
       },
       {
        "title": "Poland begins ordering long-lead components for first AP1000",
@@ -266,12 +266,17 @@
        "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
        "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
        "source": "BBC News Business",
-       "published": "2026-10-10T00:45:51.000Z",
+       "published": "2026-10-10T04:38:20.000Z",
        "verification": "multiple",
        "outlets": [
         {
          "name": "BBC News Business",
          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-ukraine-drone-russia-oil-clip?traffic_source=rss",
          "primary": false
         },
         {
@@ -296,7 +301,7 @@
         },
         {
          "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
+         "url": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/us-sanctions-myanmar-businessman/",
          "primary": false
         },
         {
@@ -311,7 +316,7 @@
         },
         {
          "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/eurasia/putin-says-russian-diesel-supplies-to-us-global-markets-will-benefit-world-economy/4084078",
+         "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
          "primary": false
         },
         {
@@ -347,10 +352,29 @@
        "blurb": "Shell Canada has agreed to buy a 30 per cent stake in the proposed Bay du Nord oil project off the East Coast of Newfoundland from Norwegian energy giant Equinor, which will continue to lead the $14-billion development."
       },
       {
+       "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
+       "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T03:22:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "ASTRA also reported damage to a residential building in Rostov-on-Don's Donskaya Sloboda complex, identifying its location through footage posted by residents. It remained unclear what struck the building amid reports of continued drone activity and Russian air defense operations"
+      },
+      {
        "title": "Trump Says He Will Import Russian Diesel Fuel Amid High Prices",
        "url": "https://www.nytimes.com/2026/10/09/us/politics/trump-russia-diesel-putin.html",
        "source": "NYT Climate / Energy",
-       "published": "2026-10-09T22:30:39.000Z",
+       "published": "2026-10-10T03:09:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -364,6 +388,23 @@
        ],
        "via": null,
        "blurb": "President Trump said Russia had agreed to ship potentially millions of tons of diesel fuel in the coming months. But the amounts would be small relative to global demand."
+      },
+      {
+       "title": "Mexico Never Got 597,000 Barrels of US Crude, US Says",
+       "url": "https://www.riotimesonline.com/us-crude-mexico-census-correction-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-10T05:18:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/us-crude-mexico-census-correction-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A US Census Bureau correction moves a June cargo of 597,027 barrels, worth US$69.67 million, from Mexico to Singapore. Pemex says it imported no crude in 2026. The post Mexico Never Got 597,000 Barrels of US Crude, US Says appeared first on The Rio Times ."
       },
       {
        "title": "Couche-Tard buying fuel retail sites from Irving Oil in Quebec and Ontario",
@@ -385,23 +426,6 @@
        "blurb": "Alimentation Couche-Tard Inc. has announced a deal to buy dozens of retail sites from Irving Oil in Quebec and Ontario."
       },
       {
-       "title": "Trump announces Russian diesel deal amid soaring US fuel prices",
-       "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-09T19:47:33.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Russia to supply 300,000 tonnes of diesel immediately, followed by 1.5 million more, as prices soar amid the Iran war."
-      },
-      {
        "title": "Govt reduces petrol price by Re0.66 per litre, raises high-speed diesel rate by Re0.52",
        "url": "https://www.dawn.com/news/2035954/govt-reduces-petrol-price-by-re066-per-litre-raises-high-speed-diesel-rate-by-re052",
        "source": "Dawn Business",
@@ -417,6 +441,23 @@
        "stages": [],
        "via": null,
        "blurb": "body{margin:0;padding:0;font-family:system-ui,-apple-system,sans-serif;overflow-wrap:anywhere;} Pakistan fuel prices, 2026 Official ex-depot prices (PKR/litre) — OGRA & Ministry of Energy notifications Petrol (MS-92) Diesel (HSD) Pre-crisis baseline Source: OGRA / Ministry of Ene"
+      },
+      {
+       "title": "Euro falls, set for fifth straight weekly drop as oil prices rise",
+       "url": "https://www.channelnewsasia.com/business/euro-falls-set-fifth-straight-weekly-drop-oil-prices-rise-6444831",
+       "source": "CNA Business",
+       "published": "2026-10-09T15:23:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/euro-falls-set-fifth-straight-weekly-drop-oil-prices-rise-6444831",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
       },
       {
        "title": "Northern California Community Wants Stronger Oversight of Dangerous Refineries Nearby",
@@ -438,23 +479,6 @@
        "blurb": "MARTINEZ, Calif.—Scores of people tired of living near accident-prone refineries packed an elementary school auditorium to hear what their government officials were doing to protect them. Two local refineries, Marathon Martinez Renewables and Martinez Refining Co., have racked up"
       },
       {
-       "title": "Euro falls, set for fifth straight weekly drop as oil prices rise",
-       "url": "https://www.channelnewsasia.com/business/euro-falls-set-fifth-straight-weekly-drop-oil-prices-rise-6444831",
-       "source": "CNA Business",
-       "published": "2026-10-09T15:23:13.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/euro-falls-set-fifth-straight-weekly-drop-oil-prices-rise-6444831",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
        "title": "Looking for Oil in Alaska, No Environmental Strings Attached",
        "url": "https://insideclimatenews.org/news/09102026/bureau-of-land-management-accelerates-arctic-oil-exploration-permit/",
        "source": "Inside Climate News",
@@ -470,6 +494,23 @@
        "stages": [],
        "via": null,
        "blurb": "Oil companies will no longer be required to conduct environmental reviews before exploring for fossil fuel reservoirs in the Western Arctic, the largest tract of federally managed public land in the United States. The Bureau of Land Management announced a categorical exclusion un"
+      },
+      {
+       "title": "As oil prices rise, RBI opens special window for PSU oil firms to meet their daily dollar need",
+       "url": "https://www.thehindu.com/business/as-oil-prices-rise-rbi-opens-special-window-for-psu-oil-firms-tomeet-their-daily-dollar-need/article71567121.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-10T05:28:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/as-oil-prices-rise-rbi-opens-special-window-for-psu-oil-firms-tomeet-their-daily-dollar-need/article71567121.ece",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The facility will come in effect from October 12, 2026 and will remain in place until further notice, the central bank added"
       },
       {
        "title": "Michigan Spill Prompts Federal Probe of Energy Transfer Pipelines’ Safety",
@@ -489,65 +530,12 @@
        ],
        "via": null,
        "blurb": "A crude oil pipeline spill last month in the Detroit suburbs has prompted federal authorities to open an investigation into the safety of all 20,000 miles of hazardous liquids pipelines operated by Energy Transfer. The 600-gallon spill at a commercial intersection in Sterling Hei"
-      },
-      {
-       "title": "‘Obvious weakness’: Zelenskyy criticizes Trump-Putin diesel deal over lack of de-escalation",
-       "url": "https://www.aa.com.tr/en/eurasia/-obvious-weakness-zelenskyy-criticizes-trump-putin-diesel-deal-over-lack-of-de-escalation/4084075",
-       "source": "Anadolu Agency Economy",
-       "published": "2026-10-09T20:38:02.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/eurasia/-obvious-weakness-zelenskyy-criticizes-trump-putin-diesel-deal-over-lack-of-de-escalation/4084075",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Ukrainian president warns easing sanctions to allow Russian petroleum exports would prolong war"
-      },
-      {
-       "title": "Atiku asks Tinubu to “step down” over economic hardship, says 30-day petrol discount exposes policy failure",
-       "url": "https://www.premiumtimesng.com/news/headlines/915747-atiku-asks-tinubu-to-step-down-over-economic-hardship-says-30-day-petrol-discount-exposes-policy-failure.html",
-       "source": "Premium Times (Nigeria)",
-       "published": "2026-10-09T20:33:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Premium Times (Nigeria)",
-         "url": "https://www.premiumtimesng.com/news/headlines/915747-atiku-asks-tinubu-to-step-down-over-economic-hardship-says-30-day-petrol-discount-exposes-policy-failure.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "“Bola, 30 days cannot erase three and a half years of hardship. Nigerians have heard your excuses and endured your failed promises. They are ready to judge your record. After this latest admission of failure, the honourable thing to do is step down. Nigerians deserve a government"
       }
      ]
     },
     "gas": {
      "brief": "ready",
      "candidates": [
-      {
-       "title": "What Plunging Spot Prices Could Mean for Natural Gas Futures",
-       "url": "https://naturalgasintel.com/news/what-plunging-spot-prices-could-mean-for-natural-gas-futures/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-09T21:14:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/what-plunging-spot-prices-could-mean-for-natural-gas-futures/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A nearly nationwide collapse in natural gas spot prices on Friday reflected light shoulder season demand, and signalled that bullish sentiment underpinning the futures market could soon erode."
-      },
       {
        "title": "Bio-LNG could ensure Singapore’s energy resilience amid global disruptions: Tan See Leng",
        "url": "https://www.straitstimes.com/business/bio-lng-could-ensure-singapores-energy-resilience-amid-global-disruptions-tan-see-leng",
@@ -564,6 +552,23 @@
        "stages": [],
        "via": null,
        "blurb": "This needs to come alongside progress on decarbonisation, the minister said."
+      },
+      {
+       "title": "What Plunging Spot Prices Could Mean for Natural Gas Futures",
+       "url": "https://naturalgasintel.com/news/what-plunging-spot-prices-could-mean-for-natural-gas-futures/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-09T21:14:20.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/what-plunging-spot-prices-could-mean-for-natural-gas-futures/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A nearly nationwide collapse in natural gas spot prices on Friday reflected light shoulder season demand, and signalled that bullish sentiment underpinning the futures market could soon erode."
       },
       {
        "title": "Australia to Release Final Plan to Keep More LNG at Home",
@@ -844,25 +849,6 @@
        "stages": [],
        "via": null,
        "blurb": "Study says UK-based banks provided $8.3bn in coal financing in four years, with Barclays and HSBC leading rise UK banks are Europe’s biggest financial backers of the global coal industry, providing billions of pounds in funding for the climate-wrecking fossil fuel in the past fou"
-      },
-      {
-       "title": "Approval of biggest coal project in NSW planning commission’s history described as ‘infamous betrayal’",
-       "url": "https://www.theguardian.com/australia-news/2026/sep/30/hunter-valley-coal-project-singleton-ipc-planning-decision",
-       "source": "The Guardian Energy",
-       "published": "2026-09-30T05:48:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/australia-news/2026/sep/30/hunter-valley-coal-project-singleton-ipc-planning-decision",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Independent Planning Commission says climate change impacts from Hunter Valley project will be ‘outweighed’ by economic benefits Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast The New South Wales independent pla"
       }
      ]
     },
@@ -1112,6 +1098,23 @@
      "brief": "ready",
      "candidates": [
       {
+       "title": "Australia backs goal of 150 million new rooftop solar systems globally by 2030",
+       "url": "https://www.pv-magazine.com/2026/10/10/australia-backs-goal-of-150-million-new-rooftop-solar-systems-globally-by-2030/",
+       "source": "pv magazine",
+       "published": "2026-10-10T05:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/10/australia-backs-goal-of-150-million-new-rooftop-solar-systems-globally-by-2030/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Australia has endorsed a global plan to double the number of homes in the world with rooftop solar, from 150 to 300 million by 2030 via the Global Rooftop Solar Declaration announced at the 2026 Pacific Pre-COP meeting in Fiji. The post Australia backs goal of 150 million new roo"
+      },
+      {
        "title": "Grenergy obtains $457m in financing for Chile solar and storage projects",
        "url": "https://www.power-technology.com/news/grenergy-457m-chile-solar-storage/",
        "source": "Power Technology",
@@ -1333,23 +1336,6 @@
        ],
        "via": null,
        "blurb": "Spanish researchers have developed an optical cavity that reduces Boltzmann losses in organic solar cells by restricting photon emission angles. The approach could help push single-junction solar cell efficiencies beyond the Shockley-Queisser limit. The post Spanish researchers r"
-      },
-      {
-       "title": "China wafer prices hold steady amid divergent output plans and looming polysilicon cuts",
-       "url": "https://www.pv-magazine.com/2026/10/09/china-wafer-prices-hold-steady-amid-divergent-output-plans-and-looming-polysilicon-cuts/",
-       "source": "pv magazine",
-       "published": "2026-10-09T10:58:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/09/china-wafer-prices-hold-steady-amid-divergent-output-plans-and-looming-polysilicon-cuts/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "In a new weekly update for pv magazine , OPIS, a Dow Jones company, provides a quick look at the main price trends in the global PV industry. The post China wafer prices hold steady amid divergent output plans and looming polysilicon cuts appeared first on pv magazine Global ."
       }
      ]
     },
@@ -1952,23 +1938,6 @@
        "blurb": ""
       },
       {
-       "title": "Is the future of commuter rail battery powered? — This Week in Cleantech",
-       "url": "https://www.renewableenergyworld.com/energy-storage/battery/is-the-future-of-commuter-rail-battery-powered-this-week-in-cleantech/",
-       "source": "Hydro Review",
-       "published": "2026-10-09T16:22:49.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Hydro Review",
-         "url": "https://www.renewableenergyworld.com/energy-storage/battery/is-the-future-of-commuter-rail-battery-powered-this-week-in-cleantech/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "On this episode of the This Week in Cleantech podcast, Benton Graham from Grist discusses the Massachusetts Bay Transportation Authority's plans to electrify Boston’s Fairmount Line with battery-powered trains."
-      },
-      {
        "title": "Renault Kangoo E-Tech gains 52kW/h battery and 354km range",
        "url": "https://www.automotiveworld.com/news/renault-kangoo-e-tech-gains-52kw-h-battery-and-354km-range/",
        "source": "Automotive World",
@@ -1984,6 +1953,23 @@
        "stages": [],
        "via": null,
        "blurb": "Sharing batteries and motors with the Renault 5 lets Renault refresh its electric vans with hardware already proven in its cars The post Renault Kangoo E-Tech gains 52kW/h battery and 354km range appeared first on Automotive World ."
+      },
+      {
+       "title": "Is the future of commuter rail battery powered? — This Week in Cleantech",
+       "url": "https://www.renewableenergyworld.com/energy-storage/battery/is-the-future-of-commuter-rail-battery-powered-this-week-in-cleantech/",
+       "source": "Hydro Review",
+       "published": "2026-10-09T16:22:49.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Hydro Review",
+         "url": "https://www.renewableenergyworld.com/energy-storage/battery/is-the-future-of-commuter-rail-battery-powered-this-week-in-cleantech/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "On this episode of the This Week in Cleantech podcast, Benton Graham from Grist discusses the Massachusetts Bay Transportation Authority's plans to electrify Boston’s Fairmount Line with battery-powered trains."
       }
      ]
     }
@@ -2159,6 +2145,11 @@
          "primary": false
         },
         {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-ukraine-drone-russia-oil-clip?traffic_source=rss",
+         "primary": false
+        },
+        {
          "name": "MercoPress",
          "url": "https://en.mercopress.com/2026/10/09/trump-says-russia-will-supply-millions-of-tonnes-of-diesel-as-us-eases-sanctions-on-moscow?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
          "primary": false
@@ -2180,7 +2171,7 @@
         },
         {
          "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
+         "url": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/us-sanctions-myanmar-businessman/",
          "primary": false
         },
         {
@@ -2195,7 +2186,7 @@
         },
         {
          "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/eurasia/putin-says-russian-diesel-supplies-to-us-global-markets-will-benefit-world-economy/4084078",
+         "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
          "primary": false
         },
         {
@@ -2206,7 +2197,24 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "US President Donald Trump on Friday said Russia has agreed to supply millions of barrels of diesel to global markets after a call with President Vladimir Putin. The move comes as Mr Trump faces growing domestic political pressure to bring down rising diesel prices – caused by sup"
+       "blurb": "US President Donald Trump on Friday said Russia had agreed to supply millions of barrels of diesel to global markets after a call with President Vladimir Putin. The move comes as Mr Trump faces growing domestic political pressure to bring down rising diesel prices – caused by sup"
+      },
+      {
+       "title": "Mexico Never Got 597,000 Barrels of US Crude, US Says",
+       "url": "https://www.riotimesonline.com/us-crude-mexico-census-correction-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-10T05:18:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/us-crude-mexico-census-correction-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A US Census Bureau correction moves a June cargo of 597,027 barrels, worth US$69.67 million, from Mexico to Singapore. Pemex says it imported no crude in 2026. The post Mexico Never Got 597,000 Barrels of US Crude, US Says appeared first on The Rio Times ."
       },
       {
        "title": "Northern California Community Wants Stronger Oversight of Dangerous Refineries Nearby",
@@ -2262,23 +2270,6 @@
        ],
        "via": null,
        "blurb": "A crude oil pipeline spill last month in the Detroit suburbs has prompted federal authorities to open an investigation into the safety of all 20,000 miles of hazardous liquids pipelines operated by Energy Transfer. The 600-gallon spill at a commercial intersection in Sterling Hei"
-      },
-      {
-       "title": "Trump announces Russian diesel deal amid soaring US fuel prices",
-       "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-09T19:47:33.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Russia to supply 300,000 tonnes of diesel immediately, followed by 1.5 million more, as prices soar amid the Iran war."
       },
       {
        "title": "USA Crude Oil Stocks Drop Over 3MM Barrels Week on Week",
@@ -2388,23 +2379,6 @@
        "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
       },
       {
-       "title": "EIA Boosts Oil Price Forecast by $5 in 2026, $10 in 2027",
-       "url": "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-08T14:32:46.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The U.S. Energy Information Administration raised its 2026 Brent crude oil spot price forecast by more than $5 per barrel and its 2027 Brent price forecast by $10 per barrel."
-      },
-      {
        "title": "EIA: US crude oil inventories down 3.2 million bbl",
        "url": "https://www.ogj.com/general-interest/economics-markets/news/55410217/eia-us-crude-oil-inventories-down-32-million-bbl",
        "source": "Oil & Gas Journal",
@@ -2420,6 +2394,23 @@
        "stages": [],
        "via": null,
        "blurb": "At 424.1 million bbl, US crude oil inventories are 1% above the 5-year average for this time of year, the Energy Information Administration report indicated."
+      },
+      {
+       "title": "EIA Boosts Oil Price Forecast by $5 in 2026, $10 in 2027",
+       "url": "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-08T14:32:46.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/?rss=true",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The U.S. Energy Information Administration raised its 2026 Brent crude oil spot price forecast by more than $5 per barrel and its 2027 Brent price forecast by $10 per barrel."
       }
      ]
     },
@@ -2543,25 +2534,6 @@
        "blurb": "The prospect of a historically strong El Niño is raising questions about US natural gas heating demand this winter, but expanding LNG exports, subdued production and the potential for regional supply constraints are complicating the market outlook."
       },
       {
-       "title": "Pipeline Constraints Keep New England January Natural Gas Forwards Above $20",
-       "url": "https://naturalgasintel.com/news/pipeline-constraints-keep-new-england-january-natural-gas-forwards-above-20/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-09T12:56:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/pipeline-constraints-keep-new-england-january-natural-gas-forwards-above-20/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "New England natural gas forwards are topping $20/MMBtu for January 2027 at several key hubs, even as Henry Hub trades below $4 and expectations for ample US supplies point to a relatively comfortable winter market."
-      },
-      {
        "title": "Power LNG takes step forward with Pelican Island facility",
        "url": "https://lngprime.com/americas/power-lng-takes-step-forward-with-pelican-island-facility/198182/",
        "source": "LNG Prime",
@@ -2598,6 +2570,25 @@
        ],
        "via": null,
        "blurb": "U.S. natural gas production hit an all-time high in July 2026, driven primarily by increased output in the Permian Basin, according to our latest Natural Gas Monthly."
+      },
+      {
+       "title": "Pipeline Constraints Keep New England January Natural Gas Forwards Above $20",
+       "url": "https://naturalgasintel.com/news/pipeline-constraints-keep-new-england-january-natural-gas-forwards-above-20/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-09T12:56:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/pipeline-constraints-keep-new-england-january-natural-gas-forwards-above-20/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "New England natural gas forwards are topping $20/MMBtu for January 2027 at several key hubs, even as Henry Hub trades below $4 and expectations for ample US supplies point to a relatively comfortable winter market."
       },
       {
        "title": "‘We Are Seen as Disposable’: Rural Residents Fight a Proposed Gas Pipeline",
@@ -3964,6 +3955,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "As oil prices rise, RBI opens special window for PSU oil firms to meet their daily dollar need",
+       "url": "https://www.thehindu.com/business/as-oil-prices-rise-rbi-opens-special-window-for-psu-oil-firms-tomeet-their-daily-dollar-need/article71567121.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-10T05:28:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/as-oil-prices-rise-rbi-opens-special-window-for-psu-oil-firms-tomeet-their-daily-dollar-need/article71567121.ece",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The facility will come in effect from October 12, 2026 and will remain in place until further notice, the central bank added"
+      },
+      {
        "title": "Dangote taps EIL for Kenya grassroots refinery project",
        "url": "https://www.ogj.com/refining-processing/news/55410915/dangote-taps-eil-for-kenya-grassroots-refinery-project",
        "source": "Oil & Gas Journal",
@@ -4351,23 +4359,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "‘Lawyers should be running to courts’ to stop coal approvals after landmark ruling, NSW MP says",
-       "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
-       "source": "The Guardian Energy",
-       "published": "2026-10-07T07:24:31.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "High court finding in favour of Hunter Valley community group sets precedent other environmentalists should follow, advocate says Get our new political email , free app or daily news podcast A landmark decision in Australia’s first climate change high court case has been describe"
-      },
-      {
        "title": "Australia and Turkey criticised for hosting UN climate conference while embracing coal",
        "url": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
        "source": "The Guardian Energy",
@@ -4385,6 +4376,23 @@
        "blurb": "Global campaign group 350.org urges Cop31 hosts to announce a coal phase-out date and national roadmaps to get off fossil fuels Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here The hosts of the next major United Nations climate conference, T"
       },
       {
+       "title": "‘Lawyers should be running to courts’ to stop coal approvals after landmark ruling, NSW MP says",
+       "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
+       "source": "The Guardian Energy",
+       "published": "2026-10-07T07:24:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "High court finding in favour of Hunter Valley community group sets precedent other environmentalists should follow, advocate says Get our new political email , free app or daily news podcast A landmark decision in Australia’s first climate change high court case has been describe"
+      },
+      {
        "title": "Overseas, Albanese sees ‘the very definition of climate injustice’ – but at home, he still wants coal",
        "url": "https://www.theguardian.com/environment/2026/oct/08/overseas-albanese-sees-the-very-definition-of-climate-injustice-but-at-home-he-still-wants-coal",
        "source": "The Guardian Energy",
@@ -4400,25 +4408,6 @@
        "stages": [],
        "via": null,
        "blurb": "It isn’t hard to see a contradiction between the PM’s message in Fiji and his opposition to legal action to stop a NSW coalmine Get our new political email , free app or daily news podcast There are unlikely to be many bigger moments in Australian community action on the climate "
-      },
-      {
-       "title": "Approval of biggest coal project in NSW planning commission’s history described as ‘infamous betrayal’",
-       "url": "https://www.theguardian.com/australia-news/2026/sep/30/hunter-valley-coal-project-singleton-ipc-planning-decision",
-       "source": "The Guardian Energy",
-       "published": "2026-09-30T05:48:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/australia-news/2026/sep/30/hunter-valley-coal-project-singleton-ipc-planning-decision",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Independent Planning Commission says climate change impacts from Hunter Valley project will be ‘outweighed’ by economic benefits Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast The New South Wales independent pla"
       }
      ]
     },
@@ -4449,6 +4438,23 @@
     "solar": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Australia backs goal of 150 million new rooftop solar systems globally by 2030",
+       "url": "https://www.pv-magazine.com/2026/10/10/australia-backs-goal-of-150-million-new-rooftop-solar-systems-globally-by-2030/",
+       "source": "pv magazine",
+       "published": "2026-10-10T05:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/10/australia-backs-goal-of-150-million-new-rooftop-solar-systems-globally-by-2030/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Australia has endorsed a global plan to double the number of homes in the world with rooftop solar, from 150 to 300 million by 2030 via the Global Rooftop Solar Declaration announced at the 2026 Pacific Pre-COP meeting in Fiji. The post Australia backs goal of 150 million new roo"
+      },
       {
        "title": "Australia backs goal to double global residential rooftop solar installations by 2030",
        "url": "https://www.pv-tech.org/australia-backs-goal-double-global-residential-rooftop-solar-installations-2030/",
@@ -4909,6 +4915,28 @@
    "label": "Singapore",
    "level": "country",
    "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Mexico Never Got 597,000 Barrels of US Crude, US Says",
+       "url": "https://www.riotimesonline.com/us-crude-mexico-census-correction-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-10T05:18:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/us-crude-mexico-census-correction-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A US Census Bureau correction moves a June cargo of 597,027 barrels, worth US$69.67 million, from Mexico to Singapore. Pemex says it imported no crude in 2026. The post Mexico Never Got 597,000 Barrels of US Crude, US Says appeared first on The Rio Times ."
+      }
+     ]
+    },
     "gas": {
      "brief": "missing",
      "candidates": [
@@ -5322,28 +5350,6 @@
       }
      ]
     },
-    "solar": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "China wafer prices hold steady amid divergent output plans and looming polysilicon cuts",
-       "url": "https://www.pv-magazine.com/2026/10/09/china-wafer-prices-hold-steady-amid-divergent-output-plans-and-looming-polysilicon-cuts/",
-       "source": "pv magazine",
-       "published": "2026-10-09T10:58:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/09/china-wafer-prices-hold-steady-amid-divergent-output-plans-and-looming-polysilicon-cuts/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "In a new weekly update for pv magazine , OPIS, a Dow Jones company, provides a quick look at the main price trends in the global PV industry. The post China wafer prices hold steady amid divergent output plans and looming polysilicon cuts appeared first on pv magazine Global ."
-      }
-     ]
-    },
     "emerging": {
      "brief": "missing",
      "candidates": [
@@ -5705,6 +5711,28 @@
    "label": "Mexico",
    "level": "country",
    "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Mexico Never Got 597,000 Barrels of US Crude, US Says",
+       "url": "https://www.riotimesonline.com/us-crude-mexico-census-correction-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-10T05:18:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/us-crude-mexico-census-correction-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A US Census Bureau correction moves a June cargo of 597,027 barrels, worth US$69.67 million, from Mexico to Singapore. Pemex says it imported no crude in 2026. The post Mexico Never Got 597,000 Barrels of US Crude, US Says appeared first on The Rio Times ."
+      }
+     ]
+    },
     "gas": {
      "brief": "missing",
      "candidates": [
@@ -5798,6 +5826,23 @@
        "blurb": "More than 1,300 people from 65 countries gathered in London in September for the 2026 World Nuclear Symposium. The World Nuclear News team was there and bring you reports from a range of the discussions and speeches which took place."
       },
       {
+       "title": "Green party drops longstanding opposition to nuclear power",
+       "url": "https://www.theguardian.com/politics/2026/oct/05/green-party-nuclear-power-policy",
+       "source": "The Guardian Energy",
+       "published": "2026-10-05T15:53:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/politics/2026/oct/05/green-party-nuclear-power-policy",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Party in England and Wales ditches commitment to phase out nuclear in major shift in its energy policy Green party members have voted to end the party’s opposition to nuclear power, dropping a commitment to phase out the technology in a major shift in its energy policy. The motio"
+      },
+      {
        "title": "General Fusion reports electron temperatures exceeding 1 keV",
        "url": "https://www.ans.org/news/2026-10-09/article-8478/general-fusion-reports-electron-temperatures-exceeding-1-kev/",
        "source": "ANS Nuclear Newswire",
@@ -5815,23 +5860,6 @@
        ],
        "via": null,
        "blurb": "General Fusion announced it has achieved compressional plasma heating that produced electron temperatures exceeding 1 keV, measured using Thomson scattering in collaboration with the U.K. Atomic Energy Authority. The 1 keV threshold is regarded as a key milestone, because it demo"
-      },
-      {
-       "title": "Green party drops longstanding opposition to nuclear power",
-       "url": "https://www.theguardian.com/politics/2026/oct/05/green-party-nuclear-power-policy",
-       "source": "The Guardian Energy",
-       "published": "2026-10-05T15:53:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/politics/2026/oct/05/green-party-nuclear-power-policy",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Party in England and Wales ditches commitment to phase out nuclear in major shift in its energy policy Green party members have voted to end the party’s opposition to nuclear power, dropping a commitment to phase out the technology in a major shift in its energy policy. The motio"
       }
      ]
     },
@@ -5856,23 +5884,6 @@
        "blurb": "Malvinas ultimatum set to expire, government to take UK to world maritime tribunal; Navitas Petroleum and Rockhopper maintain plans to develop Sea Lion project north of the archipelago. Leer más"
       },
       {
-       "title": "Shell to take a slice of Equinor's $10 billion oil project in Canada",
-       "url": "https://offshore-energy.biz/2026/10/09/shell-to-take-a-slice-of-equinors-dollar10-billion-oil-project-in-canada",
-       "source": "Offshore Energy",
-       "published": "2026-10-09T12:40:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Offshore Energy",
-         "url": "https://offshore-energy.biz/2026/10/09/shell-to-take-a-slice-of-equinors-dollar10-billion-oil-project-in-canada",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Shell Canada Energy, an affiliate of UK-headquartered energy giant Shell, has reached an agreement with Norway's Equinor to acquire a 30%..."
-      },
-      {
        "title": "U.K. Expands Sanctions to Cover 90% of Russian Oil Output, Shadow Fleet and Finance Networks",
        "url": "https://www.themoscowtimes.com/2026/10/08/uk-expands-sanctions-to-cover-90-of-russian-oil-output-shadow-fleet-and-finance-networks-a93922",
        "source": "The Moscow Times",
@@ -5890,6 +5901,23 @@
        ],
        "via": null,
        "blurb": "The sanctions come on the heels of the EU approving another sanctions package Wednesday."
+      },
+      {
+       "title": "Shell to take a slice of Equinor's $10 billion oil project in Canada",
+       "url": "https://offshore-energy.biz/2026/10/09/shell-to-take-a-slice-of-equinors-dollar10-billion-oil-project-in-canada",
+       "source": "Offshore Energy",
+       "published": "2026-10-09T12:40:44.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/09/shell-to-take-a-slice-of-equinors-dollar10-billion-oil-project-in-canada",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Shell Canada Energy, an affiliate of UK-headquartered energy giant Shell, has reached an agreement with Norway's Equinor to acquire a 30%..."
       },
       {
        "title": "New UK gas and oil projects are a ‘no-brainer’, says EDF boss",
@@ -6257,23 +6285,6 @@
        ],
        "via": null,
        "blurb": "Crude posted its biggest gain in a month amid Middle East tensions and hurricane-related production cuts."
-      },
-      {
-       "title": "Trump announces Russian diesel deal amid soaring US fuel prices",
-       "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-09T19:47:33.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Russia to supply 300,000 tonnes of diesel immediately, followed by 1.5 million more, as prices soar amid the Iran war."
       },
       {
        "title": "Gulf economies to shrink despite higher oil prices as Iran war takes toll, World Bank says",
@@ -7115,28 +7126,6 @@
       }
      ]
     },
-    "solar": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Solar panel mounting firm’s former CEO set up rival business, court hears",
-       "url": "https://www.irishtimes.com/business/2026/10/09/solar-panel-mounting-firms-former-ceo-set-up-rival-business-court-hears/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-09T04:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/2026/10/09/solar-panel-mounting-firms-former-ceo-set-up-rival-business-court-hears/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Judge grants orders at ex-parte hearing for preservation of company’s property and documents"
-      }
-     ]
-    },
     "geothermal": {
      "brief": "missing",
      "candidates": [
@@ -7236,6 +7225,56 @@
        ],
        "via": null,
        "blurb": "Deployable Energy's Unity demonstration reactor has been selected by the US Department of Energy's National Reactor Innovation Center for testing inside the Demonstration of Microreactor Experiments, or DOME, testbed at the Idaho National Laboratory in 2027."
+      }
+     ]
+    }
+   }
+  },
+  "fj": {
+   "label": "Fiji",
+   "level": "country",
+   "sources": {
+    "coal": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Overseas, Albanese sees ‘the very definition of climate injustice’ – but at home, he still wants coal",
+       "url": "https://www.theguardian.com/environment/2026/oct/08/overseas-albanese-sees-the-very-definition-of-climate-injustice-but-at-home-he-still-wants-coal",
+       "source": "The Guardian Energy",
+       "published": "2026-10-07T14:00:52.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/environment/2026/oct/08/overseas-albanese-sees-the-very-definition-of-climate-injustice-but-at-home-he-still-wants-coal",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "It isn’t hard to see a contradiction between the PM’s message in Fiji and his opposition to legal action to stop a NSW coalmine Get our new political email , free app or daily news podcast There are unlikely to be many bigger moments in Australian community action on the climate "
+      }
+     ]
+    },
+    "solar": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Australia backs goal of 150 million new rooftop solar systems globally by 2030",
+       "url": "https://www.pv-magazine.com/2026/10/10/australia-backs-goal-of-150-million-new-rooftop-solar-systems-globally-by-2030/",
+       "source": "pv magazine",
+       "published": "2026-10-10T05:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/10/australia-backs-goal-of-150-million-new-rooftop-solar-systems-globally-by-2030/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Australia has endorsed a global plan to double the number of homes in the world with rooftop solar, from 150 to 300 million by 2030 via the Global Rooftop Solar Declaration announced at the 2026 Pacific Pre-COP meeting in Fiji. The post Australia backs goal of 150 million new roo"
       }
      ]
     }
@@ -7725,12 +7764,17 @@
        "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
        "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
        "source": "BBC News Business",
-       "published": "2026-10-10T00:45:51.000Z",
+       "published": "2026-10-10T04:38:20.000Z",
        "verification": "multiple",
        "outlets": [
         {
          "name": "BBC News Business",
          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-ukraine-drone-russia-oil-clip?traffic_source=rss",
          "primary": false
         },
         {
@@ -7755,7 +7799,7 @@
         },
         {
          "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
+         "url": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/us-sanctions-myanmar-businessman/",
          "primary": false
         },
         {
@@ -7770,7 +7814,7 @@
         },
         {
          "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/eurasia/putin-says-russian-diesel-supplies-to-us-global-markets-will-benefit-world-economy/4084078",
+         "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
          "primary": false
         },
         {
@@ -7784,10 +7828,29 @@
        "blurb": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\"."
       },
       {
+       "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
+       "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T03:22:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "ASTRA also reported damage to a residential building in Rostov-on-Don's Donskaya Sloboda complex, identifying its location through footage posted by residents. It remained unclear what struck the building amid reports of continued drone activity and Russian air defense operations"
+      },
+      {
        "title": "Trump Says He Will Import Russian Diesel Fuel Amid High Prices",
        "url": "https://www.nytimes.com/2026/10/09/us/politics/trump-russia-diesel-putin.html",
        "source": "NYT Climate / Energy",
-       "published": "2026-10-09T22:30:39.000Z",
+       "published": "2026-10-10T03:09:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -7801,23 +7864,6 @@
        ],
        "via": null,
        "blurb": "President Trump said Russia had agreed to ship potentially millions of tons of diesel fuel in the coming months. But the amounts would be small relative to global demand."
-      },
-      {
-       "title": "Trump announces Russian diesel deal amid soaring US fuel prices",
-       "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-09T19:47:33.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Russia to supply 300,000 tonnes of diesel immediately, followed by 1.5 million more, as prices soar amid the Iran war."
       },
       {
        "title": "Rosneft Recruits Anti-Aircraft Gun Crews to Defend Samara Refinery Against Ukrainian Drones – Vyorstka",
@@ -8390,15 +8436,20 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
-       "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-       "source": "BBC News Business",
-       "published": "2026-10-10T00:45:51.000Z",
+       "title": "Hours after Trump-Putin diesel deal, Ukraine strikes Russian fuel site",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-ukraine-drone-russia-oil-clip?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-10T04:30:34.000Z",
        "verification": "multiple",
        "outlets": [
         {
          "name": "BBC News Business",
          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-ukraine-drone-russia-oil-clip?traffic_source=rss",
          "primary": false
         },
         {
@@ -8423,7 +8474,7 @@
         },
         {
          "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
+         "url": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/us-sanctions-myanmar-businessman/",
          "primary": false
         },
         {
@@ -8438,7 +8489,7 @@
         },
         {
          "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/eurasia/putin-says-russian-diesel-supplies-to-us-global-markets-will-benefit-world-economy/4084078",
+         "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
          "primary": false
         },
         {
@@ -8449,7 +8500,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\"."
+       "blurb": "Ukraine bombed a Russian fuel site, hours after US President Trump and Russian President Putin announced a diesel deal."
       },
       {
        "title": "Ukraine Says It Attacked 4th Russian Refinery This Week",
@@ -8831,34 +8882,6 @@
     }
    }
   },
-  "fj": {
-   "label": "Fiji",
-   "level": "country",
-   "sources": {
-    "coal": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Overseas, Albanese sees ‘the very definition of climate injustice’ – but at home, he still wants coal",
-       "url": "https://www.theguardian.com/environment/2026/oct/08/overseas-albanese-sees-the-very-definition-of-climate-injustice-but-at-home-he-still-wants-coal",
-       "source": "The Guardian Energy",
-       "published": "2026-10-07T14:00:52.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/environment/2026/oct/08/overseas-albanese-sees-the-very-definition-of-climate-injustice-but-at-home-he-still-wants-coal",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "It isn’t hard to see a contradiction between the PM’s message in Fiji and his opposition to legal action to stop a NSW coalmine Get our new political email , free app or daily news podcast There are unlikely to be many bigger moments in Australian community action on the climate "
-      }
-     ]
-    }
-   }
-  },
   "br": {
    "label": "Brazil",
    "level": "country",
@@ -9003,6 +9026,66 @@
     }
    }
   },
+  "ru-ro": {
+   "label": "Rostov",
+   "level": "admin1",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
+       "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T03:22:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "ASTRA also reported damage to a residential building in Rostov-on-Don's Donskaya Sloboda complex, identifying its location through footage posted by residents. It remained unclear what struck the building amid reports of continued drone activity and Russian air defense operations"
+      }
+     ]
+    }
+   }
+  },
+  "ru-city-rostov": {
+   "label": "Rostov",
+   "level": "city",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
+       "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T03:22:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "ASTRA also reported damage to a residential building in Rostov-on-Don's Donskaya Sloboda complex, identifying its location through footage posted by residents. It remained unclear what struck the building amid reports of continued drone activity and Russian air defense operations"
+      }
+     ]
+    }
+   }
+  },
   "ca-qc": {
    "label": "Québec",
    "level": "admin1",
@@ -9083,6 +9166,11 @@
          "primary": false
         },
         {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-ukraine-drone-russia-oil-clip?traffic_source=rss",
+         "primary": false
+        },
+        {
          "name": "MercoPress",
          "url": "https://en.mercopress.com/2026/10/09/trump-says-russia-will-supply-millions-of-tonnes-of-diesel-as-us-eases-sanctions-on-moscow?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
          "primary": false
@@ -9104,7 +9192,7 @@
         },
         {
          "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
+         "url": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/us-sanctions-myanmar-businessman/",
          "primary": false
         },
         {
@@ -9119,7 +9207,7 @@
         },
         {
          "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/eurasia/putin-says-russian-diesel-supplies-to-us-global-markets-will-benefit-world-economy/4084078",
+         "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
          "primary": false
         },
         {
@@ -9156,6 +9244,11 @@
          "primary": false
         },
         {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-ukraine-drone-russia-oil-clip?traffic_source=rss",
+         "primary": false
+        },
+        {
          "name": "MercoPress",
          "url": "https://en.mercopress.com/2026/10/09/trump-says-russia-will-supply-millions-of-tonnes-of-diesel-as-us-eases-sanctions-on-moscow?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
          "primary": false
@@ -9177,7 +9270,7 @@
         },
         {
          "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
+         "url": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/us-sanctions-myanmar-businessman/",
          "primary": false
         },
         {
@@ -9192,7 +9285,7 @@
         },
         {
          "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/eurasia/putin-says-russian-diesel-supplies-to-us-global-markets-will-benefit-world-economy/4084078",
+         "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
          "primary": false
         },
         {
@@ -9447,36 +9540,6 @@
        ],
        "via": null,
        "blurb": "Argentina and the UK once fought a war over the Falkland Islands. Now, the multibillion-dollar Sea Lion oil project has reignited old tensions, with Buenos Aires seeking to put a stop to the plans."
-      }
-     ]
-    }
-   }
-  },
-  "au-ns": {
-   "label": "New South Wales",
-   "level": "admin1",
-   "sources": {
-    "coal": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Approval of biggest coal project in NSW planning commission’s history described as ‘infamous betrayal’",
-       "url": "https://www.theguardian.com/australia-news/2026/sep/30/hunter-valley-coal-project-singleton-ipc-planning-decision",
-       "source": "The Guardian Energy",
-       "published": "2026-09-30T05:48:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/australia-news/2026/sep/30/hunter-valley-coal-project-singleton-ipc-planning-decision",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Independent Planning Commission says climate change impacts from Hunter Valley project will be ‘outweighed’ by economic benefits Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast The New South Wales independent pla"
       }
      ]
     }

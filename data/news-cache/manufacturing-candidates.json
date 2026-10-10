@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T00:47:58.052Z",
+ "generatedAt": "2026-10-10T06:42:09.453Z",
  "sector": "manufacturing",
  "maxAgeDays": 10,
  "places": {
@@ -118,23 +118,6 @@
        "blurb": "The drugmaker plans to develop a “flexible, modular campus” with advanced digital and automation technologies. The first phase is set to be ready in 2031."
       },
       {
-       "title": "Dutch AI Startup polySCOUT Designs Custom Polymers in Weeks",
-       "url": "https://www.plasticstoday.com/materials/dutch-ai-startup-polyscout-designs-custom-polymers-in-weeks",
-       "source": "Plastics Today",
-       "published": "2026-10-09T12:10:57.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Plastics Today",
-         "url": "https://www.plasticstoday.com/materials/dutch-ai-startup-polyscout-designs-custom-polymers-in-weeks",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "polySCOUT, a Dutch AI company spun out of TNO, designs custom polymers to specification in weeks rather than years, addressing urgent regulatory substitution challenges in the plastics industry."
-      },
-      {
        "title": "Shell Reports Declining Chemical Margins Amid Refining Gains",
        "url": "https://www.plasticstoday.com/materials/shell-reports-declining-chemical-margins-amid-refining-gains",
        "source": "Plastics Today",
@@ -150,6 +133,23 @@
        "stages": [],
        "via": null,
        "blurb": "Shell's Q3 2026 update reveals declining chemical margins and operational challenges from low Rhine water levels, offset by stronger refining performance and expanded production capacity."
+      },
+      {
+       "title": "Dutch AI Startup polySCOUT Designs Custom Polymers in Weeks",
+       "url": "https://www.plasticstoday.com/materials/dutch-ai-startup-polyscout-designs-custom-polymers-in-weeks",
+       "source": "Plastics Today",
+       "published": "2026-10-09T12:10:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/materials/dutch-ai-startup-polyscout-designs-custom-polymers-in-weeks",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "polySCOUT, a Dutch AI company spun out of TNO, designs custom polymers to specification in weeks rather than years, addressing urgent regulatory substitution challenges in the plastics industry."
       },
       {
        "title": "Teijin Expands PFAS-Free High-performance Resin Lineup",
@@ -242,6 +242,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "China’s Keda Plans US$300 Million for Peru Glass Plant",
+       "url": "https://www.riotimesonline.com/china-keda-glass-plant-peru-300-million-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-10T05:41:34.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/china-keda-glass-plant-peru-300-million-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A Chinese-controlled glass maker that just opened a US$150 million factory south of Lima says a second line could double its Peru bet to US$300 million. The post China’s Keda Plans US$300 Million for Peru Glass Plant appeared first on The Rio Times ."
+      },
+      {
        "title": "Trump unveils plans to build $15B steel mill in Iowa",
        "url": "https://www.supplychaindive.com/news/trump-unveils-plans-to-build-15b-steel-mill-in-iowa/831654/",
        "source": "Supply Chain Dive",
@@ -330,23 +347,6 @@
        "stages": [],
        "via": null,
        "blurb": "Follows reports that company was seeking to raise additional funds, targeting $5bn valuation"
-      },
-      {
-       "title": "China wafer prices hold steady amid divergent output plans and looming polysilicon cuts",
-       "url": "https://www.pv-magazine.com/2026/10/09/china-wafer-prices-hold-steady-amid-divergent-output-plans-and-looming-polysilicon-cuts/",
-       "source": "pv magazine",
-       "published": "2026-10-09T10:58:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/09/china-wafer-prices-hold-steady-amid-divergent-output-plans-and-looming-polysilicon-cuts/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "In a new weekly update for pv magazine , OPIS, a Dow Jones company, provides a quick look at the main price trends in the global PV industry. The post China wafer prices hold steady amid divergent output plans and looming polysilicon cuts appeared first on pv magazine Global ."
       },
       {
        "title": "Jochenstein hydropower plant receives first new transformer",
@@ -483,6 +483,23 @@
        "stages": [],
        "via": null,
        "blurb": "Windpower Monthly rounds up the latest patents for wind power technology granted and applied for in the last week."
+      },
+      {
+       "title": "Man vs. ‘Terminator’-Like Robot in a Cage. California Called It Illegal.",
+       "url": "https://www.nytimes.com/2026/10/08/technology/human-robot-cage-fights-california-rek.html",
+       "source": "NYT Technology",
+       "published": "2026-10-08T14:40:13.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NYT Technology",
+         "url": "https://www.nytimes.com/2026/10/08/technology/human-robot-cage-fights-california-rek.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A tech start-up’s stunt in San Francisco tested the boundaries of combat sport safety and regulations."
       }
      ]
     },
@@ -504,11 +521,6 @@
         {
          "name": "RFI English",
          "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
-         "primary": false
-        },
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3334379/eu-trade-chief-seeks-tangible-outcomes-in-china-talks",
          "primary": false
         },
         {
@@ -627,40 +639,6 @@
        "blurb": "Toyota Motor Thailand has extended production suspensions at its Samrong, Ban Pho and Gateway plants, with operations now expected to resume between Oct 14 and 19 as flooding continues to disrupt parts deliveries."
       },
       {
-       "title": "Cell bypass aims to extend the usable life of EV batteries",
-       "url": "https://www.electrive.com/2026/10/09/cell-bypass-aims-to-extend-the-usable-life-of-ev-batteries/",
-       "source": "electrive",
-       "published": "2026-10-09T10:15:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "electrive",
-         "url": "https://www.electrive.com/2026/10/09/cell-bypass-aims-to-extend-the-usable-life-of-ev-batteries/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A study by Chalmers University of Technology examines reconfigurable battery packs that can selectively bypass weaker cells. Under optimal conditions, this could extend the lifespan of batteries in certain high-voltage vehicles by more than 20 per cent."
-      },
-      {
-       "title": "Standard Life Anchors €80 Million Financing to Accelerate EZO’s EV Charging Rollout Across the UK and Ireland",
-       "url": "https://fuelcellsworks.com/2026/10/08/electric/standard-life-anchors-80-million-financing-to-accelerate-ezo-s-ev-charging-rollout-across-the-uk-and-ireland",
-       "source": "FuelCellsWorks",
-       "published": "2026-10-09T18:05:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "FuelCellsWorks",
-         "url": "https://fuelcellsworks.com/2026/10/08/electric/standard-life-anchors-80-million-financing-to-accelerate-ezo-s-ev-charging-rollout-across-the-uk-and-ireland",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
        "title": "Anduril, US Navy to invest $6.6B in Arsenal-2 submarine shipyard in Maryland",
        "url": "https://www.anduril.com/news/anduril-u-s-navy-invest-usd6-6-billion-to-expand-america-s-submarine-industrial-base",
        "source": "Anduril",
@@ -691,6 +669,23 @@
        "stages": [],
        "via": null,
        "blurb": "Anduril commits $3.7B of private capital to Arsenal-2 at Tradepoint Atlantic (Sparrows Point, Baltimore County); the Navy awards a contract worth up to $2.9B tied to production outcomes. About 3,100 direct jobs; initial operations targeted for 2030."
+      },
+      {
+       "title": "Cell bypass aims to extend the usable life of EV batteries",
+       "url": "https://www.electrive.com/2026/10/09/cell-bypass-aims-to-extend-the-usable-life-of-ev-batteries/",
+       "source": "electrive",
+       "published": "2026-10-09T10:15:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "electrive",
+         "url": "https://www.electrive.com/2026/10/09/cell-bypass-aims-to-extend-the-usable-life-of-ev-batteries/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A study by Chalmers University of Technology examines reconfigurable battery packs that can selectively bypass weaker cells. Under optimal conditions, this could extend the lifespan of batteries in certain high-voltage vehicles by more than 20 per cent."
       },
       {
        "title": "Renault and EDF partner on French EV smart charging",
@@ -742,6 +737,23 @@
        "stages": [],
        "via": null,
        "blurb": "Indian Railways records contain several instances in which a lack of locomotives designed for passenger services led to trains being hauled by freight engines, which operate at lower speeds. The use of these locomotives has affected running times and caused operational delays, th"
+      },
+      {
+       "title": "Renault Group and EDF Group Join Forces to Make Electric Vehicles More Accessible and Affordable for French Consumers",
+       "url": "https://fuelcellsworks.com/2026/10/08/electric/renault-group-and-edf-group-join-forces-to-make-electric-vehicles-more-accessible-and-affordable-for-french-consumers",
+       "source": "FuelCellsWorks",
+       "published": "2026-10-09T15:34:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "FuelCellsWorks",
+         "url": "https://fuelcellsworks.com/2026/10/08/electric/renault-group-and-edf-group-join-forces-to-make-electric-vehicles-more-accessible-and-affordable-for-french-consumers",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
       }
      ]
     },
@@ -1114,6 +1126,43 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
+       "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T03:22:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "ASTRA also reported damage to a residential building in Rostov-on-Don's Donskaya Sloboda complex, identifying its location through footage posted by residents. It remained unclear what struck the building amid reports of continued drone activity and Russian air defense operations"
+      },
+      {
+       "title": "Beyond gigawatts: Why India’s clean energy future depends on storage intelligence",
+       "url": "https://www.pv-magazine.com/2026/10/10/beyond-gigawatts-why-indias-clean-energy-future-depends-on-storage-intelligence/",
+       "source": "pv magazine",
+       "published": "2026-10-10T06:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/10/beyond-gigawatts-why-indias-clean-energy-future-depends-on-storage-intelligence/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The battery creates flexibility. The intelligence behind it determines how much of that flexibility the grid can harness. The next clean energy benchmark for India, therefore, might not just be a new number of gigawatts. It might be the ability to get the maximum out of every gig"
+      },
+      {
        "title": "Seeing more, repairing smarter: How advanced NDE and repair technologies are changing nuclear asset management",
        "url": "https://www.ans.org/news/2026-10-09/article-8411/seeing-more-repairing-smarter-how-advanced-nde-and-repair-technologies-are-changing-nuclear-asset-management/",
        "source": "ANS Nuclear Newswire",
@@ -1204,23 +1253,6 @@
        "blurb": "MARTINEZ, Calif.—Scores of people tired of living near accident-prone refineries packed an elementary school auditorium to hear what their government officials were doing to protect them. Two local refineries, Marathon Martinez Renewables and Martinez Refining Co., have racked up"
       },
       {
-       "title": "Gold council urges miners to name refiners",
-       "url": "https://www.northernminer.com/news/gold-council-urges-miners-to-name-refiners/1003895621/",
-       "source": "The Northern Miner",
-       "published": "2026-10-09T21:15:41.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/gold-council-urges-miners-to-name-refiners/1003895621/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Gold miners are being urged to identify the refiners receiving metal from each operating mine under a World Gold Council disclosure framework aimed at making legitimate gold flows easier to... The post Gold council urges miners to name refiners appeared first on The Northern Mine"
-      },
-      {
        "title": "Greenvolt secures financing for 253MW wind farm",
        "url": "https://www.renews.biz/onshore-wind/greenvolt-secures-financing-for-253mw-wind-farm/",
        "source": "reNEWS",
@@ -1244,6 +1276,23 @@
         "stage": "generation"
        },
        "blurb": "Eight-bank syndicate backs 253.1MW Gurbănești project targeting 2027 operation"
+      },
+      {
+       "title": "Gold council urges miners to name refiners",
+       "url": "https://www.northernminer.com/news/gold-council-urges-miners-to-name-refiners/1003895621/",
+       "source": "The Northern Miner",
+       "published": "2026-10-09T21:15:41.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/gold-council-urges-miners-to-name-refiners/1003895621/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Gold miners are being urged to identify the refiners receiving metal from each operating mine under a World Gold Council disclosure framework aimed at making legitimate gold flows easier to... The post Gold council urges miners to name refiners appeared first on The Northern Mine"
       },
       {
        "title": "Quanta Unit Blattner Starts Work on $1.5B Solar Project in Missouri",
@@ -1324,46 +1373,6 @@
         "stage": "generation"
        },
        "blurb": "Atmos Renewables expects Enerven to mobilize this month after nine months of preconstruction work, with commercial operation of Teebar targeted for late 2028 in Queensland, Australia."
-      },
-      {
-       "title": "RES wins permit for 450MW Steeple solar farm",
-       "url": "https://www.renews.biz/solar/res-wins-permit-for-450mw-steeple-solar-farm/",
-       "source": "reNEWS",
-       "published": "2026-10-09T14:51:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "reNEWS",
-         "url": "https://www.renews.biz/solar/res-wins-permit-for-450mw-steeple-solar-farm/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Project will be constructed in Nottinghamshire, England"
-      },
-      {
-       "title": "Latest Terrestrial Energy topical report submission could lead to faster deployment",
-       "url": "https://www.world-nuclear-news.org/articles/latest-terrestrial-energy-topical-report-submission-could-lead-to-faster-deployment",
-       "source": "World Nuclear News",
-       "published": "2026-10-09T14:11:55.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/latest-terrestrial-energy-topical-report-submission-could-lead-to-faster-deployment",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Approval of the Thermal and Electric Facility Topical Report submitted by the company to US regulators would mean that part of the Integrated Molten Salt Reactor plant would be classed as a conventional industrial, rather than nuclear, project, allowing it to be built and operate"
       }
      ]
     }
@@ -1733,6 +1742,23 @@
        "blurb": "US Wind turned over its Tradepoint Atlantic lease at Sparrows Point to Anduril and shelved its planned tower and monopile plant, citing legal disputes and federal uncertainty over its Ocean City offshore wind project."
       },
       {
+       "title": "Awkward: Saudi Arabia’s new EV brand takes on the U.S. rival it already controls",
+       "url": "https://restofworld.org/2026/saudi-arabia-ceer-motors-ev-exobot-pif-lucid-byd/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+       "source": "Rest of World",
+       "published": "2026-10-01T10:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rest of World",
+         "url": "https://restofworld.org/2026/saudi-arabia-ceer-motors-ev-exobot-pif-lucid-byd/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Saudi wealth fund’s new EV will compete with Chinese rivals and with Lucid, the U.S. carmaker the fund controls."
+      },
+      {
        "title": "Volkswagen's replacement for the ID.4 crossover is here",
        "url": "https://arstechnica.com/cars/2026/10/volkswagens-replacement-for-the-id-4-crossover-is-here/",
        "source": "Ars Technica",
@@ -1753,23 +1779,6 @@
        "stages": [],
        "via": null,
        "blurb": "The new EV’s digital cockpit can mimic instrument displays from VWs of old."
-      },
-      {
-       "title": "Awkward: Saudi Arabia’s new EV brand takes on the U.S. rival it already controls",
-       "url": "https://restofworld.org/2026/saudi-arabia-ceer-motors-ev-exobot-pif-lucid-byd/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-       "source": "Rest of World",
-       "published": "2026-10-01T10:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rest of World",
-         "url": "https://restofworld.org/2026/saudi-arabia-ceer-motors-ev-exobot-pif-lucid-byd/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Saudi wealth fund’s new EV will compete with Chinese rivals and with Lucid, the U.S. carmaker the fund controls."
       },
       {
        "title": "Reading List 2026-10-03",
@@ -3195,6 +3204,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Beyond gigawatts: Why India’s clean energy future depends on storage intelligence",
+       "url": "https://www.pv-magazine.com/2026/10/10/beyond-gigawatts-why-indias-clean-energy-future-depends-on-storage-intelligence/",
+       "source": "pv magazine",
+       "published": "2026-10-10T06:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/10/beyond-gigawatts-why-indias-clean-energy-future-depends-on-storage-intelligence/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The battery creates flexibility. The intelligence behind it determines how much of that flexibility the grid can harness. The next clean energy benchmark for India, therefore, might not just be a new number of gigawatts. It might be the ability to get the maximum out of every gig"
+      },
+      {
        "title": "India’s MNRE issues 12th solar cell ALMM revision, capacity reaches 37.8GW",
        "url": "https://www.pv-tech.org/indias-mnre-issues-12th-solar-cell-almm-revision-capacity-reaches-37-8gw/",
        "source": "PV Tech",
@@ -3650,26 +3676,6 @@
        "blurb": "Marinus Link held a sod turning ceremony in North West Tasmania to mark the start of expanded construction."
       },
       {
-       "title": "Approval of biggest coal project in NSW planning commission’s history described as ‘infamous betrayal’",
-       "url": "https://www.theguardian.com/australia-news/2026/sep/30/hunter-valley-coal-project-singleton-ipc-planning-decision",
-       "source": "The Guardian Energy",
-       "published": "2026-09-30T05:48:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/australia-news/2026/sep/30/hunter-valley-coal-project-singleton-ipc-planning-decision",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Independent Planning Commission says climate change impacts from Hunter Valley project will be ‘outweighed’ by economic benefits Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast The New South Wales independent pla"
-      },
-      {
        "title": "Australia tops Vestas orders for Q3, with offshore absent",
        "url": "https://www.windpowermonthly.com/article/1971428/australia-tops-vestas-orders-q3-offshore-absent",
        "source": "Windpower Monthly",
@@ -3970,6 +3976,28 @@
    "label": "China",
    "level": "country",
    "sources": {
+    "metals": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "China’s Keda Plans US$300 Million for Peru Glass Plant",
+       "url": "https://www.riotimesonline.com/china-keda-glass-plant-peru-300-million-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-10T05:41:34.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/china-keda-glass-plant-peru-300-million-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A Chinese-controlled glass maker that just opened a US$150 million factory south of Lima says a second line could double its Peru bet to US$300 million. The post China’s Keda Plans US$300 Million for Peru Glass Plant appeared first on The Rio Times ."
+      }
+     ]
+    },
     "machinery": {
      "brief": "missing",
      "candidates": [
@@ -4006,23 +4034,6 @@
        "stages": [],
        "via": null,
        "blurb": "The proposed FTA between India and the European Union offers prospects for significant tariff reductions in the mechanical and plant engineering sector, potentially strengthening trade and investment ties."
-      },
-      {
-       "title": "China wafer prices hold steady amid divergent output plans and looming polysilicon cuts",
-       "url": "https://www.pv-magazine.com/2026/10/09/china-wafer-prices-hold-steady-amid-divergent-output-plans-and-looming-polysilicon-cuts/",
-       "source": "pv magazine",
-       "published": "2026-10-09T10:58:19.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/09/china-wafer-prices-hold-steady-amid-divergent-output-plans-and-looming-polysilicon-cuts/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "In a new weekly update for pv magazine , OPIS, a Dow Jones company, provides a quick look at the main price trends in the global PV industry. The post China wafer prices hold steady amid divergent output plans and looming polysilicon cuts appeared first on pv magazine Global ."
       }
      ]
     },
@@ -4044,11 +4055,6 @@
         {
          "name": "RFI English",
          "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
-         "primary": false
-        },
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3334379/eu-trade-chief-seeks-tangible-outcomes-in-china-talks",
          "primary": false
         },
         {
@@ -4619,23 +4625,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Standard Life Anchors €80 Million Financing to Accelerate EZO’s EV Charging Rollout Across the UK and Ireland",
-       "url": "https://fuelcellsworks.com/2026/10/08/electric/standard-life-anchors-80-million-financing-to-accelerate-ezo-s-ev-charging-rollout-across-the-uk-and-ireland",
-       "source": "FuelCellsWorks",
-       "published": "2026-10-09T18:05:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "FuelCellsWorks",
-         "url": "https://fuelcellsworks.com/2026/10/08/electric/standard-life-anchors-80-million-financing-to-accelerate-ezo-s-ev-charging-rollout-across-the-uk-and-ireland",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
        "title": "'A genuinely capable off-road utility vehicle': Toyota Land Cruiser review",
        "url": "https://www.forestryjournal.co.uk/news/26611806.toyota-land-cruiser-review-a-genuinely-capable-off-road-vehicle/?ref=rss",
        "source": "Forestry Journal",
@@ -5150,6 +5139,28 @@
    "label": "Pakistan",
    "level": "country",
    "sources": {
+    "vehicles": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "PIA to add two Boeing 787 Dreamliners to fleet next month",
+       "url": "https://www.dawn.com/news/2036120/pia-to-add-two-boeing-787-dreamliners-to-fleet-next-month",
+       "source": "Dawn Business",
+       "published": "2026-10-10T03:02:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2036120/pia-to-add-two-boeing-787-dreamliners-to-fleet-next-month",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "https://www.dawn.com/news/2036048"
+      }
+     ]
+    },
     "power": {
      "brief": "missing",
      "candidates": [
@@ -5597,6 +5608,26 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
+       "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T03:22:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "ASTRA also reported damage to a residential building in Rostov-on-Don's Donskaya Sloboda complex, identifying its location through footage posted by residents. It remained unclear what struck the building amid reports of continued drone activity and Russian air defense operations"
+      },
+      {
        "title": "Rosneft Recruits Anti-Aircraft Gun Crews to Defend Samara Refinery Against Ukrainian Drones – Vyorstka",
        "url": "https://www.themoscowtimes.com/2026/10/09/rosneft-recruits-anti-aircraft-gun-crews-to-defend-samara-refinery-against-ukrainian-drones-vyorstka-a93932",
        "source": "The Moscow Times",
@@ -5809,136 +5840,6 @@
         "stage": "generation"
        },
        "blurb": "Portuguese energy firm Galp has won an arbitration case against US LNG exporter Venture Global LNG over LNG sales from the Calcasieu Pass plant in Louisiana."
-      }
-     ]
-    }
-   }
-  },
-  "cn-bj": {
-   "label": "Beijing",
-   "level": "admin1",
-   "sources": {
-    "machinery": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "China state funds double down on Hua Hong in legacy chip push",
-       "url": "https://www.scmp.com/tech/big-tech/article/3370297/china-state-funds-double-down-hua-hong-legacy-chip-push?utm_source=rss_feed",
-       "source": "South China Morning Post",
-       "published": "2026-10-09T08:30:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "South China Morning Post",
-         "url": "https://www.scmp.com/tech/big-tech/article/3370297/china-state-funds-double-down-hua-hong-legacy-chip-push?utm_source=rss_feed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Chinese state funds are ramping up support for the country’s second-largest contract chipmaker, pouring billions of yuan into the parent of Hua Hong Grace Semiconductor and a new manufacturing facility to fuel Beijing’s drive for self-reliance in mature-node chips. The capital bl"
-      }
-     ]
-    },
-    "vehicles": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "China agrees to ‘halve’ hybrid car exports to EU in landmark deal",
-       "url": "https://www.theguardian.com/business/2026/oct/09/china-agrees-to-curb-hybrid-car-exports-to-eu-in-landmark-deal",
-       "source": "The Guardian Business",
-       "published": "2026-10-09T15:05:57.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/business/2026/oct/09/china-agrees-to-curb-hybrid-car-exports-to-eu-in-landmark-deal",
-         "primary": false
-        },
-        {
-         "name": "RFI English",
-         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
-         "primary": false
-        },
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3334379/eu-trade-chief-seeks-tangible-outcomes-in-china-talks",
-         "primary": false
-        },
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/business/2026/10/10/economy/china-eu-hybrid-exports/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Brussels says Beijing’s shipments could fall by more than half over four years, cutting millions of vehicles amid fears for European jobs The EU said it has reached a landmark deal with China to “halve” its sales of hybrid cars in the bloc amid fears surging sales could kill off "
-      }
-     ]
-    }
-   }
-  },
-  "cn-city-beijing": {
-   "label": "Beijing",
-   "level": "city",
-   "sources": {
-    "machinery": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "China state funds double down on Hua Hong in legacy chip push",
-       "url": "https://www.scmp.com/tech/big-tech/article/3370297/china-state-funds-double-down-hua-hong-legacy-chip-push?utm_source=rss_feed",
-       "source": "South China Morning Post",
-       "published": "2026-10-09T08:30:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "South China Morning Post",
-         "url": "https://www.scmp.com/tech/big-tech/article/3370297/china-state-funds-double-down-hua-hong-legacy-chip-push?utm_source=rss_feed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Chinese state funds are ramping up support for the country’s second-largest contract chipmaker, pouring billions of yuan into the parent of Hua Hong Grace Semiconductor and a new manufacturing facility to fuel Beijing’s drive for self-reliance in mature-node chips. The capital bl"
-      }
-     ]
-    },
-    "vehicles": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "China agrees to ‘halve’ hybrid car exports to EU in landmark deal",
-       "url": "https://www.theguardian.com/business/2026/oct/09/china-agrees-to-curb-hybrid-car-exports-to-eu-in-landmark-deal",
-       "source": "The Guardian Business",
-       "published": "2026-10-09T15:05:57.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/business/2026/oct/09/china-agrees-to-curb-hybrid-car-exports-to-eu-in-landmark-deal",
-         "primary": false
-        },
-        {
-         "name": "RFI English",
-         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
-         "primary": false
-        },
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3334379/eu-trade-chief-seeks-tangible-outcomes-in-china-talks",
-         "primary": false
-        },
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/business/2026/10/10/economy/china-eu-hybrid-exports/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Brussels says Beijing’s shipments could fall by more than half over four years, cutting millions of vehicles amid fears for European jobs The EU said it has reached a landmark deal with China to “halve” its sales of hybrid cars in the bloc amid fears surging sales could kill off "
       }
      ]
     }
@@ -6173,6 +6074,126 @@
     }
    }
   },
+  "cn-bj": {
+   "label": "Beijing",
+   "level": "admin1",
+   "sources": {
+    "machinery": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "China state funds double down on Hua Hong in legacy chip push",
+       "url": "https://www.scmp.com/tech/big-tech/article/3370297/china-state-funds-double-down-hua-hong-legacy-chip-push?utm_source=rss_feed",
+       "source": "South China Morning Post",
+       "published": "2026-10-09T08:30:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "South China Morning Post",
+         "url": "https://www.scmp.com/tech/big-tech/article/3370297/china-state-funds-double-down-hua-hong-legacy-chip-push?utm_source=rss_feed",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Chinese state funds are ramping up support for the country’s second-largest contract chipmaker, pouring billions of yuan into the parent of Hua Hong Grace Semiconductor and a new manufacturing facility to fuel Beijing’s drive for self-reliance in mature-node chips. The capital bl"
+      }
+     ]
+    },
+    "vehicles": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "China agrees to ‘halve’ hybrid car exports to EU in landmark deal",
+       "url": "https://www.theguardian.com/business/2026/oct/09/china-agrees-to-curb-hybrid-car-exports-to-eu-in-landmark-deal",
+       "source": "The Guardian Business",
+       "published": "2026-10-09T15:05:57.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/09/china-agrees-to-curb-hybrid-car-exports-to-eu-in-landmark-deal",
+         "primary": false
+        },
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/business/2026/10/10/economy/china-eu-hybrid-exports/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Brussels says Beijing’s shipments could fall by more than half over four years, cutting millions of vehicles amid fears for European jobs The EU said it has reached a landmark deal with China to “halve” its sales of hybrid cars in the bloc amid fears surging sales could kill off "
+      }
+     ]
+    }
+   }
+  },
+  "cn-city-beijing": {
+   "label": "Beijing",
+   "level": "city",
+   "sources": {
+    "machinery": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "China state funds double down on Hua Hong in legacy chip push",
+       "url": "https://www.scmp.com/tech/big-tech/article/3370297/china-state-funds-double-down-hua-hong-legacy-chip-push?utm_source=rss_feed",
+       "source": "South China Morning Post",
+       "published": "2026-10-09T08:30:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "South China Morning Post",
+         "url": "https://www.scmp.com/tech/big-tech/article/3370297/china-state-funds-double-down-hua-hong-legacy-chip-push?utm_source=rss_feed",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Chinese state funds are ramping up support for the country’s second-largest contract chipmaker, pouring billions of yuan into the parent of Hua Hong Grace Semiconductor and a new manufacturing facility to fuel Beijing’s drive for self-reliance in mature-node chips. The capital bl"
+      }
+     ]
+    },
+    "vehicles": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "China agrees to ‘halve’ hybrid car exports to EU in landmark deal",
+       "url": "https://www.theguardian.com/business/2026/oct/09/china-agrees-to-curb-hybrid-car-exports-to-eu-in-landmark-deal",
+       "source": "The Guardian Business",
+       "published": "2026-10-09T15:05:57.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/business/2026/oct/09/china-agrees-to-curb-hybrid-car-exports-to-eu-in-landmark-deal",
+         "primary": false
+        },
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports",
+         "primary": false
+        },
+        {
+         "name": "The Japan Times",
+         "url": "https://www.japantimes.co.jp/business/2026/10/10/economy/china-eu-hybrid-exports/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Brussels says Beijing’s shipments could fall by more than half over four years, cutting millions of vehicles amid fears for European jobs The EU said it has reached a landmark deal with China to “halve” its sales of hybrid cars in the bloc amid fears surging sales could kill off "
+      }
+     ]
+    }
+   }
+  },
   "us-city-san-francisco": {
    "label": "San Francisco",
    "level": "city",
@@ -6196,6 +6217,152 @@
        "stages": [],
        "via": null,
        "blurb": "A tech start-up’s stunt in San Francisco tested the boundaries of combat sport safety and regulations."
+      }
+     ]
+    }
+   }
+  },
+  "pe": {
+   "label": "Peru",
+   "level": "country",
+   "sources": {
+    "metals": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "China’s Keda Plans US$300 Million for Peru Glass Plant",
+       "url": "https://www.riotimesonline.com/china-keda-glass-plant-peru-300-million-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-10T05:41:34.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/china-keda-glass-plant-peru-300-million-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A Chinese-controlled glass maker that just opened a US$150 million factory south of Lima says a second line could double its Peru bet to US$300 million. The post China’s Keda Plans US$300 Million for Peru Glass Plant appeared first on The Rio Times ."
+      }
+     ]
+    }
+   }
+  },
+  "pe-lr": {
+   "label": "Lima",
+   "level": "admin1",
+   "sources": {
+    "metals": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "China’s Keda Plans US$300 Million for Peru Glass Plant",
+       "url": "https://www.riotimesonline.com/china-keda-glass-plant-peru-300-million-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-10T05:41:34.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/china-keda-glass-plant-peru-300-million-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A Chinese-controlled glass maker that just opened a US$150 million factory south of Lima says a second line could double its Peru bet to US$300 million. The post China’s Keda Plans US$300 Million for Peru Glass Plant appeared first on The Rio Times ."
+      }
+     ]
+    }
+   }
+  },
+  "pe-city-lima": {
+   "label": "Lima",
+   "level": "city",
+   "sources": {
+    "metals": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "China’s Keda Plans US$300 Million for Peru Glass Plant",
+       "url": "https://www.riotimesonline.com/china-keda-glass-plant-peru-300-million-2026/",
+       "source": "The Rio Times",
+       "published": "2026-10-10T05:41:34.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Rio Times",
+         "url": "https://www.riotimesonline.com/china-keda-glass-plant-peru-300-million-2026/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A Chinese-controlled glass maker that just opened a US$150 million factory south of Lima says a second line could double its Peru bet to US$300 million. The post China’s Keda Plans US$300 Million for Peru Glass Plant appeared first on The Rio Times ."
+      }
+     ]
+    }
+   }
+  },
+  "ru-ro": {
+   "label": "Rostov",
+   "level": "admin1",
+   "sources": {
+    "power": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
+       "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T03:22:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "ASTRA also reported damage to a residential building in Rostov-on-Don's Donskaya Sloboda complex, identifying its location through footage posted by residents. It remained unclear what struck the building amid reports of continued drone activity and Russian air defense operations"
+      }
+     ]
+    }
+   }
+  },
+  "ru-city-rostov": {
+   "label": "Rostov",
+   "level": "city",
+   "sources": {
+    "power": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
+       "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T03:22:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "generation"
+       },
+       "blurb": "ASTRA also reported damage to a residential building in Rostov-on-Don's Donskaya Sloboda complex, identifying its location through footage posted by residents. It remained unclear what struck the building amid reports of continued drone activity and Russian air defense operations"
       }
      ]
     }
@@ -6303,37 +6470,6 @@
         "stage": "generation"
        },
        "blurb": "The Kuibyshev refinery, on the Volga River, has been repeatedly targeted since Russia launched its full-scale invasion of Ukraine in 2022."
-      }
-     ]
-    }
-   }
-  },
-  "au-ns": {
-   "label": "New South Wales",
-   "level": "admin1",
-   "sources": {
-    "power": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Approval of biggest coal project in NSW planning commission’s history described as ‘infamous betrayal’",
-       "url": "https://www.theguardian.com/australia-news/2026/sep/30/hunter-valley-coal-project-singleton-ipc-planning-decision",
-       "source": "The Guardian Energy",
-       "published": "2026-09-30T05:48:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/australia-news/2026/sep/30/hunter-valley-coal-project-singleton-ipc-planning-decision",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "generation"
-       },
-       "blurb": "Independent Planning Commission says climate change impacts from Hunter Valley project will be ‘outweighed’ by economic benefits Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast The New South Wales independent pla"
       }
      ]
     }
@@ -6459,34 +6595,6 @@
        "stages": [],
        "via": null,
        "blurb": "I went to Galaxy Robot Park in Seoul to see how we might one day live with robots. It was part cutting-edge technology, part theatrics."
-      }
-     ]
-    }
-   }
-  },
-  "ie": {
-   "label": "Ireland",
-   "level": "country",
-   "sources": {
-    "vehicles": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Standard Life Anchors €80 Million Financing to Accelerate EZO’s EV Charging Rollout Across the UK and Ireland",
-       "url": "https://fuelcellsworks.com/2026/10/08/electric/standard-life-anchors-80-million-financing-to-accelerate-ezo-s-ev-charging-rollout-across-the-uk-and-ireland",
-       "source": "FuelCellsWorks",
-       "published": "2026-10-09T18:05:20.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "FuelCellsWorks",
-         "url": "https://fuelcellsworks.com/2026/10/08/electric/standard-life-anchors-80-million-financing-to-accelerate-ezo-s-ev-charging-rollout-across-the-uk-and-ireland",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
       }
      ]
     }
