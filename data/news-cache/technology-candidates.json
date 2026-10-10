@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T06:42:54.719Z",
+ "generatedAt": "2026-10-10T12:41:20.658Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -140,6 +140,40 @@
        "blurb": "Uplink growth is real, but the capex discipline holds In sum – what we know: Deutsche Telekom does not expect AI-related mobile uplink demand to require incremental radio-access-network investment in…"
       },
       {
+       "title": "OE2027: youth housing guarantee stays, defence hits 2.15% of GDP, €1m for AI",
+       "url": "https://www.euronews.com/2026/10/08/oe2027-youth-housing-guarantee-stays-defence-hits-215-of-gdp-1m-for-ai",
+       "source": "Euronews Business",
+       "published": "2026-10-08T13:18:50.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/08/oe2027-youth-housing-guarantee-stays-defence-hits-215-of-gdp-1m-for-ai",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The government on Thursday submitted to parliament the 2027 state budget, projecting 2% growth and a surplus of 0.1–0.2% of GDP. Approval is assured, as the PS will abstain in the key vote."
+      },
+      {
+       "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
+       "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+       "source": "The Guardian Business",
+       "published": "2026-10-10T10:00:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "George Williamson says ‘national resilience’ is key focus of ATI amid US and China’s runaway leadership in field The UK must not become dependent on foreign AI systems that can be switched off at short notice and must develop its own versions of the technology, according to the h"
+      },
+      {
        "title": "Samsung flags 783% profit jump to record $80bn as AI chip boom also lifts TSMC sales",
        "url": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
        "source": "Euronews Business",
@@ -189,40 +223,6 @@
        "stages": [],
        "via": null,
        "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
-      },
-      {
-       "title": "Alibaba’s AI cloud revenue set to surge over 50% as investment blitz pays off: analysts",
-       "url": "https://www.scmp.com/tech/big-tech/article/3370209/alibabas-ai-cloud-revenue-set-surge-over-50-investment-blitz-pays-analysts?utm_source=rss_feed",
-       "source": "South China Morning Post",
-       "published": "2026-10-08T11:30:22.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "South China Morning Post",
-         "url": "https://www.scmp.com/tech/big-tech/article/3370209/alibabas-ai-cloud-revenue-set-surge-over-50-investment-blitz-pays-analysts?utm_source=rss_feed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to analysts. Analysts across several financial institutions proje"
-      },
-      {
-       "title": "Making the case for non-lithium batteries for AI data centres",
-       "url": "https://www.energy-storage.news/making-the-case-for-non-lithium-batteries-for-ai-data-centres/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-08T07:48:32.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/making-the-case-for-non-lithium-batteries-for-ai-data-centres/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "AI data centres have energy and power requirements demanding enough to potentially stretch lithium-ion beyond its versatile limits, writes Intertek CEA market intelligence consultant Aaron Marks."
       }
      ]
     },
@@ -250,6 +250,23 @@
        "stages": [],
        "via": null,
        "blurb": "Key developments on October 09: Second Russian Yandex data center damaged by drone attack in two days, company says Twenty Russian officers killed in Ukrainian strikes on Donetsk, independent monitors claim Russia forcibly removes 25 Ukrainian civilians, including children, from "
+      },
+      {
+       "title": "Sponsored: Wärtsilä, Schneider Electric, and Stanley Consultants launch coordinated approach for faster US data center power delivery",
+       "url": "https://www.datacenterdynamics.com/en/product-news/w%C3%A4rtsil%C3%A4-schneider-electric-and-stanley-consultants-launch-coordinated-approach-for-faster-us-data-center-power-delivery/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-10T07:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/product-news/w%C3%A4rtsil%C3%A4-schneider-electric-and-stanley-consultants-launch-coordinated-approach-for-faster-us-data-center-power-delivery/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Coordinated 'generator-to-chip' approach integrates onsite generation, electrical infrastructure, and engineering to help data center customers streamline development and save time compared to traditional delivery models"
       },
       {
        "title": "Tasmanian EPA says it was not told extent of Firmus data centre generator plans",
@@ -420,23 +437,6 @@
        "stages": [],
        "via": null,
        "blurb": "BKV has locked in about 1,200 MW of natural gas-fired generation equipment with financial backing from an unnamed investment-grade hyperscaler, advancing the Barnett Shale producer’s push to sell power into the fast-growing Dallas-Fort Worth (DFW) market."
-      },
-      {
-       "title": "Oracle moves gas by trucks to avoid data center power delays",
-       "url": "https://www.ttnews.com/articles/oracle-moves-gas-trucks",
-       "source": "Transport Topics",
-       "published": "2026-10-09T12:47:04.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Transport Topics",
-         "url": "https://www.ttnews.com/articles/oracle-moves-gas-trucks",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Oracle is considering using the same strategy in New Mexico, where a gas pipeline to help power one of its most crucial data centers is delayed and threatening the project’s timeline."
       }
      ]
     },
@@ -444,17 +444,12 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Elon Musk lashes out at Indian ‘Prime Minister’ Mukesh Ambani in Starlink",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-sv-india-denies-blocking-ambani-musk-adani-starlink-in?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-10T02:35:28.000Z",
+       "title": "Elon Musk ups ante in Starlink row, sarcastically calls Ambani ‘Prime Minister’, alleges monopoly",
+       "url": "https://www.thehindu.com/business/Industry/elon-musk-ups-ante-in-starlink-row-sarcastically-calls-ambani-prime-minister-alleges-monopoly/article71565795.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-09T19:15:27.000Z",
        "verification": "multiple",
        "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-sv-india-denies-blocking-ambani-musk-adani-starlink-in?traffic_source=rss",
-         "primary": false
-        },
         {
          "name": "The Hindu Business",
          "url": "https://www.thehindu.com/business/Industry/elon-musk-ups-ante-in-starlink-row-sarcastically-calls-ambani-prime-minister-alleges-monopoly/article71565795.ece",
@@ -478,7 +473,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Elon Musk has accused Indian billionaire Mukesh Ambani of being India’s ‘real boss’ in over delays to Starlink's entry."
+       "blurb": "The post bybrea Mr. Musk now marks a sharp escalation in the Starlink satcom offering row, which saw the U.S. trillionaire recently alleging that powerful business interests are seeking to block his service"
       },
       {
        "title": "Venezuela president authorizes SpaceX's Starlink to operate in the country",
@@ -664,23 +659,6 @@
        "blurb": "The company has put three new ground stations into service"
       },
       {
-       "title": "Starlink spectrum deal boosts Musk plan to beat AT&T, T-Mobile, and Verizon",
-       "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
-       "source": "Ars Technica",
-       "published": "2026-10-09T18:24:39.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Nationwide 800 MHz spectrum to help Starlink provide mobile coverage indoors."
-      },
-      {
        "title": "Arelion partners with Nokia on live network field trial",
        "url": "https://www.lightreading.com/private-networks/arelion-partners-with-nokia-on-live-network-field-trial",
        "source": "Light Reading",
@@ -701,12 +679,46 @@
        "stages": [],
        "via": null,
        "blurb": "Arelion's 500-kilometer route from Amsterdam to London uses Nokia's 1830 Global Express (GX) Super C and Super L open line system, CHMQ6 thin transponder modules and ICE-X 400G and 800G ZR+ coherent pluggable optics. #pressrelease"
+      },
+      {
+       "title": "Starlink spectrum deal boosts Musk plan to beat AT&T, T-Mobile, and Verizon",
+       "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
+       "source": "Ars Technica",
+       "published": "2026-10-09T18:24:39.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Nationwide 800 MHz spectrum to help Starlink provide mobile coverage indoors."
       }
      ]
     },
     "research": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Brazil’s retail electricity market opening raises credit and liquidity concerns, study finds",
+       "url": "https://www.pv-magazine.com/2026/10/10/brazils-retail-electricity-market-opening-raises-credit-and-liquidity-concerns-study-finds/",
+       "source": "pv magazine",
+       "published": "2026-10-10T09:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/10/brazils-retail-electricity-market-opening-raises-credit-and-liquidity-concerns-study-finds/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "A study based on 88,000 consumer units participating in subscription-based solar generation schemes in Brazil has identified a 17% average monthly payment delinquency rate and 4% monthly customer churn. The findings highlight potential credit, liquidity and consumer protection ch"
+      },
       {
        "title": "Seeing more, repairing smarter: How advanced NDE and repair technologies are changing nuclear asset management",
        "url": "https://www.ans.org/news/2026-10-09/article-8411/seeing-more-repairing-smarter-how-advanced-nde-and-repair-technologies-are-changing-nuclear-asset-management/",
@@ -726,6 +738,23 @@
         "stage": "innovation"
        },
        "blurb": "A single ultrasonic inspection of reactor vessel upper head penetrations can generate more than 7 kilometers of inspection data. Historically, analysts have spent days—even weeks—reviewing those results to identify the few indications that might require further evaluation. In 202"
+      },
+      {
+       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
+       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+       "source": "NASA News",
+       "published": "2026-10-08T19:40:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Editor’s note: This release was updated Oct. 8, 2026 with the formal name of the summit. NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are an"
       },
       {
        "title": "Fermi America, Blue Energy make strides in Texas",
@@ -830,46 +859,6 @@
        "blurb": "Engineers India Ltd. will oversee project management and engineering services for the proposed Lamu refinery, which will have a nameplate crude processing capacity of 700,000 b/d upon startup."
       },
       {
-       "title": "The Hydrogen Stream: Dutch researchers calculate green H2 costs as low as €7.2/kg",
-       "url": "https://www.pv-magazine.com/2026/10/09/the-hydrogen-stream-dutch-researchers-calculate-green-h2-costs-as-low-as-e7-2-kg/",
-       "source": "pv magazine",
-       "published": "2026-10-09T12:50:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/09/the-hydrogen-stream-dutch-researchers-calculate-green-h2-costs-as-low-as-e7-2-kg/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Researchers at the University of Groningen have calculated green hydrogen production costs of €7.2/kg to €7.3/kg using renewable power purchase agreements and hybrid electricity supply configurations, compared with €7.7/kg for wholesale electricity sourcing. The study found that "
-      },
-      {
-       "title": "Spanish researchers reduce losses in organic solar cells by restricting emission angle",
-       "url": "https://www.pv-magazine.com/2026/10/09/spanish-researchers-reduce-losses-in-organic-solar-cells-by-restricting-the-emission-angle/",
-       "source": "pv magazine",
-       "published": "2026-10-09T11:05:36.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/09/spanish-researchers-reduce-losses-in-organic-solar-cells-by-restricting-the-emission-angle/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Spanish researchers have developed an optical cavity that reduces Boltzmann losses in organic solar cells by restricting photon emission angles. The approach could help push single-junction solar cell efficiencies beyond the Shockley-Queisser limit. The post Spanish researchers r"
-      },
-      {
        "title": "Wind power patents: Mingyang | Sinoma | Vestas | Enercon",
        "url": "https://www.windpowermonthly.com/article/1972118/wind-power-patents-mingyang-sinoma-vestas-enercon",
        "source": "Windpower Monthly",
@@ -954,6 +943,23 @@
     "consulting": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Sponsored: Wärtsilä, Schneider Electric, and Stanley Consultants launch coordinated approach for faster US data center power delivery",
+       "url": "https://www.datacenterdynamics.com/en/product-news/w%C3%A4rtsil%C3%A4-schneider-electric-and-stanley-consultants-launch-coordinated-approach-for-faster-us-data-center-power-delivery/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-10T07:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/product-news/w%C3%A4rtsil%C3%A4-schneider-electric-and-stanley-consultants-launch-coordinated-approach-for-faster-us-data-center-power-delivery/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Coordinated 'generator-to-chip' approach integrates onsite generation, electrical infrastructure, and engineering to help data center customers streamline development and save time compared to traditional delivery models"
+      },
       {
        "title": "McEvaddys clear Bain debt on Dublin Airport lands after sale of Omega Air",
        "url": "https://www.irishtimes.com/business/2026/10/09/mcevaddys-clear-bain-debt-on-dublin-airport-lands-after-sale-of-omega-air/",
@@ -1040,23 +1046,6 @@
        "blurb": "Studio Pietrangeli has begun consultancy work on the proposed 24 MW Zungki and 42 MW Lower Tizu hydropower projects in Nagaland, India. The post Studio Pietrangeli begins consultancy work on two Indian hydropower projects appeared first on International Water Power ."
       },
       {
-       "title": "Engineering firm claims world record for tallest wind turbine tower",
-       "url": "https://www.windpowermonthly.com/article/1971320/engineering-firm-claims-world-record-tallest-wind-turbine-tower",
-       "source": "Windpower Monthly",
-       "published": "2026-09-30T10:28:52.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Windpower Monthly",
-         "url": "https://www.windpowermonthly.com/article/1971320/engineering-firm-claims-world-record-tallest-wind-turbine-tower",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The installation of what is thought to be the tallest wind turbine tower ever built has been completed by an engineering company in Germany."
-      },
-      {
        "title": "EY global revenue increased to $57B",
        "url": "https://www.accountingtoday.com/news/ey-global-revenue-increased-to-57b",
        "source": "Accounting Today",
@@ -1072,23 +1061,6 @@
        "stages": [],
        "via": null,
        "blurb": "Ernst & Young global revenues increased 4.7% to $57 billion in fiscal year 2026, with each of EY's service lines and geographic areas posting revenue increases."
-      },
-      {
-       "title": "The World’s Richest Law Firm Has Decided Money Isn’t Everything — See Also",
-       "url": "https://abovethelaw.com/2026/10/the-worlds-richest-law-firm-has-decided-money-isnt-everything-see-also/",
-       "source": "Above the Law",
-       "published": "2026-10-08T23:31:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Above the Law",
-         "url": "https://abovethelaw.com/2026/10/the-worlds-richest-law-firm-has-decided-money-isnt-everything-see-also/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Kirkland & Ellis Is Done Sharing Its Revenue With The Media: Turns out $10 billion is right where the numbers stop providing 'meaningful value.' Biglaw Wants Lawyers Who Know How To Use AI : But some law schools are outright banning it. This could turn into a recruitment problem."
       },
       {
        "title": "FBI removes Accenture contractor after missed security patch led to breach",
@@ -1113,23 +1085,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "The Diplomat season four: The story so far before Netflix return",
-       "url": "https://www.thenationalnews.com/arts-culture/film-tv/2026/10/09/the-diplomat-season-four-the-story-so-far-before-netflix-return/",
-       "source": "The National (UAE)",
-       "published": "2026-10-09T18:01:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/arts-culture/film-tv/2026/10/09/the-diplomat-season-four-the-story-so-far-before-netflix-return/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Politics, nuclear weapons, diplomatic crises and a high-profile marriage that always seems to be one argument away from divorce, Netflix hit The Diplomat has packed a lot into three seasons. First aired in 2023, the drama follows Kate Wyler (Keri Russell), a career diplomat who i"
-      },
-      {
        "title": "After Torreón school attack, Sheinbaum presents decree on social media content for minors: Friday’s mañanera recapped",
        "url": "https://mexiconewsdaily.com/politics/social-media-minors-decree-sheinbaum-october-9-mananera/",
        "source": "Mexico News Daily",
@@ -1147,21 +1102,38 @@
        "blurb": "Friday's press conference included news of a presidential order to limit minors' access to harmful social media content, a Civil Protection advisory for Hurricane Simon and the president's response to a deadly prison riot. The post After Torreón school attack, Sheinbaum presents "
       },
       {
-       "title": "Nigeria: Social Media Distraction Can Cause Road Crashes - FRSC Boss",
-       "url": "https://allafrica.com/stories/202610090448.html",
+       "title": "Malawi: Minister Gangata Condemns Fake Social Media Posts in His Name",
+       "url": "https://allafrica.com/stories/202610090414.html",
        "source": "AllAfrica Business",
-       "published": "2026-10-09T12:29:07.000Z",
+       "published": "2026-10-09T12:04:02.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610090448.html",
+         "url": "https://allafrica.com/stories/202610090414.html",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "[Vanguard] The Corps Marshal of the Federal Road Safety Corps, FRSC, Shehu Mohammed, has warned that distractions from social media, emotional distress and fatigue could endanger motorists and other road users, calling for greater attention to the link between mental wellbeing an"
+       "blurb": "[Nyasa Times] Sports Minister says impostor pages should face the full force of cyber laws, and calls on police and MACRA to unmask the person behind 'Chigona'"
+      },
+      {
+       "title": "Journalists Go Behind Health Headlines From Georgia, Michigan, and Russia",
+       "url": "https://kffhealthnews.org/on-air/on-air-october-10-2026-dementia-sedation-drugs-russia-lab-death-rural-voters/",
+       "source": "KFF Health News",
+       "published": "2026-10-10T09:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "KFF Health News",
+         "url": "https://kffhealthnews.org/on-air/on-air-october-10-2026-dementia-sedation-drugs-russia-lab-death-rural-voters/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "KFF Health News journalists made the rounds on national and local media recently to discuss topical stories. Here’s a collection of their appearances."
       },
       {
        "title": "Netflix plans to cut 5% of its workforce, Puck News reports",
@@ -1356,23 +1328,6 @@
        "blurb": "Wi-Fi 8 could give ISPs a new line of defense against AI-driven cyberattacks, embedding inference hardware in residential gateways. Airties CEO Metin Taskin argues operators must pair next-generation chipsets with…"
       },
       {
-       "title": "Watchdog to examine summertime hack of DHS information network, other incidents",
-       "url": "https://www.govexec.com/oversight/2026/10/watchdog-examine-summertime-hack-dhs-information-network-other-incidents/416518/",
-       "source": "Government Executive",
-       "published": "2026-10-09T13:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Government Executive",
-         "url": "https://www.govexec.com/oversight/2026/10/watchdog-examine-summertime-hack-dhs-information-network-other-incidents/416518/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Government Accountability Office is expected to flag that the Homeland Security Department delayed in notifying Congress of the incidents, according to a person familiar with the review."
-      },
-      {
        "title": "Basel Committee meets to advance supervisory and regulatory initiatives and discuss risks and vulnerabilities to the global banking system",
        "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
        "source": "Bank for International Settlements",
@@ -1388,6 +1343,23 @@
        "stages": [],
        "via": null,
        "blurb": "Exchanges experiences and views on developments in artificial intelligence for the global banking system and supervisors, modernisation efforts and implications for the Committee’s future work programme..."
+      },
+      {
+       "title": "Watchdog to examine summertime hack of DHS information network, other incidents",
+       "url": "https://www.govexec.com/oversight/2026/10/watchdog-examine-summertime-hack-dhs-information-network-other-incidents/416518/",
+       "source": "Government Executive",
+       "published": "2026-10-09T13:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Government Executive",
+         "url": "https://www.govexec.com/oversight/2026/10/watchdog-examine-summertime-hack-dhs-information-network-other-incidents/416518/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Government Accountability Office is expected to flag that the Homeland Security Department delayed in notifying Congress of the incidents, according to a person familiar with the review."
       },
       {
        "title": "Trump Mobile hack and apparent lack of FCC authorization raise security alarms",
@@ -1525,6 +1497,23 @@
        "blurb": "Oracle is considering using the same strategy in New Mexico, where a gas pipeline to help power one of its most crucial data centers is delayed and threatening the project’s timeline."
       },
       {
+       "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
+       "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+       "source": "The Guardian Business",
+       "published": "2026-10-10T10:00:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "George Williamson says ‘national resilience’ is key focus of ATI amid US and China’s runaway leadership in field The UK must not become dependent on foreign AI systems that can be switched off at short notice and must develop its own versions of the technology, according to the h"
+      },
+      {
        "title": "A $6 trillion question hangs over the AI construction boom",
        "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
        "source": "Construction Dive",
@@ -1593,23 +1582,6 @@
        "blurb": "Student interest in AI safety is surging, and schools are rushing to prepare for new career paths."
       },
       {
-       "title": "Supplier Showcase focus: AI-driven diagnostics",
-       "url": "https://www.ans.org/news/2026-10-08/article-8472/supplier-showcase-focus-aidriven-diagnostics/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-08T12:04:44.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-08/article-8472/supplier-showcase-focus-aidriven-diagnostics/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The American Nuclear Society is hosting a Supplier Showcase webinar, “From Alarm to Answer: How AI Can Reduce Equipment Load and Enhance Performance,” on October 13, from 1:00 p.m. to 2:00 p.m. (CDT) in partnership with Nuclearn, a provider of AI tools purpose-built for the nucle"
-      },
-      {
        "title": "White House AI task force faces expertise, partnership challenges",
        "url": "https://www.cybersecuritydive.com/news/white-house-ai-task-force-cybersecurity-partnerships-cisa/832129/",
        "source": "Cybersecurity Dive",
@@ -1665,6 +1637,23 @@
     "cloud": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Sponsored: Wärtsilä, Schneider Electric, and Stanley Consultants launch coordinated approach for faster US data center power delivery",
+       "url": "https://www.datacenterdynamics.com/en/product-news/w%C3%A4rtsil%C3%A4-schneider-electric-and-stanley-consultants-launch-coordinated-approach-for-faster-us-data-center-power-delivery/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-10T07:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/product-news/w%C3%A4rtsil%C3%A4-schneider-electric-and-stanley-consultants-launch-coordinated-approach-for-faster-us-data-center-power-delivery/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Coordinated 'generator-to-chip' approach integrates onsite generation, electrical infrastructure, and engineering to help data center customers streamline development and save time compared to traditional delivery models"
+      },
       {
        "title": "Fisk Electric wins $24M modular contract for Houston data center",
        "url": "https://www.constructiondive.com/news/fisk-electric-tutor-perini-data-center-modular/832658/",
@@ -1797,11 +1786,6 @@
        "verification": "multiple",
        "outlets": [
         {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-sv-india-denies-blocking-ambani-musk-adani-starlink-in?traffic_source=rss",
-         "primary": false
-        },
-        {
          "name": "The Hindu Business",
          "url": "https://www.thehindu.com/business/Industry/elon-musk-ups-ante-in-starlink-row-sarcastically-calls-ambani-prime-minister-alleges-monopoly/article71565795.ece",
          "primary": false
@@ -1900,6 +1884,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
+       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+       "source": "NASA News",
+       "published": "2026-10-08T19:40:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Editor’s note: This release was updated Oct. 8, 2026 with the formal name of the summit. NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are an"
+      },
+      {
        "title": "Fermi America, Blue Energy make strides in Texas",
        "url": "https://www.ans.org/news/2026-10-09/article-8479/fermi-america-blue-energy-make-strides-in-texas/",
        "source": "ANS Nuclear Newswire",
@@ -1945,23 +1946,6 @@
        "blurb": "A project led by UC Irvine that aims to use AI to safely and efficiently identify geothermal resources has been selected by the US DOE for the Genesis Mission. The post US DOE selects AI-driven geothermal prospecting project for grant program first appeared on ThinkGeoEnergy - Ge"
       },
       {
-       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
-       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-       "source": "Manufacturing Dive",
-       "published": "2026-10-08T16:03:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Manufacturing Dive",
-         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
-      },
-      {
        "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
        "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
        "source": "POWER Magazine",
@@ -1985,6 +1969,23 @@
         "stage": "innovation"
        },
        "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
+      },
+      {
+       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
+       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+       "source": "Manufacturing Dive",
+       "published": "2026-10-08T16:03:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Manufacturing Dive",
+         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
       },
       {
        "title": "‘We Are Seen as Disposable’: Rural Residents Fight a Proposed Gas Pipeline",
@@ -2121,29 +2122,29 @@
        "stages": [],
        "via": null,
        "blurb": "Nearly 100 patients discussed their maladies with a Google bot, called AMIE, before meeting with physicians."
-      },
-      {
-       "title": "HHS launches new plan to strengthen vaccine injury research, reporting",
-       "url": "https://www.biopharmadive.com/news/hhs-vaccine-injury-reporting-research-rfk/832532/",
-       "source": "BioPharma Dive",
-       "published": "2026-10-08T20:57:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BioPharma Dive",
-         "url": "https://www.biopharmadive.com/news/hhs-vaccine-injury-reporting-research-rfk/832532/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Spearheaded by vaccine skeptic Robert F. Kennedy Jr., the initiative will involve a new NIH clinic, an updated monitoring system and reimbursements for doctors who report suspected side effects."
       }
      ]
     },
     "consulting": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Sponsored: Wärtsilä, Schneider Electric, and Stanley Consultants launch coordinated approach for faster US data center power delivery",
+       "url": "https://www.datacenterdynamics.com/en/product-news/w%C3%A4rtsil%C3%A4-schneider-electric-and-stanley-consultants-launch-coordinated-approach-for-faster-us-data-center-power-delivery/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-10T07:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/product-news/w%C3%A4rtsil%C3%A4-schneider-electric-and-stanley-consultants-launch-coordinated-approach-for-faster-us-data-center-power-delivery/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Coordinated 'generator-to-chip' approach integrates onsite generation, electrical infrastructure, and engineering to help data center customers streamline development and save time compared to traditional delivery models"
+      },
       {
        "title": "Law Firm Seward & Kissel Signs 171K-SF Renewal at One Battery Park Plaza",
        "url": "https://commercialobserver.com/2026/10/seward-kissel-lease-renewal-one-battery-park-plaza/",
@@ -2196,23 +2197,6 @@
        "blurb": "Ernst & Young global revenues increased 4.7% to $57 billion in fiscal year 2026, with each of EY's service lines and geographic areas posting revenue increases."
       },
       {
-       "title": "The World’s Richest Law Firm Has Decided Money Isn’t Everything — See Also",
-       "url": "https://abovethelaw.com/2026/10/the-worlds-richest-law-firm-has-decided-money-isnt-everything-see-also/",
-       "source": "Above the Law",
-       "published": "2026-10-08T23:31:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Above the Law",
-         "url": "https://abovethelaw.com/2026/10/the-worlds-richest-law-firm-has-decided-money-isnt-everything-see-also/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Kirkland & Ellis Is Done Sharing Its Revenue With The Media: Turns out $10 billion is right where the numbers stop providing 'meaningful value.' Biglaw Wants Lawyers Who Know How To Use AI : But some law schools are outright banning it. This could turn into a recruitment problem."
-      },
-      {
        "title": "FBI removes Accenture contractor after missed security patch led to breach",
        "url": "https://www.govexec.com/technology/2026/10/fbi-removes-accenture-contractor-after-missed-security-patch-led-breach/416446/",
        "source": "Government Executive",
@@ -2228,6 +2212,28 @@
        "stages": [],
        "via": null,
        "blurb": "The bureau’s cyber chief blamed a contractor’s failure to apply an available fix for an intrusion that may have exposed sensitive employee information."
+      }
+     ]
+    },
+    "media": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Journalists Go Behind Health Headlines From Georgia, Michigan, and Russia",
+       "url": "https://kffhealthnews.org/on-air/on-air-october-10-2026-dementia-sedation-drugs-russia-lab-death-rural-voters/",
+       "source": "KFF Health News",
+       "published": "2026-10-10T09:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "KFF Health News",
+         "url": "https://kffhealthnews.org/on-air/on-air-october-10-2026-dementia-sedation-drugs-russia-lab-death-rural-voters/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "KFF Health News journalists made the rounds on national and local media recently to discuss topical stories. Here’s a collection of their appearances."
       }
      ]
     },
@@ -2419,26 +2425,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "The Hydrogen Stream: Dutch researchers calculate green H2 costs as low as €7.2/kg",
-       "url": "https://www.pv-magazine.com/2026/10/09/the-hydrogen-stream-dutch-researchers-calculate-green-h2-costs-as-low-as-e7-2-kg/",
-       "source": "pv magazine",
-       "published": "2026-10-09T12:50:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/09/the-hydrogen-stream-dutch-researchers-calculate-green-h2-costs-as-low-as-e7-2-kg/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Researchers at the University of Groningen have calculated green hydrogen production costs of €7.2/kg to €7.3/kg using renewable power purchase agreements and hybrid electricity supply configurations, compared with €7.7/kg for wholesale electricity sourcing. The study found that "
-      },
-      {
        "title": "Westinghouse teams up with Hyundai E&C for Dutch FEED studies",
        "url": "https://www.world-nuclear-news.org/articles/westinghouse-teams-up-with-hyundai-ec-for-dutch-feed-studies",
        "source": "World Nuclear News",
@@ -2592,304 +2578,29 @@
     }
    }
   },
-  "ua": {
-   "label": "Ukraine",
+  "br": {
+   "label": "Brazil",
    "level": "country",
    "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
-       "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
-       "source": "Ars Technica",
-       "published": "2026-10-09T22:04:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "One damaged data center has supercomputers used for training Yandex’s AI model."
-      }
-     ]
-    },
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukraine war latest: Drones strike another Yandex data center in Russia",
-       "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-09T18:12:16.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Key developments on October 09: Second Russian Yandex data center damaged by drone attack in two days, company says Twenty Russian officers killed in Ukrainian strikes on Donetsk, independent monitors claim Russia forcibly removes 25 Ukrainian civilians, including children, from "
-      },
-      {
-       "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
-       "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
-       "source": "Ars Technica",
-       "published": "2026-10-09T22:04:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "One damaged data center has supercomputers used for training Yandex’s AI model."
-      },
-      {
-       "title": "Ukrainian drone attack takes out Russian datacenter",
-       "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
-       "source": "The Register",
-       "published": "2026-10-09T00:08:52.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Putin this cloud region back into operation might not be possible, says Yandex"
-      }
-     ]
-    }
-   }
-  },
-  "ru": {
-   "label": "Russia",
-   "level": "country",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
-       "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
-       "source": "Ars Technica",
-       "published": "2026-10-09T22:04:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "One damaged data center has supercomputers used for training Yandex’s AI model."
-      }
-     ]
-    },
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukraine war latest: Drones strike another Yandex data center in Russia",
-       "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-09T18:12:16.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Key developments on October 09: Second Russian Yandex data center damaged by drone attack in two days, company says Twenty Russian officers killed in Ukrainian strikes on Donetsk, independent monitors claim Russia forcibly removes 25 Ukrainian civilians, including children, from "
-      },
-      {
-       "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
-       "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
-       "source": "Ars Technica",
-       "published": "2026-10-09T22:04:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "One damaged data center has supercomputers used for training Yandex’s AI model."
-      },
-      {
-       "title": "Ukrainian drone attack takes out Russian datacenter",
-       "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
-       "source": "The Register",
-       "published": "2026-10-09T00:08:52.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Putin this cloud region back into operation might not be possible, says Yandex"
-      }
-     ]
-    },
     "research": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Oil Slick Expands Near Sochi After Tanker Fire, Greenpeace Says",
-       "url": "https://www.themoscowtimes.com/2026/10/09/oil-slick-expands-near-sochi-after-tanker-fire-greenpeace-says-a93918",
-       "source": "The Moscow Times",
-       "published": "2026-10-09T08:00:00.000Z",
+       "title": "Brazil’s retail electricity market opening raises credit and liquidity concerns, study finds",
+       "url": "https://www.pv-magazine.com/2026/10/10/brazils-retail-electricity-market-opening-raises-credit-and-liquidity-concerns-study-finds/",
+       "source": "pv magazine",
+       "published": "2026-10-10T09:30:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/09/oil-slick-expands-near-sochi-after-tanker-fire-greenpeace-says-a93918",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Authorities said tests found no oil contamination following a drone attack ignited a major blaze on an oil tanker."
-      },
-      {
-       "title": "Plague scare: what scientists know — and what Russia won’t say",
-       "url": "https://www.nature.com/articles/d41586-026-03215-8",
-       "source": "Nature",
-       "published": "2026-10-08T00:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Nature",
-         "url": "https://www.nature.com/articles/d41586-026-03215-8",
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/10/brazils-retail-electricity-market-opening-raises-credit-and-liquidity-concerns-study-finds/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Nature, Published online: 08 October 2026; doi:10.1038/d41586-026-03215-8 Unverified rumours swirl around the death of a Siberian laboratory technician. Nature talks to a biosecurity specialist to unpack the fallout"
-      },
-      {
-       "title": "Five things to know about the death at Russia’s anti-plague laboratory",
-       "url": "https://www.atlanticcouncil.org/dispatches/five-things-to-know-about-the-death-at-russias-anti-plague-laboratory/",
-       "source": "Atlantic Council",
-       "published": "2026-10-06T21:22:59.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Atlantic Council",
-         "url": "https://www.atlanticcouncil.org/dispatches/five-things-to-know-about-the-death-at-russias-anti-plague-laboratory/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "In light of Russia’s record on biological weapons and lab accidents, the death of an anti-plague researcher raises questions to consider. The post Five things to know about the death at Russia’s anti-plague laboratory appeared first on Atlantic Council ."
-      }
-     ]
-    }
-   }
-  },
-  "ru-ms-2": {
-   "label": "Moskva",
-   "level": "admin1",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukrainian Drones Hit Yandex Data Center, Industrial Facilities Across Russia",
-       "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
-       "source": "The Moscow Times",
-       "published": "2026-10-08T12:30:00.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
-      }
-     ]
-    }
-   }
-  },
-  "ru-city-moscow": {
-   "label": "Moscow",
-   "level": "city",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukrainian Drones Hit Yandex Data Center, Industrial Facilities Across Russia",
-       "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
-       "source": "The Moscow Times",
-       "published": "2026-10-08T12:30:00.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
+       "blurb": "A study based on 88,000 consumer units participating in subscription-based solar generation schemes in Brazil has identified a 17% average monthly payment delinquency rate and 4% monthly customer churn. The findings highlight potential credit, liquidity and consumer protection ch"
       }
      ]
     }
@@ -3122,6 +2833,297 @@
     }
    }
   },
+  "ua": {
+   "label": "Ukraine",
+   "level": "country",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+       "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+       "source": "Ars Technica",
+       "published": "2026-10-09T22:04:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "One damaged data center has supercomputers used for training Yandex’s AI model."
+      }
+     ]
+    },
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ukraine war latest: Drones strike another Yandex data center in Russia",
+       "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-09T18:12:16.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
+         "primary": false
+        },
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Key developments on October 09: Second Russian Yandex data center damaged by drone attack in two days, company says Twenty Russian officers killed in Ukrainian strikes on Donetsk, independent monitors claim Russia forcibly removes 25 Ukrainian civilians, including children, from "
+      },
+      {
+       "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+       "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+       "source": "Ars Technica",
+       "published": "2026-10-09T22:04:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "One damaged data center has supercomputers used for training Yandex’s AI model."
+      }
+     ]
+    }
+   }
+  },
+  "ru": {
+   "label": "Russia",
+   "level": "country",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+       "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+       "source": "Ars Technica",
+       "published": "2026-10-09T22:04:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "One damaged data center has supercomputers used for training Yandex’s AI model."
+      }
+     ]
+    },
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ukraine war latest: Drones strike another Yandex data center in Russia",
+       "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-09T18:12:16.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
+         "primary": false
+        },
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Key developments on October 09: Second Russian Yandex data center damaged by drone attack in two days, company says Twenty Russian officers killed in Ukrainian strikes on Donetsk, independent monitors claim Russia forcibly removes 25 Ukrainian civilians, including children, from "
+      },
+      {
+       "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+       "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+       "source": "Ars Technica",
+       "published": "2026-10-09T22:04:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "One damaged data center has supercomputers used for training Yandex’s AI model."
+      }
+     ]
+    },
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Oil Slick Expands Near Sochi After Tanker Fire, Greenpeace Says",
+       "url": "https://www.themoscowtimes.com/2026/10/09/oil-slick-expands-near-sochi-after-tanker-fire-greenpeace-says-a93918",
+       "source": "The Moscow Times",
+       "published": "2026-10-09T08:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/09/oil-slick-expands-near-sochi-after-tanker-fire-greenpeace-says-a93918",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Authorities said tests found no oil contamination following a drone attack ignited a major blaze on an oil tanker."
+      },
+      {
+       "title": "Plague scare: what scientists know — and what Russia won’t say",
+       "url": "https://www.nature.com/articles/d41586-026-03215-8",
+       "source": "Nature",
+       "published": "2026-10-08T00:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Nature",
+         "url": "https://www.nature.com/articles/d41586-026-03215-8",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Nature, Published online: 08 October 2026; doi:10.1038/d41586-026-03215-8 Unverified rumours swirl around the death of a Siberian laboratory technician. Nature talks to a biosecurity specialist to unpack the fallout"
+      },
+      {
+       "title": "Five things to know about the death at Russia’s anti-plague laboratory",
+       "url": "https://www.atlanticcouncil.org/dispatches/five-things-to-know-about-the-death-at-russias-anti-plague-laboratory/",
+       "source": "Atlantic Council",
+       "published": "2026-10-06T21:22:59.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Atlantic Council",
+         "url": "https://www.atlanticcouncil.org/dispatches/five-things-to-know-about-the-death-at-russias-anti-plague-laboratory/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In light of Russia’s record on biological weapons and lab accidents, the death of an anti-plague researcher raises questions to consider. The post Five things to know about the death at Russia’s anti-plague laboratory appeared first on Atlantic Council ."
+      }
+     ]
+    },
+    "media": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Journalists Go Behind Health Headlines From Georgia, Michigan, and Russia",
+       "url": "https://kffhealthnews.org/on-air/on-air-october-10-2026-dementia-sedation-drugs-russia-lab-death-rural-voters/",
+       "source": "KFF Health News",
+       "published": "2026-10-10T09:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "KFF Health News",
+         "url": "https://kffhealthnews.org/on-air/on-air-october-10-2026-dementia-sedation-drugs-russia-lab-death-rural-voters/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "KFF Health News journalists made the rounds on national and local media recently to discuss topical stories. Here’s a collection of their appearances."
+      }
+     ]
+    }
+   }
+  },
+  "ru-ms-2": {
+   "label": "Moskva",
+   "level": "admin1",
+   "sources": {
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ukrainian Drones Hit Yandex Data Center, Industrial Facilities Across Russia",
+       "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T12:30:00.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
+         "primary": false
+        },
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
+      }
+     ]
+    }
+   }
+  },
+  "ru-city-moscow": {
+   "label": "Moscow",
+   "level": "city",
+   "sources": {
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ukrainian Drones Hit Yandex Data Center, Industrial Facilities Across Russia",
+       "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T12:30:00.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
+         "primary": false
+        },
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
+      }
+     ]
+    }
+   }
+  },
   "de": {
    "label": "Germany",
    "level": "country",
@@ -3165,28 +3167,6 @@
        "stages": [],
        "via": null,
        "blurb": "The 30th Fakuma international trade fair returns to Friedrichshafen, Germany, October 12 to 16, 2026, featuring 1,600 exhibitors, new awards, career initiatives, and comprehensive plastics processing innovations."
-      }
-     ]
-    },
-    "consulting": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Engineering firm claims world record for tallest wind turbine tower",
-       "url": "https://www.windpowermonthly.com/article/1971320/engineering-firm-claims-world-record-tallest-wind-turbine-tower",
-       "source": "Windpower Monthly",
-       "published": "2026-09-30T10:28:52.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Windpower Monthly",
-         "url": "https://www.windpowermonthly.com/article/1971320/engineering-firm-claims-world-record-tallest-wind-turbine-tower",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The installation of what is thought to be the tallest wind turbine tower ever built has been completed by an engineering company in Germany."
       }
      ]
     }
@@ -3364,6 +3344,26 @@
         "stage": "innovation"
        },
        "blurb": "Two papers published recently in Nature report what the journal describes as “the first implementation of a nuclear clock, a milestone in the field of metrology.” The research behind both papers involve the radioisotope thorium-229. “A thorium-229 optical nuclear clock with feedb"
+      },
+      {
+       "title": "Sunbooster secures European patent for bifacial photovoltaic fences",
+       "url": "https://www.pv-magazine.com/2026/10/10/sunbooster-secures-european-patent-for-bifacial-photovoltaic-fences/",
+       "source": "pv magazine",
+       "published": "2026-10-10T08:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/10/sunbooster-secures-european-patent-for-bifacial-photovoltaic-fences/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Austrian company Sunbooster has secured a European patent for its bifacial solar fence technology, now protected in 18 EU member states. The company is expanding into France, where it has completed its first 3.7 kW installation using vertically mounted PV strips with a reported e"
       }
      ]
     }
@@ -3376,6 +3376,23 @@
     "software": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Microsoft leans on open weight model from Chinese AI lab to challenge Jev",
+       "url": "https://www.theregister.com/ai-and-ml/2026/10/10/microsoft-leans-on-open-weight-model-from-chinese-ai-lab-to-challenge-jev/5302473",
+       "source": "The Register",
+       "published": "2026-10-10T07:10:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/ai-and-ml/2026/10/10/microsoft-leans-on-open-weight-model-from-chinese-ai-lab-to-challenge-jev/5302473",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The first version of Microsoft-Decision-1 is based on Qwen3.5-9B, but the next will sport homegrown tech, Redmond reassures"
+      },
       {
        "title": "Not just AI. China is building technologies that challenge U.S. dominance",
        "url": "https://restofworld.org/2026/china-america-tech-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
@@ -3394,6 +3411,23 @@
        "blurb": "From batteries and solar panels to drones and satellites, China is building tech capabilities that extend well beyond AI, writes Steve Feldstein in his new book, \"Bytes and Bullets: Global Rivalries, Big Tech, and the New Shape of Modern Warfare.\""
       },
       {
+       "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
+       "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+       "source": "The Guardian Business",
+       "published": "2026-10-10T10:00:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "George Williamson says ‘national resilience’ is key focus of ATI amid US and China’s runaway leadership in field The UK must not become dependent on foreign AI systems that can be switched off at short notice and must develop its own versions of the technology, according to the h"
+      },
+      {
        "title": "Alibaba’s AI cloud revenue set to surge over 50% as investment blitz pays off: analysts",
        "url": "https://www.scmp.com/tech/big-tech/article/3370209/alibabas-ai-cloud-revenue-set-surge-over-50-investment-blitz-pays-analysts?utm_source=rss_feed",
        "source": "South China Morning Post",
@@ -3409,23 +3443,6 @@
        "stages": [],
        "via": null,
        "blurb": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to analysts. Analysts across several financial institutions proje"
-      },
-      {
-       "title": "Hong Kong’s AI Marketing Moment is Here. The Question is Whether Business Leaders are Moving Fast Enough",
-       "url": "https://www.scmp.com/business/article/3370188/hong-kongs-ai-marketing-moment-here-question-whether-business-leaders-are-moving-fast-enough?utm_source=rss_feed",
-       "source": "South China Morning Post",
-       "published": "2026-10-08T23:00:10.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "South China Morning Post",
-         "url": "https://www.scmp.com/business/article/3370188/hong-kongs-ai-marketing-moment-here-question-whether-business-leaders-are-moving-fast-enough?utm_source=rss_feed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[The content of this article has been produced by our advertising partner.] AI is moving faster than many businesses can absorb. Across Asia, brands are testing new tools, automating workflows and rethinking how customers are reached. Yet one question remains unresolved: are comp"
       },
       {
        "title": "Amid battle for AI edge, Hong Kong presses HSBC over Singapore hub decision: sources",
@@ -3485,6 +3502,23 @@
         "stage": "innovation"
        },
        "blurb": "Two papers published recently in Nature report what the journal describes as “the first implementation of a nuclear clock, a milestone in the field of metrology.” The research behind both papers involve the radioisotope thorium-229. “A thorium-229 optical nuclear clock with feedb"
+      },
+      {
+       "title": "Microsoft leans on open weight model from Chinese AI lab to challenge Jev",
+       "url": "https://www.theregister.com/ai-and-ml/2026/10/10/microsoft-leans-on-open-weight-model-from-chinese-ai-lab-to-challenge-jev/5302473",
+       "source": "The Register",
+       "published": "2026-10-10T07:10:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Register",
+         "url": "https://www.theregister.com/ai-and-ml/2026/10/10/microsoft-leans-on-open-weight-model-from-chinese-ai-lab-to-challenge-jev/5302473",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The first version of Microsoft-Decision-1 is based on Qwen3.5-9B, but the next will sport homegrown tech, Redmond reassures"
       }
      ]
     },
@@ -3667,59 +3701,6 @@
     }
    }
   },
-  "fr": {
-   "label": "France",
-   "level": "country",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Why I quit the movement shaping AI",
-       "url": "https://www.france24.com/en/tv-shows/tech-24/20261004-why-i-quit-the-movement-shaping-ai",
-       "source": "France 24 Business",
-       "published": "2026-10-04T14:30:32.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "France 24 Business",
-         "url": "https://www.france24.com/en/tv-shows/tech-24/20261004-why-i-quit-the-movement-shaping-ai",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Artificial intelligence insiders are quitting their jobs, saying the technology could mean the end of humanity. Pope Leo, on his recent visit to France, warned of a \"paradise of machines\". And The New York Times reported this week that one of AI firm Anthropic's co-founders spent"
-      }
-     ]
-    },
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "France Energies Marines Launches Four Offshore Wind R&D Projects",
-       "url": "https://offshorewind.biz/2026/10/08/france-energies-marines-launches-four-offshore-wind-rd-projects",
-       "source": "offshoreWIND.biz",
-       "published": "2026-10-08T07:10:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "offshoreWIND.biz",
-         "url": "https://offshorewind.biz/2026/10/08/france-energies-marines-launches-four-offshore-wind-rd-projects",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "France Energies Marines has approved four new research and innovation projects involving 33 public and private partners, with a combined..."
-      }
-     ]
-    }
-   }
-  },
   "ke": {
    "label": "Kenya",
    "level": "country",
@@ -3781,17 +3762,12 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Elon Musk lashes out at Indian ‘Prime Minister’ Mukesh Ambani in Starlink",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-sv-india-denies-blocking-ambani-musk-adani-starlink-in?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-10T02:35:28.000Z",
+       "title": "Elon Musk intensifies attack on Ambani over Starlink India launch delay",
+       "url": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
+       "source": "TechCrunch",
+       "published": "2026-10-10T03:10:06.000Z",
        "verification": "multiple",
        "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-sv-india-denies-blocking-ambani-musk-adani-starlink-in?traffic_source=rss",
-         "primary": false
-        },
         {
          "name": "The Hindu Business",
          "url": "https://www.thehindu.com/business/Industry/elon-musk-ups-ante-in-starlink-row-sarcastically-calls-ambani-prime-minister-alleges-monopoly/article71565795.ece",
@@ -3815,7 +3791,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Elon Musk has accused Indian billionaire Mukesh Ambani of being India’s ‘real boss’ in over delays to Starlink's entry."
+       "blurb": "Elon Musk has accused Indian billionaire Mukesh Ambani of blocking competition."
       }
      ]
     },
@@ -4066,6 +4042,79 @@
     }
    }
   },
+  "fr": {
+   "label": "France",
+   "level": "country",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Why I quit the movement shaping AI",
+       "url": "https://www.france24.com/en/tv-shows/tech-24/20261004-why-i-quit-the-movement-shaping-ai",
+       "source": "France 24 Business",
+       "published": "2026-10-04T14:30:32.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "France 24 Business",
+         "url": "https://www.france24.com/en/tv-shows/tech-24/20261004-why-i-quit-the-movement-shaping-ai",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Artificial intelligence insiders are quitting their jobs, saying the technology could mean the end of humanity. Pope Leo, on his recent visit to France, warned of a \"paradise of machines\". And The New York Times reported this week that one of AI firm Anthropic's co-founders spent"
+      }
+     ]
+    },
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "France Energies Marines Launches Four Offshore Wind R&D Projects",
+       "url": "https://offshorewind.biz/2026/10/08/france-energies-marines-launches-four-offshore-wind-rd-projects",
+       "source": "offshoreWIND.biz",
+       "published": "2026-10-08T07:10:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "offshoreWIND.biz",
+         "url": "https://offshorewind.biz/2026/10/08/france-energies-marines-launches-four-offshore-wind-rd-projects",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "France Energies Marines has approved four new research and innovation projects involving 33 public and private partners, with a combined..."
+      },
+      {
+       "title": "Sunbooster secures European patent for bifacial photovoltaic fences",
+       "url": "https://www.pv-magazine.com/2026/10/10/sunbooster-secures-european-patent-for-bifacial-photovoltaic-fences/",
+       "source": "pv magazine",
+       "published": "2026-10-10T08:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/10/sunbooster-secures-european-patent-for-bifacial-photovoltaic-fences/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Austrian company Sunbooster has secured a European patent for its bifacial solar fence technology, now protected in 18 EU member states. The company is expanding into France, where it has completed its first 3.7 kW installation using vertically mounted PV strips with a reported e"
+      }
+     ]
+    }
+   }
+  },
   "ie": {
    "label": "Ireland",
    "level": "country",
@@ -4097,11 +4146,6 @@
        "published": "2026-10-09T06:53:07.000Z",
        "verification": "multiple",
        "outlets": [
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
-         "primary": false
-        },
         {
          "name": "Euronews Business",
          "url": "https://www.euronews.com/2026/10/09/what-happened-to-openais-20bn-revenue-scare-rattles-ai-trade",
@@ -4198,6 +4242,23 @@
     "software": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
+       "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+       "source": "The Guardian Business",
+       "published": "2026-10-10T10:00:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "George Williamson says ‘national resilience’ is key focus of ATI amid US and China’s runaway leadership in field The UK must not become dependent on foreign AI systems that can be switched off at short notice and must develop its own versions of the technology, according to the h"
+      },
       {
        "title": "Lost generation: the AI threat to Britain’s next great directors",
        "url": "https://www.theguardian.com/film/2026/oct/09/ai-threat-britain-directors-ridley-scott-guy-ritchie",
@@ -4304,26 +4365,6 @@
        "blurb": "Researchers at the University of Birmingham are leading a £6.2-million ($8.2-million) project to develop protein-based membranes that could make lithium extraction more selective and potentially less energy-intensive. The three-year initiative,... The post UK scientists turn to b"
       },
       {
-       "title": "General Fusion reports electron temperatures exceeding 1 keV",
-       "url": "https://www.ans.org/news/2026-10-09/article-8478/general-fusion-reports-electron-temperatures-exceeding-1-kev/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-09T17:05:16.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-09/article-8478/general-fusion-reports-electron-temperatures-exceeding-1-kev/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "General Fusion announced it has achieved compressional plasma heating that produced electron temperatures exceeding 1 keV, measured using Thomson scattering in collaboration with the U.K. Atomic Energy Authority. The 1 keV threshold is regarded as a key milestone, because it demo"
-      },
-      {
        "title": "Subsea Battery System for Offshore Wind Completes Test Before Deployment",
        "url": "https://offshorewind.biz/2026/10/06/subsea-battery-system-for-offshore-wind-completes-test-before-deployment",
        "source": "offshoreWIND.biz",
@@ -4342,6 +4383,26 @@
         "stage": "innovation"
        },
        "blurb": "Verlume, a UK-headquartered subsea batteries and power management systems specialist, has put its 500 kWh modular subsea energy storage system to..."
+      },
+      {
+       "title": "General Fusion reports electron temperatures exceeding 1 keV",
+       "url": "https://www.ans.org/news/2026-10-09/article-8478/general-fusion-reports-electron-temperatures-exceeding-1-kev/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-09T17:05:16.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-09/article-8478/general-fusion-reports-electron-temperatures-exceeding-1-kev/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "General Fusion announced it has achieved compressional plasma heating that produced electron temperatures exceeding 1 keV, measured using Thomson scattering in collaboration with the U.K. Atomic Energy Authority. The 1 keV threshold is regarded as a key milestone, because it demo"
       },
       {
        "title": "EMEC Secures Multi-Million Funding for DeepWind Floating Wind Test Site",
@@ -4379,98 +4440,6 @@
        "stages": [],
        "via": null,
        "blurb": "Researchers at the Universities of Edinburgh and Glasgow analysed data from more than 129,000 people over five years."
-      }
-     ]
-    }
-   }
-  },
-  "es": {
-   "label": "Spain",
-   "level": "country",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
-       "url": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
-       "source": "Ars Technica",
-       "published": "2026-10-09T21:51:12.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Stylish upcycling, with a retro flare, at Spain's Museo de Historia de la Computación."
-      }
-     ]
-    },
-    "telecom": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Starlink expands its ground stations in Spain to seven",
-       "url": "https://www.datacenterdynamics.com/en/news/starlink-expands-its-ground-stations-in-spain-to-seven/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-09T14:54:10.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/starlink-expands-its-ground-stations-in-spain-to-seven/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The company has put three new ground stations into service"
-      }
-     ]
-    },
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Spanish researchers reduce losses in organic solar cells by restricting emission angle",
-       "url": "https://www.pv-magazine.com/2026/10/09/spanish-researchers-reduce-losses-in-organic-solar-cells-by-restricting-the-emission-angle/",
-       "source": "pv magazine",
-       "published": "2026-10-09T11:05:36.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/09/spanish-researchers-reduce-losses-in-organic-solar-cells-by-restricting-the-emission-angle/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Spanish researchers have developed an optical cavity that reduces Boltzmann losses in organic solar cells by restricting photon emission angles. The approach could help push single-junction solar cell efficiencies beyond the Shockley-Queisser limit. The post Spanish researchers r"
-      },
-      {
-       "title": "Taxes account for over 53% of labour costs in Spain, study finds",
-       "url": "https://www.euronews.com/2026/10/08/taxes-account-for-over-53-of-labour-costs-in-spain-study-finds",
-       "source": "Euronews Business",
-       "published": "2026-10-08T19:11:03.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Euronews Business",
-         "url": "https://www.euronews.com/2026/10/08/taxes-account-for-over-53-of-labour-costs-in-spain-study-finds",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "In 2025, Spain's Finance Ministry argued that its tax cuts for middle-income earners had delivered €38 billion in savings"
       }
      ]
     }
@@ -4533,6 +4502,221 @@
         "stage": "innovation"
        },
        "blurb": "Romanian company PhotoVoltaic Windows SRL has discovered an intriguing application for photovoltaic glass in apartments: heating domestic water."
+      }
+     ]
+    }
+   }
+  },
+  "sa": {
+   "label": "Saudi Arabia",
+   "level": "country",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Dutch design ultra-shallow-draft DSV for Gulf Region's oil & gas",
+       "url": "https://offshore-energy.biz/2026/10/07/dutch-design-ultra-shallow-draft-dsv-for-gulf-regions-oil-and-gas",
+       "source": "Offshore Energy",
+       "published": "2026-10-07T10:40:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Offshore Energy",
+         "url": "https://offshore-energy.biz/2026/10/07/dutch-design-ultra-shallow-draft-dsv-for-gulf-regions-oil-and-gas",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Saudi Arabia's Zamil Offshore, established in 1977, has contracted Dutch ship design and engineering company Conoship International to design an..."
+      }
+     ]
+    }
+   }
+  },
+  "es": {
+   "label": "Spain",
+   "level": "country",
+   "sources": {
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
+       "url": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
+       "source": "Ars Technica",
+       "published": "2026-10-09T21:51:12.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Stylish upcycling, with a retro flare, at Spain's Museo de Historia de la Computación."
+      }
+     ]
+    },
+    "telecom": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Starlink expands its ground stations in Spain to seven",
+       "url": "https://www.datacenterdynamics.com/en/news/starlink-expands-its-ground-stations-in-spain-to-seven/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-09T14:54:10.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/news/starlink-expands-its-ground-stations-in-spain-to-seven/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The company has put three new ground stations into service"
+      }
+     ]
+    },
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Taxes account for over 53% of labour costs in Spain, study finds",
+       "url": "https://www.euronews.com/2026/10/08/taxes-account-for-over-53-of-labour-costs-in-spain-study-finds",
+       "source": "Euronews Business",
+       "published": "2026-10-08T19:11:03.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Euronews Business",
+         "url": "https://www.euronews.com/2026/10/08/taxes-account-for-over-53-of-labour-costs-in-spain-study-finds",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In 2025, Spain's Finance Ministry argued that its tax cuts for middle-income earners had delivered €38 billion in savings"
+      }
+     ]
+    }
+   }
+  },
+  "vn": {
+   "label": "Vietnam",
+   "level": "country",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "AI disqualification yields new Nikon Small World in Motion winner",
+       "url": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
+       "source": "Ars Technica",
+       "published": "2026-10-09T18:44:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New winner is Nguyen Nam Nhat of Vietnam for video of a roundworm and single-celled Dileptus."
+      }
+     ]
+    }
+   }
+  },
+  "us-ny": {
+   "label": "New York",
+   "level": "admin1",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
+       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+       "source": "Manufacturing Dive",
+       "published": "2026-10-08T16:03:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Manufacturing Dive",
+         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
+      }
+     ]
+    }
+   }
+  },
+  "us-nc": {
+   "label": "North Carolina",
+   "level": "admin1",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
+       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+       "source": "Manufacturing Dive",
+       "published": "2026-10-08T16:03:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Manufacturing Dive",
+         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
+      }
+     ]
+    }
+   }
+  },
+  "us-city-new-york": {
+   "label": "New York",
+   "level": "city",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
+       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+       "source": "Manufacturing Dive",
+       "published": "2026-10-08T16:03:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Manufacturing Dive",
+         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
       }
      ]
     }
@@ -4849,149 +5033,6 @@
     }
    }
   },
-  "sa": {
-   "label": "Saudi Arabia",
-   "level": "country",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Dutch design ultra-shallow-draft DSV for Gulf Region's oil & gas",
-       "url": "https://offshore-energy.biz/2026/10/07/dutch-design-ultra-shallow-draft-dsv-for-gulf-regions-oil-and-gas",
-       "source": "Offshore Energy",
-       "published": "2026-10-07T10:40:31.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Offshore Energy",
-         "url": "https://offshore-energy.biz/2026/10/07/dutch-design-ultra-shallow-draft-dsv-for-gulf-regions-oil-and-gas",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "Saudi Arabia's Zamil Offshore, established in 1977, has contracted Dutch ship design and engineering company Conoship International to design an..."
-      }
-     ]
-    }
-   }
-  },
-  "vn": {
-   "label": "Vietnam",
-   "level": "country",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "AI disqualification yields new Nikon Small World in Motion winner",
-       "url": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
-       "source": "Ars Technica",
-       "published": "2026-10-09T18:44:06.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "New winner is Nguyen Nam Nhat of Vietnam for video of a roundworm and single-celled Dileptus."
-      }
-     ]
-    }
-   }
-  },
-  "us-ny": {
-   "label": "New York",
-   "level": "admin1",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
-       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-       "source": "Manufacturing Dive",
-       "published": "2026-10-08T16:03:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Manufacturing Dive",
-         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
-      }
-     ]
-    }
-   }
-  },
-  "us-nc": {
-   "label": "North Carolina",
-   "level": "admin1",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
-       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-       "source": "Manufacturing Dive",
-       "published": "2026-10-08T16:03:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Manufacturing Dive",
-         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
-      }
-     ]
-    }
-   }
-  },
-  "us-city-new-york": {
-   "label": "New York",
-   "level": "city",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
-       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-       "source": "Manufacturing Dive",
-       "published": "2026-10-08T16:03:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Manufacturing Dive",
-         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
-      }
-     ]
-    }
-   }
-  },
   "ua-dt": {
    "label": "Donets'k",
    "level": "admin1",
@@ -5187,6 +5228,37 @@
     }
    }
   },
+  "uy": {
+   "label": "Uruguay",
+   "level": "country",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Uruguay Opens Its First Green Hydrogen and Electric Mobility Pilot Plant",
+       "url": "https://fuelcellsworks.com/2026/10/09/h2/uruguay-opens-its-first-green-hydrogen-and-electric-mobility-pilot-plant",
+       "source": "FuelCellsWorks",
+       "published": "2026-10-09T15:08:33.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "FuelCellsWorks",
+         "url": "https://fuelcellsworks.com/2026/10/09/h2/uruguay-opens-its-first-green-hydrogen-and-electric-mobility-pilot-plant",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": ""
+      }
+     ]
+    }
+   }
+  },
   "sg": {
    "label": "Singapore",
    "level": "country",
@@ -5227,82 +5299,6 @@
        "stages": [],
        "via": null,
        "blurb": "As Hong Kong and Singapore compete for leadership in businesses ranging from foreign exchange trading to wealth management, the battleground has extended to artificial intelligence, with both cities vying to attract investment from HSBC Holdings and other major corporations, acco"
-      },
-      {
-       "title": "An air-con firm building AI, a hygiene business going regional: How home-grown SMEs are turning decades of expertise into new revenue",
-       "url": "https://www.straitstimes.com/business/home-grown-smes-turn-decades-expertise-into-new-revenue-streams-enterprise-singapore",
-       "source": "The Straits Times Business",
-       "published": "2026-10-08T20:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/home-grown-smes-turn-decades-expertise-into-new-revenue-streams-enterprise-singapore",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "With Enterprise Singapore and SME Centre support, firms are turning expertise into AI tools, services and new markets."
-      }
-     ]
-    }
-   }
-  },
-  "uy": {
-   "label": "Uruguay",
-   "level": "country",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Uruguay Opens Its First Green Hydrogen and Electric Mobility Pilot Plant",
-       "url": "https://fuelcellsworks.com/2026/10/09/h2/uruguay-opens-its-first-green-hydrogen-and-electric-mobility-pilot-plant",
-       "source": "FuelCellsWorks",
-       "published": "2026-10-09T15:08:33.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "FuelCellsWorks",
-         "url": "https://fuelcellsworks.com/2026/10/09/h2/uruguay-opens-its-first-green-hydrogen-and-electric-mobility-pilot-plant",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": ""
-      }
-     ]
-    }
-   }
-  },
-  "ng": {
-   "label": "Nigeria",
-   "level": "country",
-   "sources": {
-    "media": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Nigeria: Social Media Distraction Can Cause Road Crashes - FRSC Boss",
-       "url": "https://allafrica.com/stories/202610090448.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-09T12:29:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610090448.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Vanguard] The Corps Marshal of the Federal Road Safety Corps, FRSC, Shehu Mohammed, has warned that distractions from social media, emotional distress and fatigue could endanger motorists and other road users, calling for greater attention to the link between mental wellbeing an"
       }
      ]
     }
@@ -5423,6 +5419,62 @@
        "stages": [],
        "via": null,
        "blurb": "Arelion's 500-kilometer route from Amsterdam to London uses Nokia's 1830 Global Express (GX) Super C and Super L open line system, CHMQ6 thin transponder modules and ICE-X 400G and 800G ZR+ coherent pluggable optics. #pressrelease"
+      }
+     ]
+    }
+   }
+  },
+  "us-ga": {
+   "label": "Georgia",
+   "level": "admin1",
+   "sources": {
+    "media": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Journalists Go Behind Health Headlines From Georgia, Michigan, and Russia",
+       "url": "https://kffhealthnews.org/on-air/on-air-october-10-2026-dementia-sedation-drugs-russia-lab-death-rural-voters/",
+       "source": "KFF Health News",
+       "published": "2026-10-10T09:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "KFF Health News",
+         "url": "https://kffhealthnews.org/on-air/on-air-october-10-2026-dementia-sedation-drugs-russia-lab-death-rural-voters/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "KFF Health News journalists made the rounds on national and local media recently to discuss topical stories. Here’s a collection of their appearances."
+      }
+     ]
+    }
+   }
+  },
+  "us-mi": {
+   "label": "Michigan",
+   "level": "admin1",
+   "sources": {
+    "media": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Journalists Go Behind Health Headlines From Georgia, Michigan, and Russia",
+       "url": "https://kffhealthnews.org/on-air/on-air-october-10-2026-dementia-sedation-drugs-russia-lab-death-rural-voters/",
+       "source": "KFF Health News",
+       "published": "2026-10-10T09:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "KFF Health News",
+         "url": "https://kffhealthnews.org/on-air/on-air-october-10-2026-dementia-sedation-drugs-russia-lab-death-rural-voters/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "KFF Health News journalists made the rounds on national and local media recently to discuss topical stories. Here’s a collection of their appearances."
       }
      ]
     }
@@ -5826,6 +5878,34 @@
        "stages": [],
        "via": null,
        "blurb": "[New Dawn] MONROVIA -- The Liberia National Police (LNP) has arrested between 60 and 70 foreign nationals, including a significant number of Chinese citizens, in connection with an ongoing investigation into suspected cybercrime, counterfeiting and other alleged criminal activiti"
+      }
+     ]
+    }
+   }
+  },
+  "mw": {
+   "label": "Malawi",
+   "level": "country",
+   "sources": {
+    "media": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Malawi: Minister Gangata Condemns Fake Social Media Posts in His Name",
+       "url": "https://allafrica.com/stories/202610090414.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T12:04:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090414.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Nyasa Times] Sports Minister says impostor pages should face the full force of cyber laws, and calls on police and MACRA to unmask the person behind 'Chigona'"
       }
      ]
     }
