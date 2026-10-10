@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T18:40:39.058Z",
+ "generatedAt": "2026-10-10T00:48:42.661Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -10,6 +10,23 @@
     "software": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+       "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+       "source": "Ars Technica",
+       "published": "2026-10-09T22:04:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "One damaged data center has supercomputers used for training Yandex’s AI model."
+      },
       {
        "title": "US DOE selects AI-driven geothermal prospecting project for grant program",
        "url": "https://www.thinkgeoenergy.com/us-doe-selects-ai-driven-geothermal-prospecting-project-for-grant-program/",
@@ -50,6 +67,28 @@
        "blurb": "Nippon Express and Japan Airlines' weekly circuit connects Los Angeles with key hubs in Asia for AI and semiconductor cargo."
       },
       {
+       "title": "T-Mobile uses AI to reshape network investment and resilience",
+       "url": "https://rcrwireless.com/20261009/carriers/t-mobile-ai-network",
+       "source": "RCR Wireless News",
+       "published": "2026-10-09T08:45:25.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/wireless/t-mobile-cto-welcomes-competition-spacex",
+         "primary": false
+        },
+        {
+         "name": "RCR Wireless News",
+         "url": "https://rcrwireless.com/20261009/carriers/t-mobile-ai-network",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Speaking during Deutsche Telekom’s AI Investor Day, John Saw, chief technology officer at T-Mobile highlighted Customer-Driven Coverage (CDC) as one of the company’s biggest AI-driven changes in how it approaches…"
+      },
+      {
        "title": "AI, Tech Leaders Are Lobbying Trump Health Officials in a Government-Run Chat Room",
        "url": "https://kffhealthnews.org/health-industry/ai-tech-lobbying-medicare-medical-records-apps-trump-cms-slack-fda/",
        "source": "KFF Health News",
@@ -65,23 +104,6 @@
        "stages": [],
        "via": null,
        "blurb": "A Slack workspace managed by the Centers for Medicare & Medicaid Services has served as an extraordinary war room for AI industry insiders and Trump administration officials to launch a rapid campaign aimed at persuading Americans to manage their healthcare and medical records on"
-      },
-      {
-       "title": "Oracle moves gas by trucks to avoid data center power delays",
-       "url": "https://www.ttnews.com/articles/oracle-moves-gas-trucks",
-       "source": "Transport Topics",
-       "published": "2026-10-09T12:47:04.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Transport Topics",
-         "url": "https://www.ttnews.com/articles/oracle-moves-gas-trucks",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Oracle is considering using the same strategy in New Mexico, where a gas pipeline to help power one of its most crucial data centers is delayed and threatening the project’s timeline."
       },
       {
        "title": "‘AI Minister’ Niamh Smyth: ‘I’d have a very different view than President Trump’",
@@ -101,38 +123,21 @@
        "blurb": "Minister says she is ‘cautiously optimistic’ and excited by AI - but also has concerns over its impact on Irish labour market"
       },
       {
-       "title": "T-Mobile uses AI to reshape network investment and resilience",
-       "url": "https://rcrwireless.com/20261009/carriers/t-mobile-ai-network",
-       "source": "RCR Wireless News",
-       "published": "2026-10-09T08:45:25.000Z",
+       "title": "Oracle moves gas by trucks to avoid data center power delays",
+       "url": "https://www.ttnews.com/articles/oracle-moves-gas-trucks",
+       "source": "Transport Topics",
+       "published": "2026-10-09T12:47:04.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "RCR Wireless News",
-         "url": "https://rcrwireless.com/20261009/carriers/t-mobile-ai-network",
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/oracle-moves-gas-trucks",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Speaking during Deutsche Telekom’s AI Investor Day, John Saw, chief technology officer at T-Mobile highlighted Customer-Driven Coverage (CDC) as one of the company’s biggest AI-driven changes in how it approaches…"
-      },
-      {
-       "title": "Asian stocks mixed amid AI concerns, oil dips after surge",
-       "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-09T03:45:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "HONG KONG — Asian stocks headed into the weekend on a mixed note on Friday with tech weighed by renewed concerns about the artificial intelligence (AI) investment boom, while support came from a drop in oil prices after Donald Trump ruled out a pre-election strike on Iran."
+       "blurb": "Oracle is considering using the same strategy in New Mexico, where a gas pipeline to help power one of its most crucial data centers is delayed and threatening the project’s timeline."
       },
       {
        "title": "Deutsche Telekom says AI traffic will not drive more mobile uplink capex",
@@ -152,23 +157,6 @@
        "blurb": "Uplink growth is real, but the capex discipline holds In sum – what we know: Deutsche Telekom does not expect AI-related mobile uplink demand to require incremental radio-access-network investment in…"
       },
       {
-       "title": "Big bank defends offshoring of jobs at parliamentary inquiry into AI — as it happened",
-       "url": "https://www.abc.net.au/news/2026-10-09/asx-markets-business-live-news-9-october-2026/107246104",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T20:40:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-09/asx-markets-business-live-news-9-october-2026/107246104",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "ANZ, Westpac and NAB have given evidence about how they are using artificial intelligence. Look back at the day's financial news and insights in the business blog."
-      },
-      {
        "title": "Samsung flags 783% profit jump to record $80bn as AI chip boom also lifts TSMC sales",
        "url": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
        "source": "Euronews Business",
@@ -184,6 +172,23 @@
        "stages": [],
        "via": null,
        "blurb": "Samsung Electronics estimated on Thursday that its third-quarter operating profit jumped almost ninefold to a record 107.4 trillion won, or $80.2 billion, while sales at Taiwan's TSMC hit a quarterly record, as the AI boom keeps demand for chips strong."
+      },
+      {
+       "title": "Big bank defends offshoring of jobs at parliamentary inquiry into AI — as it happened",
+       "url": "https://www.abc.net.au/news/2026-10-09/asx-markets-business-live-news-9-october-2026/107246104",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T20:40:34.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-09/asx-markets-business-live-news-9-october-2026/107246104",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "ANZ, Westpac and NAB have given evidence about how they are using artificial intelligence. Look back at the day's financial news and insights in the business blog."
       },
       {
        "title": "A $6 trillion question hangs over the AI construction boom",
@@ -240,16 +245,79 @@
          "name": "The Moscow Times",
          "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
          "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
-         "primary": false
         }
        ],
        "stages": [],
        "via": null,
        "blurb": "Key developments on October 09: Second Russian Yandex data center damaged by drone attack in two days, company says Twenty Russian officers killed in Ukrainian strikes on Donetsk, independent monitors claim Russia forcibly removes 25 Ukrainian civilians, including children, from "
+      },
+      {
+       "title": "Tasmanian EPA says it was not told extent of Firmus data centre generator plans",
+       "url": "https://www.abc.net.au/news/2026-10-10/firmus-generators-epa-appeal-watchdog/107247476",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-09T22:54:16.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-10/firmus-generators-epa-appeal-watchdog/107247476",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Tasmania's EPA is worried about the extent of AI data centre company Firmus's planned diesel generator use, saying it is much more than initially disclosed."
+      },
+      {
+       "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+       "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+       "source": "Ars Technica",
+       "published": "2026-10-09T22:04:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "One damaged data center has supercomputers used for training Yandex’s AI model."
+      },
+      {
+       "title": "Fisk Electric wins $24M modular contract for Houston data center",
+       "url": "https://www.constructiondive.com/news/fisk-electric-tutor-perini-data-center-modular/832658/",
+       "source": "Construction Dive",
+       "published": "2026-10-09T19:55:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/fisk-electric-tutor-perini-data-center-modular/832658/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Tutor Perini subsidiary’s win reflects a priority shift toward the booming data center sector that the heavy civil contractor has emphasized on earnings calls this year."
+      },
+      {
+       "title": "Batteries are now cheaper than natural gas turbines used at many data centers",
+       "url": "https://techcrunch.com/2026/10/09/batteries-are-now-cheaper-than-natural-gas-turbines-used-at-many-data-centers/",
+       "source": "TechCrunch",
+       "published": "2026-10-09T18:57:58.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "TechCrunch",
+         "url": "https://techcrunch.com/2026/10/09/batteries-are-now-cheaper-than-natural-gas-turbines-used-at-many-data-centers/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Batteries are now cheaper than natural gas turbines as the data center boom pushes prices up."
       },
       {
        "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
@@ -340,7 +408,7 @@
        "title": "Hyperscaler Backs BKV’s 1.2 GW Natural Gas Power Push Near Dallas",
        "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
        "source": "Natural Gas Intelligence",
-       "published": "2026-10-09T12:56:55.000Z",
+       "published": "2026-10-09T12:56:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -369,80 +437,78 @@
        "stages": [],
        "via": null,
        "blurb": "Oracle is considering using the same strategy in New Mexico, where a gas pipeline to help power one of its most crucial data centers is delayed and threatening the project’s timeline."
-      },
-      {
-       "title": "Iraqi gov't reveals plans for five data centers",
-       "url": "https://www.datacenterdynamics.com/en/news/iraqi-govt-reveals-plans-for-five-data-centers/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-09T11:30:40.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/iraqi-govt-reveals-plans-for-five-data-centers/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "New facilities to be located in Baghdad, Basra, and Mosul"
-      },
-      {
-       "title": "Steel Manufacturer Zekelman Promotes Alternate Steel Forms for Data Center Construction",
-       "url": "https://www.enr.com/articles/63814-steel-manufacturer-zekelman-promotes-alternate-steel-forms-for-data-center-construction",
-       "source": "ENR (Engineering News-Record)",
-       "published": "2026-10-08T17:42:03.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ENR (Engineering News-Record)",
-         "url": "https://www.enr.com/articles/63814-steel-manufacturer-zekelman-promotes-alternate-steel-forms-for-data-center-construction",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "As a producer of steel pipes and tubes, Zekelman Industries sees an opportunity as steel mills struggle to keep up with demand from data centers, semiconductor fabs and pharmaceutical buildouts."
-      },
-      {
-       "title": "Data Centers, Gas, and Who Pays: Power Association Leaders Find Common Ground",
-       "url": "https://www.powermag.com/data-centers-gas-and-who-pays-power-association-leaders-find-common-ground/",
-       "source": "POWER Magazine",
-       "published": "2026-10-08T16:39:30.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "POWER Magazine",
-         "url": "https://www.powermag.com/data-centers-gas-and-who-pays-power-association-leaders-find-common-ground/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "When the heads of three of the power sector’s biggest trade associations shared a stage at Experience POWER on Sept. 30, the most notable thing was how little they disagreed. Whether the question was data center backlash, grid security, or what to do about gas-plant emissions rul"
-      },
-      {
-       "title": "Data centre operator Firmus pulls blockbuster ASX float after lacklustre demand",
-       "url": "https://www.abc.net.au/news/2026-10-09/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T22:12:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-09/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Firmus searches for private funding as it withdraws its application to list on the ASX just a day after closing its books to investors."
       }
      ]
     },
     "telecom": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Elon Musk ups ante in Starlink row, sarcastically calls Ambani ‘Prime Minister’, alleges monopoly",
+       "url": "https://www.thehindu.com/business/Industry/elon-musk-ups-ante-in-starlink-row-sarcastically-calls-ambani-prime-minister-alleges-monopoly/article71565795.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-09T19:15:27.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Industry/elon-musk-ups-ante-in-starlink-row-sarcastically-calls-ambani-prime-minister-alleges-monopoly/article71565795.ece",
+         "primary": false
+        },
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/india-rejects-monopoly-claim-after-musk-accuses-ambani-blocking-starlink-launch-6446291",
+         "primary": false
+        },
+        {
+         "name": "Light Reading",
+         "url": "https://www.lightreading.com/satellite/musk-names-ambani-in-starlink-row-as-india-rejects-bias-claims",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The post bybrea Mr. Musk now marks a sharp escalation in the Starlink satcom offering row, which saw the U.S. trillionaire recently alleging that powerful business interests are seeking to block his service"
+      },
+      {
+       "title": "Venezuela president authorizes SpaceX's Starlink to operate in the country",
+       "url": "https://www.channelnewsasia.com/business/venezuela-president-authorizes-spacexs-starlink-operate-in-country-6448146",
+       "source": "CNA Business",
+       "published": "2026-10-10T00:01:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/venezuela-president-authorizes-spacexs-starlink-operate-in-country-6448146",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
+      {
+       "title": "T-Mobile uses AI to reshape network investment and resilience",
+       "url": "https://rcrwireless.com/20261009/carriers/t-mobile-ai-network",
+       "source": "RCR Wireless News",
+       "published": "2026-10-09T08:45:25.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/wireless/t-mobile-cto-welcomes-competition-spacex",
+         "primary": false
+        },
+        {
+         "name": "RCR Wireless News",
+         "url": "https://rcrwireless.com/20261009/carriers/t-mobile-ai-network",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Speaking during Deutsche Telekom’s AI Investor Day, John Saw, chief technology officer at T-Mobile highlighted Customer-Driven Coverage (CDC) as one of the company’s biggest AI-driven changes in how it approaches…"
+      },
       {
        "title": "Broadband pricing gets more rational. It's unclear if it will stay that way",
        "url": "https://www.lightreading.com/broadband/broadband-pricing-gets-more-rational-it-s-unclear-if-it-will-stay-there",
@@ -478,23 +544,6 @@
        "blurb": "Also in today's EMEA regional roundup: Vodafone and friends team up for 5G-based TV broadcast trial; Arelion expands spectrum with Nokia; another day, another data center plan for Finland."
       },
       {
-       "title": "T-Mobile uses AI to reshape network investment and resilience",
-       "url": "https://rcrwireless.com/20261009/carriers/t-mobile-ai-network",
-       "source": "RCR Wireless News",
-       "published": "2026-10-09T08:45:25.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "RCR Wireless News",
-         "url": "https://rcrwireless.com/20261009/carriers/t-mobile-ai-network",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Speaking during Deutsche Telekom’s AI Investor Day, John Saw, chief technology officer at T-Mobile highlighted Customer-Driven Coverage (CDC) as one of the company’s biggest AI-driven changes in how it approaches…"
-      },
-      {
        "title": "Deutsche Telekom says AI traffic will not drive more mobile uplink capex",
        "url": "https://rcrwireless.com/20261008/ai/deutsche-telekom-ai-traffic",
        "source": "RCR Wireless News",
@@ -512,32 +561,10 @@
        "blurb": "Uplink growth is real, but the capex discipline holds In sum – what we know: Deutsche Telekom does not expect AI-related mobile uplink demand to require incremental radio-access-network investment in…"
       },
       {
-       "title": "India rejects monopoly claim after Musk accuses Ambani of blocking Starlink launch",
-       "url": "https://www.channelnewsasia.com/business/india-rejects-monopoly-claim-after-musk-accuses-ambani-blocking-starlink-launch-6446291",
-       "source": "CNA Business",
-       "published": "2026-10-09T12:27:19.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "CNA Business",
-         "url": "https://www.channelnewsasia.com/business/india-rejects-monopoly-claim-after-musk-accuses-ambani-blocking-starlink-launch-6446291",
-         "primary": false
-        },
-        {
-         "name": "Light Reading",
-         "url": "https://www.lightreading.com/satellite/musk-names-ambani-in-starlink-row-as-india-rejects-bias-claims",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
-       "title": "SpaceX to buy key spectrum that could help Starlink Mobile become major US cell carrier",
-       "url": "https://www.theregister.com/networks/2026/10/09/spacex-to-buy-key-spectrum-that-could-help-starlink-mobile-become-major-us-cell-carrier/5302393",
-       "source": "The Register",
-       "published": "2026-10-09T15:55:31.000Z",
+       "title": "SpaceX: Grain's lowband spectrum is our ticket to becoming 'major mobile carrier'",
+       "url": "https://www.lightreading.com/satellite/spacex-grain-s-lowband-spectrum-is-our-ticket-to-becoming-major-mobile-carrier-",
+       "source": "Light Reading",
+       "published": "2026-10-09T15:50:29.000Z",
        "verification": "multiple",
        "outlets": [
         {
@@ -573,7 +600,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Low-band frequencies can reach devices inside buildings, while 2 GHz orbiters could extend coverage beyond cell towers"
+       "blurb": "SpaceX aims to fill the lowband gap in its hybrid satellite-terrestrial network plan by acquiring Grain's 800MHz spectrum. That may help it compete with AT&T, T-Mobile and Verizon, but analysts still say SpaceX needs an MVNO deal."
       },
       {
        "title": "Vodafone raises cost savings target for UK unit to £1bn",
@@ -610,23 +637,6 @@
        "blurb": "The company has put three new ground stations into service"
       },
       {
-       "title": "Starlink spectrum deal boosts Musk plan to beat AT&T, T-Mobile, and Verizon",
-       "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
-       "source": "Ars Technica",
-       "published": "2026-10-09T18:24:39.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Nationwide 800 MHz spectrum to help Starlink provide mobile coverage indoors."
-      },
-      {
        "title": "Nokia campus sale nears as Hotard bets on industrial AI",
        "url": "https://www.fierce-network.com/wireless/nokia-campus-networking-sale-nears-hotard-bets-industrial-ai",
        "source": "Fierce Network",
@@ -644,21 +654,21 @@
        "blurb": "Nokia may soon name a buyer for its campus private networks unit as rivals gain share, but CEO Justin Hotard is betting on bigger money in industrial infrastructure."
       },
       {
-       "title": "Airlines Are Upgrading Wi-Fi. Not All Are Using Elon Musk’s Service.",
-       "url": "https://www.nytimes.com/2026/10/09/business/elon-musk-delta-starlink-wifi.html",
-       "source": "NYT Technology",
-       "published": "2026-10-09T13:28:00.000Z",
+       "title": "Starlink spectrum deal boosts Musk plan to beat AT&T, T-Mobile, and Verizon",
+       "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
+       "source": "Ars Technica",
+       "published": "2026-10-09T18:24:39.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "NYT Technology",
-         "url": "https://www.nytimes.com/2026/10/09/business/elon-musk-delta-starlink-wifi.html",
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Mr. Musk, whose company SpaceX owns Starlink, has attacked the top executive of Delta Air Lines for not selecting the internet provider."
+       "blurb": "Nationwide 800 MHz spectrum to help Starlink provide mobile coverage indoors."
       },
       {
        "title": "Arelion partners with Nokia on live network field trial",
@@ -688,20 +698,15 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Dangote taps EIL for Kenya grassroots refinery project",
-       "url": "https://www.ogj.com/refining-processing/news/55410915/dangote-taps-eil-for-kenya-grassroots-refinery-project",
-       "source": "Oil & Gas Journal",
-       "published": "2026-10-09T17:13:57.000Z",
-       "verification": "multiple",
+       "title": "Seeing more, repairing smarter: How advanced NDE and repair technologies are changing nuclear asset management",
+       "url": "https://www.ans.org/news/2026-10-09/article-8411/seeing-more-repairing-smarter-how-advanced-nde-and-repair-technologies-are-changing-nuclear-asset-management/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-09T20:49:01.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Oil & Gas Journal",
-         "url": "https://www.ogj.com/refining-processing/news/55410915/dangote-taps-eil-for-kenya-grassroots-refinery-project",
-         "primary": false
-        },
-        {
-         "name": "ENR (Engineering News-Record)",
-         "url": "https://www.enr.com/articles/63804-honeywell-picked-for-16b-kenya-crude-oil-processing-facility",
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-09/article-8411/seeing-more-repairing-smarter-how-advanced-nde-and-repair-technologies-are-changing-nuclear-asset-management/",
          "primary": false
         }
        ],
@@ -710,7 +715,27 @@
         "from": "energy",
         "stage": "innovation"
        },
-       "blurb": "Engineers India Ltd. will oversee project management and engineering services for the proposed Lamu refinery, which will have a nameplate crude processing capacity of 700,000 b/d upon startup."
+       "blurb": "A single ultrasonic inspection of reactor vessel upper head penetrations can generate more than 7 kilometers of inspection data. Historically, analysts have spent days—even weeks—reviewing those results to identify the few indications that might require further evaluation. In 202"
+      },
+      {
+       "title": "Fermi America, Blue Energy make strides in Texas",
+       "url": "https://www.ans.org/news/2026-10-09/article-8479/fermi-america-blue-energy-make-strides-in-texas/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-09T19:05:29.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-09/article-8479/fermi-america-blue-energy-make-strides-in-texas/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "A draft environmental impact statement is now complete for Fermi America’s plan to construct and operate four AP1000 reactors at its Project Matador Advanced Energy and Intelligence Campus in Texas, a project that has seen upheaval along the way, including the ouster of cofounder"
       },
       {
        "title": "US DOE selects AI-driven geothermal prospecting project for grant program",
@@ -738,6 +763,23 @@
        "blurb": "A project led by UC Irvine that aims to use AI to safely and efficiently identify geothermal resources has been selected by the US DOE for the Genesis Mission. The post US DOE selects AI-driven geothermal prospecting project for grant program first appeared on ThinkGeoEnergy - Ge"
       },
       {
+       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
+       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+       "source": "NASA News",
+       "published": "2026-10-08T19:40:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Editor’s note: This release was updated Oct. 8, 2026 with the formal name of the summit. NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are an"
+      },
+      {
        "title": "Researchers in Vienna and Beijing report nuclear clock “milestone”",
        "url": "https://www.ans.org/news/2026-10-09/article-8477/researchers-in-vienna-and-beijing-report-nuclear-clock-milestone/",
        "source": "ANS Nuclear Newswire",
@@ -758,6 +800,43 @@
        "blurb": "Two papers published recently in Nature report what the journal describes as “the first implementation of a nuclear clock, a milestone in the field of metrology.” The research behind both papers involve the radioisotope thorium-229. “A thorium-229 optical nuclear clock with feedb"
       },
       {
+       "title": "UK scientists turn to biology in search for cleaner lithium",
+       "url": "https://www.northernminer.com/news/uk-scientists-turn-to-biology-in-search-for-cleaner-lithium/1003895598/",
+       "source": "The Northern Miner",
+       "published": "2026-10-09T20:15:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/uk-scientists-turn-to-biology-in-search-for-cleaner-lithium/1003895598/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Researchers at the University of Birmingham are leading a £6.2-million ($8.2-million) project to develop protein-based membranes that could make lithium extraction more selective and potentially less energy-intensive. The three-year initiative,... The post UK scientists turn to b"
+      },
+      {
+       "title": "Dangote taps EIL for Kenya grassroots refinery project",
+       "url": "https://www.ogj.com/refining-processing/news/55410915/dangote-taps-eil-for-kenya-grassroots-refinery-project",
+       "source": "Oil & Gas Journal",
+       "published": "2026-10-09T17:13:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/refining-processing/news/55410915/dangote-taps-eil-for-kenya-grassroots-refinery-project",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Engineers India Ltd. will oversee project management and engineering services for the proposed Lamu refinery, which will have a nameplate crude processing capacity of 700,000 b/d upon startup."
+      },
+      {
        "title": "The Hydrogen Stream: Dutch researchers calculate green H2 costs as low as €7.2/kg",
        "url": "https://www.pv-magazine.com/2026/10/09/the-hydrogen-stream-dutch-researchers-calculate-green-h2-costs-as-low-as-e7-2-kg/",
        "source": "pv magazine",
@@ -776,23 +855,6 @@
         "stage": "innovation"
        },
        "blurb": "Researchers at the University of Groningen have calculated green hydrogen production costs of €7.2/kg to €7.3/kg using renewable power purchase agreements and hybrid electricity supply configurations, compared with €7.7/kg for wholesale electricity sourcing. The study found that "
-      },
-      {
-       "title": "UK scientists turn to biology in search for cleaner lithium",
-       "url": "https://www.northernminer.com/news/uk-scientists-turn-to-biology-in-search-for-cleaner-lithium/1003895598/",
-       "source": "The Northern Miner",
-       "published": "2026-10-09T12:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/uk-scientists-turn-to-biology-in-search-for-cleaner-lithium/1003895598/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Researchers at the University of Birmingham are leading a £6.2-million ($8.2-million) project to develop protein-based membranes that could make lithium extraction more selective and potentially less energy-intensive. The three-year initiative,... The post UK scientists turn to b"
       },
       {
        "title": "Spanish researchers reduce losses in organic solar cells by restricting emission angle",
@@ -873,63 +935,6 @@
         "stage": "innovation"
        },
        "blurb": "Romanian company PhotoVoltaic Windows SRL has discovered an intriguing application for photovoltaic glass in apartments: heating domestic water."
-      },
-      {
-       "title": "NRC reviews LAR on Palisades fuel loading incident, as Pioneer SMR application advances",
-       "url": "https://www.ans.org/news/2026-10-08/article-8474/nrc-reviews-lar-on-palisades-fuel-loading-incident-as-pioneer-smr-application-advances/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-08T21:18:22.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-08/article-8474/nrc-reviews-lar-on-palisades-fuel-loading-incident-as-pioneer-smr-application-advances/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "The Nuclear Regulatory Commission is reviewing a license amendment request (LAR) Holtec submitted in the aftermath of a fuel loading incident that has paused some of the restart work at the Palisades nuclear power plant in Covert, Mich."
-      },
-      {
-       "title": "Asian stocks mixed amid AI concerns, oil dips after surge",
-       "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-09T03:45:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "HONG KONG — Asian stocks headed into the weekend on a mixed note on Friday with tech weighed by renewed concerns about the artificial intelligence (AI) investment boom, while support came from a drop in oil prices after Donald Trump ruled out a pre-election strike on Iran."
-      },
-      {
-       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
-       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-       "source": "Manufacturing Dive",
-       "published": "2026-10-08T16:03:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Manufacturing Dive",
-         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
       }
      ]
     },
@@ -968,7 +973,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Seward & Kissel is staying put in the Financial District. The financial services law firm has renewed its 171,112-square-foot office lease for a term of 11 years with Rudin Management and Allianz Real Estate at One Battery Park Plaza, according to CBRE’s office report for the thi"
+       "blurb": "Seward & Kissel is staying put in the Financial District. The financial services law firm has renewed its 171,112-square-foot office lease for a term of 11 years with Rudin and Allianz Real Estate at One Battery Park Plaza, according to CBRE’s office report for the third quarter "
       },
       {
        "title": "A $6 trillion question hangs over the AI construction boom",
@@ -1129,6 +1134,23 @@
        "blurb": "Friday's press conference included news of a presidential order to limit minors' access to harmful social media content, a Civil Protection advisory for Hurricane Simon and the president's response to a deadly prison riot. The post After Torreón school attack, Sheinbaum presents "
       },
       {
+       "title": "Nigeria: Social Media Distraction Can Cause Road Crashes - FRSC Boss",
+       "url": "https://allafrica.com/stories/202610090448.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T12:29:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090448.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "[Vanguard] The Corps Marshal of the Federal Road Safety Corps, FRSC, Shehu Mohammed, has warned that distractions from social media, emotional distress and fatigue could endanger motorists and other road users, calling for greater attention to the link between mental wellbeing an"
+      },
+      {
        "title": "Malawi: Minister Gangata Condemns Fake Social Media Posts in His Name",
        "url": "https://allafrica.com/stories/202610090414.html",
        "source": "AllAfrica Business",
@@ -1212,23 +1234,6 @@
        "stages": [],
        "via": null,
        "blurb": "Warner Bros. stockholders received US$31 a share in cash in the sale, a nearly 25% increase."
-      },
-      {
-       "title": "Watch the trailer for ‘The Altruists,’ Netflix’s show about the FTX scandal",
-       "url": "https://techcrunch.com/2026/10/08/watch-the-trailer-for-the-altruists-netflixs-show-about-the-ftx-scandal/",
-       "source": "TechCrunch",
-       "published": "2026-10-08T18:30:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "TechCrunch",
-         "url": "https://techcrunch.com/2026/10/08/watch-the-trailer-for-the-altruists-netflixs-show-about-the-ftx-scandal/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A fictionalized Sam Bankman-Fried is coming to your TV screen on November 19."
       }
      ]
     },
@@ -1338,23 +1343,6 @@
        "blurb": "Student interest in AI safety is surging, and schools are rushing to prepare for new career paths."
       },
       {
-       "title": "Cyberthreats grow as AI adoption accelerates",
-       "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-09T00:36:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Radware, a Nasdaq-listed cybersecurity firm, is investing millions of dollars in Thailand, setting up a Bangkok data centre and point of presence (PoP) to support digital growth and an economy propelled by artificial intelligence (AI)."
-      },
-      {
        "title": "Wi-Fi 8 – the defensive frontline for ISPs against AI-driven cyberattacks (Reader Forum)",
        "url": "https://rcrwireless.com/20261009/opinion/wi-fi-8-defensive-frontline-isps-ai-cyberattacks-reader-forum",
        "source": "RCR Wireless News",
@@ -1389,23 +1377,6 @@
        "blurb": "The Government Accountability Office is expected to flag that the Homeland Security Department delayed in notifying Congress of the incidents, according to a person familiar with the review."
       },
       {
-       "title": "'Group of individuals' impacted by data breach at SA hospital",
-       "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T05:01:42.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "An Adelaide private hospital has notified individuals and cyber security authorities of a data breach of personal information."
-      },
-      {
        "title": "Trump Mobile hack and apparent lack of FCC authorization raise security alarms",
        "url": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/",
        "source": "Ars Technica",
@@ -1438,6 +1409,40 @@
        "stages": [],
        "via": null,
        "blurb": "Exchanges experiences and views on developments in artificial intelligence for the global banking system and supervisors, modernisation efforts and implications for the Committee’s future work programme..."
+      },
+      {
+       "title": "IBM’s AI-powered vulnerability clearinghouse finds hundreds of Java flaws",
+       "url": "https://www.cybersecuritydive.com/news/ibm-ai-vulnerability-java-lightwell/832249/",
+       "source": "Cybersecurity Dive",
+       "published": "2026-10-06T15:01:03.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Cybersecurity Dive",
+         "url": "https://www.cybersecuritydive.com/news/ibm-ai-vulnerability-java-lightwell/832249/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The tech giant’s announcement underscores the insufficiency of companies’ existing software supply chain security practices."
+      },
+      {
+       "title": "FBI removes Accenture contractor after missed security patch led to breach",
+       "url": "https://www.govexec.com/technology/2026/10/fbi-removes-accenture-contractor-after-missed-security-patch-led-breach/416446/",
+       "source": "Government Executive",
+       "published": "2026-10-06T20:29:20.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Government Executive",
+         "url": "https://www.govexec.com/technology/2026/10/fbi-removes-accenture-contractor-after-missed-security-patch-led-breach/416446/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The bureau’s cyber chief blamed a contractor’s failure to apply an available fix for an intrusion that may have exposed sensitive employee information."
       }
      ]
     }
@@ -1592,60 +1597,38 @@
        "blurb": "Student interest in AI safety is surging, and schools are rushing to prepare for new career paths."
       },
       {
-       "title": "Trump says he doesn't want to work with China on AI safety",
-       "url": "https://www.france24.com/en/tv-shows/business/20260929-trump-says-doesn-t-want-to-work-with-china-on-ai-safety",
-       "source": "France 24 Business",
-       "published": "2026-09-29T21:05:00.000Z",
+       "title": "Supplier Showcase focus: AI-driven diagnostics",
+       "url": "https://www.ans.org/news/2026-10-08/article-8472/supplier-showcase-focus-aidriven-diagnostics/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-08T12:04:44.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "France 24 Business",
-         "url": "https://www.france24.com/en/tv-shows/business/20260929-trump-says-doesn-t-want-to-work-with-china-on-ai-safety",
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-08/article-8472/supplier-showcase-focus-aidriven-diagnostics/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "US President Donald Trump discussed AI development with dozens of tech bosses at the White House on Tuesday. Ahead of his \"super intelligence\" luncheon, Trump launched a new AI-powered website for government services, vowing not to stifle the technology's growth. He also said he "
+       "blurb": "The American Nuclear Society is hosting a Supplier Showcase webinar, “From Alarm to Answer: How AI Can Reduce Equipment Load and Enhance Performance,” on October 13, from 1:00 p.m. to 2:00 p.m. (CDT) in partnership with Nuclearn, a provider of AI tools purpose-built for the nucle"
       },
       {
        "title": "White House AI task force faces expertise, partnership challenges",
        "url": "https://www.cybersecuritydive.com/news/white-house-ai-task-force-cybersecurity-partnerships-cisa/832129/",
        "source": "Cybersecurity Dive",
        "published": "2026-10-05T14:41:21.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Cybersecurity Dive",
          "url": "https://www.cybersecuritydive.com/news/white-house-ai-task-force-cybersecurity-partnerships-cisa/832129/",
-         "primary": false
-        },
-        {
-         "name": "Government Executive",
-         "url": "https://www.govexec.com/technology/2026/10/spy-chief-jay-clayton-takes-white-houses-ai-portfolio/416418/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
        "blurb": "The Cybersecurity and Infrastructure Security Agency is nowhere to be seen in the government’s latest AI security project."
-      },
-      {
-       "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
-       "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
-       "source": "Ars Technica",
-       "published": "2026-10-08T11:15:33.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Full-stack safety solution for physical AI is being used by robotics companies."
       },
       {
        "title": "3 Questions: What is the best path forward for AI in academia?",
@@ -1663,12 +1646,46 @@
        "stages": [],
        "via": null,
        "blurb": "MIT Statistics and Data Science Center Director Alexander (Sasha) Rakhlin shares important considerations for departments and institutions."
+      },
+      {
+       "title": "Hilton taps former Uber exec as CTO",
+       "url": "https://www.hoteldive.com/news/hilton-taps-cto-former-uber-exec/832312/",
+       "source": "Hotel Dive",
+       "published": "2026-10-06T19:01:02.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Hotel Dive",
+         "url": "https://www.hoteldive.com/news/hilton-taps-cto-former-uber-exec/832312/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Jeff Moore brings 20 years of experience in software engineering and operations to the role as Hilton looks to advance its AI goals."
       }
      ]
     },
     "cloud": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Fisk Electric wins $24M modular contract for Houston data center",
+       "url": "https://www.constructiondive.com/news/fisk-electric-tutor-perini-data-center-modular/832658/",
+       "source": "Construction Dive",
+       "published": "2026-10-09T19:55:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/fisk-electric-tutor-perini-data-center-modular/832658/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Tutor Perini subsidiary’s win reflects a priority shift toward the booming data center sector that the heavy civil contractor has emphasized on earnings calls this year."
+      },
       {
        "title": "Black Hills to build 564 MW of new gas, manage 2.1 GW microgrid for Google data center in Wyoming",
        "url": "https://www.power-eng.com/onsite-power/microgrids/google-wyoming-data-center-black-hills-natural-gas/",
@@ -1690,7 +1707,7 @@
        "title": "Hyperscaler Backs BKV’s 1.2 GW Natural Gas Power Push Near Dallas",
        "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
        "source": "Natural Gas Intelligence",
-       "published": "2026-10-09T12:56:55.000Z",
+       "published": "2026-10-09T12:56:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -1777,46 +1794,31 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "SpaceX to buy key spectrum that could help Starlink Mobile become major US cell carrier",
-       "url": "https://www.theregister.com/networks/2026/10/09/spacex-to-buy-key-spectrum-that-could-help-starlink-mobile-become-major-us-cell-carrier/5302393",
-       "source": "The Register",
-       "published": "2026-10-09T15:55:31.000Z",
+       "title": "Elon Musk ups ante in Starlink row, sarcastically calls Ambani ‘Prime Minister’, alleges monopoly",
+       "url": "https://www.thehindu.com/business/Industry/elon-musk-ups-ante-in-starlink-row-sarcastically-calls-ambani-prime-minister-alleges-monopoly/article71565795.ece",
+       "source": "The Hindu Business",
+       "published": "2026-10-09T19:15:27.000Z",
        "verification": "multiple",
        "outlets": [
         {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/economy/spacex-strikes-spectrum-deal-paving-way-for-starlink-to-become-major-us-mobile-carrier/4082912",
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Industry/elon-musk-ups-ante-in-starlink-row-sarcastically-calls-ambani-prime-minister-alleges-monopoly/article71565795.ece",
          "primary": false
         },
         {
-         "name": "The Register",
-         "url": "https://www.theregister.com/networks/2026/10/09/spacex-to-buy-key-spectrum-that-could-help-starlink-mobile-become-major-us-cell-carrier/5302393",
-         "primary": false
-        },
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/news/spacex-to-acquire-grains-800mhz-spectrum-assets-to-further-advance-carrier-ambitions/",
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/india-rejects-monopoly-claim-after-musk-accuses-ambani-blocking-starlink-launch-6446291",
          "primary": false
         },
         {
          "name": "Light Reading",
-         "url": "https://www.lightreading.com/satellite/spacex-grain-s-lowband-spectrum-is-our-ticket-to-becoming-major-mobile-carrier-",
-         "primary": false
-        },
-        {
-         "name": "Fierce Network",
-         "url": "https://www.fierce-network.com/wireless/spacexs-800-mhz-spectrum-grab-threatens-big-3-mobile-carriers",
-         "primary": false
-        },
-        {
-         "name": "RCR Wireless News",
-         "url": "https://rcrwireless.com/20261009/network-infrastructure/spacex-grabs-earthquake-800-mhz-deal-as-starlink-rocks-us-telcos",
+         "url": "https://www.lightreading.com/satellite/musk-names-ambani-in-starlink-row-as-india-rejects-bias-claims",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Low-band frequencies can reach devices inside buildings, while 2 GHz orbiters could extend coverage beyond cell towers"
+       "blurb": "The post bybrea Mr. Musk now marks a sharp escalation in the Starlink satcom offering row, which saw the U.S. trillionaire recently alleging that powerful business interests are seeking to block his service"
       },
       {
        "title": "Starlink spectrum deal boosts Musk plan to beat AT&T, T-Mobile, and Verizon",
@@ -1853,6 +1855,23 @@
        "blurb": "Mr. Musk, whose company SpaceX owns Starlink, has attacked the top executive of Delta Air Lines for not selecting the internet provider."
       },
       {
+       "title": "Taco Bell’s Office Lease Largest in Orange County, Calif., in Five Years",
+       "url": "https://commercialobserver.com/2026/10/office-lease-orange-county-calif-taco-bell/",
+       "source": "Commercial Observer",
+       "published": "2026-10-09T20:00:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Commercial Observer",
+         "url": "https://commercialobserver.com/2026/10/office-lease-orange-county-calif-taco-bell/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Orange County, Calif.’s office market improved again in the third quarter thanks to a diverse set of corporate leases. Total vacancy improved to 15.4 percent, down from 17.1 percent a year ago, while average asking rents increased to $3.02 per square foot per month, up from $2.90"
+      },
+      {
        "title": "SpaceX calls for better coordination in orbit after near-misses with Starlink",
        "url": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
        "source": "Ars Technica",
@@ -1868,29 +1887,32 @@
        "stages": [],
        "via": null,
        "blurb": "\"These led to conjunctions of tens of meters to hundreds of meters. Way too close to comfort.\""
-      },
-      {
-       "title": "Amazon builds 1,000th satellite, will launch space internet service by end of year",
-       "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
-       "source": "Ars Technica",
-       "published": "2026-10-08T15:28:36.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Ars Technica",
-         "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "\"If this was easy, everybody else would be doing it.\""
       }
      ]
     },
     "research": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Fermi America, Blue Energy make strides in Texas",
+       "url": "https://www.ans.org/news/2026-10-09/article-8479/fermi-america-blue-energy-make-strides-in-texas/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-09T19:05:29.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-09/article-8479/fermi-america-blue-energy-make-strides-in-texas/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "A draft environmental impact statement is now complete for Fermi America’s plan to construct and operate four AP1000 reactors at its Project Matador Advanced Energy and Intelligence Campus in Texas, a project that has seen upheaval along the way, including the ouster of cofounder"
+      },
       {
        "title": "US DOE selects AI-driven geothermal prospecting project for grant program",
        "url": "https://www.thinkgeoenergy.com/us-doe-selects-ai-driven-geothermal-prospecting-project-for-grant-program/",
@@ -1915,6 +1937,23 @@
         "stage": "innovation"
        },
        "blurb": "A project led by UC Irvine that aims to use AI to safely and efficiently identify geothermal resources has been selected by the US DOE for the Genesis Mission. The post US DOE selects AI-driven geothermal prospecting project for grant program first appeared on ThinkGeoEnergy - Ge"
+      },
+      {
+       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
+       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+       "source": "NASA News",
+       "published": "2026-10-08T19:40:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "NASA News",
+         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+         "primary": true
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Editor’s note: This release was updated Oct. 8, 2026 with the formal name of the summit. NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are an"
       },
       {
        "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
@@ -2093,40 +2132,6 @@
        "stages": [],
        "via": null,
        "blurb": "Nearly 100 patients discussed their maladies with a Google bot, called AMIE, before meeting with physicians."
-      },
-      {
-       "title": "HHS launches new plan to strengthen vaccine injury research, reporting",
-       "url": "https://www.biopharmadive.com/news/hhs-vaccine-injury-reporting-research-rfk/832532/",
-       "source": "BioPharma Dive",
-       "published": "2026-10-08T20:57:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "BioPharma Dive",
-         "url": "https://www.biopharmadive.com/news/hhs-vaccine-injury-reporting-research-rfk/832532/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Spearheaded by vaccine skeptic Robert F. Kennedy Jr., the initiative will involve a new NIH clinic, an updated monitoring system and reimbursements for doctors who report suspected side effects."
-      },
-      {
-       "title": "Gas stoves put restaurant cooks’ health at risk, new study finds",
-       "url": "https://www.canarymedia.com/articles/emissions-reduction/gas-stoves-restaurant-cooks-health",
-       "source": "Canary Media",
-       "published": "2026-10-06T09:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Canary Media",
-         "url": "https://www.canarymedia.com/articles/emissions-reduction/gas-stoves-restaurant-cooks-health",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "In restaurant kitchens around the U.S., cooks are toiling away to create mouthwatering meals, from bibimbap to spaghetti puttanesca. But their own stomachs may be roiling. That’s what Christopher Galarza, a longtime chef and co-founder of sustainable kitchen certification company"
       }
      ]
     },
@@ -2148,7 +2153,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Seward & Kissel is staying put in the Financial District. The financial services law firm has renewed its 171,112-square-foot office lease for a term of 11 years with Rudin Management and Allianz Real Estate at One Battery Park Plaza, according to CBRE’s office report for the thi"
+       "blurb": "Seward & Kissel is staying put in the Financial District. The financial services law firm has renewed its 171,112-square-foot office lease for a term of 11 years with Rudin and Allianz Real Estate at One Battery Park Plaza, according to CBRE’s office report for the third quarter "
       },
       {
        "title": "A $6 trillion question hangs over the AI construction boom",
@@ -2585,6 +2590,28 @@
    "label": "Ukraine",
    "level": "country",
    "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+       "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+       "source": "Ars Technica",
+       "published": "2026-10-09T22:04:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "One damaged data center has supercomputers used for training Yandex’s AI model."
+      }
+     ]
+    },
     "cloud": {
      "brief": "missing",
      "candidates": [
@@ -2604,7 +2631,36 @@
          "name": "The Moscow Times",
          "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
          "primary": false
-        },
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Key developments on October 09: Second Russian Yandex data center damaged by drone attack in two days, company says Twenty Russian officers killed in Ukrainian strikes on Donetsk, independent monitors claim Russia forcibly removes 25 Ukrainian civilians, including children, from "
+      },
+      {
+       "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+       "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+       "source": "Ars Technica",
+       "published": "2026-10-09T22:04:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "One damaged data center has supercomputers used for training Yandex’s AI model."
+      },
+      {
+       "title": "Ukrainian drone attack takes out Russian datacenter",
+       "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
+       "source": "The Register",
+       "published": "2026-10-09T00:08:52.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
         {
          "name": "The Register",
          "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
@@ -2613,7 +2669,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Key developments on October 09: Second Russian Yandex data center damaged by drone attack in two days, company says Twenty Russian officers killed in Ukrainian strikes on Donetsk, independent monitors claim Russia forcibly removes 25 Ukrainian civilians, including children, from "
+       "blurb": "Putin this cloud region back into operation might not be possible, says Yandex"
       }
      ]
     }
@@ -2623,6 +2679,28 @@
    "label": "Russia",
    "level": "country",
    "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+       "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+       "source": "Ars Technica",
+       "published": "2026-10-09T22:04:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "One damaged data center has supercomputers used for training Yandex’s AI model."
+      }
+     ]
+    },
     "cloud": {
      "brief": "missing",
      "candidates": [
@@ -2642,7 +2720,36 @@
          "name": "The Moscow Times",
          "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
          "primary": false
-        },
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Key developments on October 09: Second Russian Yandex data center damaged by drone attack in two days, company says Twenty Russian officers killed in Ukrainian strikes on Donetsk, independent monitors claim Russia forcibly removes 25 Ukrainian civilians, including children, from "
+      },
+      {
+       "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+       "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+       "source": "Ars Technica",
+       "published": "2026-10-09T22:04:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "One damaged data center has supercomputers used for training Yandex’s AI model."
+      },
+      {
+       "title": "Ukrainian drone attack takes out Russian datacenter",
+       "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
+       "source": "The Register",
+       "published": "2026-10-09T00:08:52.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
         {
          "name": "The Register",
          "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
@@ -2651,7 +2758,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "Key developments on October 09: Second Russian Yandex data center damaged by drone attack in two days, company says Twenty Russian officers killed in Ukrainian strikes on Donetsk, independent monitors claim Russia forcibly removes 25 Ukrainian civilians, including children, from "
+       "blurb": "Putin this cloud region back into operation might not be possible, says Yandex"
       }
      ]
     },
@@ -2739,11 +2846,6 @@
          "name": "The Moscow Times",
          "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
          "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
-         "primary": false
         }
        ],
        "stages": [],
@@ -2777,11 +2879,6 @@
          "name": "The Moscow Times",
          "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
          "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
-         "primary": false
         }
        ],
        "stages": [],
@@ -2792,23 +2889,62 @@
     }
    }
   },
-  "ca": {
-   "label": "Canada",
-   "level": "country",
+  "us-tx": {
+   "label": "Texas",
+   "level": "admin1",
    "sources": {
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Fisk Electric wins $24M modular contract for Houston data center",
+       "url": "https://www.constructiondive.com/news/fisk-electric-tutor-perini-data-center-modular/832658/",
+       "source": "Construction Dive",
+       "published": "2026-10-09T19:55:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/fisk-electric-tutor-perini-data-center-modular/832658/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Tutor Perini subsidiary’s win reflects a priority shift toward the booming data center sector that the heavy civil contractor has emphasized on earnings calls this year."
+      },
+      {
+       "title": "Hyperscaler Backs BKV’s 1.2 GW Natural Gas Power Push Near Dallas",
+       "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-09T12:56:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "BKV has locked in about 1,200 MW of natural gas-fired generation equipment with financial backing from an unnamed investment-grade hyperscaler, advancing the Barnett Shale producer’s push to sell power into the fast-growing Dallas-Fort Worth (DFW) market."
+      }
+     ]
+    },
     "research": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "BWXT’s BANR selected for Canadian project",
-       "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
+       "title": "Fermi America, Blue Energy make strides in Texas",
+       "url": "https://www.ans.org/news/2026-10-09/article-8479/fermi-america-blue-energy-make-strides-in-texas/",
        "source": "ANS Nuclear Newswire",
-       "published": "2026-10-07T19:55:52.000Z",
+       "published": "2026-10-09T19:05:29.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
          "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
+         "url": "https://www.ans.org/news/2026-10-09/article-8479/fermi-america-blue-energy-make-strides-in-texas/",
          "primary": false
         }
        ],
@@ -2817,38 +2953,35 @@
         "from": "energy",
         "stage": "innovation"
        },
-       "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+       "blurb": "A draft environmental impact statement is now complete for Fermi America’s plan to construct and operate four AP1000 reactors at its Project Matador Advanced Energy and Intelligence Campus in Texas, a project that has seen upheaval along the way, including the ouster of cofounder"
       }
      ]
     }
    }
   },
-  "ca-nb": {
-   "label": "New Brunswick",
-   "level": "admin1",
+  "us-city-houston": {
+   "label": "Houston",
+   "level": "city",
    "sources": {
-    "research": {
+    "cloud": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "BWXT’s BANR selected for Canadian project",
-       "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
-       "source": "ANS Nuclear Newswire",
-       "published": "2026-10-07T19:55:52.000Z",
+       "title": "Fisk Electric wins $24M modular contract for Houston data center",
+       "url": "https://www.constructiondive.com/news/fisk-electric-tutor-perini-data-center-modular/832658/",
+       "source": "Construction Dive",
+       "published": "2026-10-09T19:55:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "ANS Nuclear Newswire",
-         "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/fisk-electric-tutor-perini-data-center-modular/832658/",
          "primary": false
         }
        ],
        "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+       "via": null,
+       "blurb": "The Tutor Perini subsidiary’s win reflects a priority shift toward the booming data center sector that the heavy civil contractor has emphasized on earnings calls this year."
       }
      ]
     }
@@ -3053,29 +3186,63 @@
     }
    }
   },
-  "us-tx": {
-   "label": "Texas",
-   "level": "admin1",
+  "ca": {
+   "label": "Canada",
+   "level": "country",
    "sources": {
-    "cloud": {
+    "research": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Hyperscaler Backs BKV’s 1.2 GW Natural Gas Power Push Near Dallas",
-       "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-09T12:56:55.000Z",
+       "title": "BWXT’s BANR selected for Canadian project",
+       "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-07T19:55:52.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
          "primary": false
         }
        ],
        "stages": [],
-       "via": null,
-       "blurb": "BKV has locked in about 1,200 MW of natural gas-fired generation equipment with financial backing from an unnamed investment-grade hyperscaler, advancing the Barnett Shale producer’s push to sell power into the fast-growing Dallas-Fort Worth (DFW) market."
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
+      }
+     ]
+    }
+   }
+  },
+  "ca-nb": {
+   "label": "New Brunswick",
+   "level": "admin1",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "BWXT’s BANR selected for Canadian project",
+       "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
+       "source": "ANS Nuclear Newswire",
+       "published": "2026-10-07T19:55:52.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ANS Nuclear Newswire",
+         "url": "https://www.ans.org/news/2026-10-07/article-8471/bwxts-banr-selected-for-canadian-project/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "The BWX Technologies Advanced Nuclear Reactor (BANR) has been selected for a power plant project in the Canadian province of New Brunswick, the company announced on Monday. This project—which will progress through a partnership with Prodigy Clean Energy and the Pabineau and Eel R"
       }
      ]
     }
@@ -3092,7 +3259,7 @@
        "title": "Hyperscaler Backs BKV’s 1.2 GW Natural Gas Power Push Near Dallas",
        "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
        "source": "Natural Gas Intelligence",
-       "published": "2026-10-09T12:56:55.000Z",
+       "published": "2026-10-09T12:56:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -3120,7 +3287,7 @@
        "title": "Hyperscaler Backs BKV’s 1.2 GW Natural Gas Power Push Near Dallas",
        "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
        "source": "Natural Gas Intelligence",
-       "published": "2026-10-09T12:56:55.000Z",
+       "published": "2026-10-09T12:56:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -3204,23 +3371,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Alibaba’s AI cloud revenue set to surge over 50% as investment blitz pays off: analysts",
-       "url": "https://www.scmp.com/tech/big-tech/article/3370209/alibabas-ai-cloud-revenue-set-surge-over-50-investment-blitz-pays-analysts?utm_source=rss_feed",
-       "source": "South China Morning Post",
-       "published": "2026-10-08T11:30:22.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "South China Morning Post",
-         "url": "https://www.scmp.com/tech/big-tech/article/3370209/alibabas-ai-cloud-revenue-set-surge-over-50-investment-blitz-pays-analysts?utm_source=rss_feed",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to analysts. Analysts across several financial institutions proje"
-      },
-      {
        "title": "Not just AI. China is building technologies that challenge U.S. dominance",
        "url": "https://restofworld.org/2026/china-america-tech-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
        "source": "Rest of World",
@@ -3238,21 +3388,21 @@
        "blurb": "From batteries and solar panels to drones and satellites, China is building tech capabilities that extend well beyond AI, writes Steve Feldstein in his new book, \"Bytes and Bullets: Global Rivalries, Big Tech, and the New Shape of Modern Warfare.\""
       },
       {
-       "title": "Trump says he doesn't want to work with China on AI safety",
-       "url": "https://www.france24.com/en/tv-shows/business/20260929-trump-says-doesn-t-want-to-work-with-china-on-ai-safety",
-       "source": "France 24 Business",
-       "published": "2026-09-29T21:05:00.000Z",
+       "title": "Alibaba’s AI cloud revenue set to surge over 50% as investment blitz pays off: analysts",
+       "url": "https://www.scmp.com/tech/big-tech/article/3370209/alibabas-ai-cloud-revenue-set-surge-over-50-investment-blitz-pays-analysts?utm_source=rss_feed",
+       "source": "South China Morning Post",
+       "published": "2026-10-08T11:30:22.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "France 24 Business",
-         "url": "https://www.france24.com/en/tv-shows/business/20260929-trump-says-doesn-t-want-to-work-with-china-on-ai-safety",
+         "name": "South China Morning Post",
+         "url": "https://www.scmp.com/tech/big-tech/article/3370209/alibabas-ai-cloud-revenue-set-surge-over-50-investment-blitz-pays-analysts?utm_source=rss_feed",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "US President Donald Trump discussed AI development with dozens of tech bosses at the White House on Tuesday. Ahead of his \"super intelligence\" luncheon, Trump launched a new AI-powered website for government services, vowing not to stifle the technology's growth. He also said he "
+       "blurb": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to analysts. Analysts across several financial institutions proje"
       },
       {
        "title": "Hong Kong’s AI Marketing Moment is Here. The Question is Whether Business Leaders are Moving Fast Enough",
@@ -3576,16 +3726,11 @@
        "url": "https://www.ogj.com/refining-processing/news/55410915/dangote-taps-eil-for-kenya-grassroots-refinery-project",
        "source": "Oil & Gas Journal",
        "published": "2026-10-09T17:13:57.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Oil & Gas Journal",
          "url": "https://www.ogj.com/refining-processing/news/55410915/dangote-taps-eil-for-kenya-grassroots-refinery-project",
-         "primary": false
-        },
-        {
-         "name": "ENR (Engineering News-Record)",
-         "url": "https://www.enr.com/articles/63804-honeywell-picked-for-16b-kenya-crude-oil-processing-facility",
          "primary": false
         }
        ],
@@ -3604,6 +3749,28 @@
    "label": "India",
    "level": "country",
    "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Religious, spiritual & astrology apps see nearly 30cr downloads in Jan-Sept",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/religious-spiritual-astrology-apps-see-nearly-30cr-downloads-in-jan-sept/articleshow/134842601.cms",
+       "source": "Times of India Business",
+       "published": "2026-10-09T20:54:57.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Times of India Business",
+         "url": "https://timesofindia.indiatimes.com/business/india-business/religious-spiritual-astrology-apps-see-nearly-30cr-downloads-in-jan-sept/articleshow/134842601.cms",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      }
+     ]
+    },
     "telecom": {
      "brief": "missing",
      "candidates": [
@@ -3614,6 +3781,11 @@
        "published": "2026-10-09T12:27:19.000Z",
        "verification": "multiple",
        "outlets": [
+        {
+         "name": "The Hindu Business",
+         "url": "https://www.thehindu.com/business/Industry/elon-musk-ups-ante-in-starlink-row-sarcastically-calls-ambani-prime-minister-alleges-monopoly/article71565795.ece",
+         "primary": false
+        },
         {
          "name": "CNA Business",
          "url": "https://www.channelnewsasia.com/business/india-rejects-monopoly-claim-after-musk-accuses-ambani-blocking-starlink-launch-6446291",
@@ -3639,16 +3811,11 @@
        "url": "https://www.ogj.com/refining-processing/news/55410915/dangote-taps-eil-for-kenya-grassroots-refinery-project",
        "source": "Oil & Gas Journal",
        "published": "2026-10-09T17:13:57.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Oil & Gas Journal",
          "url": "https://www.ogj.com/refining-processing/news/55410915/dangote-taps-eil-for-kenya-grassroots-refinery-project",
-         "primary": false
-        },
-        {
-         "name": "ENR (Engineering News-Record)",
-         "url": "https://www.enr.com/articles/63804-honeywell-picked-for-16b-kenya-crude-oil-processing-facility",
          "primary": false
         }
        ],
@@ -4124,7 +4291,7 @@
        "title": "UK scientists turn to biology in search for cleaner lithium",
        "url": "https://www.northernminer.com/news/uk-scientists-turn-to-biology-in-search-for-cleaner-lithium/1003895598/",
        "source": "The Northern Miner",
-       "published": "2026-10-09T12:00:00.000Z",
+       "published": "2026-10-09T20:15:00.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
@@ -4222,6 +4389,28 @@
    "label": "Spain",
    "level": "country",
    "sources": {
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
+       "url": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
+       "source": "Ars Technica",
+       "published": "2026-10-09T21:51:12.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Stylish upcycling, with a retro flare, at Spain's Museo de Historia de la Computación."
+      }
+     ]
+    },
     "telecom": {
      "brief": "missing",
      "candidates": [
@@ -4424,59 +4613,6 @@
         "stage": "innovation"
        },
        "blurb": "Tata Power has partnered with Norway’s Ocean Sun to test membrane-based floating solar technology at its Maharashtra reservoir."
-      }
-     ]
-    }
-   }
-  },
-  "ir": {
-   "label": "Iran",
-   "level": "country",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Asian stocks mixed amid AI concerns, oil dips after surge",
-       "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-09T03:45:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "HONG KONG — Asian stocks headed into the weekend on a mixed note on Friday with tech weighed by renewed concerns about the artificial intelligence (AI) investment boom, while support came from a drop in oil prices after Donald Trump ruled out a pre-election strike on Iran."
-      }
-     ]
-    },
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Asian stocks mixed amid AI concerns, oil dips after surge",
-       "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-09T03:45:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/investment/3334205/asian-stocks-mixed-amid-ai-concerns-oil-dips-after-surge",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": {
-        "from": "energy",
-        "stage": "innovation"
-       },
-       "blurb": "HONG KONG — Asian stocks headed into the weekend on a mixed note on Friday with tech weighed by renewed concerns about the artificial intelligence (AI) investment boom, while support came from a drop in oil prices after Donald Trump ruled out a pre-election strike on Iran."
       }
      ]
     }
@@ -4745,6 +4881,34 @@
     }
    }
   },
+  "vn": {
+   "label": "Vietnam",
+   "level": "country",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "AI disqualification yields new Nikon Small World in Motion winner",
+       "url": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
+       "source": "Ars Technica",
+       "published": "2026-10-09T18:44:06.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Ars Technica",
+         "url": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "New winner is Nguyen Nam Nhat of Vietnam for video of a roundworm and single-celled Dileptus."
+      }
+     ]
+    }
+   }
+  },
   "us-ny": {
    "label": "New York",
    "level": "admin1",
@@ -4852,11 +5016,6 @@
          "name": "The Moscow Times",
          "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
          "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
-         "primary": false
         }
        ],
        "stages": [],
@@ -4889,11 +5048,6 @@
         {
          "name": "The Moscow Times",
          "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
-         "primary": false
-        },
-        {
-         "name": "The Register",
-         "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
          "primary": false
         }
        ],
@@ -5074,23 +5228,65 @@
        "stages": [],
        "via": null,
        "blurb": "As Hong Kong and Singapore compete for leadership in businesses ranging from foreign exchange trading to wealth management, the battleground has extended to artificial intelligence, with both cities vying to attract investment from HSBC Holdings and other major corporations, acco"
-      },
+      }
+     ]
+    }
+   }
+  },
+  "uy": {
+   "label": "Uruguay",
+   "level": "country",
+   "sources": {
+    "research": {
+     "brief": "missing",
+     "candidates": [
       {
-       "title": "An air-con firm building AI, a hygiene business going regional: How home-grown SMEs are turning decades of expertise into new revenue",
-       "url": "https://www.straitstimes.com/business/home-grown-smes-turn-decades-expertise-into-new-revenue-streams-enterprise-singapore",
-       "source": "The Straits Times Business",
-       "published": "2026-10-08T20:00:00.000Z",
+       "title": "Uruguay Opens Its First Green Hydrogen and Electric Mobility Pilot Plant",
+       "url": "https://fuelcellsworks.com/2026/10/09/h2/uruguay-opens-its-first-green-hydrogen-and-electric-mobility-pilot-plant",
+       "source": "FuelCellsWorks",
+       "published": "2026-10-09T15:08:33.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/home-grown-smes-turn-decades-expertise-into-new-revenue-streams-enterprise-singapore",
+         "name": "FuelCellsWorks",
+         "url": "https://fuelcellsworks.com/2026/10/09/h2/uruguay-opens-its-first-green-hydrogen-and-electric-mobility-pilot-plant",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": ""
+      }
+     ]
+    }
+   }
+  },
+  "ng": {
+   "label": "Nigeria",
+   "level": "country",
+   "sources": {
+    "media": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Nigeria: Social Media Distraction Can Cause Road Crashes - FRSC Boss",
+       "url": "https://allafrica.com/stories/202610090448.html",
+       "source": "AllAfrica Business",
+       "published": "2026-10-09T12:29:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "AllAfrica Business",
+         "url": "https://allafrica.com/stories/202610090448.html",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "With Enterprise Singapore and SME Centre support, firms are turning expertise into AI tools, services and new markets."
+       "blurb": "[Vanguard] The Corps Marshal of the Federal Road Safety Corps, FRSC, Shehu Mohammed, has warned that distractions from social media, emotional distress and fatigue could endanger motorists and other road users, calling for greater attention to the link between mental wellbeing an"
       }
      ]
     }
@@ -5211,6 +5407,129 @@
        "stages": [],
        "via": null,
        "blurb": "Arelion's 500-kilometer route from Amsterdam to London uses Nokia's 1830 Global Express (GX) Super C and Super L open line system, CHMQ6 thin transponder modules and ICE-X 400G and 800G ZR+ coherent pluggable optics. #pressrelease"
+      }
+     ]
+    }
+   }
+  },
+  "ve": {
+   "label": "Venezuela",
+   "level": "country",
+   "sources": {
+    "telecom": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Venezuela president authorizes SpaceX's Starlink to operate in the country",
+       "url": "https://www.channelnewsasia.com/business/venezuela-president-authorizes-spacexs-starlink-operate-in-country-6448146",
+       "source": "CNA Business",
+       "published": "2026-10-10T00:01:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/venezuela-president-authorizes-spacexs-starlink-operate-in-country-6448146",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      }
+     ]
+    }
+   }
+  },
+  "au": {
+   "label": "Australia",
+   "level": "country",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Big bank defends offshoring of jobs at parliamentary inquiry into AI — as it happened",
+       "url": "https://www.abc.net.au/news/2026-10-09/asx-markets-business-live-news-9-october-2026/107246104",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T20:40:34.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-09/asx-markets-business-live-news-9-october-2026/107246104",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "ANZ, Westpac and NAB have given evidence about how they are using artificial intelligence. Look back at the day's financial news and insights in the business blog."
+      }
+     ]
+    },
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Tasmanian EPA says it was not told extent of Firmus data centre generator plans",
+       "url": "https://www.abc.net.au/news/2026-10-10/firmus-generators-epa-appeal-watchdog/107247476",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-09T22:54:16.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-10/firmus-generators-epa-appeal-watchdog/107247476",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Tasmania's EPA is worried about the extent of AI data centre company Firmus's planned diesel generator use, saying it is much more than initially disclosed."
+      },
+      {
+       "title": "Data centre operator Firmus pulls blockbuster ASX float after lacklustre demand",
+       "url": "https://www.abc.net.au/news/2026-10-09/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-08T22:12:14.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-09/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Firmus searches for private funding as it withdraws its application to list on the ASX just a day after closing its books to investors."
+      }
+     ]
+    }
+   }
+  },
+  "au-ts": {
+   "label": "Tasmania",
+   "level": "admin1",
+   "sources": {
+    "cloud": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Tasmanian EPA says it was not told extent of Firmus data centre generator plans",
+       "url": "https://www.abc.net.au/news/2026-10-10/firmus-generators-epa-appeal-watchdog/107247476",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-09T22:54:16.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-10/firmus-generators-epa-appeal-watchdog/107247476",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Tasmania's EPA is worried about the extent of AI data centre company Firmus's planned diesel generator use, saying it is much more than initially disclosed."
       }
      ]
     }
@@ -5804,156 +6123,6 @@
     }
    }
   },
-  "th": {
-   "label": "Thailand",
-   "level": "country",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Cyberthreats grow as AI adoption accelerates",
-       "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-09T00:36:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Radware, a Nasdaq-listed cybersecurity firm, is investing millions of dollars in Thailand, setting up a Bangkok data centre and point of presence (PoP) to support digital growth and an economy propelled by artificial intelligence (AI)."
-      }
-     ]
-    },
-    "cyber": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Cyberthreats grow as AI adoption accelerates",
-       "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-09T00:36:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Radware, a Nasdaq-listed cybersecurity firm, is investing millions of dollars in Thailand, setting up a Bangkok data centre and point of presence (PoP) to support digital growth and an economy propelled by artificial intelligence (AI)."
-      }
-     ]
-    }
-   }
-  },
-  "th-bm": {
-   "label": "Bangkok Metropolis",
-   "level": "admin1",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Cyberthreats grow as AI adoption accelerates",
-       "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-09T00:36:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Radware, a Nasdaq-listed cybersecurity firm, is investing millions of dollars in Thailand, setting up a Bangkok data centre and point of presence (PoP) to support digital growth and an economy propelled by artificial intelligence (AI)."
-      }
-     ]
-    },
-    "cyber": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Cyberthreats grow as AI adoption accelerates",
-       "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-09T00:36:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Radware, a Nasdaq-listed cybersecurity firm, is investing millions of dollars in Thailand, setting up a Bangkok data centre and point of presence (PoP) to support digital growth and an economy propelled by artificial intelligence (AI)."
-      }
-     ]
-    }
-   }
-  },
-  "th-city-bangkok": {
-   "label": "Bangkok",
-   "level": "city",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Cyberthreats grow as AI adoption accelerates",
-       "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-09T00:36:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Radware, a Nasdaq-listed cybersecurity firm, is investing millions of dollars in Thailand, setting up a Bangkok data centre and point of presence (PoP) to support digital growth and an economy propelled by artificial intelligence (AI)."
-      }
-     ]
-    },
-    "cyber": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Cyberthreats grow as AI adoption accelerates",
-       "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
-       "source": "Bangkok Post Business",
-       "published": "2026-10-09T00:36:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Bangkok Post Business",
-         "url": "https://www.bangkokpost.com/business/general/3333848/cyberthreats-grow-as-ai-adoption-accelerates",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Radware, a Nasdaq-listed cybersecurity firm, is investing millions of dollars in Thailand, setting up a Bangkok data centre and point of presence (PoP) to support digital growth and an economy propelled by artificial intelligence (AI)."
-      }
-     ]
-    }
-   }
-  },
   "nz": {
    "label": "New Zealand",
    "level": "country",
@@ -6038,78 +6207,6 @@
     }
    }
   },
-  "au": {
-   "label": "Australia",
-   "level": "country",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Big bank defends offshoring of jobs at parliamentary inquiry into AI — as it happened",
-       "url": "https://www.abc.net.au/news/2026-10-09/asx-markets-business-live-news-9-october-2026/107246104",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T20:40:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-09/asx-markets-business-live-news-9-october-2026/107246104",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "ANZ, Westpac and NAB have given evidence about how they are using artificial intelligence. Look back at the day's financial news and insights in the business blog."
-      }
-     ]
-    },
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Data centre operator Firmus pulls blockbuster ASX float after lacklustre demand",
-       "url": "https://www.abc.net.au/news/2026-10-09/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T22:12:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-09/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Firmus searches for private funding as it withdraws its application to list on the ASX just a day after closing its books to investors."
-      }
-     ]
-    },
-    "cyber": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "'Group of individuals' impacted by data breach at SA hospital",
-       "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T05:01:42.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "An Adelaide private hospital has notified individuals and cyber security authorities of a data breach of personal information."
-      }
-     ]
-    }
-   }
-  },
   "nz-au": {
    "label": "Auckland",
    "level": "admin1",
@@ -6161,90 +6258,6 @@
        "stages": [],
        "via": null,
        "blurb": "The interior had to be completely refurbished, and the home failed to sell after it became known locally as \"the meth house\"."
-      }
-     ]
-    }
-   }
-  },
-  "cu": {
-   "label": "Cuba",
-   "level": "country",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "AI Platform Synthesia Moves HQ to 50K SF at GFP’s 675 Avenue of the Americas",
-       "url": "https://commercialobserver.com/2026/10/synthesia-lease-gfp-675-avenue-of-the-americas/",
-       "source": "Commercial Observer",
-       "published": "2026-10-08T14:30:16.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Commercial Observer",
-         "url": "https://commercialobserver.com/2026/10/synthesia-lease-gfp-675-avenue-of-the-americas/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Artificial intelligence companies are continuing to scoop up Midtown’s premiere office space. AI video platform Synthesia, which provides an enterprise-focused communications platform backed by “Shark Tank” entrepreneur Mark Cuban, inked a 50,000-square-foot lease at GFP Real Est"
-      }
-     ]
-    }
-   }
-  },
-  "au-sa": {
-   "label": "South Australia",
-   "level": "admin1",
-   "sources": {
-    "cyber": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "'Group of individuals' impacted by data breach at SA hospital",
-       "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T05:01:42.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "An Adelaide private hospital has notified individuals and cyber security authorities of a data breach of personal information."
-      }
-     ]
-    }
-   }
-  },
-  "au-city-adelaide": {
-   "label": "Adelaide",
-   "level": "city",
-   "sources": {
-    "cyber": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "'Group of individuals' impacted by data breach at SA hospital",
-       "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T05:01:42.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "An Adelaide private hospital has notified individuals and cyber security authorities of a data breach of personal information."
       }
      ]
     }
