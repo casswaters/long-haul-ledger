@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T18:39:19.547Z",
+ "generatedAt": "2026-10-11T00:47:41.716Z",
  "sector": "technology",
  "maxAgeDays": 10,
  "places": {
@@ -10,6 +10,23 @@
     "software": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Nvidia in talks to invest further in Reflection AI or buy it, FT reports",
+       "url": "https://www.channelnewsasia.com/business/nvidia-in-talks-invest-further-in-reflection-ai-or-buy-it-ft-reports-6449691",
+       "source": "CNA Business",
+       "published": "2026-10-10T19:32:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "CNA Business",
+         "url": "https://www.channelnewsasia.com/business/nvidia-in-talks-invest-further-in-reflection-ai-or-buy-it-ft-reports-6449691",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
+      },
       {
        "title": "AI data-centre boom puts India’s power grid under pressure, drives up upgrade costs",
        "url": "https://www.thehindu.com/business/Economy/ai-data-centre-boom-puts-indias-power-grid-under-pressure-drives-up-upgrade-costs/article71555736.ece",
@@ -140,6 +157,28 @@
        "blurb": "Oracle is considering using the same strategy in New Mexico, where a gas pipeline to help power one of its most crucial data centers is delayed and threatening the project’s timeline."
       },
       {
+       "title": "TNO Launches polySCOUT: Dutch AI Company Designs New Polymers To Specification, In Weeks Instead Of Years",
+       "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/tno-launches-polyscout-dutch-ai-company-designs-new-polymers-to-specification-in-weeks-instead-of-years/",
+       "source": "Textile World",
+       "published": "2026-10-10T16:37:04.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/tno-launches-polyscout-dutch-ai-company-designs-new-polymers-to-specification-in-weeks-instead-of-years/",
+         "primary": false
+        },
+        {
+         "name": "Plastics Today",
+         "url": "https://www.plasticstoday.com/materials/dutch-ai-startup-polyscout-designs-custom-polymers-in-weeks",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "AMSTERDAM — October 9, 2026 — TNO today launches polySCOUT, an independent Dutch AI company that designs polymers to specification. Target properties and regulatory constraints go in; lab-validated candidate materials come out. Where the design and selection phase of a new polyme"
+      },
+      {
        "title": "Deutsche Telekom says AI traffic will not drive more mobile uplink capex",
        "url": "https://rcrwireless.com/20261008/ai/deutsche-telekom-ai-traffic",
        "source": "RCR Wireless News",
@@ -172,40 +211,6 @@
        "stages": [],
        "via": null,
        "blurb": "Samsung Electronics estimated on Thursday that its third-quarter operating profit jumped almost ninefold to a record 107.4 trillion won, or $80.2 billion, while sales at Taiwan's TSMC hit a quarterly record, as the AI boom keeps demand for chips strong."
-      },
-      {
-       "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
-       "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
-       "source": "The Guardian Business",
-       "published": "2026-10-10T10:00:55.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "George Williamson says ‘national resilience’ is key focus of ATI amid US and China’s runaway leadership in field The UK must not become dependent on foreign AI systems that can be switched off at short notice and must develop its own versions of the technology, according to the h"
-      },
-      {
-       "title": "Pinoy startup joins Anthropic’s partner network",
-       "url": "https://www.philstar.com/business/2026/10/11/2562282/pinoy-startup-joins-anthropics-partner-network",
-       "source": "Philstar Business",
-       "published": "2026-10-10T16:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Philstar Business",
-         "url": "https://www.philstar.com/business/2026/10/11/2562282/pinoy-startup-joins-anthropics-partner-network",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A Philippine digital startup has been selected as a network partner of Anthropic, the developer of artificial intelligence assistant Claude, to become the first in the country to do so."
       },
       {
        "title": "A $6 trillion question hangs over the AI construction boom",
@@ -247,28 +252,6 @@
        "blurb": "The startup says its fuel cells are super efficient and cut fuel costs during a time when the tech industry can’t get enough electricity."
       },
       {
-       "title": "Ukraine war latest: Drones strike another Yandex data center in Russia",
-       "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-09T18:12:16.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Key developments on October 09: Second Russian Yandex data center damaged by drone attack in two days, company says Twenty Russian officers killed in Ukrainian strikes on Donetsk, independent monitors claim Russia forcibly removes 25 Ukrainian civilians, including children, from "
-      },
-      {
        "title": "Tasmanian EPA says it was not told extent of Firmus data centre generator plans",
        "url": "https://www.abc.net.au/news/2026-10-10/firmus-generators-epa-appeal-watchdog/107247476",
        "source": "ABC News (Australia) Business",
@@ -286,23 +269,6 @@
        "blurb": "Tasmania's EPA is worried about the extent of AI data centre company Firmus's planned diesel generator use, saying it is much more than initially disclosed."
       },
       {
-       "title": "Sponsored: Wärtsilä, Schneider Electric, and Stanley Consultants launch coordinated approach for faster US data center power delivery",
-       "url": "https://www.datacenterdynamics.com/en/product-news/w%C3%A4rtsil%C3%A4-schneider-electric-and-stanley-consultants-launch-coordinated-approach-for-faster-us-data-center-power-delivery/",
-       "source": "DatacenterDynamics",
-       "published": "2026-10-10T07:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "DatacenterDynamics",
-         "url": "https://www.datacenterdynamics.com/en/product-news/w%C3%A4rtsil%C3%A4-schneider-electric-and-stanley-consultants-launch-coordinated-approach-for-faster-us-data-center-power-delivery/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Coordinated 'generator-to-chip' approach integrates onsite generation, electrical infrastructure, and engineering to help data center customers streamline development and save time compared to traditional delivery models"
-      },
-      {
        "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
        "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
        "source": "Ars Technica",
@@ -318,6 +284,23 @@
        "stages": [],
        "via": null,
        "blurb": "One damaged data center has supercomputers used for training Yandex’s AI model."
+      },
+      {
+       "title": "Sponsored: Wärtsilä, Schneider Electric, and Stanley Consultants launch coordinated approach for faster US data center power delivery",
+       "url": "https://www.datacenterdynamics.com/en/product-news/w%C3%A4rtsil%C3%A4-schneider-electric-and-stanley-consultants-launch-coordinated-approach-for-faster-us-data-center-power-delivery/",
+       "source": "DatacenterDynamics",
+       "published": "2026-10-10T07:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "DatacenterDynamics",
+         "url": "https://www.datacenterdynamics.com/en/product-news/w%C3%A4rtsil%C3%A4-schneider-electric-and-stanley-consultants-launch-coordinated-approach-for-faster-us-data-center-power-delivery/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Coordinated 'generator-to-chip' approach integrates onsite generation, electrical infrastructure, and engineering to help data center customers streamline development and save time compared to traditional delivery models"
       },
       {
        "title": "Fisk Electric wins $24M modular contract for Houston data center",
@@ -437,6 +420,23 @@
        "stages": [],
        "via": null,
        "blurb": "Application unearthed by a local councilor who claimed details were hidden from scrutiny"
+      },
+      {
+       "title": "Hyperscaler Backs BKV’s 1.2 GW Natural Gas Power Push Near Dallas",
+       "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
+       "source": "Natural Gas Intelligence",
+       "published": "2026-10-09T12:56:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Natural Gas Intelligence",
+         "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "BKV has locked in about 1,200 MW of natural gas-fired generation equipment with financial backing from an unnamed investment-grade hyperscaler, advancing the Barnett Shale producer’s push to sell power into the fast-growing Dallas-Fort Worth (DFW) market."
       }
      ]
     },
@@ -720,23 +720,6 @@
        "blurb": "A study based on 88,000 consumer units participating in subscription-based solar generation schemes in Brazil has identified a 17% average monthly payment delinquency rate and 4% monthly customer churn. The findings highlight potential credit, liquidity and consumer protection ch"
       },
       {
-       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
-       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-       "source": "NASA News",
-       "published": "2026-10-08T19:40:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Editor’s note: This release was updated Oct. 8, 2026 with the formal name of the summit. NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are an"
-      },
-      {
        "title": "Seeing more, repairing smarter: How advanced NDE and repair technologies are changing nuclear asset management",
        "url": "https://www.ans.org/news/2026-10-09/article-8411/seeing-more-repairing-smarter-how-advanced-nde-and-repair-technologies-are-changing-nuclear-asset-management/",
        "source": "ANS Nuclear Newswire",
@@ -839,23 +822,6 @@
        "blurb": "Researchers at the University of Birmingham are leading a £6.2-million ($8.2-million) project to develop protein-based membranes that could make lithium extraction more selective and potentially less energy-intensive. The three-year initiative,... The post UK scientists turn to b"
       },
       {
-       "title": "NASA to Conduct Flyover, Engage NFL Fans at MetLife Stadium",
-       "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
-       "source": "NASA News",
-       "published": "2026-10-10T14:18:59.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "As part of the agency’s Inspiration Tour flyover, NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sunday, Oct. 11. NASA team members will engage with fans at the "
-      },
-      {
        "title": "Dangote taps EIL for Kenya grassroots refinery project",
        "url": "https://www.ogj.com/refining-processing/news/55410915/dangote-taps-eil-for-kenya-grassroots-refinery-project",
        "source": "Oil & Gas Journal",
@@ -934,6 +900,43 @@
         "stage": "innovation"
        },
        "blurb": "A study by Chalmers University of Technology examines reconfigurable battery packs that can selectively bypass weaker cells. Under optimal conditions, this could extend the lifespan of batteries in certain high-voltage vehicles by more than 20 per cent."
+      },
+      {
+       "title": "Case study: Apartment solar? A novel approach from Bucharest",
+       "url": "https://www.renewableenergyworld.com/solar/residential/case-study-apartment-solar-a-novel-approach-from-bucharest/",
+       "source": "Hydro Review",
+       "published": "2026-10-09T10:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Hydro Review",
+         "url": "https://www.renewableenergyworld.com/solar/residential/case-study-apartment-solar-a-novel-approach-from-bucharest/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": {
+        "from": "energy",
+        "stage": "innovation"
+       },
+       "blurb": "Romanian company PhotoVoltaic Windows SRL has discovered an intriguing application for photovoltaic glass in apartments: heating domestic water."
+      },
+      {
+       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
+       "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+       "source": "Manufacturing Dive",
+       "published": "2026-10-08T16:03:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Manufacturing Dive",
+         "url": "https://www.manufacturingdive.com/news/wolfspeed-dod-defense-war-office-of-strategic-capital-loan/832451/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 million loan to PsyQuantum."
       }
      ]
     },
@@ -1009,23 +1012,6 @@
        "blurb": "A tender has been announced for a single-party framework agreement for geothermal engineering consultancy services for the Grangegorman site in Ireland. The post Tender – Framework agreement for geothermal consultancy at Grangegorman, Ireland first appeared on ThinkGeoEnergy - Ge"
       },
       {
-       "title": "A $6 trillion question hangs over the AI construction boom",
-       "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
-       "source": "Construction Dive",
-       "published": "2026-10-08T13:24:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Construction Dive",
-         "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
-      },
-      {
        "title": "Studio Pietrangeli begins consultancy work on two Indian hydropower projects",
        "url": "https://www.waterpowermagazine.com/news/studio-pietrangeli-begins-consultancy-work-on-two-indian-hydropower-projects/",
        "source": "International Water Power & Dam Construction",
@@ -1041,6 +1027,23 @@
        "stages": [],
        "via": null,
        "blurb": "Studio Pietrangeli has begun consultancy work on the proposed 24 MW Zungki and 42 MW Lower Tizu hydropower projects in Nagaland, India. The post Studio Pietrangeli begins consultancy work on two Indian hydropower projects appeared first on International Water Power ."
+      },
+      {
+       "title": "A $6 trillion question hangs over the AI construction boom",
+       "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
+       "source": "Construction Dive",
+       "published": "2026-10-08T13:24:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
       },
       {
        "title": "EY global revenue increased to $57B",
@@ -1082,21 +1085,21 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Nigeria: Social Media Distraction Can Cause Road Crashes - FRSC Boss",
-       "url": "https://allafrica.com/stories/202610090448.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-09T12:29:07.000Z",
+       "title": "Justice Dept. Is Investigating TV Networks Over Trump Pool Coverage",
+       "url": "https://www.nytimes.com/2026/10/10/business/media/trump-justice-department-tv-networks.html",
+       "source": "NYT Technology",
+       "published": "2026-10-11T00:39:17.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610090448.html",
+         "name": "NYT Technology",
+         "url": "https://www.nytimes.com/2026/10/10/business/media/trump-justice-department-tv-networks.html",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "[Vanguard] The Corps Marshal of the Federal Road Safety Corps, FRSC, Shehu Mohammed, has warned that distractions from social media, emotional distress and fatigue could endanger motorists and other road users, calling for greater attention to the link between mental wellbeing an"
+       "blurb": "Major TV networks were notified on Friday that the department was examining whether they violated antitrust laws when they suspended pool coverage of President Trump."
       },
       {
        "title": "Journalists Go Behind Health Headlines From Georgia, Michigan, and Russia",
@@ -1165,23 +1168,6 @@
        "stages": [],
        "via": null,
        "blurb": "Nature, Published online: 09 October 2026; doi:10.1038/s41586-026-11273-1 Publisher Correction: Sleep chart of biological ageing clocks in middle and late life"
-      },
-      {
-       "title": "Ex-Warner Bros. CEO pockets US$600 million in sale to Paramount",
-       "url": "https://www.straitstimes.com/business/ex-warner-bros-ceo-pockets-us600-million-in-sale-to-paramount",
-       "source": "The Straits Times Business",
-       "published": "2026-10-08T23:35:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/ex-warner-bros-ceo-pockets-us600-million-in-sale-to-paramount",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Warner Bros. stockholders received US$31 a share in cash in the sale, a nearly 25% increase."
       }
      ]
     },
@@ -1308,23 +1294,6 @@
        "blurb": "Student interest in AI safety is surging, and schools are rushing to prepare for new career paths."
       },
       {
-       "title": "Basel Committee meets to advance supervisory and regulatory initiatives and discuss risks and vulnerabilities to the global banking system",
-       "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
-       "source": "Bank for International Settlements",
-       "published": "2026-10-01T00:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "Bank for International Settlements",
-         "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Exchanges experiences and views on developments in artificial intelligence for the global banking system and supervisors, modernisation efforts and implications for the Committee’s future work programme..."
-      },
-      {
        "title": "Wi-Fi 8 – the defensive frontline for ISPs against AI-driven cyberattacks (Reader Forum)",
        "url": "https://rcrwireless.com/20261009/opinion/wi-fi-8-defensive-frontline-isps-ai-cyberattacks-reader-forum",
        "source": "RCR Wireless News",
@@ -1391,6 +1360,23 @@
        "stages": [],
        "via": null,
        "blurb": "The tech giant’s announcement underscores the insufficiency of companies’ existing software supply chain security practices."
+      },
+      {
+       "title": "FBI removes Accenture contractor after missed security patch led to breach",
+       "url": "https://www.govexec.com/technology/2026/10/fbi-removes-accenture-contractor-after-missed-security-patch-led-breach/416446/",
+       "source": "Government Executive",
+       "published": "2026-10-06T20:29:20.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Government Executive",
+         "url": "https://www.govexec.com/technology/2026/10/fbi-removes-accenture-contractor-after-missed-security-patch-led-breach/416446/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The bureau’s cyber chief blamed a contractor’s failure to apply an available fix for an intrusion that may have exposed sensitive employee information."
       }
      ]
     }
@@ -1477,23 +1463,6 @@
        "blurb": "Oracle is considering using the same strategy in New Mexico, where a gas pipeline to help power one of its most crucial data centers is delayed and threatening the project’s timeline."
       },
       {
-       "title": "A $6 trillion question hangs over the AI construction boom",
-       "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
-       "source": "Construction Dive",
-       "published": "2026-10-08T13:24:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Construction Dive",
-         "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
-      },
-      {
        "title": "Not just AI. China is building technologies that challenge U.S. dominance",
        "url": "https://restofworld.org/2026/china-america-tech-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
        "source": "Rest of World",
@@ -1509,6 +1478,23 @@
        "stages": [],
        "via": null,
        "blurb": "From batteries and solar panels to drones and satellites, China is building tech capabilities that extend well beyond AI, writes Steve Feldstein in his new book, \"Bytes and Bullets: Global Rivalries, Big Tech, and the New Shape of Modern Warfare.\""
+      },
+      {
+       "title": "A $6 trillion question hangs over the AI construction boom",
+       "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
+       "source": "Construction Dive",
+       "published": "2026-10-08T13:24:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Construction Dive",
+         "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Four factors will need to go right to justify eye-popping investments into the sector, said Peter Hanbury, a partner at global management consulting firm Bain."
       },
       {
        "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
@@ -1545,23 +1531,6 @@
        "blurb": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient."
       },
       {
-       "title": "As frontier models go rogue, colleges beef up AI cybersecurity education",
-       "url": "https://www.cybersecuritydive.com/news/ai-cybersecurity-education-university/832132/",
-       "source": "Cybersecurity Dive",
-       "published": "2026-10-09T12:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Cybersecurity Dive",
-         "url": "https://www.cybersecuritydive.com/news/ai-cybersecurity-education-university/832132/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Student interest in AI safety is surging, and schools are rushing to prepare for new career paths."
-      },
-      {
        "title": "White House AI task force faces expertise, partnership challenges",
        "url": "https://www.cybersecuritydive.com/news/white-house-ai-task-force-cybersecurity-partnerships-cisa/832129/",
        "source": "Cybersecurity Dive",
@@ -1577,6 +1546,23 @@
        "stages": [],
        "via": null,
        "blurb": "The Cybersecurity and Infrastructure Security Agency is nowhere to be seen in the government’s latest AI security project."
+      },
+      {
+       "title": "As frontier models go rogue, colleges beef up AI cybersecurity education",
+       "url": "https://www.cybersecuritydive.com/news/ai-cybersecurity-education-university/832132/",
+       "source": "Cybersecurity Dive",
+       "published": "2026-10-09T12:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Cybersecurity Dive",
+         "url": "https://www.cybersecuritydive.com/news/ai-cybersecurity-education-university/832132/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Student interest in AI safety is surging, and schools are rushing to prepare for new career paths."
       },
       {
        "title": "3 Questions: What is the best path forward for AI in academia?",
@@ -1864,23 +1850,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
-       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-       "source": "NASA News",
-       "published": "2026-10-08T19:40:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Editor’s note: This release was updated Oct. 8, 2026 with the formal name of the summit. NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are an"
-      },
-      {
        "title": "Fermi America, Blue Energy make strides in Texas",
        "url": "https://www.ans.org/news/2026-10-09/article-8479/fermi-america-blue-energy-make-strides-in-texas/",
        "source": "ANS Nuclear Newswire",
@@ -1924,23 +1893,6 @@
         "stage": "innovation"
        },
        "blurb": "A project led by UC Irvine that aims to use AI to safely and efficiently identify geothermal resources has been selected by the US DOE for the Genesis Mission. The post US DOE selects AI-driven geothermal prospecting project for grant program first appeared on ThinkGeoEnergy - Ge"
-      },
-      {
-       "title": "NASA to Conduct Flyover, Engage NFL Fans at MetLife Stadium",
-       "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
-       "source": "NASA News",
-       "published": "2026-10-10T14:18:59.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "As part of the agency’s Inspiration Tour flyover, NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sunday, Oct. 11. NASA team members will engage with fans at the "
       },
       {
        "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
@@ -2102,6 +2054,40 @@
        "stages": [],
        "via": null,
        "blurb": "Paige Greenberg, a packaging specialist at Plastic Ingenuity, discusses the company's plans for Pack Expo with PlasticsToday."
+      },
+      {
+       "title": "Clinical Trial Indicates A.I. Chatbots Could Aid Urgent Care",
+       "url": "https://www.nytimes.com/2026/10/08/technology/ai-chatbots-urgent-care.html",
+       "source": "NYT Technology",
+       "published": "2026-10-08T22:48:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NYT Technology",
+         "url": "https://www.nytimes.com/2026/10/08/technology/ai-chatbots-urgent-care.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Nearly 100 patients discussed their maladies with a Google bot, called AMIE, before meeting with physicians."
+      },
+      {
+       "title": "Gas stoves put restaurant cooks’ health at risk, new study finds",
+       "url": "https://www.canarymedia.com/articles/emissions-reduction/gas-stoves-restaurant-cooks-health",
+       "source": "Canary Media",
+       "published": "2026-10-06T09:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Canary Media",
+         "url": "https://www.canarymedia.com/articles/emissions-reduction/gas-stoves-restaurant-cooks-health",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In restaurant kitchens around the U.S., cooks are toiling away to create mouthwatering meals, from bibimbap to spaghetti puttanesca. But their own stomachs may be roiling. That’s what Christopher Galarza, a longtime chef and co-founder of sustainable kitchen certification company"
       }
      ]
     },
@@ -2214,6 +2200,23 @@
        "stages": [],
        "via": null,
        "blurb": "KFF Health News journalists made the rounds on national and local media recently to discuss topical stories. Here’s a collection of their appearances."
+      },
+      {
+       "title": "Justice Dept. Is Investigating TV Networks Over Trump Pool Coverage",
+       "url": "https://www.nytimes.com/2026/10/10/business/media/trump-justice-department-tv-networks.html",
+       "source": "NYT Technology",
+       "published": "2026-10-11T00:39:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NYT Technology",
+         "url": "https://www.nytimes.com/2026/10/10/business/media/trump-justice-department-tv-networks.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Major TV networks were notified on Friday that the department was examining whether they violated antitrust laws when they suspended pool coverage of President Trump."
       }
      ]
     },
@@ -2483,12 +2486,17 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Dutch AI Startup polySCOUT Designs Custom Polymers in Weeks",
-       "url": "https://www.plasticstoday.com/materials/dutch-ai-startup-polyscout-designs-custom-polymers-in-weeks",
-       "source": "Plastics Today",
-       "published": "2026-10-09T12:10:57.000Z",
-       "verification": "unconfirmed",
+       "title": "TNO Launches polySCOUT: Dutch AI Company Designs New Polymers To Specification, In Weeks Instead Of Years",
+       "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/tno-launches-polyscout-dutch-ai-company-designs-new-polymers-to-specification-in-weeks-instead-of-years/",
+       "source": "Textile World",
+       "published": "2026-10-10T16:37:04.000Z",
+       "verification": "multiple",
        "outlets": [
+        {
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/fiber-world/2026/10/tno-launches-polyscout-dutch-ai-company-designs-new-polymers-to-specification-in-weeks-instead-of-years/",
+         "primary": false
+        },
         {
          "name": "Plastics Today",
          "url": "https://www.plasticstoday.com/materials/dutch-ai-startup-polyscout-designs-custom-polymers-in-weeks",
@@ -2497,7 +2505,7 @@
        ],
        "stages": [],
        "via": null,
-       "blurb": "polySCOUT, a Dutch AI company spun out of TNO, designs custom polymers to specification in weeks rather than years, addressing urgent regulatory substitution challenges in the plastics industry."
+       "blurb": "AMSTERDAM — October 9, 2026 — TNO today launches polySCOUT, an independent Dutch AI company that designs polymers to specification. Target properties and regulatory constraints go in; lab-validated candidate materials come out. Where the design and selection phase of a new polyme"
       },
       {
        "title": "Arelion, Nokia trial boosts optical capacity for AI traffic",
@@ -2941,28 +2949,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Ukraine war latest: Drones strike another Yandex data center in Russia",
-       "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-09T18:12:16.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Key developments on October 09: Second Russian Yandex data center damaged by drone attack in two days, company says Twenty Russian officers killed in Ukrainian strikes on Donetsk, independent monitors claim Russia forcibly removes 25 Ukrainian civilians, including children, from "
-      },
-      {
        "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
        "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
        "source": "Ars Technica",
@@ -2978,6 +2964,40 @@
        "stages": [],
        "via": null,
        "blurb": "One damaged data center has supercomputers used for training Yandex’s AI model."
+      },
+      {
+       "title": "Ukraine Drones Hit Second Yandex Data Center in Two Days",
+       "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
+       "source": "The Moscow Times",
+       "published": "2026-10-09T08:35:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Kaluga region governor said nine people were injured and infrastructure was damaged by Ukrainian drones."
+      },
+      {
+       "title": "Ukrainian Drones Hit Yandex Data Center, Industrial Facilities Across Russia",
+       "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T12:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
       }
      ]
     }
@@ -3013,28 +3033,6 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Ukraine war latest: Drones strike another Yandex data center in Russia",
-       "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-09T18:12:16.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Key developments on October 09: Second Russian Yandex data center damaged by drone attack in two days, company says Twenty Russian officers killed in Ukrainian strikes on Donetsk, independent monitors claim Russia forcibly removes 25 Ukrainian civilians, including children, from "
-      },
-      {
        "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
        "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
        "source": "Ars Technica",
@@ -3050,6 +3048,23 @@
        "stages": [],
        "via": null,
        "blurb": "One damaged data center has supercomputers used for training Yandex’s AI model."
+      },
+      {
+       "title": "Ukrainian Drones Hit Yandex Data Center, Industrial Facilities Across Russia",
+       "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+       "source": "The Moscow Times",
+       "published": "2026-10-08T12:30:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The attack marks the first confirmed strike against Russian data infrastructure, weeks after Moscow did the same."
       }
      ]
     },
@@ -3148,16 +3163,11 @@
        "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
        "source": "The Moscow Times",
        "published": "2026-10-08T12:30:00.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-         "primary": false
-        },
-        {
          "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
+         "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
          "primary": false
         }
        ],
@@ -3181,16 +3191,11 @@
        "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
        "source": "The Moscow Times",
        "published": "2026-10-08T12:30:00.000Z",
-       "verification": "multiple",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-         "primary": false
-        },
-        {
          "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
+         "url": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915",
          "primary": false
         }
        ],
@@ -4487,90 +4492,6 @@
     }
    }
   },
-  "us-oh": {
-   "label": "Ohio",
-   "level": "admin1",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "NASA to Conduct Flyover, Engage NFL Fans at MetLife Stadium",
-       "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
-       "source": "NASA News",
-       "published": "2026-10-10T14:18:59.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "As part of the agency’s Inspiration Tour flyover, NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sunday, Oct. 11. NASA team members will engage with fans at the "
-      }
-     ]
-    }
-   }
-  },
-  "us-nj": {
-   "label": "New Jersey",
-   "level": "admin1",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "NASA to Conduct Flyover, Engage NFL Fans at MetLife Stadium",
-       "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
-       "source": "NASA News",
-       "published": "2026-10-10T14:18:59.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "As part of the agency’s Inspiration Tour flyover, NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sunday, Oct. 11. NASA team members will engage with fans at the "
-      }
-     ]
-    }
-   }
-  },
-  "us-city-cleveland": {
-   "label": "Cleveland",
-   "level": "city",
-   "sources": {
-    "research": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "NASA to Conduct Flyover, Engage NFL Fans at MetLife Stadium",
-       "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
-       "source": "NASA News",
-       "published": "2026-10-10T14:18:59.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "As part of the agency’s Inspiration Tour flyover, NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sunday, Oct. 11. NASA team members will engage with fans at the "
-      }
-     ]
-    }
-   }
-  },
   "sa": {
    "label": "Saudi Arabia",
    "level": "country",
@@ -5097,72 +5018,6 @@
     }
    }
   },
-  "ua-dt": {
-   "label": "Donets'k",
-   "level": "admin1",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukraine war latest: Drones strike another Yandex data center in Russia",
-       "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-09T18:12:16.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Key developments on October 09: Second Russian Yandex data center damaged by drone attack in two days, company says Twenty Russian officers killed in Ukrainian strikes on Donetsk, independent monitors claim Russia forcibly removes 25 Ukrainian civilians, including children, from "
-      }
-     ]
-    }
-   }
-  },
-  "ua-city-donetsk": {
-   "label": "Donetsk",
-   "level": "city",
-   "sources": {
-    "cloud": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Ukraine war latest: Drones strike another Yandex data center in Russia",
-       "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-09T18:12:16.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
-         "primary": false
-        },
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Key developments on October 09: Second Russian Yandex data center damaged by drone attack in two days, company says Twenty Russian officers killed in Ukrainian strikes on Donetsk, independent monitors claim Russia forcibly removes 25 Ukrainian civilians, including children, from "
-      }
-     ]
-    }
-   }
-  },
   "it": {
    "label": "Italy",
    "level": "country",
@@ -5318,34 +5173,6 @@
         "stage": "innovation"
        },
        "blurb": ""
-      }
-     ]
-    }
-   }
-  },
-  "ng": {
-   "label": "Nigeria",
-   "level": "country",
-   "sources": {
-    "media": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Nigeria: Social Media Distraction Can Cause Road Crashes - FRSC Boss",
-       "url": "https://allafrica.com/stories/202610090448.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-09T12:29:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610090448.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Vanguard] The Corps Marshal of the Federal Road Safety Corps, FRSC, Shehu Mohammed, has warned that distractions from social media, emotional distress and fatigue could endanger motorists and other road users, calling for greater attention to the link between mental wellbeing an"
       }
      ]
     }
@@ -5695,23 +5522,6 @@
        "stages": [],
        "via": null,
        "blurb": "Tasmania's EPA is worried about the extent of AI data centre company Firmus's planned diesel generator use, saying it is much more than initially disclosed."
-      },
-      {
-       "title": "Data centre operator Firmus pulls blockbuster ASX float after lacklustre demand",
-       "url": "https://www.abc.net.au/news/2026-10-09/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-08T22:12:14.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-09/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Firmus searches for private funding as it withdraws its application to list on the ASX just a day after closing its books to investors."
       }
      ]
     }
@@ -6025,6 +5835,34 @@
     }
    }
   },
+  "my": {
+   "label": "Malaysia",
+   "level": "country",
+   "sources": {
+    "software": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Telekom Malaysia bets on agentic AI to meet surging infrastructure demand",
+       "url": "https://www.fierce-network.com/wireless/telekom-malaysia-bets-agentic-ai-meet-surging-infrastructure-demand",
+       "source": "Fierce Network",
+       "published": null,
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Fierce Network",
+         "url": "https://www.fierce-network.com/wireless/telekom-malaysia-bets-agentic-ai-meet-surging-infrastructure-demand",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Telekom Malaysia, the country’s incumbent operator and its largest fixed-line broadband provider, may be using AI to improve efficiency across its network operations but says AI-led revenue opportunities have yet to emerge."
+      }
+     ]
+    }
+   }
+  },
   "nz": {
    "label": "New Zealand",
    "level": "country",
@@ -6165,34 +6003,6 @@
     }
    }
   },
-  "my": {
-   "label": "Malaysia",
-   "level": "country",
-   "sources": {
-    "software": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Telekom Malaysia bets on agentic AI to meet surging infrastructure demand",
-       "url": "https://www.fierce-network.com/wireless/telekom-malaysia-bets-agentic-ai-meet-surging-infrastructure-demand",
-       "source": "Fierce Network",
-       "published": null,
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Fierce Network",
-         "url": "https://www.fierce-network.com/wireless/telekom-malaysia-bets-agentic-ai-meet-surging-infrastructure-demand",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Telekom Malaysia, the country’s incumbent operator and its largest fixed-line broadband provider, may be using AI to improve efficiency across its network operations but says AI-led revenue opportunities have yet to emerge."
-      }
-     ]
-    }
-   }
-  },
   "gb-eb": {
    "label": "Edinburgh",
    "level": "admin1",
@@ -6300,90 +6110,6 @@
        "stages": [],
        "via": null,
        "blurb": "Researchers at the Universities of Edinburgh and Glasgow analysed data from more than 129,000 people over five years."
-      }
-     ]
-    }
-   }
-  },
-  "ch": {
-   "label": "Switzerland",
-   "level": "country",
-   "sources": {
-    "cyber": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Basel Committee meets to advance supervisory and regulatory initiatives and discuss risks and vulnerabilities to the global banking system",
-       "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
-       "source": "Bank for International Settlements",
-       "published": "2026-10-01T00:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "Bank for International Settlements",
-         "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Exchanges experiences and views on developments in artificial intelligence for the global banking system and supervisors, modernisation efforts and implications for the Committee’s future work programme..."
-      }
-     ]
-    }
-   }
-  },
-  "ch-bs": {
-   "label": "Basel-Stadt",
-   "level": "admin1",
-   "sources": {
-    "cyber": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Basel Committee meets to advance supervisory and regulatory initiatives and discuss risks and vulnerabilities to the global banking system",
-       "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
-       "source": "Bank for International Settlements",
-       "published": "2026-10-01T00:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "Bank for International Settlements",
-         "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Exchanges experiences and views on developments in artificial intelligence for the global banking system and supervisors, modernisation efforts and implications for the Committee’s future work programme..."
-      }
-     ]
-    }
-   }
-  },
-  "ch-city-basel": {
-   "label": "Basel",
-   "level": "city",
-   "sources": {
-    "cyber": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Basel Committee meets to advance supervisory and regulatory initiatives and discuss risks and vulnerabilities to the global banking system",
-       "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
-       "source": "Bank for International Settlements",
-       "published": "2026-10-01T00:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "Bank for International Settlements",
-         "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Exchanges experiences and views on developments in artificial intelligence for the global banking system and supervisors, modernisation efforts and implications for the Committee’s future work programme..."
       }
      ]
     }

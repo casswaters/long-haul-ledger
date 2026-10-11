@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T18:38:24.158Z",
+ "generatedAt": "2026-10-11T00:46:35.464Z",
  "sector": "energy",
  "maxAgeDays": 10,
  "places": {
@@ -164,25 +164,6 @@
        "blurb": "The Nuclear Regulatory Commission is reviewing a license amendment request (LAR) Holtec submitted in the aftermath of a fuel loading incident that has paused some of the restart work at the Palisades nuclear power plant in Covert, Mich."
       },
       {
-       "title": "Reading List 10/10/26",
-       "url": "https://www.construction-physics.com/p/reading-list-101026",
-       "source": "Construction Physics",
-       "published": "2026-10-10T14:55:48.000Z",
-       "verification": "analysis",
-       "outlets": [
-        {
-         "name": "Construction Physics",
-         "url": "https://www.construction-physics.com/p/reading-list-101026",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Propane in air conditioners, Anduril making submarine parts, nuclear reactors on the moon, the robotic hand landscape, and more."
-      },
-      {
        "title": "Energy Department Announces $4.2 Billion Investment to Boost Nuclear Power and Help Lower Energy Costs in Pennsylvania and Ohio",
        "url": "https://www.energy.gov/articles/energy-department-announces-42-billion-investment-boost-nuclear-power-and-help-lower",
        "source": "U.S. Department of Energy",
@@ -220,6 +201,25 @@
        ],
        "via": null,
        "blurb": "Karen Fili As the nuclear industry enters one of the most significant investment periods in its history, utilities are managing unprecedented capital portfolios while simultaneously preparing for long-term operation, plant modernization, extended power uprates, digital transforma"
+      },
+      {
+       "title": "Reading List 10/10/26",
+       "url": "https://www.construction-physics.com/p/reading-list-101026",
+       "source": "Construction Physics",
+       "published": "2026-10-10T14:55:48.000Z",
+       "verification": "analysis",
+       "outlets": [
+        {
+         "name": "Construction Physics",
+         "url": "https://www.construction-physics.com/p/reading-list-101026",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Propane in air conditioners, Anduril making submarine parts, nuclear reactors on the moon, the robotic hand landscape, and more."
       },
       {
        "title": "Constellation, Vistra uprate deals signal fastest path to new nuclear megawatts",
@@ -262,10 +262,10 @@
      "brief": "ready",
      "candidates": [
       {
-       "title": "Russian attacks kill at least 12 in Ukraine after Trump-Putin diesel deal",
-       "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-10T10:22:47.000Z",
+       "title": "Russia partially lifts ban on diesel exports after Trump-Putin deal",
+       "url": "https://kyivindependent.com/russia-partially-lifts-ban-on-diesel-exports-after-trump-putin-deal/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T19:26:41.000Z",
        "verification": "multiple",
        "outlets": [
         {
@@ -289,6 +289,11 @@
          "primary": false
         },
         {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
+         "primary": false
+        },
+        {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
          "primary": false
@@ -299,9 +304,11 @@
          "primary": false
         }
        ],
-       "stages": [],
+       "stages": [
+        "grid"
+       ],
        "via": null,
-       "blurb": "The strikes came a day after US President Donald Trump announced a deal to buy Russian diesel that Kyiv warned would help fund Moscow's war in Ukraine."
+       "blurb": "Effective Oct. 10, the Russian government will permit the sale of 500,000 tons of diesel to foreign markets. Moscow previously banned diesel exports in July in response to Ukrainian strikes."
       },
       {
        "title": "Zelenskyy furious as Trump announces deal to buy Russian diesel",
@@ -317,7 +324,7 @@
         },
         {
          "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/10/trump-says-ukraine-should-get-a-new-president-as-he-blames-zelenskyy-for-us-diesel-prices/",
+         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/10/trump-blames-zelenskyy-for-us-diesel-prices/",
          "primary": false
         }
        ],
@@ -382,67 +389,6 @@
        "blurb": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\"."
       },
       {
-       "title": "Trump says Russia to supply diesel to U.S. and global markets",
-       "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
-       "source": "The Japan Times",
-       "published": "2026-10-09T22:49:00.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/americas/trump-says-russia-to-supply-diesel-fuel-to-american-global-markets/4084012",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Prices for diesel are near a record and have put Trump's fellow Republicans at risk ahead of the Nov. 3 congressional elections."
-      },
-      {
-       "title": "2027: Makinde promises four-year transitional Government of National Unity if elected president",
-       "url": "https://www.premiumtimesng.com/news/headlines/916006-2027-makinde-promises-four-year-transitional-government-of-national-unity-if-elected-president.html",
-       "source": "Premium Times (Nigeria)",
-       "published": "2026-10-10T18:06:59.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Premium Times (Nigeria)",
-         "url": "https://www.premiumtimesng.com/news/headlines/916006-2027-makinde-promises-four-year-transitional-government-of-national-unity-if-elected-president.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Makinde also challenged the federal government to publish its petroleum pricing template to enable Nigerians to understand how the prices of petroleum products are determined. The post 2027: Makinde promises four-year transitional Government of National Unity if elected president"
-      },
-      {
-       "title": "Russian Attack on Ukrainian City Kills 20, a Day After Trump Eases Diesel Sanctions on Moscow",
-       "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
-       "source": "The Moscow Times",
-       "published": "2026-10-10T17:26:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Ukrainian President offered some of his sharpest criticism of Donald Trump after this week's third mass-casualty Russian attack."
-      },
-      {
        "title": "Shell buying 30% stake in Bay du Nord oil project off Newfoundland",
        "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/09/shell-to-buy-30-stake-in-bay-du-nord-oil-project-off-newfoundland/",
        "source": "BNN Bloomberg",
@@ -465,6 +411,23 @@
        "blurb": "Shell Canada has agreed to buy a 30 per cent stake in the proposed Bay du Nord oil project off the East Coast of Newfoundland from Norwegian energy giant Equinor, which will continue to lead the $14-billion development."
       },
       {
+       "title": "2027: Makinde promises four-year transitional Government of National Unity if elected president",
+       "url": "https://www.premiumtimesng.com/news/headlines/916006-2027-makinde-promises-four-year-transitional-government-of-national-unity-if-elected-president.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-10T18:06:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/news/headlines/916006-2027-makinde-promises-four-year-transitional-government-of-national-unity-if-elected-president.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Makinde also challenged the federal government to publish its petroleum pricing template to enable Nigerians to understand how the prices of petroleum products are determined. The post 2027: Makinde promises four-year transitional Government of National Unity if elected president"
+      },
+      {
        "title": "US-Russia energy deal opens up diesel can of worms",
        "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
        "source": "The National (UAE)",
@@ -480,6 +443,61 @@
        "stages": [],
        "via": null,
        "blurb": "US President Donald Trump's announcement that Russia will be supplying diesel to global markets has opened up a can of worms, says analysts. Washington agreed to lift sanctions on the Kremlin in a bid to bring down energy prices, especially for diesel, which is vital to many econ"
+      },
+      {
+       "title": "Russian Attack on Ukrainian City Kills 20, a Day After Trump Eases Diesel Sanctions on Moscow",
+       "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
+       "source": "The Moscow Times",
+       "published": "2026-10-10T17:26:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Ukrainian President offered some of his sharpest criticism of Donald Trump after this week's third mass-casualty Russian attack."
+      },
+      {
+       "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
+       "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T03:22:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "ASTRA also reported damage to a residential building in Rostov-on-Don's Donskaya Sloboda complex, identifying its location through footage posted by residents. It remained unclear what struck the building amid reports of continued drone activity and Russian air defense operations"
+      },
+      {
+       "title": "Trump Says He Will Import Russian Diesel Fuel Amid High Prices",
+       "url": "https://www.nytimes.com/2026/10/09/us/politics/trump-russia-diesel-putin.html",
+       "source": "NYT Climate / Energy",
+       "published": "2026-10-10T03:09:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NYT Climate / Energy",
+         "url": "https://www.nytimes.com/2026/10/09/us/politics/trump-russia-diesel-putin.html",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "President Trump said Russia had agreed to ship potentially millions of tons of diesel fuel in the coming months. But the amounts would be small relative to global demand."
       },
       {
        "title": "Russia's Oil Product Exports Rise",
@@ -499,23 +517,6 @@
        ],
        "via": null,
        "blurb": "Russia's oil product shipments climbed to a three-month high in September."
-      },
-      {
-       "title": "Germany Sticks to Russia Sanctions After Trump Diesel Announcement",
-       "url": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940",
-       "source": "The Moscow Times",
-       "published": "2026-10-10T11:26:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Trump said on Friday that Russia had agreed to supply diesel to the global market to ease fuel prices. Kyiv's allies are not supportive."
       }
      ]
     },
@@ -705,6 +706,35 @@
        "blurb": "The prospect of a historically strong El Niño is raising questions about US natural gas heating demand this winter, but expanding LNG exports, subdued production and the potential for regional supply constraints are complicating the market outlook."
       },
       {
+       "title": "Energy Transfer Buys Already Integrated Vaquero Assets for Over $2.6B",
+       "url": "https://www.rigzone.com/news/energy_transfer_buys_already_integrated_vaquero_assets_for_over_26b-08-oct-2026-184803-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-08T13:56:47.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Oil & Gas Journal",
+         "url": "https://www.ogj.com/general-interest/companies/news/55409838/energy-transfer-expands-delaware-basin-footprint-with-2625-billion-deal",
+         "primary": false
+        },
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/energy_transfer_buys_already_integrated_vaquero_assets_for_over_26b-08-oct-2026-184803-article/?rss=true",
+         "primary": false
+        },
+        {
+         "name": "Offshore Technology",
+         "url": "https://www.offshore-technology.com/news/energy-transfer-buy-vaquero-midstream-2-6bn/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Energy Transfer agreed to acquire Vaquero Midstream, whose assets are already interconnected with Energy Transfer's downstream natural gas and natural gas liquids infrastructure, for around $2.625 billion."
+      },
+      {
        "title": "Hyperscaler Backs BKV’s 1.2 GW Natural Gas Power Push Near Dallas",
        "url": "https://naturalgasintel.com/news/hyperscaler-backs-bkvs-12-gw-natural-gas-power-push-near-dallas/",
        "source": "Natural Gas Intelligence",
@@ -723,25 +753,6 @@
        ],
        "via": null,
        "blurb": "BKV has locked in about 1,200 MW of natural gas-fired generation equipment with financial backing from an unnamed investment-grade hyperscaler, advancing the Barnett Shale producer’s push to sell power into the fast-growing Dallas-Fort Worth (DFW) market."
-      },
-      {
-       "title": "Pipeline Constraints Keep New England January Natural Gas Forwards Above $20",
-       "url": "https://naturalgasintel.com/news/pipeline-constraints-keep-new-england-january-natural-gas-forwards-above-20/",
-       "source": "Natural Gas Intelligence",
-       "published": "2026-10-09T12:56:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Natural Gas Intelligence",
-         "url": "https://naturalgasintel.com/news/pipeline-constraints-keep-new-england-january-natural-gas-forwards-above-20/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "New England natural gas forwards are topping $20/MMBtu for January 2027 at several key hubs, even as Henry Hub trades below $4 and expectations for ample US supplies point to a relatively comfortable winter market."
       }
      ]
     },
@@ -887,45 +898,6 @@
        "blurb": "Germany will auction 4 GW of offshore wind capacity across five sites in the North Sea in 2027, following changes to the country’s development..."
       },
       {
-       "title": "Offshore Substations for Gennaker Wind Farm En Route to Baltic Sea (VIDEO)",
-       "url": "https://offshorewind.biz/2026/10/09/offshore-substations-for-gennaker-wind-farm-en-route-to-baltic-sea-video",
-       "source": "offshoreWIND.biz",
-       "published": "2026-10-09T07:13:37.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "offshoreWIND.biz",
-         "url": "https://offshorewind.biz/2026/10/09/offshore-substations-for-gennaker-wind-farm-en-route-to-baltic-sea-video",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "The topsides and jackets for two offshore substations (OSS) that will connect the 927 MW Gennaker offshore wind farm to Germany’s onshore grid..."
-      },
-      {
-       "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
-       "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
-       "source": "Maryland Matters",
-       "published": "2026-10-07T17:43:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Maryland Matters",
-         "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "US Wind turned over its Tradepoint Atlantic lease at Sparrows Point to Anduril and shelved its planned tower and monopile plant, citing legal disputes and federal uncertainty over its Ocean City offshore wind project."
-      },
-      {
        "title": "All Turbines Installed at Poland's First Offshore Wind Farm",
        "url": "https://offshorewind.biz/2026/10/07/all-turbines-installed-at-polands-first-offshore-wind-farm",
        "source": "offshoreWIND.biz",
@@ -948,6 +920,45 @@
        ],
        "via": null,
        "blurb": "All 76 Vestas V236-15.0 MW turbines are in place at the Baltic Power offshore wind farm in Poland, jointly owned by Orlen and Northland Power...."
+      },
+      {
+       "title": "US Wind drops Sparrows Point turbine-parts plant, hands its lease to Anduril's shipyard",
+       "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
+       "source": "Maryland Matters",
+       "published": "2026-10-07T17:43:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Maryland Matters",
+         "url": "https://marylandmatters.org/2026/10/07/us-wind-pulls-out-of-wind-turbine-manufacturing-at-sparrows-point/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "US Wind turned over its Tradepoint Atlantic lease at Sparrows Point to Anduril and shelved its planned tower and monopile plant, citing legal disputes and federal uncertainty over its Ocean City offshore wind project."
+      },
+      {
+       "title": "Offshore Substations for Gennaker Wind Farm En Route to Baltic Sea (VIDEO)",
+       "url": "https://offshorewind.biz/2026/10/09/offshore-substations-for-gennaker-wind-farm-en-route-to-baltic-sea-video",
+       "source": "offshoreWIND.biz",
+       "published": "2026-10-09T07:13:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "offshoreWIND.biz",
+         "url": "https://offshorewind.biz/2026/10/09/offshore-substations-for-gennaker-wind-farm-en-route-to-baltic-sea-video",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "The topsides and jackets for two offshore substations (OSS) that will connect the 927 MW Gennaker offshore wind farm to Germany’s onshore grid..."
       },
       {
        "title": "US Wind Gives Up Sparrows Point Site as Offshore Wind Project Faces Delays",
@@ -1066,6 +1077,25 @@
     "solar": {
      "brief": "ready",
      "candidates": [
+      {
+       "title": "Our place in the sun: Australia’s uptake of solar panels is already through the roof. How much higher could it get?",
+       "url": "https://www.theguardian.com/environment/2026/oct/11/australia-solar-panels-uptake-record-through-roof",
+       "source": "The Guardian Energy",
+       "published": "2026-10-10T19:00:08.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/environment/2026/oct/11/australia-solar-panels-uptake-record-through-roof",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Sunshine, government subsidies and high power prices are driving record solar installations Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here Zoom in on satellite pictures of the Melbourne postcode 3029 and one feature becomes glaringly obvio"
+      },
       {
        "title": "Austria: 43,300 applications for solar subsidies submitted in just ten minutes",
        "url": "https://www.pv-magazine.com/2026/10/10/austria-43300-applications-for-solar-subsidies-submitted-in-just-ten-minutes/",
@@ -1288,25 +1318,6 @@
        "stages": [],
        "via": null,
        "blurb": "Funds have been raised from private equity providers for two community solar developers that benefit several US states, in separate deals."
-      },
-      {
-       "title": "Dos Grados acquires 500MW-plus of solar projects from Akuo in Spain",
-       "url": "https://www.pv-tech.org/dos-grados-acquires-500mw-solar-projects-from-akuo-in-spain/",
-       "source": "PV Tech",
-       "published": "2026-10-09T11:33:26.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/dos-grados-acquires-500mw-solar-projects-from-akuo-in-spain/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Dos Grados has agreed to acquire three PV solar projects in Spain from Akuo, with a combined installed capacity of more than 500MW."
       }
      ]
     },
@@ -1772,6 +1783,28 @@
        "blurb": "Atmos Renewables expects Enerven to mobilize this month after nine months of preconstruction work, with commercial operation of Teebar targeted for late 2028 in Queensland, Australia."
       },
       {
+       "title": "South Korea picks solar, battery and EVs as key sectors in US$747 billion Green Industrial Plan",
+       "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
+       "source": "PV Tech",
+       "published": "2026-10-08T09:02:45.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/south-korea-unveils-us475-billion-green-transformation-industrial-strategy/",
+         "primary": false
+        },
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy."
+      },
+      {
        "title": "South Africa pursues 4.6GW of battery storage deployments in Integrated Resource Plan",
        "url": "https://www.energy-storage.news/south-africa-pursues-4-6gw-of-battery-storage-deployments-in-integrated-resource-plan/",
        "source": "Energy-Storage.news",
@@ -1847,28 +1880,6 @@
        ],
        "via": null,
        "blurb": "Electrifying low-temperature industrial heat and steam processes with renewables could reduce European Union natural gas consumption by 35 billion cubic metres-per-year, according to a report from the International Energy Agency (IEA)."
-      },
-      {
-       "title": "South Korea picks solar, battery and EVs as key sectors in US$747 billion Green Industrial Plan",
-       "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
-       "source": "PV Tech",
-       "published": "2026-10-08T09:02:45.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/south-korea-unveils-us475-billion-green-transformation-industrial-strategy/",
-         "primary": false
-        },
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy."
       },
       {
        "title": "Renault Kangoo E-Tech gains 52kW/h battery and 354km range",
@@ -1994,25 +2005,6 @@
        "blurb": "Today’s announcement will deliver more reliable American energy, strengthen the grid, lower costs, and meet growing power demand across the 13-state PJM Interconnection, L.L.C. region."
       },
       {
-       "title": "Latest Terrestrial Energy topical report submission could lead to faster deployment",
-       "url": "https://www.world-nuclear-news.org/articles/latest-terrestrial-energy-topical-report-submission-could-lead-to-faster-deployment",
-       "source": "World Nuclear News",
-       "published": "2026-10-09T14:11:55.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/latest-terrestrial-energy-topical-report-submission-could-lead-to-faster-deployment",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Approval of the Thermal and Electric Facility Topical Report submitted by the company to US regulators would mean that part of the Integrated Molten Salt Reactor plant would be classed as a conventional industrial, rather than nuclear, project, allowing it to be built and operate"
-      },
-      {
        "title": "Denver-Based Fusion Group Receives $30.5-Million Award from DOE",
        "url": "https://www.powermag.com/denver-based-fusion-group-receives-30-5-million-award-from-doe/",
        "source": "POWER Magazine",
@@ -2035,6 +2027,25 @@
        ],
        "via": null,
        "blurb": "Fusion energy company Xcimer Energy said it has finalized an agreement for up to $30.5 million in additional federal funding through the U.S. Department of Energy’s (DOE’s) Milestone-Based Fusion Development Program. The new DOE award, announced October 6, is for the program’s se"
+      },
+      {
+       "title": "Latest Terrestrial Energy topical report submission could lead to faster deployment",
+       "url": "https://www.world-nuclear-news.org/articles/latest-terrestrial-energy-topical-report-submission-could-lead-to-faster-deployment",
+       "source": "World Nuclear News",
+       "published": "2026-10-09T14:11:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/latest-terrestrial-energy-topical-report-submission-could-lead-to-faster-deployment",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Approval of the Thermal and Electric Facility Topical Report submitted by the company to US regulators would mean that part of the Integrated Molten Salt Reactor plant would be classed as a conventional industrial, rather than nuclear, project, allowing it to be built and operate"
       },
       {
        "title": "Reading List 10/10/26",
@@ -2168,6 +2179,11 @@
          "primary": false
         },
         {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
+         "primary": false
+        },
+        {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
          "primary": false
@@ -2200,33 +2216,6 @@
        "blurb": "US President Donald Trump's announcement that Russia will be supplying diesel to global markets has opened up a can of worms, says analysts. Washington agreed to lift sanctions on the Kremlin in a bid to bring down energy prices, especially for diesel, which is vital to many econ"
       },
       {
-       "title": "Trump says Russia to supply diesel to U.S. and global markets",
-       "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
-       "source": "The Japan Times",
-       "published": "2026-10-09T22:49:00.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/americas/trump-says-russia-to-supply-diesel-fuel-to-american-global-markets/4084012",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Prices for diesel are near a record and have put Trump's fellow Republicans at risk ahead of the Nov. 3 congressional elections."
-      },
-      {
        "title": "Zelenskyy furious as Trump announces deal to buy Russian diesel",
        "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
        "source": "The Guardian Business",
@@ -2240,7 +2229,7 @@
         },
         {
          "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/10/trump-says-ukraine-should-get-a-new-president-as-he-blames-zelenskyy-for-us-diesel-prices/",
+         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/10/trump-blames-zelenskyy-for-us-diesel-prices/",
          "primary": false
         }
        ],
@@ -2348,23 +2337,6 @@
        "blurb": "About 511,619 barrels a day of Gulf offshore oil (about 25%) and about 350 million cubic feet a day of gas (about 16%) were offline as of midday Oct. 7, per Marine Minerals Administration operator reports cited by Argus, up from 9.24% of oil a day earlier. Chevron and Shell evacuated staff from several facilities; the storm was forecast to become a hurricane Thursday."
       },
       {
-       "title": "USA Crude Oil Stocks Drop Over 3MM Barrels Week on Week",
-       "url": "https://www.rigzone.com/news/usa_crude_oil_stocks_drop_over_3mm_barrels_week_on_week-09-oct-2026-184816-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-09T14:04:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/usa_crude_oil_stocks_drop_over_3mm_barrels_week_on_week-09-oct-2026-184816-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Commercial crude oil stocks, not including the SPR, came in at 424.134 million barrels on October 2, the EIA revealed."
-      },
-      {
        "title": "Oil jumps 5% as Hormuz tanker attacks escalate, US Gulf hurricane shuts in production",
        "url": "https://www.ogj.com/general-interest/economics-markets/news/55410621/oil-jumps-5-as-hormuz-tanker-attacks-escalate-us-gulf-hurricane-shuts-in-production",
        "source": "Oil & Gas Journal",
@@ -2389,6 +2361,23 @@
        "blurb": "Market volatility increased as geopolitical tensions in the Middle East and hurricane preparations in the US Gulf led to production cuts and shipping disruptions, pushing Brent and WTI crude prices higher."
       },
       {
+       "title": "USA Crude Oil Stocks Drop Over 3MM Barrels Week on Week",
+       "url": "https://www.rigzone.com/news/usa_crude_oil_stocks_drop_over_3mm_barrels_week_on_week-09-oct-2026-184816-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-09T14:04:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/usa_crude_oil_stocks_drop_over_3mm_barrels_week_on_week-09-oct-2026-184816-article/?rss=true",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Commercial crude oil stocks, not including the SPR, came in at 424.134 million barrels on October 2, the EIA revealed."
+      },
+      {
        "title": "EIA raises Brent forecast to $105 a barrel for Q4 2026; gas-heated homes to spend less this winter",
        "url": "https://www.eia.gov/outlooks/steo/",
        "source": "US Energy Information Administration",
@@ -2404,6 +2393,23 @@
        "stages": [],
        "via": null,
        "blurb": "EIA's October Short-Term Energy Outlook puts Brent at $105 a barrel in Q4 2026, $14 above last month's forecast, falling to $84 in 2027. September US gasoline averaged $4.35 a gallon and diesel $6.29; Henry Hub gas is forecast at $3.16 per MMBtu in 2027, and homes heating with oil face prices up more than 30% from last winter."
+      },
+      {
+       "title": "Trump says Russia to supply diesel fuel to American, global markets",
+       "url": "https://www.aa.com.tr/en/americas/trump-says-russia-to-supply-diesel-fuel-to-american-global-markets/4084012",
+       "source": "Anadolu Agency Economy",
+       "published": "2026-10-09T19:25:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/americas/trump-says-russia-to-supply-diesel-fuel-to-american-global-markets/4084012",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "US president says diesel prices for Americans, world will be coming down as Russia will immediately supply more than 300,000 tons of diesel fuel to US, global markets"
       }
      ]
     },
@@ -2760,23 +2766,6 @@
        "blurb": "Firm will build 650-MW facility, called Swan Energy Center, for Clearway Energy on former strip mine site while giant NextEra Energy plans separate solar project on up to 3,000 acres also in Bates County."
       },
       {
-       "title": "Institutional equity funds community solar projects for Pivot Energy and Generate Capital",
-       "url": "https://www.pv-tech.org/institutional-equity-funds-community-solar-projects-for-pivot-energy-and-generate-capital/",
-       "source": "PV Tech",
-       "published": "2026-10-09T13:27:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/institutional-equity-funds-community-solar-projects-for-pivot-energy-and-generate-capital/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Funds have been raised from private equity providers for two community solar developers that benefit several US states, in separate deals."
-      },
-      {
        "title": "Toyo expands Texas solar module manufacturing facility to 2GW",
        "url": "https://www.pv-tech.org/toyo-expands-texas-solar-module-manufacturing-facility-2gw/",
        "source": "PV Tech",
@@ -2814,6 +2803,23 @@
        ],
        "via": null,
        "blurb": "PV Talk: Indosol's Manoj Pothireddy tells PV Tech Premium that opportunities remain for overseas wafer manufacturers to export to the US."
+      },
+      {
+       "title": "Institutional equity funds community solar projects for Pivot Energy and Generate Capital",
+       "url": "https://www.pv-tech.org/institutional-equity-funds-community-solar-projects-for-pivot-energy-and-generate-capital/",
+       "source": "PV Tech",
+       "published": "2026-10-09T13:27:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/institutional-equity-funds-community-solar-projects-for-pivot-energy-and-generate-capital/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Funds have been raised from private equity providers for two community solar developers that benefit several US states, in separate deals."
       },
       {
        "title": "Clearway Starts Construction of 650-MW Solar Facility in Missouri",
@@ -3015,6 +3021,25 @@
        "blurb": "On this episode of the This Week in Cleantech podcast, Benton Graham from Grist discusses the Massachusetts Bay Transportation Authority's plans to electrify Boston’s Fairmount Line with battery-powered trains."
       },
       {
+       "title": "Fit Energy Will Use Gas-Powered Fuel Cells For Pennsylvania Data Center Project",
+       "url": "https://www.powermag.com/fit-energy-will-use-gas-powered-fuel-cells-for-pennsylvania-data-center-project/",
+       "source": "POWER Magazine",
+       "published": "2026-10-06T16:42:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "POWER Magazine",
+         "url": "https://www.powermag.com/fit-energy-will-use-gas-powered-fuel-cells-for-pennsylvania-data-center-project/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Fit Energy, a developer of energy solutions for data center projects, has announced plans for a fuel cell power generation and data center project in Newport Township, Luzerne County, Pennsylvania. The project received township zoning approval for both uses in August of this year"
+      },
+      {
        "title": "How a reluctant Iowa farming county undid a ban on battery storage",
        "url": "https://www.canarymedia.com/articles/food-and-farms/iowa-farm-county-battery-storage",
        "source": "Canary Media",
@@ -3033,25 +3058,6 @@
        ],
        "via": null,
        "blurb": "The soil in northwest Iowa is so fertile it’s referred to as “black gold.” “It’s incredibly rich, wonderful topsoil from thousands of years of silty deposits from the Missouri River,” said Luke Seaberg, a researcher at Iowa State University’s extension program. So rich that some "
-      },
-      {
-       "title": "Fit Energy Will Use Gas-Powered Fuel Cells For Pennsylvania Data Center Project",
-       "url": "https://www.powermag.com/fit-energy-will-use-gas-powered-fuel-cells-for-pennsylvania-data-center-project/",
-       "source": "POWER Magazine",
-       "published": "2026-10-06T16:42:25.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "POWER Magazine",
-         "url": "https://www.powermag.com/fit-energy-will-use-gas-powered-fuel-cells-for-pennsylvania-data-center-project/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Fit Energy, a developer of energy solutions for data center projects, has announced plans for a fuel cell power generation and data center project in Newport Township, Luzerne County, Pennsylvania. The project received township zoning approval for both uses in August of this year"
       },
       {
        "title": "Law Firm Seward & Kissel Signs 171K-SF Renewal at One Battery Park Plaza",
@@ -3127,23 +3133,6 @@
        ],
        "via": null,
        "blurb": "Energy-Storage.news Premium speaks with Freeman Hall, CEO of second-life BESS firm B2U Storage Solutions."
-      },
-      {
-       "title": "Ethanol a 'promising' option for methanol-powered vessels, study says",
-       "url": "https://www.agri-pulse.com/articles/25356-ethanol-a-promising-for-methanol-powered-vessels-study-says",
-       "source": "Agri-Pulse",
-       "published": "2026-10-08T20:49:21.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Agri-Pulse",
-         "url": "https://www.agri-pulse.com/articles/25356-ethanol-a-promising-for-methanol-powered-vessels-study-says",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A new study finds ethanol is a \"promising drop-in option for methanol-fueled vessels.\""
       }
      ]
     }
@@ -3337,6 +3326,332 @@
     }
    }
   },
+  "au": {
+   "label": "Australia",
+   "level": "country",
+   "sources": {
+    "gas": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Australia to Release Final Plan to Keep More LNG at Home",
+       "url": "https://www.rigzone.com/news/wire/australia_to_release_final_plan_to_keep_more_lng_at_home-09-oct-2026-184815-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-09T20:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/australia_to_release_final_plan_to_keep_more_lng_at_home-09-oct-2026-184815-article/?rss=true",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Australia is set to unveil the final version of a controversial plan to force liquefied natural gas producers to reserve as much as a fifth of their output for local buyers."
+      }
+     ]
+    },
+    "coal": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Australia and Turkey criticised for hosting UN climate conference while embracing coal",
+       "url": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
+       "source": "The Guardian Energy",
+       "published": "2026-10-04T14:00:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Global campaign group 350.org urges Cop31 hosts to announce a coal phase-out date and national roadmaps to get off fossil fuels Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here The hosts of the next major United Nations climate conference, T"
+      },
+      {
+       "title": "‘Lawyers should be running to courts’ to stop coal approvals after landmark ruling, NSW MP says",
+       "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
+       "source": "The Guardian Energy",
+       "published": "2026-10-07T07:24:31.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "High court finding in favour of Hunter Valley community group sets precedent other environmentalists should follow, advocate says Get our new political email , free app or daily news podcast A landmark decision in Australia’s first climate change high court case has been describe"
+      },
+      {
+       "title": "Overseas, Albanese sees ‘the very definition of climate injustice’ – but at home, he still wants coal",
+       "url": "https://www.theguardian.com/environment/2026/oct/08/overseas-albanese-sees-the-very-definition-of-climate-injustice-but-at-home-he-still-wants-coal",
+       "source": "The Guardian Energy",
+       "published": "2026-10-07T14:00:52.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/environment/2026/oct/08/overseas-albanese-sees-the-very-definition-of-climate-injustice-but-at-home-he-still-wants-coal",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "It isn’t hard to see a contradiction between the PM’s message in Fiji and his opposition to legal action to stop a NSW coalmine Get our new political email , free app or daily news podcast There are unlikely to be many bigger moments in Australian community action on the climate "
+      }
+     ]
+    },
+    "wind": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Australia tops Vestas orders for Q3, with offshore absent",
+       "url": "https://www.windpowermonthly.com/article/1971428/australia-tops-vestas-orders-q3-offshore-absent",
+       "source": "Windpower Monthly",
+       "published": "2026-10-01T10:10:28.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Windpower Monthly",
+         "url": "https://www.windpowermonthly.com/article/1971428/australia-tops-vestas-orders-q3-offshore-absent",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Australia represented the largest single destination for new wind turbine orders for Vestas in the third quarter, while its updated order book showed no new deals for offshore turbines during the period."
+      }
+     ]
+    },
+    "solar": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Our place in the sun: Australia’s uptake of solar panels is already through the roof. How much higher could it get?",
+       "url": "https://www.theguardian.com/environment/2026/oct/11/australia-solar-panels-uptake-record-through-roof",
+       "source": "The Guardian Energy",
+       "published": "2026-10-10T19:00:08.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/environment/2026/oct/11/australia-solar-panels-uptake-record-through-roof",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Sunshine, government subsidies and high power prices are driving record solar installations Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here Zoom in on satellite pictures of the Melbourne postcode 3029 and one feature becomes glaringly obvio"
+      },
+      {
+       "title": "Australia backs goal of 150 million new rooftop solar systems globally by 2030",
+       "url": "https://www.pv-magazine.com/2026/10/10/australia-backs-goal-of-150-million-new-rooftop-solar-systems-globally-by-2030/",
+       "source": "pv magazine",
+       "published": "2026-10-10T05:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "pv magazine",
+         "url": "https://www.pv-magazine.com/2026/10/10/australia-backs-goal-of-150-million-new-rooftop-solar-systems-globally-by-2030/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Australia has endorsed a global plan to double the number of homes in the world with rooftop solar, from 150 to 300 million by 2030 via the Global Rooftop Solar Declaration announced at the 2026 Pacific Pre-COP meeting in Fiji. The post Australia backs goal of 150 million new roo"
+      },
+      {
+       "title": "Australia backs goal to double global residential rooftop solar installations by 2030",
+       "url": "https://www.pv-tech.org/australia-backs-goal-double-global-residential-rooftop-solar-installations-2030/",
+       "source": "PV Tech",
+       "published": "2026-10-09T09:03:48.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/australia-backs-goal-double-global-residential-rooftop-solar-installations-2030/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Australia has endorsed a global plan to double the number of homes with rooftop solar PV by 2030, becoming the first country to do so."
+      },
+      {
+       "title": "LGI to buy 42MW of operational solar PV plants in Australia and lifts pipeline target to 120MW",
+       "url": "https://www.pv-tech.org/lgi-to-buy-42mw-of-operational-solar-pv-plants-in-australia-and-lifts-pipeline-target-to-120mw/",
+       "source": "PV Tech",
+       "published": "2026-10-09T00:20:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/lgi-to-buy-42mw-of-operational-solar-pv-plants-in-australia-and-lifts-pipeline-target-to-120mw/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "LGI, an Australian landfill gas and renewables company, has agreed to buy two operating solar PV power plants in Queensland."
+      }
+     ]
+    },
+    "emerging": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Enerven to Build 400-MW Australian Battery Storage Project",
+       "url": "https://www.enr.com/articles/63826-enerven-to-build-400-mw-australian-battery-storage-project",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-09T15:34:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63826-enerven-to-build-400-mw-australian-battery-storage-project",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Atmos Renewables expects Enerven to mobilize this month after nine months of preconstruction work, with commercial operation of Teebar targeted for late 2028 in Queensland, Australia."
+      },
+      {
+       "title": "Mint Renewables wins planning approval for 800MWh battery storage system in Western Australia",
+       "url": "https://www.energy-storage.news/mint-renewables-wins-planning-approval-for-800mwh-battery-storage-system-in-western-australia/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-09T03:21:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/mint-renewables-wins-planning-approval-for-800mwh-battery-storage-system-in-western-australia/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Mint Renewables has received planning approval for an 800MWh battery energy storage system (BESS) near Kojonup in Western Australia."
+      },
+      {
+       "title": "Tasmania’s ‘Battery of the Nation’ plan moves closer as Marinus Link holds sod turn in Australia",
+       "url": "https://www.energy-storage.news/tasmanias-battery-of-the-nation-plan-moves-closer-as-marinus-link-holds-sod-turn-in-australia/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-09T00:12:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/tasmanias-battery-of-the-nation-plan-moves-closer-as-marinus-link-holds-sod-turn-in-australia/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Marinus Link held a sod turning ceremony in North West Tasmania to mark the start of expanded construction."
+      },
+      {
+       "title": "Australia: Eku Energy locks community deals for 2.76GWh Queensland BESS duo as Valo wins 1.6GWh contract",
+       "url": "https://www.energy-storage.news/australia-eku-energy-locks-community-deals-for-2-76gwh-queensland-bess-duo-as-valo-wins-1-6gwh-contract/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-08T03:23:27.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/australia-eku-energy-locks-community-deals-for-2-76gwh-queensland-bess-duo-as-valo-wins-1-6gwh-contract/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Eku Energy has signed CBAs with Gladstone Regional Council and Western Downs Regional Council for two BESS projects in Queensland."
+      }
+     ]
+    }
+   }
+  },
+  "au-vi": {
+   "label": "Victoria",
+   "level": "admin1",
+   "sources": {
+    "solar": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Our place in the sun: Australia’s uptake of solar panels is already through the roof. How much higher could it get?",
+       "url": "https://www.theguardian.com/environment/2026/oct/11/australia-solar-panels-uptake-record-through-roof",
+       "source": "The Guardian Energy",
+       "published": "2026-10-10T19:00:08.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/environment/2026/oct/11/australia-solar-panels-uptake-record-through-roof",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Sunshine, government subsidies and high power prices are driving record solar installations Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here Zoom in on satellite pictures of the Melbourne postcode 3029 and one feature becomes glaringly obvio"
+      }
+     ]
+    }
+   }
+  },
+  "au-city-melbourne": {
+   "label": "Melbourne",
+   "level": "city",
+   "sources": {
+    "solar": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Our place in the sun: Australia’s uptake of solar panels is already through the roof. How much higher could it get?",
+       "url": "https://www.theguardian.com/environment/2026/oct/11/australia-solar-panels-uptake-record-through-roof",
+       "source": "The Guardian Energy",
+       "published": "2026-10-10T19:00:08.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Guardian Energy",
+         "url": "https://www.theguardian.com/environment/2026/oct/11/australia-solar-panels-uptake-record-through-roof",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Sunshine, government subsidies and high power prices are driving record solar installations Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here Zoom in on satellite pictures of the Melbourne postcode 3029 and one feature becomes glaringly obvio"
+      }
+     ]
+    }
+   }
+  },
   "za": {
    "label": "South Africa",
    "level": "country",
@@ -3454,6 +3769,11 @@
         {
          "name": "The Local Germany",
          "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
+         "primary": false
+        },
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
          "primary": false
         },
         {
@@ -4455,356 +4775,6 @@
     }
    }
   },
-  "au": {
-   "label": "Australia",
-   "level": "country",
-   "sources": {
-    "gas": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Australia to Release Final Plan to Keep More LNG at Home",
-       "url": "https://www.rigzone.com/news/wire/australia_to_release_final_plan_to_keep_more_lng_at_home-09-oct-2026-184815-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-09T20:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/australia_to_release_final_plan_to_keep_more_lng_at_home-09-oct-2026-184815-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Australia is set to unveil the final version of a controversial plan to force liquefied natural gas producers to reserve as much as a fifth of their output for local buyers."
-      }
-     ]
-    },
-    "coal": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Australia and Turkey criticised for hosting UN climate conference while embracing coal",
-       "url": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
-       "source": "The Guardian Energy",
-       "published": "2026-10-04T14:00:32.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Global campaign group 350.org urges Cop31 hosts to announce a coal phase-out date and national roadmaps to get off fossil fuels Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here The hosts of the next major United Nations climate conference, T"
-      },
-      {
-       "title": "‘Lawyers should be running to courts’ to stop coal approvals after landmark ruling, NSW MP says",
-       "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
-       "source": "The Guardian Energy",
-       "published": "2026-10-07T07:24:31.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "High court finding in favour of Hunter Valley community group sets precedent other environmentalists should follow, advocate says Get our new political email , free app or daily news podcast A landmark decision in Australia’s first climate change high court case has been describe"
-      },
-      {
-       "title": "Overseas, Albanese sees ‘the very definition of climate injustice’ – but at home, he still wants coal",
-       "url": "https://www.theguardian.com/environment/2026/oct/08/overseas-albanese-sees-the-very-definition-of-climate-injustice-but-at-home-he-still-wants-coal",
-       "source": "The Guardian Energy",
-       "published": "2026-10-07T14:00:52.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Guardian Energy",
-         "url": "https://www.theguardian.com/environment/2026/oct/08/overseas-albanese-sees-the-very-definition-of-climate-injustice-but-at-home-he-still-wants-coal",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "It isn’t hard to see a contradiction between the PM’s message in Fiji and his opposition to legal action to stop a NSW coalmine Get our new political email , free app or daily news podcast There are unlikely to be many bigger moments in Australian community action on the climate "
-      }
-     ]
-    },
-    "wind": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Australia tops Vestas orders for Q3, with offshore absent",
-       "url": "https://www.windpowermonthly.com/article/1971428/australia-tops-vestas-orders-q3-offshore-absent",
-       "source": "Windpower Monthly",
-       "published": "2026-10-01T10:10:28.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Windpower Monthly",
-         "url": "https://www.windpowermonthly.com/article/1971428/australia-tops-vestas-orders-q3-offshore-absent",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Australia represented the largest single destination for new wind turbine orders for Vestas in the third quarter, while its updated order book showed no new deals for offshore turbines during the period."
-      }
-     ]
-    },
-    "solar": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Australia backs goal of 150 million new rooftop solar systems globally by 2030",
-       "url": "https://www.pv-magazine.com/2026/10/10/australia-backs-goal-of-150-million-new-rooftop-solar-systems-globally-by-2030/",
-       "source": "pv magazine",
-       "published": "2026-10-10T05:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "pv magazine",
-         "url": "https://www.pv-magazine.com/2026/10/10/australia-backs-goal-of-150-million-new-rooftop-solar-systems-globally-by-2030/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Australia has endorsed a global plan to double the number of homes in the world with rooftop solar, from 150 to 300 million by 2030 via the Global Rooftop Solar Declaration announced at the 2026 Pacific Pre-COP meeting in Fiji. The post Australia backs goal of 150 million new roo"
-      },
-      {
-       "title": "Australia backs goal to double global residential rooftop solar installations by 2030",
-       "url": "https://www.pv-tech.org/australia-backs-goal-double-global-residential-rooftop-solar-installations-2030/",
-       "source": "PV Tech",
-       "published": "2026-10-09T09:03:48.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/australia-backs-goal-double-global-residential-rooftop-solar-installations-2030/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Australia has endorsed a global plan to double the number of homes with rooftop solar PV by 2030, becoming the first country to do so."
-      },
-      {
-       "title": "LGI to buy 42MW of operational solar PV plants in Australia and lifts pipeline target to 120MW",
-       "url": "https://www.pv-tech.org/lgi-to-buy-42mw-of-operational-solar-pv-plants-in-australia-and-lifts-pipeline-target-to-120mw/",
-       "source": "PV Tech",
-       "published": "2026-10-09T00:20:25.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/lgi-to-buy-42mw-of-operational-solar-pv-plants-in-australia-and-lifts-pipeline-target-to-120mw/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "LGI, an Australian landfill gas and renewables company, has agreed to buy two operating solar PV power plants in Queensland."
-      }
-     ]
-    },
-    "emerging": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Enerven to Build 400-MW Australian Battery Storage Project",
-       "url": "https://www.enr.com/articles/63826-enerven-to-build-400-mw-australian-battery-storage-project",
-       "source": "ENR (Engineering News-Record)",
-       "published": "2026-10-09T15:34:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ENR (Engineering News-Record)",
-         "url": "https://www.enr.com/articles/63826-enerven-to-build-400-mw-australian-battery-storage-project",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Atmos Renewables expects Enerven to mobilize this month after nine months of preconstruction work, with commercial operation of Teebar targeted for late 2028 in Queensland, Australia."
-      },
-      {
-       "title": "Mint Renewables wins planning approval for 800MWh battery storage system in Western Australia",
-       "url": "https://www.energy-storage.news/mint-renewables-wins-planning-approval-for-800mwh-battery-storage-system-in-western-australia/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-09T03:21:32.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/mint-renewables-wins-planning-approval-for-800mwh-battery-storage-system-in-western-australia/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Mint Renewables has received planning approval for an 800MWh battery energy storage system (BESS) near Kojonup in Western Australia."
-      },
-      {
-       "title": "Tasmania’s ‘Battery of the Nation’ plan moves closer as Marinus Link holds sod turn in Australia",
-       "url": "https://www.energy-storage.news/tasmanias-battery-of-the-nation-plan-moves-closer-as-marinus-link-holds-sod-turn-in-australia/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-09T00:12:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/tasmanias-battery-of-the-nation-plan-moves-closer-as-marinus-link-holds-sod-turn-in-australia/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Marinus Link held a sod turning ceremony in North West Tasmania to mark the start of expanded construction."
-      },
-      {
-       "title": "Australia: Eku Energy locks community deals for 2.76GWh Queensland BESS duo as Valo wins 1.6GWh contract",
-       "url": "https://www.energy-storage.news/australia-eku-energy-locks-community-deals-for-2-76gwh-queensland-bess-duo-as-valo-wins-1-6gwh-contract/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-08T03:23:27.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/australia-eku-energy-locks-community-deals-for-2-76gwh-queensland-bess-duo-as-valo-wins-1-6gwh-contract/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Eku Energy has signed CBAs with Gladstone Regional Council and Western Downs Regional Council for two BESS projects in Queensland."
-      }
-     ]
-    }
-   }
-  },
-  "au-ql": {
-   "label": "Queensland",
-   "level": "admin1",
-   "sources": {
-    "solar": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "LGI to buy 42MW of operational solar PV plants in Australia and lifts pipeline target to 120MW",
-       "url": "https://www.pv-tech.org/lgi-to-buy-42mw-of-operational-solar-pv-plants-in-australia-and-lifts-pipeline-target-to-120mw/",
-       "source": "PV Tech",
-       "published": "2026-10-09T00:20:25.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "PV Tech",
-         "url": "https://www.pv-tech.org/lgi-to-buy-42mw-of-operational-solar-pv-plants-in-australia-and-lifts-pipeline-target-to-120mw/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "LGI, an Australian landfill gas and renewables company, has agreed to buy two operating solar PV power plants in Queensland."
-      }
-     ]
-    },
-    "emerging": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Enerven to Build 400-MW Australian Battery Storage Project",
-       "url": "https://www.enr.com/articles/63826-enerven-to-build-400-mw-australian-battery-storage-project",
-       "source": "ENR (Engineering News-Record)",
-       "published": "2026-10-09T15:34:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ENR (Engineering News-Record)",
-         "url": "https://www.enr.com/articles/63826-enerven-to-build-400-mw-australian-battery-storage-project",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation",
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Atmos Renewables expects Enerven to mobilize this month after nine months of preconstruction work, with commercial operation of Teebar targeted for late 2028 in Queensland, Australia."
-      },
-      {
-       "title": "Australia: Eku Energy locks community deals for 2.76GWh Queensland BESS duo as Valo wins 1.6GWh contract",
-       "url": "https://www.energy-storage.news/australia-eku-energy-locks-community-deals-for-2-76gwh-queensland-bess-duo-as-valo-wins-1-6gwh-contract/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-08T03:23:27.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/australia-eku-energy-locks-community-deals-for-2-76gwh-queensland-bess-duo-as-valo-wins-1-6gwh-contract/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Eku Energy has signed CBAs with Gladstone Regional Council and Western Downs Regional Council for two BESS projects in Queensland."
-      }
-     ]
-    }
-   }
-  },
-  "au-ts": {
-   "label": "Tasmania",
-   "level": "admin1",
-   "sources": {
-    "emerging": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Tasmania’s ‘Battery of the Nation’ plan moves closer as Marinus Link holds sod turn in Australia",
-       "url": "https://www.energy-storage.news/tasmanias-battery-of-the-nation-plan-moves-closer-as-marinus-link-holds-sod-turn-in-australia/",
-       "source": "Energy-Storage.news",
-       "published": "2026-10-09T00:12:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Energy-Storage.news",
-         "url": "https://www.energy-storage.news/tasmanias-battery-of-the-nation-plan-moves-closer-as-marinus-link-holds-sod-turn-in-australia/",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "generation"
-       ],
-       "via": null,
-       "blurb": "Marinus Link held a sod turning ceremony in North West Tasmania to mark the start of expanded construction."
-      }
-     ]
-    }
-   }
-  },
   "us-ma": {
    "label": "Massachusetts",
    "level": "admin1",
@@ -4903,6 +4873,79 @@
        ],
        "via": null,
        "blurb": "State-owned LNG terminal operator Singapore LNG has officially kicked off the construction of a new LNG jetty, which will support the further growth of LNG bunkering in Singapore."
+      }
+     ]
+    }
+   }
+  },
+  "au-ql": {
+   "label": "Queensland",
+   "level": "admin1",
+   "sources": {
+    "solar": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "LGI to buy 42MW of operational solar PV plants in Australia and lifts pipeline target to 120MW",
+       "url": "https://www.pv-tech.org/lgi-to-buy-42mw-of-operational-solar-pv-plants-in-australia-and-lifts-pipeline-target-to-120mw/",
+       "source": "PV Tech",
+       "published": "2026-10-09T00:20:25.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "PV Tech",
+         "url": "https://www.pv-tech.org/lgi-to-buy-42mw-of-operational-solar-pv-plants-in-australia-and-lifts-pipeline-target-to-120mw/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "LGI, an Australian landfill gas and renewables company, has agreed to buy two operating solar PV power plants in Queensland."
+      }
+     ]
+    },
+    "emerging": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Enerven to Build 400-MW Australian Battery Storage Project",
+       "url": "https://www.enr.com/articles/63826-enerven-to-build-400-mw-australian-battery-storage-project",
+       "source": "ENR (Engineering News-Record)",
+       "published": "2026-10-09T15:34:53.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ENR (Engineering News-Record)",
+         "url": "https://www.enr.com/articles/63826-enerven-to-build-400-mw-australian-battery-storage-project",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation",
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Atmos Renewables expects Enerven to mobilize this month after nine months of preconstruction work, with commercial operation of Teebar targeted for late 2028 in Queensland, Australia."
+      },
+      {
+       "title": "Australia: Eku Energy locks community deals for 2.76GWh Queensland BESS duo as Valo wins 1.6GWh contract",
+       "url": "https://www.energy-storage.news/australia-eku-energy-locks-community-deals-for-2-76gwh-queensland-bess-duo-as-valo-wins-1-6gwh-contract/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-08T03:23:27.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/australia-eku-energy-locks-community-deals-for-2-76gwh-queensland-bess-duo-as-valo-wins-1-6gwh-contract/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Eku Energy has signed CBAs with Gladstone Regional Council and Western Downs Regional Council for two BESS projects in Queensland."
       }
      ]
     }
@@ -5141,10 +5184,10 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Russian attacks kill at least 12 in Ukraine after Trump-Putin diesel deal",
-       "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-10T10:22:47.000Z",
+       "title": "Russia partially lifts ban on diesel exports after Trump-Putin deal",
+       "url": "https://kyivindependent.com/russia-partially-lifts-ban-on-diesel-exports-after-trump-putin-deal/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T19:26:41.000Z",
        "verification": "multiple",
        "outlets": [
         {
@@ -5168,6 +5211,11 @@
          "primary": false
         },
         {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
+         "primary": false
+        },
+        {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
          "primary": false
@@ -5178,9 +5226,11 @@
          "primary": false
         }
        ],
-       "stages": [],
+       "stages": [
+        "grid"
+       ],
        "via": null,
-       "blurb": "The strikes came a day after US President Donald Trump announced a deal to buy Russian diesel that Kyiv warned would help fund Moscow's war in Ukraine."
+       "blurb": "Effective Oct. 10, the Russian government will permit the sale of 500,000 tons of diesel to foreign markets. Moscow previously banned diesel exports in July in response to Ukrainian strikes."
       },
       {
        "title": "Zelenskyy furious as Trump announces deal to buy Russian diesel",
@@ -5196,7 +5246,7 @@
         },
         {
          "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/10/trump-says-ukraine-should-get-a-new-president-as-he-blames-zelenskyy-for-us-diesel-prices/",
+         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/10/trump-blames-zelenskyy-for-us-diesel-prices/",
          "primary": false
         }
        ],
@@ -5242,33 +5292,6 @@
        "blurb": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\"."
       },
       {
-       "title": "Trump says Russia to supply diesel to U.S. and global markets",
-       "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
-       "source": "The Japan Times",
-       "published": "2026-10-09T22:49:00.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/americas/trump-says-russia-to-supply-diesel-fuel-to-american-global-markets/4084012",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Prices for diesel are near a record and have put Trump's fellow Republicans at risk ahead of the Nov. 3 congressional elections."
-      },
-      {
        "title": "Russian Attack on Ukrainian City Kills 20, a Day After Trump Eases Diesel Sanctions on Moscow",
        "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
        "source": "The Moscow Times",
@@ -5284,42 +5307,6 @@
        "stages": [],
        "via": null,
        "blurb": "The Ukrainian President offered some of his sharpest criticism of Donald Trump after this week's third mass-casualty Russian attack."
-      },
-      {
-       "title": "Russia's Oil Product Exports Rise",
-       "url": "https://www.rigzone.com/news/wire/russias_oil_product_exports_rise-10-oct-2026-184813-article/?rss=true",
-       "source": "Rigzone",
-       "published": "2026-10-10T12:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Rigzone",
-         "url": "https://www.rigzone.com/news/wire/russias_oil_product_exports_rise-10-oct-2026-184813-article/?rss=true",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Russia's oil product shipments climbed to a three-month high in September."
-      },
-      {
-       "title": "US-Russia energy deal opens up diesel can of worms",
-       "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
-       "source": "The National (UAE)",
-       "published": "2026-10-10T09:59:59.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "US President Donald Trump's announcement that Russia will be supplying diesel to global markets has opened up a can of worms, says analysts. Washington agreed to lift sanctions on the Kremlin in a bid to bring down energy prices, especially for diesel, which is vital to many econ"
       },
       {
        "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
@@ -5360,6 +5347,42 @@
        "blurb": "President Trump said Russia had agreed to ship potentially millions of tons of diesel fuel in the coming months. But the amounts would be small relative to global demand."
       },
       {
+       "title": "US-Russia energy deal opens up diesel can of worms",
+       "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
+       "source": "The National (UAE)",
+       "published": "2026-10-10T09:59:59.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "US President Donald Trump's announcement that Russia will be supplying diesel to global markets has opened up a can of worms, says analysts. Washington agreed to lift sanctions on the Kremlin in a bid to bring down energy prices, especially for diesel, which is vital to many econ"
+      },
+      {
+       "title": "Russia's Oil Product Exports Rise",
+       "url": "https://www.rigzone.com/news/wire/russias_oil_product_exports_rise-10-oct-2026-184813-article/?rss=true",
+       "source": "Rigzone",
+       "published": "2026-10-10T12:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Rigzone",
+         "url": "https://www.rigzone.com/news/wire/russias_oil_product_exports_rise-10-oct-2026-184813-article/?rss=true",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Russia's oil product shipments climbed to a three-month high in September."
+      },
+      {
        "title": "Germany Sticks to Russia Sanctions After Trump Diesel Announcement",
        "url": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940",
        "source": "The Moscow Times",
@@ -5375,6 +5398,23 @@
        "stages": [],
        "via": null,
        "blurb": "Trump said on Friday that Russia had agreed to supply diesel to the global market to ease fuel prices. Kyiv's allies are not supportive."
+      },
+      {
+       "title": "Trump says Russia to supply diesel fuel to American, global markets",
+       "url": "https://www.aa.com.tr/en/americas/trump-says-russia-to-supply-diesel-fuel-to-american-global-markets/4084012",
+       "source": "Anadolu Agency Economy",
+       "published": "2026-10-09T19:25:38.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/americas/trump-says-russia-to-supply-diesel-fuel-to-american-global-markets/4084012",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "US president says diesel prices for Americans, world will be coming down as Russia will immediately supply more than 300,000 tons of diesel fuel to US, global markets"
       },
       {
        "title": "Rosneft Recruits Anti-Aircraft Gun Crews to Defend Samara Refinery Against Ukrainian Drones – Vyorstka",
@@ -6145,6 +6185,36 @@
        ],
        "via": null,
        "blurb": "Verlume, a UK-headquartered subsea batteries and power management systems specialist, has put its 500 kWh modular subsea energy storage system to..."
+      }
+     ]
+    }
+   }
+  },
+  "au-ts": {
+   "label": "Tasmania",
+   "level": "admin1",
+   "sources": {
+    "emerging": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Tasmania’s ‘Battery of the Nation’ plan moves closer as Marinus Link holds sod turn in Australia",
+       "url": "https://www.energy-storage.news/tasmanias-battery-of-the-nation-plan-moves-closer-as-marinus-link-holds-sod-turn-in-australia/",
+       "source": "Energy-Storage.news",
+       "published": "2026-10-09T00:12:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Energy-Storage.news",
+         "url": "https://www.energy-storage.news/tasmanias-battery-of-the-nation-plan-moves-closer-as-marinus-link-holds-sod-turn-in-australia/",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "generation"
+       ],
+       "via": null,
+       "blurb": "Marinus Link held a sod turning ceremony in North West Tasmania to mark the start of expanded construction."
       }
      ]
     }
@@ -7547,6 +7617,11 @@
          "primary": false
         },
         {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
+         "primary": false
+        },
+        {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
          "primary": false
@@ -7582,6 +7657,28 @@
        "blurb": "\"I think it's time for Ukraine to get a new president,\" U.S. President Donald Trump said when questioned about his deal to ease sanctions against Russia in exchange for diesel."
       },
       {
+       "title": "Zelenskyy furious as Trump announces deal to buy Russian diesel",
+       "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+       "source": "The Guardian Business",
+       "published": "2026-10-10T10:09:46.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+         "primary": false
+        },
+        {
+         "name": "BNN Bloomberg",
+         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/10/trump-blames-zelenskyy-for-us-diesel-prices/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "US president says agreement needed to lower fuel prices, but move likely to create fresh crisis with Ukraine and Nato allies Donald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years o"
+      },
+      {
        "title": "Russian Attack on Ukrainian City Kills 20, a Day After Trump Eases Diesel Sanctions on Moscow",
        "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
        "source": "The Moscow Times",
@@ -7599,28 +7696,6 @@
        "blurb": "The Ukrainian President offered some of his sharpest criticism of Donald Trump after this week's third mass-casualty Russian attack."
       },
       {
-       "title": "Zelenskyy furious as Trump announces deal to buy Russian diesel",
-       "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
-       "source": "The Guardian Business",
-       "published": "2026-10-10T10:09:46.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Guardian Business",
-         "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
-         "primary": false
-        },
-        {
-         "name": "BNN Bloomberg",
-         "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/10/trump-says-ukraine-should-get-a-new-president-as-he-blames-zelenskyy-for-us-diesel-prices/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "US president says agreement needed to lower fuel prices, but move likely to create fresh crisis with Ukraine and Nato allies Donald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years o"
-      },
-      {
        "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
        "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
        "source": "BBC News Business",
@@ -7636,23 +7711,6 @@
        "stages": [],
        "via": null,
        "blurb": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\"."
-      },
-      {
-       "title": "Germany Sticks to Russia Sanctions After Trump Diesel Announcement",
-       "url": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940",
-       "source": "The Moscow Times",
-       "published": "2026-10-10T11:26:07.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Trump said on Friday that Russia had agreed to supply diesel to the global market to ease fuel prices. Kyiv's allies are not supportive."
       },
       {
        "title": "Ukraine Says It Attacked 4th Russian Refinery This Week",
@@ -7674,6 +7732,23 @@
        "blurb": "Ukraine said it attacked Lukoil PJSC's Ukhta oil-processing plant, the fourth Russian refinery it's hit so far this week."
       },
       {
+       "title": "Germany Sticks to Russia Sanctions After Trump Diesel Announcement",
+       "url": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940",
+       "source": "The Moscow Times",
+       "published": "2026-10-10T11:26:07.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Trump said on Friday that Russia had agreed to supply diesel to the global market to ease fuel prices. Kyiv's allies are not supportive."
+      },
+      {
        "title": "Rosneft Recruits Anti-Aircraft Gun Crews to Defend Samara Refinery Against Ukrainian Drones – Vyorstka",
        "url": "https://www.themoscowtimes.com/2026/10/09/rosneft-recruits-anti-aircraft-gun-crews-to-defend-samara-refinery-against-ukrainian-drones-vyorstka-a93932",
        "source": "The Moscow Times",
@@ -7691,25 +7766,6 @@
        ],
        "via": null,
        "blurb": "The Kuibyshev refinery, on the Volga River, has been repeatedly targeted since Russia launched its full-scale invasion of Ukraine in 2022."
-      },
-      {
-       "title": "‘Obvious weakness’: Zelenskyy criticizes Trump-Putin diesel deal over lack of de-escalation",
-       "url": "https://www.aa.com.tr/en/eurasia/-obvious-weakness-zelenskyy-criticizes-trump-putin-diesel-deal-over-lack-of-de-escalation/4084075",
-       "source": "Anadolu Agency Economy",
-       "published": "2026-10-09T20:38:02.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/eurasia/-obvious-weakness-zelenskyy-criticizes-trump-putin-diesel-deal-over-lack-of-de-escalation/4084075",
-         "primary": false
-        }
-       ],
-       "stages": [
-        "grid"
-       ],
-       "via": null,
-       "blurb": "Ukrainian president warns easing sanctions to allow Russian petroleum exports would prolong war"
       }
      ]
     }
@@ -8747,6 +8803,160 @@
     }
    }
   },
+  "ru-ms-2": {
+   "label": "Moskva",
+   "level": "admin1",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Russia partially lifts ban on diesel exports after Trump-Putin deal",
+       "url": "https://kyivindependent.com/russia-partially-lifts-ban-on-diesel-exports-after-trump-putin-deal/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T19:26:41.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine",
+         "primary": false
+        },
+        {
+         "name": "MercoPress",
+         "url": "https://en.mercopress.com/2026/10/09/trump-says-russia-will-supply-millions-of-tonnes-of-diesel-as-us-eases-sanctions-on-moscow?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
+         "primary": false
+        },
+        {
+         "name": "The Local Germany",
+         "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
+         "primary": false
+        },
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/trump-putin-russia-diesel-deal",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Effective Oct. 10, the Russian government will permit the sale of 500,000 tons of diesel to foreign markets. Moscow previously banned diesel exports in July in response to Ukrainian strikes."
+      },
+      {
+       "title": "Russian Attack on Ukrainian City Kills 20, a Day After Trump Eases Diesel Sanctions on Moscow",
+       "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
+       "source": "The Moscow Times",
+       "published": "2026-10-10T17:26:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Ukrainian President offered some of his sharpest criticism of Donald Trump after this week's third mass-casualty Russian attack."
+      }
+     ]
+    }
+   }
+  },
+  "ru-city-moscow": {
+   "label": "Moscow",
+   "level": "city",
+   "sources": {
+    "oil": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Russia partially lifts ban on diesel exports after Trump-Putin deal",
+       "url": "https://kyivindependent.com/russia-partially-lifts-ban-on-diesel-exports-after-trump-putin-deal/",
+       "source": "The Kyiv Independent",
+       "published": "2026-10-10T19:26:41.000Z",
+       "verification": "multiple",
+       "outlets": [
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine",
+         "primary": false
+        },
+        {
+         "name": "MercoPress",
+         "url": "https://en.mercopress.com/2026/10/09/trump-says-russia-will-supply-millions-of-tonnes-of-diesel-as-us-eases-sanctions-on-moscow?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
+         "primary": false
+        },
+        {
+         "name": "The Local Germany",
+         "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
+         "primary": false
+        },
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
+         "primary": false
+        },
+        {
+         "name": "Anadolu Agency Economy",
+         "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
+         "primary": false
+        },
+        {
+         "name": "Transport Topics",
+         "url": "https://www.ttnews.com/articles/trump-putin-russia-diesel-deal",
+         "primary": false
+        }
+       ],
+       "stages": [
+        "grid"
+       ],
+       "via": null,
+       "blurb": "Effective Oct. 10, the Russian government will permit the sale of 500,000 tons of diesel to foreign markets. Moscow previously banned diesel exports in July in response to Ukrainian strikes."
+      },
+      {
+       "title": "Russian Attack on Ukrainian City Kills 20, a Day After Trump Eases Diesel Sanctions on Moscow",
+       "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
+       "source": "The Moscow Times",
+       "published": "2026-10-10T17:26:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Moscow Times",
+         "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Ukrainian President offered some of his sharpest criticism of Donald Trump after this week's third mass-casualty Russian attack."
+      }
+     ]
+    }
+   }
+  },
   "nl-nh": {
    "label": "Noord-Holland",
    "level": "admin1",
@@ -9293,146 +9503,6 @@
     }
    }
   },
-  "ru-ms-2": {
-   "label": "Moskva",
-   "level": "admin1",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Russian attacks kill at least 12 in Ukraine after Trump-Putin diesel deal",
-       "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-10T10:22:47.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "RFI English",
-         "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine",
-         "primary": false
-        },
-        {
-         "name": "MercoPress",
-         "url": "https://en.mercopress.com/2026/10/09/trump-says-russia-will-supply-millions-of-tonnes-of-diesel-as-us-eases-sanctions-on-moscow?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
-         "primary": false
-        },
-        {
-         "name": "The Local Germany",
-         "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
-         "primary": false
-        },
-        {
-         "name": "Transport Topics",
-         "url": "https://www.ttnews.com/articles/trump-putin-russia-diesel-deal",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The strikes came a day after US President Donald Trump announced a deal to buy Russian diesel that Kyiv warned would help fund Moscow's war in Ukraine."
-      },
-      {
-       "title": "Russian Attack on Ukrainian City Kills 20, a Day After Trump Eases Diesel Sanctions on Moscow",
-       "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
-       "source": "The Moscow Times",
-       "published": "2026-10-10T17:26:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Ukrainian President offered some of his sharpest criticism of Donald Trump after this week's third mass-casualty Russian attack."
-      }
-     ]
-    }
-   }
-  },
-  "ru-city-moscow": {
-   "label": "Moscow",
-   "level": "city",
-   "sources": {
-    "oil": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Russian attacks kill at least 12 in Ukraine after Trump-Putin diesel deal",
-       "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-10T10:22:47.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "RFI English",
-         "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine",
-         "primary": false
-        },
-        {
-         "name": "MercoPress",
-         "url": "https://en.mercopress.com/2026/10/09/trump-says-russia-will-supply-millions-of-tonnes-of-diesel-as-us-eases-sanctions-on-moscow?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-10/russian-air-strike-ukraine-after-trump-putin-diesel-deal/107251886",
-         "primary": false
-        },
-        {
-         "name": "The Local Germany",
-         "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
-         "primary": false
-        },
-        {
-         "name": "Transport Topics",
-         "url": "https://www.ttnews.com/articles/trump-putin-russia-diesel-deal",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The strikes came a day after US President Donald Trump announced a deal to buy Russian diesel that Kyiv warned would help fund Moscow's war in Ukraine."
-      },
-      {
-       "title": "Russian Attack on Ukrainian City Kills 20, a Day After Trump Eases Diesel Sanctions on Moscow",
-       "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
-       "source": "The Moscow Times",
-       "published": "2026-10-10T17:26:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Moscow Times",
-         "url": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Ukrainian President offered some of his sharpest criticism of Donald Trump after this week's third mass-casualty Russian attack."
-      }
-     ]
-    }
-   }
-  },
   "ru-sa": {
    "label": "Samara",
    "level": "admin1",
@@ -9563,6 +9633,11 @@
          "primary": false
         },
         {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
+         "primary": false
+        },
+        {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
          "primary": false
@@ -9630,6 +9705,11 @@
         {
          "name": "The Local Germany",
          "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
+         "primary": false
+        },
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
          "primary": false
         },
         {

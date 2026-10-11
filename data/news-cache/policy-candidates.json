@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T18:39:35.833Z",
+ "generatedAt": "2026-10-11T00:47:59.513Z",
  "sector": "policy",
  "maxAgeDays": 10,
  "places": {
@@ -11,26 +11,21 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Abbas postpones Palestinian legislative elections to September 2027",
-       "url": "https://www.aljazeera.com/news/2026/10/10/abbas-postpones-palestinian-legislative-elections-to-september-2027?traffic_source=rss",
+       "title": "Trump says Ukraine needs a new president who will agree to end the war",
+       "url": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war?traffic_source=rss",
        "source": "Al Jazeera",
-       "published": "2026-10-10T14:18:09.000Z",
-       "verification": "multiple",
+       "published": "2026-10-10T19:32:37.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
          "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/10/abbas-postpones-palestinian-legislative-elections-to-september-2027?traffic_source=rss",
-         "primary": false
-        },
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/mena/2026/10/10/palestinian-president-mahmoud-abbas-postpones-elections-to-september-2027/",
+         "url": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war?traffic_source=rss",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "November 2026 vote delayed; joint presidential and legislative elections set for next year, president says in decree."
+       "blurb": "US leader suggests Zelenskyy has not done enough to end the war amid tensions with Kyiv over a diesel deal with Russia."
       },
       {
        "title": "EU says US deal lifting diesel sanctions 'funds' Russian war on Ukraine",
@@ -57,6 +52,11 @@
         {
          "name": "The Local Germany",
          "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
+         "primary": false
+        },
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
          "primary": false
         },
         {
@@ -109,6 +109,23 @@
        "blurb": "Finance Minister Muhammad Aurangzeb on Saturday departed for Bangkok for the annual International Monetary Fund (IMF) and World Bank Group meetings. In a statement, the finance ministry said Aurangzeb would lead Pakistan’s delegation to the World Bank Group–IMF annual meetings, s"
       },
       {
+       "title": "Gov Otti accompanies Vice-President Shettima to Ethiopia",
+       "url": "https://www.premiumtimesng.com/promoted/916039-gov-otti-accompanies-vice-president-shettima-to-ethiopia.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-10T21:29:03.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/promoted/916039-gov-otti-accompanies-vice-president-shettima-to-ethiopia.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The trip was for the inaugural Nigeria-Ethiopia Nutrition Leadership Exchange Forum (also called the Pearl Exchange Forum) in Addis Ababa, which ran from 7 October to 9 October. The post Gov Otti accompanies Vice-President Shettima to Ethiopia appeared first on Premium Times Nige"
+      },
+      {
        "title": "United Auto Workers president Shawn Fain easily wins re-election",
        "url": "https://www.theguardian.com/us-news/2026/oct/10/uaw-president-shawn-fain-wins-re-election",
        "source": "The Guardian Business",
@@ -126,31 +143,38 @@
        "blurb": "Fain was dogged by investigation but still decisively beat challenger Rich Boyer, who received just 13% of vote The president of the United Auto Workers, Shawn Fain, has easily won his re-election bid after an campaign period marred by accusations of corruption and election inter"
       },
       {
-       "title": "Trump says Russia to supply diesel to U.S. and global markets",
-       "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
-       "source": "The Japan Times",
-       "published": "2026-10-09T22:49:00.000Z",
-       "verification": "multiple",
+       "title": "Palestinian President Mahmoud Abbas postpones elections to September 2027",
+       "url": "https://www.thenationalnews.com/news/mena/2026/10/10/palestinian-president-mahmoud-abbas-postpones-elections-to-september-2027/",
+       "source": "The National (UAE)",
+       "published": "2026-10-10T12:12:43.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/americas/trump-says-russia-to-supply-diesel-fuel-to-american-global-markets/4084012",
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/mena/2026/10/10/palestinian-president-mahmoud-abbas-postpones-elections-to-september-2027/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Prices for diesel are near a record and have put Trump's fellow Republicans at risk ahead of the Nov. 3 congressional elections."
+       "blurb": "Palestinian President Mahmoud Abbas issued a decree on Saturday cancelling the legislative elections scheduled for November this year and setting a new date, together with the presidential vote, for September 2027. The last election for the Palestinian Legislative Council was hel"
+      },
+      {
+       "title": "2026 Zambia General Election Autopsy Part 1",
+       "url": "https://www.lusakatimes.com/2026/10/10/2026-zambia-general-election-autopsy-part-1/",
+       "source": "Lusaka Times",
+       "published": "2026-10-10T18:47:18.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/10/2026-zambia-general-election-autopsy-part-1/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "By Dr. Field C. Ruwe PREAMBLE The just-ended general election demonstrates a significant departure from the 2021 election, when Hichilema’s landslide electoral victory was internationally lauded as a democratic advancement amid the rise of authoritarian governance in Africa. In c"
       },
       {
        "title": "2027: Makinde promises four-year transitional Government of National Unity if elected president",
@@ -168,23 +192,6 @@
        "stages": [],
        "via": null,
        "blurb": "Makinde also challenged the federal government to publish its petroleum pricing template to enable Nigerians to understand how the prices of petroleum products are determined. The post 2027: Makinde promises four-year transitional Government of National Unity if elected president"
-      },
-      {
-       "title": "US-Russia energy deal opens up diesel can of worms",
-       "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
-       "source": "The National (UAE)",
-       "published": "2026-10-10T09:59:59.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "US President Donald Trump's announcement that Russia will be supplying diesel to global markets has opened up a can of worms, says analysts. Washington agreed to lift sanctions on the Kremlin in a bid to bring down energy prices, especially for diesel, which is vital to many econ"
       },
       {
        "title": "Elon Musk ups ante in Starlink row, sarcastically calls Ambani ‘Prime Minister’, alleges monopoly",
@@ -219,21 +226,21 @@
        "blurb": "The post bybrea Mr. Musk now marks a sharp escalation in the Starlink satcom offering row, which saw the U.S. trillionaire recently alleging that powerful business interests are seeking to block his service"
       },
       {
-       "title": "Kampyongo Says Peace And Unity Key To Hichilema’s Growth Targets",
-       "url": "https://www.lusakatimes.com/2026/10/10/kampyongo-says-peace-and-unity-key-to-hichilemas-growth-targets/",
-       "source": "Lusaka Times",
-       "published": "2026-10-10T08:34:31.000Z",
+       "title": "US-Russia energy deal opens up diesel can of worms",
+       "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
+       "source": "The National (UAE)",
+       "published": "2026-10-10T09:59:59.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/10/kampyongo-says-peace-and-unity-key-to-hichilemas-growth-targets/",
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/business/energy/2026/10/10/us-russia-energy-deal-opens-up-diesel-can-of-worms/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Opposition lawmaker Stephen Kampyongo says the development goals President Hakainde Hichilema set out in his address to Parliament can be reached if Zambians embrace peace and unity. Britain has pledged to back the Grow Zambia Agenda, but has also said opposition parties must hav"
+       "blurb": "US President Donald Trump's announcement that Russia will be supplying diesel to global markets has opened up a can of worms, says analysts. Washington agreed to lift sanctions on the Kremlin in a bid to bring down energy prices, especially for diesel, which is vital to many econ"
       },
       {
        "title": "Venezuela president authorizes SpaceX's Starlink to operate in the country",
@@ -251,23 +258,6 @@
        "stages": [],
        "via": null,
        "blurb": ""
-      },
-      {
-       "title": "PM Shehbaz orders installation of smart scanners at airports",
-       "url": "https://www.dawn.com/news/2036166/pm-shehbaz-orders-installation-of-smart-scanners-at-airports",
-       "source": "Dawn Business",
-       "published": "2026-10-10T14:11:27.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2036166/pm-shehbaz-orders-installation-of-smart-scanners-at-airports",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "ISLAMABAD: Prime Minister Shehbaz Sharif on Saturday ordered the installation of “smart scanners” at all international airports to facilitate travellers, according to a statement from his office. The premier issued these instructions during a meeting reviewing the customs enforce"
       }
      ]
     },
@@ -428,23 +418,6 @@
        "blurb": "A subsidy redesign shaped by US threats has sent more support to Tesla than Honda or Nissan, and the money is nearly gone. By Stewart Burnett The post Tesla outdraws Honda and Nissan in Japan’s EV subsidy rush appeared first on Automotive World ."
       },
       {
-       "title": "Fuel subsidy beneficiaries cross 10m",
-       "url": "https://www.dawn.com/news/2036074/fuel-subsidy-beneficiaries-cross-10m",
-       "source": "Dawn Business",
-       "published": "2026-10-09T23:43:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2036074/fuel-subsidy-beneficiaries-cross-10m",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "ISLAMABAD: Prime Minister Shehbaz Sharif on Friday appreciated the collective efforts of the federal and provincial governments and relevant institutions as the number of direct beneficiaries of the government’s fuel subsidy scheme crossed 10 million and announced a national awar"
-      },
-      {
        "title": "Nigeria: 2027 - ADC Govt. Will Lower Cost of Living, Reverse Fuel Subsidy - Amaechi",
        "url": "https://allafrica.com/stories/202610090455.html",
        "source": "AllAfrica Business",
@@ -477,6 +450,23 @@
        "stages": [],
        "via": null,
        "blurb": "[Premium Times] According to the minister, NNPC Retail is absorbing the reduction from its profit margin, rather than relying on government funds to lower petrol prices."
+      },
+      {
+       "title": "Fuel subsidy beneficiaries cross 10m",
+       "url": "https://www.dawn.com/news/2036074/fuel-subsidy-beneficiaries-cross-10m",
+       "source": "Dawn Business",
+       "published": "2026-10-09T23:43:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2036074/fuel-subsidy-beneficiaries-cross-10m",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "ISLAMABAD: Prime Minister Shehbaz Sharif on Friday appreciated the collective efforts of the federal and provincial governments and relevant institutions as the number of direct beneficiaries of the government’s fuel subsidy scheme crossed 10 million and announced a national awar"
       }
      ]
     },
@@ -499,6 +489,43 @@
        "stages": [],
        "via": null,
        "blurb": "DOE urges PJM to require large new electricity users to pay for the generation and infrastructure needed to serve them."
+      },
+      {
+       "title": "US sanctions the International Criminal Court hours after a former judge wins the Nobel Peace Prize",
+       "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+       "source": "MercoPress",
+       "published": "2026-10-09T20:53:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "European Commission press corner",
+         "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2127",
+         "primary": true
+        },
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
+         "primary": false
+        },
+        {
+         "name": "MercoPress",
+         "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-09-us-imposes-sanctions-on-icc-hours-after-former-judge-wins-nobel-peace-prize/",
+         "primary": false
+        },
+        {
+         "name": "Above the Law",
+         "url": "https://abovethelaw.com/2026/10/nobel-prize-winner-roasts-trump-see-also/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Donald Trump’s administration on Friday imposed sanctions on the International Criminal Court as an institution, hours after the Norwegian Nobel Committee awarded the Nobel Peace Prize to South African jurist Navi Pillay, a former judge of the court, “for her efforts to promote p"
       },
       {
        "title": "Rosatom Says it Wins Tribunal Ruling in Finnish Nuclear Plant Dispute",
@@ -637,21 +664,21 @@
        "blurb": "By certifying a class of importers this week, the Court of International Trade seeks to ensure all businesses that paid the illegal levies receive reimbursements."
       },
       {
-       "title": "India initiates anti-dumping probe on Pen-G, salts from China",
-       "url": "https://www.thehindu.com/business/Industry/india-initiates-anti-dumping-probe-on-pen-g-salts-from-china/article71569088.ece",
-       "source": "The Hindu Business",
-       "published": "2026-10-10T15:46:01.000Z",
+       "title": "Virginia regulators approve Dominion’s fuel cost recovery, securitization",
+       "url": "https://www.utilitydive.com/news/virginia-regulators-approve-dominions-fuel-cost-recovery-securitization/832387/",
+       "source": "Utility Dive",
+       "published": "2026-10-07T15:52:35.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Hindu Business",
-         "url": "https://www.thehindu.com/business/Industry/india-initiates-anti-dumping-probe-on-pen-g-salts-from-china/article71569088.ece",
+         "name": "Utility Dive",
+         "url": "https://www.utilitydive.com/news/virginia-regulators-approve-dominions-fuel-cost-recovery-securitization/832387/",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The DGTR, which agreed to the company’s suggestion for 2025-26 as the period of investigation, said there is sufficient prima facie evidence that the PUC is being dumped into the domestic market by exporters from China."
+       "blurb": "The Virginia State Corporation Commission approved fuel cost securitization for the second time since 2023, adding additional interest costs for customers."
       },
       {
        "title": "Sindh High Court suspends Nepra orders on K-Electric tariff review",
@@ -669,23 +696,6 @@
        "stages": [],
        "via": null,
        "blurb": "KARACHI: The Sindh High Court (SHC) has suspended the impugned notifications and orders of the National Electric Power Regulatory Authority’s (Nepra) appellate tribunal regarding the review of K-Electric’s multi-year tariff. A single-judge bench of the SHC, headed by Justice Moha"
-      },
-      {
-       "title": "Virginia regulators approve Dominion’s fuel cost recovery, securitization",
-       "url": "https://www.utilitydive.com/news/virginia-regulators-approve-dominions-fuel-cost-recovery-securitization/832387/",
-       "source": "Utility Dive",
-       "published": "2026-10-07T15:52:35.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Utility Dive",
-         "url": "https://www.utilitydive.com/news/virginia-regulators-approve-dominions-fuel-cost-recovery-securitization/832387/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Virginia State Corporation Commission approved fuel cost securitization for the second time since 2023, adding additional interest costs for customers."
       }
      ]
     },
@@ -715,6 +725,23 @@
        "blurb": "Piyush Goyal also said trade pact negotiations are on with number of regions including Israel, Chile, GCC, and Russia-led group Eurasian Economic Union"
       },
       {
+       "title": "Israeli attack destroys building in Gaza one year into ‘ceasefire’",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/israeli-attack-destroys-building-in-gaza-one-year-into?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-10T20:14:01.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/israeli-attack-destroys-building-in-gaza-one-year-into?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "An Israeli strike destroyed a residential building in the Al-Rimal neighbourhood in Gaza City."
+      },
+      {
        "title": "EU says US deal lifting diesel sanctions 'funds' Russian war on Ukraine",
        "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine",
        "source": "RFI English",
@@ -742,6 +769,11 @@
          "primary": false
         },
         {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
+         "primary": false
+        },
+        {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
          "primary": false
@@ -755,23 +787,6 @@
        "stages": [],
        "via": null,
        "blurb": "EU foreign policy chief Kaja Kallas said Saturday that lifting sanctions on Russian diesel helped fuel the Kremlin's war on Ukraine, after US President Donald Trump announced a deal for Moscow to supply fuel."
-      },
-      {
-       "title": "Eritrea urges UN to intervene in standoff with Ethiopia",
-       "url": "https://www.aljazeera.com/news/2026/10/10/eritrea-urges-un-to-intervene-in-standoff-with?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-10T16:41:25.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/10/eritrea-urges-un-to-intervene-in-standoff-with?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The neighbouring countries blame one another for starting war amid heightened tensions and fears of a wider conflict."
       },
       {
        "title": "'Every extra billion will be spent on this' — Zelensky warns as missiles hit Kyiv after Russia sanctions relief",
@@ -806,6 +821,43 @@
        "stages": [],
        "via": null,
        "blurb": "The Ukrainian President offered some of his sharpest criticism of Donald Trump after this week's third mass-casualty Russian attack."
+      },
+      {
+       "title": "US sanctions the International Criminal Court hours after a former judge wins the Nobel Peace Prize",
+       "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+       "source": "MercoPress",
+       "published": "2026-10-09T20:53:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "European Commission press corner",
+         "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2127",
+         "primary": true
+        },
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
+         "primary": false
+        },
+        {
+         "name": "MercoPress",
+         "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-09-us-imposes-sanctions-on-icc-hours-after-former-judge-wins-nobel-peace-prize/",
+         "primary": false
+        },
+        {
+         "name": "Above the Law",
+         "url": "https://abovethelaw.com/2026/10/nobel-prize-winner-roasts-trump-see-also/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Donald Trump’s administration on Friday imposed sanctions on the International Criminal Court as an institution, hours after the Norwegian Nobel Committee awarded the Nobel Peace Prize to South African jurist Navi Pillay, a former judge of the court, “for her efforts to promote p"
       },
       {
        "title": "Israel holding 49 Syrians after 280 armed incursions in September, says UN",
@@ -859,48 +911,6 @@
        "blurb": "Trump said on Friday that Russia had agreed to supply diesel to the global market to ease fuel prices. Kyiv's allies are not supportive."
       },
       {
-       "title": "South African former UN human rights chief Navi Pillay wins Nobel Peace Prize",
-       "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
-       "source": "RFI English",
-       "published": "2026-10-09T11:25:14.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "European Commission press corner",
-         "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2127",
-         "primary": true
-        },
-        {
-         "name": "RFI English",
-         "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
-         "primary": false
-        },
-        {
-         "name": "MercoPress",
-         "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "Daily Maverick",
-         "url": "https://www.dailymaverick.co.za/article/2026-10-09-us-imposes-sanctions-on-icc-hours-after-former-judge-wins-nobel-peace-prize/",
-         "primary": false
-        },
-        {
-         "name": "Inside Higher Ed",
-         "url": "https://www.insidehighered.com/news/quick-takes/2026/10/08/bold-inventive-professor-wins-nobel-prize-literature",
-         "primary": false
-        },
-        {
-         "name": "Above the Law",
-         "url": "https://abovethelaw.com/2026/10/nobel-prize-winner-roasts-trump-see-also/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Nobel Peace Prize has been awarded to South Africa's Navanethem \"Navi\" Pillay, the judge who headed the Rwanda genocide tribunal and last year presided over a UN commission that accused Israel of genocide in Gaza."
-      },
-      {
        "title": "U.S. lifts sanctions on daughter of Myanmar military-linked businessman",
        "url": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/us-sanctions-myanmar-businessman/",
        "source": "The Japan Times",
@@ -918,23 +928,6 @@
        "blurb": "The move comes a after report that said the administration of U.S. President Donald Trump had opened talks with Myanmar's military-installed government."
       },
       {
-       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
-       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-       "source": "NASA News",
-       "published": "2026-10-08T19:40:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Editor’s note: This release was updated Oct. 8, 2026 with the formal name of the summit. NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are an"
-      },
-      {
        "title": "Joint Statement at the second meeting of the EU-China Trade and Investment Consultations",
        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2122",
        "source": "European Commission press corner",
@@ -950,6 +943,23 @@
        "stages": [],
        "via": null,
        "blurb": "European Commission Statement Beijing, 09 Oct 2026 On 8-9 October 2026, Wang Wentao, Minister of Commerce of China, and Maroš Šefčovič, Commissioner for Trade and Economic Security, Interinstitutional Relations and Transparency, of the European Commission, held the second meeting"
+      },
+      {
+       "title": "EU-China hybrid deal promises a halving, but not the how",
+       "url": "https://www.automotiveworld.com/intelligence/eu-china-hybrid-deal-promises-a-halving-but-not-the-how/",
+       "source": "Automotive World",
+       "published": "2026-10-09T17:26:35.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Automotive World",
+         "url": "https://www.automotiveworld.com/intelligence/eu-china-hybrid-deal-promises-a-halving-but-not-the-how/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Closing the hybrid gap pushes China's surplus capacity back home and hastens a shakeout among weaker brands. By Stewart Burnett The post EU-China hybrid deal promises a halving, but not the how appeared first on Automotive World ."
       }
      ]
     },
@@ -1103,23 +1113,6 @@
        "blurb": "Existing Emera shareholders are expected to own about 60 per cent of the combined utility, while former Atco and Canadian Utilities shareholders are set to own about 40 per cent."
       },
       {
-       "title": "Kenmare better off holding out in Irish takeover sweep – for now",
-       "url": "https://www.irishtimes.com/business/markets/2026/10/10/kenmare-resources-oman-abu-dhabi-takeover-mozambique-mine-michael-carvill-tom-hickey/",
-       "source": "The Irish Times Business",
-       "published": "2026-10-10T05:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Irish Times Business",
-         "url": "https://www.irishtimes.com/business/markets/2026/10/10/kenmare-resources-oman-abu-dhabi-takeover-mozambique-mine-michael-carvill-tom-hickey/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Miner part-owned by Oman sovereign wealth fund is coveted by firm controlled by Abu Dhabi ruling dynasty"
-      },
-      {
        "title": "Cenovus to build oil sands business via Athabasca acquisition",
        "url": "https://www.ogj.com/general-interest/companies/news/55409902/cenovus-to-build-oil-sands-business-via-athabasca-acquisition",
        "source": "Oil & Gas Journal",
@@ -1135,6 +1128,23 @@
        "stages": [],
        "via": null,
        "blurb": "The planned CAN$5.7 billion purchase would add about 45,000 boe/d of production, the majority of which will be close to Cenovus’ Christina Lake, May River, and Thornbury operations."
+      },
+      {
+       "title": "Kenmare better off holding out in Irish takeover sweep – for now",
+       "url": "https://www.irishtimes.com/business/markets/2026/10/10/kenmare-resources-oman-abu-dhabi-takeover-mozambique-mine-michael-carvill-tom-hickey/",
+       "source": "The Irish Times Business",
+       "published": "2026-10-10T05:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Irish Times Business",
+         "url": "https://www.irishtimes.com/business/markets/2026/10/10/kenmare-resources-oman-abu-dhabi-takeover-mozambique-mine-michael-carvill-tom-hickey/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Miner part-owned by Oman sovereign wealth fund is coveted by firm controlled by Abu Dhabi ruling dynasty"
       },
       {
        "title": "Globe’s cybersecurity chief steps down",
@@ -1389,6 +1399,11 @@
          "primary": false
         },
         {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
+         "primary": false
+        },
+        {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
          "primary": false
@@ -1421,31 +1436,21 @@
        "blurb": "US President Donald Trump's announcement that Russia will be supplying diesel to global markets has opened up a can of worms, says analysts. Washington agreed to lift sanctions on the Kremlin in a bid to bring down energy prices, especially for diesel, which is vital to many econ"
       },
       {
-       "title": "Trump says Russia to supply diesel to U.S. and global markets",
-       "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
-       "source": "The Japan Times",
-       "published": "2026-10-09T22:49:00.000Z",
-       "verification": "multiple",
+       "title": "Trump says Ukraine needs a new president who will agree to end the war",
+       "url": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-10T19:32:37.000Z",
+       "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/americas/trump-says-russia-to-supply-diesel-fuel-to-american-global-markets/4084012",
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war?traffic_source=rss",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Prices for diesel are near a record and have put Trump's fellow Republicans at risk ahead of the Nov. 3 congressional elections."
+       "blurb": "US leader suggests Zelenskyy has not done enough to end the war amid tensions with Kyiv over a diesel deal with Russia."
       },
       {
        "title": "'He better damn well stop' — Trump slams Zelensky for attacking Russian refineries, says Ukraine should get 'new president'",
@@ -1767,6 +1772,43 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "US sanctions the International Criminal Court hours after a former judge wins the Nobel Peace Prize",
+       "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+       "source": "MercoPress",
+       "published": "2026-10-09T20:53:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "European Commission press corner",
+         "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2127",
+         "primary": true
+        },
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
+         "primary": false
+        },
+        {
+         "name": "MercoPress",
+         "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-09-us-imposes-sanctions-on-icc-hours-after-former-judge-wins-nobel-peace-prize/",
+         "primary": false
+        },
+        {
+         "name": "Above the Law",
+         "url": "https://abovethelaw.com/2026/10/nobel-prize-winner-roasts-trump-see-also/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Donald Trump’s administration on Friday imposed sanctions on the International Criminal Court as an institution, hours after the Norwegian Nobel Committee awarded the Nobel Peace Prize to South African jurist Navi Pillay, a former judge of the court, “for her efforts to promote p"
+      },
+      {
        "title": "Energy Department Supports FERC’s Call for PJM to Protect Ratepayers and Build More Reliable Power",
        "url": "https://www.energy.gov/articles/energy-department-supports-fercs-call-pjm-protect-ratepayers-and-build-more-reliable-power",
        "source": "U.S. Department of Energy",
@@ -1801,23 +1843,6 @@
        "blurb": "A crude oil pipeline spill last month in the Detroit suburbs has prompted federal authorities to open an investigation into the safety of all 20,000 miles of hazardous liquids pipelines operated by Energy Transfer. The 600-gallon spill at a commercial intersection in Sterling Hei"
       },
       {
-       "title": "Latest Terrestrial Energy topical report submission could lead to faster deployment",
-       "url": "https://www.world-nuclear-news.org/articles/latest-terrestrial-energy-topical-report-submission-could-lead-to-faster-deployment",
-       "source": "World Nuclear News",
-       "published": "2026-10-09T14:11:55.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "World Nuclear News",
-         "url": "https://www.world-nuclear-news.org/articles/latest-terrestrial-energy-topical-report-submission-could-lead-to-faster-deployment",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Approval of the Thermal and Electric Facility Topical Report submitted by the company to US regulators would mean that part of the Integrated Molten Salt Reactor plant would be classed as a conventional industrial, rather than nuclear, project, allowing it to be built and operate"
-      },
-      {
        "title": "Virginia regulators approve Dominion’s fuel cost recovery, securitization",
        "url": "https://www.utilitydive.com/news/virginia-regulators-approve-dominions-fuel-cost-recovery-securitization/832387/",
        "source": "Utility Dive",
@@ -1833,6 +1858,23 @@
        "stages": [],
        "via": null,
        "blurb": "The Virginia State Corporation Commission approved fuel cost securitization for the second time since 2023, adding additional interest costs for customers."
+      },
+      {
+       "title": "Latest Terrestrial Energy topical report submission could lead to faster deployment",
+       "url": "https://www.world-nuclear-news.org/articles/latest-terrestrial-energy-topical-report-submission-could-lead-to-faster-deployment",
+       "source": "World Nuclear News",
+       "published": "2026-10-09T14:11:55.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "World Nuclear News",
+         "url": "https://www.world-nuclear-news.org/articles/latest-terrestrial-energy-topical-report-submission-could-lead-to-faster-deployment",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Approval of the Thermal and Electric Facility Topical Report submitted by the company to US regulators would mean that part of the Integrated Molten Salt Reactor plant would be classed as a conventional industrial, rather than nuclear, project, allowing it to be built and operate"
       },
       {
        "title": "Federal court clears way for class-action suit against IEEPA tariffs",
@@ -1886,23 +1928,6 @@
        "blurb": "The PJM Interconnection expects Engie’s two storage projects totaling nearly 1.7 GW and LS Power’s 455-MW gas-fired uprate will be online by mid-2029."
       },
       {
-       "title": "Watchdog to examine summertime hack of DHS information network, other incidents",
-       "url": "https://www.govexec.com/oversight/2026/10/watchdog-examine-summertime-hack-dhs-information-network-other-incidents/416518/",
-       "source": "Government Executive",
-       "published": "2026-10-09T13:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Government Executive",
-         "url": "https://www.govexec.com/oversight/2026/10/watchdog-examine-summertime-hack-dhs-information-network-other-incidents/416518/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Government Accountability Office is expected to flag that the Homeland Security Department delayed in notifying Congress of the incidents, according to a person familiar with the review."
-      },
-      {
        "title": "UAE completes Arab world's first solo space probe – and sets course for an asteroid",
        "url": "https://www.nature.com/articles/d41586-026-03154-4",
        "source": "Nature",
@@ -1920,6 +1945,23 @@
        "blurb": "Nature, Published online: 08 October 2026; doi:10.1038/d41586-026-03154-4 The device will be launched on a joint UAE-US-built craft. Some researchers say it could be the last mission constructed with outside help."
       },
       {
+       "title": "Watchdog to examine summertime hack of DHS information network, other incidents",
+       "url": "https://www.govexec.com/oversight/2026/10/watchdog-examine-summertime-hack-dhs-information-network-other-incidents/416518/",
+       "source": "Government Executive",
+       "published": "2026-10-09T13:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Government Executive",
+         "url": "https://www.govexec.com/oversight/2026/10/watchdog-examine-summertime-hack-dhs-information-network-other-incidents/416518/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Government Accountability Office is expected to flag that the Homeland Security Department delayed in notifying Congress of the incidents, according to a person familiar with the review."
+      },
+      {
        "title": "Trump Mobile hack and apparent lack of FCC authorization raise security alarms",
        "url": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/",
        "source": "Ars Technica",
@@ -1935,6 +1977,23 @@
        "stages": [],
        "via": null,
        "blurb": "After hack and data breach, senator asks why Trump Mobile lacks some FCC filings."
+      },
+      {
+       "title": "FTC escalates price transparency crackdown with warning letters to hospitals",
+       "url": "https://www.healthcaredive.com/news/ftc-escalates-price-transparency-crackdown-with-warning-letters-to-hospital/832247/",
+       "source": "Healthcare Dive",
+       "published": "2026-10-06T14:51:10.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Healthcare Dive",
+         "url": "https://www.healthcaredive.com/news/ftc-escalates-price-transparency-crackdown-with-warning-letters-to-hospital/832247/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Regulators warned two dozen hospital systems that incomplete or misleading pricing disclosures could violate federal consumer protection laws."
       }
      ]
     },
@@ -1991,6 +2050,11 @@
          "primary": false
         },
         {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
+         "primary": false
+        },
+        {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
          "primary": false
@@ -2004,6 +2068,43 @@
        "stages": [],
        "via": null,
        "blurb": "EU foreign policy chief Kaja Kallas said Saturday that lifting sanctions on Russian diesel helped fuel the Kremlin's war on Ukraine, after US President Donald Trump announced a deal for Moscow to supply fuel."
+      },
+      {
+       "title": "US sanctions the International Criminal Court hours after a former judge wins the Nobel Peace Prize",
+       "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+       "source": "MercoPress",
+       "published": "2026-10-09T20:53:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "European Commission press corner",
+         "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2127",
+         "primary": true
+        },
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
+         "primary": false
+        },
+        {
+         "name": "MercoPress",
+         "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-09-us-imposes-sanctions-on-icc-hours-after-former-judge-wins-nobel-peace-prize/",
+         "primary": false
+        },
+        {
+         "name": "Above the Law",
+         "url": "https://abovethelaw.com/2026/10/nobel-prize-winner-roasts-trump-see-also/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Donald Trump’s administration on Friday imposed sanctions on the International Criminal Court as an institution, hours after the Norwegian Nobel Committee awarded the Nobel Peace Prize to South African jurist Navi Pillay, a former judge of the court, “for her efforts to promote p"
       },
       {
        "title": "U.S. lifts sanctions on daughter of Myanmar military-linked businessman",
@@ -2021,23 +2122,6 @@
        "stages": [],
        "via": null,
        "blurb": "The move comes a after report that said the administration of U.S. President Donald Trump had opened talks with Myanmar's military-installed government."
-      },
-      {
-       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
-       "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-       "source": "NASA News",
-       "published": "2026-10-08T19:40:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "NASA News",
-         "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Editor’s note: This release was updated Oct. 8, 2026 with the formal name of the summit. NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are an"
       },
       {
        "title": "US sanctions 17 vessels linked to Iran’s ‘shadow fleet’",
@@ -2308,6 +2392,23 @@
      "brief": "missing",
      "candidates": [
       {
+       "title": "Trump says Ukraine needs a new president who will agree to end the war",
+       "url": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-10T19:32:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "US leader suggests Zelenskyy has not done enough to end the war amid tensions with Kyiv over a diesel deal with Russia."
+      },
+      {
        "title": "EU says US deal lifting diesel sanctions 'funds' Russian war on Ukraine",
        "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine",
        "source": "RFI English",
@@ -2332,6 +2433,11 @@
         {
          "name": "The Local Germany",
          "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
+         "primary": false
+        },
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
          "primary": false
         },
         {
@@ -2382,23 +2488,6 @@
        "stages": [],
        "via": null,
        "blurb": "The Kremlin also said Putin and Trump discussed major economic initiatives during the phone call, including potential supplies of Russian fuel."
-      },
-      {
-       "title": "Zelensky appoints former European integration minister Kachka as EU ambassador",
-       "url": "https://kyivindependent.com/zelensky-appoints-former-european-integration-minister-kachka-as-eu-ambassador/",
-       "source": "The Kyiv Independent",
-       "published": "2026-10-09T20:47:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/zelensky-appoints-former-european-integration-minister-kachka-as-eu-ambassador/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "During Kachka’s tenure overseeing EU integration, Ukraine opened its first two accession negotiation clusters — groups of policy areas in which candidates must meet EU requirements."
       }
      ]
     },
@@ -2452,6 +2541,11 @@
         {
          "name": "The Local Germany",
          "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
+         "primary": false
+        },
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
          "primary": false
         },
         {
@@ -2627,6 +2721,11 @@
          "primary": false
         },
         {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
+         "primary": false
+        },
+        {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
          "primary": false
@@ -2640,33 +2739,6 @@
        "stages": [],
        "via": null,
        "blurb": "EU foreign policy chief Kaja Kallas said Saturday that lifting sanctions on Russian diesel helped fuel the Kremlin's war on Ukraine, after US President Donald Trump announced a deal for Moscow to supply fuel."
-      },
-      {
-       "title": "Trump says Russia to supply diesel to U.S. and global markets",
-       "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
-       "source": "The Japan Times",
-       "published": "2026-10-09T22:49:00.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "The Japan Times",
-         "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "The Kyiv Independent",
-         "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
-         "primary": false
-        },
-        {
-         "name": "Anadolu Agency Economy",
-         "url": "https://www.aa.com.tr/en/americas/trump-says-russia-to-supply-diesel-fuel-to-american-global-markets/4084012",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Prices for diesel are near a record and have put Trump's fellow Republicans at risk ahead of the Nov. 3 congressional elections."
       },
       {
        "title": "US-Russia energy deal opens up diesel can of worms",
@@ -2684,6 +2756,23 @@
        "stages": [],
        "via": null,
        "blurb": "US President Donald Trump's announcement that Russia will be supplying diesel to global markets has opened up a can of worms, says analysts. Washington agreed to lift sanctions on the Kremlin in a bid to bring down energy prices, especially for diesel, which is vital to many econ"
+      },
+      {
+       "title": "Trump says Ukraine needs a new president who will agree to end the war",
+       "url": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-10T19:32:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "US leader suggests Zelenskyy has not done enough to end the war amid tensions with Kyiv over a diesel deal with Russia."
       },
       {
        "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
@@ -2766,6 +2855,11 @@
         {
          "name": "The Local Germany",
          "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
+         "primary": false
+        },
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
          "primary": false
         },
         {
@@ -2910,6 +3004,28 @@
    "label": "Kiev",
    "level": "admin1",
    "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Trump says Ukraine needs a new president who will agree to end the war",
+       "url": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-10T19:32:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "US leader suggests Zelenskyy has not done enough to end the war amid tensions with Kyiv over a diesel deal with Russia."
+      }
+     ]
+    },
     "international": {
      "brief": "missing",
      "candidates": [
@@ -2972,6 +3088,28 @@
    "label": "Kyiv",
    "level": "city",
    "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Trump says Ukraine needs a new president who will agree to end the war",
+       "url": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-10T19:32:37.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "US leader suggests Zelenskyy has not done enough to end the war amid tensions with Kyiv over a diesel deal with Russia."
+      }
+     ]
+    },
     "international": {
      "brief": "missing",
      "candidates": [
@@ -3138,21 +3276,21 @@
      "brief": "missing",
      "candidates": [
       {
-       "title": "Kampyongo Says Peace And Unity Key To Hichilema’s Growth Targets",
-       "url": "https://www.lusakatimes.com/2026/10/10/kampyongo-says-peace-and-unity-key-to-hichilemas-growth-targets/",
-       "source": "Lusaka Times",
-       "published": "2026-10-10T08:34:31.000Z",
-       "verification": "unconfirmed",
+       "title": "Why we’re stuck with a Premier League in the clutches of the global mega-rich | Jonathan Wilson",
+       "url": "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
+       "source": "The Guardian Business",
+       "published": "2026-10-10T19:00:05.000Z",
+       "verification": "analysis",
        "outlets": [
         {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/10/kampyongo-says-peace-and-unity-key-to-hichilemas-growth-targets/",
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Opposition lawmaker Stephen Kampyongo says the development goals President Hakainde Hichilema set out in his address to Parliament can be reached if Zambians embrace peace and unity. Britain has pledged to back the Grow Zambia Agenda, but has also said opposition parties must hav"
+       "blurb": "There’s little prospect of the model changing in a country that welcomes wealthy international owners with open arms Football, the world’s most popular sport, played by laws drawn up in London in 1863. The Premier League is the UK’s greatest soft power export. Premier League club"
       }
      ]
     },
@@ -3607,23 +3745,6 @@
        "blurb": "High court finding in favour of Hunter Valley community group sets precedent other environmentalists should follow, advocate says Get our new political email , free app or daily news podcast A landmark decision in Australia’s first climate change high court case has been describe"
       },
       {
-       "title": "Hollard insurance fined $2m for handling of claim that destroyed home",
-       "url": "https://www.abc.net.au/news/2026-10-09/asic-sues-hollard-insurance-court-orders-2-million-penalty/107245154",
-       "source": "ABC News (Australia) Business",
-       "published": "2026-10-09T01:21:22.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "ABC News (Australia) Business",
-         "url": "https://www.abc.net.au/news/2026-10-09/asic-sues-hollard-insurance-court-orders-2-million-penalty/107245154",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Federal Court blasts Hollard's handling of an insurance claim which left a regional Victorian destroyed and uninhabitable."
-      },
-      {
        "title": "Hunter Valley community group wins landmark high court climate change case over Mount Pleasant coalmine",
        "url": "https://www.theguardian.com/environment/2026/oct/07/mount-pleasant-coalmine-case-high-court-climate-change-hunter-valley",
        "source": "The Guardian Energy",
@@ -3639,6 +3760,23 @@
        "stages": [],
        "via": null,
        "blurb": "Ruling on Mount Pleasant coalmine shows ‘we cannot continue to dig up coal … and pretend the consequences have nothing to do with us’, group says Get our breaking news email , free app or daily news podcast A Hunter Valley community group has won Australia’s first high court case"
+      },
+      {
+       "title": "Hollard insurance fined $2m for handling of claim that destroyed home",
+       "url": "https://www.abc.net.au/news/2026-10-09/asic-sues-hollard-insurance-court-orders-2-million-penalty/107245154",
+       "source": "ABC News (Australia) Business",
+       "published": "2026-10-09T01:21:22.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "ABC News (Australia) Business",
+         "url": "https://www.abc.net.au/news/2026-10-09/asic-sues-hollard-insurance-court-orders-2-million-penalty/107245154",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Federal Court blasts Hollard's handling of an insurance claim which left a regional Victorian destroyed and uninhabitable."
       }
      ]
     },
@@ -3843,23 +3981,6 @@
        "blurb": "ISLAMABAD: Short-term inflation rose to 11.97 per cent year-on-year in the week ending Oct 8, driven largely by higher food prices , particularly wheat flour, according to official data released by the Pakistan Bureau of Statistics (PBS) on Friday. The Sensitive Price Index (SPI)"
       },
       {
-       "title": "Aurangzeb reviews retailers’ tax scheme as trader response falls short",
-       "url": "https://www.dawn.com/news/2036118/aurangzeb-reviews-retailers-tax-scheme-as-trader-response-falls-short",
-       "source": "Dawn Business",
-       "published": "2026-10-10T02:57:17.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Dawn Business",
-         "url": "https://www.dawn.com/news/2036118/aurangzeb-reviews-retailers-tax-scheme-as-trader-response-falls-short",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "https://www.dawn.com/news/2036047"
-      },
-      {
        "title": "PSX retreats despite $1.2bn IMF lifeline",
        "url": "https://www.dawn.com/news/2035822/psx-retreats-despite-12bn-imf-lifeline",
        "source": "Dawn Business",
@@ -3875,6 +3996,23 @@
        "stages": [],
        "via": null,
        "blurb": "KARACHI: Amid persistent volatility stemming from regional and political concerns, the Pakistan Stock Exchange (PSX) faltered on Thursday after staging an early rally driven by a staff-level agreement (SLA) between Pakistan and the visiting International Monetary Fund (IMF) staff"
+      },
+      {
+       "title": "Aurangzeb reviews retailers’ tax scheme as trader response falls short",
+       "url": "https://www.dawn.com/news/2036118/aurangzeb-reviews-retailers-tax-scheme-as-trader-response-falls-short",
+       "source": "Dawn Business",
+       "published": "2026-10-10T02:57:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Dawn Business",
+         "url": "https://www.dawn.com/news/2036118/aurangzeb-reviews-retailers-tax-scheme-as-trader-response-falls-short",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "https://www.dawn.com/news/2036047"
       }
      ]
     },
@@ -4251,6 +4389,11 @@
         {
          "name": "The Local Germany",
          "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
+         "primary": false
+        },
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
          "primary": false
         },
         {
@@ -5051,6 +5194,11 @@
          "primary": false
         },
         {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
+         "primary": false
+        },
+        {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
          "primary": false
@@ -5095,6 +5243,11 @@
         {
          "name": "The Local Germany",
          "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
+         "primary": false
+        },
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
          "primary": false
         },
         {
@@ -5185,6 +5338,11 @@
          "primary": false
         },
         {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
+         "primary": false
+        },
+        {
          "name": "Anadolu Agency Economy",
          "url": "https://www.aa.com.tr/en/economy/putin-says-sales-of-russian-diesel-to-us-global-markets-will-benefit-world-economy/4084078",
          "primary": false
@@ -5229,6 +5387,11 @@
         {
          "name": "The Local Germany",
          "url": "https://www.thelocal.de/20261010/germany-pursues-new-russia-sanctions-despite-us-diesel-deal",
+         "primary": false
+        },
+        {
+         "name": "The Kyiv Independent",
+         "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
          "primary": false
         },
         {
@@ -5373,6 +5536,225 @@
        "stages": [],
        "via": null,
        "blurb": "Piyush Goyal also said trade pact negotiations are on with number of regions including Israel, Chile, GCC, and Russia-led group Eurasian Economic Union"
+      }
+     ]
+    }
+   }
+  },
+  "no": {
+   "label": "Norway",
+   "level": "country",
+   "sources": {
+    "regulation": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "US sanctions the International Criminal Court hours after a former judge wins the Nobel Peace Prize",
+       "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+       "source": "MercoPress",
+       "published": "2026-10-09T20:53:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "European Commission press corner",
+         "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2127",
+         "primary": true
+        },
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
+         "primary": false
+        },
+        {
+         "name": "MercoPress",
+         "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-09-us-imposes-sanctions-on-icc-hours-after-former-judge-wins-nobel-peace-prize/",
+         "primary": false
+        },
+        {
+         "name": "Above the Law",
+         "url": "https://abovethelaw.com/2026/10/nobel-prize-winner-roasts-trump-see-also/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Donald Trump’s administration on Friday imposed sanctions on the International Criminal Court as an institution, hours after the Norwegian Nobel Committee awarded the Nobel Peace Prize to South African jurist Navi Pillay, a former judge of the court, “for her efforts to promote p"
+      }
+     ]
+    },
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "US sanctions the International Criminal Court hours after a former judge wins the Nobel Peace Prize",
+       "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+       "source": "MercoPress",
+       "published": "2026-10-09T20:53:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "European Commission press corner",
+         "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2127",
+         "primary": true
+        },
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
+         "primary": false
+        },
+        {
+         "name": "MercoPress",
+         "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-09-us-imposes-sanctions-on-icc-hours-after-former-judge-wins-nobel-peace-prize/",
+         "primary": false
+        },
+        {
+         "name": "Above the Law",
+         "url": "https://abovethelaw.com/2026/10/nobel-prize-winner-roasts-trump-see-also/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Donald Trump’s administration on Friday imposed sanctions on the International Criminal Court as an institution, hours after the Norwegian Nobel Committee awarded the Nobel Peace Prize to South African jurist Navi Pillay, a former judge of the court, “for her efforts to promote p"
+      }
+     ]
+    }
+   }
+  },
+  "za": {
+   "label": "South Africa",
+   "level": "country",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "LOCAL ELECTIONS 2026: High court orders ANC to reinstate Andile Lungisa after unlawful removal",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-09-high-court-orders-anc-to-reinstate-andile-lungisa-after-unlawful-removal/",
+       "source": "Daily Maverick",
+       "published": "2026-10-09T14:45:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-09-high-court-orders-anc-to-reinstate-andile-lungisa-after-unlawful-removal/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "With elections less than a month away, the high court has ruled that the ANC’s removal of Andile Lungisa from its Nelson Mandela Bay candidate list is unlawful, ordering the party to reinstate his name and pay his legal costs."
+      }
+     ]
+    },
+    "regulation": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "US sanctions the International Criminal Court hours after a former judge wins the Nobel Peace Prize",
+       "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+       "source": "MercoPress",
+       "published": "2026-10-09T20:53:00.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "European Commission press corner",
+         "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2127",
+         "primary": true
+        },
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
+         "primary": false
+        },
+        {
+         "name": "MercoPress",
+         "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-09-us-imposes-sanctions-on-icc-hours-after-former-judge-wins-nobel-peace-prize/",
+         "primary": false
+        },
+        {
+         "name": "Above the Law",
+         "url": "https://abovethelaw.com/2026/10/nobel-prize-winner-roasts-trump-see-also/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Donald Trump’s administration on Friday imposed sanctions on the International Criminal Court as an institution, hours after the Norwegian Nobel Committee awarded the Nobel Peace Prize to South African jurist Navi Pillay, a former judge of the court, “for her efforts to promote p"
+      },
+      {
+       "title": "LOCAL ELECTIONS 2026: High court orders ANC to reinstate Andile Lungisa after unlawful removal",
+       "url": "https://www.dailymaverick.co.za/article/2026-10-09-high-court-orders-anc-to-reinstate-andile-lungisa-after-unlawful-removal/",
+       "source": "Daily Maverick",
+       "published": "2026-10-09T14:45:05.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-09-high-court-orders-anc-to-reinstate-andile-lungisa-after-unlawful-removal/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "With elections less than a month away, the high court has ruled that the ANC’s removal of Andile Lungisa from its Nelson Mandela Bay candidate list is unlawful, ordering the party to reinstate his name and pay his legal costs."
+      }
+     ]
+    },
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "South African former UN human rights chief Navi Pillay wins Nobel Peace Prize",
+       "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
+       "source": "RFI English",
+       "published": "2026-10-09T11:25:14.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "European Commission press corner",
+         "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2127",
+         "primary": true
+        },
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
+         "primary": false
+        },
+        {
+         "name": "MercoPress",
+         "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-09-us-imposes-sanctions-on-icc-hours-after-former-judge-wins-nobel-peace-prize/",
+         "primary": false
+        },
+        {
+         "name": "Above the Law",
+         "url": "https://abovethelaw.com/2026/10/nobel-prize-winner-roasts-trump-see-also/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Nobel Peace Prize has been awarded to South Africa's Navanethem \"Navi\" Pillay, the judge who headed the Rwanda genocide tribunal and last year presided over a UN commission that accused Israel of genocide in Gaza."
       }
      ]
     }
@@ -5546,90 +5928,6 @@
     }
    }
   },
-  "na": {
-   "label": "Namibia",
-   "level": "country",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Namibia: President Nandi-Ndaitwah Welcomes N$90 Million Namport Investment in Sport and Football",
-       "url": "https://allafrica.com/stories/202610090422.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-09T12:08:27.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610090422.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Namibian] State House, Windhoek, 8 October 2026."
-      }
-     ]
-    }
-   }
-  },
-  "na-kh": {
-   "label": "Khomas",
-   "level": "admin1",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Namibia: President Nandi-Ndaitwah Welcomes N$90 Million Namport Investment in Sport and Football",
-       "url": "https://allafrica.com/stories/202610090422.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-09T12:08:27.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610090422.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Namibian] State House, Windhoek, 8 October 2026."
-      }
-     ]
-    }
-   }
-  },
-  "na-city-windhoek": {
-   "label": "Windhoek",
-   "level": "city",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Namibia: President Nandi-Ndaitwah Welcomes N$90 Million Namport Investment in Sport and Football",
-       "url": "https://allafrica.com/stories/202610090422.html",
-       "source": "AllAfrica Business",
-       "published": "2026-10-09T12:08:27.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "AllAfrica Business",
-         "url": "https://allafrica.com/stories/202610090422.html",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "[Namibian] State House, Windhoek, 8 October 2026."
-      }
-     ]
-    }
-   }
-  },
   "br": {
    "label": "Brazil",
    "level": "country",
@@ -5703,6 +6001,23 @@
        "stages": [],
        "via": null,
        "blurb": "Makinde also challenged the federal government to publish its petroleum pricing template to enable Nigerians to understand how the prices of petroleum products are determined. The post 2027: Makinde promises four-year transitional Government of National Unity if elected president"
+      },
+      {
+       "title": "Gov Otti accompanies Vice-President Shettima to Ethiopia",
+       "url": "https://www.premiumtimesng.com/promoted/916039-gov-otti-accompanies-vice-president-shettima-to-ethiopia.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-10T21:29:03.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/promoted/916039-gov-otti-accompanies-vice-president-shettima-to-ethiopia.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The trip was for the inaugural Nigeria-Ethiopia Nutrition Leadership Exchange Forum (also called the Pearl Exchange Forum) in Addis Ababa, which ran from 7 October to 9 October. The post Gov Otti accompanies Vice-President Shettima to Ethiopia appeared first on Premium Times Nige"
       },
       {
        "title": "Nigeria: 2027 - ADC Govt. Will Lower Cost of Living, Reverse Fuel Subsidy - Amaechi",
@@ -5948,29 +6263,107 @@
     }
    }
   },
-  "zm": {
-   "label": "Zambia",
+  "zw": {
+   "label": "Zimbabwe",
    "level": "country",
    "sources": {
     "government": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Kampyongo Says Peace And Unity Key To Hichilema’s Growth Targets",
-       "url": "https://www.lusakatimes.com/2026/10/10/kampyongo-says-peace-and-unity-key-to-hichilemas-growth-targets/",
-       "source": "Lusaka Times",
-       "published": "2026-10-10T08:34:31.000Z",
+       "title": "Mystery deepens over purported recall of Coltart, four CCC legislators",
+       "url": "https://newsday.co.zw/article/mystery-deepens-over-purported-recall-of-coltart-four-ccc-legislators",
+       "source": "NewsDay (Zimbabwe)",
+       "published": "2026-10-09T15:35:17.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/10/kampyongo-says-peace-and-unity-key-to-hichilemas-growth-targets/",
+         "name": "NewsDay (Zimbabwe)",
+         "url": "https://newsday.co.zw/article/mystery-deepens-over-purported-recall-of-coltart-four-ccc-legislators",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "Opposition lawmaker Stephen Kampyongo says the development goals President Hakainde Hichilema set out in his address to Parliament can be reached if Zambians embrace peace and unity. Britain has pledged to back the Grow Zambia Agenda, but has also said opposition parties must hav"
+       "blurb": "In a statement, Tshabangu’s faction denied writing to Parliament and the Ministry of Local Government and Public Works notifying them of the purported recalls of Coltart, Senator Ivumile Kucaca Phulu, Bulawayo Central MP Surrender Kepoikilu, Mbizo MP Carban Madzivanyika and Epwor"
+      }
+     ]
+    },
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "UN calls for urgent action as one in three Zimbabwean girls gets married before 18",
+       "url": "https://newsday.co.zw/article/un-calls-for-urgent-action-as-one-in-three-zimbabwean-girls-gets-married-before-18",
+       "source": "NewsDay (Zimbabwe)",
+       "published": "2026-10-09T15:55:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NewsDay (Zimbabwe)",
+         "url": "https://newsday.co.zw/article/un-calls-for-urgent-action-as-one-in-three-zimbabwean-girls-gets-married-before-18",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The call was made ahead of the International Day of the Girl on October 11, which will be commemorated under the theme “End Child Marriage and Invest in Girls’ Rights.” The post UN calls for urgent action as one in three Zimbabwean girls gets married before 18 appeared first on N"
+      }
+     ]
+    }
+   }
+  },
+  "zw-bu": {
+   "label": "Bulawayo",
+   "level": "admin1",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Mystery deepens over purported recall of Coltart, four CCC legislators",
+       "url": "https://newsday.co.zw/article/mystery-deepens-over-purported-recall-of-coltart-four-ccc-legislators",
+       "source": "NewsDay (Zimbabwe)",
+       "published": "2026-10-09T15:35:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NewsDay (Zimbabwe)",
+         "url": "https://newsday.co.zw/article/mystery-deepens-over-purported-recall-of-coltart-four-ccc-legislators",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In a statement, Tshabangu’s faction denied writing to Parliament and the Ministry of Local Government and Public Works notifying them of the purported recalls of Coltart, Senator Ivumile Kucaca Phulu, Bulawayo Central MP Surrender Kepoikilu, Mbizo MP Carban Madzivanyika and Epwor"
+      }
+     ]
+    }
+   }
+  },
+  "zw-city-bulawayo": {
+   "label": "Bulawayo",
+   "level": "city",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Mystery deepens over purported recall of Coltart, four CCC legislators",
+       "url": "https://newsday.co.zw/article/mystery-deepens-over-purported-recall-of-coltart-four-ccc-legislators",
+       "source": "NewsDay (Zimbabwe)",
+       "published": "2026-10-09T15:35:17.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "NewsDay (Zimbabwe)",
+         "url": "https://newsday.co.zw/article/mystery-deepens-over-purported-recall-of-coltart-four-ccc-legislators",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In a statement, Tshabangu’s faction denied writing to Parliament and the Ministry of Local Government and Public Works notifying them of the purported recalls of Coltart, Senator Ivumile Kucaca Phulu, Bulawayo Central MP Surrender Kepoikilu, Mbizo MP Carban Madzivanyika and Epwor"
       }
      ]
     }
@@ -6266,58 +6659,135 @@
     }
    }
   },
-  "er": {
-   "label": "Eritrea",
+  "et": {
+   "label": "Ethiopia",
    "level": "country",
    "sources": {
-    "international": {
+    "government": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Eritrea urges UN to intervene in standoff with Ethiopia",
-       "url": "https://www.aljazeera.com/news/2026/10/10/eritrea-urges-un-to-intervene-in-standoff-with?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-10T16:41:25.000Z",
+       "title": "Gov Otti accompanies Vice-President Shettima to Ethiopia",
+       "url": "https://www.premiumtimesng.com/promoted/916039-gov-otti-accompanies-vice-president-shettima-to-ethiopia.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-10T21:29:03.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/10/eritrea-urges-un-to-intervene-in-standoff-with?traffic_source=rss",
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/promoted/916039-gov-otti-accompanies-vice-president-shettima-to-ethiopia.html",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The neighbouring countries blame one another for starting war amid heightened tensions and fears of a wider conflict."
+       "blurb": "The trip was for the inaugural Nigeria-Ethiopia Nutrition Leadership Exchange Forum (also called the Pearl Exchange Forum) in Addis Ababa, which ran from 7 October to 9 October. The post Gov Otti accompanies Vice-President Shettima to Ethiopia appeared first on Premium Times Nige"
+      }
+     ]
+    },
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "What and whose ‘futures’?",
+       "url": "https://www.alliancemagazine.org/blog/what-and-whose-futures/",
+       "source": "Alliance magazine",
+       "published": "2026-10-08T12:59:10.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Alliance magazine",
+         "url": "https://www.alliancemagazine.org/blog/what-and-whose-futures/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In August I travelled to Addis Ababa for the US-Africa Futures Summit, organised by Humanity United, the Open Society Foundations and the Institute for Security Studies (ISS). It was my first time at this summit, … The post What and whose ‘futures’? appeared first on Alliance mag"
       }
      ]
     }
    }
   },
-  "et": {
-   "label": "Ethiopia",
-   "level": "country",
+  "et-aa-2": {
+   "label": "Addis Ababa",
+   "level": "admin1",
    "sources": {
-    "international": {
+    "government": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "Eritrea urges UN to intervene in standoff with Ethiopia",
-       "url": "https://www.aljazeera.com/news/2026/10/10/eritrea-urges-un-to-intervene-in-standoff-with?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-10T16:41:25.000Z",
+       "title": "Gov Otti accompanies Vice-President Shettima to Ethiopia",
+       "url": "https://www.premiumtimesng.com/promoted/916039-gov-otti-accompanies-vice-president-shettima-to-ethiopia.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-10T21:29:03.000Z",
        "verification": "unconfirmed",
        "outlets": [
         {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/10/eritrea-urges-un-to-intervene-in-standoff-with?traffic_source=rss",
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/promoted/916039-gov-otti-accompanies-vice-president-shettima-to-ethiopia.html",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "The neighbouring countries blame one another for starting war amid heightened tensions and fears of a wider conflict."
-      },
+       "blurb": "The trip was for the inaugural Nigeria-Ethiopia Nutrition Leadership Exchange Forum (also called the Pearl Exchange Forum) in Addis Ababa, which ran from 7 October to 9 October. The post Gov Otti accompanies Vice-President Shettima to Ethiopia appeared first on Premium Times Nige"
+      }
+     ]
+    },
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "What and whose ‘futures’?",
+       "url": "https://www.alliancemagazine.org/blog/what-and-whose-futures/",
+       "source": "Alliance magazine",
+       "published": "2026-10-08T12:59:10.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Alliance magazine",
+         "url": "https://www.alliancemagazine.org/blog/what-and-whose-futures/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "In August I travelled to Addis Ababa for the US-Africa Futures Summit, organised by Humanity United, the Open Society Foundations and the Institute for Security Studies (ISS). It was my first time at this summit, … The post What and whose ‘futures’? appeared first on Alliance mag"
+      }
+     ]
+    }
+   }
+  },
+  "et-city-addis-ababa": {
+   "label": "Addis Ababa",
+   "level": "city",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Gov Otti accompanies Vice-President Shettima to Ethiopia",
+       "url": "https://www.premiumtimesng.com/promoted/916039-gov-otti-accompanies-vice-president-shettima-to-ethiopia.html",
+       "source": "Premium Times (Nigeria)",
+       "published": "2026-10-10T21:29:03.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Premium Times (Nigeria)",
+         "url": "https://www.premiumtimesng.com/promoted/916039-gov-otti-accompanies-vice-president-shettima-to-ethiopia.html",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The trip was for the inaugural Nigeria-Ethiopia Nutrition Leadership Exchange Forum (also called the Pearl Exchange Forum) in Addis Ababa, which ran from 7 October to 9 October. The post Gov Otti accompanies Vice-President Shettima to Ethiopia appeared first on Premium Times Nige"
+      }
+     ]
+    },
+    "international": {
+     "brief": "missing",
+     "candidates": [
       {
        "title": "What and whose ‘futures’?",
        "url": "https://www.alliancemagazine.org/blog/what-and-whose-futures/",
@@ -6368,6 +6838,23 @@
     "international": {
      "brief": "missing",
      "candidates": [
+      {
+       "title": "Israeli attack destroys building in Gaza one year into ‘ceasefire’",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/israeli-attack-destroys-building-in-gaza-one-year-into?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-10T20:14:01.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/israeli-attack-destroys-building-in-gaza-one-year-into?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "An Israeli strike destroyed a residential building in the Al-Rimal neighbourhood in Gaza City."
+      },
       {
        "title": "India-U.S. trade pact to be finalised keeping changed circumstances in mind: Piyush Goyal",
        "url": "https://www.thehindu.com/business/india-us-trade-pact-to-be-finalised-keeping-changed-circumstances-in-mind-piyush-goyal/article71569239.ece",
@@ -6435,11 +6922,6 @@
          "primary": false
         },
         {
-         "name": "Inside Higher Ed",
-         "url": "https://www.insidehighered.com/news/quick-takes/2026/10/08/bold-inventive-professor-wins-nobel-prize-literature",
-         "primary": false
-        },
-        {
          "name": "Above the Law",
          "url": "https://abovethelaw.com/2026/10/nobel-prize-winner-roasts-trump-see-also/",
          "primary": false
@@ -6470,6 +6952,121 @@
        "stages": [],
        "via": null,
        "blurb": "CNN and CBS share parent company following Warner Bros. acquisition, while political connections and editorial safeguards draw scrutiny"
+      }
+     ]
+    }
+   }
+  },
+  "ps": {
+   "label": "Palestinian Territories",
+   "level": "country",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Palestinian President Mahmoud Abbas postpones elections to September 2027",
+       "url": "https://www.thenationalnews.com/news/mena/2026/10/10/palestinian-president-mahmoud-abbas-postpones-elections-to-september-2027/",
+       "source": "The National (UAE)",
+       "published": "2026-10-10T12:12:43.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The National (UAE)",
+         "url": "https://www.thenationalnews.com/news/mena/2026/10/10/palestinian-president-mahmoud-abbas-postpones-elections-to-september-2027/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Palestinian President Mahmoud Abbas issued a decree on Saturday cancelling the legislative elections scheduled for November this year and setting a new date, together with the presidential vote, for September 2027. The last election for the Palestinian Legislative Council was hel"
+      }
+     ]
+    },
+    "international": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Israeli attack destroys building in Gaza one year into ‘ceasefire’",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/israeli-attack-destroys-building-in-gaza-one-year-into?traffic_source=rss",
+       "source": "Al Jazeera",
+       "published": "2026-10-10T20:14:01.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Al Jazeera",
+         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/israeli-attack-destroys-building-in-gaza-one-year-into?traffic_source=rss",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "An Israeli strike destroyed a residential building in the Al-Rimal neighbourhood in Gaza City."
+      },
+      {
+       "title": "South African former UN human rights chief Navi Pillay wins Nobel Peace Prize",
+       "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
+       "source": "RFI English",
+       "published": "2026-10-09T11:25:14.000Z",
+       "verification": "confirmed",
+       "outlets": [
+        {
+         "name": "European Commission press corner",
+         "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2127",
+         "primary": true
+        },
+        {
+         "name": "RFI English",
+         "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
+         "primary": false
+        },
+        {
+         "name": "MercoPress",
+         "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+         "primary": false
+        },
+        {
+         "name": "Daily Maverick",
+         "url": "https://www.dailymaverick.co.za/article/2026-10-09-us-imposes-sanctions-on-icc-hours-after-former-judge-wins-nobel-peace-prize/",
+         "primary": false
+        },
+        {
+         "name": "Above the Law",
+         "url": "https://abovethelaw.com/2026/10/nobel-prize-winner-roasts-trump-see-also/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "The Nobel Peace Prize has been awarded to South Africa's Navanethem \"Navi\" Pillay, the judge who headed the Rwanda genocide tribunal and last year presided over a UN commission that accused Israel of genocide in Gaza."
+      }
+     ]
+    }
+   }
+  },
+  "zm": {
+   "label": "Zambia",
+   "level": "country",
+   "sources": {
+    "government": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "2026 Zambia General Election Autopsy Part 1",
+       "url": "https://www.lusakatimes.com/2026/10/10/2026-zambia-general-election-autopsy-part-1/",
+       "source": "Lusaka Times",
+       "published": "2026-10-10T18:47:18.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/10/2026-zambia-general-election-autopsy-part-1/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "By Dr. Field C. Ruwe PREAMBLE The just-ended general election demonstrates a significant departure from the 2021 election, when Hichilema’s landslide electoral victory was internationally lauded as a democratic advancement amid the rise of authoritarian governance in Africa. In c"
       }
      ]
     }
@@ -6575,86 +7172,6 @@
        "stages": [],
        "via": null,
        "blurb": "Telco-to-tech giant Globe Telecom Inc. lost its main cybersecurity leader, as he is stepping away not just from the company, but from the corporate sector."
-      }
-     ]
-    }
-   }
-  },
-  "ps": {
-   "label": "Palestinian Territories",
-   "level": "country",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Abbas postpones Palestinian legislative elections to September 2027",
-       "url": "https://www.aljazeera.com/news/2026/10/10/abbas-postpones-palestinian-legislative-elections-to-september-2027?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-10T14:18:09.000Z",
-       "verification": "multiple",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/news/2026/10/10/abbas-postpones-palestinian-legislative-elections-to-september-2027?traffic_source=rss",
-         "primary": false
-        },
-        {
-         "name": "The National (UAE)",
-         "url": "https://www.thenationalnews.com/news/mena/2026/10/10/palestinian-president-mahmoud-abbas-postpones-elections-to-september-2027/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "November 2026 vote delayed; joint presidential and legislative elections set for next year, president says in decree."
-      }
-     ]
-    },
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "South African former UN human rights chief Navi Pillay wins Nobel Peace Prize",
-       "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
-       "source": "RFI English",
-       "published": "2026-10-09T11:25:14.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "European Commission press corner",
-         "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2127",
-         "primary": true
-        },
-        {
-         "name": "RFI English",
-         "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
-         "primary": false
-        },
-        {
-         "name": "MercoPress",
-         "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "Daily Maverick",
-         "url": "https://www.dailymaverick.co.za/article/2026-10-09-us-imposes-sanctions-on-icc-hours-after-former-judge-wins-nobel-peace-prize/",
-         "primary": false
-        },
-        {
-         "name": "Inside Higher Ed",
-         "url": "https://www.insidehighered.com/news/quick-takes/2026/10/08/bold-inventive-professor-wins-nobel-prize-literature",
-         "primary": false
-        },
-        {
-         "name": "Above the Law",
-         "url": "https://abovethelaw.com/2026/10/nobel-prize-winner-roasts-trump-see-also/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Nobel Peace Prize has been awarded to South Africa's Navanethem \"Navi\" Pillay, the judge who headed the Rwanda genocide tribunal and last year presided over a UN commission that accused Israel of genocide in Gaza."
       }
      ]
     }
@@ -6901,6 +7418,34 @@
     }
    }
   },
+  "my": {
+   "label": "Malaysia",
+   "level": "country",
+   "sources": {
+    "corporate": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "BrilliA Expands Into Southeast Asian Specialty Retail With Acquisition Of Majority Interest In Malaysian Lingerie Brand Neubodi",
+       "url": "https://www.textileworld.com/textile-world/knitting-apparel/2026/10/brillia-expands-into-southeast-asian-specialty-retail-with-acquisition-of-majority-interest-in-malaysian-lingerie-brand-neubodi/",
+       "source": "Textile World",
+       "published": "2026-10-09T16:23:32.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Textile World",
+         "url": "https://www.textileworld.com/textile-world/knitting-apparel/2026/10/brillia-expands-into-southeast-asian-specialty-retail-with-acquisition-of-majority-interest-in-malaysian-lingerie-brand-neubodi/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "SINGAPORE — October 5, 2026 — BrilliA Incorporated, a one-stop service and solution provider for ladies’ intimate apparel brands worldwide, today announced that it has acquired a majority equity interest in Neubodi Holdings Sdn. Bhd. (“Neubodi”), an established Malaysian lingerie"
+      }
+     ]
+    }
+   }
+  },
   "ph-mm-4": {
    "label": "Manila",
    "level": "admin1",
@@ -7041,103 +7586,6 @@
     }
    }
   },
-  "za": {
-   "label": "South Africa",
-   "level": "country",
-   "sources": {
-    "government": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "LOCAL ELECTIONS 2026: High court orders ANC to reinstate Andile Lungisa after unlawful removal",
-       "url": "https://www.dailymaverick.co.za/article/2026-10-09-high-court-orders-anc-to-reinstate-andile-lungisa-after-unlawful-removal/",
-       "source": "Daily Maverick",
-       "published": "2026-10-09T14:45:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Daily Maverick",
-         "url": "https://www.dailymaverick.co.za/article/2026-10-09-high-court-orders-anc-to-reinstate-andile-lungisa-after-unlawful-removal/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "With elections less than a month away, the high court has ruled that the ANC’s removal of Andile Lungisa from its Nelson Mandela Bay candidate list is unlawful, ordering the party to reinstate his name and pay his legal costs."
-      }
-     ]
-    },
-    "regulation": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "LOCAL ELECTIONS 2026: High court orders ANC to reinstate Andile Lungisa after unlawful removal",
-       "url": "https://www.dailymaverick.co.za/article/2026-10-09-high-court-orders-anc-to-reinstate-andile-lungisa-after-unlawful-removal/",
-       "source": "Daily Maverick",
-       "published": "2026-10-09T14:45:05.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Daily Maverick",
-         "url": "https://www.dailymaverick.co.za/article/2026-10-09-high-court-orders-anc-to-reinstate-andile-lungisa-after-unlawful-removal/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "With elections less than a month away, the high court has ruled that the ANC’s removal of Andile Lungisa from its Nelson Mandela Bay candidate list is unlawful, ordering the party to reinstate his name and pay his legal costs."
-      }
-     ]
-    },
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "South African former UN human rights chief Navi Pillay wins Nobel Peace Prize",
-       "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
-       "source": "RFI English",
-       "published": "2026-10-09T11:25:14.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "European Commission press corner",
-         "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2127",
-         "primary": true
-        },
-        {
-         "name": "RFI English",
-         "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
-         "primary": false
-        },
-        {
-         "name": "MercoPress",
-         "url": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-         "primary": false
-        },
-        {
-         "name": "Daily Maverick",
-         "url": "https://www.dailymaverick.co.za/article/2026-10-09-us-imposes-sanctions-on-icc-hours-after-former-judge-wins-nobel-peace-prize/",
-         "primary": false
-        },
-        {
-         "name": "Inside Higher Ed",
-         "url": "https://www.insidehighered.com/news/quick-takes/2026/10/08/bold-inventive-professor-wins-nobel-prize-literature",
-         "primary": false
-        },
-        {
-         "name": "Above the Law",
-         "url": "https://abovethelaw.com/2026/10/nobel-prize-winner-roasts-trump-see-also/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "The Nobel Peace Prize has been awarded to South Africa's Navanethem \"Navi\" Pillay, the judge who headed the Rwanda genocide tribunal and last year presided over a UN commission that accused Israel of genocide in Gaza."
-      }
-     ]
-    }
-   }
-  },
   "lr": {
    "label": "Liberia",
    "level": "country",
@@ -7201,11 +7649,6 @@
          "primary": false
         },
         {
-         "name": "Inside Higher Ed",
-         "url": "https://www.insidehighered.com/news/quick-takes/2026/10/08/bold-inventive-professor-wins-nobel-prize-literature",
-         "primary": false
-        },
-        {
          "name": "Above the Law",
          "url": "https://abovethelaw.com/2026/10/nobel-prize-winner-roasts-trump-see-also/",
          "primary": false
@@ -7264,23 +7707,6 @@
        "stages": [],
        "via": null,
        "blurb": "Eneos says there are many existing competitors in the industry and relatively low barriers to entry."
-      },
-      {
-       "title": "Better disclosure is only half the equation – shareholders must now play their part",
-       "url": "https://www.straitstimes.com/business/better-disclosure-is-only-half-the-equation-shareholders-must-now-play-their-part",
-       "source": "The Straits Times Business",
-       "published": "2026-10-08T23:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Straits Times Business",
-         "url": "https://www.straitstimes.com/business/better-disclosure-is-only-half-the-equation-shareholders-must-now-play-their-part",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "SGX RegCo’s rule changes move Singapore closer to a disclosure-based regime."
       }
      ]
     }
@@ -7342,225 +7768,57 @@
     }
    }
   },
-  "et-aa-2": {
-   "label": "Addis Ababa",
+  "gb-we": {
+   "label": "Westminster",
    "level": "admin1",
    "sources": {
-    "international": {
+    "government": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "What and whose ‘futures’?",
-       "url": "https://www.alliancemagazine.org/blog/what-and-whose-futures/",
-       "source": "Alliance magazine",
-       "published": "2026-10-08T12:59:10.000Z",
-       "verification": "unconfirmed",
+       "title": "Why we’re stuck with a Premier League in the clutches of the global mega-rich | Jonathan Wilson",
+       "url": "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
+       "source": "The Guardian Business",
+       "published": "2026-10-10T19:00:05.000Z",
+       "verification": "analysis",
        "outlets": [
         {
-         "name": "Alliance magazine",
-         "url": "https://www.alliancemagazine.org/blog/what-and-whose-futures/",
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "In August I travelled to Addis Ababa for the US-Africa Futures Summit, organised by Humanity United, the Open Society Foundations and the Institute for Security Studies (ISS). It was my first time at this summit, … The post What and whose ‘futures’? appeared first on Alliance mag"
+       "blurb": "There’s little prospect of the model changing in a country that welcomes wealthy international owners with open arms Football, the world’s most popular sport, played by laws drawn up in London in 1863. The Premier League is the UK’s greatest soft power export. Premier League club"
       }
      ]
     }
    }
   },
-  "et-city-addis-ababa": {
-   "label": "Addis Ababa",
+  "gb-city-london": {
+   "label": "London",
    "level": "city",
    "sources": {
-    "international": {
+    "government": {
      "brief": "missing",
      "candidates": [
       {
-       "title": "What and whose ‘futures’?",
-       "url": "https://www.alliancemagazine.org/blog/what-and-whose-futures/",
-       "source": "Alliance magazine",
-       "published": "2026-10-08T12:59:10.000Z",
-       "verification": "unconfirmed",
+       "title": "Why we’re stuck with a Premier League in the clutches of the global mega-rich | Jonathan Wilson",
+       "url": "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
+       "source": "The Guardian Business",
+       "published": "2026-10-10T19:00:05.000Z",
+       "verification": "analysis",
        "outlets": [
         {
-         "name": "Alliance magazine",
-         "url": "https://www.alliancemagazine.org/blog/what-and-whose-futures/",
+         "name": "The Guardian Business",
+         "url": "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
          "primary": false
         }
        ],
        "stages": [],
        "via": null,
-       "blurb": "In August I travelled to Addis Ababa for the US-Africa Futures Summit, organised by Humanity United, the Open Society Foundations and the Institute for Security Studies (ISS). It was my first time at this summit, … The post What and whose ‘futures’? appeared first on Alliance mag"
-      }
-     ]
-    }
-   }
-  },
-  "ch": {
-   "label": "Switzerland",
-   "level": "country",
-   "sources": {
-    "regulation": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Basel Committee meets to advance supervisory and regulatory initiatives and discuss risks and vulnerabilities to the global banking system",
-       "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
-       "source": "Bank for International Settlements",
-       "published": "2026-10-01T00:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "Bank for International Settlements",
-         "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Exchanges experiences and views on developments in artificial intelligence for the global banking system and supervisors, modernisation efforts and implications for the Committee’s future work programme..."
-      }
-     ]
-    }
-   }
-  },
-  "ch-bs": {
-   "label": "Basel-Stadt",
-   "level": "admin1",
-   "sources": {
-    "regulation": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Basel Committee meets to advance supervisory and regulatory initiatives and discuss risks and vulnerabilities to the global banking system",
-       "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
-       "source": "Bank for International Settlements",
-       "published": "2026-10-01T00:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "Bank for International Settlements",
-         "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Exchanges experiences and views on developments in artificial intelligence for the global banking system and supervisors, modernisation efforts and implications for the Committee’s future work programme..."
-      }
-     ]
-    }
-   }
-  },
-  "ch-city-basel": {
-   "label": "Basel",
-   "level": "city",
-   "sources": {
-    "regulation": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Basel Committee meets to advance supervisory and regulatory initiatives and discuss risks and vulnerabilities to the global banking system",
-       "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
-       "source": "Bank for International Settlements",
-       "published": "2026-10-01T00:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "Bank for International Settlements",
-         "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Exchanges experiences and views on developments in artificial intelligence for the global banking system and supervisors, modernisation efforts and implications for the Committee’s future work programme..."
-      }
-     ]
-    }
-   }
-  },
-  "cm": {
-   "label": "Cameroon",
-   "level": "country",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Director-General cites concerns with pace of negotiations as chairs report on state of play",
-       "url": "https://www.wto.org/english/news_e/news26_e/tnc_01oct26_502_e.htm",
-       "source": "World Trade Organization",
-       "published": "2026-10-01T00:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "World Trade Organization",
-         "url": "https://www.wto.org/english/news_e/news26_e/tnc_01oct26_502_e.htm",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A meeting of the Trade Negotiations Committee (TNC) on 1 October provided WTO members with an opportunity to take stock of the WTO's negotiating agenda six months after the 14th Ministerial Conference (MC14) in Yaoundé and voice their views on how to advance their work. Members h"
-      }
-     ]
-    }
-   }
-  },
-  "cm-ce": {
-   "label": "Centre",
-   "level": "admin1",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Director-General cites concerns with pace of negotiations as chairs report on state of play",
-       "url": "https://www.wto.org/english/news_e/news26_e/tnc_01oct26_502_e.htm",
-       "source": "World Trade Organization",
-       "published": "2026-10-01T00:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "World Trade Organization",
-         "url": "https://www.wto.org/english/news_e/news26_e/tnc_01oct26_502_e.htm",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A meeting of the Trade Negotiations Committee (TNC) on 1 October provided WTO members with an opportunity to take stock of the WTO's negotiating agenda six months after the 14th Ministerial Conference (MC14) in Yaoundé and voice their views on how to advance their work. Members h"
-      }
-     ]
-    }
-   }
-  },
-  "cm-city-yaounde": {
-   "label": "Yaoundé",
-   "level": "city",
-   "sources": {
-    "international": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Director-General cites concerns with pace of negotiations as chairs report on state of play",
-       "url": "https://www.wto.org/english/news_e/news26_e/tnc_01oct26_502_e.htm",
-       "source": "World Trade Organization",
-       "published": "2026-10-01T00:00:00.000Z",
-       "verification": "confirmed",
-       "outlets": [
-        {
-         "name": "World Trade Organization",
-         "url": "https://www.wto.org/english/news_e/news26_e/tnc_01oct26_502_e.htm",
-         "primary": true
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "A meeting of the Trade Negotiations Committee (TNC) on 1 October provided WTO members with an opportunity to take stock of the WTO's negotiating agenda six months after the 14th Ministerial Conference (MC14) in Yaoundé and voice their views on how to advance their work. Members h"
+       "blurb": "There’s little prospect of the model changing in a country that welcomes wealthy international owners with open arms Football, the world’s most popular sport, played by laws drawn up in London in 1863. The Premier League is the UK’s greatest soft power export. Premier League club"
       }
      ]
     }

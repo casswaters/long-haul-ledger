@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T18:38:34.522Z",
+ "generatedAt": "2026-10-11T00:46:47.958Z",
  "sector": "materials",
  "maxAgeDays": 10,
  "places": {
@@ -10,23 +10,6 @@
     "crops": {
      "brief": "missing",
      "candidates": [
-      {
-       "title": "Jerusalem Daily: Israeli settlers attack olive farmers",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-10T14:39:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Israeli settlers steal olives and attack Palestinian farmers during this year’s harvest."
-      },
       {
        "title": "FAA cracks down on illegal drone spraying with record $290K fine",
        "url": "https://www.farmprogress.com/tv-and-radio/faa-cracks-down-on-illegal-drone-spraying-with-record-290k-fine",
@@ -62,6 +45,23 @@
        "blurb": "Black Sea wheat exports are plunging at the height of the traditional shipping season as escalating attacks on commercial vessels and port infrastructure leave both Russia and Ukraine struggling to get their harvests to international markets. Fresh vessel-tracking data compiled b"
       },
       {
+       "title": "Farm Hands on the Potomac: Joel Leftwich joins Idealyst Innovation, ​Robert Haus goes to Vylor, General Mills names Dana McNabb as CEO",
+       "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
+       "source": "Agri-Pulse",
+       "published": "2026-10-07T10:05:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Agri-Pulse",
+         "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Joel Leftwich will join Idealyst Innovation as executive vice president of policy innovation and director of the Center for American Food Power. Robert Haus has joined Vylor as state government and industry affairs leader. General Mills named Dana McNabb as CEO, effective Jan. 1,"
+      },
+      {
        "title": "DALI may soon sell local agricultural produce",
        "url": "https://www.philstar.com/business/2026/10/11/2562278/dali-may-soon-sell-local-agricultural-produce",
        "source": "Philstar Business",
@@ -94,23 +94,6 @@
        "stages": [],
        "via": null,
        "blurb": "Edgar Villanueva, a 55-year-old farmer from Kiblawan, Davao del Sur, strongly believed in traditional farming methods – practices honed through years of working the soil providing food for Filipinos."
-      },
-      {
-       "title": "Farm Hands on the Potomac: Joel Leftwich joins Idealyst Innovation, ​Robert Haus goes to Vylor, General Mills names Dana McNabb as CEO",
-       "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
-       "source": "Agri-Pulse",
-       "published": "2026-10-07T10:05:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Agri-Pulse",
-         "url": "https://www.agri-pulse.com/articles/25342-farm-hands-on-the-potomac-joel-leftwich-joins-idealyst-innovation-robert-haus-goes-to-vylor-general-mills-names-dana-mcnabb-as-ceo",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Joel Leftwich will join Idealyst Innovation as executive vice president of policy innovation and director of the Center for American Food Power. Robert Haus has joined Vylor as state government and industry affairs leader. General Mills named Dana McNabb as CEO, effective Jan. 1,"
       },
       {
        "title": "How a reluctant Iowa farming county undid a ban on battery storage",
@@ -842,23 +825,6 @@
        "blurb": "Saudi Arabia and the United Arab Emirates will support a Japanese initiative to bolster oil supplies in Southeast Asia after war-driven disruptions heightened concerns over energy security."
       },
       {
-       "title": "HyStock Completes Evaluation Drilling for Dutch Underground Hydrogen Storage Project",
-       "url": "https://fuelcellsworks.com/2026/10/06/h2/hystock-completes-evaluation-drilling-for-dutch-underground-hydrogen-storage-project",
-       "source": "FuelCellsWorks",
-       "published": "2026-10-09T15:18:34.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "FuelCellsWorks",
-         "url": "https://fuelcellsworks.com/2026/10/06/h2/hystock-completes-evaluation-drilling-for-dutch-underground-hydrogen-storage-project",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": ""
-      },
-      {
        "title": "U.S. natural gas production reached a record high in July 2026",
        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68225",
        "source": "EIA Today in Energy",
@@ -877,6 +843,23 @@
         "stage": "extraction"
        },
        "blurb": "U.S. natural gas production hit an all-time high in July 2026, driven primarily by increased output in the Permian Basin, according to our latest Natural Gas Monthly."
+      },
+      {
+       "title": "HyStock Completes Evaluation Drilling for Dutch Underground Hydrogen Storage Project",
+       "url": "https://fuelcellsworks.com/2026/10/06/h2/hystock-completes-evaluation-drilling-for-dutch-underground-hydrogen-storage-project",
+       "source": "FuelCellsWorks",
+       "published": "2026-10-09T15:18:34.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "FuelCellsWorks",
+         "url": "https://fuelcellsworks.com/2026/10/06/h2/hystock-completes-evaluation-drilling-for-dutch-underground-hydrogen-storage-project",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": ""
       },
       {
        "title": "US BLM sets December California oil, gas lease sale",
@@ -1110,23 +1093,6 @@
        "blurb": "Of Quebec’s many active and planned critical mineral operations, its graphite sector could be the first to establish a complete mine-to-battery-material supply chain in the province. Nouveau Monde Graphite (NYSE:... The post Infographic: Can Quebec build Canada’s first graphite s"
       },
       {
-       "title": "Mushitala Secondary School receives water system",
-       "url": "https://www.lusakatimes.com/2026/10/10/mushitala-secondary-school-receives-water-system/",
-       "source": "Lusaka Times",
-       "published": "2026-10-10T13:37:09.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Lusaka Times",
-         "url": "https://www.lusakatimes.com/2026/10/10/mushitala-secondary-school-receives-water-system/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Tauro Mining has handed over a water system to Mushitala Secondary School in Solwezi District of North-Western Province drilled at a cost of K242,440 to provide clean and safe water to 1,680 learners at the school. Tauro Mining Marketing and Business Development Manager, Marriam "
-      },
-      {
        "title": "Hot Chili drills shallow copper, gold in Chile",
        "url": "https://www.northernminer.com/news/hot-chili-drills-shallow-copper-gold-in-chile/1003895627/",
        "source": "The Northern Miner",
@@ -1176,6 +1142,23 @@
        "stages": [],
        "via": null,
        "blurb": "Argentina, Bolivia and Chile hold about 43% of the world’s identified lithium resources, but differences in brine chemistry and water availability complicate efforts to turn the Lithium Triangle’s geological wealth... The post Water, chemistry challenge Lithium Triangle growth ap"
+      },
+      {
+       "title": "Mushitala Secondary School receives water system",
+       "url": "https://www.lusakatimes.com/2026/10/10/mushitala-secondary-school-receives-water-system/",
+       "source": "Lusaka Times",
+       "published": "2026-10-10T13:37:09.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Lusaka Times",
+         "url": "https://www.lusakatimes.com/2026/10/10/mushitala-secondary-school-receives-water-system/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Tauro Mining has handed over a water system to Mushitala Secondary School in Solwezi District of North-Western Province drilled at a cost of K242,440 to provide clean and safe water to 1,680 learners at the school. Tauro Mining Marketing and Business Development Manager, Marriam "
       }
      ]
     }
@@ -2913,62 +2896,6 @@
     }
    }
   },
-  "au-vi": {
-   "label": "Victoria",
-   "level": "admin1",
-   "sources": {
-    "forestry": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Australia Has the Fibre to Close Its Housing Gap but Needs a Precinct to Do It",
-       "url": "https://woodcentral.com.au/prefabricated-timber-housing-australia/",
-       "source": "Wood Central",
-       "published": "2026-10-08T22:01:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Wood Central",
-         "url": "https://woodcentral.com.au/prefabricated-timber-housing-australia/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Prefabricated homes made from Green Triangle plantation timber could improve the way Australia delivers housing, with four more forestry, manufacturing, and construction leaders confirmed to explore that opportunity with investors in Melbourne next week. That is according to The "
-      }
-     ]
-    }
-   }
-  },
-  "au-city-melbourne": {
-   "label": "Melbourne",
-   "level": "city",
-   "sources": {
-    "forestry": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Australia Has the Fibre to Close Its Housing Gap but Needs a Precinct to Do It",
-       "url": "https://woodcentral.com.au/prefabricated-timber-housing-australia/",
-       "source": "Wood Central",
-       "published": "2026-10-08T22:01:49.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Wood Central",
-         "url": "https://woodcentral.com.au/prefabricated-timber-housing-australia/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Prefabricated homes made from Green Triangle plantation timber could improve the way Australia delivers housing, with four more forestry, manufacturing, and construction leaders confirmed to explore that opportunity with investors in Melbourne next week. That is according to The "
-      }
-     ]
-    }
-   }
-  },
   "cn": {
    "label": "China",
    "level": "country",
@@ -3189,23 +3116,6 @@
        "blurb": "Copper prices climbed Thursday as a strike by more than 700 workers at Antofagasta’s (LSE: ANTO) Centinela mine in Chile raised concerns about production disruptions that could become more serious... The post Copper price gains as Chile strike threatens output appeared first on T"
       },
       {
-       "title": "Water, chemistry challenge Lithium Triangle growth",
-       "url": "https://www.northernminer.com/news/water-chemistry-challenge-lithium-triangle-growth/1003895641/",
-       "source": "The Northern Miner",
-       "published": "2026-10-09T20:00:00.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "The Northern Miner",
-         "url": "https://www.northernminer.com/news/water-chemistry-challenge-lithium-triangle-growth/1003895641/",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Argentina, Bolivia and Chile hold about 43% of the world’s identified lithium resources, but differences in brine chemistry and water availability complicate efforts to turn the Lithium Triangle’s geological wealth... The post Water, chemistry challenge Lithium Triangle growth ap"
-      },
-      {
        "title": "Epiroc’s 47th autonomous drill in Chile plus upsides of RCS5.12",
        "url": "https://im-mining.com/2026/10/08/epirocs-47th-autonomous-drill-in-chile-plus-upsides-of-rcs5-12/",
        "source": "International Mining",
@@ -3221,6 +3131,23 @@
        "stages": [],
        "via": null,
        "blurb": "Automation continues to advance in surface mining in Chile. Last month, Epiroc delivered the 47th autonomous Pit Viper blasthole drill in the country, a new milestone that reflects the consolidation of this technology in large-scale mining operations. The company stated: “More th"
+      },
+      {
+       "title": "Water, chemistry challenge Lithium Triangle growth",
+       "url": "https://www.northernminer.com/news/water-chemistry-challenge-lithium-triangle-growth/1003895641/",
+       "source": "The Northern Miner",
+       "published": "2026-10-09T20:00:00.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "The Northern Miner",
+         "url": "https://www.northernminer.com/news/water-chemistry-challenge-lithium-triangle-growth/1003895641/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Argentina, Bolivia and Chile hold about 43% of the world’s identified lithium resources, but differences in brine chemistry and water availability complicate efforts to turn the Lithium Triangle’s geological wealth... The post Water, chemistry challenge Lithium Triangle growth ap"
       }
      ]
     }
@@ -3696,6 +3623,62 @@
     }
    }
   },
+  "au-vi": {
+   "label": "Victoria",
+   "level": "admin1",
+   "sources": {
+    "forestry": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Australia Has the Fibre to Close Its Housing Gap but Needs a Precinct to Do It",
+       "url": "https://woodcentral.com.au/prefabricated-timber-housing-australia/",
+       "source": "Wood Central",
+       "published": "2026-10-08T22:01:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/prefabricated-timber-housing-australia/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Prefabricated homes made from Green Triangle plantation timber could improve the way Australia delivers housing, with four more forestry, manufacturing, and construction leaders confirmed to explore that opportunity with investors in Melbourne next week. That is according to The "
+      }
+     ]
+    }
+   }
+  },
+  "au-city-melbourne": {
+   "label": "Melbourne",
+   "level": "city",
+   "sources": {
+    "forestry": {
+     "brief": "missing",
+     "candidates": [
+      {
+       "title": "Australia Has the Fibre to Close Its Housing Gap but Needs a Precinct to Do It",
+       "url": "https://woodcentral.com.au/prefabricated-timber-housing-australia/",
+       "source": "Wood Central",
+       "published": "2026-10-08T22:01:49.000Z",
+       "verification": "unconfirmed",
+       "outlets": [
+        {
+         "name": "Wood Central",
+         "url": "https://woodcentral.com.au/prefabricated-timber-housing-australia/",
+         "primary": false
+        }
+       ],
+       "stages": [],
+       "via": null,
+       "blurb": "Prefabricated homes made from Green Triangle plantation timber could improve the way Australia delivers housing, with four more forestry, manufacturing, and construction leaders confirmed to explore that opportunity with investors in Melbourne next week. That is according to The "
+      }
+     ]
+    }
+   }
+  },
   "fk": {
    "label": "Falkland Islands",
    "level": "country",
@@ -3885,118 +3868,6 @@
        "stages": [],
        "via": null,
        "blurb": "Edgar Villanueva, a 55-year-old farmer from Kiblawan, Davao del Sur, strongly believed in traditional farming methods – practices honed through years of working the soil providing food for Filipinos."
-      }
-     ]
-    }
-   }
-  },
-  "il": {
-   "label": "Israel",
-   "level": "country",
-   "sources": {
-    "crops": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Jerusalem Daily: Israeli settlers attack olive farmers",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-10T14:39:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Israeli settlers steal olives and attack Palestinian farmers during this year’s harvest."
-      }
-     ]
-    }
-   }
-  },
-  "ps": {
-   "label": "Palestinian Territories",
-   "level": "country",
-   "sources": {
-    "crops": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Jerusalem Daily: Israeli settlers attack olive farmers",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-10T14:39:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Israeli settlers steal olives and attack Palestinian farmers during this year’s harvest."
-      }
-     ]
-    }
-   }
-  },
-  "il-jm": {
-   "label": "Jerusalem",
-   "level": "admin1",
-   "sources": {
-    "crops": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Jerusalem Daily: Israeli settlers attack olive farmers",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-10T14:39:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Israeli settlers steal olives and attack Palestinian farmers during this year’s harvest."
-      }
-     ]
-    }
-   }
-  },
-  "il-city-jerusalem": {
-   "label": "Jerusalem",
-   "level": "city",
-   "sources": {
-    "crops": {
-     "brief": "missing",
-     "candidates": [
-      {
-       "title": "Jerusalem Daily: Israeli settlers attack olive farmers",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
-       "source": "Al Jazeera",
-       "published": "2026-10-10T14:39:53.000Z",
-       "verification": "unconfirmed",
-       "outlets": [
-        {
-         "name": "Al Jazeera",
-         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
-         "primary": false
-        }
-       ],
-       "stages": [],
-       "via": null,
-       "blurb": "Israeli settlers steal olives and attack Palestinian farmers during this year’s harvest."
       }
      ]
     }
